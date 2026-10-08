@@ -1,0 +1,51 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+/**
+ * Module: Dance
+ * Filename: ca__Dance.css
+ */
+.ca__fx-danceTop {
+  animation-name: danceTop;
+  transform-origin: top;
+}
+
+@keyframes danceTop {
+  16% {
+    transform: skew(-14deg);
+  }
+
+  33% {
+    transform: skew(12deg);
+  }
+
+  49% {
+    transform: skew(-8deg);
+  }
+
+  66% {
+    transform: skew(6deg);
+  }
+
+  83% {
+    transform: skew(-4deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

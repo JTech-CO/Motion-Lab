@@ -1,0 +1,429 @@
+{
+  "verifiedAt": "2026-10-09",
+  "generatedAt": "2026-10-08T18:04:17.315157+00:00",
+  "items": 644,
+  "categories": {
+    "background": 145,
+    "animation": 496,
+    "interaction": 3
+  },
+  "licenses": {
+    "MIT": 145,
+    "Apache-2.0 + attribution": 499
+  },
+  "candidateItems": 646,
+  "duplicates": [
+    {
+      "id": "ml-cssanimation-mask-wipeoutbottom",
+      "retainedId": "ml-cssanimation-mask-wipeinbottom",
+      "identitySha256": "36c57d50cc4606a9a55cbd6684b0ea7fbcf3901d35ceea9dda8a296dd7403b90",
+      "reason": "same ID or source CSS after renaming class/keyframe identifiers"
+    },
+    {
+      "id": "ml-cssanimation-orbitrevealfromtopright",
+      "retainedId": "ml-cssanimation-orbitrevealtop",
+      "identitySha256": "dc2d45fda0e0a96b9bd9c1a6d8aa9bb7c2439bbbf19778c2250656a681fcff6e",
+      "reason": "same ID or source CSS after renaming class/keyframe identifiers"
+    }
+  ],
+  "skipped": [
+    {
+      "name": "blurOut",
+      "file": "dist/animations/ca__blurInBottom.css",
+      "reason": "no referenced keyframe in actual animation or animation-name declaration"
+    },
+    {
+      "name": "bounceX",
+      "file": "dist/animations/ca__blurOutBottom.css",
+      "reason": "no referenced keyframe in actual animation or animation-name declaration"
+    },
+    {
+      "name": "horizontalShake",
+      "file": "dist/animations/ca__digitalReveal.css",
+      "reason": "no referenced keyframe in actual animation or animation-name declaration"
+    },
+    {
+      "name": "swing",
+      "file": "dist/animations/ca__flicker.css",
+      "reason": "no referenced keyframe in actual animation or animation-name declaration"
+    },
+    {
+      "name": "moonEclipseIn",
+      "file": "dist/animations/ca__mask-stripesJitterOut.css",
+      "reason": "no referenced keyframe in actual animation or animation-name declaration"
+    },
+    {
+      "name": "blurTrailIn",
+      "file": "dist/animations/ca__rainbow.css",
+      "reason": "no referenced keyframe in actual animation or animation-name declaration"
+    },
+    {
+      "name": "danceTop",
+      "file": "dist/animations/ca__wave-morph.css",
+      "reason": "no referenced keyframe in actual animation or animation-name declaration"
+    }
+  ],
+  "sourceDocuments": [
+    {
+      "path": "dist/cssanimation.css",
+      "candidateItems": 501,
+      "rejectedClasses": 0,
+      "reason": null
+    },
+    {
+      "path": "dist/animations/ca__blurInBottom.css",
+      "candidateItems": 0,
+      "rejectedClasses": 1,
+      "reason": null
+    },
+    {
+      "path": "dist/animations/ca__blurInLeft.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__blurInRight.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__blurInTop.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__blurOutBottom.css",
+      "candidateItems": 0,
+      "rejectedClasses": 1,
+      "reason": null
+    },
+    {
+      "path": "dist/animations/ca__blurOutLeft.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__blurOutRight.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__blurOutTop.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__digitalReveal.css",
+      "candidateItems": 0,
+      "rejectedClasses": 1,
+      "reason": null
+    },
+    {
+      "path": "dist/animations/ca__flicker.css",
+      "candidateItems": 0,
+      "rejectedClasses": 1,
+      "reason": null
+    },
+    {
+      "path": "dist/animations/ca__flickerIn.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__glintSweep.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__initiateSequence.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__mask-checkerboardIn.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__mask-diamondIn.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__mask-horizontalBarsIn.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__mask-linesSlideIn.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__mask-rainRevealIn.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__mask-stairStepIn.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesDiagonalLeftIn.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesDiagonalLeftOut.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesDiagonalUpIn.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesDiagonalUpOut.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesHorizontalReverseIn.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesHorizontalReverseOut.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesIn.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesJitterIn.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesJitterOut.css",
+      "candidateItems": 0,
+      "rejectedClasses": 1,
+      "reason": null
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesThinIn.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesThinOut.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesVerticalIn.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesVerticalOut.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesWideOut.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__mask-threadLinesIn.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__mask-zigzagRevealIn.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__morph.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__rainbow.css",
+      "candidateItems": 0,
+      "rejectedClasses": 1,
+      "reason": null
+    },
+    {
+      "path": "dist/animations/ca__scanlineReveal.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__springy.css",
+      "candidateItems": 0,
+      "rejectedClasses": 0,
+      "reason": "no ca__fx class declaration in this standalone artifact"
+    },
+    {
+      "path": "dist/animations/ca__wave-morph.css",
+      "candidateItems": 0,
+      "rejectedClasses": 1,
+      "reason": null
+    }
+  ],
+  "cssProperties": [
+    "--_c",
+    "--_f",
+    "--_g",
+    "--_g0",
+    "--_g1",
+    "--_g2",
+    "--_g3",
+    "--_l",
+    "--_l1",
+    "--_l2",
+    "--_p",
+    "--_r",
+    "--_r0",
+    "--_r1",
+    "--_s",
+    "--_t",
+    "--a",
+    "--b",
+    "--c",
+    "--c1",
+    "--c2",
+    "--c3",
+    "--c4",
+    "--d",
+    "--f",
+    "--g",
+    "--g0",
+    "--g1",
+    "--g2",
+    "--g3",
+    "--g4",
+    "--g5",
+    "--l",
+    "--l1",
+    "--l2",
+    "--p",
+    "--r",
+    "--s",
+    "--t",
+    "-webkit-background-clip",
+    "-webkit-mask-image",
+    "-webkit-mask-position",
+    "-webkit-mask-repeat",
+    "-webkit-mask-size",
+    "-webkit-text-fill-color",
+    "animation",
+    "animation-direction",
+    "animation-duration",
+    "animation-fill-mode",
+    "animation-iteration-count",
+    "animation-name",
+    "animation-timing-function",
+    "backface-visibility",
+    "background",
+    "background-blend-mode",
+    "background-clip",
+    "background-position",
+    "background-size",
+    "border-radius",
+    "box-shadow",
+    "clip-path",
+    "color",
+    "content",
+    "display",
+    "filter",
+    "font-size",
+    "height",
+    "left",
+    "letter-spacing",
+    "mask-image",
+    "mask-position",
+    "mask-repeat",
+    "mask-size",
+    "opacity",
+    "overflow",
+    "perspective",
+    "perspective-origin",
+    "position",
+    "scale",
+    "text-shadow",
+    "top",
+    "transform",
+    "transform-origin",
+    "transform-style",
+    "transition",
+    "white-space",
+    "width",
+    "will-change"
+  ],
+  "externalResourceItems": [],
+  "validation": {
+    "schema": 644,
+    "balancedCSS": 644,
+    "uniqueIds": 644,
+    "distinctIdentitySha256": 644,
+    "sourceSnippetHashes": 644,
+    "originalBlocksRetained": 644,
+    "fullLicenseNoticesRetained": 644,
+    "licensesVerified": true
+  },
+  "sources": [
+    {
+      "repository": "Afif13/CSS-Pattern",
+      "commit": "66681684c1ca514328043b8ebd1407fe65830cc7",
+      "license": "MIT",
+      "name": "CSS Pattern / Temani Afif"
+    },
+    {
+      "repository": "yesiamrocks/cssanimation",
+      "commit": "3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d",
+      "license": "Apache-2.0 + attribution",
+      "name": "CSS Animation / Shafayetul Islam Pavel"
+    }
+  ]
+}

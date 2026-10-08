@@ -1,0 +1,50 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-flubberBounce {
+  animation: flubberBounce var(--duration, 1s) ease-in-out both;
+}
+
+@keyframes flubberBounce {
+  0% {
+    transform: scale(1, 1);
+  }
+
+  20% {
+    transform: scale(1.2, 0.8);
+  }
+
+  40% {
+    transform: scale(0.8, 1.2);
+  }
+
+  60% {
+    transform: scale(1.1, 0.9);
+  }
+
+  80% {
+    transform: scale(0.95, 1.05);
+  }
+
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

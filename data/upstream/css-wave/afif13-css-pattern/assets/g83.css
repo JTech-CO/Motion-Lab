@@ -1,0 +1,19 @@
+#g83 {
+  --s: 29px; /* control the size */
+  --b: 3; /* control the thickness*/
+  
+  --g:#0000 calc(100% - var(--s)/var(--b) - 1px),#615375 /* 1st color*/ 
+      calc(100% - var(--s)/var(--b)) calc(100% - 1px),#0000;
+  --r:calc(2.414*var(--s));
+  --p:calc(1.414*var(--s));
+  background:
+    radial-gradient(var(--r) at 0    0   ,var(--g)) var(--r) var(--r),
+    radial-gradient(var(--s) at 0    0   ,var(--g)) var(--p) var(--p),
+    radial-gradient(var(--r) at 0    100%,var(--g)) 0 var(--p),
+    radial-gradient(var(--s) at 0    100%,var(--g)) calc(-1*var(--s)) var(--r),
+    radial-gradient(var(--r) at 100% 0   ,var(--g)) var(--p) 0,
+    radial-gradient(var(--s) at 100% 0   ,var(--g)) var(--r) calc(-1*var(--s)),
+    radial-gradient(var(--r) at 100% 100%,var(--g)) calc(-1*var(--s)) calc(-1*var(--s)),
+    radial-gradient(var(--s) at 100% 100%,var(--g)) #8EB2C5 /* 2nd color */;  
+  background-size: calc(2*var(--r)) calc(2*var(--r));
+}

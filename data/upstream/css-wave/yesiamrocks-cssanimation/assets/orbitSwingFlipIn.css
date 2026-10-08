@@ -1,0 +1,37 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-orbitSwingFlipIn {
+  animation: orbitSwingFlipIn 1.3s ease-out forwards;
+  transform-style: preserve-3d;
+}
+
+@keyframes orbitSwingFlipIn {
+  0% {
+    transform: rotateY(-120deg) translateX(-200px) scale(0.8);
+    opacity: 0;
+  }
+
+  100% {
+    transform: rotateY(0deg) translateX(0) scale(1);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

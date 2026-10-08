@@ -1,0 +1,43 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-dropSpinIn {
+  animation-name: dropSpinIn;
+  animation-timing-function: ease-out;
+  transform-origin: top center;
+  will-change: transform, opacity;
+}
+
+@keyframes dropSpinIn {
+  0% {
+    transform: rotateZ(-180deg) translateY(-200%);
+    opacity: 0;
+  }
+
+  60% {
+    transform: rotateZ(20deg) translateY(10%);
+    opacity: 1;
+  }
+
+  100% {
+    transform: rotateZ(0deg) translateY(0%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

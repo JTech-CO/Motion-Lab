@@ -1,0 +1,8 @@
+#g52 { 
+  --_g: #036564 35%, #0000 36%;
+  background: 
+	  radial-gradient(at 100% 100%, var(--_g)),
+	  radial-gradient(at 0    0   , var(--_g))
+    #E8DDCB;
+  background-size: 4em 4em;
+}

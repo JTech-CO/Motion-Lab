@@ -1,0 +1,44 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-maskStairStepIn {
+  animation-name: mask-stairStepIn;
+  -webkit-mask-image: repeating-linear-gradient(45deg, transparent 0,transparent 15%, black 15%, black 30%);
+  mask-image: repeating-linear-gradient(45deg, transparent 0,transparent 15%, black 15%, black 30%);
+  -webkit-mask-image: repeating-linear-gradient(45deg, transparent 0 15%, black 15% 30%);
+  mask-image: repeating-linear-gradient(45deg, transparent 0 15%, black 15% 30%);
+  -webkit-mask-size: 300% 300%;
+  mask-size: 300% 300%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+@keyframes mask-stairStepIn {
+  0% {
+    -webkit-mask-position: -150% 150%;
+    mask-position: -150% 150%;
+  }
+
+  100% {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

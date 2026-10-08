@@ -1,0 +1,47 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-tremor {
+  animation: tremor var(--tremor-duration, 0.6s) ease-in-out both;
+}
+
+@keyframes tremor {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  20% {
+    transform: translate(var(--tremor-intensity, 4px), var(--tremor-intensity, 4px));
+  }
+
+  40% {
+    transform: translate(calc(var(--tremor-intensity, 4px) * -1), var(--tremor-intensity, 4px));
+  }
+
+  60% {
+    transform: translate(var(--tremor-intensity, 4px), calc(var(--tremor-intensity, 4px) * -1));
+  }
+
+  80% {
+    transform: translate(calc(var(--tremor-intensity, 4px) * -1), calc(var(--tremor-intensity, 4px) * -1));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

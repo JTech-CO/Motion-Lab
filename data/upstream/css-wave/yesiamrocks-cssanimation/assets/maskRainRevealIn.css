@@ -1,0 +1,44 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-maskRainRevealIn {
+  animation-name: mask-rainRevealIn;
+  -webkit-mask-image: repeating-linear-gradient(to bottom, black 0,black 1px, transparent 1px, transparent 5px);
+  mask-image: repeating-linear-gradient(to bottom, black 0,black 1px, transparent 1px, transparent 5px);
+  -webkit-mask-image: repeating-linear-gradient(to bottom, black 0 1px, transparent 1px 5px);
+  mask-image: repeating-linear-gradient(to bottom, black 0 1px, transparent 1px 5px);
+  -webkit-mask-size: 100% 300%;
+  mask-size: 100% 300%;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+@keyframes mask-rainRevealIn {
+  0% {
+    -webkit-mask-position: 0 -100%;
+    mask-position: 0 -100%;
+  }
+
+  100% {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

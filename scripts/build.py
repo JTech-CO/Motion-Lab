@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from motionlab.validation import CATEGORIES, KINDS, ValidationError, validate_id  # noqa: E402
 from scripts.analyze import analyze_items, analysis_stats, analysis_terms  # noqa: E402
+from scripts.expansion import merge_expansion  # noqa: E402
 
 
 def read_json(path, default):
@@ -231,12 +232,20 @@ def build(root=ROOT):
     glsl = read_json(data / "glsl-items.json", [])
     jtech = read_json(data / "jtech-items.json", [])
     expanded = read_json(data / "expanded-assets.json", [])
+    wave_names = ("css-wave-items.json", "vector-wave-items.json", "color-wave-items.json")
+    waves = [(name, read_json(data / name, [])) for name in wave_names]
     report = read_json(data / "crawl-report.json", {})
     glsl_report = read_json(data / "glsl-report.json", {})
-    if not all(isinstance(value, list) for value in (imported, researched, manual, glsl, jtech, expanded)) or not all(isinstance(value, dict) for value in (report, glsl_report)):
+    if not all(isinstance(value, list) for value in (imported, researched, manual, glsl, jtech, expanded, *(entries for _, entries in waves))) or not all(isinstance(value, dict) for value in (report, glsl_report)):
         raise ValueError("Item inputs must be arrays; crawl-report must be an object")
     # Inputs are authoritative; generated catalog output never preserves removed entries.
-    items = analyze_items(deduplicate_items(imported + researched + manual + glsl + jtech + expanded))
+    baseline = deduplicate_items(imported + researched + manual + glsl + jtech + expanded)
+    additions, expansion_report = merge_expansion(baseline, waves, validate_item)
+    # Distinct classes in a bundled source file can share a human-readable title.
+    # Expansion identity is the stored body, never the bundle URL + title.
+    items = analyze_items(baseline + additions)
+    expansion_report["total"] = len(items)
+    write_json(data / "expansion-report.json", expansion_report)
     registry = []
     for entry in items:
         url = project_url(entry["sourceUrl"])

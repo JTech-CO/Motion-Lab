@@ -1,0 +1,42 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-moonPhaseReveal {
+  animation: moonPhaseReveal 1.6s ease-out both;
+  clip-path: circle(0% at 50% 50%);
+  will-change: transform, opacity;
+}
+
+@keyframes moonPhaseReveal {
+  0% {
+    clip-path: circle(0% at 50% 50%);
+    opacity: 0;
+    transform: scale(0.9);
+    filter: brightness(0.2) blur(8px);
+  }
+
+  100% {
+    clip-path: circle(100% at 50% 50%);
+    opacity: 1;
+    transform: scale(1);
+    filter: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

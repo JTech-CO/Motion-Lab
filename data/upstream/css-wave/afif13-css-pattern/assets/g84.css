@@ -1,0 +1,18 @@
+#g84 {
+  --s: 29px; /* control the size */
+  
+  --c:#FFE545 /* 1st color*/ calc(100% - 2px),#0000;
+  --r:calc(2.414*var(--s));
+  --p:calc(1.414*var(--s));
+  --g:radial-gradient(var(--s),var(--c));
+  background:
+    radial-gradient(var(--r) at 0    0   ,var(--c)),
+    radial-gradient(var(--r) at 0    100%,var(--c)),
+    radial-gradient(var(--r) at 100% 0   ,var(--c)),
+    radial-gradient(var(--r) at 100% 100%,var(--c)),
+    var(--g),var(--g),var(--g),var(--g) #C2A34F /* 2nd color */;
+  background-position: 
+    var(--r) var(--r),0 var(--p),var(--p) 0,
+    calc(-1*var(--s)) calc(-1*var(--s));
+  background-size: calc(2*var(--r)) calc(2*var(--r));
+}

@@ -1,0 +1,45 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-swingOut {
+  animation-name: swingOut;
+  animation-timing-function: ease-in;
+  transform-origin: top center;
+}
+
+@keyframes swingOut {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  30% {
+    transform: rotate(10deg);
+  }
+
+  60% {
+    transform: rotate(-30deg);
+  }
+
+  100% {
+    transform: rotate(-55deg);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

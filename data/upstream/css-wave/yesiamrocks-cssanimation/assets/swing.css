@@ -1,0 +1,62 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+/**
+ * Module: Swing
+ * Filename: ca_Swing.css
+ */
+.ca__fx-swing {
+  animation-name: swing;
+  animation-timing-function: ease-in-out;
+  transform-origin: top center;
+}
+
+/**
+ * Module: Swing In
+ * Filename: ca__SwingIn.css
+ */
+.ca__fx-swing {
+  transform-origin: top center;
+  animation: swing var(--swing-duration, 1s) ease-in-out infinite;
+}
+
+@keyframes swing {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+
+  20% {
+    transform: rotate(15deg);
+  }
+
+  40% {
+    transform: rotate(-10deg);
+  }
+
+  60% {
+    transform: rotate(5deg);
+  }
+
+  80% {
+    transform: rotate(-5deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

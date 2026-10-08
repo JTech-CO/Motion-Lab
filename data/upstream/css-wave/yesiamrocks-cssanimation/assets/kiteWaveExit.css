@@ -1,0 +1,48 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-kiteWaveExit {
+  animation-name: kiteWaveExit;
+  transform-origin: bottom left;
+  animation-timing-function: ease-in;
+  will-change: transform, opacity;
+}
+
+@keyframes kiteWaveExit {
+  0% {
+    transform: translate(0%, 0%) rotate(0deg);
+    opacity: 1;
+  }
+
+  30% {
+    transform: translate(-10%, -10%) rotate(-10deg);
+  }
+
+  70% {
+    transform: translate(20%, -80%) rotate(25deg);
+    opacity: 0.5;
+  }
+
+  100% {
+    transform: translate(50%, -120%) rotate(40deg);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

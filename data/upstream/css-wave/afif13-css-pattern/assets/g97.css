@@ -1,0 +1,15 @@
+#g97 {
+  --s: 6px; /* control the size */
+  
+  --g:#0000 66%,#3B2D38 68% 98%,#0000;
+  background:
+    radial-gradient(30% 30% at 0%   30%,var(--g))
+     var(--s) calc(9*var(--s)),
+    radial-gradient(30% 30% at 100% 30%,var(--g))
+     var(--s) calc(-1*var(--s)),
+    radial-gradient(30% 30% at 30% 100%,var(--g))
+     calc(10*var(--s)) 0,
+    radial-gradient(30% 30% at 30% 0%  ,var(--g))
+     #F02475;
+  background-size: calc(20*var(--s)) calc(20*var(--s));
+}

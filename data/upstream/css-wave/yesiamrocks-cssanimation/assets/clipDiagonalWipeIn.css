@@ -1,0 +1,36 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-clipDiagonalWipeIn {
+  animation-name: clipDiagonalWipeIn;
+}
+
+@keyframes clipDiagonalWipeIn {
+  0% {
+    clip-path: polygon(0 0, 0 0, 0 0, 0 0);
+    opacity: 0;
+  }
+
+  100% {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

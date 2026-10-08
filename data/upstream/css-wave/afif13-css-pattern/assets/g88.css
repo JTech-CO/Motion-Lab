@@ -1,0 +1,13 @@
+#g88 {
+  --s: 160px; /* control the size */
+  --c1: #AACCB1;
+  --c2: #D3E2B6;
+  
+  background:
+    conic-gradient(at 25% 25%,#0000 75%,var(--c1) 0)
+     0 calc(3*var(--s)/4),
+    conic-gradient(#0000 75%,var(--c2) 0) 
+     calc(var(--s)/-8) calc(5*var(--s)/8),
+    conic-gradient(at 25% 75%,var(--c1) 25%,var(--c2) 0);
+  background-size: var(--s) var(--s);
+}

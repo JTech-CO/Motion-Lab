@@ -1,0 +1,12 @@
+#g114 {
+  --s: 150px; /* control the size */
+  --c:#633D2E;
+  
+  --l:var(--c) 20%,#0000 0;
+  --g:35%,#F7AF63 0 45%,var(--c) 0;
+  background:
+    linear-gradient(45deg,var(--l) 45%,var(--c) 0 70%,#0000 0),
+    linear-gradient(-45deg,var(--l) var(--g) 70%,#0000 0),
+    linear-gradient(45deg,var(--c) var(--g));
+  background-size: var(--s) var(--s);
+}

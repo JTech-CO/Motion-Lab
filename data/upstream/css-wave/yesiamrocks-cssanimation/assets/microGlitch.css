@@ -1,0 +1,54 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+/**
+ * Module: Glitch
+ * Filename: ca__Glitch.css
+ */
+.ca__fx-microGlitch {
+  animation-name: microGlitch;
+  animation-timing-function: steps(1);
+  will-change: transform, opacity;
+}
+
+@keyframes microGlitch {
+  0%,
+  100% {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+
+  20% {
+    transform: translate(-2px, 1px);
+  }
+
+  40% {
+    transform: translate(3px, -1px);
+  }
+
+  60% {
+    transform: translate(-1px, 2px);
+  }
+
+  80% {
+    transform: translate(1px, -2px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

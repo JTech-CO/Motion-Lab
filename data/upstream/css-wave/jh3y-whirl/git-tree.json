@@ -1,0 +1,1184 @@
+{
+  "sha": "a43ebd524ca890e87d651e2530c5596ab1f0a563",
+  "url": "https://api.github.com/repos/jh3y/whirl/git/trees/a43ebd524ca890e87d651e2530c5596ab1f0a563",
+  "tree": [
+    {
+      "path": ".babelrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d104af24bb9e0a95470ff75f97d58f4cf5c9a9ef",
+      "size": 130,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/d104af24bb9e0a95470ff75f97d58f4cf5c9a9ef"
+    },
+    {
+      "path": ".browserslistrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bd43a7a71690b355fb7616b29cc6542bd6b651a",
+      "size": 15,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/6bd43a7a71690b355fb7616b29cc6542bd6b651a"
+    },
+    {
+      "path": ".eslintrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddc0ba2ef46c3a5ea3d794eec21a459c6df43b2f",
+      "size": 579,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/ddc0ba2ef46c3a5ea3d794eec21a459c6df43b2f"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "59986c86e976d448e832d22c7da9f0a29f5cc8b6",
+      "url": "https://api.github.com/repos/jh3y/whirl/git/trees/59986c86e976d448e832d22c7da9f0a29f5cc8b6"
+    },
+    {
+      "path": ".github/CONTRIBUTING.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b625fcc02250c001f73f979f8a2505669bfc3bba",
+      "size": 2378,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/b625fcc02250c001f73f979f8a2505669bfc3bba"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fec68980a7f9a6e2c91b3e40b85b40c410ffb0dc",
+      "url": "https://api.github.com/repos/jh3y/whirl/git/trees/fec68980a7f9a6e2c91b3e40b85b40c410ffb0dc"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fe046ca8b5db49bc56c298b6c9b2c97e31dcfba",
+      "size": 844,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/8fe046ca8b5db49bc56c298b6c9b2c97e31dcfba"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bbcbbe7d61558adde3cbfd0c7a63a67c27ed6d30",
+      "size": 595,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/bbcbbe7d61558adde3cbfd0c7a63a67c27ed6d30"
+    },
+    {
+      "path": ".github/PULL_REQUEST_TEMPLATE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b990d5e3e7493d2140046d8fa1d3126d807fa6f6",
+      "size": 431,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/b990d5e3e7493d2140046d8fa1d3126d807fa6f6"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66a62f1e165eb0459c0ee21097c69fc6000df396",
+      "size": 362,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/66a62f1e165eb0459c0ee21097c69fc6000df396"
+    },
+    {
+      "path": ".npmignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8af56b9c0f1f605e62e71cd2b01d0ac5ff710568",
+      "size": 179,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/8af56b9c0f1f605e62e71cd2b01d0ac5ff710568"
+    },
+    {
+      "path": ".postcssrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d420a7cd11ef628d8bd28f5649ba96e420826bdb",
+      "size": 65,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/d420a7cd11ef628d8bd28f5649ba96e420826bdb"
+    },
+    {
+      "path": ".prettierrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68931216d4246fa36df74168a6e82fc747697cfa",
+      "size": 138,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/68931216d4246fa36df74168a6e82fc747697cfa"
+    },
+    {
+      "path": ".stylelintrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e48c78c48e9be31daa65466a076cb795d35e1bce",
+      "size": 136,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/e48c78c48e9be31daa65466a076cb795d35e1bce"
+    },
+    {
+      "path": ".travis.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12ac5678effa5eb908d764daf6368d408da7b65b",
+      "size": 250,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/12ac5678effa5eb908d764daf6368d408da7b65b"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cc542320b1c7bb842196c7332b3741ff51f6c99",
+      "size": 1086,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/5cc542320b1c7bb842196c7332b3741ff51f6c99"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3a99d6e0e5a26887649fa32286bf41a5626058c",
+      "size": 1643,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/f3a99d6e0e5a26887649fa32286bf41a5626058c"
+    },
+    {
+      "path": "netlify.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f99fdbd3e92538ffb58ea101e90af91d4ab4721",
+      "size": 438,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/0f99fdbd3e92538ffb58ea101e90af91d4ab4721"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58e7d4f125f8401f6e086f056663592c9950d424",
+      "size": 730356,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/58e7d4f125f8401f6e086f056663592c9950d424"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f29724f04e4a729a2c71c95c3941daf7e0cb34e5",
+      "size": 1768,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/f29724f04e4a729a2c71c95c3941daf7e0cb34e5"
+    },
+    {
+      "path": "public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "04f676a1d9b52af10dfd3fd35a261f26e4d0d1a0",
+      "url": "https://api.github.com/repos/jh3y/whirl/git/trees/04f676a1d9b52af10dfd3fd35a261f26e4d0d1a0"
+    },
+    {
+      "path": "public/favicon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ec78bed93ea70177149fa321356ef3d8056b6d9",
+      "size": 2198,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/0ec78bed93ea70177149fa321356ef3d8056b6d9"
+    },
+    {
+      "path": "public/index.html",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "017dda4e17ad889c0428547d8661aaf2489964ee",
+      "size": 3441,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/017dda4e17ad889c0428547d8661aaf2489964ee"
+    },
+    {
+      "path": "public/manifest.json",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "1d93f75ab24a26a45dd087c77c4ff0ce8b64018e",
+      "size": 284,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/1d93f75ab24a26a45dd087c77c4ff0ce8b64018e"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b303a917e1dd30fce2bb1e532791ad74c74b689",
+      "url": "https://api.github.com/repos/jh3y/whirl/git/trees/8b303a917e1dd30fce2bb1e532791ad74c74b689"
+    },
+    {
+      "path": "src/App.js",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "f4da435d8fc695a2926bd3150ea40421ce7856b3",
+      "size": 3846,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/f4da435d8fc695a2926bd3150ea40421ce7856b3"
+    },
+    {
+      "path": "src/index.js",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "723ae4b3a73084946b69a85dad4049d9c878139c",
+      "size": 445,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/723ae4b3a73084946b69a85dad4049d9c878139c"
+    },
+    {
+      "path": "src/index.scss",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "5b3ae61dcebfc59ef42eb60d4cb6885b5f3758ab",
+      "size": 1827,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/5b3ae61dcebfc59ef42eb60d4cb6885b5f3758ab"
+    },
+    {
+      "path": "src/serviceWorker.js",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "2dacc3c783f3ee3c5c6f5e7ba946e1ebfec79132",
+      "size": 4951,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/2dacc3c783f3ee3c5c6f5e7ba946e1ebfec79132"
+    },
+    {
+      "path": "src/whirl.config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e394d87fc169bab38aa139c2dd1616722c7fbe46",
+      "size": 15620,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/e394d87fc169bab38aa139c2dd1616722c7fbe46"
+    },
+    {
+      "path": "src/whirls",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "843673373fb376741d2a52ff0ece36eb7b9c2ba5",
+      "url": "https://api.github.com/repos/jh3y/whirl/git/trees/843673373fb376741d2a52ff0ece36eb7b9c2ba5"
+    },
+    {
+      "path": "src/whirls/arc.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79940943ac1dce7a240fe00012f53a912fead832",
+      "size": 326,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/79940943ac1dce7a240fe00012f53a912fead832"
+    },
+    {
+      "path": "src/whirls/bar-spin.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b696ceda638c2a263a341d5b324b0f6a449c0a59",
+      "size": 442,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/b696ceda638c2a263a341d5b324b0f6a449c0a59"
+    },
+    {
+      "path": "src/whirls/basic.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "249e6a61faa727e71893c8802b4ef770f864f977",
+      "size": 344,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/249e6a61faa727e71893c8802b4ef770f864f977"
+    },
+    {
+      "path": "src/whirls/battery.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da50ef9a505bd33d17ee68692012ed0e483dbfce",
+      "size": 1267,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/da50ef9a505bd33d17ee68692012ed0e483dbfce"
+    },
+    {
+      "path": "src/whirls/blades.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a4757b1ad544220384eda07a28903649045eb2e",
+      "size": 606,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/2a4757b1ad544220384eda07a28903649045eb2e"
+    },
+    {
+      "path": "src/whirls/bloom.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0472ada26138e7810f38445f2c57eecffe7c026a",
+      "size": 769,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/0472ada26138e7810f38445f2c57eecffe7c026a"
+    },
+    {
+      "path": "src/whirls/book.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6e48de299c64777cc07f2a12768e2d88ceca2e9",
+      "size": 682,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/e6e48de299c64777cc07f2a12768e2d88ceca2e9"
+    },
+    {
+      "path": "src/whirls/borders.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb46c1e270f1f902b47d1f83c3fb276d348e28e8",
+      "size": 801,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/fb46c1e270f1f902b47d1f83c3fb276d348e28e8"
+    },
+    {
+      "path": "src/whirls/bounce.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69d8391b4f484e746bc64d231daab3d48a49e329",
+      "size": 548,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/69d8391b4f484e746bc64d231daab3d48a49e329"
+    },
+    {
+      "path": "src/whirls/box-spin.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c6ecc13bb99d14e48141de1d2db948fd485354f",
+      "size": 466,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/3c6ecc13bb99d14e48141de1d2db948fd485354f"
+    },
+    {
+      "path": "src/whirls/breakout.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de58a5fcb54a2ba98388daf4c299ae715f5fbdc5",
+      "size": 644,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/de58a5fcb54a2ba98388daf4c299ae715f5fbdc5"
+    },
+    {
+      "path": "src/whirls/building-blocks.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "116674e5d197eeeb296fb98c6b3f620180804bf1",
+      "size": 1341,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/116674e5d197eeeb296fb98c6b3f620180804bf1"
+    },
+    {
+      "path": "src/whirls/cascade.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f03d2d31ac654b68e436cf1f66a8f6fe7cd5852",
+      "size": 688,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/1f03d2d31ac654b68e436cf1f66a8f6fe7cd5852"
+    },
+    {
+      "path": "src/whirls/chase.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c286c5144599d5e9d6b2c29dbb1cfb92b6278ef",
+      "size": 596,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/5c286c5144599d5e9d6b2c29dbb1cfb92b6278ef"
+    },
+    {
+      "path": "src/whirls/circle-path.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80a2f3da723e1c50286ce8b452324f905ed4f05c",
+      "size": 970,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/80a2f3da723e1c50286ce8b452324f905ed4f05c"
+    },
+    {
+      "path": "src/whirls/coffee.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7357029485b085aa316b4239abc9915603ba28a",
+      "size": 1068,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/f7357029485b085aa316b4239abc9915603ba28a"
+    },
+    {
+      "path": "src/whirls/color-arc.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efdeea6df04e55ebd48953a2187cd4b813a6b325",
+      "size": 691,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/efdeea6df04e55ebd48953a2187cd4b813a6b325"
+    },
+    {
+      "path": "src/whirls/color-bridge.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4654d50bc4ee2bd6e6ab19cb52945e749f93e35e",
+      "size": 703,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/4654d50bc4ee2bd6e6ab19cb52945e749f93e35e"
+    },
+    {
+      "path": "src/whirls/color-range.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6a94ee612accad9a2f48c0485e4373d19ce886d",
+      "size": 1170,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/a6a94ee612accad9a2f48c0485e4373d19ce886d"
+    },
+    {
+      "path": "src/whirls/color-wheel.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c60dd99e0b4a49675be844b4cf0fe226ec11d9b4",
+      "size": 559,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/c60dd99e0b4a49675be844b4cf0fe226ec11d9b4"
+    },
+    {
+      "path": "src/whirls/combine-two.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57ed8ee8126da4c4348daf4efe1a90adef2d46bc",
+      "size": 848,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/57ed8ee8126da4c4348daf4efe1a90adef2d46bc"
+    },
+    {
+      "path": "src/whirls/combine.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aae12f16f6d9321bdd920273df796fd5c4326618",
+      "size": 785,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/aae12f16f6d9321bdd920273df796fd5c4326618"
+    },
+    {
+      "path": "src/whirls/common",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "833f7d362adda4cd6a8a40884c2575373dbef7f5",
+      "url": "https://api.github.com/repos/jh3y/whirl/git/trees/833f7d362adda4cd6a8a40884c2575373dbef7f5"
+    },
+    {
+      "path": "src/whirls/common/spin.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff6505478108b377607f7634a378f22a7f8f521a",
+      "size": 62,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/ff6505478108b377607f7634a378f22a7f8f521a"
+    },
+    {
+      "path": "src/whirls/common/utils.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b9594d507f922e927b6298f7b8aa23b5fc4a016",
+      "size": 433,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/4b9594d507f922e927b6298f7b8aa23b5fc4a016"
+    },
+    {
+      "path": "src/whirls/cube.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8671d03d8784b69dcd535d22229041e65ff3c35",
+      "size": 1326,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/a8671d03d8784b69dcd535d22229041e65ff3c35"
+    },
+    {
+      "path": "src/whirls/cyclical.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5723d7d367d9f3d9e28e3b33816642ebd46b76de",
+      "size": 798,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/5723d7d367d9f3d9e28e3b33816642ebd46b76de"
+    },
+    {
+      "path": "src/whirls/different-directions.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a35f47deb6a9c03dfea836958f964f3405c5aa17",
+      "size": 1044,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/a35f47deb6a9c03dfea836958f964f3405c5aa17"
+    },
+    {
+      "path": "src/whirls/dominoes.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aaa017d8db633147f842c152d42fcba8549004c1",
+      "size": 855,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/aaa017d8db633147f842c152d42fcba8549004c1"
+    },
+    {
+      "path": "src/whirls/dots-fade.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9653f94dcdc42398ff8db34ebfa88836f71b1fc8",
+      "size": 1025,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/9653f94dcdc42398ff8db34ebfa88836f71b1fc8"
+    },
+    {
+      "path": "src/whirls/dots-flow.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9b48ce4c71d8f120f294d84f2bd0ab3e4bd2243",
+      "size": 833,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/f9b48ce4c71d8f120f294d84f2bd0ab3e4bd2243"
+    },
+    {
+      "path": "src/whirls/dots.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f20ed16430a8d8f757fea3646c584bcb27e39849",
+      "size": 342,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/f20ed16430a8d8f757fea3646c584bcb27e39849"
+    },
+    {
+      "path": "src/whirls/double-ringed.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b22213dc4b4debe1e2f835caa01c808b37d9514",
+      "size": 661,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/3b22213dc4b4debe1e2f835caa01c808b37d9514"
+    },
+    {
+      "path": "src/whirls/double-up.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82ed364021d7234c7e51ca5da2b2320374215562",
+      "size": 347,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/82ed364021d7234c7e51ca5da2b2320374215562"
+    },
+    {
+      "path": "src/whirls/duo.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e472ec097cc183996d6052627f49c9adbc4d594",
+      "size": 489,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/4e472ec097cc183996d6052627f49c9adbc4d594"
+    },
+    {
+      "path": "src/whirls/eclipse.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76b6f82ab0af5c0e011843985fb4e0671de415c4",
+      "size": 452,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/76b6f82ab0af5c0e011843985fb4e0671de415c4"
+    },
+    {
+      "path": "src/whirls/eight.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "141aa0067995efb3d2a0bfd49a099b8a9af994d6",
+      "size": 543,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/141aa0067995efb3d2a0bfd49a099b8a9af994d6"
+    },
+    {
+      "path": "src/whirls/equalizer.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4da17ecb982c81a25653f9b796a2bf2520e12a1a",
+      "size": 769,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/4da17ecb982c81a25653f9b796a2bf2520e12a1a"
+    },
+    {
+      "path": "src/whirls/feeder.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1783c4261432644de0667d1d698da2562851ff3",
+      "size": 1159,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/c1783c4261432644de0667d1d698da2562851ff3"
+    },
+    {
+      "path": "src/whirls/fidget.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb66217bd7e74e337c82bbdb8099952bac41d162",
+      "size": 518,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/fb66217bd7e74e337c82bbdb8099952bac41d162"
+    },
+    {
+      "path": "src/whirls/flickering-pentagon.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa3c5348ee79ea0b4c8dce3370426c501e32606f",
+      "size": 965,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/aa3c5348ee79ea0b4c8dce3370426c501e32606f"
+    },
+    {
+      "path": "src/whirls/flip-square-travel.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ad0fb6fd47dfb57f49b2d7e3757def7b19f1897",
+      "size": 892,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/2ad0fb6fd47dfb57f49b2d7e3757def7b19f1897"
+    },
+    {
+      "path": "src/whirls/flip-square.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e060b9ae3b02644ebb99b5df4d977743113cf42d",
+      "size": 564,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/e060b9ae3b02644ebb99b5df4d977743113cf42d"
+    },
+    {
+      "path": "src/whirls/flip-to-square-random.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fce506e67908a3957462078631191099ee6e7fa9",
+      "size": 706,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/fce506e67908a3957462078631191099ee6e7fa9"
+    },
+    {
+      "path": "src/whirls/flip-to-square.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "40232a4e58b09d1d01b8082c6179ef72547f7b83",
+      "size": 669,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/40232a4e58b09d1d01b8082c6179ef72547f7b83"
+    },
+    {
+      "path": "src/whirls/flippers-alternate.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7c6f1d3dfd3b322e51c3d63f0fc9a6aff5da147",
+      "size": 1011,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/d7c6f1d3dfd3b322e51c3d63f0fc9a6aff5da147"
+    },
+    {
+      "path": "src/whirls/flippers.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93c9a22b7fbfb280f7e343faf9cb40d4c56b0e19",
+      "size": 713,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/93c9a22b7fbfb280f7e343faf9cb40d4c56b0e19"
+    },
+    {
+      "path": "src/whirls/fly-by.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d290b52a2e68005043d4f6b7914e7c7a37448612",
+      "size": 505,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/d290b52a2e68005043d4f6b7914e7c7a37448612"
+    },
+    {
+      "path": "src/whirls/follow-the-leader-line.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e352dde4e7c3e48d543bca99447e461c67d5e37c",
+      "size": 800,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/e352dde4e7c3e48d543bca99447e461c67d5e37c"
+    },
+    {
+      "path": "src/whirls/follow-the-leader.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a938a16021087aebc6a233eaf946bf82321ab106",
+      "size": 815,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/a938a16021087aebc6a233eaf946bf82321ab106"
+    },
+    {
+      "path": "src/whirls/four-dots.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34bf06f5667caa63564f51320ec88cf1a4171b02",
+      "size": 438,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/34bf06f5667caa63564f51320ec88cf1a4171b02"
+    },
+    {
+      "path": "src/whirls/grow-fade-dots.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6af29fcd15e8eca4c019e083228f50ed85db90ea",
+      "size": 778,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/6af29fcd15e8eca4c019e083228f50ed85db90ea"
+    },
+    {
+      "path": "src/whirls/gyro.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fbca33a7305dba7352d2d85c2e941430d536ce4",
+      "size": 756,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/7fbca33a7305dba7352d2d85c2e941430d536ce4"
+    },
+    {
+      "path": "src/whirls/half-ring.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45c5f6f14bd27312b43549be2898d2b45dbc89be",
+      "size": 735,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/45c5f6f14bd27312b43549be2898d2b45dbc89be"
+    },
+    {
+      "path": "src/whirls/honeycomb.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f0b6aa316b5136f43f065be894f7fcfad995ef5",
+      "size": 1543,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/3f0b6aa316b5136f43f065be894f7fcfad995ef5"
+    },
+    {
+      "path": "src/whirls/hourglass.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04fd4f998babb9e0b72da4fa9a5a22eae488656d",
+      "size": 1437,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/04fd4f998babb9e0b72da4fa9a5a22eae488656d"
+    },
+    {
+      "path": "src/whirls/in-and-out.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d3adf160aac30e4c1d87fafe2b43f1695661f1c",
+      "size": 1682,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/8d3adf160aac30e4c1d87fafe2b43f1695661f1c"
+    },
+    {
+      "path": "src/whirls/infinity-path.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "456102f5786036b1cbe277f3a499f73d815203dc",
+      "size": 1917,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/456102f5786036b1cbe277f3a499f73d815203dc"
+    },
+    {
+      "path": "src/whirls/line-of-dots.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b32893aa52a128134357a9ef216c6a94aa1e74c1",
+      "size": 2862,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/b32893aa52a128134357a9ef216c6a94aa1e74c1"
+    },
+    {
+      "path": "src/whirls/line.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18305e73eb66e09b93f70044a5a91b584c091733",
+      "size": 491,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/18305e73eb66e09b93f70044a5a91b584c091733"
+    },
+    {
+      "path": "src/whirls/load-man.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9b5f29002371e69546c12143fe8da2e15e3d1c9",
+      "size": 1687,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/f9b5f29002371e69546c12143fe8da2e15e3d1c9"
+    },
+    {
+      "path": "src/whirls/meetup.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9d01fe48e0bbe2abf39de847bcd68f34a3396dd",
+      "size": 707,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/a9d01fe48e0bbe2abf39de847bcd68f34a3396dd"
+    },
+    {
+      "path": "src/whirls/merge.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa52aee9844742ec846927b73e3501dadf9cbeec",
+      "size": 735,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/aa52aee9844742ec846927b73e3501dadf9cbeec"
+    },
+    {
+      "path": "src/whirls/mexican-wave.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76e38bf0d0b2a583f99b15f1f9852c15bfb9eb09",
+      "size": 1956,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/76e38bf0d0b2a583f99b15f1f9852c15bfb9eb09"
+    },
+    {
+      "path": "src/whirls/orbit-star.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fba320e8f1542991bba93671dbf3717960d06aa",
+      "size": 1962,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/1fba320e8f1542991bba93671dbf3717960d06aa"
+    },
+    {
+      "path": "src/whirls/orbit.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64859145ad8105be0039b23ae4fd8dfee383b77b",
+      "size": 524,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/64859145ad8105be0039b23ae4fd8dfee383b77b"
+    },
+    {
+      "path": "src/whirls/outline-square.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "beb164bbcdcc0b2c3ad463a16c809323147270f7",
+      "size": 726,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/beb164bbcdcc0b2c3ad463a16c809323147270f7"
+    },
+    {
+      "path": "src/whirls/palette.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a33fd7afa2a9f774cae369ec8de187963a310b81",
+      "size": 1173,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/a33fd7afa2a9f774cae369ec8de187963a310b81"
+    },
+    {
+      "path": "src/whirls/pan-out-circle.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9095c35ed8a7dd51a6adc9eae0a08ceccdb414d6",
+      "size": 900,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/9095c35ed8a7dd51a6adc9eae0a08ceccdb414d6"
+    },
+    {
+      "path": "src/whirls/pendulum.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e6cde61f898674dc0ce158f5399d238ca6c41f7",
+      "size": 545,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/8e6cde61f898674dc0ce158f5399d238ca6c41f7"
+    },
+    {
+      "path": "src/whirls/pill.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa894472c0bcf69105751eceb5ff176eda510b7d",
+      "size": 871,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/fa894472c0bcf69105751eceb5ff176eda510b7d"
+    },
+    {
+      "path": "src/whirls/pong.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aaa3e135f559b0a18c08eec4c9631a81b91a078c",
+      "size": 3112,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/aaa3e135f559b0a18c08eec4c9631a81b91a078c"
+    },
+    {
+      "path": "src/whirls/push-out.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3aa1d3c15fb3157ea56c53a6fa5376e04ab7cb9",
+      "size": 2116,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/b3aa1d3c15fb3157ea56c53a6fa5376e04ab7cb9"
+    },
+    {
+      "path": "src/whirls/push-pop.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7363600937b80123b3135d1c2b7ff4ee0e1252d9",
+      "size": 1930,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/7363600937b80123b3135d1c2b7ff4ee0e1252d9"
+    },
+    {
+      "path": "src/whirls/radial.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e63252d851325fb76a2214fb0da5b89413fbe33",
+      "size": 677,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/8e63252d851325fb76a2214fb0da5b89413fbe33"
+    },
+    {
+      "path": "src/whirls/rainbow.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b700e280ced6a805853cfa69d3d504d32c2370f1",
+      "size": 2208,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/b700e280ced6a805853cfa69d3d504d32c2370f1"
+    },
+    {
+      "path": "src/whirls/rays.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8728af0ffe614b292188e03dd9324576da55b8c",
+      "size": 568,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/b8728af0ffe614b292188e03dd9324576da55b8c"
+    },
+    {
+      "path": "src/whirls/reach.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4447a391055a6480411fc2a70e4c610c080cb68d",
+      "size": 889,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/4447a391055a6480411fc2a70e4c610c080cb68d"
+    },
+    {
+      "path": "src/whirls/ring-of-dots.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd109a9d809182b352b4f1e576c685bd697d5b62",
+      "size": 1052,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/cd109a9d809182b352b4f1e576c685bd697d5b62"
+    },
+    {
+      "path": "src/whirls/ring-of-stars.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "547cd5b24715d219af994ff6517aab324cba8787",
+      "size": 1330,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/547cd5b24715d219af994ff6517aab324cba8787"
+    },
+    {
+      "path": "src/whirls/ringed.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d878f34b9beab6dbb468e5800e3901ec23f460f",
+      "size": 673,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/6d878f34b9beab6dbb468e5800e3901ec23f460f"
+    },
+    {
+      "path": "src/whirls/rings.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8251944a9a3f0132ed284da4400f5f21af621fdf",
+      "size": 795,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/8251944a9a3f0132ed284da4400f5f21af621fdf"
+    },
+    {
+      "path": "src/whirls/rotary.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf64a14631341348e35fef3726f53c1d464061aa",
+      "size": 565,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/cf64a14631341348e35fef3726f53c1d464061aa"
+    },
+    {
+      "path": "src/whirls/rotating-dots.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae628ddc28c916eb6e5a47dc4f0808590b5bece7",
+      "size": 1412,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/ae628ddc28c916eb6e5a47dc4f0808590b5bece7"
+    },
+    {
+      "path": "src/whirls/scale-dots-offset.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88044dd48b447359661a006d3ee8d93d93b67d42",
+      "size": 857,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/88044dd48b447359661a006d3ee8d93d93b67d42"
+    },
+    {
+      "path": "src/whirls/scale-dots.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26eb24d5e827c8c780c1219fe52ce845eba8514c",
+      "size": 838,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/26eb24d5e827c8c780c1219fe52ce845eba8514c"
+    },
+    {
+      "path": "src/whirls/scaling-circle.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "789b7d7fe8721f953ee9bba874dfe7f6f0130834",
+      "size": 899,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/789b7d7fe8721f953ee9bba874dfe7f6f0130834"
+    },
+    {
+      "path": "src/whirls/scaling-dots.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34bf5a0986e6e2fe33af123a871c2a866fcdeb46",
+      "size": 662,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/34bf5a0986e6e2fe33af123a871c2a866fcdeb46"
+    },
+    {
+      "path": "src/whirls/scan.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56bbb887b49e7604f1fef4f4370c71bfef9b400e",
+      "size": 661,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/56bbb887b49e7604f1fef4f4370c71bfef9b400e"
+    },
+    {
+      "path": "src/whirls/siblings.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cdaea60dfa1cbe6fdc70f20a27016e78175612b",
+      "size": 518,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/5cdaea60dfa1cbe6fdc70f20a27016e78175612b"
+    },
+    {
+      "path": "src/whirls/side-to-side.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f64c39b15e1f03c5bc9fc04faab4919f0db62d70",
+      "size": 442,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/f64c39b15e1f03c5bc9fc04faab4919f0db62d70"
+    },
+    {
+      "path": "src/whirls/slide-in.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a223f51dc5731b08ddca7fbc9899ab79536ec0c",
+      "size": 830,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/6a223f51dc5731b08ddca7fbc9899ab79536ec0c"
+    },
+    {
+      "path": "src/whirls/sliding-tiles-bordered.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "234324906f1f7cce798bb95387dd1b97e20f51c3",
+      "size": 1710,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/234324906f1f7cce798bb95387dd1b97e20f51c3"
+    },
+    {
+      "path": "src/whirls/sliding-tiles.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c84771f82ee0e8274127fa2bac2895e6f5f16d13",
+      "size": 771,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/c84771f82ee0e8274127fa2bac2895e6f5f16d13"
+    },
+    {
+      "path": "src/whirls/snake.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a659376881238e55439734678c4a67e4ffed0e2b",
+      "size": 6856,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/a659376881238e55439734678c4a67e4ffed0e2b"
+    },
+    {
+      "path": "src/whirls/spinning-coin-fall.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddbaafc732ee511f0bd7e2a4aec9198ef9bced5a",
+      "size": 866,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/ddbaafc732ee511f0bd7e2a4aec9198ef9bced5a"
+    },
+    {
+      "path": "src/whirls/spinning-coin.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "295e85994d9336472bda3e0d378699d90f146e22",
+      "size": 533,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/295e85994d9336472bda3e0d378699d90f146e22"
+    },
+    {
+      "path": "src/whirls/spinning-dots-scaled.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8183c4a5c8960bd82a6784a3024503644fca08da",
+      "size": 727,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/8183c4a5c8960bd82a6784a3024503644fca08da"
+    },
+    {
+      "path": "src/whirls/spinning-dots.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db2b1b2b891dc9e6f3121a13de44327765ea28df",
+      "size": 605,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/db2b1b2b891dc9e6f3121a13de44327765ea28df"
+    },
+    {
+      "path": "src/whirls/split.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2659dcc25e5d5c2632dfaf47a40518feaaac4ee8",
+      "size": 555,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/2659dcc25e5d5c2632dfaf47a40518feaaac4ee8"
+    },
+    {
+      "path": "src/whirls/square-of-dots.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "362fe5b6744b5474f78c4e5247ddb0d51feeeaaa",
+      "size": 6481,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/362fe5b6744b5474f78c4e5247ddb0d51feeeaaa"
+    },
+    {
+      "path": "src/whirls/stop-and-go.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fa6c6172a7dd24cee11cedffd998dea1d3f02df",
+      "size": 509,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/9fa6c6172a7dd24cee11cedffd998dea1d3f02df"
+    },
+    {
+      "path": "src/whirls/swap.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b688a8b9174068ef32fba71c487cdbcd90f2c331",
+      "size": 549,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/b688a8b9174068ef32fba71c487cdbcd90f2c331"
+    },
+    {
+      "path": "src/whirls/throw.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16bd02de81823bc5d34e9226be4ee85dfb43064d",
+      "size": 453,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/16bd02de81823bc5d34e9226be4ee85dfb43064d"
+    },
+    {
+      "path": "src/whirls/traditional.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5e8b6a4e88d6dddf50d9f7101a1a494706fb8fe",
+      "size": 311,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/d5e8b6a4e88d6dddf50d9f7101a1a494706fb8fe"
+    },
+    {
+      "path": "src/whirls/trigger.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b872c7226248b2a0b5270edf644da5d78956020",
+      "size": 1666,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/8b872c7226248b2a0b5270edf644da5d78956020"
+    },
+    {
+      "path": "src/whirls/tumble.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6524d2a5fa9f76e21f3494e31614b2e34297cede",
+      "size": 816,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/6524d2a5fa9f76e21f3494e31614b2e34297cede"
+    },
+    {
+      "path": "src/whirls/waterfall.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d564e277c4d05851e24ddeb253789f397d638cf3",
+      "size": 1049,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/d564e277c4d05851e24ddeb253789f397d638cf3"
+    },
+    {
+      "path": "src/whirls/whirl.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19d1409730d9d579458532034e0082e18d4fc7a7",
+      "size": 460,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/19d1409730d9d579458532034e0082e18d4fc7a7"
+    },
+    {
+      "path": "src/whirls/wind-up.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69624e9f4ff55fc86689d9212b10522364638e52",
+      "size": 555,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/69624e9f4ff55fc86689d9212b10522364638e52"
+    },
+    {
+      "path": "src/whirls/zonal.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf60086eac3a4ba730fac9b4ecfac5f98c8757d8",
+      "size": 1852,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/cf60086eac3a4ba730fac9b4ecfac5f98c8757d8"
+    },
+    {
+      "path": "utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "597a0553fafcb5daaae5d7d381bea28a4da3923e",
+      "url": "https://api.github.com/repos/jh3y/whirl/git/trees/597a0553fafcb5daaae5d7d381bea28a4da3923e"
+    },
+    {
+      "path": "utils/add-whirl.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "801b4dd0a8cff4780c3532cb62d2e137e14f334b",
+      "size": 1347,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/801b4dd0a8cff4780c3532cb62d2e137e14f334b"
+    },
+    {
+      "path": "utils/create-whirl.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00cd255cf913732dbc3abd8f400a3fe93c611ddc",
+      "size": 427,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/00cd255cf913732dbc3abd8f400a3fe93c611ddc"
+    },
+    {
+      "path": "utils/order-config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "383da0383466badf6eb989de3df42057998c7874",
+      "size": 415,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/383da0383466badf6eb989de3df42057998c7874"
+    },
+    {
+      "path": "utils/publish.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "583c7a0cef277fcb4fffb700dd0d51c8a6d2d334",
+      "size": 953,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/583c7a0cef277fcb4fffb700dd0d51c8a6d2d334"
+    },
+    {
+      "path": "yarn.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e046bd015a80704676f41fa2eadfc6826faf154",
+      "size": 375318,
+      "url": "https://api.github.com/repos/jh3y/whirl/git/blobs/8e046bd015a80704676f41fa2eadfc6826faf154"
+    }
+  ],
+  "truncated": false
+}

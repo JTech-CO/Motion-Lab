@@ -1,0 +1,53 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-swingDropChain {
+  animation-name: swingDropChain;
+  transform-origin: top center;
+}
+
+@keyframes swingDropChain {
+  0% {
+    transform: translateY(-100%) rotate(35deg);
+    opacity: 0;
+  }
+
+  30% {
+    transform: translateY(5%) rotate(-25deg);
+    opacity: 1;
+  }
+
+  50% {
+    transform: rotate(15deg);
+  }
+
+  70% {
+    transform: rotate(-8deg);
+  }
+
+  90% {
+    transform: rotate(4deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

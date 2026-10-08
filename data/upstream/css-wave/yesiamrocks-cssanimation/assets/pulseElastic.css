@@ -1,0 +1,39 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-pulseElastic {
+  animation: pulseElastic 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite alternate; /* Infinite for pulsing */
+}
+
+@keyframes pulseElastic {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  } /* Pulse out */
+
+  75% {
+    transform: scale(0.95);
+  } /* Slightly inward */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "cartocolor",
+  "version": "5.0.2",
+  "description": "CartoColors: custom color palettes from CARTO",
+  "license": "CC-BY-4.0",
+  "type": "module",
+  "sideEffects": false,
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.cjs",
+  "exports": {
+    "types": "./dist/index.d.ts",
+    "require": "./dist/index.cjs",
+    "default": "./dist/index.js"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "keywords": [
+    "colors",
+    "design",
+    "visualization",
+    "cartography",
+    "svg",
+    "d3"
+  ],
+  "homepage": "https://carto.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cartodb/cartocolor"
+  },
+  "dependencies": {
+    "@types/colorbrewer": "^1.0.32",
+    "colorbrewer": "1.5.6"
+  },
+  "devDependencies": {
+    "esbuild": "^0.21.2",
+    "typescript": "^5.6.2"
+  },
+  "scripts": {
+    "build": "yarn build:esm && yarn build:cjs && yarn build:types",
+    "build:esm": "esbuild src/index.ts --bundle --format=esm --outfile=dist/index.js --external:colorbrewer",
+    "build:cjs": "esbuild src/index.ts --bundle --format=cjs --outfile=dist/index.cjs --external:colorbrewer",
+    "build:types": "tsc",
+    "test": "node test/cartocolor.test.js",
+    "preversion": "yarn build && yarn test",
+    "version": "rm dist/* && yarn build && git add -u",
+    "postversion": "git push && git push --tags && npm publish"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}

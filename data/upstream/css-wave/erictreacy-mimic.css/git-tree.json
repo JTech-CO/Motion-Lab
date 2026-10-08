@@ -1,0 +1,846 @@
+{
+  "sha": "039c4b660fa16b4b4ad4040c4edd3ec0d6668c35",
+  "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/trees/039c4b660fa16b4b4ad4040c4edd3ec0d6668c35",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5ec9335030a4c234c6d4925a5f4c3970165d3a11",
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/trees/5ec9335030a4c234c6d4925a5f4c3970165d3a11"
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b16f597ee78f9129a4f969850007a416d0e45e0",
+      "size": 711,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/4b16f597ee78f9129a4f969850007a416d0e45e0"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f650315f30180800d0fed8ed1e7ceade266e9e71",
+      "size": 313,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/f650315f30180800d0fed8ed1e7ceade266e9e71"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de90a6e1eadb25db5993f3069b45f205cf7d0b09",
+      "size": 1559,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/de90a6e1eadb25db5993f3069b45f205cf7d0b09"
+    },
+    {
+      "path": "app",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ca605f1de34aab52708251994322c2512130d4cb",
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/trees/ca605f1de34aab52708251994322c2512130d4cb"
+    },
+    {
+      "path": "app/advanced",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2c3ebd6aba7106f2db9335b6b109ac27a7d7c2be",
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/trees/2c3ebd6aba7106f2db9335b6b109ac27a7d7c2be"
+    },
+    {
+      "path": "app/advanced/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec1f4d287869788b8c1d9a6d6d76032f599a7b03",
+      "size": 1565,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/ec1f4d287869788b8c1d9a6d6d76032f599a7b03"
+    },
+    {
+      "path": "app/animations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e1df898d05343f87cb0404005b42767b443b0806",
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/trees/e1df898d05343f87cb0404005b42767b443b0806"
+    },
+    {
+      "path": "app/animations/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a415162ea13dd5a8b71a870c56dff3ac10b8e856",
+      "size": 1766,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/a415162ea13dd5a8b71a870c56dff3ac10b8e856"
+    },
+    {
+      "path": "app/api",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0b904671c49e99a8eaf5ebcd023209573b487225",
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/trees/0b904671c49e99a8eaf5ebcd023209573b487225"
+    },
+    {
+      "path": "app/api/animations",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c6a299fdb420c162ab975b8d1fcf305039a93c1e",
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/trees/c6a299fdb420c162ab975b8d1fcf305039a93c1e"
+    },
+    {
+      "path": "app/api/animations/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4c37539ac577aa9699572acfdc3fda1facb8641",
+      "size": 625,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/b4c37539ac577aa9699572acfdc3fda1facb8641"
+    },
+    {
+      "path": "app/categories",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "20abf9ee23dbdbde20ef421ad7f61671e382cb93",
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/trees/20abf9ee23dbdbde20ef421ad7f61671e382cb93"
+    },
+    {
+      "path": "app/categories/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d03d78954bdec61df098f3c398a78d72f30a83c2",
+      "size": 2414,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/d03d78954bdec61df098f3c398a78d72f30a83c2"
+    },
+    {
+      "path": "app/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "11f811155c0cebf91e4351d08e4165e5d0427bd3",
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/trees/11f811155c0cebf91e4351d08e4165e5d0427bd3"
+    },
+    {
+      "path": "app/components/navbar.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76bfd22a43c7347c3b84b1f8d008fc2d13dbde62",
+      "size": 706,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/76bfd22a43c7347c3b84b1f8d008fc2d13dbde62"
+    },
+    {
+      "path": "app/globals.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3a8d0a5509b566e4d830f4704eef9df45178921",
+      "size": 6092,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/a3a8d0a5509b566e4d830f4704eef9df45178921"
+    },
+    {
+      "path": "app/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26ba8596ce7fa0d7380bdb6e5f0c6435d8df6d8d",
+      "size": 672,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/26ba8596ce7fa0d7380bdb6e5f0c6435d8df6d8d"
+    },
+    {
+      "path": "app/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8aa6ab6192fef31fe891f826bb7ff5958e34da6f",
+      "size": 3203,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/8aa6ab6192fef31fe891f826bb7ff5958e34da6f"
+    },
+    {
+      "path": "app/playground",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "41ff8269f810d9036de2ffa18869cca161acbd93",
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/trees/41ff8269f810d9036de2ffa18869cca161acbd93"
+    },
+    {
+      "path": "app/playground/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8a530f9b21406156da0ae7fa1b5835829ee3cf3",
+      "size": 7834,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/c8a530f9b21406156da0ae7fa1b5835829ee3cf3"
+    },
+    {
+      "path": "components.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d9ef0ae537daba0b9fb71e78522e5aa763c4de93",
+      "size": 443,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/d9ef0ae537daba0b9fb71e78522e5aa763c4de93"
+    },
+    {
+      "path": "components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cce337f5c0765c930c89da7412dc4df9ee7f3308",
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/trees/cce337f5c0765c930c89da7412dc4df9ee7f3308"
+    },
+    {
+      "path": "components/animation-showcase.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52636185e43901b2dee900eb8716c1c22b87578d",
+      "size": 1203,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/52636185e43901b2dee900eb8716c1c22b87578d"
+    },
+    {
+      "path": "components/navbar.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13ecb6227b0fca3a2a9e7f62b5b9af09e0dd5f06",
+      "size": 1144,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/13ecb6227b0fca3a2a9e7f62b5b9af09e0dd5f06"
+    },
+    {
+      "path": "components/theme-provider.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55c2f6eb60b22a313a4c27bd0b2d728063cb8ab9",
+      "size": 292,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/55c2f6eb60b22a313a4c27bd0b2d728063cb8ab9"
+    },
+    {
+      "path": "components/ui",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7737c3cd01722fc8a2263e82441605d6ea80d52f",
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/trees/7737c3cd01722fc8a2263e82441605d6ea80d52f"
+    },
+    {
+      "path": "components/ui/accordion.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24c788c2c44cb058812cdbb97d071439a87af5f0",
+      "size": 1991,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/24c788c2c44cb058812cdbb97d071439a87af5f0"
+    },
+    {
+      "path": "components/ui/alert-dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25e7b474464c9849cef836f5c863be0f38bdaac3",
+      "size": 4434,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/25e7b474464c9849cef836f5c863be0f38bdaac3"
+    },
+    {
+      "path": "components/ui/alert.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41fa7e0561a3fdb5f986c1213a35e563de740e96",
+      "size": 1584,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/41fa7e0561a3fdb5f986c1213a35e563de740e96"
+    },
+    {
+      "path": "components/ui/aspect-ratio.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6a5226f5e9cc09a2bd1ccbce465524e41f04345",
+      "size": 154,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/d6a5226f5e9cc09a2bd1ccbce465524e41f04345"
+    },
+    {
+      "path": "components/ui/avatar.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51e507ba9d08bcdbb1fb630498f1cbdf2bf50093",
+      "size": 1419,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/51e507ba9d08bcdbb1fb630498f1cbdf2bf50093"
+    },
+    {
+      "path": "components/ui/badge.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f000e3ef5176395b067dfc3f3e1256a80c450015",
+      "size": 1128,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/f000e3ef5176395b067dfc3f3e1256a80c450015"
+    },
+    {
+      "path": "components/ui/breadcrumb.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60e6c96f72f0350d08b47e4730cab8f3975dc853",
+      "size": 2712,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/60e6c96f72f0350d08b47e4730cab8f3975dc853"
+    },
+    {
+      "path": "components/ui/button.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36496a28727a3643b4212a14225d4f6cbd50bda5",
+      "size": 1901,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/36496a28727a3643b4212a14225d4f6cbd50bda5"
+    },
+    {
+      "path": "components/ui/calendar.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61d2b451ef5fd1d9faa1162371628a8132dd51df",
+      "size": 2587,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/61d2b451ef5fd1d9faa1162371628a8132dd51df"
+    },
+    {
+      "path": "components/ui/card.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f62edea578d50058bef5e6bcc178b88d145564e9",
+      "size": 1858,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/f62edea578d50058bef5e6bcc178b88d145564e9"
+    },
+    {
+      "path": "components/ui/carousel.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec505d00d95ecdbbc1501d1bfa7020e51d6010a7",
+      "size": 6224,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/ec505d00d95ecdbbc1501d1bfa7020e51d6010a7"
+    },
+    {
+      "path": "components/ui/chart.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8620baa3b32301ef0e071b13049f2a00caa6f0bc",
+      "size": 10480,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/8620baa3b32301ef0e071b13049f2a00caa6f0bc"
+    },
+    {
+      "path": "components/ui/checkbox.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df61a13881538701ff6a10d644d217bfa01b64e6",
+      "size": 1070,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/df61a13881538701ff6a10d644d217bfa01b64e6"
+    },
+    {
+      "path": "components/ui/collapsible.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fa48946afd1eb56bd932377fd888e3986304676",
+      "size": 329,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/9fa48946afd1eb56bd932377fd888e3986304676"
+    },
+    {
+      "path": "components/ui/command.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "59a26452940473d58818cb8489bf2b35e8b9b004",
+      "size": 4899,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/59a26452940473d58818cb8489bf2b35e8b9b004"
+    },
+    {
+      "path": "components/ui/context-menu.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93ef37ba98dcd024a577feac7e4fea21c36add62",
+      "size": 7260,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/93ef37ba98dcd024a577feac7e4fea21c36add62"
+    },
+    {
+      "path": "components/ui/dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01ff19c7e453295645fa83788d3ffedf6944226a",
+      "size": 3849,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/01ff19c7e453295645fa83788d3ffedf6944226a"
+    },
+    {
+      "path": "components/ui/drawer.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a0ef53dde8991d3adeadd791cd262808aaf9ac0",
+      "size": 3021,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/6a0ef53dde8991d3adeadd791cd262808aaf9ac0"
+    },
+    {
+      "path": "components/ui/dropdown-menu.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0fc4c0e0714c5f1a7032cc71e4846470a487a471",
+      "size": 7433,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/0fc4c0e0714c5f1a7032cc71e4846470a487a471"
+    },
+    {
+      "path": "components/ui/form.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce264aef25034feded1285c057c7d11d3d0f1178",
+      "size": 4099,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/ce264aef25034feded1285c057c7d11d3d0f1178"
+    },
+    {
+      "path": "components/ui/hover-card.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e54d91cf81f48462887825698166393764c4251f",
+      "size": 1198,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/e54d91cf81f48462887825698166393764c4251f"
+    },
+    {
+      "path": "components/ui/input-otp.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f66fcfa0ddbe3b9b7f4773b1d69576aa61f96db8",
+      "size": 2168,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/f66fcfa0ddbe3b9b7f4773b1d69576aa61f96db8"
+    },
+    {
+      "path": "components/ui/input.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68551b9276b4164a8263aa58d385db30f81a4453",
+      "size": 791,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/68551b9276b4164a8263aa58d385db30f81a4453"
+    },
+    {
+      "path": "components/ui/label.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "534182176bf87f9308355514adc884d2b69750a5",
+      "size": 724,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/534182176bf87f9308355514adc884d2b69750a5"
+    },
+    {
+      "path": "components/ui/menubar.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5586fa9b21f48d45092fd7e5856a87b5a1a91e22",
+      "size": 7988,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/5586fa9b21f48d45092fd7e5856a87b5a1a91e22"
+    },
+    {
+      "path": "components/ui/navigation-menu.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1419f56695be517ec78fe8ad26a6f7da3a7d53b2",
+      "size": 5046,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/1419f56695be517ec78fe8ad26a6f7da3a7d53b2"
+    },
+    {
+      "path": "components/ui/pagination.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea40d196dc72673f36c4084bf56457385edc855e",
+      "size": 2751,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/ea40d196dc72673f36c4084bf56457385edc855e"
+    },
+    {
+      "path": "components/ui/popover.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0ec48beee4e92c55292fcb104680af68d00d365",
+      "size": 1244,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/a0ec48beee4e92c55292fcb104680af68d00d365"
+    },
+    {
+      "path": "components/ui/progress.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c87ea4865610374cdc591d1619157b4d8909a87",
+      "size": 791,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/5c87ea4865610374cdc591d1619157b4d8909a87"
+    },
+    {
+      "path": "components/ui/radio-group.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9bde1793628d1d76ab8e5700c2484547e8bbbf2",
+      "size": 1481,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/e9bde1793628d1d76ab8e5700c2484547e8bbbf2"
+    },
+    {
+      "path": "components/ui/resizable.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4bc5586b67f45d3cc35f228e8bac2e4bc2cea16",
+      "size": 1723,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/f4bc5586b67f45d3cc35f228e8bac2e4bc2cea16"
+    },
+    {
+      "path": "components/ui/scroll-area.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b4a48d87fabda1c6e9612172abb56a78e26c14f",
+      "size": 1656,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/0b4a48d87fabda1c6e9612172abb56a78e26c14f"
+    },
+    {
+      "path": "components/ui/select.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbe5a36b695dda828fa2f17e46fe35970aa6fa78",
+      "size": 5629,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/cbe5a36b695dda828fa2f17e46fe35970aa6fa78"
+    },
+    {
+      "path": "components/ui/separator.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12d81c4a853472948b6dd2e85eff99b5d12fe60b",
+      "size": 770,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/12d81c4a853472948b6dd2e85eff99b5d12fe60b"
+    },
+    {
+      "path": "components/ui/sheet.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a37f17ba04055c1c174bd439d58aa3b5b2857cc9",
+      "size": 4281,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/a37f17ba04055c1c174bd439d58aa3b5b2857cc9"
+    },
+    {
+      "path": "components/ui/sidebar.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eeb2d7aebcf77d22605587c4055cde9cd351b5ef",
+      "size": 23381,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/eeb2d7aebcf77d22605587c4055cde9cd351b5ef"
+    },
+    {
+      "path": "components/ui/skeleton.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01b8b6d4f716ff7c26065bc9e46aebd932729fc1",
+      "size": 261,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/01b8b6d4f716ff7c26065bc9e46aebd932729fc1"
+    },
+    {
+      "path": "components/ui/slider.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c31c2b3bc1a9f1677b32250668a6d47fe5a353ce",
+      "size": 1091,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/c31c2b3bc1a9f1677b32250668a6d47fe5a353ce"
+    },
+    {
+      "path": "components/ui/sonner.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "452f4d9f0dde88611113632c1d759d60155fe4d3",
+      "size": 894,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/452f4d9f0dde88611113632c1d759d60155fe4d3"
+    },
+    {
+      "path": "components/ui/switch.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc69cf2dbfc512347350c5cea6cb8e4a3d7f667d",
+      "size": 1153,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/bc69cf2dbfc512347350c5cea6cb8e4a3d7f667d"
+    },
+    {
+      "path": "components/ui/table.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f3502f8b2820be1d6f0aa4c1ffaa351799c1ed3",
+      "size": 2765,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/7f3502f8b2820be1d6f0aa4c1ffaa351799c1ed3"
+    },
+    {
+      "path": "components/ui/tabs.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26eb109120e2ee43feddb68900f353a119976c41",
+      "size": 1897,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/26eb109120e2ee43feddb68900f353a119976c41"
+    },
+    {
+      "path": "components/ui/textarea.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d858bb6b02662c749d3cb334129a9a1977b0c51",
+      "size": 689,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/4d858bb6b02662c749d3cb334129a9a1977b0c51"
+    },
+    {
+      "path": "components/ui/toast.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "521b94b07981916e3ee36e8cc28a70b4d9abc728",
+      "size": 4859,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/521b94b07981916e3ee36e8cc28a70b4d9abc728"
+    },
+    {
+      "path": "components/ui/toaster.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "171beb46d9c020c1be1ee9cb260b816d0bc2c1dd",
+      "size": 786,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/171beb46d9c020c1be1ee9cb260b816d0bc2c1dd"
+    },
+    {
+      "path": "components/ui/toggle-group.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c876bbeecabe59b684719afe58e684f34cdecbf",
+      "size": 1753,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/1c876bbeecabe59b684719afe58e684f34cdecbf"
+    },
+    {
+      "path": "components/ui/toggle.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c19bea37315b245ce0c3588deafb27adc8397f0f",
+      "size": 1541,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/c19bea37315b245ce0c3588deafb27adc8397f0f"
+    },
+    {
+      "path": "components/ui/tooltip.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30fc44d90f39c96ca622c9174684dd6bc8534e16",
+      "size": 1159,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/30fc44d90f39c96ca622c9174684dd6bc8534e16"
+    },
+    {
+      "path": "components/ui/use-mobile.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b0fe1dfef3b17850bbac040665f514a8ffd0f15",
+      "size": 565,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/2b0fe1dfef3b17850bbac040665f514a8ffd0f15"
+    },
+    {
+      "path": "components/ui/use-toast.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02e111d81dd774038ac483c11b5f5a8f8aceb024",
+      "size": 3948,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/02e111d81dd774038ac483c11b5f5a8f8aceb024"
+    },
+    {
+      "path": "demo",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a0431c74652f39f4875de39f09cdc255ec67cb99",
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/trees/a0431c74652f39f4875de39f09cdc255ec67cb99"
+    },
+    {
+      "path": "demo/demo.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4173487721060efd0bdc057dab571f74639cdd76",
+      "size": 2302,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/4173487721060efd0bdc057dab571f74639cdd76"
+    },
+    {
+      "path": "demo/demo.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9c3371c12d2ab994405c518c23a7a372a8b9f31",
+      "size": 828,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/a9c3371c12d2ab994405c518c23a7a372a8b9f31"
+    },
+    {
+      "path": "hooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "432a7ae3d4e8517019d0ed1f836c1d5a8f93eb12",
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/trees/432a7ae3d4e8517019d0ed1f836c1d5a8f93eb12"
+    },
+    {
+      "path": "hooks/use-mobile.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b0fe1dfef3b17850bbac040665f514a8ffd0f15",
+      "size": 565,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/2b0fe1dfef3b17850bbac040665f514a8ffd0f15"
+    },
+    {
+      "path": "hooks/use-toast.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02e111d81dd774038ac483c11b5f5a8f8aceb024",
+      "size": 3948,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/02e111d81dd774038ac483c11b5f5a8f8aceb024"
+    },
+    {
+      "path": "images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2a13a0db21390111f11b98a6a6338c78cdc489ae",
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/trees/2a13a0db21390111f11b98a6a6338c78cdc489ae"
+    },
+    {
+      "path": "images/favicon.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "daec075f256dced79bdbeb5f2513e2c34f06b0bc",
+      "size": 1534,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/daec075f256dced79bdbeb5f2513e2c34f06b0bc"
+    },
+    {
+      "path": "images/mimic.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d91e1ac9f86bdf70bb959cab87561a7e70eaadd",
+      "size": 12363,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/9d91e1ac9f86bdf70bb959cab87561a7e70eaadd"
+    },
+    {
+      "path": "index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fbaefbdc33fc664e77fd375178e828b94bfa736",
+      "size": 3508,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/8fbaefbdc33fc664e77fd375178e828b94bfa736"
+    },
+    {
+      "path": "lib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1bdc1d66ab5752bb8929bbb4ca0daee1df5f30da",
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/trees/1bdc1d66ab5752bb8929bbb4ca0daee1df5f30da"
+    },
+    {
+      "path": "lib/utils.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd0c391ddd1088e9067844c48835bf4abcd61783",
+      "size": 166,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/bd0c391ddd1088e9067844c48835bf4abcd61783"
+    },
+    {
+      "path": "mimic.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e82f8bcd2ece2b5bb7c77f2a44c260980b76a9a",
+      "size": 9326,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/0e82f8bcd2ece2b5bb7c77f2a44c260980b76a9a"
+    },
+    {
+      "path": "mimic.min.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f70465ea701b90361be67beb2e28c2ef3ae55999",
+      "size": 4795,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/f70465ea701b90361be67beb2e28c2ef3ae55999"
+    },
+    {
+      "path": "next.config.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5cbc38998096a82f53e59875c4474a037c4bf24",
+      "size": 228,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/f5cbc38998096a82f53e59875c4474a037c4bf24"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de8a23c6168ae076c3221ba405aa1dfe520db0be",
+      "size": 2160,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/de8a23c6168ae076c3221ba405aa1dfe520db0be"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b93bc7974327f20a7e6aafb4a741b31561c045ef",
+      "size": 142352,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/b93bc7974327f20a7e6aafb4a741b31561c045ef"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a69fd2a450afc3bf47e08b22c149190df0ffdb4",
+      "size": 135,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/1a69fd2a450afc3bf47e08b22c149190df0ffdb4"
+    },
+    {
+      "path": "public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d705be1e9e9ad99e1548af7e16d5cb64cea7ec7d",
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/trees/d705be1e9e9ad99e1548af7e16d5cb64cea7ec7d"
+    },
+    {
+      "path": "public/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6bff2c38a4b605d95978fe76f9217624849a41b",
+      "size": 2823,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/d6bff2c38a4b605d95978fe76f9217624849a41b"
+    },
+    {
+      "path": "public/mimic.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b6078db5772d9cd86e45694fb71b7bae8df1c49",
+      "size": 16242,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/9b6078db5772d9cd86e45694fb71b7bae8df1c49"
+    },
+    {
+      "path": "public/placeholder-logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6528839b3f22f0acf7a0e8ab46d267d2f923369e",
+      "size": 958,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/6528839b3f22f0acf7a0e8ab46d267d2f923369e"
+    },
+    {
+      "path": "public/placeholder-logo.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1695aafcd5925a0b3eb122b9e553b8a0f4a0d47",
+      "size": 3208,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/b1695aafcd5925a0b3eb122b9e553b8a0f4a0d47"
+    },
+    {
+      "path": "public/placeholder-user.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6faa819ce703cf0363a8f624b7cee4ecdc8ba049",
+      "size": 2615,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/6faa819ce703cf0363a8f624b7cee4ecdc8ba049"
+    },
+    {
+      "path": "public/placeholder.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6bf2ee648dabcdbf73944f3a9a4d77962e777bc",
+      "size": 1596,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/a6bf2ee648dabcdbf73944f3a9a4d77962e777bc"
+    },
+    {
+      "path": "public/placeholder.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e763910b27fdd9ac872f56baede51bc839402347",
+      "size": 3253,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/e763910b27fdd9ac872f56baede51bc839402347"
+    },
+    {
+      "path": "styles",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e55aa18d17a60d98ceb4aef5d1d5f56ef1f8ca09",
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/trees/e55aa18d17a60d98ceb4aef5d1d5f56ef1f8ca09"
+    },
+    {
+      "path": "styles/globals.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac6844236cb8a3195672afa1ea2867e0853a9618",
+      "size": 2428,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/ac6844236cb8a3195672afa1ea2867e0853a9618"
+    },
+    {
+      "path": "tailwind.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d7ff66326c57f6697ce26e63082fa85325d0b3c",
+      "size": 2570,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/8d7ff66326c57f6697ce26e63082fa85325d0b3c"
+    },
+    {
+      "path": "tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b2dc7ba6272c0b64b5638838d179ba93896ad80",
+      "size": 595,
+      "url": "https://api.github.com/repos/erictreacy/Mimic.css/git/blobs/4b2dc7ba6272c0b64b5638838d179ba93896ad80"
+    }
+  ],
+  "truncated": false
+}

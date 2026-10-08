@@ -1,0 +1,51 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+/**
+ * Module: Magical FX Pack
+ * Filename: ca__imaginative.css
+ */
+.ca__fx-sparklePopIn {
+  animation-name: sparklePopIn;
+  animation-timing-function: ease-out;
+  transform-origin: center;
+  filter: brightness(1.5);
+  will-change: transform, opacity;
+}
+
+@keyframes sparklePopIn {
+  0% {
+    transform: scale(0.3) rotate(-15deg);
+    opacity: 0;
+    filter: brightness(3) blur(4px);
+  }
+
+  60% {
+    transform: scale(1.1) rotate(5deg);
+    filter: brightness(1.8);
+  }
+
+  100% {
+    transform: scale(1) rotate(0);
+    filter: none;
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

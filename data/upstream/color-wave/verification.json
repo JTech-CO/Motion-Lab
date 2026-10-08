@@ -1,0 +1,23 @@
+{
+  "verifiedAt": "2026-10-09",
+  "items": 1454,
+  "outputSha256": "243e8fdbf5f1b7c72f08f4daa899c6cf550cc2471d524d4e95254e1be45bcf10",
+  "outputBytes": 14214435,
+  "checks": {
+    "schemaPassed": 1454,
+    "exactCodeEqualsColors": 1454,
+    "uniquePaletteMultisets": 1454,
+    "immutableOriginalArtifacts": 25,
+    "offlineByteReproductionWithNetworkAndCatalogAccessForbidden": "passed",
+    "changedOriginalBytesRejected": true,
+    "sourcePathEscapeRejected": true,
+    "completeNoticesRetained": true,
+    "removedUnusedDiscoveryPayloads": 8,
+    "alteredPinnedRevisionRejected": true,
+    "generatedJSONUsesExplicitUTF8AndLF": true,
+    "offlineLFOutputByteReproductionWithNetworkAndCatalogAccessForbidden": "passed",
+    "CRLFNormalizationPreservesEveryParsedJSONValue": true,
+    "CRLFNormalizationPreservesAuditedOriginalFiles": 25
+  },
+  "method": "Offline import with urllib.urlopen and evolving catalog reads blocked, output writes captured with explicit UTF-8/LF checked; parsed JSON before/after CRLF normalization identical; original 25 source hashes unchanged; artifact corruption, path traversal and source pin changes rejected without modifying original files."
+}

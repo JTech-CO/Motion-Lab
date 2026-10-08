@@ -1,0 +1,38 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-joltZoom {
+  animation-name: joltZoom;
+}
+
+@keyframes joltZoom {
+  10% {
+    font-size: 140%;
+  }
+
+  40% {
+    font-size: 80%;
+  }
+
+  100% {
+    font-size: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

@@ -1,0 +1,44 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-enchantFloatDrop {
+  animation: enchantFloatDrop 1.6s ease-in-out both;
+  transform-origin: center;
+}
+
+@keyframes enchantFloatDrop {
+  0% {
+    transform: translateY(-100%) scale(1.2);
+    opacity: 0;
+    filter: brightness(1.5) blur(3px);
+  }
+
+  70% {
+    transform: translateY(5%) scale(1.05);
+    filter: blur(1px);
+  }
+
+  100% {
+    transform: translateY(0%) scale(1);
+    opacity: 1;
+    filter: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

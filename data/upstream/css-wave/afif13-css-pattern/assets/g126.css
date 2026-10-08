@@ -1,0 +1,7 @@
+#g126 {
+  --s: 50px; /* control the size */
+  
+  --g:conic-gradient(at 90% 40%,#0000 75%,#774F38 0);
+  background: var(--g),var(--g) var(--s) var(--s) #F1D4AF;
+  background-size: calc(2*var(--s)) calc(2*var(--s));
+}

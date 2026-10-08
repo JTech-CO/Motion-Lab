@@ -1,0 +1,51 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+/**
+ * Module: Quake & Quiver Series
+ * Filename: ca__quake.css
+ */
+.ca__fx-jiggle {
+  animation: jiggle var(--jiggle-duration, 0.8s) ease-in-out both;
+}
+
+@keyframes jiggle {
+  0%,
+  100% {
+    transform: translateX(0) rotate(0);
+  }
+
+  20% {
+    transform: translateX(var(--jiggle-intensity, 2px)) rotate(var(--jiggle-rotate, 1deg));
+  }
+
+  40% {
+    transform: translateX(calc(var(--jiggle-intensity, 2px) * -1)) rotate(calc(var(--jiggle-rotate, 1deg) * -1));
+  }
+
+  60% {
+    transform: translateX(calc(var(--jiggle-intensity, 2px) * 0.5)) rotate(calc(var(--jiggle-rotate, 1deg) * 0.5));
+  }
+
+  80% {
+    transform: translateX(calc(var(--jiggle-intensity, 2px) * -0.5)) rotate(calc(var(--jiggle-rotate, 1deg) * -0.5));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

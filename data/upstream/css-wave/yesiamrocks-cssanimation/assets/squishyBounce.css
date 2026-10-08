@@ -1,0 +1,45 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-squishyBounce {
+  animation: squishyBounce 1.4s ease-in-out infinite;
+  transform-origin: bottom center;
+  display: inline-block;
+}
+
+@keyframes squishyBounce {
+  0%,
+  100% {
+    transform: translateY(0) scale(1, 1);
+  }
+
+  25% {
+    transform: translateY(-30%) scale(1.1, 0.9);
+  }
+
+  50% {
+    transform: translateY(0) scale(0.95, 1.05);
+  }
+
+  75% {
+    transform: translateY(-15%) scale(1.05, 0.95);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

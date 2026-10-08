@@ -1,0 +1,14 @@
+#g98 {
+  --s: 150px; /* control the size */
+  
+  --c:#0000,#5E9FA3 2deg 133deg,#0000 135deg;
+  --g1:conic-gradient(from -112.5deg at 25% 25%,var(--c));
+  --g2:conic-gradient(from -22.5deg  at 75% 25%,var(--c));
+  --g3:conic-gradient(from  67.5deg  at 75% 75%,var(--c));
+  --g4:conic-gradient(from 157.5deg  at 25% 75%,var(--c));
+  background: 
+    var(--g1),var(--g1),var(--g2),var(--g2),
+    var(--g3),var(--g3),var(--g4),var(--g4) #DCD1B4;
+  background-position: 0 0,calc(var(--s)/2) calc(var(--s)/2);
+  background-size: var(--s) var(--s);
+}

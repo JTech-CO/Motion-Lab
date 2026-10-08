@@ -1,0 +1,40 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-floatingOrb {
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle at 60% 40%, #fff5cc, #ff00cc);
+  border-radius: 50%;
+  animation: floatingOrb 3.5s ease-in-out infinite;
+  filter: drop-shadow(0 0 12px rgba(255,0,204,0.66667));
+}
+
+@keyframes floatingOrb {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+
+  50% {
+    transform: translateY(-12%) scale(1.05);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

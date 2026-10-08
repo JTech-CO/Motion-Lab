@@ -1,0 +1,50 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-rainbowText {
+  animation: rainbow 3s linear infinite;
+}
+
+@keyframes rainbow {
+  0% {
+    color: red;
+  }
+
+  20% {
+    color: orange;
+  }
+
+  40% {
+    color: yellow;
+  }
+
+  60% {
+    color: green;
+  }
+
+  80% {
+    color: blue;
+  }
+
+  100% {
+    color: violet;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

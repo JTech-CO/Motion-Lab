@@ -1,0 +1,49 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-bounceOutBottom {
+  animation-name: bounceOutBottom;
+}
+
+@keyframes bounceOutBottom {
+  18%,
+  33%,
+  48% {
+    opacity: 1;
+  }
+
+  18% {
+    transform: translate3d(0, -27px, 0);
+  }
+
+  33% {
+    transform: translate3d(0, 12px, 0);
+  }
+
+  48% {
+    transform: translate3d(0, -8px, 0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(0, 300%, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

@@ -1,0 +1,54 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-coolHorizontalShake {
+  animation-name: coolHorizontalShake;
+  animation-iteration-count: infinite;
+}
+
+@keyframes coolHorizontalShake {
+  3%,
+  21%,
+  39%,
+  57%,
+  74%,
+  92% {
+    transform: translateX(5px);
+  }
+
+  6%,
+  24%,
+  42%,
+  60%,
+  77%,
+  95% {
+    transform: translateX(3px);
+  }
+
+  9%,
+  27%,
+  45%,
+  63%,
+  80%,
+  98% {
+    transform: translateX(-5px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

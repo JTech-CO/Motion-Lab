@@ -1,0 +1,35 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-skewInRight {
+  animation-name: skewInRight;
+}
+
+@keyframes skewInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%) skewX(40deg);
+  }
+
+  70% {
+    transform: skewX(30deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

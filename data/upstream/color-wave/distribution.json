@@ -1,0 +1,62 @@
+{
+  "verifiedAt": "2026-10-09",
+  "scope": "Only explicitly listed unused source payload files removed; discovery and licensing audit retained",
+  "removedArtifacts": [
+    {
+      "path": "data/upstream/color-wave/paletteer/data-raw/paletteer_packages.csv",
+      "bytes": 3780,
+      "sha256": "e2092eb227df1b51f5584a09128401aeb10802528711557c41804c0b113164ef",
+      "stored": false,
+      "reason": "Discovery only; aggregated or unlicensed color payload not included in the catalog or distribution"
+    },
+    {
+      "path": "data/upstream/color-wave/paletteer/data-raw/palettes_d.json",
+      "bytes": 721129,
+      "sha256": "b98c9e696f80b4f7cf832c8e7146db4ee3ac96df327bc9bacc56e3db40d8942a",
+      "stored": false,
+      "reason": "Discovery only; aggregated or unlicensed color payload not included in the catalog or distribution"
+    },
+    {
+      "path": "data/upstream/color-wave/paletteer/data-raw/palettes_d.R",
+      "bytes": 22535,
+      "sha256": "12f41da3650abc68c23a1aed3c090b7f4a0819b083a6751d6a80b9f73dade365",
+      "stored": false,
+      "reason": "Discovery only; aggregated or unlicensed color payload not included in the catalog or distribution"
+    },
+    {
+      "path": "data/upstream/color-wave/paletteer/data-raw/palettes_dynamic.json",
+      "bytes": 77806,
+      "sha256": "5bdd1d1ca65b3bafc075c2f95547a3d384a683c6be1071c07eebb60e1a9d59d9",
+      "stored": false,
+      "reason": "Discovery only; aggregated or unlicensed color payload not included in the catalog or distribution"
+    },
+    {
+      "path": "data/upstream/color-wave/paletteer/data-raw/palettes_d_names.csv",
+      "bytes": 101670,
+      "sha256": "227d0dbe186eefd707e7203dedc8787b006bfd77e130e72ab2669626910cea2d",
+      "stored": false,
+      "reason": "Discovery only; aggregated or unlicensed color payload not included in the catalog or distribution"
+    },
+    {
+      "path": "data/upstream/color-wave/pypalettes/pypalettes/palettes.csv",
+      "bytes": 1333304,
+      "sha256": "df69c475b8dd6c7ca049525d604f2529f91b018c214aac76016d39a63ec8f7b3",
+      "stored": false,
+      "reason": "Discovery only; aggregated or unlicensed color payload not included in the catalog or distribution"
+    },
+    {
+      "path": "data/upstream/color-wave/beyonce/data/beyonce_palettes.RData",
+      "bytes": 5259,
+      "sha256": "2815c7ddc1d68a5da80be959be626f0ce7ac4cd5a0d80fcff5428523e1a46184",
+      "stored": false,
+      "reason": "Discovery only; aggregated or unlicensed color payload not included in the catalog or distribution"
+    },
+    {
+      "path": "data/upstream/color-wave/beyonce/R/beyonce.R",
+      "bytes": 99,
+      "sha256": "236926b150fcd2d276f2f1c0eb86e9c0b151df3d60966e4574d9c72efd2139d4",
+      "stored": false,
+      "reason": "Discovery only; aggregated or unlicensed color payload not included in the catalog or distribution"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+#g107 {
+  --s: 60px; /* control the size */
+  --c1:#542437;
+  --c2:#CFBE27;
+  
+  --p: calc(var(--s)/2)/calc(2*var(--s)) var(--s);
+  background:
+    radial-gradient(var(--s),var(--c1) 49%,#0000 50%) var(--s) var(--p),
+    radial-gradient(var(--s),var(--c2) 49%,#0000 50%) 0        var(--p),
+    linear-gradient(var(--c1) 50%,var(--c2) 0) 0 0/1% calc(2*var(--s));
+}

@@ -1,0 +1,45 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+/**
+ * Module: Elevate
+ * Filename: ca__Elevate.css
+ */
+.ca__fx-elevateLeft {
+  animation-name: elevateLeft;
+}
+
+@keyframes elevateLeft {
+  0% {
+    transform: translateY(100%) rotate(-20deg);
+    transform-origin: right;
+  }
+
+  40% {
+    transform: rotate(20deg);
+    transform-origin: right;
+  }
+
+  65% {
+    transform: rotate(0deg);
+    transform-origin: right;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

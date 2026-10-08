@@ -1,0 +1,42 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+/**
+ * Module: Orbit Reveal Animations
+ * Filename: cs__orbitReveal.css
+ */
+.ca__fx-orbitRevealLeft {
+  animation: orbitRevealLeft 1.2s ease-out forwards;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+@keyframes orbitRevealLeft {
+  0% {
+    transform: rotateY(-90deg) translateX(-300px) translateZ(-200px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: rotateY(0deg) translateX(0) translateZ(0);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

@@ -1,0 +1,10 @@
+#g96 {
+  --s: 90px; /* control the size */
+  
+  --_s:0 0/var(--s) var(--s);
+  background:
+    radial-gradient(#0000 50%,#0002 54%,#DAD8A7 57%) var(--_s),
+    radial-gradient(circle at 40% 30%,#0000 4%,#000 90%) var(--_s),
+    repeating-conic-gradient(#FF3D7F 0 25%,#34DFD2 0 50%)
+     0 0/calc(2*var(--s)) calc(2*var(--s));
+}

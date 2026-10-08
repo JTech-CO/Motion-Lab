@@ -1,0 +1,40 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-mask-wipeOutLeft {
+  -webkit-mask-image: linear-gradient(to right, black 50%, transparent 50%);
+  mask-image: linear-gradient(to right, black 50%, transparent 50%);
+  -webkit-mask-size: 200% 100%;
+  mask-size: 200% 100%;
+  animation-name: mask-wipeOutLeft;
+}
+
+@keyframes mask-wipeOutLeft {
+  0% {
+    -webkit-mask-position: 0 0;
+    mask-position: 0 0;
+  }
+
+  100% {
+    -webkit-mask-position: -100% 0;
+    mask-position: -100% 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

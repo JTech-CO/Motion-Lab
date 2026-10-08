@@ -1,0 +1,54 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-quietMad {
+  animation-name: quietMad;
+  animation-iteration-count: infinite;
+}
+
+@keyframes quietMad {
+  3%,
+  21%,
+  39%,
+  57%,
+  74%,
+  92% {
+    transform: translateY(5px) scale(1.1);
+  }
+
+  6%,
+  24%,
+  42%,
+  60%,
+  77%,
+  95% {
+    transform: translateY(3px) scale(0.8);
+  }
+
+  9%,
+  27%,
+  45%,
+  63%,
+  80%,
+  98% {
+    transform: translateY(-5px) scale(1.1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

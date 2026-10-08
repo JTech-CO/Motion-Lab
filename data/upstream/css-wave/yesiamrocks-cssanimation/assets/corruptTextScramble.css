@@ -1,0 +1,46 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-corruptTextScramble {
+  animation: corruptTextScramble 1.2s infinite steps(2, end);
+  color: #ff0059;
+  text-shadow: 0 0 4px #ff0059;
+}
+
+@keyframes corruptTextScramble {
+  0% {
+    opacity: 1;
+    transform: skewX(0);
+    filter: hue-rotate(0deg);
+  }
+
+  50% {
+    opacity: 0.6;
+    transform: skewX(15deg);
+    filter: hue-rotate(180deg);
+  }
+
+  100% {
+    opacity: 1;
+    transform: skewX(0);
+    filter: hue-rotate(0deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

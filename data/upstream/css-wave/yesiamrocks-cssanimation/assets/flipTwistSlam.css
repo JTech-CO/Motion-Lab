@@ -1,0 +1,43 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-flipTwistSlam {
+  animation-name: flipTwistSlam;
+  transform-origin: center left;
+  will-change: transform, opacity;
+  animation-timing-function: cubic-bezier(0.3, 1.5, 0.4, 1);
+}
+
+@keyframes flipTwistSlam {
+  0% {
+    transform: perspective(800px) rotateY(-120deg) rotateZ(20deg);
+    opacity: 0;
+  }
+
+  70% {
+    transform: rotateY(15deg) rotateZ(-10deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: rotateY(0deg) rotateZ(0deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

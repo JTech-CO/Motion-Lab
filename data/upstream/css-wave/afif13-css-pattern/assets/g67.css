@@ -1,0 +1,8 @@
+#g67 {
+  --s: 100px; /* control the size */
+  
+  background:
+    conic-gradient(#0000 75%,#CFF09E 0) 0 calc(var(--s)/4),
+    conic-gradient(from 45deg,#CFF09E 25%,#3B8686 0);
+  background-size: var(--s) var(--s);
+}

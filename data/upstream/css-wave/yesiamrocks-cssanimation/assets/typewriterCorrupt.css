@@ -1,0 +1,53 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-typewriterCorrupt {
+  animation: typewriterCorrupt 1.5s steps(2, end) infinite;
+}
+
+@keyframes typewriterCorrupt {
+  0% {
+    transform: translate(0, 0);
+    opacity: 1;
+    filter: none;
+  }
+
+  25% {
+    transform: translate(-1px, 0);
+    filter: blur(1px) hue-rotate(30deg);
+  }
+
+  50% {
+    transform: translate(1px, 0);
+    filter: grayscale(0.5);
+  }
+
+  75% {
+    transform: translate(-0.5px, 0);
+    opacity: 0.9;
+  }
+
+  100% {
+    transform: translate(0, 0);
+    filter: none;
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

@@ -1,0 +1,14 @@
+#g103 {
+  --s: 50px; /* control the size */
+  
+  --c:calc(50%/3),#0000 75%,#5E412F 0; /* 1st color */
+  --g:conic-gradient(at 50% var(--c));
+  --l:conic-gradient(at var(--c));
+  background:
+    var(--g),
+    var(--g) calc(var(--s)/2) var(--s),
+    var(--g) var(--s) calc(2*var(--s)),
+    var(--l) calc(2*var(--s)) 0,
+    var(--l) 0 var(--s) #CCC68D; /* 2nd color */
+  background-size: calc(3*var(--s)) calc(3*var(--s));
+}

@@ -1,0 +1,30 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-flipTwistTiltHover {
+  display: inline-block;
+  transform-origin: center;
+  transition: transform 0.4s ease-in-out;
+}
+
+.ca__fx-flipTwistTiltHover:hover {
+  transform: perspective(900px) rotateZ(10deg) rotateY(20deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

@@ -1,0 +1,43 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-spiralTwistIn {
+  animation-name: spiralTwistIn;
+  animation-timing-function: ease-out;
+  transform-origin: center;
+  will-change: transform, opacity;
+}
+
+@keyframes spiralTwistIn {
+  0% {
+    transform: scale(0) rotate(720deg);
+    opacity: 0;
+  }
+
+  60% {
+    transform: scale(1.05) rotate(-30deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

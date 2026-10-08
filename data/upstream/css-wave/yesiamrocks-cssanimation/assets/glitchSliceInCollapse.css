@@ -1,0 +1,49 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-glitchSliceInCollapse {
+  animation-name: glitchSliceInCollapse;
+  animation-timing-function: steps(5 end);
+}
+
+@keyframes glitchSliceInCollapse {
+  0% {
+    opacity: 0;
+    transform: scaleY(0);
+    clip-path: inset(100% 0 0 0);
+  }
+
+  40% {
+    transform: scaleY(0.6);
+    clip-path: inset(60% 0 10% 0);
+  }
+
+  70% {
+    transform: scaleY(0.9);
+    clip-path: inset(20% 0 20% 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scaleY(1);
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

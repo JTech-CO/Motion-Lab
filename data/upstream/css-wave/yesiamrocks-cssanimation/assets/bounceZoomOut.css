@@ -1,0 +1,50 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-bounceZoomOut {
+  animation-name: bounceZoomOut;
+}
+
+@keyframes bounceZoomOut {
+  0%,
+  25%,
+  55%,
+  85%,
+  100% {
+    animation-timing-function: ease-out;
+    transform: scale(1);
+  }
+
+  41%,
+  44% {
+    animation-timing-function: ease-in;
+    transform: scale(0.3);
+  }
+
+  70% {
+    animation-timing-function: ease-in;
+    transform: scale(0.5);
+  }
+
+  90% {
+    transform: scale(0.9);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

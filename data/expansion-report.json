@@ -1,0 +1,24 @@
+{
+  "baseline": 2153,
+  "added": 3955,
+  "inputs": {
+    "css-wave-items.json": {
+      "input": 644,
+      "accepted": 644,
+      "duplicates": 0
+    },
+    "vector-wave-items.json": {
+      "input": 1857,
+      "accepted": 1857,
+      "duplicates": 0
+    },
+    "color-wave-items.json": {
+      "input": 1454,
+      "accepted": 1454,
+      "duplicates": 0
+    }
+  },
+  "duplicatePolicy": "Ordered hex arrays, CSS bodies with comments/whitespace normalized, and canonical SVG XML; existing IDs are retained.",
+  "excluded": [],
+  "total": 6108
+}

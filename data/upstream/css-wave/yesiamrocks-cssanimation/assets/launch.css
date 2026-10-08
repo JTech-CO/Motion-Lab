@@ -1,0 +1,50 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-launch {
+  animation: launch var(--launch-duration, 0.8s) ease-out infinite;
+}
+
+@keyframes launch {
+  0% {
+    transform: translateY(0);
+  }
+
+  20% {
+    transform: translateY(calc(var(--launch-height, 2rem) * -1.2));
+  }
+
+  40% {
+    transform: translateY(calc(var(--launch-height, 2rem) * 0.5));
+  }
+
+  60% {
+    transform: translateY(calc(var(--launch-height, 2rem) * -0.3));
+  }
+
+  80% {
+    transform: translateY(calc(var(--launch-height, 2rem) * 0.15));
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

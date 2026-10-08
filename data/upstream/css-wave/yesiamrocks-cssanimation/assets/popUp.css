@@ -1,0 +1,44 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-popUp {
+  animation: popUp var(--popUp-duration, 0.5s) ease-out both;
+}
+
+@keyframes popUp {
+  0% {
+    transform: scale(0.95) translateY(0);
+    opacity: 0;
+  }
+
+  60% {
+    transform: scale(1.05) translateY(calc(var(--popUp-height, 8px) * -1));
+    opacity: 1;
+  }
+
+  80% {
+    transform: scale(0.98) translateY(calc(var(--popUp-height, 8px) * -0.3));
+  }
+
+  100% {
+    transform: scale(1) translateY(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

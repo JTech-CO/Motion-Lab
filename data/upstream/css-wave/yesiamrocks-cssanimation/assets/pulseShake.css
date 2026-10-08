@@ -1,0 +1,43 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-pulseShake {
+  animation-name: pulseShake;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulseShake {
+  90% {
+    transform: scale(1);
+  }
+
+  92% {
+    transform: scale(1.2);
+  }
+
+  96% {
+    transform: scale(1, 1);
+  }
+
+  98% {
+    transform: scale(1.1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

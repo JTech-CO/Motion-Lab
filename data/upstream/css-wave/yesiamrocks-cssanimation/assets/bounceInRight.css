@@ -1,0 +1,42 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-bounceInRight {
+  animation-name: bounceInRight;
+}
+
+@keyframes bounceInRight {
+  0% {
+    transform: translate3d(300%, 0, 0);
+  }
+
+  58% {
+    transform: translate3d(-27px, 0, 0);
+  }
+
+  73% {
+    transform: translate3d(12px, 0, 0);
+  }
+
+  88% {
+    transform: translate3d(-8px, 0, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

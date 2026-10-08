@@ -1,0 +1,49 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+/**
+ * Module: Step Animation
+ * Filename: ca__step.css
+ */
+.ca__fx-stepTypeIn {
+  animation: stepTypeIn 1.2s steps(10, end) forwards;
+  white-space: nowrap;
+  overflow: hidden;
+  will-change: opacity, transform;
+}
+
+@keyframes stepTypeIn {
+  0% {
+    transform: translateY(10px);
+    opacity: 0;
+    clip-path: inset(0 100% 0 0);
+  }
+
+  80% {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

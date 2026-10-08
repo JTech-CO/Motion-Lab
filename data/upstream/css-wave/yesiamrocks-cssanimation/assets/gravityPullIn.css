@@ -1,0 +1,42 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-gravityPullIn {
+  animation-name: gravityPullIn;
+  animation-timing-function: ease-out;
+  will-change: transform, opacity;
+}
+
+@keyframes gravityPullIn {
+  0% {
+    transform: scale(2) translateY(-100%) rotate(-10deg);
+    opacity: 0;
+  }
+
+  80% {
+    transform: scale(1.05) translateY(0%) rotate(2deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

@@ -1,0 +1,11 @@
+#g20 {
+  --s: 64px; /* control the size */
+  --c1: #EB6841;
+  --c2: #EDC951;
+  
+  background:
+    conic-gradient(from -45deg,var(--c1) 90deg,#0000 0 180deg,var(--c2) 0 270deg,#0000 0)   
+      0 calc(var(--s)/2)/var(--s) var(--s),    
+    conic-gradient(from 135deg at 50% 0,var(--c1) 90deg,var(--c2) 0)  
+      0 0/calc(2*var(--s)) var(--s); 
+}

@@ -1,0 +1,45 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-swingDropKite {
+  animation-name: swingDropKite;
+  transform-origin: top right;
+}
+
+@keyframes swingDropKite {
+  0% {
+    transform: translate(-30%, -100%) rotate(20deg);
+    opacity: 0;
+  }
+
+  40% {
+    transform: translate(10%, 20%) rotate(-15deg);
+    opacity: 1;
+  }
+
+  70% {
+    transform: translate(-5%, -5%) rotate(5deg);
+  }
+
+  100% {
+    transform: translate(0%, 0%) rotate(0deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

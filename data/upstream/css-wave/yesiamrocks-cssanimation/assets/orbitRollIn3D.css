@@ -1,0 +1,37 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-orbitRollIn3D {
+  animation-name: orbitRollIn3D;
+  transform-style: preserve-3d;
+}
+
+@keyframes orbitRollIn3D {
+  0% {
+    transform: rotateX(-360deg) translateY(-200px) scale(0.7);
+    opacity: 0;
+  }
+
+  100% {
+    transform: rotateX(0deg) translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

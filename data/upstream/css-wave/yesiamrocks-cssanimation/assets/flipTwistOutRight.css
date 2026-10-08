@@ -1,0 +1,43 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-flipTwistOutRight {
+  animation-name: flipTwistOutRight;
+  transform-origin: center right;
+  will-change: transform, opacity;
+}
+
+@keyframes flipTwistOutRight {
+  0% {
+    transform: rotateY(0deg) rotateZ(0deg);
+    opacity: 1;
+  }
+
+  60% {
+    transform: rotateY(-20deg) rotateZ(10deg);
+    opacity: 0.7;
+  }
+
+  100% {
+    transform: rotateY(90deg) rotateZ(-15deg);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

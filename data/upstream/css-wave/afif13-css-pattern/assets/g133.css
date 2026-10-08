@@ -1,0 +1,11 @@
+#g133 {
+  --s: 96px; /* control the size */
+  
+  --g:#000 0 25%,#fff 0 50%;
+  background:
+    repeating-conic-gradient(from 45deg,var(--g)) 
+     0 0/var(--s) var(--s),
+    repeating-conic-gradient(var(--g)) 
+     0 0/calc(2*var(--s)) calc(2*var(--s));
+  background-blend-mode: difference;
+}

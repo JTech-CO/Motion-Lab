@@ -1,0 +1,39 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-doorCloseFromRight {
+  animation-name: doorCloseFromRight;
+}
+
+@keyframes doorCloseFromRight {
+  0% {
+    transform: perspective(400px) rotateY(-90deg);
+    transform-origin: right;
+    opacity: 0;
+  }
+
+  50%,
+  100% {
+    transform: perspective(400px) rotateY(0deg);
+    transform-origin: right;
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

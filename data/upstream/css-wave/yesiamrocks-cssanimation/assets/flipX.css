@@ -1,0 +1,42 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+/**
+ * Module: Flip X
+ * Filename: ca__FlipX.css
+ */
+.ca__fx-flipX {
+  animation-name: flipX;
+  backface-visibility: var(--cssanimation-backface-visibility);
+  transform-style: var(--cssanimation-transform-style);
+  will-change: var(--cssanimation-will-change);
+}
+
+@keyframes flipX {
+  from {
+    transform: perspective(600px) rotateX(-180deg);
+    opacity: 0;
+  }
+
+  to {
+    transform: perspective(600px) rotateX(-360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

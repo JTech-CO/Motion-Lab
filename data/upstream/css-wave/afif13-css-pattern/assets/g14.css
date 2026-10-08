@@ -1,0 +1,13 @@
+#g14 {
+  --s: 90px; /* control the size */
+  --d: 5px;  /* control the gap between stars */
+  
+  --_g: #fff220 36deg, #0000 0;   
+  background:
+    conic-gradient(from 162deg at calc(var(--s) * .5)  calc(var(--s) * .68), var(--_g)),
+    conic-gradient(from 18deg  at calc(var(--s) * .19) calc(var(--s) * .59), var(--_g)),
+    conic-gradient(from 306deg at calc(var(--s) * .81) calc(var(--s) * .59), var(--_g)),
+    #e181c2;
+  background-position: 0 calc(var(--s) * 0.35);
+  background-size: calc(var(--s) + var(--d)) calc(var(--s) + var(--d));
+}

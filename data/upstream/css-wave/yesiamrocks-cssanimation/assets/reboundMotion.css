@@ -1,0 +1,39 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-reboundMotion {
+  animation: reboundMotion 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) both;
+  transform-origin: bottom center; /* For vertical rebound */
+}
+
+@keyframes reboundMotion {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-50px);
+  } /* Move up */
+
+  100% {
+    transform: translateY(0);
+  } /* Rebound with overshoot */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

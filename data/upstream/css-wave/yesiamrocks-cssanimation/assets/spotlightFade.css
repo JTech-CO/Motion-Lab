@@ -1,0 +1,41 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-spotlightFade {
+  animation-name: spotlightFade;
+  animation-timing-function: ease-out;
+  transform-origin: center;
+  will-change: transform, opacity;
+}
+
+@keyframes spotlightFade {
+  0% {
+    filter: brightness(1) blur(0);
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  100% {
+    filter: brightness(0.3) blur(6px);
+    opacity: 0;
+    transform: scale(0.9);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

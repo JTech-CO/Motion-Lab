@@ -1,0 +1,37 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-orbitPopTwistIn {
+  animation-name: orbitPopTwistIn;
+  transform-style: preserve-3d;
+}
+
+@keyframes orbitPopTwistIn {
+  0% {
+    transform: scale(0.4) rotateX(-180deg) rotateY(-180deg) translateZ(-300px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1) rotateX(0) rotateY(0) translateZ(0);
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

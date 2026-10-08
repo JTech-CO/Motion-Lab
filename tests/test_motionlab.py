@@ -89,6 +89,31 @@ class LibraryTest(unittest.TestCase):
         self.assertEqual(stats["sources"], 1)
         self.assertIsNone(self.catalog.get("inspiration"))
 
+    def test_wave_inputs_publish_full_records_and_exclude_body_duplicates(self):
+        duplicate = dict(self.items[0], id="wave-copy", sourceUrl="https://example.org/another-project",
+                         licenseText="Fixture permission notice")
+        new = dict(self.items[0], id="wave-new", title="New stored effect", sourceUrl="https://example.org/new",
+                   code=".sample{opacity:.5}", licenseText="Fixture permission notice")
+        (self.root / "data" / "css-wave-items.json").write_text(json.dumps([duplicate, new]), encoding="utf-8")
+        stats = build(self.root)
+        self.assertEqual(stats["total"], 4)
+        self.assertIsNone(self.catalog.get("wave-copy"))
+        self.assertEqual(self.catalog.get("wave-new")["licenseText"], "Fixture permission notice")
+        report = json.loads((self.root / "data" / "expansion-report.json").read_text(encoding="utf-8"))
+        self.assertEqual(report["excluded"][0]["sameAs"], "pulse")
+        self.assertEqual(report["added"], 1)
+        published = json.loads((self.root / "dist" / "catalog.json").read_text(encoding="utf-8"))
+        self.assertEqual({entry["id"] for entry in published["items"]}, {"pulse", "wipe", "inspiration", "wave-new"})
+
+    def test_wave_classes_can_share_bundle_url_and_display_title(self):
+        first = dict(self.items[0], id="class-one", title="Aurora", sourceUrl="https://example.org/bundle.css",
+                     code=".card{opacity:.5}", licenseText="Fixture permission notice")
+        second = dict(first, id="class-two", code=".button{transform:scale(1.2)}")
+        (self.root / "data" / "css-wave-items.json").write_text(json.dumps([first, second]), encoding="utf-8")
+        self.assertEqual(build(self.root)["total"], 5)
+        self.assertIsNotNone(self.catalog.get("class-one"))
+        self.assertIsNotNone(self.catalog.get("class-two"))
+
     def test_http_paths_headers_arguments_and_read_only(self):
         server = make_server(self.root, 0)
         worker = threading.Thread(target=server.serve_forever, daemon=True)

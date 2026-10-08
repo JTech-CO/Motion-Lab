@@ -1,0 +1,43 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-scanReveal {
+  animation-name: scanReveal;
+  animation-timing-function: ease-out;
+  transform-origin: center;
+  will-change: transform, opacity;
+}
+
+@keyframes scanReveal {
+  0% {
+    transform: scaleY(0) skewY(-20deg);
+    opacity: 0;
+  }
+
+  60% {
+    transform: scaleY(1.1) skewY(5deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scaleY(1) skewY(0deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

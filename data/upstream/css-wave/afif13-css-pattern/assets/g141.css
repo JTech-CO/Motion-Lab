@@ -1,0 +1,9 @@
+#g141 {
+  --s: 100px; /* control the size */
+  
+  --c:#333 20% 30%;
+  background:
+    linear-gradient(135deg,#0000 20%,var(--c),#0000 0),
+    repeating-linear-gradient(45deg,var(--c),#D3643B 0 70%);
+  background-size: var(--s) var(--s);
+}

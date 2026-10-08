@@ -1,0 +1,39 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-moonFadeStrong {
+  animation: moonFadeStrong 1.5s ease-out both;
+  will-change: transform, opacity;
+}
+
+@keyframes moonFadeStrong {
+  0% {
+    transform: scale(1.1) rotate(-2deg);
+    opacity: 0;
+    filter: brightness(0.2) blur(12px);
+  }
+
+  100% {
+    transform: scale(1) rotate(0deg);
+    opacity: 1;
+    filter: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

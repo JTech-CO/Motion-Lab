@@ -1,0 +1,489 @@
+{
+  "sha": "b26b25f8c70d1412a73a0bf046c980710843dfca",
+  "url": "https://api.github.com/repos/jonsuh/hamburgers/git/trees/b26b25f8c70d1412a73a0bf046c980710843dfca",
+  "tree": [
+    {
+      "path": ".csscomb.dist.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09e81d1d807dc14d4c4df86e48ea69611af1feb8",
+      "size": 7536,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/09e81d1d807dc14d4c4df86e48ea69611af1feb8"
+    },
+    {
+      "path": ".editorconfig",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4039ff11154a8acc4991d32fc3da2795ff3ac467",
+      "size": 188,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/4039ff11154a8acc4991d32fc3da2795ff3ac467"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cbdc0fc69168a15ba531855d005b09c3aa10529",
+      "size": 62,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/6cbdc0fc69168a15ba531855d005b09c3aa10529"
+    },
+    {
+      "path": ".npmignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6354e58d741056a0752940666c920a3f305f65d6",
+      "size": 122,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/6354e58d741056a0752940666c920a3f305f65d6"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b2796e3d37eada9097d8d1baa0f83a617b9c900",
+      "size": 3278,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/2b2796e3d37eada9097d8d1baa0f83a617b9c900"
+    },
+    {
+      "path": "Gemfile",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa75df15632305f9badb9a7ac0028e4b2ef4d221",
+      "size": 39,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/fa75df15632305f9badb9a7ac0028e4b2ef4d221"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce6a0af2f702e6665f0e0c043092fedc0b97c527",
+      "size": 1111,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/ce6a0af2f702e6665f0e0c043092fedc0b97c527"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "273b9f93fc7d6325387be269aa69d819d1bf6ab1",
+      "size": 8991,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/273b9f93fc7d6325387be269aa69d819d1bf6ab1"
+    },
+    {
+      "path": "_sass",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "747bdba59f2b4f9f0f73330b598a94a540d68ba6",
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/trees/747bdba59f2b4f9f0f73330b598a94a540d68ba6"
+    },
+    {
+      "path": "_sass/hamburgers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ef0caf779e32b362c97b7eed85b941fae99d220e",
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/trees/ef0caf779e32b362c97b7eed85b941fae99d220e"
+    },
+    {
+      "path": "_sass/hamburgers/_base.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb846acb128480e3c625f276ce80ca2a7067b7d5",
+      "size": 1856,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/cb846acb128480e3c625f276ce80ca2a7067b7d5"
+    },
+    {
+      "path": "_sass/hamburgers/hamburgers.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "915746bbad35ded02696ae393950b878b810dbcd",
+      "size": 2964,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/915746bbad35ded02696ae393950b878b810dbcd"
+    },
+    {
+      "path": "_sass/hamburgers/types",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fc49fd5fc393853191de5a7b3a0b310f3dfe7f80",
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/trees/fc49fd5fc393853191de5a7b3a0b310f3dfe7f80"
+    },
+    {
+      "path": "_sass/hamburgers/types/_3dx-r.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d86813b4cc1e808ab7acd82790ed5f72f468a4a",
+      "size": 895,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/3d86813b4cc1e808ab7acd82790ed5f72f468a4a"
+    },
+    {
+      "path": "_sass/hamburgers/types/_3dx.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c38bd7dd9f12a75143e1f6089dad10212b5798ce",
+      "size": 882,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/c38bd7dd9f12a75143e1f6089dad10212b5798ce"
+    },
+    {
+      "path": "_sass/hamburgers/types/_3dxy-r.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c76e0a41d8a6c85b80ca1fdbbf49c8a62d4e009b",
+      "size": 930,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/c76e0a41d8a6c85b80ca1fdbbf49c8a62d4e009b"
+    },
+    {
+      "path": "_sass/hamburgers/types/_3dxy.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e658d57c70da7d4261b354cd51e469707a27c028",
+      "size": 901,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/e658d57c70da7d4261b354cd51e469707a27c028"
+    },
+    {
+      "path": "_sass/hamburgers/types/_3dy-r.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eda3b9ff102d6482c247f510cfeba7ebf39d496c",
+      "size": 894,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/eda3b9ff102d6482c247f510cfeba7ebf39d496c"
+    },
+    {
+      "path": "_sass/hamburgers/types/_3dy.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c6f01a484ba8649967ed4d2f2f99b4fefeb0031",
+      "size": 883,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/7c6f01a484ba8649967ed4d2f2f99b4fefeb0031"
+    },
+    {
+      "path": "_sass/hamburgers/types/_arrow-r.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb77ae9f8ae17e0e3e603b1210ccd33513863267",
+      "size": 381,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/bb77ae9f8ae17e0e3e603b1210ccd33513863267"
+    },
+    {
+      "path": "_sass/hamburgers/types/_arrow.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5946a628d85c5732c81e05195bb7161efe47195",
+      "size": 373,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/a5946a628d85c5732c81e05195bb7161efe47195"
+    },
+    {
+      "path": "_sass/hamburgers/types/_arrowalt-r.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ba3b398fcae4e564415411bf29029c1a8b01bd8",
+      "size": 1065,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/5ba3b398fcae4e564415411bf29029c1a8b01bd8"
+    },
+    {
+      "path": "_sass/hamburgers/types/_arrowalt.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c5f2e2ae357c784f70895f4a221e35a67eb8547",
+      "size": 1057,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/6c5f2e2ae357c784f70895f4a221e35a67eb8547"
+    },
+    {
+      "path": "_sass/hamburgers/types/_arrowturn-r.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "058b6f4e5c6de0c9ebaf5cdadc2fc37863043868",
+      "size": 381,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/058b6f4e5c6de0c9ebaf5cdadc2fc37863043868"
+    },
+    {
+      "path": "_sass/hamburgers/types/_arrowturn.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "759997861ff1f4a9a806b60e068b07587bb17adc",
+      "size": 369,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/759997861ff1f4a9a806b60e068b07587bb17adc"
+    },
+    {
+      "path": "_sass/hamburgers/types/_boring.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23214b488bda89770a1b906bb2d5f8e5d1705aab",
+      "size": 456,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/23214b488bda89770a1b906bb2d5f8e5d1705aab"
+    },
+    {
+      "path": "_sass/hamburgers/types/_collapse-r.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36a80a22bc6ec647675d190fa8079d86387a005c",
+      "size": 1433,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/36a80a22bc6ec647675d190fa8079d86387a005c"
+    },
+    {
+      "path": "_sass/hamburgers/types/_collapse.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93a5231ad87d87f0027a751f234e2dba6d6a7f67",
+      "size": 1423,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/93a5231ad87d87f0027a751f234e2dba6d6a7f67"
+    },
+    {
+      "path": "_sass/hamburgers/types/_elastic-r.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0d4bad8b1975c89c22e2f864a65a6af67b82548",
+      "size": 1082,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/d0d4bad8b1975c89c22e2f864a65a6af67b82548"
+    },
+    {
+      "path": "_sass/hamburgers/types/_elastic.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0fd2e5f56bd3110f09999775086974b6481cb96",
+      "size": 1070,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/e0fd2e5f56bd3110f09999775086974b6481cb96"
+    },
+    {
+      "path": "_sass/hamburgers/types/_emphatic-r.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c5263b047740a2c265bde13624d726533222254",
+      "size": 1701,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/6c5263b047740a2c265bde13624d726533222254"
+    },
+    {
+      "path": "_sass/hamburgers/types/_emphatic.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24fb365be1baa9d710f09d4309e8a09eb7c70911",
+      "size": 1689,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/24fb365be1baa9d710f09d4309e8a09eb7c70911"
+    },
+    {
+      "path": "_sass/hamburgers/types/_minus.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "415f8dc9984b7bfba9497fce60cafa05b8859b2c",
+      "size": 647,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/415f8dc9984b7bfba9497fce60cafa05b8859b2c"
+    },
+    {
+      "path": "_sass/hamburgers/types/_slider-r.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9fd354396df7d7b7e74a06ecf23adc2829db858",
+      "size": 987,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/c9fd354396df7d7b7e74a06ecf23adc2829db858"
+    },
+    {
+      "path": "_sass/hamburgers/types/_slider.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9baf325fe093987e350e925ab08f2dbf019ddd5d",
+      "size": 977,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/9baf325fe093987e350e925ab08f2dbf019ddd5d"
+    },
+    {
+      "path": "_sass/hamburgers/types/_spin-r.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70dc047cf65545da1f58a09e286f4628c155fe8b",
+      "size": 1070,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/70dc047cf65545da1f58a09e286f4628c155fe8b"
+    },
+    {
+      "path": "_sass/hamburgers/types/_spin.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e89da55df20c5f4bc143843de015697325c32fcf",
+      "size": 1058,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/e89da55df20c5f4bc143843de015697325c32fcf"
+    },
+    {
+      "path": "_sass/hamburgers/types/_spring-r.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af099a8f4085af9b847ff5e49c11e584bc342ebe",
+      "size": 1420,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/af099a8f4085af9b847ff5e49c11e584bc342ebe"
+    },
+    {
+      "path": "_sass/hamburgers/types/_spring.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f19cd7c8b4d2d69e2a9ac463af2139b4c61deee",
+      "size": 1511,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/1f19cd7c8b4d2d69e2a9ac463af2139b4c61deee"
+    },
+    {
+      "path": "_sass/hamburgers/types/_squeeze.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e9e946346081b7b0a62e6f3d2bce911152c5bdb",
+      "size": 1060,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/1e9e946346081b7b0a62e6f3d2bce911152c5bdb"
+    },
+    {
+      "path": "_sass/hamburgers/types/_stand-r.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f56b16283b8159d87de54ed24460a064e33fde9d",
+      "size": 1283,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/f56b16283b8159d87de54ed24460a064e33fde9d"
+    },
+    {
+      "path": "_sass/hamburgers/types/_stand.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f391d14ffbe86c5d82d214610d0c62ae49687eef",
+      "size": 1270,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/f391d14ffbe86c5d82d214610d0c62ae49687eef"
+    },
+    {
+      "path": "_sass/hamburgers/types/_vortex-r.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd3bcfa8e6272047eab8ad0c1fad387384a77213",
+      "size": 928,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/cd3bcfa8e6272047eab8ad0c1fad387384a77213"
+    },
+    {
+      "path": "_sass/hamburgers/types/_vortex.scss",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c32942413b36838469bcb14a6ebe4b8064b728a2",
+      "size": 914,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/c32942413b36838469bcb14a6ebe4b8064b728a2"
+    },
+    {
+      "path": "bower.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fd512c46604ec6b0e2dd6ec517c6d483be1b731",
+      "size": 943,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/4fd512c46604ec6b0e2dd6ec517c6d483be1b731"
+    },
+    {
+      "path": "bs-config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f53d2cf8a7c3fa2c815d9af935dd63dbe4836835",
+      "size": 254,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/f53d2cf8a7c3fa2c815d9af935dd63dbe4836835"
+    },
+    {
+      "path": "config.postcss.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c377740eec7e179712c89f11db57fc05c57095b",
+      "size": 91,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/2c377740eec7e179712c89f11db57fc05c57095b"
+    },
+    {
+      "path": "dist",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "705780a4339ce9281a34d2b343f7c46fc4b3d3d7",
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/trees/705780a4339ce9281a34d2b343f7c46fc4b3d3d7"
+    },
+    {
+      "path": "dist/example.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a248c56570452f785ac941fb5aeb9c015d6759a",
+      "size": 7045,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/2a248c56570452f785ac941fb5aeb9c015d6759a"
+    },
+    {
+      "path": "dist/hamburgers.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea552a84b3a2f5cd4325262ea89fe1fee2960ec2",
+      "size": 27398,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/ea552a84b3a2f5cd4325262ea89fe1fee2960ec2"
+    },
+    {
+      "path": "dist/hamburgers.min.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1bb63bff5ec3a67e02ae7c236ff7465e6a8ad00",
+      "size": 22458,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/e1bb63bff5ec3a67e02ae7c236ff7465e6a8ad00"
+    },
+    {
+      "path": "eyeglass-exports.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e26ab70788e3a89af6373d18323210364b3ddd8",
+      "size": 141,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/6e26ab70788e3a89af6373d18323210364b3ddd8"
+    },
+    {
+      "path": "gulpfile.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba38c410b85aa64de98b4606bb341476c39568b6",
+      "size": 1600,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/ba38c410b85aa64de98b4606bb341476c39568b6"
+    },
+    {
+      "path": "hamburgers.gemspec",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "139fa376934d197a853666e6673864a3f301a9e1",
+      "size": 683,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/139fa376934d197a853666e6673864a3f301a9e1"
+    },
+    {
+      "path": "index.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24f3248aae9c5e2041a68c1bcf6afc0cc1ee5cce",
+      "size": 118,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/24f3248aae9c5e2041a68c1bcf6afc0cc1ee5cce"
+    },
+    {
+      "path": "lib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b1cb20df41ae024c678acb538a8f56bb6c483f66",
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/trees/b1cb20df41ae024c678acb538a8f56bb6c483f66"
+    },
+    {
+      "path": "lib/hamburgers.rb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e9f65577f4fddab58e6b26298d6318aa5774c83",
+      "size": 573,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/3e9f65577f4fddab58e6b26298d6318aa5774c83"
+    },
+    {
+      "path": "lib/hamburgers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fde8d730dd57f38aaa175529c1b57488dcdfa920",
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/trees/fde8d730dd57f38aaa175529c1b57488dcdfa920"
+    },
+    {
+      "path": "lib/hamburgers/version.rb",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0068a3eb930667e543c603fa6f570af997d1d385",
+      "size": 42,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/0068a3eb930667e543c603fa6f570af997d1d385"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04d6275d6ae0196989b2938148b2508c355e100e",
+      "size": 241662,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/04d6275d6ae0196989b2938148b2508c355e100e"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3f4780062d817394522097e918d74d5e0a3a535",
+      "size": 1126,
+      "url": "https://api.github.com/repos/jonsuh/hamburgers/git/blobs/c3f4780062d817394522097e918d74d5e0a3a535"
+    }
+  ],
+  "truncated": false
+}

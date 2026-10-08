@@ -1,0 +1,12 @@
+#g25 {
+  --s: 76px; /* control the size */
+  --c1: #F6D86B;
+  --c2: #F10C49;
+  
+  background:
+    conic-gradient(
+      var(--c2)   63.43deg ,var(--c1) 0 116.36deg,
+      var(--c2) 0 180deg   ,var(--c1) 0 243.43deg,
+      var(--c2) 0 296.15deg,var(--c1) 0);
+  background-size: calc(2*var(--s)) var(--s);
+}

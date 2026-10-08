@@ -1,0 +1,13 @@
+#g115 {
+  --s: 120px; /* control the size */
+  --c:#403B33;
+  
+  --g:,var(--c) 25%,#0000 0;
+  background:
+    conic-gradient(from  45deg at 75% 75%var(--g)),
+    conic-gradient(from 135deg at 25% 75%var(--g)),
+    conic-gradient(from -45deg at 75% 25%var(--g)),
+    conic-gradient(from 225deg at 25% 25%var(--g)),
+    repeating-conic-gradient(from -45deg,var(--c) 0 45deg,#E3AD40 0 50%);
+  background-size: var(--s) var(--s);
+}

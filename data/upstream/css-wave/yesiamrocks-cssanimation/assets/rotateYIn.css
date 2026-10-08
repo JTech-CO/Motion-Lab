@@ -1,0 +1,35 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-rotateYIn {
+  animation-name: rotateYIn;
+}
+
+@keyframes rotateYIn {
+  0% {
+    transform: perspective(600px) translate3d(0, -60px, -2000px) rotateY(75deg);
+    opacity: 0;
+  }
+
+  5% {
+    transform: perspective(600px) translate3d(0, -60px, -1500px) rotateY(75deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

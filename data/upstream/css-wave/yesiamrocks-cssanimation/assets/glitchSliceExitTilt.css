@@ -1,0 +1,48 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-glitchSliceExitTilt {
+  animation: glitchSliceExitTilt 1s ease-in forwards;
+}
+
+@keyframes glitchSliceExitTilt {
+  0% {
+    transform: skew(0deg, 0deg);
+    clip-path: inset(0 0 0 0);
+    opacity: 1;
+  }
+
+  40% {
+    transform: skew(-5deg, 1deg);
+    clip-path: inset(40% 0 40% 0);
+  }
+
+  70% {
+    transform: skew(8deg, -2deg);
+    clip-path: inset(60% 0 10% 0);
+  }
+
+  100% {
+    transform: skew(0deg, 0deg) scaleY(0.8);
+    clip-path: inset(100% 0 0 0);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

@@ -1,0 +1,42 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-flipTwistTiltIn {
+  animation-name: flipTwistTiltIn;
+  transform-origin: center;
+  will-change: transform, opacity;
+}
+
+@keyframes flipTwistTiltIn {
+  0% {
+    transform: perspective(900px) rotateY(90deg) rotateZ(-30deg);
+    opacity: 0;
+  }
+
+  40% {
+    transform: rotateY(-20deg) rotateZ(10deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: rotateY(0deg) rotateZ(0deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

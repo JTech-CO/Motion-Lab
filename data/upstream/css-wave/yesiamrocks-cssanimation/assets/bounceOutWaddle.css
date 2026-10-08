@@ -1,0 +1,43 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-bounceOutWaddle {
+  animation-name: bounceOutWaddle;
+  animation-timing-function: ease-in;
+  transform-origin: bottom center;
+  will-change: transform, opacity;
+}
+
+@keyframes bounceOutWaddle {
+  0% {
+    transform: translateY(0%) rotate(0deg);
+    opacity: 1;
+  }
+
+  30% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: translateY(120%) rotate(-20deg);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

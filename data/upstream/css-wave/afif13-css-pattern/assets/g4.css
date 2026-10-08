@@ -1,0 +1,20 @@
+#g4 {
+  --s: 100px; /* control the size */
+  --c1: #fff0e5;
+  --c2: #025d8c;
+  --c3: #e1642a;
+  
+  
+  --_g: 50%,#0000 37%,var(--c1) 39% 70%,#0000 72%;
+  --_t: 50%,var(--c2) 40deg,var(--c3) 0 140deg,var(--c2) 0 180deg,#0000 0; 
+  --_s: 47% 50% at;
+  background: 
+    radial-gradient(var(--_s) -10% var(--_g)) 0 calc(var(--s)/2),
+    radial-gradient(var(--_s) -10% var(--_g)) calc(var(--s)/2) 0,
+    radial-gradient(var(--_s) 110% var(--_g)),
+    radial-gradient(var(--_s) 110% var(--_g)) calc(var(--s)/2) calc(var(--s)/2),
+    conic-gradient(from   0deg at 55% var(--_t)) calc(var(--s)/4) 0,
+    conic-gradient(from 180deg at 45% var(--_t)) calc(var(--s)/4) 0,
+    var(--c2);
+  background-size: var(--s) var(--s);
+}

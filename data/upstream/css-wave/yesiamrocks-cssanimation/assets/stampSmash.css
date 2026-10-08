@@ -1,0 +1,43 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-stampSmash {
+  animation-name: stampSmash;
+  animation-timing-function: cubic-bezier(0.25, 1.8, 0.4, 1);
+  will-change: transform, opacity;
+  transform-origin: center;
+}
+
+@keyframes stampSmash {
+  0% {
+    transform: scale(2.4) rotate(15deg);
+    opacity: 0;
+  }
+
+  60% {
+    transform: scale(0.85) rotate(-8deg);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

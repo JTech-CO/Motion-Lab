@@ -1,0 +1,76 @@
+{
+  "verifiedAt": "2026-10-09",
+  "robots": {
+    "api.github.com": {
+      "status": "unavailable",
+      "url": "https://api.github.com/robots.txt",
+      "httpStatus": 403
+    },
+    "creativecommons.org": {
+      "status": "reviewed",
+      "url": "https://creativecommons.org/robots.txt"
+    },
+    "github.com": {
+      "status": "reviewed",
+      "url": "https://github.com/robots.txt"
+    },
+    "raw.githubusercontent.com": {
+      "status": "absent",
+      "url": "https://raw.githubusercontent.com/robots.txt",
+      "httpStatus": 404
+    }
+  },
+  "requests": [
+    {
+      "url": "https://api.github.com/robots.txt",
+      "status": 403,
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://creativecommons.org/robots.txt",
+      "status": 200,
+      "bytes": 177,
+      "sha256": "d7a6362bab284aaa0b08d19dcbd455a2054914002c9859e14061e15e071f4705",
+      "seconds": 0.493
+    },
+    {
+      "url": "https://github.com/robots.txt",
+      "status": 200,
+      "bytes": 16739,
+      "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db",
+      "seconds": 0.298
+    },
+    {
+      "url": "https://raw.githubusercontent.com/robots.txt",
+      "status": 404,
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+      "status": 200,
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "seconds": 0.38
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "data/upstream/color-wave/robots-creativecommons.org.txt",
+      "url": "https://creativecommons.org/robots.txt",
+      "bytes": 177,
+      "sha256": "d7a6362bab284aaa0b08d19dcbd455a2054914002c9859e14061e15e071f4705"
+    },
+    {
+      "path": "data/upstream/color-wave/robots-github.com.txt",
+      "url": "https://github.com/robots.txt",
+      "bytes": 16739,
+      "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+    },
+    {
+      "path": "data/upstream/color-wave/terms/CC-BY-4.0.txt",
+      "url": "https://creativecommons.org/licenses/by/4.0/legalcode.txt",
+      "bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    }
+  ]
+}

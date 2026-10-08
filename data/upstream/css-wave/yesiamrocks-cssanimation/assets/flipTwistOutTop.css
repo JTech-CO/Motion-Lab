@@ -1,0 +1,43 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-flipTwistOutTop {
+  animation-name: flipTwistOutTop;
+  transform-origin: top center;
+  will-change: transform, opacity;
+}
+
+@keyframes flipTwistOutTop {
+  0% {
+    transform: rotateX(0deg);
+    opacity: 1;
+  }
+
+  50% {
+    transform: rotateX(20deg);
+    opacity: 0.6;
+  }
+
+  100% {
+    transform: rotateX(-90deg) translateY(-60%);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

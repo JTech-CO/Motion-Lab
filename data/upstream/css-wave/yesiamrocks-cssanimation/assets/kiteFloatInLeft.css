@@ -1,0 +1,50 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-kiteFloatInLeft {
+  animation-name: kiteFloatInLeft;
+  transform-origin: top right;
+  will-change: transform, opacity;
+}
+
+@keyframes kiteFloatInLeft {
+  0% {
+    transform: translate(-80%, -100%) rotate(-15deg);
+    opacity: 0;
+  }
+
+  30% {
+    transform: translate(10%, 20%) rotate(10deg);
+    opacity: 1;
+  }
+
+  60% {
+    transform: translate(-5%, -10%) rotate(-6deg);
+  }
+
+  80% {
+    transform: translate(2%, 5%) rotate(3deg);
+  }
+
+  100% {
+    transform: translate(0%, 0%) rotate(0deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

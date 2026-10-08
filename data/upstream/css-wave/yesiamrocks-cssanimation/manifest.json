@@ -1,0 +1,350 @@
+{
+  "repository": "yesiamrocks/cssanimation",
+  "commit": "3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d",
+  "verifiedAt": "2026-10-09",
+  "files": [
+    {
+      "path": "git-reference.json",
+      "bytes": 359,
+      "sha256": "863531e6333ee045157673ab55d5fa0004ad726598094a332bd3d8f4b842dc8b",
+      "gitBlobSha1": null,
+      "sourceUrl": null
+    },
+    {
+      "path": "git-tree.json",
+      "bytes": 365688,
+      "sha256": "4885d7ff6954f9d62615f01bca80769be1fb51e4dd687894f57e912f4c031689",
+      "gitBlobSha1": null,
+      "sourceUrl": null
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1114,
+      "sha256": "b68aef1c1ac68ba9f399925636844c4723de9896eab75c92f7a76979292e1210",
+      "gitBlobSha1": "4d3170bf57f882bab889efaa60b267422cc6cba7",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/LICENSE"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 418,
+      "sha256": "e61a97f90510bb630c30114e7da27dae274710b3c959e248298107245f63882d",
+      "gitBlobSha1": "9a025b5f22b3fdd77652316f103d6cbc565970b7",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/NOTICE"
+    },
+    {
+      "path": "README.md",
+      "bytes": 14438,
+      "sha256": "8c7432dd14105e103428064076e0e4106d5a61e59aea0eebb4227eb944c5b1ef",
+      "gitBlobSha1": "7a4afb8dd0e76735e380fa11aeab7c439201976c",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/README.md"
+    },
+    {
+      "path": "dist/cssanimation.css",
+      "bytes": 196666,
+      "sha256": "150da62e3929c4a98872e05f7b7565024a37668f44d1d41928d56cc08065d764",
+      "gitBlobSha1": "1ec97ef93a3b8a171650a64cd1f5295c1e57e39d",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/cssanimation.css"
+    },
+    {
+      "path": "dist/cssanimation.json",
+      "bytes": 340998,
+      "sha256": "096f902bce19217af4c2837fb9916bbbee8d9c279e8dd51aefabce749173460b",
+      "gitBlobSha1": "8c20585829a0cbb01326c118962cb9ff2024d056",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/cssanimation.json"
+    },
+    {
+      "path": "docs/animation-preview.html",
+      "bytes": 434947,
+      "sha256": "59ba5c69341e79dd7ffc834bcb283a84a2eea2e223018e9728c20bf2cf25beb9",
+      "gitBlobSha1": "666cde691c983fc489a8d2874cf4d2f5d0c5b937",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/docs/animation-preview.html"
+    },
+    {
+      "path": "reference/cssanimation-reference.md",
+      "bytes": 16428,
+      "sha256": "4d25fc41988b306ed424ba8aab7a5bcfb2bc5a5f63187bd8b92141bb6538b8f5",
+      "gitBlobSha1": "b0320ac6283240f15e049869691a34f2a6866a39",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/reference/cssanimation-reference.md"
+    },
+    {
+      "path": "dist/animations/ca__blurInBottom.css",
+      "bytes": 1165,
+      "sha256": "f2a27abc8df44cfb63843b30a40324ada82b013120c4e9b0d955f28bd8f8e88d",
+      "gitBlobSha1": "55e6c0196016d6805b3b919a783dd92d974942dd",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__blurInBottom.css"
+    },
+    {
+      "path": "dist/animations/ca__blurInLeft.css",
+      "bytes": 1056,
+      "sha256": "8be57e6c498fa706759d374c5a10f60b6f1f0cd52a49b09c836f11db64dedaf1",
+      "gitBlobSha1": "56763ac27a54db75ea1a47ebcc0ddbd1484e24d0",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__blurInLeft.css"
+    },
+    {
+      "path": "dist/animations/ca__blurInRight.css",
+      "bytes": 1058,
+      "sha256": "9f64865f031a48fb6073d9b0c9deb715ec82a4d11d0e9fd4c654d840a0b19e04",
+      "gitBlobSha1": "c42534a8fc95ca66def18016fd72b31288d04db5",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__blurInRight.css"
+    },
+    {
+      "path": "dist/animations/ca__blurInTop.css",
+      "bytes": 1053,
+      "sha256": "192b3fc92b13343b9aca2f214e7f885c5d5dfbbc0b0ccbff7f09ccc02d265b9d",
+      "gitBlobSha1": "f6d01f262cfcd4ff710cd090f53b025eeca26e4c",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__blurInTop.css"
+    },
+    {
+      "path": "dist/animations/ca__blurOutBottom.css",
+      "bytes": 1186,
+      "sha256": "a702aef55f085a185e4a48343096b0100a0e0650ba63939a6b96966ddb123832",
+      "gitBlobSha1": "3e7171e1b9d75876265d75070f6c990216085879",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__blurOutBottom.css"
+    },
+    {
+      "path": "dist/animations/ca__blurOutLeft.css",
+      "bytes": 1080,
+      "sha256": "51ab8626054247ee81de850bcda2da154db6f5df728727b5d5954223ef8b8499",
+      "gitBlobSha1": "efb4746eb185e19970411ee29757c61e586ecb66",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__blurOutLeft.css"
+    },
+    {
+      "path": "dist/animations/ca__blurOutRight.css",
+      "bytes": 1082,
+      "sha256": "1d500d6f8d849ec69f71d9c158e03fca842f48cdc2b2e82996f8543fe7936596",
+      "gitBlobSha1": "2b03aa7822c036bd08b873efafbccffe02fa6e74",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__blurOutRight.css"
+    },
+    {
+      "path": "dist/animations/ca__blurOutTop.css",
+      "bytes": 1077,
+      "sha256": "29c0927dd27eab8eb836e75a585ea1b793b09c67fac11e2f04cef530109c0258",
+      "gitBlobSha1": "557289e2e2f74daee09cf46c6f15b7c01241874d",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__blurOutTop.css"
+    },
+    {
+      "path": "dist/animations/ca__digitalReveal.css",
+      "bytes": 2407,
+      "sha256": "e90ae8aadc2abd1f596d66969076b07f8f226ca9fc38e9cbbab44b313ce81a13",
+      "gitBlobSha1": "3cc9901a6bcf5ca46810ff89af02367306bb12d7",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__digitalReveal.css"
+    },
+    {
+      "path": "dist/animations/ca__flicker.css",
+      "bytes": 1257,
+      "sha256": "91697c58d3ce6d58f35af8fd747371777430d8a2de82ee3eebc7dde4f98c5185",
+      "gitBlobSha1": "7f4fa60f24c65dff54fc2195058a15764622ed65",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__flicker.css"
+    },
+    {
+      "path": "dist/animations/ca__flickerIn.css",
+      "bytes": 2285,
+      "sha256": "750b6a366a68d49ec220de7972f62b925c451f07cd70dcc795279d3008ee1405",
+      "gitBlobSha1": "b7ef9b4423fc914d0d7e4048d32ae2ec5f3bc0c4",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__flickerIn.css"
+    },
+    {
+      "path": "dist/animations/ca__glintSweep.css",
+      "bytes": 996,
+      "sha256": "15890e7cff76deaee1f85f546e3b08e9b0d44941da2811ebf3e018cd29b89c06",
+      "gitBlobSha1": "db590cb56ffcbdff08c360f4b398b5da61c4dbff",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__glintSweep.css"
+    },
+    {
+      "path": "dist/animations/ca__initiateSequence.css",
+      "bytes": 1154,
+      "sha256": "c33f5f013ec1499bc720c35d8d453a887115fdeed7468b48f8c53ed47b27a4ed",
+      "gitBlobSha1": "882cea26697987a0d2455724ae8143592b7a27ba",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__initiateSequence.css"
+    },
+    {
+      "path": "dist/animations/ca__mask-checkerboardIn.css",
+      "bytes": 1149,
+      "sha256": "f6e0ee3cfa425bde6dbae7358c282ab1b55b8b8b3cd1899918a117600d8f891d",
+      "gitBlobSha1": "157ad2003a427b1002956ce4bbc77189b436ef13",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__mask-checkerboardIn.css"
+    },
+    {
+      "path": "dist/animations/ca__mask-diamondIn.css",
+      "bytes": 1132,
+      "sha256": "3bc0f98c8b318706891a99b3dcd2b6126dae48d155a6edce53413e5cf26e55f1",
+      "gitBlobSha1": "f45c37546591a2451f91bbda273b54a2cad8d289",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__mask-diamondIn.css"
+    },
+    {
+      "path": "dist/animations/ca__mask-horizontalBarsIn.css",
+      "bytes": 1553,
+      "sha256": "67a3d68b01b31bd6feddb5b28481968210b48d1fb6078e3f6cf525172a16823a",
+      "gitBlobSha1": "32d4edae280a15b7033dff97ff80c86b2e4ae26a",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__mask-horizontalBarsIn.css"
+    },
+    {
+      "path": "dist/animations/ca__mask-linesSlideIn.css",
+      "bytes": 1135,
+      "sha256": "22ed8d2af76c2c2aecf7b5c95a24ea177a39d90845fa6ea18923c20a1c8c1f20",
+      "gitBlobSha1": "1db7c699b3cf9fa71d47def7a923415364cdc476",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__mask-linesSlideIn.css"
+    },
+    {
+      "path": "dist/animations/ca__mask-rainRevealIn.css",
+      "bytes": 1135,
+      "sha256": "5dd7b48b15fc77ad04c6f36131b2ae7868726584bf7250c12bd7a70d14772814",
+      "gitBlobSha1": "f7075b12e27c21524760cec37f8827671224e5ea",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__mask-rainRevealIn.css"
+    },
+    {
+      "path": "dist/animations/ca__mask-stairStepIn.css",
+      "bytes": 1138,
+      "sha256": "1c378a1dc2756f796f81699a503519d306fec1fdc67ad2b8846cdb89d2c1d68b",
+      "gitBlobSha1": "32ad816829fe378f2d9779025986543628a958cd",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__mask-stairStepIn.css"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesDiagonalLeftIn.css",
+      "bytes": 1162,
+      "sha256": "ce6b928d161567a8e8d80327e36f4f76179d6df5e405ad91ebe2db75f97ca6be",
+      "gitBlobSha1": "a3e597cd54f7572ddbdb4f5df9b721dc98945102",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__mask-stripesDiagonalLeftIn.css"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesDiagonalLeftOut.css",
+      "bytes": 1163,
+      "sha256": "0492f59d6e911ff3a09e2abb8c653eebcf78095c82a9edff7a6f66e2e925113e",
+      "gitBlobSha1": "c08039d9ff497a2e9784446801e5d4ef8e5b6fc7",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__mask-stripesDiagonalLeftOut.css"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesDiagonalUpIn.css",
+      "bytes": 1164,
+      "sha256": "71705c9b94d499a0f4541d98eb7c2e0ff609e59360181d200943b9dc46e117a0",
+      "gitBlobSha1": "d10838588bb1b05894f911273e0b9061146beeb0",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__mask-stripesDiagonalUpIn.css"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesDiagonalUpOut.css",
+      "bytes": 1163,
+      "sha256": "cff4161e096e6d2e46b38d0d3b101b010d36e03019046b705623456a065e380e",
+      "gitBlobSha1": "857e943f35a835290ddbe96f7e14ec8fdb319d2d",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__mask-stripesDiagonalUpOut.css"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesHorizontalReverseIn.css",
+      "bytes": 1175,
+      "sha256": "285ecf9659015b8c1ab188da0a48b31da6249bc1baece7424d8352c0a1d117d2",
+      "gitBlobSha1": "6fc3ea301191414efb9e8d441dcbc0da5e884d2a",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__mask-stripesHorizontalReverseIn.css"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesHorizontalReverseOut.css",
+      "bytes": 1178,
+      "sha256": "0112e19366199b6cd3e5a85b5d15d1daa4d93e7a475e8cdc8d7392cc4f28c900",
+      "gitBlobSha1": "92bc76c98397d32b5c4f96a68ed7fa659b02c0ca",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__mask-stripesHorizontalReverseOut.css"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesIn.css",
+      "bytes": 1126,
+      "sha256": "ba5cd8ffe66dec0c53d774a8164fa468d3a40f1530c78ce16e0ca097cc986ce6",
+      "gitBlobSha1": "196fc3af1b6b3ec40489f62e7fbbdfe1d514ccd4",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__mask-stripesIn.css"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesJitterIn.css",
+      "bytes": 1148,
+      "sha256": "500abdf5c9d39b121f95f1e4735fdaba4f5edd2ca59dd9e2bd1bf76aa604541e",
+      "gitBlobSha1": "5ddba420ad7f741397cf6cbaafbc169f55f2e5f6",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__mask-stripesJitterIn.css"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesJitterOut.css",
+      "bytes": 1338,
+      "sha256": "dd6d8ab94d3b12768e8d0e3681bd7f2066a0e74b4a7332ae4f6b1cfdcdfd7bb2",
+      "gitBlobSha1": "4c218db4e661d8596c2616bafbdc1aa1ac2f48a5",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__mask-stripesJitterOut.css"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesThinIn.css",
+      "bytes": 1138,
+      "sha256": "c62450b4f936a965dc47f67f60cb09a130c5197dea8bdc1be15a4fd3067e3ec1",
+      "gitBlobSha1": "4802d8637629412ae6677f2331521246e84ae9ca",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__mask-stripesThinIn.css"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesThinOut.css",
+      "bytes": 1139,
+      "sha256": "6eda82b88f1d50f63148cb36df9489ca4624ddf1b4f914435828b233d9c7affe",
+      "gitBlobSha1": "ba825fac0b5e97a1cf0644363765a45adbd41784",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__mask-stripesThinOut.css"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesVerticalIn.css",
+      "bytes": 1150,
+      "sha256": "eecd99ca2e8161c2b36ecfd206a73e1ffba21a5bf7d968d6d32249d5fbe7fc88",
+      "gitBlobSha1": "2442d9d7ba3baa8a4df67ddb44ab4555e6851caf",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__mask-stripesVerticalIn.css"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesVerticalOut.css",
+      "bytes": 1151,
+      "sha256": "40fc4f888902063eca2edde4c40f49028217fe5efccc571c6fdf7ced618fa682",
+      "gitBlobSha1": "8fb6018d4d64c2fe5d23cbf270fff2cb7380d3f5",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__mask-stripesVerticalOut.css"
+    },
+    {
+      "path": "dist/animations/ca__mask-stripesWideOut.css",
+      "bytes": 1139,
+      "sha256": "fb2b80a36e1721631914bc449759ca6e3f8ad942d25f0328baba788f8cd988b9",
+      "gitBlobSha1": "c8f1a58ce963b973c5d2d6b021bb96bcc9df0e99",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__mask-stripesWideOut.css"
+    },
+    {
+      "path": "dist/animations/ca__mask-threadLinesIn.css",
+      "bytes": 1138,
+      "sha256": "173794fbe5321fec3a23afc5a3afb05f734edfacbcfa23c57d5c2aa49186a0de",
+      "gitBlobSha1": "72bc09eb572bab1d486687f01f3d33fc1a1502c5",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__mask-threadLinesIn.css"
+    },
+    {
+      "path": "dist/animations/ca__mask-zigzagRevealIn.css",
+      "bytes": 1149,
+      "sha256": "af857b21ccba5b265bdeaba720e193b91610c8fd3337e9cfd85d660a24bbdcf0",
+      "gitBlobSha1": "5fa0af711e1837b9e11c76b99f5e2aa3bfd6df46",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__mask-zigzagRevealIn.css"
+    },
+    {
+      "path": "dist/animations/ca__morph.css",
+      "bytes": 1252,
+      "sha256": "4b8c346c39ae45f7b73a6ae6a0ff54489216b8aa7209f56e2ccc79c6743d7a71",
+      "gitBlobSha1": "33571c086dba187994886936d838bcd01d438d37",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__morph.css"
+    },
+    {
+      "path": "dist/animations/ca__rainbow.css",
+      "bytes": 1693,
+      "sha256": "ba3a0bd0232cb01171eeb584688dac3e1a2e086e83d3283b6b3f25f051bd56b2",
+      "gitBlobSha1": "ecdaeb3e62d7dd8fffc986106fe737e6198e5a41",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__rainbow.css"
+    },
+    {
+      "path": "dist/animations/ca__scanlineReveal.css",
+      "bytes": 2508,
+      "sha256": "64ecd652aff136085972c4b49a9d78f4b8e84cd12687606ea040e3abc9c6c514",
+      "gitBlobSha1": "10a71d95578fd6b80807cb4a4739799b82d69bca",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__scanlineReveal.css"
+    },
+    {
+      "path": "dist/animations/ca__springy.css",
+      "bytes": 1170,
+      "sha256": "9494be5b4b0cacffdd0ff1d0b16636d6e52781cbe02e74f31751fecdcc8cb4cc",
+      "gitBlobSha1": "d35e23bdcffe3d7c10125812248cdc9fa5f288c6",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__springy.css"
+    },
+    {
+      "path": "dist/animations/ca__wave-morph.css",
+      "bytes": 2852,
+      "sha256": "4ddf41a9e43d3b3a59aae5b883a8b073e06178b17428623b30ae73485a1db1b4",
+      "gitBlobSha1": "32473d53caa4e7d985183c8ce80fdc08ad0c42a4",
+      "sourceUrl": "https://github.com/yesiamrocks/cssanimation/blob/3d71c839b1728fb4e0f1e394e60f1eb0d4f16e3d/dist/animations/ca__wave-morph.css"
+    }
+  ]
+}

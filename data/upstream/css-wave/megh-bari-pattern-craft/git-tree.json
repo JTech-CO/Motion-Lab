@@ -1,0 +1,793 @@
+{
+  "sha": "1550af7903f50b4f19a1b44786f27ca01f3ef6ab",
+  "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/trees/1550af7903f50b4f19a1b44786f27ca01f3ef6ab",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5906031705b63b859f99ed41d4141a882d5b9839",
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/trees/5906031705b63b859f99ed41d4141a882d5b9839"
+    },
+    {
+      "path": ".github/FUNDING.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e196fd9a363613577bce86b043e94fe6d3d6b055",
+      "size": 137,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/e196fd9a363613577bce86b043e94fe6d3d6b055"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ef6a520780202a1d6addd833d800ccb1ecac0bb",
+      "size": 480,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/5ef6a520780202a1d6addd833d800ccb1ecac0bb"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3dca168013c7f9e8d60c62fe6b4dfaf13746caaa",
+      "size": 1086,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/3dca168013c7f9e8d60c62fe6b4dfaf13746caaa"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8f71e6d2820fabac7993c3634943e159fac57c3",
+      "size": 12110,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/e8f71e6d2820fabac7993c3634943e159fac57c3"
+    },
+    {
+      "path": "components.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f21f26c08245e52762d40316fb9560861d3de7e",
+      "size": 428,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/0f21f26c08245e52762d40316fb9560861d3de7e"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c85fb67c463f20d1ee449b0ffee725a61dfb9259",
+      "size": 393,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/c85fb67c463f20d1ee449b0ffee725a61dfb9259"
+    },
+    {
+      "path": "next.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9ffa3083ad279ecf95fd8eae59cb253e9a539c4",
+      "size": 133,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/e9ffa3083ad279ecf95fd8eae59cb253e9a539c4"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d0fda4dd5e085b73610b94fcf31e05b964edce8f",
+      "size": 253844,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/d0fda4dd5e085b73610b94fcf31e05b964edce8f"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e40bd8124c4828aeb4f1c6363fa861d90f2a809",
+      "size": 1012,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/1e40bd8124c4828aeb4f1c6363fa861d90f2a809"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7bcb4b1ee14cd5e25078c2c934529afdd2a7df9",
+      "size": 81,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/c7bcb4b1ee14cd5e25078c2c934529afdd2a7df9"
+    },
+    {
+      "path": "public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "79ea99bb23156454325dcf61b9c69b66ba8df855",
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/trees/79ea99bb23156454325dcf61b9c69b66ba8df855"
+    },
+    {
+      "path": "public/banner-v2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "560f076aa460929ca3d5d910590e6726968b21b2",
+      "size": 2249662,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/560f076aa460929ca3d5d910590e6726968b21b2"
+    },
+    {
+      "path": "public/favicon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3732f5fd876419e13e4c4112a736c2c3649b8b5a",
+      "size": 1481,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/3732f5fd876419e13e4c4112a736c2c3649b8b5a"
+    },
+    {
+      "path": "public/images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6313dcc3e22424090cefc8d22103625a7a18ed60",
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/trees/6313dcc3e22424090cefc8d22103625a7a18ed60"
+    },
+    {
+      "path": "public/images/readme-banner.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dd587363a7e222d4688e462aef2702f3f928f95",
+      "size": 925638,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/6dd587363a7e222d4688e462aef2702f3f928f95"
+    },
+    {
+      "path": "public/images/readme-img-four.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74a18fb0d33d8f3d5330f921f95a8896b3756619",
+      "size": 2685281,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/74a18fb0d33d8f3d5330f921f95a8896b3756619"
+    },
+    {
+      "path": "public/images/readme-img-one.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "244ac159038b7758796dff6e9174c5a7d3ae0314",
+      "size": 2954286,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/244ac159038b7758796dff6e9174c5a7d3ae0314"
+    },
+    {
+      "path": "public/images/readme-img-three.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e083f386ebb947192b30798e2fb833be2881f50",
+      "size": 2511128,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/3e083f386ebb947192b30798e2fb833be2881f50"
+    },
+    {
+      "path": "public/images/readme-img-two.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b48b57f494c8e89b171a0581ee3df010452707ff",
+      "size": 2937844,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/b48b57f494c8e89b171a0581ee3df010452707ff"
+    },
+    {
+      "path": "public/logos",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5ecc4f9b0ab3523256a1dcc6e51f0cd9f93960de",
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/trees/5ecc4f9b0ab3523256a1dcc6e51f0cd9f93960de"
+    },
+    {
+      "path": "public/logos/tal-by-grapevine.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29c27576c7e5fbd825922de30bcb476deee600e1",
+      "size": 5588267,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/29c27576c7e5fbd825922de30bcb476deee600e1"
+    },
+    {
+      "path": "public/og-banner.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dd9f22e1c7d346c52b8418b4e0fc1bc2ba914e2",
+      "size": 740829,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/6dd9f22e1c7d346c52b8418b4e0fc1bc2ba914e2"
+    },
+    {
+      "path": "public/site.webmanifest",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "280b0e03d1a2c5582aa728d1d9b74120d4d3c6fe",
+      "size": 461,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/280b0e03d1a2c5582aa728d1d9b74120d4d3c6fe"
+    },
+    {
+      "path": "public/snapshots",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a14df6898ebd29223593abf83db39a8791f3cab3",
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/trees/a14df6898ebd29223593abf83db39a8791f3cab3"
+    },
+    {
+      "path": "public/snapshots/screenshot-1.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf7f4b81d367249d73364e22b72be9b53bfec6d8",
+      "size": 5697855,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/cf7f4b81d367249d73364e22b72be9b53bfec6d8"
+    },
+    {
+      "path": "public/snapshots/screenshot-10.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c7cae022921afa23d5d22ca7b306391de6b5439",
+      "size": 5480939,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/5c7cae022921afa23d5d22ca7b306391de6b5439"
+    },
+    {
+      "path": "public/snapshots/screenshot-11.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b56d94d4c9f8e8d8d09104a25621ed5b105d2118",
+      "size": 7194777,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/b56d94d4c9f8e8d8d09104a25621ed5b105d2118"
+    },
+    {
+      "path": "public/snapshots/screenshot-12.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "278fe4e4b2ab9c21e2333509f539ca192351e818",
+      "size": 4098759,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/278fe4e4b2ab9c21e2333509f539ca192351e818"
+    },
+    {
+      "path": "public/snapshots/screenshot-13.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e24cf39de093a7b5a3c05250770b42bb18e61920",
+      "size": 3079850,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/e24cf39de093a7b5a3c05250770b42bb18e61920"
+    },
+    {
+      "path": "public/snapshots/screenshot-14.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47c78d6e93cfc4db0730cbffdcefbdc8af9b2d0f",
+      "size": 4931016,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/47c78d6e93cfc4db0730cbffdcefbdc8af9b2d0f"
+    },
+    {
+      "path": "public/snapshots/screenshot-15.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00b4cbd72c1eaa76642da9670d9fe18bac007220",
+      "size": 4958826,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/00b4cbd72c1eaa76642da9670d9fe18bac007220"
+    },
+    {
+      "path": "public/snapshots/screenshot-16.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cad5c84b8091f69f983e054be9645fbb7b78b433",
+      "size": 2738214,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/cad5c84b8091f69f983e054be9645fbb7b78b433"
+    },
+    {
+      "path": "public/snapshots/screenshot-17.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d503c4fada3241fd40ff11c859ad0e8a644e38dc",
+      "size": 5075685,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/d503c4fada3241fd40ff11c859ad0e8a644e38dc"
+    },
+    {
+      "path": "public/snapshots/screenshot-18.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cd21882ecb4d3bd246cc1b8e4f9b813bb33a80f",
+      "size": 6137354,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/1cd21882ecb4d3bd246cc1b8e4f9b813bb33a80f"
+    },
+    {
+      "path": "public/snapshots/screenshot-19.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87fd30e530e18e20a3a95fe88850ecfbdf42532f",
+      "size": 4632016,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/87fd30e530e18e20a3a95fe88850ecfbdf42532f"
+    },
+    {
+      "path": "public/snapshots/screenshot-2.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e4862dd2a9e9811a761d0a4112d4522509093dc",
+      "size": 4604289,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/7e4862dd2a9e9811a761d0a4112d4522509093dc"
+    },
+    {
+      "path": "public/snapshots/screenshot-20.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ecaea7a6183dbc1c488b48bd7c135284c6a594d",
+      "size": 7619417,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/7ecaea7a6183dbc1c488b48bd7c135284c6a594d"
+    },
+    {
+      "path": "public/snapshots/screenshot-21.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0656031547fdf35b10c9e85ad617085b37643769",
+      "size": 5337044,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/0656031547fdf35b10c9e85ad617085b37643769"
+    },
+    {
+      "path": "public/snapshots/screenshot-3.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "254d7381eb91ece934b6aad60cb899221d473735",
+      "size": 10859129,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/254d7381eb91ece934b6aad60cb899221d473735"
+    },
+    {
+      "path": "public/snapshots/screenshot-4.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdac52e2e0757c5f495a78f295482432c50737de",
+      "size": 9416421,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/cdac52e2e0757c5f495a78f295482432c50737de"
+    },
+    {
+      "path": "public/snapshots/screenshot-5.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c012a9b23ef681ae04b4c9c15a852ff940c8898",
+      "size": 4052674,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/0c012a9b23ef681ae04b4c9c15a852ff940c8898"
+    },
+    {
+      "path": "public/snapshots/screenshot-6.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33d019a7ebb6f303f1fece8e0b6a8ba9e7972abe",
+      "size": 6987115,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/33d019a7ebb6f303f1fece8e0b6a8ba9e7972abe"
+    },
+    {
+      "path": "public/snapshots/screenshot-7.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aeb2f883e6fa5665b9c273526bc95e4f2ee8d54d",
+      "size": 4601694,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/aeb2f883e6fa5665b9c273526bc95e4f2ee8d54d"
+    },
+    {
+      "path": "public/snapshots/screenshot-8.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f791101280605b479c11c4f81985162cd7ca4b22",
+      "size": 4068035,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/f791101280605b479c11c4f81985162cd7ca4b22"
+    },
+    {
+      "path": "public/snapshots/screenshot-9.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "142c0b6e2d97d5b0e88a75f7e448db75ac11ae2b",
+      "size": 2354740,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/142c0b6e2d97d5b0e88a75f7e448db75ac11ae2b"
+    },
+    {
+      "path": "public/sponsors-logos",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "51b91e5fa233b8d34d3aee31778b71c7bb4087e0",
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/trees/51b91e5fa233b8d34d3aee31778b71c7bb4087e0"
+    },
+    {
+      "path": "public/sponsors-logos/shadcn-studio-dark-symbol-logo.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06b717641376d6cd43aae29d5098f1501034f8b1",
+      "size": 14893,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/06b717641376d6cd43aae29d5098f1501034f8b1"
+    },
+    {
+      "path": "public/sponsors-logos/shadcn-studio-symbol.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72a7bab33b68c721075f1e1a5d48b1f52b4e4a85",
+      "size": 813,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/72a7bab33b68c721075f1e1a5d48b1f52b4e4a85"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "db3f227ea9ba40dac421c11349c93e1d92c97b5b",
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/trees/db3f227ea9ba40dac421c11349c93e1d92c97b5b"
+    },
+    {
+      "path": "src/app",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a7dc642b01119514a66598cb15804c00f498d3f0",
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/trees/a7dc642b01119514a66598cb15804c00f498d3f0"
+    },
+    {
+      "path": "src/app/globals.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efbed57e42c65282986c7bf8b0673e750011e9bc",
+      "size": 4812,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/efbed57e42c65282986c7bf8b0673e750011e9bc"
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55d3d064cc9b6c5224d99f58d9bdf0d116d99b48",
+      "size": 1226,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/55d3d064cc9b6c5224d99f58d9bdf0d116d99b48"
+    },
+    {
+      "path": "src/app/not-found.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64f09b87b33ec6f4cbabb8c54e99f14c54cd3b8a",
+      "size": 857,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/64f09b87b33ec6f4cbabb8c54e99f14c54cd3b8a"
+    },
+    {
+      "path": "src/app/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed08c98e242917b0356bb91e394f81c3c4e2f1ec",
+      "size": 2168,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/ed08c98e242917b0356bb91e394f81c3c4e2f1ec"
+    },
+    {
+      "path": "src/app/robots.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ca08b7bc060919c38e66922cc9874dac5eb1305",
+      "size": 324,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/0ca08b7bc060919c38e66922cc9874dac5eb1305"
+    },
+    {
+      "path": "src/app/sitemap.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f6bdc97d31419ba420ffb1de5ce9a05547e328d",
+      "size": 323,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/1f6bdc97d31419ba420ffb1de5ce9a05547e328d"
+    },
+    {
+      "path": "src/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ec167e98bd2634c43e8df1ac8f0f42953366a6e7",
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/trees/ec167e98bd2634c43e8df1ac8f0f42953366a6e7"
+    },
+    {
+      "path": "src/components/ads",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fe0c4d92a201e276f8351fcce68a47a9b746954f",
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/trees/fe0c4d92a201e276f8351fcce68a47a9b746954f"
+    },
+    {
+      "path": "src/components/ads/CarbonAds.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f66be54e0921c4d21e3b60e24aa4825666a2ff2",
+      "size": 1194,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/1f66be54e0921c4d21e3b60e24aa4825666a2ff2"
+    },
+    {
+      "path": "src/components/home",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c19dd8a3834b844dac44fdf96ebe6213859beb17",
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/trees/c19dd8a3834b844dac44fdf96ebe6213859beb17"
+    },
+    {
+      "path": "src/components/home/hero.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "999bc58adb65b6e0b9863fea7f9ef2a5777590e0",
+      "size": 9967,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/999bc58adb65b6e0b9863fea7f9ef2a5777590e0"
+    },
+    {
+      "path": "src/components/home/home-page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a74d56c806e9f983e8682015392663bb7a435aa",
+      "size": 2179,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/3a74d56c806e9f983e8682015392663bb7a435aa"
+    },
+    {
+      "path": "src/components/home/return-to-preview.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fc57336bf8729ef10b9a610fee4ed9318d4d7c2f",
+      "size": 2853,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/fc57336bf8729ef10b9a610fee4ed9318d4d7c2f"
+    },
+    {
+      "path": "src/components/home/support-dropdown.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94db843022e7a1b528da0fd0beeac02cf119c0c7",
+      "size": 8490,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/94db843022e7a1b528da0fd0beeac02cf119c0c7"
+    },
+    {
+      "path": "src/components/layout",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2134fd1f450e6734c60a90d8720298037be0d8cb",
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/trees/2134fd1f450e6734c60a90d8720298037be0d8cb"
+    },
+    {
+      "path": "src/components/layout/footer.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "182884eea137e8729bd4e72db259675f8443bc55",
+      "size": 1160,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/182884eea137e8729bd4e72db259675f8443bc55"
+    },
+    {
+      "path": "src/components/layout/navbar.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11549fa8b3c3926b1dfa8bb74ac13403619f9f09",
+      "size": 2928,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/11549fa8b3c3926b1dfa8bb74ac13403619f9f09"
+    },
+    {
+      "path": "src/components/patterns",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f3723cd61eee9ec2da70879243dac92b4abbdfa5",
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/trees/f3723cd61eee9ec2da70879243dac92b4abbdfa5"
+    },
+    {
+      "path": "src/components/patterns/pattern-card.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddf3b8a63f6dad6af62ca24561cc22c89087dedb",
+      "size": 7518,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/ddf3b8a63f6dad6af62ca24561cc22c89087dedb"
+    },
+    {
+      "path": "src/components/patterns/pattern-empty-state.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a76b491e80f857d46b8956826ae8c6c7dfa2fe62",
+      "size": 1804,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/a76b491e80f857d46b8956826ae8c6c7dfa2fe62"
+    },
+    {
+      "path": "src/components/patterns/pattern-grid.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b206a7097752c8b41e54167ade39b976532db11",
+      "size": 1149,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/1b206a7097752c8b41e54167ade39b976532db11"
+    },
+    {
+      "path": "src/components/patterns/pattern-showcase.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2aadf16ba08ac332c8a33765dd4af378344b53aa",
+      "size": 8179,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/2aadf16ba08ac332c8a33765dd4af378344b53aa"
+    },
+    {
+      "path": "src/components/providers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0c5f61d1e7f96c551da725c805b3705af2132cc2",
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/trees/0c5f61d1e7f96c551da725c805b3705af2132cc2"
+    },
+    {
+      "path": "src/components/providers/theme-provider.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2e44d5b2a0c18d525aae035ab5c8830f647d7a9",
+      "size": 288,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/b2e44d5b2a0c18d525aae035ab5c8830f647d7a9"
+    },
+    {
+      "path": "src/components/search",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a6277b9b708e20a290af6f3d3f51e88c75c96038",
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/trees/a6277b9b708e20a290af6f3d3f51e88c75c96038"
+    },
+    {
+      "path": "src/components/search/search-bar.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e02880600031dd7bf00324f61854a58fa62a5f49",
+      "size": 1772,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/e02880600031dd7bf00324f61854a58fa62a5f49"
+    },
+    {
+      "path": "src/components/sponsors",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "69b6c248ab72ff50d7087dcf23df795b13d613e8",
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/trees/69b6c248ab72ff50d7087dcf23df795b13d613e8"
+    },
+    {
+      "path": "src/components/sponsors/dot-separator.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6fbf66052cd47bdd7d7bff924a8d246b27ab03c",
+      "size": 456,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/f6fbf66052cd47bdd7d7bff924a8d246b27ab03c"
+    },
+    {
+      "path": "src/components/sponsors/sponsors.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36da75d145abb6d40a60d3d176a550c234d5430f",
+      "size": 9841,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/36da75d145abb6d40a60d3d176a550c234d5430f"
+    },
+    {
+      "path": "src/components/ui",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d0cdd7219a850e9f60f6618addebfaa51614b1be",
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/trees/d0cdd7219a850e9f60f6618addebfaa51614b1be"
+    },
+    {
+      "path": "src/components/ui/badge.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83750ed1654afaa5e2a59b608774bbed393aa758",
+      "size": 1639,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/83750ed1654afaa5e2a59b608774bbed393aa758"
+    },
+    {
+      "path": "src/components/ui/button.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66ab90e530576b5f49935577e1b8ff426ac02b98",
+      "size": 2132,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/66ab90e530576b5f49935577e1b8ff426ac02b98"
+    },
+    {
+      "path": "src/components/ui/scroll-to-top.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32b7f43f6a21ec2f09bace70ced1bac5c73738d7",
+      "size": 1487,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/32b7f43f6a21ec2f09bace70ced1bac5c73738d7"
+    },
+    {
+      "path": "src/components/ui/tabs.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6a9770a3f4672ad4f055edcca673c6218ec0318",
+      "size": 1978,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/f6a9770a3f4672ad4f055edcca673c6218ec0318"
+    },
+    {
+      "path": "src/context",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4fba928a68f73c7a6c6b0a4d1d8570d6fa07ab47",
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/trees/4fba928a68f73c7a6c6b0a4d1d8570d6fa07ab47"
+    },
+    {
+      "path": "src/context/favourites-context.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "705d53d628efa874e4c15cc99748468ef4a224e2",
+      "size": 1600,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/705d53d628efa874e4c15cc99748468ef4a224e2"
+    },
+    {
+      "path": "src/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "244021c57dd1e9d234c060cc040f5ee07ae26237",
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/trees/244021c57dd1e9d234c060cc040f5ee07ae26237"
+    },
+    {
+      "path": "src/data/categories.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "655679dbf829d6cb14ea40a4481b3468c96e43d3",
+      "size": 170,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/655679dbf829d6cb14ea40a4481b3468c96e43d3"
+    },
+    {
+      "path": "src/data/patterns.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "493b323c2188d753aad563459edb4b326cc80265",
+      "size": 269836,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/493b323c2188d753aad563459edb4b326cc80265"
+    },
+    {
+      "path": "src/hooks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5103420f2b55de97308a3bd07390dcdf51496fcb",
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/trees/5103420f2b55de97308a3bd07390dcdf51496fcb"
+    },
+    {
+      "path": "src/hooks/useCopy.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "111cbd39d0b7c460c762c081495adf33fb804b53",
+      "size": 663,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/111cbd39d0b7c460c762c081495adf33fb804b53"
+    },
+    {
+      "path": "src/hooks/useTheme.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4969ffc0ef5d5b6349303b100b821271a8a97c83",
+      "size": 1141,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/4969ffc0ef5d5b6349303b100b821271a8a97c83"
+    },
+    {
+      "path": "src/lib",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9a55b86e8a73c47c710233f46c1760cb42e7f77f",
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/trees/9a55b86e8a73c47c710233f46c1760cb42e7f77f"
+    },
+    {
+      "path": "src/lib/constants.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b08dac0489cfab3041349875d1a74e8b9348a152",
+      "size": 858,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/b08dac0489cfab3041349875d1a74e8b9348a152"
+    },
+    {
+      "path": "src/lib/metadata.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cfa76c18123da69019ebf12c4c7fcf597deb58e",
+      "size": 3315,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/1cfa76c18123da69019ebf12c4c7fcf597deb58e"
+    },
+    {
+      "path": "src/lib/utils.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a38480cc9c4c2aa40ea6a3539c48bbefbe3e37d4",
+      "size": 1599,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/a38480cc9c4c2aa40ea6a3539c48bbefbe3e37d4"
+    },
+    {
+      "path": "src/types",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "84bc6cd413b5cf4e9f096298af0850090889f5a4",
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/trees/84bc6cd413b5cf4e9f096298af0850090889f5a4"
+    },
+    {
+      "path": "src/types/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21c7bcf687cb9ecbd573e639b7a7461eb0a82041",
+      "size": 27,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/21c7bcf687cb9ecbd573e639b7a7461eb0a82041"
+    },
+    {
+      "path": "src/types/pattern.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88203bed1711ab1f00345f4a942ceccdb3f7bc37",
+      "size": 257,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/88203bed1711ab1f00345f4a942ceccdb3f7bc37"
+    },
+    {
+      "path": "tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b575f7dac742447c79dd92f8b471b7d5e18c32cc",
+      "size": 702,
+      "url": "https://api.github.com/repos/megh-bari/pattern-craft/git/blobs/b575f7dac742447c79dd92f8b471b7d5e18c32cc"
+    }
+  ],
+  "truncated": false
+}

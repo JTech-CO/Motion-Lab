@@ -9,7 +9,7 @@
 
 A searchable archive of motion code, transitions, typography, loaders, shaders, gradients, palettes, and references. Browse previews on the web, search with the CLI, or connect an AI tool through local MCP and the included SKILL. No MP4 files are stored.
 
-**2,153 entries from 134 source projects:** 873 code assets, 992 palettes, and 288 references.
+**6,108 entries from 149 source projects:** 3,374 code assets, 2,446 palettes, and 288 references. The first 5,000-entry milestone is complete, including 5,820 stored assets.
 
 [GitHub repository](https://github.com/JTech-CO/Motion-Lab) · [AI SKILL](skills/motion-lab/SKILL.md) · [CLI, HTTP & MCP](docs/interfaces.md)
 
@@ -45,6 +45,7 @@ The collection preserves source IDs, code, licenses, pinned commits, and hashes.
 - [Collection pipeline and update commands](docs/collection.md)
 - [Analysis and preview limitations](docs/asset-analysis.md)
 - [Additional source assets and evidence](docs/asset-expansion.md)
+- [CSS collection](docs/css-wave.md) · [SVG and component collection](docs/vector-wave.md) · [Palette collection](docs/color-wave.md)
 - [Original recipes](docs/recipes.md)
 - [Validation and security checks](docs/validation.md)
 

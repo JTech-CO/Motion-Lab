@@ -1,0 +1,13 @@
+#g95 {
+  --s: 100px; /* control the size */
+  
+  --c: #99B2B7; /* back color */
+  background:
+    conic-gradient(at 80% 80%,var(--c) 75%,#0000 0),
+    linear-gradient(135deg,var(--c) calc(40%/3),
+      #0000 0 calc(200%/3),var(--c) 0),
+    conic-gradient(from 45deg at calc(160%/3) calc(80%/3),
+      #0008 135deg,#0000 0 225deg,#0004 0)
+    #EDC951; /* cube color */
+  background-size: var(--s) var(--s);
+}

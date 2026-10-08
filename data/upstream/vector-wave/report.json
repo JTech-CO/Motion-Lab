@@ -1,0 +1,159 @@
+{
+  "verifiedAt": "2026-10-09",
+  "rebuiltAt": "2026-10-08T18:04:11.572054+00:00",
+  "status": "hash-verified-offline-rebuilt",
+  "imported": 1857,
+  "bySource": {
+    "Material Line Icons": 1214,
+    "SDS Motion Forge": 597,
+    "SVG Spinners": 46
+  },
+  "byLanguage": {
+    "svg": 1260,
+    "css": 597
+  },
+  "skipped": [
+    {
+      "source": "sds-motion-forge",
+      "name": "sds-card-depth",
+      "reason": "source-declared-alias",
+      "originalName": "sds-card-parallax"
+    },
+    {
+      "source": "sds-motion-forge",
+      "name": "sds-card-flip",
+      "reason": "source-declared-alias",
+      "originalName": "sds-card-slice"
+    },
+    {
+      "source": "sds-motion-forge",
+      "name": "sds-card-neon",
+      "reason": "source-declared-alias",
+      "originalName": "sds-card-glow"
+    },
+    {
+      "source": "sds-motion-forge",
+      "name": "sds-char-orbit",
+      "reason": "upstream-missing-keyframe",
+      "missingKeyframes": [
+        "sds-charOrbitBob"
+      ],
+      "note": "The original effect is incomplete at its pinned revision. Its CSS and registry remain in the source archive."
+    },
+    {
+      "source": "sds-motion-forge",
+      "name": "sds-input-focus-glow",
+      "reason": "source-declared-alias",
+      "originalName": "sds-input-focus"
+    },
+    {
+      "source": "sds-motion-forge",
+      "name": "sds-loader-progress-glow",
+      "reason": "source-declared-alias",
+      "originalName": "sds-loader-progress"
+    },
+    {
+      "source": "sds-motion-forge",
+      "name": "sds-scroll-fade-up",
+      "reason": "source-declared-alias",
+      "originalName": "sds-scroll-rise"
+    },
+    {
+      "source": "line-md",
+      "path": "svg/iconify2-static-twotone.svg",
+      "reason": "no-actual-animation-elements"
+    },
+    {
+      "source": "line-md",
+      "path": "svg/iconify2-static.svg",
+      "reason": "no-actual-animation-elements"
+    },
+    {
+      "source": "line-md",
+      "path": "svg/moon-filled-to-sunny-filled-loop-transition.svg",
+      "reason": "identical-original-bytes",
+      "originalPath": "svg/moon-filled-alt-to-sunny-filled-loop-transition.svg"
+    },
+    {
+      "source": "line-md",
+      "path": "svg/moon-to-sunny-outline-loop-transition.svg",
+      "reason": "identical-original-bytes",
+      "originalPath": "svg/moon-alt-to-sunny-outline-loop-transition.svg"
+    },
+    {
+      "source": "line-md",
+      "path": "svg/sunny-outline-loop.svg",
+      "reason": "identical-original-bytes",
+      "originalPath": "svg/sunny-loop.svg"
+    },
+    {
+      "source": "line-md",
+      "path": "svg/sunny-twotone-loop.svg",
+      "reason": "identical-original-bytes",
+      "originalPath": "svg/sunny-outline-twotone-loop.svg"
+    },
+    {
+      "source": "line-md",
+      "path": "svg/sunny-twotone.svg",
+      "reason": "identical-original-bytes",
+      "originalPath": "svg/sunny-outline-twotone.svg"
+    },
+    {
+      "source": "line-md",
+      "path": "svg/sunny.svg",
+      "reason": "identical-original-bytes",
+      "originalPath": "svg/sunny-outline.svg"
+    }
+  ],
+  "requests": [],
+  "robots": [
+    {
+      "url": "https://raw.githubusercontent.com/robots.txt",
+      "status": "absent",
+      "httpStatus": 404
+    },
+    {
+      "url": "https://api.github.com/robots.txt",
+      "status": "absent",
+      "httpStatus": 404,
+      "note": "Metadata probes completed before API limit; no API calls in importer"
+    },
+    {
+      "url": "https://github.com/robots.txt",
+      "status": "reviewed",
+      "artifactPath": "data/upstream/vector-wave/probes/robots-github.com.txt",
+      "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db",
+      "note": "Canonical SVG source acquired through parent-authorized sparse Git checkout"
+    }
+  ],
+  "bounds": {
+    "maxArtifactBytes": 2097152,
+    "maxSvgBytes": 131072,
+    "maxAssets": 2000,
+    "workers": 1,
+    "requestsPerMinute": 48
+  },
+  "sources": [
+    {
+      "title": "SDS Motion Forge",
+      "sourceUrl": "https://github.com/salkomdesignstudio/SDS-Motion-Forge",
+      "commit": "e10005175c50a9b2a6bc757539b6fd9e30e8e53a",
+      "license": "MIT",
+      "licenseSha256": "f352b0c58afe20318340f856a5328ba3607a94f2d4601dd64eb42fba9616a2b8"
+    },
+    {
+      "title": "SVG Spinners",
+      "sourceUrl": "https://github.com/n3r4zzurr0/svg-spinners",
+      "commit": "abfa05c49acf005b8b1e0ef8eb25a67a7057eb20",
+      "license": "MIT",
+      "licenseSha256": "712f8f614e9a23cc754a21d72ea443f1166077e4ee0e6c3b6f9fa576a6d37254"
+    },
+    {
+      "title": "Material Line Icons",
+      "sourceUrl": "https://github.com/cyberalien/line-md",
+      "commit": "2ed22555cee9c1e50d4269865681d01ee8cffd7c",
+      "license": "MIT",
+      "licenseSha256": "2b88bafca347c6a12c33612fa51c5efbdd00c2753ed67fc474d7a6af9c61e430"
+    }
+  ]
+}

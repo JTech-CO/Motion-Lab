@@ -1,0 +1,12 @@
+#g128 {
+  --s: 50px; /* control the size */
+  
+  --p:at 45% 40%,#0000 75%,;
+  --g1:conic-gradient(var(--p)#c0b299 0);
+  --g2:conic-gradient(var(--p)#a4a9aa 0);
+  background:
+    var(--g1),var(--g2) calc(2*var(--s)) 0,
+    var(--g2) calc(3*var(--s)) var(--s),
+    var(--g1) var(--s) var(--s) #2c2e2a;
+  background-size: calc(4*var(--s)) calc(2*var(--s));
+}

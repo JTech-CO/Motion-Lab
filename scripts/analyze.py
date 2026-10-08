@@ -124,12 +124,12 @@ def _valid_dom(value, depth=0, budget=None):
     budget = [96] if budget is None else budget
     if not isinstance(value, dict) or depth > 5 or budget[0] < 1:
         return None
-    if set(value) - {"tag", "className", "children", "text"}:
+    if set(value) - {"tag", "className", "children", "text", "variables", "placeholder"}:
         return None
     tag = value.get("tag", "div")
     class_name = value.get("className", "")
     children = value.get("children", [])
-    if tag not in ("div", "span") or not isinstance(class_name, str) or len(class_name) > 180:
+    if tag not in ("div", "span", "p", "strong", "em", "h1", "h2", "button", "input", "label") or not isinstance(class_name, str) or len(class_name) > 180:
         return None
     if class_name and not re.fullmatch(r"[A-Za-z_][\w-]*(?: +[A-Za-z_][\w-]*)*", class_name):
         return None
@@ -143,6 +143,21 @@ def _valid_dom(value, depth=0, budget=None):
         if not isinstance(value["text"], str) or len(value["text"]) > 64:
             return None
         result["text"] = value["text"]
+    if "placeholder" in value:
+        if not isinstance(value["placeholder"], str) or len(value["placeholder"]) > 80:
+            return None
+        result["placeholder"] = value["placeholder"]
+    if "variables" in value:
+        variables = value["variables"]
+        if not isinstance(variables, dict) or len(variables) > 32:
+            return None
+        if any(not isinstance(key, str) or not re.fullmatch(r"--[a-z_][a-z0-9_-]{0,70}", key, re.I)
+               or not isinstance(val, str) or len(val) > 240
+               or not re.fullmatch(r"[a-z0-9#().,%\s_+-]+", val, re.I)
+               or re.search(r"(?:url|expression|image-set|attr)\s*\(", val, re.I)
+               for key, val in variables.items()):
+            return None
+        result["variables"] = dict(variables)
     if children:
         parsed = [_valid_dom(child, depth + 1, budget) for child in children]
         if any(child is None for child in parsed):
@@ -419,7 +434,7 @@ def _svg_analysis(item, code):
     animations = []
     for element in nodes:
         tag = element.tag.rsplit("}", 1)[-1]
-        if tag in ("animate", "animateTransform", "animateMotion"):
+        if tag in ("animate", "animateTransform", "animateMotion", "set"):
             techniques.add("svg-animation")
             attribute = element.attrib.get("attributeName", "")
             if attribute in SAFE_PROPERTIES:

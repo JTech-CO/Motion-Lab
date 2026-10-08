@@ -1,0 +1,5 @@
+# Keep generated JSON deterministic across Windows and POSIX checkouts.
+*.json text eol=lf
+
+# Original source artifacts and their manifests are verified as exact bytes.
+data/upstream/** -text

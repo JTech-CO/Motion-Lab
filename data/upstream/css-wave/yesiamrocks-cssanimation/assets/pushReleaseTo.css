@@ -1,0 +1,39 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+/**
+ * Module: Push Release To
+ * Filename: ca__PushReleaseTo.css
+ */
+.ca__fx-pushReleaseTo {
+  animation-name: pushReleaseTo;
+}
+
+@keyframes pushReleaseTo {
+  30% {
+    transform: scale(0.5, 0.5);
+  }
+
+  100% {
+    transform: scale(5, 5);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

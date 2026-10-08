@@ -1,0 +1,296 @@
+{
+  "verifiedAt": "2026-10-09",
+  "total": 1454,
+  "sourceCounts": {
+    "palettetown": {
+      "storedDefinitions": 389,
+      "imported": 388,
+      "duplicates": 1,
+      "invalidSize": 0
+    },
+    "nbapalettes": {
+      "storedDefinitions": 129,
+      "imported": 126,
+      "duplicates": 3,
+      "invalidSize": 0
+    },
+    "lisa": {
+      "storedDefinitions": 128,
+      "imported": 128,
+      "duplicates": 0,
+      "invalidSize": 0
+    },
+    "colRoz": {
+      "storedDefinitions": 54,
+      "imported": 54,
+      "duplicates": 0,
+      "invalidSize": 0
+    },
+    "MetBrewer": {
+      "storedDefinitions": 56,
+      "imported": 56,
+      "duplicates": 0,
+      "invalidSize": 0
+    },
+    "PrettyCols": {
+      "storedDefinitions": 46,
+      "imported": 46,
+      "duplicates": 0,
+      "invalidSize": 0
+    },
+    "poisonfrogs": {
+      "storedDefinitions": 41,
+      "imported": 41,
+      "duplicates": 0,
+      "invalidSize": 0
+    },
+    "colorbrewer": {
+      "storedDefinitions": 264,
+      "imported": 264,
+      "duplicates": 0,
+      "invalidSize": 0
+    },
+    "cartocolor": {
+      "storedDefinitions": 228,
+      "imported": 227,
+      "duplicates": 1,
+      "invalidSize": 0
+    },
+    "radix-colors": {
+      "storedDefinitions": 124,
+      "imported": 124,
+      "duplicates": 0,
+      "invalidSize": 0
+    }
+  },
+  "deduplication": "Exact RGB/RGBA swatch multiset, including length and repetitions; across existing catalog and wave",
+  "exclusions": [
+    {
+      "source": "palettetown",
+      "name": "magneton",
+      "reason": "same exact swatch multiset already present"
+    },
+    {
+      "source": "nbapalettes",
+      "name": "celtics_europe",
+      "reason": "same exact swatch multiset already present"
+    },
+    {
+      "source": "nbapalettes",
+      "name": "kings_alt2",
+      "reason": "same exact swatch multiset already present"
+    },
+    {
+      "source": "nbapalettes",
+      "name": "pistons_city",
+      "reason": "same exact swatch multiset already present"
+    },
+    {
+      "source": "cartocolor",
+      "name": "TealRose-5",
+      "reason": "same exact swatch multiset already present"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "data/upstream/color-wave/palettetown/R/sysdata.rda",
+      "sourceCommit": "4f772f78578d2ae9167ab76024b7ec8886d4567e",
+      "repository": "timcdlucas/palettetown",
+      "artifactPath": "R/sysdata.rda",
+      "url": "https://raw.githubusercontent.com/timcdlucas/palettetown/4f772f78578d2ae9167ab76024b7ec8886d4567e/R/sysdata.rda",
+      "bytes": 16669,
+      "sha256": "966c66bb86e5365c304a0d928ecc11f8023499d30393ca7f5b0a112d1567b3c6"
+    },
+    {
+      "path": "data/upstream/color-wave/palettetown/LICENSE",
+      "sourceCommit": "4f772f78578d2ae9167ab76024b7ec8886d4567e",
+      "repository": "timcdlucas/palettetown",
+      "artifactPath": "LICENSE",
+      "url": "https://raw.githubusercontent.com/timcdlucas/palettetown/4f772f78578d2ae9167ab76024b7ec8886d4567e/LICENSE",
+      "bytes": 39,
+      "sha256": "4573f1da26afd39d15a70b8ffca5c6f2df00cf0610d12c886e0875eb165b343b"
+    },
+    {
+      "path": "data/upstream/color-wave/nbapalettes/R/colors.R",
+      "sourceCommit": "b1dc7a68b4bb1331ef22eec74f9c79c9f782321c",
+      "repository": "murrayjw/nbapalettes",
+      "artifactPath": "R/colors.R",
+      "url": "https://raw.githubusercontent.com/murrayjw/nbapalettes/b1dc7a68b4bb1331ef22eec74f9c79c9f782321c/R/colors.R",
+      "bytes": 12313,
+      "sha256": "84b5d3f13dd2143c58d83fe1cb502961d238dcf7966906804d068092f2207ff9"
+    },
+    {
+      "path": "data/upstream/color-wave/nbapalettes/LICENSE.md",
+      "sourceCommit": "b1dc7a68b4bb1331ef22eec74f9c79c9f782321c",
+      "repository": "murrayjw/nbapalettes",
+      "artifactPath": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/murrayjw/nbapalettes/b1dc7a68b4bb1331ef22eec74f9c79c9f782321c/LICENSE.md",
+      "bytes": 1070,
+      "sha256": "1cd5252335eb9f47c8fe941362ad52c3b6d1045a29b561ab8b6af4c6163da055"
+    },
+    {
+      "path": "data/upstream/color-wave/lisa/inst/extdata/palettes.yml",
+      "sourceCommit": "91f7f3f59ff60a89a161a9f8ff5be0804e7dd137",
+      "repository": "tylerlittlefield/lisa",
+      "artifactPath": "inst/extdata/palettes.yml",
+      "url": "https://raw.githubusercontent.com/tylerlittlefield/lisa/91f7f3f59ff60a89a161a9f8ff5be0804e7dd137/inst/extdata/palettes.yml",
+      "bytes": 9594,
+      "sha256": "b0e598510de02c4f72578b54564478bf4991ed41449ab47622f5ce7e7a5c56ec"
+    },
+    {
+      "path": "data/upstream/color-wave/lisa/LICENSE.md",
+      "sourceCommit": "91f7f3f59ff60a89a161a9f8ff5be0804e7dd137",
+      "repository": "tylerlittlefield/lisa",
+      "artifactPath": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/tylerlittlefield/lisa/91f7f3f59ff60a89a161a9f8ff5be0804e7dd137/LICENSE.md",
+      "bytes": 1076,
+      "sha256": "def363de9673d96c62249f5576d18d8e2aba478270d26a59385ab5459db1ea0f"
+    },
+    {
+      "path": "data/upstream/color-wave/colRoz/R/oz_palettes.R",
+      "sourceCommit": "b2e6319648749430e45f1842131067eb1aad732a",
+      "repository": "jacintak/colRoz",
+      "artifactPath": "R/oz_palettes.R",
+      "url": "https://raw.githubusercontent.com/jacintak/colRoz/b2e6319648749430e45f1842131067eb1aad732a/R/oz_palettes.R",
+      "bytes": 6706,
+      "sha256": "ee49e91cb68f9ad27afd128cb6ef0a62d64f0e215a898fa4143d9f4c49ce56de"
+    },
+    {
+      "path": "data/upstream/color-wave/colRoz/LICENSE.txt",
+      "sourceCommit": "b2e6319648749430e45f1842131067eb1aad732a",
+      "repository": "jacintak/colRoz",
+      "artifactPath": "LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/jacintak/colRoz/b2e6319648749430e45f1842131067eb1aad732a/LICENSE.txt",
+      "bytes": 1078,
+      "sha256": "22bbc5169783591f38d3c79afac4d274baac9d399b53372f338ec320922ad99c"
+    },
+    {
+      "path": "data/upstream/color-wave/MetBrewer/R/PaletteCode.R",
+      "sourceCommit": "58839e5ac7c7d604c8704581f7b201a29986b814",
+      "repository": "BlakeRMills/MetBrewer",
+      "artifactPath": "R/PaletteCode.R",
+      "url": "https://raw.githubusercontent.com/BlakeRMills/MetBrewer/58839e5ac7c7d604c8704581f7b201a29986b814/R/PaletteCode.R",
+      "bytes": 35916,
+      "sha256": "eeb6da2a7dccc8162e843867017d205b27e0c0e6725733082d1c447c5365bb73"
+    },
+    {
+      "path": "data/upstream/color-wave/MetBrewer/LICENSE.md",
+      "sourceCommit": "58839e5ac7c7d604c8704581f7b201a29986b814",
+      "repository": "BlakeRMills/MetBrewer",
+      "artifactPath": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/BlakeRMills/MetBrewer/58839e5ac7c7d604c8704581f7b201a29986b814/LICENSE.md",
+      "bytes": 6966,
+      "sha256": "8e2c443dd9aea6fcd6c293dbf66935bd5ef502fc0ca9b466c773cf9316d5e04c"
+    },
+    {
+      "path": "data/upstream/color-wave/PrettyCols/R/PrettyColsPalettes.R",
+      "sourceCommit": "d754b34d2e08dc9b85494c59cc99421ce5ef0651",
+      "repository": "nrennie/PrettyCols",
+      "artifactPath": "R/PrettyColsPalettes.R",
+      "url": "https://raw.githubusercontent.com/nrennie/PrettyCols/d754b34d2e08dc9b85494c59cc99421ce5ef0651/R/PrettyColsPalettes.R",
+      "bytes": 7700,
+      "sha256": "bea0f9e3b7e476dcd20136e2262777cc89b9b83f543d0b1de58f370bf49a8154"
+    },
+    {
+      "path": "data/upstream/color-wave/PrettyCols/LICENSE.md",
+      "sourceCommit": "d754b34d2e08dc9b85494c59cc99421ce5ef0651",
+      "repository": "nrennie/PrettyCols",
+      "artifactPath": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/nrennie/PrettyCols/d754b34d2e08dc9b85494c59cc99421ce5ef0651/LICENSE.md",
+      "bytes": 6966,
+      "sha256": "8e2c443dd9aea6fcd6c293dbf66935bd5ef502fc0ca9b466c773cf9316d5e04c"
+    },
+    {
+      "path": "data/upstream/color-wave/poisonfrogs/R/poison_frog_palettes.R",
+      "sourceCommit": "ba61837060eb9addc82950a97c6a0739d788d9d5",
+      "repository": "laurenoconnelllab/poisonfrogs",
+      "artifactPath": "R/poison_frog_palettes.R",
+      "url": "https://raw.githubusercontent.com/laurenoconnelllab/poisonfrogs/ba61837060eb9addc82950a97c6a0739d788d9d5/R/poison_frog_palettes.R",
+      "bytes": 6905,
+      "sha256": "fc0a37896e5e8d95b37784db748bb49cab9a85312cb8c616b0721ea723076a42"
+    },
+    {
+      "path": "data/upstream/color-wave/poisonfrogs/LICENSE.md",
+      "sourceCommit": "ba61837060eb9addc82950a97c6a0739d788d9d5",
+      "repository": "laurenoconnelllab/poisonfrogs",
+      "artifactPath": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/laurenoconnelllab/poisonfrogs/ba61837060eb9addc82950a97c6a0739d788d9d5/LICENSE.md",
+      "bytes": 1083,
+      "sha256": "2bd4da62789d1d61dfcdabe9ca2cb0f6a2bf9a4590622035704895159f035e8f"
+    },
+    {
+      "path": "data/upstream/color-wave/colorbrewer/export/colorbrewer.json",
+      "sourceCommit": "7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f",
+      "repository": "axismaps/colorbrewer",
+      "artifactPath": "export/colorbrewer.json",
+      "url": "https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/colorbrewer.json",
+      "bytes": 35144,
+      "sha256": "729cb527c1edcf3267c4521df29ede5092f3e6171c5a259e2ebdd252335840b9"
+    },
+    {
+      "path": "data/upstream/color-wave/colorbrewer/export/LICENSE.txt",
+      "sourceCommit": "7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f",
+      "repository": "axismaps/colorbrewer",
+      "artifactPath": "export/LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/axismaps/colorbrewer/7d135fc4e19eda73f2eb1bf55fcdf4a04fe4881f/export/LICENSE.txt",
+      "bytes": 1710,
+      "sha256": "aba881933999be3549b2171832a11a9dfad574243019df95c067ccf3d47b9649"
+    },
+    {
+      "path": "data/upstream/color-wave/cartocolor/src/carto.ts",
+      "sourceCommit": "1a850e4713a12c68373f1df1a7d42ff7869ed49c",
+      "repository": "CartoDB/CartoColor",
+      "artifactPath": "src/carto.ts",
+      "url": "https://raw.githubusercontent.com/CartoDB/CartoColor/1a850e4713a12c68373f1df1a7d42ff7869ed49c/src/carto.ts",
+      "bytes": 19172,
+      "sha256": "a74e06bd71d347e268a988a015535f1efcf1eb69a62a3293ed64327151dbcb1c"
+    },
+    {
+      "path": "data/upstream/color-wave/cartocolor/README.md",
+      "sourceCommit": "1a850e4713a12c68373f1df1a7d42ff7869ed49c",
+      "repository": "CartoDB/CartoColor",
+      "artifactPath": "README.md",
+      "url": "https://raw.githubusercontent.com/CartoDB/CartoColor/1a850e4713a12c68373f1df1a7d42ff7869ed49c/README.md",
+      "bytes": 1892,
+      "sha256": "b692d9eda629042c9fc9a95ffcf32db6720bd4466b7e4b8ccc2435f5814b3302"
+    },
+    {
+      "path": "data/upstream/color-wave/radix-colors/src/light.ts",
+      "sourceCommit": "dbdb85470547c7d34b9001f48fddb08ded335979",
+      "repository": "radix-ui/colors",
+      "artifactPath": "src/light.ts",
+      "url": "https://raw.githubusercontent.com/radix-ui/colors/dbdb85470547c7d34b9001f48fddb08ded335979/src/light.ts",
+      "bytes": 58664,
+      "sha256": "1a9725486609d36b469caa3b84b8de4348b7f2f05d45905127637b988329acbd"
+    },
+    {
+      "path": "data/upstream/color-wave/radix-colors/LICENSE",
+      "sourceCommit": "dbdb85470547c7d34b9001f48fddb08ded335979",
+      "repository": "radix-ui/colors",
+      "artifactPath": "LICENSE",
+      "url": "https://raw.githubusercontent.com/radix-ui/colors/dbdb85470547c7d34b9001f48fddb08ded335979/LICENSE",
+      "bytes": 1102,
+      "sha256": "d981bc30e0d78b9ffc8f279fcaa274ea0444ff51d983548a609397d5c8a42dc2"
+    },
+    {
+      "path": "data/upstream/color-wave/radix-colors/src/dark.ts",
+      "sourceCommit": "dbdb85470547c7d34b9001f48fddb08ded335979",
+      "repository": "radix-ui/colors",
+      "artifactPath": "src/dark.ts",
+      "url": "https://raw.githubusercontent.com/radix-ui/colors/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+      "bytes": 58393,
+      "sha256": "d8599fe69a4454340b2bc82e003a210caa6b79082be9a1b7f13429ff03826c68"
+    }
+  ],
+  "outputBytes": 14214435,
+  "outputSha256": "243e8fdbf5f1b7c72f08f4daa899c6cf550cc2471d524d4e95254e1be45bcf10",
+  "dedupBaselineSha256": "f2ebd6f8bc587dd935638fdce56e21fd85d5cf0686417cceb0595245ca2d6214",
+  "sourceAuditSha256": "18727b93912420be0ca830d62dddfd3fade362fe4f52ebf4a1e6be1fb698c6f2",
+  "validation": {
+    "schema": "passed",
+    "uniqueIds": true,
+    "exactCodeColors": true,
+    "storedSizesOnly": true,
+    "noVideo": true
+  }
+}

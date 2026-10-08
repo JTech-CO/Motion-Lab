@@ -1,0 +1,584 @@
+# cssanimation.io – Animation Class Reference
+
+## Fade Animations
+- `ca__fx-fadeIn` — Fades in gently from transparent to visible
+- `ca__fx-fadeInTop` — Fades in while moving down from the top
+- `ca__fx-fadeInBottom` — Fades in while moving up from the bottom
+- `ca__fx-fadeInLeft` — Fades in while sliding in from the left
+- `ca__fx-fadeInRight` — Fades in while sliding in from the right
+- `ca__fx-fadeOut` — Fades out gradually until fully transparent
+- `ca__fx-fadeOutTop` — Fades out while moving up to the top
+- `ca__fx-fadeOutBottom` — Fades out while moving down to the bottom
+- `ca__fx-fadeOutLeft` — Fades out while sliding leftward
+- `ca__fx-fadeOutRight` — Fades out while sliding rightward
+
+## Flip Animations
+- `ca__fx-flipXZoomIn` — Flips along X axis while zooming in
+- `ca__fx-flipXZoomOut` — Flips along X axis while zooming out
+- `ca__fx-flipX` — Flips the element along the horizontal (X) axis
+- `ca__fx-flipY` — Flips the element along the vertical (Y) axis
+- `ca__fx-flipYZoomIn` — Flips along Y axis while zooming in
+- `ca__fx-flipYZoomOut` — Flips along Y axis while zooming out
+
+## Bounce Animations
+- `ca__fx-bounceFromTop` — Bounces in from the top with elasticity
+- `ca__fx-bounceInTop` — Bounces in and lands from the top
+- `ca__fx-bounceInBottom` — Bounces in and rises from the bottom
+- `ca__fx-bounceInLeft` — Bounces in from the left edge
+- `ca__fx-bounceInRight` — Bounces in from the right edge
+- `ca__fx-bounceOutTop` — Bounces upward and fades out
+- `ca__fx-bounceOutBottom` — Bounces downward and fades out
+- `ca__fx-bounceOutLeft` — Bounces out to the left and disappears
+- `ca__fx-bounceOutRight` — Bounces out to the right and disappears
+- `ca__fx-bounceX` — Bounces horizontally left and right
+- `ca__fx-bounceY` — Bounces vertically up and down
+- `ca__fx-bounceZoomIn` — Zooms in while bouncing softly
+- `ca__fx-bounceZoomOut` — Zooms out with a final bounce
+
+## Dance Animations
+- `ca__fx-danceBottom` — Bounces and wiggles from the bottom with playful rhythm
+- `ca__fx-danceMiddle` — Wiggles in place around the center as if dancing
+- `ca__fx-danceTop` — Dances in from the top with a lively bounce
+
+## Door Animations
+- `ca__fx-doorCloseFromLeft` — Closes like a door swinging in from the left side
+- `ca__fx-doorCloseFromRight` — Closes like a door swinging in from the right side
+- `ca__fx-doorOpenFromLeft` — Opens like a door swinging outward from the left
+- `ca__fx-doorOpenFromRight` — Opens like a door swinging outward from the right
+
+## Cool Shake Animations
+- `ca__fx-coolHorizontalShake` — Performs a smooth, stylish shake left and right — less jittery than a classic shake
+- `ca__fx-coolVerticalShake` — Gently shakes up and down with a controlled, smooth rhythm
+
+## General FX & 3D Animations
+- `ca__fx-effect3d` — Applies a 3D depth effect using perspective and rotation
+- `ca__fx-electricity` — Twitches rapidly like a spark or electric jolt
+
+## Elevate / Hover Motions
+- `ca__fx-elevateLeft` — Lifts the element slightly while shifting it to the left
+- `ca__fx-elevateRight` — Lifts the element slightly while shifting it to the right
+
+## Hang & Drop Effects
+- `ca__fx-hangAndDropLeft` — Swings from the left like it's hanging, then drops
+- `ca__fx-hangAndDropRight` — Swings from the right and drops like a broken hook
+- `ca__fx-hangOnLeft` — Swings gently on the left edge like hanging from a rope
+- `ca__fx-hangOnRight` — Swings on the right as if hanging from the side
+
+## Heartbeat
+- `ca__fx-heartbeatFast` — Pulses quickly like a fast heartbeat
+- `ca__fx-heartbeatSlow` — Pulses slowly with a calm rhythm
+
+## cssanimation Special
+- `ca__fx-horizontalShake` — Shakes left and right repeatedly
+- `ca__fx-hu__hu__` — Comical fast shake like a cartoon ‘shiver’ or giggle
+
+## Core Animation Classes (Ungrouped)
+- `ca__fx-aetherGlowRise`
+- `ca__fx-approveBounce`
+- `ca__fx-blobBouncePop`
+- `ca__fx-blobElasticStretch`
+- `ca__fx-blobJumpMorph`
+- `ca__fx-blobPulseDrop`
+- `ca__fx-blurIn`
+- `ca__fx-blurInFromBottom`
+- `ca__fx-blurInFromRight`
+- `ca__fx-blurInFromTop`
+- `ca__fx-blurInfromLeft`
+- `ca__fx-blurOut`
+- `ca__fx-blurOutToBottom`
+- `ca__fx-blurOutToLeft`
+- `ca__fx-blurOutToRight`
+- `ca__fx-blurOutToTop`
+- `ca__fx-blurTrailIn`
+- `ca__fx-blurTrailOut`
+- `ca__fx-blushSlideIn`
+- `ca__fx-bobble`
+- `ca__fx-boing`
+- `ca__fx-boingScale`
+- `ca__fx-bounceFromDown`
+- `ca__fx-bounceInFromBottom`
+- `ca__fx-bounceInWaddle`
+- `ca__fx-bounceOutWaddle`
+- `ca__fx-bouncyDrop`
+- `ca__fx-bouncyScale`
+- `ca__fx-breezeLift`
+- `ca__fx-buzz`
+- `ca__fx-clipAnimate`
+- `ca__fx-clipAnimateWave`
+- `ca__fx-clipBurstCircle`
+- `ca__fx-clipCircleCollapseOut`
+- `ca__fx-clipCircleExpandIn`
+- `ca__fx-clipCrossSweepOut`
+- `ca__fx-clipDiagonalSliceIn`
+- `ca__fx-clipDiagonalWipeIn`
+- `ca__fx-clipDiagonalWipeOut`
+- `ca__fx-clipDiamondIn`
+- `ca__fx-clipGridCollapse`
+- `ca__fx-clipGridReveal`
+- `ca__fx-clipMultiStepCollapse`
+- `ca__fx-clipMultiStepReveal`
+- `ca__fx-clipVerticalSplitIn`
+- `ca__fx-clipVerticalSplitOut`
+- `ca__fx-colorFlicker`
+- `ca__fx-colorPulse`
+- `ca__fx-comboLevelRise`
+- `ca__fx-corruptTextOffset`
+- `ca__fx-corruptTextScramble`
+- `ca__fx-cosmicReveal`
+- `ca__fx-crescentOrbitRevealLeft`
+- `ca__fx-crescentOrbitRevealRight`
+- `ca__fx-criticalBreach`
+- `ca__fx-curtainClose`
+- `ca__fx-curtainReveal`
+- `ca__fx-digitalScanlineReveal`
+- `ca__fx-dropSpinIn`
+- `ca__fx-elasticArise`
+- `ca__fx-elasticBounce`
+- `ca__fx-elasticIn`
+- `ca__fx-elasticJump`
+- `ca__fx-elasticPulse`
+- `ca__fx-elasticRise`
+- `ca__fx-elasticSquash`
+- `ca__fx-elasticStretch`
+- `ca__fx-enchantFloatDrop`
+- `ca__fx-featherFloat`
+- `ca__fx-flexiShrink`
+- `ca__fx-flickerPop`
+- `ca__fx-flipOutLeft`
+- `ca__fx-flipOutRight`
+- `ca__fx-flipOutXLeft`
+- `ca__fx-flipOutXRight`
+- `ca__fx-flipTwistBottom`
+- `ca__fx-flipTwistCombo`
+- `ca__fx-flipTwistDiagonal`
+- `ca__fx-flipTwistDrop`
+- `ca__fx-flipTwistHover`
+- `ca__fx-flipTwistLeft`
+- `ca__fx-flipTwistOutLeft`
+- `ca__fx-flipTwistOutRight`
+- `ca__fx-flipTwistOutTop`
+- `ca__fx-flipTwistOutZoom`
+- `ca__fx-flipTwistPop`
+- `ca__fx-flipTwistRight`
+- `ca__fx-flipTwistSlam`
+- `ca__fx-flipTwistTiltHover`
+- `ca__fx-flipTwistTiltIn`
+- `ca__fx-flipTwistTop`
+- `ca__fx-flipTwistVertical`
+- `ca__fx-flipTwistZoom`
+- `ca__fx-flipTwistZoomHover`
+- `ca__fx-floatingOrb`
+- `ca__fx-flubberBounce`
+- `ca__fx-flyInBottom`
+- `ca__fx-flyInTop`
+- `ca__fx-flyOutBottom`
+- `ca__fx-flyOutTop`
+- `ca__fx-gearSnapIn`
+- `ca__fx-glintReveal`
+- `ca__fx-glitchCompressIn`
+- `ca__fx-glitchCompressOut`
+- `ca__fx-glitchExit`
+- `ca__fx-glitchFlash`
+- `ca__fx-glitchJitter`
+- `ca__fx-glitchPopIn`
+- `ca__fx-glitchScanBurst`
+- `ca__fx-glitchSequence`
+- `ca__fx-glitchSlice`
+- `ca__fx-glitchSliceCrack`
+- `ca__fx-glitchSliceExitSharp`
+- `ca__fx-glitchSliceExitTilt`
+- `ca__fx-glitchSliceInCollapse`
+- `ca__fx-glitchSliceInSharp`
+- `ca__fx-glitchSliceInTilt`
+- `ca__fx-glitchSliceStagger`
+- `ca__fx-glitchSliceTilt`
+- `ca__fx-glitchSliceYank`
+- `ca__fx-gooBounceBlob`
+- `ca__fx-gradientText`
+- `ca__fx-gravityPullIn`
+- `ca__fx-hop`
+- `ca__fx-hudAlertGlitch`
+- `ca__fx-inertiaSlideIn`
+- `ca__fx-jello`
+- `ca__fx-jelly`
+- `ca__fx-jellyBounceWave`
+- `ca__fx-jiggle`
+- `ca__fx-jiggleTransform`
+- `ca__fx-jigglypop`
+- `ca__fx-jitter`
+- `ca__fx-jitterJump`
+- `ca__fx-joltZoom`
+- `ca__fx-joyBounceIn`
+- `ca__fx-jump`
+- `ca__fx-jumping`
+- `ca__fx-kickOutBehind`
+- `ca__fx-kickOutFront`
+- `ca__fx-kiteCollapse`
+- `ca__fx-kiteDragDrop`
+- `ca__fx-kiteEntrySnap`
+- `ca__fx-kiteExitLift`
+- `ca__fx-kiteFlipTwist`
+- `ca__fx-kiteFloatInLeft`
+- `ca__fx-kiteFloatInRight`
+- `ca__fx-kiteHoverLoop`
+- `ca__fx-kiteSnapBounceIn`
+- `ca__fx-kiteSwingEntry`
+- `ca__fx-kiteTetheredFloat`
+- `ca__fx-kiteWaveExit`
+- `ca__fx-kiteWhipIn`
+- `ca__fx-launch`
+- `ca__fx-layerPeelIn`
+- `ca__fx-layerPeelOut`
+- `ca__fx-leafFloatAway`
+- `ca__fx-leafFloatIn`
+- `ca__fx-levelUnlock`
+- `ca__fx-levitate`
+- `ca__fx-lift`
+- `ca__fx-lightning`
+- `ca__fx-lunarVeilIn`
+- `ca__fx-madMax`
+- `ca__fx-magicBlobSplit`
+- `ca__fx-magicDustExit`
+- `ca__fx-magicTrailComet`
+- `ca__fx-mask-shutterLinesIn`
+- `ca__fx-mask-stripesWideIn`
+- `ca__fx-mask-wipeInBottom`
+- `ca__fx-mask-wipeInLeft`
+- `ca__fx-mask-wipeInRight`
+- `ca__fx-mask-wipeInTop`
+- `ca__fx-mask-wipeOutBottom`
+- `ca__fx-mask-wipeOutLeft`
+- `ca__fx-mask-wipeOutRight`
+- `ca__fx-mask-wipeOutTop`
+- `ca__fx-maskCheckerboardIn`
+- `ca__fx-maskDiamondIn`
+- `ca__fx-maskHorizontalBarsIn`
+- `ca__fx-maskLinesSlideIn`
+- `ca__fx-maskRainRevealIn`
+- `ca__fx-maskStairStepIn`
+- `ca__fx-maskStripesDiagonalLeftIn`
+- `ca__fx-maskStripesDiagonalLeftOut`
+- `ca__fx-maskStripesDiagonalUpIn`
+- `ca__fx-maskStripesDiagonalUpOut`
+- `ca__fx-maskStripesHorizontalReverseIn`
+- `ca__fx-maskStripesHorizontalReverseOut`
+- `ca__fx-maskStripesIn`
+- `ca__fx-maskStripesJitterIn`
+- `ca__fx-maskStripesJitterOut`
+- `ca__fx-maskStripesThinIn`
+- `ca__fx-maskStripesThinOut`
+- `ca__fx-maskStripesVerticalIn`
+- `ca__fx-maskStripesVerticalOut`
+- `ca__fx-maskStripesWideOut`
+- `ca__fx-maskThreadLinesIn`
+- `ca__fx-maskZigzagRevealIn`
+- `ca__fx-matrixWave`
+- `ca__fx-microGlitch`
+- `ca__fx-moonCyclePulse`
+- `ca__fx-moonDustFloat`
+- `ca__fx-moonEclipseIn`
+- `ca__fx-moonEclipseOut`
+- `ca__fx-moonFade`
+- `ca__fx-moonFadeDown`
+- `ca__fx-moonFadeLeft`
+- `ca__fx-moonFadeOut`
+- `ca__fx-moonFadeOutDown`
+- `ca__fx-moonFadeOutLeft`
+- `ca__fx-moonFadeOutRight`
+- `ca__fx-moonFadeOutScale`
+- `ca__fx-moonFadeOutUp`
+- `ca__fx-moonFadeRight`
+- `ca__fx-moonFadeScaleUp`
+- `ca__fx-moonFadeSlow`
+- `ca__fx-moonFadeStrong`
+- `ca__fx-moonFadeUp`
+- `ca__fx-moonPhaseReveal`
+- `ca__fx-moonRippleGlow`
+- `ca__fx-moonSliceReveal`
+- `ca__fx-moonSliceUp`
+- `ca__fx-moonSlideInCrescent`
+- `ca__fx-moonTiltRise`
+- `ca__fx-moveFromBottom`
+- `ca__fx-moveFromLeft`
+- `ca__fx-moveFromRight`
+- `ca__fx-moveFromTop`
+- `ca__fx-moveToBottom`
+- `ca__fx-moveToLeft`
+- `ca__fx-moveToRight`
+- `ca__fx-moveToTop`
+- `ca__fx-neonGlow`
+- `ca__fx-orbitExitDiagonalLeft`
+- `ca__fx-orbitExitDiagonalRight`
+- `ca__fx-orbitExitLeft`
+- `ca__fx-orbitExitRight`
+- `ca__fx-orbitHelixFall`
+- `ca__fx-orbitHelixRise`
+- `ca__fx-orbitPopTwistIn`
+- `ca__fx-orbitReveal3`
+- `ca__fx-orbitReveal4`
+- `ca__fx-orbitRevealBottom`
+- `ca__fx-orbitRevealDiagonalLeft`
+- `ca__fx-orbitRevealDiagonalRight`
+- `ca__fx-orbitRevealFromBottomLeft`
+- `ca__fx-orbitRevealFromBottomRight`
+- `ca__fx-orbitRevealFromTopLeft`
+- `ca__fx-orbitRevealFromTopRight`
+- `ca__fx-orbitRevealLeft`
+- `ca__fx-orbitRevealRight`
+- `ca__fx-orbitRevealTop`
+- `ca__fx-orbitRollIn3D`
+- `ca__fx-orbitRollOut3D`
+- `ca__fx-orbitSpiralIn`
+- `ca__fx-orbitSwingFlipIn`
+- `ca__fx-orbitSwingFlipOut`
+- `ca__fx-orbitSwingFromBottomLeft`
+- `ca__fx-orbitSwingFromBottomRight`
+- `ca__fx-orbitSwingFromTopLeft`
+- `ca__fx-orbitSwingFromTopRight`
+- `ca__fx-orbitSwirlExit`
+- `ca__fx-orbitSwirlReveal`
+- `ca__fx-orbitTiltExit`
+- `ca__fx-orbitTiltReveal`
+- `ca__fx-orbitalSpin`
+- `ca__fx-panelUnfold`
+- `ca__fx-peekpeek`
+- `ca__fx-peelDropIn`
+- `ca__fx-pepe`
+- `ca__fx-perspectiveTilt`
+- `ca__fx-perspectiveToBottom`
+- `ca__fx-perspectiveToTop`
+- `ca__fx-petalDrop`
+- `ca__fx-petalLiftOut`
+- `ca__fx-popUp`
+- `ca__fx-powerUpPop`
+- `ca__fx-pullRelease`
+- `ca__fx-pulseAura`
+- `ca__fx-pulseElastic`
+- `ca__fx-pulseGlow`
+- `ca__fx-pulseShake`
+- `ca__fx-pushRelease`
+- `ca__fx-pushReleaseFrom`
+- `ca__fx-pushReleaseFromBottom`
+- `ca__fx-pushReleaseFromLeft`
+- `ca__fx-pushReleaseFromRight`
+- `ca__fx-pushReleaseFromTop`
+- `ca__fx-pushReleaseTo`
+- `ca__fx-pushReleaseToBottom`
+- `ca__fx-pushReleaseToLeft`
+- `ca__fx-pushReleaseToRight`
+- `ca__fx-pushReleaseToTop`
+- `ca__fx-quietMad`
+- `ca__fx-quiver`
+- `ca__fx-rainbowText`
+- `ca__fx-rattle`
+- `ca__fx-rebound`
+- `ca__fx-reboundMotion`
+- `ca__fx-rollFromBottom`
+- `ca__fx-rollFromLeft`
+- `ca__fx-rollFromRight`
+- `ca__fx-rollFromTop`
+- `ca__fx-rollToBottom`
+- `ca__fx-rollToLeft`
+- `ca__fx-rollToRight`
+- `ca__fx-rollToTop`
+- `ca__fx-rotate`
+- `ca__fx-rotateInBottom`
+- `ca__fx-rotateInLeft`
+- `ca__fx-rotateInRight`
+- `ca__fx-rotateInTop`
+- `ca__fx-rotateOutBottom`
+- `ca__fx-rotateOutLeft`
+- `ca__fx-rotateOutRight`
+- `ca__fx-rotateOutTop`
+- `ca__fx-rotateX`
+- `ca__fx-rotateXIn`
+- `ca__fx-rotateXOut`
+- `ca__fx-rotateY`
+- `ca__fx-rotateYIn`
+- `ca__fx-rotateYOut`
+- `ca__fx-rubber`
+- `ca__fx-rubberExpand`
+- `ca__fx-rubberPop`
+- `ca__fx-rubberShrink`
+- `ca__fx-rumble`
+- `ca__fx-scanReveal`
+- `ca__fx-scifiDigitalReveal`
+- `ca__fx-scifiFlickerIn`
+- `ca__fx-scribbleGlowIn`
+- `ca__fx-shimmerWaveIdle`
+- `ca__fx-shockInBottom`
+- `ca__fx-shockInLeft`
+- `ca__fx-shockInRight`
+- `ca__fx-shockInTop`
+- `ca__fx-shockZoom`
+- `ca__fx-signalDropOut`
+- `ca__fx-skewInLeft`
+- `ca__fx-skewInRight`
+- `ca__fx-skewLeft`
+- `ca__fx-skewOutLeft`
+- `ca__fx-skewOutRight`
+- `ca__fx-skewRight`
+- `ca__fx-slideInSteps`
+- `ca__fx-slinkyDrop`
+- `ca__fx-slinkyStretch`
+- `ca__fx-snapBackEase`
+- `ca__fx-snapGridEntry`
+- `ca__fx-snapGridExit`
+- `ca__fx-snapZoom`
+- `ca__fx-softPulseIdle`
+- `ca__fx-sparklePopIn`
+- `ca__fx-spinFromBottom`
+- `ca__fx-spinFromLeft`
+- `ca__fx-spinFromRight`
+- `ca__fx-spinFromTop`
+- `ca__fx-spinToBottom`
+- `ca__fx-spinToLeft`
+- `ca__fx-spinToRight`
+- `ca__fx-spinToTop`
+- `ca__fx-spiralTwistIn`
+- `ca__fx-spiralTwistOut`
+- `ca__fx-spotlightFade`
+- `ca__fx-spotlightFocus`
+- `ca__fx-spring`
+- `ca__fx-springyEffect`
+- `ca__fx-squishBoing`
+- `ca__fx-squishLift`
+- `ca__fx-squishPop`
+- `ca__fx-squishyBounce`
+- `ca__fx-stampSmash`
+- `ca__fx-stepBlurOut`
+- `ca__fx-stepBlurReveal`
+- `ca__fx-stepFadeDown`
+- `ca__fx-stepFadeUp`
+- `ca__fx-stepGlitchIn`
+- `ca__fx-stepGlitchOut`
+- `ca__fx-stepJumpIn`
+- `ca__fx-stepJumpOut`
+- `ca__fx-stepRotateIn`
+- `ca__fx-stepRotateOut`
+- `ca__fx-stepScalePopIn`
+- `ca__fx-stepScalePopOut`
+- `ca__fx-stepSlideInX`
+- `ca__fx-stepSlideOutX`
+- `ca__fx-stepTypeIn`
+- `ca__fx-stepZoomIn`
+- `ca__fx-stepZoomOut`
+- `ca__fx-stretchCollapse`
+- `ca__fx-swing`
+- `ca__fx-swingDrop`
+- `ca__fx-swingDropBounce`
+- `ca__fx-swingDropChain`
+- `ca__fx-swingDropElastic`
+- `ca__fx-swingDropHard`
+- `ca__fx-swingDropHover`
+- `ca__fx-swingDropKite`
+- `ca__fx-swingDropMagnet`
+- `ca__fx-swingDropSnap`
+- `ca__fx-swingDropSoft`
+- `ca__fx-swingDropTwist`
+- `ca__fx-swingIn`
+- `ca__fx-swingInBottom`
+- `ca__fx-swingInFromBottom`
+- `ca__fx-swingInFromLeft`
+- `ca__fx-swingInFromRight`
+- `ca__fx-swingInFromTop`
+- `ca__fx-swingInLeft`
+- `ca__fx-swingInRight`
+- `ca__fx-swingInTop`
+- `ca__fx-swingOut`
+- `ca__fx-swingOutToBottom`
+- `ca__fx-swingOutToLeft`
+- `ca__fx-swingOutToRight`
+- `ca__fx-swingOutToTop`
+- `ca__fx-swingPop`
+- `ca__fx-swingSkew`
+- `ca__fx-swingUp`
+- `ca__fx-swingZoom`
+- `ca__fx-systemBootIn`
+- `ca__fx-tiltFadeBack`
+- `ca__fx-trackCollapse`
+- `ca__fx-trackExpand`
+- `ca__fx-tremor`
+- `ca__fx-typewriterCorrupt`
+- `ca__fx-unfoldAndRise`
+- `ca__fx-verticalShake`
+- `ca__fx-vibeInPop`
+- `ca__fx-vibration`
+- `ca__fx-wandReveal`
+- `ca__fx-waveBand`
+- `ca__fx-whisperFloatIn`
+- `ca__fx-wiggle`
+- `ca__fx-wiggleReactive`
+- `ca__fx-wobbleEntry`
+- `ca__fx-wooble`
+- `ca__fx-zoomIn`
+- `ca__fx-zoomInBottom`
+- `ca__fx-zoomInLeft`
+- `ca__fx-zoomInRight`
+- `ca__fx-zoomInTop`
+- `ca__fx-zoomOut`
+- `ca__fx-zoomOutBottom`
+- `ca__fx-zoomOutLeft`
+- `ca__fx-zoomOutRight`
+- `ca__fx-zoomOutRotateUp`
+- `ca__fx-zoomOutTop`
+- `ca__fx-zoomPingExit`
+- `ca__fx-zoomToTarget`
+
+## Utility Classes (Ungrouped)
+- `ca__u-delay1`
+- `ca__u-delay2`
+- `ca__u-delay3`
+- `ca__u-delay5`
+- `ca__u-easeBackTwist`
+- `ca__u-easeBoom`
+- `ca__u-easeBounce`
+- `ca__u-easeBounceHard`
+- `ca__u-easeBounceSoft`
+- `ca__u-easeChill`
+- `ca__u-easeComet`
+- `ca__u-easeDip`
+- `ca__u-easeDrift`
+- `ca__u-easeElastic`
+- `ca__u-easeFlow`
+- `ca__u-easeGentle`
+- `ca__u-easeGlide`
+- `ca__u-easeGravity`
+- `ca__u-easeInFast`
+- `ca__u-easeJelly`
+- `ca__u-easeLinear`
+- `ca__u-easeOutChill`
+- `ca__u-easeOvershoot`
+- `ca__u-easePop`
+- `ca__u-easePopIn`
+- `ca__u-easePulse`
+- `ca__u-easePunch`
+- `ca__u-easeQuick`
+- `ca__u-easeQuickStep`
+- `ca__u-easeRipple`
+- `ca__u-easeRocket`
+- `ca__u-easeRubber`
+- `ca__u-easeSlideBack`
+- `ca__u-easeSling`
+- `ca__u-easeSmooth`
+- `ca__u-easeSnap`
+- `ca__u-easeSnapBack`
+- `ca__u-easeSnapZoom`
+- `ca__u-easeSnappy`
+- `ca__u-easeSoft`
+- `ca__u-easeStagger`
+- `ca__u-easeStepSmooth`
+- `ca__u-easeSwoosh`
+- `ca__u-easeWhip`
+- `ca__u-easeWhiplash`
+- `ca__u-easeZoomSnappy`
+- `ca__u-loopBounce`
+- `ca__u-loopForever`
+- `ca__u-loopOnce`
+- `ca__u-loopTriple`
+- `ca__u-speedBlitz`
+- `ca__u-speedChill`
+- `ca__u-speedDrift`
+- `ca__u-speedQuick`
+- `ca__u-speedSnail`
+

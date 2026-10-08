@@ -1,0 +1,38 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-stepJumpOut {
+  display: inline-block;
+  animation: stepJumpOut 1s steps(5, end) forwards;
+  will-change: transform, opacity;
+}
+
+@keyframes stepJumpOut {
+  20% {
+    transform: translateY(-10%);
+    opacity: 0.9;
+  }
+
+  100% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

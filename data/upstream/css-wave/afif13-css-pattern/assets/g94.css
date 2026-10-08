@@ -1,0 +1,12 @@
+#g94 {
+  --s: 80px; /* control the size */
+  
+  --c:#0000 75%,#E9E0D1 0;
+  --g:/calc(2*var(--s)) var(--s) 
+    conic-gradient(at 62.5% 25%,var(--c));
+  background:
+    calc(  var(--s)/4) calc(var(--s)/ 4) var(--g),
+    calc(5*var(--s)/4) calc(var(--s)/-4) var(--g),
+    linear-gradient(90deg,var(--c)) 0/var(--s) var(--s)
+    #59A80F;
+}

@@ -1,0 +1,44 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-waveBand {
+  animation-name: waveBand;
+  transform-origin: center center;
+}
+
+@keyframes waveBand {
+  0%,
+  100% {
+    transform: scaleY(1) translateY(0); /* Normal state */
+  }
+
+  25% {
+    transform: scaleY(1.1) translateY(-5px); /* Stretch vertically and move up slightly */
+  }
+
+  50% {
+    transform: scaleY(0.9) translateY(5px); /* Compress vertically and move down */
+  }
+
+  75% {
+    transform: scaleY(1.05) translateY(-2px); /* Slight overshoot */
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

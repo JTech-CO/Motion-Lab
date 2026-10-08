@@ -1,0 +1,11 @@
+#g143 {
+  --s: 16px; /* control the size */
+  --c1:#E4844A;
+  --c2:#0D6759;
+  
+  --g:radial-gradient(30% 50% at 30% 100%,#0000 66%,var(--c1) 67% 98%,#0000);
+  background:
+    var(--g),var(--g) calc(5*var(--s)) calc(3*var(--s)),
+    repeating-linear-gradient(90deg,var(--c1) 0 10%,var(--c2) 0 50%);
+  background-size: calc(10*var(--s)) calc(6*var(--s));
+}

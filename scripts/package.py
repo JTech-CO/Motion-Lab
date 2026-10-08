@@ -13,7 +13,7 @@ def main():
         for file in (ROOT / directory).rglob('*'):
             if file.is_file() and not EXCLUDED.intersection(file.relative_to(ROOT).parts) and file.suffix not in ('.pyc','.pyo','.log','.mp4','.mov','.webm'):
                 files.append(file)
-    files.extend(ROOT / file for file in ('README.md','package.json','.gitignore') if (ROOT/file).is_file())
+    files.extend(ROOT / file for file in ('README.md','package.json','.gitignore','.gitattributes') if (ROOT/file).is_file())
     with zipfile.ZipFile(OUTPUT,'w',zipfile.ZIP_DEFLATED,compresslevel=6) as archive:
         for file in sorted(files):
             archive.write(file, 'Motion Lab/' + file.relative_to(ROOT).as_posix())

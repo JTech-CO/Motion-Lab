@@ -1,0 +1,50 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-kiteHoverLoop {
+  animation-name: kiteHoverLoop;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  transform-origin: center;
+  will-change: transform;
+}
+
+@keyframes kiteHoverLoop {
+  0% {
+    transform: translateY(0%) rotate(0deg);
+  }
+
+  25% {
+    transform: translateY(-4%) rotate(2deg);
+  }
+
+  50% {
+    transform: translateY(2%) rotate(-3deg);
+  }
+
+  75% {
+    transform: translateY(-3%) rotate(1.5deg);
+  }
+
+  100% {
+    transform: translateY(0%) rotate(0deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

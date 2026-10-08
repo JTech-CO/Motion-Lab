@@ -1,0 +1,43 @@
+.cssanimation {
+  animation-duration: var(--cssanimation-duration, 1s);
+  animation-fill-mode: var(--cssanimation-fill-mode, both);
+}
+
+.cssanimation span {
+  display: var(--cssanimation-display, inline-block);
+}
+
+.infinite {
+  animation-iteration-count: var(--cssanimation-infinite, infinite) !important;
+}
+
+.ca__fx-swingSkew {
+  animation-name: swingSkew;
+  transform-origin: top left;
+}
+
+@keyframes swingSkew {
+  0% {
+    transform: skewX(0deg);
+  }
+
+  30% {
+    transform: skewX(15deg);
+  }
+
+  60% {
+    transform: skewX(-10deg);
+  }
+
+  100% {
+    transform: skewX(0deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cssanimation,
+  .cssanimation span {
+    animation: none !important;
+    transition: none !important;
+  }
+}

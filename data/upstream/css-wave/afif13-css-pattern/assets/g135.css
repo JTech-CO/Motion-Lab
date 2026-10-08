@@ -1,0 +1,11 @@
+#g135 {
+  --s: 80px; /* control the size */
+  
+  --c:#6B5344 0;
+  --g:conic-gradient(at 50% 25%,#0000 75%,var(--c));
+  background:
+    repeating-linear-gradient(#0000 0 48%,var(--c) 50%),var(--g),
+    conic-gradient(#0000 75%,var(--c)) calc(var(--s)/4) calc(var(--s)/2),
+    var(--g) calc(var(--s)/2) var(--s) #F8ECC9;
+  background-size: var(--s) var(--s),var(--s) calc(2*var(--s));
+}

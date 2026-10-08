@@ -1,0 +1,35 @@
+{
+  "verifiedAt": "2026-10-09",
+  "total": 6108,
+  "added": 3955,
+  "inputCounts": {
+    "css-wave-items.json": 644,
+    "vector-wave-items.json": 1857,
+    "color-wave-items.json": 1454
+  },
+  "excluded": 0,
+  "kinds": {
+    "code": 3374,
+    "palette": 2446,
+    "reference": 288
+  },
+  "codeLanguages": {
+    "css": 1979,
+    "glsl": 123,
+    "svg": 1272
+  },
+  "checks": [
+    "minimum",
+    "schema",
+    "unique-ids",
+    "full-source-fields-and-notices",
+    "palette-code-equals-colors",
+    "full-web-json",
+    "compact-index",
+    "all-category-collections",
+    "read-only-sqlite-records",
+    "sqlite-integrity",
+    "search-last-page"
+  ],
+  "catalogSha256": "1688368bafbff4df4580d83d9ce8d8b128199cd0ac99089a9765d5828a4c9ea3"
+}
