@@ -35,6 +35,7 @@ body[data-view="home"]{overflow:hidden}
 .home-tool{padding:8px 0;background:transparent;border:0;color:#c5d0d4;font-size:13px;min-height:35px}
 .home-tool:hover,.home-tool:focus-visible{color:#69e6f7}
 .home-tool[aria-pressed="true"]{color:#69e6f7}
+.home-github{font-family:Consolas,"Courier New",monospace;color:#69e6f7;white-space:nowrap}
 #home-language{font:13px Consolas,"Courier New",monospace;color:#69e6f7;border-left:1px solid #3e4b50;padding-left:21px}
 .home-center{position:absolute;inset:105px 40px 130px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
 .home-title{margin:0;max-width:100%;font:800 clamp(56px,14.5vw,220px)/1.08 Arial,"Malgun Gothic",sans-serif;letter-spacing:-.075em;white-space:nowrap;background:linear-gradient(90deg,#f3f7f8 0%,#f3f7f8 46%,#69e6f7 52%,#65777c 58%,#65777c 100%);background-size:230% 100%;background-position:0% 50%;background-clip:text;-webkit-background-clip:text;color:transparent;animation:ml-text-fill-sweep 4s ease-in-out infinite}
@@ -62,3 +63,5 @@ body[data-view="library"] #library-view{display:block}
 
 
 .home-motion-note{font-size:12px;line-height:1.8;color:#b5c6ce;min-height:22px;margin-top:8px}
+@media(max-width:650px){.home-toolbar{gap:12px}.home-wordmark{font-size:13px;white-space:nowrap}.home-toolbar-actions{gap:12px;white-space:nowrap}#home-language{padding-left:12px}}
+@media(max-width:360px){.home-toolbar{flex-wrap:wrap;row-gap:6px}.home-toolbar-actions{margin-left:auto}.home-center{top:115px}}

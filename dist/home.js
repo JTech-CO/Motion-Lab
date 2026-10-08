@@ -32,6 +32,7 @@
     $('home-pause').title = reduced.matches ? t('reduced') : t(state.paused ? 'play' : 'pause');
     $('home-language').textContent = state.lang === 'ko' ? 'KO / EN' : 'EN / KO';
     $('home-language').setAttribute('aria-label', state.lang === 'ko' ? 'Switch to English' : '한국어로 변경');
+    $('home-github').setAttribute('aria-label', state.lang === 'ko' ? 'GitHub 저장소 새 탭에서 열기' : 'Open the GitHub repository in a new tab');
     $('home-note').textContent = reduced.matches ? t('reduced') : state.paused ? (state.lang === 'ko' ? '모션이 일시 정지되었습니다.' : 'Motion is paused.') : '';
     if (!home.hidden) {
       document.documentElement.lang = state.lang;
@@ -278,7 +279,7 @@
   });
   document.addEventListener('keydown',(event)=> {
     if (home.hidden || event.ctrlKey || event.metaKey || event.altKey) return;
-    const controls=[$('home-enter'),$('home-pause'),$('home-language')].filter((el)=>!el.disabled);
+    const controls=[$('home-enter'),$('home-pause'),$('home-github'),$('home-language')].filter((el)=>!el.disabled);
     if (['ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(event.key)) {
       event.preventDefault();event.stopImmediatePropagation();
       const index=controls.indexOf(document.activeElement),forward=['ArrowDown','ArrowRight'].includes(event.key),next=index<0?0:(index+(forward?1:-1)+controls.length)%controls.length;
