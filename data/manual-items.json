@@ -1,0 +1,961 @@
+[
+  {
+    "id": "ml-original-wipe-reveal",
+    "title": "Clip Wipe Reveal",
+    "description": "오른쪽 클리핑을 풀어 화면을 드러낸 뒤 잠시 유지합니다. 요소 크기와 무관하게 같은 비율로 작동합니다.",
+    "category": "transition",
+    "tags": [
+      "clip-path",
+      "wipe",
+      "reveal",
+      "리빌",
+      "마스크",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-wipe-reveal",
+      "keyframe": "ml-wipe-reveal",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-wipe-reveal {\n  0%, 12% { clip-path: inset(0 100% 0 0); }\n  52%, 86% { clip-path: inset(0 0 0 0); }\n  100% { clip-path: inset(0 0 0 100%); }\n}\n.motion-sample { animation: ml-wipe-reveal 3s cubic-bezier(.22,.75,.25,1) infinite; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/transition.json#ml-original-wipe-reveal",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  },
+  {
+    "id": "ml-original-iris-reveal",
+    "title": "Center Iris Reveal",
+    "description": "중심의 원형 마스크를 확장해 내용을 보여 줍니다. 짧은 정지 구간으로 열린 상태를 읽을 시간을 줍니다.",
+    "category": "transition",
+    "tags": [
+      "clip-path",
+      "iris",
+      "circle",
+      "reveal",
+      "아이리스",
+      "마스크",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-iris-reveal",
+      "keyframe": "ml-iris-reveal",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-iris-reveal {\n  0%, 12% { clip-path: circle(0% at 50% 50%); }\n  58%, 87% { clip-path: circle(75% at 50% 50%); }\n  100% { clip-path: circle(0% at 50% 50%); }\n}\n.motion-sample { animation: ml-iris-reveal 3.4s cubic-bezier(.18,.72,.22,1) infinite; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/transition.json#ml-original-iris-reveal",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  },
+  {
+    "id": "ml-original-diagonal-cut",
+    "title": "Diagonal Cut Reveal",
+    "description": "네 꼭짓점을 유지한 폴리곤을 넓혀 대각선 절단면이 지나가는 전환을 만듭니다.",
+    "category": "transition",
+    "tags": [
+      "clip-path",
+      "polygon",
+      "diagonal",
+      "cut",
+      "대각선",
+      "전환",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-diagonal-cut",
+      "keyframe": "ml-diagonal-cut",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-diagonal-cut {\n  0%, 10% { clip-path: polygon(0 0, 0 0, 0 100%, 0 100%); }\n  47% { clip-path: polygon(0 0, 83% 0, 35% 100%, 0 100%); }\n  68%, 88% { clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); }\n  100% { clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%); }\n}\n.motion-sample { animation: ml-diagonal-cut 3.6s cubic-bezier(.35,0,.2,1) infinite; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/transition.json#ml-original-diagonal-cut",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  },
+  {
+    "id": "ml-original-perspective-flip",
+    "title": "Perspective Card Flip",
+    "description": "요소 자체의 perspective 변환과 회전 축을 사용해 평면 카드를 세워 보여 줍니다. 뒷면은 숨깁니다.",
+    "category": "transition",
+    "tags": [
+      "perspective",
+      "flip",
+      "3d",
+      "card",
+      "카드",
+      "입체",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-perspective-flip",
+      "keyframe": "ml-perspective-flip",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-perspective-flip {\n  0%, 12% { transform: perspective(420px) rotateY(-82deg); opacity: 0; }\n  51% { transform: perspective(420px) rotateY(7deg); opacity: 1; }\n  67%, 87% { transform: perspective(420px) rotateY(0deg); opacity: 1; }\n  100% { transform: perspective(420px) rotateY(82deg); opacity: 0; }\n}\n.motion-sample { backface-visibility: hidden; transform-origin: 18% 50%; animation: ml-perspective-flip 3.6s ease-out infinite; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/transition.json#ml-original-perspective-flip",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  },
+  {
+    "id": "ml-original-focus-reveal",
+    "title": "Focus Blur Reveal",
+    "description": "작은 이동과 흐림을 함께 줄여 초점이 맞는 등장 효과를 만듭니다. 정지 구간에서는 filter를 제거합니다.",
+    "category": "transition",
+    "tags": [
+      "blur",
+      "focus",
+      "opacity",
+      "reveal",
+      "블러",
+      "초점",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-focus-reveal",
+      "keyframe": "ml-focus-reveal",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-focus-reveal {\n  0%, 13% { opacity: 0; filter: blur(12px); transform: translateY(14px) scale(.96); }\n  54%, 86% { opacity: 1; filter: blur(0); transform: translateY(0) scale(1); }\n  100% { opacity: 0; filter: blur(8px); transform: translateY(-8px) scale(1.02); }\n}\n.motion-sample { animation: ml-focus-reveal 3.4s cubic-bezier(.2,.68,.2,1) infinite; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/transition.json#ml-original-focus-reveal",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  },
+  {
+    "id": "ml-original-kinetic-tracking",
+    "title": "Kinetic Tracking",
+    "description": "넓은 자간을 좁히며 글자를 모읍니다. 여러 글자나 짧은 제목에 적용하면 간격 변화가 뚜렷합니다.",
+    "category": "typography",
+    "tags": [
+      "letter-spacing",
+      "tracking",
+      "text",
+      "reveal",
+      "자간",
+      "타이포그래피",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-kinetic-tracking",
+      "keyframe": "ml-kinetic-tracking",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-kinetic-tracking {\n  0%, 12% { letter-spacing: .42em; opacity: 0; transform: scale(.93); }\n  55%, 87% { letter-spacing: .02em; opacity: 1; transform: scale(1); }\n  100% { letter-spacing: -.05em; opacity: 0; transform: scale(1.04); }\n}\n.motion-sample { width: 132px; background: transparent; color: var(--ml-accent); white-space: nowrap; animation: ml-kinetic-tracking 3.5s cubic-bezier(.16,.66,.26,1) infinite; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/typography.json#ml-original-kinetic-tracking",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  },
+  {
+    "id": "ml-original-stepped-typewriter",
+    "title": "Stepped Typewriter",
+    "description": "텍스트를 steps 타이밍과 클리핑으로 한 칸씩 표시합니다. --ml-glyph-count를 실제 글자 수에 맞춥니다.",
+    "category": "typography",
+    "tags": [
+      "typewriter",
+      "steps",
+      "text",
+      "clip-path",
+      "타이핑",
+      "문자",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-stepped-typewriter",
+      "keyframe": "ml-stepped-typewriter",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-stepped-typewriter {\n  0%, 10% { clip-path: inset(0 100% 0 0); }\n  60%, 88% { clip-path: inset(0 0 0 0); }\n  100% { clip-path: inset(0 100% 0 0); }\n}\n.motion-sample { --ml-glyph-count: 2; width: 2ch; height: 1.4em; display: inline-block; overflow: hidden; white-space: nowrap; font-family: ui-monospace, monospace; background: transparent; color: var(--ml-accent); border-radius: 0; animation: ml-stepped-typewriter 3.4s steps(var(--ml-glyph-count), end) infinite; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/typography.json#ml-original-stepped-typewriter",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  },
+  {
+    "id": "ml-original-text-fill-sweep",
+    "title": "Text Fill Sweep",
+    "description": "글자 모양으로 자른 그라디언트를 이동시켜 어두운 글자를 밝은 색으로 채웁니다.",
+    "category": "typography",
+    "tags": [
+      "background-clip",
+      "text",
+      "gradient",
+      "sweep",
+      "글자",
+      "그라디언트",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-text-fill-sweep",
+      "keyframe": "ml-text-fill-sweep",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-text-fill-sweep {\n  0%, 13% { background-position: 100% 50%; }\n  60%, 88% { background-position: 0% 50%; }\n  100% { background-position: 100% 50%; }\n}\n.motion-sample { background: linear-gradient(90deg, #c6f66b 0%, #c6f66b 46%, #6fcfe1 52%, #53634a 58%, #53634a 100%); background-size: 230% 100%; background-clip: text; -webkit-background-clip: text; color: transparent; font-size: 34px; animation: ml-text-fill-sweep 4s ease-in-out infinite; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/typography.json#ml-original-text-fill-sweep",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  },
+  {
+    "id": "ml-original-rgb-ghost",
+    "title": "RGB Ghost Offset",
+    "description": "청록과 분홍 텍스트 그림자를 짧은 구간에 어긋나게 배치하는 절제된 색분리 효과입니다.",
+    "category": "typography",
+    "tags": [
+      "glitch",
+      "rgb",
+      "text-shadow",
+      "offset",
+      "글리치",
+      "색분리",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-rgb-ghost",
+      "keyframe": "ml-rgb-ghost",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-rgb-ghost {\n  0%, 15%, 38%, 100% { text-shadow: 0 0 transparent; transform: translateX(0); }\n  19%, 23% { text-shadow: -3px 1px #55dce8, 3px -1px #f47bab; transform: translateX(1px); }\n  27%, 31% { text-shadow: 2px -1px #55dce8, -2px 1px #f47bab; transform: translateX(-1px); }\n}\n.motion-sample { background: transparent; color: #e4f1d4; font-size: 34px; animation: ml-rgb-ghost 4s steps(1, end) infinite; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/typography.json#ml-original-rgb-ghost",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  },
+  {
+    "id": "ml-original-neon-breathe",
+    "title": "Neon Breathing Type",
+    "description": "텍스트 밝기는 유지하며 주변 빛의 반경만 천천히 바꿉니다. 깜빡임 없이 반복되는 제목 강조에 적합합니다.",
+    "category": "typography",
+    "tags": [
+      "neon",
+      "glow",
+      "text-shadow",
+      "pulse",
+      "네온",
+      "발광",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-neon-breathe",
+      "keyframe": "ml-neon-breathe",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-neon-breathe {\n  0%, 100% { text-shadow: 0 0 3px #c6f66b80, 0 0 10px #c6f66b35; }\n  50% { text-shadow: 0 0 5px #c6f66bc0, 0 0 22px #c6f66b80, 0 0 35px #a3dbe440; }\n}\n.motion-sample { background: transparent; color: #dbffa8; font-size: 32px; animation: ml-neon-breathe 3.2s ease-in-out infinite; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/typography.json#ml-original-neon-breathe",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  },
+  {
+    "id": "ml-original-stagger-bars",
+    "title": "Three Beat Stagger",
+    "description": "중앙의 배경 막대와 양쪽 의사 요소에 0.14초씩 시차를 두어 세 단계의 리듬을 만듭니다.",
+    "category": "loader",
+    "tags": [
+      "stagger",
+      "delay",
+      "bars",
+      "sequence",
+      "시차",
+      "로더",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-stagger-bars",
+      "keyframe": "ml-stagger-bars",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-stagger-bars {\n  0%, 70%, 100% { background-size: 22px 8px; }\n  33% { background-size: 22px 32px; }\n}\n@keyframes ml-stagger-edge {\n  0%, 70%, 100% { height: 8px; }\n  33% { height: 32px; }\n}\n.motion-sample { width: 94px; height: 40px; border-radius: 0; color: transparent; background: linear-gradient(var(--ml-accent), var(--ml-accent)) center bottom / 22px 24px no-repeat; animation: ml-stagger-bars 1.7s ease-in-out .14s infinite; }\n.motion-sample::before, .motion-sample::after { content: \"\"; position: absolute; bottom: 0; width: 22px; height: 24px; background: var(--ml-accent); border-radius: 4px 4px 0 0; animation: ml-stagger-edge 1.7s ease-in-out infinite; }\n.motion-sample::before { left: 0; }\n.motion-sample::after { right: 0; animation-delay: .28s; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/loader.json#ml-original-stagger-bars",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  },
+  {
+    "id": "ml-original-squish-spring",
+    "title": "Squish Spring Arrival",
+    "description": "도착 시 가로·세로 스케일을 서로 반대로 조정해 찌그러짐과 회복을 표현합니다. 물리 엔진 없이 설계한 감쇠 키프레임입니다.",
+    "category": "animation",
+    "tags": [
+      "squash",
+      "stretch",
+      "spring",
+      "scale",
+      "스프링",
+      "탄성",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-squish-spring",
+      "keyframe": "ml-squish-spring",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-squish-spring {\n  0%, 8% { transform: scale(.3, .25); opacity: 0; }\n  32% { transform: scale(1.16, .84); opacity: 1; }\n  46% { transform: scale(.92, 1.09); }\n  58% { transform: scale(1.05, .97); }\n  72%, 90% { transform: scale(1, 1); opacity: 1; }\n  100% { transform: scale(.3, .25); opacity: 0; }\n}\n.motion-sample { transform-origin: 50% 80%; animation: ml-squish-spring 3.2s ease-out infinite; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/animation.json#ml-original-squish-spring",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  },
+  {
+    "id": "ml-original-overshoot-arrival",
+    "title": "Overshoot Slide Settle",
+    "description": "목표 지점을 한 번 지나친 뒤 반대 방향의 작은 보정으로 정착합니다. 값으로 감쇠를 제어하는 슬라이드 예제입니다.",
+    "category": "animation",
+    "tags": [
+      "overshoot",
+      "slide",
+      "settle",
+      "easing",
+      "오버슈트",
+      "등장",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-overshoot-arrival",
+      "keyframe": "ml-overshoot-arrival",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-overshoot-arrival {\n  0%, 10% { transform: translateX(-48px); opacity: 0; }\n  41% { transform: translateX(12px); opacity: 1; }\n  55% { transform: translateX(-5px); }\n  67% { transform: translateX(2px); }\n  77%, 91% { transform: translateX(0); opacity: 1; }\n  100% { transform: translateX(24px); opacity: 0; }\n}\n.motion-sample { animation: ml-overshoot-arrival 3.4s cubic-bezier(.25,.7,.3,1) infinite; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/animation.json#ml-original-overshoot-arrival",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  },
+  {
+    "id": "ml-original-upright-orbit",
+    "title": "Upright Orbital Motion",
+    "description": "회전·이동·역회전을 연달아 적용해 원을 돌면서 글자의 방향은 유지합니다.",
+    "category": "animation",
+    "tags": [
+      "orbit",
+      "rotate",
+      "counter-rotation",
+      "transform",
+      "궤도",
+      "공전",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-upright-orbit",
+      "keyframe": "ml-upright-orbit",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-upright-orbit {\n  from { transform: rotate(0deg) translateX(34px) rotate(0deg); }\n  to { transform: rotate(360deg) translateX(34px) rotate(-360deg); }\n}\n.motion-sample { width: 38px; height: 38px; border-radius: 50%; font-size: 13px; animation: ml-upright-orbit 4.6s linear infinite; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/animation.json#ml-original-upright-orbit",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  },
+  {
+    "id": "ml-original-stepped-ticker",
+    "title": "Decorative Stepped Ticker",
+    "description": "의사 요소의 장식 숫자를 네 구간으로 바꿔 계기판 리듬을 만듭니다. 실제 수치는 HTML 텍스트로 별도 제공해야 합니다.",
+    "category": "typography",
+    "tags": [
+      "ticker",
+      "steps",
+      "counter",
+      "numeric",
+      "숫자",
+      "스텝",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-stepped-ticker",
+      "keyframe": "ml-stepped-ticker",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-stepped-ticker {\n  0%, 24% { content: \"00\"; }\n  25%, 49% { content: \"25\"; }\n  50%, 74% { content: \"50\"; }\n  75%, 100% { content: \"75\"; }\n}\n.motion-sample { background: #1d2a19; color: transparent; border: 1px solid #657e44; font-variant-numeric: tabular-nums; }\n.motion-sample::before { content: \"00\"; position: absolute; inset: 0; display: grid; place-items: center; color: var(--ml-accent); font: 700 28px/1 ui-monospace, monospace; animation: ml-stepped-ticker 3.2s steps(1, end) infinite; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/typography.json#ml-original-stepped-ticker",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  },
+  {
+    "id": "ml-original-gradient-flow",
+    "title": "Wide Gradient Flow",
+    "description": "넓게 펼친 그라디언트의 위치를 이동시켜 색이 흘러가는 배경을 만듭니다. 색상과 반복 주기를 독립적으로 바꿀 수 있습니다.",
+    "category": "gradient",
+    "tags": [
+      "gradient",
+      "background-position",
+      "flow",
+      "color",
+      "배경",
+      "색상",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-gradient-flow",
+      "keyframe": "ml-gradient-flow",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-gradient-flow {\n  0%, 100% { background-position: 0% 50%; }\n  50% { background-position: 100% 50%; }\n}\n.motion-sample { width: 132px; height: 86px; background: linear-gradient(110deg, #c6f66b, #67cec7, #748cea, #df89b4); background-size: 380% 100%; color: #14251b; animation: ml-gradient-flow 7s ease-in-out infinite; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/gradient.json#ml-original-gradient-flow",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  },
+  {
+    "id": "ml-original-checker-drift",
+    "title": "Seamless Checker Drift",
+    "description": "반복 타일 한 칸만큼 배경을 이동해 끝과 시작이 맞물리는 체커 루프를 만듭니다.",
+    "category": "background",
+    "tags": [
+      "checker",
+      "conic-gradient",
+      "tile",
+      "loop",
+      "체커",
+      "패턴",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-checker-drift",
+      "keyframe": "ml-checker-drift",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-checker-drift {\n  from { background-position: 0 0; }\n  to { background-position: 48px 48px; }\n}\n.motion-sample { width: 132px; height: 86px; background: repeating-conic-gradient(#415833 0% 25%, #263b20 0% 50%) 0 0 / 48px 48px; color: #e4f5d3; border: 1px solid #657e44; animation: ml-checker-drift 5s linear infinite; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/background.json#ml-original-checker-drift",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  },
+  {
+    "id": "ml-original-halftone-breathe",
+    "title": "Halftone Field Breathe",
+    "description": "점의 반복 간격을 넓혔다 좁히는 하프톤 필드입니다. 배경 색상은 유지하며 패턴의 밀도만 변합니다.",
+    "category": "background",
+    "tags": [
+      "halftone",
+      "dots",
+      "radial-gradient",
+      "pattern",
+      "하프톤",
+      "점",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-halftone-breathe",
+      "keyframe": "ml-halftone-breathe",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-halftone-breathe {\n  0%, 100% { background-size: 10px 10px; }\n  50% { background-size: 18px 18px; }\n}\n.motion-sample { width: 132px; height: 86px; background-color: #213319; background-image: radial-gradient(circle, #a9d675 1.5px, transparent 1.6px); background-position: center; background-size: 10px 10px; color: #f0ffe2; border: 1px solid #526e3b; animation: ml-halftone-breathe 5.2s ease-in-out infinite; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/background.json#ml-original-halftone-breathe",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  },
+  {
+    "id": "ml-original-scanline-sweep",
+    "title": "Scanline Inspection Sweep",
+    "description": "얇은 발광 선을 콘텐츠 위로 통과시키는 장식 오버레이입니다. 의사 요소는 포인터 입력을 받지 않습니다.",
+    "category": "background",
+    "tags": [
+      "scanline",
+      "sweep",
+      "overlay",
+      "scan",
+      "스캔",
+      "오버레이",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-scanline-sweep",
+      "keyframe": "ml-scanline-sweep",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-scanline-sweep {\n  0%, 8% { transform: translateY(-8px); opacity: 0; }\n  18% { opacity: .75; }\n  82% { opacity: .75; }\n  92%, 100% { transform: translateY(80px); opacity: 0; }\n}\n.motion-sample { overflow: hidden; background: #20351a; color: #d9f7be; border: 1px solid #5c8441; }\n.motion-sample::after { content: \"\"; position: absolute; left: 0; right: 0; top: 0; height: 2px; pointer-events: none; background: #c6f66b; box-shadow: 0 -5px 12px #c6f66b50; opacity: 0; animation: ml-scanline-sweep 4.2s linear infinite; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/background.json#ml-original-scanline-sweep",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  },
+  {
+    "id": "ml-original-border-draw",
+    "title": "Four Edge Border Draw",
+    "description": "네 개의 단색 배경 레이어를 차례로 늘려 테두리를 한 바퀴 그립니다. 별도 SVG나 추가 요소가 필요 없습니다.",
+    "category": "interaction",
+    "tags": [
+      "border",
+      "draw",
+      "background-size",
+      "outline",
+      "테두리",
+      "그리기",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-border-draw",
+      "keyframe": "ml-border-draw",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-border-draw {\n  0%, 8% { background-size: 0 2px, 2px 0, 0 2px, 2px 0; }\n  28% { background-size: 100% 2px, 2px 0, 0 2px, 2px 0; }\n  46% { background-size: 100% 2px, 2px 100%, 0 2px, 2px 0; }\n  64% { background-size: 100% 2px, 2px 100%, 100% 2px, 2px 0; }\n  82%, 96% { background-size: 100% 2px, 2px 100%, 100% 2px, 2px 100%; }\n  100% { background-size: 0 2px, 2px 0, 0 2px, 2px 0; }\n}\n.motion-sample { border-radius: 0; background-color: #1d2f16; color: var(--ml-accent); background-image: linear-gradient(var(--ml-accent), var(--ml-accent)), linear-gradient(var(--ml-accent), var(--ml-accent)), linear-gradient(var(--ml-accent), var(--ml-accent)), linear-gradient(var(--ml-accent), var(--ml-accent)); background-position: left top, right top, right bottom, left bottom; background-repeat: no-repeat; background-size: 100% 2px, 2px 100%, 100% 2px, 2px 100%; animation: ml-border-draw 4s linear infinite; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/interaction.json#ml-original-border-draw",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  },
+  {
+    "id": "ml-original-sheen-pass",
+    "title": "Diagonal Sheen Pass",
+    "description": "비스듬한 반투명 빛 띠가 요소를 지나갑니다. 긴 대기 구간으로 지속적인 반짝임을 줄입니다.",
+    "category": "interaction",
+    "tags": [
+      "sheen",
+      "highlight",
+      "sweep",
+      "pseudo-element",
+      "광택",
+      "하이라이트",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-sheen-pass",
+      "keyframe": "ml-sheen-pass",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-sheen-pass {\n  0%, 22% { transform: translateX(0) skewX(-20deg); opacity: 0; }\n  30% { opacity: .8; }\n  64% { transform: translateX(260px) skewX(-20deg); opacity: .8; }\n  72%, 100% { transform: translateX(260px) skewX(-20deg); opacity: 0; }\n}\n.motion-sample { overflow: hidden; background: #628647; color: #e6f6d7; }\n.motion-sample::after { content: \"\"; position: absolute; top: -20%; bottom: -20%; left: -75px; width: 48px; pointer-events: none; background: linear-gradient(90deg, transparent, #ffffff70, transparent); opacity: 0; animation: ml-sheen-pass 5.6s ease-in-out infinite; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/interaction.json#ml-original-sheen-pass",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  },
+  {
+    "id": "ml-original-hover-elevation",
+    "title": "Hover Elevation Demo",
+    "description": "높이와 그림자를 함께 바꿔 카드가 떠오르는 상태를 보여 줍니다. :hover에서는 반복을 멈추고 올라간 상태를 유지합니다.",
+    "category": "interaction",
+    "tags": [
+      "hover",
+      "elevation",
+      "shadow",
+      "card",
+      "호버",
+      "그림자",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-hover-elevation",
+      "keyframe": "ml-hover-elevation",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-hover-elevation {\n  0%, 18%, 100% { transform: translateY(0); box-shadow: 0 2px 0 #0e180a50; }\n  52%, 75% { transform: translateY(-8px); box-shadow: 0 16px 22px #0e180a55; }\n}\n.motion-sample { transition: transform .24s ease, box-shadow .24s ease; animation: ml-hover-elevation 3.8s ease-in-out infinite; }\n.motion-sample:hover { animation: none; transform: translateY(-8px); box-shadow: 0 16px 22px #0e180a55; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/interaction.json#ml-original-hover-elevation",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  },
+  {
+    "id": "ml-original-press-feedback",
+    "title": "Press Compression Demo",
+    "description": "누를 때 크기와 바닥 그림자가 줄어드는 버튼 피드백입니다. 반복 데모와 실제 :active 상태를 함께 제공합니다.",
+    "category": "interaction",
+    "tags": [
+      "press",
+      "active",
+      "compression",
+      "feedback",
+      "클릭",
+      "피드백",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-press-feedback",
+      "keyframe": "ml-press-feedback",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-press-feedback {\n  0%, 35%, 70%, 100% { transform: scale(1); box-shadow: 0 5px 0 #769c43; }\n  48%, 54% { transform: translateY(4px) scale(.96); box-shadow: 0 1px 0 #769c43; }\n}\n.motion-sample { box-shadow: 0 5px 0 #769c43; transition: transform .12s ease, box-shadow .12s ease; animation: ml-press-feedback 3.5s ease-in-out infinite; }\n.motion-sample:active { animation: none; transform: translateY(4px) scale(.96); box-shadow: 0 1px 0 #769c43; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/interaction.json#ml-original-press-feedback",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  },
+  {
+    "id": "ml-original-confirmation-halo",
+    "title": "Confirmation Halo Ripple",
+    "description": "요소의 크기는 유지하고 바깥 링만 확대해 완료나 확인 순간을 강조합니다. 립플은 장식 레이어입니다.",
+    "category": "interaction",
+    "tags": [
+      "ripple",
+      "halo",
+      "confirmation",
+      "ring",
+      "확인",
+      "파동",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-confirmation-halo",
+      "keyframe": "ml-confirmation-halo",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-confirmation-halo {\n  0%, 18% { transform: scale(.8); opacity: 0; }\n  24% { opacity: .7; }\n  70%, 100% { transform: scale(1.65); opacity: 0; }\n}\n.motion-sample { width: 52px; height: 52px; border-radius: 50%; font-size: 16px; }\n.motion-sample::after { content: \"\"; position: absolute; inset: 0; border: 2px solid var(--ml-accent); border-radius: inherit; pointer-events: none; opacity: 0; animation: ml-confirmation-halo 3s ease-out infinite; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/interaction.json#ml-original-confirmation-halo",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."
+  }
+]

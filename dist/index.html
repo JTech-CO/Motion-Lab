@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080a0c">
+  <meta name="description" content="Motion Lab — discover reusable motion assets, source code, colors, and their original licenses.">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; frame-src 'self' about:; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Motion Lab / Asset library</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./preview.css">
+  <script src="./preview.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#library-main" id="skip-link">라이브러리로 바로 가기</a>
+  <header class="app-header">
+    <a class="brand" href="./" aria-label="Motion Lab"><span class="brand-mark" aria-hidden="true">↗</span>MOTION LAB<span class="brand-dot">.</span></a>
+    <label class="search-field"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.3"></circle><path d="m15.5 15.5 4.7 4.7"></path></svg><input id="search-input" type="search" maxlength="200" autocomplete="off" placeholder="모션, 구성요소, 용도 검색" aria-label="자료 검색"><kbd>/</kbd></label>
+    <div class="header-actions"><button id="motion-toggle" class="subtle-button" title="모션 일시 정지">Ⅱ<span id="motion-label">모션 정지</span></button><button id="connect-button" class="subtle-button">AI 연결 ↗</button><button id="language-button" class="language-button" aria-label="Switch to English">KO<span>/ EN</span></button></div>
+  </header>
+  <div class="explorer-layout">
+    <aside class="facet-sidebar" id="facet-sidebar" aria-label="자료 필터">
+      <div class="facet-heading"><h2 id="filters-label">필터</h2><button id="reset-filters" class="text-button">초기화</button><button id="close-filters" class="mobile-close" aria-label="필터 닫기">×</button></div>
+      <div id="facets"></div>
+      <p id="facet-evidence" class="facet-evidence"></p>
+    </aside>
+    <main id="library-main" class="library-main" tabindex="-1">
+      <div class="library-heading"><div><p class="eyebrow" id="library-eyebrow">CODE / COLOR / MOTION</p><h1 id="library-title">모션 라이브러리</h1><p id="library-description" class="library-description">실제 에셋을 비교하고, 코드와 출처를 함께 가져오세요.</p></div><button id="export-button" class="outlined-button">JSON 내보내기 ↓</button></div>
+      <div class="library-toolbar"><div class="collection-tabs" role="tablist" aria-label="자료 모음"><button id="assets-tab" role="tab" aria-selected="true" data-view="assets">에셋<span id="asset-count"></span></button><button id="references-tab" role="tab" aria-selected="false" data-view="references">레퍼런스 검토<span id="reference-count"></span></button></div><button id="filter-toggle" class="outlined-button" aria-expanded="false" aria-controls="facet-sidebar">필터</button><label class="sort-control"><span id="sort-label">정렬</span><select id="sort-select"><option value="balanced">분야별 균형</option><option value="title">이름순</option><option value="source">출처순</option><option value="type">에셋 종류순</option></select></label></div>
+      <div class="results-bar"><p id="results-count" role="status" aria-live="polite">카탈로그를 불러오는 중…</p><div id="active-filters" class="active-filters"></div></div>
+      <div id="gallery" class="asset-gallery" aria-busy="true"></div>
+      <div id="empty-state" class="empty-state" hidden><h2 id="empty-title">맞는 자료가 없습니다.</h2><p id="empty-description">조건을 줄이거나 필터를 초기화해보세요.</p><button id="empty-reset" class="outlined-button">필터 초기화</button></div>
+      <nav id="pagination" class="pagination" aria-label="결과 페이지" hidden><p id="page-range"></p><div class="pagination-controls"><button id="previous-page" class="outlined-button">← 이전</button><label class="page-input-label"><span id="page-input-label">페이지</span><input id="page-input" type="number" min="1" value="1" inputmode="numeric" aria-label="페이지 번호"><span id="page-total"></span></label><button id="go-page" class="outlined-button">이동</button><button id="next-page" class="outlined-button">다음 →</button></div></nav>
+      <footer class="library-footer"><p id="keyboard-hint">방향키로 에셋 이동 · Enter 상세 · Tab 도구 이동</p><span id="catalog-updated"></span></footer>
+    </main>
+  </div>
+  <dialog id="detail-dialog" class="detail-drawer" aria-labelledby="detail-title"><div class="drawer-header"><span id="detail-header-label">에셋 상세</span><div><button id="detail-language" class="text-button">KO / EN</button><button id="detail-close" class="close-button" aria-label="상세 닫기">×</button></div></div><div id="detail-content"></div></dialog>
+  <dialog id="connect-dialog" class="connect-dialog" aria-labelledby="connect-title"><div class="drawer-header"><span id="connect-header-label">AI / MCP / CLI</span><button id="connect-close" class="close-button" aria-label="연결 안내 닫기">×</button></div><div id="connect-content"></div></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

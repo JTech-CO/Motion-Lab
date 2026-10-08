@@ -1,0 +1,11 @@
+{
+  "name": "motion-lab",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local-first motion code, color and reference library with CLI and MCP",
+  "scripts": {
+    "build": "python scripts/build.py",
+    "start": "python -m motionlab serve --port 8787",
+    "test": "python -m unittest discover -s tests -v"
+  }
+}

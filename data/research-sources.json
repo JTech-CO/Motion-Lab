@@ -1,0 +1,2971 @@
+[
+  {
+    "id": "ref-anime-js",
+    "title": "Anime.js",
+    "description": "CSS·SVG·스크롤·스프링과 타임라인을 한 API로 다루는 웹 애니메이션 엔진.",
+    "category": "animation",
+    "tags": [
+      "javascript",
+      "svg",
+      "timeline",
+      "stagger"
+    ],
+    "sourceUrl": "https://animejs.com/",
+    "sourceName": "Anime.js",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-gsap-documentation",
+    "title": "GSAP documentation",
+    "description": "트윈과 타임라인을 조합하고 재생 시점을 제어하는 공식 구현 문서.",
+    "category": "animation",
+    "tags": [
+      "javascript",
+      "timeline",
+      "easing"
+    ],
+    "sourceUrl": "https://gsap.com/docs/v3/GSAP/",
+    "sourceName": "GSAP documentation",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-motion-animate",
+    "title": "Motion animate",
+    "description": "HTML·SVG·CSS 변수와 시퀀스를 제어하는 Motion의 animate API 문서.",
+    "category": "animation",
+    "tags": [
+      "javascript",
+      "svg",
+      "spring",
+      "timeline"
+    ],
+    "sourceUrl": "https://motion.dev/docs/animate",
+    "sourceName": "Motion animate",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-vectormotion",
+    "title": "VectorMotion",
+    "description": "SVG 경로별 키프레임·모핑·트리거를 구성하는 선언형 엔진의 문서.",
+    "category": "animation",
+    "tags": [
+      "svg",
+      "morphing",
+      "keyframes"
+    ],
+    "sourceUrl": "https://www.motion-svg.com/docs",
+    "sourceName": "VectorMotion",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-animated-timeline",
+    "title": "Animated Timeline",
+    "description": "React에서 스프링 속도·탄성·보간과 재생 제어를 다루는 예제 문서.",
+    "category": "animation",
+    "tags": [
+      "react",
+      "spring",
+      "interpolation"
+    ],
+    "sourceUrl": "https://github.com/nitin42/Animated-Timeline/blob/master/docs/Spring.md",
+    "sourceName": "Animated Timeline",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-svgsketch",
+    "title": "SVGSketch",
+    "description": "Timeline과 Track으로 도형 속성의 시간별 변화를 정의하는 SVG SDK 문서.",
+    "category": "animation",
+    "tags": [
+      "svg",
+      "timeline",
+      "tracks"
+    ],
+    "sourceUrl": "https://docs.svgsketch.com/sdk/animation/",
+    "sourceName": "SVGSketch",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-motion-page-sdk",
+    "title": "Motion.page SDK",
+    "description": "이름 있는 타임라인을 만들고 트리거와 연결하는 웹 모션 SDK 문서.",
+    "category": "interaction",
+    "tags": [
+      "javascript",
+      "timeline",
+      "triggers"
+    ],
+    "sourceUrl": "https://motion.page/docs/sdk/motion-factory",
+    "sourceName": "Motion.page SDK",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-popmotion-timeline",
+    "title": "Popmotion Timeline",
+    "description": "독립적인 트랙과 시간 지시로 복잡한 애니메이션 시퀀스를 구성하는 API.",
+    "category": "animation",
+    "tags": [
+      "javascript",
+      "timeline",
+      "sequencing"
+    ],
+    "sourceUrl": "https://popmotion.io/api/timeline/",
+    "sourceName": "Popmotion Timeline",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-glaze",
+    "title": "Glaze",
+    "description": "HTML 속성으로 GSAP 타임라인과 자식 요소의 동작을 정의하는 문서.",
+    "category": "animation",
+    "tags": [
+      "html",
+      "gsap",
+      "timeline"
+    ],
+    "sourceUrl": "https://glaze.dev/docs/timelines",
+    "sourceName": "Glaze",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-anime-js-skills",
+    "title": "Anime.js Skills",
+    "description": "Anime.js 사용 예제와 타임라인·스크롤·SVG 작업 지침을 정리한 AI 스킬 저장소.",
+    "category": "reference",
+    "tags": [
+      "ai-skill",
+      "animejs",
+      "documentation"
+    ],
+    "sourceUrl": "https://github.com/bowtiedswan/animejs-skills",
+    "sourceName": "Anime.js Skills",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-fwd-tools-gsap-playground",
+    "title": "FWD Tools GSAP Playground",
+    "description": "코드를 편집하고 결과를 재생하면서 GSAP 패턴을 학습하는 인터랙티브 도구.",
+    "category": "reference",
+    "tags": [
+      "gsap",
+      "playground",
+      "education"
+    ],
+    "sourceUrl": "https://fwdtools.com/gsap-playground/",
+    "sourceName": "FWD Tools GSAP Playground",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-blossom-carousel",
+    "title": "Blossom Carousel",
+    "description": "SVG 경로와 CSS 스크롤 타임라인으로 만드는 커스텀 스크롤바 예제.",
+    "category": "interaction",
+    "tags": [
+      "svg",
+      "scroll-timeline",
+      "carousel"
+    ],
+    "sourceUrl": "https://www.blossom-carousel.com/docs/examples/advanced/custom-scrollbar",
+    "sourceName": "Blossom Carousel",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-pmndrs-timeline",
+    "title": "pmndrs Timeline",
+    "description": "스프링·위치·회전 등 3D 객체의 시간별 제어 함수를 정리한 문서.",
+    "category": "animation",
+    "tags": [
+      "threejs",
+      "spring",
+      "3d"
+    ],
+    "sourceUrl": "https://pmndrs.github.io/timeline/getting-started/3-overview",
+    "sourceName": "pmndrs Timeline",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-nebula",
+    "title": "Nebula",
+    "description": "React·R3F·GLSL 효과를 프리셋으로 탐색하고 조절하는 GPU 효과 컬렉션.",
+    "category": "shader",
+    "tags": [
+      "react",
+      "r3f",
+      "glsl",
+      "webgl"
+    ],
+    "sourceUrl": "https://mafhper.github.io/nebula/",
+    "sourceName": "Nebula",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-okaybabe-shaders",
+    "title": "OkayBabe Shaders",
+    "description": "React 래퍼로 제공하는 애니메이션 GLSL 배경 셰이더 모음.",
+    "category": "shader",
+    "tags": [
+      "react",
+      "glsl",
+      "background"
+    ],
+    "sourceUrl": "https://github.com/Okay-Babe/okaybabe-shaders",
+    "sourceName": "OkayBabe Shaders",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-fluid-studio",
+    "title": "Fluid Studio",
+    "description": "의존성 없는 HTML 파일에서 절차적 WebGL 배경과 라이브 임베드를 만드는 도구.",
+    "category": "background",
+    "tags": [
+      "webgl",
+      "generative",
+      "procedural"
+    ],
+    "sourceUrl": "https://github.com/Giacomo-Paolini/fluid",
+    "sourceName": "Fluid Studio",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-gradient-gl",
+    "title": "Gradient GL",
+    "description": "시드 값으로 재현 가능한 WebGL 그라디언트 애니메이션을 만드는 라이브러리.",
+    "category": "gradient",
+    "tags": [
+      "webgl",
+      "seed",
+      "procedural"
+    ],
+    "sourceUrl": "https://github.com/metaory/gradient-gl",
+    "sourceName": "Gradient GL",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-creative-coding-resources",
+    "title": "Creative Coding Resources",
+    "description": "크리에이티브 코딩·제너러티브 아트의 라이브러리와 학습 자원을 모은 목록.",
+    "category": "reference",
+    "tags": [
+      "creative-coding",
+      "generative",
+      "resources"
+    ],
+    "sourceUrl": "https://codeberg.org/evasync/creative-coding-resources",
+    "sourceName": "Creative Coding Resources",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-swissgl",
+    "title": "SwissGL",
+    "description": "GLSL·텍스처·프레임버퍼 코드를 줄이는 WebGL2 래퍼와 절차적 시각화 데모.",
+    "category": "shader",
+    "tags": [
+      "webgl2",
+      "glsl",
+      "simulation"
+    ],
+    "sourceUrl": "https://github.com/paradigms-of-intelligence/swissgl",
+    "sourceName": "SwissGL",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-cosmic-visualizations",
+    "title": "Cosmic Visualizations",
+    "description": "GLSL 셰이더로 프랙털과 입자 기반 우주 시뮬레이션을 표현하는 프로젝트.",
+    "category": "shader",
+    "tags": [
+      "fractal",
+      "particles",
+      "webgl2"
+    ],
+    "sourceUrl": "https://github.com/muhkartal/webGL-cosmicVisualizations",
+    "sourceName": "Cosmic Visualizations",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-shader-gradient-core",
+    "title": "Shader Gradient Core",
+    "description": "React 중심 그라디언트의 렌더링 코어를 프레임워크 독립적인 TypeScript로 재구성한 프로젝트.",
+    "category": "gradient",
+    "tags": [
+      "typescript",
+      "webgl",
+      "framework-agnostic"
+    ],
+    "sourceUrl": "https://github.com/Jannchie/shader-gradient",
+    "sourceName": "Shader Gradient Core",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-webgl-shader-gallery",
+    "title": "WebGL Shader Gallery",
+    "description": "액체 왜곡·레이마칭·프랙털 등 마우스 반응형 실시간 셰이더를 전시하는 갤러리.",
+    "category": "shader",
+    "tags": [
+      "raymarching",
+      "fractal",
+      "interaction"
+    ],
+    "sourceUrl": "https://github.com/KaranChandekar/webgl-shader-gallery",
+    "sourceName": "WebGL Shader Gallery",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-nebulla-particle-library",
+    "title": "Nebulla Particle Library",
+    "description": "Three.js 커스텀 셰이더를 사용하는 입자 파도 애니메이션 프로젝트.",
+    "category": "background",
+    "tags": [
+      "threejs",
+      "particles",
+      "wave"
+    ],
+    "sourceUrl": "https://github.com/RavenRepo/nebulla-particle-library",
+    "sourceName": "Nebulla Particle Library",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-awesome-creative-coding",
+    "title": "Awesome Creative Coding",
+    "description": "제너러티브 아트·상호작용·시각화를 위한 도구와 커뮤니티를 정리한 자원 목록.",
+    "category": "reference",
+    "tags": [
+      "creative-coding",
+      "generative",
+      "resources"
+    ],
+    "sourceUrl": "https://github.com/terkelg/awesome-creative-coding",
+    "sourceName": "Awesome Creative Coding",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-klaudioz-gradients",
+    "title": "Klaudioz Gradients",
+    "description": "노이즈 기반 프래그먼트 셰이더로 유기적인 그라디언트를 만드는 WebGL 도구.",
+    "category": "gradient",
+    "tags": [
+      "webgl",
+      "noise",
+      "glsl"
+    ],
+    "sourceUrl": "https://github.com/Klaudioz/gradients",
+    "sourceName": "Klaudioz Gradients",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-colourful-attraction",
+    "title": "Colourful Attraction",
+    "description": "혼돈계 어트랙터 사이를 변형하며 이동하는 GPU 입자 실험.",
+    "category": "shader",
+    "tags": [
+      "particles",
+      "attractor",
+      "p5js",
+      "glsl"
+    ],
+    "sourceUrl": "https://github.com/qc20/colourful-attraction",
+    "sourceName": "Colourful Attraction",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-zoxilsi-studio",
+    "title": "Zoxilsi Studio",
+    "description": "베지어 패치 격자를 조절해 메쉬 그라디언트를 만들고 결과를 내보내는 편집기.",
+    "category": "gradient",
+    "tags": [
+      "mesh",
+      "bezier",
+      "webgl"
+    ],
+    "sourceUrl": "https://github.com/zoxilsi/studio",
+    "sourceName": "Zoxilsi Studio",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-grainient-skill",
+    "title": "Grainient Skill",
+    "description": "단일 HTML 파일로 제공하는 WebGL 그라디언트·표면 질감·CSS 효과 스킬 자료.",
+    "category": "reference",
+    "tags": [
+      "ai-skill",
+      "html",
+      "webgl",
+      "texture"
+    ],
+    "sourceUrl": "https://github.com/tdimino/claude-code-minoan/tree/main/skills/design-media/grainient",
+    "sourceName": "Grainient Skill",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-prompt-vfx",
+    "title": "Prompt VFX",
+    "description": "입자·필드·텍스트와 GSAP·WebGL 효과를 작은 모듈로 제시하는 라이브 갤러리.",
+    "category": "reference",
+    "tags": [
+      "canvas",
+      "gsap",
+      "webgl",
+      "particles"
+    ],
+    "sourceUrl": "https://github.com/inthepond/prompt-vfx",
+    "sourceName": "Prompt VFX",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-radiant",
+    "title": "Radiant",
+    "description": "의존성 없이 캔버스에 넣을 수 있는 제너러티브 셰이더 아트 컬렉션.",
+    "category": "shader",
+    "tags": [
+      "canvas",
+      "generative",
+      "glsl"
+    ],
+    "sourceUrl": "https://github.com/vagmi/radiant",
+    "sourceName": "Radiant",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-typo",
+    "title": "Typo",
+    "description": "커서와 물리에 반응하는 키네틱 텍스트 효과를 React 컴포넌트로 제공하는 저장소.",
+    "category": "typography",
+    "tags": [
+      "react",
+      "physics",
+      "cursor"
+    ],
+    "sourceUrl": "https://github.com/dragoon0x/typo",
+    "sourceName": "Typo",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-typexperiments",
+    "title": "Typexperiments",
+    "description": "글자별 위치를 캔버스에서 보간하는 Pretext 기반 키네틱 타이포그래피 엔진.",
+    "category": "typography",
+    "tags": [
+      "canvas",
+      "typescript",
+      "morphing"
+    ],
+    "sourceUrl": "https://github.com/pablostanley/typexperiments",
+    "sourceName": "Typexperiments",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-bounshy",
+    "title": "Bounshy",
+    "description": "스프링 물리·커서 반응·색상 변화로 타이포그래피를 움직이는 제작 사례.",
+    "category": "typography",
+    "tags": [
+      "spring",
+      "cursor",
+      "case-study"
+    ],
+    "sourceUrl": "https://www.howardyam.design/projects/bounshy",
+    "sourceName": "Bounshy",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-rakuten-variable-font",
+    "title": "Rakuten Variable Font",
+    "description": "가변 글꼴과 GSAP 마이크로인터랙션을 결합한 제작자의 랜딩 페이지 사례.",
+    "category": "typography",
+    "tags": [
+      "variable-font",
+      "gsap",
+      "case-study"
+    ],
+    "sourceUrl": "https://ksawerykarczewski.com/rakuten-font-family",
+    "sourceName": "Rakuten Variable Font",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-trickle",
+    "title": "Trickle",
+    "description": "브라우저 기본 키프레임을 활용하는 React 텍스트 애니메이션 컴포넌트 모음.",
+    "category": "typography",
+    "tags": [
+      "react",
+      "css",
+      "keyframes"
+    ],
+    "sourceUrl": "https://tricklekit.dev/",
+    "sourceName": "Trickle",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-codrops-exat-microsite",
+    "title": "Codrops Exat Microsite",
+    "description": "스크롤에 반응하는 타입페이스 쇼케이스의 제작 과정과 인터랙션 설계를 설명한 사례.",
+    "category": "typography",
+    "tags": [
+      "scroll",
+      "case-study",
+      "variable-font"
+    ],
+    "sourceUrl": "https://tympanus.net/codrops/2026/04/10/the-exat-microsite-pushing-a-typography-showcase-to-new-creative-extremes/",
+    "sourceName": "Codrops Exat Microsite",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-text-effects-kit",
+    "title": "Text Effects Kit",
+    "description": "Framer용 텍스트 리빌·타이핑·포인터 반응 효과를 모은 플러그인 페이지.",
+    "category": "typography",
+    "tags": [
+      "framer",
+      "reveal",
+      "typewriter"
+    ],
+    "sourceUrl": "https://www.framer.com/marketplace/plugins/text-effects-kit/",
+    "sourceName": "Text Effects Kit",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-textalive",
+    "title": "TextAlive",
+    "description": "움직이는 객체 주변으로 텍스트가 다시 흐르는 브라우저 기반 시각 편집 프로젝트.",
+    "category": "typography",
+    "tags": [
+      "canvas",
+      "reflow",
+      "interactive"
+    ],
+    "sourceUrl": "https://github.com/lennystepn-hue/textalive",
+    "sourceName": "TextAlive",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-mat-voyce-case-study",
+    "title": "Mat Voyce Case Study",
+    "description": "키네틱 타이포그래피 포트폴리오를 GSAP로 구현한 개발자의 제작 사례.",
+    "category": "typography",
+    "tags": [
+      "gsap",
+      "portfolio",
+      "case-study"
+    ],
+    "sourceUrl": "https://www.hontran.dev/blog/mat-voyce-case-study-award-winning-portfolio",
+    "sourceName": "Mat Voyce Case Study",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-texttweener",
+    "title": "TextTweener",
+    "description": "공통 글자를 새 위치로 이동시켜 단어 간 변화를 표현하는 텍스트 전환 도구.",
+    "category": "typography",
+    "tags": [
+      "morphing",
+      "letters",
+      "transition"
+    ],
+    "sourceUrl": "https://realmaker.de/texttweener/",
+    "sourceName": "TextTweener",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-ai-canvas-playful",
+    "title": "AI Canvas Playful",
+    "description": "커서가 가까워지면 글자가 이동하고 회전하는 React 텍스트 효과 예제.",
+    "category": "typography",
+    "tags": [
+      "react",
+      "cursor",
+      "physics"
+    ],
+    "sourceUrl": "https://aicanvas.me/components/playful",
+    "sourceName": "AI Canvas Playful",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-kinetic-type-07",
+    "title": "Kinetic Type 07",
+    "description": "2D·3D 공간에서 문구를 움직이는 제작자의 키네틱 타이포그래피 실험 연작.",
+    "category": "typography",
+    "tags": [
+      "2d",
+      "3d",
+      "inspiration"
+    ],
+    "sourceUrl": "https://www.behance.net/gallery/254081025/Kinetic-Type-07",
+    "sourceName": "Kinetic Type 07",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-void-energy-kinetic-text",
+    "title": "Void Energy Kinetic Text",
+    "description": "글자별 등장과 주변 움직임을 이벤트에 연결하는 텍스트 컴포넌트 자료.",
+    "category": "typography",
+    "tags": [
+      "characters",
+      "reveal",
+      "events"
+    ],
+    "sourceUrl": "https://voidenergy.dev/kinetic-text",
+    "sourceName": "Void Energy Kinetic Text",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-interactive-developer",
+    "title": "Interactive Developer",
+    "description": "PixiJS로 키네틱 타이포그래피를 구현하는 한국어 크리에이티브 코딩 튜토리얼.",
+    "category": "typography",
+    "tags": [
+      "pixijs",
+      "canvas",
+      "korean",
+      "tutorial"
+    ],
+    "sourceUrl": "https://www.youtube.com/watch",
+    "sourceName": "Interactive Developer",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-crucible-recast",
+    "title": "Crucible Recast",
+    "description": "공통 글자는 이동하고 다른 글자는 드나드는 접근성 고려 단어 전환 컴포넌트.",
+    "category": "typography",
+    "tags": [
+      "react",
+      "word-transition",
+      "reduced-motion"
+    ],
+    "sourceUrl": "https://crucibleui.com/components/text/recast",
+    "sourceName": "Crucible Recast",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-falling-text",
+    "title": "Falling Text",
+    "description": "측정한 단어 영역에 중력·충돌을 적용하는 라이브 타이포그래피 예제.",
+    "category": "typography",
+    "tags": [
+      "physics",
+      "collision",
+      "react"
+    ],
+    "sourceUrl": "https://000h.cojeev.com/docs/falling-text/",
+    "sourceName": "Falling Text",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-atlassian-motion",
+    "title": "Atlassian Motion",
+    "description": "UI 상태 변화를 설명하는 모션 원칙·시간·이징과 접근성 지침.",
+    "category": "reference",
+    "tags": [
+      "design-system",
+      "easing",
+      "accessibility"
+    ],
+    "sourceUrl": "https://atlassian.design/foundations/motion",
+    "sourceName": "Atlassian Motion",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-animation-in-design-systems",
+    "title": "Animation in Design Systems",
+    "description": "브랜드에 맞는 모션 규칙을 디자인 시스템에 포함하는 방법을 다루는 자료.",
+    "category": "reference",
+    "tags": [
+      "design-system",
+      "motion-guidelines"
+    ],
+    "sourceUrl": "https://xd.adobe.com/ideas/wp-content/uploads/2021/06/Animation-in-Design-Systems.pdf",
+    "sourceName": "Animation in Design Systems",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-gitlab-pajamas-motion",
+    "title": "GitLab Pajamas Motion",
+    "description": "일러스트 레이어·선·아이콘·점의 움직임과 프레임 구성을 설명하는 공식 지침.",
+    "category": "reference",
+    "tags": [
+      "design-system",
+      "svg",
+      "choreography"
+    ],
+    "sourceUrl": "https://design.gitlab.com/brand-design/motion",
+    "sourceName": "GitLab Pajamas Motion",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-motion-studio-color",
+    "title": "Motion Studio Color",
+    "description": "After Effects와 Illustrator에서 공유하는 팔레트를 구성·관리하는 색상 도구 문서.",
+    "category": "palette",
+    "tags": [
+      "palette",
+      "after-effects",
+      "illustrator"
+    ],
+    "sourceUrl": "https://motion-studio.mtmograph.com/libraries/color",
+    "sourceName": "Motion Studio Color",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-github-brand-motion",
+    "title": "GitHub Brand Motion",
+    "description": "브랜드 모션·텍스트 등장·전환을 설계하는 GitHub의 공식 원칙과 예시.",
+    "category": "reference",
+    "tags": [
+      "brand",
+      "typography",
+      "transition"
+    ],
+    "sourceUrl": "https://brand.github.com/motion/principles",
+    "sourceName": "GitHub Brand Motion",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-qwilr-kaleidoscope",
+    "title": "Qwilr Kaleidoscope",
+    "description": "제품 흐름과 컴포넌트에 적용하는 모션의 원칙·속성·패턴을 설명하는 지침.",
+    "category": "reference",
+    "tags": [
+      "design-system",
+      "interaction",
+      "motion-guidelines"
+    ],
+    "sourceUrl": "https://kaleidoscope.qwilr.com/design/guides/motion/",
+    "sourceName": "Qwilr Kaleidoscope",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-gocardless-motion",
+    "title": "GoCardless Motion",
+    "description": "상태 전달과 주의 유도를 위한 이징·시간·전환의 제품 모션 지침.",
+    "category": "reference",
+    "tags": [
+      "design-system",
+      "easing",
+      "duration"
+    ],
+    "sourceUrl": "https://brand.gocardless.com/motion",
+    "sourceName": "GoCardless Motion",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-carbon-motion",
+    "title": "Carbon Motion",
+    "description": "생산적 모션과 표현적 모션을 구분하고 UI의 이징·안무를 설명하는 IBM 지침.",
+    "category": "reference",
+    "tags": [
+      "design-system",
+      "easing",
+      "choreography"
+    ],
+    "sourceUrl": "https://www.carbondesignsystem.com/building-blocks/foundations/motion/overview",
+    "sourceName": "Carbon Motion",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-atlan-motion",
+    "title": "Atlan Motion",
+    "description": "등장·퇴장·위치 변화의 곡선과 시간·공간 기준을 구성한 브랜드 모션 시스템.",
+    "category": "reference",
+    "tags": [
+      "brand",
+      "easing",
+      "choreography"
+    ],
+    "sourceUrl": "https://atlan.com/brand/motion/",
+    "sourceName": "Atlan Motion",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-designbetter-motion",
+    "title": "Designbetter Motion",
+    "description": "시간·이징 토큰을 라이브 데모로 비교하는 모션 디자인 시스템 페이지.",
+    "category": "reference",
+    "tags": [
+      "design-system",
+      "tokens",
+      "easing"
+    ],
+    "sourceUrl": "https://designbetter.style/motion",
+    "sourceName": "Designbetter Motion",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-designsystems-com",
+    "title": "Designsystems.com",
+    "description": "모션의 시간 곡선·용도·안무 패턴을 디자인 시스템에 문서화하는 과정.",
+    "category": "reference",
+    "tags": [
+      "design-system",
+      "choreography",
+      "process"
+    ],
+    "sourceUrl": "https://www.designsystems.com/5-steps-for-including-motion-design-in-your-system/",
+    "sourceName": "Designsystems.com",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-remotion-style-kit",
+    "title": "Remotion Style Kit",
+    "description": "시각 스타일·움직임·팔레트를 먼저 선택해 Remotion 생성 방향을 정하는 프로젝트.",
+    "category": "reference",
+    "tags": [
+      "remotion",
+      "ai-skill",
+      "palette"
+    ],
+    "sourceUrl": "https://github.com/happy-token/remotion-style-kit",
+    "sourceName": "Remotion Style Kit",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-motion-ui",
+    "title": "Motion UI",
+    "description": "스프링·stagger·이동 거리 등 모션 토큰과 마케팅 섹션을 제공하는 공식 자료.",
+    "category": "interaction",
+    "tags": [
+      "react",
+      "spring",
+      "tokens"
+    ],
+    "sourceUrl": "https://motion.dev/ui",
+    "sourceName": "Motion UI",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-framewave",
+    "title": "Framewave",
+    "description": "WebGPU와 해석적 스프링·OKLab 색상을 사용하는 결정적 웹 모션그래픽 프로젝트.",
+    "category": "animation",
+    "tags": [
+      "webgpu",
+      "spring",
+      "oklab"
+    ],
+    "sourceUrl": "https://github.com/VFitter/framewave",
+    "sourceName": "Framewave",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-mo-js",
+    "title": "mo.js",
+    "description": "도형·버스트·스월·SVG 타임라인을 구성하는 웹 모션그래픽 라이브러리.",
+    "category": "animation",
+    "tags": [
+      "svg",
+      "burst",
+      "swirl",
+      "timeline"
+    ],
+    "sourceUrl": "https://github.com/mojs/mojs",
+    "sourceName": "mo.js",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-live2d-cubism-web",
+    "title": "Live2D Cubism Web",
+    "description": "브라우저에서 Live2D 모델의 움직임·파라미터 혼합·립싱크를 처리하는 프레임워크.",
+    "category": "animation",
+    "tags": [
+      "live2d",
+      "character",
+      "japanese"
+    ],
+    "sourceUrl": "https://github.com/Live2D/CubismWebFramework/blob/develop/README.ja.md",
+    "sourceName": "Live2D Cubism Web",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-moyo",
+    "title": "Moyo",
+    "description": "도형 이름 대신 호흡·배회 등 움직임으로 선택하는 유기적 SVG 블롭 프로젝트.",
+    "category": "loader",
+    "tags": [
+      "svg",
+      "blob",
+      "organic"
+    ],
+    "sourceUrl": "https://github.com/YoseiIkegami/moyo",
+    "sourceName": "Moyo",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-motion-anything",
+    "title": "Motion Anything",
+    "description": "자연어로 움직임을 설명하고 애니메이션을 생성하는 로컬 중심 모션 엔진.",
+    "category": "reference",
+    "tags": [
+      "ai-skill",
+      "motion-engine",
+      "local"
+    ],
+    "sourceUrl": "https://github.com/heyxianggao/motion-anything",
+    "sourceName": "Motion Anything",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-nibi",
+    "title": "Nibi",
+    "description": "일본어 가사 형태의 입자가 3D 흐름 패턴으로 전환되는 WebGPU 소스 프로젝트.",
+    "category": "typography",
+    "tags": [
+      "webgpu",
+      "particles",
+      "japanese",
+      "lyrics"
+    ],
+    "sourceUrl": "https://github.com/monoton-music/nibi",
+    "sourceName": "Nibi",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-blob-morph-study",
+    "title": "Blob Morph Study",
+    "description": "노이즈·호흡·커서 접근에 반응해 SVG 경로가 변화하는 일본어 애니메이션 실험.",
+    "category": "animation",
+    "tags": [
+      "svg",
+      "blob",
+      "noise",
+      "japanese"
+    ],
+    "sourceUrl": "https://github.com/torifo/animation-blob-morph",
+    "sourceName": "Blob Morph Study",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-odorigu",
+    "title": "Odorigu",
+    "description": "리깅한 PNG 캐릭터를 BPM과 절차적 움직임에 맞춰 재생하는 브라우저 제작 도구.",
+    "category": "animation",
+    "tags": [
+      "pixijs",
+      "character",
+      "bpm",
+      "japanese"
+    ],
+    "sourceUrl": "https://github.com/OFF-Proxy/odorigu",
+    "sourceName": "Odorigu",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-gitframes",
+    "title": "Gitframes",
+    "description": "TypeScript 코드로 합성·타이포그래피·키프레임·3D 장면을 구성하는 에이전트용 도구.",
+    "category": "reference",
+    "tags": [
+      "typescript",
+      "ai-skill",
+      "compositing",
+      "3d"
+    ],
+    "sourceUrl": "https://github.com/gatewai-dev/gitframes",
+    "sourceName": "Gitframes",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-kansei",
+    "title": "Kansei",
+    "description": "WGSL 렌더링과 계산 시뮬레이션을 위한 실험적인 TypeScript WebGPU 엔진.",
+    "category": "shader",
+    "tags": [
+      "webgpu",
+      "wgsl",
+      "typescript"
+    ],
+    "sourceUrl": "https://github.com/Siroko/kansei",
+    "sourceName": "Kansei",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-pv-tool",
+    "title": "PV Tool",
+    "description": "가사 타이포그래피와 후처리 오버레이를 실시간으로 렌더링하는 PixiJS 프로젝트.",
+    "category": "typography",
+    "tags": [
+      "pixijs",
+      "lyrics",
+      "post-processing"
+    ],
+    "sourceUrl": "https://github.com/OnWhyPut/pv-tool",
+    "sourceName": "PV Tool",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-suplab",
+    "title": "SupLab",
+    "description": "코드·실험적 인터랙션·물리적 설치를 결합하는 브라질 디자인 스튜디오.",
+    "category": "reference",
+    "tags": [
+      "studio",
+      "installation",
+      "creative-coding"
+    ],
+    "sourceUrl": "https://suplab.cc/",
+    "sourceName": "SupLab",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-sailor-studio",
+    "title": "Sailor Studio",
+    "description": "2D·3D 애니메이션과 브랜드 모션·일러스트를 제작하는 브라질 스튜디오.",
+    "category": "reference",
+    "tags": [
+      "studio",
+      "2d",
+      "3d",
+      "brand"
+    ],
+    "sourceUrl": "https://sailor.studio/",
+    "sourceName": "Sailor Studio",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-superfluide",
+    "title": "Superfluide",
+    "description": "2D·3D 애니메이션·아트 디렉션·브랜드 모션을 제작하는 파리 스튜디오.",
+    "category": "reference",
+    "tags": [
+      "studio",
+      "2d",
+      "3d",
+      "brand"
+    ],
+    "sourceUrl": "https://superfluidestudio.com/",
+    "sourceName": "Superfluide",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-asquareportal",
+    "title": "Asquareportal",
+    "description": "브랜드·제품 설명·인터랙티브 디자인의 모션 사례를 모은 베를린 스튜디오.",
+    "category": "reference",
+    "tags": [
+      "studio",
+      "explainer",
+      "interactive"
+    ],
+    "sourceUrl": "https://www.asquareportal.com/",
+    "sourceName": "Asquareportal",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-pekingpeking",
+    "title": "PEKINGPEKING",
+    "description": "타이틀 디자인·VFX·3D 시각화와 Unreal Engine 작업을 보여주는 독일 스튜디오.",
+    "category": "reference",
+    "tags": [
+      "studio",
+      "title",
+      "vfx",
+      "unreal"
+    ],
+    "sourceUrl": "https://pekingpeking.de/",
+    "sourceName": "PEKINGPEKING",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-studio-carlos",
+    "title": "Studio Carlos",
+    "description": "코드·전자장치·공간 디자인을 결합해 인터랙티브 몰입 경험을 제작하는 프랑스 스튜디오.",
+    "category": "reference",
+    "tags": [
+      "studio",
+      "immersive",
+      "installation"
+    ],
+    "sourceUrl": "https://studiocarlos.fr/",
+    "sourceName": "Studio Carlos",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-nicolas-sordello",
+    "title": "Nicolas Sordello",
+    "description": "Unity·openFrameworks·Processing을 사용한 실시간 VFX와 모션 디자인 제작 사례.",
+    "category": "reference",
+    "tags": [
+      "portfolio",
+      "processing",
+      "openframeworks",
+      "vfx"
+    ],
+    "sourceUrl": "https://sordello.net/",
+    "sourceName": "Nicolas Sordello",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-studio-bbg",
+    "title": "Studio BBG",
+    "description": "움직이는 타이포그래피·일러스트·브랜드 시각 시스템을 제작하는 독일 스튜디오.",
+    "category": "reference",
+    "tags": [
+      "studio",
+      "typography",
+      "illustration",
+      "brand"
+    ],
+    "sourceUrl": "https://bewegtbildgrafik.de/studio",
+    "sourceName": "Studio BBG",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-ggfx",
+    "title": "GGfx",
+    "description": "3D·2D 애니메이션과 VFX·제작 자동화를 소개하는 상파울루 스튜디오.",
+    "category": "reference",
+    "tags": [
+      "studio",
+      "3d",
+      "2d",
+      "vfx"
+    ],
+    "sourceUrl": "https://ggfx.com.br/en/",
+    "sourceName": "GGfx",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-obj-studio",
+    "title": "OBJ.Studio",
+    "description": "전시·브랜드 공간·공공 디스플레이를 위한 몰입형 설치와 인터랙션 디자인.",
+    "category": "reference",
+    "tags": [
+      "studio",
+      "installation",
+      "immersive"
+    ],
+    "sourceUrl": "https://obj.studio/",
+    "sourceName": "OBJ.Studio",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-vj-suave",
+    "title": "VJ Suave",
+    "description": "애니메이션·프로젝션 매핑·음악을 결합하는 브라질 뉴미디어 아트 스튜디오.",
+    "category": "reference",
+    "tags": [
+      "studio",
+      "projection-mapping",
+      "audiovisual"
+    ],
+    "sourceUrl": "https://vjsuave.com/",
+    "sourceName": "VJ Suave",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-julien-levy",
+    "title": "Julien Levy",
+    "description": "VR·360도 경험과 제스처 반응형 실시간 입자 렌더링 설치 사례.",
+    "category": "reference",
+    "tags": [
+      "portfolio",
+      "immersive",
+      "particles",
+      "vr"
+    ],
+    "sourceUrl": "https://www.julienlevy.studio/",
+    "sourceName": "Julien Levy",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-geronimo",
+    "title": "GERONIMO",
+    "description": "브랜드와 전시를 위한 타이포그래피·그래픽 애니메이션 사례를 모은 파리 제작자.",
+    "category": "reference",
+    "tags": [
+      "portfolio",
+      "typography",
+      "brand"
+    ],
+    "sourceUrl": "https://geronimo-paris.fr/",
+    "sourceName": "GERONIMO",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-astrolabe-studio",
+    "title": "Astrolabe Studio",
+    "description": "3D 그래픽·XR·실시간 시각화·모션그래픽을 소개하는 제작 스튜디오.",
+    "category": "reference",
+    "tags": [
+      "studio",
+      "xr",
+      "3d",
+      "realtime"
+    ],
+    "sourceUrl": "https://astrolabe-studio.org/",
+    "sourceName": "Astrolabe Studio",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-lure-studio",
+    "title": "LURE Studio",
+    "description": "3D·CGI·VFX와 합성을 활용하는 브라질 제작 스튜디오의 프로젝트 레퍼런스.",
+    "category": "reference",
+    "tags": [
+      "studio",
+      "cgi",
+      "vfx"
+    ],
+    "sourceUrl": "https://lurestudio.org/",
+    "sourceName": "LURE Studio",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-mostros",
+    "title": "MOSTROS",
+    "description": "모션 디자인·브랜드 아이덴티티·인터랙티브 비주얼을 모은 제작 스튜디오 포트폴리오.",
+    "category": "reference",
+    "tags": [
+      "studio",
+      "brand",
+      "interactive"
+    ],
+    "sourceUrl": "https://mostros.co/work/audiovisual-portfolio/",
+    "sourceName": "MOSTROS",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-ze-do-motion",
+    "title": "Ze do Motion",
+    "description": "룩디벨롭·3D 모델링·조명·모션 디자인을 소개하는 브라질 제작자 포트폴리오.",
+    "category": "reference",
+    "tags": [
+      "portfolio",
+      "3d",
+      "lookdev"
+    ],
+    "sourceUrl": "https://www.behance.net/zeofmotion",
+    "sourceName": "Ze do Motion",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-career-hacker-alex-160",
+    "title": "Career Hacker Alex · 모션그래픽 160",
+    "description": "모션 용어와 조합 예제·화면 재연 등을 탐색하며 편집 소스와 프롬프트를 확인하는 한국어 컬렉션.",
+    "category": "reference",
+    "tags": [
+      "korean",
+      "prompts",
+      "motion-kit"
+    ],
+    "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+    "sourceName": "Career Hacker Alex · 모션그래픽 160",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-jtech-co-motiongraphic",
+    "title": "JTech-CO Motiongraphic",
+    "description": "데이터 스토리 4편의 HTML 재생 페이지·코드·프롬프트·스토리보드를 제공하는 한국어 저장소.",
+    "category": "reference",
+    "tags": [
+      "html",
+      "korean",
+      "data-story",
+      "prompts"
+    ],
+    "sourceUrl": "https://github.com/JTech-CO/Motiongraphic",
+    "sourceName": "JTech-CO Motiongraphic",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-p5-js",
+    "title": "p5.js",
+    "description": "캔버스·WebGL·상호작용을 활용한 크리에이티브 코딩 라이브러리와 학습 예제.",
+    "category": "animation",
+    "tags": [
+      "canvas",
+      "webgl",
+      "creative-coding"
+    ],
+    "sourceUrl": "https://p5js.org/",
+    "sourceName": "p5.js",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-three-js",
+    "title": "Three.js",
+    "description": "브라우저에서 3D 그래픽을 구성하는 JavaScript 라이브러리의 공식 진입 페이지.",
+    "category": "shader",
+    "tags": [
+      "threejs",
+      "3d",
+      "webgl"
+    ],
+    "sourceUrl": "https://threejs.org/",
+    "sourceName": "Three.js",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-shadertoy",
+    "title": "Shadertoy",
+    "description": "제작자들이 실시간 셰이더를 만들고 공유하는 시각 효과 커뮤니티.",
+    "category": "shader",
+    "tags": [
+      "glsl",
+      "community",
+      "realtime"
+    ],
+    "sourceUrl": "https://www.shadertoy.com/",
+    "sourceName": "Shadertoy",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-the-book-of-shaders",
+    "title": "The Book of Shaders",
+    "description": "색상·도형·노이즈·패턴부터 절차적 디자인을 설명하는 프래그먼트 셰이더 학습서.",
+    "category": "shader",
+    "tags": [
+      "glsl",
+      "noise",
+      "patterns",
+      "education"
+    ],
+    "sourceUrl": "https://thebookofshaders.com/",
+    "sourceName": "The Book of Shaders",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-openprocessing",
+    "title": "OpenProcessing",
+    "description": "제너러티브 아트·입자·상호작용 스케치를 탐색하는 크리에이티브 코딩 커뮤니티.",
+    "category": "reference",
+    "tags": [
+      "generative",
+      "particles",
+      "creative-coding"
+    ],
+    "sourceUrl": "https://www.openprocessing.org/",
+    "sourceName": "OpenProcessing",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-rive",
+    "title": "Rive",
+    "description": "벡터 애니메이션과 상호작용을 만들고 다양한 플랫폼의 런타임으로 배포하는 도구.",
+    "category": "interaction",
+    "tags": [
+      "vector",
+      "state-machine",
+      "realtime"
+    ],
+    "sourceUrl": "https://rive.app/",
+    "sourceName": "Rive",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-shader-gradient",
+    "title": "Shader Gradient",
+    "description": "Framer·Figma·React에서 사용할 움직이는 그라디언트를 만드는 도구.",
+    "category": "gradient",
+    "tags": [
+      "react",
+      "framer",
+      "figma"
+    ],
+    "sourceUrl": "https://www.shadergradient.co/",
+    "sourceName": "Shader Gradient",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-haikei",
+    "title": "Haikei",
+    "description": "파도·블롭·격자·그라디언트 같은 디자인 자산을 SVG·PNG로 생성하는 도구.",
+    "category": "background",
+    "tags": [
+      "svg",
+      "blob",
+      "wave",
+      "generator"
+    ],
+    "sourceUrl": "https://haikei.app/",
+    "sourceName": "Haikei",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-animista",
+    "title": "Animista",
+    "description": "CSS 애니메이션의 시간·지연·이징을 조절하고 코드를 복사하는 플레이그라운드.",
+    "category": "animation",
+    "tags": [
+      "css",
+      "keyframes",
+      "playground"
+    ],
+    "sourceUrl": "https://animista.net/",
+    "sourceName": "Animista",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-easings-cheat-sheet",
+    "title": "Easings Cheat Sheet",
+    "description": "가속·감속·바운스·탄성의 곡선과 CSS·수학 표현을 비교하는 이징 도구.",
+    "category": "reference",
+    "tags": [
+      "easing",
+      "css",
+      "math"
+    ],
+    "sourceUrl": "https://easings.net/",
+    "sourceName": "Easings Cheat Sheet",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-coolors",
+    "title": "Coolors",
+    "description": "팔레트 생성·색상 추출·대비 확인과 그라디언트 탐색을 제공하는 색상 도구.",
+    "category": "palette",
+    "tags": [
+      "palette",
+      "contrast",
+      "color-theory"
+    ],
+    "sourceUrl": "https://coolors.co/",
+    "sourceName": "Coolors",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-color-hunt",
+    "title": "Color Hunt",
+    "description": "디자이너와 아티스트를 위한 색상 팔레트 컬렉션의 공개 진입 페이지.",
+    "category": "palette",
+    "tags": [
+      "palette",
+      "inspiration"
+    ],
+    "sourceUrl": "https://colorhunt.co/",
+    "sourceName": "Color Hunt",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-adobe-color-wheel",
+    "title": "Adobe Color Wheel",
+    "description": "기본색과 색상 조화 규칙으로 팔레트를 생성하고 대비를 확인하는 Adobe 도구.",
+    "category": "palette",
+    "tags": [
+      "color-wheel",
+      "harmony",
+      "contrast"
+    ],
+    "sourceUrl": "https://color.adobe.com/create/color-wheel",
+    "sourceName": "Adobe Color Wheel",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-css-gradient",
+    "title": "CSS Gradient",
+    "description": "색상 배경을 조절하고 CSS 그라디언트 선언을 얻는 도구.",
+    "category": "gradient",
+    "tags": [
+      "css",
+      "linear-gradient",
+      "generator"
+    ],
+    "sourceUrl": "https://cssgradient.io/",
+    "sourceName": "CSS Gradient",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-uigradients",
+    "title": "uiGradients",
+    "description": "색상 그라디언트를 모아 둔 공개 컬렉션의 진입 페이지.",
+    "category": "gradient",
+    "tags": [
+      "gradient",
+      "inspiration"
+    ],
+    "sourceUrl": "https://uigradients.com/",
+    "sourceName": "uiGradients",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-mesh-gradients",
+    "title": "Mesh Gradients",
+    "description": "메쉬 그라디언트 프로젝트로 연결되는 공개 도구의 진입 주소.",
+    "category": "gradient",
+    "tags": [
+      "mesh",
+      "gradient"
+    ],
+    "sourceUrl": "https://www.meshgradients.com/",
+    "sourceName": "Mesh Gradients",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-colorspace",
+    "title": "ColorSpace",
+    "description": "기준색으로 팔레트와 여러 색의 그라디언트를 생성하는 도구.",
+    "category": "palette",
+    "tags": [
+      "palette",
+      "gradient",
+      "generator"
+    ],
+    "sourceUrl": "https://mycolor.space/",
+    "sourceName": "ColorSpace",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-paletton",
+    "title": "Paletton",
+    "description": "컬러휠의 조화 규칙과 시뮬레이션으로 여러 색의 조합을 검토하는 도구.",
+    "category": "palette",
+    "tags": [
+      "color-wheel",
+      "harmony",
+      "accessibility"
+    ],
+    "sourceUrl": "https://paletton.com/",
+    "sourceName": "Paletton",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-shapefactory-gradient",
+    "title": "ShapeFactory Gradient",
+    "description": "두 색의 그라디언트를 비교하고 CSS를 복사하는 색상 도구.",
+    "category": "gradient",
+    "tags": [
+      "css",
+      "gradient",
+      "generator"
+    ],
+    "sourceUrl": "https://gradient.shapefactory.co/",
+    "sourceName": "ShapeFactory Gradient",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-cubic-bezier",
+    "title": "Cubic Bezier",
+    "description": "베지어 곡선을 수정하며 동작을 미리 보고 이징을 비교하는 도구.",
+    "category": "reference",
+    "tags": [
+      "easing",
+      "bezier",
+      "playground"
+    ],
+    "sourceUrl": "https://cubic-bezier.com/",
+    "sourceName": "Cubic Bezier",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-svg-backgrounds",
+    "title": "SVG Backgrounds",
+    "description": "색상과 스타일을 바꾼 SVG 배경을 CSS·인라인 SVG로 내보내는 디자인 도구.",
+    "category": "background",
+    "tags": [
+      "svg",
+      "css",
+      "patterns"
+    ],
+    "sourceUrl": "https://www.svgbackgrounds.com/",
+    "sourceName": "SVG Backgrounds",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-barba-transitions",
+    "title": "Barba Transitions",
+    "description": "페이지 전환의 입장·퇴장 훅과 조건·동기화를 구성하는 공식 문서.",
+    "category": "transition",
+    "tags": [
+      "page-transition",
+      "javascript",
+      "hooks"
+    ],
+    "sourceUrl": "https://barba.js.org/docs/advanced/transitions/",
+    "sourceName": "Barba Transitions",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-swup",
+    "title": "Swup",
+    "description": "서버 렌더링 사이트의 페이지 전환을 제어하는 확장형 라이브러리.",
+    "category": "transition",
+    "tags": [
+      "page-transition",
+      "javascript",
+      "ssr"
+    ],
+    "sourceUrl": "https://swup.js.org/",
+    "sourceName": "Swup",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-highway",
+    "title": "Highway",
+    "description": "확장 가능한 ES6 클래스로 AJAX 내비게이션과 전환 애니메이션을 만드는 도구.",
+    "category": "transition",
+    "tags": [
+      "page-transition",
+      "javascript",
+      "ajax"
+    ],
+    "sourceUrl": "https://highway.js.org/",
+    "sourceName": "Highway",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-react-bits",
+    "title": "React Bits",
+    "description": "React용 텍스트·커서·콘텐츠 움직임을 탐색하는 애니메이션 컴포넌트 컬렉션.",
+    "category": "interaction",
+    "tags": [
+      "react",
+      "components",
+      "animation"
+    ],
+    "sourceUrl": "https://reactbits.dev/",
+    "sourceName": "React Bits",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-magic-ui",
+    "title": "Magic UI",
+    "description": "React·TypeScript·Tailwind·Motion으로 만든 애니메이션 UI 컴포넌트 모음.",
+    "category": "interaction",
+    "tags": [
+      "react",
+      "tailwind",
+      "components"
+    ],
+    "sourceUrl": "https://magicui.design/",
+    "sourceName": "Magic UI",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-aceternity-ui",
+    "title": "Aceternity UI",
+    "description": "스크롤·히어로·셰이더 등 랜딩 페이지의 시각 효과를 제공하는 React 컴포넌트 자료.",
+    "category": "interaction",
+    "tags": [
+      "react",
+      "tailwind",
+      "components"
+    ],
+    "sourceUrl": "https://ui.aceternity.com/",
+    "sourceName": "Aceternity UI",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-ogl",
+    "title": "OGL",
+    "description": "추상화를 줄이고 커스텀 셰이더를 구성하기 쉽게 만든 경량 WebGL 라이브러리.",
+    "category": "shader",
+    "tags": [
+      "webgl",
+      "glsl",
+      "javascript"
+    ],
+    "sourceUrl": "https://github.com/oframe/ogl",
+    "sourceName": "OGL",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  },
+  {
+    "id": "ref-pixijs",
+    "title": "PixiJS",
+    "description": "WebGPU·WebGL로 2D 그래픽과 상호작용을 렌더링하는 HTML5 엔진.",
+    "category": "animation",
+    "tags": [
+      "2d",
+      "webgpu",
+      "webgl"
+    ],
+    "sourceUrl": "https://pixijs.com/",
+    "sourceName": "PixiJS",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
+  }
+]

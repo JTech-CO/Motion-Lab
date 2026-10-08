@@ -1,0 +1,1625 @@
+{
+  "repository": "gl-transitions/gl-transitions",
+  "commit": "902218a1b63773ac0d0d9f491951da3392365bfe",
+  "verifiedAt": "2026-10-08",
+  "licenseSha256": "0db684e0150546743ae96d8ecf083be716786d834af7dbf8170ee8b6c247978d",
+  "treeFiles": [
+    {
+      "path": "transitions/AdvancedMosaic.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a25fdbe232d1db3b45e18300aad741d06ce33f38",
+      "size": 579,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/a25fdbe232d1db3b45e18300aad741d06ce33f38"
+    },
+    {
+      "path": "transitions/BlockDissolve.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60bfeff6142ab86eb6272202892752ec25dee1aa",
+      "size": 371,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/60bfeff6142ab86eb6272202892752ec25dee1aa"
+    },
+    {
+      "path": "transitions/BookFlip.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c13ad67b5526a7bd0f5f91f5c9e96a610e2eaf82",
+      "size": 803,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/c13ad67b5526a7bd0f5f91f5c9e96a610e2eaf82"
+    },
+    {
+      "path": "transitions/Bounce.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ac1e62c7a61b79da0fc8c0d40f1ceb7a4ba7fa9f",
+      "size": 752,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/ac1e62c7a61b79da0fc8c0d40f1ceb7a4ba7fa9f"
+    },
+    {
+      "path": "transitions/BowTieHorizontal.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84f69f1c4e676d2257ea199956a289da490838c6",
+      "size": 2623,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/84f69f1c4e676d2257ea199956a289da490838c6"
+    },
+    {
+      "path": "transitions/BowTieVertical.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6ca7d8dedbadd77d34dcdbc93bd5b9324d5e6e6",
+      "size": 2541,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/b6ca7d8dedbadd77d34dcdbc93bd5b9324d5e6e6"
+    },
+    {
+      "path": "transitions/BowTieWithParameter.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5229a715206b82f31f28a62f0d8950d5ed63270",
+      "size": 1907,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/d5229a715206b82f31f28a62f0d8950d5ed63270"
+    },
+    {
+      "path": "transitions/Box.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "047cc95caec2b37ec8cdbc710b14fb5c4420af4e",
+      "size": 1036,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/047cc95caec2b37ec8cdbc710b14fb5c4420af4e"
+    },
+    {
+      "path": "transitions/ButterflyWaveScrawler.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e585055786d509a1aef3c7fb41a7dcb65b979b3",
+      "size": 1047,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/4e585055786d509a1aef3c7fb41a7dcb65b979b3"
+    },
+    {
+      "path": "transitions/CircleCrop.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "921d5d24bc03a0e664a792505e77517c70bc2fbf",
+      "size": 550,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/921d5d24bc03a0e664a792505e77517c70bc2fbf"
+    },
+    {
+      "path": "transitions/ColourDistance.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03c33f5156378e16da610d0556b82b2fa996a007",
+      "size": 364,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/03c33f5156378e16da610d0556b82b2fa996a007"
+    },
+    {
+      "path": "transitions/CrazyParametricFun.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c97f118cfff38e64e481073478504301cbb7b2ab",
+      "size": 627,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/c97f118cfff38e64e481073478504301cbb7b2ab"
+    },
+    {
+      "path": "transitions/CrossZoom.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21b63f79af284db930bc0f6aebe93dbe6683b095",
+      "size": 2377,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/21b63f79af284db930bc0f6aebe93dbe6683b095"
+    },
+    {
+      "path": "transitions/DefocusBlur.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ba85239c1e5b0b7428f0fa4c1ae50aa022d6098",
+      "size": 1800,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/0ba85239c1e5b0b7428f0fa4c1ae50aa022d6098"
+    },
+    {
+      "path": "transitions/Directional.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "925d681c0bdf475d8aa1082a5d4f8d2e2011fb60",
+      "size": 315,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/925d681c0bdf475d8aa1082a5d4f8d2e2011fb60"
+    },
+    {
+      "path": "transitions/DirectionalScaled.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb301d7ff4a39f318a1c14fe4ba2aa776674d8e7",
+      "size": 843,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/eb301d7ff4a39f318a1c14fe4ba2aa776674d8e7"
+    },
+    {
+      "path": "transitions/DoomScreenTransition.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdb4694c4a65d795ba58da5f5a9b75ba6f744bee",
+      "size": 1627,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/cdb4694c4a65d795ba58da5f5a9b75ba6f744bee"
+    },
+    {
+      "path": "transitions/Dreamy.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84c5119542ec0fe7fcc3925be8c2be20a6dfced9",
+      "size": 378,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/84c5119542ec0fe7fcc3925be8c2be20a6dfced9"
+    },
+    {
+      "path": "transitions/DreamyZoom.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a361bd2d03781ed5b7c51b12c8b46b541ae48c5",
+      "size": 1163,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/9a361bd2d03781ed5b7c51b12c8b46b541ae48c5"
+    },
+    {
+      "path": "transitions/Drop_Zone_Flicker.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2220b50132639281dd961ed940faa2dbc6c8a375",
+      "size": 4387,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/2220b50132639281dd961ed940faa2dbc6c8a375"
+    },
+    {
+      "path": "transitions/EdgeTransition.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f763c2c0cfed359310e056b29ec00e3da2ad5e1",
+      "size": 1214,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/1f763c2c0cfed359310e056b29ec00e3da2ad5e1"
+    },
+    {
+      "path": "transitions/FilmBurn.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43c766861becf87dd4a16509e1ad8f8fdf34f4ea",
+      "size": 2231,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/43c766861becf87dd4a16509e1ad8f8fdf34f4ea"
+    },
+    {
+      "path": "transitions/Fold.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0309aa21c0a0174ee069ea0781d7b04a7de6b793",
+      "size": 323,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/0309aa21c0a0174ee069ea0781d7b04a7de6b793"
+    },
+    {
+      "path": "transitions/GlitchDisplace.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9da657587cc2597c623493f7c298e740218e83ba",
+      "size": 2242,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/9da657587cc2597c623493f7c298e740218e83ba"
+    },
+    {
+      "path": "transitions/GlitchMemories.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8043802e5471a6117a5f5ee8bd978bff996ece1b",
+      "size": 607,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/8043802e5471a6117a5f5ee8bd978bff996ece1b"
+    },
+    {
+      "path": "transitions/GridFlip.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c88934333814039cf77f3d304e624c4085f6e268",
+      "size": 2300,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/c88934333814039cf77f3d304e624c4085f6e268"
+    },
+    {
+      "path": "transitions/HSVfade.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "230811b6ffa3934c93582db8288336ee898337f4",
+      "size": 904,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/230811b6ffa3934c93582db8288336ee898337f4"
+    },
+    {
+      "path": "transitions/HorizontalClose.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b957ed05cab2b50c67ae038dbad9dafc0ddc4ec",
+      "size": 235,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/6b957ed05cab2b50c67ae038dbad9dafc0ddc4ec"
+    },
+    {
+      "path": "transitions/HorizontalOpen.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d4ab6b37309691807f74cf7d8fb30a7c64beec6",
+      "size": 269,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/2d4ab6b37309691807f74cf7d8fb30a7c64beec6"
+    },
+    {
+      "path": "transitions/InvertedPageCurl.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "953365ebe00eaf91410ca24946439e2cf09207bd",
+      "size": 8027,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/953365ebe00eaf91410ca24946439e2cf09207bd"
+    },
+    {
+      "path": "transitions/LeftRight.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "135d0f90b5aea3ad6c5ee2223410efa95065ab39",
+      "size": 648,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/135d0f90b5aea3ad6c5ee2223410efa95065ab39"
+    },
+    {
+      "path": "transitions/LinearBlur.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a58e7269bfdf35972ebc0937673609cf2a2a930c",
+      "size": 682,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/a58e7269bfdf35972ebc0937673609cf2a2a930c"
+    },
+    {
+      "path": "transitions/Mosaic.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0c9f9d3960d20370445c2bcd7506f2bd81f024e",
+      "size": 1127,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/c0c9f9d3960d20370445c2bcd7506f2bd81f024e"
+    },
+    {
+      "path": "transitions/Overexposure.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f50071bddd8bcc20b3851dab67f2cc3cecbdd03f",
+      "size": 546,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/f50071bddd8bcc20b3851dab67f2cc3cecbdd03f"
+    },
+    {
+      "path": "transitions/PolkaDotsCurtain.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b108d260e31b6cd531132ff29489e78fb50ab284",
+      "size": 326,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/b108d260e31b6cd531132ff29489e78fb50ab284"
+    },
+    {
+      "path": "transitions/PuzzleRight.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47abca75a6883076f145a9a6140d89390edf4bfd",
+      "size": 1982,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/47abca75a6883076f145a9a6140d89390edf4bfd"
+    },
+    {
+      "path": "transitions/Radial.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58755286b50c2ed9ea9b7551f3cc54e753e6a182",
+      "size": 364,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/58755286b50c2ed9ea9b7551f3cc54e753e6a182"
+    },
+    {
+      "path": "transitions/Rectangle.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "647ac58577bcff9a7f53050fbf2c7e9214970ee1",
+      "size": 532,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/647ac58577bcff9a7f53050fbf2c7e9214970ee1"
+    },
+    {
+      "path": "transitions/RectangleCrop.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d08841d3e6df3a8892a36413608425d15628e5e3",
+      "size": 559,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/d08841d3e6df3a8892a36413608425d15628e5e3"
+    },
+    {
+      "path": "transitions/Revolve_Left.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15880ddd88e18856fc57d30e431c8f678f4ab6c5",
+      "size": 2191,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/15880ddd88e18856fc57d30e431c8f678f4ab6c5"
+    },
+    {
+      "path": "transitions/Rolls.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67910cac8db6aea71608273eea601bf593adbc64",
+      "size": 1412,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/67910cac8db6aea71608273eea601bf593adbc64"
+    },
+    {
+      "path": "transitions/RotateScaleVanish.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6db92e8fd7ebd6057ba1b9b0951037c2f4c01fd9",
+      "size": 1271,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/6db92e8fd7ebd6057ba1b9b0951037c2f4c01fd9"
+    },
+    {
+      "path": "transitions/SimpleFlip.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d170c3a3b214a6de53702fc770d54003507204d",
+      "size": 379,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/1d170c3a3b214a6de53702fc770d54003507204d"
+    },
+    {
+      "path": "transitions/SimpleZoom.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef7e8ac1caa431816d45772fe9635847236f36dd",
+      "size": 376,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/ef7e8ac1caa431816d45772fe9635847236f36dd"
+    },
+    {
+      "path": "transitions/SimpleZoomOut.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01fb8fa0ed4ea890ba7f3997a53bc1f6a32af126",
+      "size": 447,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/01fb8fa0ed4ea890ba7f3997a53bc1f6a32af126"
+    },
+    {
+      "path": "transitions/Slides.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c41d05d395233b9a539f37e6933c9152b985f4e",
+      "size": 1297,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/3c41d05d395233b9a539f37e6933c9152b985f4e"
+    },
+    {
+      "path": "transitions/StarWipe.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6876f7ab634559b7220134e5e9cb139e385afeed",
+      "size": 1292,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/6876f7ab634559b7220134e5e9cb139e385afeed"
+    },
+    {
+      "path": "transitions/StaticFade.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d3282f113529ca4c82d31c4c7fe975cb1e118b1",
+      "size": 1250,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/6d3282f113529ca4c82d31c4c7fe975cb1e118b1"
+    },
+    {
+      "path": "transitions/StereoViewer.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6214650041e273eb9d2e32ea1543bcce6669f33",
+      "size": 8015,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/f6214650041e273eb9d2e32ea1543bcce6669f33"
+    },
+    {
+      "path": "transitions/StripDatamoshGlitch.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9f25209e67c14ce08e4fdb487fa04be4b38de6e",
+      "size": 5982,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/a9f25209e67c14ce08e4fdb487fa04be4b38de6e"
+    },
+    {
+      "path": "transitions/Swirl.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75fed3e5196d723c344deadce8b6b355a9bad8c3",
+      "size": 715,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/75fed3e5196d723c344deadce8b6b355a9bad8c3"
+    },
+    {
+      "path": "transitions/TVStatic.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ad33fa40a871aefe4cdfb7369cc79c02e7b4faf",
+      "size": 651,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/0ad33fa40a871aefe4cdfb7369cc79c02e7b4faf"
+    },
+    {
+      "path": "transitions/TilesWave.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d55b85de26e6bca6d33af7f03f36443ab863c5c",
+      "size": 1984,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/9d55b85de26e6bca6d33af7f03f36443ab863c5c"
+    },
+    {
+      "path": "transitions/TopBottom.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35ffa73c426f5a6bd8aae3fad593d690810fdc30",
+      "size": 651,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/35ffa73c426f5a6bd8aae3fad593d690810fdc30"
+    },
+    {
+      "path": "transitions/VerticalClose.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "772b20fb583cc14f72ff0300479d3a164d2a7d29",
+      "size": 234,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/772b20fb583cc14f72ff0300479d3a164d2a7d29"
+    },
+    {
+      "path": "transitions/VerticalOpen.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28df56a76913f02f5ba9967c381f5cfe10c17e43",
+      "size": 266,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/28df56a76913f02f5ba9967c381f5cfe10c17e43"
+    },
+    {
+      "path": "transitions/WaterDrop.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbfeba5bdfc5568bc2872a87ed2c1811be783265",
+      "size": 429,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/cbfeba5bdfc5568bc2872a87ed2c1811be783265"
+    },
+    {
+      "path": "transitions/ZoomInCircles.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f4f4051e9ab2f8c1bf94b8fea9f14c20b5e8cea",
+      "size": 1073,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/3f4f4051e9ab2f8c1bf94b8fea9f14c20b5e8cea"
+    },
+    {
+      "path": "transitions/ZoomLeftWipe.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79e8a60fdae432aa52f63dd3fe9729ad4ec89974",
+      "size": 651,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/79e8a60fdae432aa52f63dd3fe9729ad4ec89974"
+    },
+    {
+      "path": "transitions/ZoomRigthWipe.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8096c0d151a6b0bd51e8f6d774e0872718d6eda",
+      "size": 651,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/b8096c0d151a6b0bd51e8f6d774e0872718d6eda"
+    },
+    {
+      "path": "transitions/angular.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94d884b4b0c4e781d02baa7227a25e72595a7858",
+      "size": 461,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/94d884b4b0c4e781d02baa7227a25e72595a7858"
+    },
+    {
+      "path": "transitions/burn.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42b7174be11fbd6885a4f2288a7bc8cdd6414e2a",
+      "size": 245,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/42b7174be11fbd6885a4f2288a7bc8cdd6414e2a"
+    },
+    {
+      "path": "transitions/burn0.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2defd9461448ca852ac05042dd09ba060781a440",
+      "size": 1303,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/2defd9461448ca852ac05042dd09ba060781a440"
+    },
+    {
+      "path": "transitions/cannabisleaf.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf5be0991dd5b64981d3dd8fdc2e79570fdf33e0",
+      "size": 485,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/cf5be0991dd5b64981d3dd8fdc2e79570fdf33e0"
+    },
+    {
+      "path": "transitions/chessboard.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbf2eaa07207b643136ac0641e07396fa84a93e7",
+      "size": 543,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/cbf2eaa07207b643136ac0641e07396fa84a93e7"
+    },
+    {
+      "path": "transitions/circle.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eae0d63ddb35edfec810c7826b1025d0fb5ecf5d",
+      "size": 420,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/eae0d63ddb35edfec810c7826b1025d0fb5ecf5d"
+    },
+    {
+      "path": "transitions/circleopen.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be9118baa9adc775024368c1658d5aa4d6f6904f",
+      "size": 408,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/be9118baa9adc775024368c1658d5aa4d6f6904f"
+    },
+    {
+      "path": "transitions/colorphase.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "635aa259106e72db95618ddae3bd71f61dc673e9",
+      "size": 392,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/635aa259106e72db95618ddae3bd71f61dc673e9"
+    },
+    {
+      "path": "transitions/coord-from-in.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cce737ac9477ebd504ecac347a979340d31adeab",
+      "size": 271,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/cce737ac9477ebd504ecac347a979340d31adeab"
+    },
+    {
+      "path": "transitions/crosshatch.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "277bcbf5eb5d0e9b32caad622570fe79cbf443bb",
+      "size": 623,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/277bcbf5eb5d0e9b32caad622570fe79cbf443bb"
+    },
+    {
+      "path": "transitions/crosswarp.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be1e272f7be91d550c8ee1ae5a53fbf771685f14",
+      "size": 228,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/be1e272f7be91d550c8ee1ae5a53fbf771685f14"
+    },
+    {
+      "path": "transitions/cube.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "951ba7846ba50260640adcc8be30c368aa7c9641",
+      "size": 1738,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/951ba7846ba50260640adcc8be30c368aa7c9641"
+    },
+    {
+      "path": "transitions/directional-easing.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2cae9fe750aa41d63e160e2d592234ee95e04c0",
+      "size": 361,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/c2cae9fe750aa41d63e160e2d592234ee95e04c0"
+    },
+    {
+      "path": "transitions/directionalwarp.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d15d5a427af4216b5002479e1c7c7a039ab6996",
+      "size": 503,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/4d15d5a427af4216b5002479e1c7c7a039ab6996"
+    },
+    {
+      "path": "transitions/directionalwipe.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "452445a54c178c386ecc6d53b272a2a9afecebde",
+      "size": 577,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/452445a54c178c386ecc6d53b272a2a9afecebde"
+    },
+    {
+      "path": "transitions/displacement.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d21cde5ae89c80d39f3ed23ea0916eb3bf8c5b79",
+      "size": 533,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/d21cde5ae89c80d39f3ed23ea0916eb3bf8c5b79"
+    },
+    {
+      "path": "transitions/dissolve.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb1cf5052220acd7dafe8ec252f4f7addf086a44",
+      "size": 1573,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/cb1cf5052220acd7dafe8ec252f4f7addf086a44"
+    },
+    {
+      "path": "transitions/doorway.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49732ad611384bbfa0597f39a6d740cfa99c6bc5",
+      "size": 1220,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/49732ad611384bbfa0597f39a6d740cfa99c6bc5"
+    },
+    {
+      "path": "transitions/fade.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e2902abb53f56a1260be770f89e8a5233b69726",
+      "size": 136,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/7e2902abb53f56a1260be770f89e8a5233b69726"
+    },
+    {
+      "path": "transitions/fadecolor.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d966b94dbf55c219fd4dd7fd7751da84f4727774",
+      "size": 413,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/d966b94dbf55c219fd4dd7fd7751da84f4727774"
+    },
+    {
+      "path": "transitions/fadegrayscale.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5eaeb594b68c1994034329fe40f6677609dadc9f",
+      "size": 558,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/5eaeb594b68c1994034329fe40f6677609dadc9f"
+    },
+    {
+      "path": "transitions/flyeye.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88add22ce56a6cbb4ffe177495b5411d3983d605",
+      "size": 522,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/88add22ce56a6cbb4ffe177495b5411d3983d605"
+    },
+    {
+      "path": "transitions/fragment.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22d066777604b6b8f581949491449925bc896fef",
+      "size": 1282,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/22d066777604b6b8f581949491449925bc896fef"
+    },
+    {
+      "path": "transitions/heart.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff6c2ca54e93dd598e4e4a78ba901ebad6eeb9d9",
+      "size": 356,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/ff6c2ca54e93dd598e4e4a78ba901ebad6eeb9d9"
+    },
+    {
+      "path": "transitions/hexagonalize.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4c1625ec3a5795b5cf4b5464c34aebd553c849b",
+      "size": 1643,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/d4c1625ec3a5795b5cf4b5464c34aebd553c849b"
+    },
+    {
+      "path": "transitions/kaleidoscope.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15a0497df5956b665f8291ea7398444d8a05cb08",
+      "size": 582,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/15a0497df5956b665f8291ea7398444d8a05cb08"
+    },
+    {
+      "path": "transitions/luma.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae8c51f29e1bc4f2f322a76a4f2b888b3e4901f2",
+      "size": 189,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/ae8c51f29e1bc4f2f322a76a4f2b888b3e4901f2"
+    },
+    {
+      "path": "transitions/luminance_melt.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b27201ce38b9b3943b7ae3938da90283357621d",
+      "size": 3812,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/0b27201ce38b9b3943b7ae3938da90283357621d"
+    },
+    {
+      "path": "transitions/morph.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e3d12cd7e8f246d3e6e7a9ed6a9aa38f396c8fc",
+      "size": 390,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/2e3d12cd7e8f246d3e6e7a9ed6a9aa38f396c8fc"
+    },
+    {
+      "path": "transitions/mosaic_transition.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44797d22cc5b63b1d271004b2dcd74e1059aa4ca",
+      "size": 505,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/44797d22cc5b63b1d271004b2dcd74e1059aa4ca"
+    },
+    {
+      "path": "transitions/multiply_blend.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fdb20bb16e18ef862b911737a4ac6537a579533",
+      "size": 339,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/4fdb20bb16e18ef862b911737a4ac6537a579533"
+    },
+    {
+      "path": "transitions/old_tv_lost_signal.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "812d8d8ff41dddc3ac52df7effff89dfd47c6f37",
+      "size": 1105,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/812d8d8ff41dddc3ac52df7effff89dfd47c6f37"
+    },
+    {
+      "path": "transitions/parametric_glitch.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f953d253c242c908cb62f441b97814d7c52778f9",
+      "size": 619,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/f953d253c242c908cb62f441b97814d7c52778f9"
+    },
+    {
+      "path": "transitions/perlin.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be24c58cfda877187add03763986fb79f92fe994",
+      "size": 1444,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/be24c58cfda877187add03763986fb79f92fe994"
+    },
+    {
+      "path": "transitions/pinwheel.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e84eb6ad1f1c5681195b3f9eca49952e52398cf9",
+      "size": 360,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/e84eb6ad1f1c5681195b3f9eca49952e52398cf9"
+    },
+    {
+      "path": "transitions/pixelize.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "711c6b07920b59c3674796b03d249ce058f55bf9",
+      "size": 584,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/711c6b07920b59c3674796b03d249ce058f55bf9"
+    },
+    {
+      "path": "transitions/polar_function.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b30e6cf0829fede466195395e793bb6888fc3be2",
+      "size": 463,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/b30e6cf0829fede466195395e793bb6888fc3be2"
+    },
+    {
+      "path": "transitions/powerKaleido.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81cfe9d94372b51a7c2bc7904618143c907f8fea",
+      "size": 1486,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/81cfe9d94372b51a7c2bc7904618143c907f8fea"
+    },
+    {
+      "path": "transitions/randomNoisex.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5f9e898df919b8b46ad0f8eea741dfe0a822bbd",
+      "size": 316,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/f5f9e898df919b8b46ad0f8eea741dfe0a822bbd"
+    },
+    {
+      "path": "transitions/randomsquares.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "763e65a7244ede33f9f08c51388ba448a9e68ef1",
+      "size": 399,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/763e65a7244ede33f9f08c51388ba448a9e68ef1"
+    },
+    {
+      "path": "transitions/ripple.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e81460f2b334daaff9b4265cd8439c7ad17c2df3",
+      "size": 389,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/e81460f2b334daaff9b4265cd8439c7ad17c2df3"
+    },
+    {
+      "path": "transitions/rotateTransition.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "754ce6de271151f9a98557ad6e3953355f17c200",
+      "size": 348,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/754ce6de271151f9a98557ad6e3953355f17c200"
+    },
+    {
+      "path": "transitions/rotate_scale_fade.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd67998e2121dc32d275366c7262988268f44bd2",
+      "size": 874,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/cd67998e2121dc32d275366c7262988268f44bd2"
+    },
+    {
+      "path": "transitions/scale-in.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "036e44431ce579a577dbbaaca1b8f9d187b1c493",
+      "size": 229,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/036e44431ce579a577dbbaaca1b8f9d187b1c493"
+    },
+    {
+      "path": "transitions/splitSlideInHorizontal.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f37314fdf501b8a308d65fe7689c0d4e223b5121",
+      "size": 550,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/f37314fdf501b8a308d65fe7689c0d4e223b5121"
+    },
+    {
+      "path": "transitions/splitSlideInOutHorizontal.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8fe14b68c2d5eeb65f0ceb6c414a51baa756191",
+      "size": 541,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/a8fe14b68c2d5eeb65f0ceb6c414a51baa756191"
+    },
+    {
+      "path": "transitions/splitSlideInOutVertical.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a102dee6b10e6416e96f42e2ab5105fc76698594",
+      "size": 541,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/a102dee6b10e6416e96f42e2ab5105fc76698594"
+    },
+    {
+      "path": "transitions/splitSlideInVertical.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1f59d6125fed8036b7f529b9048309ce5783168",
+      "size": 521,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/f1f59d6125fed8036b7f529b9048309ce5783168"
+    },
+    {
+      "path": "transitions/splitSlideOutHorizontal.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c79d1cd36937fe811a6042b1d3fc54bc7902ccce",
+      "size": 460,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/c79d1cd36937fe811a6042b1d3fc54bc7902ccce"
+    },
+    {
+      "path": "transitions/splitSlideOutVertical.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ca53fd11bdbb28348347c4b11461949e3bce5a7",
+      "size": 460,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/3ca53fd11bdbb28348347c4b11461949e3bce5a7"
+    },
+    {
+      "path": "transitions/squareswire.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38a7fc0b50da8663fe1ea10bc158933171ce6abd",
+      "size": 771,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/38a7fc0b50da8663fe1ea10bc158933171ce6abd"
+    },
+    {
+      "path": "transitions/squeeze.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fd3809a80f5751c3d87ac4507e88d253eb8709f",
+      "size": 455,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/3fd3809a80f5751c3d87ac4507e88d253eb8709f"
+    },
+    {
+      "path": "transitions/static_wipe.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "140205c467283c9187051fb03041c812a5d38439",
+      "size": 836,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/140205c467283c9187051fb03041c812a5d38439"
+    },
+    {
+      "path": "transitions/swap.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56539f43a60c8ca833a1ae08b0426c6ceaa621ee",
+      "size": 1539,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/56539f43a60c8ca833a1ae08b0426c6ceaa621ee"
+    },
+    {
+      "path": "transitions/tangentMotionBlur.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99c29b4db835c0bb0ac94ccb7b3b6216d3fd70cb",
+      "size": 3936,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/99c29b4db835c0bb0ac94ccb7b3b6216d3fd70cb"
+    },
+    {
+      "path": "transitions/undulatingBurnOut.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ff90e3282a98b1de6fae2ebdd891cff3565680c",
+      "size": 1399,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/3ff90e3282a98b1de6fae2ebdd891cff3565680c"
+    },
+    {
+      "path": "transitions/wind.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba907ed22ae6616eace290564ae6248b8d5a640d",
+      "size": 469,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/ba907ed22ae6616eace290564ae6248b8d5a640d"
+    },
+    {
+      "path": "transitions/windowblinds.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2d2aaa53b918f6893218911cc80ea9c28b4fcca",
+      "size": 274,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/b2d2aaa53b918f6893218911cc80ea9c28b4fcca"
+    },
+    {
+      "path": "transitions/windowslice.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "294dd54806a4d50e6c546250698a49aedc88bf56",
+      "size": 299,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/294dd54806a4d50e6c546250698a49aedc88bf56"
+    },
+    {
+      "path": "transitions/wipeDown.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be7cf9542c50769902e9ff14cc07cf6a44b3c6f7",
+      "size": 192,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/be7cf9542c50769902e9ff14cc07cf6a44b3c6f7"
+    },
+    {
+      "path": "transitions/wipeLeft.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e6413bbe3adcdd988969cc98dcd02f3f3aa7b23",
+      "size": 192,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/1e6413bbe3adcdd988969cc98dcd02f3f3aa7b23"
+    },
+    {
+      "path": "transitions/wipeRight.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc677e884f6d78d96e51753df8a7817d14f57b44",
+      "size": 192,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/bc677e884f6d78d96e51753df8a7817d14f57b44"
+    },
+    {
+      "path": "transitions/wipeUp.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "619fd43561b90b9c4c2e56d799ae24125a09ef13",
+      "size": 192,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/619fd43561b90b9c4c2e56d799ae24125a09ef13"
+    },
+    {
+      "path": "transitions/x_axis_translation.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c68ec2e6873688e97862bfb300214959de8c144",
+      "size": 253,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/7c68ec2e6873688e97862bfb300214959de8c144"
+    },
+    {
+      "path": "transitions/zoomInOut.glsl",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09ee9e471250163302832936f12133543e990d16",
+      "size": 432,
+      "url": "https://api.github.com/repos/gl-transitions/gl-transitions/git/blobs/09ee9e471250163302832936f12133543e990d16"
+    }
+  ],
+  "files": [
+    {
+      "path": "transitions/AdvancedMosaic.glsl",
+      "sha256": "0affe1a5ec5bf3451e5ccac3e456f0c775c70488f140350c23c2414884fc3c5d",
+      "bytes": 579
+    },
+    {
+      "path": "transitions/BlockDissolve.glsl",
+      "sha256": "3c5ff21627dc8ab470e16e6f5f917c5a596a7018b0f8467defdde115e02c2e63",
+      "bytes": 371
+    },
+    {
+      "path": "transitions/BookFlip.glsl",
+      "sha256": "23dbb4648973ff0359468f40cf579a38997d087af45571f872c3a3cd3f1ac0d5",
+      "bytes": 803
+    },
+    {
+      "path": "transitions/Bounce.glsl",
+      "sha256": "69e75c9dcff1bbe955396cf78aba652cea814fd17d3cd44475e751c0881a97a8",
+      "bytes": 752
+    },
+    {
+      "path": "transitions/BowTieHorizontal.glsl",
+      "sha256": "d55ccb94783dcd7223af5982a0ef5af3dc74ac41dec90c5f454655d8d60ec98e",
+      "bytes": 2623
+    },
+    {
+      "path": "transitions/BowTieVertical.glsl",
+      "sha256": "7f6471b19eff5d581eacdaa7d60943d38440d81a42b74291d18fe5392db19b50",
+      "bytes": 2541
+    },
+    {
+      "path": "transitions/BowTieWithParameter.glsl",
+      "sha256": "a2dcdd2190144eb4863f937ccd4eaf98e453982b8c2d65f43288706a03705faa",
+      "bytes": 1907
+    },
+    {
+      "path": "transitions/Box.glsl",
+      "sha256": "5f36d498b7692ab3b6000a559b5d5e9b677e12e78a7a0e01ea7443b2db0ee36b",
+      "bytes": 1036
+    },
+    {
+      "path": "transitions/ButterflyWaveScrawler.glsl",
+      "sha256": "b21137cdba5613177e7cd40b89b7f7587eb89711e70fd077d599eac42ee29dea",
+      "bytes": 1047
+    },
+    {
+      "path": "transitions/CircleCrop.glsl",
+      "sha256": "dca6731aed06a5dfc6834e0b9cd8857730883ecb507d8333e0b6ba13c61aae18",
+      "bytes": 550
+    },
+    {
+      "path": "transitions/ColourDistance.glsl",
+      "sha256": "78787cf8028d60a8c31fccdb640f3a3aeb4b9a917258720d795c15eb818dfb37",
+      "bytes": 364
+    },
+    {
+      "path": "transitions/CrazyParametricFun.glsl",
+      "sha256": "369e7ca26de7aaefd276a272121b697a1238968426f7346623131ccacfa2e25d",
+      "bytes": 627
+    },
+    {
+      "path": "transitions/CrossZoom.glsl",
+      "sha256": "38602ea2d7217904a7c25dbd3e0f266597e488b275f4140273b97716ebf5b18f",
+      "bytes": 2377
+    },
+    {
+      "path": "transitions/DefocusBlur.glsl",
+      "sha256": "240b8de3f8ef08ba29445c8c3a37ba4861bd9fd7daab7dd16cae8ae76eb16aac",
+      "bytes": 1800
+    },
+    {
+      "path": "transitions/Directional.glsl",
+      "sha256": "0f3cb7e1249cd9e4b5615a2e453779ea1acdb757a69fe0260bd2f2bc61fae8e4",
+      "bytes": 315
+    },
+    {
+      "path": "transitions/DirectionalScaled.glsl",
+      "sha256": "3a06f605188cca92da4398e99676245daa9e37ae4f14e2ebeff271ab45df953f",
+      "bytes": 843
+    },
+    {
+      "path": "transitions/DoomScreenTransition.glsl",
+      "sha256": "6fe6a62eaa94bdef64dde27524629efc85806b9c2df8ab86ced9b4ee4ff2082c",
+      "bytes": 1627
+    },
+    {
+      "path": "transitions/Dreamy.glsl",
+      "sha256": "4afafcc23301fd89a5399bf3da650b46c8f64f1684f7088ae21f36f5e8061077",
+      "bytes": 378
+    },
+    {
+      "path": "transitions/DreamyZoom.glsl",
+      "sha256": "1e54f99356d18538d0ed34fd61127f7063ce1be17d8a0bf1b895283330838d09",
+      "bytes": 1163
+    },
+    {
+      "path": "transitions/Drop_Zone_Flicker.glsl",
+      "sha256": "196757c24b32bc9704e72fc335dc22b5247caca95029534071d6edbe2ee8cbd9",
+      "bytes": 4387
+    },
+    {
+      "path": "transitions/EdgeTransition.glsl",
+      "sha256": "95b7e664b32453ef4a4f24a27b0896ef9098b326fc86c8866a2af2fea3719fe9",
+      "bytes": 1214
+    },
+    {
+      "path": "transitions/FilmBurn.glsl",
+      "sha256": "95f464e637f6a455543f608eab2417996e94f22539b9de7711a972fcfba19a9c",
+      "bytes": 2231
+    },
+    {
+      "path": "transitions/Fold.glsl",
+      "sha256": "13e78ed152d46601ce56c1c304320d370f67b44b8c39efc0a9374d0f19ab8080",
+      "bytes": 323
+    },
+    {
+      "path": "transitions/GlitchDisplace.glsl",
+      "sha256": "7ebe05478a603b570fc8fd22abebe7501a09beddc249c17b433d9184a5dd5545",
+      "bytes": 2242
+    },
+    {
+      "path": "transitions/GlitchMemories.glsl",
+      "sha256": "9b634e77504806a42e7029e0de9ea06c873002968413a8274e28ea9945bba663",
+      "bytes": 607
+    },
+    {
+      "path": "transitions/GridFlip.glsl",
+      "sha256": "5f7326abd67f7775333d1598dc139c5a2fcb08964f8bd76cff84384b9d3370e7",
+      "bytes": 2300
+    },
+    {
+      "path": "transitions/HSVfade.glsl",
+      "sha256": "276b670e9399331e042efbf57a47799114d2a6d2f7a3c736323217fd8ef35b12",
+      "bytes": 904
+    },
+    {
+      "path": "transitions/HorizontalClose.glsl",
+      "sha256": "7991d30a608859253d53bc7fae51bc283593a2dce7548b036ecacf17a5e969c1",
+      "bytes": 235
+    },
+    {
+      "path": "transitions/HorizontalOpen.glsl",
+      "sha256": "847aa4d7fa84573581113c68d43564a7da4ddab1a268d38948e0c949292974ef",
+      "bytes": 269
+    },
+    {
+      "path": "transitions/LeftRight.glsl",
+      "sha256": "9bb05f7449a5a9500fb16d6407090202b65cb71af358c21e68d09c67a673b9b9",
+      "bytes": 648
+    },
+    {
+      "path": "transitions/LinearBlur.glsl",
+      "sha256": "c050f00e27d6b3229587dcdf4e57ed139bdf80a12e031180cf5a5b92b8813eb9",
+      "bytes": 682
+    },
+    {
+      "path": "transitions/Mosaic.glsl",
+      "sha256": "44014bdfa8ca2f6e1c5e7b0f5d332c0d1a190cafd921d666f3f63ef098e2d3b6",
+      "bytes": 1127
+    },
+    {
+      "path": "transitions/Overexposure.glsl",
+      "sha256": "2dc20be3888f8f1f2c4aa3354b6c22e639e2d7b4543929991ca95949564eebcc",
+      "bytes": 546
+    },
+    {
+      "path": "transitions/PolkaDotsCurtain.glsl",
+      "sha256": "9b99f2c589b9bcfe3927412c90828bff9e78f75309da50f21420d35e6aeaac9a",
+      "bytes": 326
+    },
+    {
+      "path": "transitions/PuzzleRight.glsl",
+      "sha256": "3fa07899c88f4000adab74d49b5ddc1be24262abe8cf0e6ace4b6ad40da0afa4",
+      "bytes": 1982
+    },
+    {
+      "path": "transitions/Radial.glsl",
+      "sha256": "a275c8a125f7d552108a4776ed409f994a68b9e6dfb30ac05cee78e112e87e63",
+      "bytes": 364
+    },
+    {
+      "path": "transitions/Rectangle.glsl",
+      "sha256": "4a6bfc60f92877f11af7a42f804c9b8d22e8cb2b84fede44b39bc25c0e13cb3c",
+      "bytes": 532
+    },
+    {
+      "path": "transitions/RectangleCrop.glsl",
+      "sha256": "f5ad3d6276258440279b14f39e36b7751de299e381daeaee35a1e96ff2dcb967",
+      "bytes": 559
+    },
+    {
+      "path": "transitions/Revolve_Left.glsl",
+      "sha256": "c7a86839f68aa5a7414658363e4f69654f57a9104f338a2f0bc37581de175cb0",
+      "bytes": 2191
+    },
+    {
+      "path": "transitions/Rolls.glsl",
+      "sha256": "43fd99c06859cfb18bac0ad57e990dcc6f9009191cb1b75d3df7e7bc5bb6ca19",
+      "bytes": 1412
+    },
+    {
+      "path": "transitions/RotateScaleVanish.glsl",
+      "sha256": "050a014eb9e0827fff98a4598cd7f917fdacbdbf411735a96617a644e8205026",
+      "bytes": 1271
+    },
+    {
+      "path": "transitions/SimpleFlip.glsl",
+      "sha256": "b6d4b6324cf6b7ff6a039f8a7792b6adfd8d99f22afa59cb67ec7356b402656c",
+      "bytes": 379
+    },
+    {
+      "path": "transitions/SimpleZoom.glsl",
+      "sha256": "e3b3473142574b554c0799ac73e1ba3c2b3b64f8535a82879b684ec4f7e178e7",
+      "bytes": 376
+    },
+    {
+      "path": "transitions/SimpleZoomOut.glsl",
+      "sha256": "40c9cc125b20e1f375391ae248fde1d65fdc94f07bc80d64c5febca085694527",
+      "bytes": 447
+    },
+    {
+      "path": "transitions/Slides.glsl",
+      "sha256": "abd2dac652c2497c53bd3d7e6eccac80e10e98a471a2422f2010d667a9c3da6b",
+      "bytes": 1297
+    },
+    {
+      "path": "transitions/StarWipe.glsl",
+      "sha256": "c3019f2e9f59c58a71b2c600e58eb251432252c671f6df83cb838d83940c9f5c",
+      "bytes": 1292
+    },
+    {
+      "path": "transitions/StaticFade.glsl",
+      "sha256": "8d6098e8839ada6f4aa3ab49e7f53a695bc6541ee7e324e5529ecb91e4ea1804",
+      "bytes": 1250
+    },
+    {
+      "path": "transitions/StripDatamoshGlitch.glsl",
+      "sha256": "3cf42ebb8e4bd6f180fc7e28a51c9c1bcda0f0dfd2fa24f9751fd85057929e30",
+      "bytes": 5982
+    },
+    {
+      "path": "transitions/Swirl.glsl",
+      "sha256": "5ce1c017bb08a5a5a5a684d834563ae71b9f225fcd8ad172d75158f0565deea9",
+      "bytes": 715
+    },
+    {
+      "path": "transitions/TVStatic.glsl",
+      "sha256": "12f62893e4b8daee47e92ef2cd70bfba8d6894c8d7e3a871db735ad3c01ed102",
+      "bytes": 651
+    },
+    {
+      "path": "transitions/TilesWave.glsl",
+      "sha256": "96d8c506dab6adda880c36dfafe1ab3b17ad57f8fdbf9ce62be58a5781f1a166",
+      "bytes": 1984
+    },
+    {
+      "path": "transitions/TopBottom.glsl",
+      "sha256": "16e0aa3af9c14e9438e4ee452ac25dcf7274bd7f7c8a5de95d500789abdcef84",
+      "bytes": 651
+    },
+    {
+      "path": "transitions/VerticalClose.glsl",
+      "sha256": "6f40f60736543feaf29f541f64fd06d87be29b90b7a1830df33b632b9eecada2",
+      "bytes": 234
+    },
+    {
+      "path": "transitions/VerticalOpen.glsl",
+      "sha256": "ab28b52e5936882c5d1b7615bf9b3c703a154c352966b4c2e5366779cfbd8605",
+      "bytes": 266
+    },
+    {
+      "path": "transitions/WaterDrop.glsl",
+      "sha256": "145e6201b4460e5107cac485718a976f1b0197e9856d5a4daba75f81d9c3d897",
+      "bytes": 429
+    },
+    {
+      "path": "transitions/ZoomInCircles.glsl",
+      "sha256": "2e5d3380a292c799f86b283e4b5b9a8131a03b1ad5352db68d834f4f4183b9d8",
+      "bytes": 1073
+    },
+    {
+      "path": "transitions/ZoomLeftWipe.glsl",
+      "sha256": "13d14bdd5d7f15a876184fa2f9164c4124be13d164886bbcb851adc3c057c17d",
+      "bytes": 651
+    },
+    {
+      "path": "transitions/ZoomRigthWipe.glsl",
+      "sha256": "53e4e2f3ba9b8f66830325beb65ba22038e02d538b6773c7dacc5d8173d5a338",
+      "bytes": 651
+    },
+    {
+      "path": "transitions/angular.glsl",
+      "sha256": "c44f5019c8163045ff54e1b32cd8ecce77632f1dc614876385bc74ed079e08cd",
+      "bytes": 461
+    },
+    {
+      "path": "transitions/burn.glsl",
+      "sha256": "8e452dd332be77cb1b2823fdd3dabbea992f42e58df15e6936ab40d95937ca53",
+      "bytes": 245
+    },
+    {
+      "path": "transitions/burn0.glsl",
+      "sha256": "ffe6733b78b82caa29fe9c22f01f8544e8bd7296d0892084aa457473636a06a0",
+      "bytes": 1303
+    },
+    {
+      "path": "transitions/cannabisleaf.glsl",
+      "sha256": "42d1d002f2a40fac8f5f0749899408b8aa09f61eb3b36bb4fa95f55d627efed7",
+      "bytes": 485
+    },
+    {
+      "path": "transitions/chessboard.glsl",
+      "sha256": "d2a97e486b6f934e68511f928ee9a3c8d95d4d11704620395e82b080cbe7405d",
+      "bytes": 543
+    },
+    {
+      "path": "transitions/circle.glsl",
+      "sha256": "2538d236bd4a1630618ff6de6dd97c29dd13b85ba3430642705c19e7e0755482",
+      "bytes": 420
+    },
+    {
+      "path": "transitions/circleopen.glsl",
+      "sha256": "2dd91ce847cd8c2a8aeaeef8f58dfc80fc7bb693a8eac080e1deb6de321eb376",
+      "bytes": 408
+    },
+    {
+      "path": "transitions/colorphase.glsl",
+      "sha256": "8905b6eff2404ac8ce4078c430a93f1483e82833df8872257ffcc7e10c1742b1",
+      "bytes": 392
+    },
+    {
+      "path": "transitions/coord-from-in.glsl",
+      "sha256": "874d3c2e9701dbeaa432c872abb0d9f3632441b715986f7d123e9abcf796ee72",
+      "bytes": 271
+    },
+    {
+      "path": "transitions/crosshatch.glsl",
+      "sha256": "ea49f73260f32d432e78c5d85e2d5a94bf2f180588ad56eac0903749def6f992",
+      "bytes": 623
+    },
+    {
+      "path": "transitions/crosswarp.glsl",
+      "sha256": "f3bb6ddca7dcaa1b9ec7e6c8673969f4e19b61cae6a3daaccfe163c0ebd3637c",
+      "bytes": 228
+    },
+    {
+      "path": "transitions/cube.glsl",
+      "sha256": "1e70444af315f102e0a40f74664e037470541af50902a569a0408d7552f9135e",
+      "bytes": 1738
+    },
+    {
+      "path": "transitions/directional-easing.glsl",
+      "sha256": "b3da2837f43f27676bb77afbb5e30271c0d1b7732290450c7bd19e60f7c56a78",
+      "bytes": 361
+    },
+    {
+      "path": "transitions/directionalwarp.glsl",
+      "sha256": "633a962a9f6c59bc9d3567cf894333a5ec8a870ad18396e34e1bc5ddc632c102",
+      "bytes": 503
+    },
+    {
+      "path": "transitions/directionalwipe.glsl",
+      "sha256": "24e80bc7acc356f59f537d094c85640c7c425b30b51e2abfb354216010af635d",
+      "bytes": 577
+    },
+    {
+      "path": "transitions/displacement.glsl",
+      "sha256": "c47921286fd468743db00d25bf48102352ba9c5e6e2aafcfd1fe6344f211b492",
+      "bytes": 533
+    },
+    {
+      "path": "transitions/dissolve.glsl",
+      "sha256": "ed40197c1e18ca4c6c108a0eff3cd95f9d142058adace7379761a547653cfc52",
+      "bytes": 1573
+    },
+    {
+      "path": "transitions/doorway.glsl",
+      "sha256": "f0870222f2ef4262af16b102390c9da97e527dc8d31eda208342c51b7386f411",
+      "bytes": 1220
+    },
+    {
+      "path": "transitions/fade.glsl",
+      "sha256": "a16074d9812e440fb84e829a68ba7b078dd32182370d48bef05dbe71358e732e",
+      "bytes": 136
+    },
+    {
+      "path": "transitions/fadecolor.glsl",
+      "sha256": "2ecad64044e7b0e4c2d3bd196b3d4a069294e5f66a304a81fd9499055a3063ca",
+      "bytes": 413
+    },
+    {
+      "path": "transitions/fadegrayscale.glsl",
+      "sha256": "79f9466b1803518d3bed78394082c8017398031d2211be5bc5dd5889ff0da26d",
+      "bytes": 558
+    },
+    {
+      "path": "transitions/flyeye.glsl",
+      "sha256": "869be5c8e2aa9f3aa8cb07c17c4500cccac74640d520429a915ca0ab1b10e973",
+      "bytes": 522
+    },
+    {
+      "path": "transitions/fragment.glsl",
+      "sha256": "7392e0eb4ecb1ceca1766be968bd9b17deba1f9401490704d8fe0af72f88ea8d",
+      "bytes": 1282
+    },
+    {
+      "path": "transitions/heart.glsl",
+      "sha256": "ae2807141569bcdb469dc9fc229d6a02b6bc9419f45afce8f04049b84cc2e18a",
+      "bytes": 356
+    },
+    {
+      "path": "transitions/hexagonalize.glsl",
+      "sha256": "3935761ca2dff2ed443e1757143a20b15099110d2caf635c6aedf1d812ae0a1a",
+      "bytes": 1643
+    },
+    {
+      "path": "transitions/kaleidoscope.glsl",
+      "sha256": "588b864e89f43640e1e35ce5570c0772c19e7594e2d1122c60f581b5c322ec35",
+      "bytes": 582
+    },
+    {
+      "path": "transitions/luma.glsl",
+      "sha256": "ed9f6b4096636acbf0a5283bd3f38742c8f1f0dcbec2340d3dcae2f07664f2c1",
+      "bytes": 189
+    },
+    {
+      "path": "transitions/luminance_melt.glsl",
+      "sha256": "f39a371548e81fe4ff9cdf39ed45b564e1143855f6c06d4f37f4c580ed7030e4",
+      "bytes": 3812
+    },
+    {
+      "path": "transitions/morph.glsl",
+      "sha256": "1773c8fc94a2a65f2e42dcfbe5c74749e66bdc7e649737f28464086cdd8de4ba",
+      "bytes": 390
+    },
+    {
+      "path": "transitions/mosaic_transition.glsl",
+      "sha256": "5976de28693348e0b86175da459197690845b8cab534b1af9e684c7b6a97323b",
+      "bytes": 505
+    },
+    {
+      "path": "transitions/multiply_blend.glsl",
+      "sha256": "40913fd1831de850c7d47b2077768263878af1b113553bdc1a6e397fc8f2d0a0",
+      "bytes": 339
+    },
+    {
+      "path": "transitions/old_tv_lost_signal.glsl",
+      "sha256": "274814dee2f8b54b5227980917d2596e200c30abe11d2a2d35e1fc3b29fdc05e",
+      "bytes": 1105
+    },
+    {
+      "path": "transitions/parametric_glitch.glsl",
+      "sha256": "fafd595b905ca2c20c5d7c8beaf1e5b4e92fb8058ebaf7bea3a0999e03b094c5",
+      "bytes": 619
+    },
+    {
+      "path": "transitions/perlin.glsl",
+      "sha256": "55bcac03a3777a51b7bffd31af602e5279e1860390aa35043457a25cd3cc96c6",
+      "bytes": 1444
+    },
+    {
+      "path": "transitions/pinwheel.glsl",
+      "sha256": "7285b8f493ee605cfbbb8acef048d86159e6a916d1cda753c01ede1bbf0b6258",
+      "bytes": 360
+    },
+    {
+      "path": "transitions/pixelize.glsl",
+      "sha256": "6fa7ae826e07a3d45fb7a0f8309310d38858d88fd48a098120d0207b66fbf2e1",
+      "bytes": 584
+    },
+    {
+      "path": "transitions/polar_function.glsl",
+      "sha256": "d0644846d58cc5dcdeeb26bfea0cbeabbd8c8a652a9fc98350880d80fd4e6f44",
+      "bytes": 463
+    },
+    {
+      "path": "transitions/powerKaleido.glsl",
+      "sha256": "20ae03da2bc8d5365f6f799ca6832b6af8d2cfa6945408635e0d144842bf18ee",
+      "bytes": 1486
+    },
+    {
+      "path": "transitions/randomNoisex.glsl",
+      "sha256": "e3882b3b8aeb107506b7717bce27d1aa4e5b6350ffadfe2ecfcb09c86f035b7a",
+      "bytes": 316
+    },
+    {
+      "path": "transitions/randomsquares.glsl",
+      "sha256": "87b24da45728c58e014cc4eb2abd4b947ec2ee257a0f18f18f10da2eb644863a",
+      "bytes": 399
+    },
+    {
+      "path": "transitions/ripple.glsl",
+      "sha256": "0bcdcb7006aff268adff577e3359ca68ab7aa1fc83cc4da267b7dab0e241ceda",
+      "bytes": 389
+    },
+    {
+      "path": "transitions/rotateTransition.glsl",
+      "sha256": "9a310fc7d1eda2f0c181cea1c70f72b7fccd6eef514809722bffa05dd9d7d7d8",
+      "bytes": 348
+    },
+    {
+      "path": "transitions/rotate_scale_fade.glsl",
+      "sha256": "92bb7cc6c39d5b78b710d0170f22ee5c936918a87ebe1b552ee8a16d425b28b6",
+      "bytes": 874
+    },
+    {
+      "path": "transitions/scale-in.glsl",
+      "sha256": "c9c1808bb7e07723daea14cb3d0d06bc9a81a7f5a3a7bd26cba5ea8a301a46af",
+      "bytes": 229
+    },
+    {
+      "path": "transitions/splitSlideInHorizontal.glsl",
+      "sha256": "e543ff3ee3fd3f8e11b761984019e05d52290f08a7ca0e93ba619f58235ecee5",
+      "bytes": 550
+    },
+    {
+      "path": "transitions/splitSlideInOutHorizontal.glsl",
+      "sha256": "0f598be728714ae7cdb6252438aa4f2cb968dd21402402e91fc893806ff0621b",
+      "bytes": 541
+    },
+    {
+      "path": "transitions/splitSlideInOutVertical.glsl",
+      "sha256": "b011afbbe53d7c3f0e93fcf8e56bba6bbac9c85eba766b951a8c80916dda473b",
+      "bytes": 541
+    },
+    {
+      "path": "transitions/splitSlideInVertical.glsl",
+      "sha256": "ddc71ccecdabbc4b200623bec709cd0e76e1b1c22f8daa173a1331ec05d65541",
+      "bytes": 521
+    },
+    {
+      "path": "transitions/splitSlideOutHorizontal.glsl",
+      "sha256": "2f486e615f1943e2a27449dab391c00cb15d708ffc4872cdac441eaf20d1d682",
+      "bytes": 460
+    },
+    {
+      "path": "transitions/splitSlideOutVertical.glsl",
+      "sha256": "b54781e52695daac04983781481a7ba815acdab6dc2f30ea8d446d835f63fb6b",
+      "bytes": 460
+    },
+    {
+      "path": "transitions/squareswire.glsl",
+      "sha256": "c94709836a2ddbeae69f676d32f0eb9822b2614802c932b644f6d878103f182e",
+      "bytes": 771
+    },
+    {
+      "path": "transitions/squeeze.glsl",
+      "sha256": "515f78c4f2cac0a941ee2df3f120526b4d4b2b9cb6d92019fa0c6e1eec3613f1",
+      "bytes": 455
+    },
+    {
+      "path": "transitions/static_wipe.glsl",
+      "sha256": "2c02aa43819db3c5fc69d609caf68f070eff4566d27563796c97558617a4ba67",
+      "bytes": 836
+    },
+    {
+      "path": "transitions/swap.glsl",
+      "sha256": "f45af429feae5e90f652537a6dbba0bf705784eb8d7e0c8bfe7d58cb59d499af",
+      "bytes": 1539
+    },
+    {
+      "path": "transitions/tangentMotionBlur.glsl",
+      "sha256": "b8367b1c5445bcba823df3f1b6adc8ba3217bd5f93cb067b1be3c7ec5c63f4e4",
+      "bytes": 3936
+    },
+    {
+      "path": "transitions/undulatingBurnOut.glsl",
+      "sha256": "75ec1bb6013b66ea51ad44139069bbb30f1682621b34e4469df495177fbc23cf",
+      "bytes": 1399
+    },
+    {
+      "path": "transitions/wind.glsl",
+      "sha256": "bc29c5584865aa14dfb0bc27f70d789f05a55a8e3bcce58247ff8fa063141364",
+      "bytes": 469
+    },
+    {
+      "path": "transitions/windowblinds.glsl",
+      "sha256": "4a531478746232536291f3ba8ab0744794b75bca9cf9f305210bc083fc613e33",
+      "bytes": 274
+    },
+    {
+      "path": "transitions/windowslice.glsl",
+      "sha256": "693dff9c66e359fedf742e4d61a1ac75a712102ea1640d7c9699c098d65bc65d",
+      "bytes": 299
+    },
+    {
+      "path": "transitions/wipeDown.glsl",
+      "sha256": "0e9897ab1b6fc5383772f0b4c4ea49551942d138bc5d363a1a401e43832a21ea",
+      "bytes": 192
+    },
+    {
+      "path": "transitions/wipeLeft.glsl",
+      "sha256": "e877946d2df38eed3510a388c246c04f8898d158d056f1925301dc0852288e51",
+      "bytes": 192
+    },
+    {
+      "path": "transitions/wipeRight.glsl",
+      "sha256": "986db07618558edb7a46d9734ac572fa4d9c2b001afdfc46acd8690571db46c8",
+      "bytes": 192
+    },
+    {
+      "path": "transitions/wipeUp.glsl",
+      "sha256": "37e389eb3c245d67bd27f4ad8cdb76de419425e149ed5df0dd2a0b7c673d91f7",
+      "bytes": 192
+    },
+    {
+      "path": "transitions/x_axis_translation.glsl",
+      "sha256": "e695bda9750e11228e471b9ce2af75525655558000c370f63501897d67642cad",
+      "bytes": 253
+    },
+    {
+      "path": "transitions/zoomInOut.glsl",
+      "sha256": "850c1eefb0d0ed8b4b09535aef020d809f30dee9f34c2b6d4c1424c93ae83c44",
+      "bytes": 432
+    }
+  ]
+}

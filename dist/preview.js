@@ -1,0 +1,276 @@
+'use strict';
+
+/* Trusted preview host. Imported HTML/JavaScript is never executed. */
+(() => {
+  const instances = new Set();
+  const cssCache = new Map();
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+  let serial = 0;
+  const labels = {
+    ko: { css: '원본 CSS · 동작 샘플', composition: '원본 CSS · 구성 요소 재생', glsl: '원본 GLSL · 테스트 장면 A → B', svg: '원본 SVG 애니메이션', palette: '실제 색상 값', gradient: '실제 그라디언트', reference: '원본 검토 필요', noPreview: '수록된 시각 에셋이 없습니다.', invalid: '안전하게 재생할 수 없는 형식입니다.', webgl: '이 환경에서는 WebGL 미리보기를 사용할 수 없습니다.', shader: '이 셰이더는 현재 호스트에서 컴파일되지 않습니다.' },
+    en: { css: 'Original CSS · motion sample', composition: 'Original CSS · component playback', glsl: 'Original GLSL · test scenes A → B', svg: 'Original SVG animation', palette: 'Actual color values', gradient: 'Actual gradient', reference: 'Original review required', noPreview: 'No visual asset is stored in this record.', invalid: 'This format cannot be previewed safely.', webgl: 'WebGL preview is unavailable in this environment.', shader: 'This shader does not compile in the current host.' }
+  };
+  const element = (tag, className, text) => { const e = document.createElement(tag); if (className) e.className = className; if (text !== undefined) e.textContent = text; return e; };
+  const escape = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+  const colorsOf = item => Array.isArray(item.colors) ? item.colors.filter(c => typeof c === 'string' && /^#[a-f0-9]{6}$/i.test(c)).slice(0, 12) : [];
+  const stripComments = value => value.replace(/\/\*[\s\S]*?\*\//g, '');
+  const properties = new Set(('animation animation-name animation-duration animation-delay animation-timing-function animation-iteration-count animation-direction animation-fill-mode animation-play-state transform transform-origin transform-style perspective backface-visibility opacity visibility filter box-shadow text-shadow background background-color background-image background-size background-position background-repeat background-clip color border border-width border-style border-color border-radius border-top border-right border-bottom border-left border-top-color border-right-color border-bottom-color border-left-color width height min-width min-height max-width max-height margin margin-top margin-right margin-bottom margin-left padding padding-top padding-right padding-bottom padding-left position top right bottom left inset display flex flex-direction flex-wrap align-items justify-content place-items gap overflow box-sizing font font-size font-family font-weight font-variant-numeric letter-spacing line-height text-align text-transform white-space content clip-path isolation transition transition-property transition-duration transition-timing-function transition-delay pointer-events cursor vertical-align float clear').split(' '));
+  function declarations(style) {
+    const output = [];
+    // CSSOM exposes empty longhands for shorthands containing var(). Keep the
+    // parsed shorthand as well, so source colors and geometry survive isolation.
+    for (const property of new Set([...style, ...properties])) {
+      const plain = property.replace(/^-webkit-/, '');
+      const value = style.getPropertyValue(property);
+      if (!value) continue;
+      if (!properties.has(plain) && !/^--[a-z][a-z0-9_-]{0,70}$/i.test(property)) continue;
+      if (value.length > 2400 || /[\\<>]|(?:url|expression|image-set|attr)\s*\(/i.test(value)) continue;
+      if (plain === 'content' && !/^(?:none|normal|"[^"\\]{0,80}"|'[^'\\]{0,80}')$/.test(value.trim())) continue;
+      output.push(`${property}:${value}${style.getPropertyPriority(property) ? '!important' : ''};`);
+    }
+    return output.join('');
+  }
+  function safeTree(raw, budget = { count: 0 }, depth = 0) {
+    if (!raw || typeof raw !== 'object' || depth > 5 || ++budget.count > 64) return null;
+    const tag = ['div', 'span', 'p', 'strong', 'em'].includes(raw.tag) ? raw.tag : 'div';
+    const className = typeof raw.className === 'string' && /^[a-z0-9_ -]{0,180}$/i.test(raw.className) ? raw.className.trim() : '';
+    const text = typeof raw.text === 'string' ? raw.text.slice(0, 80) : '';
+    const children = Array.isArray(raw.children) ? raw.children.slice(0, 32).map(c => safeTree(c, budget, depth + 1)).filter(Boolean) : [];
+    return { tag, className, text, children };
+  }
+  function treeHtml(tree) { return `<${tree.tag}${tree.className ? ` class="${escape(tree.className)}"` : ''}>${escape(tree.text)}${tree.children.map(treeHtml).join('')}</${tree.tag}>`; }
+  function treeClasses(tree, classes = new Set(['motion-sample'])) { for (const c of tree.className.split(' ')) if (c) classes.add(c); tree.children.forEach(child => treeClasses(child, classes)); return classes; }
+  function sanitizedCss(item, tree) {
+    const source = typeof item.code === 'string' ? stripComments(item.code) : '';
+    if (!source || source.length > 180000 || /[\\<]|(?:url|expression|image-set|attr)\s*\(|@(?:import|font-face|namespace|document|supports|layer|property)/i.test(source)) return '';
+    const classes = tree ? treeClasses(tree) : new Set(['motion-sample']);
+    const key = item.id + ':' + source.length + ':' + [...classes].join(',');
+    if (cssCache.has(key)) return cssCache.get(key);
+    const blocks = [];
+    let found = false;
+    function selectorAllowed(selector) {
+      if (selector.length > 280 || !/^[a-z0-9_.:#() +>~,*-]+$/i.test(selector)) return false;
+      if (!/^\.[a-z][a-z0-9_-]*/i.test(selector)) return false;
+      if ([...selector.matchAll(/\.([a-z0-9_-]+)/gi)].some(m => !classes.has(m[1]))) return false;
+      if (/\b(?:html|body|iframe|script|style|input|form)\b/i.test(selector) || selector.includes('#')) return false;
+      const remainder = selector.replace(/\.[a-z0-9_-]+/gi, '').replace(/::?(?:before|after|hover|active|focus|first-child|last-child|nth-child\([0-9n+ -]+\)|nth-of-type\([0-9n+ -]+\))/gi, '').replace(/\b(?:div|span|p|strong|em)\b/g, '');
+      return /^[\s>+~*]*$/.test(remainder);
+    }
+    try {
+      const sheet = new CSSStyleSheet(); sheet.replaceSync(source);
+      if (sheet.cssRules.length > 200) return '';
+      function accept(rule, depth = 0) {
+        if (rule.type === CSSRule.KEYFRAMES_RULE && /^[a-z0-9_-]{1,100}$/i.test(rule.name) && rule.cssRules.length <= 240) {
+          const frames = [];
+          for (const frame of rule.cssRules) if (/^(?:(?:from|to|\d+(?:\.\d+)?%)\s*,?\s*)+$/i.test(frame.keyText)) frames.push(`${frame.keyText}{${declarations(frame.style)}}`);
+          if (frames.length) blocks.push(`@keyframes ${rule.name}{${frames.join('')}}`);
+        } else if (rule.type === CSSRule.STYLE_RULE) {
+          const selectors = rule.selectorText.split(',').map(s => s.trim());
+          if (selectors.length <= 12 && selectors.every(selectorAllowed)) { blocks.push(`${selectors.join(',')}{${declarations(rule.style)}}`); found = true; }
+        } else if (depth < 2 && rule.type === CSSRule.MEDIA_RULE && /^\(prefers-reduced-motion:\s*reduce\)$/.test(rule.conditionText)) {
+          const initial = blocks.length; for (const nested of rule.cssRules) accept(nested, depth + 1);
+          const nested = blocks.splice(initial); if (nested.length) blocks.push(`@media(prefers-reduced-motion:reduce){${nested.join('')}}`);
+        }
+      }
+      for (const rule of sheet.cssRules) accept(rule);
+    } catch { return ''; }
+    const result = found ? blocks.join('\n') : '';
+    cssCache.set(key, result); if (cssCache.size > 800) cssCache.delete(cssCache.keys().next().value);
+    return result;
+  }
+  function cssDocument(item, paused, interaction) {
+    // Only supplied component DOM is a composition. Analysis may infer a bare
+    // .motion-sample node; standalone keyframes still need a visible target.
+    const tree = safeTree(item.preview?.dom);
+    const clean = sanitizedCss(item, tree); if (!clean) return null;
+    const kind = item.analysis?.assetType || item.category;
+    let markup;
+    let sampleStyle;
+    if (tree) { markup = treeHtml(tree); sampleStyle = ''; }
+    else {
+      const sampleText = typeof item.preview?.sampleText === 'string' ? item.preview.sampleText.slice(0, 70) : '';
+      const actualSample = Boolean(sampleText);
+      if (kind === 'typography' || item.analysis?.components?.includes('text')) {
+        markup = `<div class="motion-sample">${escape(sampleText || 'Motion.')}</div>`;
+        sampleStyle = '.motion-sample{font:600 34px/1.15 system-ui,sans-serif;letter-spacing:-1px;color:#d9f6f7;max-width:90%;text-align:center}';
+      } else if (kind === 'transition' || item.language === 'glsl') {
+        markup = '<div class="scene-under"><span>B</span></div><div class="motion-sample"><div class="scene-orb"></div><strong>A</strong><span class="scene-lines"></span></div>';
+        sampleStyle = '.scene-under,.motion-sample{position:absolute;width:150px;height:96px;left:50%;top:50%;margin:-48px 0 0 -75px;border-radius:6px;overflow:hidden;border:1px solid #3b686c;background:#102e34}.scene-under{background:#d4e8e7;border-color:#d4e8e7;color:#08232a;display:flex;align-items:center;justify-content:center;font:600 45px/1 system-ui}.motion-sample{background:#0a1d25;color:#e8f7f7;perspective:500px}.motion-sample strong{position:absolute;left:18px;bottom:18px;font:600 27px/1 system-ui}.scene-orb{position:absolute;right:-15px;top:-15px;width:88px;height:88px;border-radius:50%;background:#6ee7f2}.scene-lines{position:absolute;left:20px;top:20px;width:35px;height:4px;background:#d6ebeb;box-shadow:0 8px #d6ebeb}';
+      } else if (kind === 'loader') {
+        markup = '<div class="motion-sample"></div>';
+        sampleStyle = '.motion-sample{width:16px;height:16px;border-radius:50%;background:#6ee7f2;color:#6ee7f2}';
+      } else if (kind === 'interaction') {
+        markup = `<div class="motion-sample">${escape(sampleText || 'Hover / press')}</div>`;
+        sampleStyle = '.motion-sample{padding:14px 22px;border-radius:7px;background:#162d32;border:1px solid #6ee7f2;color:#dbf7f9;font:500 16px/1.5 system-ui}';
+      } else if (actualSample) {
+        markup = `<div class="motion-sample">${escape(sampleText)}</div>`;
+        sampleStyle = '.motion-sample{font:600 28px/1 system-ui;color:#6ee7f2}';
+      } else {
+        markup = '<div class="motion-sample"><span class="orb-center"></span></div>';
+        sampleStyle = '.motion-sample{width:54px;height:54px;border-radius:50%;background:#6ee7f2;box-shadow:0 0 0 10px #6ee7f216;display:grid;place-items:center;color:#061719}.orb-center{width:14px;height:14px;border:2px solid #0b2228;border-radius:50%}';
+      }
+    }
+    const extra = paused || reduced.matches ? '*,*::before,*::after{animation-play-state:paused!important}.motion-sample{animation-delay:-.9s!important}' : '';
+    const hover = interaction ? clean.replace(/:(?:hover|active|focus)/g, '.preview-active') : clean;
+    if (interaction) markup = markup.replace(/class="([^"]+)"/g, (_, classes) => `class="${classes} preview-active"`);
+    const base = 'html,body{width:100%;height:100%;margin:0;background:#080b0d;color:#6ee7f2;overflow:hidden}body{display:flex;align-items:center;justify-content:center;font-family:system-ui,sans-serif;position:relative}*{box-sizing:border-box}';
+    return { document: `<!doctype html><html><head><meta charset="utf-8"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'"><style>${base}${sampleStyle}${hover}${extra}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-play-state:paused!important}}</style></head><body>${markup}</body></html>`, composition: Boolean(tree) };
+  }
+
+  const SVG_NS = 'http://www.w3.org/2000/svg';
+  const svgTags = new Set(['svg','g','path','circle','ellipse','rect','line','polyline','polygon','defs','linearGradient','radialGradient','stop','clipPath','mask','use','animate','animateTransform']);
+  const svgAttributes = new Set(['viewBox','width','height','x','y','x1','x2','y1','y2','cx','cy','r','rx','ry','d','points','fill','fill-opacity','fill-rule','stroke','stroke-width','stroke-opacity','stroke-linecap','stroke-linejoin','stroke-dasharray','stroke-dashoffset','opacity','transform','gradientTransform','gradientUnits','offset','stop-color','stop-opacity','id','clip-path','mask','href','preserveAspectRatio','attributeName','attributeType','type','from','to','by','values','dur','begin','repeatCount','keyTimes','keySplines','calcMode','additive','accumulate']);
+  const animationNames = new Set(['transform','opacity','fill','fill-opacity','stroke','stroke-opacity','stroke-width','stroke-dashoffset','stroke-dasharray','r','rx','ry','cx','cy','x','y','width','height','d','points']);
+  function sanitizedSvg(code) {
+    if (typeof code !== 'string' || code.length > 160000 || /<!DOCTYPE|<!ENTITY/i.test(code)) return null;
+    const source = new DOMParser().parseFromString(code, 'image/svg+xml');
+    if (source.querySelector('parsererror') || source.documentElement.localName !== 'svg') return null;
+    let count = 0;
+    const idPrefix = 'ml-svg-' + (++serial) + '-';
+    function copy(node, depth = 0) {
+      if (depth > 12 || ++count > 700 || !svgTags.has(node.localName)) return null;
+      const out = document.createElementNS(SVG_NS, node.localName);
+      for (const attribute of node.attributes) {
+        const name = attribute.name === 'xlink:href' ? 'href' : attribute.name;
+        let value = attribute.value;
+        if (!svgAttributes.has(name) || value.length > 22000 || /[<>\\]|javascript:|data:|https?:/i.test(value)) continue;
+        if (name === 'id') { if (!/^[a-z0-9_-]{1,100}$/i.test(value)) continue; value = idPrefix + value; }
+        else if (name === 'href') { if (!/^#[a-z0-9_-]{1,100}$/i.test(value)) continue; value = '#' + idPrefix + value.slice(1); }
+        else if (['mask','clip-path'].includes(name) || /^url\(/.test(value)) { const m = /^url\(#([a-z0-9_-]{1,100})\)$/i.exec(value); if (!m) continue; value = `url(#${idPrefix}${m[1]})`; }
+        else if (name === 'attributeName' && !animationNames.has(value)) continue;
+        else if (name === 'begin' && !/^(?:\d+(?:\.\d+)?m?s;?\s*)+$/.test(value)) continue;
+        else if (!/^[a-z0-9#.,;()%+\s:_-]*$/i.test(value)) continue;
+        out.setAttribute(name, value);
+      }
+      if (['animate','animateTransform'].includes(node.localName) && !animationNames.has(out.getAttribute('attributeName'))) return null;
+      for (const child of node.children) { const copied = copy(child, depth + 1); if (copied) out.append(copied); }
+      return out;
+    }
+    const result = copy(source.documentElement);
+    if (result) { result.classList.add('motion-preview-svg'); result.setAttribute('aria-hidden','true'); }
+    return result;
+  }
+
+  // One shared WebGL context prevents a gallery from exhausting GPU contexts.
+  const gpu = { canvas: null, gl: null, buffer: null, vertex: null, textures: [], programs: new Map(), entries: new Set(), frame: 0, last: 0, cursor: 0, attempted: false };
+  function sceneTexture(variant) {
+    const c = document.createElement('canvas'); c.width = 320; c.height = 200;
+    const ctx = c.getContext('2d');
+    ctx.fillStyle = variant === 0 ? '#0a1e27' : '#d9eeec'; ctx.fillRect(0,0,320,200);
+    ctx.fillStyle = variant === 0 ? '#6ee7f2' : '#15313a';
+    if (variant === 0) { ctx.beginPath(); ctx.arc(267,40,75,0,Math.PI*2); ctx.fill(); }
+    else { for (let i=0;i<5;i++) ctx.fillRect(162+i*25,-20,9,260); }
+    ctx.fillStyle = variant === 0 ? '#e8f9fa' : '#0a242e';
+    ctx.font = '600 54px system-ui'; ctx.fillText(variant === 0 ? 'A' : 'B',28,140);
+    ctx.font = '12px monospace'; ctx.fillText(variant === 0 ? 'SCENE / 01' : 'SCENE / 02',28,173);
+    return c;
+  }
+  function noiseTexture() { const c=document.createElement('canvas'); c.width=c.height=64; const ctx=c.getContext('2d'); const data=ctx.createImageData(64,64); let seed=731; for(let i=0;i<data.data.length;i+=4){ seed=(seed*1664525+1013904223)>>>0; const v=seed>>>24; data.data[i]=data.data[i+1]=data.data[i+2]=v; data.data[i+3]=255; } ctx.putImageData(data,0,0); return c; }
+  function compileShader(type, code) { const gl=gpu.gl, shader=gl.createShader(type); gl.shaderSource(shader,code); gl.compileShader(shader); if(!gl.getShaderParameter(shader,gl.COMPILE_STATUS)){gl.deleteShader(shader);throw new Error('Shader compilation failed');}return shader; }
+  function initGpu() {
+    if (gpu.attempted) return Boolean(gpu.gl); gpu.attempted=true;
+    try {
+      gpu.canvas=document.createElement('canvas'); gpu.canvas.width=320;gpu.canvas.height=200;
+      gpu.gl=gpu.canvas.getContext('webgl',{alpha:false,antialias:false,preserveDrawingBuffer:true,powerPreference:'low-power'});
+      if(!gpu.gl)return false;
+      const gl=gpu.gl; gpu.vertex=compileShader(gl.VERTEX_SHADER,'attribute vec2 a_position;varying vec2 v_uv;void main(){v_uv=(a_position+1.0)*.5;gl_Position=vec4(a_position,0.0,1.0);}');
+      gpu.buffer=gl.createBuffer();gl.bindBuffer(gl.ARRAY_BUFFER,gpu.buffer);gl.bufferData(gl.ARRAY_BUFFER,new Float32Array([-1,-1,1,-1,-1,1,1,1]),gl.STATIC_DRAW);
+      for(const c of [sceneTexture(0),sceneTexture(1),noiseTexture()]){const texture=gl.createTexture();gl.bindTexture(gl.TEXTURE_2D,texture);gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL,true);gl.texImage2D(gl.TEXTURE_2D,0,gl.RGBA,gl.RGBA,gl.UNSIGNED_BYTE,c);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE);gpu.textures.push(texture);}
+      gpu.canvas.addEventListener('webglcontextlost',event=>{event.preventDefault();cancelAnimationFrame(gpu.frame);gpu.frame=0;for(const entry of gpu.entries) entry.owner.unavailable('webgl');gpu.entries.clear();gpu.programs.clear();gpu.gl=null;});
+      return true;
+    } catch { gpu.gl=null;return false; }
+  }
+  function uniformDefaults(code) {
+    const defaults = new Map();
+    const pattern=/uniform\s+(float|int|bool|vec[234]|ivec[234]|sampler2D)\s+([a-zA-Z_]\w*)\s*(?:\/\*\s*=\s*([^*]+)\*\/)?\s*;[^\n]*/g;
+    for(const match of code.matchAll(pattern)){
+      const comment=match[3]||(/\/\/\s*=\s*([^\n]+)/.exec(match[0])||[])[1]||'';
+      let value;
+      if(match[1]==='bool') value=/true/.test(comment)?1:0;
+      else { const numeric=(comment.replace(/(?:i?vec[234])\s*\(/g,'').match(/-?(?:\d+\.?\d*|\.\d+)(?:e[+-]?\d+)?/gi)||[]).slice(0,4).map(Number); value=numeric.length?numeric:[.5]; }
+      defaults.set(match[2],{type:match[1],value});
+    }
+    return defaults;
+  }
+  function shaderProgram(item) {
+    const code=typeof item.code==='string'?item.code:'';
+    if(code.length>60000 || /#\s*(?:include|extension)|\b(?:while|do)\s*[{(]|\bvoid\s+main\s*\(/.test(stripComments(code)) || !/\bvec4\s+transition\s*\(/.test(code))throw new Error('Unsupported shader');
+    const key=item.id+':'+code.length;
+    if(gpu.programs.has(key))return gpu.programs.get(key);
+    const gl=gpu.gl;
+    const fragment=compileShader(gl.FRAGMENT_SHADER,`precision highp float;varying vec2 v_uv;uniform float progress;uniform float ratio;uniform sampler2D ml_from;uniform sampler2D ml_to;vec4 getFromColor(vec2 p){return texture2D(ml_from,p);}vec4 getToColor(vec2 p){return texture2D(ml_to,p);}\n${code}\nvoid main(){gl_FragColor=transition(v_uv);}`);
+    const program=gl.createProgram();gl.attachShader(program,gpu.vertex);gl.attachShader(program,fragment);gl.linkProgram(program);gl.deleteShader(fragment);
+    if(!gl.getProgramParameter(program,gl.LINK_STATUS)){gl.deleteProgram(program);throw new Error('Shader link failed');}
+    const info={program,position:gl.getAttribLocation(program,'a_position'),uniforms:[],defaults:uniformDefaults(code),key};
+    for(let i=0;i<gl.getProgramParameter(program,gl.ACTIVE_UNIFORMS);i++){const u=gl.getActiveUniform(program,i);info.uniforms.push({name:u.name,type:u.type,size:u.size,location:gl.getUniformLocation(program,u.name)});}
+    gpu.programs.set(key,info);
+    if(gpu.programs.size>32){const oldest=gpu.programs.keys().next().value;gl.deleteProgram(gpu.programs.get(oldest).program);gpu.programs.delete(oldest);}
+    return info;
+  }
+  function drawShader(entry, progress) {
+    const gl=gpu.gl; if(!gl)return;
+    const info=shaderProgram(entry.item);gl.useProgram(info.program);gl.bindBuffer(gl.ARRAY_BUFFER,gpu.buffer);gl.enableVertexAttribArray(info.position);gl.vertexAttribPointer(info.position,2,gl.FLOAT,false,0,0);
+    for(let i=0;i<gpu.textures.length;i++){gl.activeTexture(gl.TEXTURE0+i);gl.bindTexture(gl.TEXTURE_2D,gpu.textures[i]);}
+    for(const u of info.uniforms){
+      if(u.name==='progress'){gl.uniform1f(u.location,progress);continue;}
+      if(u.name==='ratio'){gl.uniform1f(u.location,1.6);continue;}
+      if(u.type===gl.SAMPLER_2D){gl.uniform1i(u.location,u.name==='ml_from'?0:u.name==='ml_to'?1:2);continue;}
+      let v=info.defaults.get(u.name)?.value??[.5];v=Array.isArray(v)?v:[v];
+      const dims=({[gl.FLOAT_VEC2]:2,[gl.FLOAT_VEC3]:3,[gl.FLOAT_VEC4]:4,[gl.INT_VEC2]:2,[gl.INT_VEC3]:3,[gl.INT_VEC4]:4,[gl.BOOL_VEC2]:2,[gl.BOOL_VEC3]:3,[gl.BOOL_VEC4]:4})[u.type]||1;
+      while(v.length<dims)v.push(v[v.length-1]??.5);
+      if(u.type===gl.FLOAT)gl.uniform1f(u.location,v[0]);
+      else if(u.type===gl.FLOAT_VEC2)gl.uniform2fv(u.location,v.slice(0,2));
+      else if(u.type===gl.FLOAT_VEC3)gl.uniform3fv(u.location,v.slice(0,3));
+      else if(u.type===gl.FLOAT_VEC4)gl.uniform4fv(u.location,v.slice(0,4));
+      else if(dims===1)gl.uniform1i(u.location,Math.round(v[0]));
+      else if(dims===2)gl.uniform2iv(u.location,v.slice(0,2).map(Math.round));
+      else if(dims===3)gl.uniform3iv(u.location,v.slice(0,3).map(Math.round));
+      else gl.uniform4iv(u.location,v.slice(0,4).map(Math.round));
+    }
+    gl.viewport(0,0,320,200);gl.drawArrays(gl.TRIANGLE_STRIP,0,4);entry.ctx.drawImage(gpu.canvas,0,0);entry.canvas.dataset.progress=progress.toFixed(3);entry.canvas.dataset.compiled='true';
+  }
+  function gpuTick(time) {
+    gpu.frame=0;
+    if(time-gpu.last>65){
+      gpu.last=time;
+      const active=[...gpu.entries].filter(e=>e.owner.visible&&!e.owner.paused&&!reduced.matches&&e.owner.root.isConnected);
+      for(let i=0;i<Math.min(6,active.length);i++){
+        const entry=active[(gpu.cursor+i)%active.length];
+        const cycle=((time-entry.started)%4200)/4200;const p=Math.min(1,Math.max(0,(cycle-.13)/.72));
+        try{drawShader(entry,p);}catch{entry.owner.unavailable('shader');gpu.entries.delete(entry);}
+      }
+      gpu.cursor+=6;
+    }
+    if(gpu.entries.size)gpu.frame=requestAnimationFrame(gpuTick);
+  }
+  function scheduleGpu(){if(!gpu.frame&&gpu.entries.size)gpu.frame=requestAnimationFrame(gpuTick);}
+
+  const visibility = new IntersectionObserver(entries=>{for(const observed of entries){const instance=[...instances].find(i=>i.root===observed.target);if(instance){instance.visible=observed.isIntersecting;if(instance.gpuEntry)scheduleGpu();}}},{rootMargin:'100px'});
+  const cleanup = new MutationObserver(()=>{for(const instance of instances) if(instance.attached&&!instance.root.isConnected)instance.destroy();else if(instance.root.isConnected)instance.attached=true;});
+  function create(item, options = {}) {
+    const lang=options.lang==='en'?'en':'ko', words=labels[lang];
+    const root=element('div','motion-preview'+(options.compact?' compact':''));
+    root.dataset.itemId=String(item.id||'').slice(0,160);
+    const stage=element('div','motion-preview-stage');const note=element('p','motion-preview-note');root.append(stage,note);
+    const instance={root,stage,note,lang,paused:Boolean(options.paused||reduced.matches),visible:true,attached:false,interaction:Boolean(options.interaction),gpuEntry:null,svg:null,frame:null,destroy(){visibility.unobserve(root);if(this.gpuEntry)gpu.entries.delete(this.gpuEntry);instances.delete(this);if(!gpu.entries.size){cancelAnimationFrame(gpu.frame);gpu.frame=0;}},unavailable(key){if(this.gpuEntry)gpu.entries.delete(this.gpuEntry);stage.replaceChildren();const box=element('div','motion-preview-unavailable');box.append(element('strong','',words[key]||words.invalid));if(key==='reference')box.append(element('span','',words.noPreview));stage.append(box);note.textContent='';root.dataset.state='unavailable';root.dataset.reason=key;},setPaused(value){this.paused=Boolean(value||reduced.matches);if(this.svg){if(this.paused)this.svg.pauseAnimations?.();else this.svg.unpauseAnimations?.();}if(this.frame)refreshCss();if(this.gpuEntry){if(this.paused)try{drawShader(this.gpuEntry,.5);}catch{this.unavailable('shader');}else scheduleGpu();}},setInteraction(value){this.interaction=Boolean(value);if(this.frame)refreshCss();},restart(){if(this.frame)refreshCss();if(this.svg)this.svg.setCurrentTime?.(0);if(this.gpuEntry)this.gpuEntry.started=performance.now();}};
+    function refreshCss(){const built=cssDocument(item,instance.paused,instance.interaction);if(!built){instance.unavailable('invalid');return;}instance.frame.srcdoc=built.document;}
+    root.destroy=()=>instance.destroy();root.setPaused=value=>instance.setPaused(value);root.setInteraction=value=>instance.setInteraction(value);root.restart=()=>instance.restart();
+    root.setProgress=value=>{if(instance.gpuEntry&&Number.isFinite(value))drawShader(instance.gpuEntry,Math.max(0,Math.min(1,value)));};
+    instances.add(instance);visibility.observe(root);
+    const renderer=item.analysis?.preview?.renderer || (item.kind==='reference'?'none':item.preview?.type==='gradient'?'gradient':item.kind==='palette'?'palette':item.language==='svg'?'svg':item.language==='glsl'?'glsl':item.language==='css'?'css':'none');
+    root.dataset.renderer=renderer;root.dataset.state='ready';
+    try {
+      const colors=colorsOf(item);
+      if(renderer==='palette'&&colors.length){const strips=element('div','motion-preview-colors');for(const color of colors){const strip=element('div','motion-preview-swatch');strip.style.backgroundColor=color;const [r,g,b]=color.slice(1).match(/../g).map(v=>parseInt(v,16));strip.style.color=r*.299+g*.587+b*.114>145?'#061215':'#f7ffff';strip.append(element('span','',color.toUpperCase()));strips.append(strip);}stage.append(strips);note.textContent=words.palette;}
+      else if(renderer==='gradient'&&colors.length){const gradient=element('div','motion-preview-gradient');gradient.style.background=`linear-gradient(125deg,${colors.join(',')})`;stage.append(gradient);note.textContent=words.gradient;}
+      else if(renderer==='css'){const built=cssDocument(item,instance.paused,instance.interaction);if(!built){instance.unavailable('invalid');return root;}const frame=element('iframe','motion-preview-frame');frame.setAttribute('sandbox','');frame.referrerPolicy='no-referrer';frame.tabIndex=-1;frame.title=String(item.title||'CSS preview').slice(0,180);frame.srcdoc=built.document;stage.append(frame);instance.frame=frame;note.textContent=words[built.composition?'composition':'css'];}
+      else if(renderer==='svg'){const svg=sanitizedSvg(item.code);if(!svg){instance.unavailable('invalid');return root;}stage.append(svg);instance.svg=svg;note.textContent=words.svg;if(instance.paused)requestAnimationFrame(()=>{svg.setCurrentTime?.(.8);svg.pauseAnimations?.();});}
+      else if(renderer==='glsl'){if(!initGpu()){instance.unavailable('webgl');return root;}const canvas=element('canvas','motion-preview-canvas');canvas.width=320;canvas.height=200;stage.append(canvas);const entry={item,canvas,ctx:canvas.getContext('2d'),started:performance.now(),owner:instance};instance.gpuEntry=entry;gpu.entries.add(entry);drawShader(entry,.45);note.textContent=words.glsl;scheduleGpu();}
+      else instance.unavailable('reference');
+    } catch { instance.unavailable(renderer==='glsl'?'shader':'invalid'); }
+    return root;
+  }
+  cleanup.observe(document.documentElement,{childList:true,subtree:true});
+  reduced.addEventListener?.('change',()=>{for(const instance of instances)instance.setPaused(instance.paused);});
+  window.MotionPreview={create,destroy:root=>root?.destroy?.(),setPaused:value=>{for(const instance of instances)instance.setPaused(value);},diagnostics:()=>({instances:instances.size,gpuContexts:gpu.gl?1:0,shaderPrograms:gpu.programs.size,activeShaders:gpu.entries.size}),sanitizeSvg:sanitizedSvg};
+})();

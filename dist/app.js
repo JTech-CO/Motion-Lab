@@ -1,0 +1,237 @@
+'use strict';
+(() => {
+  const $ = (id) => document.getElementById(id);
+  const TYPES = ['animation','transition','typography','interaction','background','loader','palette','gradient','shader','reference'];
+  const EFFECTS = ['fade','slide','scale','rotate','flip','spring','shake','pulse','mask','glitch','pixel','wave','text','stagger','blur','other'];
+  const COMPONENTS = ['text','shape','image','particles','grid','stroke','mask','layer','color'];
+  const USES = ['intro','outro','scene-change','status','attention','feedback','ambient','color-system','reference'];
+  const PAGE_SIZE = 20;
+  const ROOT = 'C:\\path\\to\\Motion Lab';
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+  const cache = new WeakMap(), positions = new Map();
+  const openFacets = new Map([['assetType',true],['effects',true],['components',false],['useCases',false],['license',true]]);
+  const state = {lang:'ko',loaded:false,error:false,items:[],sources:[],data:null,view:'assets',query:'',sort:'balanced',page:0,results:[],filters:{assetType:new Set(),effects:new Set(),components:new Set(),useCases:new Set(),license:new Set()},paused:reduced.matches,detail:null,detailTab:'overview',interaction:false,connectTab:'mcp'};
+  let galleryPreviews=[],detailPreview=null,searchTimer,toastTimer,returnId='';
+  const copyWords = {
+    ko:{
+      skip:'라이브러리로 바로 가기',search:'모션, 구성요소, 용도 검색',searchLabel:'자료 검색',pause:'모션 정지',play:'모션 재생',connect:'AI 연결 ↗',filters:'필터',reset:'초기화',closeFilters:'필터 닫기',title:'모션 라이브러리',description:'실제 에셋을 비교하고, 코드와 출처를 함께 가져오세요.',referenceTitle:'레퍼런스 검토',referenceDescription:'원본 링크와 수집 근거를 확인하세요. 로컬 에셋이 없는 항목은 미리보기를 제공하지 않습니다.',export:'JSON 내보내기 ↓',assets:'에셋',references:'레퍼런스 검토',sort:'정렬',balanced:'분야별 균형',titleSort:'이름순',sourceSort:'출처순',typeSort:'에셋 종류순',loading:'카탈로그를 불러오는 중…',error:'카탈로그를 불러오지 못했습니다.',loadHint:'Motion Lab 폴더에서 python -m motionlab serve를 실행한 뒤 로컬 주소로 열어주세요.',retry:'다시 불러오기',empty:'맞는 자료가 없습니다.',emptyDescription:'검색어를 지우거나 필터 조건을 줄여보세요.',clearAll:'검색과 필터 초기화',previous:'← 이전',next:'다음 →',page:'페이지',go:'이동',keyboard:'방향키 에셋 이동 · Enter 상세 · Tab 도구 이동 · / 검색',updated:'카탈로그 갱신',records:'개 자료',assetType:'에셋 종류',effects:'모션 효과',components:'구성요소',useCases:'용도',license:'라이선스',stated:'라이선스 명시',review:'원본 조건 확인 필요',facetEvidence:'분류는 코드와 실제 색상 값을 우선 분석합니다. 상세에서 분석 근거와 미리보기 한계를 확인하세요.',details:'에셋 상세',closeDetails:'상세 닫기',overview:'미리보기와 분석',code:'코드',provenance:'출처 정보',source:'원본 출처',sourceName:'출처',format:'형식',identifier:'자료 ID',verification:'검증 상태',tags:'원본 태그',techniques:'기법',evidence:'분류 근거',confidence:'신뢰도',limits:'미리보기 범위와 한계',copyCode:'코드 복사',copyLicense:'라이선스 복사',sourceOpen:'원본 열기 ↗',sourceLocal:'로컬 원본 열기 ↗',licenseOpen:'라이선스 원문 ↗',copied:'클립보드에 복사했습니다.',copyFailed:'복사하지 못했습니다. 아래 내용을 직접 선택해 복사할 수 있습니다.',downloaded:'현재 결과를 JSON 파일로 내보냈습니다.',readHint:'전체 원문입니다. Tab으로 본문에 이동한 뒤 방향키로 스크롤할 수 있습니다.',noPreview:'로컬 미리보기 없음',reviewOriginal:'원본을 열어 실제 결과를 검토하세요.',engineUnavailable:'미리보기 엔진을 불러오지 못했습니다.',licenseWarning:'레퍼런스는 탐색용 링크입니다. 코드·이미지 복제나 상업적 이용 전 원본 조건을 확인하세요.',missingLicense:'전체 라이선스 문구가 이 항목에 없습니다. 원본 조건을 확인한 뒤 재사용하세요.',metadataBasis:'메타데이터 기준',fallbackEvidence:'코드 분석 정보가 없어 원본 메타데이터를 기준으로 분류했습니다.',sourceLanguage:'원본 제목, 설명, 코드와 라이선스는 수집한 언어로 유지합니다.',high:'높음',medium:'보통',low:'낮음',codeBasis:'실제 코드',colorBasis:'실제 색상 값',reviewedBasis:'원본 검토',metadata:'원본 메타데이터',activate:'인터랙션 활성화',deactivate:'인터랙션 해제',restart:'다시 재생',provenanceHint:'이 항목에 기록된 실제 출처와 분석 정보입니다.',connectionTitle:'같은 카탈로그를 AI 도구로',connectionDescription:'로컬 MCP, CLI 또는 JSON으로 코드와 출처를 함께 읽을 수 있습니다.',mcp:'MCP 설정',cli:'CLI 명령',json:'JSON / API',copyTemplate:'MCP 템플릿 복사',mcpAbout:'Python 3.10 이상이 필요합니다. 프로젝트 경로를 인자로 전달하므로 cwd를 무시하는 클라이언트에서도 실행할 수 있습니다.',mcpNote:'설정 템플릿입니다. 복사한 뒤 MCP 클라이언트에서 C:\\path\\to\\Motion Lab을 실제 로컬 프로젝트 경로로 바꾸세요. 정적 웹사이트 주소만으로 로컬 MCP를 실행할 수는 없습니다.',cliAbout:'Motion Lab 프로젝트 폴더에서 실행하는 실제 명령입니다.',copyCommands:'CLI 명령 복사',jsonAbout:'전체 카탈로그에는 코드, 전체 라이선스 문구와 수집 출처가 포함됩니다. HTTP API는 로컬 서버에서 사용할 수 있습니다.',fullJson:'전체 catalog.json 열기 ↗',indexJson:'경량 catalog-index.json 열기 ↗',exportCurrent:'현재 결과 JSON 내보내기',invalidPage:'표시된 범위 안의 페이지 번호를 입력하세요.',remove:'조건 해제',localOriginal:'Motion Lab 원작 · 로컬 원본',reduced:'시스템 모션 줄이기 설정에 따라 정지되었습니다.',pagination:'결과 페이지',closeConnect:'연결 안내 닫기'
+    },
+    en:{
+      skip:'Skip to library',search:'Search motion, components, or use cases',searchLabel:'Search assets',pause:'Pause motion',play:'Play motion',connect:'AI access ↗',filters:'Filters',reset:'Reset',closeFilters:'Close filters',title:'Motion library',description:'Compare real assets. Take the code, attribution, and license with you.',referenceTitle:'Reference review',referenceDescription:'Inspect original links and collection evidence. Records without local assets have no local preview.',export:'Export JSON ↓',assets:'Assets',references:'Reference review',sort:'Sort',balanced:'Balanced by type',titleSort:'Name',sourceSort:'Source',typeSort:'Asset type',loading:'Loading the catalog…',error:'The catalog could not be loaded.',loadHint:'Run python -m motionlab serve from the Motion Lab folder, then open its local address.',retry:'Try again',empty:'No matching assets.',emptyDescription:'Clear the search or reduce the filter conditions.',clearAll:'Clear search and filters',previous:'← Previous',next:'Next →',page:'Page',go:'Go',keyboard:'Arrows move between assets · Enter details · Tab tools · / search',updated:'Catalog updated',records:'records',assetType:'Asset type',effects:'Motion effect',components:'Components',useCases:'Use case',license:'License',stated:'Stated license',review:'Review original terms',facetEvidence:'Classification prioritizes code and actual color values. Each detail shows its evidence and preview limitations.',details:'Asset details',closeDetails:'Close details',overview:'Preview & analysis',code:'Code',provenance:'Provenance',source:'Original source',sourceName:'Source',format:'Format',identifier:'Record ID',verification:'Verification',tags:'Original tags',techniques:'Techniques',evidence:'Classification evidence',confidence:'Confidence',limits:'Preview scope & limitations',copyCode:'Copy code',copyLicense:'Copy license',sourceOpen:'Open original ↗',sourceLocal:'Open local source ↗',licenseOpen:'Original license ↗',copied:'Copied to the clipboard.',copyFailed:'Clipboard unavailable. Select and copy the content below.',downloaded:'Exported the current results as JSON.',readHint:'Complete source text. Tab into the content, then use arrow keys to scroll.',noPreview:'No local preview',reviewOriginal:'Open the original to review its actual output.',engineUnavailable:'The preview engine could not be loaded.',licenseWarning:'References support discovery. Review the original terms before copying code or images, or using them commercially.',missingLicense:'This record has no complete license notice. Review the original terms before reuse.',metadataBasis:'Based on metadata',fallbackEvidence:'Code analysis is unavailable. Classification uses source metadata.',sourceLanguage:'Original titles, descriptions, code, and license text retain their source language.',high:'High',medium:'Medium',low:'Low',codeBasis:'Actual code',colorBasis:'Actual color values',reviewedBasis:'Reviewed source',metadata:'Source metadata',activate:'Activate interaction',deactivate:'Deactivate interaction',restart:'Restart',provenanceHint:'Actual source provenance and analysis recorded for this asset.',connectionTitle:'One catalog. Your AI tools.',connectionDescription:'Read code and provenance through local MCP, CLI, or JSON.',mcp:'MCP config',cli:'CLI commands',json:'JSON / API',copyTemplate:'Copy MCP template',mcpAbout:'Requires Python 3.10 or later. The launcher specifies the project directory directly, including for clients that ignore cwd.',mcpNote:'This is a configuration template. After copying, replace C:\\path\\to\\Motion Lab with your actual local project path in the MCP client. A static website URL cannot start a local MCP server.',cliAbout:'Actual commands to run from the Motion Lab project folder.',copyCommands:'Copy CLI commands',jsonAbout:'The complete catalog includes code, full license notices, and collection provenance. HTTP endpoints are available on the local server.',fullJson:'Open complete catalog.json ↗',indexJson:'Open catalog-index.json ↗',exportCurrent:'Export current results as JSON',invalidPage:'Enter a page number within the displayed range.',remove:'Remove filter',localOriginal:'Motion Lab original · local source',reduced:'Paused to respect the system reduced-motion setting.',pagination:'Result pages',closeConnect:'Close connection guide'
+    }
+  };
+  const labelData = {
+    assetType:[TYPES,['일반 모션','전환','타이포그래피','인터랙션','배경','로더','팔레트','그라디언트','셰이더','레퍼런스'],['Animation','Transition','Typography','Interaction','Background','Loader','Palette','Gradient','Shader','Reference']],
+    effects:[EFFECTS,['페이드 / 디졸브','슬라이드 / 이동','줌 / 스케일','회전 / 궤도','플립 / 3D','바운스 / 스프링','흔들림','펄스 / 빛','마스크 / 와이프','글리치 / 왜곡','픽셀 / 격자','파동 / 입자','키네틱 텍스트','시차 / 단계','블러','기타'],['Fade / Dissolve','Slide / Move','Zoom / Scale','Rotate / Orbit','Flip / 3D','Bounce / Spring','Shake','Pulse / Glow','Mask / Wipe','Glitch / Distort','Pixel / Grid','Wave / Particles','Kinetic text','Stagger / Steps','Blur','Other']],
+    components:[COMPONENTS,['텍스트','도형','이미지','입자','격자','선 / 테두리','마스크','레이어','색상'],['Text','Shape','Image','Particles','Grid','Stroke','Mask','Layer','Color']],
+    useCases:[USES,['인트로','아웃트로','장면 전환','상태 / 로딩','주목 유도','피드백','분위기 / 배경','컬러 시스템','원본 참고'],['Intro','Outro','Scene change','Status / Loading','Attention','Feedback','Ambient','Color system','Reference']],
+    techniques:[['keyframes','transition','transform','pseudo-element','clip-path','filter','gradient','glsl','texture-sampling','procedural-noise','color-values','reference-link','svg-animation'],['키프레임','CSS 전환','변형','가상 요소','클립 패스','필터','그라디언트','GLSL','텍스처 샘플링','절차적 노이즈','색상 값','원본 링크','SVG 애니메이션'],['Keyframes','CSS transition','Transform','Pseudo-element','Clip path','Filter','Gradient','GLSL','Texture sampling','Procedural noise','Color values','Reference link','SVG animation']]
+  };
+  const t=(key)=>copyWords[state.lang][key]||key;
+  copyWords.ko.keyboard='방향키 탐색 · Enter 실행 · 코드 방향키 스크롤 / Enter 복귀 · / 검색 · Tab도 사용 가능';
+  copyWords.en.keyboard='Arrows browse · Enter activates · Code arrows scroll / Enter returns · / search · Tab also supported';
+  copyWords.ko.keyboardShort='↓ 자료 탐색 · 방향키 이동 · Enter 실행 · 코드에서 Enter 복귀';
+  copyWords.en.keyboardShort='↓ Browse assets · Arrows move · Enter activates · Enter exits code reading';
+  const limitationKO={
+    'CSS analysis does not grant permission to execute arbitrary selectors or URLs.':'CSS 분석은 임의 선택자나 URL 실행을 허가하지 않습니다.',
+    'Original DOM structure is not supplied; composition may require manual reconstruction.':'원본 DOM 구조가 없어 구성을 직접 복원해야 할 수 있습니다.',
+    'Requires a GLSL transition renderer and two input images; compilation is a separate runtime check.':'GLSL 전환 렌더러와 입력 이미지 2개가 필요하며 컴파일은 실행 시 별도로 검사합니다.',
+    'SVG requires independent sanitization before inserting it into a document.':'SVG를 문서에 넣기 전에 별도 안전 검사가 필요합니다.',
+    'A discovery link is not a rendered asset and does not grant reuse rights.':'참고 링크는 렌더링된 자료가 아니며 재사용 권한을 부여하지 않습니다.',
+    'Source structure could not be analyzed reliably.':'원본 구조를 신뢰할 수 있게 분석하지 못했습니다.'
+  };
+  const text=(value,max=4000)=>typeof value==='string'?value.slice(0,max):'';
+  const strings=(value,max=40)=>Array.isArray(value)?value.filter((entry)=>typeof entry==='string').slice(0,max):[];
+  const label=(field,value,lang=state.lang)=>{const data=labelData[field],index=data?data[0].indexOf(value):-1;return index<0?value:data[lang==='ko'?1:2][index];};
+  function node(tag,className,content){const el=document.createElement(tag);if(className)el.className=className;if(content!==undefined)el.textContent=content;return el;}
+  function button(content,className,action){const el=node('button',className,content);el.type='button';el.addEventListener('click',action);return el;}
+  function safeUrl(value){if(typeof value!=='string'||value.length>2048)return null;try{const u=new URL(value);return u.protocol==='https:'&&!u.username&&!u.password?u.href:null;}catch(_){return null;}}
+  function localOriginal(item){return item.sourceName==='Motion Lab Originals'&&item.verification==='original-authored';}
+  function sourceUrl(item){return localOriginal(item)&&TYPES.includes(item.category)?'./collections/'+item.category+'.json#'+encodeURIComponent(text(item.id,250)):safeUrl(item.sourceUrl);}
+  function link(content,url,className='outlined-button'){if(!url)return null;const el=node('a',className,content);el.href=url;el.target='_blank';el.rel='noopener noreferrer';return el;}
+  function needsReview(item){return item.kind==='reference'||!item.license||/reference|unknown|unverified|확인|all rights|not specified|not verified|not stated|unspecified|not granted|custom|personal|varies/i.test(item.license);}
+  function meta(item){
+    if(cache.has(item))return cache.get(item);
+    const a=item.analysis&&typeof item.analysis==='object'?item.analysis:null;
+    const result={assetType:a&&TYPES.includes(a.assetType)?a.assetType:TYPES.includes(item.category)?item.category:'reference',effects:a?strings(a.effects).filter((v)=>EFFECTS.includes(v)):[],components:a?strings(a.components).filter((v)=>COMPONENTS.includes(v)):[],useCases:a?strings(a.useCases).filter((v)=>USES.includes(v)):[],techniques:a?strings(a.techniques):[],license:needsReview(item)?'review':'stated',analysis:a};
+    const translations=['ko','en'].flatMap((lang)=>['assetType','effects','components','useCases','techniques'].flatMap((field)=>(Array.isArray(result[field])?result[field]:[result[field]]).map((v)=>label(field,v,lang))));
+    result.haystack=[text(item.title),text(item.description,6000),text(item.sourceName),text(item.id),text(item.license),text(item.language),strings(item.tags).join(' '),strings(a&&a.properties,120).join(' '),result.techniques.join(' '),strings(a&&a.evidence&&a.evidence.signals,120).join(' '),...translations].join(' ').toLocaleLowerCase();
+    cache.set(item,result);return result;
+  }
+  function matches(item,omit){
+    const m=meta(item);
+    if(state.view==='references'?item.kind!=='reference':item.kind==='reference')return false;
+    if(state.query.toLocaleLowerCase().split(/\s+/).filter(Boolean).slice(0,20).some((v)=>!m.haystack.includes(v)))return false;
+    return Object.keys(state.filters).every((field)=>{const selected=state.filters[field];return field===omit||!selected.size||(Array.isArray(m[field])?m[field]:[m[field]]).some((v)=>selected.has(v));});
+  }
+  function balanced(items){
+    const order=['animation','loader','transition','typography','interaction','background','shader','palette','gradient','reference'],buckets=new Map();
+    const compare=(a,b)=>text(a.title).localeCompare(text(b.title),'en',{numeric:true})||text(a.id).localeCompare(text(b.id));
+    order.forEach((type)=>{
+      const groups=new Map();items.filter((item)=>meta(item).assetType===type).forEach((item)=>{const key=text(item.sourceName,300);if(!groups.has(key))groups.set(key,[]);groups.get(key).push(item);});
+      const priority=([name,entries])=>name==='Motion Lab Originals'?0:entries.some((item)=>item.language==='svg')?1:entries.some((item)=>item.language==='glsl')?2:3;
+      const sources=[...groups.entries()].sort((a,b)=>priority(a)-priority(b)||a[0].localeCompare(b[0]));sources.forEach((entry)=>entry[1].sort(compare));
+      const bucket=[];for(let p=0;sources.some((entry)=>p<entry[1].length);p++)sources.forEach((entry)=>{if(entry[1][p])bucket.push(entry[1][p]);});buckets.set(type,bucket);
+    });
+    const result=[];for(let p=0;order.some((type)=>p<buckets.get(type).length);p++)order.forEach((type)=>{if(buckets.get(type)[p])result.push(buckets.get(type)[p]);});return result;
+  }
+  function sortedResults(){const items=state.items.filter((item)=>matches(item));if(state.sort==='balanced')return balanced(items);const field=state.sort==='source'?'sourceName':state.sort==='type'?'category':'title';return items.sort((a,b)=>text(a[field]).localeCompare(text(b[field]),state.lang==='ko'?'ko':'en',{numeric:true})||text(a.title).localeCompare(text(b.title),'en',{numeric:true})||text(a.id).localeCompare(text(b.id)));}
+  function destroyPreview(el){if(!el)return;try{if(typeof el.destroy==='function')el.destroy();else if(window.MotionPreview&&typeof window.MotionPreview.destroy==='function')window.MotionPreview.destroy(el);}catch(_){}}
+  function destroyGallery(){galleryPreviews.forEach(destroyPreview);galleryPreviews=[];}
+  function createPreview(item,compact){
+    if(item.kind!=='reference'&&window.MotionPreview&&typeof window.MotionPreview.create==='function')try{const el=window.MotionPreview.create(item,{compact,paused:state.paused,lang:state.lang,interaction:compact?false:state.interaction});if(el instanceof HTMLElement)return el;}catch(_){}
+    const el=node('div','preview-missing');el.append(node('strong','',t('noPreview')),node('span','',t(item.kind==='reference'?'reviewOriginal':'engineUnavailable')));return el;
+  }
+  function notify(message){clearTimeout(toastTimer);const toast=$('toast'),host=$('detail-dialog').open?$('detail-dialog'):$('connect-dialog').open?$('connect-dialog'):document.body;if(toast.parentElement!==host)host.append(toast);toast.textContent=message;toast.classList.add('visible');toastTimer=setTimeout(()=>toast.classList.remove('visible'),3500);}
+  async function copy(content){try{if(navigator.clipboard&&navigator.clipboard.writeText)await navigator.clipboard.writeText(content);else{const focus=document.activeElement,el=node('textarea');el.value=content;el.setAttribute('readonly','');el.style.cssText='position:fixed;left:-9999px;top:0;';document.body.append(el);el.select();const done=document.execCommand('copy');el.remove();if(focus instanceof HTMLElement)focus.focus({preventScroll:true});if(!done)throw new Error('Clipboard');}notify(t('copied'));}catch(_){notify(t('copyFailed'));}}
+  function licenseText(item){return text(item.licenseText,120000)||[t('missingLicense'),text(item.license),safeUrl(item.licenseUrl),sourceUrl(item)].filter(Boolean).join('\n\n');}
+  function codeText(item){
+    const code=text(item.code,300000),notice=text(item.licenseText,120000);
+    if(item.kind==='palette'||item.language==='json'){let parsed;try{parsed=JSON.parse(code);}catch(_){parsed={colors:Array.isArray(item.colors)?item.colors:[]};}return JSON.stringify({attribution:{title:text(item.title),source:sourceUrl(item)||text(item.sourceUrl),license:text(item.license),licenseUrl:safeUrl(item.licenseUrl),licenseText:notice||null},data:parsed},null,2);}
+    const header=['Motion Lab: '+text(item.title),'Source: '+(sourceUrl(item)||text(item.sourceUrl)),'License: '+text(item.license),safeUrl(item.licenseUrl)?'License URL: '+safeUrl(item.licenseUrl):'',notice&&!code.includes(notice.trim())?'\n'+notice:''].filter(Boolean).join('\n');
+    return item.language==='svg'?'<!--\n'+header.replace(/--/g,'—')+'\n-->\n'+code:'/*\n'+header.replace(/\*\//g,'* /')+'\n*/\n'+code;
+  }
+  function exportResults(){const data={version:state.data&&state.data.version,updatedAt:state.data&&state.data.updatedAt,query:state.query,scope:state.view,filters:Object.fromEntries(Object.entries(state.filters).map(([field,values])=>[field,[...values]])),items:state.results,sources:state.sources};const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json;charset=utf-8'})),a=node('a');a.href=url;a.download='motion-lab-'+state.view+'.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);notify(t('downloaded'));}
+  function translate(){
+    document.documentElement.lang=state.lang;document.title='Motion Lab / '+t('title');
+    const replacements={'skip-link':'skip','filters-label':'filters','reset-filters':'reset','library-title':state.view==='references'?'referenceTitle':'title','library-description':state.view==='references'?'referenceDescription':'description','export-button':'export','connect-button':'connect','sort-label':'sort','filter-toggle':'filters','empty-title':state.error?'error':'empty','empty-description':state.error?'loadHint':'emptyDescription','empty-reset':state.error?'retry':'clearAll','previous-page':'previous','next-page':'next','page-input-label':'page','go-page':'go','keyboard-hint':'keyboard','facet-evidence':'facetEvidence','detail-header-label':'details'};
+    Object.entries(replacements).forEach(([id,key])=>{$(id).textContent=t(key);});
+    $('library-description').append(node('span','keyboard-overview-help',t('keyboardShort')));
+    $('motion-label').textContent=t(state.paused?'play':'pause');$('motion-toggle').setAttribute('aria-pressed',String(state.paused));$('motion-toggle').disabled=reduced.matches;$('motion-toggle').title=reduced.matches?t('reduced'):t(state.paused?'play':'pause');
+    $('search-input').placeholder=t('search');$('search-input').setAttribute('aria-label',t('searchLabel'));
+    $('language-button').replaceChildren(document.createTextNode(state.lang.toUpperCase()),node('span','',state.lang==='ko'?'/ EN':'/ KO'));$('language-button').setAttribute('aria-label',state.lang==='ko'?'Switch to English':'한국어로 변경');
+    $('detail-language').textContent=state.lang==='ko'?'KO / EN':'EN / KO';$('detail-language').setAttribute('aria-label',state.lang==='ko'?'Switch to English':'한국어로 변경');
+    [['detail-close','closeDetails'],['connect-close','closeConnect'],['close-filters','closeFilters'],['facet-sidebar','filters'],['pagination','pagination'],['page-input','page']].forEach(([id,key])=>$(id).setAttribute('aria-label',t(key)));
+    [...$('sort-select').options].forEach((option,index)=>{option.textContent=t(['balanced','titleSort','sourceSort','typeSort'][index]);});
+    const assets=state.items.filter((item)=>item.kind!=='reference').length,refs=state.items.length-assets;
+    $('assets-tab').replaceChildren(document.createTextNode(t('assets')),node('span','',assets.toLocaleString()));$('references-tab').replaceChildren(document.createTextNode(t('references')),node('span','',refs.toLocaleString()));
+    $('assets-tab').setAttribute('aria-selected',String(state.view==='assets'));$('references-tab').setAttribute('aria-selected',String(state.view==='references'));
+    $('catalog-updated').textContent=state.data&&state.data.updatedAt?t('updated')+' '+text(state.data.updatedAt,30).slice(0,10):'';
+  }
+  function renderFacets(){
+    const focused=document.activeElement&&document.activeElement.id,fragment=document.createDocumentFragment();
+    const fields={assetType:TYPES,effects:EFFECTS,components:COMPONENTS,useCases:USES,license:['stated','review']};
+    Object.entries(fields).forEach(([field,values])=>{
+      const group=node('details','facet-group');group.open=openFacets.get(field)!==false;group.addEventListener('toggle',()=>openFacets.set(field,group.open));
+      const summary=node('summary');summary.append(node('span','',t(field)),node('span','facet-selected-count',state.filters[field].size?String(state.filters[field].size):''));group.append(summary);
+      const options=node('div','facet-options'),counts=new Map(values.map((v)=>[v,0]));
+      state.items.forEach((item)=>{if(!matches(item,field))return;const m=meta(item);(Array.isArray(m[field])?m[field]:[m[field]]).forEach((v)=>{if(counts.has(v))counts.set(v,counts.get(v)+1);});});
+      values.forEach((value)=>{const checked=state.filters[field].has(value),count=counts.get(value);if(!count&&!checked)return;const row=node('label','facet-option'),input=node('input');input.type='checkbox';input.id='facet-'+field+'-'+value;input.checked=checked;input.addEventListener('change',()=>{if(input.checked)state.filters[field].add(value);else state.filters[field].delete(value);state.page=0;renderLibrary();});row.append(input,node('span','facet-option-label',field==='license'?t(value):label(field,value)),node('span','facet-count',count.toLocaleString()));options.append(row);});
+      if(!options.childElementCount)options.append(node('p','facet-empty','—'));group.append(options);fragment.append(group);
+    });
+    $('facets').replaceChildren(fragment);if(focused&&focused.startsWith('facet-')&&$(focused))$(focused).focus({preventScroll:true});
+  }
+  function renderChips(){
+    const fragment=document.createDocumentFragment();if(state.query)fragment.append(button('“'+state.query+'” ×','filter-chip',()=>{state.query='';$('search-input').value='';state.page=0;renderLibrary();}));
+    Object.entries(state.filters).forEach(([field,values])=>values.forEach((value)=>{const name=field==='license'?t(value):label(field,value),el=button(name+' ×','filter-chip',()=>{values.delete(value);state.page=0;renderLibrary();});el.setAttribute('aria-label',t('remove')+': '+name);fragment.append(el);}));$('active-filters').replaceChildren(fragment);
+  }
+  function card(item,index){
+    const m=meta(item),article=node('article','asset-card'),action=button('','asset-card-button',()=>openDetail(item,action));action.dataset.gridIndex=String(index);action.dataset.itemId=text(item.id,250);action.setAttribute('aria-label',text(item.title)+' · '+t('details'));
+    const stage=node('div','asset-preview');stage.setAttribute('aria-hidden','true');const visual=createPreview(item,true);galleryPreviews.push(visual);stage.append(visual);
+    const content=node('div','asset-card-content'),title=node('div','asset-card-title-row');title.append(node('h2','',text(item.title,150)),node('span','format-badge',item.kind==='reference'?'LINK':text(item.language,12).toUpperCase()||'ASSET'));content.append(title);
+    const tags=node('div','asset-card-tags');tags.append(node('span','',label('assetType',m.assetType)));const second=m.effects[0]?label('effects',m.effects[0]):m.components[0]?label('components',m.components[0]):'';if(second)tags.append(node('span','',second));if(!m.analysis)tags.append(node('span','metadata-tag',t('metadataBasis')));content.append(tags);action.append(stage,content);
+    const footer=node('div','asset-card-footer');footer.append(node('span','source-name',text(item.sourceName,150)),node('span','license-label'+(m.license==='review'?' needs-review':''),m.license==='review'?t('review'):text(item.license,60)));article.append(action,footer);return article;
+  }
+  function renderLibrary(){
+    translate();renderChips();
+    if(!state.loaded){destroyGallery();$('gallery').replaceChildren();$('gallery').setAttribute('aria-busy',String(!state.error));$('results-count').textContent=t(state.error?'error':'loading');$('empty-state').hidden=!state.error;$('pagination').hidden=true;$('export-button').disabled=true;if(!state.error)for(let i=0;i<6;i++)$('gallery').append(node('div','loading-card'));return;}
+    state.results=sortedResults();const total=state.results.length,pages=Math.max(1,Math.ceil(total/PAGE_SIZE));state.page=Math.max(0,Math.min(pages-1,state.page));renderFacets();destroyGallery();
+    const fragment=document.createDocumentFragment();state.results.slice(state.page*PAGE_SIZE,(state.page+1)*PAGE_SIZE).forEach((item,index)=>fragment.append(card(item,index)));$('gallery').replaceChildren(fragment);$('gallery').setAttribute('aria-busy','false');$('results-count').textContent=total.toLocaleString()+' '+t('records');$('empty-state').hidden=total!==0;$('pagination').hidden=!total;
+    $('page-range').textContent=(total?state.page*PAGE_SIZE+1:0).toLocaleString()+'–'+Math.min(total,(state.page+1)*PAGE_SIZE).toLocaleString()+' / '+total.toLocaleString();$('page-input').value=String(state.page+1);$('page-input').max=String(pages);$('page-total').textContent='/ '+pages.toLocaleString();$('previous-page').disabled=state.page===0;$('next-page').disabled=state.page>=pages-1;$('export-button').disabled=!total;
+  }
+  function readerKey(){return state.detail?text(state.detail.id,250)+':'+state.detailTab:'';}
+  function rememberReader(){const reader=$('detail-reader');if(reader&&state.detail){positions.set(readerKey(),{top:reader.scrollTop,left:reader.scrollLeft});if(positions.size>64)positions.delete(positions.keys().next().value);}}
+  function reader(content){const pre=node('pre','code-block',content);pre.id='detail-reader';pre.tabIndex=0;pre.setAttribute('aria-label',t(state.detailTab));const position=positions.get(readerKey());if(position)requestAnimationFrame(()=>{if(pre.isConnected){pre.scrollTop=position.top;pre.scrollLeft=position.left;}});return pre;}
+  function addMeta(dl,name,value){if(value)dl.append(node('dt','',name),node('dd','',value));}
+  function provenance(item){const excluded=new Set(['code','licenseText']),value=Object.fromEntries(Object.entries(item).filter(([key])=>!excluded.has(key)));if(localOriginal(item))value.localSource=sourceUrl(item);return JSON.stringify(value,null,2);}
+  function actions(item,allowCopy=true){const el=node('div','detail-actions');if(allowCopy&&item.code&&item.kind!=='reference')el.append(button(t('copyCode'),'primary-button',()=>copy(codeText(item))));const original=link(t(localOriginal(item)?'sourceLocal':'sourceOpen'),sourceUrl(item)),license=link(t('licenseOpen'),safeUrl(item.licenseUrl));if(original)el.append(original);if(license)el.append(license);return el;}
+  function overview(item,panel){
+    const m=meta(item),stage=node('div','detail-preview-host');detailPreview=createPreview(item,false);stage.append(detailPreview);panel.append(stage);
+    const renderer=m.analysis&&m.analysis.preview&&m.analysis.preview.renderer;
+    if(item.kind!=='reference'&&['css','svg','glsl'].includes(renderer)&&detailPreview.dataset.state!=='unavailable'){
+      const controls=node('div','detail-actions preview-controls'),motion=button(t(state.paused?'play':'pause'),'outlined-button',toggleMotion);motion.id='detail-motion-toggle';motion.disabled=reduced.matches;motion.title=reduced.matches?t('reduced'):t(state.paused?'play':'pause');controls.append(motion);if(typeof detailPreview.restart==='function'&&!reduced.matches)controls.append(button(t('restart'),'outlined-button',()=>detailPreview.restart()));
+      if(renderer==='css'&&/:hover|:active/.test(text(item.code,300000))&&typeof detailPreview.setInteraction==='function'){const el=button(t(state.interaction?'deactivate':'activate'),'outlined-button',()=>{state.interaction=!state.interaction;renderDetail();});el.id='detail-interaction-toggle';el.setAttribute('aria-pressed',String(state.interaction));controls.append(el);}panel.append(controls);
+    }
+    panel.append(actions(item));const evidence=m.analysis&&m.analysis.evidence,summary=evidence&&text(state.lang==='ko'?evidence.summaryKO:evidence.summaryEN,6000),bases={code:'codeBasis','color-values':'colorBasis','reviewed-source':'reviewedBasis',metadata:'metadata'};
+    panel.append(node('h3','detail-section-label',t('evidence')),node('p','detail-evidence',summary||t('fallbackEvidence')),node('p','evidence-caption',(evidence&&bases[evidence.basis]?t(bases[evidence.basis]):t('metadataBasis'))+' · '+t('confidence')+': '+t(evidence&&['high','medium','low'].includes(evidence.confidence)?evidence.confidence:'low')));
+    const dl=node('dl','metadata');addMeta(dl,t('assetType'),label('assetType',m.assetType));['effects','components','useCases','techniques'].forEach((field)=>addMeta(dl,t(field),m[field].map((v)=>label(field,v)).join(', ')));addMeta(dl,t('sourceName'),text(item.sourceName));addMeta(dl,t('license'),text(item.license));addMeta(dl,t('identifier'),text(item.id));addMeta(dl,t('verification'),localOriginal(item)?t('localOriginal'):text(item.verification));addMeta(dl,t('format'),text(item.language).toUpperCase());addMeta(dl,t('tags'),strings(item.tags).join(', '));panel.append(dl);
+    const limits=m.analysis&&m.analysis.preview&&strings(m.analysis.preview.limitations);if(limits&&limits.length){panel.append(node('h3','detail-section-label',t('limits')));const ul=node('ul','preview-limitations');limits.forEach((v)=>ul.append(node('li','',state.lang==='ko'&&limitationKO[v]?limitationKO[v]:text(v,2000))));panel.append(ul);}if(needsReview(item))panel.append(node('p','legal-warning',t('licenseWarning')));
+  }
+  function renderDetail(remember=true){
+    if(!state.detail)return;const focusedId=document.activeElement&&document.activeElement.id;if(remember)rememberReader();destroyPreview(detailPreview);detailPreview=null;const item=state.detail,fragment=document.createDocumentFragment(),intro=node('div','detail-intro'),heading=node('h2','',text(item.title,250));heading.id='detail-title';intro.append(node('p','detail-type',label('assetType',meta(item).assetType)+' / '+text(item.language,20).toUpperCase()),heading);if(item.description)intro.append(node('p','detail-description',text(item.description,9000)));fragment.append(intro);
+    const tabs=node('div','detail-tabs');tabs.setAttribute('role','tablist');['overview','code','license','provenance'].forEach((tab)=>{if(tab==='code'&&(!item.code||item.kind==='reference'))return;const el=button(t(tab),state.detailTab===tab?'active':'',()=>{rememberReader();state.detailTab=tab;renderDetail(false);$('detail-tab-'+tab).focus({preventScroll:true});});el.id='detail-tab-'+tab;el.setAttribute('role','tab');el.setAttribute('aria-selected',String(state.detailTab===tab));tabs.append(el);});fragment.append(tabs);
+    const panel=node('div','detail-tab-content');panel.setAttribute('role','tabpanel');
+    if(state.detailTab==='overview')overview(item,panel);
+    else if(state.detailTab==='code'){const toolbar=node('div','detail-code-toolbar');toolbar.append(node('span','',text(item.language,20).toUpperCase()),button(t('copyCode'),'primary-button',()=>copy(codeText(item))));panel.append(toolbar,node('p','evidence-caption',t('readHint')),reader(codeText(item)));}
+    else if(state.detailTab==='license'){const toolbar=node('div','detail-code-toolbar');toolbar.append(node('span','',text(item.license,200)),button(t('copyLicense'),'outlined-button',()=>copy(licenseText(item))));panel.append(toolbar);if(needsReview(item))panel.append(node('p','legal-warning',t('licenseWarning')));panel.append(reader(licenseText(item)),actions(item,false));}
+    else panel.append(node('p','evidence-caption',t('provenanceHint')),reader(provenance(item)),actions(item,false));
+    panel.append(node('p','evidence-caption source-language-note',t('sourceLanguage')));fragment.append(panel);$('detail-content').replaceChildren(fragment);if(['detail-motion-toggle','detail-interaction-toggle'].includes(focusedId)&&$(focusedId))$(focusedId).focus({preventScroll:true});
+  }
+  function openDetail(item,source){state.detail=item;state.detailTab='overview';state.interaction=false;returnId=source.dataset.itemId;renderDetail();$('detail-dialog').showModal();$('detail-close').focus();}
+  function closeDetail(){rememberReader();destroyPreview(detailPreview);detailPreview=null;state.detail=null;$('detail-content').replaceChildren();const el=[...$('gallery').querySelectorAll('[data-item-id]')].find((candidate)=>candidate.dataset.itemId===returnId);if(el)el.focus({preventScroll:true});}
+  const mcpConfig=()=>JSON.stringify({mcpServers:{'motion-lab':{command:'python',args:[ROOT+'/motionlab/launch_mcp.py','--root',ROOT]}}},null,2);
+  const cliCommands=()=>'python -m motionlab search "bounce" --limit 10 --json\npython -m motionlab search --effect mask --component image --limit 20 --json\npython -m motionlab get animate-bounce --json\npython -m motionlab stats\npython -m motionlab serve\npython -m motionlab mcp';
+  function renderConnect(){
+    const body=node('div','connect-body'),heading=node('h2','',t('connectionTitle'));heading.id='connect-title';body.append(heading,node('p','',t('connectionDescription')));const tabs=node('div','connect-tabs');tabs.setAttribute('role','tablist');['mcp','cli','json'].forEach((tab)=>{const el=button(t(tab),state.connectTab===tab?'active':'',()=>{state.connectTab=tab;renderConnect();$('connect-tab-'+tab).focus({preventScroll:true});});el.id='connect-tab-'+tab;el.setAttribute('role','tab');el.setAttribute('aria-selected',String(state.connectTab===tab));tabs.append(el);});body.append(tabs);const controls=node('div','connect-actions');
+    if(state.connectTab==='mcp'){body.append(node('p','',t('mcpAbout')),node('p','legal-warning',t('mcpNote')),node('pre','code-block',mcpConfig()));controls.append(button(t('copyTemplate'),'primary-button',()=>copy(mcpConfig())));}
+    else if(state.connectTab==='cli'){body.append(node('p','',t('cliAbout')),node('pre','code-block',cliCommands()));controls.append(button(t('copyCommands'),'primary-button',()=>copy(cliCommands())));}
+    else{body.append(node('p','',t('jsonAbout')),node('pre','code-block','GET /api/search?q=bounce&limit=20&offset=0\nGET /api/search?effect=mask&component=image&limit=20&offset=0\nGET /api/items/animate-bounce\nGET /api/stats'));controls.append(link(t('fullJson'),'./catalog.json'),link(t('indexJson'),'./catalog-index.json'),button(t('exportCurrent'),'outlined-button',exportResults));}
+    body.append(controls);$('connect-content').replaceChildren(body);body.querySelectorAll('pre').forEach((pre)=>{pre.tabIndex=0;});
+  }
+  function toggleLanguage(){rememberReader();state.lang=state.lang==='ko'?'en':'ko';renderLibrary();if(state.detail)renderDetail();if($('connect-dialog').open)renderConnect();}
+  function toggleMotion(){state.paused=reduced.matches||!state.paused;translate();galleryPreviews.forEach((el)=>{if(typeof el.setPaused==='function')el.setPaused(state.paused);});if(detailPreview&&typeof detailPreview.setPaused==='function')detailPreview.setPaused(state.paused);if(state.detail&&state.detailTab==='overview')renderDetail();}
+  function clearFilters(){clearTimeout(searchTimer);Object.values(state.filters).forEach((values)=>values.clear());state.query='';$('search-input').value='';state.page=0;renderLibrary();}
+  function changePage(page){const max=Math.max(1,Math.ceil(state.results.length/PAGE_SIZE));if(!Number.isInteger(page)||page<0||page>=max){notify(t('invalidPage'));return;}state.page=page;renderLibrary();$('library-main').scrollIntoView({block:'start',behavior:'instant'});const first=$('gallery').querySelector('[data-grid-index]');if(first)first.focus({preventScroll:true});}
+  function goPage(){const value=$('page-input').value;if(!/^\d{1,5}$/.test(value)){notify(t('invalidPage'));return;}changePage(Number(value)-1);}
+  function setView(view){state.view=view;state.page=0;Object.values(state.filters).forEach((values)=>values.clear());renderLibrary();}
+  function rendered(el){return Boolean(el&&el.isConnected&&el.getClientRects().length&&!el.disabled&&getComputedStyle(el).visibility!=='hidden');}
+  function focusControl(el){if(!rendered(el))return false;el.focus({preventScroll:true});el.scrollIntoView({block:'nearest',inline:'nearest'});return true;}
+  function focusFirstAsset(){return focusControl($('gallery').querySelector('[data-grid-index]'));}
+  function moveGrid(event){
+    const current=event.target.closest&&event.target.closest('[data-grid-index]');if(!current||!['ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(event.key))return false;
+    const items=[...$('gallery').querySelectorAll('[data-grid-index]')],columns=Math.max(1,getComputedStyle($('gallery')).gridTemplateColumns.split(' ').filter(Boolean).length),index=Number(current.dataset.gridIndex),delta=event.key==='ArrowUp'?-columns:event.key==='ArrowDown'?columns:event.key==='ArrowLeft'?-1:1,next=items[index+delta];
+    if(index===0&&event.key==='ArrowLeft')focusControl(rendered($('filter-toggle'))?$('filter-toggle'):$('facets').querySelector('summary'));
+    else if(!next&&['ArrowDown','ArrowRight'].includes(event.key))focusControl(!$('next-page').disabled?$('next-page'):$('page-input'));
+    else if(!next&&event.key==='ArrowUp')focusControl($('search-input'));
+    else if(next)focusControl(next);
+    event.preventDefault();return true;
+  }
+  function navigateKeys(event){
+    if(event.defaultPrevented||event.ctrlKey||event.metaKey||event.altKey)return;
+    const target=event.target,scope=$('detail-dialog').open?$('detail-dialog'):$('connect-dialog').open?$('connect-dialog'):document;
+    if(target instanceof HTMLElement&&target.matches('pre.code-block')){
+      if(event.key==='Enter'){event.preventDefault();focusControl(scope.querySelector('[role="tab"][aria-selected="true"]'));}return;
+    }
+    if(target instanceof HTMLInputElement&&target.type==='checkbox'&&event.key==='Enter'){event.preventDefault();target.click();return;}
+    const arrow=['ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(event.key);
+    if(!arrow)return;
+    if(scope===document&&target===$('search-input')){if(event.key==='ArrowDown'&&focusFirstAsset())event.preventDefault();else if(event.key==='ArrowUp'){event.preventDefault();focusControl(document.querySelector('.brand'));}return;}
+    if(scope===document&&moveGrid(event))return;
+    if((target instanceof HTMLSelectElement||(target instanceof HTMLInputElement&&target.type==='number'))&&['ArrowUp','ArrowDown'].includes(event.key))return;
+    if(target instanceof HTMLInputElement&&!['checkbox','number'].includes(target.type)||target instanceof HTMLTextAreaElement||target.isContentEditable)return;
+    if(scope===document&&event.key==='ArrowDown'&&(target===document.body||target===document.documentElement||target===$('library-main'))&&focusFirstAsset()){event.preventDefault();return;}
+    const controls=[...scope.querySelectorAll('button,summary,a[href],input,select,pre[tabindex]')].filter((el)=>rendered(el)&&!el.classList.contains('skip-link'));
+    if(!controls.length)return;
+    const index=controls.indexOf(target),forward=['ArrowDown','ArrowRight'].includes(event.key),next=index<0?(forward?0:controls.length-1):(index+(forward?1:-1)+controls.length)%controls.length;
+    event.preventDefault();focusControl(controls[next]);
+  }
+  async function load(){state.loaded=false;state.error=false;renderLibrary();try{const response=await fetch('./catalog.json');if(!response.ok)throw new Error('Catalog unavailable');const data=await response.json();if(!data||!Array.isArray(data.items))throw new Error('Invalid catalog');state.data=data;state.items=data.items.filter((item)=>item&&typeof item==='object'&&typeof item.id==='string'&&typeof item.title==='string').slice(0,100000);state.sources=Array.isArray(data.sources)?data.sources:[];state.loaded=true;renderLibrary();}catch(_){state.error=true;renderLibrary();}}
+  $('language-button').addEventListener('click',toggleLanguage);$('detail-language').addEventListener('click',toggleLanguage);$('motion-toggle').addEventListener('click',toggleMotion);$('reset-filters').addEventListener('click',clearFilters);$('empty-reset').addEventListener('click',()=>state.error?load():clearFilters());$('export-button').addEventListener('click',exportResults);
+  $('assets-tab').addEventListener('click',()=>setView('assets'));$('references-tab').addEventListener('click',()=>setView('references'));$('previous-page').addEventListener('click',()=>changePage(state.page-1));$('next-page').addEventListener('click',()=>changePage(state.page+1));$('go-page').addEventListener('click',goPage);$('page-input').addEventListener('keydown',(event)=>{if(event.key==='Enter'){event.preventDefault();goPage();}});
+  $('sort-select').addEventListener('change',(event)=>{state.sort=['balanced','title','source','type'].includes(event.target.value)?event.target.value:'balanced';state.page=0;renderLibrary();});
+  $('search-input').addEventListener('input',(event)=>{const value=text(event.target.value,200);clearTimeout(searchTimer);searchTimer=setTimeout(()=>{state.query=value.trim();state.page=0;renderLibrary();},140);});
+  $('search-input').addEventListener('keydown',(event)=>{if(event.key==='Enter'){event.preventDefault();clearTimeout(searchTimer);state.query=text(event.target.value,200).trim();state.page=0;renderLibrary();const first=$('gallery').querySelector('button');if(first)first.focus();}});
+  $('filter-toggle').addEventListener('click',()=>{const open=document.querySelector('.explorer-layout').classList.toggle('filters-open');$('filter-toggle').setAttribute('aria-expanded',String(open));if(open){const first=$('facets').querySelector('summary');if(first)first.focus();}});
+  $('close-filters').addEventListener('click',()=>{document.querySelector('.explorer-layout').classList.remove('filters-open');$('filter-toggle').setAttribute('aria-expanded','false');$('filter-toggle').focus();});
+  $('detail-close').addEventListener('click',()=>$('detail-dialog').close());$('detail-dialog').addEventListener('close',closeDetail);$('detail-dialog').addEventListener('click',(event)=>{if(event.target===$('detail-dialog')){const r=event.target.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)event.target.close();}});
+  $('connect-button').addEventListener('click',()=>{renderConnect();$('connect-dialog').showModal();$('connect-close').focus();});$('connect-close').addEventListener('click',()=>$('connect-dialog').close());$('connect-dialog').addEventListener('close',()=>$('connect-button').focus({preventScroll:true}));
+  document.addEventListener('keydown',(event)=>{navigateKeys(event);const editing=event.target instanceof HTMLInputElement||event.target instanceof HTMLTextAreaElement||event.target.isContentEditable;if(event.key==='/'&&!editing&&!$('detail-dialog').open&&!$('connect-dialog').open){event.preventDefault();$('search-input').focus();}});
+  reduced.addEventListener('change',(event)=>{if(event.matches&&!state.paused)toggleMotion();else{translate();if(state.detail&&state.detailTab==='overview')renderDetail();}});window.addEventListener('pagehide',()=>{destroyGallery();destroyPreview(detailPreview);});
+  window.addEventListener('pageshow',(event)=>{if(event.persisted){state.paused=state.paused||reduced.matches;renderLibrary();if(state.detail)renderDetail();}});
+  load();
+})();
+
+
+
+
+

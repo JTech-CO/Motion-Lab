@@ -1,0 +1,701 @@
+[
+  {
+    "id": "ref-fluid-studio",
+    "title": "Fluid Studio",
+    "description": "의존성 없는 HTML 파일에서 절차적 WebGL 배경과 라이브 임베드를 만드는 도구.",
+    "category": "background",
+    "tags": [
+      "webgl",
+      "generative",
+      "procedural"
+    ],
+    "sourceUrl": "https://github.com/Giacomo-Paolini/fluid",
+    "sourceName": "Fluid Studio",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public",
+    "analysis": {
+      "version": 1,
+      "assetType": "reference",
+      "effects": [],
+      "components": [],
+      "properties": [],
+      "techniques": [
+        "reference-link"
+      ],
+      "useCases": [
+        "reference"
+      ],
+      "evidence": {
+        "basis": "metadata",
+        "confidence": "low",
+        "summaryKO": "원문 링크와 수집 메타데이터만 확인했습니다. 실제 효과나 구성요소를 추측하지 않습니다.",
+        "summaryEN": "Discovery link and collection metadata only. No effects or components are inferred.",
+        "signals": []
+      },
+      "preview": {
+        "renderer": "none",
+        "limitations": [
+          "A discovery link is not a rendered asset and does not grant reuse rights."
+        ]
+      }
+    }
+  },
+  {
+    "id": "ref-nebulla-particle-library",
+    "title": "Nebulla Particle Library",
+    "description": "Three.js 커스텀 셰이더를 사용하는 입자 파도 애니메이션 프로젝트.",
+    "category": "background",
+    "tags": [
+      "threejs",
+      "particles",
+      "wave"
+    ],
+    "sourceUrl": "https://github.com/RavenRepo/nebulla-particle-library",
+    "sourceName": "Nebulla Particle Library",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "search-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public",
+    "analysis": {
+      "version": 1,
+      "assetType": "reference",
+      "effects": [],
+      "components": [],
+      "properties": [],
+      "techniques": [
+        "reference-link"
+      ],
+      "useCases": [
+        "reference"
+      ],
+      "evidence": {
+        "basis": "metadata",
+        "confidence": "low",
+        "summaryKO": "원문 링크와 수집 메타데이터만 확인했습니다. 실제 효과나 구성요소를 추측하지 않습니다.",
+        "summaryEN": "Discovery link and collection metadata only. No effects or components are inferred.",
+        "signals": []
+      },
+      "preview": {
+        "renderer": "none",
+        "limitations": [
+          "A discovery link is not a rendered asset and does not grant reuse rights."
+        ]
+      }
+    }
+  },
+  {
+    "id": "ref-haikei",
+    "title": "Haikei",
+    "description": "파도·블롭·격자·그라디언트 같은 디자인 자산을 SVG·PNG로 생성하는 도구.",
+    "category": "background",
+    "tags": [
+      "svg",
+      "blob",
+      "wave",
+      "generator"
+    ],
+    "sourceUrl": "https://haikei.app/",
+    "sourceName": "Haikei",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public",
+    "analysis": {
+      "version": 1,
+      "assetType": "reference",
+      "effects": [],
+      "components": [],
+      "properties": [],
+      "techniques": [
+        "reference-link"
+      ],
+      "useCases": [
+        "reference"
+      ],
+      "evidence": {
+        "basis": "metadata",
+        "confidence": "low",
+        "summaryKO": "원문 링크와 수집 메타데이터만 확인했습니다. 실제 효과나 구성요소를 추측하지 않습니다.",
+        "summaryEN": "Discovery link and collection metadata only. No effects or components are inferred.",
+        "signals": []
+      },
+      "preview": {
+        "renderer": "none",
+        "limitations": [
+          "A discovery link is not a rendered asset and does not grant reuse rights."
+        ]
+      }
+    }
+  },
+  {
+    "id": "ref-svg-backgrounds",
+    "title": "SVG Backgrounds",
+    "description": "색상과 스타일을 바꾼 SVG 배경을 CSS·인라인 SVG로 내보내는 디자인 도구.",
+    "category": "background",
+    "tags": [
+      "svg",
+      "css",
+      "patterns"
+    ],
+    "sourceUrl": "https://www.svgbackgrounds.com/",
+    "sourceName": "SVG Backgrounds",
+    "license": "reference-only",
+    "verifiedAt": "2026-10-08",
+    "verification": "page-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "grid"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public",
+    "analysis": {
+      "version": 1,
+      "assetType": "reference",
+      "effects": [],
+      "components": [],
+      "properties": [],
+      "techniques": [
+        "reference-link"
+      ],
+      "useCases": [
+        "reference"
+      ],
+      "evidence": {
+        "basis": "metadata",
+        "confidence": "low",
+        "summaryKO": "원문 링크와 수집 메타데이터만 확인했습니다. 실제 효과나 구성요소를 추측하지 않습니다.",
+        "summaryEN": "Discovery link and collection metadata only. No effects or components are inferred.",
+        "signals": []
+      },
+      "preview": {
+        "renderer": "none",
+        "limitations": [
+          "A discovery link is not a rendered asset and does not grant reuse rights."
+        ]
+      }
+    }
+  },
+  {
+    "id": "ml-original-checker-drift",
+    "title": "Seamless Checker Drift",
+    "description": "반복 타일 한 칸만큼 배경을 이동해 끝과 시작이 맞물리는 체커 루프를 만듭니다.",
+    "category": "background",
+    "tags": [
+      "checker",
+      "conic-gradient",
+      "tile",
+      "loop",
+      "체커",
+      "패턴",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-checker-drift",
+      "keyframe": "ml-checker-drift",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-checker-drift {\n  from { background-position: 0 0; }\n  to { background-position: 48px 48px; }\n}\n.motion-sample { width: 132px; height: 86px; background: repeating-conic-gradient(#415833 0% 25%, #263b20 0% 50%) 0 0 / 48px 48px; color: #e4f5d3; border: 1px solid #657e44; animation: ml-checker-drift 5s linear infinite; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/background.json#ml-original-checker-drift",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+    "analysis": {
+      "version": 1,
+      "assetType": "background",
+      "effects": [
+        "slide",
+        "pixel"
+      ],
+      "components": [
+        "text",
+        "shape",
+        "grid",
+        "stroke",
+        "color"
+      ],
+      "properties": [
+        "animation",
+        "background",
+        "background-position",
+        "border",
+        "border-radius",
+        "color",
+        "display",
+        "height",
+        "width"
+      ],
+      "techniques": [
+        "keyframes",
+        "gradient"
+      ],
+      "useCases": [
+        "ambient"
+      ],
+      "evidence": {
+        "basis": "code",
+        "confidence": "high",
+        "summaryKO": "원본 코드의 선택자·선언·키프레임을 분석했습니다.",
+        "summaryEN": "Inspected source selectors, declarations and keyframes.",
+        "signals": [
+          "@keyframes:ml-checker-drift",
+          "background:animated-repeating-tiles",
+          "animated-properties:background-position",
+          "code-sha256:6e1d6af2c8ca4da3a10f1c46efac656345885f720199ce58eee6426cc6e4a0a4"
+        ]
+      },
+      "preview": {
+        "renderer": "css",
+        "selectors": [
+          ".motion-sample"
+        ],
+        "keyframes": [
+          "ml-checker-drift"
+        ],
+        "limitations": [
+          "CSS analysis does not grant permission to execute arbitrary selectors or URLs."
+        ],
+        "dom": {
+          "tag": "div",
+          "className": "motion-sample",
+          "text": "ML"
+        }
+      }
+    }
+  },
+  {
+    "id": "ml-original-halftone-breathe",
+    "title": "Halftone Field Breathe",
+    "description": "점의 반복 간격을 넓혔다 좁히는 하프톤 필드입니다. 배경 색상은 유지하며 패턴의 밀도만 변합니다.",
+    "category": "background",
+    "tags": [
+      "halftone",
+      "dots",
+      "radial-gradient",
+      "pattern",
+      "하프톤",
+      "점",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-halftone-breathe",
+      "keyframe": "ml-halftone-breathe",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-halftone-breathe {\n  0%, 100% { background-size: 10px 10px; }\n  50% { background-size: 18px 18px; }\n}\n.motion-sample { width: 132px; height: 86px; background-color: #213319; background-image: radial-gradient(circle, #a9d675 1.5px, transparent 1.6px); background-position: center; background-size: 10px 10px; color: #f0ffe2; border: 1px solid #526e3b; animation: ml-halftone-breathe 5.2s ease-in-out infinite; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/background.json#ml-original-halftone-breathe",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+    "analysis": {
+      "version": 1,
+      "assetType": "background",
+      "effects": [
+        "pulse",
+        "pixel"
+      ],
+      "components": [
+        "text",
+        "shape",
+        "grid",
+        "stroke",
+        "color"
+      ],
+      "properties": [
+        "animation",
+        "background",
+        "background-color",
+        "background-image",
+        "background-position",
+        "background-size",
+        "border",
+        "border-radius",
+        "color",
+        "display",
+        "height",
+        "width"
+      ],
+      "techniques": [
+        "keyframes",
+        "gradient"
+      ],
+      "useCases": [
+        "ambient"
+      ],
+      "evidence": {
+        "basis": "code",
+        "confidence": "high",
+        "summaryKO": "원본 코드의 선택자·선언·키프레임을 분석했습니다.",
+        "summaryEN": "Inspected source selectors, declarations and keyframes.",
+        "signals": [
+          "@keyframes:ml-halftone-breathe",
+          "background:animated-repeating-tiles",
+          "animated-properties:background-size",
+          "code-sha256:e75c77b3629057dcf0dae3cba805924e7bd3d04d0389453a5466b80bb85ef618"
+        ]
+      },
+      "preview": {
+        "renderer": "css",
+        "selectors": [
+          ".motion-sample"
+        ],
+        "keyframes": [
+          "ml-halftone-breathe"
+        ],
+        "limitations": [
+          "CSS analysis does not grant permission to execute arbitrary selectors or URLs."
+        ],
+        "dom": {
+          "tag": "div",
+          "className": "motion-sample",
+          "text": "ML"
+        }
+      }
+    }
+  },
+  {
+    "id": "ml-original-scanline-sweep",
+    "title": "Scanline Inspection Sweep",
+    "description": "얇은 발광 선을 콘텐츠 위로 통과시키는 장식 오버레이입니다. 의사 요소는 포인터 입력을 받지 않습니다.",
+    "category": "background",
+    "tags": [
+      "scanline",
+      "sweep",
+      "overlay",
+      "scan",
+      "스캔",
+      "오버레이",
+      "css",
+      "original",
+      "Motion Lab"
+    ],
+    "sourceUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+    "sourceName": "Motion Lab Originals",
+    "license": "MIT",
+    "verifiedAt": "2026-10-08",
+    "verification": "original-authored",
+    "kind": "code",
+    "preview": {
+      "type": "css",
+      "variant": "ml-scanline-sweep",
+      "keyframe": "ml-scanline-sweep",
+      "adapted": true,
+      "sampleText": "ML"
+    },
+    "code": "/*\nMotion Lab Originals\nCopyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n\nOriginal Motion Lab recipe. Not imported from an external collection.\nUse one element with class motion-sample; example text: ML.\nThe infinite loop is a gallery demo. For a production entrance remove the gallery exit/reset frames, end at\nits visible state, then use one iteration and animation-fill-mode: both.\n*/\n\n.motion-sample {\n  --ml-accent: #c6f66b;\n  --ml-ink: #13210d;\n  box-sizing: border-box;\n  position: relative;\n  display: grid;\n  place-items: center;\n  width: 104px;\n  height: 68px;\n  border-radius: 10px;\n  color: var(--ml-ink);\n  background: var(--ml-accent);\n  font: 700 20px/1 system-ui, sans-serif;\n}\n\n@keyframes ml-scanline-sweep {\n  0%, 8% { transform: translateY(-8px); opacity: 0; }\n  18% { opacity: .75; }\n  82% { opacity: .75; }\n  92%, 100% { transform: translateY(80px); opacity: 0; }\n}\n.motion-sample { overflow: hidden; background: #20351a; color: #d9f7be; border: 1px solid #5c8441; }\n.motion-sample::after { content: \"\"; position: absolute; left: 0; right: 0; top: 0; height: 2px; pointer-events: none; background: #c6f66b; box-shadow: 0 -5px 12px #c6f66b50; opacity: 0; animation: ml-scanline-sweep 4.2s linear infinite; }\n\n@media (prefers-reduced-motion: reduce) {\n  .motion-sample {\n    animation: none !important;\n    transition: none !important;\n    transform: none !important;\n    opacity: 1 !important;\n    filter: none !important;\n    clip-path: none !important;\n    letter-spacing: normal !important;\n  }\n  .motion-sample::before,\n  .motion-sample::after {\n    animation: none !important;\n    transition: none !important;\n  }\n}\n",
+    "colors": [
+      "#c6f66b",
+      "#13210d"
+    ],
+    "language": "css",
+    "access": "public",
+    "sourceStatus": "local-original; publication-pending",
+    "sourcePath": "collections/background.json#ml-original-scanline-sweep",
+    "licenseText": "Copyright (c) 2026 Motion Lab contributors\nSPDX-License-Identifier: MIT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+    "analysis": {
+      "version": 1,
+      "assetType": "background",
+      "effects": [
+        "fade",
+        "slide",
+        "pulse"
+      ],
+      "components": [
+        "text",
+        "shape",
+        "stroke",
+        "layer",
+        "color"
+      ],
+      "properties": [
+        "animation",
+        "background",
+        "border",
+        "border-radius",
+        "box-shadow",
+        "color",
+        "content",
+        "display",
+        "height",
+        "left",
+        "opacity",
+        "overflow",
+        "right",
+        "top",
+        "transform",
+        "width"
+      ],
+      "techniques": [
+        "keyframes",
+        "transform",
+        "pseudo-element"
+      ],
+      "useCases": [
+        "ambient"
+      ],
+      "evidence": {
+        "basis": "code",
+        "confidence": "high",
+        "summaryKO": "원본 코드의 선택자·선언·키프레임을 분석했습니다.",
+        "summaryEN": "Inspected source selectors, declarations and keyframes.",
+        "signals": [
+          "@keyframes:ml-scanline-sweep",
+          "animated-properties:opacity,transform",
+          "code-sha256:a6e8cdca5a90a3849b7b3c82fed51984c3161aa0dbdbd25c37a984f13674c43f"
+        ]
+      },
+      "preview": {
+        "renderer": "css",
+        "selectors": [
+          ".motion-sample",
+          ".motion-sample::after"
+        ],
+        "keyframes": [
+          "ml-scanline-sweep"
+        ],
+        "limitations": [
+          "CSS analysis does not grant permission to execute arbitrary selectors or URLs."
+        ],
+        "dom": {
+          "tag": "div",
+          "className": "motion-sample",
+          "text": "ML"
+        }
+      }
+    }
+  },
+  {
+    "id": "asset-magicui-meteors",
+    "title": "Magic UI · Meteors",
+    "description": "각 유성의 가로 위치·시작 지연·주기를 생성하고 머리와 그라디언트 꼬리로 샤워 효과를 구성합니다.",
+    "category": "background",
+    "tags": [
+      "react",
+      "component",
+      "particles",
+      "meteor",
+      "stagger",
+      "gradient"
+    ],
+    "sourceUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/meteors.tsx",
+    "sourceName": "Magic UI",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/LICENSE.md",
+    "licenseText": "MIT License\n\nCopyright (c) Magic UI\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+    "verifiedAt": "2026-10-08",
+    "verification": "source-reviewed",
+    "kind": "reference",
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public",
+    "sourceCommit": "cdb348cb4c72a9b54b554d8617801e479fbc8714",
+    "evidence": {
+      "sourceUrls": [
+        "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/meteors.tsx",
+        "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/LICENSE.md",
+        "https://magicui.design/docs/components/meteors"
+      ],
+      "component": "Meteors",
+      "artifactPath": "apps/www/registry/magicui/meteors.tsx",
+      "sourceCommit": "cdb348cb4c72a9b54b554d8617801e479fbc8714",
+      "mechanism": "각 유성의 가로 위치·시작 지연·주기를 생성하고 머리와 그라디언트 꼬리로 샤워 효과를 구성합니다.",
+      "scope": "individual-asset",
+      "rights": "MIT verified at pinned source revision",
+      "documentationUrl": "https://magicui.design/docs/components/meteors",
+      "details": {
+        "parameters": [
+          "number",
+          "minDelay",
+          "maxDelay",
+          "minDuration",
+          "maxDuration",
+          "angle"
+        ],
+        "dependencies": [
+          "react",
+          "Tailwind CSS animate-meteor",
+          "@/lib/utils"
+        ]
+      },
+      "extraction": "Individual implementation and component documentation reviewed; executable React/Tailwind code not embedded because this archive executes CSS/SVG only."
+    },
+    "preview": {
+      "type": "reference",
+      "variant": "component"
+    },
+    "analysis": {
+      "version": 1,
+      "assetType": "reference",
+      "effects": [],
+      "components": [],
+      "properties": [],
+      "techniques": [
+        "reference-link"
+      ],
+      "useCases": [
+        "reference"
+      ],
+      "evidence": {
+        "basis": "metadata",
+        "confidence": "low",
+        "summaryKO": "원문 링크와 수집 메타데이터만 확인했습니다. 실제 효과나 구성요소를 추측하지 않습니다.",
+        "summaryEN": "Discovery link and collection metadata only. No effects or components are inferred.",
+        "signals": []
+      },
+      "preview": {
+        "renderer": "none",
+        "limitations": [
+          "A discovery link is not a rendered asset and does not grant reuse rights."
+        ]
+      }
+    }
+  },
+  {
+    "id": "asset-magicui-particles",
+    "title": "Magic UI · Particles",
+    "description": "캔버스에 원 입자를 그리고 매 프레임 위치·투명도·마우스에 따른 변위를 갱신하며 영역 밖 입자를 재생성합니다.",
+    "category": "background",
+    "tags": [
+      "react",
+      "component",
+      "canvas",
+      "particles",
+      "cursor",
+      "interactive"
+    ],
+    "sourceUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/particles.tsx",
+    "sourceName": "Magic UI",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/LICENSE.md",
+    "licenseText": "MIT License\n\nCopyright (c) Magic UI\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+    "verifiedAt": "2026-10-08",
+    "verification": "source-reviewed",
+    "kind": "reference",
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public",
+    "sourceCommit": "cdb348cb4c72a9b54b554d8617801e479fbc8714",
+    "evidence": {
+      "sourceUrls": [
+        "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/particles.tsx",
+        "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/LICENSE.md",
+        "https://magicui.design/docs/components/particles"
+      ],
+      "component": "Particles",
+      "artifactPath": "apps/www/registry/magicui/particles.tsx",
+      "sourceCommit": "cdb348cb4c72a9b54b554d8617801e479fbc8714",
+      "mechanism": "캔버스에 원 입자를 그리고 매 프레임 위치·투명도·마우스에 따른 변위를 갱신하며 영역 밖 입자를 재생성합니다.",
+      "scope": "individual-asset",
+      "rights": "MIT verified at pinned source revision",
+      "documentationUrl": "https://magicui.design/docs/components/particles",
+      "details": {
+        "parameters": [
+          "quantity",
+          "staticity",
+          "ease",
+          "size",
+          "color",
+          "vx",
+          "vy"
+        ],
+        "dependencies": [
+          "react",
+          "CanvasRenderingContext2D",
+          "requestAnimationFrame",
+          "@/lib/utils"
+        ]
+      },
+      "extraction": "Individual implementation and component documentation reviewed; executable React/Tailwind code not embedded because this archive executes CSS/SVG only."
+    },
+    "preview": {
+      "type": "reference",
+      "variant": "component"
+    },
+    "analysis": {
+      "version": 1,
+      "assetType": "reference",
+      "effects": [],
+      "components": [],
+      "properties": [],
+      "techniques": [
+        "reference-link"
+      ],
+      "useCases": [
+        "reference"
+      ],
+      "evidence": {
+        "basis": "metadata",
+        "confidence": "low",
+        "summaryKO": "원문 링크와 수집 메타데이터만 확인했습니다. 실제 효과나 구성요소를 추측하지 않습니다.",
+        "summaryEN": "Discovery link and collection metadata only. No effects or components are inferred.",
+        "signals": []
+      },
+      "preview": {
+        "renderer": "none",
+        "limitations": [
+          "A discovery link is not a rendered asset and does not grant reuse rights."
+        ]
+      }
+    }
+  }
+]

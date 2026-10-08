@@ -1,0 +1,965 @@
+GL Transitions pinned MIT source notices
+Repository: gl-transitions/gl-transitions
+Commit: 902218a1b63773ac0d0d9f491951da3392365bfe
+
+MIT License
+
+Copyright (c) 2017-present gl-transitions contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Note: Individual transitions in the transitions/ directory may have their own
+license specified in their file header comments. When no license is specified,
+the transition is covered by this MIT license.
+
+
+---
+AdvancedMosaic
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/AdvancedMosaic.glsl
+
+// Author: Sergey Kosarevsky
+// License: MIT
+// Ported from https://gist.github.com/corporateshark/21d2fdd24c706952dc8c
+
+---
+angular
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/angular.glsl
+
+// Author: Fernando Kuteken
+// License: MIT
+
+---
+BlockDissolve
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/BlockDissolve.glsl
+
+// Author: nwoeanhinnogaehr
+// License: MIT
+// Ported from https://gist.github.com/nwoeanhinnogaehr/b93818de23d4511fde10
+
+---
+BookFlip
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/BookFlip.glsl
+
+// Author: hong
+// License: MIT
+
+---
+Bounce
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/Bounce.glsl
+
+// Author: Adrian Purser
+// License: MIT
+
+---
+BowTieHorizontal
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/BowTieHorizontal.glsl
+
+// Author: huynx
+// License: MIT
+
+---
+BowTieVertical
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/BowTieVertical.glsl
+
+// Author: huynx
+// License: MIT
+
+---
+BowTieWithParameter
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/BowTieWithParameter.glsl
+
+// Author: KMojek
+// License: MIT
+
+---
+Box
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/Box.glsl
+
+// Author: lql
+// License: MIT
+
+---
+burn
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/burn.glsl
+
+// Author: gre
+// License: MIT
+
+---
+burn0
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/burn0.glsl
+
+// Author: liubailin2020@gmail.com
+// License: MIT
+
+---
+ButterflyWaveScrawler
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/ButterflyWaveScrawler.glsl
+
+// Author: mandubian
+// License: MIT
+
+---
+cannabisleaf
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/cannabisleaf.glsl
+
+// Author: @Flexi23
+// License: MIT
+
+// inspired by http://www.wolframalpha.com/input/?i=cannabis+curve
+
+---
+chessboard
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/chessboard.glsl
+
+// Author: lql
+// License: MIT
+
+---
+circle
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/circle.glsl
+
+// Author: Fernando Kuteken
+// License: MIT
+
+---
+CircleCrop
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/CircleCrop.glsl
+
+// License: MIT
+// Author: fkuteken
+// ported by gre from https://gist.github.com/fkuteken/f63e3009c1143950dee9063c3b83fb88
+
+---
+circleopen
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/circleopen.glsl
+
+// Author: gre
+// License: MIT
+
+---
+colorphase
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/colorphase.glsl
+
+// Author: gre
+// License: MIT
+
+// Usage: fromStep and toStep must be in [0.0, 1.0] range 
+// and all(fromStep) must be < all(toStep)
+
+---
+ColourDistance
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/ColourDistance.glsl
+
+// License: MIT
+// Author: P-Seebauer
+// ported by gre from https://gist.github.com/P-Seebauer/2a5fa2f77c883dd661f9
+
+---
+coord-from-in
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/coord-from-in.glsl
+
+// Author: haiyoucuv
+// License: MIT
+
+---
+CrazyParametricFun
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/CrazyParametricFun.glsl
+
+// Author: mandubian
+// License: MIT
+
+---
+crosshatch
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/crosshatch.glsl
+
+// License: MIT
+// Author: pthrasher
+// adapted by gre from https://gist.github.com/pthrasher/04fd9a7de4012cbb03f6
+
+---
+crosswarp
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/crosswarp.glsl
+
+// Author: Eke Péter <peterekepeter@gmail.com>
+// License: MIT
+
+---
+CrossZoom
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/CrossZoom.glsl
+
+// License: MIT
+// Author: rectalogic
+// ported by gre from https://gist.github.com/rectalogic/b86b90161503a0023231
+
+// Converted from https://github.com/rectalogic/rendermix-basic-effects/blob/master/assets/com/rendermix/CrossZoom/CrossZoom.frag
+// Which is based on https://github.com/evanw/glfx.js/blob/master/src/filters/blur/zoomblur.js
+// With additional easing functions from https://github.com/rectalogic/rendermix-basic-effects/blob/master/assets/com/rendermix/Easing/Easing.glsllib
+
+---
+cube
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/cube.glsl
+
+// Author: gre
+// License: MIT
+
+---
+DefocusBlur
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/DefocusBlur.glsl
+
+// Author: Sergey Kosarevsky
+// License: MIT
+// Ported from https://gist.github.com/corporateshark/b9f8e5675c647e615419
+
+---
+Directional
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/Directional.glsl
+
+// Author: Gaëtan Renaudeau
+// License: MIT
+
+---
+directional-easing
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/directional-easing.glsl
+
+// Author: Max Plotnikov
+// License: MIT
+
+---
+DirectionalScaled
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/DirectionalScaled.glsl
+
+// Author: Thibaut Foussard
+// based on Directional transition by Gaëtan Renaudeau
+// https://gl-transitions.com/editor/Directional
+// License: MIT
+
+---
+directionalwarp
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/directionalwarp.glsl
+
+// Author: pschroen
+// License: MIT
+
+---
+directionalwipe
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/directionalwipe.glsl
+
+// Author: gre
+// License: MIT
+
+---
+displacement
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/displacement.glsl
+
+// Author: Travis Fischer
+// License: MIT
+//
+// Adapted from a Codrops article by Robin Delaporte
+// https://tympanus.net/Development/DistortionHoverEffect
+
+---
+dissolve
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/dissolve.glsl
+
+// Author: hjm1fb
+// License: MIT
+
+---
+DoomScreenTransition
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/DoomScreenTransition.glsl
+
+// Author: Zeh Fernando
+// License: MIT
+
+
+// Transition parameters --------
+
+// Number of total bars/columns
+
+---
+doorway
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/doorway.glsl
+
+// Author: gre
+// License: MIT
+
+---
+Dreamy
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/Dreamy.glsl
+
+// Author: mikolalysenko
+// License: MIT
+
+---
+DreamyZoom
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/DreamyZoom.glsl
+
+// Author: Zeh Fernando
+// License: MIT
+
+// Definitions --------
+
+---
+Drop_Zone_Flicker
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/Drop_Zone_Flicker.glsl
+
+// Author: bread
+// License: MIT
+// Drop_Zone_Flicker.glsl
+// gl-transitions compatible: progress, ratio, getFromColor, getToColor
+
+---
+EdgeTransition
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/EdgeTransition.glsl
+
+// Author: Woohyun Kim
+// License: MIT
+
+---
+fade
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/fade.glsl
+
+// Author: gre
+// License: MIT
+
+---
+fadecolor
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/fadecolor.glsl
+
+// Author: gre
+// License: MIT
+
+---
+fadegrayscale
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/fadegrayscale.glsl
+
+// Author: gre
+// License: MIT
+
+---
+FilmBurn
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/FilmBurn.glsl
+
+// Author: Anastasia Dunbar
+// License: MIT
+
+---
+flyeye
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/flyeye.glsl
+
+// Author: gre
+// License: MIT
+
+---
+Fold
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/Fold.glsl
+
+// Author: nwoeanhinnogaehr
+// License: MIT
+// Ported from https://gist.github.com/nwoeanhinnogaehr/f6fc39f4cfcbb97f96a6
+
+---
+fragment
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/fragment.glsl
+
+// Author: lbl
+// License: MIT
+
+---
+GlitchDisplace
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/GlitchDisplace.glsl
+
+// Author: Matt DesLauriers
+// License: MIT
+
+---
+GlitchMemories
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/GlitchMemories.glsl
+
+// Author: Gunnar Roth
+// based on work from natewave
+// License: MIT
+
+---
+GridFlip
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/GridFlip.glsl
+
+// License: MIT
+// Author: TimDonselaar
+// ported by gre from https://gist.github.com/TimDonselaar/9bcd1c4b5934ba60087bdb55c2ea92e5
+
+---
+heart
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/heart.glsl
+
+// Author: gre
+// License: MIT
+
+---
+hexagonalize
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/hexagonalize.glsl
+
+// Author: Fernando Kuteken
+// License: MIT
+// Hexagonal math from: http://www.redblobgames.com/grids/hexagons/
+
+---
+HorizontalClose
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/HorizontalClose.glsl
+
+// Author: martiniti
+// License: MIT
+
+---
+HorizontalOpen
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/HorizontalOpen.glsl
+
+// Author: martiniti
+// License: MIT
+
+---
+HSVfade
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/HSVfade.glsl
+
+// Author: nwoeanhinnogaehr
+// License: MIT
+// Ported from https://gist.github.com/nwoeanhinnogaehr/b185145363d65751009b
+
+// HSV functions from http://lolengine.net/blog/2013/07/27/rgb-to-hsv-in-glsl
+
+---
+kaleidoscope
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/kaleidoscope.glsl
+
+// Author: nwoeanhinnogaehr
+// License: MIT
+
+---
+LeftRight
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/LeftRight.glsl
+
+// Author: zhmy
+// License: MIT
+
+---
+LinearBlur
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/LinearBlur.glsl
+
+// Author: gre
+// License: MIT
+
+---
+luma
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/luma.glsl
+
+// Author: gre
+// License: MIT
+
+---
+luminance_melt
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/luminance_melt.glsl
+
+// Author: 0gust1
+// License: MIT
+//My own first transition — based on crosshatch code (from pthrasher), using  simplex noise formula (copied and pasted)
+//-> cooler with high contrasted images (isolated dark subject on light background f.e.)
+//TODO : try to rebase it on DoomTransition (from zeh)?
+//optimizations :
+//luminance (see http://stackoverflow.com/questions/596216/formula-to-determine-brightness-of-rgb-color#answer-596241)
+// Y = (R+R+B+G+G+G)/6
+//or Y = (R+R+R+B+G+G+G+G)>>3 
+
+
+//direction of movement :  0 : up, 1, down
+
+---
+morph
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/morph.glsl
+
+// Author: paniq
+// License: MIT
+
+---
+Mosaic
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/Mosaic.glsl
+
+// License: MIT
+// Author: Xaychru
+// ported by gre from https://gist.github.com/Xaychru/130bb7b7affedbda9df5
+
+---
+mosaic_transition
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/mosaic_transition.glsl
+
+// Author: YueDev
+// License: MIT
+
+---
+multiply_blend
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/multiply_blend.glsl
+
+// Author: Fernando Kuteken
+// License: MIT
+
+---
+old_tv_lost_signal
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/old_tv_lost_signal.glsl
+
+// Author: mernking gitlab: Godswork
+// License: MIT
+
+---
+Overexposure
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/Overexposure.glsl
+
+// Author: Ben Zhang
+// License: MIT
+
+---
+parametric_glitch
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/parametric_glitch.glsl
+
+// Author: Yoni Maltsman @friendlyspinach
+// License: MIT
+
+---
+perlin
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/perlin.glsl
+
+// Author: Rich Harris
+// License: MIT
+
+---
+pinwheel
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/pinwheel.glsl
+
+// Author: Mr Speaker
+// License: MIT
+
+---
+pixelize
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/pixelize.glsl
+
+// Author: gre
+// License: MIT
+// forked from https://gist.github.com/benraziel/c528607361d90a072e98
+
+// minimum number of squares (when the effect is at its higher level)
+
+---
+polar_function
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/polar_function.glsl
+
+// Author: Fernando Kuteken
+// License: MIT
+
+---
+PolkaDotsCurtain
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/PolkaDotsCurtain.glsl
+
+// Author: bobylito
+// License: MIT
+
+---
+powerKaleido
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/powerKaleido.glsl
+
+// Name: Power Kaleido
+// Author: Boundless
+// License: MIT
+
+---
+PuzzleRight
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/PuzzleRight.glsl
+
+// Author: JustKirillS
+// License: MIT
+// Ported from https://gist.github.com/JustKirillS/714f095318834f4d2375de872c53af1e
+
+---
+Radial
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/Radial.glsl
+
+// License: MIT
+// Author: Xaychru
+// ported by gre from https://gist.github.com/Xaychru/ce1d48f0ce00bb379750
+
+---
+randomNoisex
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/randomNoisex.glsl
+
+// Author: towrabbit
+// License: MIT
+
+---
+randomsquares
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/randomsquares.glsl
+
+// Author: gre
+// License: MIT
+
+---
+Rectangle
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/Rectangle.glsl
+
+// Author: martiniti
+// License: MIT
+
+---
+RectangleCrop
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/RectangleCrop.glsl
+
+// License: MIT
+// Author: martiniti
+
+---
+Revolve_Left
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/Revolve_Left.glsl
+
+// Author: bread
+// License: MIT
+// gl-transitions v1 compatible
+
+---
+ripple
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/ripple.glsl
+
+// Author: gre
+// License: MIT
+
+---
+Rolls
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/Rolls.glsl
+
+// Author: Mark Craig
+// mrmcsoftware on github and youtube ( http://www.youtube.com/MrMcSoftware )
+// License: MIT
+
+// Rolls Transition by Mark Craig (Copyright © 2022)
+
+---
+rotate_scale_fade
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/rotate_scale_fade.glsl
+
+// Author: Fernando Kuteken
+// License: MIT
+
+---
+RotateScaleVanish
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/RotateScaleVanish.glsl
+
+// Author: Mark Craig
+// mrmcsoftware on github and youtube ( http://www.youtube.com/MrMcSoftware )
+// License: MIT
+
+// RotateScaleVanish Transition by Mark Craig (Copyright © 2022)
+
+---
+rotateTransition
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/rotateTransition.glsl
+
+// Author: haiyoucuv
+// License: MIT
+
+---
+scale-in
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/scale-in.glsl
+
+// Author: haiyoucuv
+// License: MIT
+
+---
+SimpleFlip
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/SimpleFlip.glsl
+
+// Author: nwoeanhinnogaehr
+// License: MIT
+// Ported from https://gist.github.com/nwoeanhinnogaehr/408045772d255df97520
+
+---
+SimpleZoom
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/SimpleZoom.glsl
+
+// Author: 0gust1
+// License: MIT
+
+---
+SimpleZoomOut
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/SimpleZoomOut.glsl
+
+// Author: Tianshuo
+// License: MIT
+
+---
+Slides
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/Slides.glsl
+
+// Author: Mark Craig
+// mrmcsoftware on github and youtube ( http://www.youtube.com/MrMcSoftware )
+// License: MIT
+
+// Slides Transition by Mark Craig (Copyright © 2022)
+
+---
+splitSlideInHorizontal
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/splitSlideInHorizontal.glsl
+
+// Author: OllyOllyOlly
+// License: MIT
+
+---
+splitSlideInOutHorizontal
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/splitSlideInOutHorizontal.glsl
+
+// Author: OllyOllyOlly
+// License: MIT
+
+---
+splitSlideInOutVertical
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/splitSlideInOutVertical.glsl
+
+// Author: OllyOllyOlly
+// License: MIT
+
+---
+splitSlideInVertical
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/splitSlideInVertical.glsl
+
+// Author: OllyOllyOlly
+// License: MIT
+
+---
+splitSlideOutHorizontal
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/splitSlideOutHorizontal.glsl
+
+// Author: OllyOllyOlly
+// License: MIT
+
+---
+splitSlideOutVertical
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/splitSlideOutVertical.glsl
+
+// Author: OllyOllyOlly
+// License: MIT
+
+---
+squareswire
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/squareswire.glsl
+
+// Author: gre
+// License: MIT
+
+---
+squeeze
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/squeeze.glsl
+
+// Author: gre
+// License: MIT
+
+---
+StarWipe
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/StarWipe.glsl
+
+// Author: Ben Lucas
+// License: MIT
+
+---
+static_wipe
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/static_wipe.glsl
+
+// Author: Ben Lucas
+// License: MIT
+
+---
+StaticFade
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/StaticFade.glsl
+
+// Author: Ben Lucas
+// License: MIT
+
+---
+StripDatamoshGlitch
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/StripDatamoshGlitch.glsl
+
+// Author: bread
+// License: MIT
+
+---
+swap
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/swap.glsl
+
+// Author: gre
+// License: MIT
+// General parameters
+
+---
+Swirl
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/Swirl.glsl
+
+// License: MIT
+// Author: Sergey Kosarevsky
+// ( http://www.linderdaum.com )
+// ported by gre from https://gist.github.com/corporateshark/cacfedb8cca0f5ce3f7c
+
+---
+tangentMotionBlur
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/tangentMotionBlur.glsl
+
+// License: MIT
+// Author: chenkai
+// ported from https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/671116/
+
+---
+TilesWave
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/TilesWave.glsl
+
+// Author: numb3r23
+// License: MIT
+// Ported from https://gist.github.com/numb3r23/169781bb76f310e2bfde
+
+---
+TopBottom
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/TopBottom.glsl
+
+// Author: zhmy
+// License: MIT
+
+---
+TVStatic
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/TVStatic.glsl
+
+// Author: Brandon Anzaldi
+// License: MIT
+
+---
+undulatingBurnOut
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/undulatingBurnOut.glsl
+
+// License: MIT
+// Author: pthrasher
+// adapted by gre from https://gist.github.com/pthrasher/8e6226b215548ba12734
+
+---
+VerticalClose
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/VerticalClose.glsl
+
+// Author: martiniti
+// License: MIT
+
+---
+VerticalOpen
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/VerticalOpen.glsl
+
+// Author: martiniti
+// License: MIT
+
+---
+WaterDrop
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/WaterDrop.glsl
+
+// Author: Paweł Płóciennik
+// License: MIT
+
+---
+wind
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/wind.glsl
+
+// Author: gre
+// License: MIT
+
+// Custom parameters
+
+---
+windowblinds
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/windowblinds.glsl
+
+// Author: Fabien Benetou
+// License: MIT
+
+---
+windowslice
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/windowslice.glsl
+
+// Author: gre
+// License: MIT
+
+---
+wipeDown
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/wipeDown.glsl
+
+// Author: Jake Nelson
+// License: MIT
+
+---
+wipeLeft
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/wipeLeft.glsl
+
+// Author: Jake Nelson
+// License: MIT
+
+---
+wipeRight
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/wipeRight.glsl
+
+// Author: Jake Nelson
+// License: MIT
+
+---
+wipeUp
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/wipeUp.glsl
+
+// Author: Jake Nelson
+// License: MIT
+
+---
+x_axis_translation
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/x_axis_translation.glsl
+
+// Author: lizhongjian
+// License: MIT
+
+---
+ZoomInCircles
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/ZoomInCircles.glsl
+
+// License: MIT
+// Author: dycm8009
+// ported by gre from https://gist.github.com/dycm8009/948e99b1800e81ad909a
+
+---
+zoomInOut
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/zoomInOut.glsl
+
+// Author: OllyOllyOlly
+// License: MIT
+
+---
+ZoomLeftWipe
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/ZoomLeftWipe.glsl
+
+// Author: Handk
+// License: MIT
+
+---
+ZoomRigthWipe
+https://github.com/gl-transitions/gl-transitions/blob/902218a1b63773ac0d0d9f491951da3392365bfe/transitions/ZoomRigthWipe.glsl
+
+// Author: Handk
+// License: MIT

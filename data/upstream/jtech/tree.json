@@ -1,0 +1,1625 @@
+{
+  "sha": "77fd0fadb3142c80038942802fcac71caeeba3d8",
+  "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/77fd0fadb3142c80038942802fcac71caeeba3d8",
+  "tree": [
+    {
+      "path": ".claude",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4b48005e5747b5218b3e1345eb4ca4a47d9d998c",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/4b48005e5747b5218b3e1345eb4ca4a47d9d998c"
+    },
+    {
+      "path": ".claude/launch.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46bfe1191752ab4ffb14d7aa3284e71ba257ddf9",
+      "size": 900,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/46bfe1191752ab4ffb14d7aa3284e71ba257ddf9"
+    },
+    {
+      "path": "1. SpaceX Motion",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fe19e4b99cc1370e78043b8ce49490bddc6b8243",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/fe19e4b99cc1370e78043b8ce49490bddc6b8243"
+    },
+    {
+      "path": "1. SpaceX Motion/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dba52b87b26f0a8363d875a9cb3177d8265a6ecf",
+      "size": 22,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/dba52b87b26f0a8363d875a9cb3177d8265a6ecf"
+    },
+    {
+      "path": "1. SpaceX Motion/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91dcf42c91ec719328b8ace1b9fc6f5c89f87fed",
+      "size": 4813,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/91dcf42c91ec719328b8ace1b9fc6f5c89f87fed"
+    },
+    {
+      "path": "1. SpaceX Motion/css",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e8af1f1908ad4d0a26cbb25175d93a7916733965",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/e8af1f1908ad4d0a26cbb25175d93a7916733965"
+    },
+    {
+      "path": "1. SpaceX Motion/css/controls.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a408b9c78bf3a17669f41fe8f136f388d95325c",
+      "size": 2800,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/0a408b9c78bf3a17669f41fe8f136f388d95325c"
+    },
+    {
+      "path": "1. SpaceX Motion/css/hud.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da6ffb8ad4e109d6cfb9d5f12b6a51e59c828b1e",
+      "size": 2464,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/da6ffb8ad4e109d6cfb9d5f12b6a51e59c828b1e"
+    },
+    {
+      "path": "1. SpaceX Motion/css/scenes.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fde4dc331c6e6dc13cad9caa8a1bdc3340892cd",
+      "size": 7163,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/7fde4dc331c6e6dc13cad9caa8a1bdc3340892cd"
+    },
+    {
+      "path": "1. SpaceX Motion/css/stage.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84cc6536d519547c947e49446507631945ed6a68",
+      "size": 2230,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/84cc6536d519547c947e49446507631945ed6a68"
+    },
+    {
+      "path": "1. SpaceX Motion/css/tokens.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7badfc1c0ef036c008a90d3351de2879b631459a",
+      "size": 1105,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/7badfc1c0ef036c008a90d3351de2879b631459a"
+    },
+    {
+      "path": "1. SpaceX Motion/dataset",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bd7dc1b2c334b46c4d8f1a300e80fbefbd4551e1",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/bd7dc1b2c334b46c4d8f1a300e80fbefbd4551e1"
+    },
+    {
+      "path": "1. SpaceX Motion/dataset/SpaceX_Dataset_2002-2026.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "625ce8cd4183679768623d0f5dca8899ef33ad4f",
+      "size": 17195,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/625ce8cd4183679768623d0f5dca8899ef33ad4f"
+    },
+    {
+      "path": "1. SpaceX Motion/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43031a1740dd1c787c6bc23fab04dfcac90f1a6d",
+      "size": 2269,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/43031a1740dd1c787c6bc23fab04dfcac90f1a6d"
+    },
+    {
+      "path": "1. SpaceX Motion/js",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e2aa44207c8f308f504f6747db685976d247c62b",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/e2aa44207c8f308f504f6747db685976d247c62b"
+    },
+    {
+      "path": "1. SpaceX Motion/js/audio.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d722efa0d00f0ff302dcc1770b7934064b4988fe",
+      "size": 11533,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/d722efa0d00f0ff302dcc1770b7934064b4988fe"
+    },
+    {
+      "path": "1. SpaceX Motion/js/controls.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0219d51a458953ba439922c621daece62b4c1d4",
+      "size": 6025,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/c0219d51a458953ba439922c621daece62b4c1d4"
+    },
+    {
+      "path": "1. SpaceX Motion/js/core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0aa2baca66e6809b70668ddb4898eded195fb00a",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/0aa2baca66e6809b70668ddb4898eded195fb00a"
+    },
+    {
+      "path": "1. SpaceX Motion/js/core/timeline.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "935f7b9afe8c853c592a1139f73397670d80219d",
+      "size": 1449,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/935f7b9afe8c853c592a1139f73397670d80219d"
+    },
+    {
+      "path": "1. SpaceX Motion/js/core/util.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55d8279eb7da256903848d88dfeef08d99db759a",
+      "size": 6302,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/55d8279eb7da256903848d88dfeef08d99db759a"
+    },
+    {
+      "path": "1. SpaceX Motion/js/data.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccaba08852fde2815ec136312b0000ed5aa3f1ee",
+      "size": 5485,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/ccaba08852fde2815ec136312b0000ed5aa3f1ee"
+    },
+    {
+      "path": "1. SpaceX Motion/js/engine.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55b2c8325baf47ebbb6a910e1fc8d7cb25926026",
+      "size": 3616,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/55b2c8325baf47ebbb6a910e1fc8d7cb25926026"
+    },
+    {
+      "path": "1. SpaceX Motion/js/fx",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0e658c4e657ba28a7c79127b724e9fd8ccc43a29",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/0e658c4e657ba28a7c79127b724e9fd8ccc43a29"
+    },
+    {
+      "path": "1. SpaceX Motion/js/fx/textures.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "349dbd552c71434e3a60cb1e138d3c6261b8c86f",
+      "size": 3249,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/349dbd552c71434e3a60cb1e138d3c6261b8c86f"
+    },
+    {
+      "path": "1. SpaceX Motion/js/hud.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f91ca841451b6aa2f7958deb8cc6e31c4e5083ea",
+      "size": 3128,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/f91ca841451b6aa2f7958deb8cc6e31c4e5083ea"
+    },
+    {
+      "path": "1. SpaceX Motion/js/main.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a575bfe1383bde32c2edb6ffe8ef96da40b681b",
+      "size": 3269,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/5a575bfe1383bde32c2edb6ffe8ef96da40b681b"
+    },
+    {
+      "path": "1. SpaceX Motion/js/scenes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "81604af5cad20bf09179e3f127a26bea2403ab1e",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/81604af5cad20bf09179e3f127a26bea2403ab1e"
+    },
+    {
+      "path": "1. SpaceX Motion/js/scenes/01-hook.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5622ead06b49b8d481a62e89f3b2e94c4309cf5a",
+      "size": 6099,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/5622ead06b49b8d481a62e89f3b2e94c4309cf5a"
+    },
+    {
+      "path": "1. SpaceX Motion/js/scenes/02-failure.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c529afe28bbfc11e3d9b3d4e694eb3062d515b87",
+      "size": 5695,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/c529afe28bbfc11e3d9b3d4e694eb3062d515b87"
+    },
+    {
+      "path": "1. SpaceX Motion/js/scenes/03-orbit.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb1a3f9ed70abb70c5f7a0ea2c30e7efe3d9a9e6",
+      "size": 5557,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/bb1a3f9ed70abb70c5f7a0ea2c30e7efe3d9a9e6"
+    },
+    {
+      "path": "1. SpaceX Motion/js/scenes/04-landing.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0819a9ac06ca608e20246d3db9ee05dc70b4bb9a",
+      "size": 5784,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/0819a9ac06ca608e20246d3db9ee05dc70b4bb9a"
+    },
+    {
+      "path": "1. SpaceX Motion/js/scenes/05-reuse.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17f7fce5a57fb3c08492d81e1a7d4ad456245b1c",
+      "size": 6813,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/17f7fce5a57fb3c08492d81e1a7d4ad456245b1c"
+    },
+    {
+      "path": "1. SpaceX Motion/js/scenes/06-cadence.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c8dd3ca131c59c3076f0d42a84d92a6983cbddb",
+      "size": 7998,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/4c8dd3ca131c59c3076f0d42a84d92a6983cbddb"
+    },
+    {
+      "path": "1. SpaceX Motion/js/scenes/07-share.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88f26927737e1b4b0707a1ad8a0f592ab9bcee50",
+      "size": 6824,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/88f26927737e1b4b0707a1ad8a0f592ab9bcee50"
+    },
+    {
+      "path": "1. SpaceX Motion/js/scenes/08-starlink.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "952a68627b76b2f4f72e5e4303eb28c64a0530b5",
+      "size": 8368,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/952a68627b76b2f4f72e5e4303eb28c64a0530b5"
+    },
+    {
+      "path": "1. SpaceX Motion/js/scenes/09-connect.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02627791e282638a144c4145808d5bdcc7036c24",
+      "size": 4852,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/02627791e282638a144c4145808d5bdcc7036c24"
+    },
+    {
+      "path": "1. SpaceX Motion/js/scenes/10-ipo.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b6c83c60d346a6d28231a40acf6e27827a88a38",
+      "size": 5451,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/7b6c83c60d346a6d28231a40acf6e27827a88a38"
+    },
+    {
+      "path": "1. SpaceX Motion/js/scenes/11-montage.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b9f30c8147cdee482dc670c4c5d28eac5bb951e",
+      "size": 7442,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/7b9f30c8147cdee482dc670c4c5d28eac5bb951e"
+    },
+    {
+      "path": "1. SpaceX Motion/js/scenes/12-endcard.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b3d73b01426af9d7b53e26fc6d23dbdce461bf4",
+      "size": 7337,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/2b3d73b01426af9d7b53e26fc6d23dbdce461bf4"
+    },
+    {
+      "path": "1. SpaceX Motion/js/transitions.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d19699d4567e26c80cb1d30b60a6d062726657e1",
+      "size": 4680,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/d19699d4567e26c80cb1d30b60a6d062726657e1"
+    },
+    {
+      "path": "1. SpaceX Motion/js/ui",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ccbb6c571eaf4244847e6170456d1782c15ebd84",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/ccbb6c571eaf4244847e6170456d1782c15ebd84"
+    },
+    {
+      "path": "1. SpaceX Motion/js/ui/components.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbd5019af00f4cc452d22266dccbee9a731112ba",
+      "size": 9479,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/cbd5019af00f4cc452d22266dccbee9a731112ba"
+    },
+    {
+      "path": "1. SpaceX Motion/js/ui/globe.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "399cdede06c3e36d2cd6a262ce144d39c25fdebc",
+      "size": 2224,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/399cdede06c3e36d2cd6a262ce144d39c25fdebc"
+    },
+    {
+      "path": "1. SpaceX Motion/js/ui/vehicles.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c64db365bf3c4e65008109eea99185587a07796d",
+      "size": 6413,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/c64db365bf3c4e65008109eea99185587a07796d"
+    },
+    {
+      "path": "1. SpaceX Motion/out",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6c00a8f47994c72fea1f47735d64bd0e06854afc",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/6c00a8f47994c72fea1f47735d64bd0e06854afc"
+    },
+    {
+      "path": "1. SpaceX Motion/out/poster.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98498fe5754f801298cf71df97870a36d9cc5a5a",
+      "size": 84201,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/98498fe5754f801298cf71df97870a36d9cc5a5a"
+    },
+    {
+      "path": "1. SpaceX Motion/out/spacex-2002-2026.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc06977bc08277f334dc72c7a4bac25dde6ada9e",
+      "size": 72732625,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/cc06977bc08277f334dc72c7a4bac25dde6ada9e"
+    },
+    {
+      "path": "1. SpaceX Motion/prompt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fba7d9e5903a328990c413510e049a6e901940ff",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/fba7d9e5903a328990c413510e049a6e901940ff"
+    },
+    {
+      "path": "1. SpaceX Motion/prompt/STORYBOARD.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "baa42b795059ee9a55b723647829be74b8c6de17",
+      "size": 9813,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/baa42b795059ee9a55b723647829be74b8c6de17"
+    },
+    {
+      "path": "1. SpaceX Motion/prompt/SpaceX Prompt.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3eeb8c1e242054bf27de04732da223dbd15e45a",
+      "size": 9931,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/c3eeb8c1e242054bf27de04732da223dbd15e45a"
+    },
+    {
+      "path": "1. SpaceX Motion/tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ab6ff8f38000faaaf9787949ed9f18bc27b449ba",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/ab6ff8f38000faaaf9787949ed9f18bc27b449ba"
+    },
+    {
+      "path": "1. SpaceX Motion/tools/render.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4b7d3e207d79bd564b8c347d5f051a940c6c877",
+      "size": 10496,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/b4b7d3e207d79bd564b8c347d5f051a940c6c877"
+    },
+    {
+      "path": "2. Genesis Motion",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a21343563b7b615e9e93a3d1f079650b7652da26",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/a21343563b7b615e9e93a3d1f079650b7652da26"
+    },
+    {
+      "path": "2. Genesis Motion/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dba52b87b26f0a8363d875a9cb3177d8265a6ecf",
+      "size": 22,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/dba52b87b26f0a8363d875a9cb3177d8265a6ecf"
+    },
+    {
+      "path": "2. Genesis Motion/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e31fe29e0c0ccde963605dac127ea16aade093da",
+      "size": 5312,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/e31fe29e0c0ccde963605dac127ea16aade093da"
+    },
+    {
+      "path": "2. Genesis Motion/css",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "15659e1a7a1364ecef52a44e31ba59b069ff4702",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/15659e1a7a1364ecef52a44e31ba59b069ff4702"
+    },
+    {
+      "path": "2. Genesis Motion/css/controls.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd1deea0cd040e5ecbb7f2ddfe81e70f21b4aaed",
+      "size": 2799,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/dd1deea0cd040e5ecbb7f2ddfe81e70f21b4aaed"
+    },
+    {
+      "path": "2. Genesis Motion/css/hud.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da6ffb8ad4e109d6cfb9d5f12b6a51e59c828b1e",
+      "size": 2464,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/da6ffb8ad4e109d6cfb9d5f12b6a51e59c828b1e"
+    },
+    {
+      "path": "2. Genesis Motion/css/scenes.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6418d782fa06b45732d14562b89fd92f2056f458",
+      "size": 6976,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/6418d782fa06b45732d14562b89fd92f2056f458"
+    },
+    {
+      "path": "2. Genesis Motion/css/stage.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d20e1da6c6af5a3b1f0eef89ea647a61c3a7b8fb",
+      "size": 2222,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/d20e1da6c6af5a3b1f0eef89ea647a61c3a7b8fb"
+    },
+    {
+      "path": "2. Genesis Motion/css/tokens.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b26982d9fef4942ed3400874767a971d657f4746",
+      "size": 1107,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/b26982d9fef4942ed3400874767a971d657f4746"
+    },
+    {
+      "path": "2. Genesis Motion/dataset",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "af4dda8761b179a708d1d86e03fbcbd6d0914f2e",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/af4dda8761b179a708d1d86e03fbcbd6d0914f2e"
+    },
+    {
+      "path": "2. Genesis Motion/dataset/genesis_brand_dataset.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "caaa0d5642ada0120cf1b160699f85ebde59937f",
+      "size": 19908,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/caaa0d5642ada0120cf1b160699f85ebde59937f"
+    },
+    {
+      "path": "2. Genesis Motion/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbc0ffa8049d26d53760aa1bdfc42b52166a24cd",
+      "size": 2218,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/cbc0ffa8049d26d53760aa1bdfc42b52166a24cd"
+    },
+    {
+      "path": "2. Genesis Motion/js",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6c4f300eca2509093f227ceb65d4ee12bf95742a",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/6c4f300eca2509093f227ceb65d4ee12bf95742a"
+    },
+    {
+      "path": "2. Genesis Motion/js/audio.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b90726e7682f2b41d9f9972abe63337a3344eda",
+      "size": 12610,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/0b90726e7682f2b41d9f9972abe63337a3344eda"
+    },
+    {
+      "path": "2. Genesis Motion/js/controls.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0219d51a458953ba439922c621daece62b4c1d4",
+      "size": 6025,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/c0219d51a458953ba439922c621daece62b4c1d4"
+    },
+    {
+      "path": "2. Genesis Motion/js/core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0aa2baca66e6809b70668ddb4898eded195fb00a",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/0aa2baca66e6809b70668ddb4898eded195fb00a"
+    },
+    {
+      "path": "2. Genesis Motion/js/core/timeline.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "935f7b9afe8c853c592a1139f73397670d80219d",
+      "size": 1449,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/935f7b9afe8c853c592a1139f73397670d80219d"
+    },
+    {
+      "path": "2. Genesis Motion/js/core/util.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55d8279eb7da256903848d88dfeef08d99db759a",
+      "size": 6302,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/55d8279eb7da256903848d88dfeef08d99db759a"
+    },
+    {
+      "path": "2. Genesis Motion/js/data.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1f7cc9c69877987e2b1c295c16bf6dabc768598",
+      "size": 4815,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/d1f7cc9c69877987e2b1c295c16bf6dabc768598"
+    },
+    {
+      "path": "2. Genesis Motion/js/engine.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "806c0b56ea96cd98fdbc7ec07d95d7461f249014",
+      "size": 3627,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/806c0b56ea96cd98fdbc7ec07d95d7461f249014"
+    },
+    {
+      "path": "2. Genesis Motion/js/fx",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f354c16575942969006d9a08d3c41bf8352d0c64",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/f354c16575942969006d9a08d3c41bf8352d0c64"
+    },
+    {
+      "path": "2. Genesis Motion/js/fx/textures.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cba9c44374759b9f7acd566fa09e112f329d735",
+      "size": 2924,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/9cba9c44374759b9f7acd566fa09e112f329d735"
+    },
+    {
+      "path": "2. Genesis Motion/js/hud.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8a230cf772c811cd01ce00f9f2243ebbcf82059f",
+      "size": 3239,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/8a230cf772c811cd01ce00f9f2243ebbcf82059f"
+    },
+    {
+      "path": "2. Genesis Motion/js/main.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a575bfe1383bde32c2edb6ffe8ef96da40b681b",
+      "size": 3269,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/5a575bfe1383bde32c2edb6ffe8ef96da40b681b"
+    },
+    {
+      "path": "2. Genesis Motion/js/scenes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ef1b983a118b6dc242997667b465144bf0a858d0",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/ef1b983a118b6dc242997667b465144bf0a858d0"
+    },
+    {
+      "path": "2. Genesis Motion/js/scenes/01-hook.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f17b834137631b4dec07932ab9913025ae91afd",
+      "size": 6328,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/9f17b834137631b4dec07932ab9913025ae91afd"
+    },
+    {
+      "path": "2. Genesis Motion/js/scenes/02-reveal.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b1bbac7c52f8a01a2d3763555fd463b97bd350f",
+      "size": 6485,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/8b1bbac7c52f8a01a2d3763555fd463b97bd350f"
+    },
+    {
+      "path": "2. Genesis Motion/js/scenes/03-pivot.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db5cf8cfa84c5eaa353e153ee09dcdebe05e6875",
+      "size": 6159,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/db5cf8cfa84c5eaa353e153ee09dcdebe05e6875"
+    },
+    {
+      "path": "2. Genesis Motion/js/scenes/04-proof.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ac9f43fb136eacb7758562f75986e36b4158b56",
+      "size": 6016,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/5ac9f43fb136eacb7758562f75986e36b4158b56"
+    },
+    {
+      "path": "2. Genesis Motion/js/scenes/05-mix.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc99e02ff295f4c03f091fdbb16babc104c11c08",
+      "size": 5068,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/dc99e02ff295f4c03f091fdbb16babc104c11c08"
+    },
+    {
+      "path": "2. Genesis Motion/js/scenes/06-us.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e071ebde93dd4ea29eb559219bdb5334ef0b95c",
+      "size": 6229,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/7e071ebde93dd4ea29eb559219bdb5334ef0b95c"
+    },
+    {
+      "path": "2. Genesis Motion/js/scenes/07-milestone.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b7a5f5393f33bd3fac7d48a65dac58908ff1492",
+      "size": 4433,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/0b7a5f5393f33bd3fac7d48a65dac58908ff1492"
+    },
+    {
+      "path": "2. Genesis Motion/js/scenes/08-decade.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "add7dfe76d3c3aa7c90107ff31f043ea39cb1c45",
+      "size": 5895,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/add7dfe76d3c3aa7c90107ff31f043ea39cb1c45"
+    },
+    {
+      "path": "2. Genesis Motion/js/scenes/09-ev.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8746fa91488612631bb0d51ae001d5052b5d4b2a",
+      "size": 5557,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/8746fa91488612631bb0d51ae001d5052b5d4b2a"
+    },
+    {
+      "path": "2. Genesis Motion/js/scenes/10-magma.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82acb8fb146b4359be3aac2fbc82986005e8b0b8",
+      "size": 3806,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/82acb8fb146b4359be3aac2fbc82986005e8b0b8"
+    },
+    {
+      "path": "2. Genesis Motion/js/scenes/11-montage.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b776ef28ce68f9e7ca418d4c8b45b5acfc03d20",
+      "size": 4846,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/7b776ef28ce68f9e7ca418d4c8b45b5acfc03d20"
+    },
+    {
+      "path": "2. Genesis Motion/js/scenes/12-endcard.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70561874b8042eee74014408f2e3e8a809961296",
+      "size": 5729,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/70561874b8042eee74014408f2e3e8a809961296"
+    },
+    {
+      "path": "2. Genesis Motion/js/transitions.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ee0cea3341fbd5b24ad6a39e6d02168cbef2f38",
+      "size": 5923,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/6ee0cea3341fbd5b24ad6a39e6d02168cbef2f38"
+    },
+    {
+      "path": "2. Genesis Motion/js/ui",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7b4d5d6cef477e400908146d4b60e61c31ed534c",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/7b4d5d6cef477e400908146d4b60e61c31ed534c"
+    },
+    {
+      "path": "2. Genesis Motion/js/ui/cars.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "193d6dcf6d9dd3e95f1e5c24525e5ef400c9e102",
+      "size": 40856,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/193d6dcf6d9dd3e95f1e5c24525e5ef400c9e102"
+    },
+    {
+      "path": "2. Genesis Motion/js/ui/components.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e183938f575fa65eaa4d5aa4986e6a272671d04",
+      "size": 9483,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/1e183938f575fa65eaa4d5aa4986e6a272671d04"
+    },
+    {
+      "path": "2. Genesis Motion/out",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e951e4e2a26c3b541ba236020bd73121c4800c47",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/e951e4e2a26c3b541ba236020bd73121c4800c47"
+    },
+    {
+      "path": "2. Genesis Motion/out/genesis-2015-2026.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ff88dec259d376a7cfa38e6c65f0a73cf9288f7",
+      "size": 88305070,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/8ff88dec259d376a7cfa38e6c65f0a73cf9288f7"
+    },
+    {
+      "path": "2. Genesis Motion/out/poster.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e7b5f9b0b6ed2947ab081e0c0b3b5b42d166634",
+      "size": 68361,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/8e7b5f9b0b6ed2947ab081e0c0b3b5b42d166634"
+    },
+    {
+      "path": "2. Genesis Motion/prompt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "cfba01997e8e866cbd719a50c4bf8080d7134b02",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/cfba01997e8e866cbd719a50c4bf8080d7134b02"
+    },
+    {
+      "path": "2. Genesis Motion/prompt/Genesis Prompt.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ae1b77a8586ce30ae5d65e4eadef2ba8bc378d2",
+      "size": 17244,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/0ae1b77a8586ce30ae5d65e4eadef2ba8bc378d2"
+    },
+    {
+      "path": "2. Genesis Motion/prompt/STORYBOARD.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66e336f3cd895d86ec8d1af55c98dabaca8d248a",
+      "size": 14544,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/66e336f3cd895d86ec8d1af55c98dabaca8d248a"
+    },
+    {
+      "path": "2. Genesis Motion/tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "99ec1eb22a24365dc6369aca47bd443076c7bbee",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/99ec1eb22a24365dc6369aca47bd443076c7bbee"
+    },
+    {
+      "path": "2. Genesis Motion/tools/render.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75659e101560463409c0e9b438376e9b27e783f2",
+      "size": 10497,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/75659e101560463409c0e9b438376e9b27e783f2"
+    },
+    {
+      "path": "3. DJI Motion",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "756f3eaa8c58363cd5bdb51645c9dd5757785860",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/756f3eaa8c58363cd5bdb51645c9dd5757785860"
+    },
+    {
+      "path": "3. DJI Motion/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dba52b87b26f0a8363d875a9cb3177d8265a6ecf",
+      "size": 22,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/dba52b87b26f0a8363d875a9cb3177d8265a6ecf"
+    },
+    {
+      "path": "3. DJI Motion/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "182d43bbef1223f097cb3e95b5fe8feb7e648a56",
+      "size": 6530,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/182d43bbef1223f097cb3e95b5fe8feb7e648a56"
+    },
+    {
+      "path": "3. DJI Motion/css",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "819c795457a212b5a91be19dd81636f07ceb98c6",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/819c795457a212b5a91be19dd81636f07ceb98c6"
+    },
+    {
+      "path": "3. DJI Motion/css/controls.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48b7b9a6c03dc24f5a7049fee5ea0b9559770f75",
+      "size": 2795,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/48b7b9a6c03dc24f5a7049fee5ea0b9559770f75"
+    },
+    {
+      "path": "3. DJI Motion/css/hud.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07ea0ce79e710efdb1abd8ef49c70e6e54bad106",
+      "size": 1886,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/07ea0ce79e710efdb1abd8ef49c70e6e54bad106"
+    },
+    {
+      "path": "3. DJI Motion/css/scenes.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a3bc918eeb9f20f6d7e8efdac278c9624bd7ccc",
+      "size": 4782,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/4a3bc918eeb9f20f6d7e8efdac278c9624bd7ccc"
+    },
+    {
+      "path": "3. DJI Motion/css/stage.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "778be512c9a7acb08ee0707e7dda185a42cf96ae",
+      "size": 2514,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/778be512c9a7acb08ee0707e7dda185a42cf96ae"
+    },
+    {
+      "path": "3. DJI Motion/css/tokens.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ed0428940e7c9f9ec03906c4cbe4234b18d9e12",
+      "size": 1193,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/7ed0428940e7c9f9ec03906c4cbe4234b18d9e12"
+    },
+    {
+      "path": "3. DJI Motion/dataset",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7db9a87ca991022eccbcf5265701c1a29f015ebf",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/7db9a87ca991022eccbcf5265701c1a29f015ebf"
+    },
+    {
+      "path": "3. DJI Motion/dataset/DJI_dataset_2006-2026.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb374c4e380b898d58d78dcb0d4ce31834fedb8d",
+      "size": 25967,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/fb374c4e380b898d58d78dcb0d4ce31834fedb8d"
+    },
+    {
+      "path": "3. DJI Motion/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a44df0e44188cf079708c725d0916ed1d2fa834",
+      "size": 2293,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/5a44df0e44188cf079708c725d0916ed1d2fa834"
+    },
+    {
+      "path": "3. DJI Motion/js",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3e8dd75135b9c65258019fbfe4035c83f2a1d5b6",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/3e8dd75135b9c65258019fbfe4035c83f2a1d5b6"
+    },
+    {
+      "path": "3. DJI Motion/js/audio.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5246597689a3297185f02fcd651ee6f8471b7757",
+      "size": 15087,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/5246597689a3297185f02fcd651ee6f8471b7757"
+    },
+    {
+      "path": "3. DJI Motion/js/controls.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0219d51a458953ba439922c621daece62b4c1d4",
+      "size": 6025,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/c0219d51a458953ba439922c621daece62b4c1d4"
+    },
+    {
+      "path": "3. DJI Motion/js/core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0aa2baca66e6809b70668ddb4898eded195fb00a",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/0aa2baca66e6809b70668ddb4898eded195fb00a"
+    },
+    {
+      "path": "3. DJI Motion/js/core/timeline.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "935f7b9afe8c853c592a1139f73397670d80219d",
+      "size": 1449,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/935f7b9afe8c853c592a1139f73397670d80219d"
+    },
+    {
+      "path": "3. DJI Motion/js/core/util.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55d8279eb7da256903848d88dfeef08d99db759a",
+      "size": 6302,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/55d8279eb7da256903848d88dfeef08d99db759a"
+    },
+    {
+      "path": "3. DJI Motion/js/data.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "360d5ba29d61a1cf6bfb633865cba28116b32f80",
+      "size": 4111,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/360d5ba29d61a1cf6bfb633865cba28116b32f80"
+    },
+    {
+      "path": "3. DJI Motion/js/engine.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c04d2e23042b90ce9f3f300d7bbb2bf4459fcd8",
+      "size": 3889,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/3c04d2e23042b90ce9f3f300d7bbb2bf4459fcd8"
+    },
+    {
+      "path": "3. DJI Motion/js/fx",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "346b8403bd85fadd0a78c609c4484b7f80f7621b",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/346b8403bd85fadd0a78c609c4484b7f80f7621b"
+    },
+    {
+      "path": "3. DJI Motion/js/fx/landscape.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7531850ebe262806d5c868cd804d9223fec0ae7",
+      "size": 5715,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/b7531850ebe262806d5c868cd804d9223fec0ae7"
+    },
+    {
+      "path": "3. DJI Motion/js/fx/textures.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6051c7c86e0dde2701a1e524b51af6b6378631ad",
+      "size": 2548,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/6051c7c86e0dde2701a1e524b51af6b6378631ad"
+    },
+    {
+      "path": "3. DJI Motion/js/hud.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47aa80de51713cc8e34d5aaaa6245cb3cb3129f8",
+      "size": 5301,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/47aa80de51713cc8e34d5aaaa6245cb3cb3129f8"
+    },
+    {
+      "path": "3. DJI Motion/js/main.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a575bfe1383bde32c2edb6ffe8ef96da40b681b",
+      "size": 3269,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/5a575bfe1383bde32c2edb6ffe8ef96da40b681b"
+    },
+    {
+      "path": "3. DJI Motion/js/scenes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9a2869a4f4bab7c8aae1d2a854e8bb3610f2957f",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/9a2869a4f4bab7c8aae1d2a854e8bb3610f2957f"
+    },
+    {
+      "path": "3. DJI Motion/js/scenes/01-hook.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b6aab24c81c5d5372128b0ac6d252d507c73b67",
+      "size": 9174,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/6b6aab24c81c5d5372128b0ac6d252d507c73b67"
+    },
+    {
+      "path": "3. DJI Motion/js/scenes/02-reveal.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c06b89a9d29661aa6e9e9af5f6480c6b455c9634",
+      "size": 4323,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/c06b89a9d29661aa6e9e9af5f6480c6b455c9634"
+    },
+    {
+      "path": "3. DJI Motion/js/scenes/03-proof.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bb0bb49bc49c564a908ed5d9155f3108aa38cec",
+      "size": 5376,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/6bb0bb49bc49c564a908ed5d9155f3108aa38cec"
+    },
+    {
+      "path": "3. DJI Motion/js/scenes/04-share.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10fce0db2c1bc7594f4567a1f975891c1068f743",
+      "size": 7119,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/10fce0db2c1bc7594f4567a1f975891c1068f743"
+    },
+    {
+      "path": "3. DJI Motion/js/scenes/05-spec.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9089b301a8f6d181e5c8bee3dd0a3cd8dee5c21",
+      "size": 8208,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/a9089b301a8f6d181e5c8bee3dd0a3cd8dee5c21"
+    },
+    {
+      "path": "3. DJI Motion/js/scenes/06-249g.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e8f5dae4fb78936a70207a3b0e44a8513c1f8cc",
+      "size": 5467,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/8e8f5dae4fb78936a70207a3b0e44a8513c1f8cc"
+    },
+    {
+      "path": "3. DJI Motion/js/scenes/07-handheld.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a49b20492ca1cefae3a7a5883dbd6b61676e8814",
+      "size": 6469,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/a49b20492ca1cefae3a7a5883dbd6b61676e8814"
+    },
+    {
+      "path": "3. DJI Motion/js/scenes/08-crossover.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8d9c70523664e79de80b3e3089afe95cffa3b41",
+      "size": 7352,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/d8d9c70523664e79de80b3e3089afe95cffa3b41"
+    },
+    {
+      "path": "3. DJI Motion/js/scenes/09-revenue.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ff78f10aecb99af639a107a92eb78df147d97d2",
+      "size": 7604,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/6ff78f10aecb99af639a107a92eb78df147d97d2"
+    },
+    {
+      "path": "3. DJI Motion/js/scenes/10-wall.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "831e39e82fbfad43b1084542728c798a86fe2993",
+      "size": 9656,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/831e39e82fbfad43b1084542728c798a86fe2993"
+    },
+    {
+      "path": "3. DJI Motion/js/scenes/11-montage.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1486a2d1d3132ea44acfa580a8e2f40580070a00",
+      "size": 9066,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/1486a2d1d3132ea44acfa580a8e2f40580070a00"
+    },
+    {
+      "path": "3. DJI Motion/js/scenes/12-endcard.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61f7c602df11d8da3659a18315a8889a14296b0a",
+      "size": 5941,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/61f7c602df11d8da3659a18315a8889a14296b0a"
+    },
+    {
+      "path": "3. DJI Motion/js/transitions.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d812f6733a4bc3fbdcd701480f9d127c77c6311",
+      "size": 10152,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/8d812f6733a4bc3fbdcd701480f9d127c77c6311"
+    },
+    {
+      "path": "3. DJI Motion/js/ui",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a1898dabf4c8f68a865b75d979d150b72c8e8daa",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/a1898dabf4c8f68a865b75d979d150b72c8e8daa"
+    },
+    {
+      "path": "3. DJI Motion/js/ui/components.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45c2aacb025ed854816e744300506f5efa4d060a",
+      "size": 9169,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/45c2aacb025ed854816e744300506f5efa4d060a"
+    },
+    {
+      "path": "3. DJI Motion/js/ui/products.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cc41521b2ed449e692e8b07210d460b24c3b81c",
+      "size": 22162,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/8cc41521b2ed449e692e8b07210d460b24c3b81c"
+    },
+    {
+      "path": "3. DJI Motion/out",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e205dc76e4640e2a3517a47ce06496372824047",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/8e205dc76e4640e2a3517a47ce06496372824047"
+    },
+    {
+      "path": "3. DJI Motion/out/dji-2006-2026.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f80fe85849439fbedab10b08a1dfdd8c21e67b4",
+      "size": 95337471,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/2f80fe85849439fbedab10b08a1dfdd8c21e67b4"
+    },
+    {
+      "path": "3. DJI Motion/out/poster.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1750cb1d90f7468857395dc6059d90d337f5c74b",
+      "size": 58549,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/1750cb1d90f7468857395dc6059d90d337f5c74b"
+    },
+    {
+      "path": "3. DJI Motion/prompt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6f65eb62bfc2f626048ca6c1dfc0404b052abb68",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/6f65eb62bfc2f626048ca6c1dfc0404b052abb68"
+    },
+    {
+      "path": "3. DJI Motion/prompt/DJI Prompt.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7feb98e10f6bf1fd3670dd461f00e53c6de67baa",
+      "size": 22561,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/7feb98e10f6bf1fd3670dd461f00e53c6de67baa"
+    },
+    {
+      "path": "3. DJI Motion/prompt/STORYBOARD.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf8e2c7d9826eec2e2295dfc4bdf776afceda600",
+      "size": 22032,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/cf8e2c7d9826eec2e2295dfc4bdf776afceda600"
+    },
+    {
+      "path": "3. DJI Motion/tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "16fd6a15f8ebcd016eb9d496ff694d5a99311564",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/16fd6a15f8ebcd016eb9d496ff694d5a99311564"
+    },
+    {
+      "path": "3. DJI Motion/tools/render.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "197e92b234e89b32dc93e4486e3688cc9ad6f809",
+      "size": 10493,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/197e92b234e89b32dc93e4486e3688cc9ad6f809"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e692c600601554a5d136823c589e72cca922eeb4",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/e692c600601554a5d136823c589e72cca922eeb4"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dba52b87b26f0a8363d875a9cb3177d8265a6ecf",
+      "size": 22,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/dba52b87b26f0a8363d875a9cb3177d8265a6ecf"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c92333931258d5d5a83a60f0abe69778ac0d86db",
+      "size": 7045,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/c92333931258d5d5a83a60f0abe69778ac0d86db"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/css",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f51a86cce30c5775d239a7f8a589f0981b13e0f0",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/f51a86cce30c5775d239a7f8a589f0981b13e0f0"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/css/controls.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f59b629e7acca51483adad61e5c04c72758ef95c",
+      "size": 2801,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/f59b629e7acca51483adad61e5c04c72758ef95c"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/css/hud.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76ad21f2bda749b00e21f427fdaa8f99839e4edb",
+      "size": 2730,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/76ad21f2bda749b00e21f427fdaa8f99839e4edb"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/css/scenes.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "818250a0d391de63c205cf16eb772e58baca9a38",
+      "size": 4159,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/818250a0d391de63c205cf16eb772e58baca9a38"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/css/stage.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f73e22fe1f14cabab34992a8ce37b0749d53e340",
+      "size": 2368,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/f73e22fe1f14cabab34992a8ce37b0749d53e340"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/css/tokens.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "503fc63a00f720ec3d2cd055e757d85c04d65bfa",
+      "size": 1254,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/503fc63a00f720ec3d2cd055e757d85c04d65bfa"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/dataset",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "43aa5b469130b693a2316f40edd110769c5769f4",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/43aa5b469130b693a2316f40edd110769c5769f4"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/dataset/loopfield-studio-dataset.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de7d4965f75dccd137aaa5d1392871f58367acb9",
+      "size": 32470,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/de7d4965f75dccd137aaa5d1392871f58367acb9"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74612c2f6c181148373c88d26b64fd28b7b97e63",
+      "size": 2288,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/74612c2f6c181148373c88d26b64fd28b7b97e63"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "993d691563fb30540333d698bbf3028e4b5a97ab",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/993d691563fb30540333d698bbf3028e4b5a97ab"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/audio.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a1225171a71ec33d21c824a73b5e9e7f3ef86e2",
+      "size": 16384,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/9a1225171a71ec33d21c824a73b5e9e7f3ef86e2"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/controls.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0219d51a458953ba439922c621daece62b4c1d4",
+      "size": 6025,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/c0219d51a458953ba439922c621daece62b4c1d4"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/core",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0aa2baca66e6809b70668ddb4898eded195fb00a",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/0aa2baca66e6809b70668ddb4898eded195fb00a"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/core/timeline.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "935f7b9afe8c853c592a1139f73397670d80219d",
+      "size": 1449,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/935f7b9afe8c853c592a1139f73397670d80219d"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/core/util.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55d8279eb7da256903848d88dfeef08d99db759a",
+      "size": 6302,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/55d8279eb7da256903848d88dfeef08d99db759a"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/data.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dd5cd15ab165f06107e317b0b3a9a4d2cc6db60",
+      "size": 4166,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/6dd5cd15ab165f06107e317b0b3a9a4d2cc6db60"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/engine.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c8b22428464d24ecb67e276c76d9fe75571195c",
+      "size": 4223,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/2c8b22428464d24ecb67e276c76d9fe75571195c"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/fx",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c865d90d603abdd6ae78734570857487dd335353",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/c865d90d603abdd6ae78734570857487dd335353"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/fx/gl.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb5b60c9cf82939c9f7856718df99c8b4f569a46",
+      "size": 16160,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/bb5b60c9cf82939c9f7856718df99c8b4f569a46"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/fx/ink.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd1b0a3ca9bb30e1bfa641e6210628c491de6b42",
+      "size": 4851,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/fd1b0a3ca9bb30e1bfa641e6210628c491de6b42"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/fx/presets.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43e3a15ccc33a473d51d2f24699e3428d4e6cd56",
+      "size": 21715,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/43e3a15ccc33a473d51d2f24699e3428d4e6cd56"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/fx/textures.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5c73c24e87f7ca65162ea86570b7be93c6ca1e16",
+      "size": 997,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/5c73c24e87f7ca65162ea86570b7be93c6ca1e16"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/hud.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d00dd99ada3d84a9034950456fa1ef360dab5933",
+      "size": 2789,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/d00dd99ada3d84a9034950456fa1ef360dab5933"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/main.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c65d2eeb3ab085ed0fb4e43fd02d33a7f0306170",
+      "size": 3586,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/c65d2eeb3ab085ed0fb4e43fd02d33a7f0306170"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/scenes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c58aea89b38900744cf375454345f0fd16482901",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/c58aea89b38900744cf375454345f0fd16482901"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/scenes/01-hook.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa33c23bae1a28321efae1a09a2283c9a9708f13",
+      "size": 4519,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/fa33c23bae1a28321efae1a09a2283c9a9708f13"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/scenes/02-reveal.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26c494c5120e2b1621155f91b35557e8e5aa42c3",
+      "size": 3386,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/26c494c5120e2b1621155f91b35557e8e5aa42c3"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/scenes/03-library.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f50f5f08f0664fa373091f3ac0e2feb514309f5",
+      "size": 5060,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/0f50f5f08f0664fa373091f3ac0e2feb514309f5"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/scenes/04-layers.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abdf048ecd643039fc42ec4ceae77d42b138658a",
+      "size": 5202,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/abdf048ecd643039fc42ec4ceae77d42b138658a"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/scenes/05-palettes.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0f1b772c8fabcdd499be6be85f86ee43b23ab3f",
+      "size": 3925,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/c0f1b772c8fabcdd499be6be85f86ee43b23ab3f"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/scenes/06-slider.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1546848423307b133b4a74057379370515247d57",
+      "size": 5635,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/1546848423307b133b4a74057379370515247d57"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/scenes/07-loop.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2219c120f9b33a38825d361819563d4ce7e90bd0",
+      "size": 5644,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/2219c120f9b33a38825d361819563d4ce7e90bd0"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/scenes/08-output.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f81f131adee91ab6ad2698c42bc1dc7e69d9bd9",
+      "size": 4329,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/8f81f131adee91ab6ad2698c42bc1dc7e69d9bd9"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/scenes/09-local.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4f2900a4614a95fa5ec32266de093ad93190887",
+      "size": 5712,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/b4f2900a4614a95fa5ec32266de093ad93190887"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/scenes/10-code.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75fe495e5fdfb3b479ee68a666945e6ffc467a70",
+      "size": 5923,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/75fe495e5fdfb3b479ee68a666945e6ffc467a70"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/scenes/11-montage.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f70c2202b6af6419528028923878d40fd24909f",
+      "size": 2949,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/5f70c2202b6af6419528028923878d40fd24909f"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/scenes/12-endcard.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe4112b6fc565d338647c695add5f6a5e50a98a0",
+      "size": 4478,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/fe4112b6fc565d338647c695add5f6a5e50a98a0"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/transitions.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "55c289106e9f8e9c69a00061f64e63ab812793b0",
+      "size": 11901,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/55c289106e9f8e9c69a00061f64e63ab812793b0"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/ui",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "007e629ec5a26533265032af8aaa198b1b99c915",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/007e629ec5a26533265032af8aaa198b1b99c915"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/js/ui/components.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97e9425fccab13a5aef2b316629e84fb75b6d310",
+      "size": 7487,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/97e9425fccab13a5aef2b316629e84fb75b6d310"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/out",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "27166ce0b96863591aa4af167a7d7179bee81fb9",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/27166ce0b96863591aa4af167a7d7179bee81fb9"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/out/loopfield-studio.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "390ae9bb4b6f76d49b4476a305204f303cfdca40",
+      "size": 71382574,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/390ae9bb4b6f76d49b4476a305204f303cfdca40"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/out/poster.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe1f62bd505b817ef9c862231a7f5087490a80c3",
+      "size": 133267,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/fe1f62bd505b817ef9c862231a7f5087490a80c3"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/prompt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "971849eb8ccda4a5ed68a00bcfd28d2ac9ed9efa",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/971849eb8ccda4a5ed68a00bcfd28d2ac9ed9efa"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/prompt/Loopfield-Studio Prompt.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c0f16493a282bc77b7666519e73dd0fcc014cd2",
+      "size": 22161,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/3c0f16493a282bc77b7666519e73dd0fcc014cd2"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/prompt/STORYBOARD.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25b0eea3d3027a17e26aa42ef4949308ae907b85",
+      "size": 26036,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/25b0eea3d3027a17e26aa42ef4949308ae907b85"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2c1c95736e9a0b7104fa6e5c95eea31eb5010198",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/2c1c95736e9a0b7104fa6e5c95eea31eb5010198"
+    },
+    {
+      "path": "4. Loopfield-Studio Motion/tools/render.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c74e5433318fd68c9da4ae0e911663db5c8887e",
+      "size": 10496,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/7c74e5433318fd68c9da4ae0e911663db5c8887e"
+    },
+    {
+      "path": "CLAUDE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3164a2fd0c1feb226d956ab223474641aa74e499",
+      "size": 4909,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/3164a2fd0c1feb226d956ab223474641aa74e499"
+    },
+    {
+      "path": "Motion Graphic Template Prompt.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c840d27611f31a52e5113374da32f3d19485169",
+      "size": 4129,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/8c840d27611f31a52e5113374da32f3d19485169"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f27229fb97b0e1090219d2694352d34cd703c7c6",
+      "size": 4517,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/f27229fb97b0e1090219d2694352d34cd703c7c6"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2390bcb1d6742fe62e98c4cd7bfa452d1c55c664",
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/2390bcb1d6742fe62e98c4cd7bfa452d1c55c664"
+    },
+    {
+      "path": "assets/og-image.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef13359d0fec3ad17e7167c2318cd2568a0fbd45",
+      "size": 9994,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/ef13359d0fec3ad17e7167c2318cd2568a0fbd45"
+    },
+    {
+      "path": "assets/og-image.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64ec37893d3e72f5f2d4e8b3934265b8d88e49e9",
+      "size": 85274,
+      "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/blobs/64ec37893d3e72f5f2d4e8b3934265b8d88e49e9"
+    }
+  ],
+  "truncated": false
+}

@@ -1,0 +1,19 @@
+[
+  {
+    "url": "https://api.github.com/robots.txt",
+    "status": 404,
+    "error": "HTTPError"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/robots.txt",
+    "status": 404,
+    "error": "HTTPError"
+  },
+  {
+    "url": "https://api.github.com/repos/JTech-CO/Motiongraphic/git/trees/main?recursive=1",
+    "status": 200,
+    "bytes": 51011,
+    "sha256": "b6e951c830870d0201aca4d3d4122505269b5291f200818282db3853a1bd0fe6",
+    "seconds": 0.06
+  }
+]

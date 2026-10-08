@@ -1,0 +1,372 @@
+{
+  "collectedAt": "2026-10-08T09:15:30.600987+00:00",
+  "offline": false,
+  "items": 1826,
+  "sources": [
+    {
+      "id": "animate",
+      "title": "Animate.css 3.7.2",
+      "repository": "animate-css/animate.css",
+      "ref": "3.7.2",
+      "commit": "ab5fe9dae4fdb936eee698ce1850a263008f0a99",
+      "sourceUrl": "https://github.com/animate-css/animate.css/blob/ab5fe9dae4fdb936eee698ce1850a263008f0a99/animate.css",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/animate-css/animate.css/blob/ab5fe9dae4fdb936eee698ce1850a263008f0a99/LICENSE",
+      "verifiedAt": "2026-10-08",
+      "sha256": "6b6b686ecaa56e02ec5aced95541a03f922f599b31f1b4cd429ceca824a6e669",
+      "bytes": 77907,
+      "method": "robots-reviewed-public-file",
+      "kind": "css",
+      "items": 78
+    },
+    {
+      "id": "magic",
+      "title": "Magic Animations",
+      "repository": "miniMAC/magic",
+      "ref": "master",
+      "commit": "f26d3c3beaf3017c90fb27ac6f67168fac26de06",
+      "sourceUrl": "https://github.com/miniMAC/magic/blob/f26d3c3beaf3017c90fb27ac6f67168fac26de06/dist/magic.css",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/miniMAC/magic/blob/f26d3c3beaf3017c90fb27ac6f67168fac26de06/LICENSE",
+      "verifiedAt": "2026-10-08",
+      "sha256": "7def28372f99962b398c272120914207157cfa38da7b76f35d526ac8c9871773",
+      "bytes": 44345,
+      "method": "robots-reviewed-public-file",
+      "kind": "css",
+      "items": 65
+    },
+    {
+      "id": "vivify",
+      "title": "Vivify",
+      "repository": "Martz90/vivify",
+      "ref": "master",
+      "commit": "a919e54b1fc542ddf3b7dc55667df4c92d7bef05",
+      "sourceUrl": "https://github.com/Martz90/vivify/blob/a919e54b1fc542ddf3b7dc55667df4c92d7bef05/vivify.css",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/Martz90/vivify/blob/a919e54b1fc542ddf3b7dc55667df4c92d7bef05/LICENSE",
+      "verifiedAt": "2026-10-08",
+      "sha256": "cb8803ed6139f735cc4eb7abe7dacd4d0f060f348b78ac353075a695d42c1f20",
+      "bytes": 71707,
+      "method": "robots-reviewed-public-file",
+      "kind": "css",
+      "items": 68
+    },
+    {
+      "id": "wicked",
+      "title": "WickedCSS",
+      "repository": "kristofferandreasen/wickedCSS",
+      "ref": "master",
+      "commit": "11397fa7a887bdf3a7f37b179229f7c635a2d850",
+      "sourceUrl": "https://github.com/kristofferandreasen/wickedCSS/blob/11397fa7a887bdf3a7f37b179229f7c635a2d850/wickedcss.css",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/kristofferandreasen/wickedCSS/blob/11397fa7a887bdf3a7f37b179229f7c635a2d850/LICENSE",
+      "verifiedAt": "2026-10-08",
+      "sha256": "a9ccf86f20f72c48bc733d309aa977a8caff2a659c789ca5b9291bbe0484452a",
+      "bytes": 16901,
+      "method": "robots-reviewed-public-file",
+      "kind": "css",
+      "items": 24
+    },
+    {
+      "id": "spinkit",
+      "title": "SpinKit",
+      "repository": "tobiasahlin/SpinKit",
+      "ref": "master",
+      "commit": "742a71277c49b69053b5beb9fad80d720840a2ab",
+      "sourceUrl": "https://github.com/tobiasahlin/SpinKit/blob/742a71277c49b69053b5beb9fad80d720840a2ab/spinkit.css",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/tobiasahlin/SpinKit/blob/742a71277c49b69053b5beb9fad80d720840a2ab/LICENSE",
+      "verifiedAt": "2026-10-08",
+      "sha256": "815541240caae9f1fad3299a9f343e777acb24de1795e0a3ada4802699694183",
+      "bytes": 14782,
+      "method": "robots-reviewed-public-file",
+      "kind": "loader",
+      "items": 15
+    },
+    {
+      "id": "three-dots",
+      "title": "Three Dots",
+      "repository": "nzbin/three-dots",
+      "ref": "master",
+      "commit": "d6d6f51af17e015ecadf21f76ce4af081a44b3de",
+      "sourceUrl": "https://github.com/nzbin/three-dots/blob/d6d6f51af17e015ecadf21f76ce4af081a44b3de/dist/three-dots.css",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/nzbin/three-dots/blob/d6d6f51af17e015ecadf21f76ce4af081a44b3de/LICENSE",
+      "verifiedAt": "2026-10-08",
+      "sha256": "d0dcf6a5abf933f7fce9158f7122afb72e1f269a90a0cd4d4195c887c988bf7c",
+      "bytes": 25970,
+      "method": "robots-reviewed-public-file",
+      "kind": "loader",
+      "items": 32
+    },
+    {
+      "id": "csshake",
+      "title": "CSShake",
+      "repository": "elrumordelaluz/csshake",
+      "ref": "master",
+      "commit": "4b9caede44bc93ac83de3ee795fe044832ceb484",
+      "sourceUrl": "https://github.com/elrumordelaluz/csshake/blob/4b9caede44bc93ac83de3ee795fe044832ceb484/dist/csshake.css",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/elrumordelaluz/csshake/blob/4b9caede44bc93ac83de3ee795fe044832ceb484/LICENSE",
+      "verifiedAt": "2026-10-08",
+      "sha256": "2c65527e46f10d145c50a177650a0ab12b36f9bd3e7b3fc8a6a089c029097348",
+      "bytes": 28612,
+      "method": "robots-reviewed-public-file",
+      "kind": "css",
+      "items": 10
+    },
+    {
+      "id": "nice-colors",
+      "title": "Nice Color Palettes",
+      "repository": "Jam3/nice-color-palettes",
+      "ref": "master",
+      "commit": "dd4118fb4b617f5647e1e5add907685e936e05ff",
+      "sourceUrl": "https://github.com/Jam3/nice-color-palettes/blob/dd4118fb4b617f5647e1e5add907685e936e05ff/1000.json",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/Jam3/nice-color-palettes/blob/dd4118fb4b617f5647e1e5add907685e936e05ff/LICENSE.md",
+      "verifiedAt": "2026-10-08",
+      "sha256": "d2e25dad731b23453aa31812be7a1120c3f515bf20563ef3066fd1fc9fa6a54d",
+      "bytes": 51585,
+      "method": "robots-reviewed-public-file",
+      "kind": "palette",
+      "items": 992
+    },
+    {
+      "id": "uigradients",
+      "title": "uiGradients",
+      "repository": "ghosh/uiGradients",
+      "ref": "main",
+      "commit": "afb018418e92c3fa4048daa88eb6525a78f5486e",
+      "sourceUrl": "https://github.com/ghosh/uiGradients/blob/afb018418e92c3fa4048daa88eb6525a78f5486e/gradients.json",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/ghosh/uiGradients/blob/afb018418e92c3fa4048daa88eb6525a78f5486e/LICENSE.md",
+      "verifiedAt": "2026-10-08",
+      "sha256": "56e1cf9e9c213aece92be9e1abe32aed958bf10c77031f2504431964b1cb7030",
+      "bytes": 32495,
+      "method": "robots-reviewed-public-file",
+      "kind": "gradient",
+      "items": 382
+    }
+  ],
+  "failures": [],
+  "robots": {
+    "api.github.com": {
+      "status": "absent",
+      "url": "https://api.github.com/robots.txt",
+      "httpStatus": 404
+    },
+    "raw.githubusercontent.com": {
+      "status": "absent",
+      "url": "https://raw.githubusercontent.com/robots.txt",
+      "httpStatus": 404
+    }
+  },
+  "requests": [
+    {
+      "url": "https://api.github.com/repos/Jam3/nice-color-palettes/commits/master",
+      "status": 200,
+      "bytes": 9789,
+      "sha256": "05d1cf219bd9185ed2f0431b98ef6ab239fdc6b272be888c6eaf6e5731e9445c",
+      "seconds": 0.59
+    },
+    {
+      "url": "https://api.github.com/repos/Martz90/vivify/commits/master",
+      "status": 200,
+      "bytes": 6469,
+      "sha256": "6cbd09351ce08deb4a8db597967092afe0f24b11c5b4594155a0081d338c9cab",
+      "seconds": 0.31
+    },
+    {
+      "url": "https://api.github.com/repos/animate-css/animate.css/commits/3.7.2",
+      "status": 200,
+      "bytes": 5659,
+      "sha256": "18dac70ce0fe46e472f2cdc142f3d85afe7f07fccf031e193595f0cbe4d76c1c",
+      "seconds": 0.29
+    },
+    {
+      "url": "https://api.github.com/repos/elrumordelaluz/csshake/commits/master",
+      "status": 200,
+      "bytes": 4010,
+      "sha256": "6f529473cb5fb2ac7149a6cb19ff642f8e6a39ed24f2cd7c4b97c9c6f4831fc2",
+      "seconds": 0.28
+    },
+    {
+      "url": "https://api.github.com/repos/ghosh/uiGradients/commits/main",
+      "status": 200,
+      "bytes": 4957,
+      "sha256": "856c921fafdf3bf4b16cfd9254386026d8ffe19b02a6f14a359f352e753f6994",
+      "seconds": 0.32
+    },
+    {
+      "url": "https://api.github.com/repos/kristofferandreasen/wickedCSS/commits/master",
+      "status": 200,
+      "bytes": 5499,
+      "sha256": "3c35a1e43fe8e35858cabd5481d388baa39688a7ea990e8c98340eb86cf1413f",
+      "seconds": 0.34
+    },
+    {
+      "url": "https://api.github.com/repos/miniMAC/magic/commits/master",
+      "status": 200,
+      "bytes": 42809,
+      "sha256": "6a41ba3bd576acf278f353acf711a4594262c1e5224f02eb0c1b9b0405afb658",
+      "seconds": 0.3
+    },
+    {
+      "url": "https://api.github.com/repos/nzbin/three-dots/commits/master",
+      "status": 200,
+      "bytes": 5026,
+      "sha256": "1731021ee53fbf09df4299812a029466249f2bfbadeacfeba9ed9c770d090d65",
+      "seconds": 0.32
+    },
+    {
+      "url": "https://api.github.com/repos/tobiasahlin/SpinKit/commits/master",
+      "status": 200,
+      "bytes": 4805,
+      "sha256": "3f79ff0642be855ff795a709171b0efa3e83c7f24666b513175f99a30facc6cb",
+      "seconds": 0.31
+    },
+    {
+      "url": "https://api.github.com/robots.txt",
+      "status": 404,
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Jam3/nice-color-palettes/dd4118fb4b617f5647e1e5add907685e936e05ff/1000.json",
+      "status": 200,
+      "bytes": 51585,
+      "sha256": "d2e25dad731b23453aa31812be7a1120c3f515bf20563ef3066fd1fc9fa6a54d",
+      "seconds": 0.03
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Jam3/nice-color-palettes/dd4118fb4b617f5647e1e5add907685e936e05ff/LICENSE.md",
+      "status": 200,
+      "bytes": 1071,
+      "sha256": "4ebf74995ce5f10ff6b2a5734792f225da1bcded5e65995a35408b3c21279ffe",
+      "seconds": 0.06
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Martz90/vivify/a919e54b1fc542ddf3b7dc55667df4c92d7bef05/LICENSE",
+      "status": 200,
+      "bytes": 1069,
+      "sha256": "43e494ec1904942e223e13a6423b1f0a84164e3c8152ef27e2b89b2696ecc19e",
+      "seconds": 0.04
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Martz90/vivify/a919e54b1fc542ddf3b7dc55667df4c92d7bef05/vivify.css",
+      "status": 200,
+      "bytes": 71707,
+      "sha256": "cb8803ed6139f735cc4eb7abe7dacd4d0f060f348b78ac353075a695d42c1f20",
+      "seconds": 0.05
+    },
+    {
+      "url": "https://raw.githubusercontent.com/animate-css/animate.css/ab5fe9dae4fdb936eee698ce1850a263008f0a99/LICENSE",
+      "status": 200,
+      "bytes": 1078,
+      "sha256": "6fccbef8e6176bf264980e5a66f7446f93a0a2dc11f579789da9bf2d82356788",
+      "seconds": 0.03
+    },
+    {
+      "url": "https://raw.githubusercontent.com/animate-css/animate.css/ab5fe9dae4fdb936eee698ce1850a263008f0a99/animate.css",
+      "status": 200,
+      "bytes": 77907,
+      "sha256": "6b6b686ecaa56e02ec5aced95541a03f922f599b31f1b4cd429ceca824a6e669",
+      "seconds": 0.03
+    },
+    {
+      "url": "https://raw.githubusercontent.com/elrumordelaluz/csshake/4b9caede44bc93ac83de3ee795fe044832ceb484/LICENSE",
+      "status": 200,
+      "bytes": 1075,
+      "sha256": "76bbaf12b71342a3fce8ed48766946dbde9a7f4121000ea132752b994beea8df",
+      "seconds": 0.03
+    },
+    {
+      "url": "https://raw.githubusercontent.com/elrumordelaluz/csshake/4b9caede44bc93ac83de3ee795fe044832ceb484/dist/csshake.css",
+      "status": 200,
+      "bytes": 28612,
+      "sha256": "2c65527e46f10d145c50a177650a0ab12b36f9bd3e7b3fc8a6a089c029097348",
+      "seconds": 0.04
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ghosh/uiGradients/afb018418e92c3fa4048daa88eb6525a78f5486e/LICENSE.md",
+      "status": 200,
+      "bytes": 1073,
+      "sha256": "dbea8f3f615dceaaf0bdc386990302144d56f8e49164ca0e11fb475804aae2f2",
+      "seconds": 0.05
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ghosh/uiGradients/afb018418e92c3fa4048daa88eb6525a78f5486e/gradients.json",
+      "status": 200,
+      "bytes": 32495,
+      "sha256": "56e1cf9e9c213aece92be9e1abe32aed958bf10c77031f2504431964b1cb7030",
+      "seconds": 0.04
+    },
+    {
+      "url": "https://raw.githubusercontent.com/kristofferandreasen/wickedCSS/11397fa7a887bdf3a7f37b179229f7c635a2d850/LICENSE",
+      "status": 200,
+      "bytes": 1093,
+      "sha256": "aa40006467e3fd3162e640d6aad65d578e8df3ad54e2badcc2cf89d722a54f50",
+      "seconds": 0.04
+    },
+    {
+      "url": "https://raw.githubusercontent.com/kristofferandreasen/wickedCSS/11397fa7a887bdf3a7f37b179229f7c635a2d850/wickedcss.css",
+      "status": 200,
+      "bytes": 16901,
+      "sha256": "a9ccf86f20f72c48bc733d309aa977a8caff2a659c789ca5b9291bbe0484452a",
+      "seconds": 0.05
+    },
+    {
+      "url": "https://raw.githubusercontent.com/miniMAC/magic/f26d3c3beaf3017c90fb27ac6f67168fac26de06/LICENSE",
+      "status": 200,
+      "bytes": 1081,
+      "sha256": "2b22e1cd05c0d4e2383b1f7cd475284c1ee334caca10b23705d2dfc298be0d27",
+      "seconds": 0.03
+    },
+    {
+      "url": "https://raw.githubusercontent.com/miniMAC/magic/f26d3c3beaf3017c90fb27ac6f67168fac26de06/dist/magic.css",
+      "status": 200,
+      "bytes": 44345,
+      "sha256": "7def28372f99962b398c272120914207157cfa38da7b76f35d526ac8c9871773",
+      "seconds": 0.03
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nzbin/three-dots/d6d6f51af17e015ecadf21f76ce4af081a44b3de/LICENSE",
+      "status": 200,
+      "bytes": 1064,
+      "sha256": "ec33226af133ac64945d30357b5d7809858fcea3a3588e7a8a91c0f0162debac",
+      "seconds": 0.03
+    },
+    {
+      "url": "https://raw.githubusercontent.com/nzbin/three-dots/d6d6f51af17e015ecadf21f76ce4af081a44b3de/dist/three-dots.css",
+      "status": 200,
+      "bytes": 25970,
+      "sha256": "d0dcf6a5abf933f7fce9158f7122afb72e1f269a90a0cd4d4195c887c988bf7c",
+      "seconds": 0.05
+    },
+    {
+      "url": "https://raw.githubusercontent.com/robots.txt",
+      "status": 404,
+      "error": "HTTPError"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/tobiasahlin/SpinKit/742a71277c49b69053b5beb9fad80d720840a2ab/LICENSE",
+      "status": 200,
+      "bytes": 1079,
+      "sha256": "1d28b0d1573ef0071cddfd6007593088511844586e3d376584c63228f7388403",
+      "seconds": 0.06
+    },
+    {
+      "url": "https://raw.githubusercontent.com/tobiasahlin/SpinKit/742a71277c49b69053b5beb9fad80d720840a2ab/spinkit.css",
+      "status": 200,
+      "bytes": 14782,
+      "sha256": "815541240caae9f1fad3299a9f343e777acb24de1795e0a3ada4802699694183",
+      "seconds": 0.03
+    }
+  ],
+  "browserReviewedCards": 160,
+  "excluded": [
+    "MP4/MOV/WebM files",
+    "Hover.css current dual/commercial terms: reference-only",
+    "Animate.css current Hippocratic license: use verified MIT 3.7.2 instead",
+    "unlicensed source redistribution"
+  ]
+}
