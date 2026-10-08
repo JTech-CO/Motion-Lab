@@ -13,9 +13,20 @@ python -m motionlab search --asset-type loader --use-case status --json
 python -m motionlab get ITEM_ID --json
 ```
 
-If only a hosted library URL is available, read its `/llms.txt` and `/catalog-index.json`, select candidate IDs, then retrieve `/collections/CATEGORY.json` or `/catalog.json`. The hosted site is static; it does not expose a remote `/mcp` endpoint. Use the configured project directory for CLI access rather than installing an unrelated package with the same name.
+For a requested local setup, the source repository is [JTech-CO/Motion-Lab](https://github.com/JTech-CO/Motion-Lab), whose default branch is `main`:
 
-The website shows real asset previews with five multi-select facets: asset type, effect, component, use case, and license. Choices within a facet combine with OR; different facets combine with AND. Results use 20 cards per page and direct page-number navigation. Arrow keys move cards and actual controls; Enter toggles choices or opens details. Escape closes details; Tab and mouse also work. In a code reader, arrows scroll and Enter returns to its tab. `/` focuses optional search. KO/EN changes UI labels while preserving source text. Prefer MCP or JSON for programmatic retrieval.
+```text
+git clone https://github.com/JTech-CO/Motion-Lab.git
+cd Motion-Lab
+python scripts/build.py
+python -m motionlab serve
+```
+
+The local home is `/`; the asset explorer is `/library.html`. Set up local MCP with `command: "python"` and `args: ["C:/path/to/Motion-Lab/motionlab/launch_mcp.py", "--root", "C:/path/to/Motion-Lab"]` on Windows. On POSIX, use `args: ["/path/to/Motion-Lab/motionlab/launch_mcp.py", "--root", "/path/to/Motion-Lab"]`. Replace the root with the cloned project's actual absolute path and use a Python 3 executable available to the client. The absolute launcher works without `cwd`. A GitHub repository URL is a source/data address, not a remote MCP endpoint. Cloning does not require pushing or publishing the project.
+
+If only a hosted library URL is available, read its `/llms.txt` and `/catalog-index.json`, select candidate IDs, then retrieve `/collections/CATEGORY.json` or `/catalog.json`. For GitHub source access, those files are under `dist/`. The hosted site is static; it does not expose a remote `/mcp` endpoint. Use the configured project directory for CLI access rather than installing an unrelated package with the same name.
+
+The asset explorer shows real previews with five multi-select facets: asset type, effect, component, use case, and license. Choices within a facet combine with OR; different facets combine with AND. Results allow 20, 50 or 100 cards per page, default to 20, and support direct page-number navigation. Arrow keys move cards and actual controls; Enter toggles choices or opens details. Escape closes details; Tab and mouse also work. In a code reader, arrows scroll and Enter returns to its tab. `/` focuses optional search. KO/EN changes UI labels while preserving source text. Prefer MCP or JSON for programmatic retrieval.
 
 Use structured `search_motion` arguments `asset_type`, `effect`, `component`, `use_case`, and `basis` to search generated analysis; each accepts one canonical ID and different fields combine with AND. Useful combinations include `{effect:"mask", component:"image", basis:"code"}` and `{asset_type:"loader", use_case:"status"}`. Text search also indexes actual properties, techniques and evidence signals. Source `category` and analyzed `asset_type` are separate. `kind=code` selects code entries; `kind=palette` selects palette data; `kind=reference` selects discovery links. Read exact license labels from `motion_stats` before filtering by `license`. Search returns `items`, `total`, `limit`, and `offset`; maximum page size is 100. For closed IDs and complete CLI/HTTP/MCP schemas, read `docs/interfaces.md` in this project.
 

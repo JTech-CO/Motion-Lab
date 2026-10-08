@@ -7,23 +7,14 @@
   <meta name="description" content="Motion Lab - discover reusable motion assets, source code, colors, and their original licenses.">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self'; frame-src 'self' about:; object-src 'none'; base-uri 'none'; form-action 'none'">
-  <title>Motion Lab</title>
+  <title>Motion Lab / Asset library</title>
   <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="./preview.css">
-  <link rel="stylesheet" href="./home.css">
   <script src="./preview.js" defer></script>
   <script src="./app.js" defer></script>
-  <script src="./home.js" defer></script>
 </head>
-<body data-view="home">
-<section id="home-view" class="home-view" data-paused="false" aria-labelledby="home-title">
-<div class="home-field" data-source-asset="ml-original-halftone-breathe" aria-hidden="true"></div><div class="home-border" data-source-asset="ml-original-border-draw" aria-hidden="true"></div>
-<header class="home-toolbar"><span class="home-wordmark">MOTION LAB.</span><div class="home-toolbar-actions"><button class="home-tool" id="home-pause" type="button" aria-pressed="false">모션 정지</button><button class="home-tool" id="home-language" type="button" aria-label="Switch to English">KO / EN</button></div></header>
-<main class="home-center"><h1 class="home-title" id="home-title" data-source-asset="ml-original-text-fill-sweep">Motion Lab</h1><p class="home-subtitle" id="home-subtitle">움직임을 살펴보고, 다음 장면을 만드세요.</p><a class="home-enter" id="home-enter" href="./library.html"><span id="home-enter-label">라이브러리 열기</span><span class="home-enter-mark" aria-hidden="true">↗</span></a><p class="home-key-help" id="home-help">방향키 선택 · Enter 실행</p><p class="home-motion-note" id="home-note"></p></main>
-<p class="home-live-status" id="home-status" role="status" aria-live="polite"></p>
-</section>
-<div id="library-view" hidden>
-<a class="skip-link" href="#library-main" id="skip-link">라이브러리로 바로 가기</a>
+<body>
+  <a class="skip-link" href="#library-main" id="skip-link">라이브러리로 바로 가기</a>
   <header class="app-header">
     <a class="brand" href="./" aria-label="Motion Lab"><span class="brand-mark" aria-hidden="true">↗</span>MOTION LAB<span class="brand-dot">.</span></a>
     <label class="search-field"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.3"></circle><path d="m15.5 15.5 4.7 4.7"></path></svg><input id="search-input" type="search" maxlength="200" autocomplete="off" placeholder="모션, 구성요소, 용도 검색" aria-label="자료 검색"><kbd>/</kbd></label>
@@ -48,6 +39,5 @@
   <dialog id="detail-dialog" class="detail-drawer" aria-labelledby="detail-title"><div class="drawer-header"><span id="detail-header-label">에셋 상세</span><div><button id="detail-language" class="text-button">KO / EN</button><button id="detail-close" class="close-button" aria-label="상세 닫기">×</button></div></div><div id="detail-content"></div></dialog>
   <dialog id="connect-dialog" class="connect-dialog" aria-labelledby="connect-title"><div class="drawer-header"><span id="connect-header-label">AI / MCP / CLI</span><button id="connect-close" class="close-button" aria-label="연결 안내 닫기">×</button></div><div id="connect-content"></div></dialog>
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-</div>
 </body>
 </html>

@@ -113,12 +113,14 @@ def project_url(value):
     return canonical
 
 
-def write_json(path, value):
+def write_json(path, value, *, compact=False):
     path.parent.mkdir(parents=True, exist_ok=True)
     handle, temporary = tempfile.mkstemp(prefix=".motionlab-", suffix=".json", dir=path.parent)
     try:
         with os.fdopen(handle, "w", encoding="utf-8", newline="\n") as stream:
-            json.dump(value, stream, ensure_ascii=False, indent=2)
+            json.dump(value, stream, ensure_ascii=False,
+                      indent=None if compact else 2,
+                      separators=(",", ":") if compact else None)
             stream.write("\n")
         os.replace(temporary, path)
     finally:
@@ -126,14 +128,28 @@ def write_json(path, value):
             os.unlink(temporary)
 
 
+def compact_catalog_index(catalog):
+    """Project discovery fields only; full evidence and assets stay in full entries."""
+    fields = ("id", "title", "category", "sourceUrl", "sourceName", "license", "kind")
+    facets = ("assetType", "effects", "components", "useCases")
+    items = []
+    for entry in catalog["items"]:
+        analysis = entry["analysis"]
+        item = {key: entry[key] for key in fields}
+        item["analysis"] = {key: analysis[key] for key in facets}
+        item["analysis"]["evidence"] = {
+            key: analysis["evidence"][key] for key in ("basis", "confidence")
+        }
+        items.append(item)
+    return {"version": catalog["version"], "indexVersion": 2,
+            "updatedAt": catalog["updatedAt"], "stats": catalog["stats"], "items": items}
+
+
 def write_static_exports(root, catalog):
     """Smaller, AI-friendly files for clients that only have a hosted URL."""
     distribution = root / "dist"
     write_json(distribution / "catalog.json", catalog)
-    fields = ("id", "title", "category", "tags", "sourceUrl", "sourceName", "license", "kind", "analysis")
-    index = {"version": catalog["version"], "updatedAt": catalog["updatedAt"], "stats": catalog["stats"],
-             "items": [{key: entry[key] for key in fields} for entry in catalog["items"]]}
-    write_json(distribution / "catalog-index.json", index)
+    write_json(distribution / "catalog-index.json", compact_catalog_index(catalog), compact=True)
     links = []
     for category in CATEGORIES:
         selected = [entry for entry in catalog["items"] if entry["category"] == category]
@@ -143,13 +159,13 @@ def write_static_exports(root, catalog):
     content = ["# Motion Lab", "",
                f"> Public motion reference archive: {stats['total']} entries from {stats['sources']} source projects. Updated {catalog['updatedAt']}.", "",
                "## Catalog", "",
-               "- [Compact index](catalog-index.json): IDs, source-based asset analysis, categories, provenance links, licenses and kinds; no full code.",
+               "- [Compact index v2](catalog-index.json): IDs, titles, source categories/links, license labels, kinds and discovery facets. It omits raw tags, code, full license text, evidence signals and preview DOM.",
                "- [Full catalog](catalog.json): all public entries, source registry and statistics.", "",
                "## Collections", "", *links, "",
                "## Usage and provenance", "",
-               "Select IDs in the compact index, then retrieve a relevant collection or the full catalog.",
+               "Select IDs in the compact index, then retrieve the matching source-category collection or the full catalog. The local API /api/items/ID, CLI get and MCP get_motion return one full entry.",
                "Check kind, license, licenseUrl, sourceUrl, sourceName, verification and verifiedAt before adapting code.",
-               "analysis lists code/color-derived effects, components, properties, techniques and use cases. Review evidence.basis and confidence.",
+               "Compact analysis keeps assetType, effects, components, useCases and evidence.basis/confidence. Full entries add properties, techniques, evidence summaries/signals and preview structure.",
                "Code analysis is structural; it is not a security validator, a guarantee of visual output, or permission to execute source assets.",
                "Reference-only entries are discovery links and grant no code, design or asset redistribution rights.",
                "Preserve notices required by each license; Unknown/See source require review of the original provider's terms.",

@@ -1,0 +1,64 @@
+/* Motion Lab home presentation.
+ * Source recipes: ml-original-halftone-breathe, ml-original-border-draw,
+ * ml-original-text-fill-sweep. Original keyframes retained; viewport geometry,
+ * text and black/white/cyan colors are adapted for this page.
+ *
+ * Copyright (c) 2026 Motion Lab contributors
+ * SPDX-License-Identifier: MIT
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+body[data-view="home"]{overflow:hidden}
+.home-view{position:fixed;inset:0;z-index:60;min-height:100dvh;background:#080a0c;color:#f3f7f8;isolation:isolate;overflow:hidden;mask-repeat:no-repeat;mask-position:center;mask-size:100% 100%;-webkit-mask-repeat:no-repeat;-webkit-mask-position:center;-webkit-mask-size:100% 100%}
+.home-field{position:absolute;inset:0;z-index:-2;background-color:#080a0c;background-image:radial-gradient(circle,#37636b 1.5px,transparent 1.6px);background-position:center;background-size:10px 10px;animation:ml-halftone-breathe 5.2s ease-in-out infinite}
+.home-field:after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at center,#080a0c44 0%,#080a0c33 40%,#080a0caa 100%);pointer-events:none}
+.home-border{--ml-accent:#69e6f7;position:absolute;inset:clamp(14px,2.2vw,32px);z-index:-1;pointer-events:none;background-image:linear-gradient(var(--ml-accent),var(--ml-accent)),linear-gradient(var(--ml-accent),var(--ml-accent)),linear-gradient(var(--ml-accent),var(--ml-accent)),linear-gradient(var(--ml-accent),var(--ml-accent));background-position:left top,right top,right bottom,left bottom;background-repeat:no-repeat;background-size:100% 2px,2px 100%,100% 2px,2px 100%;animation:ml-border-draw 4s linear infinite}
+.home-toolbar{position:absolute;top:clamp(29px,4.1vw,60px);left:clamp(29px,4.1vw,60px);right:clamp(29px,4.1vw,60px);display:flex;align-items:center;justify-content:space-between;gap:20px}
+.home-wordmark{font:700 16px Consolas,"Courier New",monospace;letter-spacing:-.3px;color:#e4ecee}
+.home-toolbar-actions{display:flex;gap:22px;align-items:center}
+.home-tool{padding:8px 0;background:transparent;border:0;color:#c5d0d4;font-size:13px;min-height:35px}
+.home-tool:hover,.home-tool:focus-visible{color:#69e6f7}
+.home-tool[aria-pressed="true"]{color:#69e6f7}
+#home-language{font:13px Consolas,"Courier New",monospace;color:#69e6f7;border-left:1px solid #3e4b50;padding-left:21px}
+.home-center{position:absolute;inset:105px 40px 130px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+.home-title{margin:0;max-width:100%;font:800 clamp(56px,14.5vw,220px)/1.08 Arial,"Malgun Gothic",sans-serif;letter-spacing:-.075em;white-space:nowrap;background:linear-gradient(90deg,#f3f7f8 0%,#f3f7f8 46%,#69e6f7 52%,#65777c 58%,#65777c 100%);background-size:230% 100%;background-position:0% 50%;background-clip:text;-webkit-background-clip:text;color:transparent;animation:ml-text-fill-sweep 4s ease-in-out infinite}
+.home-subtitle{font-size:clamp(14px,1.2vw,18px);color:#b0c1c7;line-height:1.8;margin-top:24px;max-width:540px}
+.home-enter{display:inline-flex;align-items:center;justify-content:center;gap:35px;margin-top:37px;padding:15px 25px;min-width:218px;min-height:53px;border:1px solid #69e6f7;background:#0b1215;color:#edf8fb;font-size:15px;border-radius:3px;transition:background-color .15s,color .15s}
+.home-enter:hover,.home-enter:focus-visible{background:#69e6f7;color:#071316}
+.home-enter:focus-visible{outline:2px solid #69e6f7;outline-offset:7px}
+.home-enter[aria-disabled="true"]{cursor:progress}
+.home-enter-mark{font-size:23px;line-height:1;color:#69e6f7}
+.home-enter:hover .home-enter-mark,.home-enter:focus-visible .home-enter-mark{color:#071316}
+.home-key-help{font:12px/1.8 Consolas,"Malgun Gothic",monospace;color:#a2b6bf;margin-top:23px}
+
+
+
+
+.home-live-status{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+.home-view[data-paused="true"] .home-field,.home-view[data-paused="true"] .home-border,.home-view[data-paused="true"] .home-title{animation-play-state:paused}
+body[data-view="library"] #library-view{display:block}
+@keyframes ml-halftone-breathe{0%,100%{background-size:10px 10px}50%{background-size:18px 18px}}
+@keyframes ml-border-draw{0%,8%{background-size:0 2px,2px 0,0 2px,2px 0}28%{background-size:100% 2px,2px 0,0 2px,2px 0}46%{background-size:100% 2px,2px 100%,0 2px,2px 0}64%{background-size:100% 2px,2px 100%,100% 2px,2px 0}82%,96%{background-size:100% 2px,2px 100%,100% 2px,2px 100%}100%{background-size:0 2px,2px 0,0 2px,2px 0}}
+@keyframes ml-text-fill-sweep{0%,13%{background-position:100% 50%}60%,88%{background-position:0% 50%}100%{background-position:100% 50%}}
+@media(max-width:650px){.home-toolbar{top:32px;left:29px;right:29px}.home-wordmark{font-size:14px}.home-toolbar-actions{gap:16px}.home-tool{font-size:12px}#home-language{font-size:12px;padding-left:16px}.home-center{inset:90px 23px 155px}.home-title{font-size:clamp(49px,14.5vw,95px)}.home-subtitle{font-size:14px;max-width:310px;margin-top:21px}.home-enter{margin-top:30px;min-width:205px;padding:14px 22px;font-size:14px}.home-key-help{margin-top:20px;font-size:12px;max-width:290px}}
+@media(max-height:570px){.home-toolbar{top:27px}.home-center{inset:75px 25px 105px}.home-title{font-size:clamp(44px,12vw,130px)}.home-subtitle{margin-top:12px;font-size:13px}.home-enter{margin-top:18px;min-height:43px;padding:9px 22px;font-size:13px}.home-key-help{margin-top:12px}}
+@media(prefers-reduced-motion:reduce){.home-field,.home-border,.home-title{animation:none!important}.home-enter{transition:none!important}}
+
+
+.home-motion-note{font-size:12px;line-height:1.8;color:#b5c6ce;min-height:22px;margin-top:8px}

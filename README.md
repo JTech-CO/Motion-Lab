@@ -2,24 +2,28 @@
 
 모션 코드, 전환, 타이포그래피, 인터랙션, 배경, 로더, 셰이더, 팔레트와 외부 레퍼런스를 검색하는 데이터 창고입니다. 웹 화면, SQLite FTS5 검색, CLI, 읽기 전용 MCP stdio 서버, AI용 SKILL을 같은 카탈로그로 연결합니다. MP4를 저장하지 않습니다.
 
+프로젝트 저장소는 [JTech-CO/Motion-Lab](https://github.com/JTech-CO/Motion-Lab)이며 기본 브랜치는 `main`입니다. GitHub URL은 소스와 데이터를 받는 주소입니다. CLI와 MCP는 복제한 로컬 프로젝트에서 실행합니다.
+
 2026-10-08 기준 **134개 출처 프로젝트 · 2,153개 항목**을 제공합니다: 코드 873개(CSS 738 · GLSL 123 · SVG 12), 팔레트 992개, 탐색용 레퍼런스 288개입니다. CSS에는 정적 그라디언트 382개와 24개 직접 제작 예제가 포함됩니다. 원본 DOM을 갖춘 CSS 로더·컴포넌트 40개, SVG 로더 12개, 개별 컴포넌트 참고 링크 6개를 5개 출처에서 추가했습니다. 사용자가 지정한 CHA의 카드 160개와 JTech의 HTML 작품 4개도 포함합니다. 수집·분석 범위는 [에셋 분석 문서](docs/asset-analysis.md)와 [추가 수집 근거](docs/asset-expansion.md)에 기록합니다.
 
-Python 3.10 이상과 SQLite FTS5가 필요합니다. Python 표준 라이브러리만 사용하므로 패키지 설치나 API 키가 필요하지 않습니다. 프로젝트 디렉터리에서 실행합니다.
+Python 3.10 이상과 SQLite FTS5가 필요합니다. Python 표준 라이브러리만 사용하므로 패키지 설치나 API 키가 필요하지 않습니다. Git으로 복제하려면 Git도 필요합니다. Windows와 POSIX 환경에서 아래 명령으로 시작합니다.
 
 ```powershell
+git clone https://github.com/JTech-CO/Motion-Lab.git
+cd Motion-Lab
 python scripts/build.py
 python -m motionlab serve --port 8787
 ```
 
-브라우저에서 [Motion Lab](http://127.0.0.1:8787)을 엽니다. 서버는 루프백 주소에만 연결합니다. `dist/`는 정적 호스팅에 사용할 수 있고, `dist/catalog.json`은 전체 공개 데이터입니다. 정적 호스팅은 로컬 Python API나 MCP 서버를 실행하지 않습니다.
+브라우저에서 [Motion Lab 홈](http://127.0.0.1:8787/)을 엽니다. 첫 화면은 프로젝트 소개이며, [라이브러리](http://127.0.0.1:8787/library.html)에서 자료를 탐색합니다. 정적 파일도 `dist/index.html`이 홈, `dist/library.html`이 라이브러리입니다. 서버는 루프백 주소에만 연결합니다. `dist/`는 정적 호스팅에 사용할 수 있고, `dist/catalog.json`은 전체 공개 데이터입니다. 정적 호스팅은 로컬 Python API나 MCP 서버를 실행하지 않습니다.
 
 웹 화면은 실제 미리보기 카드와 5개 다중 선택 필터(에셋 종류·모션 효과·구성요소·용도·라이선스)를 제공합니다. 같은 필터 안에서는 OR, 서로 다른 필터 사이에서는 AND로 좁힙니다. 분류는 CSS 선언·키프레임·선택자, GLSL 연산·uniform, SVG 요소·애니메이션, 실제 HEX 색상에서 생성한 `analysis`를 사용합니다. 제목이나 브랜드 이름으로 효과를 추측하지 않습니다. 코드 분석 491개, 색상 값 분석 1,374개, 메타데이터 수준 참고 항목 288개를 구분하며 상세에서 근거와 한계를 확인할 수 있습니다.
 
-페이지마다 최대 20개 카드를 보여주고, 기본 정렬은 에셋 종류와 출처를 번갈아 배치합니다. 검색창·체크박스·카드·페이지 번호로 탐색할 수 있습니다. 방향키로 카드와 실제 도구를 이동하고 `Enter`로 선택하거나 상세를 엽니다. 코드 본문에서는 방향키로 스크롤하고 `Enter`로 탭에 복귀합니다. `Esc`로 상세를 닫으며 마우스와 `Tab`도 지원합니다. `/`로 선택적인 검색창에 이동합니다. 상세에서 원본 코드·전체 라이선스·수집 근거를 읽고 복사할 수 있으며 읽기 위치를 유지합니다. KO/EN을 전환할 수 있고 보조 글자도 최소 12px입니다. 원본 제목·코드·라이선스 언어는 보존됩니다.
+페이지당 20·50·100개 카드를 선택할 수 있으며 기본값은 20개입니다. 기본 정렬은 에셋 종류와 출처를 번갈아 배치합니다. 검색창·체크박스·카드·페이지 번호로 탐색할 수 있습니다. 방향키로 카드와 실제 도구를 이동하고 `Enter`로 선택하거나 상세를 엽니다. 코드 본문에서는 방향키로 스크롤하고 `Enter`로 탭에 복귀합니다. `Esc`로 상세를 닫으며 마우스와 `Tab`도 지원합니다. `/`로 선택적인 검색창에 이동합니다. 상세에서 원본 코드·전체 라이선스·수집 근거를 읽고 복사할 수 있으며 읽기 위치를 유지합니다. KO/EN을 전환할 수 있고 보조 글자도 최소 12px입니다. 원본 제목·코드·라이선스 언어는 보존됩니다.
 
 CSS는 원본 키프레임을 샘플 대상에 적용하고, 새 로더는 실제 원본 DOM을 사용합니다. GLSL은 테스트 이미지 A→B를 실제 WebGL 셰이더로 렌더링하며, SVG는 안전 검사한 원본 애니메이션을 표시합니다. 복합 구성이나 실행 환경 때문에 원본과 차이가 있을 수 있어 상세의 한계를 함께 제공합니다. 로컬 에셋이 없는 참고 링크에는 가짜 미리보기를 만들지 않습니다. 시스템의 모션 줄이기 설정과 재생·정지 조작을 지원합니다.
 
-정적 사이트 예약 주소는 [Motion Lab Archive](https://motion-lab-archive.bryan131.chatgpt.site)이며 현재 미게시 상태입니다. 소스·데이터를 원격 호스팅에 업로드하지 않았습니다. 로컬 서버나 나중에 게시한 정적 URL을 사용하는 AI는 `/llms.txt`, 코드 없는 `/catalog-index.json`, 카테고리별 `/collections/animation.json` 등을 읽을 수 있습니다. 정적 사이트에 원격 `/mcp` 엔드포인트는 없습니다. MCP는 아래 로컬 stdio 설정으로 연결합니다.
+정적 사이트 예약 주소는 [Motion Lab Archive](https://motion-lab-archive.bryan131.chatgpt.site)이며 현재 미게시 상태입니다. 이 작업에서는 원격 푸시나 Sites 소스 업로드를 수행하지 않습니다. GitHub 저장소, 로컬 서버 또는 나중에 게시한 정적 URL을 사용하는 AI는 `dist/llms.txt`, 코드 없는 `dist/catalog-index.json`, 카테고리별 `dist/collections/animation.json` 등을 읽을 수 있습니다. 웹 서버에서는 이 파일들이 `/llms.txt`, `/catalog-index.json`, `/collections/animation.json`으로 제공됩니다. GitHub URL과 정적 사이트 URL은 원격 `/mcp` 엔드포인트가 아닙니다. MCP는 복제한 프로젝트의 로컬 stdio 설정으로 연결합니다.
 
 ```powershell
 python -m motionlab search "transition" --category transition --limit 12 --json
@@ -35,25 +39,23 @@ python -m unittest discover -s tests -v
 
 `ITEM_ID`는 검색 결과의 `id`로 바꿉니다. 조회 명령에 `--json`을 사용하면 AI나 다른 프로그램에서 바로 파싱할 수 있습니다. CSV에는 스프레드시트 수식 실행을 막기 위한 이스케이프가 적용됩니다.
 
-MCP 클라이언트 설정 예시입니다. `command`는 사용 중인 Python의 실제 경로로 바꾸고, 아래 프로젝트 경로도 설치 위치에 맞춥니다. 클라이언트가 `cwd`를 지원하면 프로젝트 폴더를 지정합니다.
+MCP 클라이언트의 Windows 설정 예시입니다. 먼저 위 저장소를 복제하고, `C:/path/to/Motion-Lab`을 복제한 폴더의 실제 절대 경로로 바꿉니다. `command: python`은 해당 클라이언트에서 사용할 수 있는 Python 3 실행 파일이어야 합니다. 필요하면 실행 파일의 절대 경로나 환경에 맞는 명령으로 바꿉니다. 런처에 절대 경로를 전달하므로 `cwd`를 지원하지 않는 클라이언트에서도 동작합니다.
 
 ```json
 {
   "mcpServers": {
     "motion-lab": {
-      "command": "C:\\Users\\MSI\\AppData\\Local\\Programs\\Python\\Python314\\python.exe",
+      "command": "python",
       "args": [
-        "-m", "motionlab", "--root",
-        "C:\\Users\\MSI\\Desktop\\내 폴더\\코딩\\기획\\Motion Lab",
-        "mcp"
-      ],
-      "cwd": "C:\\Users\\MSI\\Desktop\\내 폴더\\코딩\\기획\\Motion Lab"
+        "C:/path/to/Motion-Lab/motionlab/launch_mcp.py",
+        "--root", "C:/path/to/Motion-Lab"
+      ]
     }
   }
 }
 ```
 
-`cwd`를 지원하지 않는 클라이언트에서는 `args` 앞부분을 `["C:\\...\\Motion Lab\\motionlab\\launch_mcp.py", "--root", "C:\\...\\Motion Lab"]` 형태로 바꾸면 됩니다. 제공 도구는 `search_motion`, `get_motion`, `motion_stats`입니다. 상세 스키마와 HTTP API는 [인터페이스 문서](docs/interfaces.md)에 있습니다.
+POSIX 환경에서는 같은 설정의 `args`를 `["/path/to/Motion-Lab/motionlab/launch_mcp.py", "--root", "/path/to/Motion-Lab"]`으로 바꾸고 `command`는 `python`을 사용합니다. 경로는 실제 복제 위치로 바꿉니다. 프로젝트 폴더에서 직접 실행할 때는 `python -m motionlab mcp`를 사용합니다. 제공 도구는 `search_motion`, `get_motion`, `motion_stats`입니다. 상세 스키마와 HTTP API는 [인터페이스 문서](docs/interfaces.md)에 있습니다.
 
 AI용 지침은 [Motion Lab SKILL](skills/motion-lab/SKILL.md)에 있습니다. 이 폴더를 AI 도구의 스킬 디렉터리에 복사하거나 프로젝트 지침에서 경로를 참조하면 됩니다. 이 프로젝트는 전역 설정을 바꾸거나 스킬을 자동 설치하지 않습니다.
 

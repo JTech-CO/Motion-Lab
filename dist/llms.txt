@@ -4,7 +4,7 @@
 
 ## Catalog
 
-- [Compact index](catalog-index.json): IDs, source-based asset analysis, categories, provenance links, licenses and kinds; no full code.
+- [Compact index v2](catalog-index.json): IDs, titles, source categories/links, license labels, kinds and discovery facets. It omits raw tags, code, full license text, evidence signals and preview DOM.
 - [Full catalog](catalog.json): all public entries, source registry and statistics.
 
 ## Collections
@@ -22,9 +22,9 @@
 
 ## Usage and provenance
 
-Select IDs in the compact index, then retrieve a relevant collection or the full catalog.
+Select IDs in the compact index, then retrieve the matching source-category collection or the full catalog. The local API /api/items/ID, CLI get and MCP get_motion return one full entry.
 Check kind, license, licenseUrl, sourceUrl, sourceName, verification and verifiedAt before adapting code.
-analysis lists code/color-derived effects, components, properties, techniques and use cases. Review evidence.basis and confidence.
+Compact analysis keeps assetType, effects, components, useCases and evidence.basis/confidence. Full entries add properties, techniques, evidence summaries/signals and preview structure.
 Code analysis is structural; it is not a security validator, a guarantee of visual output, or permission to execute source assets.
 Reference-only entries are discovery links and grant no code, design or asset redistribution rights.
 Preserve notices required by each license; Unknown/See source require review of the original provider's terms.

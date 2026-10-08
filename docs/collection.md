@@ -2,13 +2,26 @@
 
 수집일은 2026-10-08, 기준 시간대는 Asia/Seoul입니다. 이 저장소는 검색 가능한 초기 데이터베이스와 재수집 도구입니다. 전 세계 모든 작품이나 각 사이트의 전체 카탈로그를 수집했다는 의미는 아닙니다.
 
+프로젝트 저장소는 [JTech-CO/Motion-Lab](https://github.com/JTech-CO/Motion-Lab)이며 기본 브랜치는 `main`입니다. 로컬 수집 도구와 CLI를 사용하려면 저장소를 복제한 뒤 프로젝트 폴더에서 실행합니다.
+
+```text
+git clone https://github.com/JTech-CO/Motion-Lab.git
+cd Motion-Lab
+python scripts/build.py
+python -m motionlab stats
+python -m motionlab serve
+```
+
+홈은 `http://127.0.0.1:8787/`, 자료 탐색은 `http://127.0.0.1:8787/library.html`입니다. 라이브러리에서 페이지당 20·50·100개를 선택할 수 있고 기본값은 20개입니다. API/MCP 검색은 최대 100개로 별도 제한됩니다.
+
 ## 보관 방식
 
 - `data/imported-items.json`: 공개 원본에서 실제로 읽은 CSS 키프레임, 팔레트, 그라디언트와 브라우저 확인 카드.
 - `data/research-sources.json`: Exa와 Parallel Search로 발견한 118개 링크 레퍼런스. 페이지 본문 확인과 검색 결과 확인 수준을 구분합니다.
-- `data/jtech-items.json`: 사용자 지정 저장소의 네 HTML 작품. 라이선스 파일이 없어 코드 없이 출처 링크로 보관합니다.
-- `data/glsl-items.json`: 파일별 MIT 표시를 확인한 GLSL 전환 소스. 입력 텍스처와 렌더러가 필요한 실제 셰이더이며 사이트 미리보기는 개념 이미지입니다.
+- `data/jtech-items.json`: 처음 제공된 JTech Motiongraphic 저장소의 네 HTML 작품. 라이선스 파일이 없어 코드 없이 출처 링크로 보관합니다.
+- `data/glsl-items.json`: 파일별 MIT 표시를 확인한 GLSL 전환 소스. 사이트는 원본 셰이더를 로컬 테스트 이미지 A/B에 적용하며 원작품 이미지나 영상을 포함하지 않습니다.
 - `data/manual-items.json`: 직접 작성한 24개 기법 예제. 외부 수집 자료와 `original-authored`로 구분합니다.
+- `data/expanded-assets.json`: 5개 출처에서 확인한 CSS 40개·SVG 12개 원본 에셋과 개별 컴포넌트 참고 링크 6개. CSS의 실제 DOM, 원본 코드·MIT 고지·해시·수집 근거를 보존합니다.
 - `data/upstream/`: 변경되지 않는 Git 커밋에 고정한 원본, 라이선스, SHA256 검증 자료.
 
 생성된 `data/catalog.json`과 `data/motionlab.sqlite`는 위 입력으로 다시 만들 수 있습니다. `dist/catalog.json`, `dist/catalog-index.json`, `dist/collections/*.json`, `dist/llms.txt`는 웹과 AI용 정적 출력입니다. 정확한 현재 수량은 `python -m motionlab stats` 또는 카탈로그의 `stats`를 확인합니다.
@@ -46,6 +59,8 @@ GLSL 수집은 `python scripts/import_glsl.py --help`의 옵션을 확인합니�
 
 ## AI 연결
 
-웹 링크로는 `catalog-index.json`에서 후보를 찾고 해당 `collections/{category}.json`에서 코드와 출처를 읽습니다. 로컬 CLI와 MCP는 동일한 SQLite 데이터베이스를 검색합니다. 기본 MCP는 로컬 stdio이며 정적 사이트에 원격 `/mcp` 서버가 있는 것으로 안내하지 않습니다. 사용법은 `docs/interfaces.md`와 `skills/motion-lab/SKILL.md`에 있습니다.
+웹 링크로는 `catalog-index.json`에서 후보를 찾고 해당 `collections/{category}.json`에서 코드와 출처를 읽습니다. GitHub 저장소에서는 이 파일들이 `dist/` 아래에 있습니다. 로컬 CLI와 MCP는 복제한 프로젝트의 동일한 SQLite 데이터베이스를 검색합니다. GitHub URL은 원격 MCP 서버 주소가 아닙니다. 기본 MCP는 로컬 stdio이며 정적 사이트에 원격 `/mcp` 서버가 있는 것으로 안내하지 않습니다. 사용법은 [인터페이스](interfaces.md)와 [Motion Lab SKILL](../skills/motion-lab/SKILL.md)에 있습니다.
 
-현재 Sites의 사이트 주소만 예약되어 있습니다. 외부 소스 업로드는 자동 승인 심사에서 거절되어 배포되지 않았습니다. 사용자 승인 후 소스 업로드와 비공개 배포를 진행할 수 있습니다. 로컬 사이트와 데이터베이스는 독립적으로 사용할 수 있습니다.
+MCP 클라이언트는 `command: "python"`으로 로컬 Python 3을 실행하고, Windows에서는 `args: ["C:/path/to/Motion-Lab/motionlab/launch_mcp.py", "--root", "C:/path/to/Motion-Lab"]`, POSIX에서는 `args: ["/path/to/Motion-Lab/motionlab/launch_mcp.py", "--root", "/path/to/Motion-Lab"]`을 사용합니다. 예시 경로는 실제 복제 폴더의 절대 경로로 바꿉니다. 이 런처는 클라이언트의 `cwd` 지원 여부와 관계없이 프로젝트를 찾습니다.
+
+현재 Sites의 사이트 주소만 예약되어 있고 미게시 상태입니다. 이전 Sites 소스 업로드는 자동 승인 심사에서 거절되어 배포되지 않았습니다. 이번 작업은 GitHub 연결 확인과 로컬 문서 수정이며 원격 푸시·업로드·배포를 수행하지 않습니다. 로컬 사이트와 데이터베이스는 독립적으로 사용할 수 있습니다.
