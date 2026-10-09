@@ -16,6 +16,8 @@ python -m motionlab serve --port 8787
 
 빌드는 저장된 입력만 읽으며 원격 요청이나 원본 코드 실행을 하지 않습니다. `data/catalog.json`, `data/motionlab.sqlite`와 `dist/`의 전체·경량 카탈로그, 별칭, 컬렉션, `llms.txt`를 다시 만듭니다. 생성된 카탈로그를 수집 입력으로 재사용하지 않습니다.
 
+같은 빌드에서 `README.md`와 `README-KO.md`의 수량 요약 및 공통 원형 그래프 `docs/assets/catalog-composition.svg`도 갱신합니다. 그래프는 대표 탐색 항목의 모션·디자인·레퍼런스 수량을 사용하며 별칭과 보존 원본 변형을 추가로 계산하지 않습니다. README의 자동 생성 마커 밖 문장은 유지합니다. 현재 SQLite 통계로 문서와 그래프만 갱신하려면 `python scripts/readme_assets.py`를 실행합니다. 외부 차트 서비스나 추가 Python 패키지는 필요하지 않습니다.
+
 ## 입력과 근거
 
 | 역할 | 파일 |

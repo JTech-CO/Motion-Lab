@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="chart-title chart-description">
+<title id="chart-title">Motion Lab catalog composition: 10,286 entries</title>
+<desc id="chart-description">Motion: 3,345 (32.5%); Design: 6,656 (64.7%); References: 285 (2.8%). Updated 2026-10-10. Canonical entries only; preserved variants are excluded.</desc>
+<rect width="960" height="420" rx="12" fill="#080a0c"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="44" y="45" fill="#edf7fa" font-size="17" letter-spacing="1.5">CATALOG COMPOSITION</text>
+<circle cx="216" cy="215" r="118" fill="none" stroke="#1c2c32" stroke-width="58"/>
+<circle data-collection="motion" cx="216" cy="215" r="118" fill="none" stroke="#69e6f7" stroke-width="58" stroke-linecap="butt" pathLength="100" stroke-dasharray="32.51993000 100" stroke-dashoffset="-0.00000000" transform="rotate(-90 216 215)"/>
+<circle data-collection="design" cx="216" cy="215" r="118" fill="none" stroke="#edf7fa" stroke-width="58" stroke-linecap="butt" pathLength="100" stroke-dasharray="64.70931363 100" stroke-dashoffset="-32.51993000" transform="rotate(-90 216 215)"/>
+<circle data-collection="references" cx="216" cy="215" r="118" fill="none" stroke="#91a5b0" stroke-width="58" stroke-linecap="butt" pathLength="100" stroke-dasharray="2.77075637 100" stroke-dashoffset="-97.22924363" transform="rotate(-90 216 215)"/>
+<text x="216" y="214" text-anchor="middle" fill="#edf7fa" font-size="35.0" font-weight="700">10,286</text>
+<text x="216" y="243" text-anchor="middle" fill="#b0c1c7" font-size="15">total entries</text>
+<g id="legend-motion">
+<circle cx="440" cy="123" r="5" fill="#69e6f7"/>
+<text x="460" y="130" fill="#edf7fa" font-size="22">Motion</text>
+<text x="908" y="133" text-anchor="end" fill="#69e6f7" font-size="28" font-weight="700">32.5%</text>
+<text x="460" y="157" fill="#b0c1c7" font-size="15">3,345 entries</text>
+</g>
+<g id="legend-design">
+<circle cx="440" cy="207" r="5" fill="#edf7fa"/>
+<text x="460" y="214" fill="#edf7fa" font-size="22">Design</text>
+<text x="908" y="217" text-anchor="end" fill="#edf7fa" font-size="28" font-weight="700">64.7%</text>
+<text x="460" y="241" fill="#b0c1c7" font-size="15">6,656 entries</text>
+</g>
+<g id="legend-references">
+<circle cx="440" cy="291" r="5" fill="#91a5b0"/>
+<text x="460" y="298" fill="#edf7fa" font-size="22">References</text>
+<text x="908" y="301" text-anchor="end" fill="#91a5b0" font-size="28" font-weight="700">2.8%</text>
+<text x="460" y="325" fill="#b0c1c7" font-size="15">285 entries</text>
+</g>
+<text x="44" y="391" fill="#b0c1c7" font-size="13">Catalog 2026-10-10 · Canonical entries; preserved variants excluded</text>
+</g>
+</svg>

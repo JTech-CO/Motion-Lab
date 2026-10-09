@@ -1,21 +1,32 @@
-![Motion Lab - motion assets for people and AI tools](docs/assets/og-repository.jpg)
+![Motion Lab - motion and design for people and AI](docs/assets/og-repository.jpg)
 
 # Motion Lab
+
+**English** · [한국어](README-KO.md)
 
 ![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square)
 ![SQLite FTS5](https://img.shields.io/badge/SQLite-FTS5-003B57?style=flat-square)
 ![MCP stdio](https://img.shields.io/badge/MCP-stdio-222222?style=flat-square)
 ![KO / EN](https://img.shields.io/badge/UI-KO%20%2F%20EN-555555?style=flat-square)
 
-A searchable archive of verified motion code and static design assets. Explore motion, transitions, typography and loaders separately from patterns, shapes, textures and colors. Browse local previews on the web, search with the CLI, or connect an AI tool through local MCP and the included SKILL. No MP4 files are stored.
+A library of motion code, design assets and reviewed references for people and AI tools. Compare local previews, search by effect and component, then retrieve the original code or image with its source and license. The collection stores code, colors and images rather than MP4 files.
 
-**10,001 stored assets** from 160 source projects: 3,345 motion assets and 6,656 static design assets, plus 285 reviewed references. The library provides local previews and structured filters. Similar entries are grouped with each original variant and its source rights preserved.
+<!-- motionlab:catalog-summary:start -->
+**10,001 stored assets + 285 reviewed references**, across 160 registered sources.
+Counts below reflect the catalog on 2026-10-10; run `python -m motionlab stats` for the current totals.
+
+| Collection | Entries | Contents |
+| --- | ---: | --- |
+| Motion | 3,345 | Animation, transitions, typography, loaders and interaction effects |
+| Design | 6,656 | Patterns, shapes, palettes, gradients and material images |
+| References | 285 | Reviewed examples, libraries, tools, case studies and learning resources |
+<!-- motionlab:catalog-summary:end -->
 
 [GitHub repository](https://github.com/JTech-CO/Motion-Lab) · [AI SKILL](skills/motion-lab/SKILL.md) · [CLI, HTTP & MCP](docs/interfaces.md)
 
 ## Quick start
 
-Requires Git, Python 3.10+, and SQLite with FTS5 support. The Python backend uses only the standard library; no package installation or API key is required.
+Requires Git, Python 3.10+, and SQLite with FTS5 support. Browsing, building, CLI and MCP use the Python standard library and require no API key.
 
 ```sh
 git clone https://github.com/JTech-CO/Motion-Lab.git
@@ -24,32 +35,49 @@ python scripts/build.py
 python -m motionlab serve --port 8787
 ```
 
-Open [the home page](http://127.0.0.1:8787/) or [the library](http://127.0.0.1:8787/library.html). The server binds to loopback only. Motion, Design and References tabs offer structured filters, 20/50/100 entries per page, arrow-key/Enter navigation, mouse selection, and Korean/English UI.
+Open [the introduction](http://127.0.0.1:8787/) or [the library](http://127.0.0.1:8787/library.html). The Korean/English interface supports mouse and arrow-key/Enter navigation, effect/component filters, 20/50/100 entries per page, motion pause and reduced-motion preferences. The local server binds to loopback only.
 
 ```sh
-python -m motionlab search --effect mask --component image --basis code --limit 12 --json
+python -m motionlab search --domain motion --effect mask --component image --limit 12 --json
 python -m motionlab search --domain design --asset-type pattern --limit 12 --json
-python -m motionlab search --domain design --kind image --category material --limit 12 --json
+python -m motionlab get gl-transitions-drop-zone-flicker --json
 ```
+
+## Collection composition
+
+![Motion, Design and References proportions](docs/assets/catalog-composition.svg)
+
+The chart and both README count summaries update automatically when `python scripts/build.py` builds the catalog. Preserved original variants are not counted as additional entries.
 
 ## Connect an AI tool
 
-Use the [MCP configuration and tool schemas](docs/interfaces.md) to launch `motionlab/launch_mcp.py` from the cloned project's absolute path. The local stdio server provides `search_motion`, `get_motion`, and `motion_stats`. Follow the [Motion Lab SKILL](skills/motion-lab/SKILL.md) for finding and reusing entries.
+**Local MCP:** launch `motionlab/launch_mcp.py` from the cloned project's absolute path. The stdio server provides `search_motion`, `get_motion` and `motion_stats`. Replace the example path with your clone location:
 
-For link-based access, serve the static `dist/` directory: `/llms.txt`, `/catalog-index.json`, `/catalog.json`, and `/collections/*.json` describe the same collection. The compact index identifies candidates; full records contain code, evidence, and license notices. GitHub and static site URLs are not MCP endpoints.
+```json
+{
+  "mcpServers": {
+    "motion-lab": {
+      "command": "python",
+      "args": ["/absolute/path/to/Motion-Lab/motionlab/launch_mcp.py"]
+    }
+  }
+}
+```
+
+**SKILL, CLI and HTTP:** use the included [Motion Lab SKILL](skills/motion-lab/SKILL.md) and [interface guide](docs/interfaces.md). The site's **AI connection** dialog also provides copyable setup examples.
+
+**Static links and JSON:** serve `dist/`. Start with `/llms.txt` and `/catalog-index.json`, then retrieve selected records from `/collections/*.json` or `/catalog.json`. Full records retain code, evidence and license notices. GitHub and static site URLs do not provide a remote MCP endpoint or Python API.
 
 ## Reuse and provenance
 
-Licenses apply **per asset**. Keep each entry's original code or image, source attribution, and full license notice when reusing it. Reference entries and unknown licenses do not grant copying permission. Stored-asset previews use CSS, GLSL, SVG, exact colors or actual material images. Reference previews are independently authored CC0 concept illustrations or a related stored asset, with separate rights and limitations; they do not reproduce the original reference page or source execution.
+Licenses apply **per asset and per original variant**. Preserve the source attribution and required license notices when reusing code or images. Similar entries are grouped for browsing while retaining original IDs, code, exact colors and rights; variants are not counted as additional independent assets.
 
-The collection preserves source IDs, code, licenses, pinned commits, and hashes. Former IDs resolve to their original variants; each variant retains its own code or exact palette array and license. Analysis derives effects, components, and use cases from code or color values; reference-only metadata is marked separately.
+Stored previews use supported CSS, GLSL, SVG, exact colors or local material images. Reference previews are separate concept illustrations or related stored assets, with their own rights and limitations. They do not reproduce the original website or grant rights to the referenced work. Classification and source checks do not certify imported code as safe to execute.
 
 - [Collection, rebuilding and packaging](docs/collection.md)
 - [Classification, previews and original variants](docs/asset-analysis.md)
 - [Original recipes](docs/recipes.md)
 
-The local API and MCP are read-only. The project does not require accounts, cookies, or uploads.
+The local API and MCP are read-only; no accounts, cookies or uploads are required. CLI output escapes terminal control characters. Portable packaging rejects external file links and preserves the previous ZIP if creation fails. See the guides above for input and preview safeguards.
 
-Browsing, rebuilding and serving require no third-party Python packages.
-Optional image similarity checks use [phase2-requirements.txt](scripts/phase2-requirements.txt).
-Run `python scripts/package.py` to create a portable package from the current repository.
+Run `python scripts/package.py` to create a portable package. Only optional image similarity checks require [additional Python packages](scripts/phase2-requirements.txt).

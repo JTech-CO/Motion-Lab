@@ -15,15 +15,38 @@
   const $ = (id) => document.getElementById(id);
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   const library = window.MotionLabLibrary;
-  const state = { lang: document.documentElement.lang === 'en' ? 'en' : 'ko', paused: reduced.matches, entering: false, frame: 0, pipeline: null, source: null, framesRendered: 0, generation: 0 };
+  const state = { lang: document.documentElement.lang === 'en' ? 'en' : 'ko', paused: reduced.matches, entering: false, frame: 0, pipeline: null, source: null, stats: null, framesRendered: 0, generation: 0 };
   const copy = {
-    ko: { title: 'Motion Lab', subtitle: '움직임을 살펴보고, 다음 장면을 만드세요.', enter: '라이브러리 열기', pause: '모션 정지', play: '모션 재생', help: '방향키 선택 · Enter 실행', method: '원본 CSS의 화면·색상 적용 · Drop_Zone_Flicker 원본 GLSL 가시성 마스크', reduced: '시스템의 모션 줄이기 설정을 따릅니다.', entering: '라이브러리로 이동합니다.', fallback: '전환 효과를 생략하고 라이브러리로 이동합니다.' },
-    en: { title: 'Motion Lab', subtitle: 'Explore the motion. Build your next scene.', enter: 'Explore the library', pause: 'Pause motion', play: 'Play motion', help: 'Arrows select · Enter activates', method: 'Original CSS with adapted scale & colors · Drop_Zone_Flicker GLSL visibility mask', reduced: 'Respects the system reduced-motion setting.', entering: 'Opening the library.', fallback: 'Opening the library without the transition effect.' }
+    ko: {
+      title: 'Motion Lab', subtitle: '모션 코드와 디자인 에셋을 탐색하는 자료 창고.',
+      description: '전환, 타이포그래피, 로더부터 패턴, 형상, 소재와 색상까지.\n로컬 미리보기로 비교하고 코드·이미지·출처를 함께 확인하세요.',
+      scope: '모션 · 디자인 · 검토 레퍼런스', motion: '모션', design: '디자인', references: '검토 레퍼런스',
+      interfaces: '웹 미리보기 · CLI · 로컬 MCP · JSON · SKILL', rights: '재사용 조건은 각 항목의 원본 라이선스에서 확인하세요.',
+      enter: '라이브러리 열기', pause: '모션 정지', play: '모션 재생', help: '방향키 선택 · Enter 실행',
+      method: '원본 CSS의 화면·색상 적용 · Drop_Zone_Flicker 원본 GLSL 가시성 마스크', reduced: '시스템의 모션 줄이기 설정을 따릅니다.',
+      entering: '라이브러리로 이동합니다.', fallback: '전환 효과를 생략하고 라이브러리로 이동합니다.'
+    },
+    en: {
+      title: 'Motion Lab', subtitle: 'Motion code and design assets, ready to explore.',
+      description: 'Transitions, typography and loaders. Patterns, shapes, materials and color.\nCompare local previews, then inspect the source and license.',
+      scope: 'Motion · Design · Reviewed references', motion: 'Motion', design: 'Design', references: 'Reviewed references',
+      interfaces: 'Web previews · CLI · Local MCP · JSON · SKILL', rights: 'Check each original license before reusing an asset.',
+      enter: 'Explore the library', pause: 'Pause motion', play: 'Play motion', help: 'Arrows select · Enter activates',
+      method: 'Original CSS with adapted scale & colors · Drop_Zone_Flicker GLSL visibility mask', reduced: 'Respects the system reduced-motion setting.',
+      entering: 'Opening the library.', fallback: 'Opening the library without the transition effect.'
+    }
   };
   const t = (key) => copy[state.lang][key];
   function renderHome() {
     home.dataset.paused = String(state.paused || reduced.matches);
     $('home-subtitle').textContent = t('subtitle');
+    $('home-description').textContent = t('description');
+    const counts = [state.stats?.domains?.motion, state.stats?.domains?.design, state.stats?.kinds?.reference];
+    $('home-scope').textContent = counts.every((count) => Number.isSafeInteger(count) && count >= 0)
+      ? ['motion', 'design', 'references'].map((key, index) => t(key) + ' ' + counts[index].toLocaleString(state.lang === 'ko' ? 'ko-KR' : 'en-US')).join(' · ')
+      : t('scope');
+    $('home-interfaces').textContent = t('interfaces');
+    $('home-rights').textContent = t('rights');
     $('home-enter-label').textContent = t('enter');
     $('home-help').textContent = t('help');
     $('home-pause').textContent = t(state.paused || reduced.matches ? 'play' : 'pause');
@@ -202,6 +225,7 @@
   }
   const ready = library && library.ready && typeof library.ready.then === 'function' ? library.ready : Promise.resolve(null);
   function acceptCatalog(data) {
+    state.stats = data?.stats || null;
     state.source = data && Array.isArray(data.items) ? data.items.find((item) => item.id === 'gl-transitions-drop-zone-flicker') || null : null;
     home.dataset.transitionSource = state.source ? state.source.id : 'unavailable';
     renderHome();
@@ -283,7 +307,7 @@
     if (['ArrowUp','ArrowDown','ArrowLeft','ArrowRight'].includes(event.key)) {
       event.preventDefault();event.stopImmediatePropagation();
       const index=controls.indexOf(document.activeElement),forward=['ArrowDown','ArrowRight'].includes(event.key),next=index<0?0:(index+(forward?1:-1)+controls.length)%controls.length;
-      controls[next].focus({preventScroll:true});
+      controls[next].focus();
     } else if (event.key==='Enter') {
       event.stopImmediatePropagation();
       if (!controls.includes(document.activeElement)) { event.preventDefault();$('home-enter').focus();$('home-enter').click(); }

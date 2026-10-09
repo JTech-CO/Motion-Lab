@@ -21,6 +21,7 @@ from scripts.analyze import analyze_items, analysis_stats, analysis_terms  # noq
 from scripts.expansion import merge_expansion  # noqa: E402
 from scripts.consolidate import apply_consolidation  # noqa: E402
 from scripts.repair_components import verify_overlay  # noqa: E402
+from scripts.readme_assets import write_readme_assets  # noqa: E402
 from motionlab.reference_review import (REVIEW_INPUTS, REMOVAL_INPUT, apply_reference_reviews,
                                       apply_reference_removals, validate_review)  # noqa: E402
 
@@ -386,6 +387,7 @@ def build(root=ROOT):
     build_database(data / "motionlab.sqlite", catalog)
     write_json(data / "catalog.json", catalog, compact=True)
     write_static_exports(root, catalog)
+    write_readme_assets(root, stats)
     return stats
 
 

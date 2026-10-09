@@ -65,7 +65,7 @@ def collect_files(root):
             elif not stat.S_ISREG(info.st_mode):
                 raise ValueError('Non-regular file is not allowed in package')
     for path in [*(root / 'docs' / name for name in DOCS),
-                 *(root / name for name in ('README.md', '.gitignore', '.gitattributes'))]:
+                 *(root / name for name in ('README.md', 'README-KO.md', '.gitignore', '.gitattributes'))]:
         info = checked_path(path, root, missing=True)
         if info is not None:
             if not stat.S_ISREG(info.st_mode):
