@@ -9,7 +9,7 @@
 
 A searchable archive of verified motion code and static design assets. Explore motion, transitions, typography and loaders separately from patterns, shapes, textures and colors. Browse local previews on the web, search with the CLI, or connect an AI tool through local MCP and the included SKILL. No MP4 files are stored.
 
-**10,001 stored assets** from 159 source projects: 3,345 motion assets and 6,656 static design assets, plus 284 reviewed references. The library provides local previews and structured filters. Similar entries are grouped with each original variant and its source rights preserved.
+**10,001 stored assets** from 160 source projects: 3,345 motion assets and 6,656 static design assets, plus 285 reviewed references. The library provides local previews and structured filters. Similar entries are grouped with each original variant and its source rights preserved.
 
 [GitHub repository](https://github.com/JTech-CO/Motion-Lab) · [AI SKILL](skills/motion-lab/SKILL.md) · [CLI, HTTP & MCP](docs/interfaces.md)
 

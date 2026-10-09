@@ -1,13 +1,13 @@
 {
-  "verifiedAt": "2026-10-09",
-  "total": 10285,
+  "verifiedAt": "2026-10-10",
+  "total": 10286,
   "storedAssets": 10001,
   "domains": {
     "motion": 3345,
     "design": 6656
   },
   "minimumStored": 10000,
-  "originalIdentities": 10319,
+  "originalIdentities": 10320,
   "mergedGroups": 20,
   "aliases": 34,
   "variantRecords": 54,
@@ -27,7 +27,7 @@
     "code": 7078,
     "image": 494,
     "palette": 2429,
-    "reference": 284
+    "reference": 285
   },
   "codeLanguages": {
     "css": 2307,
@@ -57,5 +57,5 @@
     "search-last-page",
     "domain-search"
   ],
-  "catalogSha256": "7984118b8e98b92005cb9a6594a1eda81a8a53246396e24e66509b188b1633db"
+  "catalogSha256": "a50812c61e93d655ca725b219a393aad7574036708d7917ad19ae3be32511487"
 }

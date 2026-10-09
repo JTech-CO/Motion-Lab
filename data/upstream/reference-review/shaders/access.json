@@ -1,0 +1,35 @@
+{
+  "reviewedAt": "2026-10-10",
+  "userAgent": "MotionLabResearch/1.0",
+  "requests": [
+    {
+      "url": "https://shaders.com/robots.txt",
+      "finalUrl": "https://shaders.com/robots.txt",
+      "status": 200,
+      "bytes": 1479,
+      "sha256": "0b74abcc19c5d2fe415f1f5f17f6e4e9cd8e014aa5af5eb753d5c1ea62f4cd1b"
+    },
+    {
+      "url": "https://shaders.com/docs/guide",
+      "finalUrl": "https://shaders.com/docs/guide",
+      "status": 200,
+      "bytes": 110784,
+      "sha256": "b4b106a8af23231b27a1eb3c622706cc47996bdcf8ae338eacd66b405ab1326b"
+    },
+    {
+      "url": "https://shaders.com/license",
+      "finalUrl": "https://shaders.com/license",
+      "status": 200,
+      "bytes": 117257,
+      "sha256": "7beb869f5e4509001c2edac455be30dc744fa4f96d0a3fe8d0d4d354ede90dec"
+    },
+    {
+      "url": "https://api.github.com/repos/shader-effects-inc/shaders/commits/main",
+      "finalUrl": "https://api.github.com/repos/shader-effects-inc/shaders/commits/main",
+      "status": 200,
+      "bytes": 6247,
+      "sha256": "dc3f2ff6c9eac303291c5e0ee7c1956545c2ba516ab33004cb5d59bf7b39e3e4"
+    }
+  ],
+  "repositoryCommit": "81fd4ece5d493ca6c424a2af41f0e2c361ec8258"
+}

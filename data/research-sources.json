@@ -2967,5 +2967,42 @@
     "colors": [],
     "language": "link",
     "access": "public"
+  },
+  {
+    "id": "ref-shaders-webgpu",
+    "title": "Shaders - WebGPU Effects & Design Editor",
+    "description": "WebGPU 기반 텍스처·형상·마스크·왜곡·스타일화·블러·전환 효과를 레이어로 합성하는 라이브러리와 시각적 편집기. 모션과 절차적 디자인을 함께 다룹니다.",
+    "category": "shader",
+    "tags": [
+      "webgpu",
+      "wgsl",
+      "shader",
+      "procedural",
+      "layers",
+      "mask",
+      "distortion",
+      "pattern",
+      "react",
+      "vue",
+      "svelte",
+      "solid",
+      "javascript",
+      "design-editor"
+    ],
+    "sourceUrl": "https://shaders.com/",
+    "sourceName": "Shaders",
+    "license": "reference-only",
+    "licenseUrl": "https://shaders.com/license",
+    "verifiedAt": "2026-10-10",
+    "verification": "official-docs-reviewed",
+    "kind": "reference",
+    "preview": {
+      "type": "reference",
+      "variant": "layers"
+    },
+    "code": null,
+    "colors": [],
+    "language": "link",
+    "access": "public"
   }
 ]

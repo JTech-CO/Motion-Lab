@@ -1,0 +1,208 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-10",
+  "referenceId": "ref-shaders-webgpu",
+  "catalogSha256": "a50812c61e93d655ca725b219a393aad7574036708d7917ad19ae3be32511487",
+  "beforeCatalogSha256": "7984118b8e98b92005cb9a6594a1eda81a8a53246396e24e66509b188b1633db",
+  "sourceSha256": "6bcae0d379f601e87fe4456756110217e92c533edff4c1a4045b478bd43960a3",
+  "scope": "One reviewed reference addition. Existing stored assets, variants, references and runtime are unchanged; local illustration is independent and is not another stored source asset.",
+  "counts": {
+    "storedAssets": 10001,
+    "references": 285,
+    "browseEntries": 10286,
+    "sources": 160
+  },
+  "existingRecords": {
+    "count": 10285,
+    "fullRecordsUnchanged": true,
+    "preservedVariantsIncluded": true,
+    "digestBeforeAndAfter": "171c1ed2dc1aa29f0516076693b366000c3bcdb97fa8921e351b5199813c055e"
+  },
+  "historicalReportsUnchanged": {
+    "data/reference-review-report.json": "8fd9d8dbeca8caac9d6326fefb5381b09ee531a47100547ee8ed5bb32eec4daa",
+    "data/reference-browser-qa.json": "7a2cfea9c2be1cb1a1f5cbf9d12ba277db0fb2cb015619b81bd1284f051dcb7b",
+    "data/reference-interface-qa.json": "f4ca55cab723b0868e2ae5ba7677a4b55cb52972407cfadff83dbab725eefc18",
+    "data/consolidation-recheck.json": "41cddedf8a497e8c38122f0daea85f5d01b229aac0b8664c2b145951c1d99106"
+  },
+  "runtimeUnchanged": {
+    "dist/app.js": "51073a75069e2e17b817332d4f1f63f01c92256a43120f8570745d71079e07ba",
+    "dist/preview.js": "26ead85d59a639c729f1d454aa50bc56eb13b459228c1eebf0459094fc89be37"
+  },
+  "referenceIdentityAudit": {
+    "coverage": {
+      "itemCount": 285,
+      "pairUniverse": 40470,
+      "identityComparedPairs": 40470,
+      "visualComparedPairs": 0,
+      "metadataOnlyItems": 285
+    },
+    "exactGroups": [],
+    "nearGroups": [],
+    "errors": []
+  },
+  "interfaces": {
+    "CLI": {
+      "fullRecordEqual": true
+    },
+    "HTTP": {
+      "fullRecordEqual": true
+    },
+    "MCP": {
+      "fullRecordEqual": true,
+      "searchContainsId": true
+    }
+  },
+  "limitations": [
+    "Reference identity audit does not assess remote visual similarity.",
+    "No hosted preset, editor export, remote image or WebGPU package was imported or executed.",
+    "Historical QA reports retain their original catalog scope and hashes."
+  ],
+  "verification": {
+    "catalogVerifier": {
+      "passed": true,
+      "minimum": 10000,
+      "minimumStored": 10000,
+      "schemaSourceRightsEvidenceStaticExportsSQLite": true
+    },
+    "regression": {
+      "pythonUnitTests": 133,
+      "pythonPassed": true,
+      "referenceUIModelPassed": true,
+      "variantUIModelPassed": true,
+      "browserRenderingAssessedSeparately": true
+    },
+    "independentIntegrationReviewPassed": true,
+    "diffWhitespaceCheckPassed": true
+  },
+  "sourceEvidence": [
+    {
+      "path": "data/upstream/reference-review/shaders/inspection.json",
+      "sha256": "5909e96b8a44ec603c6d3faacc93a0c2634c938fe1d06bada6baed17af23e610"
+    },
+    {
+      "path": "data/upstream/reference-review/shaders/access.json",
+      "sha256": "9a50d68536d6bfb0a6fa91edd2c367178237c3d6e5911243914a37774f674643"
+    },
+    {
+      "path": "data/upstream/reference-review/shaders/robots.txt",
+      "sha256": "0b74abcc19c5d2fe415f1f5f17f6e4e9cd8e014aa5af5eb753d5c1ea62f4cd1b"
+    },
+    {
+      "path": "data/upstream/reference-review/shaders/software-LICENSE.txt",
+      "sha256": "eeaaa26f5c65cb6dfebf1c098ac2375fdcdb497cebf105b0542f229482b106f4"
+    },
+    {
+      "path": "data/upstream/reference-review/shaders/local-illustration.svg",
+      "sha256": "da7aa394720ab9b5ccabecc3d2423c195ae9354096bf35a22cb49363fb4a2e75"
+    }
+  ],
+  "illustration": {
+    "ownAuthor": "Motion Lab",
+    "license": "CC0-1.0",
+    "language": "svg",
+    "width": 320,
+    "height": 200,
+    "nodes": 81,
+    "SMILAnimations": 8,
+    "localFragmentReferences": 9,
+    "externalContent": false,
+    "hostedSourcePreset": false
+  },
+  "rights": {
+    "sourceRecord": "reference-only",
+    "software": "MIT",
+    "curatedContent": "Separate license; no curated presets imported",
+    "preview": "CC0-1.0 independent Motion Lab illustration"
+  },
+  "browser": {
+    "reviewedAt": "2026-10-10",
+    "recordId": "ref-shaders-webgpu",
+    "engine": "isolated headless Chrome / native CDP input",
+    "checks": {
+      "initialKorean": true,
+      "searchOneExactRecord": true,
+      "cardKoreanClassifications": true,
+      "cardOwnPreviewLabel": true,
+      "arrowMovesSearchToCard": true,
+      "enterOpensDetail": true,
+      "detailKoreanOwnPreviewAndRights": true,
+      "englishToggle": true,
+      "detailEnglishOwnPreviewAndClassifications": true,
+      "sanitizedSvgComplete": true,
+      "frame0And2Differ": true,
+      "detailPauseStopsSvg": true,
+      "detailResumeAdvancesSvg": true,
+      "previewCodeExplicitOwnership": true,
+      "noVendorCodeTab": true,
+      "sourceAndLocalRightsSeparate": true,
+      "officialSourceLinks": true,
+      "globalPauseStopsGallery": true,
+      "mouseOpensSameDetail": true,
+      "globalPausePropagatesIntoDetail": true,
+      "noRuntimeExceptions": true,
+      "noConsoleErrors": true,
+      "noFailedPageRequests": true
+    },
+    "previewDOM": {
+      "nodes": 81,
+      "smil": 8,
+      "localReferences": 9,
+      "allReferencesBound": true,
+      "renderer": "svg",
+      "state": "ready",
+      "noForbiddenNodes": true,
+      "viewBox": "0 0 320 200",
+      "bounds": {
+        "x": 810.5625,
+        "y": 328.71875,
+        "width": 564.875,
+        "height": 230
+      }
+    },
+    "frame0Sha256": "c02b81b132b7d9e305dec127bf63d38af0c411dd9907e0db20832cf9e9f529a9",
+    "frame2Sha256": "1fad2f218b42a75260e7ecfc6c33c154e1061d76ed230cc4a4d9bfee4008a9cf",
+    "detailPausedElapsed": 0,
+    "detailResumedElapsed": 0.39159998297691345,
+    "globalPausedElapsed": 0,
+    "sourceLinks": [
+      {
+        "label": "Open original ↗",
+        "url": "https://shaders.com/"
+      },
+      {
+        "label": "Original license ↗",
+        "url": "https://shaders.com/license"
+      }
+    ],
+    "consoleErrors": [],
+    "exceptions": [],
+    "failedRequests": [],
+    "result": "pass",
+    "page": "/library.html?domain=references",
+    "scope": "Actual Motion Lab rendering in an isolated local Chrome profile; not execution of Shaders vendor code.",
+    "testHarnessNotes": [
+      "Temporary assertions were corrected to match the existing UI labels and replaced count elements.",
+      "The temporary CDP Enter event was corrected to include carriage-return input; runtime code was unchanged."
+    ],
+    "screenshots": [
+      {
+        "path": "data/upstream/reference-review/shaders/local-detail.png",
+        "sha256": "39e437c28b78c794776e16f46999f2597270222f3b2f33edf4d577684348544f"
+      },
+      {
+        "path": "data/upstream/reference-review/shaders/local-frame-0.png",
+        "sha256": "c02b81b132b7d9e305dec127bf63d38af0c411dd9907e0db20832cf9e9f529a9"
+      },
+      {
+        "path": "data/upstream/reference-review/shaders/local-frame-2.png",
+        "sha256": "1fad2f218b42a75260e7ecfc6c33c154e1061d76ed230cc4a4d9bfee4008a9cf"
+      }
+    ],
+    "rootVisualInspectionPassed": true
+  },
+  "securityReview": {
+    "activeContentOrRemoteResourcesInSVG": false,
+    "rendererAndQueryCodeChanged": false,
+    "newAccountsPersonalDataSecretsOrTracking": false
+  }
+}

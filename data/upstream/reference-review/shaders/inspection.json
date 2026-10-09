@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-10",
+  "subject": "Shaders",
+  "sourceUrl": "https://shaders.com/",
+  "suitability": "Motion and procedural design reference; GPU effects library with a visual editor.",
+  "sources": [
+    {
+      "url": "https://shaders.com/docs/guide",
+      "observations": [
+        "GPU effects are composed as layers and rendered on WebGPU.",
+        "Documented uses include textures, shape materials, distortions, image stylization, cursor effects, blurs and transitions.",
+        "Bindings cover React, Vue, Svelte, Solid and JavaScript; Framer integration is also available.",
+        "Without WebGPU the canvas remains transparent."
+      ]
+    },
+    {
+      "url": "https://shaders.com/docs/guide/composing-effects",
+      "observations": [
+        "Components are drawn in order.",
+        "Effects can modify preceding layers or only their nested children.",
+        "The documented example combines a moving color field, a grid and distortion."
+      ]
+    },
+    {
+      "url": "https://shaders.com/docs/components",
+      "observations": [
+        "The official index separates textures, shapes, shape effects, stylize, interactive, distortions, transitions, blurs and adjustments.",
+        "Marketing and documentation component totals differ; no exact asset count is inferred."
+      ]
+    },
+    {
+      "url": "https://shaders.com/license",
+      "observations": [
+        "License agreement v2.0 is dated 2026-10-06.",
+        "Open-source engine, components, bindings and CLI use MIT.",
+        "The editor service and curated Free/Pro presets, collections and sections have separate conditions.",
+        "The Content license restricts redistribution as libraries, templates, downloadable packages or competing design services."
+      ]
+    },
+    {
+      "url": "https://github.com/shader-effects-inc/shaders/tree/81fd4ece5d493ca6c424a2af41f0e2c361ec8258",
+      "observations": [
+        "Official public software repository is linked by the website.",
+        "Its pinned LICENSE is stored separately; no software package is installed or executed."
+      ]
+    }
+  ],
+  "rightsDecision": "Store a discovery reference with independent Motion Lab illustration. Do not mirror any curated preset or editor export. MIT software rights do not cover the hosted preset catalog.",
+  "existingOverlap": "No existing catalog or preserved variant uses the shaders.com hostname. ShaderGradient and Shadertoy are different projects.",
+  "previewScope": "Independent SVG explanation of input layers, shape masking and composited distortion; no WGSL execution or source-frame fidelity.",
+  "robots": {
+    "artifact": "robots.txt",
+    "publicDocsAllowed": true,
+    "privateEditorAndBillingRoutesExcluded": true
+  },
+  "upstreamMediaDownloaded": false,
+  "upstreamCodeExecuted": false
+}

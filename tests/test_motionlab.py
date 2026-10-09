@@ -208,6 +208,45 @@ class LibraryTest(unittest.TestCase):
         rendered = render_export([dict(self.items[0], title="=1+1")], "csv")
         self.assertIn("'=1+1", rendered)
 
+    def test_cli_controls_cannot_reach_terminal_and_json_retains_original(self):
+        control = "\x1b]0;harmless-audit\x07\x9b\x7f\r"
+        entry = dict(self.items[0], title="모션 " + control, description="Description " + control,
+                     license="MIT" + control, code=".dot{opacity:1} /* " + control + " */")
+        (self.root / "data" / "imported-items.json").write_text(json.dumps([entry]), encoding="utf-8")
+        build(self.root)
+        command = [sys.executable, "-m", "motionlab", "--root", str(self.root)]
+        for args in (["get", "pulse"], ["search", "모션"]):
+            result = subprocess.run(command + args, cwd=PROJECT, capture_output=True,
+                                    text=True, encoding="utf-8", check=True)
+            self.assertFalse(any(ord(char) < 32 and char not in "\n\t" or 127 <= ord(char) <= 159
+                                 for char in result.stdout))
+            self.assertIn("모션", result.stdout)
+            self.assertIn("\\x1b", result.stdout)
+        result = subprocess.run(command + ["get", "pulse", "--json"], cwd=PROJECT,
+                                capture_output=True, text=True, encoding="utf-8", check=True)
+        decoded = json.loads(result.stdout)
+        self.assertEqual(decoded["title"], entry["title"])
+        self.assertEqual(decoded["code"], entry["code"])
+        self.assertFalse(any(127 <= ord(char) <= 159 for char in result.stdout))
+        self.assertIn("모션", result.stdout)
+
+    def test_terminal_exports_preserve_json_and_csv_structure(self):
+        import csv
+        control = "\x1b\x07\x9b\x7f\r"
+        entries = [dict(self.items[0], title="모션 " + control, code=".dot{} /* " + control + " */")]
+        rendered = render_export(entries, "json", terminal=True)
+        self.assertEqual(json.loads(rendered), entries)
+        self.assertFalse(any(127 <= ord(char) <= 159 for char in rendered))
+        rendered = render_export(entries, "csv", terminal=True)
+        rows = list(csv.DictReader(io.StringIO(rendered, newline="")))
+        self.assertEqual(len(rows), 1)
+        self.assertEqual(set(rows[0]), set(csv.DictReader(io.StringIO(render_export(entries, "csv"))).fieldnames))
+        self.assertTrue(rows[0]["title"].startswith("모션 "))
+        self.assertNotIn("\x1b", rows[0]["title"])
+        original = list(csv.DictReader(io.StringIO(render_export(entries, "csv"), newline="")))
+        self.assertEqual(original[0]["title"], entries[0]["title"])
+        self.assertEqual(original[0]["code"], entries[0]["code"])
+
 
 if __name__ == "__main__":
     unittest.main()

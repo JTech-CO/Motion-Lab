@@ -44,8 +44,10 @@ def parser():
     return root
 
 
-def render_export(items, format_name):
+def render_export(items, format_name, *, terminal=False):
     if format_name == "json":
+        if terminal:
+            return terminal_json(items) + "\n"
         return json.dumps(items, ensure_ascii=False, indent=2) + "\n"
     stream = io.StringIO(newline="")
     fields = ("id", "title", "description", "category", "kind", "domain", "license", "sourceName", "sourceUrl", "tags", "colors", "analysis", "code", "image",
@@ -62,8 +64,22 @@ def render_export(items, format_name):
         for key, value in row.items():
             if isinstance(value, str) and value.lstrip().startswith(("=", "+", "-", "@", "\t", "\r")):
                 row[key] = "'" + value
+            if terminal and isinstance(row[key], str):
+                row[key] = terminal_text(row[key])
         writer.writerow(row)
     return stream.getvalue()
+
+
+def terminal_text(value):
+    """Show untrusted controls as text while retaining ordinary Unicode/LF/TAB."""
+    return "".join(f"\\x{ord(char):02x}" if (ord(char) < 32 and char not in "\n\t")
+                   or 127 <= ord(char) <= 159 else char for char in str(value))
+
+
+def terminal_json(value):
+    """Escape C1/DEL in JSON without changing decoded source values or Unicode."""
+    return json.dumps(value, ensure_ascii=False, indent=2).translate(
+        {code: f"\\u{code:04x}" for code in range(127, 160)})
 
 
 def main(argv=None):
@@ -85,10 +101,10 @@ def main(argv=None):
                                     kind=options.kind, limit=options.limit, offset=options.offset,
                                     **{field: getattr(options, field) for field in ANALYSIS_FILTERS})
             if options.json:
-                print(json.dumps(result, ensure_ascii=False, indent=2))
+                print(terminal_json(result))
             else:
                 for item in result["items"]:
-                    print(f"{item['id']}  {item['title']}  [{item['category']} · {item['license']}]")
+                    print(terminal_text(f"{item['id']}  {item['title']}  [{item['category']} · {item['license']}]"))
                 print(f"{len(result['items'])} shown / {result['total']} matches")
         elif options.command == "get":
             item = catalog.get(options.id)
@@ -96,28 +112,28 @@ def main(argv=None):
                 print("Item not found", file=sys.stderr)
                 return 1
             if options.json:
-                print(json.dumps(item, ensure_ascii=False, indent=2))
+                print(terminal_json(item))
             else:
-                print(f"{item['title']} ({item['id']})\n{item['description']}\nLicense: {item['license']}\nSource: {item['sourceUrl']}")
+                print(terminal_text(f"{item['title']} ({item['id']})\n{item['description']}\nLicense: {item['license']}\nSource: {item['sourceUrl']}"))
                 if item.get("canonicalId"):
-                    print(f"Canonical entry: {item['canonicalId']}")
+                    print(terminal_text(f"Canonical entry: {item['canonicalId']}"))
                 if item.get("variants"):
-                    print("Original variants: " + ", ".join(variant["id"] for variant in item["variants"]))
+                    print(terminal_text("Original variants: " + ", ".join(variant["id"] for variant in item["variants"])))
                 if item.get("code"):
-                    print(item["code"])
+                    print(terminal_text(item["code"]))
                 if item.get("image"):
-                    print("Image: " + item["image"]["path"])
+                    print(terminal_text("Image: " + item["image"]["path"]))
         elif options.command == "stats":
-            print(json.dumps(catalog.stats(), ensure_ascii=False, indent=2))
+            print(terminal_json(catalog.stats()))
         elif options.command == "export":
-            rendered = render_export(catalog.export(), options.format)
+            rendered = render_export(catalog.export(), options.format, terminal=not bool(options.output))
             if options.output:
                 options.output.write_text(rendered, encoding="utf-8", newline="")
             else:
                 sys.stdout.write(rendered)
         return 0
     except (ValidationError, CatalogUnavailable, OSError, sqlite3.Error) as error:
-        print(f"Motion Lab: {error}", file=sys.stderr)
+        print(terminal_text(f"Motion Lab: {error}"), file=sys.stderr)
         return 2
 
 

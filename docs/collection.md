@@ -73,4 +73,6 @@ python scripts/package.py
 
 현재 파일을 포함한 `Motion-Lab.zip`을 생성하고 ZIP 무결성을 확인합니다. 새 패키지가 필요한 경우 현재 입력으로 빌드·검증한 뒤 생성합니다. `dist/`는 정적 웹 호스팅에 사용할 수 있고 CLI·MCP는 Python 런타임과 데이터베이스를 사용합니다.
 
+패키징은 파일과 부모 경로의 symlink·junction·reparse point 및 프로젝트 밖 경로를 거부합니다. 일반 파일로 준비한 원본을 사용하세요. ZIP은 임시 파일에서 무결성을 확인한 뒤 교체하므로 생성 실패 시 이전 ZIP을 유지합니다.
+
 사이트 OG 이미지는 `dist/assets/og-site.png`, README 배너와 GitHub 소셜 이미지는 `docs/assets/og-repository.jpg`입니다. 호스팅 주소를 정할 때 `dist/index.html`, `dist/library.html`의 `og:url`, `og:image`, `twitter:image`를 실제 HTTPS 주소로 맞춥니다. GitHub 소셜 이미지는 저장소 Settings > Social preview에서 별도로 설정합니다. README 이미지를 커밋하는 것만으로 원격 소셜 이미지가 설정되지는 않습니다.
