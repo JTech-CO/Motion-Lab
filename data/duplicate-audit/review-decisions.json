@@ -1,0 +1,483 @@
+{
+  "catalogSha256": "1688368bafbff4df4580d83d9ce8d8b128199cd0ac99089a9765d5828a4c9ea3",
+  "reviewedAt": "2026-10-09",
+  "basis": "AI source-code review, not human perceptual or browser review",
+  "decisions": [
+    {
+      "domain": "glsl",
+      "ids": [
+        "gl-transitions-horizontalclose",
+        "gl-transitions-verticalclose"
+      ],
+      "classification": "keep-directional-variant",
+      "basis": "complete-stored-source-code-review",
+      "reasonEN": "The mask uses uv.y versus uv.x inside abs(); the closing edge axis is different.",
+      "codeSha256": {
+        "gl-transitions-horizontalclose": "7991d30a608859253d53bc7fae51bc283593a2dce7548b036ecacf17a5e969c1",
+        "gl-transitions-verticalclose": "6f40f60736543feaf29f541f64fd06d87be29b90b7a1830df33b632b9eecada2"
+      }
+    },
+    {
+      "domain": "glsl",
+      "ids": [
+        "gl-transitions-horizontalopen",
+        "gl-transitions-verticalopen"
+      ],
+      "classification": "keep-directional-variant",
+      "basis": "complete-stored-source-code-review",
+      "reasonEN": "The mask uses uv.y versus uv.x inside abs(); the opening edge axis is different.",
+      "codeSha256": {
+        "gl-transitions-horizontalopen": "847aa4d7fa84573581113c68d43564a7da4ddab1a268d38948e0c949292974ef",
+        "gl-transitions-verticalopen": "ab28b52e5936882c5d1b7615bf9b3c703a154c352966b4c2e5366779cfbd8605"
+      }
+    },
+    {
+      "domain": "glsl",
+      "ids": [
+        "gl-transitions-leftright",
+        "gl-transitions-topbottom"
+      ],
+      "classification": "keep-directional-variant",
+      "basis": "complete-stored-source-code-review",
+      "reasonEN": "The source sample offset is uv - vec2(1.-progress,0.0) versus uv + vec2(0.0,1.0-progress); direction and axis change.",
+      "codeSha256": {
+        "gl-transitions-leftright": "9bb05f7449a5a9500fb16d6407090202b65cb71af358c21e68d09c67a673b9b9",
+        "gl-transitions-topbottom": "16e0aa3af9c14e9438e4ee452ac25dcf7274bd7f7c8a5de95d500789abdcef84"
+      }
+    },
+    {
+      "domain": "glsl",
+      "ids": [
+        "gl-transitions-splitslideouthorizontal",
+        "gl-transitions-splitslideoutvertical"
+      ],
+      "classification": "keep-directional-variant",
+      "basis": "complete-stored-source-code-review",
+      "reasonEN": "The half-plane test and displaced coordinate change from uv.y/uv.x to uv.x/uv.y. The split direction is meaningful.",
+      "codeSha256": {
+        "gl-transitions-splitslideouthorizontal": "2f486e615f1943e2a27449dab391c00cb15d708ffc4872cdac441eaf20d1d682",
+        "gl-transitions-splitslideoutvertical": "b54781e52695daac04983781481a7ba815acdab6dc2f30ea8d446d835f63fb6b"
+      }
+    },
+    {
+      "domain": "glsl",
+      "ids": [
+        "gl-transitions-wipedown",
+        "gl-transitions-wipeleft"
+      ],
+      "classification": "keep-directional-variant",
+      "basis": "complete-stored-source-code-review",
+      "reasonEN": "The step mask uses 1.0-p.x, 1.0-p.y, 0.0+p.x or 0.0+p.y. Axes and opposite directions alter the actual transition.",
+      "codeSha256": {
+        "gl-transitions-wipedown": "0e9897ab1b6fc5383772f0b4c4ea49551942d138bc5d363a1a401e43832a21ea",
+        "gl-transitions-wipeleft": "e877946d2df38eed3510a388c246c04f8898d158d056f1925301dc0852288e51"
+      }
+    },
+    {
+      "domain": "glsl",
+      "ids": [
+        "gl-transitions-wipedown",
+        "gl-transitions-wiperight"
+      ],
+      "classification": "keep-directional-variant",
+      "basis": "complete-stored-source-code-review",
+      "reasonEN": "The step mask uses 1.0-p.x, 1.0-p.y, 0.0+p.x or 0.0+p.y. Axes and opposite directions alter the actual transition.",
+      "codeSha256": {
+        "gl-transitions-wipedown": "0e9897ab1b6fc5383772f0b4c4ea49551942d138bc5d363a1a401e43832a21ea",
+        "gl-transitions-wiperight": "986db07618558edb7a46d9734ac572fa4d9c2b001afdfc46acd8690571db46c8"
+      }
+    },
+    {
+      "domain": "glsl",
+      "ids": [
+        "gl-transitions-wipedown",
+        "gl-transitions-wipeup"
+      ],
+      "classification": "keep-directional-variant",
+      "basis": "complete-stored-source-code-review",
+      "reasonEN": "The step mask uses 1.0-p.x, 1.0-p.y, 0.0+p.x or 0.0+p.y. Axes and opposite directions alter the actual transition.",
+      "codeSha256": {
+        "gl-transitions-wipedown": "0e9897ab1b6fc5383772f0b4c4ea49551942d138bc5d363a1a401e43832a21ea",
+        "gl-transitions-wipeup": "37e389eb3c245d67bd27f4ad8cdb76de419425e149ed5df0dd2a0b7c673d91f7"
+      }
+    },
+    {
+      "domain": "glsl",
+      "ids": [
+        "gl-transitions-wipeleft",
+        "gl-transitions-wiperight"
+      ],
+      "classification": "keep-directional-variant",
+      "basis": "complete-stored-source-code-review",
+      "reasonEN": "The step mask uses 1.0-p.x, 1.0-p.y, 0.0+p.x or 0.0+p.y. Axes and opposite directions alter the actual transition.",
+      "codeSha256": {
+        "gl-transitions-wipeleft": "e877946d2df38eed3510a388c246c04f8898d158d056f1925301dc0852288e51",
+        "gl-transitions-wiperight": "986db07618558edb7a46d9734ac572fa4d9c2b001afdfc46acd8690571db46c8"
+      }
+    },
+    {
+      "domain": "glsl",
+      "ids": [
+        "gl-transitions-wipeleft",
+        "gl-transitions-wipeup"
+      ],
+      "classification": "keep-directional-variant",
+      "basis": "complete-stored-source-code-review",
+      "reasonEN": "The step mask uses 1.0-p.x, 1.0-p.y, 0.0+p.x or 0.0+p.y. Axes and opposite directions alter the actual transition.",
+      "codeSha256": {
+        "gl-transitions-wipeleft": "e877946d2df38eed3510a388c246c04f8898d158d056f1925301dc0852288e51",
+        "gl-transitions-wipeup": "37e389eb3c245d67bd27f4ad8cdb76de419425e149ed5df0dd2a0b7c673d91f7"
+      }
+    },
+    {
+      "domain": "glsl",
+      "ids": [
+        "gl-transitions-wiperight",
+        "gl-transitions-wipeup"
+      ],
+      "classification": "keep-directional-variant",
+      "basis": "complete-stored-source-code-review",
+      "reasonEN": "The step mask uses 1.0-p.x, 1.0-p.y, 0.0+p.x or 0.0+p.y. Axes and opposite directions alter the actual transition.",
+      "codeSha256": {
+        "gl-transitions-wiperight": "986db07618558edb7a46d9734ac572fa4d9c2b001afdfc46acd8690571db46c8",
+        "gl-transitions-wipeup": "37e389eb3c245d67bd27f4ad8cdb76de419425e149ed5df0dd2a0b7c673d91f7"
+      }
+    },
+    {
+      "domain": "glsl",
+      "ids": [
+        "gl-transitions-zoomleftwipe",
+        "gl-transitions-zoomrigthwipe"
+      ],
+      "classification": "keep-directional-variant",
+      "basis": "complete-stored-source-code-review",
+      "reasonEN": "The second phase uses step(1.0-p.x,...) versus step(0.0+p.x,...); the zoom phase is shared but wipe direction is opposite.",
+      "codeSha256": {
+        "gl-transitions-zoomleftwipe": "13d14bdd5d7f15a876184fa2f9164c4124be13d164886bbcb851adc3c057c17d",
+        "gl-transitions-zoomrigthwipe": "53e4e2f3ba9b8f66830325beb65ba22038e02d538b6773c7dacc5d8173d5a338"
+      }
+    },
+    {
+      "domain": "palette",
+      "ids": [
+        "color-wave-radix-colors-dark-graydark",
+        "color-wave-radix-colors-dark-olivedark"
+      ],
+      "classification": "keep-color-variant",
+      "basis": "stored-RGBA-arrays-and-source-definition-review",
+      "reasonEN": "The actual neutral hue bias or alpha scale differs. Retain the theme color variants while grouping them for exploration; the numeric near relation is valid but is not a deletion recommendation.",
+      "codeSha256": {
+        "color-wave-radix-colors-dark-graydark": "07f9c4e9ebeb7093d4041ac32be0f203ec3aa86371cb084f13f2b6487d59ea33",
+        "color-wave-radix-colors-dark-olivedark": "07ebc4d693c963a5a2358eb932cac2007f2cb83c724026b5154f8b0e22819809"
+      }
+    },
+    {
+      "domain": "palette",
+      "ids": [
+        "color-wave-radix-colors-dark-graydark",
+        "color-wave-radix-colors-dark-sagedark"
+      ],
+      "classification": "keep-color-variant",
+      "basis": "stored-RGBA-arrays-and-source-definition-review",
+      "reasonEN": "The actual neutral hue bias or alpha scale differs. Retain the theme color variants while grouping them for exploration; the numeric near relation is valid but is not a deletion recommendation.",
+      "codeSha256": {
+        "color-wave-radix-colors-dark-graydark": "07f9c4e9ebeb7093d4041ac32be0f203ec3aa86371cb084f13f2b6487d59ea33",
+        "color-wave-radix-colors-dark-sagedark": "d1ce13b6e0bb1432ea37ec5aee0064d29b33ab7dc3f8befd446b83808ae1ad66"
+      }
+    },
+    {
+      "domain": "palette",
+      "ids": [
+        "color-wave-radix-colors-dark-graydark",
+        "color-wave-radix-colors-dark-sanddark"
+      ],
+      "classification": "keep-color-variant",
+      "basis": "stored-RGBA-arrays-and-source-definition-review",
+      "reasonEN": "The actual neutral hue bias or alpha scale differs. Retain the theme color variants while grouping them for exploration; the numeric near relation is valid but is not a deletion recommendation.",
+      "codeSha256": {
+        "color-wave-radix-colors-dark-graydark": "07f9c4e9ebeb7093d4041ac32be0f203ec3aa86371cb084f13f2b6487d59ea33",
+        "color-wave-radix-colors-dark-sanddark": "64e912d66ffa27b85f13d0b5ec02c9627f4c9209feaa4af148a662495f4967ad"
+      }
+    },
+    {
+      "domain": "palette",
+      "ids": [
+        "color-wave-radix-colors-dark-graydark",
+        "color-wave-radix-colors-dark-slatedark"
+      ],
+      "classification": "keep-color-variant",
+      "basis": "stored-RGBA-arrays-and-source-definition-review",
+      "reasonEN": "The actual neutral hue bias or alpha scale differs. Retain the theme color variants while grouping them for exploration; the numeric near relation is valid but is not a deletion recommendation.",
+      "codeSha256": {
+        "color-wave-radix-colors-dark-graydark": "07f9c4e9ebeb7093d4041ac32be0f203ec3aa86371cb084f13f2b6487d59ea33",
+        "color-wave-radix-colors-dark-slatedark": "c6decf123f4622f62804880914d7210ce52c0348e2e82045605dcf518eddaece"
+      }
+    },
+    {
+      "domain": "palette",
+      "ids": [
+        "color-wave-radix-colors-dark-graydarka",
+        "color-wave-radix-colors-dark-olivedarka"
+      ],
+      "classification": "keep-color-variant",
+      "basis": "stored-RGBA-arrays-and-source-definition-review",
+      "reasonEN": "The actual neutral hue bias or alpha scale differs. Retain the theme color variants while grouping them for exploration; the numeric near relation is valid but is not a deletion recommendation.",
+      "codeSha256": {
+        "color-wave-radix-colors-dark-graydarka": "7500e1f68dc524f96c221b6f4f7a6ab0c592caee7c4a4263991c785768add650",
+        "color-wave-radix-colors-dark-olivedarka": "c42b5e193ad769515da949c15daf86f7342b5698a08cc8ebc3d21259d91af86d"
+      }
+    },
+    {
+      "domain": "palette",
+      "ids": [
+        "color-wave-radix-colors-dark-graydarka",
+        "color-wave-radix-colors-dark-sagedarka"
+      ],
+      "classification": "keep-color-variant",
+      "basis": "stored-RGBA-arrays-and-source-definition-review",
+      "reasonEN": "The actual neutral hue bias or alpha scale differs. Retain the theme color variants while grouping them for exploration; the numeric near relation is valid but is not a deletion recommendation.",
+      "codeSha256": {
+        "color-wave-radix-colors-dark-graydarka": "7500e1f68dc524f96c221b6f4f7a6ab0c592caee7c4a4263991c785768add650",
+        "color-wave-radix-colors-dark-sagedarka": "5ea139fea85f5b32a3fe7dd21e6429bbf0fa94d5c964d039d85638f7c9d4753a"
+      }
+    },
+    {
+      "domain": "palette",
+      "ids": [
+        "color-wave-radix-colors-dark-graydarka",
+        "color-wave-radix-colors-dark-sanddarka"
+      ],
+      "classification": "keep-color-variant",
+      "basis": "stored-RGBA-arrays-and-source-definition-review",
+      "reasonEN": "The actual neutral hue bias or alpha scale differs. Retain the theme color variants while grouping them for exploration; the numeric near relation is valid but is not a deletion recommendation.",
+      "codeSha256": {
+        "color-wave-radix-colors-dark-graydarka": "7500e1f68dc524f96c221b6f4f7a6ab0c592caee7c4a4263991c785768add650",
+        "color-wave-radix-colors-dark-sanddarka": "00d40ef0147c770d8c3f8024fd43b38b9bfe951cebdf39c9147246a02e06abcb"
+      }
+    },
+    {
+      "domain": "palette",
+      "ids": [
+        "color-wave-radix-colors-dark-mauvedark",
+        "color-wave-radix-colors-dark-slatedark"
+      ],
+      "classification": "keep-color-variant",
+      "basis": "stored-RGBA-arrays-and-source-definition-review",
+      "reasonEN": "The actual neutral hue bias or alpha scale differs. Retain the theme color variants while grouping them for exploration; the numeric near relation is valid but is not a deletion recommendation.",
+      "codeSha256": {
+        "color-wave-radix-colors-dark-mauvedark": "aaafb7ba0c3fa5e930d9e04c132b48336ff866f7cf472d09aa99c9213a3137dd",
+        "color-wave-radix-colors-dark-slatedark": "c6decf123f4622f62804880914d7210ce52c0348e2e82045605dcf518eddaece"
+      }
+    },
+    {
+      "domain": "palette",
+      "ids": [
+        "color-wave-radix-colors-dark-mauvedarka",
+        "color-wave-radix-colors-dark-slatedarka"
+      ],
+      "classification": "keep-color-variant",
+      "basis": "stored-RGBA-arrays-and-source-definition-review",
+      "reasonEN": "The actual neutral hue bias or alpha scale differs. Retain the theme color variants while grouping them for exploration; the numeric near relation is valid but is not a deletion recommendation.",
+      "codeSha256": {
+        "color-wave-radix-colors-dark-mauvedarka": "62d7b32bf1041f49610a854ee8a14759cfe68be5d49445880671276fec433b39",
+        "color-wave-radix-colors-dark-slatedarka": "25af239f74336b4e5345b595566c5235f148a4afa400b38b0d3f28aecf6b391b"
+      }
+    },
+    {
+      "domain": "palette",
+      "ids": [
+        "color-wave-radix-colors-dark-olivedark",
+        "color-wave-radix-colors-dark-sagedark"
+      ],
+      "classification": "keep-color-variant",
+      "basis": "stored-RGBA-arrays-and-source-definition-review",
+      "reasonEN": "The actual neutral hue bias or alpha scale differs. Retain the theme color variants while grouping them for exploration; the numeric near relation is valid but is not a deletion recommendation.",
+      "codeSha256": {
+        "color-wave-radix-colors-dark-olivedark": "07ebc4d693c963a5a2358eb932cac2007f2cb83c724026b5154f8b0e22819809",
+        "color-wave-radix-colors-dark-sagedark": "d1ce13b6e0bb1432ea37ec5aee0064d29b33ab7dc3f8befd446b83808ae1ad66"
+      }
+    },
+    {
+      "domain": "palette",
+      "ids": [
+        "color-wave-radix-colors-dark-olivedark",
+        "color-wave-radix-colors-dark-sanddark"
+      ],
+      "classification": "keep-color-variant",
+      "basis": "stored-RGBA-arrays-and-source-definition-review",
+      "reasonEN": "The actual neutral hue bias or alpha scale differs. Retain the theme color variants while grouping them for exploration; the numeric near relation is valid but is not a deletion recommendation.",
+      "codeSha256": {
+        "color-wave-radix-colors-dark-olivedark": "07ebc4d693c963a5a2358eb932cac2007f2cb83c724026b5154f8b0e22819809",
+        "color-wave-radix-colors-dark-sanddark": "64e912d66ffa27b85f13d0b5ec02c9627f4c9209feaa4af148a662495f4967ad"
+      }
+    },
+    {
+      "domain": "palette",
+      "ids": [
+        "color-wave-radix-colors-dark-olivedarka",
+        "color-wave-radix-colors-dark-sagedarka"
+      ],
+      "classification": "keep-color-variant",
+      "basis": "stored-RGBA-arrays-and-source-definition-review",
+      "reasonEN": "The actual neutral hue bias or alpha scale differs. Retain the theme color variants while grouping them for exploration; the numeric near relation is valid but is not a deletion recommendation.",
+      "codeSha256": {
+        "color-wave-radix-colors-dark-olivedarka": "c42b5e193ad769515da949c15daf86f7342b5698a08cc8ebc3d21259d91af86d",
+        "color-wave-radix-colors-dark-sagedarka": "5ea139fea85f5b32a3fe7dd21e6429bbf0fa94d5c964d039d85638f7c9d4753a"
+      }
+    },
+    {
+      "domain": "palette",
+      "ids": [
+        "color-wave-radix-colors-dark-olivedarka",
+        "color-wave-radix-colors-dark-sanddarka"
+      ],
+      "classification": "keep-color-variant",
+      "basis": "stored-RGBA-arrays-and-source-definition-review",
+      "reasonEN": "The actual neutral hue bias or alpha scale differs. Retain the theme color variants while grouping them for exploration; the numeric near relation is valid but is not a deletion recommendation.",
+      "codeSha256": {
+        "color-wave-radix-colors-dark-olivedarka": "c42b5e193ad769515da949c15daf86f7342b5698a08cc8ebc3d21259d91af86d",
+        "color-wave-radix-colors-dark-sanddarka": "00d40ef0147c770d8c3f8024fd43b38b9bfe951cebdf39c9147246a02e06abcb"
+      }
+    },
+    {
+      "domain": "palette",
+      "ids": [
+        "color-wave-radix-colors-dark-sagedark",
+        "color-wave-radix-colors-dark-sanddark"
+      ],
+      "classification": "keep-color-variant",
+      "basis": "stored-RGBA-arrays-and-source-definition-review",
+      "reasonEN": "The actual neutral hue bias or alpha scale differs. Retain the theme color variants while grouping them for exploration; the numeric near relation is valid but is not a deletion recommendation.",
+      "codeSha256": {
+        "color-wave-radix-colors-dark-sagedark": "d1ce13b6e0bb1432ea37ec5aee0064d29b33ab7dc3f8befd446b83808ae1ad66",
+        "color-wave-radix-colors-dark-sanddark": "64e912d66ffa27b85f13d0b5ec02c9627f4c9209feaa4af148a662495f4967ad"
+      }
+    },
+    {
+      "domain": "palette",
+      "ids": [
+        "color-wave-radix-colors-dark-sagedarka",
+        "color-wave-radix-colors-dark-sanddarka"
+      ],
+      "classification": "keep-color-variant",
+      "basis": "stored-RGBA-arrays-and-source-definition-review",
+      "reasonEN": "The actual neutral hue bias or alpha scale differs. Retain the theme color variants while grouping them for exploration; the numeric near relation is valid but is not a deletion recommendation.",
+      "codeSha256": {
+        "color-wave-radix-colors-dark-sagedarka": "5ea139fea85f5b32a3fe7dd21e6429bbf0fa94d5c964d039d85638f7c9d4753a",
+        "color-wave-radix-colors-dark-sanddarka": "00d40ef0147c770d8c3f8024fd43b38b9bfe951cebdf39c9147246a02e06abcb"
+      }
+    },
+    {
+      "domain": "palette",
+      "ids": [
+        "color-wave-radix-colors-light-gray",
+        "color-wave-radix-colors-light-olive"
+      ],
+      "classification": "keep-color-variant",
+      "basis": "stored-RGBA-arrays-and-source-definition-review",
+      "reasonEN": "The actual neutral hue bias or alpha scale differs. Retain the theme color variants while grouping them for exploration; the numeric near relation is valid but is not a deletion recommendation.",
+      "codeSha256": {
+        "color-wave-radix-colors-light-gray": "b2369b5daccbff64c8628f0b7fdfdd887ac78b83df6c862e4a6afba1f692d4fe",
+        "color-wave-radix-colors-light-olive": "08d0fd7606d8fe70733e514ccb381870714c66f2ec2d6f3b5a6930926113948a"
+      }
+    },
+    {
+      "domain": "palette",
+      "ids": [
+        "color-wave-radix-colors-light-gray",
+        "color-wave-radix-colors-light-sage"
+      ],
+      "classification": "keep-color-variant",
+      "basis": "stored-RGBA-arrays-and-source-definition-review",
+      "reasonEN": "The actual neutral hue bias or alpha scale differs. Retain the theme color variants while grouping them for exploration; the numeric near relation is valid but is not a deletion recommendation.",
+      "codeSha256": {
+        "color-wave-radix-colors-light-gray": "b2369b5daccbff64c8628f0b7fdfdd887ac78b83df6c862e4a6afba1f692d4fe",
+        "color-wave-radix-colors-light-sage": "649a1e1d714dfeffd049adf1122bba453d053bf6ff30c94830c087232b0a592f"
+      }
+    },
+    {
+      "domain": "palette",
+      "ids": [
+        "color-wave-radix-colors-light-gray",
+        "color-wave-radix-colors-light-sand"
+      ],
+      "classification": "keep-color-variant",
+      "basis": "stored-RGBA-arrays-and-source-definition-review",
+      "reasonEN": "The actual neutral hue bias or alpha scale differs. Retain the theme color variants while grouping them for exploration; the numeric near relation is valid but is not a deletion recommendation.",
+      "codeSha256": {
+        "color-wave-radix-colors-light-gray": "b2369b5daccbff64c8628f0b7fdfdd887ac78b83df6c862e4a6afba1f692d4fe",
+        "color-wave-radix-colors-light-sand": "359a56e18e7cafbf2abb67eddab93ed1b5905fdca3c678fcbd8fc82982a06fd5"
+      }
+    },
+    {
+      "domain": "palette",
+      "ids": [
+        "color-wave-radix-colors-light-gray",
+        "color-wave-radix-colors-light-slate"
+      ],
+      "classification": "keep-color-variant",
+      "basis": "stored-RGBA-arrays-and-source-definition-review",
+      "reasonEN": "The actual neutral hue bias or alpha scale differs. Retain the theme color variants while grouping them for exploration; the numeric near relation is valid but is not a deletion recommendation.",
+      "codeSha256": {
+        "color-wave-radix-colors-light-gray": "b2369b5daccbff64c8628f0b7fdfdd887ac78b83df6c862e4a6afba1f692d4fe",
+        "color-wave-radix-colors-light-slate": "50df2daa84585f94c451676599c0e6723bd932eaccef30b06490eff8f2d1fcb8"
+      }
+    },
+    {
+      "domain": "palette",
+      "ids": [
+        "color-wave-radix-colors-light-mauve",
+        "color-wave-radix-colors-light-slate"
+      ],
+      "classification": "keep-color-variant",
+      "basis": "stored-RGBA-arrays-and-source-definition-review",
+      "reasonEN": "The actual neutral hue bias or alpha scale differs. Retain the theme color variants while grouping them for exploration; the numeric near relation is valid but is not a deletion recommendation.",
+      "codeSha256": {
+        "color-wave-radix-colors-light-mauve": "d9d85045a981ea1abec60e0a37ca0fc792fe818b9189c60a924f38fca28c5ea3",
+        "color-wave-radix-colors-light-slate": "50df2daa84585f94c451676599c0e6723bd932eaccef30b06490eff8f2d1fcb8"
+      }
+    },
+    {
+      "domain": "palette",
+      "ids": [
+        "color-wave-radix-colors-light-olive",
+        "color-wave-radix-colors-light-sage"
+      ],
+      "classification": "keep-color-variant",
+      "basis": "stored-RGBA-arrays-and-source-definition-review",
+      "reasonEN": "The actual neutral hue bias or alpha scale differs. Retain the theme color variants while grouping them for exploration; the numeric near relation is valid but is not a deletion recommendation.",
+      "codeSha256": {
+        "color-wave-radix-colors-light-olive": "08d0fd7606d8fe70733e514ccb381870714c66f2ec2d6f3b5a6930926113948a",
+        "color-wave-radix-colors-light-sage": "649a1e1d714dfeffd049adf1122bba453d053bf6ff30c94830c087232b0a592f"
+      }
+    },
+    {
+      "domain": "palette",
+      "ids": [
+        "color-wave-radix-colors-light-olive",
+        "color-wave-radix-colors-light-sand"
+      ],
+      "classification": "keep-color-variant",
+      "basis": "stored-RGBA-arrays-and-source-definition-review",
+      "reasonEN": "The actual neutral hue bias or alpha scale differs. Retain the theme color variants while grouping them for exploration; the numeric near relation is valid but is not a deletion recommendation.",
+      "codeSha256": {
+        "color-wave-radix-colors-light-olive": "08d0fd7606d8fe70733e514ccb381870714c66f2ec2d6f3b5a6930926113948a",
+        "color-wave-radix-colors-light-sand": "359a56e18e7cafbf2abb67eddab93ed1b5905fdca3c678fcbd8fc82982a06fd5"
+      }
+    },
+    {
+      "domain": "palette",
+      "ids": [
+        "color-wave-radix-colors-light-sage",
+        "color-wave-radix-colors-light-sand"
+      ],
+      "classification": "keep-color-variant",
+      "basis": "stored-RGBA-arrays-and-source-definition-review",
+      "reasonEN": "The actual neutral hue bias or alpha scale differs. Retain the theme color variants while grouping them for exploration; the numeric near relation is valid but is not a deletion recommendation.",
+      "codeSha256": {
+        "color-wave-radix-colors-light-sage": "649a1e1d714dfeffd049adf1122bba453d053bf6ff30c94830c087232b0a592f",
+        "color-wave-radix-colors-light-sand": "359a56e18e7cafbf2abb67eddab93ed1b5905fdca3c678fcbd8fc82982a06fd5"
+      }
+    }
+  ]
+}

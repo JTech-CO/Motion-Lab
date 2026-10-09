@@ -1,0 +1,2214 @@
+{
+  "methodology": {
+    "scope": "Reference metadata only; no local motion geometry, frames or colors exist.",
+    "exact": "Normalized source URL plus individual sourceCardId, preserving query/fragment/path.",
+    "limitations": [
+      "All reference identities are audited; visual/behavioral similarity of remote works is unassessed.",
+      "Shared page URLs and similar titles do not establish duplicate assets."
+    ]
+  },
+  "coverage": {
+    "itemCount": 288,
+    "pairUniverse": 41328,
+    "identityComparedPairs": 41328,
+    "visualComparedPairs": 0,
+    "metadataOnlyItems": 288
+  },
+  "items": [
+    {
+      "id": "asset-magicui-animated-beam",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/animated-beam.tsx",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "asset-magicui-border-beam",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/border-beam.tsx",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "asset-magicui-meteors",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/meteors.tsx",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "asset-magicui-particles",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/particles.tsx",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "asset-magicui-shimmer-button",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/shimmer-button.tsx",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "asset-magicui-text-animate",
+      "sourceUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/text-animate.tsx",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-bar-rise-reveal",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "bar-rise-reveal",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-beat-cut-words",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "beat-cut-words",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-beat-squares-sentence",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "beat-squares-sentence",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-beat-word-slam",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "beat-word-slam",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-bl-device-duo",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "bl-device-duo",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-bl-film-device-ad",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "bl-film-device-ad",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-bl-laptop-open",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "bl-laptop-open",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-bl-phone-hero",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "bl-phone-hero",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-browser-url-load",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "browser-url-load",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-card-stack-swipe",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "card-stack-swipe",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-chat-stream",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "chat-stream",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-circle-mask-media",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "circle-mask-media",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-clock-workday",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "clock-workday",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-create-audio-wave-to-captions",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "create-audio-wave-to-captions",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-create-contact-sheet-select",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "create-contact-sheet-select",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-create-glyph-outline-fill",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "create-glyph-outline-fill",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-create-image-outpaint-canvas",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "create-image-outpaint-canvas",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-create-image-to-type-poster",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "create-image-to-type-poster",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-create-layer-depth-camera",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "create-layer-depth-camera",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-create-letter-media-shutter",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "create-letter-media-shutter",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-create-mask-inpaint-reveal",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "create-mask-inpaint-reveal",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-create-paragraph-to-headline",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "create-paragraph-to-headline",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-create-prompt-image-grid",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "create-prompt-image-grid",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-create-prompt-to-layout",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "create-prompt-to-layout",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-create-sketch-to-polished",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "create-sketch-to-polished",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-create-still-to-motion-strip",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "create-still-to-motion-strip",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-create-style-reference-blend",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "create-style-reference-blend",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-create-text-path-carousel",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "create-text-path-carousel",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-create-text-to-vector-path",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "create-text-to-vector-path",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-create-timeline-to-storyboard",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "create-timeline-to-storyboard",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-create-token-to-pixel",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "create-token-to-pixel",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-create-type-to-interface",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "create-type-to-interface",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-create-word-extrude-fold",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "create-word-extrude-fold",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-create-workflow-oner",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "create-workflow-oner",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-cursor-autozoom",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "cursor-autozoom",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-demo-command-palette-dive",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "demo-command-palette-dive",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-demo-comment-resolve-chain",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "demo-comment-resolve-chain",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-demo-component-detach-edit",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "demo-component-detach-edit",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-demo-drag-asset-drop",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "demo-drag-asset-drop",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-demo-form-to-dashboard",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "demo-form-to-dashboard",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-demo-image-crop-reframe",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "demo-image-crop-reframe",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-demo-infinite-canvas-route",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "demo-infinite-canvas-route",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-demo-inspector-live-style",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "demo-inspector-live-style",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-demo-keyboard-workflow",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "demo-keyboard-workflow",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-demo-multi-cursor-handoff",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "demo-multi-cursor-handoff",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-demo-node-connect-run",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "demo-node-connect-run",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-demo-responsive-canvas-reflow",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "demo-responsive-canvas-reflow",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-demo-scroll-section-magnify",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "demo-scroll-section-magnify",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-demo-scrub-timeline-zoom",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "demo-scrub-timeline-zoom",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-demo-search-result-tunnel",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "demo-search-result-tunnel",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-demo-selection-marquee-group",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "demo-selection-marquee-group",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-demo-split-editor-preview",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "demo-split-editor-preview",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-demo-tab-context-switch",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "demo-tab-context-switch",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-demo-table-filter-sort",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "demo-table-filter-sort",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-demo-version-history-peel",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "demo-version-history-peel",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-device-flip",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "device-flip",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-explain-compare-sync-workflows",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "explain-compare-sync-workflows",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-explain-evidence-source-to-quote",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "explain-evidence-source-to-quote",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-explain-export-format-fanout",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "explain-export-format-fanout",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-explain-feature-priority-matrix",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "explain-feature-priority-matrix",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-explain-metric-waterfall-impact",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "explain-metric-waterfall-impact",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-explain-objection-answer-stack",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "explain-objection-answer-stack",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-explain-result-detail-triptych",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "explain-result-detail-triptych",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-explain-steps-route-map",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "explain-steps-route-map",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-explain-time-compression-bridge",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "explain-time-compression-bridge",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-explain-workflow-branch-decision",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "explain-workflow-branch-decision",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-exploded-ui-layers",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "exploded-ui-layers",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-figure-desk-typing",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "figure-desk-typing",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-figure-idea-burst",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "figure-idea-burst",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-figure-rig-sheet",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "figure-rig-sheet",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-figure-wave-endcard",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "figure-wave-endcard",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-figure-wave-endcard-vertical",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "figure-wave-endcard-vertical",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-film-ad-channel",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "film-ad-channel",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-film-laptop-prompt",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "film-laptop-prompt",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-film-mobile-demo",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "film-mobile-demo",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-film-seamless-oneshot",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "film-seamless-oneshot",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-folder-burst",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "folder-burst",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-glow-agent-run",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "glow-agent-run",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-glow-chat-ask",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "glow-chat-ask",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-headline-highlighter",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "headline-highlighter",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-highlighter-wipe",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "highlighter-wipe",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-icon-scatter-endcard",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "icon-scatter-endcard",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-iso-window-wall",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "iso-window-wall",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-karaoke-lime",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "karaoke-lime",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-label-box-words",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "label-box-words",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-laptop-type-zoom",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "laptop-type-zoom",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-lens-match-cut",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "lens-match-cut",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-letter-clip-shapes",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "letter-clip-shapes",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-logo-sting",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "logo-sting",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-logo-sting-vertical",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "logo-sting-vertical",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-long-page-dolly",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "long-page-dolly",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-marquee-band-collage",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "marquee-band-collage",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-mixed-type-wordmark",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "mixed-type-wordmark",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-mosaic-assemble",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "mosaic-assemble",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-motion-term-01",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "motion-term-01",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-motion-term-02",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "motion-term-02",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-motion-term-03",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "motion-term-03",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-motion-term-04",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "motion-term-04",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-motion-term-05",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "motion-term-05",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-motion-term-06",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "motion-term-06",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-motion-term-07",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "motion-term-07",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-motion-term-08",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "motion-term-08",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-motion-term-09",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "motion-term-09",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-motion-term-10",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "motion-term-10",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-motion-term-11",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "motion-term-11",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-motion-term-12",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "motion-term-12",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-motion-term-13",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "motion-term-13",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-motion-term-14",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "motion-term-14",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-motion-term-15",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "motion-term-15",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-motion-term-16",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "motion-term-16",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-motion-term-17",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "motion-term-17",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-motion-term-18",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "motion-term-18",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-motion-term-19",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "motion-term-19",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-motion-term-20",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "motion-term-20",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-motion-term-21",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "motion-term-21",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-motion-term-combo-bounce",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "motion-term-combo-bounce",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-motion-term-combo-card",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "motion-term-combo-card",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-motion-term-combo-stat",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "motion-term-combo-stat",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-motion-term-combo-title",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "motion-term-combo-title",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-orbit-devices",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "orbit-devices",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-outline-rows-backdrop",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "outline-rows-backdrop",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-parallax-hero",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "parallax-hero",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-phone-app-push",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "phone-app-push",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-phone-float-scroll",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "phone-float-scroll",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-phone-lock-notifs",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "phone-lock-notifs",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-phrase-stack",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "phrase-stack",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-pixel-assemble-name",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "pixel-assemble-name",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-pixel-assemble-name-vertical",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "pixel-assemble-name-vertical",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-pullback-reveal",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "pullback-reveal",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-rack-focus",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "rack-focus",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-rail-cover",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "rail-cover",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-record-camera-tour",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "record-camera-tour",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-record-context-inset",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "record-context-inset",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-record-cursor-trail-route",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "record-cursor-trail-route",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-record-detail-freeze-callout",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "record-detail-freeze-callout",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-record-linked-loupe",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "record-linked-loupe",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-record-pan-between-controls",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "record-pan-between-controls",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-record-portrait-reframe",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "record-portrait-reframe",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-record-proof-replay",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "record-proof-replay",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-record-punch-hold-return",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "record-punch-hold-return",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-record-timeline-jump",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "record-timeline-jump",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-screen-in-screen",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "screen-in-screen",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-selection-box-type",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "selection-box-type",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-side-title-frame",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "side-title-frame",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-slant-to-flat",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "slant-to-flat",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-split-focus-block",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "split-focus-block",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-spotlight-lift",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "spotlight-lift",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-stat-hero",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "stat-hero",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-tag-converge",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "tag-converge",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-terminal-agent-run",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "terminal-agent-run",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-text-window-mask",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "text-window-mask",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-todo-check-figure",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "todo-check-figure",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-type-on-grid",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "type-on-grid",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-weight-breathe",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "weight-breathe",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-whip-speed-ramp",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "whip-speed-ramp",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-window-open-cascade",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "window-open-cascade",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-window-split-grid",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "window-split-grid",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-word-swap-inline",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "word-swap-inline",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-word-wall-number",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "word-wall-number",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "cha-zoom-through-screen",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": "zoom-through-screen",
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "jtech-dji",
+      "sourceUrl": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/3.%20DJI%20Motion/index.html",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "jtech-genesis",
+      "sourceUrl": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/2.%20Genesis%20Motion/index.html",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "jtech-loopfield",
+      "sourceUrl": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/4.%20Loopfield-Studio%20Motion/index.html",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "jtech-spacex",
+      "sourceUrl": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/1.%20SpaceX%20Motion/index.html",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-aceternity-ui",
+      "sourceUrl": "https://ui.aceternity.com/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-adobe-color-wheel",
+      "sourceUrl": "https://color.adobe.com/create/color-wheel",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-ai-canvas-playful",
+      "sourceUrl": "https://aicanvas.me/components/playful",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-animated-timeline",
+      "sourceUrl": "https://github.com/nitin42/Animated-Timeline/blob/master/docs/Spring.md",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-animation-in-design-systems",
+      "sourceUrl": "https://xd.adobe.com/ideas/wp-content/uploads/2021/06/Animation-in-Design-Systems.pdf",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-anime-js",
+      "sourceUrl": "https://animejs.com/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-anime-js-skills",
+      "sourceUrl": "https://github.com/bowtiedswan/animejs-skills",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-animista",
+      "sourceUrl": "https://animista.net/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-asquareportal",
+      "sourceUrl": "https://www.asquareportal.com/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-astrolabe-studio",
+      "sourceUrl": "https://astrolabe-studio.org/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-atlan-motion",
+      "sourceUrl": "https://atlan.com/brand/motion/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-atlassian-motion",
+      "sourceUrl": "https://atlassian.design/foundations/motion",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-awesome-creative-coding",
+      "sourceUrl": "https://github.com/terkelg/awesome-creative-coding",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-barba-transitions",
+      "sourceUrl": "https://barba.js.org/docs/advanced/transitions/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-blob-morph-study",
+      "sourceUrl": "https://github.com/torifo/animation-blob-morph",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-blossom-carousel",
+      "sourceUrl": "https://www.blossom-carousel.com/docs/examples/advanced/custom-scrollbar",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-bounshy",
+      "sourceUrl": "https://www.howardyam.design/projects/bounshy",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-carbon-motion",
+      "sourceUrl": "https://www.carbondesignsystem.com/building-blocks/foundations/motion/overview",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-career-hacker-alex-160",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-codrops-exat-microsite",
+      "sourceUrl": "https://tympanus.net/codrops/2026/04/10/the-exat-microsite-pushing-a-typography-showcase-to-new-creative-extremes/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-color-hunt",
+      "sourceUrl": "https://colorhunt.co/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-colorspace",
+      "sourceUrl": "https://mycolor.space/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-colourful-attraction",
+      "sourceUrl": "https://github.com/qc20/colourful-attraction",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-coolors",
+      "sourceUrl": "https://coolors.co/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-cosmic-visualizations",
+      "sourceUrl": "https://github.com/muhkartal/webGL-cosmicVisualizations",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-creative-coding-resources",
+      "sourceUrl": "https://codeberg.org/evasync/creative-coding-resources",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-crucible-recast",
+      "sourceUrl": "https://crucibleui.com/components/text/recast",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-css-gradient",
+      "sourceUrl": "https://cssgradient.io/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-cubic-bezier",
+      "sourceUrl": "https://cubic-bezier.com/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-designbetter-motion",
+      "sourceUrl": "https://designbetter.style/motion",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-designsystems-com",
+      "sourceUrl": "https://www.designsystems.com/5-steps-for-including-motion-design-in-your-system/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-easings-cheat-sheet",
+      "sourceUrl": "https://easings.net/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-falling-text",
+      "sourceUrl": "https://000h.cojeev.com/docs/falling-text/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-fluid-studio",
+      "sourceUrl": "https://github.com/Giacomo-Paolini/fluid",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-framewave",
+      "sourceUrl": "https://github.com/VFitter/framewave",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-fwd-tools-gsap-playground",
+      "sourceUrl": "https://fwdtools.com/gsap-playground/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-geronimo",
+      "sourceUrl": "https://geronimo-paris.fr/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-ggfx",
+      "sourceUrl": "https://ggfx.com.br/en/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-gitframes",
+      "sourceUrl": "https://github.com/gatewai-dev/gitframes",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-github-brand-motion",
+      "sourceUrl": "https://brand.github.com/motion/principles",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-gitlab-pajamas-motion",
+      "sourceUrl": "https://design.gitlab.com/brand-design/motion",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-glaze",
+      "sourceUrl": "https://glaze.dev/docs/timelines",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-gocardless-motion",
+      "sourceUrl": "https://brand.gocardless.com/motion",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-gradient-gl",
+      "sourceUrl": "https://github.com/metaory/gradient-gl",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-grainient-skill",
+      "sourceUrl": "https://github.com/tdimino/claude-code-minoan/tree/main/skills/design-media/grainient",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-gsap-documentation",
+      "sourceUrl": "https://gsap.com/docs/v3/GSAP/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-haikei",
+      "sourceUrl": "https://haikei.app/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-highway",
+      "sourceUrl": "https://highway.js.org/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-interactive-developer",
+      "sourceUrl": "https://www.youtube.com/watch",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-jtech-co-motiongraphic",
+      "sourceUrl": "https://github.com/JTech-CO/Motiongraphic",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-julien-levy",
+      "sourceUrl": "https://www.julienlevy.studio/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-kansei",
+      "sourceUrl": "https://github.com/Siroko/kansei",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-kinetic-type-07",
+      "sourceUrl": "https://www.behance.net/gallery/254081025/Kinetic-Type-07",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-klaudioz-gradients",
+      "sourceUrl": "https://github.com/Klaudioz/gradients",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-live2d-cubism-web",
+      "sourceUrl": "https://github.com/Live2D/CubismWebFramework/blob/develop/README.ja.md",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-lure-studio",
+      "sourceUrl": "https://lurestudio.org/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-magic-ui",
+      "sourceUrl": "https://magicui.design/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-mat-voyce-case-study",
+      "sourceUrl": "https://www.hontran.dev/blog/mat-voyce-case-study-award-winning-portfolio",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-mesh-gradients",
+      "sourceUrl": "https://www.meshgradients.com/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-mo-js",
+      "sourceUrl": "https://github.com/mojs/mojs",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-mostros",
+      "sourceUrl": "https://mostros.co/work/audiovisual-portfolio/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-motion-animate",
+      "sourceUrl": "https://motion.dev/docs/animate",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-motion-anything",
+      "sourceUrl": "https://github.com/heyxianggao/motion-anything",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-motion-page-sdk",
+      "sourceUrl": "https://motion.page/docs/sdk/motion-factory",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-motion-studio-color",
+      "sourceUrl": "https://motion-studio.mtmograph.com/libraries/color",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-motion-ui",
+      "sourceUrl": "https://motion.dev/ui",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-moyo",
+      "sourceUrl": "https://github.com/YoseiIkegami/moyo",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-nebula",
+      "sourceUrl": "https://mafhper.github.io/nebula/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-nebulla-particle-library",
+      "sourceUrl": "https://github.com/RavenRepo/nebulla-particle-library",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-nibi",
+      "sourceUrl": "https://github.com/monoton-music/nibi",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-nicolas-sordello",
+      "sourceUrl": "https://sordello.net/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-obj-studio",
+      "sourceUrl": "https://obj.studio/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-odorigu",
+      "sourceUrl": "https://github.com/OFF-Proxy/odorigu",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-ogl",
+      "sourceUrl": "https://github.com/oframe/ogl",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-okaybabe-shaders",
+      "sourceUrl": "https://github.com/Okay-Babe/okaybabe-shaders",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-openprocessing",
+      "sourceUrl": "https://www.openprocessing.org/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-p5-js",
+      "sourceUrl": "https://p5js.org/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-paletton",
+      "sourceUrl": "https://paletton.com/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-pekingpeking",
+      "sourceUrl": "https://pekingpeking.de/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-pixijs",
+      "sourceUrl": "https://pixijs.com/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-pmndrs-timeline",
+      "sourceUrl": "https://pmndrs.github.io/timeline/getting-started/3-overview",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-popmotion-timeline",
+      "sourceUrl": "https://popmotion.io/api/timeline/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-prompt-vfx",
+      "sourceUrl": "https://github.com/inthepond/prompt-vfx",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-pv-tool",
+      "sourceUrl": "https://github.com/OnWhyPut/pv-tool",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-qwilr-kaleidoscope",
+      "sourceUrl": "https://kaleidoscope.qwilr.com/design/guides/motion/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-radiant",
+      "sourceUrl": "https://github.com/vagmi/radiant",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-rakuten-variable-font",
+      "sourceUrl": "https://ksawerykarczewski.com/rakuten-font-family",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-react-bits",
+      "sourceUrl": "https://reactbits.dev/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-remotion-style-kit",
+      "sourceUrl": "https://github.com/happy-token/remotion-style-kit",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-rive",
+      "sourceUrl": "https://rive.app/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-sailor-studio",
+      "sourceUrl": "https://sailor.studio/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-shader-gradient",
+      "sourceUrl": "https://www.shadergradient.co/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-shader-gradient-core",
+      "sourceUrl": "https://github.com/Jannchie/shader-gradient",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-shadertoy",
+      "sourceUrl": "https://www.shadertoy.com/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-shapefactory-gradient",
+      "sourceUrl": "https://gradient.shapefactory.co/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-studio-bbg",
+      "sourceUrl": "https://bewegtbildgrafik.de/studio",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-studio-carlos",
+      "sourceUrl": "https://studiocarlos.fr/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-superfluide",
+      "sourceUrl": "https://superfluidestudio.com/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-suplab",
+      "sourceUrl": "https://suplab.cc/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-svg-backgrounds",
+      "sourceUrl": "https://www.svgbackgrounds.com/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-svgsketch",
+      "sourceUrl": "https://docs.svgsketch.com/sdk/animation/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-swissgl",
+      "sourceUrl": "https://github.com/paradigms-of-intelligence/swissgl",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-swup",
+      "sourceUrl": "https://swup.js.org/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-text-effects-kit",
+      "sourceUrl": "https://www.framer.com/marketplace/plugins/text-effects-kit/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-textalive",
+      "sourceUrl": "https://github.com/lennystepn-hue/textalive",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-texttweener",
+      "sourceUrl": "https://realmaker.de/texttweener/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-the-book-of-shaders",
+      "sourceUrl": "https://thebookofshaders.com/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-three-js",
+      "sourceUrl": "https://threejs.org/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-trickle",
+      "sourceUrl": "https://tricklekit.dev/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-typexperiments",
+      "sourceUrl": "https://github.com/pablostanley/typexperiments",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-typo",
+      "sourceUrl": "https://github.com/dragoon0x/typo",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-uigradients",
+      "sourceUrl": "https://uigradients.com/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-vectormotion",
+      "sourceUrl": "https://www.motion-svg.com/docs",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-vj-suave",
+      "sourceUrl": "https://vjsuave.com/",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-void-energy-kinetic-text",
+      "sourceUrl": "https://voidenergy.dev/kinetic-text",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-webgl-shader-gallery",
+      "sourceUrl": "https://github.com/KaranChandekar/webgl-shader-gallery",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-ze-do-motion",
+      "sourceUrl": "https://www.behance.net/zeofmotion",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    },
+    {
+      "id": "ref-zoxilsi-studio",
+      "sourceUrl": "https://github.com/zoxilsi/studio",
+      "sourceCardId": null,
+      "inspection": "metadata-only",
+      "visualStatus": "unassessed"
+    }
+  ],
+  "exactGroups": [],
+  "nearGroups": [],
+  "candidatePairs": [],
+  "familyGroups": [
+    {
+      "ids": [
+        "cha-bar-rise-reveal",
+        "cha-beat-cut-words",
+        "cha-beat-squares-sentence",
+        "cha-beat-word-slam",
+        "cha-bl-device-duo",
+        "cha-bl-film-device-ad",
+        "cha-bl-laptop-open",
+        "cha-bl-phone-hero",
+        "cha-browser-url-load",
+        "cha-card-stack-swipe",
+        "cha-chat-stream",
+        "cha-circle-mask-media",
+        "cha-clock-workday",
+        "cha-create-audio-wave-to-captions",
+        "cha-create-contact-sheet-select",
+        "cha-create-glyph-outline-fill",
+        "cha-create-image-outpaint-canvas",
+        "cha-create-image-to-type-poster",
+        "cha-create-layer-depth-camera",
+        "cha-create-letter-media-shutter",
+        "cha-create-mask-inpaint-reveal",
+        "cha-create-paragraph-to-headline",
+        "cha-create-prompt-image-grid",
+        "cha-create-prompt-to-layout",
+        "cha-create-sketch-to-polished",
+        "cha-create-still-to-motion-strip",
+        "cha-create-style-reference-blend",
+        "cha-create-text-path-carousel",
+        "cha-create-text-to-vector-path",
+        "cha-create-timeline-to-storyboard",
+        "cha-create-token-to-pixel",
+        "cha-create-type-to-interface",
+        "cha-create-word-extrude-fold",
+        "cha-create-workflow-oner",
+        "cha-cursor-autozoom",
+        "cha-demo-command-palette-dive",
+        "cha-demo-comment-resolve-chain",
+        "cha-demo-component-detach-edit",
+        "cha-demo-drag-asset-drop",
+        "cha-demo-form-to-dashboard",
+        "cha-demo-image-crop-reframe",
+        "cha-demo-infinite-canvas-route",
+        "cha-demo-inspector-live-style",
+        "cha-demo-keyboard-workflow",
+        "cha-demo-multi-cursor-handoff",
+        "cha-demo-node-connect-run",
+        "cha-demo-responsive-canvas-reflow",
+        "cha-demo-scroll-section-magnify",
+        "cha-demo-scrub-timeline-zoom",
+        "cha-demo-search-result-tunnel",
+        "cha-demo-selection-marquee-group",
+        "cha-demo-split-editor-preview",
+        "cha-demo-tab-context-switch",
+        "cha-demo-table-filter-sort",
+        "cha-demo-version-history-peel",
+        "cha-device-flip",
+        "cha-explain-compare-sync-workflows",
+        "cha-explain-evidence-source-to-quote",
+        "cha-explain-export-format-fanout",
+        "cha-explain-feature-priority-matrix",
+        "cha-explain-metric-waterfall-impact",
+        "cha-explain-objection-answer-stack",
+        "cha-explain-result-detail-triptych",
+        "cha-explain-steps-route-map",
+        "cha-explain-time-compression-bridge",
+        "cha-explain-workflow-branch-decision",
+        "cha-exploded-ui-layers",
+        "cha-figure-desk-typing",
+        "cha-figure-idea-burst",
+        "cha-figure-rig-sheet",
+        "cha-figure-wave-endcard",
+        "cha-figure-wave-endcard-vertical",
+        "cha-film-ad-channel",
+        "cha-film-laptop-prompt",
+        "cha-film-mobile-demo",
+        "cha-film-seamless-oneshot",
+        "cha-folder-burst",
+        "cha-glow-agent-run",
+        "cha-glow-chat-ask",
+        "cha-headline-highlighter",
+        "cha-highlighter-wipe",
+        "cha-icon-scatter-endcard",
+        "cha-iso-window-wall",
+        "cha-karaoke-lime",
+        "cha-label-box-words",
+        "cha-laptop-type-zoom",
+        "cha-lens-match-cut",
+        "cha-letter-clip-shapes",
+        "cha-logo-sting",
+        "cha-logo-sting-vertical",
+        "cha-long-page-dolly",
+        "cha-marquee-band-collage",
+        "cha-mixed-type-wordmark",
+        "cha-mosaic-assemble",
+        "cha-motion-term-01",
+        "cha-motion-term-02",
+        "cha-motion-term-03",
+        "cha-motion-term-04",
+        "cha-motion-term-05",
+        "cha-motion-term-06",
+        "cha-motion-term-07",
+        "cha-motion-term-08",
+        "cha-motion-term-09",
+        "cha-motion-term-10",
+        "cha-motion-term-11",
+        "cha-motion-term-12",
+        "cha-motion-term-13",
+        "cha-motion-term-14",
+        "cha-motion-term-15",
+        "cha-motion-term-16",
+        "cha-motion-term-17",
+        "cha-motion-term-18",
+        "cha-motion-term-19",
+        "cha-motion-term-20",
+        "cha-motion-term-21",
+        "cha-motion-term-combo-bounce",
+        "cha-motion-term-combo-card",
+        "cha-motion-term-combo-stat",
+        "cha-motion-term-combo-title",
+        "cha-orbit-devices",
+        "cha-outline-rows-backdrop",
+        "cha-parallax-hero",
+        "cha-phone-app-push",
+        "cha-phone-float-scroll",
+        "cha-phone-lock-notifs",
+        "cha-phrase-stack",
+        "cha-pixel-assemble-name",
+        "cha-pixel-assemble-name-vertical",
+        "cha-pullback-reveal",
+        "cha-rack-focus",
+        "cha-rail-cover",
+        "cha-record-camera-tour",
+        "cha-record-context-inset",
+        "cha-record-cursor-trail-route",
+        "cha-record-detail-freeze-callout",
+        "cha-record-linked-loupe",
+        "cha-record-pan-between-controls",
+        "cha-record-portrait-reframe",
+        "cha-record-proof-replay",
+        "cha-record-punch-hold-return",
+        "cha-record-timeline-jump",
+        "cha-screen-in-screen",
+        "cha-selection-box-type",
+        "cha-side-title-frame",
+        "cha-slant-to-flat",
+        "cha-split-focus-block",
+        "cha-spotlight-lift",
+        "cha-stat-hero",
+        "cha-tag-converge",
+        "cha-terminal-agent-run",
+        "cha-text-window-mask",
+        "cha-todo-check-figure",
+        "cha-type-on-grid",
+        "cha-weight-breathe",
+        "cha-whip-speed-ramp",
+        "cha-window-open-cascade",
+        "cha-window-split-grid",
+        "cha-word-swap-inline",
+        "cha-word-wall-number",
+        "cha-zoom-through-screen",
+        "ref-career-hacker-alex-160"
+      ],
+      "reason": "Different individually identified cards on one source page.",
+      "confidence": "metadata-only",
+      "evidence": {
+        "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+        "distinctCardIds": 161
+      },
+      "recommendation": "Retain distinct card identities; a shared collection URL is not evidence of duplicate motion."
+    }
+  ],
+  "errors": [],
+  "catalogSha256": "1688368bafbff4df4580d83d9ce8d8b128199cd0ac99089a9765d5828a4c9ea3"
+}

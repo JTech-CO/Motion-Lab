@@ -44,6 +44,7 @@ The collection preserves source IDs, code, licenses, pinned commits, and hashes.
 
 - [Collection pipeline and update commands](docs/collection.md)
 - [Analysis and preview limitations](docs/asset-analysis.md)
+- [Full catalog duplicate and similarity review](docs/duplicate-audit.md)
 - [Additional source assets and evidence](docs/asset-expansion.md)
 - [CSS collection](docs/css-wave.md) · [SVG and component collection](docs/vector-wave.md) · [Palette collection](docs/color-wave.md)
 - [Original recipes](docs/recipes.md)

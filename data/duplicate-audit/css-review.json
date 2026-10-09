@@ -1,0 +1,4086 @@
+{
+  "version": 1,
+  "catalogSha256": "1688368bafbff4df4580d83d9ce8d8b128199cd0ac99089a9765d5828a4c9ea3",
+  "cssAuditSha256": "91eb0fcf831d37740d5e5f903b53175e8082fefba2ec21c9b31c68dbda61ab07",
+  "scope": "All 20 automatic CSS candidate pairs inspected from actual declarations; review is static and does not assert rendered perceptual equivalence. No catalog entries were changed.",
+  "coverage": {
+    "candidatePairCount": 20,
+    "reviewedPairCount": 20,
+    "classifications": {
+      "keep-geometry": 19,
+      "keep-source-variant": 1
+    }
+  },
+  "reviews": [
+    {
+      "ids": [
+        "asset-loaderscss-square-spin",
+        "asset-loaderscss-triangle-skew-spin"
+      ],
+      "codeSha256": {
+        "asset-loaderscss-square-spin": "3f09a024bc88ddc94df62d9bb4cedbb4c6432691efce3e904a3ad6d5e9585e06",
+        "asset-loaderscss-triangle-skew-spin": "4f4e8c30d93a46132e9ca757f168064bd88cbd2938b8a49bcd8801ee32bf9bb3"
+      },
+      "classification": "keep-geometry",
+      "confidence": "manual-static-source-review",
+      "observation": "Same 3D rotation keyframes do not make a 50px filled square and a zero-size 20px CSS-border triangle the same design.",
+      "wrapperDeclarationDifferences": [
+        {
+          "selector": ".c0>div",
+          "property": "background",
+          "occurrence": 1,
+          "asset-loaderscss-square-spin": "#fff",
+          "asset-loaderscss-triangle-skew-spin": null
+        },
+        {
+          "selector": ".c0>div",
+          "property": "border-bottom",
+          "occurrence": 1,
+          "asset-loaderscss-square-spin": null,
+          "asset-loaderscss-triangle-skew-spin": "20px solid #fff"
+        },
+        {
+          "selector": ".c0>div",
+          "property": "border-left",
+          "occurrence": 1,
+          "asset-loaderscss-square-spin": null,
+          "asset-loaderscss-triangle-skew-spin": "20px solid transparent"
+        },
+        {
+          "selector": ".c0>div",
+          "property": "border-right",
+          "occurrence": 1,
+          "asset-loaderscss-square-spin": null,
+          "asset-loaderscss-triangle-skew-spin": "20px solid transparent"
+        },
+        {
+          "selector": ".c0>div",
+          "property": "height",
+          "occurrence": 1,
+          "asset-loaderscss-square-spin": "50px",
+          "asset-loaderscss-triangle-skew-spin": "0"
+        },
+        {
+          "selector": ".c0>div",
+          "property": "width",
+          "occurrence": 1,
+          "asset-loaderscss-square-spin": "50px",
+          "asset-loaderscss-triangle-skew-spin": "0"
+        }
+      ],
+      "otherSourceDifferences": {
+        "timing": {
+          "asset-loaderscss-square-spin": [
+            {
+              "selector": ".square-spin > div",
+              "property": "-webkit-animation-fill-mode",
+              "value": "both"
+            },
+            {
+              "selector": ".square-spin > div",
+              "property": "animation-fill-mode",
+              "value": "both"
+            },
+            {
+              "selector": ".square-spin > div",
+              "property": "-webkit-animation",
+              "value": "square-spin 3s 0s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite"
+            },
+            {
+              "selector": ".square-spin > div",
+              "property": "animation",
+              "value": "square-spin 3s 0s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite"
+            }
+          ],
+          "asset-loaderscss-triangle-skew-spin": [
+            {
+              "selector": ".triangle-skew-spin > div",
+              "property": "-webkit-animation-fill-mode",
+              "value": "both"
+            },
+            {
+              "selector": ".triangle-skew-spin > div",
+              "property": "animation-fill-mode",
+              "value": "both"
+            },
+            {
+              "selector": ".triangle-skew-spin > div",
+              "property": "-webkit-animation",
+              "value": "triangle-skew-spin 3s 0s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite"
+            },
+            {
+              "selector": ".triangle-skew-spin > div",
+              "property": "animation",
+              "value": "triangle-skew-spin 3s 0s cubic-bezier(0.09, 0.57, 0.49, 0.9) infinite"
+            }
+          ]
+        },
+        "frames": {
+          "asset-loaderscss-square-spin": [
+            {
+              "keyframe": "@-webkit-keyframes square-spin",
+              "offsets": [
+                25.0
+              ],
+              "declarations": {
+                "-webkit-transform": "perspective(100px) rotateX(180deg) rotateY(0)",
+                "transform": "perspective(100px) rotateX(180deg) rotateY(0)"
+              }
+            },
+            {
+              "keyframe": "@-webkit-keyframes square-spin",
+              "offsets": [
+                50.0
+              ],
+              "declarations": {
+                "-webkit-transform": "perspective(100px) rotateX(180deg) rotateY(180deg)",
+                "transform": "perspective(100px) rotateX(180deg) rotateY(180deg)"
+              }
+            },
+            {
+              "keyframe": "@-webkit-keyframes square-spin",
+              "offsets": [
+                75.0
+              ],
+              "declarations": {
+                "-webkit-transform": "perspective(100px) rotateX(0) rotateY(180deg)",
+                "transform": "perspective(100px) rotateX(0) rotateY(180deg)"
+              }
+            },
+            {
+              "keyframe": "@-webkit-keyframes square-spin",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "-webkit-transform": "perspective(100px) rotateX(0) rotateY(0)",
+                "transform": "perspective(100px) rotateX(0) rotateY(0)"
+              }
+            },
+            {
+              "keyframe": "@keyframes square-spin",
+              "offsets": [
+                25.0
+              ],
+              "declarations": {
+                "-webkit-transform": "perspective(100px) rotateX(180deg) rotateY(0)",
+                "transform": "perspective(100px) rotateX(180deg) rotateY(0)"
+              }
+            },
+            {
+              "keyframe": "@keyframes square-spin",
+              "offsets": [
+                50.0
+              ],
+              "declarations": {
+                "-webkit-transform": "perspective(100px) rotateX(180deg) rotateY(180deg)",
+                "transform": "perspective(100px) rotateX(180deg) rotateY(180deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes square-spin",
+              "offsets": [
+                75.0
+              ],
+              "declarations": {
+                "-webkit-transform": "perspective(100px) rotateX(0) rotateY(180deg)",
+                "transform": "perspective(100px) rotateX(0) rotateY(180deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes square-spin",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "-webkit-transform": "perspective(100px) rotateX(0) rotateY(0)",
+                "transform": "perspective(100px) rotateX(0) rotateY(0)"
+              }
+            }
+          ],
+          "asset-loaderscss-triangle-skew-spin": [
+            {
+              "keyframe": "@-webkit-keyframes triangle-skew-spin",
+              "offsets": [
+                25.0
+              ],
+              "declarations": {
+                "-webkit-transform": "perspective(100px) rotateX(180deg) rotateY(0)",
+                "transform": "perspective(100px) rotateX(180deg) rotateY(0)"
+              }
+            },
+            {
+              "keyframe": "@-webkit-keyframes triangle-skew-spin",
+              "offsets": [
+                50.0
+              ],
+              "declarations": {
+                "-webkit-transform": "perspective(100px) rotateX(180deg) rotateY(180deg)",
+                "transform": "perspective(100px) rotateX(180deg) rotateY(180deg)"
+              }
+            },
+            {
+              "keyframe": "@-webkit-keyframes triangle-skew-spin",
+              "offsets": [
+                75.0
+              ],
+              "declarations": {
+                "-webkit-transform": "perspective(100px) rotateX(0) rotateY(180deg)",
+                "transform": "perspective(100px) rotateX(0) rotateY(180deg)"
+              }
+            },
+            {
+              "keyframe": "@-webkit-keyframes triangle-skew-spin",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "-webkit-transform": "perspective(100px) rotateX(0) rotateY(0)",
+                "transform": "perspective(100px) rotateX(0) rotateY(0)"
+              }
+            },
+            {
+              "keyframe": "@keyframes triangle-skew-spin",
+              "offsets": [
+                25.0
+              ],
+              "declarations": {
+                "-webkit-transform": "perspective(100px) rotateX(180deg) rotateY(0)",
+                "transform": "perspective(100px) rotateX(180deg) rotateY(0)"
+              }
+            },
+            {
+              "keyframe": "@keyframes triangle-skew-spin",
+              "offsets": [
+                50.0
+              ],
+              "declarations": {
+                "-webkit-transform": "perspective(100px) rotateX(180deg) rotateY(180deg)",
+                "transform": "perspective(100px) rotateX(180deg) rotateY(180deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes triangle-skew-spin",
+              "offsets": [
+                75.0
+              ],
+              "declarations": {
+                "-webkit-transform": "perspective(100px) rotateX(0) rotateY(180deg)",
+                "transform": "perspective(100px) rotateX(0) rotateY(180deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes triangle-skew-spin",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "-webkit-transform": "perspective(100px) rotateX(0) rotateY(0)",
+                "transform": "perspective(100px) rotateX(0) rotateY(0)"
+              }
+            }
+          ]
+        },
+        "dom": {
+          "asset-loaderscss-square-spin": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "square-spin",
+              "children": [
+                {
+                  "tag": "div"
+                }
+              ]
+            }
+          },
+          "asset-loaderscss-triangle-skew-spin": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "triangle-skew-spin",
+              "children": [
+                {
+                  "tag": "div"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "automaticEvidence": {
+        "motionSha256": "585929e0d6f786165953f2cbf4ccc5a3aef335964939c724fbc9c5459a627740",
+        "programSimilarity": 0.971164
+      }
+    },
+    {
+      "ids": [
+        "ml-cssanimation-dancebottom",
+        "ml-cssanimation-dancemiddle"
+      ],
+      "codeSha256": {
+        "ml-cssanimation-dancebottom": "0589cea76f19cc5ca9743d041e3e4ccfb87f76e84778c5a58e09f1630f05738c",
+        "ml-cssanimation-dancemiddle": "f9c7f444ba9f3361ea444499428adb52732c0355e1919bc5c94ce1bb8eb81e6a"
+      },
+      "classification": "keep-geometry",
+      "confidence": "manual-static-source-review",
+      "observation": "Rotation pivot differs: bottom, omitted browser default (center), or top. Identical rotation angles trace different element paths.",
+      "wrapperDeclarationDifferences": [
+        {
+          "selector": ".c1",
+          "property": "transform-origin",
+          "occurrence": 1,
+          "ml-cssanimation-dancebottom": "bottom",
+          "ml-cssanimation-dancemiddle": null
+        }
+      ],
+      "otherSourceDifferences": {
+        "timing": {
+          "ml-cssanimation-dancebottom": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-danceBottom",
+              "property": "animation-name",
+              "value": "danceBottom"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ],
+          "ml-cssanimation-dancemiddle": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-danceMiddle",
+              "property": "animation-name",
+              "value": "danceMiddle"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ]
+        },
+        "frames": {
+          "ml-cssanimation-dancebottom": [
+            {
+              "keyframe": "@keyframes danceBottom",
+              "offsets": [
+                16.0
+              ],
+              "declarations": {
+                "transform": "skew(-14deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes danceBottom",
+              "offsets": [
+                33.0
+              ],
+              "declarations": {
+                "transform": "skew(12deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes danceBottom",
+              "offsets": [
+                49.0
+              ],
+              "declarations": {
+                "transform": "skew(-8deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes danceBottom",
+              "offsets": [
+                66.0
+              ],
+              "declarations": {
+                "transform": "skew(6deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes danceBottom",
+              "offsets": [
+                83.0
+              ],
+              "declarations": {
+                "transform": "skew(-4deg)"
+              }
+            }
+          ],
+          "ml-cssanimation-dancemiddle": [
+            {
+              "keyframe": "@keyframes danceMiddle",
+              "offsets": [
+                16.0
+              ],
+              "declarations": {
+                "transform": "skew(-14deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes danceMiddle",
+              "offsets": [
+                33.0
+              ],
+              "declarations": {
+                "transform": "skew(12deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes danceMiddle",
+              "offsets": [
+                49.0
+              ],
+              "declarations": {
+                "transform": "skew(-8deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes danceMiddle",
+              "offsets": [
+                66.0
+              ],
+              "declarations": {
+                "transform": "skew(6deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes danceMiddle",
+              "offsets": [
+                83.0
+              ],
+              "declarations": {
+                "transform": "skew(-4deg)"
+              }
+            }
+          ]
+        },
+        "dom": {
+          "ml-cssanimation-dancebottom": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-danceBottom",
+              "text": "cssanimation"
+            }
+          },
+          "ml-cssanimation-dancemiddle": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-danceMiddle",
+              "text": "cssanimation"
+            }
+          }
+        }
+      },
+      "automaticEvidence": {
+        "motionSha256": "d98a4f056ba4af5c93d46a66dd516aea26c61abc4ffd2460bc33539ae0f29eb4",
+        "programSimilarity": 0.983903
+      }
+    },
+    {
+      "ids": [
+        "ml-cssanimation-dancebottom",
+        "ml-cssanimation-dancetop"
+      ],
+      "codeSha256": {
+        "ml-cssanimation-dancebottom": "0589cea76f19cc5ca9743d041e3e4ccfb87f76e84778c5a58e09f1630f05738c",
+        "ml-cssanimation-dancetop": "89c1eb8fb8b802d93ea014af31d3bedcb78da4461d9a3a6c6259e236209f4ad1"
+      },
+      "classification": "keep-geometry",
+      "confidence": "manual-static-source-review",
+      "observation": "Rotation pivot differs: bottom, omitted browser default (center), or top. Identical rotation angles trace different element paths.",
+      "wrapperDeclarationDifferences": [
+        {
+          "selector": ".c1",
+          "property": "transform-origin",
+          "occurrence": 1,
+          "ml-cssanimation-dancebottom": "bottom",
+          "ml-cssanimation-dancetop": "top"
+        }
+      ],
+      "otherSourceDifferences": {
+        "timing": {
+          "ml-cssanimation-dancebottom": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-danceBottom",
+              "property": "animation-name",
+              "value": "danceBottom"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ],
+          "ml-cssanimation-dancetop": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-danceTop",
+              "property": "animation-name",
+              "value": "danceTop"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ]
+        },
+        "frames": {
+          "ml-cssanimation-dancebottom": [
+            {
+              "keyframe": "@keyframes danceBottom",
+              "offsets": [
+                16.0
+              ],
+              "declarations": {
+                "transform": "skew(-14deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes danceBottom",
+              "offsets": [
+                33.0
+              ],
+              "declarations": {
+                "transform": "skew(12deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes danceBottom",
+              "offsets": [
+                49.0
+              ],
+              "declarations": {
+                "transform": "skew(-8deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes danceBottom",
+              "offsets": [
+                66.0
+              ],
+              "declarations": {
+                "transform": "skew(6deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes danceBottom",
+              "offsets": [
+                83.0
+              ],
+              "declarations": {
+                "transform": "skew(-4deg)"
+              }
+            }
+          ],
+          "ml-cssanimation-dancetop": [
+            {
+              "keyframe": "@keyframes danceTop",
+              "offsets": [
+                16.0
+              ],
+              "declarations": {
+                "transform": "skew(-14deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes danceTop",
+              "offsets": [
+                33.0
+              ],
+              "declarations": {
+                "transform": "skew(12deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes danceTop",
+              "offsets": [
+                49.0
+              ],
+              "declarations": {
+                "transform": "skew(-8deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes danceTop",
+              "offsets": [
+                66.0
+              ],
+              "declarations": {
+                "transform": "skew(6deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes danceTop",
+              "offsets": [
+                83.0
+              ],
+              "declarations": {
+                "transform": "skew(-4deg)"
+              }
+            }
+          ]
+        },
+        "dom": {
+          "ml-cssanimation-dancebottom": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-danceBottom",
+              "text": "cssanimation"
+            }
+          },
+          "ml-cssanimation-dancetop": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-danceTop",
+              "text": "cssanimation"
+            }
+          }
+        }
+      },
+      "automaticEvidence": {
+        "motionSha256": "d98a4f056ba4af5c93d46a66dd516aea26c61abc4ffd2460bc33539ae0f29eb4",
+        "programSimilarity": 0.997521
+      }
+    },
+    {
+      "ids": [
+        "ml-cssanimation-dancemiddle",
+        "ml-cssanimation-dancetop"
+      ],
+      "codeSha256": {
+        "ml-cssanimation-dancemiddle": "f9c7f444ba9f3361ea444499428adb52732c0355e1919bc5c94ce1bb8eb81e6a",
+        "ml-cssanimation-dancetop": "89c1eb8fb8b802d93ea014af31d3bedcb78da4461d9a3a6c6259e236209f4ad1"
+      },
+      "classification": "keep-geometry",
+      "confidence": "manual-static-source-review",
+      "observation": "Rotation pivot differs: bottom, omitted browser default (center), or top. Identical rotation angles trace different element paths.",
+      "wrapperDeclarationDifferences": [
+        {
+          "selector": ".c1",
+          "property": "transform-origin",
+          "occurrence": 1,
+          "ml-cssanimation-dancemiddle": null,
+          "ml-cssanimation-dancetop": "top"
+        }
+      ],
+      "otherSourceDifferences": {
+        "timing": {
+          "ml-cssanimation-dancemiddle": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-danceMiddle",
+              "property": "animation-name",
+              "value": "danceMiddle"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ],
+          "ml-cssanimation-dancetop": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-danceTop",
+              "property": "animation-name",
+              "value": "danceTop"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ]
+        },
+        "frames": {
+          "ml-cssanimation-dancemiddle": [
+            {
+              "keyframe": "@keyframes danceMiddle",
+              "offsets": [
+                16.0
+              ],
+              "declarations": {
+                "transform": "skew(-14deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes danceMiddle",
+              "offsets": [
+                33.0
+              ],
+              "declarations": {
+                "transform": "skew(12deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes danceMiddle",
+              "offsets": [
+                49.0
+              ],
+              "declarations": {
+                "transform": "skew(-8deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes danceMiddle",
+              "offsets": [
+                66.0
+              ],
+              "declarations": {
+                "transform": "skew(6deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes danceMiddle",
+              "offsets": [
+                83.0
+              ],
+              "declarations": {
+                "transform": "skew(-4deg)"
+              }
+            }
+          ],
+          "ml-cssanimation-dancetop": [
+            {
+              "keyframe": "@keyframes danceTop",
+              "offsets": [
+                16.0
+              ],
+              "declarations": {
+                "transform": "skew(-14deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes danceTop",
+              "offsets": [
+                33.0
+              ],
+              "declarations": {
+                "transform": "skew(12deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes danceTop",
+              "offsets": [
+                49.0
+              ],
+              "declarations": {
+                "transform": "skew(-8deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes danceTop",
+              "offsets": [
+                66.0
+              ],
+              "declarations": {
+                "transform": "skew(6deg)"
+              }
+            },
+            {
+              "keyframe": "@keyframes danceTop",
+              "offsets": [
+                83.0
+              ],
+              "declarations": {
+                "transform": "skew(-4deg)"
+              }
+            }
+          ]
+        },
+        "dom": {
+          "ml-cssanimation-dancemiddle": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-danceMiddle",
+              "text": "cssanimation"
+            }
+          },
+          "ml-cssanimation-dancetop": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-danceTop",
+              "text": "cssanimation"
+            }
+          }
+        }
+      },
+      "automaticEvidence": {
+        "motionSha256": "d98a4f056ba4af5c93d46a66dd516aea26c61abc4ffd2460bc33539ae0f29eb4",
+        "programSimilarity": 0.98539
+      }
+    },
+    {
+      "ids": [
+        "ml-cssanimation-mask-shutterlinesin",
+        "ml-cssanimation-maskstripesdiagonalleftin"
+      ],
+      "codeSha256": {
+        "ml-cssanimation-mask-shutterlinesin": "3effe5755f085c185cd0b3b13b304bdf58ef204908f9d076f0d86d4489b59a09",
+        "ml-cssanimation-maskstripesdiagonalleftin": "b027f8608950e19dd1787872c1d96f7bd11c313144963a9b860b6728441fc164"
+      },
+      "classification": "keep-geometry",
+      "confidence": "manual-static-source-review",
+      "observation": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+      "wrapperDeclarationDifferences": [
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-image",
+          "occurrence": 1,
+          "ml-cssanimation-mask-shutterlinesin": "repeating-linear-gradient(to right, black 0,black 30%, transparent 30%, transparent 60%)",
+          "ml-cssanimation-maskstripesdiagonalleftin": "repeating-linear-gradient(135deg, black 0,black 10%, transparent 10%, transparent 20%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-image",
+          "occurrence": 2,
+          "ml-cssanimation-mask-shutterlinesin": "repeating-linear-gradient(to right, black 0 30%, transparent 30% 60%)",
+          "ml-cssanimation-maskstripesdiagonalleftin": "repeating-linear-gradient(135deg, black 0 10%, transparent 10% 20%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-size",
+          "occurrence": 1,
+          "ml-cssanimation-mask-shutterlinesin": "200% 100%",
+          "ml-cssanimation-maskstripesdiagonalleftin": "200% 200%"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-image",
+          "occurrence": 1,
+          "ml-cssanimation-mask-shutterlinesin": "repeating-linear-gradient(to right, black 0,black 30%, transparent 30%, transparent 60%)",
+          "ml-cssanimation-maskstripesdiagonalleftin": "repeating-linear-gradient(135deg, black 0,black 10%, transparent 10%, transparent 20%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-image",
+          "occurrence": 2,
+          "ml-cssanimation-mask-shutterlinesin": "repeating-linear-gradient(to right, black 0 30%, transparent 30% 60%)",
+          "ml-cssanimation-maskstripesdiagonalleftin": "repeating-linear-gradient(135deg, black 0 10%, transparent 10% 20%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-size",
+          "occurrence": 1,
+          "ml-cssanimation-mask-shutterlinesin": "200% 100%",
+          "ml-cssanimation-maskstripesdiagonalleftin": "200% 200%"
+        }
+      ],
+      "otherSourceDifferences": {
+        "timing": {
+          "ml-cssanimation-mask-shutterlinesin": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-mask-shutterLinesIn",
+              "property": "animation-name",
+              "value": "mask-shutterLinesIn"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ],
+          "ml-cssanimation-maskstripesdiagonalleftin": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-maskStripesDiagonalLeftIn",
+              "property": "animation-name",
+              "value": "mask-stripesDiagonalLeftIn"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ]
+        },
+        "frames": {
+          "ml-cssanimation-mask-shutterlinesin": [
+            {
+              "keyframe": "@keyframes mask-shutterLinesIn",
+              "offsets": [
+                0.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "-100% 0",
+                "mask-position": "-100% 0"
+              }
+            },
+            {
+              "keyframe": "@keyframes mask-shutterLinesIn",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 0",
+                "mask-position": "0 0"
+              }
+            }
+          ],
+          "ml-cssanimation-maskstripesdiagonalleftin": [
+            {
+              "keyframe": "@keyframes mask-stripesDiagonalLeftIn",
+              "offsets": [
+                0.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "-100% 0",
+                "mask-position": "-100% 0"
+              }
+            },
+            {
+              "keyframe": "@keyframes mask-stripesDiagonalLeftIn",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 0",
+                "mask-position": "0 0"
+              }
+            }
+          ]
+        },
+        "dom": {
+          "ml-cssanimation-mask-shutterlinesin": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-mask-shutterLinesIn",
+              "text": "cssanimation"
+            }
+          },
+          "ml-cssanimation-maskstripesdiagonalleftin": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-maskStripesDiagonalLeftIn",
+              "text": "cssanimation"
+            }
+          }
+        }
+      },
+      "automaticEvidence": {
+        "motionSha256": "1af7ce1d44075604ee159ef664730e0680f48051076a5a065a685a7acc2b71b0",
+        "programSimilarity": 0.97185
+      }
+    },
+    {
+      "ids": [
+        "ml-cssanimation-mask-shutterlinesin",
+        "ml-cssanimation-maskstripesverticalin"
+      ],
+      "codeSha256": {
+        "ml-cssanimation-mask-shutterlinesin": "3effe5755f085c185cd0b3b13b304bdf58ef204908f9d076f0d86d4489b59a09",
+        "ml-cssanimation-maskstripesverticalin": "a83e2f883a936c3cee9ce7c198222b509057102e6f9b07bc62875bd7cb357e6f"
+      },
+      "classification": "keep-geometry",
+      "confidence": "manual-static-source-review",
+      "observation": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+      "wrapperDeclarationDifferences": [
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-image",
+          "occurrence": 1,
+          "ml-cssanimation-mask-shutterlinesin": "repeating-linear-gradient(to right, black 0,black 30%, transparent 30%, transparent 60%)",
+          "ml-cssanimation-maskstripesverticalin": "repeating-linear-gradient(to right, black 0,black 10%, transparent 10%, transparent 20%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-image",
+          "occurrence": 2,
+          "ml-cssanimation-mask-shutterlinesin": "repeating-linear-gradient(to right, black 0 30%, transparent 30% 60%)",
+          "ml-cssanimation-maskstripesverticalin": "repeating-linear-gradient(to right, black 0 10%, transparent 10% 20%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-image",
+          "occurrence": 1,
+          "ml-cssanimation-mask-shutterlinesin": "repeating-linear-gradient(to right, black 0,black 30%, transparent 30%, transparent 60%)",
+          "ml-cssanimation-maskstripesverticalin": "repeating-linear-gradient(to right, black 0,black 10%, transparent 10%, transparent 20%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-image",
+          "occurrence": 2,
+          "ml-cssanimation-mask-shutterlinesin": "repeating-linear-gradient(to right, black 0 30%, transparent 30% 60%)",
+          "ml-cssanimation-maskstripesverticalin": "repeating-linear-gradient(to right, black 0 10%, transparent 10% 20%)"
+        }
+      ],
+      "otherSourceDifferences": {
+        "timing": {
+          "ml-cssanimation-mask-shutterlinesin": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-mask-shutterLinesIn",
+              "property": "animation-name",
+              "value": "mask-shutterLinesIn"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ],
+          "ml-cssanimation-maskstripesverticalin": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-maskStripesVerticalIn",
+              "property": "animation-name",
+              "value": "mask-stripesVerticalIn"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ]
+        },
+        "frames": {
+          "ml-cssanimation-mask-shutterlinesin": [
+            {
+              "keyframe": "@keyframes mask-shutterLinesIn",
+              "offsets": [
+                0.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "-100% 0",
+                "mask-position": "-100% 0"
+              }
+            },
+            {
+              "keyframe": "@keyframes mask-shutterLinesIn",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 0",
+                "mask-position": "0 0"
+              }
+            }
+          ],
+          "ml-cssanimation-maskstripesverticalin": [
+            {
+              "keyframe": "@keyframes mask-stripesVerticalIn",
+              "offsets": [
+                0.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "-100% 0",
+                "mask-position": "-100% 0"
+              }
+            },
+            {
+              "keyframe": "@keyframes mask-stripesVerticalIn",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 0",
+                "mask-position": "0 0"
+              }
+            }
+          ]
+        },
+        "dom": {
+          "ml-cssanimation-mask-shutterlinesin": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-mask-shutterLinesIn",
+              "text": "cssanimation"
+            }
+          },
+          "ml-cssanimation-maskstripesverticalin": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-maskStripesVerticalIn",
+              "text": "cssanimation"
+            }
+          }
+        }
+      },
+      "automaticEvidence": {
+        "motionSha256": "1af7ce1d44075604ee159ef664730e0680f48051076a5a065a685a7acc2b71b0",
+        "programSimilarity": 0.992
+      }
+    },
+    {
+      "ids": [
+        "ml-cssanimation-maskstripesdiagonalleftin",
+        "ml-cssanimation-maskstripesverticalin"
+      ],
+      "codeSha256": {
+        "ml-cssanimation-maskstripesdiagonalleftin": "b027f8608950e19dd1787872c1d96f7bd11c313144963a9b860b6728441fc164",
+        "ml-cssanimation-maskstripesverticalin": "a83e2f883a936c3cee9ce7c198222b509057102e6f9b07bc62875bd7cb357e6f"
+      },
+      "classification": "keep-geometry",
+      "confidence": "manual-static-source-review",
+      "observation": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+      "wrapperDeclarationDifferences": [
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-image",
+          "occurrence": 1,
+          "ml-cssanimation-maskstripesdiagonalleftin": "repeating-linear-gradient(135deg, black 0,black 10%, transparent 10%, transparent 20%)",
+          "ml-cssanimation-maskstripesverticalin": "repeating-linear-gradient(to right, black 0,black 10%, transparent 10%, transparent 20%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-image",
+          "occurrence": 2,
+          "ml-cssanimation-maskstripesdiagonalleftin": "repeating-linear-gradient(135deg, black 0 10%, transparent 10% 20%)",
+          "ml-cssanimation-maskstripesverticalin": "repeating-linear-gradient(to right, black 0 10%, transparent 10% 20%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-size",
+          "occurrence": 1,
+          "ml-cssanimation-maskstripesdiagonalleftin": "200% 200%",
+          "ml-cssanimation-maskstripesverticalin": "200% 100%"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-image",
+          "occurrence": 1,
+          "ml-cssanimation-maskstripesdiagonalleftin": "repeating-linear-gradient(135deg, black 0,black 10%, transparent 10%, transparent 20%)",
+          "ml-cssanimation-maskstripesverticalin": "repeating-linear-gradient(to right, black 0,black 10%, transparent 10%, transparent 20%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-image",
+          "occurrence": 2,
+          "ml-cssanimation-maskstripesdiagonalleftin": "repeating-linear-gradient(135deg, black 0 10%, transparent 10% 20%)",
+          "ml-cssanimation-maskstripesverticalin": "repeating-linear-gradient(to right, black 0 10%, transparent 10% 20%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-size",
+          "occurrence": 1,
+          "ml-cssanimation-maskstripesdiagonalleftin": "200% 200%",
+          "ml-cssanimation-maskstripesverticalin": "200% 100%"
+        }
+      ],
+      "otherSourceDifferences": {
+        "timing": {
+          "ml-cssanimation-maskstripesdiagonalleftin": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-maskStripesDiagonalLeftIn",
+              "property": "animation-name",
+              "value": "mask-stripesDiagonalLeftIn"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ],
+          "ml-cssanimation-maskstripesverticalin": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-maskStripesVerticalIn",
+              "property": "animation-name",
+              "value": "mask-stripesVerticalIn"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ]
+        },
+        "frames": {
+          "ml-cssanimation-maskstripesdiagonalleftin": [
+            {
+              "keyframe": "@keyframes mask-stripesDiagonalLeftIn",
+              "offsets": [
+                0.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "-100% 0",
+                "mask-position": "-100% 0"
+              }
+            },
+            {
+              "keyframe": "@keyframes mask-stripesDiagonalLeftIn",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 0",
+                "mask-position": "0 0"
+              }
+            }
+          ],
+          "ml-cssanimation-maskstripesverticalin": [
+            {
+              "keyframe": "@keyframes mask-stripesVerticalIn",
+              "offsets": [
+                0.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "-100% 0",
+                "mask-position": "-100% 0"
+              }
+            },
+            {
+              "keyframe": "@keyframes mask-stripesVerticalIn",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 0",
+                "mask-position": "0 0"
+              }
+            }
+          ]
+        },
+        "dom": {
+          "ml-cssanimation-maskstripesdiagonalleftin": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-maskStripesDiagonalLeftIn",
+              "text": "cssanimation"
+            }
+          },
+          "ml-cssanimation-maskstripesverticalin": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-maskStripesVerticalIn",
+              "text": "cssanimation"
+            }
+          }
+        }
+      },
+      "automaticEvidence": {
+        "motionSha256": "1af7ce1d44075604ee159ef664730e0680f48051076a5a065a685a7acc2b71b0",
+        "programSimilarity": 0.979893
+      }
+    },
+    {
+      "ids": [
+        "ml-cssanimation-mask-stripeswidein",
+        "ml-cssanimation-masklinesslidein"
+      ],
+      "codeSha256": {
+        "ml-cssanimation-mask-stripeswidein": "bf3edae83421366746e4547523e1aed452f3e521d6a488ddd13bef794d3cd0f5",
+        "ml-cssanimation-masklinesslidein": "e4a57a6f4cbfed3ab2a28ba46df5e239ade6e7d41c67f0f81d700178d0587553"
+      },
+      "classification": "keep-geometry",
+      "confidence": "manual-static-source-review",
+      "observation": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+      "wrapperDeclarationDifferences": [
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-image",
+          "occurrence": 1,
+          "ml-cssanimation-mask-stripeswidein": "repeating-linear-gradient(to bottom, black 0,black 40%, transparent 40%, transparent 60%)",
+          "ml-cssanimation-masklinesslidein": "repeating-linear-gradient(to bottom, black 0,black 2px, transparent 2px, transparent 10px)"
+        },
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-image",
+          "occurrence": 2,
+          "ml-cssanimation-mask-stripeswidein": "repeating-linear-gradient(to bottom, black 0 40%, transparent 40% 60%)",
+          "ml-cssanimation-masklinesslidein": "repeating-linear-gradient(to bottom, black 0 2px, transparent 2px 10px)"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-image",
+          "occurrence": 1,
+          "ml-cssanimation-mask-stripeswidein": "repeating-linear-gradient(to bottom, black 0,black 40%, transparent 40%, transparent 60%)",
+          "ml-cssanimation-masklinesslidein": "repeating-linear-gradient(to bottom, black 0,black 2px, transparent 2px, transparent 10px)"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-image",
+          "occurrence": 2,
+          "ml-cssanimation-mask-stripeswidein": "repeating-linear-gradient(to bottom, black 0 40%, transparent 40% 60%)",
+          "ml-cssanimation-masklinesslidein": "repeating-linear-gradient(to bottom, black 0 2px, transparent 2px 10px)"
+        }
+      ],
+      "otherSourceDifferences": {
+        "timing": {
+          "ml-cssanimation-mask-stripeswidein": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-mask-stripesWideIn",
+              "property": "animation-name",
+              "value": "mask-stripesWideIn"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ],
+          "ml-cssanimation-masklinesslidein": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-maskLinesSlideIn",
+              "property": "animation-name",
+              "value": "mask-linesSlideIn"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ]
+        },
+        "frames": {
+          "ml-cssanimation-mask-stripeswidein": [
+            {
+              "keyframe": "@keyframes mask-stripesWideIn",
+              "offsets": [
+                0.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 -100%",
+                "mask-position": "0 -100%"
+              }
+            },
+            {
+              "keyframe": "@keyframes mask-stripesWideIn",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 0",
+                "mask-position": "0 0"
+              }
+            }
+          ],
+          "ml-cssanimation-masklinesslidein": [
+            {
+              "keyframe": "@keyframes mask-linesSlideIn",
+              "offsets": [
+                0.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 -100%",
+                "mask-position": "0 -100%"
+              }
+            },
+            {
+              "keyframe": "@keyframes mask-linesSlideIn",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 0",
+                "mask-position": "0 0"
+              }
+            }
+          ]
+        },
+        "dom": {
+          "ml-cssanimation-mask-stripeswidein": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-mask-stripesWideIn",
+              "text": "cssanimation"
+            }
+          },
+          "ml-cssanimation-masklinesslidein": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-maskLinesSlideIn",
+              "text": "cssanimation"
+            }
+          }
+        }
+      },
+      "automaticEvidence": {
+        "motionSha256": "b72266b1290b6f6207330014ba5f203c327e598d23bf5ad0a9f387b43ee8afa0",
+        "programSimilarity": 0.977424
+      }
+    },
+    {
+      "ids": [
+        "ml-cssanimation-mask-stripeswidein",
+        "ml-cssanimation-maskrainrevealin"
+      ],
+      "codeSha256": {
+        "ml-cssanimation-mask-stripeswidein": "bf3edae83421366746e4547523e1aed452f3e521d6a488ddd13bef794d3cd0f5",
+        "ml-cssanimation-maskrainrevealin": "53b52a7f4f273ccbd42bd09e4cbdc6edfafe163e11ca18d052777659abd3b1c6"
+      },
+      "classification": "keep-geometry",
+      "confidence": "manual-static-source-review",
+      "observation": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+      "wrapperDeclarationDifferences": [
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-image",
+          "occurrence": 1,
+          "ml-cssanimation-mask-stripeswidein": "repeating-linear-gradient(to bottom, black 0,black 40%, transparent 40%, transparent 60%)",
+          "ml-cssanimation-maskrainrevealin": "repeating-linear-gradient(to bottom, black 0,black 1px, transparent 1px, transparent 5px)"
+        },
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-image",
+          "occurrence": 2,
+          "ml-cssanimation-mask-stripeswidein": "repeating-linear-gradient(to bottom, black 0 40%, transparent 40% 60%)",
+          "ml-cssanimation-maskrainrevealin": "repeating-linear-gradient(to bottom, black 0 1px, transparent 1px 5px)"
+        },
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-size",
+          "occurrence": 1,
+          "ml-cssanimation-mask-stripeswidein": "100% 200%",
+          "ml-cssanimation-maskrainrevealin": "100% 300%"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-image",
+          "occurrence": 1,
+          "ml-cssanimation-mask-stripeswidein": "repeating-linear-gradient(to bottom, black 0,black 40%, transparent 40%, transparent 60%)",
+          "ml-cssanimation-maskrainrevealin": "repeating-linear-gradient(to bottom, black 0,black 1px, transparent 1px, transparent 5px)"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-image",
+          "occurrence": 2,
+          "ml-cssanimation-mask-stripeswidein": "repeating-linear-gradient(to bottom, black 0 40%, transparent 40% 60%)",
+          "ml-cssanimation-maskrainrevealin": "repeating-linear-gradient(to bottom, black 0 1px, transparent 1px 5px)"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-size",
+          "occurrence": 1,
+          "ml-cssanimation-mask-stripeswidein": "100% 200%",
+          "ml-cssanimation-maskrainrevealin": "100% 300%"
+        }
+      ],
+      "otherSourceDifferences": {
+        "timing": {
+          "ml-cssanimation-mask-stripeswidein": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-mask-stripesWideIn",
+              "property": "animation-name",
+              "value": "mask-stripesWideIn"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ],
+          "ml-cssanimation-maskrainrevealin": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-maskRainRevealIn",
+              "property": "animation-name",
+              "value": "mask-rainRevealIn"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ]
+        },
+        "frames": {
+          "ml-cssanimation-mask-stripeswidein": [
+            {
+              "keyframe": "@keyframes mask-stripesWideIn",
+              "offsets": [
+                0.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 -100%",
+                "mask-position": "0 -100%"
+              }
+            },
+            {
+              "keyframe": "@keyframes mask-stripesWideIn",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 0",
+                "mask-position": "0 0"
+              }
+            }
+          ],
+          "ml-cssanimation-maskrainrevealin": [
+            {
+              "keyframe": "@keyframes mask-rainRevealIn",
+              "offsets": [
+                0.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 -100%",
+                "mask-position": "0 -100%"
+              }
+            },
+            {
+              "keyframe": "@keyframes mask-rainRevealIn",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 0",
+                "mask-position": "0 0"
+              }
+            }
+          ]
+        },
+        "dom": {
+          "ml-cssanimation-mask-stripeswidein": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-mask-stripesWideIn",
+              "text": "cssanimation"
+            }
+          },
+          "ml-cssanimation-maskrainrevealin": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-maskRainRevealIn",
+              "text": "cssanimation"
+            }
+          }
+        }
+      },
+      "automaticEvidence": {
+        "motionSha256": "b72266b1290b6f6207330014ba5f203c327e598d23bf5ad0a9f387b43ee8afa0",
+        "programSimilarity": 0.974734
+      }
+    },
+    {
+      "ids": [
+        "ml-cssanimation-mask-stripeswidein",
+        "ml-cssanimation-maskstripesthinin"
+      ],
+      "codeSha256": {
+        "ml-cssanimation-mask-stripeswidein": "bf3edae83421366746e4547523e1aed452f3e521d6a488ddd13bef794d3cd0f5",
+        "ml-cssanimation-maskstripesthinin": "47b38f9474fa8378b398264f6714c950d74167e8ccfcbca4e355194118aca0ac"
+      },
+      "classification": "keep-geometry",
+      "confidence": "manual-static-source-review",
+      "observation": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+      "wrapperDeclarationDifferences": [
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-image",
+          "occurrence": 1,
+          "ml-cssanimation-mask-stripeswidein": "repeating-linear-gradient(to bottom, black 0,black 40%, transparent 40%, transparent 60%)",
+          "ml-cssanimation-maskstripesthinin": "repeating-linear-gradient(to bottom, black 0,black 4%, transparent 4%, transparent 8%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-image",
+          "occurrence": 2,
+          "ml-cssanimation-mask-stripeswidein": "repeating-linear-gradient(to bottom, black 0 40%, transparent 40% 60%)",
+          "ml-cssanimation-maskstripesthinin": "repeating-linear-gradient(to bottom, black 0 4%, transparent 4% 8%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-image",
+          "occurrence": 1,
+          "ml-cssanimation-mask-stripeswidein": "repeating-linear-gradient(to bottom, black 0,black 40%, transparent 40%, transparent 60%)",
+          "ml-cssanimation-maskstripesthinin": "repeating-linear-gradient(to bottom, black 0,black 4%, transparent 4%, transparent 8%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-image",
+          "occurrence": 2,
+          "ml-cssanimation-mask-stripeswidein": "repeating-linear-gradient(to bottom, black 0 40%, transparent 40% 60%)",
+          "ml-cssanimation-maskstripesthinin": "repeating-linear-gradient(to bottom, black 0 4%, transparent 4% 8%)"
+        }
+      ],
+      "otherSourceDifferences": {
+        "timing": {
+          "ml-cssanimation-mask-stripeswidein": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-mask-stripesWideIn",
+              "property": "animation-name",
+              "value": "mask-stripesWideIn"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ],
+          "ml-cssanimation-maskstripesthinin": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-maskStripesThinIn",
+              "property": "animation-name",
+              "value": "mask-stripesThinIn"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ]
+        },
+        "frames": {
+          "ml-cssanimation-mask-stripeswidein": [
+            {
+              "keyframe": "@keyframes mask-stripesWideIn",
+              "offsets": [
+                0.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 -100%",
+                "mask-position": "0 -100%"
+              }
+            },
+            {
+              "keyframe": "@keyframes mask-stripesWideIn",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 0",
+                "mask-position": "0 0"
+              }
+            }
+          ],
+          "ml-cssanimation-maskstripesthinin": [
+            {
+              "keyframe": "@keyframes mask-stripesThinIn",
+              "offsets": [
+                0.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 -100%",
+                "mask-position": "0 -100%"
+              }
+            },
+            {
+              "keyframe": "@keyframes mask-stripesThinIn",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 0",
+                "mask-position": "0 0"
+              }
+            }
+          ]
+        },
+        "dom": {
+          "ml-cssanimation-mask-stripeswidein": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-mask-stripesWideIn",
+              "text": "cssanimation"
+            }
+          },
+          "ml-cssanimation-maskstripesthinin": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-maskStripesThinIn",
+              "text": "cssanimation"
+            }
+          }
+        }
+      },
+      "automaticEvidence": {
+        "motionSha256": "b72266b1290b6f6207330014ba5f203c327e598d23bf5ad0a9f387b43ee8afa0",
+        "programSimilarity": 0.993324
+      }
+    },
+    {
+      "ids": [
+        "ml-cssanimation-masklinesslidein",
+        "ml-cssanimation-maskstripesthinin"
+      ],
+      "codeSha256": {
+        "ml-cssanimation-masklinesslidein": "e4a57a6f4cbfed3ab2a28ba46df5e239ade6e7d41c67f0f81d700178d0587553",
+        "ml-cssanimation-maskstripesthinin": "47b38f9474fa8378b398264f6714c950d74167e8ccfcbca4e355194118aca0ac"
+      },
+      "classification": "keep-geometry",
+      "confidence": "manual-static-source-review",
+      "observation": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+      "wrapperDeclarationDifferences": [
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-image",
+          "occurrence": 1,
+          "ml-cssanimation-masklinesslidein": "repeating-linear-gradient(to bottom, black 0,black 2px, transparent 2px, transparent 10px)",
+          "ml-cssanimation-maskstripesthinin": "repeating-linear-gradient(to bottom, black 0,black 4%, transparent 4%, transparent 8%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-image",
+          "occurrence": 2,
+          "ml-cssanimation-masklinesslidein": "repeating-linear-gradient(to bottom, black 0 2px, transparent 2px 10px)",
+          "ml-cssanimation-maskstripesthinin": "repeating-linear-gradient(to bottom, black 0 4%, transparent 4% 8%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-image",
+          "occurrence": 1,
+          "ml-cssanimation-masklinesslidein": "repeating-linear-gradient(to bottom, black 0,black 2px, transparent 2px, transparent 10px)",
+          "ml-cssanimation-maskstripesthinin": "repeating-linear-gradient(to bottom, black 0,black 4%, transparent 4%, transparent 8%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-image",
+          "occurrence": 2,
+          "ml-cssanimation-masklinesslidein": "repeating-linear-gradient(to bottom, black 0 2px, transparent 2px 10px)",
+          "ml-cssanimation-maskstripesthinin": "repeating-linear-gradient(to bottom, black 0 4%, transparent 4% 8%)"
+        }
+      ],
+      "otherSourceDifferences": {
+        "timing": {
+          "ml-cssanimation-masklinesslidein": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-maskLinesSlideIn",
+              "property": "animation-name",
+              "value": "mask-linesSlideIn"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ],
+          "ml-cssanimation-maskstripesthinin": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-maskStripesThinIn",
+              "property": "animation-name",
+              "value": "mask-stripesThinIn"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ]
+        },
+        "frames": {
+          "ml-cssanimation-masklinesslidein": [
+            {
+              "keyframe": "@keyframes mask-linesSlideIn",
+              "offsets": [
+                0.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 -100%",
+                "mask-position": "0 -100%"
+              }
+            },
+            {
+              "keyframe": "@keyframes mask-linesSlideIn",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 0",
+                "mask-position": "0 0"
+              }
+            }
+          ],
+          "ml-cssanimation-maskstripesthinin": [
+            {
+              "keyframe": "@keyframes mask-stripesThinIn",
+              "offsets": [
+                0.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 -100%",
+                "mask-position": "0 -100%"
+              }
+            },
+            {
+              "keyframe": "@keyframes mask-stripesThinIn",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 0",
+                "mask-position": "0 0"
+              }
+            }
+          ]
+        },
+        "dom": {
+          "ml-cssanimation-masklinesslidein": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-maskLinesSlideIn",
+              "text": "cssanimation"
+            }
+          },
+          "ml-cssanimation-maskstripesthinin": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-maskStripesThinIn",
+              "text": "cssanimation"
+            }
+          }
+        }
+      },
+      "automaticEvidence": {
+        "motionSha256": "b72266b1290b6f6207330014ba5f203c327e598d23bf5ad0a9f387b43ee8afa0",
+        "programSimilarity": 0.978667
+      }
+    },
+    {
+      "ids": [
+        "ml-cssanimation-maskrainrevealin",
+        "ml-cssanimation-maskstripesthinin"
+      ],
+      "codeSha256": {
+        "ml-cssanimation-maskrainrevealin": "53b52a7f4f273ccbd42bd09e4cbdc6edfafe163e11ca18d052777659abd3b1c6",
+        "ml-cssanimation-maskstripesthinin": "47b38f9474fa8378b398264f6714c950d74167e8ccfcbca4e355194118aca0ac"
+      },
+      "classification": "keep-geometry",
+      "confidence": "manual-static-source-review",
+      "observation": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+      "wrapperDeclarationDifferences": [
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-image",
+          "occurrence": 1,
+          "ml-cssanimation-maskrainrevealin": "repeating-linear-gradient(to bottom, black 0,black 1px, transparent 1px, transparent 5px)",
+          "ml-cssanimation-maskstripesthinin": "repeating-linear-gradient(to bottom, black 0,black 4%, transparent 4%, transparent 8%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-image",
+          "occurrence": 2,
+          "ml-cssanimation-maskrainrevealin": "repeating-linear-gradient(to bottom, black 0 1px, transparent 1px 5px)",
+          "ml-cssanimation-maskstripesthinin": "repeating-linear-gradient(to bottom, black 0 4%, transparent 4% 8%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-size",
+          "occurrence": 1,
+          "ml-cssanimation-maskrainrevealin": "100% 300%",
+          "ml-cssanimation-maskstripesthinin": "100% 200%"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-image",
+          "occurrence": 1,
+          "ml-cssanimation-maskrainrevealin": "repeating-linear-gradient(to bottom, black 0,black 1px, transparent 1px, transparent 5px)",
+          "ml-cssanimation-maskstripesthinin": "repeating-linear-gradient(to bottom, black 0,black 4%, transparent 4%, transparent 8%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-image",
+          "occurrence": 2,
+          "ml-cssanimation-maskrainrevealin": "repeating-linear-gradient(to bottom, black 0 1px, transparent 1px 5px)",
+          "ml-cssanimation-maskstripesthinin": "repeating-linear-gradient(to bottom, black 0 4%, transparent 4% 8%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-size",
+          "occurrence": 1,
+          "ml-cssanimation-maskrainrevealin": "100% 300%",
+          "ml-cssanimation-maskstripesthinin": "100% 200%"
+        }
+      ],
+      "otherSourceDifferences": {
+        "timing": {
+          "ml-cssanimation-maskrainrevealin": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-maskRainRevealIn",
+              "property": "animation-name",
+              "value": "mask-rainRevealIn"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ],
+          "ml-cssanimation-maskstripesthinin": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-maskStripesThinIn",
+              "property": "animation-name",
+              "value": "mask-stripesThinIn"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ]
+        },
+        "frames": {
+          "ml-cssanimation-maskrainrevealin": [
+            {
+              "keyframe": "@keyframes mask-rainRevealIn",
+              "offsets": [
+                0.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 -100%",
+                "mask-position": "0 -100%"
+              }
+            },
+            {
+              "keyframe": "@keyframes mask-rainRevealIn",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 0",
+                "mask-position": "0 0"
+              }
+            }
+          ],
+          "ml-cssanimation-maskstripesthinin": [
+            {
+              "keyframe": "@keyframes mask-stripesThinIn",
+              "offsets": [
+                0.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 -100%",
+                "mask-position": "0 -100%"
+              }
+            },
+            {
+              "keyframe": "@keyframes mask-stripesThinIn",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 0",
+                "mask-position": "0 0"
+              }
+            }
+          ]
+        },
+        "dom": {
+          "ml-cssanimation-maskrainrevealin": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-maskRainRevealIn",
+              "text": "cssanimation"
+            }
+          },
+          "ml-cssanimation-maskstripesthinin": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-maskStripesThinIn",
+              "text": "cssanimation"
+            }
+          }
+        }
+      },
+      "automaticEvidence": {
+        "motionSha256": "b72266b1290b6f6207330014ba5f203c327e598d23bf5ad0a9f387b43ee8afa0",
+        "programSimilarity": 0.978638
+      }
+    },
+    {
+      "ids": [
+        "ml-cssanimation-maskstripeshorizontalreverseout",
+        "ml-cssanimation-maskstripesthinout"
+      ],
+      "codeSha256": {
+        "ml-cssanimation-maskstripeshorizontalreverseout": "d887c32864e8bb9392ccb6193afa84f11e5f8528dd65f73c55df0b24ee330b53",
+        "ml-cssanimation-maskstripesthinout": "3d184c48be0773f8d548595ca0a7171a53a85682568c04b08f6b404be7af220d"
+      },
+      "classification": "keep-geometry",
+      "confidence": "manual-static-source-review",
+      "observation": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+      "wrapperDeclarationDifferences": [
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-image",
+          "occurrence": 1,
+          "ml-cssanimation-maskstripeshorizontalreverseout": "repeating-linear-gradient(to bottom, black 0,black 10%, transparent 10%, transparent 20%)",
+          "ml-cssanimation-maskstripesthinout": "repeating-linear-gradient(to bottom, black 0,black 4%, transparent 4%, transparent 8%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-image",
+          "occurrence": 2,
+          "ml-cssanimation-maskstripeshorizontalreverseout": "repeating-linear-gradient(to bottom, black 0 10%, transparent 10% 20%)",
+          "ml-cssanimation-maskstripesthinout": "repeating-linear-gradient(to bottom, black 0 4%, transparent 4% 8%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-image",
+          "occurrence": 1,
+          "ml-cssanimation-maskstripeshorizontalreverseout": "repeating-linear-gradient(to bottom, black 0,black 10%, transparent 10%, transparent 20%)",
+          "ml-cssanimation-maskstripesthinout": "repeating-linear-gradient(to bottom, black 0,black 4%, transparent 4%, transparent 8%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-image",
+          "occurrence": 2,
+          "ml-cssanimation-maskstripeshorizontalreverseout": "repeating-linear-gradient(to bottom, black 0 10%, transparent 10% 20%)",
+          "ml-cssanimation-maskstripesthinout": "repeating-linear-gradient(to bottom, black 0 4%, transparent 4% 8%)"
+        }
+      ],
+      "otherSourceDifferences": {
+        "timing": {
+          "ml-cssanimation-maskstripeshorizontalreverseout": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-maskStripesHorizontalReverseOut",
+              "property": "animation-name",
+              "value": "mask-stripesHorizontalReverseOut"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ],
+          "ml-cssanimation-maskstripesthinout": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-maskStripesThinOut",
+              "property": "animation-name",
+              "value": "mask-stripesThinOut"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ]
+        },
+        "frames": {
+          "ml-cssanimation-maskstripeshorizontalreverseout": [
+            {
+              "keyframe": "@keyframes mask-stripesHorizontalReverseOut",
+              "offsets": [
+                0.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 0",
+                "mask-position": "0 0"
+              }
+            },
+            {
+              "keyframe": "@keyframes mask-stripesHorizontalReverseOut",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 100%",
+                "mask-position": "0 100%"
+              }
+            }
+          ],
+          "ml-cssanimation-maskstripesthinout": [
+            {
+              "keyframe": "@keyframes mask-stripesThinOut",
+              "offsets": [
+                0.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 0",
+                "mask-position": "0 0"
+              }
+            },
+            {
+              "keyframe": "@keyframes mask-stripesThinOut",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 100%",
+                "mask-position": "0 100%"
+              }
+            }
+          ]
+        },
+        "dom": {
+          "ml-cssanimation-maskstripeshorizontalreverseout": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-maskStripesHorizontalReverseOut",
+              "text": "cssanimation"
+            }
+          },
+          "ml-cssanimation-maskstripesthinout": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-maskStripesThinOut",
+              "text": "cssanimation"
+            }
+          }
+        }
+      },
+      "automaticEvidence": {
+        "motionSha256": "4d4a53bf5d050561f9cfb0ff4c3523aa8ed10e6f931bc6c18999daf66be0dbd4",
+        "programSimilarity": 0.987968
+      }
+    },
+    {
+      "ids": [
+        "ml-cssanimation-maskstripeshorizontalreverseout",
+        "ml-cssanimation-maskstripeswideout"
+      ],
+      "codeSha256": {
+        "ml-cssanimation-maskstripeshorizontalreverseout": "d887c32864e8bb9392ccb6193afa84f11e5f8528dd65f73c55df0b24ee330b53",
+        "ml-cssanimation-maskstripeswideout": "b392385bec7ab6375c6b7d4ae6d321c828b15d798842c3031148a43d97176942"
+      },
+      "classification": "keep-geometry",
+      "confidence": "manual-static-source-review",
+      "observation": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+      "wrapperDeclarationDifferences": [
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-image",
+          "occurrence": 1,
+          "ml-cssanimation-maskstripeshorizontalreverseout": "repeating-linear-gradient(to bottom, black 0,black 10%, transparent 10%, transparent 20%)",
+          "ml-cssanimation-maskstripeswideout": "repeating-linear-gradient(to bottom, black 0,black 40%, transparent 40%, transparent 60%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-image",
+          "occurrence": 2,
+          "ml-cssanimation-maskstripeshorizontalreverseout": "repeating-linear-gradient(to bottom, black 0 10%, transparent 10% 20%)",
+          "ml-cssanimation-maskstripeswideout": "repeating-linear-gradient(to bottom, black 0 40%, transparent 40% 60%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-image",
+          "occurrence": 1,
+          "ml-cssanimation-maskstripeshorizontalreverseout": "repeating-linear-gradient(to bottom, black 0,black 10%, transparent 10%, transparent 20%)",
+          "ml-cssanimation-maskstripeswideout": "repeating-linear-gradient(to bottom, black 0,black 40%, transparent 40%, transparent 60%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-image",
+          "occurrence": 2,
+          "ml-cssanimation-maskstripeshorizontalreverseout": "repeating-linear-gradient(to bottom, black 0 10%, transparent 10% 20%)",
+          "ml-cssanimation-maskstripeswideout": "repeating-linear-gradient(to bottom, black 0 40%, transparent 40% 60%)"
+        }
+      ],
+      "otherSourceDifferences": {
+        "timing": {
+          "ml-cssanimation-maskstripeshorizontalreverseout": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-maskStripesHorizontalReverseOut",
+              "property": "animation-name",
+              "value": "mask-stripesHorizontalReverseOut"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ],
+          "ml-cssanimation-maskstripeswideout": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-maskStripesWideOut",
+              "property": "animation-name",
+              "value": "mask-stripesWideOut"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ]
+        },
+        "frames": {
+          "ml-cssanimation-maskstripeshorizontalreverseout": [
+            {
+              "keyframe": "@keyframes mask-stripesHorizontalReverseOut",
+              "offsets": [
+                0.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 0",
+                "mask-position": "0 0"
+              }
+            },
+            {
+              "keyframe": "@keyframes mask-stripesHorizontalReverseOut",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 100%",
+                "mask-position": "0 100%"
+              }
+            }
+          ],
+          "ml-cssanimation-maskstripeswideout": [
+            {
+              "keyframe": "@keyframes mask-stripesWideOut",
+              "offsets": [
+                0.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 0",
+                "mask-position": "0 0"
+              }
+            },
+            {
+              "keyframe": "@keyframes mask-stripesWideOut",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 100%",
+                "mask-position": "0 100%"
+              }
+            }
+          ]
+        },
+        "dom": {
+          "ml-cssanimation-maskstripeshorizontalreverseout": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-maskStripesHorizontalReverseOut",
+              "text": "cssanimation"
+            }
+          },
+          "ml-cssanimation-maskstripeswideout": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-maskStripesWideOut",
+              "text": "cssanimation"
+            }
+          }
+        }
+      },
+      "automaticEvidence": {
+        "motionSha256": "4d4a53bf5d050561f9cfb0ff4c3523aa8ed10e6f931bc6c18999daf66be0dbd4",
+        "programSimilarity": 0.992011
+      }
+    },
+    {
+      "ids": [
+        "ml-cssanimation-maskstripesthinout",
+        "ml-cssanimation-maskstripeswideout"
+      ],
+      "codeSha256": {
+        "ml-cssanimation-maskstripesthinout": "3d184c48be0773f8d548595ca0a7171a53a85682568c04b08f6b404be7af220d",
+        "ml-cssanimation-maskstripeswideout": "b392385bec7ab6375c6b7d4ae6d321c828b15d798842c3031148a43d97176942"
+      },
+      "classification": "keep-geometry",
+      "confidence": "manual-static-source-review",
+      "observation": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+      "wrapperDeclarationDifferences": [
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-image",
+          "occurrence": 1,
+          "ml-cssanimation-maskstripesthinout": "repeating-linear-gradient(to bottom, black 0,black 4%, transparent 4%, transparent 8%)",
+          "ml-cssanimation-maskstripeswideout": "repeating-linear-gradient(to bottom, black 0,black 40%, transparent 40%, transparent 60%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-image",
+          "occurrence": 2,
+          "ml-cssanimation-maskstripesthinout": "repeating-linear-gradient(to bottom, black 0 4%, transparent 4% 8%)",
+          "ml-cssanimation-maskstripeswideout": "repeating-linear-gradient(to bottom, black 0 40%, transparent 40% 60%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-image",
+          "occurrence": 1,
+          "ml-cssanimation-maskstripesthinout": "repeating-linear-gradient(to bottom, black 0,black 4%, transparent 4%, transparent 8%)",
+          "ml-cssanimation-maskstripeswideout": "repeating-linear-gradient(to bottom, black 0,black 40%, transparent 40%, transparent 60%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-image",
+          "occurrence": 2,
+          "ml-cssanimation-maskstripesthinout": "repeating-linear-gradient(to bottom, black 0 4%, transparent 4% 8%)",
+          "ml-cssanimation-maskstripeswideout": "repeating-linear-gradient(to bottom, black 0 40%, transparent 40% 60%)"
+        }
+      ],
+      "otherSourceDifferences": {
+        "timing": {
+          "ml-cssanimation-maskstripesthinout": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-maskStripesThinOut",
+              "property": "animation-name",
+              "value": "mask-stripesThinOut"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ],
+          "ml-cssanimation-maskstripeswideout": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-maskStripesWideOut",
+              "property": "animation-name",
+              "value": "mask-stripesWideOut"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ]
+        },
+        "frames": {
+          "ml-cssanimation-maskstripesthinout": [
+            {
+              "keyframe": "@keyframes mask-stripesThinOut",
+              "offsets": [
+                0.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 0",
+                "mask-position": "0 0"
+              }
+            },
+            {
+              "keyframe": "@keyframes mask-stripesThinOut",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 100%",
+                "mask-position": "0 100%"
+              }
+            }
+          ],
+          "ml-cssanimation-maskstripeswideout": [
+            {
+              "keyframe": "@keyframes mask-stripesWideOut",
+              "offsets": [
+                0.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 0",
+                "mask-position": "0 0"
+              }
+            },
+            {
+              "keyframe": "@keyframes mask-stripesWideOut",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "-webkit-mask-position": "0 100%",
+                "mask-position": "0 100%"
+              }
+            }
+          ]
+        },
+        "dom": {
+          "ml-cssanimation-maskstripesthinout": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-maskStripesThinOut",
+              "text": "cssanimation"
+            }
+          },
+          "ml-cssanimation-maskstripeswideout": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-maskStripesWideOut",
+              "text": "cssanimation"
+            }
+          }
+        }
+      },
+      "automaticEvidence": {
+        "motionSha256": "4d4a53bf5d050561f9cfb0ff4c3523aa8ed10e6f931bc6c18999daf66be0dbd4",
+        "programSimilarity": 0.993316
+      }
+    },
+    {
+      "ids": [
+        "ml-cssanimation-mask-wipeinleft",
+        "ml-cssanimation-mask-wipeinright"
+      ],
+      "codeSha256": {
+        "ml-cssanimation-mask-wipeinleft": "d732822319d6f9157f361a6114d66d2172fbe400b19e7d22b540914cb5d51ac3",
+        "ml-cssanimation-mask-wipeinright": "4c3a3a527e5a47a0f8f9b050d5d3534a6657370bc6f7e1887e19ffc1fe4b71c7"
+      },
+      "classification": "keep-geometry",
+      "confidence": "manual-static-source-review",
+      "observation": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+      "wrapperDeclarationDifferences": [
+        {
+          "selector": ".c1",
+          "property": "-webkit-mask-image",
+          "occurrence": 1,
+          "ml-cssanimation-mask-wipeinleft": "linear-gradient(to right, black 50%, transparent 50%)",
+          "ml-cssanimation-mask-wipeinright": "linear-gradient(to right, transparent 50%, black 50%)"
+        },
+        {
+          "selector": ".c1",
+          "property": "mask-image",
+          "occurrence": 1,
+          "ml-cssanimation-mask-wipeinleft": "linear-gradient(to right, black 50%, transparent 50%)",
+          "ml-cssanimation-mask-wipeinright": "linear-gradient(to right, transparent 50%, black 50%)"
+        }
+      ],
+      "otherSourceDifferences": {
+        "timing": {
+          "ml-cssanimation-mask-wipeinleft": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-mask-wipeInLeft",
+              "property": "animation-name",
+              "value": "mask-wipeInLeft"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ],
+          "ml-cssanimation-mask-wipeinright": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-mask-wipeInRight",
+              "property": "animation-name",
+              "value": "mask-wipeInLeft"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ]
+        },
+        "dom": {
+          "ml-cssanimation-mask-wipeinleft": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-mask-wipeInLeft",
+              "text": "cssanimation"
+            }
+          },
+          "ml-cssanimation-mask-wipeinright": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-mask-wipeInRight",
+              "text": "cssanimation"
+            }
+          }
+        }
+      },
+      "automaticEvidence": {
+        "motionSha256": "bbdc2b1565416c8300b77374dbfd59fd8c77c1af750be59ab7f14a80a876f88b",
+        "programSimilarity": 0.974217
+      }
+    },
+    {
+      "ids": [
+        "ml-cssanimation-stepscalepopin",
+        "ml-cssanimation-stepzoomin"
+      ],
+      "codeSha256": {
+        "ml-cssanimation-stepscalepopin": "0c5c2aef7d5da3558d9a39c38f7ffa5203d957eb9d3ffc08bc23318aa4b9baa7",
+        "ml-cssanimation-stepzoomin": "f02999fb6dd6b225540617c5ad1dbbc782e7db8da16c0aaf3e17ef2bd492943a"
+      },
+      "classification": "keep-geometry",
+      "confidence": "manual-static-source-review",
+      "observation": "Only the final keyframe is declared. Starting CSS transform is the implicit initial value: scale(0.4) grows while scale(2) shrinks; steps(4) vs steps(7) and 0.7s vs 0.9s also differ.",
+      "wrapperDeclarationDifferences": [
+        {
+          "selector": ".c1",
+          "property": "animation",
+          "occurrence": 1,
+          "ml-cssanimation-stepscalepopin": "stepScalePopIn 0.7s steps(4, end) forwards",
+          "ml-cssanimation-stepzoomin": "stepZoomIn 0.9s steps(7, end) forwards"
+        },
+        {
+          "selector": ".c1",
+          "property": "transform",
+          "occurrence": 1,
+          "ml-cssanimation-stepscalepopin": "scale(0.4)",
+          "ml-cssanimation-stepzoomin": "scale(2)"
+        }
+      ],
+      "otherSourceDifferences": {
+        "timing": {
+          "ml-cssanimation-stepscalepopin": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-stepScalePopIn",
+              "property": "animation",
+              "value": "stepScalePopIn 0.7s steps(4, end) forwards"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ],
+          "ml-cssanimation-stepzoomin": [
+            {
+              "selector": ".cssanimation",
+              "property": "animation-duration",
+              "value": "var(--cssanimation-duration, 1s)"
+            },
+            {
+              "selector": ".cssanimation",
+              "property": "animation-fill-mode",
+              "value": "var(--cssanimation-fill-mode, both)"
+            },
+            {
+              "selector": ".infinite",
+              "property": "animation-iteration-count",
+              "value": "var(--cssanimation-infinite, infinite) !important"
+            },
+            {
+              "selector": ".ca__fx-stepZoomIn",
+              "property": "animation",
+              "value": "stepZoomIn 0.9s steps(7, end) forwards"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "animation",
+              "value": "none !important"
+            },
+            {
+              "selector": ".cssanimation,\n  .cssanimation span",
+              "property": "transition",
+              "value": "none !important"
+            }
+          ]
+        },
+        "frames": {
+          "ml-cssanimation-stepscalepopin": [
+            {
+              "keyframe": "@keyframes stepScalePopIn",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "transform": "scale(1)",
+                "opacity": "1"
+              }
+            }
+          ],
+          "ml-cssanimation-stepzoomin": [
+            {
+              "keyframe": "@keyframes stepZoomIn",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "transform": "scale(1)",
+                "opacity": "1"
+              }
+            }
+          ]
+        },
+        "dom": {
+          "ml-cssanimation-stepscalepopin": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-stepScalePopIn",
+              "text": "cssanimation"
+            }
+          },
+          "ml-cssanimation-stepzoomin": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "div",
+              "className": "cssanimation ca__fx-stepZoomIn",
+              "text": "cssanimation"
+            }
+          }
+        }
+      },
+      "automaticEvidence": {
+        "motionSha256": "4e8811b8334e92d2558ba54bd31534b802263219d70a48ea8c00c8451aa22afb",
+        "programSimilarity": 0.997677
+      }
+    },
+    {
+      "ids": [
+        "vector-sds-motion-forge-sds-input-scan",
+        "vector-sds-motion-forge-sds-input-shimmer"
+      ],
+      "codeSha256": {
+        "vector-sds-motion-forge-sds-input-scan": "d4f31ef3998e25a81d896dd2b1d3f86ed200bef2c3dce2e67e6b9c9df8839c32",
+        "vector-sds-motion-forge-sds-input-shimmer": "102839c313dc344cb0a855b5c20526ac1fda420ba86c2e2182ed123efd85aa64"
+      },
+      "classification": "keep-geometry",
+      "confidence": "manual-static-source-review",
+      "observation": "Same moving gradient primitive, but transparent stop span is 30%-70% vs 40%-60%, alpha 0.1 vs 0.08 and duration 2s vs 2.5s. Keep as style/timing variants; browser may further establish perceptual similarity.",
+      "wrapperDeclarationDifferences": [
+        {
+          "selector": ".c0",
+          "property": "animation",
+          "occurrence": 1,
+          "vector-sds-motion-forge-sds-input-scan": "sds-inputScan 2s ease infinite",
+          "vector-sds-motion-forge-sds-input-shimmer": "sds-shimmerScan 2.5s ease infinite"
+        },
+        {
+          "selector": ".c0",
+          "property": "background",
+          "occurrence": 1,
+          "vector-sds-motion-forge-sds-input-scan": null,
+          "vector-sds-motion-forge-sds-input-shimmer": "linear-gradient(\n    90deg,\n    transparent 40%,\n    rgba(0, 21, 209, 0.08) 50%,\n    transparent 60%\n  )"
+        },
+        {
+          "selector": ".c0",
+          "property": "background-image",
+          "occurrence": 1,
+          "vector-sds-motion-forge-sds-input-scan": "linear-gradient(\n    90deg,\n    transparent 30%,\n    rgba(0, 21, 209, 0.1) 50%,\n    transparent 70%\n  )",
+          "vector-sds-motion-forge-sds-input-shimmer": null
+        }
+      ],
+      "otherSourceDifferences": {
+        "timing": {
+          "vector-sds-motion-forge-sds-input-scan": [
+            {
+              "selector": ".sds-input-scan",
+              "property": "animation",
+              "value": "sds-inputScan 2s ease infinite"
+            }
+          ],
+          "vector-sds-motion-forge-sds-input-shimmer": [
+            {
+              "selector": ".sds-input-shimmer",
+              "property": "animation",
+              "value": "sds-shimmerScan 2.5s ease infinite"
+            }
+          ]
+        },
+        "frames": {
+          "vector-sds-motion-forge-sds-input-scan": [
+            {
+              "keyframe": "@keyframes sds-inputScan",
+              "offsets": [
+                0.0
+              ],
+              "declarations": {
+                "background-position": "-200% center"
+              }
+            },
+            {
+              "keyframe": "@keyframes sds-inputScan",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "background-position": "300% center"
+              }
+            }
+          ],
+          "vector-sds-motion-forge-sds-input-shimmer": [
+            {
+              "keyframe": "@keyframes sds-shimmerScan",
+              "offsets": [
+                0.0
+              ],
+              "declarations": {
+                "background-position": "-200% center"
+              }
+            },
+            {
+              "keyframe": "@keyframes sds-shimmerScan",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "background-position": "300% center"
+              }
+            }
+          ]
+        },
+        "dom": {
+          "vector-sds-motion-forge-sds-input-scan": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "input",
+              "className": "sds-input-scan",
+              "placeholder": "Type here"
+            }
+          },
+          "vector-sds-motion-forge-sds-input-shimmer": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "input",
+              "className": "sds-input-shimmer",
+              "placeholder": "Type here"
+            }
+          }
+        }
+      },
+      "automaticEvidence": {
+        "motionSha256": "c5da59c1c375bd4c19b693d5a128af03debcada216785e71872976a0fce6c463",
+        "programSimilarity": 0.986006
+      }
+    },
+    {
+      "ids": [
+        "vector-sds-motion-forge-sds-loader-spin-fade",
+        "vector-sds-motion-forge-sds-loader-windmill"
+      ],
+      "codeSha256": {
+        "vector-sds-motion-forge-sds-loader-spin-fade": "2421db2d21ac8633e099df6f3029306fdf1ab95dd04e9630d2549e4fa798a3b3",
+        "vector-sds-motion-forge-sds-loader-windmill": "8affaf8969461490b9e62e9fcfbe63a89abe523761921289b19e58bab0c25f25"
+      },
+      "classification": "keep-geometry",
+      "confidence": "manual-static-source-review",
+      "observation": "Same fade cycle and four-child topology, but 12x3px bars with 3px radius vs 10x4px with 2px radius and four different offsets; preserve geometric variants.",
+      "wrapperDeclarationDifferences": [
+        {
+          "selector": ".c0>*",
+          "property": "border-radius",
+          "occurrence": 1,
+          "vector-sds-motion-forge-sds-loader-spin-fade": "3px",
+          "vector-sds-motion-forge-sds-loader-windmill": "2px"
+        },
+        {
+          "selector": ".c0>*",
+          "property": "height",
+          "occurrence": 1,
+          "vector-sds-motion-forge-sds-loader-spin-fade": "3px",
+          "vector-sds-motion-forge-sds-loader-windmill": "4px"
+        },
+        {
+          "selector": ".c0>*",
+          "property": "width",
+          "occurrence": 1,
+          "vector-sds-motion-forge-sds-loader-spin-fade": "12px",
+          "vector-sds-motion-forge-sds-loader-windmill": "10px"
+        },
+        {
+          "selector": ".c0>*:nth-child(1)",
+          "property": "transform",
+          "occurrence": 1,
+          "vector-sds-motion-forge-sds-loader-spin-fade": "translate(-50%, -11px) rotate(0deg)",
+          "vector-sds-motion-forge-sds-loader-windmill": "translate(-50%, -14px) rotate(0deg)"
+        },
+        {
+          "selector": ".c0>*:nth-child(2)",
+          "property": "transform",
+          "occurrence": 1,
+          "vector-sds-motion-forge-sds-loader-spin-fade": "translate(1px, -50%)   rotate(90deg)",
+          "vector-sds-motion-forge-sds-loader-windmill": "translate(4px, -50%)   rotate(90deg)"
+        },
+        {
+          "selector": ".c0>*:nth-child(3)",
+          "property": "transform",
+          "occurrence": 1,
+          "vector-sds-motion-forge-sds-loader-spin-fade": "translate(-50%, 8px)   rotate(0deg)",
+          "vector-sds-motion-forge-sds-loader-windmill": "translate(-50%, 10px)  rotate(0deg)"
+        },
+        {
+          "selector": ".c0>*:nth-child(4)",
+          "property": "transform",
+          "occurrence": 1,
+          "vector-sds-motion-forge-sds-loader-spin-fade": "translate(-13px, -50%) rotate(90deg)",
+          "vector-sds-motion-forge-sds-loader-windmill": "translate(-14px, -50%) rotate(90deg)"
+        }
+      ],
+      "otherSourceDifferences": {
+        "timing": {
+          "vector-sds-motion-forge-sds-loader-spin-fade": [
+            {
+              "selector": ".sds-loader-spin-fade > *",
+              "property": "animation",
+              "value": "sds-ldSpinFadeKf 1s ease-in-out infinite"
+            },
+            {
+              "selector": ".sds-loader-spin-fade > *:nth-child(1)",
+              "property": "animation-delay",
+              "value": "0s"
+            },
+            {
+              "selector": ".sds-loader-spin-fade > *:nth-child(2)",
+              "property": "animation-delay",
+              "value": ".25s"
+            },
+            {
+              "selector": ".sds-loader-spin-fade > *:nth-child(3)",
+              "property": "animation-delay",
+              "value": ".5s"
+            },
+            {
+              "selector": ".sds-loader-spin-fade > *:nth-child(4)",
+              "property": "animation-delay",
+              "value": ".75s"
+            }
+          ],
+          "vector-sds-motion-forge-sds-loader-windmill": [
+            {
+              "selector": ".sds-loader-windmill > *",
+              "property": "animation",
+              "value": "sds-ldWindmillFade 1s ease-in-out infinite"
+            },
+            {
+              "selector": ".sds-loader-windmill > *:nth-child(1)",
+              "property": "animation-delay",
+              "value": "0s"
+            },
+            {
+              "selector": ".sds-loader-windmill > *:nth-child(2)",
+              "property": "animation-delay",
+              "value": ".25s"
+            },
+            {
+              "selector": ".sds-loader-windmill > *:nth-child(3)",
+              "property": "animation-delay",
+              "value": ".5s"
+            },
+            {
+              "selector": ".sds-loader-windmill > *:nth-child(4)",
+              "property": "animation-delay",
+              "value": ".75s"
+            }
+          ]
+        },
+        "frames": {
+          "vector-sds-motion-forge-sds-loader-spin-fade": [
+            {
+              "keyframe": "@keyframes sds-ldSpinFadeKf",
+              "offsets": [
+                0.0,
+                100.0
+              ],
+              "declarations": {
+                "opacity": ".08"
+              }
+            },
+            {
+              "keyframe": "@keyframes sds-ldSpinFadeKf",
+              "offsets": [
+                50.0
+              ],
+              "declarations": {
+                "opacity": "1"
+              }
+            }
+          ],
+          "vector-sds-motion-forge-sds-loader-windmill": [
+            {
+              "keyframe": "@keyframes sds-ldWindmillFade",
+              "offsets": [
+                0.0,
+                100.0
+              ],
+              "declarations": {
+                "opacity": ".08"
+              }
+            },
+            {
+              "keyframe": "@keyframes sds-ldWindmillFade",
+              "offsets": [
+                50.0
+              ],
+              "declarations": {
+                "opacity": "1"
+              }
+            }
+          ]
+        },
+        "dom": {
+          "vector-sds-motion-forge-sds-loader-spin-fade": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "span",
+              "className": "sds-loader-spin-fade",
+              "children": [
+                {
+                  "tag": "span"
+                },
+                {
+                  "tag": "span"
+                },
+                {
+                  "tag": "span"
+                },
+                {
+                  "tag": "span"
+                }
+              ]
+            }
+          },
+          "vector-sds-motion-forge-sds-loader-windmill": {
+            "mode": "source-dom",
+            "dom": {
+              "tag": "span",
+              "className": "sds-loader-windmill",
+              "children": [
+                {
+                  "tag": "span"
+                },
+                {
+                  "tag": "span"
+                },
+                {
+                  "tag": "span"
+                },
+                {
+                  "tag": "span"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "automaticEvidence": {
+        "motionSha256": "9f5ca46652a258f162868b3f0f983b213b2248c0093f233e14aaf834e4066e77",
+        "programSimilarity": 0.993944
+      }
+    },
+    {
+      "ids": [
+        "three-dots-dot-falling",
+        "three-dots-dot-falling-before"
+      ],
+      "codeSha256": {
+        "three-dots-dot-falling": "0d15c79f4cf85837e47381487ee9adc31c6d3e05bfd73f170b72ef80105f686f",
+        "three-dots-dot-falling-before": "95c8229a9b975766b7f9b60cf7158d8d1097aaa84e98d55c1c7d172942e57122"
+      },
+      "classification": "keep-source-variant",
+      "confidence": "manual-static-source-review",
+      "observation": "Shadow X coordinates 9999px vs 9984px differ by 15px. Original .dot-falling shifts left by -9999px, using main/before/after shadows at 0/-15/+15px as three companion parts, with 0.1s/0s/0.2s delays. Stored single-keyframe samples omit the required base positioning and companions; numerical closeness is a coordinate-origin artifact.",
+      "wrapperDeclarationDifferences": [],
+      "otherSourceDifferences": {
+        "timing": {
+          "three-dots-dot-falling": [
+            {
+              "selector": ".motion-sample",
+              "property": "animation",
+              "value": "dot-falling 1.8s ease-in-out infinite"
+            }
+          ],
+          "three-dots-dot-falling-before": [
+            {
+              "selector": ".motion-sample",
+              "property": "animation",
+              "value": "dot-falling-before 1.8s ease-in-out infinite"
+            }
+          ]
+        },
+        "frames": {
+          "three-dots-dot-falling": [
+            {
+              "keyframe": "@keyframes dot-falling",
+              "offsets": [
+                0.0
+              ],
+              "declarations": {
+                "box-shadow": "9999px -15px 0 0 rgba(152, 128, 255, 0)"
+              }
+            },
+            {
+              "keyframe": "@keyframes dot-falling",
+              "offsets": [
+                25.0,
+                50.0,
+                75.0
+              ],
+              "declarations": {
+                "box-shadow": "9999px 0 0 0 #9880ff"
+              }
+            },
+            {
+              "keyframe": "@keyframes dot-falling",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "box-shadow": "9999px 15px 0 0 rgba(152, 128, 255, 0)"
+              }
+            }
+          ],
+          "three-dots-dot-falling-before": [
+            {
+              "keyframe": "@keyframes dot-falling-before",
+              "offsets": [
+                0.0
+              ],
+              "declarations": {
+                "box-shadow": "9984px -15px 0 0 rgba(152, 128, 255, 0)"
+              }
+            },
+            {
+              "keyframe": "@keyframes dot-falling-before",
+              "offsets": [
+                25.0,
+                50.0,
+                75.0
+              ],
+              "declarations": {
+                "box-shadow": "9984px 0 0 0 #9880ff"
+              }
+            },
+            {
+              "keyframe": "@keyframes dot-falling-before",
+              "offsets": [
+                100.0
+              ],
+              "declarations": {
+                "box-shadow": "9984px 15px 0 0 rgba(152, 128, 255, 0)"
+              }
+            }
+          ]
+        }
+      },
+      "automaticEvidence": {
+        "programSimilarity": 0.987207,
+        "numericSkeletonSha256": "557bd4c9125868700919790de4ce5304f7e8976b8dac8a350e663deb739e559a"
+      }
+    }
+  ],
+  "sourceContextQualityNotes": [
+    {
+      "ids": [
+        "spinkit-sk-chase",
+        "spinkit-sk-swing"
+      ],
+      "classification": "stored-program-duplicate-with-extraction-loss",
+      "sourcePath": "data/upstream/spinkit/source.css",
+      "sourceSha256": "815541240caae9f1fad3299a9f343e777acb24de1795e0a3ada4802699694183",
+      "sourceCommit": "742a71277c49b69053b5beb9fad80d720840a2ab",
+      "originalDesignDifferences": {
+        "chase": {
+          "childCount": 6,
+          "childClass": "sk-chase-dot",
+          "rootAnimation": "sk-chase 2.5s infinite linear both",
+          "childAnimation": "sk-chase-dot 2.0s infinite ease-in-out both",
+          "pseudoElementAnimation": "sk-chase-dot-before 2.0s infinite ease-in-out both",
+          "pseudoElementSize": "25% x25%",
+          "delays": [
+            "-1.1s",
+            "-1.0s",
+            "-0.9s",
+            "-0.8s",
+            "-0.7s",
+            "-0.6s"
+          ]
+        },
+        "swing": {
+          "childCount": 2,
+          "childClass": "sk-swing-dot",
+          "rootAnimation": "sk-swing 1.8s infinite linear",
+          "childAnimation": "sk-swing-dot 2s infinite ease-in-out",
+          "childSize": "45% x45%",
+          "secondChildDelay": "-1s",
+          "childScaleKeyframes": [
+            "0%,100%:scale(0.2)",
+            "50%:scale(1)"
+          ]
+        }
+      },
+      "storedRepresentation": "Both local entries store only 100%{transform:rotate(360deg)} and a generated single .motion-sample animation 1.8s ease-in-out infinite. Their stored samples are duplicate; complete source loaders are distinct.",
+      "recommendation": "Repair full component extraction before deciding to merge original loader identities. No repair was performed in this audit."
+    },
+    {
+      "ids": [
+        "three-dots-dot-falling",
+        "three-dots-dot-falling-before",
+        "three-dots-dot-falling-after"
+      ],
+      "classification": "companion-components-with-extraction-loss",
+      "sourcePath": "data/upstream/three-dots/source.css",
+      "sourceSha256": "d0dcf6a5abf933f7fce9158f7122afb72e1f269a90a0cd4d4195c887c988bf7c",
+      "originalRootOffset": "left:-9999px",
+      "shadowXValues": [
+        "9999px",
+        "9984px",
+        "10014px"
+      ],
+      "effectiveDotPositions": [
+        "0px",
+        "-15px",
+        "15px"
+      ],
+      "originalDelays": [
+        "0.1s",
+        "0s",
+        "0.2s"
+      ],
+      "recommendation": "Retain source companion identities and restore the full .dot-falling component context before interpreting sampled previews."
+    }
+  ],
+  "decisions": [
+    {
+      "domain": "css",
+      "ids": [
+        "asset-loaderscss-square-spin",
+        "asset-loaderscss-triangle-skew-spin"
+      ],
+      "classification": "keep-geometry-variant",
+      "basis": "manual-static-source-declarations-and-original-companion-context",
+      "reasonEN": "Same 3D rotation keyframes do not make a 50px filled square and a zero-size 20px CSS-border triangle the same design.",
+      "codeSha256": {
+        "asset-loaderscss-square-spin": "3f09a024bc88ddc94df62d9bb4cedbb4c6432691efce3e904a3ad6d5e9585e06",
+        "asset-loaderscss-triangle-skew-spin": "4f4e8c30d93a46132e9ca757f168064bd88cbd2938b8a49bcd8801ee32bf9bb3"
+      }
+    },
+    {
+      "domain": "css",
+      "ids": [
+        "ml-cssanimation-dancebottom",
+        "ml-cssanimation-dancemiddle"
+      ],
+      "classification": "keep-geometry-variant",
+      "basis": "manual-static-source-declarations-and-original-companion-context",
+      "reasonEN": "Rotation pivot differs: bottom, omitted browser default (center), or top. Identical rotation angles trace different element paths.",
+      "codeSha256": {
+        "ml-cssanimation-dancebottom": "0589cea76f19cc5ca9743d041e3e4ccfb87f76e84778c5a58e09f1630f05738c",
+        "ml-cssanimation-dancemiddle": "f9c7f444ba9f3361ea444499428adb52732c0355e1919bc5c94ce1bb8eb81e6a"
+      }
+    },
+    {
+      "domain": "css",
+      "ids": [
+        "ml-cssanimation-dancebottom",
+        "ml-cssanimation-dancetop"
+      ],
+      "classification": "keep-geometry-variant",
+      "basis": "manual-static-source-declarations-and-original-companion-context",
+      "reasonEN": "Rotation pivot differs: bottom, omitted browser default (center), or top. Identical rotation angles trace different element paths.",
+      "codeSha256": {
+        "ml-cssanimation-dancebottom": "0589cea76f19cc5ca9743d041e3e4ccfb87f76e84778c5a58e09f1630f05738c",
+        "ml-cssanimation-dancetop": "89c1eb8fb8b802d93ea014af31d3bedcb78da4461d9a3a6c6259e236209f4ad1"
+      }
+    },
+    {
+      "domain": "css",
+      "ids": [
+        "ml-cssanimation-dancemiddle",
+        "ml-cssanimation-dancetop"
+      ],
+      "classification": "keep-geometry-variant",
+      "basis": "manual-static-source-declarations-and-original-companion-context",
+      "reasonEN": "Rotation pivot differs: bottom, omitted browser default (center), or top. Identical rotation angles trace different element paths.",
+      "codeSha256": {
+        "ml-cssanimation-dancemiddle": "f9c7f444ba9f3361ea444499428adb52732c0355e1919bc5c94ce1bb8eb81e6a",
+        "ml-cssanimation-dancetop": "89c1eb8fb8b802d93ea014af31d3bedcb78da4461d9a3a6c6259e236209f4ad1"
+      }
+    },
+    {
+      "domain": "css",
+      "ids": [
+        "ml-cssanimation-mask-shutterlinesin",
+        "ml-cssanimation-maskstripesdiagonalleftin"
+      ],
+      "classification": "keep-geometry-variant",
+      "basis": "manual-static-source-declarations-and-original-companion-context",
+      "reasonEN": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+      "codeSha256": {
+        "ml-cssanimation-mask-shutterlinesin": "3effe5755f085c185cd0b3b13b304bdf58ef204908f9d076f0d86d4489b59a09",
+        "ml-cssanimation-maskstripesdiagonalleftin": "b027f8608950e19dd1787872c1d96f7bd11c313144963a9b860b6728441fc164"
+      }
+    },
+    {
+      "domain": "css",
+      "ids": [
+        "ml-cssanimation-mask-shutterlinesin",
+        "ml-cssanimation-maskstripesverticalin"
+      ],
+      "classification": "keep-geometry-variant",
+      "basis": "manual-static-source-declarations-and-original-companion-context",
+      "reasonEN": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+      "codeSha256": {
+        "ml-cssanimation-mask-shutterlinesin": "3effe5755f085c185cd0b3b13b304bdf58ef204908f9d076f0d86d4489b59a09",
+        "ml-cssanimation-maskstripesverticalin": "a83e2f883a936c3cee9ce7c198222b509057102e6f9b07bc62875bd7cb357e6f"
+      }
+    },
+    {
+      "domain": "css",
+      "ids": [
+        "ml-cssanimation-maskstripesdiagonalleftin",
+        "ml-cssanimation-maskstripesverticalin"
+      ],
+      "classification": "keep-geometry-variant",
+      "basis": "manual-static-source-declarations-and-original-companion-context",
+      "reasonEN": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+      "codeSha256": {
+        "ml-cssanimation-maskstripesdiagonalleftin": "b027f8608950e19dd1787872c1d96f7bd11c313144963a9b860b6728441fc164",
+        "ml-cssanimation-maskstripesverticalin": "a83e2f883a936c3cee9ce7c198222b509057102e6f9b07bc62875bd7cb357e6f"
+      }
+    },
+    {
+      "domain": "css",
+      "ids": [
+        "ml-cssanimation-mask-stripeswidein",
+        "ml-cssanimation-masklinesslidein"
+      ],
+      "classification": "keep-geometry-variant",
+      "basis": "manual-static-source-declarations-and-original-companion-context",
+      "reasonEN": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+      "codeSha256": {
+        "ml-cssanimation-mask-stripeswidein": "bf3edae83421366746e4547523e1aed452f3e521d6a488ddd13bef794d3cd0f5",
+        "ml-cssanimation-masklinesslidein": "e4a57a6f4cbfed3ab2a28ba46df5e239ade6e7d41c67f0f81d700178d0587553"
+      }
+    },
+    {
+      "domain": "css",
+      "ids": [
+        "ml-cssanimation-mask-stripeswidein",
+        "ml-cssanimation-maskrainrevealin"
+      ],
+      "classification": "keep-geometry-variant",
+      "basis": "manual-static-source-declarations-and-original-companion-context",
+      "reasonEN": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+      "codeSha256": {
+        "ml-cssanimation-mask-stripeswidein": "bf3edae83421366746e4547523e1aed452f3e521d6a488ddd13bef794d3cd0f5",
+        "ml-cssanimation-maskrainrevealin": "53b52a7f4f273ccbd42bd09e4cbdc6edfafe163e11ca18d052777659abd3b1c6"
+      }
+    },
+    {
+      "domain": "css",
+      "ids": [
+        "ml-cssanimation-mask-stripeswidein",
+        "ml-cssanimation-maskstripesthinin"
+      ],
+      "classification": "keep-geometry-variant",
+      "basis": "manual-static-source-declarations-and-original-companion-context",
+      "reasonEN": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+      "codeSha256": {
+        "ml-cssanimation-mask-stripeswidein": "bf3edae83421366746e4547523e1aed452f3e521d6a488ddd13bef794d3cd0f5",
+        "ml-cssanimation-maskstripesthinin": "47b38f9474fa8378b398264f6714c950d74167e8ccfcbca4e355194118aca0ac"
+      }
+    },
+    {
+      "domain": "css",
+      "ids": [
+        "ml-cssanimation-masklinesslidein",
+        "ml-cssanimation-maskstripesthinin"
+      ],
+      "classification": "keep-geometry-variant",
+      "basis": "manual-static-source-declarations-and-original-companion-context",
+      "reasonEN": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+      "codeSha256": {
+        "ml-cssanimation-masklinesslidein": "e4a57a6f4cbfed3ab2a28ba46df5e239ade6e7d41c67f0f81d700178d0587553",
+        "ml-cssanimation-maskstripesthinin": "47b38f9474fa8378b398264f6714c950d74167e8ccfcbca4e355194118aca0ac"
+      }
+    },
+    {
+      "domain": "css",
+      "ids": [
+        "ml-cssanimation-maskrainrevealin",
+        "ml-cssanimation-maskstripesthinin"
+      ],
+      "classification": "keep-geometry-variant",
+      "basis": "manual-static-source-declarations-and-original-companion-context",
+      "reasonEN": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+      "codeSha256": {
+        "ml-cssanimation-maskrainrevealin": "53b52a7f4f273ccbd42bd09e4cbdc6edfafe163e11ca18d052777659abd3b1c6",
+        "ml-cssanimation-maskstripesthinin": "47b38f9474fa8378b398264f6714c950d74167e8ccfcbca4e355194118aca0ac"
+      }
+    },
+    {
+      "domain": "css",
+      "ids": [
+        "ml-cssanimation-maskstripeshorizontalreverseout",
+        "ml-cssanimation-maskstripesthinout"
+      ],
+      "classification": "keep-geometry-variant",
+      "basis": "manual-static-source-declarations-and-original-companion-context",
+      "reasonEN": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+      "codeSha256": {
+        "ml-cssanimation-maskstripeshorizontalreverseout": "d887c32864e8bb9392ccb6193afa84f11e5f8528dd65f73c55df0b24ee330b53",
+        "ml-cssanimation-maskstripesthinout": "3d184c48be0773f8d548595ca0a7171a53a85682568c04b08f6b404be7af220d"
+      }
+    },
+    {
+      "domain": "css",
+      "ids": [
+        "ml-cssanimation-maskstripeshorizontalreverseout",
+        "ml-cssanimation-maskstripeswideout"
+      ],
+      "classification": "keep-geometry-variant",
+      "basis": "manual-static-source-declarations-and-original-companion-context",
+      "reasonEN": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+      "codeSha256": {
+        "ml-cssanimation-maskstripeshorizontalreverseout": "d887c32864e8bb9392ccb6193afa84f11e5f8528dd65f73c55df0b24ee330b53",
+        "ml-cssanimation-maskstripeswideout": "b392385bec7ab6375c6b7d4ae6d321c828b15d798842c3031148a43d97176942"
+      }
+    },
+    {
+      "domain": "css",
+      "ids": [
+        "ml-cssanimation-maskstripesthinout",
+        "ml-cssanimation-maskstripeswideout"
+      ],
+      "classification": "keep-geometry-variant",
+      "basis": "manual-static-source-declarations-and-original-companion-context",
+      "reasonEN": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+      "codeSha256": {
+        "ml-cssanimation-maskstripesthinout": "3d184c48be0773f8d548595ca0a7171a53a85682568c04b08f6b404be7af220d",
+        "ml-cssanimation-maskstripeswideout": "b392385bec7ab6375c6b7d4ae6d321c828b15d798842c3031148a43d97176942"
+      }
+    },
+    {
+      "domain": "css",
+      "ids": [
+        "ml-cssanimation-mask-wipeinleft",
+        "ml-cssanimation-mask-wipeinright"
+      ],
+      "classification": "keep-geometry-variant",
+      "basis": "manual-static-source-declarations-and-original-companion-context",
+      "reasonEN": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+      "codeSha256": {
+        "ml-cssanimation-mask-wipeinleft": "d732822319d6f9157f361a6114d66d2172fbe400b19e7d22b540914cb5d51ac3",
+        "ml-cssanimation-mask-wipeinright": "4c3a3a527e5a47a0f8f9b050d5d3534a6657370bc6f7e1887e19ffc1fe4b71c7"
+      }
+    },
+    {
+      "domain": "css",
+      "ids": [
+        "ml-cssanimation-stepscalepopin",
+        "ml-cssanimation-stepzoomin"
+      ],
+      "classification": "keep-geometry-variant",
+      "basis": "manual-static-source-declarations-and-original-companion-context",
+      "reasonEN": "Only the final keyframe is declared. Starting CSS transform is the implicit initial value: scale(0.4) grows while scale(2) shrinks; steps(4) vs steps(7) and 0.7s vs 0.9s also differ.",
+      "codeSha256": {
+        "ml-cssanimation-stepscalepopin": "0c5c2aef7d5da3558d9a39c38f7ffa5203d957eb9d3ffc08bc23318aa4b9baa7",
+        "ml-cssanimation-stepzoomin": "f02999fb6dd6b225540617c5ad1dbbc782e7db8da16c0aaf3e17ef2bd492943a"
+      }
+    },
+    {
+      "domain": "css",
+      "ids": [
+        "vector-sds-motion-forge-sds-input-scan",
+        "vector-sds-motion-forge-sds-input-shimmer"
+      ],
+      "classification": "keep-geometry-variant",
+      "basis": "manual-static-source-declarations-and-original-companion-context",
+      "reasonEN": "Same moving gradient primitive, but transparent stop span is 30%-70% vs 40%-60%, alpha 0.1 vs 0.08 and duration 2s vs 2.5s. Keep as style/timing variants; browser may further establish perceptual similarity.",
+      "codeSha256": {
+        "vector-sds-motion-forge-sds-input-scan": "d4f31ef3998e25a81d896dd2b1d3f86ed200bef2c3dce2e67e6b9c9df8839c32",
+        "vector-sds-motion-forge-sds-input-shimmer": "102839c313dc344cb0a855b5c20526ac1fda420ba86c2e2182ed123efd85aa64"
+      }
+    },
+    {
+      "domain": "css",
+      "ids": [
+        "vector-sds-motion-forge-sds-loader-spin-fade",
+        "vector-sds-motion-forge-sds-loader-windmill"
+      ],
+      "classification": "keep-geometry-variant",
+      "basis": "manual-static-source-declarations-and-original-companion-context",
+      "reasonEN": "Same fade cycle and four-child topology, but 12x3px bars with 3px radius vs 10x4px with 2px radius and four different offsets; preserve geometric variants.",
+      "codeSha256": {
+        "vector-sds-motion-forge-sds-loader-spin-fade": "2421db2d21ac8633e099df6f3029306fdf1ab95dd04e9630d2549e4fa798a3b3",
+        "vector-sds-motion-forge-sds-loader-windmill": "8affaf8969461490b9e62e9fcfbe63a89abe523761921289b19e58bab0c25f25"
+      }
+    },
+    {
+      "domain": "css",
+      "ids": [
+        "three-dots-dot-falling",
+        "three-dots-dot-falling-before"
+      ],
+      "classification": "keep-source-component",
+      "basis": "manual-static-source-declarations-and-original-companion-context",
+      "reasonEN": "Shadow X coordinates 9999px vs 9984px differ by 15px. Original .dot-falling shifts left by -9999px, using main/before/after shadows at 0/-15/+15px as three companion parts, with 0.1s/0s/0.2s delays. Stored single-keyframe samples omit the required base positioning and companions; numerical closeness is a coordinate-origin artifact.",
+      "codeSha256": {
+        "three-dots-dot-falling": "0d15c79f4cf85837e47381487ee9adc31c6d3e05bfd73f170b72ef80105f686f",
+        "three-dots-dot-falling-before": "95c8229a9b975766b7f9b60cf7158d8d1097aaa84e98d55c1c7d172942e57122"
+      }
+    }
+  ],
+  "qualityNotes": [
+    {
+      "ids": [
+        "spinkit-sk-chase",
+        "spinkit-sk-swing"
+      ],
+      "classification": "stored-program-duplicate-with-extraction-loss",
+      "sourcePath": "data/upstream/spinkit/source.css",
+      "sourceSha256": "815541240caae9f1fad3299a9f343e777acb24de1795e0a3ada4802699694183",
+      "sourceCommit": "742a71277c49b69053b5beb9fad80d720840a2ab",
+      "originalDesignDifferences": {
+        "chase": {
+          "childCount": 6,
+          "childClass": "sk-chase-dot",
+          "rootAnimation": "sk-chase 2.5s infinite linear both",
+          "childAnimation": "sk-chase-dot 2.0s infinite ease-in-out both",
+          "pseudoElementAnimation": "sk-chase-dot-before 2.0s infinite ease-in-out both",
+          "pseudoElementSize": "25% x25%",
+          "delays": [
+            "-1.1s",
+            "-1.0s",
+            "-0.9s",
+            "-0.8s",
+            "-0.7s",
+            "-0.6s"
+          ]
+        },
+        "swing": {
+          "childCount": 2,
+          "childClass": "sk-swing-dot",
+          "rootAnimation": "sk-swing 1.8s infinite linear",
+          "childAnimation": "sk-swing-dot 2s infinite ease-in-out",
+          "childSize": "45% x45%",
+          "secondChildDelay": "-1s",
+          "childScaleKeyframes": [
+            "0%,100%:scale(0.2)",
+            "50%:scale(1)"
+          ]
+        }
+      },
+      "storedRepresentation": "Both local entries store only 100%{transform:rotate(360deg)} and a generated single .motion-sample animation 1.8s ease-in-out infinite. Their stored samples are duplicate; complete source loaders are distinct.",
+      "recommendation": "Repair full component extraction before deciding to merge original loader identities. No repair was performed in this audit."
+    },
+    {
+      "ids": [
+        "three-dots-dot-falling",
+        "three-dots-dot-falling-before",
+        "three-dots-dot-falling-after"
+      ],
+      "classification": "companion-components-with-extraction-loss",
+      "sourcePath": "data/upstream/three-dots/source.css",
+      "sourceSha256": "d0dcf6a5abf933f7fce9158f7122afb72e1f269a90a0cd4d4195c887c988bf7c",
+      "originalRootOffset": "left:-9999px",
+      "shadowXValues": [
+        "9999px",
+        "9984px",
+        "10014px"
+      ],
+      "effectiveDotPositions": [
+        "0px",
+        "-15px",
+        "15px"
+      ],
+      "originalDelays": [
+        "0.1s",
+        "0s",
+        "0.2s"
+      ],
+      "recommendation": "Retain source companion identities and restore the full .dot-falling component context before interpreting sampled previews."
+    }
+  ]
+}
