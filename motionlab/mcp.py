@@ -24,7 +24,7 @@ TOOLS = [
          "offset": {"type": "integer", "minimum": 0, "maximum": 100000, "default": 0},
          **{field: {"type": "string", "enum": list(allowed)} for field, allowed in ANALYSIS_FILTERS.items()},
      }}, "annotations": ANNOTATIONS},
-    {"name": "get_motion", "description": "Get one catalog entry, including source-based analysis, preview structure, provenance, license and code when distributable.",
+    {"name": "get_motion", "description": "Get one catalog entry with source analysis, preview, provenance, license and code. Consolidated entries include complete original variants. A former variant ID returns that original with canonicalId and variantRole when recorded. For component-part records, retrieve canonicalId for the whole effect.",
      "inputSchema": {"type": "object", "additionalProperties": False, "required": ["id"],
                      "properties": {"id": {"type": "string", "minLength": 1, "maxLength": 160}}},
      "annotations": ANNOTATIONS},

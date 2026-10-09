@@ -73,7 +73,39 @@ class Catalog:
         with closing(self.connection()) as conn:
             row = conn.execute("SELECT payload FROM items WHERE id = ? AND access = ?",
                                (item_id, "public")).fetchone()
-        return json.loads(row["payload"]) if row else None
+            if row:
+                return json.loads(row["payload"])
+            # Older local databases have no alias table. Do not hide other SQL
+            # errors, and never follow an alias recursively to another alias.
+            if not conn.execute("SELECT 1 FROM sqlite_master WHERE type = ? AND name = ?",
+                                ("table", "aliases")).fetchone():
+                return None
+            alias = conn.execute("""
+                SELECT aliases.item_id, aliases.variant_id, items.payload
+                FROM aliases JOIN items ON items.id = aliases.item_id
+                WHERE aliases.alias = ? AND items.access = ?
+            """, (item_id, "public")).fetchone()
+        if alias is None:
+            return None
+        parent = json.loads(alias["payload"])
+        variants = parent.get("variants") if isinstance(parent, dict) else None
+        if (alias["variant_id"] != item_id or alias["item_id"] == item_id
+                or not isinstance(parent, dict) or parent.get("id") != alias["item_id"]
+                or not isinstance(variants, list)):
+            raise CatalogUnavailable("Catalog alias data is inconsistent. Rebuild the catalog.")
+        matches = [variant for variant in variants
+                   if isinstance(variant, dict) and variant.get("id") == item_id]
+        if len(matches) != 1 or matches[0].get("access") != "public":
+            raise CatalogUnavailable("Catalog alias data is inconsistent. Rebuild the catalog.")
+        # Keep the original ID, code, colors, license and provenance. In
+        # particular, an old ID must not silently return its parent's code.
+        result = {**matches[0], "canonicalId": alias["item_id"]}
+        consolidation = parent.get("consolidation", {})
+        roles = consolidation.get("variantRoles", {}) if isinstance(consolidation, dict) else {}
+        role = roles.get(item_id) if isinstance(roles, dict) else None
+        if role in ("component-part", "exact-source", "motion-variant", "palette-variant"):
+            result["variantRole"] = role
+        return result
 
     def stats(self):
         with closing(self.connection()) as conn:

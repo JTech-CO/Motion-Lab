@@ -1,0 +1,4433 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-09",
+  "auditSnapshotCommit": "accd1cd",
+  "auditCatalogSha256": "1688368bafbff4df4580d83d9ce8d8b128199cd0ac99089a9765d5828a4c9ea3",
+  "auditReportSha256": "1d72f25edeb1a8684e452068375f436c44bbe7cfcd086180b90698b52cde6845",
+  "scope": "Reviewed duplicate programs, timing variants, strict palette-near connected families, and complete component compositions. Other shape/direction/author-size families remain distinct.",
+  "groups": [
+    {
+      "id": "animate-fadein",
+      "ids": [
+        "animate-fadein",
+        "vivify-fadein",
+        "wicked-fadein"
+      ],
+      "mode": "exact",
+      "expectedCodeSha256": {
+        "animate-fadein": "9f43321d2debbc6c5c065d8268e58e6debc8334cb39a0abba7e69a7c6978fbc2",
+        "vivify-fadein": "fdfc378ca6a03f9fd173fa26cd21db93fdf68e2a419add94b4d3ade7916f3d6d",
+        "wicked-fadein": "eb2a14c83a751175d9cd861d9f32d1d3800189a62d6356823b45cd32e83e4587"
+      },
+      "relations": [
+        {
+          "ids": [
+            "animate-fadein",
+            "vivify-fadein",
+            "wicked-fadein"
+          ],
+          "reason": "Same canonical CSS program and preview DOM/used variables; only comments, formatting or consistent names differ.",
+          "confidence": "high-static",
+          "evidence": {
+            "canonicalSha256": "987f736e185ee70ec8f2531e4513f3f58adaa0f5c0dc756cbbbf9bc0ff4108b5",
+            "normalizations": {
+              "animate-fadein": {
+                "classes": {
+                  "motion-sample": "c0"
+                },
+                "keyframes": {
+                  "fadeIn": "k0"
+                }
+              },
+              "vivify-fadein": {
+                "classes": {
+                  "motion-sample": "c0"
+                },
+                "keyframes": {
+                  "fadeIn": "k0"
+                }
+              },
+              "wicked-fadein": {
+                "classes": {
+                  "motion-sample": "c0"
+                },
+                "keyframes": {
+                  "fadeIn": "k0"
+                }
+              }
+            },
+            "codeSha256": {
+              "animate-fadein": "9f43321d2debbc6c5c065d8268e58e6debc8334cb39a0abba7e69a7c6978fbc2",
+              "vivify-fadein": "fdfc378ca6a03f9fd173fa26cd21db93fdf68e2a419add94b4d3ade7916f3d6d",
+              "wicked-fadein": "eb2a14c83a751175d9cd861d9f32d1d3800189a62d6356823b45cd32e83e4587"
+            }
+          },
+          "differences": [
+            {
+              "ids": [
+                "animate-fadein",
+                "vivify-fadein"
+              ],
+              "values": {}
+            },
+            {
+              "ids": [
+                "animate-fadein",
+                "wicked-fadein"
+              ],
+              "values": {}
+            }
+          ]
+        }
+      ],
+      "expectedRecordSha256": {
+        "animate-fadein": "9d3cd1538c5775abe00d3dd4254e8a36d4974fee832a6cea314227cd3f918df9",
+        "vivify-fadein": "7962fbb1d8d59b00e968c15ae916211cd7c6344ed4bfb043a30ad2aff87be5d1",
+        "wicked-fadein": "b721fcd65a5eceedc5e4754d11d4c49e0b3acf8a3670fddca73f49ffb7a462c9"
+      }
+    },
+    {
+      "id": "animate-fadeout",
+      "ids": [
+        "animate-fadeout",
+        "vivify-fadeout",
+        "wicked-fadeout"
+      ],
+      "mode": "exact",
+      "expectedCodeSha256": {
+        "animate-fadeout": "a802772a875f02f15b4d7258893dc29d5744eac103f22df84eb71fd963fe13bf",
+        "vivify-fadeout": "3786d9167ceeca5be98198ae326aed452a7cfe38f1bebe17108ec39e9db223fc",
+        "wicked-fadeout": "22a34a957a5bc7318e1b73fe29e90ea31eb7d8662dbe6bfce48b79bb5665356b"
+      },
+      "relations": [
+        {
+          "ids": [
+            "animate-fadeout",
+            "vivify-fadeout",
+            "wicked-fadeout"
+          ],
+          "reason": "Same canonical CSS program and preview DOM/used variables; only comments, formatting or consistent names differ.",
+          "confidence": "high-static",
+          "evidence": {
+            "canonicalSha256": "c083ccd032299c2c330990fe1e3a4557deecef7c987aff42e2a9c66216972c4c",
+            "normalizations": {
+              "animate-fadeout": {
+                "classes": {
+                  "motion-sample": "c0"
+                },
+                "keyframes": {
+                  "fadeOut": "k0"
+                }
+              },
+              "vivify-fadeout": {
+                "classes": {
+                  "motion-sample": "c0"
+                },
+                "keyframes": {
+                  "fadeOut": "k0"
+                }
+              },
+              "wicked-fadeout": {
+                "classes": {
+                  "motion-sample": "c0"
+                },
+                "keyframes": {
+                  "fadeOut": "k0"
+                }
+              }
+            },
+            "codeSha256": {
+              "animate-fadeout": "a802772a875f02f15b4d7258893dc29d5744eac103f22df84eb71fd963fe13bf",
+              "vivify-fadeout": "3786d9167ceeca5be98198ae326aed452a7cfe38f1bebe17108ec39e9db223fc",
+              "wicked-fadeout": "22a34a957a5bc7318e1b73fe29e90ea31eb7d8662dbe6bfce48b79bb5665356b"
+            }
+          },
+          "differences": [
+            {
+              "ids": [
+                "animate-fadeout",
+                "vivify-fadeout"
+              ],
+              "values": {}
+            },
+            {
+              "ids": [
+                "animate-fadeout",
+                "wicked-fadeout"
+              ],
+              "values": {}
+            }
+          ]
+        }
+      ],
+      "expectedRecordSha256": {
+        "animate-fadeout": "3087b1b5d43ea4125c3acce6aa3bee00c4dec72d08fb11f16a3d69788f2b6ac4",
+        "vivify-fadeout": "bb7732ef89c5c1ae808f2c6f70ae5e0a1bb0dd55c6113cc78ac4d73ca917bd52",
+        "wicked-fadeout": "61ffbd23a568bd107efb72f0fa7eb864da5b9e1f00af90582e7ea0924dcf5a54"
+      }
+    },
+    {
+      "id": "spinkit-sk-chase",
+      "ids": [
+        "spinkit-sk-chase",
+        "spinkit-sk-chase-dot",
+        "spinkit-sk-chase-dot-before"
+      ],
+      "mode": "component",
+      "expectedCodeSha256": {
+        "spinkit-sk-chase": "a50423d0aeaaea546145d6bbb8978bdaa13a66efcf4d34b35c15748f5d5a9799",
+        "spinkit-sk-chase-dot": "e697793fd86a281ce7b11cfb8b0981f909c5fb987ac2ea44a1fbf001d4a56a64",
+        "spinkit-sk-chase-dot-before": "f31e7a8c365afa6a0cb5eb7a47bed7ef867c240855f5c8716b6584b826a07ca2"
+      },
+      "relations": [
+        {
+          "ids": [
+            "spinkit-sk-chase",
+            "spinkit-sk-chase-dot",
+            "spinkit-sk-chase-dot-before"
+          ],
+          "reason": "Single-keyframe extraction omitted original child/pseudo-element geometry and timing. Restore the complete original component and absorb its separately indexed dependent keyframes.",
+          "evidence": {
+            "basis": "pinned-source-static-composition-review",
+            "sourceDom": {
+              "tag": "div",
+              "className": "sk-chase",
+              "children": [
+                {
+                  "tag": "div",
+                  "className": "sk-chase-dot"
+                },
+                {
+                  "tag": "div",
+                  "className": "sk-chase-dot"
+                },
+                {
+                  "tag": "div",
+                  "className": "sk-chase-dot"
+                },
+                {
+                  "tag": "div",
+                  "className": "sk-chase-dot"
+                },
+                {
+                  "tag": "div",
+                  "className": "sk-chase-dot"
+                },
+                {
+                  "tag": "div",
+                  "className": "sk-chase-dot"
+                }
+              ]
+            },
+            "keyframes": [
+              "sk-chase",
+              "sk-chase-dot",
+              "sk-chase-dot-before"
+            ],
+            "hostAdaptations": [],
+            "browserExecutionVerified": false,
+            "originalRootVariables": {
+              "--sk-size": "40px",
+              "--sk-color": "#333"
+            }
+          }
+        }
+      ],
+      "expectedRecordSha256": {
+        "spinkit-sk-chase": "58aeeed8fcb65015cb6abf3d7a1d196e0f6dd8564a133c5b66034f13609840d6",
+        "spinkit-sk-chase-dot": "1ede0fe1e99a3c1479e8b64423ccfda231fa3bc9542b80a5c26e3109e75cd84a",
+        "spinkit-sk-chase-dot-before": "58cfeb4698e8449b4af99ba9d029bcb58fc5cef3b4af41924e51d4ce873d9f76"
+      }
+    },
+    {
+      "id": "spinkit-sk-swing",
+      "ids": [
+        "spinkit-sk-swing",
+        "spinkit-sk-swing-dot"
+      ],
+      "mode": "component",
+      "expectedCodeSha256": {
+        "spinkit-sk-swing": "921613aca7b51042de6da8cecaf25de3e0da2ae8db2b9e001a4fb7a7fc2e8af3",
+        "spinkit-sk-swing-dot": "2d258980303d852d1a7d6df9ea76e9a073a091370000b1578cb972eb019ded32"
+      },
+      "relations": [
+        {
+          "ids": [
+            "spinkit-sk-swing",
+            "spinkit-sk-swing-dot"
+          ],
+          "reason": "Single-keyframe extraction omitted original child/pseudo-element geometry and timing. Restore the complete original component and absorb its separately indexed dependent keyframes.",
+          "evidence": {
+            "basis": "pinned-source-static-composition-review",
+            "sourceDom": {
+              "tag": "div",
+              "className": "sk-swing",
+              "children": [
+                {
+                  "tag": "div",
+                  "className": "sk-swing-dot"
+                },
+                {
+                  "tag": "div",
+                  "className": "sk-swing-dot"
+                }
+              ]
+            },
+            "keyframes": [
+              "sk-swing",
+              "sk-swing-dot"
+            ],
+            "hostAdaptations": [],
+            "browserExecutionVerified": false,
+            "originalRootVariables": {
+              "--sk-size": "40px",
+              "--sk-color": "#333"
+            }
+          }
+        }
+      ],
+      "expectedRecordSha256": {
+        "spinkit-sk-swing": "28f22c960341b9988768f68db0777d0d890d251b147c9f2e0e9a95fda9f9ff02",
+        "spinkit-sk-swing-dot": "0b4c3326182bb57bd1007954c4d1640aa9b92a75088eef88a37414771ea76277"
+      }
+    },
+    {
+      "id": "three-dots-dot-falling",
+      "ids": [
+        "three-dots-dot-falling",
+        "three-dots-dot-falling-after",
+        "three-dots-dot-falling-before"
+      ],
+      "mode": "component",
+      "expectedCodeSha256": {
+        "three-dots-dot-falling": "0d15c79f4cf85837e47381487ee9adc31c6d3e05bfd73f170b72ef80105f686f",
+        "three-dots-dot-falling-after": "a770d8ddc05a8eab98f27ed57d58e08c92ab6dced9a1bdd3aed8c238647d0388",
+        "three-dots-dot-falling-before": "95c8229a9b975766b7f9b60cf7158d8d1097aaa84e98d55c1c7d172942e57122"
+      },
+      "relations": [
+        {
+          "ids": [
+            "three-dots-dot-falling",
+            "three-dots-dot-falling-before",
+            "three-dots-dot-falling-after"
+          ],
+          "reason": "Single-keyframe extraction omitted original child/pseudo-element geometry and timing. Restore the complete original component and absorb its separately indexed dependent keyframes.",
+          "evidence": {
+            "basis": "pinned-source-static-composition-review",
+            "sourceDom": {
+              "tag": "div",
+              "className": "dot-falling"
+            },
+            "keyframes": [
+              "dot-falling",
+              "dot-falling-before",
+              "dot-falling-after"
+            ],
+            "hostAdaptations": [],
+            "browserExecutionVerified": false,
+            "apparentDotXOffsetsPx": [
+              0,
+              -15,
+              15
+            ],
+            "anchorLeftPx": -9999,
+            "sourceShadowXOffsetsPx": [
+              9999,
+              9984,
+              10014
+            ]
+          }
+        }
+      ],
+      "expectedRecordSha256": {
+        "three-dots-dot-falling": "039814cdd0e9c0524ad7bbfd8030b80f96970bae9fc9441f118e6b7a6b7a1d09",
+        "three-dots-dot-falling-after": "4769680e95651c01f4965a879273f09be3a4672694d5c0185f5bbf85a4b15f86",
+        "three-dots-dot-falling-before": "cbf2c4ea76ec56dd3b9a449c7634585802c5c73002da217d38090c352065dca6"
+      }
+    },
+    {
+      "id": "uigradients-0010",
+      "ids": [
+        "uigradients-0010",
+        "uigradients-0020"
+      ],
+      "mode": "exact",
+      "expectedCodeSha256": {
+        "uigradients-0010": "8f6c0f8982a24de0efe2111b2ede3c6eee414d11f721a16eccf0486901167123",
+        "uigradients-0020": "8f6c0f8982a24de0efe2111b2ede3c6eee414d11f721a16eccf0486901167123"
+      },
+      "relations": [
+        {
+          "ids": [
+            "uigradients-0010",
+            "uigradients-0020"
+          ],
+          "reason": "Same canonical CSS program and preview DOM/used variables; only comments, formatting or consistent names differ.",
+          "confidence": "high-static",
+          "evidence": {
+            "canonicalSha256": "7f42331667bbe7c6068cda3875620cb461d73d57a6897ca1b4dde3117f5d5f9f",
+            "normalizations": {
+              "uigradients-0010": {
+                "classes": {
+                  "motion-background": "c0"
+                },
+                "keyframes": {}
+              },
+              "uigradients-0020": {
+                "classes": {
+                  "motion-background": "c0"
+                },
+                "keyframes": {}
+              }
+            },
+            "codeSha256": {
+              "uigradients-0010": "8f6c0f8982a24de0efe2111b2ede3c6eee414d11f721a16eccf0486901167123",
+              "uigradients-0020": "8f6c0f8982a24de0efe2111b2ede3c6eee414d11f721a16eccf0486901167123"
+            }
+          },
+          "differences": [
+            {
+              "ids": [
+                "uigradients-0010",
+                "uigradients-0020"
+              ],
+              "values": {}
+            }
+          ]
+        }
+      ],
+      "expectedRecordSha256": {
+        "uigradients-0010": "c4921d05f120b042c3ebd51b31220f27fad277456c741ca2dffcd3208d445a9e",
+        "uigradients-0020": "45aa31dcf8f296934774c8c6de5200c6c0fbadb2c7dba1a447315de02c2e8800"
+      }
+    },
+    {
+      "id": "uigradients-0012",
+      "ids": [
+        "uigradients-0012",
+        "uigradients-0021"
+      ],
+      "mode": "exact",
+      "expectedCodeSha256": {
+        "uigradients-0012": "488e31e4a1e9ee87a8fc8ac2738e2c440586ae6cbdb64eb4e3de81465c460fd4",
+        "uigradients-0021": "488e31e4a1e9ee87a8fc8ac2738e2c440586ae6cbdb64eb4e3de81465c460fd4"
+      },
+      "relations": [
+        {
+          "ids": [
+            "uigradients-0012",
+            "uigradients-0021"
+          ],
+          "reason": "Same canonical CSS program and preview DOM/used variables; only comments, formatting or consistent names differ.",
+          "confidence": "high-static",
+          "evidence": {
+            "canonicalSha256": "240fdded7419a5d0d67895a66bfa9db3fca75ab82f7307188d00e9196ff92db1",
+            "normalizations": {
+              "uigradients-0012": {
+                "classes": {
+                  "motion-background": "c0"
+                },
+                "keyframes": {}
+              },
+              "uigradients-0021": {
+                "classes": {
+                  "motion-background": "c0"
+                },
+                "keyframes": {}
+              }
+            },
+            "codeSha256": {
+              "uigradients-0012": "488e31e4a1e9ee87a8fc8ac2738e2c440586ae6cbdb64eb4e3de81465c460fd4",
+              "uigradients-0021": "488e31e4a1e9ee87a8fc8ac2738e2c440586ae6cbdb64eb4e3de81465c460fd4"
+            }
+          },
+          "differences": [
+            {
+              "ids": [
+                "uigradients-0012",
+                "uigradients-0021"
+              ],
+              "values": {}
+            }
+          ]
+        }
+      ],
+      "expectedRecordSha256": {
+        "uigradients-0012": "f315821622880d29fcf745a6e47a29c17650786dce08233da466f10c9e23e48d",
+        "uigradients-0021": "a0e0eef2da140af2d0f1716594d9d9e65d04a46de28b6fd605ff193adfea77b3"
+      }
+    },
+    {
+      "id": "uigradients-0034",
+      "ids": [
+        "uigradients-0034",
+        "uigradients-0343"
+      ],
+      "mode": "exact",
+      "expectedCodeSha256": {
+        "uigradients-0034": "27632978346c9639e8a70e5f80a2b6cbae806356e8c8dd63bfacd3b0dc343eae",
+        "uigradients-0343": "27632978346c9639e8a70e5f80a2b6cbae806356e8c8dd63bfacd3b0dc343eae"
+      },
+      "relations": [
+        {
+          "ids": [
+            "uigradients-0034",
+            "uigradients-0343"
+          ],
+          "reason": "Same canonical CSS program and preview DOM/used variables; only comments, formatting or consistent names differ.",
+          "confidence": "high-static",
+          "evidence": {
+            "canonicalSha256": "fd5be72223aa0100faee340203792c95f104bd42d71c9d206c2a687d09e7eb53",
+            "normalizations": {
+              "uigradients-0034": {
+                "classes": {
+                  "motion-background": "c0"
+                },
+                "keyframes": {}
+              },
+              "uigradients-0343": {
+                "classes": {
+                  "motion-background": "c0"
+                },
+                "keyframes": {}
+              }
+            },
+            "codeSha256": {
+              "uigradients-0034": "27632978346c9639e8a70e5f80a2b6cbae806356e8c8dd63bfacd3b0dc343eae",
+              "uigradients-0343": "27632978346c9639e8a70e5f80a2b6cbae806356e8c8dd63bfacd3b0dc343eae"
+            }
+          },
+          "differences": [
+            {
+              "ids": [
+                "uigradients-0034",
+                "uigradients-0343"
+              ],
+              "values": {}
+            }
+          ]
+        }
+      ],
+      "expectedRecordSha256": {
+        "uigradients-0034": "6959075282d4dfa479a69f4c9f19097524cf984345acbbc577b264ef87cde519",
+        "uigradients-0343": "b94d90009741a3e98b332cbcfd98cd226e7de4c1974ca5f14113eb606f438616"
+      }
+    },
+    {
+      "id": "uigradients-0155",
+      "ids": [
+        "uigradients-0155",
+        "uigradients-0344"
+      ],
+      "mode": "exact",
+      "expectedCodeSha256": {
+        "uigradients-0155": "82eeb56050140a03ea5197df76303ffe7e7be5acced6808a8f4ed12f964f49c5",
+        "uigradients-0344": "82eeb56050140a03ea5197df76303ffe7e7be5acced6808a8f4ed12f964f49c5"
+      },
+      "relations": [
+        {
+          "ids": [
+            "uigradients-0155",
+            "uigradients-0344"
+          ],
+          "reason": "Same canonical CSS program and preview DOM/used variables; only comments, formatting or consistent names differ.",
+          "confidence": "high-static",
+          "evidence": {
+            "canonicalSha256": "632067241d38e60a3ceb2ac92a3e8a936cc76624bdc22a92b7880d262559293e",
+            "normalizations": {
+              "uigradients-0155": {
+                "classes": {
+                  "motion-background": "c0"
+                },
+                "keyframes": {}
+              },
+              "uigradients-0344": {
+                "classes": {
+                  "motion-background": "c0"
+                },
+                "keyframes": {}
+              }
+            },
+            "codeSha256": {
+              "uigradients-0155": "82eeb56050140a03ea5197df76303ffe7e7be5acced6808a8f4ed12f964f49c5",
+              "uigradients-0344": "82eeb56050140a03ea5197df76303ffe7e7be5acced6808a8f4ed12f964f49c5"
+            }
+          },
+          "differences": [
+            {
+              "ids": [
+                "uigradients-0155",
+                "uigradients-0344"
+              ],
+              "values": {}
+            }
+          ]
+        }
+      ],
+      "expectedRecordSha256": {
+        "uigradients-0155": "9815bed542359e686db5c5716407518b308b8a1acbd2bcf7fac8cdbc95d1811f",
+        "uigradients-0344": "cff11b04749353f840e2ea063a3cd6003c5954335310d07c33df040dff3a5274"
+      }
+    },
+    {
+      "id": "uigradients-0216",
+      "ids": [
+        "uigradients-0216",
+        "uigradients-0345"
+      ],
+      "mode": "exact",
+      "expectedCodeSha256": {
+        "uigradients-0216": "cc475a42070501098f89cb04f9270a36384e0f43bbd1184c41f781860a813efa",
+        "uigradients-0345": "cc475a42070501098f89cb04f9270a36384e0f43bbd1184c41f781860a813efa"
+      },
+      "relations": [
+        {
+          "ids": [
+            "uigradients-0216",
+            "uigradients-0345"
+          ],
+          "reason": "Same canonical CSS program and preview DOM/used variables; only comments, formatting or consistent names differ.",
+          "confidence": "high-static",
+          "evidence": {
+            "canonicalSha256": "37860d48a6cfd26fc70f080160237ad7f71f850db6debcb79dfba7d4ba8bfe99",
+            "normalizations": {
+              "uigradients-0216": {
+                "classes": {
+                  "motion-background": "c0"
+                },
+                "keyframes": {}
+              },
+              "uigradients-0345": {
+                "classes": {
+                  "motion-background": "c0"
+                },
+                "keyframes": {}
+              }
+            },
+            "codeSha256": {
+              "uigradients-0216": "cc475a42070501098f89cb04f9270a36384e0f43bbd1184c41f781860a813efa",
+              "uigradients-0345": "cc475a42070501098f89cb04f9270a36384e0f43bbd1184c41f781860a813efa"
+            }
+          },
+          "differences": [
+            {
+              "ids": [
+                "uigradients-0216",
+                "uigradients-0345"
+              ],
+              "values": {}
+            }
+          ]
+        }
+      ],
+      "expectedRecordSha256": {
+        "uigradients-0216": "d80fba9651bd3bd6efab624553015df98315c648d28ad0a970f205cf7442c62e",
+        "uigradients-0345": "a2ca5f099e37f5e886adf88302a1ce0b51b3a8437068b3cd72f285c0e6bff0b8"
+      }
+    },
+    {
+      "id": "nice-colors-0141",
+      "ids": [
+        "nice-colors-0141",
+        "nice-colors-0494"
+      ],
+      "mode": "palette",
+      "expectedCodeSha256": {
+        "nice-colors-0141": "cc6ac18e67263ec3a1c89976c8b2c099e6f50e60a6b61892298e168998c7e474",
+        "nice-colors-0494": "2d20558cd137c046aa8f51bf8e4fb93810c299ba94bda862e7c35b17bfab076a"
+      },
+      "relations": [
+        {
+          "ids": [
+            "nice-colors-0141",
+            "nice-colors-0494"
+          ],
+          "reason": "strict-perceptual-near-ordered-colors",
+          "evidence": {
+            "metric": "Euclidean OKLab * 100",
+            "meanWorstBackground": 0.9846080278374663,
+            "maxWorstBackground": 1.3453238620151986,
+            "blackMean": 0.9846080278374633,
+            "blackMax": 1.3453238620151986,
+            "whiteMean": 0.9846080278374663,
+            "whiteMax": 1.3453238620151986,
+            "matchingRightIndices": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "perColorWorstBackground": [
+              0.47130364253530554,
+              0.8150105928806948,
+              1.3453238620151986,
+              1.1372151222627613,
+              1.1541869194933707
+            ],
+            "palettes": [
+              {
+                "id": "nice-colors-0141",
+                "sourceName": "Nice Color Palettes",
+                "sourceUrl": "https://github.com/Jam3/nice-color-palettes/blob/dd4118fb4b617f5647e1e5add907685e936e05ff/1000.json",
+                "originalColors": [
+                  "#ffab07",
+                  "#e9d558",
+                  "#72ad75",
+                  "#0e8d94",
+                  "#434d53"
+                ],
+                "canonicalRGBA": [
+                  "#ffab07ff",
+                  "#e9d558ff",
+                  "#72ad75ff",
+                  "#0e8d94ff",
+                  "#434d53ff"
+                ],
+                "orderedColorSha256": "c115fc46256c43a677ac2aece2556887109adef84eb927d693a05b22672b1dcb"
+              },
+              {
+                "id": "nice-colors-0494",
+                "sourceName": "Nice Color Palettes",
+                "sourceUrl": "https://github.com/Jam3/nice-color-palettes/blob/dd4118fb4b617f5647e1e5add907685e936e05ff/1000.json",
+                "originalColors": [
+                  "#ffad08",
+                  "#edd75a",
+                  "#73b06f",
+                  "#0c8f8f",
+                  "#405059"
+                ],
+                "canonicalRGBA": [
+                  "#ffad08ff",
+                  "#edd75aff",
+                  "#73b06fff",
+                  "#0c8f8fff",
+                  "#405059ff"
+                ],
+                "orderedColorSha256": "1720680dd52b9e2536594c43a039cb5bc02f56238c81bfcc15df83fd2da54cb8"
+              }
+            ]
+          },
+          "confidence": "high",
+          "differences": {
+            "orderPreserved": true,
+            "alphaPreserved": true,
+            "notIdenticalColorValues": true
+          }
+        }
+      ],
+      "expectedRecordSha256": {
+        "nice-colors-0141": "f4aae025a49c506b6e5c5b10e0ffc2e65146d49e8243cef3275753274f4c7b34",
+        "nice-colors-0494": "bb87f8d47d87d461376f5408df4d9347c01e034c521b3702ee44ee3bbd853669"
+      }
+    },
+    {
+      "id": "nice-colors-0192",
+      "ids": [
+        "nice-colors-0192",
+        "nice-colors-0378"
+      ],
+      "mode": "palette",
+      "expectedCodeSha256": {
+        "nice-colors-0192": "0e304045d76848e537b862cd8a4c7a105795adf99a66a2c6fd8520ce5e2ed0f4",
+        "nice-colors-0378": "5b3436e52f1fffa72656302bd66aa6fba8fb929f45245a392ae2889877e8ce5c"
+      },
+      "relations": [
+        {
+          "ids": [
+            "nice-colors-0192",
+            "nice-colors-0378"
+          ],
+          "reason": "strict-perceptual-near-reversed-colors",
+          "evidence": {
+            "metric": "Euclidean OKLab * 100",
+            "meanWorstBackground": 0.15453451089230036,
+            "maxWorstBackground": 0.27160343245087576,
+            "blackMean": 0.1545345108922964,
+            "blackMax": 0.27160343245087576,
+            "whiteMean": 0.15453451089229758,
+            "whiteMax": 0.27160343245087576,
+            "matchingRightIndices": [
+              4,
+              3,
+              2,
+              1,
+              0
+            ],
+            "perColorWorstBackground": [
+              0.0,
+              0.1594963323418128,
+              0.09678270483593919,
+              0.27160343245087576,
+              0.2447900848328741
+            ],
+            "palettes": [
+              {
+                "id": "nice-colors-0192",
+                "sourceName": "Nice Color Palettes",
+                "sourceUrl": "https://github.com/Jam3/nice-color-palettes/blob/dd4118fb4b617f5647e1e5add907685e936e05ff/1000.json",
+                "originalColors": [
+                  "#641f5e",
+                  "#676077",
+                  "#65ac92",
+                  "#c2c092",
+                  "#edd48e"
+                ],
+                "canonicalRGBA": [
+                  "#641f5eff",
+                  "#676077ff",
+                  "#65ac92ff",
+                  "#c2c092ff",
+                  "#edd48eff"
+                ],
+                "orderedColorSha256": "affdfa9a67559a83d6eabf2cc6a6846e7c757908e19ddb2c5cabc75cabfb7032"
+              },
+              {
+                "id": "nice-colors-0378",
+                "sourceName": "Nice Color Palettes",
+                "sourceUrl": "https://github.com/Jam3/nice-color-palettes/blob/dd4118fb4b617f5647e1e5add907685e936e05ff/1000.json",
+                "originalColors": [
+                  "#edd58f",
+                  "#c2bf92",
+                  "#66ac92",
+                  "#686077",
+                  "#641f5e"
+                ],
+                "canonicalRGBA": [
+                  "#edd58fff",
+                  "#c2bf92ff",
+                  "#66ac92ff",
+                  "#686077ff",
+                  "#641f5eff"
+                ],
+                "orderedColorSha256": "c5f765eee998cf982f7b4e5e00c6ea8eefc0189312ba4852fd908e4dc90c36cf"
+              }
+            ]
+          },
+          "confidence": "high",
+          "differences": {
+            "orderReversed": true,
+            "orderIsSemanticallySignificant": true,
+            "notAutomaticDuplicate": true
+          }
+        }
+      ],
+      "expectedRecordSha256": {
+        "nice-colors-0192": "06af3273b0cf992b157cff41a3db66090b620666685d29726dcacc522d6b690a",
+        "nice-colors-0378": "6ea8386f21bb07d7bd5ea2a26be3ab6484571f57563bce0468435aa6f43e4c3d"
+      }
+    },
+    {
+      "id": "vector-sds-motion-forge-sds-scroll-stagger-grid",
+      "ids": [
+        "vector-sds-motion-forge-sds-scroll-stagger-grid",
+        "vector-sds-motion-forge-sds-scroll-wave-rise"
+      ],
+      "mode": "motion",
+      "expectedCodeSha256": {
+        "vector-sds-motion-forge-sds-scroll-stagger-grid": "29870f3f08f9c8ce7bbb5bae7861a79c11957ce2aa23f0572791c2236b2b4ae1",
+        "vector-sds-motion-forge-sds-scroll-wave-rise": "1683a1287f5419236c47131db4061c8b7616f906e756395f51233b76d2d965d0"
+      },
+      "relations": [
+        {
+          "ids": [
+            "vector-sds-motion-forge-sds-scroll-stagger-grid",
+            "vector-sds-motion-forge-sds-scroll-wave-rise"
+          ],
+          "reason": "Full CSS/DOM/geometry match after masking only duration, delay, easing and interior frame offsets; endpoint anchors, direction, iteration and triggers remain.",
+          "confidence": "high-static",
+          "evidence": {
+            "timelessSha256": "49fe9b235ee0dcf6e15c6c49692dcbedaf92b52cd9394eeaec5b1918f935464d",
+            "codeSha256": {
+              "vector-sds-motion-forge-sds-scroll-stagger-grid": "29870f3f08f9c8ce7bbb5bae7861a79c11957ce2aa23f0572791c2236b2b4ae1",
+              "vector-sds-motion-forge-sds-scroll-wave-rise": "1683a1287f5419236c47131db4061c8b7616f906e756395f51233b76d2d965d0"
+            }
+          },
+          "differences": [
+            {
+              "ids": [
+                "vector-sds-motion-forge-sds-scroll-stagger-grid",
+                "vector-sds-motion-forge-sds-scroll-wave-rise"
+              ],
+              "values": {
+                "timing": {
+                  "vector-sds-motion-forge-sds-scroll-stagger-grid": [
+                    {
+                      "selector": ".sds-scroll-stagger-grid > *",
+                      "property": "animation",
+                      "value": "sds-viewportRise 0.6s var(--sds-easing) both"
+                    },
+                    {
+                      "selector": ".sds-scroll-stagger-grid > *:nth-child(1)",
+                      "property": "animation-delay",
+                      "value": "0s"
+                    },
+                    {
+                      "selector": ".sds-scroll-stagger-grid > *:nth-child(2)",
+                      "property": "animation-delay",
+                      "value": "0.08s"
+                    },
+                    {
+                      "selector": ".sds-scroll-stagger-grid > *:nth-child(3)",
+                      "property": "animation-delay",
+                      "value": "0.16s"
+                    },
+                    {
+                      "selector": ".sds-scroll-stagger-grid > *:nth-child(4)",
+                      "property": "animation-delay",
+                      "value": "0.24s"
+                    },
+                    {
+                      "selector": ".sds-scroll-stagger-grid > *:nth-child(5)",
+                      "property": "animation-delay",
+                      "value": "0.32s"
+                    },
+                    {
+                      "selector": ".sds-scroll-stagger-grid > *:nth-child(6)",
+                      "property": "animation-delay",
+                      "value": "0.4s"
+                    },
+                    {
+                      "selector": ".sds-scroll-stagger-grid > *:nth-child(7)",
+                      "property": "animation-delay",
+                      "value": "0.48s"
+                    },
+                    {
+                      "selector": ".sds-scroll-stagger-grid > *:nth-child(8)",
+                      "property": "animation-delay",
+                      "value": "0.56s"
+                    },
+                    {
+                      "selector": ".sds-scroll-stagger-grid > *:nth-child(9)",
+                      "property": "animation-delay",
+                      "value": "0.64s"
+                    },
+                    {
+                      "selector": ".sds-scroll-stagger-grid > *:nth-child(10)",
+                      "property": "animation-delay",
+                      "value": "0.72s"
+                    },
+                    {
+                      "selector": ".sds-scroll-stagger-grid > *:nth-child(11)",
+                      "property": "animation-delay",
+                      "value": "0.8s"
+                    },
+                    {
+                      "selector": ".sds-scroll-stagger-grid > *:nth-child(12)",
+                      "property": "animation-delay",
+                      "value": "0.88s"
+                    }
+                  ],
+                  "vector-sds-motion-forge-sds-scroll-wave-rise": [
+                    {
+                      "selector": ".sds-scroll-wave-rise > *",
+                      "property": "animation",
+                      "value": "sds-viewportRise 0.7s var(--sds-easing) both"
+                    },
+                    {
+                      "selector": ".sds-scroll-wave-rise > *:nth-child(1)",
+                      "property": "animation-delay",
+                      "value": "0s"
+                    },
+                    {
+                      "selector": ".sds-scroll-wave-rise > *:nth-child(2)",
+                      "property": "animation-delay",
+                      "value": "0.08s"
+                    },
+                    {
+                      "selector": ".sds-scroll-wave-rise > *:nth-child(3)",
+                      "property": "animation-delay",
+                      "value": "0.16s"
+                    },
+                    {
+                      "selector": ".sds-scroll-wave-rise > *:nth-child(4)",
+                      "property": "animation-delay",
+                      "value": "0.24s"
+                    },
+                    {
+                      "selector": ".sds-scroll-wave-rise > *:nth-child(5)",
+                      "property": "animation-delay",
+                      "value": "0.32s"
+                    },
+                    {
+                      "selector": ".sds-scroll-wave-rise > *:nth-child(6)",
+                      "property": "animation-delay",
+                      "value": "0.4s"
+                    },
+                    {
+                      "selector": ".sds-scroll-wave-rise > *:nth-child(7)",
+                      "property": "animation-delay",
+                      "value": "0.48s"
+                    },
+                    {
+                      "selector": ".sds-scroll-wave-rise > *:nth-child(8)",
+                      "property": "animation-delay",
+                      "value": "0.56s"
+                    },
+                    {
+                      "selector": ".sds-scroll-wave-rise > *:nth-child(9)",
+                      "property": "animation-delay",
+                      "value": "0.64s"
+                    },
+                    {
+                      "selector": ".sds-scroll-wave-rise > *:nth-child(10)",
+                      "property": "animation-delay",
+                      "value": "0.72s"
+                    },
+                    {
+                      "selector": ".sds-scroll-wave-rise > *:nth-child(11)",
+                      "property": "animation-delay",
+                      "value": "0.8s"
+                    },
+                    {
+                      "selector": ".sds-scroll-wave-rise > *:nth-child(12)",
+                      "property": "animation-delay",
+                      "value": "0.88s"
+                    }
+                  ]
+                },
+                "dom": {
+                  "vector-sds-motion-forge-sds-scroll-stagger-grid": {
+                    "mode": "source-dom",
+                    "dom": {
+                      "tag": "div",
+                      "className": "sds-scroll-stagger-grid",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "text": "One"
+                        },
+                        {
+                          "tag": "div",
+                          "text": "Two"
+                        },
+                        {
+                          "tag": "div",
+                          "text": "Three"
+                        }
+                      ]
+                    }
+                  },
+                  "vector-sds-motion-forge-sds-scroll-wave-rise": {
+                    "mode": "source-dom",
+                    "dom": {
+                      "tag": "div",
+                      "className": "sds-scroll-wave-rise",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "text": "One"
+                        },
+                        {
+                          "tag": "div",
+                          "text": "Two"
+                        },
+                        {
+                          "tag": "div",
+                          "text": "Three"
+                        }
+                      ]
+                    }
+                  }
+                },
+                "wrappers": {
+                  "vector-sds-motion-forge-sds-scroll-stagger-grid": [
+                    {
+                      "selector": ":root",
+                      "canonicalSelector": ":root",
+                      "declarations": [
+                        [
+                          "--sds-ease-standard",
+                          "cubic-bezier(0.22, 1, 0.36, 1)"
+                        ],
+                        [
+                          "--sds-easing",
+                          "var(--sds-ease-standard, cubic-bezier(0.22, 1, 0.36, 1))"
+                        ]
+                      ]
+                    },
+                    {
+                      "selector": ".sds-scroll-stagger-grid > *",
+                      "canonicalSelector": ".c0>*",
+                      "declarations": [
+                        [
+                          "animation",
+                          "sds-viewportRise 0.6s var(--sds-easing) both"
+                        ]
+                      ]
+                    },
+                    {
+                      "selector": ".sds-scroll-stagger-grid > *:nth-child(1)",
+                      "canonicalSelector": ".c0>*:nth-child(1)",
+                      "declarations": [
+                        [
+                          "animation-delay",
+                          "0s"
+                        ]
+                      ]
+                    },
+                    {
+                      "selector": ".sds-scroll-stagger-grid > *:nth-child(2)",
+                      "canonicalSelector": ".c0>*:nth-child(2)",
+                      "declarations": [
+                        [
+                          "animation-delay",
+                          "0.08s"
+                        ]
+                      ]
+                    },
+                    {
+                      "selector": ".sds-scroll-stagger-grid > *:nth-child(3)",
+                      "canonicalSelector": ".c0>*:nth-child(3)",
+                      "declarations": [
+                        [
+                          "animation-delay",
+                          "0.16s"
+                        ]
+                      ]
+                    },
+                    {
+                      "selector": ".sds-scroll-stagger-grid > *:nth-child(4)",
+                      "canonicalSelector": ".c0>*:nth-child(4)",
+                      "declarations": [
+                        [
+                          "animation-delay",
+                          "0.24s"
+                        ]
+                      ]
+                    },
+                    {
+                      "selector": ".sds-scroll-stagger-grid > *:nth-child(5)",
+                      "canonicalSelector": ".c0>*:nth-child(5)",
+                      "declarations": [
+                        [
+                          "animation-delay",
+                          "0.32s"
+                        ]
+                      ]
+                    },
+                    {
+                      "selector": ".sds-scroll-stagger-grid > *:nth-child(6)",
+                      "canonicalSelector": ".c0>*:nth-child(6)",
+                      "declarations": [
+                        [
+                          "animation-delay",
+                          "0.4s"
+                        ]
+                      ]
+                    },
+                    {
+                      "selector": ".sds-scroll-stagger-grid > *:nth-child(7)",
+                      "canonicalSelector": ".c0>*:nth-child(7)",
+                      "declarations": [
+                        [
+                          "animation-delay",
+                          "0.48s"
+                        ]
+                      ]
+                    },
+                    {
+                      "selector": ".sds-scroll-stagger-grid > *:nth-child(8)",
+                      "canonicalSelector": ".c0>*:nth-child(8)",
+                      "declarations": [
+                        [
+                          "animation-delay",
+                          "0.56s"
+                        ]
+                      ]
+                    },
+                    {
+                      "selector": ".sds-scroll-stagger-grid > *:nth-child(9)",
+                      "canonicalSelector": ".c0>*:nth-child(9)",
+                      "declarations": [
+                        [
+                          "animation-delay",
+                          "0.64s"
+                        ]
+                      ]
+                    },
+                    {
+                      "selector": ".sds-scroll-stagger-grid > *:nth-child(10)",
+                      "canonicalSelector": ".c0>*:nth-child(10)",
+                      "declarations": [
+                        [
+                          "animation-delay",
+                          "0.72s"
+                        ]
+                      ]
+                    },
+                    {
+                      "selector": ".sds-scroll-stagger-grid > *:nth-child(11)",
+                      "canonicalSelector": ".c0>*:nth-child(11)",
+                      "declarations": [
+                        [
+                          "animation-delay",
+                          "0.8s"
+                        ]
+                      ]
+                    },
+                    {
+                      "selector": ".sds-scroll-stagger-grid > *:nth-child(12)",
+                      "canonicalSelector": ".c0>*:nth-child(12)",
+                      "declarations": [
+                        [
+                          "animation-delay",
+                          "0.88s"
+                        ]
+                      ]
+                    }
+                  ],
+                  "vector-sds-motion-forge-sds-scroll-wave-rise": [
+                    {
+                      "selector": ":root",
+                      "canonicalSelector": ":root",
+                      "declarations": [
+                        [
+                          "--sds-ease-standard",
+                          "cubic-bezier(0.22, 1, 0.36, 1)"
+                        ],
+                        [
+                          "--sds-easing",
+                          "var(--sds-ease-standard, cubic-bezier(0.22, 1, 0.36, 1))"
+                        ]
+                      ]
+                    },
+                    {
+                      "selector": ".sds-scroll-wave-rise > *",
+                      "canonicalSelector": ".c0>*",
+                      "declarations": [
+                        [
+                          "animation",
+                          "sds-viewportRise 0.7s var(--sds-easing) both"
+                        ]
+                      ]
+                    },
+                    {
+                      "selector": ".sds-scroll-wave-rise > *:nth-child(1)",
+                      "canonicalSelector": ".c0>*:nth-child(1)",
+                      "declarations": [
+                        [
+                          "animation-delay",
+                          "0s"
+                        ]
+                      ]
+                    },
+                    {
+                      "selector": ".sds-scroll-wave-rise > *:nth-child(2)",
+                      "canonicalSelector": ".c0>*:nth-child(2)",
+                      "declarations": [
+                        [
+                          "animation-delay",
+                          "0.08s"
+                        ]
+                      ]
+                    },
+                    {
+                      "selector": ".sds-scroll-wave-rise > *:nth-child(3)",
+                      "canonicalSelector": ".c0>*:nth-child(3)",
+                      "declarations": [
+                        [
+                          "animation-delay",
+                          "0.16s"
+                        ]
+                      ]
+                    },
+                    {
+                      "selector": ".sds-scroll-wave-rise > *:nth-child(4)",
+                      "canonicalSelector": ".c0>*:nth-child(4)",
+                      "declarations": [
+                        [
+                          "animation-delay",
+                          "0.24s"
+                        ]
+                      ]
+                    },
+                    {
+                      "selector": ".sds-scroll-wave-rise > *:nth-child(5)",
+                      "canonicalSelector": ".c0>*:nth-child(5)",
+                      "declarations": [
+                        [
+                          "animation-delay",
+                          "0.32s"
+                        ]
+                      ]
+                    },
+                    {
+                      "selector": ".sds-scroll-wave-rise > *:nth-child(6)",
+                      "canonicalSelector": ".c0>*:nth-child(6)",
+                      "declarations": [
+                        [
+                          "animation-delay",
+                          "0.4s"
+                        ]
+                      ]
+                    },
+                    {
+                      "selector": ".sds-scroll-wave-rise > *:nth-child(7)",
+                      "canonicalSelector": ".c0>*:nth-child(7)",
+                      "declarations": [
+                        [
+                          "animation-delay",
+                          "0.48s"
+                        ]
+                      ]
+                    },
+                    {
+                      "selector": ".sds-scroll-wave-rise > *:nth-child(8)",
+                      "canonicalSelector": ".c0>*:nth-child(8)",
+                      "declarations": [
+                        [
+                          "animation-delay",
+                          "0.56s"
+                        ]
+                      ]
+                    },
+                    {
+                      "selector": ".sds-scroll-wave-rise > *:nth-child(9)",
+                      "canonicalSelector": ".c0>*:nth-child(9)",
+                      "declarations": [
+                        [
+                          "animation-delay",
+                          "0.64s"
+                        ]
+                      ]
+                    },
+                    {
+                      "selector": ".sds-scroll-wave-rise > *:nth-child(10)",
+                      "canonicalSelector": ".c0>*:nth-child(10)",
+                      "declarations": [
+                        [
+                          "animation-delay",
+                          "0.72s"
+                        ]
+                      ]
+                    },
+                    {
+                      "selector": ".sds-scroll-wave-rise > *:nth-child(11)",
+                      "canonicalSelector": ".c0>*:nth-child(11)",
+                      "declarations": [
+                        [
+                          "animation-delay",
+                          "0.8s"
+                        ]
+                      ]
+                    },
+                    {
+                      "selector": ".sds-scroll-wave-rise > *:nth-child(12)",
+                      "canonicalSelector": ".c0>*:nth-child(12)",
+                      "declarations": [
+                        [
+                          "animation-delay",
+                          "0.88s"
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "expectedRecordSha256": {
+        "vector-sds-motion-forge-sds-scroll-stagger-grid": "32c25ffa37fdad4472dcec86ab8c1af6440c729910624b897ac6e4ce1a0b88ae",
+        "vector-sds-motion-forge-sds-scroll-wave-rise": "8bc6457db17e4c0ee2f80d268c95c135d635e122b46a33a27592b2bd7da72e0a"
+      }
+    },
+    {
+      "id": "vector-svg-spinners-pulse-3",
+      "ids": [
+        "vector-svg-spinners-pulse-3",
+        "vector-svg-spinners-pulse-multiple"
+      ],
+      "mode": "motion",
+      "expectedCodeSha256": {
+        "vector-svg-spinners-pulse-3": "13245f3a1518cbbe8454d16822ee235ade44e433a0639382a81b01e1f999bbd9",
+        "vector-svg-spinners-pulse-multiple": "7c1803f35bb5abea545129de33229a7bb23488495467baff6ca6d8cd7b07c3af"
+      },
+      "relations": [
+        {
+          "confidence": "high",
+          "differences": [
+            {
+              "left": "0;svg_id_2.begin+0.4s",
+              "location": "svg/0/0/@begin",
+              "right": "0;svg_id_2.end"
+            },
+            {
+              "left": "0;svg_id_2.begin+0.4s",
+              "location": "svg/0/1/@begin",
+              "right": "0;svg_id_2.end"
+            },
+            {
+              "left": "svg_id_0.begin+0.4s",
+              "location": "svg/1/0/@begin",
+              "right": "svg_id_0.begin+0.2s"
+            },
+            {
+              "left": "svg_id_0.begin+0.4s",
+              "location": "svg/1/1/@begin",
+              "right": "svg_id_0.begin+0.2s"
+            },
+            {
+              "left": "svg_id_0.begin+0.8s",
+              "location": "svg/2/0/@begin",
+              "right": "svg_id_0.begin+0.4s"
+            },
+            {
+              "left": "svg_id_0.begin+0.8s",
+              "location": "svg/2/1/@begin",
+              "right": "svg_id_0.begin+0.4s"
+            }
+          ],
+          "evidence": {
+            "codeSha256": [
+              "13245f3a1518cbbe8454d16822ee235ade44e433a0639382a81b01e1f999bbd9",
+              "7c1803f35bb5abea545129de33229a7bb23488495467baff6ca6d8cd7b07c3af"
+            ],
+            "confidenceScope": "Structural equality after timing removal; not perceptual equality.",
+            "largeSpeedDifference": false,
+            "maxDurationRatio": null,
+            "renderedComparison": false,
+            "reviewJudgment": "Retain as a timing/rhythm variant; optionally group for exploration. No automatic removal.",
+            "timingIndependentSha256": "3831889f593095cf7a6afdbcf749d383e57f25bec1631b42172bb6469cb3570c"
+          },
+          "ids": [
+            "vector-svg-spinners-pulse-3",
+            "vector-svg-spinners-pulse-multiple"
+          ],
+          "reason": "Identical geometry, paint, initial state, animation targets and value sequences; only SVG timing parameters differ. Event-based begin/end changes can alter restart, overlap and rhythm; the timelines are not identical."
+        }
+      ],
+      "expectedRecordSha256": {
+        "vector-svg-spinners-pulse-3": "1d163693b6732d05e44ef78aa4a615f7a9423c24aedc10699eab97c2805da163",
+        "vector-svg-spinners-pulse-multiple": "688c163fae8c60a158f7be9edc753b91c06104c6a52d73231cead26d005b0b5a"
+      }
+    },
+    {
+      "id": "vector-svg-spinners-pulse-rings-3",
+      "ids": [
+        "vector-svg-spinners-pulse-rings-3",
+        "vector-svg-spinners-pulse-rings-multiple"
+      ],
+      "mode": "motion",
+      "expectedCodeSha256": {
+        "vector-svg-spinners-pulse-rings-3": "67d8449fc4e6687eb5052ad043e23ab11b92d86e9493ab08e4aaa5b81e3e3193",
+        "vector-svg-spinners-pulse-rings-multiple": "7ca954d789998d62f4663ebd5b5435be166b217b0d0442f3c9d4eb4162c0263e"
+      },
+      "relations": [
+        {
+          "confidence": "high",
+          "differences": [
+            {
+              "left": "0;svg_id_2.begin+0.4s",
+              "location": "svg/0/0/@begin",
+              "right": "0;svg_id_2.end"
+            },
+            {
+              "left": "0;svg_id_2.begin+0.4s",
+              "location": "svg/0/1/@begin",
+              "right": "0;svg_id_2.end"
+            },
+            {
+              "left": "0;svg_id_2.begin+0.4s",
+              "location": "svg/0/2/@begin",
+              "right": "0;svg_id_2.end"
+            },
+            {
+              "left": "svg_id_0.begin+0.4s",
+              "location": "svg/1/0/@begin",
+              "right": "svg_id_0.begin+0.2s"
+            },
+            {
+              "left": "svg_id_0.begin+0.4s",
+              "location": "svg/1/1/@begin",
+              "right": "svg_id_0.begin+0.2s"
+            },
+            {
+              "left": "svg_id_0.begin+0.4s",
+              "location": "svg/1/2/@begin",
+              "right": "svg_id_0.begin+0.2s"
+            },
+            {
+              "left": "svg_id_0.begin+0.8s",
+              "location": "svg/2/0/@begin",
+              "right": "svg_id_0.begin+0.4s"
+            },
+            {
+              "left": "svg_id_0.begin+0.8s",
+              "location": "svg/2/1/@begin",
+              "right": "svg_id_0.begin+0.4s"
+            },
+            {
+              "left": "svg_id_0.begin+0.8s",
+              "location": "svg/2/2/@begin",
+              "right": "svg_id_0.begin+0.4s"
+            }
+          ],
+          "evidence": {
+            "codeSha256": [
+              "67d8449fc4e6687eb5052ad043e23ab11b92d86e9493ab08e4aaa5b81e3e3193",
+              "7ca954d789998d62f4663ebd5b5435be166b217b0d0442f3c9d4eb4162c0263e"
+            ],
+            "confidenceScope": "Structural equality after timing removal; not perceptual equality.",
+            "largeSpeedDifference": false,
+            "maxDurationRatio": null,
+            "renderedComparison": false,
+            "reviewJudgment": "Retain as a timing/rhythm variant; optionally group for exploration. No automatic removal.",
+            "timingIndependentSha256": "a828de42b113d1f97a25aca9210e135190c204962974aa4dc833464d9632525a"
+          },
+          "ids": [
+            "vector-svg-spinners-pulse-rings-3",
+            "vector-svg-spinners-pulse-rings-multiple"
+          ],
+          "reason": "Identical geometry, paint, initial state, animation targets and value sequences; only SVG timing parameters differ. Event-based begin/end changes can alter restart, overlap and rhythm; the timelines are not identical."
+        }
+      ],
+      "expectedRecordSha256": {
+        "vector-svg-spinners-pulse-rings-3": "d7bda879801f9d255b44e080588c48b8114e4572216585253fe1c91d12381af0",
+        "vector-svg-spinners-pulse-rings-multiple": "c105b5b389551fbb08f160de321fd8020d1455346127f5125ae7a12b7089e786"
+      }
+    },
+    {
+      "id": "color-wave-cartocolor-temps-2",
+      "ids": [
+        "color-wave-cartocolor-temps-2",
+        "color-wave-cartocolor-tealrose-2"
+      ],
+      "mode": "palette",
+      "expectedCodeSha256": {
+        "color-wave-cartocolor-temps-2": "c3d7a2f45dde2dec70fe3445b147ce4a619b1b86de37d31b0a2989ab8518dcc0",
+        "color-wave-cartocolor-tealrose-2": "6505387eceef227dc3320dc419fdc2f714abc70835307b08f12a73a206432a4b"
+      },
+      "relations": [
+        {
+          "ids": [
+            "color-wave-cartocolor-tealrose-2",
+            "color-wave-cartocolor-temps-2"
+          ],
+          "reason": "strict-perceptual-near-ordered-colors",
+          "evidence": {
+            "metric": "Euclidean OKLab * 100",
+            "meanWorstBackground": 0.12334924903281391,
+            "maxWorstBackground": 0.24669849806562782,
+            "blackMean": 0.12334924903281391,
+            "blackMax": 0.24669849806562782,
+            "whiteMean": 0.12334924903281391,
+            "whiteMax": 0.24669849806562782,
+            "matchingRightIndices": [
+              0,
+              1
+            ],
+            "perColorWorstBackground": [
+              0.0,
+              0.24669849806562782
+            ],
+            "palettes": [
+              {
+                "id": "color-wave-cartocolor-tealrose-2",
+                "sourceName": "CARTOColors / CARTO",
+                "sourceUrl": "https://github.com/CartoDB/CartoColor/blob/1a850e4713a12c68373f1df1a7d42ff7869ed49c/src/carto.ts",
+                "originalColors": [
+                  "#009392",
+                  "#d0587e"
+                ],
+                "canonicalRGBA": [
+                  "#009392ff",
+                  "#d0587eff"
+                ],
+                "orderedColorSha256": "8a27125b21d3ce326646bea3118e014e13b6d9db12cbeb7af9199d3218570ab4"
+              },
+              {
+                "id": "color-wave-cartocolor-temps-2",
+                "sourceName": "CARTOColors / CARTO",
+                "sourceUrl": "https://github.com/CartoDB/CartoColor/blob/1a850e4713a12c68373f1df1a7d42ff7869ed49c/src/carto.ts",
+                "originalColors": [
+                  "#009392",
+                  "#cf597e"
+                ],
+                "canonicalRGBA": [
+                  "#009392ff",
+                  "#cf597eff"
+                ],
+                "orderedColorSha256": "a2de00bddc4e3eb2682e1f4fb05f571d5f01e93b383005c611bfb5bc7f27cb9f"
+              }
+            ]
+          },
+          "confidence": "high",
+          "differences": {
+            "orderPreserved": true,
+            "alphaPreserved": true,
+            "notIdenticalColorValues": true
+          }
+        }
+      ],
+      "expectedRecordSha256": {
+        "color-wave-cartocolor-temps-2": "780f88daef7a76b419f9c5f0403f67e5a72ef195b1a047725bc49ffc08e2085f",
+        "color-wave-cartocolor-tealrose-2": "fa9f8febce7b535346bc4c29f8a8dfbb2b9c717fedf93c6b0b0ddf5811b5ad45"
+      }
+    },
+    {
+      "id": "color-wave-radix-colors-light-gray",
+      "ids": [
+        "color-wave-radix-colors-light-gray",
+        "color-wave-radix-colors-light-mauve",
+        "color-wave-radix-colors-light-slate",
+        "color-wave-radix-colors-light-sage",
+        "color-wave-radix-colors-light-olive",
+        "color-wave-radix-colors-light-sand"
+      ],
+      "mode": "palette",
+      "expectedCodeSha256": {
+        "color-wave-radix-colors-light-gray": "b2369b5daccbff64c8628f0b7fdfdd887ac78b83df6c862e4a6afba1f692d4fe",
+        "color-wave-radix-colors-light-mauve": "d9d85045a981ea1abec60e0a37ca0fc792fe818b9189c60a924f38fca28c5ea3",
+        "color-wave-radix-colors-light-slate": "50df2daa84585f94c451676599c0e6723bd932eaccef30b06490eff8f2d1fcb8",
+        "color-wave-radix-colors-light-sage": "649a1e1d714dfeffd049adf1122bba453d053bf6ff30c94830c087232b0a592f",
+        "color-wave-radix-colors-light-olive": "08d0fd7606d8fe70733e514ccb381870714c66f2ec2d6f3b5a6930926113948a",
+        "color-wave-radix-colors-light-sand": "359a56e18e7cafbf2abb67eddab93ed1b5905fdca3c678fcbd8fc82982a06fd5"
+      },
+      "relations": [
+        {
+          "ids": [
+            "color-wave-radix-colors-light-gray",
+            "color-wave-radix-colors-light-olive"
+          ],
+          "reason": "strict-perceptual-near-ordered-colors",
+          "evidence": {
+            "metric": "Euclidean OKLab * 100",
+            "meanWorstBackground": 0.693226008579637,
+            "maxWorstBackground": 1.2321035216710814,
+            "blackMean": 0.6932260085796278,
+            "blackMax": 1.2321035216710814,
+            "whiteMean": 0.693226008579633,
+            "whiteMax": 1.2321035216710776,
+            "matchingRightIndices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "perColorWorstBackground": [
+              0.2569793366817769,
+              0.34908069790221047,
+              0.35152138192850524,
+              0.3537796832345837,
+              0.592626309370438,
+              0.518797601072909,
+              0.5238730515108942,
+              0.6486521748448448,
+              1.2159717281438045,
+              1.2321035216710814,
+              1.1560758128074435,
+              1.1192508037871522
+            ],
+            "palettes": [
+              {
+                "id": "color-wave-radix-colors-light-gray",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/light.ts",
+                "originalColors": [
+                  "#fcfcfc",
+                  "#f9f9f9",
+                  "#f0f0f0",
+                  "#e8e8e8",
+                  "#e0e0e0",
+                  "#d9d9d9",
+                  "#cecece",
+                  "#bbbbbb",
+                  "#8d8d8d",
+                  "#838383",
+                  "#646464",
+                  "#202020"
+                ],
+                "canonicalRGBA": [
+                  "#fcfcfcff",
+                  "#f9f9f9ff",
+                  "#f0f0f0ff",
+                  "#e8e8e8ff",
+                  "#e0e0e0ff",
+                  "#d9d9d9ff",
+                  "#cececeff",
+                  "#bbbbbbff",
+                  "#8d8d8dff",
+                  "#838383ff",
+                  "#646464ff",
+                  "#202020ff"
+                ],
+                "orderedColorSha256": "f5442df60f297a732edf0b0f60a3c65a6d09fc5bbd578ff46fc7fb396db4adbe"
+              },
+              {
+                "id": "color-wave-radix-colors-light-olive",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/light.ts",
+                "originalColors": [
+                  "#fcfdfc",
+                  "#f8faf8",
+                  "#eff1ef",
+                  "#e7e9e7",
+                  "#dfe2df",
+                  "#d7dad7",
+                  "#cccfcc",
+                  "#b9bcb8",
+                  "#898e87",
+                  "#7f847d",
+                  "#60655f",
+                  "#1d211c"
+                ],
+                "canonicalRGBA": [
+                  "#fcfdfcff",
+                  "#f8faf8ff",
+                  "#eff1efff",
+                  "#e7e9e7ff",
+                  "#dfe2dfff",
+                  "#d7dad7ff",
+                  "#cccfccff",
+                  "#b9bcb8ff",
+                  "#898e87ff",
+                  "#7f847dff",
+                  "#60655fff",
+                  "#1d211cff"
+                ],
+                "orderedColorSha256": "a2ba26ae5ef87e842620adab23c9773144e381f1785071be7ec6ba8fa85ebd5a"
+              }
+            ]
+          },
+          "confidence": "high",
+          "differences": {
+            "orderPreserved": true,
+            "alphaPreserved": true,
+            "notIdenticalColorValues": true
+          }
+        },
+        {
+          "ids": [
+            "color-wave-radix-colors-light-gray",
+            "color-wave-radix-colors-light-sage"
+          ],
+          "reason": "strict-perceptual-near-ordered-colors",
+          "evidence": {
+            "metric": "Euclidean OKLab * 100",
+            "meanWorstBackground": 0.627246827530407,
+            "maxWorstBackground": 1.2305505365739304,
+            "blackMean": 0.6272468275304004,
+            "blackMax": 1.2305505365739304,
+            "whiteMean": 0.6272468275303983,
+            "whiteMax": 1.2305505365739302,
+            "matchingRightIndices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "perColorWorstBackground": [
+              0.2752550042323275,
+              0.30690665068322,
+              0.34852231409462064,
+              0.35074285355972606,
+              0.5281543180332574,
+              0.3551477902190015,
+              0.5188258163936394,
+              0.5281568927389104,
+              1.114578295949334,
+              1.1286306203245626,
+              0.8414908375623533,
+              1.2305505365739304
+            ],
+            "palettes": [
+              {
+                "id": "color-wave-radix-colors-light-gray",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/light.ts",
+                "originalColors": [
+                  "#fcfcfc",
+                  "#f9f9f9",
+                  "#f0f0f0",
+                  "#e8e8e8",
+                  "#e0e0e0",
+                  "#d9d9d9",
+                  "#cecece",
+                  "#bbbbbb",
+                  "#8d8d8d",
+                  "#838383",
+                  "#646464",
+                  "#202020"
+                ],
+                "canonicalRGBA": [
+                  "#fcfcfcff",
+                  "#f9f9f9ff",
+                  "#f0f0f0ff",
+                  "#e8e8e8ff",
+                  "#e0e0e0ff",
+                  "#d9d9d9ff",
+                  "#cececeff",
+                  "#bbbbbbff",
+                  "#8d8d8dff",
+                  "#838383ff",
+                  "#646464ff",
+                  "#202020ff"
+                ],
+                "orderedColorSha256": "f5442df60f297a732edf0b0f60a3c65a6d09fc5bbd578ff46fc7fb396db4adbe"
+              },
+              {
+                "id": "color-wave-radix-colors-light-sage",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/light.ts",
+                "originalColors": [
+                  "#fbfdfc",
+                  "#f7f9f8",
+                  "#eef1f0",
+                  "#e6e9e8",
+                  "#dfe2e0",
+                  "#d7dad9",
+                  "#cbcfcd",
+                  "#b8bcba",
+                  "#868e8b",
+                  "#7c8481",
+                  "#5f6563",
+                  "#1a211e"
+                ],
+                "canonicalRGBA": [
+                  "#fbfdfcff",
+                  "#f7f9f8ff",
+                  "#eef1f0ff",
+                  "#e6e9e8ff",
+                  "#dfe2e0ff",
+                  "#d7dad9ff",
+                  "#cbcfcdff",
+                  "#b8bcbaff",
+                  "#868e8bff",
+                  "#7c8481ff",
+                  "#5f6563ff",
+                  "#1a211eff"
+                ],
+                "orderedColorSha256": "cfb6b81ca0e5418aa640e16612fd0042a57d9d19f98dfaab586541fdb38e37c8"
+              }
+            ]
+          },
+          "confidence": "high",
+          "differences": {
+            "orderPreserved": true,
+            "alphaPreserved": true,
+            "notIdenticalColorValues": true
+          }
+        },
+        {
+          "ids": [
+            "color-wave-radix-colors-light-gray",
+            "color-wave-radix-colors-light-sand"
+          ],
+          "reason": "strict-perceptual-near-ordered-colors",
+          "evidence": {
+            "metric": "Euclidean OKLab * 100",
+            "meanWorstBackground": 0.5844542710521682,
+            "maxWorstBackground": 1.044769575202073,
+            "blackMean": 0.5844542710521646,
+            "blackMax": 1.044769575202073,
+            "whiteMean": 0.5844542710521651,
+            "whiteMax": 1.044769575202073,
+            "matchingRightIndices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "perColorWorstBackground": [
+              0.3004988696429169,
+              0.13490968626443983,
+              0.17863661148956547,
+              0.2903557113122313,
+              0.5138498226029307,
+              0.4217308884573769,
+              0.5596907767015159,
+              0.8472159975131736,
+              1.044769575202073,
+              1.0314766190146865,
+              0.93303287291684,
+              0.7572838215082675
+            ],
+            "palettes": [
+              {
+                "id": "color-wave-radix-colors-light-gray",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/light.ts",
+                "originalColors": [
+                  "#fcfcfc",
+                  "#f9f9f9",
+                  "#f0f0f0",
+                  "#e8e8e8",
+                  "#e0e0e0",
+                  "#d9d9d9",
+                  "#cecece",
+                  "#bbbbbb",
+                  "#8d8d8d",
+                  "#838383",
+                  "#646464",
+                  "#202020"
+                ],
+                "canonicalRGBA": [
+                  "#fcfcfcff",
+                  "#f9f9f9ff",
+                  "#f0f0f0ff",
+                  "#e8e8e8ff",
+                  "#e0e0e0ff",
+                  "#d9d9d9ff",
+                  "#cececeff",
+                  "#bbbbbbff",
+                  "#8d8d8dff",
+                  "#838383ff",
+                  "#646464ff",
+                  "#202020ff"
+                ],
+                "orderedColorSha256": "f5442df60f297a732edf0b0f60a3c65a6d09fc5bbd578ff46fc7fb396db4adbe"
+              },
+              {
+                "id": "color-wave-radix-colors-light-sand",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/light.ts",
+                "originalColors": [
+                  "#fdfdfc",
+                  "#f9f9f8",
+                  "#f1f0ef",
+                  "#e9e8e6",
+                  "#e2e1de",
+                  "#dad9d6",
+                  "#cfceca",
+                  "#bcbbb5",
+                  "#8d8d86",
+                  "#82827c",
+                  "#63635e",
+                  "#21201c"
+                ],
+                "canonicalRGBA": [
+                  "#fdfdfcff",
+                  "#f9f9f8ff",
+                  "#f1f0efff",
+                  "#e9e8e6ff",
+                  "#e2e1deff",
+                  "#dad9d6ff",
+                  "#cfcecaff",
+                  "#bcbbb5ff",
+                  "#8d8d86ff",
+                  "#82827cff",
+                  "#63635eff",
+                  "#21201cff"
+                ],
+                "orderedColorSha256": "4432b9780acf223bf61bab062ec35ff8027d9568b39f7d0426f51321e50d2cd0"
+              }
+            ]
+          },
+          "confidence": "high",
+          "differences": {
+            "orderPreserved": true,
+            "alphaPreserved": true,
+            "notIdenticalColorValues": true
+          }
+        },
+        {
+          "ids": [
+            "color-wave-radix-colors-light-gray",
+            "color-wave-radix-colors-light-slate"
+          ],
+          "reason": "strict-perceptual-near-ordered-colors",
+          "evidence": {
+            "metric": "Euclidean OKLab * 100",
+            "meanWorstBackground": 0.9471555098402352,
+            "maxWorstBackground": 1.6564069025689303,
+            "blackMean": 0.9471555098402309,
+            "blackMax": 1.6564069025689185,
+            "whiteMean": 0.9471555098402332,
+            "whiteMax": 1.6564069025689303,
+            "matchingRightIndices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "perColorWorstBackground": [
+              0.1347083670171729,
+              0.27013237394584216,
+              0.40819861085543685,
+              0.5479942708836121,
+              0.7789806751903732,
+              0.9723948435484764,
+              1.1167303479533,
+              1.570095529091251,
+              1.6564069025689303,
+              1.547642431806785,
+              1.3641393778097999,
+              0.9984423874118424
+            ],
+            "palettes": [
+              {
+                "id": "color-wave-radix-colors-light-gray",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/light.ts",
+                "originalColors": [
+                  "#fcfcfc",
+                  "#f9f9f9",
+                  "#f0f0f0",
+                  "#e8e8e8",
+                  "#e0e0e0",
+                  "#d9d9d9",
+                  "#cecece",
+                  "#bbbbbb",
+                  "#8d8d8d",
+                  "#838383",
+                  "#646464",
+                  "#202020"
+                ],
+                "canonicalRGBA": [
+                  "#fcfcfcff",
+                  "#f9f9f9ff",
+                  "#f0f0f0ff",
+                  "#e8e8e8ff",
+                  "#e0e0e0ff",
+                  "#d9d9d9ff",
+                  "#cececeff",
+                  "#bbbbbbff",
+                  "#8d8d8dff",
+                  "#838383ff",
+                  "#646464ff",
+                  "#202020ff"
+                ],
+                "orderedColorSha256": "f5442df60f297a732edf0b0f60a3c65a6d09fc5bbd578ff46fc7fb396db4adbe"
+              },
+              {
+                "id": "color-wave-radix-colors-light-slate",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/light.ts",
+                "originalColors": [
+                  "#fcfcfd",
+                  "#f9f9fb",
+                  "#f0f0f3",
+                  "#e8e8ec",
+                  "#e0e1e6",
+                  "#d9d9e0",
+                  "#cdced6",
+                  "#b9bbc6",
+                  "#8b8d98",
+                  "#80838d",
+                  "#60646c",
+                  "#1c2024"
+                ],
+                "canonicalRGBA": [
+                  "#fcfcfdff",
+                  "#f9f9fbff",
+                  "#f0f0f3ff",
+                  "#e8e8ecff",
+                  "#e0e1e6ff",
+                  "#d9d9e0ff",
+                  "#cdced6ff",
+                  "#b9bbc6ff",
+                  "#8b8d98ff",
+                  "#80838dff",
+                  "#60646cff",
+                  "#1c2024ff"
+                ],
+                "orderedColorSha256": "f0f7a0274516050eb7803cd001ce6fe47e25a900fb0ec98c9837b28bbcd15b0c"
+              }
+            ]
+          },
+          "confidence": "high",
+          "differences": {
+            "orderPreserved": true,
+            "alphaPreserved": true,
+            "notIdenticalColorValues": true
+          }
+        },
+        {
+          "ids": [
+            "color-wave-radix-colors-light-mauve",
+            "color-wave-radix-colors-light-slate"
+          ],
+          "reason": "strict-perceptual-near-ordered-colors",
+          "evidence": {
+            "metric": "Euclidean OKLab * 100",
+            "meanWorstBackground": 0.5127937822947713,
+            "maxWorstBackground": 1.0925915350156108,
+            "blackMean": 0.51279378229477,
+            "blackMax": 1.092591535015601,
+            "whiteMean": 0.512793782294766,
+            "whiteMax": 1.0925915350156108,
+            "matchingRightIndices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "perColorWorstBackground": [
+              0.13064302042208165,
+              0.1309124474030451,
+              0.3491689635738081,
+              0.3512827758432974,
+              0.6239242334023396,
+              0.35529438694813503,
+              0.5188815847048937,
+              0.5266713834972218,
+              0.5537350085112824,
+              0.6780037579584367,
+              0.8424162902571043,
+              1.0925915350156108
+            ],
+            "palettes": [
+              {
+                "id": "color-wave-radix-colors-light-mauve",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/light.ts",
+                "originalColors": [
+                  "#fdfcfd",
+                  "#faf9fb",
+                  "#f2eff3",
+                  "#eae7ec",
+                  "#e3dfe6",
+                  "#dbd8e0",
+                  "#d0cdd7",
+                  "#bcbac7",
+                  "#8e8c99",
+                  "#84828e",
+                  "#65636d",
+                  "#211f26"
+                ],
+                "canonicalRGBA": [
+                  "#fdfcfdff",
+                  "#faf9fbff",
+                  "#f2eff3ff",
+                  "#eae7ecff",
+                  "#e3dfe6ff",
+                  "#dbd8e0ff",
+                  "#d0cdd7ff",
+                  "#bcbac7ff",
+                  "#8e8c99ff",
+                  "#84828eff",
+                  "#65636dff",
+                  "#211f26ff"
+                ],
+                "orderedColorSha256": "8bbe6371ae2505650e338454b690452fa2feb9ee1e6be315a66c86de82ce3cdb"
+              },
+              {
+                "id": "color-wave-radix-colors-light-slate",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/light.ts",
+                "originalColors": [
+                  "#fcfcfd",
+                  "#f9f9fb",
+                  "#f0f0f3",
+                  "#e8e8ec",
+                  "#e0e1e6",
+                  "#d9d9e0",
+                  "#cdced6",
+                  "#b9bbc6",
+                  "#8b8d98",
+                  "#80838d",
+                  "#60646c",
+                  "#1c2024"
+                ],
+                "canonicalRGBA": [
+                  "#fcfcfdff",
+                  "#f9f9fbff",
+                  "#f0f0f3ff",
+                  "#e8e8ecff",
+                  "#e0e1e6ff",
+                  "#d9d9e0ff",
+                  "#cdced6ff",
+                  "#b9bbc6ff",
+                  "#8b8d98ff",
+                  "#80838dff",
+                  "#60646cff",
+                  "#1c2024ff"
+                ],
+                "orderedColorSha256": "f0f7a0274516050eb7803cd001ce6fe47e25a900fb0ec98c9837b28bbcd15b0c"
+              }
+            ]
+          },
+          "confidence": "high",
+          "differences": {
+            "orderPreserved": true,
+            "alphaPreserved": true,
+            "notIdenticalColorValues": true
+          }
+        },
+        {
+          "ids": [
+            "color-wave-radix-colors-light-olive",
+            "color-wave-radix-colors-light-sage"
+          ],
+          "reason": "strict-perceptual-near-ordered-colors",
+          "evidence": {
+            "metric": "Euclidean OKLab * 100",
+            "meanWorstBackground": 0.35884549923311587,
+            "maxWorstBackground": 0.6995642847566185,
+            "blackMean": 0.3588454992331132,
+            "blackMax": 0.6995642847566185,
+            "whiteMean": 0.3588454992331132,
+            "whiteMax": 0.699564284756596,
+            "matchingRightIndices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "perColorWorstBackground": [
+              0.13004695454838283,
+              0.301315969000435,
+              0.17778062776839013,
+              0.17889521920503493,
+              0.13735513659452087,
+              0.27669850966426623,
+              0.1824485152682153,
+              0.3009670027600648,
+              0.6910833131282218,
+              0.6995642847566185,
+              0.6350873517253817,
+              0.5949031063778589
+            ],
+            "palettes": [
+              {
+                "id": "color-wave-radix-colors-light-olive",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/light.ts",
+                "originalColors": [
+                  "#fcfdfc",
+                  "#f8faf8",
+                  "#eff1ef",
+                  "#e7e9e7",
+                  "#dfe2df",
+                  "#d7dad7",
+                  "#cccfcc",
+                  "#b9bcb8",
+                  "#898e87",
+                  "#7f847d",
+                  "#60655f",
+                  "#1d211c"
+                ],
+                "canonicalRGBA": [
+                  "#fcfdfcff",
+                  "#f8faf8ff",
+                  "#eff1efff",
+                  "#e7e9e7ff",
+                  "#dfe2dfff",
+                  "#d7dad7ff",
+                  "#cccfccff",
+                  "#b9bcb8ff",
+                  "#898e87ff",
+                  "#7f847dff",
+                  "#60655fff",
+                  "#1d211cff"
+                ],
+                "orderedColorSha256": "a2ba26ae5ef87e842620adab23c9773144e381f1785071be7ec6ba8fa85ebd5a"
+              },
+              {
+                "id": "color-wave-radix-colors-light-sage",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/light.ts",
+                "originalColors": [
+                  "#fbfdfc",
+                  "#f7f9f8",
+                  "#eef1f0",
+                  "#e6e9e8",
+                  "#dfe2e0",
+                  "#d7dad9",
+                  "#cbcfcd",
+                  "#b8bcba",
+                  "#868e8b",
+                  "#7c8481",
+                  "#5f6563",
+                  "#1a211e"
+                ],
+                "canonicalRGBA": [
+                  "#fbfdfcff",
+                  "#f7f9f8ff",
+                  "#eef1f0ff",
+                  "#e6e9e8ff",
+                  "#dfe2e0ff",
+                  "#d7dad9ff",
+                  "#cbcfcdff",
+                  "#b8bcbaff",
+                  "#868e8bff",
+                  "#7c8481ff",
+                  "#5f6563ff",
+                  "#1a211eff"
+                ],
+                "orderedColorSha256": "cfb6b81ca0e5418aa640e16612fd0042a57d9d19f98dfaab586541fdb38e37c8"
+              }
+            ]
+          },
+          "confidence": "high",
+          "differences": {
+            "orderPreserved": true,
+            "alphaPreserved": true,
+            "notIdenticalColorValues": true
+          }
+        },
+        {
+          "ids": [
+            "color-wave-radix-colors-light-olive",
+            "color-wave-radix-colors-light-sand"
+          ],
+          "reason": "strict-perceptual-near-ordered-colors",
+          "evidence": {
+            "metric": "Euclidean OKLab * 100",
+            "meanWorstBackground": 0.4717384698099776,
+            "maxWorstBackground": 0.7817979285879588,
+            "blackMean": 0.47173846980997597,
+            "blackMax": 0.7817979285879588,
+            "whiteMean": 0.4717384698099721,
+            "whiteMax": 0.7817979285879498,
+            "matchingRightIndices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "perColorWorstBackground": [
+              0.13032496281471656,
+              0.27597262729652633,
+              0.3489375876008418,
+              0.3311727341984702,
+              0.4332359277699398,
+              0.4361649666749632,
+              0.46266648778708835,
+              0.5310427683085455,
+              0.5939974339085907,
+              0.6518736585294688,
+              0.6836745542426211,
+              0.7817979285879588
+            ],
+            "palettes": [
+              {
+                "id": "color-wave-radix-colors-light-olive",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/light.ts",
+                "originalColors": [
+                  "#fcfdfc",
+                  "#f8faf8",
+                  "#eff1ef",
+                  "#e7e9e7",
+                  "#dfe2df",
+                  "#d7dad7",
+                  "#cccfcc",
+                  "#b9bcb8",
+                  "#898e87",
+                  "#7f847d",
+                  "#60655f",
+                  "#1d211c"
+                ],
+                "canonicalRGBA": [
+                  "#fcfdfcff",
+                  "#f8faf8ff",
+                  "#eff1efff",
+                  "#e7e9e7ff",
+                  "#dfe2dfff",
+                  "#d7dad7ff",
+                  "#cccfccff",
+                  "#b9bcb8ff",
+                  "#898e87ff",
+                  "#7f847dff",
+                  "#60655fff",
+                  "#1d211cff"
+                ],
+                "orderedColorSha256": "a2ba26ae5ef87e842620adab23c9773144e381f1785071be7ec6ba8fa85ebd5a"
+              },
+              {
+                "id": "color-wave-radix-colors-light-sand",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/light.ts",
+                "originalColors": [
+                  "#fdfdfc",
+                  "#f9f9f8",
+                  "#f1f0ef",
+                  "#e9e8e6",
+                  "#e2e1de",
+                  "#dad9d6",
+                  "#cfceca",
+                  "#bcbbb5",
+                  "#8d8d86",
+                  "#82827c",
+                  "#63635e",
+                  "#21201c"
+                ],
+                "canonicalRGBA": [
+                  "#fdfdfcff",
+                  "#f9f9f8ff",
+                  "#f1f0efff",
+                  "#e9e8e6ff",
+                  "#e2e1deff",
+                  "#dad9d6ff",
+                  "#cfcecaff",
+                  "#bcbbb5ff",
+                  "#8d8d86ff",
+                  "#82827cff",
+                  "#63635eff",
+                  "#21201cff"
+                ],
+                "orderedColorSha256": "4432b9780acf223bf61bab062ec35ff8027d9568b39f7d0426f51321e50d2cd0"
+              }
+            ]
+          },
+          "confidence": "high",
+          "differences": {
+            "orderPreserved": true,
+            "alphaPreserved": true,
+            "notIdenticalColorValues": true
+          }
+        },
+        {
+          "ids": [
+            "color-wave-radix-colors-light-sage",
+            "color-wave-radix-colors-light-sand"
+          ],
+          "reason": "strict-perceptual-near-ordered-colors",
+          "evidence": {
+            "metric": "Euclidean OKLab * 100",
+            "meanWorstBackground": 0.6760807644369012,
+            "maxWorstBackground": 1.231694120918292,
+            "blackMean": 0.6760807644369012,
+            "blackMax": 1.231694120918292,
+            "whiteMean": 0.6760807644368944,
+            "whiteMax": 1.2316941209182868,
+            "matchingRightIndices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "perColorWorstBackground": [
+              0.2603718746232199,
+              0.2611513801752609,
+              0.42798795731306294,
+              0.4529575886322787,
+              0.4553732983406511,
+              0.5181858328982459,
+              0.6165065514080853,
+              0.7916872740807073,
+              1.1229455037777902,
+              1.0515283623547043,
+              0.9225794287205173,
+              1.231694120918292
+            ],
+            "palettes": [
+              {
+                "id": "color-wave-radix-colors-light-sage",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/light.ts",
+                "originalColors": [
+                  "#fbfdfc",
+                  "#f7f9f8",
+                  "#eef1f0",
+                  "#e6e9e8",
+                  "#dfe2e0",
+                  "#d7dad9",
+                  "#cbcfcd",
+                  "#b8bcba",
+                  "#868e8b",
+                  "#7c8481",
+                  "#5f6563",
+                  "#1a211e"
+                ],
+                "canonicalRGBA": [
+                  "#fbfdfcff",
+                  "#f7f9f8ff",
+                  "#eef1f0ff",
+                  "#e6e9e8ff",
+                  "#dfe2e0ff",
+                  "#d7dad9ff",
+                  "#cbcfcdff",
+                  "#b8bcbaff",
+                  "#868e8bff",
+                  "#7c8481ff",
+                  "#5f6563ff",
+                  "#1a211eff"
+                ],
+                "orderedColorSha256": "cfb6b81ca0e5418aa640e16612fd0042a57d9d19f98dfaab586541fdb38e37c8"
+              },
+              {
+                "id": "color-wave-radix-colors-light-sand",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/light.ts",
+                "originalColors": [
+                  "#fdfdfc",
+                  "#f9f9f8",
+                  "#f1f0ef",
+                  "#e9e8e6",
+                  "#e2e1de",
+                  "#dad9d6",
+                  "#cfceca",
+                  "#bcbbb5",
+                  "#8d8d86",
+                  "#82827c",
+                  "#63635e",
+                  "#21201c"
+                ],
+                "canonicalRGBA": [
+                  "#fdfdfcff",
+                  "#f9f9f8ff",
+                  "#f1f0efff",
+                  "#e9e8e6ff",
+                  "#e2e1deff",
+                  "#dad9d6ff",
+                  "#cfcecaff",
+                  "#bcbbb5ff",
+                  "#8d8d86ff",
+                  "#82827cff",
+                  "#63635eff",
+                  "#21201cff"
+                ],
+                "orderedColorSha256": "4432b9780acf223bf61bab062ec35ff8027d9568b39f7d0426f51321e50d2cd0"
+              }
+            ]
+          },
+          "confidence": "high",
+          "differences": {
+            "orderPreserved": true,
+            "alphaPreserved": true,
+            "notIdenticalColorValues": true
+          }
+        }
+      ],
+      "expectedRecordSha256": {
+        "color-wave-radix-colors-light-gray": "c4fe3c54fe6bbc6f5269e35e9df544be0b6cc491d1f7e05afd1a44896939d8fd",
+        "color-wave-radix-colors-light-mauve": "92530093a3b7df4775a00b0c2a485a8e370514bdb6a3f71a333e4c0088f3af3b",
+        "color-wave-radix-colors-light-slate": "d060fb1da40db8b120107e4fb2fd446719dc70ce48ad264e774965c64d463f75",
+        "color-wave-radix-colors-light-sage": "b9eab2c45e939ee65470c5f5d2773c37c5a458148dbc6306a52705a51463b736",
+        "color-wave-radix-colors-light-olive": "3f4b99d69694e191cf000cd5c944056bc9e3b2af789e0b34fdb6369aad6ef864",
+        "color-wave-radix-colors-light-sand": "80c84a95fb858e710dca4056588760073d695955b5da3a6b6562af3c0e68e4d2"
+      }
+    },
+    {
+      "id": "color-wave-radix-colors-dark-graydark",
+      "ids": [
+        "color-wave-radix-colors-dark-graydark",
+        "color-wave-radix-colors-dark-mauvedark",
+        "color-wave-radix-colors-dark-slatedark",
+        "color-wave-radix-colors-dark-sagedark",
+        "color-wave-radix-colors-dark-olivedark",
+        "color-wave-radix-colors-dark-sanddark"
+      ],
+      "mode": "palette",
+      "expectedCodeSha256": {
+        "color-wave-radix-colors-dark-graydark": "07f9c4e9ebeb7093d4041ac32be0f203ec3aa86371cb084f13f2b6487d59ea33",
+        "color-wave-radix-colors-dark-mauvedark": "aaafb7ba0c3fa5e930d9e04c132b48336ff866f7cf472d09aa99c9213a3137dd",
+        "color-wave-radix-colors-dark-slatedark": "c6decf123f4622f62804880914d7210ce52c0348e2e82045605dcf518eddaece",
+        "color-wave-radix-colors-dark-sagedark": "d1ce13b6e0bb1432ea37ec5aee0064d29b33ab7dc3f8befd446b83808ae1ad66",
+        "color-wave-radix-colors-dark-olivedark": "07ebc4d693c963a5a2358eb932cac2007f2cb83c724026b5154f8b0e22819809",
+        "color-wave-radix-colors-dark-sanddark": "64e912d66ffa27b85f13d0b5ec02c9627f4c9209feaa4af148a662495f4967ad"
+      },
+      "relations": [
+        {
+          "ids": [
+            "color-wave-radix-colors-dark-graydark",
+            "color-wave-radix-colors-dark-olivedark"
+          ],
+          "reason": "strict-perceptual-near-ordered-colors",
+          "evidence": {
+            "metric": "Euclidean OKLab * 100",
+            "meanWorstBackground": 0.9260330178321491,
+            "maxWorstBackground": 1.8393078015556925,
+            "blackMean": 0.9260330178321432,
+            "blackMax": 1.8393078015556814,
+            "whiteMean": 0.926033017832148,
+            "whiteMax": 1.8393078015556925,
+            "matchingRightIndices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "perColorWorstBackground": [
+              0.5041446339477376,
+              0.4567169637867101,
+              0.43838361507093754,
+              0.687015361631208,
+              0.6712597922943035,
+              0.8078693137002613,
+              1.0187642535927475,
+              1.32810450442665,
+              1.8393078015556925,
+              1.5987259387026822,
+              1.3629559984800532,
+              0.3991480367968061
+            ],
+            "palettes": [
+              {
+                "id": "color-wave-radix-colors-dark-graydark",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#111111",
+                  "#191919",
+                  "#222222",
+                  "#2a2a2a",
+                  "#313131",
+                  "#3a3a3a",
+                  "#484848",
+                  "#606060",
+                  "#6e6e6e",
+                  "#7b7b7b",
+                  "#b4b4b4",
+                  "#eeeeee"
+                ],
+                "canonicalRGBA": [
+                  "#111111ff",
+                  "#191919ff",
+                  "#222222ff",
+                  "#2a2a2aff",
+                  "#313131ff",
+                  "#3a3a3aff",
+                  "#484848ff",
+                  "#606060ff",
+                  "#6e6e6eff",
+                  "#7b7b7bff",
+                  "#b4b4b4ff",
+                  "#eeeeeeff"
+                ],
+                "orderedColorSha256": "514e4640b8ecf06d35ad5c73ecf58fa8ae5c310ab40eef39ca967965de190184"
+              },
+              {
+                "id": "color-wave-radix-colors-dark-olivedark",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#111210",
+                  "#181917",
+                  "#212220",
+                  "#282a27",
+                  "#2f312e",
+                  "#383a36",
+                  "#454843",
+                  "#5c625b",
+                  "#687066",
+                  "#767d74",
+                  "#afb5ad",
+                  "#eceeec"
+                ],
+                "canonicalRGBA": [
+                  "#111210ff",
+                  "#181917ff",
+                  "#212220ff",
+                  "#282a27ff",
+                  "#2f312eff",
+                  "#383a36ff",
+                  "#454843ff",
+                  "#5c625bff",
+                  "#687066ff",
+                  "#767d74ff",
+                  "#afb5adff",
+                  "#eceeecff"
+                ],
+                "orderedColorSha256": "1ae515fa43cecbcfe0b75b1c94cff549cf42b15a1a89e49cacb0858dca96dc09"
+              }
+            ]
+          },
+          "confidence": "high",
+          "differences": {
+            "orderPreserved": true,
+            "alphaPreserved": true,
+            "notIdenticalColorValues": true
+          }
+        },
+        {
+          "ids": [
+            "color-wave-radix-colors-dark-graydark",
+            "color-wave-radix-colors-dark-sagedark"
+          ],
+          "reason": "strict-perceptual-near-ordered-colors",
+          "evidence": {
+            "metric": "Euclidean OKLab * 100",
+            "meanWorstBackground": 0.8039033804131491,
+            "maxWorstBackground": 1.8347447396856078,
+            "blackMean": 0.8039033804131402,
+            "blackMax": 1.8347447396856078,
+            "whiteMean": 0.8039033804131477,
+            "whiteMax": 1.8347447396856078,
+            "matchingRightIndices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "perColorWorstBackground": [
+              0.4227349090092448,
+              0.44606328336374,
+              0.4286810141078336,
+              0.5774145447965453,
+              0.564750393009551,
+              0.6451945933404161,
+              0.7504396639359662,
+              0.9904152491582972,
+              1.8347447396856078,
+              1.6087392726367933,
+              1.0681400144695117,
+              0.30952288744428236
+            ],
+            "palettes": [
+              {
+                "id": "color-wave-radix-colors-dark-graydark",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#111111",
+                  "#191919",
+                  "#222222",
+                  "#2a2a2a",
+                  "#313131",
+                  "#3a3a3a",
+                  "#484848",
+                  "#606060",
+                  "#6e6e6e",
+                  "#7b7b7b",
+                  "#b4b4b4",
+                  "#eeeeee"
+                ],
+                "canonicalRGBA": [
+                  "#111111ff",
+                  "#191919ff",
+                  "#222222ff",
+                  "#2a2a2aff",
+                  "#313131ff",
+                  "#3a3a3aff",
+                  "#484848ff",
+                  "#606060ff",
+                  "#6e6e6eff",
+                  "#7b7b7bff",
+                  "#b4b4b4ff",
+                  "#eeeeeeff"
+                ],
+                "orderedColorSha256": "514e4640b8ecf06d35ad5c73ecf58fa8ae5c310ab40eef39ca967965de190184"
+              },
+              {
+                "id": "color-wave-radix-colors-dark-sagedark",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#101211",
+                  "#171918",
+                  "#202221",
+                  "#272a29",
+                  "#2e3130",
+                  "#373b39",
+                  "#444947",
+                  "#5b625f",
+                  "#63706b",
+                  "#717d79",
+                  "#adb5b2",
+                  "#eceeed"
+                ],
+                "canonicalRGBA": [
+                  "#101211ff",
+                  "#171918ff",
+                  "#202221ff",
+                  "#272a29ff",
+                  "#2e3130ff",
+                  "#373b39ff",
+                  "#444947ff",
+                  "#5b625fff",
+                  "#63706bff",
+                  "#717d79ff",
+                  "#adb5b2ff",
+                  "#eceeedff"
+                ],
+                "orderedColorSha256": "ce23cf894cc54e8cc39827f889ca5471a2589f47a2e516672ea1a8b1b2582bc4"
+              }
+            ]
+          },
+          "confidence": "high",
+          "differences": {
+            "orderPreserved": true,
+            "alphaPreserved": true,
+            "notIdenticalColorValues": true
+          }
+        },
+        {
+          "ids": [
+            "color-wave-radix-colors-dark-graydark",
+            "color-wave-radix-colors-dark-sanddark"
+          ],
+          "reason": "strict-perceptual-near-ordered-colors",
+          "evidence": {
+            "metric": "Euclidean OKLab * 100",
+            "meanWorstBackground": 0.5795209635762196,
+            "maxWorstBackground": 1.165141850910815,
+            "blackMean": 0.5795209635762145,
+            "blackMax": 1.1651418509108042,
+            "whiteMean": 0.5795209635762187,
+            "whiteMax": 1.165141850910815,
+            "matchingRightIndices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "perColorWorstBackground": [
+              0.20622203589877974,
+              0.19712445110385868,
+              0.18921305568443997,
+              0.36631398101837886,
+              0.535907535232111,
+              0.5303279867419328,
+              0.6726116188806788,
+              0.8241843945666276,
+              1.165141850910815,
+              1.0630512812254103,
+              0.9321369018008908,
+              0.27201646985071276
+            ],
+            "palettes": [
+              {
+                "id": "color-wave-radix-colors-dark-graydark",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#111111",
+                  "#191919",
+                  "#222222",
+                  "#2a2a2a",
+                  "#313131",
+                  "#3a3a3a",
+                  "#484848",
+                  "#606060",
+                  "#6e6e6e",
+                  "#7b7b7b",
+                  "#b4b4b4",
+                  "#eeeeee"
+                ],
+                "canonicalRGBA": [
+                  "#111111ff",
+                  "#191919ff",
+                  "#222222ff",
+                  "#2a2a2aff",
+                  "#313131ff",
+                  "#3a3a3aff",
+                  "#484848ff",
+                  "#606060ff",
+                  "#6e6e6eff",
+                  "#7b7b7bff",
+                  "#b4b4b4ff",
+                  "#eeeeeeff"
+                ],
+                "orderedColorSha256": "514e4640b8ecf06d35ad5c73ecf58fa8ae5c310ab40eef39ca967965de190184"
+              },
+              {
+                "id": "color-wave-radix-colors-dark-sanddark",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#111110",
+                  "#191918",
+                  "#222221",
+                  "#2a2a28",
+                  "#31312e",
+                  "#3b3a37",
+                  "#494844",
+                  "#62605b",
+                  "#6f6d66",
+                  "#7c7b74",
+                  "#b5b3ad",
+                  "#eeeeec"
+                ],
+                "canonicalRGBA": [
+                  "#111110ff",
+                  "#191918ff",
+                  "#222221ff",
+                  "#2a2a28ff",
+                  "#31312eff",
+                  "#3b3a37ff",
+                  "#494844ff",
+                  "#62605bff",
+                  "#6f6d66ff",
+                  "#7c7b74ff",
+                  "#b5b3adff",
+                  "#eeeeecff"
+                ],
+                "orderedColorSha256": "c1a87512b2134dba06c8cb2d251e8fc49d51863241a1c0049d30128e1f723e63"
+              }
+            ]
+          },
+          "confidence": "high",
+          "differences": {
+            "orderPreserved": true,
+            "alphaPreserved": true,
+            "notIdenticalColorValues": true
+          }
+        },
+        {
+          "ids": [
+            "color-wave-radix-colors-dark-graydark",
+            "color-wave-radix-colors-dark-slatedark"
+          ],
+          "reason": "strict-perceptual-near-ordered-colors",
+          "evidence": {
+            "metric": "Euclidean OKLab * 100",
+            "meanWorstBackground": 0.9222163315558632,
+            "maxWorstBackground": 1.5515574789812931,
+            "blackMean": 0.9222163315558617,
+            "blackMax": 1.5515574789812931,
+            "whiteMean": 0.9222163315558597,
+            "whiteMax": 1.551557478981286,
+            "matchingRightIndices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "perColorWorstBackground": [
+              0.4162885763022681,
+              0.421987164692187,
+              0.5823408444421222,
+              0.722208583391272,
+              0.8418104925800401,
+              1.0463287896704487,
+              1.229232564951811,
+              1.5515574789812931,
+              1.5367403239645898,
+              1.4548902990216763,
+              0.9737633439730666,
+              0.2894475166995826
+            ],
+            "palettes": [
+              {
+                "id": "color-wave-radix-colors-dark-graydark",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#111111",
+                  "#191919",
+                  "#222222",
+                  "#2a2a2a",
+                  "#313131",
+                  "#3a3a3a",
+                  "#484848",
+                  "#606060",
+                  "#6e6e6e",
+                  "#7b7b7b",
+                  "#b4b4b4",
+                  "#eeeeee"
+                ],
+                "canonicalRGBA": [
+                  "#111111ff",
+                  "#191919ff",
+                  "#222222ff",
+                  "#2a2a2aff",
+                  "#313131ff",
+                  "#3a3a3aff",
+                  "#484848ff",
+                  "#606060ff",
+                  "#6e6e6eff",
+                  "#7b7b7bff",
+                  "#b4b4b4ff",
+                  "#eeeeeeff"
+                ],
+                "orderedColorSha256": "514e4640b8ecf06d35ad5c73ecf58fa8ae5c310ab40eef39ca967965de190184"
+              },
+              {
+                "id": "color-wave-radix-colors-dark-slatedark",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#111113",
+                  "#18191b",
+                  "#212225",
+                  "#272a2d",
+                  "#2e3135",
+                  "#363a3f",
+                  "#43484e",
+                  "#5a6169",
+                  "#696e77",
+                  "#777b84",
+                  "#b0b4ba",
+                  "#edeef0"
+                ],
+                "canonicalRGBA": [
+                  "#111113ff",
+                  "#18191bff",
+                  "#212225ff",
+                  "#272a2dff",
+                  "#2e3135ff",
+                  "#363a3fff",
+                  "#43484eff",
+                  "#5a6169ff",
+                  "#696e77ff",
+                  "#777b84ff",
+                  "#b0b4baff",
+                  "#edeef0ff"
+                ],
+                "orderedColorSha256": "bd5906ec86953cd1501d5b4610342ed7d7c46c1dfe8ac8f84257f06b6ea3d2c0"
+              }
+            ]
+          },
+          "confidence": "high",
+          "differences": {
+            "orderPreserved": true,
+            "alphaPreserved": true,
+            "notIdenticalColorValues": true
+          }
+        },
+        {
+          "ids": [
+            "color-wave-radix-colors-dark-mauvedark",
+            "color-wave-radix-colors-dark-slatedark"
+          ],
+          "reason": "strict-perceptual-near-ordered-colors",
+          "evidence": {
+            "metric": "Euclidean OKLab * 100",
+            "meanWorstBackground": 0.7189771304543179,
+            "maxWorstBackground": 1.3066675125905152,
+            "blackMean": 0.718977130454313,
+            "blackMax": 1.3066675125905056,
+            "whiteMean": 0.718977130454316,
+            "whiteMax": 1.3066675125905152,
+            "matchingRightIndices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "perColorWorstBackground": [
+              0.20166014781608282,
+              0.3820469943890654,
+              0.3662958568260489,
+              0.7536292415740803,
+              0.7358095421866606,
+              1.0265453426848083,
+              0.9849842375690359,
+              1.3066675125905152,
+              0.9628970315567258,
+              0.8129595872245102,
+              0.9624863729959083,
+              0.13174369803837252
+            ],
+            "palettes": [
+              {
+                "id": "color-wave-radix-colors-dark-mauvedark",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#121113",
+                  "#1a191b",
+                  "#232225",
+                  "#2b292d",
+                  "#323035",
+                  "#3c393f",
+                  "#49474e",
+                  "#625f69",
+                  "#6f6d78",
+                  "#7c7a85",
+                  "#b5b2bc",
+                  "#eeeef0"
+                ],
+                "canonicalRGBA": [
+                  "#121113ff",
+                  "#1a191bff",
+                  "#232225ff",
+                  "#2b292dff",
+                  "#323035ff",
+                  "#3c393fff",
+                  "#49474eff",
+                  "#625f69ff",
+                  "#6f6d78ff",
+                  "#7c7a85ff",
+                  "#b5b2bcff",
+                  "#eeeef0ff"
+                ],
+                "orderedColorSha256": "2a543185dafe7cc6423718ade09b38aeb5d4a684cead3c5d8bfef22d7686e662"
+              },
+              {
+                "id": "color-wave-radix-colors-dark-slatedark",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#111113",
+                  "#18191b",
+                  "#212225",
+                  "#272a2d",
+                  "#2e3135",
+                  "#363a3f",
+                  "#43484e",
+                  "#5a6169",
+                  "#696e77",
+                  "#777b84",
+                  "#b0b4ba",
+                  "#edeef0"
+                ],
+                "canonicalRGBA": [
+                  "#111113ff",
+                  "#18191bff",
+                  "#212225ff",
+                  "#272a2dff",
+                  "#2e3135ff",
+                  "#363a3fff",
+                  "#43484eff",
+                  "#5a6169ff",
+                  "#696e77ff",
+                  "#777b84ff",
+                  "#b0b4baff",
+                  "#edeef0ff"
+                ],
+                "orderedColorSha256": "bd5906ec86953cd1501d5b4610342ed7d7c46c1dfe8ac8f84257f06b6ea3d2c0"
+              }
+            ]
+          },
+          "confidence": "high",
+          "differences": {
+            "orderPreserved": true,
+            "alphaPreserved": true,
+            "notIdenticalColorValues": true
+          }
+        },
+        {
+          "ids": [
+            "color-wave-radix-colors-dark-olivedark",
+            "color-wave-radix-colors-dark-sagedark"
+          ],
+          "reason": "strict-perceptual-near-ordered-colors",
+          "evidence": {
+            "metric": "Euclidean OKLab * 100",
+            "meanWorstBackground": 0.5119453213120521,
+            "maxWorstBackground": 0.9900181919471902,
+            "blackMean": 0.5119453213120468,
+            "blackMax": 0.9900181919471821,
+            "whiteMean": 0.5119453213120498,
+            "whiteMax": 0.9900181919471902,
+            "matchingRightIndices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "perColorWorstBackground": [
+              0.264183916844531,
+              0.2550364068734738,
+              0.24555101732398749,
+              0.38635563698323655,
+              0.3778610075020151,
+              0.5095527093164512,
+              0.629160248194796,
+              0.6371524370223661,
+              0.9900181919471902,
+              0.978168028452141,
+              0.7342260513656109,
+              0.13607820391882608
+            ],
+            "palettes": [
+              {
+                "id": "color-wave-radix-colors-dark-olivedark",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#111210",
+                  "#181917",
+                  "#212220",
+                  "#282a27",
+                  "#2f312e",
+                  "#383a36",
+                  "#454843",
+                  "#5c625b",
+                  "#687066",
+                  "#767d74",
+                  "#afb5ad",
+                  "#eceeec"
+                ],
+                "canonicalRGBA": [
+                  "#111210ff",
+                  "#181917ff",
+                  "#212220ff",
+                  "#282a27ff",
+                  "#2f312eff",
+                  "#383a36ff",
+                  "#454843ff",
+                  "#5c625bff",
+                  "#687066ff",
+                  "#767d74ff",
+                  "#afb5adff",
+                  "#eceeecff"
+                ],
+                "orderedColorSha256": "1ae515fa43cecbcfe0b75b1c94cff549cf42b15a1a89e49cacb0858dca96dc09"
+              },
+              {
+                "id": "color-wave-radix-colors-dark-sagedark",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#101211",
+                  "#171918",
+                  "#202221",
+                  "#272a29",
+                  "#2e3130",
+                  "#373b39",
+                  "#444947",
+                  "#5b625f",
+                  "#63706b",
+                  "#717d79",
+                  "#adb5b2",
+                  "#eceeed"
+                ],
+                "canonicalRGBA": [
+                  "#101211ff",
+                  "#171918ff",
+                  "#202221ff",
+                  "#272a29ff",
+                  "#2e3130ff",
+                  "#373b39ff",
+                  "#444947ff",
+                  "#5b625fff",
+                  "#63706bff",
+                  "#717d79ff",
+                  "#adb5b2ff",
+                  "#eceeedff"
+                ],
+                "orderedColorSha256": "ce23cf894cc54e8cc39827f889ca5471a2589f47a2e516672ea1a8b1b2582bc4"
+              }
+            ]
+          },
+          "confidence": "high",
+          "differences": {
+            "orderPreserved": true,
+            "alphaPreserved": true,
+            "notIdenticalColorValues": true
+          }
+        },
+        {
+          "ids": [
+            "color-wave-radix-colors-dark-olivedark",
+            "color-wave-radix-colors-dark-sanddark"
+          ],
+          "reason": "strict-perceptual-near-ordered-colors",
+          "evidence": {
+            "metric": "Euclidean OKLab * 100",
+            "meanWorstBackground": 0.630084652346428,
+            "maxWorstBackground": 1.3128176891600487,
+            "blackMean": 0.6300846523464242,
+            "blackMax": 1.312817689160046,
+            "whiteMean": 0.6300846523464247,
+            "whiteMax": 1.3128176891600487,
+            "matchingRightIndices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "perColorWorstBackground": [
+              0.3960397350767711,
+              0.2892356188845082,
+              0.27763705393138255,
+              0.4168849022920261,
+              0.34596875208239714,
+              0.5556778700700309,
+              0.6920953959464091,
+              1.0557200297843548,
+              1.3128176891600487,
+              1.0096969205605395,
+              0.9458118380730751,
+              0.2634300222955927
+            ],
+            "palettes": [
+              {
+                "id": "color-wave-radix-colors-dark-olivedark",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#111210",
+                  "#181917",
+                  "#212220",
+                  "#282a27",
+                  "#2f312e",
+                  "#383a36",
+                  "#454843",
+                  "#5c625b",
+                  "#687066",
+                  "#767d74",
+                  "#afb5ad",
+                  "#eceeec"
+                ],
+                "canonicalRGBA": [
+                  "#111210ff",
+                  "#181917ff",
+                  "#212220ff",
+                  "#282a27ff",
+                  "#2f312eff",
+                  "#383a36ff",
+                  "#454843ff",
+                  "#5c625bff",
+                  "#687066ff",
+                  "#767d74ff",
+                  "#afb5adff",
+                  "#eceeecff"
+                ],
+                "orderedColorSha256": "1ae515fa43cecbcfe0b75b1c94cff549cf42b15a1a89e49cacb0858dca96dc09"
+              },
+              {
+                "id": "color-wave-radix-colors-dark-sanddark",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#111110",
+                  "#191918",
+                  "#222221",
+                  "#2a2a28",
+                  "#31312e",
+                  "#3b3a37",
+                  "#494844",
+                  "#62605b",
+                  "#6f6d66",
+                  "#7c7b74",
+                  "#b5b3ad",
+                  "#eeeeec"
+                ],
+                "canonicalRGBA": [
+                  "#111110ff",
+                  "#191918ff",
+                  "#222221ff",
+                  "#2a2a28ff",
+                  "#31312eff",
+                  "#3b3a37ff",
+                  "#494844ff",
+                  "#62605bff",
+                  "#6f6d66ff",
+                  "#7c7b74ff",
+                  "#b5b3adff",
+                  "#eeeeecff"
+                ],
+                "orderedColorSha256": "c1a87512b2134dba06c8cb2d251e8fc49d51863241a1c0049d30128e1f723e63"
+              }
+            ]
+          },
+          "confidence": "high",
+          "differences": {
+            "orderPreserved": true,
+            "alphaPreserved": true,
+            "notIdenticalColorValues": true
+          }
+        },
+        {
+          "ids": [
+            "color-wave-radix-colors-dark-sagedark",
+            "color-wave-radix-colors-dark-sanddark"
+          ],
+          "reason": "strict-perceptual-near-ordered-colors",
+          "evidence": {
+            "metric": "Euclidean OKLab * 100",
+            "meanWorstBackground": 0.8318051962953552,
+            "maxWorstBackground": 1.8490324173963963,
+            "blackMean": 0.8318051962953477,
+            "blackMax": 1.8490324173963937,
+            "whiteMean": 0.8318051962953529,
+            "whiteMax": 1.8490324173963963,
+            "matchingRightIndices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "perColorWorstBackground": [
+              0.39515928874353845,
+              0.3780404979321577,
+              0.363637714352528,
+              0.5374034045021131,
+              0.5921151625484362,
+              0.7064484509441784,
+              0.8636599971984414,
+              1.1701265201796305,
+              1.8490324173963963,
+              1.6393614783715937,
+              1.2039909297289748,
+              0.28268649364627335
+            ],
+            "palettes": [
+              {
+                "id": "color-wave-radix-colors-dark-sagedark",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#101211",
+                  "#171918",
+                  "#202221",
+                  "#272a29",
+                  "#2e3130",
+                  "#373b39",
+                  "#444947",
+                  "#5b625f",
+                  "#63706b",
+                  "#717d79",
+                  "#adb5b2",
+                  "#eceeed"
+                ],
+                "canonicalRGBA": [
+                  "#101211ff",
+                  "#171918ff",
+                  "#202221ff",
+                  "#272a29ff",
+                  "#2e3130ff",
+                  "#373b39ff",
+                  "#444947ff",
+                  "#5b625fff",
+                  "#63706bff",
+                  "#717d79ff",
+                  "#adb5b2ff",
+                  "#eceeedff"
+                ],
+                "orderedColorSha256": "ce23cf894cc54e8cc39827f889ca5471a2589f47a2e516672ea1a8b1b2582bc4"
+              },
+              {
+                "id": "color-wave-radix-colors-dark-sanddark",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#111110",
+                  "#191918",
+                  "#222221",
+                  "#2a2a28",
+                  "#31312e",
+                  "#3b3a37",
+                  "#494844",
+                  "#62605b",
+                  "#6f6d66",
+                  "#7c7b74",
+                  "#b5b3ad",
+                  "#eeeeec"
+                ],
+                "canonicalRGBA": [
+                  "#111110ff",
+                  "#191918ff",
+                  "#222221ff",
+                  "#2a2a28ff",
+                  "#31312eff",
+                  "#3b3a37ff",
+                  "#494844ff",
+                  "#62605bff",
+                  "#6f6d66ff",
+                  "#7c7b74ff",
+                  "#b5b3adff",
+                  "#eeeeecff"
+                ],
+                "orderedColorSha256": "c1a87512b2134dba06c8cb2d251e8fc49d51863241a1c0049d30128e1f723e63"
+              }
+            ]
+          },
+          "confidence": "high",
+          "differences": {
+            "orderPreserved": true,
+            "alphaPreserved": true,
+            "notIdenticalColorValues": true
+          }
+        }
+      ],
+      "expectedRecordSha256": {
+        "color-wave-radix-colors-dark-graydark": "cacfeab3e0af01bf85aaa495d096a67dfe9ae29bc68b0b03f44fa093485919f4",
+        "color-wave-radix-colors-dark-mauvedark": "8fb0e088bd247cce12ac3defb48947c882988c47f34b25d46dbb546c9d1b1902",
+        "color-wave-radix-colors-dark-slatedark": "2c977294ccf6cb902dec172db4ce409b83cd7699a0ed5ac98b84c790cdc33fdf",
+        "color-wave-radix-colors-dark-sagedark": "c59d53417531e20a158c61c3d624425f8ebf855ffb1adbe54d76898a369acace",
+        "color-wave-radix-colors-dark-olivedark": "5a507e40d58bc86e806eb54a96f412f9732d21f3bb115277ed6973fbfa214788",
+        "color-wave-radix-colors-dark-sanddark": "eef8a5b19314ff1f19c9b6bf7a455a76bcbfd6b7a962f6211e159941083e91f5"
+      }
+    },
+    {
+      "id": "color-wave-radix-colors-dark-graydarka",
+      "ids": [
+        "color-wave-radix-colors-dark-graydarka",
+        "color-wave-radix-colors-dark-sagedarka",
+        "color-wave-radix-colors-dark-olivedarka",
+        "color-wave-radix-colors-dark-sanddarka"
+      ],
+      "mode": "palette",
+      "expectedCodeSha256": {
+        "color-wave-radix-colors-dark-graydarka": "7500e1f68dc524f96c221b6f4f7a6ab0c592caee7c4a4263991c785768add650",
+        "color-wave-radix-colors-dark-sagedarka": "5ea139fea85f5b32a3fe7dd21e6429bbf0fa94d5c964d039d85638f7c9d4753a",
+        "color-wave-radix-colors-dark-olivedarka": "c42b5e193ad769515da949c15daf86f7342b5698a08cc8ebc3d21259d91af86d",
+        "color-wave-radix-colors-dark-sanddarka": "00d40ef0147c770d8c3f8024fd43b38b9bfe951cebdf39c9147246a02e06abcb"
+      },
+      "relations": [
+        {
+          "ids": [
+            "color-wave-radix-colors-dark-graydarka",
+            "color-wave-radix-colors-dark-olivedarka"
+          ],
+          "reason": "strict-perceptual-near-ordered-colors",
+          "evidence": {
+            "metric": "Euclidean OKLab * 100",
+            "meanWorstBackground": 0.844404949475931,
+            "maxWorstBackground": 1.7151432663823212,
+            "blackMean": 0.8281642088314295,
+            "blackMax": 1.7064186210020316,
+            "whiteMean": 0.6963433243288893,
+            "whiteMax": 1.7151432663823212,
+            "matchingRightIndices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "perColorWorstBackground": [
+              0.0,
+              0.7788338088330854,
+              0.33762005494610237,
+              0.7129478872006367,
+              0.5053005627030251,
+              0.6873767865657965,
+              0.9104687961047717,
+              1.2603623848071515,
+              1.7151432663823212,
+              1.5078490949999028,
+              1.3456722062827873,
+              0.3712845448855906
+            ],
+            "palettes": [
+              {
+                "id": "color-wave-radix-colors-dark-graydarka",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#00000000",
+                  "#ffffff09",
+                  "#ffffff12",
+                  "#ffffff1b",
+                  "#ffffff22",
+                  "#ffffff2c",
+                  "#ffffff3b",
+                  "#ffffff55",
+                  "#ffffff64",
+                  "#ffffff72",
+                  "#ffffffaf",
+                  "#ffffffed"
+                ],
+                "canonicalRGBA": [
+                  "#00000000",
+                  "#ffffff09",
+                  "#ffffff12",
+                  "#ffffff1b",
+                  "#ffffff22",
+                  "#ffffff2c",
+                  "#ffffff3b",
+                  "#ffffff55",
+                  "#ffffff64",
+                  "#ffffff72",
+                  "#ffffffaf",
+                  "#ffffffed"
+                ],
+                "orderedColorSha256": "ee721cae67850076a46de151f73b55d63dcc1ec0f3156d64e9950a4b6d5fb5d0"
+              },
+              {
+                "id": "color-wave-radix-colors-dark-olivedarka",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#00000000",
+                  "#f1f2f008",
+                  "#f4f5f312",
+                  "#f3fef21a",
+                  "#f2fbf122",
+                  "#f4faed2c",
+                  "#f2fced3b",
+                  "#edfdeb57",
+                  "#ebfde766",
+                  "#f0fdec74",
+                  "#f6fef4b0",
+                  "#fdfffded"
+                ],
+                "canonicalRGBA": [
+                  "#00000000",
+                  "#f1f2f008",
+                  "#f4f5f312",
+                  "#f3fef21a",
+                  "#f2fbf122",
+                  "#f4faed2c",
+                  "#f2fced3b",
+                  "#edfdeb57",
+                  "#ebfde766",
+                  "#f0fdec74",
+                  "#f6fef4b0",
+                  "#fdfffded"
+                ],
+                "orderedColorSha256": "c0161729fef4fa7c9d681e3df523e59a9c64ef5f1c5d2505f7099295bfa58353"
+              }
+            ]
+          },
+          "confidence": "high",
+          "differences": {
+            "orderPreserved": true,
+            "alphaPreserved": true,
+            "notIdenticalColorValues": true
+          }
+        },
+        {
+          "ids": [
+            "color-wave-radix-colors-dark-graydarka",
+            "color-wave-radix-colors-dark-sagedarka"
+          ],
+          "reason": "strict-perceptual-near-ordered-colors",
+          "evidence": {
+            "metric": "Euclidean OKLab * 100",
+            "meanWorstBackground": 0.7778678889668554,
+            "maxWorstBackground": 1.8658759583187754,
+            "blackMean": 0.7256865169337442,
+            "blackMax": 1.7900657964259972,
+            "whiteMean": 0.6642271593939709,
+            "whiteMax": 1.8658759583187754,
+            "matchingRightIndices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "perColorWorstBackground": [
+              0.0,
+              0.7817245571947541,
+              0.3424710499602445,
+              0.6449740120445842,
+              0.42087137245440975,
+              0.5284591005112883,
+              0.6484623572065915,
+              1.0235155669608966,
+              1.8658759583187754,
+              1.6908275062219633,
+              1.099304471815408,
+              0.28792871491335076
+            ],
+            "palettes": [
+              {
+                "id": "color-wave-radix-colors-dark-graydarka",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#00000000",
+                  "#ffffff09",
+                  "#ffffff12",
+                  "#ffffff1b",
+                  "#ffffff22",
+                  "#ffffff2c",
+                  "#ffffff3b",
+                  "#ffffff55",
+                  "#ffffff64",
+                  "#ffffff72",
+                  "#ffffffaf",
+                  "#ffffffed"
+                ],
+                "canonicalRGBA": [
+                  "#00000000",
+                  "#ffffff09",
+                  "#ffffff12",
+                  "#ffffff1b",
+                  "#ffffff22",
+                  "#ffffff2c",
+                  "#ffffff3b",
+                  "#ffffff55",
+                  "#ffffff64",
+                  "#ffffff72",
+                  "#ffffffaf",
+                  "#ffffffed"
+                ],
+                "orderedColorSha256": "ee721cae67850076a46de151f73b55d63dcc1ec0f3156d64e9950a4b6d5fb5d0"
+              },
+              {
+                "id": "color-wave-radix-colors-dark-sagedarka",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#00000000",
+                  "#f0f2f108",
+                  "#f3f5f412",
+                  "#f2fefd1a",
+                  "#f1fbfa22",
+                  "#edfbf42d",
+                  "#edfcf73c",
+                  "#ebfdf657",
+                  "#dffdf266",
+                  "#e5fdf674",
+                  "#f4fefbb0",
+                  "#fdfffeed"
+                ],
+                "canonicalRGBA": [
+                  "#00000000",
+                  "#f0f2f108",
+                  "#f3f5f412",
+                  "#f2fefd1a",
+                  "#f1fbfa22",
+                  "#edfbf42d",
+                  "#edfcf73c",
+                  "#ebfdf657",
+                  "#dffdf266",
+                  "#e5fdf674",
+                  "#f4fefbb0",
+                  "#fdfffeed"
+                ],
+                "orderedColorSha256": "90334c26968fe9fc23438541a1dd2271d9095184fde45643898f090ba4d7392b"
+              }
+            ]
+          },
+          "confidence": "high",
+          "differences": {
+            "orderPreserved": true,
+            "alphaPreserved": true,
+            "notIdenticalColorValues": true
+          }
+        },
+        {
+          "ids": [
+            "color-wave-radix-colors-dark-graydarka",
+            "color-wave-radix-colors-dark-sanddarka"
+          ],
+          "reason": "strict-perceptual-near-ordered-colors",
+          "evidence": {
+            "metric": "Euclidean OKLab * 100",
+            "meanWorstBackground": 0.5305297616421714,
+            "maxWorstBackground": 1.141302608207463,
+            "blackMean": 0.5117114220667287,
+            "blackMax": 1.141302608207463,
+            "whiteMean": 0.498518864711256,
+            "whiteMax": 1.1032742331552035,
+            "matchingRightIndices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "perColorWorstBackground": [
+              0.0,
+              0.2058967066364145,
+              0.20177295280128943,
+              0.24092670639693087,
+              0.4185571032652379,
+              0.4317559454471976,
+              0.5749243364000934,
+              0.8865067453448673,
+              1.141302608207463,
+              1.0370594210165194,
+              0.974623983822399,
+              0.25303063036764395
+            ],
+            "palettes": [
+              {
+                "id": "color-wave-radix-colors-dark-graydarka",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#00000000",
+                  "#ffffff09",
+                  "#ffffff12",
+                  "#ffffff1b",
+                  "#ffffff22",
+                  "#ffffff2c",
+                  "#ffffff3b",
+                  "#ffffff55",
+                  "#ffffff64",
+                  "#ffffff72",
+                  "#ffffffaf",
+                  "#ffffffed"
+                ],
+                "canonicalRGBA": [
+                  "#00000000",
+                  "#ffffff09",
+                  "#ffffff12",
+                  "#ffffff1b",
+                  "#ffffff22",
+                  "#ffffff2c",
+                  "#ffffff3b",
+                  "#ffffff55",
+                  "#ffffff64",
+                  "#ffffff72",
+                  "#ffffffaf",
+                  "#ffffffed"
+                ],
+                "orderedColorSha256": "ee721cae67850076a46de151f73b55d63dcc1ec0f3156d64e9950a4b6d5fb5d0"
+              },
+              {
+                "id": "color-wave-radix-colors-dark-sanddarka",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#00000000",
+                  "#f4f4f309",
+                  "#f6f6f513",
+                  "#fefef31b",
+                  "#fbfbeb23",
+                  "#fffaed2d",
+                  "#fffbed3c",
+                  "#fff9eb57",
+                  "#fffae965",
+                  "#fffdee73",
+                  "#fffcf4b0",
+                  "#fffffded"
+                ],
+                "canonicalRGBA": [
+                  "#00000000",
+                  "#f4f4f309",
+                  "#f6f6f513",
+                  "#fefef31b",
+                  "#fbfbeb23",
+                  "#fffaed2d",
+                  "#fffbed3c",
+                  "#fff9eb57",
+                  "#fffae965",
+                  "#fffdee73",
+                  "#fffcf4b0",
+                  "#fffffded"
+                ],
+                "orderedColorSha256": "970baf61e1978ed903ea9526734f86a8bb6213124dbc186354a1a5aa3f4819da"
+              }
+            ]
+          },
+          "confidence": "high",
+          "differences": {
+            "orderPreserved": true,
+            "alphaPreserved": true,
+            "notIdenticalColorValues": true
+          }
+        },
+        {
+          "ids": [
+            "color-wave-radix-colors-dark-olivedarka",
+            "color-wave-radix-colors-dark-sagedarka"
+          ],
+          "reason": "strict-perceptual-near-ordered-colors",
+          "evidence": {
+            "metric": "Euclidean OKLab * 100",
+            "meanWorstBackground": 0.3986971333687301,
+            "maxWorstBackground": 0.9480990641311268,
+            "blackMean": 0.3986971333687301,
+            "blackMax": 0.9480990641311268,
+            "whiteMean": 0.3145611300543108,
+            "whiteMax": 0.8322614480640169,
+            "matchingRightIndices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "perColorWorstBackground": [
+              0.0,
+              0.010828785388609754,
+              0.01913181032426885,
+              0.21926683823716187,
+              0.2265078048537672,
+              0.4527864810032819,
+              0.5485867965591992,
+              0.608348247898962,
+              0.9253033412646225,
+              0.9480990641311268,
+              0.6989303673257794,
+              0.1265760634379815
+            ],
+            "palettes": [
+              {
+                "id": "color-wave-radix-colors-dark-olivedarka",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#00000000",
+                  "#f1f2f008",
+                  "#f4f5f312",
+                  "#f3fef21a",
+                  "#f2fbf122",
+                  "#f4faed2c",
+                  "#f2fced3b",
+                  "#edfdeb57",
+                  "#ebfde766",
+                  "#f0fdec74",
+                  "#f6fef4b0",
+                  "#fdfffded"
+                ],
+                "canonicalRGBA": [
+                  "#00000000",
+                  "#f1f2f008",
+                  "#f4f5f312",
+                  "#f3fef21a",
+                  "#f2fbf122",
+                  "#f4faed2c",
+                  "#f2fced3b",
+                  "#edfdeb57",
+                  "#ebfde766",
+                  "#f0fdec74",
+                  "#f6fef4b0",
+                  "#fdfffded"
+                ],
+                "orderedColorSha256": "c0161729fef4fa7c9d681e3df523e59a9c64ef5f1c5d2505f7099295bfa58353"
+              },
+              {
+                "id": "color-wave-radix-colors-dark-sagedarka",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#00000000",
+                  "#f0f2f108",
+                  "#f3f5f412",
+                  "#f2fefd1a",
+                  "#f1fbfa22",
+                  "#edfbf42d",
+                  "#edfcf73c",
+                  "#ebfdf657",
+                  "#dffdf266",
+                  "#e5fdf674",
+                  "#f4fefbb0",
+                  "#fdfffeed"
+                ],
+                "canonicalRGBA": [
+                  "#00000000",
+                  "#f0f2f108",
+                  "#f3f5f412",
+                  "#f2fefd1a",
+                  "#f1fbfa22",
+                  "#edfbf42d",
+                  "#edfcf73c",
+                  "#ebfdf657",
+                  "#dffdf266",
+                  "#e5fdf674",
+                  "#f4fefbb0",
+                  "#fdfffeed"
+                ],
+                "orderedColorSha256": "90334c26968fe9fc23438541a1dd2271d9095184fde45643898f090ba4d7392b"
+              }
+            ]
+          },
+          "confidence": "high",
+          "differences": {
+            "orderPreserved": true,
+            "alphaPreserved": true,
+            "notIdenticalColorValues": true
+          }
+        },
+        {
+          "ids": [
+            "color-wave-radix-colors-dark-olivedarka",
+            "color-wave-radix-colors-dark-sanddarka"
+          ],
+          "reason": "strict-perceptual-near-ordered-colors",
+          "evidence": {
+            "metric": "Euclidean OKLab * 100",
+            "meanWorstBackground": 0.657990875282718,
+            "maxWorstBackground": 1.1961587662822404,
+            "blackMean": 0.6562659497861502,
+            "blackMax": 1.1961587662822404,
+            "whiteMean": 0.4093596912374258,
+            "whiteMax": 1.0820832630466508,
+            "matchingRightIndices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "perColorWorstBackground": [
+              0.0,
+              0.5730020202740814,
+              0.4831716727711275,
+              0.5848405295567256,
+              0.5617908023159396,
+              0.654856788472231,
+              0.7622127068441806,
+              1.0168232639703616,
+              1.1961587662822404,
+              0.9104004679430557,
+              0.907574070905367,
+              0.24505941405730675
+            ],
+            "palettes": [
+              {
+                "id": "color-wave-radix-colors-dark-olivedarka",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#00000000",
+                  "#f1f2f008",
+                  "#f4f5f312",
+                  "#f3fef21a",
+                  "#f2fbf122",
+                  "#f4faed2c",
+                  "#f2fced3b",
+                  "#edfdeb57",
+                  "#ebfde766",
+                  "#f0fdec74",
+                  "#f6fef4b0",
+                  "#fdfffded"
+                ],
+                "canonicalRGBA": [
+                  "#00000000",
+                  "#f1f2f008",
+                  "#f4f5f312",
+                  "#f3fef21a",
+                  "#f2fbf122",
+                  "#f4faed2c",
+                  "#f2fced3b",
+                  "#edfdeb57",
+                  "#ebfde766",
+                  "#f0fdec74",
+                  "#f6fef4b0",
+                  "#fdfffded"
+                ],
+                "orderedColorSha256": "c0161729fef4fa7c9d681e3df523e59a9c64ef5f1c5d2505f7099295bfa58353"
+              },
+              {
+                "id": "color-wave-radix-colors-dark-sanddarka",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#00000000",
+                  "#f4f4f309",
+                  "#f6f6f513",
+                  "#fefef31b",
+                  "#fbfbeb23",
+                  "#fffaed2d",
+                  "#fffbed3c",
+                  "#fff9eb57",
+                  "#fffae965",
+                  "#fffdee73",
+                  "#fffcf4b0",
+                  "#fffffded"
+                ],
+                "canonicalRGBA": [
+                  "#00000000",
+                  "#f4f4f309",
+                  "#f6f6f513",
+                  "#fefef31b",
+                  "#fbfbeb23",
+                  "#fffaed2d",
+                  "#fffbed3c",
+                  "#fff9eb57",
+                  "#fffae965",
+                  "#fffdee73",
+                  "#fffcf4b0",
+                  "#fffffded"
+                ],
+                "orderedColorSha256": "970baf61e1978ed903ea9526734f86a8bb6213124dbc186354a1a5aa3f4819da"
+              }
+            ]
+          },
+          "confidence": "high",
+          "differences": {
+            "orderPreserved": true,
+            "alphaPreserved": true,
+            "notIdenticalColorValues": true
+          }
+        },
+        {
+          "ids": [
+            "color-wave-radix-colors-dark-sagedarka",
+            "color-wave-radix-colors-dark-sanddarka"
+          ],
+          "reason": "strict-perceptual-near-ordered-colors",
+          "evidence": {
+            "metric": "Euclidean OKLab * 100",
+            "meanWorstBackground": 0.7979593229623331,
+            "maxWorstBackground": 1.7971383643216818,
+            "blackMean": 0.7979593229623331,
+            "blackMax": 1.7971383643216818,
+            "whiteMean": 0.5831574264731758,
+            "whiteMax": 1.6305977188047052,
+            "matchingRightIndices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "perColorWorstBackground": [
+              0.0,
+              0.5759952426944154,
+              0.48857452704447846,
+              0.5934740735953569,
+              0.641334918422568,
+              0.5654659337313868,
+              0.7578241957128485,
+              1.1291683037557871,
+              1.7971383643216818,
+              1.6211924400852744,
+              1.142360830909561,
+              0.2629830452746388
+            ],
+            "palettes": [
+              {
+                "id": "color-wave-radix-colors-dark-sagedarka",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#00000000",
+                  "#f0f2f108",
+                  "#f3f5f412",
+                  "#f2fefd1a",
+                  "#f1fbfa22",
+                  "#edfbf42d",
+                  "#edfcf73c",
+                  "#ebfdf657",
+                  "#dffdf266",
+                  "#e5fdf674",
+                  "#f4fefbb0",
+                  "#fdfffeed"
+                ],
+                "canonicalRGBA": [
+                  "#00000000",
+                  "#f0f2f108",
+                  "#f3f5f412",
+                  "#f2fefd1a",
+                  "#f1fbfa22",
+                  "#edfbf42d",
+                  "#edfcf73c",
+                  "#ebfdf657",
+                  "#dffdf266",
+                  "#e5fdf674",
+                  "#f4fefbb0",
+                  "#fdfffeed"
+                ],
+                "orderedColorSha256": "90334c26968fe9fc23438541a1dd2271d9095184fde45643898f090ba4d7392b"
+              },
+              {
+                "id": "color-wave-radix-colors-dark-sanddarka",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#00000000",
+                  "#f4f4f309",
+                  "#f6f6f513",
+                  "#fefef31b",
+                  "#fbfbeb23",
+                  "#fffaed2d",
+                  "#fffbed3c",
+                  "#fff9eb57",
+                  "#fffae965",
+                  "#fffdee73",
+                  "#fffcf4b0",
+                  "#fffffded"
+                ],
+                "canonicalRGBA": [
+                  "#00000000",
+                  "#f4f4f309",
+                  "#f6f6f513",
+                  "#fefef31b",
+                  "#fbfbeb23",
+                  "#fffaed2d",
+                  "#fffbed3c",
+                  "#fff9eb57",
+                  "#fffae965",
+                  "#fffdee73",
+                  "#fffcf4b0",
+                  "#fffffded"
+                ],
+                "orderedColorSha256": "970baf61e1978ed903ea9526734f86a8bb6213124dbc186354a1a5aa3f4819da"
+              }
+            ]
+          },
+          "confidence": "high",
+          "differences": {
+            "orderPreserved": true,
+            "alphaPreserved": true,
+            "notIdenticalColorValues": true
+          }
+        }
+      ],
+      "expectedRecordSha256": {
+        "color-wave-radix-colors-dark-graydarka": "7e36a00e9baaccd730ea22546bede421abc4db89abd2a70b7e26aef81be0393b",
+        "color-wave-radix-colors-dark-sagedarka": "c4a785d8e1b8159c918ba403a16c6fabe6f183efb9c2a6af18c0195616c1c29b",
+        "color-wave-radix-colors-dark-olivedarka": "792811942ffb91c5a54c173461e0580ffdb8818803f8ee852f9eef5442a5b010",
+        "color-wave-radix-colors-dark-sanddarka": "12ca6508cb41ccfdcf0dfd7977705e7c7a1a6f9cd0459fb008444e1d91444ab1"
+      }
+    },
+    {
+      "id": "color-wave-radix-colors-dark-mauvedarka",
+      "ids": [
+        "color-wave-radix-colors-dark-mauvedarka",
+        "color-wave-radix-colors-dark-slatedarka"
+      ],
+      "mode": "palette",
+      "expectedCodeSha256": {
+        "color-wave-radix-colors-dark-mauvedarka": "62d7b32bf1041f49610a854ee8a14759cfe68be5d49445880671276fec433b39",
+        "color-wave-radix-colors-dark-slatedarka": "25af239f74336b4e5345b595566c5235f148a4afa400b38b0d3f28aecf6b391b"
+      },
+      "relations": [
+        {
+          "ids": [
+            "color-wave-radix-colors-dark-mauvedarka",
+            "color-wave-radix-colors-dark-slatedarka"
+          ],
+          "reason": "strict-perceptual-near-ordered-colors",
+          "evidence": {
+            "metric": "Euclidean OKLab * 100",
+            "meanWorstBackground": 0.6538413662261071,
+            "maxWorstBackground": 1.3069504125177809,
+            "blackMean": 0.6447238226774409,
+            "blackMax": 1.3069504125177809,
+            "whiteMean": 0.5319960209688342,
+            "whiteMax": 1.1812217077124243,
+            "matchingRightIndices": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "perColorWorstBackground": [
+              0.0,
+              0.2437201378848855,
+              0.2161415294685434,
+              0.6341347620957851,
+              0.6498272348303621,
+              0.911045722491047,
+              0.8993587016492891,
+              1.3069504125177809,
+              0.9467202382072012,
+              0.7334009925635805,
+              1.1812217077124243,
+              0.12357495529238588
+            ],
+            "palettes": [
+              {
+                "id": "color-wave-radix-colors-dark-mauvedarka",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#00000000",
+                  "#f5f4f609",
+                  "#ebeaf814",
+                  "#eee5f81d",
+                  "#efe6fe25",
+                  "#f1e6fd30",
+                  "#eee9ff40",
+                  "#eee7ff5d",
+                  "#eae6fd6e",
+                  "#ece9fd7c",
+                  "#f5f1ffb7",
+                  "#fdfdffef"
+                ],
+                "canonicalRGBA": [
+                  "#00000000",
+                  "#f5f4f609",
+                  "#ebeaf814",
+                  "#eee5f81d",
+                  "#efe6fe25",
+                  "#f1e6fd30",
+                  "#eee9ff40",
+                  "#eee7ff5d",
+                  "#eae6fd6e",
+                  "#ece9fd7c",
+                  "#f5f1ffb7",
+                  "#fdfdffef"
+                ],
+                "orderedColorSha256": "50c1a5394154121db8087d2c2b3e7a0bd73f027c143d4fec42389d4ed170b61d"
+              },
+              {
+                "id": "color-wave-radix-colors-dark-slatedarka",
+                "sourceName": "Radix Colors",
+                "sourceUrl": "https://github.com/radix-ui/colors/blob/dbdb85470547c7d34b9001f48fddb08ded335979/src/dark.ts",
+                "originalColors": [
+                  "#00000000",
+                  "#d8f4f609",
+                  "#ddeaf814",
+                  "#d3edf81d",
+                  "#d9edfe25",
+                  "#d6ebfd30",
+                  "#d9edff40",
+                  "#d9edff5d",
+                  "#dfebfd6d",
+                  "#e5edfd7b",
+                  "#f1f7feb5",
+                  "#fcfdffef"
+                ],
+                "canonicalRGBA": [
+                  "#00000000",
+                  "#d8f4f609",
+                  "#ddeaf814",
+                  "#d3edf81d",
+                  "#d9edfe25",
+                  "#d6ebfd30",
+                  "#d9edff40",
+                  "#d9edff5d",
+                  "#dfebfd6d",
+                  "#e5edfd7b",
+                  "#f1f7feb5",
+                  "#fcfdffef"
+                ],
+                "orderedColorSha256": "ee19136ac6bb51f9469b1b6fe8b9f2f49bb4d45fbed8b2ac59fa248b80a267e6"
+              }
+            ]
+          },
+          "confidence": "high",
+          "differences": {
+            "orderPreserved": true,
+            "alphaPreserved": true,
+            "notIdenticalColorValues": true
+          }
+        }
+      ],
+      "expectedRecordSha256": {
+        "color-wave-radix-colors-dark-mauvedarka": "4856e1fd5430aaae8e9e322c67df4ac81f95c418e895f3ce8384a45be3681c68",
+        "color-wave-radix-colors-dark-slatedarka": "f2244cc6a394758dbde83febd7c5d13679a2dc1ce33d79d3941fa2942a8273f6"
+      }
+    }
+  ]
+}

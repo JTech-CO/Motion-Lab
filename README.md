@@ -9,7 +9,7 @@
 
 A searchable archive of motion code, transitions, typography, loaders, shaders, gradients, palettes, and references. Browse previews on the web, search with the CLI, or connect an AI tool through local MCP and the included SKILL. No MP4 files are stored.
 
-**6,108 entries from 149 source projects:** 3,374 code assets, 2,446 palettes, and 288 references. The first 5,000-entry milestone is complete, including 5,820 stored assets.
+**6,074 browse entries from 149 source projects:** 3,357 code assets, 2,429 palettes, and 288 references, including 5,786 stored assets. Duplicate and similar entries are consolidated into source-preserving variant groups.
 
 [GitHub repository](https://github.com/JTech-CO/Motion-Lab) · [AI SKILL](skills/motion-lab/SKILL.md) · [CLI, HTTP & MCP](docs/interfaces.md)
 
@@ -40,11 +40,12 @@ For link-based access, serve the static `dist/` directory: `/llms.txt`, `/catalo
 
 Licenses apply **per asset**. Keep each entry's original code, source attribution, and full license notice when reusing it. Reference entries and unknown licenses do not grant copying permission. CSS, GLSL, and SVG previews use the stored sources where supported; preview adaptations and limitations are documented in each entry.
 
-The collection preserves source IDs, code, licenses, pinned commits, and hashes. Analysis derives effects, components, and use cases from code or color values; reference-only metadata is marked separately.
+The collection preserves source IDs, code, licenses, pinned commits, and hashes. Former IDs resolve to their original variants; each variant retains its own code or exact palette array and license. Analysis derives effects, components, and use cases from code or color values; reference-only metadata is marked separately.
 
 - [Collection pipeline and update commands](docs/collection.md)
 - [Analysis and preview limitations](docs/asset-analysis.md)
-- [Full catalog duplicate and similarity review](docs/duplicate-audit.md)
+- [Consolidation results and preserved variants](docs/consolidation.md)
+- [Original 6,108-entry duplicate and similarity review](docs/duplicate-audit.md)
 - [Additional source assets and evidence](docs/asset-expansion.md)
 - [CSS collection](docs/css-wave.md) · [SVG and component collection](docs/vector-wave.md) · [Palette collection](docs/color-wave.md)
 - [Original recipes](docs/recipes.md)

@@ -294,6 +294,10 @@ def main():
     catalog, raw = load_json(ROOT / 'data/catalog.json')
     catalog_sha = hashlib.sha256(raw).hexdigest()
     items = catalog['items']
+    if any(item.get('consolidation') for item in items):
+        parser.error('Historical reports describe the pre-consolidation snapshot. '
+                     'Use python scripts/recheck_consolidation.py for the current canonical catalog; '
+                     'the historical reports have not been overwritten.')
     if not args.reuse:
         for script in ('duplicate_audit_css.py', 'duplicate_audit_svg.py', 'duplicate_audit_palette.py', 'duplicate_audit_other.py'):
             options = ['--include-gradients'] if script == 'duplicate_audit_palette.py' else []

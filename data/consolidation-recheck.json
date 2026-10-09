@@ -1,0 +1,1067 @@
+{
+  "version": 1,
+  "catalogUpdatedAt": "2026-10-09",
+  "catalogSha256": "84051c3b655b44cf349525b9263015f5aff10d4add9a93c00f406604945fa2d6",
+  "scope": "Current canonical top-level entries only; preserved variants are intentionally related and are not counted as separate duplicates.",
+  "itemCount": 6074,
+  "storedAssetCount": 5786,
+  "browserVerified": false,
+  "sourceExecution": false,
+  "historicalReviewCatalogSha256": "1688368bafbff4df4580d83d9ce8d8b128199cd0ac99089a9765d5828a4c9ea3",
+  "historicalReviewFileSha256": {
+    "review-decisions.json": "d2c7dbefae480828131e4f50b5c1c710ff47dc09fc31b7c96a8cd17f012150e9",
+    "css-review.json": "3c09661647a261f78ae3e3f1a78ffff73c13724000de2737456f3b52aa5b9ae7",
+    "css.json": "91eb0fcf831d37740d5e5f903b53175e8082fefba2ec21c9b31c68dbda61ab07",
+    "glsl.json": "3ccf0a17d258f7ed35899aa751f0a8738faa4e87b3cedbbdd8ee0422b3fd2155"
+  },
+  "domains": {
+    "css": {
+      "coverage": {
+        "itemCount": 1964,
+        "parsedItemCount": 1964,
+        "pairUniverse": 1927666,
+        "comparedPairs": 1927666,
+        "unparsedPairCount": 0,
+        "deepComparedPairs": 1592,
+        "exactPairCount": 0,
+        "nearPairCountExcludingExact": 0,
+        "candidatePairCount": 19,
+        "exactGroupCount": 0,
+        "nearGroupCount": 0,
+        "familyGroupCount": 62
+      },
+      "methodology": {
+        "version": 1,
+        "exact": "Equivalent stored CSS program and preview context only, not necessarily the complete upstream component. Quoted literals and numeric values retained. Hex color case/shorthand/opaque alpha normalized except local URL identifiers. Comments removed; declaration token formatting normalized. Class/keyframe identifiers consistently alpha-renamed in selectors and animation-name references only. Rule/declaration order, descendants, pseudo-class triggers, animation direction/iteration/fill and preview DOM/sample modes retained. Unused custom-property boilerplate excluded from preview-context identities.",
+        "near": "Exact full-program identities with only animation/transition time/easing and interior keyframe offsets masked. 0%/100% endpoints and frame block multiplicity retained; no indiscriminate numeric masking for near findings.",
+        "candidates": "Motion-signature or motion-numeric-skeleton bucket pairs examined; require equal DOM shape, endpoint anchors and playback controls plus 97% or 98.5% full program similarity. Geometry variants require at most 10 numeric changes, each within 2% of the larger magnitude (or 0.001), with equal unit and no sign reversal. Text similarity alone never establishes a duplicate.",
+        "pairCoverage": "All successfully parsed pairs are exhaustively partitioned by exact/timing/motion/numeric-skeleton signature equality. Deep sequence comparisons only within those content-defined buckets. Unrelated signatures are screened out, not visually rendered. Empty motion signatures (static assets) receive exact and timing-normalized full-program comparisons only.",
+        "limitations": [
+          "Conservative syntax/program comparison cannot prove perceptual equivalence across arbitrarily different CSS formulas or wrappers.",
+          "No browser/frame screenshots were used. Shared motion families and candidates require review; no entries were removed.",
+          "Custom variables are evaluated as stored source/preview context, not computed browser values. CSS shorthand versus longhand and mathematically equivalent transforms are not fully reduced.",
+          "Sample text is retained for exact/near identities; candidates may ignore text while retaining element/tag/class topology.",
+          "Legacy single-keyframe samples can omit upstream child DOM, pseudo-elements and companion keyframes. Identical stored samples therefore do not establish that their complete original designs are duplicates. SpinKit chase/swing and Three Dots falling source context was specifically inspected in css-review.json."
+        ]
+      },
+      "exactGroups": [],
+      "nearGroups": [],
+      "candidatePairs": [
+        {
+          "ids": [
+            "asset-loaderscss-square-spin",
+            "asset-loaderscss-triangle-skew-spin"
+          ],
+          "reason": "Same animated geometry and DOM shape, with at least 97% full timing-normalized program similarity; sample labels or small wrapper differences require manual review.",
+          "confidence": "candidate-static",
+          "evidence": {
+            "motionSha256": "585929e0d6f786165953f2cbf4ccc5a3aef335964939c724fbc9c5459a627740",
+            "programSimilarity": 0.971164
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-geometry-variant",
+            "basis": "manual-static-source-declarations-and-original-companion-context",
+            "reasonEN": "Same 3D rotation keyframes do not make a 50px filled square and a zero-size 20px CSS-border triangle the same design.",
+            "reviewFile": "css-review.json",
+            "codeSha256": {
+              "asset-loaderscss-square-spin": "3f09a024bc88ddc94df62d9bb4cedbb4c6432691efce3e904a3ad6d5e9585e06",
+              "asset-loaderscss-triangle-skew-spin": "4f4e8c30d93a46132e9ca757f168064bd88cbd2938b8a49bcd8801ee32bf9bb3"
+            },
+            "canonicalSha256": {
+              "asset-loaderscss-square-spin": "cb49d413ec84f023f2477da35e4289df06a668ee115055c7ae280ad56dbff3b3",
+              "asset-loaderscss-triangle-skew-spin": "67475166c389cc1defcf6a9b4569a49d1803e600f1a7e0d20577ad25f7971b95"
+            }
+          }
+        },
+        {
+          "ids": [
+            "ml-cssanimation-dancebottom",
+            "ml-cssanimation-dancemiddle"
+          ],
+          "reason": "Same animated geometry and DOM shape, with at least 97% full timing-normalized program similarity; sample labels or small wrapper differences require manual review.",
+          "confidence": "candidate-static",
+          "evidence": {
+            "motionSha256": "d98a4f056ba4af5c93d46a66dd516aea26c61abc4ffd2460bc33539ae0f29eb4",
+            "programSimilarity": 0.983903
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-geometry-variant",
+            "basis": "manual-static-source-declarations-and-original-companion-context",
+            "reasonEN": "Rotation pivot differs: bottom, omitted browser default (center), or top. Identical rotation angles trace different element paths.",
+            "reviewFile": "css-review.json",
+            "codeSha256": {
+              "ml-cssanimation-dancebottom": "0589cea76f19cc5ca9743d041e3e4ccfb87f76e84778c5a58e09f1630f05738c",
+              "ml-cssanimation-dancemiddle": "f9c7f444ba9f3361ea444499428adb52732c0355e1919bc5c94ce1bb8eb81e6a"
+            },
+            "canonicalSha256": {
+              "ml-cssanimation-dancebottom": "996ee120c46e9380f618dee593f41f44b10fd97cba7e756c08b3e332d300f822",
+              "ml-cssanimation-dancemiddle": "706b48ffdb673804764afcfb0179cf21df87728c8702eeda563a862c38710877"
+            }
+          }
+        },
+        {
+          "ids": [
+            "ml-cssanimation-dancebottom",
+            "ml-cssanimation-dancetop"
+          ],
+          "reason": "Same animated geometry and DOM shape, with at least 97% full timing-normalized program similarity; sample labels or small wrapper differences require manual review.",
+          "confidence": "candidate-static",
+          "evidence": {
+            "motionSha256": "d98a4f056ba4af5c93d46a66dd516aea26c61abc4ffd2460bc33539ae0f29eb4",
+            "programSimilarity": 0.997521
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-geometry-variant",
+            "basis": "manual-static-source-declarations-and-original-companion-context",
+            "reasonEN": "Rotation pivot differs: bottom, omitted browser default (center), or top. Identical rotation angles trace different element paths.",
+            "reviewFile": "css-review.json",
+            "codeSha256": {
+              "ml-cssanimation-dancebottom": "0589cea76f19cc5ca9743d041e3e4ccfb87f76e84778c5a58e09f1630f05738c",
+              "ml-cssanimation-dancetop": "89c1eb8fb8b802d93ea014af31d3bedcb78da4461d9a3a6c6259e236209f4ad1"
+            },
+            "canonicalSha256": {
+              "ml-cssanimation-dancebottom": "996ee120c46e9380f618dee593f41f44b10fd97cba7e756c08b3e332d300f822",
+              "ml-cssanimation-dancetop": "399b5bb3f53d73c6704817e9b9560957e69b4487e757394f687888329c9266e1"
+            }
+          }
+        },
+        {
+          "ids": [
+            "ml-cssanimation-dancemiddle",
+            "ml-cssanimation-dancetop"
+          ],
+          "reason": "Same animated geometry and DOM shape, with at least 97% full timing-normalized program similarity; sample labels or small wrapper differences require manual review.",
+          "confidence": "candidate-static",
+          "evidence": {
+            "motionSha256": "d98a4f056ba4af5c93d46a66dd516aea26c61abc4ffd2460bc33539ae0f29eb4",
+            "programSimilarity": 0.98539
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-geometry-variant",
+            "basis": "manual-static-source-declarations-and-original-companion-context",
+            "reasonEN": "Rotation pivot differs: bottom, omitted browser default (center), or top. Identical rotation angles trace different element paths.",
+            "reviewFile": "css-review.json",
+            "codeSha256": {
+              "ml-cssanimation-dancemiddle": "f9c7f444ba9f3361ea444499428adb52732c0355e1919bc5c94ce1bb8eb81e6a",
+              "ml-cssanimation-dancetop": "89c1eb8fb8b802d93ea014af31d3bedcb78da4461d9a3a6c6259e236209f4ad1"
+            },
+            "canonicalSha256": {
+              "ml-cssanimation-dancemiddle": "706b48ffdb673804764afcfb0179cf21df87728c8702eeda563a862c38710877",
+              "ml-cssanimation-dancetop": "399b5bb3f53d73c6704817e9b9560957e69b4487e757394f687888329c9266e1"
+            }
+          }
+        },
+        {
+          "ids": [
+            "ml-cssanimation-mask-shutterlinesin",
+            "ml-cssanimation-maskstripesdiagonalleftin"
+          ],
+          "reason": "Same animated geometry and DOM shape, with at least 97% full timing-normalized program similarity; sample labels or small wrapper differences require manual review.",
+          "confidence": "candidate-static",
+          "evidence": {
+            "motionSha256": "1af7ce1d44075604ee159ef664730e0680f48051076a5a065a685a7acc2b71b0",
+            "programSimilarity": 0.97185
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-geometry-variant",
+            "basis": "manual-static-source-declarations-and-original-companion-context",
+            "reasonEN": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+            "reviewFile": "css-review.json",
+            "codeSha256": {
+              "ml-cssanimation-mask-shutterlinesin": "3effe5755f085c185cd0b3b13b304bdf58ef204908f9d076f0d86d4489b59a09",
+              "ml-cssanimation-maskstripesdiagonalleftin": "b027f8608950e19dd1787872c1d96f7bd11c313144963a9b860b6728441fc164"
+            },
+            "canonicalSha256": {
+              "ml-cssanimation-mask-shutterlinesin": "f7dceb5e661c563fa4b7433e5498e94cde063687c414580a88222adffde41975",
+              "ml-cssanimation-maskstripesdiagonalleftin": "3b3c6908e5946b4d3b29828e2074b36e95799766857202ab6b5997d190d1cf40"
+            }
+          }
+        },
+        {
+          "ids": [
+            "ml-cssanimation-mask-shutterlinesin",
+            "ml-cssanimation-maskstripesverticalin"
+          ],
+          "reason": "Same animated geometry and DOM shape, with at least 97% full timing-normalized program similarity; sample labels or small wrapper differences require manual review.",
+          "confidence": "candidate-static",
+          "evidence": {
+            "motionSha256": "1af7ce1d44075604ee159ef664730e0680f48051076a5a065a685a7acc2b71b0",
+            "programSimilarity": 0.992
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-geometry-variant",
+            "basis": "manual-static-source-declarations-and-original-companion-context",
+            "reasonEN": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+            "reviewFile": "css-review.json",
+            "codeSha256": {
+              "ml-cssanimation-mask-shutterlinesin": "3effe5755f085c185cd0b3b13b304bdf58ef204908f9d076f0d86d4489b59a09",
+              "ml-cssanimation-maskstripesverticalin": "a83e2f883a936c3cee9ce7c198222b509057102e6f9b07bc62875bd7cb357e6f"
+            },
+            "canonicalSha256": {
+              "ml-cssanimation-mask-shutterlinesin": "f7dceb5e661c563fa4b7433e5498e94cde063687c414580a88222adffde41975",
+              "ml-cssanimation-maskstripesverticalin": "c143703d84540bb597c617b11782327a6766d8b41c50c6307f8fda611d2b08fe"
+            }
+          }
+        },
+        {
+          "ids": [
+            "ml-cssanimation-maskstripesdiagonalleftin",
+            "ml-cssanimation-maskstripesverticalin"
+          ],
+          "reason": "Same animated geometry and DOM shape, with at least 97% full timing-normalized program similarity; sample labels or small wrapper differences require manual review.",
+          "confidence": "candidate-static",
+          "evidence": {
+            "motionSha256": "1af7ce1d44075604ee159ef664730e0680f48051076a5a065a685a7acc2b71b0",
+            "programSimilarity": 0.979893
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-geometry-variant",
+            "basis": "manual-static-source-declarations-and-original-companion-context",
+            "reasonEN": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+            "reviewFile": "css-review.json",
+            "codeSha256": {
+              "ml-cssanimation-maskstripesdiagonalleftin": "b027f8608950e19dd1787872c1d96f7bd11c313144963a9b860b6728441fc164",
+              "ml-cssanimation-maskstripesverticalin": "a83e2f883a936c3cee9ce7c198222b509057102e6f9b07bc62875bd7cb357e6f"
+            },
+            "canonicalSha256": {
+              "ml-cssanimation-maskstripesdiagonalleftin": "3b3c6908e5946b4d3b29828e2074b36e95799766857202ab6b5997d190d1cf40",
+              "ml-cssanimation-maskstripesverticalin": "c143703d84540bb597c617b11782327a6766d8b41c50c6307f8fda611d2b08fe"
+            }
+          }
+        },
+        {
+          "ids": [
+            "ml-cssanimation-mask-stripeswidein",
+            "ml-cssanimation-masklinesslidein"
+          ],
+          "reason": "Same animated geometry and DOM shape, with at least 97% full timing-normalized program similarity; sample labels or small wrapper differences require manual review.",
+          "confidence": "candidate-static",
+          "evidence": {
+            "motionSha256": "b72266b1290b6f6207330014ba5f203c327e598d23bf5ad0a9f387b43ee8afa0",
+            "programSimilarity": 0.977424
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-geometry-variant",
+            "basis": "manual-static-source-declarations-and-original-companion-context",
+            "reasonEN": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+            "reviewFile": "css-review.json",
+            "codeSha256": {
+              "ml-cssanimation-mask-stripeswidein": "bf3edae83421366746e4547523e1aed452f3e521d6a488ddd13bef794d3cd0f5",
+              "ml-cssanimation-masklinesslidein": "e4a57a6f4cbfed3ab2a28ba46df5e239ade6e7d41c67f0f81d700178d0587553"
+            },
+            "canonicalSha256": {
+              "ml-cssanimation-mask-stripeswidein": "34b38cc202d136d260d7a86a0d7542562c3065c533bc9b4da4e83b42bf358f47",
+              "ml-cssanimation-masklinesslidein": "0c24299cec705332f7a572c0161f8055ef3917a6a7330fec970b30f31e561b4a"
+            }
+          }
+        },
+        {
+          "ids": [
+            "ml-cssanimation-mask-stripeswidein",
+            "ml-cssanimation-maskrainrevealin"
+          ],
+          "reason": "Same animated geometry and DOM shape, with at least 97% full timing-normalized program similarity; sample labels or small wrapper differences require manual review.",
+          "confidence": "candidate-static",
+          "evidence": {
+            "motionSha256": "b72266b1290b6f6207330014ba5f203c327e598d23bf5ad0a9f387b43ee8afa0",
+            "programSimilarity": 0.974734
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-geometry-variant",
+            "basis": "manual-static-source-declarations-and-original-companion-context",
+            "reasonEN": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+            "reviewFile": "css-review.json",
+            "codeSha256": {
+              "ml-cssanimation-mask-stripeswidein": "bf3edae83421366746e4547523e1aed452f3e521d6a488ddd13bef794d3cd0f5",
+              "ml-cssanimation-maskrainrevealin": "53b52a7f4f273ccbd42bd09e4cbdc6edfafe163e11ca18d052777659abd3b1c6"
+            },
+            "canonicalSha256": {
+              "ml-cssanimation-mask-stripeswidein": "34b38cc202d136d260d7a86a0d7542562c3065c533bc9b4da4e83b42bf358f47",
+              "ml-cssanimation-maskrainrevealin": "b2f88bc574a95bc076aa8f8b62eb9da3f6d262abd6548ccf9a8a68cd02b78ba0"
+            }
+          }
+        },
+        {
+          "ids": [
+            "ml-cssanimation-mask-stripeswidein",
+            "ml-cssanimation-maskstripesthinin"
+          ],
+          "reason": "Same animated geometry and DOM shape, with at least 97% full timing-normalized program similarity; sample labels or small wrapper differences require manual review.",
+          "confidence": "candidate-static",
+          "evidence": {
+            "motionSha256": "b72266b1290b6f6207330014ba5f203c327e598d23bf5ad0a9f387b43ee8afa0",
+            "programSimilarity": 0.993324
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-geometry-variant",
+            "basis": "manual-static-source-declarations-and-original-companion-context",
+            "reasonEN": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+            "reviewFile": "css-review.json",
+            "codeSha256": {
+              "ml-cssanimation-mask-stripeswidein": "bf3edae83421366746e4547523e1aed452f3e521d6a488ddd13bef794d3cd0f5",
+              "ml-cssanimation-maskstripesthinin": "47b38f9474fa8378b398264f6714c950d74167e8ccfcbca4e355194118aca0ac"
+            },
+            "canonicalSha256": {
+              "ml-cssanimation-mask-stripeswidein": "34b38cc202d136d260d7a86a0d7542562c3065c533bc9b4da4e83b42bf358f47",
+              "ml-cssanimation-maskstripesthinin": "45f9d7171d3d5f8d281fd84f3cb05f6cc74871be54bda55c17cfae49e8cfd609"
+            }
+          }
+        },
+        {
+          "ids": [
+            "ml-cssanimation-masklinesslidein",
+            "ml-cssanimation-maskstripesthinin"
+          ],
+          "reason": "Same animated geometry and DOM shape, with at least 97% full timing-normalized program similarity; sample labels or small wrapper differences require manual review.",
+          "confidence": "candidate-static",
+          "evidence": {
+            "motionSha256": "b72266b1290b6f6207330014ba5f203c327e598d23bf5ad0a9f387b43ee8afa0",
+            "programSimilarity": 0.978667
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-geometry-variant",
+            "basis": "manual-static-source-declarations-and-original-companion-context",
+            "reasonEN": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+            "reviewFile": "css-review.json",
+            "codeSha256": {
+              "ml-cssanimation-masklinesslidein": "e4a57a6f4cbfed3ab2a28ba46df5e239ade6e7d41c67f0f81d700178d0587553",
+              "ml-cssanimation-maskstripesthinin": "47b38f9474fa8378b398264f6714c950d74167e8ccfcbca4e355194118aca0ac"
+            },
+            "canonicalSha256": {
+              "ml-cssanimation-masklinesslidein": "0c24299cec705332f7a572c0161f8055ef3917a6a7330fec970b30f31e561b4a",
+              "ml-cssanimation-maskstripesthinin": "45f9d7171d3d5f8d281fd84f3cb05f6cc74871be54bda55c17cfae49e8cfd609"
+            }
+          }
+        },
+        {
+          "ids": [
+            "ml-cssanimation-maskrainrevealin",
+            "ml-cssanimation-maskstripesthinin"
+          ],
+          "reason": "Same animated geometry and DOM shape, with at least 97% full timing-normalized program similarity; sample labels or small wrapper differences require manual review.",
+          "confidence": "candidate-static",
+          "evidence": {
+            "motionSha256": "b72266b1290b6f6207330014ba5f203c327e598d23bf5ad0a9f387b43ee8afa0",
+            "programSimilarity": 0.978638
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-geometry-variant",
+            "basis": "manual-static-source-declarations-and-original-companion-context",
+            "reasonEN": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+            "reviewFile": "css-review.json",
+            "codeSha256": {
+              "ml-cssanimation-maskrainrevealin": "53b52a7f4f273ccbd42bd09e4cbdc6edfafe163e11ca18d052777659abd3b1c6",
+              "ml-cssanimation-maskstripesthinin": "47b38f9474fa8378b398264f6714c950d74167e8ccfcbca4e355194118aca0ac"
+            },
+            "canonicalSha256": {
+              "ml-cssanimation-maskrainrevealin": "b2f88bc574a95bc076aa8f8b62eb9da3f6d262abd6548ccf9a8a68cd02b78ba0",
+              "ml-cssanimation-maskstripesthinin": "45f9d7171d3d5f8d281fd84f3cb05f6cc74871be54bda55c17cfae49e8cfd609"
+            }
+          }
+        },
+        {
+          "ids": [
+            "ml-cssanimation-maskstripeshorizontalreverseout",
+            "ml-cssanimation-maskstripesthinout"
+          ],
+          "reason": "Same animated geometry and DOM shape, with at least 97% full timing-normalized program similarity; sample labels or small wrapper differences require manual review.",
+          "confidence": "candidate-static",
+          "evidence": {
+            "motionSha256": "4d4a53bf5d050561f9cfb0ff4c3523aa8ed10e6f931bc6c18999daf66be0dbd4",
+            "programSimilarity": 0.987968
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-geometry-variant",
+            "basis": "manual-static-source-declarations-and-original-companion-context",
+            "reasonEN": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+            "reviewFile": "css-review.json",
+            "codeSha256": {
+              "ml-cssanimation-maskstripeshorizontalreverseout": "d887c32864e8bb9392ccb6193afa84f11e5f8528dd65f73c55df0b24ee330b53",
+              "ml-cssanimation-maskstripesthinout": "3d184c48be0773f8d548595ca0a7171a53a85682568c04b08f6b404be7af220d"
+            },
+            "canonicalSha256": {
+              "ml-cssanimation-maskstripeshorizontalreverseout": "d3de8a19e34267782b3cae5784881efe6be84fb697979b50e6b5ed7d083eb703",
+              "ml-cssanimation-maskstripesthinout": "9682e514bc7001dfd813d171c742f3759e4c8af385884d355f0d37d3f09907c4"
+            }
+          }
+        },
+        {
+          "ids": [
+            "ml-cssanimation-maskstripeshorizontalreverseout",
+            "ml-cssanimation-maskstripeswideout"
+          ],
+          "reason": "Same animated geometry and DOM shape, with at least 97% full timing-normalized program similarity; sample labels or small wrapper differences require manual review.",
+          "confidence": "candidate-static",
+          "evidence": {
+            "motionSha256": "4d4a53bf5d050561f9cfb0ff4c3523aa8ed10e6f931bc6c18999daf66be0dbd4",
+            "programSimilarity": 0.992011
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-geometry-variant",
+            "basis": "manual-static-source-declarations-and-original-companion-context",
+            "reasonEN": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+            "reviewFile": "css-review.json",
+            "codeSha256": {
+              "ml-cssanimation-maskstripeshorizontalreverseout": "d887c32864e8bb9392ccb6193afa84f11e5f8528dd65f73c55df0b24ee330b53",
+              "ml-cssanimation-maskstripeswideout": "b392385bec7ab6375c6b7d4ae6d321c828b15d798842c3031148a43d97176942"
+            },
+            "canonicalSha256": {
+              "ml-cssanimation-maskstripeshorizontalreverseout": "d3de8a19e34267782b3cae5784881efe6be84fb697979b50e6b5ed7d083eb703",
+              "ml-cssanimation-maskstripeswideout": "1d9ad1c8c19a1c731f3e49a74cd9e0d8c0df9a335b49376e5b9e01529ea75d3f"
+            }
+          }
+        },
+        {
+          "ids": [
+            "ml-cssanimation-maskstripesthinout",
+            "ml-cssanimation-maskstripeswideout"
+          ],
+          "reason": "Same animated geometry and DOM shape, with at least 97% full timing-normalized program similarity; sample labels or small wrapper differences require manual review.",
+          "confidence": "candidate-static",
+          "evidence": {
+            "motionSha256": "4d4a53bf5d050561f9cfb0ff4c3523aa8ed10e6f931bc6c18999daf66be0dbd4",
+            "programSimilarity": 0.993316
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-geometry-variant",
+            "basis": "manual-static-source-declarations-and-original-companion-context",
+            "reasonEN": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+            "reviewFile": "css-review.json",
+            "codeSha256": {
+              "ml-cssanimation-maskstripesthinout": "3d184c48be0773f8d548595ca0a7171a53a85682568c04b08f6b404be7af220d",
+              "ml-cssanimation-maskstripeswideout": "b392385bec7ab6375c6b7d4ae6d321c828b15d798842c3031148a43d97176942"
+            },
+            "canonicalSha256": {
+              "ml-cssanimation-maskstripesthinout": "9682e514bc7001dfd813d171c742f3759e4c8af385884d355f0d37d3f09907c4",
+              "ml-cssanimation-maskstripeswideout": "1d9ad1c8c19a1c731f3e49a74cd9e0d8c0df9a335b49376e5b9e01529ea75d3f"
+            }
+          }
+        },
+        {
+          "ids": [
+            "ml-cssanimation-mask-wipeinleft",
+            "ml-cssanimation-mask-wipeinright"
+          ],
+          "reason": "Same animated geometry and DOM shape, with at least 97% full timing-normalized program similarity; sample labels or small wrapper differences require manual review.",
+          "confidence": "candidate-static",
+          "evidence": {
+            "motionSha256": "bbdc2b1565416c8300b77374dbfd59fd8c77c1af750be59ab7f14a80a876f88b",
+            "programSimilarity": 0.974217
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-geometry-variant",
+            "basis": "manual-static-source-declarations-and-original-companion-context",
+            "reasonEN": "Mask static geometry differs in stripe width/density/angle, gradient ordering, or mask-size. Identical mask-position keyframes still reveal visibly different regions.",
+            "reviewFile": "css-review.json",
+            "codeSha256": {
+              "ml-cssanimation-mask-wipeinleft": "d732822319d6f9157f361a6114d66d2172fbe400b19e7d22b540914cb5d51ac3",
+              "ml-cssanimation-mask-wipeinright": "4c3a3a527e5a47a0f8f9b050d5d3534a6657370bc6f7e1887e19ffc1fe4b71c7"
+            },
+            "canonicalSha256": {
+              "ml-cssanimation-mask-wipeinleft": "99cd1aab24ef88708e83ea037c687b71a91daf50f7a0e09cc5f05de59dd6f6a1",
+              "ml-cssanimation-mask-wipeinright": "634a61d313f13205cbfb22ce6df0d312a8cd43a57e577743fc0d87ebd5f019c5"
+            }
+          }
+        },
+        {
+          "ids": [
+            "ml-cssanimation-stepscalepopin",
+            "ml-cssanimation-stepzoomin"
+          ],
+          "reason": "Same animated geometry and DOM shape, with at least 97% full timing-normalized program similarity; sample labels or small wrapper differences require manual review.",
+          "confidence": "candidate-static",
+          "evidence": {
+            "motionSha256": "4e8811b8334e92d2558ba54bd31534b802263219d70a48ea8c00c8451aa22afb",
+            "programSimilarity": 0.997677
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-geometry-variant",
+            "basis": "manual-static-source-declarations-and-original-companion-context",
+            "reasonEN": "Only the final keyframe is declared. Starting CSS transform is the implicit initial value: scale(0.4) grows while scale(2) shrinks; steps(4) vs steps(7) and 0.7s vs 0.9s also differ.",
+            "reviewFile": "css-review.json",
+            "codeSha256": {
+              "ml-cssanimation-stepscalepopin": "0c5c2aef7d5da3558d9a39c38f7ffa5203d957eb9d3ffc08bc23318aa4b9baa7",
+              "ml-cssanimation-stepzoomin": "f02999fb6dd6b225540617c5ad1dbbc782e7db8da16c0aaf3e17ef2bd492943a"
+            },
+            "canonicalSha256": {
+              "ml-cssanimation-stepscalepopin": "71914ea527bc94477c4d4a36f49031da9b895d3140d4a3bce787573794cfac09",
+              "ml-cssanimation-stepzoomin": "db352e03ecf94595d2b0c44c9e2ffac690c13bb087c416b5ac397eadd3184b1c"
+            }
+          }
+        },
+        {
+          "ids": [
+            "vector-sds-motion-forge-sds-input-scan",
+            "vector-sds-motion-forge-sds-input-shimmer"
+          ],
+          "reason": "Same animated geometry and DOM shape, with at least 97% full timing-normalized program similarity; sample labels or small wrapper differences require manual review.",
+          "confidence": "candidate-static",
+          "evidence": {
+            "motionSha256": "c5da59c1c375bd4c19b693d5a128af03debcada216785e71872976a0fce6c463",
+            "programSimilarity": 0.986006
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-geometry-variant",
+            "basis": "manual-static-source-declarations-and-original-companion-context",
+            "reasonEN": "Same moving gradient primitive, but transparent stop span is 30%-70% vs 40%-60%, alpha 0.1 vs 0.08 and duration 2s vs 2.5s. Keep as style/timing variants; browser may further establish perceptual similarity.",
+            "reviewFile": "css-review.json",
+            "codeSha256": {
+              "vector-sds-motion-forge-sds-input-scan": "d4f31ef3998e25a81d896dd2b1d3f86ed200bef2c3dce2e67e6b9c9df8839c32",
+              "vector-sds-motion-forge-sds-input-shimmer": "102839c313dc344cb0a855b5c20526ac1fda420ba86c2e2182ed123efd85aa64"
+            },
+            "canonicalSha256": {
+              "vector-sds-motion-forge-sds-input-scan": "a0b6f37b89e34df00c424bf782bb14c91b7ffafb7d6ffeb8bded87653d9e757e",
+              "vector-sds-motion-forge-sds-input-shimmer": "1c50d0eec80824bb25805c09b5fda951eae2364826a4023a5c9f868f226a811e"
+            }
+          }
+        },
+        {
+          "ids": [
+            "vector-sds-motion-forge-sds-loader-spin-fade",
+            "vector-sds-motion-forge-sds-loader-windmill"
+          ],
+          "reason": "Same animated geometry and DOM shape, with at least 97% full timing-normalized program similarity; sample labels or small wrapper differences require manual review.",
+          "confidence": "candidate-static",
+          "evidence": {
+            "motionSha256": "9f5ca46652a258f162868b3f0f983b213b2248c0093f233e14aaf834e4066e77",
+            "programSimilarity": 0.993944
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-geometry-variant",
+            "basis": "manual-static-source-declarations-and-original-companion-context",
+            "reasonEN": "Same fade cycle and four-child topology, but 12x3px bars with 3px radius vs 10x4px with 2px radius and four different offsets; preserve geometric variants.",
+            "reviewFile": "css-review.json",
+            "codeSha256": {
+              "vector-sds-motion-forge-sds-loader-spin-fade": "2421db2d21ac8633e099df6f3029306fdf1ab95dd04e9630d2549e4fa798a3b3",
+              "vector-sds-motion-forge-sds-loader-windmill": "8affaf8969461490b9e62e9fcfbe63a89abe523761921289b19e58bab0c25f25"
+            },
+            "canonicalSha256": {
+              "vector-sds-motion-forge-sds-loader-spin-fade": "fa93542f8ec11424eb0257112be08b90d0bbcdce661112642c3e5c4c5473446f",
+              "vector-sds-motion-forge-sds-loader-windmill": "cb5ae1e375ad148685e61591d70b19f84b3ba89cf05b5a5cde9562ac376cabea"
+            }
+          }
+        }
+      ],
+      "familyGroupCount": 62,
+      "errors": []
+    },
+    "svg": {
+      "coverage": {
+        "itemCount": 1270,
+        "parsedItems": 1270,
+        "errorItems": 0,
+        "pairUniverse": 805815,
+        "comparedPairs": 805815,
+        "skippedPairsForParseErrors": 0,
+        "pairClassificationCounts": {
+          "different-under-defined-model": 804628,
+          "family-only": 1187
+        },
+        "sources": {
+          "Material Line Icons": 1214,
+          "SVG Spinners": 44,
+          "Sam Herbert SVG Loaders": 12
+        },
+        "elementCounts": {
+          "animate": 5291,
+          "animateTransform": 225,
+          "circle": 466,
+          "defs": 463,
+          "ellipse": 1,
+          "feBlend": 2,
+          "feColorMatrix": 2,
+          "feGaussianBlur": 2,
+          "filter": 2,
+          "g": 1645,
+          "linearGradient": 1,
+          "mask": 469,
+          "path": 4683,
+          "rect": 54,
+          "set": 517,
+          "stop": 3,
+          "svg": 1270
+        },
+        "animationElementCounts": {
+          "animate": 5291,
+          "animateTransform": 225,
+          "set": 517
+        }
+      },
+      "methodology": {
+        "version": 1,
+        "exact": "XML namespace/attribute-order/indentation normalization; comments and unreferenced title/desc/metadata removed; IDs renamed with local URL/href/SMIL references retained; numeric lexical equivalents normalized; linear numeric values samples reduced only by exact rational collinearity. Child paint order, root dimensions/viewBox, initial state, paint, transforms, timing, repeat/fill/easing and actual animation values otherwise retained.",
+        "near": "Same complete XML tree and all non-timing attributes after safe numeric normalization. Only begin/end/dur/min/max/keyTimes may differ; duration ratios over 2 are review candidates, not high-confidence near groups.",
+        "candidate": "All valid pairs are compared. Small-coordinate candidates require identical tree/paint/path commands/static transforms/animation values and max delta <=1.5% of the smaller viewBox extent plus RMS <=0.6%. Arc paths keep exact numeric geometry to preserve discrete arc flags. No perceptual or name-based verdict is used."
+      },
+      "exactGroups": [],
+      "nearGroups": [],
+      "candidatePairs": [],
+      "familyGroupCount": 325,
+      "errors": []
+    },
+    "palette": {
+      "coverage": {
+        "itemCount": 2429,
+        "validItemCount": 2429,
+        "pairUniverse": 2948806,
+        "comparedPairs": 2948806,
+        "sameCountPairs": 899392,
+        "differentCountPairs": 2049414,
+        "exactOrderedPairs": 0,
+        "exactReorderedPairs": 0,
+        "exactSubsetPairs": 780,
+        "centroidBoundRejectedPairs": 898671,
+        "perceptualCandidatePairs": 721,
+        "nearOrderedPairs": 0,
+        "nearReversedPairs": 0,
+        "nearPermutedPairs": 0,
+        "symmetricNearestBoundRejectedPairs": 721,
+        "optimalAssignmentPairs": 0,
+        "optimalAssignmentRejectedPairs": 0,
+        "invalidItemCount": 0,
+        "uncomparedPairsDueToInvalidItems": 0,
+        "exactGroupCount": 0,
+        "nearOrderedPairCount": 0,
+        "nearReorderedCandidatePairCount": 0,
+        "familyGroupCount": 849
+      },
+      "methodology": {
+        "version": 1,
+        "exact": "Canonical RGBA array; preserve alpha and order, normalize HEX case/shorthand/opaque ff notation",
+        "metric": "Euclidean OKLab * 100 (NOT CIE DeltaE2000)",
+        "nearThresholds": {
+          "meanWorstBackground": 1.0,
+          "maxWorstBackground": 2.0
+        },
+        "nearMatching": "all same-count pairs: order and reverse, then optimal one-to-one assignment with maximum-edge constraint",
+        "limitations": [
+          "Palette-only numeric audit; no perceptual browser or human color-judgment claim",
+          "Different-size arrays use exact containment and original author family evidence, not interpolated resampling",
+          "Strict thresholds intentionally exclude broadly similar colors and may miss other useful family relations"
+        ]
+      },
+      "exactGroups": [],
+      "nearGroups": [],
+      "candidatePairs": [],
+      "familyGroupCount": 849,
+      "errors": []
+    },
+    "glsl": {
+      "coverage": {
+        "itemCount": 123,
+        "pairUniverse": 7503,
+        "comparedPairs": 7503,
+        "parsedItems": 123
+      },
+      "methodology": {
+        "exact": "Comments/whitespace removed; consistently rename declared nonbuiltin identifiers; preserve operators, axes, numeric literal types, calls and default values.",
+        "candidate": "All pairs inspected; numeric-only skeleton matches are families; otherwise length ratio >=0.8, five-token shingle Dice >=0.8 and token sequence ratio >=0.85.",
+        "limitations": [
+          "No shader execution or image/pixel equivalence is claimed.",
+          "Identifier renaming is conservative lexical normalization, not algebraic symbolic proof.",
+          "Numeric changes can reverse direction or materially change geometry, so they are not automatically near duplicates."
+        ]
+      },
+      "exactGroups": [],
+      "nearGroups": [],
+      "candidatePairs": [
+        {
+          "ids": [
+            "gl-transitions-horizontalclose",
+            "gl-transitions-verticalclose"
+          ],
+          "reason": "High normalized token overlap; output equivalence needs review.",
+          "confidence": "candidate",
+          "evidence": {
+            "tokenSequenceRatio": 0.982456,
+            "fiveTokenShingleDice": 0.90566,
+            "codeSha256": {
+              "gl-transitions-horizontalclose": "7991d30a608859253d53bc7fae51bc283593a2dce7548b036ecacf17a5e969c1",
+              "gl-transitions-verticalclose": "6f40f60736543feaf29f541f64fd06d87be29b90b7a1830df33b632b9eecada2"
+            }
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-directional-variant",
+            "basis": "complete-stored-source-code-review",
+            "reasonEN": "The mask uses uv.y versus uv.x inside abs(); the closing edge axis is different.",
+            "reviewFile": "review-decisions.json",
+            "codeSha256": {
+              "gl-transitions-horizontalclose": "7991d30a608859253d53bc7fae51bc283593a2dce7548b036ecacf17a5e969c1",
+              "gl-transitions-verticalclose": "6f40f60736543feaf29f541f64fd06d87be29b90b7a1830df33b632b9eecada2"
+            },
+            "canonicalSha256": {
+              "gl-transitions-horizontalclose": "ca0fb1a140a4e5c38c67da2c40af25b459db1445a88dcac3ded9c2d7e8a3db69",
+              "gl-transitions-verticalclose": "4f1bda4296186ca4db9cdb0e2bb0198ba61631842d73f0ddedc9eb7952a1c340"
+            }
+          }
+        },
+        {
+          "ids": [
+            "gl-transitions-horizontalopen",
+            "gl-transitions-verticalopen"
+          ],
+          "reason": "High normalized token overlap; output equivalence needs review.",
+          "confidence": "candidate",
+          "evidence": {
+            "tokenSequenceRatio": 0.984375,
+            "fiveTokenShingleDice": 0.916667,
+            "codeSha256": {
+              "gl-transitions-horizontalopen": "847aa4d7fa84573581113c68d43564a7da4ddab1a268d38948e0c949292974ef",
+              "gl-transitions-verticalopen": "ab28b52e5936882c5d1b7615bf9b3c703a154c352966b4c2e5366779cfbd8605"
+            }
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-directional-variant",
+            "basis": "complete-stored-source-code-review",
+            "reasonEN": "The mask uses uv.y versus uv.x inside abs(); the opening edge axis is different.",
+            "reviewFile": "review-decisions.json",
+            "codeSha256": {
+              "gl-transitions-horizontalopen": "847aa4d7fa84573581113c68d43564a7da4ddab1a268d38948e0c949292974ef",
+              "gl-transitions-verticalopen": "ab28b52e5936882c5d1b7615bf9b3c703a154c352966b4c2e5366779cfbd8605"
+            },
+            "canonicalSha256": {
+              "gl-transitions-horizontalopen": "e5fba67ac0ef7ce20346dccd12edfcb245d249376b7c47c2a6317fb1d6d0a4ed",
+              "gl-transitions-verticalopen": "9e3bbee915b6f2c5d1ca6810b9c7382b07c42e83a260c1c6ee5bb73c0f8309f4"
+            }
+          }
+        },
+        {
+          "ids": [
+            "gl-transitions-leftright",
+            "gl-transitions-topbottom"
+          ],
+          "reason": "High normalized token overlap; output equivalence needs review.",
+          "confidence": "candidate",
+          "evidence": {
+            "tokenSequenceRatio": 0.978495,
+            "fiveTokenShingleDice": 0.934066,
+            "codeSha256": {
+              "gl-transitions-leftright": "9bb05f7449a5a9500fb16d6407090202b65cb71af358c21e68d09c67a673b9b9",
+              "gl-transitions-topbottom": "16e0aa3af9c14e9438e4ee452ac25dcf7274bd7f7c8a5de95d500789abdcef84"
+            }
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-directional-variant",
+            "basis": "complete-stored-source-code-review",
+            "reasonEN": "The source sample offset is uv - vec2(1.-progress,0.0) versus uv + vec2(0.0,1.0-progress); direction and axis change.",
+            "reviewFile": "review-decisions.json",
+            "codeSha256": {
+              "gl-transitions-leftright": "9bb05f7449a5a9500fb16d6407090202b65cb71af358c21e68d09c67a673b9b9",
+              "gl-transitions-topbottom": "16e0aa3af9c14e9438e4ee452ac25dcf7274bd7f7c8a5de95d500789abdcef84"
+            },
+            "canonicalSha256": {
+              "gl-transitions-leftright": "9e95b8cd2144014bf74d8c280c2be81035897dec7bbc015d07f4696d7c40afef",
+              "gl-transitions-topbottom": "e68a3dc4f5df02225e8fc917967732b638e6b9aed4598ada56cea9e0aa5a5e55"
+            }
+          }
+        },
+        {
+          "ids": [
+            "gl-transitions-splitslideouthorizontal",
+            "gl-transitions-splitslideoutvertical"
+          ],
+          "reason": "High normalized token overlap; output equivalence needs review.",
+          "confidence": "candidate",
+          "evidence": {
+            "tokenSequenceRatio": 0.959677,
+            "fiveTokenShingleDice": 0.858333,
+            "codeSha256": {
+              "gl-transitions-splitslideouthorizontal": "2f486e615f1943e2a27449dab391c00cb15d708ffc4872cdac441eaf20d1d682",
+              "gl-transitions-splitslideoutvertical": "b54781e52695daac04983781481a7ba815acdab6dc2f30ea8d446d835f63fb6b"
+            }
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-directional-variant",
+            "basis": "complete-stored-source-code-review",
+            "reasonEN": "The half-plane test and displaced coordinate change from uv.y/uv.x to uv.x/uv.y. The split direction is meaningful.",
+            "reviewFile": "review-decisions.json",
+            "codeSha256": {
+              "gl-transitions-splitslideouthorizontal": "2f486e615f1943e2a27449dab391c00cb15d708ffc4872cdac441eaf20d1d682",
+              "gl-transitions-splitslideoutvertical": "b54781e52695daac04983781481a7ba815acdab6dc2f30ea8d446d835f63fb6b"
+            },
+            "canonicalSha256": {
+              "gl-transitions-splitslideouthorizontal": "d298b3949f5d0866a5d0fe51f359186ebfad8521f4350cfd94bc298cdf52e448",
+              "gl-transitions-splitslideoutvertical": "8fc0a8bdc1c9a44e80717b981010c2c39c0ae4bd4a6890625028370d95222e62"
+            }
+          }
+        },
+        {
+          "ids": [
+            "gl-transitions-wipedown",
+            "gl-transitions-wipeleft"
+          ],
+          "reason": "High normalized token overlap; output equivalence needs review.",
+          "confidence": "candidate",
+          "evidence": {
+            "tokenSequenceRatio": 0.982456,
+            "fiveTokenShingleDice": 0.90566,
+            "codeSha256": {
+              "gl-transitions-wipedown": "0e9897ab1b6fc5383772f0b4c4ea49551942d138bc5d363a1a401e43832a21ea",
+              "gl-transitions-wipeleft": "e877946d2df38eed3510a388c246c04f8898d158d056f1925301dc0852288e51"
+            }
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-directional-variant",
+            "basis": "complete-stored-source-code-review",
+            "reasonEN": "The step mask uses 1.0-p.x, 1.0-p.y, 0.0+p.x or 0.0+p.y. Axes and opposite directions alter the actual transition.",
+            "reviewFile": "review-decisions.json",
+            "codeSha256": {
+              "gl-transitions-wipedown": "0e9897ab1b6fc5383772f0b4c4ea49551942d138bc5d363a1a401e43832a21ea",
+              "gl-transitions-wipeleft": "e877946d2df38eed3510a388c246c04f8898d158d056f1925301dc0852288e51"
+            },
+            "canonicalSha256": {
+              "gl-transitions-wipedown": "2138ae4a1a1307a8e5d715ff33c04b7a1e12161a0230df7b102c798cd9ede732",
+              "gl-transitions-wipeleft": "2e390bd6fc0f8ec5c0e9cfe94531984cff341ecf2db11c179093d21f06d361ba"
+            }
+          }
+        },
+        {
+          "ids": [
+            "gl-transitions-wipedown",
+            "gl-transitions-wiperight"
+          ],
+          "reason": "High normalized token overlap; output equivalence needs review.",
+          "confidence": "candidate",
+          "evidence": {
+            "tokenSequenceRatio": 0.947368,
+            "fiveTokenShingleDice": 0.830189,
+            "codeSha256": {
+              "gl-transitions-wipedown": "0e9897ab1b6fc5383772f0b4c4ea49551942d138bc5d363a1a401e43832a21ea",
+              "gl-transitions-wiperight": "986db07618558edb7a46d9734ac572fa4d9c2b001afdfc46acd8690571db46c8"
+            }
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-directional-variant",
+            "basis": "complete-stored-source-code-review",
+            "reasonEN": "The step mask uses 1.0-p.x, 1.0-p.y, 0.0+p.x or 0.0+p.y. Axes and opposite directions alter the actual transition.",
+            "reviewFile": "review-decisions.json",
+            "codeSha256": {
+              "gl-transitions-wipedown": "0e9897ab1b6fc5383772f0b4c4ea49551942d138bc5d363a1a401e43832a21ea",
+              "gl-transitions-wiperight": "986db07618558edb7a46d9734ac572fa4d9c2b001afdfc46acd8690571db46c8"
+            },
+            "canonicalSha256": {
+              "gl-transitions-wipedown": "2138ae4a1a1307a8e5d715ff33c04b7a1e12161a0230df7b102c798cd9ede732",
+              "gl-transitions-wiperight": "c57650fe98de914da97ec9151e3b7fce48d73ed4b929ffb1987f8bdaea1cc972"
+            }
+          }
+        },
+        {
+          "ids": [
+            "gl-transitions-wipedown",
+            "gl-transitions-wipeup"
+          ],
+          "reason": "High normalized token overlap; output equivalence needs review.",
+          "confidence": "candidate",
+          "evidence": {
+            "tokenSequenceRatio": 0.964912,
+            "fiveTokenShingleDice": 0.886792,
+            "codeSha256": {
+              "gl-transitions-wipedown": "0e9897ab1b6fc5383772f0b4c4ea49551942d138bc5d363a1a401e43832a21ea",
+              "gl-transitions-wipeup": "37e389eb3c245d67bd27f4ad8cdb76de419425e149ed5df0dd2a0b7c673d91f7"
+            }
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-directional-variant",
+            "basis": "complete-stored-source-code-review",
+            "reasonEN": "The step mask uses 1.0-p.x, 1.0-p.y, 0.0+p.x or 0.0+p.y. Axes and opposite directions alter the actual transition.",
+            "reviewFile": "review-decisions.json",
+            "codeSha256": {
+              "gl-transitions-wipedown": "0e9897ab1b6fc5383772f0b4c4ea49551942d138bc5d363a1a401e43832a21ea",
+              "gl-transitions-wipeup": "37e389eb3c245d67bd27f4ad8cdb76de419425e149ed5df0dd2a0b7c673d91f7"
+            },
+            "canonicalSha256": {
+              "gl-transitions-wipedown": "2138ae4a1a1307a8e5d715ff33c04b7a1e12161a0230df7b102c798cd9ede732",
+              "gl-transitions-wipeup": "1a0696ce67370815262d73a2a8d588572abb5deaff19838a268f3374d6c70a59"
+            }
+          }
+        },
+        {
+          "ids": [
+            "gl-transitions-wipeleft",
+            "gl-transitions-wiperight"
+          ],
+          "reason": "High normalized token overlap; output equivalence needs review.",
+          "confidence": "candidate",
+          "evidence": {
+            "tokenSequenceRatio": 0.964912,
+            "fiveTokenShingleDice": 0.886792,
+            "codeSha256": {
+              "gl-transitions-wipeleft": "e877946d2df38eed3510a388c246c04f8898d158d056f1925301dc0852288e51",
+              "gl-transitions-wiperight": "986db07618558edb7a46d9734ac572fa4d9c2b001afdfc46acd8690571db46c8"
+            }
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-directional-variant",
+            "basis": "complete-stored-source-code-review",
+            "reasonEN": "The step mask uses 1.0-p.x, 1.0-p.y, 0.0+p.x or 0.0+p.y. Axes and opposite directions alter the actual transition.",
+            "reviewFile": "review-decisions.json",
+            "codeSha256": {
+              "gl-transitions-wipeleft": "e877946d2df38eed3510a388c246c04f8898d158d056f1925301dc0852288e51",
+              "gl-transitions-wiperight": "986db07618558edb7a46d9734ac572fa4d9c2b001afdfc46acd8690571db46c8"
+            },
+            "canonicalSha256": {
+              "gl-transitions-wipeleft": "2e390bd6fc0f8ec5c0e9cfe94531984cff341ecf2db11c179093d21f06d361ba",
+              "gl-transitions-wiperight": "c57650fe98de914da97ec9151e3b7fce48d73ed4b929ffb1987f8bdaea1cc972"
+            }
+          }
+        },
+        {
+          "ids": [
+            "gl-transitions-wipeleft",
+            "gl-transitions-wipeup"
+          ],
+          "reason": "High normalized token overlap; output equivalence needs review.",
+          "confidence": "candidate",
+          "evidence": {
+            "tokenSequenceRatio": 0.947368,
+            "fiveTokenShingleDice": 0.830189,
+            "codeSha256": {
+              "gl-transitions-wipeleft": "e877946d2df38eed3510a388c246c04f8898d158d056f1925301dc0852288e51",
+              "gl-transitions-wipeup": "37e389eb3c245d67bd27f4ad8cdb76de419425e149ed5df0dd2a0b7c673d91f7"
+            }
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-directional-variant",
+            "basis": "complete-stored-source-code-review",
+            "reasonEN": "The step mask uses 1.0-p.x, 1.0-p.y, 0.0+p.x or 0.0+p.y. Axes and opposite directions alter the actual transition.",
+            "reviewFile": "review-decisions.json",
+            "codeSha256": {
+              "gl-transitions-wipeleft": "e877946d2df38eed3510a388c246c04f8898d158d056f1925301dc0852288e51",
+              "gl-transitions-wipeup": "37e389eb3c245d67bd27f4ad8cdb76de419425e149ed5df0dd2a0b7c673d91f7"
+            },
+            "canonicalSha256": {
+              "gl-transitions-wipeleft": "2e390bd6fc0f8ec5c0e9cfe94531984cff341ecf2db11c179093d21f06d361ba",
+              "gl-transitions-wipeup": "1a0696ce67370815262d73a2a8d588572abb5deaff19838a268f3374d6c70a59"
+            }
+          }
+        },
+        {
+          "ids": [
+            "gl-transitions-wiperight",
+            "gl-transitions-wipeup"
+          ],
+          "reason": "High normalized token overlap; output equivalence needs review.",
+          "confidence": "candidate",
+          "evidence": {
+            "tokenSequenceRatio": 0.982456,
+            "fiveTokenShingleDice": 0.90566,
+            "codeSha256": {
+              "gl-transitions-wiperight": "986db07618558edb7a46d9734ac572fa4d9c2b001afdfc46acd8690571db46c8",
+              "gl-transitions-wipeup": "37e389eb3c245d67bd27f4ad8cdb76de419425e149ed5df0dd2a0b7c673d91f7"
+            }
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-directional-variant",
+            "basis": "complete-stored-source-code-review",
+            "reasonEN": "The step mask uses 1.0-p.x, 1.0-p.y, 0.0+p.x or 0.0+p.y. Axes and opposite directions alter the actual transition.",
+            "reviewFile": "review-decisions.json",
+            "codeSha256": {
+              "gl-transitions-wiperight": "986db07618558edb7a46d9734ac572fa4d9c2b001afdfc46acd8690571db46c8",
+              "gl-transitions-wipeup": "37e389eb3c245d67bd27f4ad8cdb76de419425e149ed5df0dd2a0b7c673d91f7"
+            },
+            "canonicalSha256": {
+              "gl-transitions-wiperight": "c57650fe98de914da97ec9151e3b7fce48d73ed4b929ffb1987f8bdaea1cc972",
+              "gl-transitions-wipeup": "1a0696ce67370815262d73a2a8d588572abb5deaff19838a268f3374d6c70a59"
+            }
+          }
+        },
+        {
+          "ids": [
+            "gl-transitions-zoomleftwipe",
+            "gl-transitions-zoomrigthwipe"
+          ],
+          "reason": "High normalized token overlap; output equivalence needs review.",
+          "confidence": "candidate",
+          "evidence": {
+            "tokenSequenceRatio": 0.989071,
+            "fiveTokenShingleDice": 0.96648,
+            "codeSha256": {
+              "gl-transitions-zoomleftwipe": "13d14bdd5d7f15a876184fa2f9164c4124be13d164886bbcb851adc3c057c17d",
+              "gl-transitions-zoomrigthwipe": "53e4e2f3ba9b8f66830325beb65ba22038e02d538b6773c7dacc5d8173d5a338"
+            }
+          },
+          "review": {
+            "status": "previous-code-and-context-review-still-valid",
+            "classification": "keep-directional-variant",
+            "basis": "complete-stored-source-code-review",
+            "reasonEN": "The second phase uses step(1.0-p.x,...) versus step(0.0+p.x,...); the zoom phase is shared but wipe direction is opposite.",
+            "reviewFile": "review-decisions.json",
+            "codeSha256": {
+              "gl-transitions-zoomleftwipe": "13d14bdd5d7f15a876184fa2f9164c4124be13d164886bbcb851adc3c057c17d",
+              "gl-transitions-zoomrigthwipe": "53e4e2f3ba9b8f66830325beb65ba22038e02d538b6773c7dacc5d8173d5a338"
+            },
+            "canonicalSha256": {
+              "gl-transitions-zoomleftwipe": "d9f0dff276376073ffbc0426cbe1d6afc4258ec792c0c14e54ad50944cc70874",
+              "gl-transitions-zoomrigthwipe": "852036bff9f4ca9a87f870768bb990c475d7ee74aa3fc6c04bb7c92c00a26aab"
+            }
+          }
+        }
+      ],
+      "familyGroupCount": 0,
+      "errors": []
+    },
+    "reference": {
+      "coverage": {
+        "itemCount": 288,
+        "pairUniverse": 41328,
+        "identityComparedPairs": 41328,
+        "visualComparedPairs": 0,
+        "metadataOnlyItems": 288
+      },
+      "methodology": {
+        "exact": "Normalized source URL plus individual sourceCardId, preserving query/fragment/path.",
+        "limitations": [
+          "All reference identities are audited; visual/behavioral similarity of remote works is unassessed.",
+          "Shared page URLs and similar titles do not establish duplicate assets."
+        ]
+      },
+      "exactGroups": [],
+      "nearGroups": [],
+      "candidatePairs": [],
+      "familyGroupCount": 1,
+      "errors": []
+    }
+  },
+  "limitations": [
+    "Static source structure and numeric color comparisons only; no browser frames, source snippet execution, or proof of perceptual uniqueness.",
+    "Reference entries receive identity/metadata checks only; remote motion similarity is unassessed.",
+    "Families and candidates are not duplicate findings. Prior candidate judgments apply only when both code and canonical source/preview-context signatures remain unchanged."
+  ],
+  "summary": {
+    "exactGroupCount": 0,
+    "nearGroupCount": 0,
+    "candidatePairCount": 30,
+    "unreviewedCandidatePairCount": 0,
+    "errorItemCount": 0
+  },
+  "passed": true
+}

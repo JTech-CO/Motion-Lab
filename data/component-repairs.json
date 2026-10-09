@@ -1,0 +1,290 @@
+{
+  "version": 1,
+  "repairs": [
+    {
+      "id": "spinkit-sk-chase",
+      "expectedCodeSha256": "a50423d0aeaaea546145d6bbb8978bdaa13a66efcf4d34b35c15748f5d5a9799",
+      "originalSourcePath": "data/upstream/spinkit/source.css",
+      "originalSourceSha256": "815541240caae9f1fad3299a9f343e777acb24de1795e0a3ada4802699694183",
+      "originalLicensePath": "data/upstream/spinkit/LICENSE.txt",
+      "originalLicenseSha256": "d7827d86bb52e982c0707d79e5838c9d223d77a0101d38f4c9cc653ec7389cfa",
+      "replacement": {
+        "code": "/* SpinKit / MIT\nThe MIT License (MIT)\r\n\r\nCopyright (c) 2020 Tobias Ahlin\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy of\r\nthis software and associated documentation files (the \"Software\"), to deal in\r\nthe Software without restriction, including without limitation the rights to\r\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of\r\nthe Software, and to permit persons to whom the Software is furnished to do so,\r\nsubject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\r\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR\r\nCOPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER\r\nIN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\r\nCONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\r\n\nSource: https://github.com/tobiasahlin/SpinKit/blob/742a71277c49b69053b5beb9fad80d720840a2ab/spinkit.css\nMotion Lab repair: complete original component CSS and composition; selectors, timing, keyframes and source values are unchanged.\n*/\n:root {\n  --sk-size: 40px;\n  --sk-color: #333;\n}\n\n.sk-chase {\n  width: var(--sk-size);\n  height: var(--sk-size);\n  position: relative;\n  animation: sk-chase 2.5s infinite linear both; \n}\n\n.sk-chase-dot {\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  left: 0;\n  top: 0; \n  animation: sk-chase-dot 2.0s infinite ease-in-out both; \n}\n\n.sk-chase-dot:before {\n  content: '';\n  display: block;\n  width: 25%;\n  height: 25%;\n  background-color: var(--sk-color);\n  border-radius: 100%;\n  animation: sk-chase-dot-before 2.0s infinite ease-in-out both; \n}\n\n.sk-chase-dot:nth-child(1) { animation-delay: -1.1s; }\n.sk-chase-dot:nth-child(2) { animation-delay: -1.0s; }\n.sk-chase-dot:nth-child(3) { animation-delay: -0.9s; }\n.sk-chase-dot:nth-child(4) { animation-delay: -0.8s; }\n.sk-chase-dot:nth-child(5) { animation-delay: -0.7s; }\n.sk-chase-dot:nth-child(6) { animation-delay: -0.6s; }\n.sk-chase-dot:nth-child(1):before { animation-delay: -1.1s; }\n.sk-chase-dot:nth-child(2):before { animation-delay: -1.0s; }\n.sk-chase-dot:nth-child(3):before { animation-delay: -0.9s; }\n.sk-chase-dot:nth-child(4):before { animation-delay: -0.8s; }\n.sk-chase-dot:nth-child(5):before { animation-delay: -0.7s; }\n.sk-chase-dot:nth-child(6):before { animation-delay: -0.6s; }\n\n@keyframes sk-chase {\n  100% { transform: rotate(360deg); } \n}\n\n@keyframes sk-chase-dot {\n  80%, 100% { transform: rotate(360deg); } \n}\n\n@keyframes sk-chase-dot-before {\n  50% {\n    transform: scale(0.4); \n  } 100%, 0% {\n    transform: scale(1.0); \n  } \n}\n\n\n",
+        "preview": {
+          "type": "css",
+          "variant": "sk-chase",
+          "adapted": false,
+          "dom": {
+            "tag": "div",
+            "className": "sk-chase",
+            "children": [
+              {
+                "tag": "div",
+                "className": "sk-chase-dot"
+              },
+              {
+                "tag": "div",
+                "className": "sk-chase-dot"
+              },
+              {
+                "tag": "div",
+                "className": "sk-chase-dot"
+              },
+              {
+                "tag": "div",
+                "className": "sk-chase-dot"
+              },
+              {
+                "tag": "div",
+                "className": "sk-chase-dot"
+              },
+              {
+                "tag": "div",
+                "className": "sk-chase-dot"
+              }
+            ]
+          },
+          "variables": {
+            "--sk-size": "40px",
+            "--sk-color": "#333"
+          },
+          "keyframes": [
+            "sk-chase",
+            "sk-chase-dot",
+            "sk-chase-dot-before"
+          ]
+        },
+        "description": "SpinKit의 원본 sk-chase 구성입니다. 6개 점, 부모·자식 애니메이션, 원본 지연 값과 CSS 변수를 함께 보존했습니다.",
+        "licenseText": "The MIT License (MIT)\r\n\r\nCopyright (c) 2020 Tobias Ahlin\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy of\r\nthis software and associated documentation files (the \"Software\"), to deal in\r\nthe Software without restriction, including without limitation the rights to\r\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of\r\nthe Software, and to permit persons to whom the Software is furnished to do so,\r\nsubject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\r\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR\r\nCOPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER\r\nIN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\r\nCONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\r\n",
+        "colors": [
+          "#333"
+        ]
+      },
+      "absorbedIds": [
+        "spinkit-sk-chase-dot",
+        "spinkit-sk-chase-dot-before"
+      ],
+      "expectedAbsorbedCodeSha256": {
+        "spinkit-sk-chase-dot": "e697793fd86a281ce7b11cfb8b0981f909c5fb987ac2ea44a1fbf001d4a56a64",
+        "spinkit-sk-chase-dot-before": "f31e7a8c365afa6a0cb5eb7a47bed7ef867c240855f5c8716b6584b826a07ca2"
+      },
+      "sourceFragments": [
+        {
+          "startUtf8Byte": 13,
+          "endUtf8Byte": 61,
+          "sha256": "4462850d1bc1785e2770299efbbf0eaac004dc9bea2f1a41d73974502d5ab8cc"
+        },
+        {
+          "startUtf8Byte": 899,
+          "endUtf8Byte": 2365,
+          "sha256": "9197172e8fc35820fe30bee141e118e499d5a17c3a1b4c9c6da52d846cc111de"
+        }
+      ],
+      "reason": "Single-keyframe extraction omitted original child/pseudo-element geometry and timing. Restore the complete original component and absorb its separately indexed dependent keyframes.",
+      "evidence": {
+        "basis": "pinned-source-static-composition-review",
+        "sourceDom": {
+          "tag": "div",
+          "className": "sk-chase",
+          "children": [
+            {
+              "tag": "div",
+              "className": "sk-chase-dot"
+            },
+            {
+              "tag": "div",
+              "className": "sk-chase-dot"
+            },
+            {
+              "tag": "div",
+              "className": "sk-chase-dot"
+            },
+            {
+              "tag": "div",
+              "className": "sk-chase-dot"
+            },
+            {
+              "tag": "div",
+              "className": "sk-chase-dot"
+            },
+            {
+              "tag": "div",
+              "className": "sk-chase-dot"
+            }
+          ]
+        },
+        "keyframes": [
+          "sk-chase",
+          "sk-chase-dot",
+          "sk-chase-dot-before"
+        ],
+        "hostAdaptations": [],
+        "browserExecutionVerified": false,
+        "originalRootVariables": {
+          "--sk-size": "40px",
+          "--sk-color": "#333"
+        }
+      }
+    },
+    {
+      "id": "spinkit-sk-swing",
+      "expectedCodeSha256": "921613aca7b51042de6da8cecaf25de3e0da2ae8db2b9e001a4fb7a7fc2e8af3",
+      "originalSourcePath": "data/upstream/spinkit/source.css",
+      "originalSourceSha256": "815541240caae9f1fad3299a9f343e777acb24de1795e0a3ada4802699694183",
+      "originalLicensePath": "data/upstream/spinkit/LICENSE.txt",
+      "originalLicenseSha256": "d7827d86bb52e982c0707d79e5838c9d223d77a0101d38f4c9cc653ec7389cfa",
+      "replacement": {
+        "code": "/* SpinKit / MIT\nThe MIT License (MIT)\r\n\r\nCopyright (c) 2020 Tobias Ahlin\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy of\r\nthis software and associated documentation files (the \"Software\"), to deal in\r\nthe Software without restriction, including without limitation the rights to\r\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of\r\nthe Software, and to permit persons to whom the Software is furnished to do so,\r\nsubject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\r\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR\r\nCOPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER\r\nIN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\r\nCONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\r\n\nSource: https://github.com/tobiasahlin/SpinKit/blob/742a71277c49b69053b5beb9fad80d720840a2ab/spinkit.css\nMotion Lab repair: complete original component CSS and composition; selectors, timing, keyframes and source values are unchanged.\n*/\n:root {\n  --sk-size: 40px;\n  --sk-color: #333;\n}\n\n.sk-swing {\n  width: var(--sk-size);\n  height: var(--sk-size);\n  position: relative;\n  animation: sk-swing 1.8s infinite linear; \n}\n  \n.sk-swing-dot {\n  width: 45%;\n  height: 45%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  right: 0;\n  margin: auto;\n  background-color: var(--sk-color);\n  border-radius: 100%;\n  animation: sk-swing-dot 2s infinite ease-in-out; \n}\n\n.sk-swing-dot:nth-child(2) {\n  top: auto;\n  bottom: 0;\n  animation-delay: -1s; \n}\n\n@keyframes sk-swing {\n  100% {\n    transform: rotate(360deg); \n  } \n}\n\n@keyframes sk-swing-dot {\n  0%, 100% {\n    transform: scale(0.2); }\n  50% {\n    transform: scale(1); \n  } \n}\n\n\n",
+        "preview": {
+          "type": "css",
+          "variant": "sk-swing",
+          "adapted": false,
+          "dom": {
+            "tag": "div",
+            "className": "sk-swing",
+            "children": [
+              {
+                "tag": "div",
+                "className": "sk-swing-dot"
+              },
+              {
+                "tag": "div",
+                "className": "sk-swing-dot"
+              }
+            ]
+          },
+          "variables": {
+            "--sk-size": "40px",
+            "--sk-color": "#333"
+          },
+          "keyframes": [
+            "sk-swing",
+            "sk-swing-dot"
+          ]
+        },
+        "description": "SpinKit의 원본 sk-swing 구성입니다. 2개 점, 부모·자식 애니메이션, 원본 지연 값과 CSS 변수를 함께 보존했습니다.",
+        "licenseText": "The MIT License (MIT)\r\n\r\nCopyright (c) 2020 Tobias Ahlin\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy of\r\nthis software and associated documentation files (the \"Software\"), to deal in\r\nthe Software without restriction, including without limitation the rights to\r\nuse, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of\r\nthe Software, and to permit persons to whom the Software is furnished to do so,\r\nsubject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\r\nFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR\r\nCOPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER\r\nIN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\r\nCONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\r\n",
+        "colors": [
+          "#333"
+        ]
+      },
+      "absorbedIds": [
+        "spinkit-sk-swing-dot"
+      ],
+      "expectedAbsorbedCodeSha256": {
+        "spinkit-sk-swing-dot": "2d258980303d852d1a7d6df9ea76e9a073a091370000b1578cb972eb019ded32"
+      },
+      "sourceFragments": [
+        {
+          "startUtf8Byte": 13,
+          "endUtf8Byte": 61,
+          "sha256": "4462850d1bc1785e2770299efbbf0eaac004dc9bea2f1a41d73974502d5ab8cc"
+        },
+        {
+          "startUtf8Byte": 5148,
+          "endUtf8Byte": 5779,
+          "sha256": "fadde419cbf4807492785fe7899c45cd416debacc6f48bcc36f78bef94a7a4f1"
+        }
+      ],
+      "reason": "Single-keyframe extraction omitted original child/pseudo-element geometry and timing. Restore the complete original component and absorb its separately indexed dependent keyframes.",
+      "evidence": {
+        "basis": "pinned-source-static-composition-review",
+        "sourceDom": {
+          "tag": "div",
+          "className": "sk-swing",
+          "children": [
+            {
+              "tag": "div",
+              "className": "sk-swing-dot"
+            },
+            {
+              "tag": "div",
+              "className": "sk-swing-dot"
+            }
+          ]
+        },
+        "keyframes": [
+          "sk-swing",
+          "sk-swing-dot"
+        ],
+        "hostAdaptations": [],
+        "browserExecutionVerified": false,
+        "originalRootVariables": {
+          "--sk-size": "40px",
+          "--sk-color": "#333"
+        }
+      }
+    },
+    {
+      "id": "three-dots-dot-falling",
+      "expectedCodeSha256": "0d15c79f4cf85837e47381487ee9adc31c6d3e05bfd73f170b72ef80105f686f",
+      "originalSourcePath": "data/upstream/three-dots/source.css",
+      "originalSourceSha256": "d0dcf6a5abf933f7fce9158f7122afb72e1f269a90a0cd4d4195c887c988bf7c",
+      "originalLicensePath": "data/upstream/three-dots/LICENSE.txt",
+      "originalLicenseSha256": "5b099b1a3df78f8f5f885784d7846cb6f8d250e8ed16e9eae882e26845244b62",
+      "replacement": {
+        "code": "/* Three Dots / MIT\nMIT License\r\n\r\nCopyright (c) 2018 Zongbin\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE.\r\n\nSource: https://github.com/nzbin/three-dots/blob/d6d6f51af17e015ecadf21f76ce4af081a44b3de/dist/three-dots.css\nMotion Lab repair: complete original component CSS and composition; selectors, timing, keyframes and source values are unchanged.\n*/\n.dot-falling {\n  position: relative;\n  left: -9999px;\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  box-shadow: 9999px 0 0 0 #9880ff;\n  animation: dot-falling 1s infinite linear;\n  animation-delay: 0.1s;\n}\n.dot-falling::before, .dot-falling::after {\n  content: \"\";\n  display: inline-block;\n  position: absolute;\n  top: 0;\n}\n.dot-falling::before {\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  animation: dot-falling-before 1s infinite linear;\n  animation-delay: 0s;\n}\n.dot-falling::after {\n  width: 10px;\n  height: 10px;\n  border-radius: 5px;\n  background-color: #9880ff;\n  color: #9880ff;\n  animation: dot-falling-after 1s infinite linear;\n  animation-delay: 0.2s;\n}\n\n@keyframes dot-falling {\n  0% {\n    box-shadow: 9999px -15px 0 0 rgba(152, 128, 255, 0);\n  }\n  25%, 50%, 75% {\n    box-shadow: 9999px 0 0 0 #9880ff;\n  }\n  100% {\n    box-shadow: 9999px 15px 0 0 rgba(152, 128, 255, 0);\n  }\n}\n@keyframes dot-falling-before {\n  0% {\n    box-shadow: 9984px -15px 0 0 rgba(152, 128, 255, 0);\n  }\n  25%, 50%, 75% {\n    box-shadow: 9984px 0 0 0 #9880ff;\n  }\n  100% {\n    box-shadow: 9984px 15px 0 0 rgba(152, 128, 255, 0);\n  }\n}\n@keyframes dot-falling-after {\n  0% {\n    box-shadow: 10014px -15px 0 0 rgba(152, 128, 255, 0);\n  }\n  25%, 50%, 75% {\n    box-shadow: 10014px 0 0 0 #9880ff;\n  }\n  100% {\n    box-shadow: 10014px 15px 0 0 rgba(152, 128, 255, 0);\n  }\n}\n",
+        "preview": {
+          "type": "css",
+          "variant": "dot-falling",
+          "adapted": false,
+          "dom": {
+            "tag": "div",
+            "className": "dot-falling"
+          },
+          "keyframes": [
+            "dot-falling",
+            "dot-falling-before",
+            "dot-falling-after"
+          ]
+        },
+        "description": "Three Dots의 원본 Dot Falling 구성입니다. 중앙 점과 before/after 점, 원본 1초 주기와 0/0.1/0.2초 지연 값을 함께 보존했습니다. left -9999px와 원본 box-shadow 오프셋이 서로 상쇄되어 세 점이 나란히 표시됩니다.",
+        "licenseText": "MIT License\r\n\r\nCopyright (c) 2018 Zongbin\r\n\r\nPermission is hereby granted, free of charge, to any person obtaining a copy\r\nof this software and associated documentation files (the \"Software\"), to deal\r\nin the Software without restriction, including without limitation the rights\r\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\r\ncopies of the Software, and to permit persons to whom the Software is\r\nfurnished to do so, subject to the following conditions:\r\n\r\nThe above copyright notice and this permission notice shall be included in all\r\ncopies or substantial portions of the Software.\r\n\r\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\r\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\r\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\r\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\r\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\r\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\r\nSOFTWARE.\r\n",
+        "colors": [
+          "#9880ff"
+        ]
+      },
+      "absorbedIds": [
+        "three-dots-dot-falling-before",
+        "three-dots-dot-falling-after"
+      ],
+      "expectedAbsorbedCodeSha256": {
+        "three-dots-dot-falling-before": "95c8229a9b975766b7f9b60cf7158d8d1097aaa84e98d55c1c7d172942e57122",
+        "three-dots-dot-falling-after": "a770d8ddc05a8eab98f27ed57d58e08c92ab6dced9a1bdd3aed8c238647d0388"
+      },
+      "sourceFragments": [
+        {
+          "startUtf8Byte": 16787,
+          "endUtf8Byte": 18256,
+          "sha256": "e9b96d2632a784acd83471cfc2eed4dbeca48dce30bdcd27bf84c7d0a1eb36ee"
+        }
+      ],
+      "reason": "Single-keyframe extraction omitted original child/pseudo-element geometry and timing. Restore the complete original component and absorb its separately indexed dependent keyframes.",
+      "evidence": {
+        "basis": "pinned-source-static-composition-review",
+        "sourceDom": {
+          "tag": "div",
+          "className": "dot-falling"
+        },
+        "keyframes": [
+          "dot-falling",
+          "dot-falling-before",
+          "dot-falling-after"
+        ],
+        "hostAdaptations": [],
+        "browserExecutionVerified": false,
+        "apparentDotXOffsetsPx": [
+          0,
+          -15,
+          15
+        ],
+        "anchorLeftPx": -9999,
+        "sourceShadowXOffsetsPx": [
+          9999,
+          9984,
+          10014
+        ]
+      }
+    }
+  ]
+}

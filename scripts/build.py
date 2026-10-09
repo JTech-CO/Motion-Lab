@@ -18,6 +18,8 @@ sys.path.insert(0, str(ROOT))
 from motionlab.validation import CATEGORIES, KINDS, ValidationError, validate_id  # noqa: E402
 from scripts.analyze import analyze_items, analysis_stats, analysis_terms  # noqa: E402
 from scripts.expansion import merge_expansion  # noqa: E402
+from scripts.consolidate import apply_consolidation  # noqa: E402
+from scripts.repair_components import verify_overlay  # noqa: E402
 
 
 def read_json(path, default):
@@ -141,9 +143,15 @@ def compact_catalog_index(catalog):
         item["analysis"]["evidence"] = {
             key: analysis["evidence"][key] for key in ("basis", "confidence")
         }
+        if entry.get("variants"):
+            item.update({"aliases": entry["aliases"],
+                         "variantCount": entry["consolidation"]["variantCount"],
+                         "variantTitles": [variant["title"] for variant in entry["variants"]],
+                         "variantSourceNames": list(dict.fromkeys(variant["sourceName"] for variant in entry["variants"]))})
         items.append(item)
     return {"version": catalog["version"], "indexVersion": 2,
-            "updatedAt": catalog["updatedAt"], "stats": catalog["stats"], "items": items}
+            "updatedAt": catalog["updatedAt"], "stats": catalog["stats"],
+            "aliases": catalog.get("aliases", {}), "items": items}
 
 
 def write_static_exports(root, catalog):
@@ -151,6 +159,8 @@ def write_static_exports(root, catalog):
     distribution = root / "dist"
     write_json(distribution / "catalog.json", catalog)
     write_json(distribution / "catalog-index.json", compact_catalog_index(catalog), compact=True)
+    write_json(distribution / "catalog-aliases.json", {"version": 1, "updatedAt": catalog["updatedAt"],
+                                                     "aliases": catalog.get("aliases", {})})
     links = []
     for category in CATEGORIES:
         selected = [entry for entry in catalog["items"] if entry["category"] == category]
@@ -161,10 +171,13 @@ def write_static_exports(root, catalog):
                f"> Public motion reference archive: {stats['total']} entries from {stats['sources']} source projects. Updated {catalog['updatedAt']}.", "",
                "## Catalog", "",
                "- [Compact index v2](catalog-index.json): IDs, titles, source categories/links, license labels, kinds and discovery facets. It omits raw tags, code, full license text, evidence signals and preview DOM.",
-               "- [Full catalog](catalog.json): all public entries, source registry and statistics.", "",
+               "- [Full catalog](catalog.json): canonical public entries, original variants, source registry and statistics.",
+               "- [Legacy aliases](catalog-aliases.json): removed card IDs mapped directly to canonical IDs.", "",
                "## Collections", "", *links, "",
                "## Usage and provenance", "",
                "Select IDs in the compact index, then retrieve the matching source-category collection or the full catalog. The local API /api/items/ID, CLI get and MCP get_motion return one full entry.",
+               "Merged entries contain full variants and per-variant notices. An old alias retrieves its exact original variant with canonicalId; component-part variants are dependent primitives. Retrieve their canonicalId for the complete composition.",
+               "Similar palettes are connected exploration families, not mutually identical arrays. Original order, alpha and color values are preserved; no averaging is applied.",
                "Check kind, license, licenseUrl, sourceUrl, sourceName, verification and verifiedAt before adapting code.",
                "Compact analysis keeps assetType, effects, components, useCases and evidence.basis/confidence. Full entries add properties, techniques, evidence summaries/signals and preview structure.",
                "Code analysis is structural; it is not a security validator, a guarantee of visual output, or permission to execute source assets.",
@@ -199,19 +212,29 @@ def build_database(path, catalog):
                     PRIMARY KEY (item_id, field, value));
                 CREATE INDEX facets_filter ON facets(field,value,item_id);
                 CREATE TABLE metadata (key TEXT PRIMARY KEY, value TEXT NOT NULL);
+                CREATE TABLE aliases (alias TEXT PRIMARY KEY, item_id TEXT NOT NULL, variant_id TEXT NOT NULL);
+                CREATE INDEX aliases_parent ON aliases(item_id);
             """)
             for item in catalog["items"]:
                 cursor = connection.execute("INSERT INTO items (id,title,category,license,kind,access,payload) VALUES (?,?,?,?,?,?,?)",
                     (item["id"], item["title"], item["category"], item["license"], item["kind"], item["access"],
                      json.dumps(item, ensure_ascii=False)))
+                # Index every original identity/name; each match still yields one canonical card.
+                variants = item.get("variants", [item])
+                title_terms = " ".join(value for variant in variants for value in (variant["id"], variant["title"]))[:24_000]
+                description_terms = " ".join(variant["description"] for variant in variants)[:24_000]
+                tag_terms = " ".join(tag for variant in variants for tag in variant["tags"])[:24_000]
+                source_terms = " ".join(dict.fromkeys(variant["sourceName"] for variant in variants))[:24_000]
                 connection.execute("INSERT INTO item_search (rowid,title,description,category,tags,sourceName,analysis) VALUES (?,?,?,?,?,?,?)",
-                    (cursor.lastrowid, item["title"], item["description"], item["category"],
-                     " ".join(item["tags"]), item["sourceName"], analysis_terms(item["analysis"])))
+                    (cursor.lastrowid, title_terms, description_terms, item["category"],
+                     tag_terms, source_terms, analysis_terms(item["analysis"])))
                 facets = {"asset_type": [item["analysis"]["assetType"]],
                           "effect": item["analysis"]["effects"], "component": item["analysis"]["components"],
                           "use_case": item["analysis"]["useCases"], "basis": [item["analysis"]["evidence"]["basis"]]}
                 connection.executemany("INSERT INTO facets (item_id,field,value) VALUES (?,?,?)",
                     [(item["id"], field, value) for field, values in facets.items() for value in values])
+            connection.executemany("INSERT INTO aliases (alias,item_id,variant_id) VALUES (?,?,?)",
+                                   [(alias, parent, alias) for alias, parent in catalog.get("aliases", {}).items()])
             for key in ("stats", "updatedAt", "version"):
                 connection.execute("INSERT INTO metadata (key,value) VALUES (?,?)", (key, json.dumps(catalog[key], ensure_ascii=False)))
             connection.commit()
@@ -245,9 +268,27 @@ def build(root=ROOT):
     # Expansion identity is the stored body, never the bundle URL + title.
     items = analyze_items(baseline + additions)
     expansion_report["total"] = len(items)
+    policy_path = data / "consolidation-policy.json"
+    policy = read_json(policy_path, {"version": 1, "groups": []})
+    repairs_path = data / "component-repairs.json"
+    repairs = read_json(repairs_path, {"version": 1, "repairs": []})
+    repair_checks = verify_overlay(root, repairs) if repairs_path.is_file() else {}
+    original_items = items
+    items, aliases, consolidation_report = apply_consolidation(items, policy, repairs)
+    for item in items:
+        validate_item(item)
+        for variant in item.get("variants", []):
+            validate_item(variant)
+    consolidation_report["componentSourceChecks"] = repair_checks
+    if policy_path.is_file():
+        consolidation_report["policySha256"] = hashlib.sha256(policy_path.read_bytes()).hexdigest()
+    expansion_report["publishedTotal"] = len(items)
+    expansion_report["consolidatedRemoved"] = len(aliases)
     write_json(data / "expansion-report.json", expansion_report)
+    write_json(data / "consolidation-report.json", consolidation_report)
     registry = []
-    for entry in items:
+    # Include every original provider, even when another provider owns the canonical ID.
+    for entry in original_items:
         url = project_url(entry["sourceUrl"])
         source = {"id": "src-" + hashlib.sha256(url.encode()).hexdigest()[:12],
                   "name": entry["sourceName"], "title": entry["sourceName"], "sourceUrl": url,
@@ -264,14 +305,18 @@ def build(root=ROOT):
     updated = max(dates) if dates else datetime.now(timezone.utc).date().isoformat()
     stats = {
         "total": len(items), "sources": len(sources),
-        "sourceUrls": len({canonical_url(item["sourceUrl"]) for item in items}),
+        "sourceUrls": len({canonical_url(item["sourceUrl"]) for item in original_items}),
         "categories": dict(sorted(Counter(item["category"] for item in items).items())),
         "kinds": dict(sorted(Counter(item["kind"] for item in items).items())),
         "licenses": dict(sorted(Counter(item["license"] for item in items).items())),
         "updatedAt": updated,
         "analysis": analysis_stats(items),
+        "aliases": len(aliases), "mergedGroups": consolidation_report["mergedGroups"],
+        "variantRecords": consolidation_report["variantRecords"],
+        "renderableVariants": consolidation_report["renderableVariants"],
     }
-    catalog = {"version": 1, "updatedAt": updated, "items": items, "sources": sources, "stats": stats}
+    catalog = {"version": 1, "updatedAt": updated, "items": items, "sources": sources, "stats": stats,
+               "aliases": aliases}
     build_database(data / "motionlab.sqlite", catalog)
     write_json(data / "catalog.json", catalog)
     write_static_exports(root, catalog)

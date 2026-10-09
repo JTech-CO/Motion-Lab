@@ -48,12 +48,13 @@ def render_export(items, format_name):
     if format_name == "json":
         return json.dumps(items, ensure_ascii=False, indent=2) + "\n"
     stream = io.StringIO(newline="")
-    fields = ("id", "title", "description", "category", "kind", "license", "sourceName", "sourceUrl", "tags", "colors", "analysis", "code")
+    fields = ("id", "title", "description", "category", "kind", "license", "sourceName", "sourceUrl", "tags", "colors", "analysis", "code",
+              "aliases", "consolidation", "variants")
     writer = csv.DictWriter(stream, fields, extrasaction="ignore")
     writer.writeheader()
     for item in items:
         row = {key: item.get(key, "") for key in fields}
-        for key in ("tags", "colors", "analysis"):
+        for key in ("tags", "colors", "analysis", "aliases", "consolidation", "variants"):
             row[key] = json.dumps(row[key], ensure_ascii=False)
         # Prevent spreadsheet formula execution when opening exported CSV.
         for key, value in row.items():
@@ -96,6 +97,10 @@ def main(argv=None):
                 print(json.dumps(item, ensure_ascii=False, indent=2))
             else:
                 print(f"{item['title']} ({item['id']})\n{item['description']}\nLicense: {item['license']}\nSource: {item['sourceUrl']}")
+                if item.get("canonicalId"):
+                    print(f"Canonical entry: {item['canonicalId']}")
+                if item.get("variants"):
+                    print("Original variants: " + ", ".join(variant["id"] for variant in item["variants"]))
                 if item.get("code"):
                     print(item["code"])
         elif options.command == "stats":

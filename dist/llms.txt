@@ -1,28 +1,31 @@
 # Motion Lab
 
-> Public motion reference archive: 6108 entries from 149 source projects. Updated 2026-10-09.
+> Public motion reference archive: 6074 entries from 149 source projects. Updated 2026-10-09.
 
 ## Catalog
 
 - [Compact index v2](catalog-index.json): IDs, titles, source categories/links, license labels, kinds and discovery facets. It omits raw tags, code, full license text, evidence signals and preview DOM.
-- [Full catalog](catalog.json): all public entries, source registry and statistics.
+- [Full catalog](catalog.json): canonical public entries, original variants, source registry and statistics.
+- [Legacy aliases](catalog-aliases.json): removed card IDs mapped directly to canonical IDs.
 
 ## Collections
 
 - [animation: 1906 entries](collections/animation.json)
-- [transition: 405 entries](collections/transition.json)
+- [transition: 400 entries](collections/transition.json)
 - [typography: 151 entries](collections/typography.json)
 - [interaction: 257 entries](collections/interaction.json)
 - [background: 154 entries](collections/background.json)
-- [loader: 243 entries](collections/loader.json)
-- [palette: 2452 entries](collections/palette.json)
-- [gradient: 392 entries](collections/gradient.json)
+- [loader: 236 entries](collections/loader.json)
+- [palette: 2435 entries](collections/palette.json)
+- [gradient: 387 entries](collections/gradient.json)
 - [shader: 13 entries](collections/shader.json)
 - [reference: 135 entries](collections/reference.json)
 
 ## Usage and provenance
 
 Select IDs in the compact index, then retrieve the matching source-category collection or the full catalog. The local API /api/items/ID, CLI get and MCP get_motion return one full entry.
+Merged entries contain full variants and per-variant notices. An old alias retrieves its exact original variant with canonicalId; component-part variants are dependent primitives. Retrieve their canonicalId for the complete composition.
+Similar palettes are connected exploration families, not mutually identical arrays. Original order, alpha and color values are preserved; no averaging is applied.
 Check kind, license, licenseUrl, sourceUrl, sourceName, verification and verifiedAt before adapting code.
 Compact analysis keeps assetType, effects, components, useCases and evidence.basis/confidence. Full entries add properties, techniques, evidence summaries/signals and preview structure.
 Code analysis is structural; it is not a security validator, a guarantee of visual output, or permission to execute source assets.

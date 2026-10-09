@@ -1,0 +1,281 @@
+{
+  "version": 1,
+  "before": 6108,
+  "after": 6074,
+  "removedCards": 34,
+  "removedByMode": {
+    "component": 5,
+    "exact": 9,
+    "motion": 3,
+    "palette": 17
+  },
+  "groups": [
+    {
+      "id": "animate-fadein",
+      "mode": "exact",
+      "memberIds": [
+        "animate-fadein",
+        "vivify-fadein",
+        "wicked-fadein"
+      ],
+      "removedCards": 2,
+      "variantCount": 3
+    },
+    {
+      "id": "animate-fadeout",
+      "mode": "exact",
+      "memberIds": [
+        "animate-fadeout",
+        "vivify-fadeout",
+        "wicked-fadeout"
+      ],
+      "removedCards": 2,
+      "variantCount": 3
+    },
+    {
+      "id": "spinkit-sk-chase",
+      "mode": "component",
+      "memberIds": [
+        "spinkit-sk-chase",
+        "spinkit-sk-chase-dot",
+        "spinkit-sk-chase-dot-before"
+      ],
+      "removedCards": 2,
+      "variantCount": 1
+    },
+    {
+      "id": "spinkit-sk-swing",
+      "mode": "component",
+      "memberIds": [
+        "spinkit-sk-swing",
+        "spinkit-sk-swing-dot"
+      ],
+      "removedCards": 1,
+      "variantCount": 1
+    },
+    {
+      "id": "three-dots-dot-falling",
+      "mode": "component",
+      "memberIds": [
+        "three-dots-dot-falling",
+        "three-dots-dot-falling-after",
+        "three-dots-dot-falling-before"
+      ],
+      "removedCards": 2,
+      "variantCount": 1
+    },
+    {
+      "id": "uigradients-0010",
+      "mode": "exact",
+      "memberIds": [
+        "uigradients-0010",
+        "uigradients-0020"
+      ],
+      "removedCards": 1,
+      "variantCount": 2
+    },
+    {
+      "id": "uigradients-0012",
+      "mode": "exact",
+      "memberIds": [
+        "uigradients-0012",
+        "uigradients-0021"
+      ],
+      "removedCards": 1,
+      "variantCount": 2
+    },
+    {
+      "id": "uigradients-0034",
+      "mode": "exact",
+      "memberIds": [
+        "uigradients-0034",
+        "uigradients-0343"
+      ],
+      "removedCards": 1,
+      "variantCount": 2
+    },
+    {
+      "id": "uigradients-0155",
+      "mode": "exact",
+      "memberIds": [
+        "uigradients-0155",
+        "uigradients-0344"
+      ],
+      "removedCards": 1,
+      "variantCount": 2
+    },
+    {
+      "id": "uigradients-0216",
+      "mode": "exact",
+      "memberIds": [
+        "uigradients-0216",
+        "uigradients-0345"
+      ],
+      "removedCards": 1,
+      "variantCount": 2
+    },
+    {
+      "id": "nice-colors-0141",
+      "mode": "palette",
+      "memberIds": [
+        "nice-colors-0141",
+        "nice-colors-0494"
+      ],
+      "removedCards": 1,
+      "variantCount": 2
+    },
+    {
+      "id": "nice-colors-0192",
+      "mode": "palette",
+      "memberIds": [
+        "nice-colors-0192",
+        "nice-colors-0378"
+      ],
+      "removedCards": 1,
+      "variantCount": 2
+    },
+    {
+      "id": "vector-sds-motion-forge-sds-scroll-stagger-grid",
+      "mode": "motion",
+      "memberIds": [
+        "vector-sds-motion-forge-sds-scroll-stagger-grid",
+        "vector-sds-motion-forge-sds-scroll-wave-rise"
+      ],
+      "removedCards": 1,
+      "variantCount": 2
+    },
+    {
+      "id": "vector-svg-spinners-pulse-3",
+      "mode": "motion",
+      "memberIds": [
+        "vector-svg-spinners-pulse-3",
+        "vector-svg-spinners-pulse-multiple"
+      ],
+      "removedCards": 1,
+      "variantCount": 2
+    },
+    {
+      "id": "vector-svg-spinners-pulse-rings-3",
+      "mode": "motion",
+      "memberIds": [
+        "vector-svg-spinners-pulse-rings-3",
+        "vector-svg-spinners-pulse-rings-multiple"
+      ],
+      "removedCards": 1,
+      "variantCount": 2
+    },
+    {
+      "id": "color-wave-cartocolor-temps-2",
+      "mode": "palette",
+      "memberIds": [
+        "color-wave-cartocolor-temps-2",
+        "color-wave-cartocolor-tealrose-2"
+      ],
+      "removedCards": 1,
+      "variantCount": 2
+    },
+    {
+      "id": "color-wave-radix-colors-light-gray",
+      "mode": "palette",
+      "memberIds": [
+        "color-wave-radix-colors-light-gray",
+        "color-wave-radix-colors-light-mauve",
+        "color-wave-radix-colors-light-slate",
+        "color-wave-radix-colors-light-sage",
+        "color-wave-radix-colors-light-olive",
+        "color-wave-radix-colors-light-sand"
+      ],
+      "removedCards": 5,
+      "variantCount": 6
+    },
+    {
+      "id": "color-wave-radix-colors-dark-graydark",
+      "mode": "palette",
+      "memberIds": [
+        "color-wave-radix-colors-dark-graydark",
+        "color-wave-radix-colors-dark-mauvedark",
+        "color-wave-radix-colors-dark-slatedark",
+        "color-wave-radix-colors-dark-sagedark",
+        "color-wave-radix-colors-dark-olivedark",
+        "color-wave-radix-colors-dark-sanddark"
+      ],
+      "removedCards": 5,
+      "variantCount": 6
+    },
+    {
+      "id": "color-wave-radix-colors-dark-graydarka",
+      "mode": "palette",
+      "memberIds": [
+        "color-wave-radix-colors-dark-graydarka",
+        "color-wave-radix-colors-dark-sagedarka",
+        "color-wave-radix-colors-dark-olivedarka",
+        "color-wave-radix-colors-dark-sanddarka"
+      ],
+      "removedCards": 3,
+      "variantCount": 4
+    },
+    {
+      "id": "color-wave-radix-colors-dark-mauvedarka",
+      "mode": "palette",
+      "memberIds": [
+        "color-wave-radix-colors-dark-mauvedarka",
+        "color-wave-radix-colors-dark-slatedarka"
+      ],
+      "removedCards": 1,
+      "variantCount": 2
+    }
+  ],
+  "mergedGroups": 20,
+  "repairedCompositions": 3,
+  "variantRecords": 54,
+  "renderableVariants": 49,
+  "aliases": {
+    "vivify-fadein": "animate-fadein",
+    "wicked-fadein": "animate-fadein",
+    "vivify-fadeout": "animate-fadeout",
+    "wicked-fadeout": "animate-fadeout",
+    "spinkit-sk-chase-dot": "spinkit-sk-chase",
+    "spinkit-sk-chase-dot-before": "spinkit-sk-chase",
+    "spinkit-sk-swing-dot": "spinkit-sk-swing",
+    "three-dots-dot-falling-after": "three-dots-dot-falling",
+    "three-dots-dot-falling-before": "three-dots-dot-falling",
+    "uigradients-0020": "uigradients-0010",
+    "uigradients-0021": "uigradients-0012",
+    "uigradients-0343": "uigradients-0034",
+    "uigradients-0344": "uigradients-0155",
+    "uigradients-0345": "uigradients-0216",
+    "nice-colors-0494": "nice-colors-0141",
+    "nice-colors-0378": "nice-colors-0192",
+    "vector-sds-motion-forge-sds-scroll-wave-rise": "vector-sds-motion-forge-sds-scroll-stagger-grid",
+    "vector-svg-spinners-pulse-multiple": "vector-svg-spinners-pulse-3",
+    "vector-svg-spinners-pulse-rings-multiple": "vector-svg-spinners-pulse-rings-3",
+    "color-wave-cartocolor-tealrose-2": "color-wave-cartocolor-temps-2",
+    "color-wave-radix-colors-light-mauve": "color-wave-radix-colors-light-gray",
+    "color-wave-radix-colors-light-slate": "color-wave-radix-colors-light-gray",
+    "color-wave-radix-colors-light-sage": "color-wave-radix-colors-light-gray",
+    "color-wave-radix-colors-light-olive": "color-wave-radix-colors-light-gray",
+    "color-wave-radix-colors-light-sand": "color-wave-radix-colors-light-gray",
+    "color-wave-radix-colors-dark-mauvedark": "color-wave-radix-colors-dark-graydark",
+    "color-wave-radix-colors-dark-slatedark": "color-wave-radix-colors-dark-graydark",
+    "color-wave-radix-colors-dark-sagedark": "color-wave-radix-colors-dark-graydark",
+    "color-wave-radix-colors-dark-olivedark": "color-wave-radix-colors-dark-graydark",
+    "color-wave-radix-colors-dark-sanddark": "color-wave-radix-colors-dark-graydark",
+    "color-wave-radix-colors-dark-sagedarka": "color-wave-radix-colors-dark-graydarka",
+    "color-wave-radix-colors-dark-olivedarka": "color-wave-radix-colors-dark-graydarka",
+    "color-wave-radix-colors-dark-sanddarka": "color-wave-radix-colors-dark-graydarka",
+    "color-wave-radix-colors-dark-slatedarka": "color-wave-radix-colors-dark-mauvedarka"
+  },
+  "originalIdentitiesPreserved": 6108,
+  "originalRecordsPreserved": true,
+  "originalPaletteArraysPreserved": true,
+  "sourceNoticesPreserved": true,
+  "browserExecutionVerified": false,
+  "componentSourceChecks": {
+    "repairs": 3,
+    "absorbedDependentKeyframes": 5,
+    "originalSourceHashesVerified": true,
+    "fullLicenseHashesVerified": true,
+    "browserExecutionVerified": false
+  },
+  "policySha256": "0cb02d30730cd2504d1502e542aaa73671850ddb0cdd3e5d1534ce1117c29884"
+}
