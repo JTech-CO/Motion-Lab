@@ -1,0 +1,38 @@
+{
+  "complete": true,
+  "catalogSha256": "7984118b8e98b92005cb9a6594a1eda81a8a53246396e24e66509b188b1633db",
+  "retainedReferences": 284,
+  "deletedIds": [
+    "ref-interactive-developer",
+    "ref-odorigu",
+    "ref-astrolabe-studio",
+    "ref-popmotion-timeline"
+  ],
+  "storedAssets": 10001,
+  "checks": [
+    "CLI complete retained references and notices",
+    "CLI reviewed references and unchanged stored count",
+    "HTTP complete retained references and notices",
+    "HTTP reviewed references and unchanged stored count",
+    "CLI/HTTP source-reviewed type: animation",
+    "CLI/HTTP source-reviewed type: background",
+    "CLI/HTTP source-reviewed type: gradient",
+    "CLI/HTTP source-reviewed type: interaction",
+    "CLI/HTTP source-reviewed type: palette",
+    "CLI/HTTP source-reviewed type: reference",
+    "CLI/HTTP source-reviewed type: shader",
+    "CLI/HTTP source-reviewed type: shape",
+    "CLI/HTTP source-reviewed type: transition",
+    "CLI/HTTP source-reviewed type: typography",
+    "CLI/HTTP deleted ID absent: ref-interactive-developer",
+    "CLI/HTTP deleted ID absent: ref-odorigu",
+    "CLI/HTTP deleted ID absent: ref-astrolabe-studio",
+    "CLI/HTTP deleted ID absent: ref-popmotion-timeline",
+    "MCP complete retained references and notices",
+    "MCP deleted ID absent: ref-interactive-developer",
+    "MCP deleted ID absent: ref-odorigu",
+    "MCP deleted ID absent: ref-astrolabe-studio",
+    "MCP deleted ID absent: ref-popmotion-timeline"
+  ],
+  "scope": "Every retained full record through separate CLI/MCP processes and loopback HTTP; each removed ID is absent from all three interfaces."
+}

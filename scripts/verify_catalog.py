@@ -14,6 +14,7 @@ from motionlab.catalog import Catalog  # noqa: E402
 from motionlab.payload_codec import decode_payload  # noqa: E402
 from scripts.build import WAVE_INPUTS, compact_catalog_index, deduplicate_items, read_json, validate_item  # noqa: E402
 from scripts.expansion import merge_expansion  # noqa: E402
+from motionlab.reference_review import REVIEW_INPUTS, REMOVAL_INPUT, apply_reference_reviews, apply_reference_removals  # noqa: E402
 
 BASE_INPUTS = ("imported-items.json", "research-sources.json", "manual-items.json",
                "glsl-items.json", "jtech-items.json", "expanded-assets.json")
@@ -91,6 +92,8 @@ def original_record_views(entries, aliases):
 def reconstruct_inputs(root):
     baseline = deduplicate_items([entry for name in BASE_INPUTS
                                   for entry in read_json(root / "data" / name, [])])
+    removal_path = root / "data" / REMOVAL_INPUT
+    baseline = apply_reference_removals(baseline, read_json(removal_path, {}) if removal_path.is_file() else None, root=root)
     waves = [(name, read_json(root / "data" / name, [])) for name in WAVE_INPUTS]
     additions, report = merge_expansion(baseline, waves, validate_item)
     return baseline, additions, waves, report
@@ -120,6 +123,25 @@ def verify(root=ROOT, minimum=5000, minimum_stored=0):
     original_by_id, groups = original_record_views(entries, aliases)
     baseline, additions, waves, expected_expansion = reconstruct_inputs(root)
     source_by_id = {entry["id"]: entry for entry in baseline + additions}
+    review_documents = [read_json(root / "data" / name, {}) for name in REVIEW_INPUTS
+                        if (root / "data" / name).is_file()]
+    reviewed_entries = apply_reference_reviews(entries, review_documents, root=root)
+    if reviewed_entries != entries:
+        raise ValueError("Reference review annotations or analysis are stale")
+    if review_documents:
+        references = [entry for entry in entries if entry["kind"] == "reference"]
+        expected_review_stats = {
+            "total": len(references),
+            "classified": len(references),
+            "specificAssetTypes": sum(entry["analysis"]["assetType"] != "reference" for entry in references),
+            "localPreviews": len(references),
+            "targetDomains": dict(sorted(Counter(entry["referenceReview"]["targetDomain"] for entry in references).items())),
+            "resourceTypes": dict(sorted(Counter(entry["referenceReview"]["resourceType"] for entry in references).items())),
+            "assetTypes": dict(sorted(Counter(entry["analysis"]["assetType"] for entry in references).items())),
+            "previewModes": dict(sorted(Counter(entry["referenceReview"]["preview"]["mode"] for entry in references).items())),
+        }
+        if full["stats"].get("referenceReview") != expected_review_stats:
+            raise ValueError("Reference review counts differ from annotations")
     if set(source_by_id) != set(original_by_id):
         raise ValueError("Consolidation lost or invented an original input identity")
     for identifier, source in source_by_id.items():
@@ -141,6 +163,7 @@ def verify(root=ROOT, minimum=5000, minimum_stored=0):
             repair_checks = verify_overlay(root, repairs)
         expected_items, expected_aliases, expected_consolidation = apply_consolidation(
             analyze_items(baseline + additions), policy, repairs)
+        expected_items = apply_reference_reviews(expected_items, review_documents, root=root)
         if entries != expected_items or aliases != expected_aliases:
             raise ValueError("Published grouping or source repair differs from the reviewed policy")
         consolidation_report = read_json(root / "data/consolidation-report.json", {})

@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /wp-admin/
+
+User-agent: Screaming Frog SEO Spider
+Allow: /
+
+Sitemap: https://superfluidestudio.com/sitemap_index.xml

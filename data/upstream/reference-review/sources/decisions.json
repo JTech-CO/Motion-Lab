@@ -1,0 +1,2180 @@
+[
+  [
+    "ref-anime-js",
+    "motion",
+    "animation",
+    [
+      "stagger",
+      "spring",
+      "other"
+    ],
+    [
+      "shape",
+      "stroke"
+    ],
+    "timeline",
+    "스태거, 스프링, SVG 경로와 타임라인을 함께 제공하는 웹 애니메이션 엔진입니다.",
+    "Web animation engine covering stagger, springs, SVG paths and timelines.",
+    "stagger / spring / SVG",
+    "library"
+  ],
+  [
+    "ref-gsap-documentation",
+    "motion",
+    "animation",
+    [
+      "slide",
+      "rotate",
+      "stagger"
+    ],
+    [
+      "shape",
+      "layer"
+    ],
+    "timeline",
+    "to/from/fromTo 트윈을 타임라인에 순서대로 배치하는 GSAP 공식 API 문서입니다.",
+    "GSAP API documentation for to/from/fromTo tweens and ordered timelines.",
+    "to / from / timeline",
+    "learning"
+  ],
+  [
+    "ref-motion-animate",
+    "motion",
+    "animation",
+    [
+      "spring",
+      "fade",
+      "other"
+    ],
+    [
+      "shape",
+      "text",
+      "color"
+    ],
+    "easing",
+    "HTML·SVG 속성, 독립 변환, 경로 및 색상을 이징·스프링으로 보간하는 animate API입니다.",
+    "Animate API interpolates HTML/SVG styles, independent transforms, paths and colors with easing or springs.",
+    "styles / paths / spring",
+    "learning"
+  ],
+  [
+    "ref-vectormotion",
+    "motion",
+    "animation",
+    [
+      "stagger",
+      "other"
+    ],
+    [
+      "stroke",
+      "shape"
+    ],
+    "path",
+    "SVG 경로 파싱, 모핑, 순서·병렬 재생과 인터랙션 트리거를 조합하는 엔진입니다.",
+    "SVG path engine combining morphs, sequences, parallel playback and interaction triggers.",
+    "path / morph / sequence",
+    "library"
+  ],
+  [
+    "ref-animated-timeline",
+    "motion",
+    "animation",
+    [
+      "spring"
+    ],
+    [
+      "shape",
+      "color"
+    ],
+    "spring",
+    "React 타임라인의 Spring API는 마찰·장력 또는 바운스·속도를 지정하고 보간을 제어합니다.",
+    "React timeline Spring API exposes friction/tension or bounciness/speed and interpolation controls.",
+    "friction / tension / bounce",
+    "learning"
+  ],
+  [
+    "ref-svgsketch",
+    "motion",
+    "animation",
+    [
+      "other"
+    ],
+    [
+      "shape",
+      "stroke",
+      "layer"
+    ],
+    "tracks",
+    "전역 Timeline과 개별 속성 Track으로 SVG 시간축을 구성하고 직렬화합니다.",
+    "SVG animations combine a global Timeline with property Tracks and serialized playback data.",
+    "timeline / track / serialize",
+    "learning"
+  ],
+  [
+    "ref-motion-page-sdk",
+    "motion",
+    "animation",
+    [
+      "fade",
+      "other"
+    ],
+    [
+      "shape",
+      "layer"
+    ],
+    "timeline",
+    "이름 기반 Motion 팩토리에서 대상을 추가하고 페이지 로드 등 트리거로 타임라인을 재생합니다.",
+    "Named Motion factory builds target sequences and activates them with triggers such as page load.",
+    "registry / sequence / trigger",
+    "learning"
+  ],
+  [
+    "ref-popmotion-timeline",
+    "motion",
+    "animation",
+    [
+      "slide",
+      "stagger"
+    ],
+    [
+      "shape",
+      "layer"
+    ],
+    "tracks",
+    "독립 track과 타임스탬프, 병렬 배열을 이용해 트윈의 순서와 겹침을 설정합니다.",
+    "Independent tracks, timestamps and parallel arrays control tween sequencing and overlap.",
+    "tracks / overlap / timestamp",
+    "learning"
+  ],
+  [
+    "ref-glaze",
+    "motion",
+    "animation",
+    [
+      "rotate",
+      "spring",
+      "stagger"
+    ],
+    [
+      "shape",
+      "layer"
+    ],
+    "timeline",
+    "HTML data-animate의 tl과 상대 위치 표기로 GSAP 자식 애니메이션을 겹쳐 배치합니다.",
+    "HTML data-animate tl syntax coordinates overlapping GSAP child animations using relative timing.",
+    "data-animate / overlap / elastic",
+    "learning"
+  ],
+  [
+    "ref-anime-js-skills",
+    "tooling",
+    "reference",
+    [
+      "other"
+    ],
+    [
+      "text",
+      "stroke"
+    ],
+    "pipeline",
+    "Anime.js v4 문서와 예제를 AI 코딩 에이전트에 제공하는 스킬 패키지입니다.",
+    "Skill package supplies Anime.js v4 documentation and examples to coding agents.",
+    "skill / API / examples",
+    "tool"
+  ],
+  [
+    "ref-fwd-tools-gsap-playground",
+    "motion",
+    "animation",
+    [
+      "slide",
+      "stagger",
+      "other"
+    ],
+    [
+      "shape",
+      "text"
+    ],
+    "timeline",
+    "GSAP 트윈·타임라인·ScrollTrigger를 코드와 실시간 결과로 학습하는 단계별 플레이그라운드입니다.",
+    "Guided playground teaches GSAP tweens, timelines and ScrollTrigger with code and live feedback.",
+    "tween / stagger / scroll",
+    "learning"
+  ],
+  [
+    "ref-blossom-carousel",
+    "motion",
+    "interaction",
+    [
+      "slide",
+      "wave"
+    ],
+    [
+      "stroke",
+      "shape"
+    ],
+    "scrollbar",
+    "캐러셀의 수평 스크롤 시간축을 SVG 진행 경로와 offset-path 손잡이에 연결하는 예제입니다.",
+    "Example links carousel scroll progress to an SVG progress path and offset-path handle.",
+    "scroll / SVG track / handle",
+    "example"
+  ],
+  [
+    "ref-pmndrs-timeline",
+    "motion",
+    "animation",
+    [
+      "spring",
+      "rotate",
+      "other"
+    ],
+    [
+      "shape",
+      "layer"
+    ],
+    "spring",
+    "스프링·시간·속도 이징과 3D lookAt 갱신을 제공하는 타임라인 함수 문서입니다.",
+    "Timeline function documentation covers spring/time/velocity easing and 3D lookAt updates.",
+    "spring / velocity / lookAt",
+    "learning"
+  ],
+  [
+    "ref-nebula",
+    "motion",
+    "shader",
+    [
+      "wave",
+      "other"
+    ],
+    [
+      "color",
+      "layer"
+    ],
+    "aurora",
+    "React·R3F·GLSL 기반의 오로라, 유체, 별, 은하, 소용돌이 등 GPU 배경 모음입니다.",
+    "GPU background collection for React/R3F/GLSL includes aurora, fluid, stars, galaxy and vortex effects.",
+    "aurora / fluid / stars",
+    "library"
+  ],
+  [
+    "ref-okaybabe-shaders",
+    "motion",
+    "shader",
+    [
+      "wave",
+      "other"
+    ],
+    [
+      "color",
+      "layer"
+    ],
+    "prismatic",
+    "React용 GLSL 배경은 프리즘형 방사광, 색수차 광륜, 느린 유동장 등 서로 다른 셰이더를 제공합니다.",
+    "React GLSL backgrounds include prismatic radial bloom, chromatic halation and slow flow fields.",
+    "bloom / halation / flow",
+    "library"
+  ],
+  [
+    "ref-fluid-studio",
+    "mixed",
+    "shader",
+    [
+      "wave",
+      "other"
+    ],
+    [
+      "grid",
+      "layer",
+      "color"
+    ],
+    "kaleidoscope",
+    "준결정·벌집 장, 만화경 대칭, 레이어 합성과 하프톤·디더 표면을 조합하는 WebGL 제작 도구입니다.",
+    "WebGL studio combines quasicrystal/honeycomb fields, kaleidoscope symmetry, layer blends and halftone/dither surfaces.",
+    "field / symmetry / surface",
+    "tool"
+  ],
+  [
+    "ref-gradient-gl",
+    "motion",
+    "gradient",
+    [
+      "wave"
+    ],
+    [
+      "color",
+      "layer"
+    ],
+    "flow-gradient",
+    "시드로 재현 가능한 절차적 WebGL 그라디언트 애니메이션을 만드는 라이브러리입니다.",
+    "Seed-driven library produces reproducible procedural WebGL gradient animations.",
+    "seed / gradient / WebGL",
+    "library"
+  ],
+  [
+    "ref-creative-coding-resources",
+    "tooling",
+    "reference",
+    [
+      "other"
+    ],
+    [
+      "shape",
+      "grid",
+      "color"
+    ],
+    "resource-map",
+    "Three.js·regl·p5·Paper.js·Pixi 등 생성형 아트와 그래픽 라이브러리를 분류한 자료 목록입니다.",
+    "Resource index groups generative-art and graphics libraries including Three.js, regl, p5, Paper.js and Pixi.",
+    "libraries / generative art / tools",
+    "collection"
+  ],
+  [
+    "ref-swissgl",
+    "tooling",
+    "shader",
+    [
+      "other"
+    ],
+    [
+      "grid",
+      "layer"
+    ],
+    "compute",
+    "GLSL·텍스처·프레임버퍼를 간단히 조합해 절차적 시각화와 GPU 시뮬레이션을 구현하는 WebGL2 래퍼입니다.",
+    "WebGL2 wrapper organizes GLSL, textures and framebuffers for procedural visualization and GPU simulations.",
+    "GLSL / texture / framebuffer",
+    "library"
+  ],
+  [
+    "ref-cosmic-visualizations",
+    "motion",
+    "shader",
+    [
+      "other"
+    ],
+    [
+      "particles",
+      "shape",
+      "color"
+    ],
+    "cosmic",
+    "실시간 3D 프랙털과 입자 우주 시뮬레이션을 GLSL 및 WebGL2로 구현한 시각화 프로젝트입니다.",
+    "Visualization project uses GLSL/WebGL2 for real-time 3D fractals and cosmic particle simulations.",
+    "fractal / particles / raymarch",
+    "example"
+  ],
+  [
+    "ref-shader-gradient-core",
+    "motion",
+    "gradient",
+    [
+      "wave",
+      "other"
+    ],
+    [
+      "color",
+      "layer"
+    ],
+    "surface",
+    "DOM·Three.js 코어 위에 React/Vue 바인딩, 카메라와 프리셋을 공유하는 움직이는 셰이더 그라디언트입니다.",
+    "Moving shader gradients share a DOM/Three.js core, React/Vue bindings, cameras and presets.",
+    "surface / camera / presets",
+    "library"
+  ],
+  [
+    "ref-webgl-shader-gallery",
+    "motion",
+    "shader",
+    [
+      "wave",
+      "other"
+    ],
+    [
+      "shape",
+      "color",
+      "layer"
+    ],
+    "sdf",
+    "액체 왜곡, SDF 구체, 프랙털과 노이즈 풍경을 마우스 입력에 반응하도록 구성한 갤러리입니다.",
+    "Interactive gallery documents liquid distortion, SDF spheres, fractals and noise landscapes.",
+    "liquid / SDF / fractal",
+    "collection"
+  ],
+  [
+    "ref-nebulla-particle-library",
+    "motion",
+    "background",
+    [
+      "wave"
+    ],
+    [
+      "particles",
+      "color"
+    ],
+    "particle-wave",
+    "사인파 층을 따라 흐르는 대규모 Three.js 입자와 GLSL·블룸을 결합한 파동 배경입니다.",
+    "Particle-wave background combines layered sine-wave motion, Three.js/GLSL and bloom.",
+    "sine layers / particles / bloom",
+    "example"
+  ],
+  [
+    "ref-awesome-creative-coding",
+    "tooling",
+    "reference",
+    [
+      "other"
+    ],
+    [
+      "grid",
+      "color",
+      "shape"
+    ],
+    "resource-map",
+    "생성형 아트·데이터 시각화·인터랙션 디자인의 학습 자료와 도구를 모은 큐레이션 목록입니다.",
+    "Curated index covers learning resources and tools for generative art, visualization and interaction design.",
+    "art / visualization / interaction",
+    "collection"
+  ],
+  [
+    "ref-klaudioz-gradients",
+    "motion",
+    "gradient",
+    [
+      "wave"
+    ],
+    [
+      "color",
+      "layer"
+    ],
+    "flow-gradient",
+    "노이즈 기반 4색 WebGL 장에 속도·복잡도·스케일을 설정하는 그라디언트 생성기입니다.",
+    "Gradient generator adjusts speed, complexity and scale of a noise-based four-color WebGL field.",
+    "four colors / noise / speed",
+    "tool"
+  ],
+  [
+    "ref-colourful-attraction",
+    "motion",
+    "background",
+    [
+      "other"
+    ],
+    [
+      "particles",
+      "color"
+    ],
+    "attractor",
+    "GPU 입자가 여러 이상 끌개 방정식 사이를 보간하며 흐르는 동역학 시각화입니다.",
+    "Dynamical-system visualization interpolates GPU particle flow between strange attractor equations.",
+    "attractors / particles / compute",
+    "example"
+  ],
+  [
+    "ref-zoxilsi-studio",
+    "design",
+    "gradient",
+    [
+      "other"
+    ],
+    [
+      "grid",
+      "color",
+      "shape"
+    ],
+    "mesh",
+    "베지어 패치 격자의 노드 위치와 색상을 조절해 WebGL 메쉬 그라디언트를 편집합니다.",
+    "Mesh-gradient editor sculpts node positions and colors on a Bezier-patch lattice in WebGL.",
+    "Bezier lattice / nodes / color",
+    "tool"
+  ],
+  [
+    "ref-grainient-skill",
+    "mixed",
+    "background",
+    [
+      "spring",
+      "slide",
+      "scale"
+    ],
+    [
+      "color",
+      "layer",
+      "text"
+    ],
+    "surface",
+    "셰이더 그라디언트·비네트·그림자·유리 표면과 스프링·티커 등 모션 기법을 조합하는 HTML 스킬입니다.",
+    "HTML skill combines shader gradients, vignette/shadow/glass surfaces and spring/ticker motion techniques.",
+    "gradient / glass / ticker",
+    "tool"
+  ],
+  [
+    "ref-prompt-vfx",
+    "mixed",
+    "animation",
+    [
+      "glitch",
+      "other",
+      "text"
+    ],
+    [
+      "particles",
+      "shape",
+      "text"
+    ],
+    "effects-grid",
+    "Canvas·DOM·GSAP·Three.js를 나누어 입자, 모핑, 텍스트, 셰이더 효과를 보여주는 모듈 갤러리입니다.",
+    "Module gallery groups particle, morph, text and shader effects by Canvas/DOM, GSAP and Three.js techniques.",
+    "Canvas / GSAP / 3D",
+    "collection"
+  ],
+  [
+    "ref-radiant",
+    "motion",
+    "shader",
+    [
+      "other"
+    ],
+    [
+      "color",
+      "layer"
+    ],
+    "cosmic",
+    "각 셰이더를 독립 HTML 캔버스로 임베드하고 메시지로 매개변수를 제어하는 절차적 아트 모음입니다.",
+    "Procedural-art collection embeds shaders as standalone HTML canvases with runtime parameter messages.",
+    "canvas / embed / parameters",
+    "collection"
+  ],
+  [
+    "ref-typo",
+    "motion",
+    "typography",
+    [
+      "spring",
+      "glitch",
+      "wave",
+      "text"
+    ],
+    [
+      "text"
+    ],
+    "type-wave",
+    "글자별 물리·글리치·등장·변형을 커서와 반복 재생에 연결하는 React 텍스트 효과 모음입니다.",
+    "React text effects combine per-letter physics, glitches, entrances and transforms with cursor or loop playback.",
+    "physics / glitch / reveal",
+    "library"
+  ],
+  [
+    "ref-typexperiments",
+    "motion",
+    "typography",
+    [
+      "slide",
+      "wave",
+      "stagger",
+      "text"
+    ],
+    [
+      "text"
+    ],
+    "reflow",
+    "두 폭의 텍스트 레이아웃을 측정해 Canvas 글자가 재배치되거나 흩어졌다 모이도록 만듭니다.",
+    "Canvas engine measures two text layouts and animates glyph reflow, scatter/reassembly and waves.",
+    "measure / reflow / glyph",
+    "library"
+  ],
+  [
+    "ref-bounshy",
+    "motion",
+    "typography",
+    [
+      "spring",
+      "shake",
+      "glitch",
+      "text"
+    ],
+    [
+      "text",
+      "particles"
+    ],
+    "spring-type",
+    "커서에 반응하는 스프링 글자, 흔들림, 글리치와 색상 입자를 조합한 타이포그래피 사례입니다.",
+    "Typography case study combines cursor-reactive spring letters, shakes, glitches and colored particles.",
+    "cursor / spring / particles",
+    "case-study"
+  ],
+  [
+    "ref-rakuten-variable-font",
+    "motion",
+    "typography",
+    [
+      "text",
+      "other"
+    ],
+    [
+      "text",
+      "stroke"
+    ],
+    "variable-type",
+    "가변 폰트의 표현 폭을 GSAP 마이크로인터랙션·스크롤·SVG 타이포그래피로 설명하는 랜딩페이지 사례입니다.",
+    "Landing-page case study demonstrates variable-font range through GSAP microinteractions, scroll and SVG typography.",
+    "variable font / scroll / SVG",
+    "case-study"
+  ],
+  [
+    "ref-trickle",
+    "motion",
+    "typography",
+    [
+      "fade",
+      "blur",
+      "slide",
+      "stagger",
+      "text"
+    ],
+    [
+      "text"
+    ],
+    "char-reveal",
+    "문자·단어·블록 등장 등을 대부분 순수 CSS 키프레임으로 제공하는 React 텍스트 컴포넌트 키트입니다.",
+    "React typography kit supplies character/word/block entrances primarily through native CSS keyframes.",
+    "characters / CSS / reveal",
+    "library"
+  ],
+  [
+    "ref-codrops-exat-microsite",
+    "motion",
+    "typography",
+    [
+      "text",
+      "other"
+    ],
+    [
+      "text",
+      "grid"
+    ],
+    "variable-type",
+    "스크롤·인터랙션에 반응하는 글자의 변화로 Exat 가변 서체 체계를 탐색하게 만든 제작 사례입니다.",
+    "Production case study uses scroll-reactive typography to explore the Exat variable-type system.",
+    "type system / scroll / variation",
+    "case-study"
+  ],
+  [
+    "ref-text-effects-kit",
+    "motion",
+    "typography",
+    [
+      "text",
+      "glitch",
+      "spring",
+      "other"
+    ],
+    [
+      "text",
+      "color"
+    ],
+    "effects-type",
+    "Framer에서 리빌·타이핑·키네틱·포인터 반응과 글자 표면 스타일을 설정하는 효과 플러그인입니다.",
+    "Framer plugin groups reveal, typing, kinetic, pointer-reactive and visual-style text effects.",
+    "reveal / typing / pointer",
+    "tool"
+  ],
+  [
+    "ref-textalive",
+    "motion",
+    "typography",
+    [
+      "text",
+      "slide"
+    ],
+    [
+      "text",
+      "image",
+      "shape"
+    ],
+    "text-flow",
+    "움직이는 이미지·물체 주변으로 문단이 다시 흐르는 실시간 Canvas 텍스트 레이아웃 편집기입니다.",
+    "Canvas text-layout editor reflows paragraphs around moving images and objects in real time.",
+    "paragraph / object / reflow",
+    "tool"
+  ],
+  [
+    "ref-mat-voyce-case-study",
+    "motion",
+    "typography",
+    [
+      "text",
+      "other"
+    ],
+    [
+      "text",
+      "layer"
+    ],
+    "portfolio-type",
+    "Next.js·GSAP·Strapi로 2D 키네틱 타이포그래피 작가의 움직이는 포트폴리오를 구현한 개발 사례입니다.",
+    "Developer case study documents a moving 2D kinetic-type portfolio built with Next.js, GSAP and Strapi.",
+    "2D type / portfolio / GSAP",
+    "case-study"
+  ],
+  [
+    "ref-texttweener",
+    "motion",
+    "typography",
+    [
+      "text",
+      "slide",
+      "fade"
+    ],
+    [
+      "text"
+    ],
+    "word-swap",
+    "공유 문자를 가까운 새 위치로 대응시켜 이동하고 새로운 문자는 페이드하는 단어 전환 기법입니다.",
+    "Word transitions match shared characters to nearby new positions, while new characters fade in.",
+    "measure / match / animate",
+    "library"
+  ],
+  [
+    "ref-ai-canvas-playful",
+    "motion",
+    "typography",
+    [
+      "spring",
+      "rotate",
+      "text"
+    ],
+    [
+      "text"
+    ],
+    "spring-type",
+    "커서 근접도에 따라 각 글자가 뛰고 떨어지고 회전하는 Playful React 컴포넌트입니다.",
+    "Playful React component makes individual letters jump, drop and rotate with cursor proximity.",
+    "proximity / jump / rotate",
+    "library"
+  ],
+  [
+    "ref-kinetic-type-07",
+    "motion",
+    "typography",
+    [
+      "text",
+      "other"
+    ],
+    [
+      "text",
+      "layer"
+    ],
+    "spatial-type",
+    "Cinema 4D·Redshift·After Effects를 이용해 2D·3D 공간의 단어를 실험한 키네틱 타이포그래피 작품입니다.",
+    "Kinetic-type artwork explores words in 2D/3D space using Cinema 4D, Redshift and After Effects.",
+    "2D / 3D / typography",
+    "example"
+  ],
+  [
+    "ref-void-energy-kinetic-text",
+    "motion",
+    "typography",
+    [
+      "text",
+      "stagger",
+      "other"
+    ],
+    [
+      "text",
+      "layer"
+    ],
+    "text-layers",
+    "글자별 등장, 지속 움직임, 일회성 이벤트를 별도 DOM 레이어에서 합성하는 프리미엄 텍스트 패키지입니다.",
+    "Premium text package composes per-letter reveal, continuous motion and one-shot events on separate DOM layers.",
+    "reveal / continuous / event",
+    "library"
+  ],
+  [
+    "ref-interactive-developer",
+    "tooling",
+    "reference",
+    [],
+    [],
+    "unresolved",
+    "원래 YouTube 링크에 영상 식별자가 없어 작품이나 기법을 확인할 수 없습니다. 이 항목은 미확인 자료로 표시합니다.",
+    "The original YouTube watch URL has no video identifier. Its artwork and techniques cannot be verified.",
+    "video identifier missing",
+    "learning"
+  ],
+  [
+    "ref-crucible-recast",
+    "motion",
+    "typography",
+    [
+      "text",
+      "slide",
+      "mask"
+    ],
+    [
+      "text",
+      "mask"
+    ],
+    "word-swap",
+    "공유 글자는 기준선 위 새 위치로 이동하고 다른 글자는 아이리스 마스크로 교체하는 단어 재형성 컴포넌트입니다.",
+    "Word-reforming component slides shared glyphs along the baseline and replaces unique glyphs with iris masks.",
+    "shared letters / iris / kerning",
+    "library"
+  ],
+  [
+    "ref-falling-text",
+    "motion",
+    "typography",
+    [
+      "text",
+      "rotate",
+      "other"
+    ],
+    [
+      "text",
+      "shape"
+    ],
+    "falling-type",
+    "측정된 단어 사각형이 제한된 무대 안에서 낙하·충돌하고 쌓이는 물리 텍스트 효과입니다.",
+    "Physics text effect drops measured word rectangles into a bounded stage where they collide and settle.",
+    "word bounds / gravity / collision",
+    "library"
+  ],
+  [
+    "ref-atlassian-motion",
+    "motion",
+    "animation",
+    [
+      "other"
+    ],
+    [
+      "shape",
+      "layer"
+    ],
+    "motion-principles",
+    "상태 변화·주목·브랜드 일관성을 위한 의미 토큰과 기본 모션 토큰, 접근성 원칙을 정의합니다.",
+    "Motion foundations define semantic/base tokens and accessibility principles for state changes, attention and brand consistency.",
+    "human / clarity / accessible",
+    "design-system"
+  ],
+  [
+    "ref-animation-in-design-systems",
+    "tooling",
+    "reference",
+    [
+      "other"
+    ],
+    [
+      "layer",
+      "shape"
+    ],
+    "motion-principles",
+    "브랜드 원칙에서 이징·시간 등 모션 구성 블록까지 디자인 시스템에 포함하는 방법을 설명하는 Adobe·Val Head 문서입니다.",
+    "Adobe/Val Head document explains how to include principles, easing, timing and animation building blocks in design systems.",
+    "principles / blocks / guidelines",
+    "learning"
+  ],
+  [
+    "ref-gitlab-pajamas-motion",
+    "motion",
+    "animation",
+    [
+      "stagger",
+      "spring",
+      "other"
+    ],
+    [
+      "layer",
+      "stroke",
+      "shape"
+    ],
+    "layer-reveal",
+    "일러스트 레이어 순차 등장·독립 선 그리기와 인터랙티브/표현적 이징을 구분하는 GitLab 지침입니다.",
+    "GitLab guidelines sequence illustration layers, draw strokes independently and distinguish interactive/expressive easing.",
+    "layers / stroke reveal / overshoot",
+    "design-system"
+  ],
+  [
+    "ref-motion-studio-color",
+    "design",
+    "palette",
+    [],
+    [
+      "color",
+      "grid"
+    ],
+    "swatches",
+    "After Effects·Illustrator 패널과 동기화되는 색상 팔레트를 폴더·스와치·행렬로 관리하는 라이브러리입니다.",
+    "Color library organizes palette folders, swatches and matrices synchronized with After Effects/Illustrator panels.",
+    "palette / folders / matrix",
+    "tool"
+  ],
+  [
+    "ref-github-brand-motion",
+    "motion",
+    "animation",
+    [
+      "other"
+    ],
+    [
+      "grid",
+      "layer",
+      "shape"
+    ],
+    "motion-principles",
+    "브랜드·제품 모션이 정보 안내, 참여, 인상을 지원하도록 구조와 표현의 균형을 정한 GitHub 지침입니다.",
+    "GitHub guidelines balance structure and expression across facilitation, engagement and impact in brand/product motion.",
+    "facilitate / engage / impact",
+    "design-system"
+  ],
+  [
+    "ref-qwilr-kaleidoscope",
+    "motion",
+    "interaction",
+    [
+      "other"
+    ],
+    [
+      "shape",
+      "layer"
+    ],
+    "ui-flow",
+    "버튼·패널·댓글·폴더의 기능적 움직임을 장식적 일러스트와 구분한 제품 인터랙션 지침입니다.",
+    "Product-interaction guidance separates functional button/panel/comment/folder motion from expressive illustrations.",
+    "flow / feedback / purpose",
+    "design-system"
+  ],
+  [
+    "ref-gocardless-motion",
+    "motion",
+    "interaction",
+    [
+      "spring",
+      "other"
+    ],
+    [
+      "shape",
+      "layer"
+    ],
+    "easing",
+    "일반 전환·빠른 피드백·성공 표현에 각각 smooth·slowdown·overshoot 곡선을 배정한 제품 모션 체계입니다.",
+    "Product-motion system assigns smooth, slowdown and overshoot curves to transitions, quick feedback and success moments.",
+    "smooth / slowdown / expressive",
+    "design-system"
+  ],
+  [
+    "ref-carbon-motion",
+    "motion",
+    "interaction",
+    [
+      "other"
+    ],
+    [
+      "shape",
+      "layer"
+    ],
+    "easing",
+    "업무 중심의 절제된 생산적 모션과 주요 순간을 강조하는 표현적 모션을 구분하는 Carbon 원칙입니다.",
+    "Carbon principles distinguish restrained productive motion from expressive movement for significant moments.",
+    "productive / expressive / timing",
+    "design-system"
+  ],
+  [
+    "ref-atlan-motion",
+    "motion",
+    "animation",
+    [
+      "slide",
+      "text",
+      "other"
+    ],
+    [
+      "text",
+      "layer",
+      "shape"
+    ],
+    "layer-reveal",
+    "입장·퇴장·이동 곡선과 시간·공간 원형을 정해 시네마틱 카메라와 빠른 글자 움직임을 조율합니다.",
+    "Choreography defines entering/exiting/shifting curves and timing/spatial primitives for cinematic cameras and fast type.",
+    "enter / exit / spatial primitives",
+    "design-system"
+  ],
+  [
+    "ref-designbetter-motion",
+    "motion",
+    "interaction",
+    [
+      "slide",
+      "other"
+    ],
+    [
+      "shape",
+      "layer"
+    ],
+    "duration",
+    "120·240·400ms 시간 단계와 표준·감속·가속·sharp 곡선을 상태 변화에 배정한 모션 토큰 문서입니다.",
+    "Motion-token documentation assigns 120/240/400ms tiers and standard/decelerate/accelerate/sharp curves to state changes.",
+    "120ms / 240ms / 400ms",
+    "design-system"
+  ],
+  [
+    "ref-designsystems-com",
+    "tooling",
+    "reference",
+    [
+      "other"
+    ],
+    [
+      "shape",
+      "layer"
+    ],
+    "motion-principles",
+    "모션의 교육·집중·피드백 역할을 반복 가능한 디자인 시스템 규칙으로 정리하는 방법론입니다.",
+    "Methodology systematizes motion for education, focus and feedback into repeatable design-system rules.",
+    "educate / focus / consistency",
+    "learning"
+  ],
+  [
+    "ref-remotion-style-kit",
+    "mixed",
+    "animation",
+    [
+      "other",
+      "text"
+    ],
+    [
+      "text",
+      "color",
+      "layer"
+    ],
+    "style-matrix",
+    "스타일·모션·팔레트 축을 선택한 뒤 Remotion 코드를 생성하는 모션그래픽 제작 도구입니다.",
+    "Motion-graphics tool chooses style, motion and palette axes before generating Remotion compositions.",
+    "style / motion / palette",
+    "tool"
+  ],
+  [
+    "ref-motion-ui",
+    "motion",
+    "interaction",
+    [
+      "slide",
+      "scale",
+      "other"
+    ],
+    [
+      "text",
+      "shape"
+    ],
+    "carousel",
+    "Motion+에 포함된 커서 흡착·형상 변화, 캐러셀 스냅·드래그, 일정 속도 티커 컴포넌트 모음입니다.",
+    "Motion+ components cover target-snapping/morphing cursors, snap/drag carousels and constant-speed tickers.",
+    "cursor / carousel / ticker",
+    "library"
+  ],
+  [
+    "ref-framewave",
+    "tooling",
+    "animation",
+    [
+      "spring",
+      "text"
+    ],
+    [
+      "text",
+      "color",
+      "layer"
+    ],
+    "render-pipeline",
+    "해석적 스프링·글자 애니메이션·OKLab 색상을 프레임 기반 WebGPU 합성으로 렌더하는 코드 엔진입니다.",
+    "Code engine renders frame-based WebGPU compositions with analytic springs, text animators and OKLab color.",
+    "composition / frame / WebGPU",
+    "library"
+  ],
+  [
+    "ref-mo-js",
+    "motion",
+    "animation",
+    [
+      "other",
+      "stagger"
+    ],
+    [
+      "shape",
+      "particles",
+      "stroke"
+    ],
+    "burst",
+    "선언형 API와 내장 모션그래픽 구성 블록을 제공하는 모듈형 웹 애니메이션 도구입니다.",
+    "Modular web animation tool offers a declarative API and built-in motion-graphics components.",
+    "shape / burst / timeline",
+    "library"
+  ],
+  [
+    "ref-live2d-cubism-web",
+    "tooling",
+    "animation",
+    [
+      "other"
+    ],
+    [
+      "image",
+      "layer",
+      "shape"
+    ],
+    "rig",
+    "Cubism Editor에서 내보낸 모델을 Core와 조합해 표시·조작하는 Web SDK 프레임워크입니다.",
+    "Web SDK framework combines with Cubism Core to display and manipulate models exported from Cubism Editor.",
+    "model / Core / parameters",
+    "library"
+  ],
+  [
+    "ref-moyo",
+    "motion",
+    "shape",
+    [
+      "pulse",
+      "other"
+    ],
+    [
+      "shape"
+    ],
+    "blob",
+    "모양보다 호흡·배회·뒤섞임 움직임을 선택하고 엣지·스파이크를 조절하는 SVG 유기 블롭입니다.",
+    "SVG organic blobs select breathing/wandering/churning motion and tune edge or spike behavior.",
+    "breathe / wander / churn",
+    "library"
+  ],
+  [
+    "ref-motion-anything",
+    "tooling",
+    "animation",
+    [
+      "spring",
+      "other"
+    ],
+    [
+      "text",
+      "shape",
+      "layer"
+    ],
+    "pipeline",
+    "트리거·모션 동사·키프레임 편집기를 에이전트와 연결하고 여러 코드·파일 형식으로 내보내는 도구입니다.",
+    "Agent-connected tool edits triggers, motion verbs and keyframes and exports multiple code/file formats.",
+    "agent / verbs / keyframes",
+    "tool"
+  ],
+  [
+    "ref-nibi",
+    "motion",
+    "typography",
+    [
+      "text",
+      "other"
+    ],
+    [
+      "text",
+      "particles"
+    ],
+    "particle-type",
+    "특정 카메라에서만 읽히는 3D 일본어 가사 입자 배치를 GPU 유동 패턴으로 전환하는 음악 시각화입니다.",
+    "Music visualization transitions viewpoint-dependent 3D Japanese lyric particles into GPU flow patterns.",
+    "lyric particles / camera / flow",
+    "example"
+  ],
+  [
+    "ref-blob-morph-study",
+    "motion",
+    "shape",
+    [
+      "pulse",
+      "other"
+    ],
+    [
+      "shape"
+    ],
+    "blob",
+    "시간 노이즈와 커서 근접도로 SVG 경계를 변형하고 음성 AI 상태에 호흡을 동기화한 블롭 사례입니다.",
+    "Blob study deforms SVG contours with time noise/cursor proximity and synchronizes breathing to voice-AI states.",
+    "noise / proximity / breathing",
+    "example"
+  ],
+  [
+    "ref-odorigu",
+    "motion",
+    "animation",
+    [
+      "other",
+      "spring"
+    ],
+    [
+      "image",
+      "layer",
+      "shape"
+    ],
+    "rig",
+    "이미지 슬롯 계층을 BPM에 맞춰 흔들고, 꼬리 등 부가 파츠에 감쇠 진동을 적용하는 리깅 도구입니다.",
+    "Rigging tool bounces image-slot hierarchies to BPM and applies damped secondary motion to extra parts.",
+    "slots / BPM / secondary motion",
+    "tool"
+  ],
+  [
+    "ref-gitframes",
+    "tooling",
+    "animation",
+    [
+      "other",
+      "text"
+    ],
+    [
+      "layer",
+      "text",
+      "shape"
+    ],
+    "render-pipeline",
+    "기존 Gitframes 주소가 연결하는 Framefields는 합성·모션·3D 장면을 WebGPU로 렌더하는 코드 패키지입니다.",
+    "The old Gitframes URL now resolves to Framefields, a code package for WebGPU compositing, motion and 3D scenes.",
+    "Framefields / composite / WebGPU",
+    "library"
+  ],
+  [
+    "ref-kansei",
+    "tooling",
+    "shader",
+    [
+      "other"
+    ],
+    [
+      "shape",
+      "layer",
+      "stroke"
+    ],
+    "compute",
+    "WebGPU·WGSL 계산, 장면 그래프, 재질·카메라·MSDF 텍스트를 제공하는 실험적 그래픽 엔진입니다.",
+    "Experimental engine provides WebGPU/WGSL compute, scene graphs, materials, cameras and MSDF text.",
+    "WGSL / scene graph / compute",
+    "library"
+  ],
+  [
+    "ref-pv-tool",
+    "motion",
+    "typography",
+    [
+      "text",
+      "glitch",
+      "other"
+    ],
+    [
+      "text",
+      "layer",
+      "color"
+    ],
+    "effects-type",
+    "PixiJS로 가사·제목을 여러 키네틱 템플릿과 후처리 레이어에 합성하는 음악영상 시각 효과 도구입니다.",
+    "PixiJS music-visual tool composites lyrics/titles with kinetic templates and post-processing layers.",
+    "lyrics / presets / post-processing",
+    "tool"
+  ],
+  [
+    "ref-suplab",
+    "mixed",
+    "reference",
+    [
+      "other"
+    ],
+    [
+      "image",
+      "shape",
+      "layer"
+    ],
+    "installation",
+    "물리·디지털 설치, 커스텀 하드웨어, 반응형 제품과 브랜딩을 제작하는 스튜디오의 공식 작업 소개입니다.",
+    "Official studio overview covers physical/digital installations, custom hardware, responsive products and branding.",
+    "physical / code / installation",
+    "portfolio"
+  ],
+  [
+    "ref-sailor-studio",
+    "motion",
+    "reference",
+    [
+      "other"
+    ],
+    [
+      "image",
+      "layer",
+      "shape"
+    ],
+    "composite",
+    "2D·3D 애니메이션, 실사·FOOH VFX, 합성과 컬러 그레이딩을 결합한 제작 스튜디오 사례입니다.",
+    "Production-studio portfolio combines 2D/3D animation, live-action/FOOH VFX, compositing and color grading.",
+    "2D / 3D / composite",
+    "portfolio"
+  ],
+  [
+    "ref-superfluide",
+    "mixed",
+    "reference",
+    [
+      "other"
+    ],
+    [
+      "shape",
+      "text",
+      "layer"
+    ],
+    "portfolio",
+    "2D·3D 애니메이션, 모션·그래픽 디자인과 브랜드 아트 디렉션을 다루는 스튜디오의 포트폴리오입니다.",
+    "Studio portfolio spans 2D/3D animation, motion/graphic design and brand art direction.",
+    "2D / 3D / branding",
+    "portfolio"
+  ],
+  [
+    "ref-asquareportal",
+    "mixed",
+    "reference",
+    [
+      "other"
+    ],
+    [
+      "shape",
+      "text",
+      "layer"
+    ],
+    "explainer",
+    "제품·교육 설명 영상, 클레이 스톱모션, 인터랙티브 웹과 시각 브랜딩을 나눈 스튜디오 작업 목록입니다.",
+    "Studio work index groups product/learning explainers, clay stop-motion, interactive websites and visual branding.",
+    "explainer / clay / interactive",
+    "portfolio"
+  ],
+  [
+    "ref-pekingpeking",
+    "motion",
+    "reference",
+    [
+      "other"
+    ],
+    [
+      "image",
+      "text",
+      "layer"
+    ],
+    "automotive",
+    "자동차 VFX, 타이틀 디자인, Unreal Engine CGI 및 브랜드 필름을 다루는 공식 제작 포트폴리오입니다.",
+    "Official production portfolio covers automotive VFX, title design, Unreal Engine CGI and brand films.",
+    "automotive / title / Unreal",
+    "portfolio"
+  ],
+  [
+    "ref-studio-carlos",
+    "mixed",
+    "reference",
+    [
+      "other"
+    ],
+    [
+      "image",
+      "shape",
+      "layer"
+    ],
+    "installation",
+    "몸·관객 입력에 반응하는 영상과 전자장치·코드·공간 연출을 함께 설계하는 몰입형 경험 스튜디오입니다.",
+    "Immersive-experience studio combines body/audience-reactive visuals with electronics, code and spatial staging.",
+    "body input / code / space",
+    "portfolio"
+  ],
+  [
+    "ref-nicolas-sordello",
+    "mixed",
+    "reference",
+    [
+      "other"
+    ],
+    [
+      "image",
+      "layer",
+      "shape"
+    ],
+    "portfolio",
+    "공식 이력과 작업은 2D·3D·VR 모션, 실시간 VFX 및 인터랙티브 테이블 제작을 포함합니다.",
+    "Official biography/work list includes 2D/3D/VR motion, real-time VFX and interactive tables.",
+    "2D / VR / real-time VFX",
+    "portfolio"
+  ],
+  [
+    "ref-studio-bbg",
+    "mixed",
+    "reference",
+    [
+      "text",
+      "other"
+    ],
+    [
+      "text",
+      "image",
+      "layer"
+    ],
+    "portfolio-type",
+    "애니메이션 타이포그래피·일러스트·2D·3D를 공연 비주얼, 캠페인과 모션 브랜딩에 조합하는 스튜디오입니다.",
+    "Studio combines animated typography, illustration and 2D/3D work for stage visuals, campaigns and motion branding.",
+    "type / illustration / brand",
+    "portfolio"
+  ],
+  [
+    "ref-ggfx",
+    "motion",
+    "reference",
+    [
+      "other"
+    ],
+    [
+      "image",
+      "shape",
+      "layer"
+    ],
+    "composite",
+    "브랜드 2D·3D 애니메이션과 실사 합성 VFX를 자동화된 제작 파이프라인으로 만드는 스튜디오입니다.",
+    "Studio creates brand 2D/3D animation and live-action VFX compositing with automated production pipelines.",
+    "animation / VFX / pipeline",
+    "portfolio"
+  ],
+  [
+    "ref-obj-studio",
+    "mixed",
+    "reference",
+    [
+      "other"
+    ],
+    [
+      "image",
+      "grid",
+      "layer"
+    ],
+    "installation",
+    "전시·브랜드 공간·이벤트의 몰입형 설치와 인터랙티브 게임·다중 디스플레이 경험을 제작합니다.",
+    "Studio designs immersive installations, interactive games and multi-display experiences for exhibitions, brand spaces and events.",
+    "exhibition / displays / interaction",
+    "portfolio"
+  ],
+  [
+    "ref-vj-suave",
+    "motion",
+    "reference",
+    [
+      "other"
+    ],
+    [
+      "image",
+      "layer",
+      "shape"
+    ],
+    "projection",
+    "2D·3D 애니메이션과 음악을 360도 벽·바닥 투사 및 프로젝션 매핑으로 공간에 배치하는 미디어 아트입니다.",
+    "Media art places 2D/3D animation and music into 360-degree wall/floor projections and projection mapping.",
+    "animation / mapping / music",
+    "portfolio"
+  ],
+  [
+    "ref-julien-levy",
+    "mixed",
+    "reference",
+    [
+      "fade",
+      "other"
+    ],
+    [
+      "image",
+      "layer",
+      "color"
+    ],
+    "windows",
+    "관객의 손짓에 따라 빛·시간대가 바뀌는 창문형 설치와 VR·360도·XR 작업을 소개합니다.",
+    "Portfolio documents window installations whose light/time shifts with gestures, plus VR/360/XR production.",
+    "windows / gesture / light",
+    "portfolio"
+  ],
+  [
+    "ref-geronimo",
+    "motion",
+    "reference",
+    [
+      "text",
+      "other"
+    ],
+    [
+      "text",
+      "layer",
+      "shape"
+    ],
+    "portfolio-type",
+    "브랜드·방송 타이틀, 3D 타이포그래피와 시간축 그래픽 애니메이션을 나열한 감독의 공식 포트폴리오입니다.",
+    "Director's official portfolio lists brand/broadcast titles, 3D typography and animated timeline graphics.",
+    "titles / 3D type / timeline",
+    "portfolio"
+  ],
+  [
+    "ref-astrolabe-studio",
+    "mixed",
+    "reference",
+    [
+      "other"
+    ],
+    [
+      "shape",
+      "image",
+      "layer"
+    ],
+    "spatial",
+    "AR 효과·제품 3D 시각화·리깅 캐릭터·VR 공간을 다루는 실시간·확장현실 제작 사례입니다.",
+    "Real-time/XR portfolio covers AR effects, 3D product visualization, rigged characters and VR environments.",
+    "AR / product / rig",
+    "portfolio"
+  ],
+  [
+    "ref-lure-studio",
+    "motion",
+    "reference",
+    [
+      "other"
+    ],
+    [
+      "image",
+      "layer",
+      "shape"
+    ],
+    "automotive",
+    "자동차 캠페인, FOOH와 CGI·3D·실사 VFX를 결합하는 제작 스튜디오의 공식 작업 목록입니다.",
+    "Official studio work index combines automotive campaigns, FOOH and CGI/3D/live-action VFX.",
+    "automotive / FOOH / CGI",
+    "portfolio"
+  ],
+  [
+    "ref-mostros",
+    "motion",
+    "reference",
+    [
+      "other"
+    ],
+    [
+      "image",
+      "layer",
+      "text"
+    ],
+    "storyboard",
+    "영상·모션·실험적 비주얼을 서사·감정·디지털 아트와 함께 구성한 스튜디오 작품 소개입니다.",
+    "Studio portfolio describes narrative/emotion-led film, motion design and experimental digital visuals.",
+    "narrative / motion / film",
+    "portfolio"
+  ],
+  [
+    "ref-ze-do-motion",
+    "mixed",
+    "reference",
+    [
+      "other"
+    ],
+    [
+      "image",
+      "shape",
+      "color"
+    ],
+    "product",
+    "공식 프로필은 제품 팩샷·룩디벨롭·폴리곤 모델링·조명·재질·렌더링을 중심으로 소개합니다.",
+    "Official profile focuses on product packshots, look development, polygon modeling, lighting, texturing and rendering.",
+    "packshot / light / material",
+    "portfolio"
+  ],
+  [
+    "ref-p5-js",
+    "tooling",
+    "animation",
+    [
+      "other"
+    ],
+    [
+      "shape",
+      "color",
+      "text"
+    ],
+    "landscape",
+    "공식 입문 예제는 캔버스·배경·도형·문자를 그리고 마우스 위치에 반응하는 스케치를 설명합니다.",
+    "Official introduction teaches canvas/background/shape/text drawing and mouse-reactive sketches.",
+    "canvas / shapes / input",
+    "learning"
+  ],
+  [
+    "ref-three-js",
+    "tooling",
+    "shader",
+    [
+      "other"
+    ],
+    [
+      "shape",
+      "layer",
+      "color"
+    ],
+    "scenegraph",
+    "장면·카메라·렌더러, 재질·빛·텍스처와 계층 구조로 웹 3D를 구성하는 라이브러리입니다.",
+    "Web 3D library organizes scenes, cameras, renderers, materials, lighting, textures and object hierarchies.",
+    "scene / camera / renderer",
+    "learning"
+  ],
+  [
+    "ref-shadertoy",
+    "mixed",
+    "shader",
+    [
+      "other"
+    ],
+    [
+      "color",
+      "shape",
+      "grid"
+    ],
+    "shader-grid",
+    "프래그먼트 셰이더 작품을 만들고 공유하는 커뮤니티로, 홈 목록에는 Voronoi·물·발광 등의 작품이 표시됩니다.",
+    "Community creates/shares fragment-shader works; the inspected homepage lists Voronoi, water and glow studies.",
+    "shader / gallery / community",
+    "collection"
+  ],
+  [
+    "ref-the-book-of-shaders",
+    "tooling",
+    "shader",
+    [
+      "other"
+    ],
+    [
+      "shape",
+      "grid",
+      "color"
+    ],
+    "procedural",
+    "셰이핑 함수·색상·형상·패턴·노이즈·FBM·프랙털을 단계별로 설명하는 프래그먼트 셰이더 교재입니다.",
+    "Fragment-shader guide teaches shaping functions, colors, shapes, patterns, noise, FBM and fractals.",
+    "functions / noise / patterns",
+    "learning"
+  ],
+  [
+    "ref-openprocessing",
+    "mixed",
+    "reference",
+    [
+      "other"
+    ],
+    [
+      "shape",
+      "particles",
+      "grid"
+    ],
+    "generative",
+    "코딩 스케치를 공유하며 생성형 패턴·형상과 행동 규칙 기반 입자를 탐색하는 크리에이티브 코딩 커뮤니티입니다.",
+    "Creative-coding community shares sketches spanning generative patterns/shapes and behavior-driven particles.",
+    "sketches / rules / particles",
+    "collection"
+  ],
+  [
+    "ref-rive",
+    "tooling",
+    "animation",
+    [
+      "other"
+    ],
+    [
+      "shape",
+      "layer"
+    ],
+    "state-machine",
+    "디자인·코드·애니메이션을 한 파일의 인터랙티브 경험으로 제작해 여러 플랫폼의 벡터 런타임에서 재생합니다.",
+    "Interactive design/animation tool ships one experience to vector runtimes across multiple platforms.",
+    "design / animate / runtime",
+    "tool"
+  ],
+  [
+    "ref-shader-gradient",
+    "motion",
+    "gradient",
+    [
+      "wave",
+      "other"
+    ],
+    [
+      "color",
+      "shape"
+    ],
+    "surface",
+    "Framer·Figma·React에 사용할 움직이는 그라디언트를 만드는 Three.js·GLSL 프로젝트입니다.",
+    "Three.js/GLSL project creates moving gradients for Framer, Figma and React.",
+    "moving gradient / Three.js / GLSL",
+    "library"
+  ],
+  [
+    "ref-haikei",
+    "design",
+    "background",
+    [],
+    [
+      "shape",
+      "layer",
+      "grid"
+    ],
+    "layered-waves",
+    "층진 파도·계단·산봉우리·블롭·심볼·격자를 생성하고 SVG·PNG로 내보내는 디자인 도구입니다.",
+    "Design generator exports layered waves, steps, peaks, blobs, symbols and grids as SVG/PNG.",
+    "waves / steps / blobs",
+    "tool"
+  ],
+  [
+    "ref-animista",
+    "motion",
+    "animation",
+    [
+      "other"
+    ],
+    [
+      "shape",
+      "text"
+    ],
+    "duration",
+    "미리 만든 CSS 애니메이션의 이징·지연·지속 시간을 조절해 필요한 코드만 가져오는 라이브러리입니다.",
+    "CSS-animation library customizes easing, delay and duration before exporting the required styles.",
+    "CSS / easing / duration",
+    "tool"
+  ],
+  [
+    "ref-easings-cheat-sheet",
+    "motion",
+    "animation",
+    [
+      "spring",
+      "other"
+    ],
+    [
+      "stroke",
+      "shape"
+    ],
+    "easing",
+    "가속·감속·바운스·탄성 함수를 그래프와 위치·크기 데모로 비교하는 이징 참고표입니다.",
+    "Easing reference compares accelerating/decelerating, bounce and elastic functions with graphs and position/size demos.",
+    "rate / bounce / elastic",
+    "learning"
+  ],
+  [
+    "ref-coolors",
+    "design",
+    "palette",
+    [],
+    [
+      "color"
+    ],
+    "swatches",
+    "팔레트 생성과 검정·흰색 배경 및 색각 접근성 미리보기를 제공하는 색상 도구입니다.",
+    "Palette tool provides generation and previews on dark/light backgrounds with color-accessibility options.",
+    "palette / backgrounds / accessibility",
+    "tool"
+  ],
+  [
+    "ref-color-hunt",
+    "design",
+    "palette",
+    [],
+    [
+      "color",
+      "grid"
+    ],
+    "palette-grid",
+    "사용자가 제출한 팔레트를 큐레이션하고 색상·분위기·시즌 태그와 컬렉션으로 탐색하는 색상 자료실입니다.",
+    "Curated user-submitted palettes are explored by color, mood, seasonal tags and collections.",
+    "palette / tags / collection",
+    "collection"
+  ],
+  [
+    "ref-adobe-color-wheel",
+    "design",
+    "palette",
+    [],
+    [
+      "color",
+      "shape"
+    ],
+    "color-wheel",
+    "색상환과 단색·보색·유사색·삼색 조화, 이미지 추출과 대비 검사를 제공하는 팔레트 생성기입니다.",
+    "Palette generator offers a color wheel, monochromatic/complementary/analogous/triadic harmonies, image extraction and contrast checks.",
+    "wheel / harmony / contrast",
+    "tool"
+  ],
+  [
+    "ref-css-gradient",
+    "design",
+    "gradient",
+    [],
+    [
+      "color",
+      "layer"
+    ],
+    "linear-gradient",
+    "선형 그라디언트 CSS와 색상 정지점을 편집하고 색조·스와치 자료를 제공하는 생성기입니다.",
+    "Generator edits linear-gradient CSS/color stops and provides shade/swatch references.",
+    "linear gradient / stops / CSS",
+    "tool"
+  ],
+  [
+    "ref-uigradients",
+    "design",
+    "gradient",
+    [],
+    [
+      "color"
+    ],
+    "linear-gradient",
+    "HEX 색상 배열과 이름으로 기록된 커뮤니티 기여 다색 그라디언트 모음입니다.",
+    "Community-contributed multi-color gradients are stored as named HEX arrays.",
+    "HEX stops / named gradients",
+    "collection"
+  ],
+  [
+    "ref-mesh-gradients",
+    "design",
+    "gradient",
+    [],
+    [
+      "color",
+      "grid",
+      "shape"
+    ],
+    "mesh",
+    "현재 주소는 Sketch/Figma용 유료 메쉬 도구로 연결됩니다. 실제 3D 메쉬와 Hermite bicubic 색상 보간을 사용합니다.",
+    "The current URL leads to a paid Sketch/Figma mesh tool using a real 3D mesh and Hermite bicubic color interpolation.",
+    "mesh / Hermite / Sketch",
+    "tool"
+  ],
+  [
+    "ref-colorspace",
+    "design",
+    "palette",
+    [],
+    [
+      "color"
+    ],
+    "palette-gradient",
+    "기준 색상으로 새 팔레트와 3색 그라디언트를 생성하는 색상 조합 도구입니다.",
+    "Color-combination tool generates palettes and three-color gradients from a base color.",
+    "base color / palettes / 3 stops",
+    "tool"
+  ],
+  [
+    "ref-paletton",
+    "design",
+    "palette",
+    [],
+    [
+      "color",
+      "shape",
+      "grid"
+    ],
+    "color-wheel",
+    "RYB 색상환에서 인접·보색·삼색·사색 조합과 명도·채도 변형을 만들고 색각 시뮬레이션으로 확인합니다.",
+    "RYB-wheel tool builds adjacent/complementary/triadic/tetradic schemes and shade variants with vision simulations.",
+    "RYB / harmony / shades",
+    "tool"
+  ],
+  [
+    "ref-shapefactory-gradient",
+    "design",
+    "gradient",
+    [],
+    [
+      "color"
+    ],
+    "linear-gradient",
+    "여러 HEX 조합을 미리보고 CSS로 복사하는 색채 그라디언트 생성기입니다.",
+    "Chromatic-gradient generator previews HEX combinations and copies their CSS.",
+    "chromatic / HEX / CSS",
+    "tool"
+  ],
+  [
+    "ref-cubic-bezier",
+    "motion",
+    "animation",
+    [
+      "other"
+    ],
+    [
+      "stroke",
+      "shape"
+    ],
+    "easing",
+    "지속 시간을 설정하고 두 곡선의 움직임을 미리보고 비교하는 cubic-bezier 편집기입니다.",
+    "Cubic-bezier editor previews and compares curve motion at a selected duration.",
+    "curve / duration / compare",
+    "tool"
+  ],
+  [
+    "ref-svg-backgrounds",
+    "design",
+    "background",
+    [],
+    [
+      "shape",
+      "stroke",
+      "color"
+    ],
+    "pattern",
+    "SVG 배경·아이콘·선·형상을 색상 조절 뒤 코드로 내보내는 자료실이며 각 그래픽의 라이선스·표시 조건을 확인해야 합니다.",
+    "SVG resource library exports customized backgrounds/icons/lines/shapes; each graphic has its own license/attribution conditions.",
+    "background / SVG / license",
+    "collection"
+  ],
+  [
+    "ref-barba-transitions",
+    "motion",
+    "transition",
+    [
+      "other"
+    ],
+    [
+      "layer",
+      "shape"
+    ],
+    "page-transition",
+    "페이지 namespace·route·사용자 조건으로 leave/enter 훅과 전환의 선택·동기화를 제어합니다.",
+    "Page-transition manager selects and synchronizes leave/enter hooks using namespace, route and custom rules.",
+    "leave / enter / rules",
+    "learning"
+  ],
+  [
+    "ref-swup",
+    "motion",
+    "transition",
+    [
+      "fade",
+      "slide",
+      "other"
+    ],
+    [
+      "layer",
+      "shape"
+    ],
+    "page-transition",
+    "서버 렌더 페이지의 로드 생명주기·캐시·히스토리·스크롤을 관리하고 fade·slide·overlay 전환을 제공합니다.",
+    "Page-transition library manages load lifecycle, cache/history/scroll and provides fade/slide/overlay themes.",
+    "load / animate / history",
+    "library"
+  ],
+  [
+    "ref-highway",
+    "motion",
+    "transition",
+    [
+      "other"
+    ],
+    [
+      "layer",
+      "shape"
+    ],
+    "page-transition",
+    "확장 가능한 ES6 클래스로 AJAX 탐색과 페이지 애니메이션의 입장·퇴장 과정을 구성합니다.",
+    "Extensible ES6 classes organize AJAX navigation and page-animation entrance/exit lifecycles.",
+    "AJAX / classes / transition",
+    "library"
+  ],
+  [
+    "ref-react-bits",
+    "mixed",
+    "interaction",
+    [
+      "text",
+      "other"
+    ],
+    [
+      "text",
+      "shape",
+      "color"
+    ],
+    "components",
+    "텍스트·배경·일반 애니메이션·UI를 JavaScript/TypeScript 및 CSS/Tailwind 변형으로 제공하는 React 모음입니다.",
+    "React collection supplies text/background/general animations and UI in JS/TS and CSS/Tailwind variants.",
+    "text / backgrounds / UI",
+    "library"
+  ],
+  [
+    "ref-magic-ui",
+    "motion",
+    "interaction",
+    [
+      "text",
+      "other"
+    ],
+    [
+      "text",
+      "shape",
+      "color"
+    ],
+    "components",
+    "React·Tailwind·Motion으로 제작된 애니메이션 UI 컴포넌트와 효과 라이브러리입니다.",
+    "Animated UI-component/effect library built with React, Tailwind and Motion.",
+    "React / Tailwind / Motion",
+    "library"
+  ],
+  [
+    "ref-aceternity-ui",
+    "motion",
+    "interaction",
+    [
+      "other"
+    ],
+    [
+      "layer",
+      "shape",
+      "text"
+    ],
+    "components",
+    "히어로 스크롤, MacBook 스크롤 등 모션과 UI 블록을 조합하는 React·Tailwind·Motion 자료실입니다.",
+    "React/Tailwind/Motion library combines UI blocks with effects such as hero-scroll and MacBook-scroll presentations.",
+    "hero scroll / UI / Motion",
+    "library"
+  ],
+  [
+    "ref-ogl",
+    "tooling",
+    "shader",
+    [
+      "other"
+    ],
+    [
+      "shape",
+      "layer"
+    ],
+    "render-pipeline",
+    "네이티브 WebGL과 가까운 얇은 추상화로 자체 셰이더를 구현하는 의존성 없는 ES6 그래픽 라이브러리입니다.",
+    "Dependency-free ES6 library offers thin abstractions close to native WebGL for custom shader development.",
+    "WebGL / minimal API / shader",
+    "library"
+  ],
+  [
+    "ref-pixijs",
+    "tooling",
+    "animation",
+    [
+      "mask",
+      "other"
+    ],
+    [
+      "shape",
+      "image",
+      "text"
+    ],
+    "scenegraph",
+    "2D 장면 그래프·텍스트·SVG 도형·텍스처·마스크·필터를 WebGL/WebGPU로 합성하는 렌더링 엔진입니다.",
+    "2D rendering engine composites scene graphs, text/SVG geometry, textures, masks and filters with WebGL/WebGPU.",
+    "scene / mask / filter",
+    "library"
+  ],
+  [
+    "asset-magicui-text-animate",
+    "motion",
+    "typography",
+    [
+      "fade",
+      "blur",
+      "slide",
+      "scale",
+      "stagger",
+      "text"
+    ],
+    [
+      "text"
+    ],
+    "char-reveal",
+    "고정 커밋의 Text Animate TSX는 글자·단어·줄을 나누어 fade·blur·slide·scale 변형을 Motion으로 재생합니다.",
+    "Pinned Text Animate TSX splits text into characters/words/lines and applies Motion fade/blur/slide/scale variants.",
+    "split / stagger / reveal",
+    "example"
+  ],
+  [
+    "asset-magicui-meteors",
+    "motion",
+    "background",
+    [
+      "slide"
+    ],
+    [
+      "particles",
+      "stroke"
+    ],
+    "meteors",
+    "고정 커밋의 Meteors TSX는 난수 지연·지속 시간과 각도로 머리와 꼬리가 있는 입자를 배치합니다.",
+    "Pinned Meteors TSX positions headed/tailed particles with randomized delays, durations and angle.",
+    "head / tail / delay",
+    "example"
+  ],
+  [
+    "asset-magicui-shimmer-button",
+    "motion",
+    "interaction",
+    [
+      "other"
+    ],
+    [
+      "shape",
+      "layer",
+      "color"
+    ],
+    "shimmer",
+    "고정 커밋의 Shimmer Button TSX는 spark·highlight·backdrop 층과 색상·크기·시간 매개변수를 정의합니다.",
+    "Pinned Shimmer Button TSX defines spark/highlight/backdrop layers with color, size and duration parameters.",
+    "spark / highlight / backdrop",
+    "example"
+  ],
+  [
+    "asset-magicui-animated-beam",
+    "motion",
+    "animation",
+    [
+      "other"
+    ],
+    [
+      "stroke",
+      "color",
+      "shape"
+    ],
+    "beam",
+    "고정 커밋의 Animated Beam TSX는 두 요소 사이 곡선 경로와 색상 그라디언트·방향·시간을 계산합니다.",
+    "Pinned Animated Beam TSX calculates a curved path between two elements with gradient, direction and timing controls.",
+    "endpoints / curve / gradient",
+    "example"
+  ],
+  [
+    "asset-magicui-particles",
+    "motion",
+    "background",
+    [
+      "other"
+    ],
+    [
+      "particles"
+    ],
+    "particles",
+    "고정 커밋의 Particles TSX는 Canvas 입자와 마우스 좌표, 정적 정도·이징·속도 매개변수를 정의합니다.",
+    "Pinned Particles TSX defines canvas particles, mouse coordinates and staticity/easing/velocity parameters.",
+    "canvas / mouse / velocity",
+    "example"
+  ],
+  [
+    "asset-magicui-border-beam",
+    "motion",
+    "interaction",
+    [
+      "other"
+    ],
+    [
+      "stroke",
+      "color",
+      "shape"
+    ],
+    "border",
+    "고정 커밋의 Border Beam TSX는 offset 위치·방향·반복 시간과 색상 변화로 테두리 광선을 제어합니다.",
+    "Pinned Border Beam TSX controls a border beam with offset, direction, duration and gradient-color parameters.",
+    "border / offset / gradient",
+    "example"
+  ]
+]

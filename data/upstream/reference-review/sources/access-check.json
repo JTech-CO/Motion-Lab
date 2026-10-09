@@ -1,0 +1,3394 @@
+{
+  "version": 1,
+  "method": "HEAD without source body; robots GET bounded to 128 KiB",
+  "targets": [
+    {
+      "id": "asset-magicui-animated-beam",
+      "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/animated-beam.tsx",
+      "checkedAt": "2026-10-09T11:05:12.504891+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/animated-beam.tsx",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 661
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "asset-magicui-border-beam",
+      "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/border-beam.tsx",
+      "checkedAt": "2026-10-09T11:05:15.257160+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/border-beam.tsx",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 657
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "asset-magicui-meteors",
+      "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/meteors.tsx",
+      "checkedAt": "2026-10-09T11:05:09.792683+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/meteors.tsx",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 717
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "asset-magicui-particles",
+      "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/particles.tsx",
+      "checkedAt": "2026-10-09T11:05:13.911056+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/particles.tsx",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 709
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "asset-magicui-shimmer-button",
+      "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/shimmer-button.tsx",
+      "checkedAt": "2026-10-09T11:05:11.155007+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/shimmer-button.tsx",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 642
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "asset-magicui-text-animate",
+      "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/text-animate.tsx",
+      "checkedAt": "2026-10-09T11:05:08.354827+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/text-animate.tsx",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 856
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-aceternity-ui",
+      "url": "https://ui.aceternity.com/",
+      "checkedAt": "2026-10-09T11:05:17.719105+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://ui.aceternity.com/",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 58
+        }
+      ],
+      "robots": {
+        "url": "https://ui.aceternity.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://ui.aceternity.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 1546,
+          "elapsedMs": 328
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/ui-aceternity-com.txt",
+        "sha256": "d940f59063cc669e4da7794e48f502c0a3708bc70440eca8730e691751ece80a"
+      }
+    },
+    {
+      "id": "ref-adobe-color-wheel",
+      "url": "https://color.adobe.com/create/color-wheel",
+      "checkedAt": "2026-10-09T11:05:09.602056+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://color.adobe.com/create/color-wheel",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 70
+        }
+      ],
+      "robots": {
+        "url": "https://color.adobe.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://color.adobe.com/robots.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "bytes": 762,
+          "elapsedMs": 118
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/color-adobe-com.txt",
+        "sha256": "506d1d60c6ac6c6f25873d2101817f88256f4472603a6e15ef0a1972a1afffca"
+      }
+    },
+    {
+      "id": "ref-ai-canvas-playful",
+      "url": "https://aicanvas.me/components/playful",
+      "checkedAt": "2026-10-09T11:04:30.118913+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://aicanvas.me/components/playful",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 354
+        }
+      ],
+      "robots": {
+        "url": "https://aicanvas.me/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://aicanvas.me/robots.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "bytes": 932,
+          "elapsedMs": 515
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/aicanvas-me.txt",
+        "sha256": "3b8e45fd8c1338443bc75426dec0c2fff4032951e8b10c3be8d2a2340ac219ef"
+      }
+    },
+    {
+      "id": "ref-animated-timeline",
+      "url": "https://github.com/nitin42/Animated-Timeline/blob/master/docs/Spring.md",
+      "checkedAt": "2026-10-09T11:04:17.381856+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/nitin42/Animated-Timeline/blob/master/docs/Spring.md",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 795
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-animation-in-design-systems",
+      "url": "https://xd.adobe.com/ideas/wp-content/uploads/2021/06/Animation-in-Design-Systems.pdf",
+      "checkedAt": "2026-10-09T11:04:37.610871+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://xd.adobe.com/ideas/wp-content/uploads/2021/06/Animation-in-Design-Systems.pdf",
+          "contentType": "application/pdf",
+          "bytes": 0,
+          "elapsedMs": 2020
+        }
+      ],
+      "robots": {
+        "url": "https://xd.adobe.com/robots.txt",
+        "response": {
+          "status": 404,
+          "finalUrl": "https://xd.adobe.com/robots.txt",
+          "error": "Not Found",
+          "elapsedMs": 654
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-anime-js",
+      "url": "https://animejs.com/",
+      "checkedAt": "2026-10-09T11:04:17.767374+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://animejs.com/",
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "elapsedMs": 856
+        }
+      ],
+      "robots": {
+        "url": "https://animejs.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://animejs.com/",
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 45925,
+          "elapsedMs": 2595
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/animejs-com.txt",
+        "sha256": "33347970c72aed36cf6166115fa93a0242fc573f70fc211febd0f4d030d06c48"
+      }
+    },
+    {
+      "id": "ref-anime-js-skills",
+      "url": "https://github.com/bowtiedswan/animejs-skills",
+      "checkedAt": "2026-10-09T11:04:18.781732+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/bowtiedswan/animejs-skills",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 693
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-animista",
+      "url": "https://animista.net/",
+      "checkedAt": "2026-10-09T11:05:08.677026+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://animista.net/",
+          "contentType": "text/html",
+          "bytes": 0,
+          "elapsedMs": 626
+        }
+      ],
+      "robots": {
+        "url": "https://animista.net/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://animista.net/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 75,
+          "elapsedMs": 832
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/animista-net.txt",
+        "sha256": "bca861144f5dcd5febdd0dab7378253af78f8511af3de73c21d1b896b96ca3e3"
+      }
+    },
+    {
+      "id": "ref-asquareportal",
+      "url": "https://www.asquareportal.com/",
+      "checkedAt": "2026-10-09T11:04:48.089855+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.asquareportal.com/",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 127
+        }
+      ],
+      "robots": {
+        "url": "https://www.asquareportal.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://www.asquareportal.com/robots.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "bytes": 153,
+          "elapsedMs": 868
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/www-asquareportal-com.txt",
+        "sha256": "017d5bc7bf00a5f182c2057f334df9b88d24bc4667d6f6af6bc4f2886ca0eb60"
+      }
+    },
+    {
+      "id": "ref-astrolabe-studio",
+      "url": "https://astrolabe-studio.org/",
+      "checkedAt": "2026-10-09T11:04:56.949908+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": null,
+          "error": "<urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1077)>",
+          "elapsedMs": 174
+        }
+      ],
+      "robots": {
+        "url": "https://astrolabe-studio.org/robots.txt",
+        "response": {
+          "status": null,
+          "error": "<urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1077)>",
+          "elapsedMs": 478
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-atlan-motion",
+      "url": "https://atlan.com/brand/motion/",
+      "checkedAt": "2026-10-09T11:04:42.775830+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://atlan.com/brand/motion/",
+          "contentType": "text/html",
+          "bytes": 0,
+          "elapsedMs": 566
+        }
+      ],
+      "robots": {
+        "url": "https://atlan.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://atlan.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 28903,
+          "elapsedMs": 569
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/atlan-com.txt",
+        "sha256": "9d224a8687f1d21dd462444b30289f4eb9f8690eb7bab8a62c42606820c41d70"
+      }
+    },
+    {
+      "id": "ref-atlassian-motion",
+      "url": "https://atlassian.design/foundations/motion",
+      "checkedAt": "2026-10-09T11:04:38.211841+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://atlassian.design/foundations/motion",
+          "contentType": "text/html",
+          "bytes": 0,
+          "elapsedMs": 94
+        }
+      ],
+      "robots": {
+        "url": "https://atlassian.design/robots.txt",
+        "response": {
+          "status": 404,
+          "finalUrl": "https://atlassian.design/robots.txt",
+          "error": "Not Found",
+          "elapsedMs": 4354
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-awesome-creative-coding",
+      "url": "https://github.com/terkelg/awesome-creative-coding",
+      "checkedAt": "2026-10-09T11:04:32.860046+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/terkelg/awesome-creative-coding",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 799
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-barba-transitions",
+      "url": "https://barba.js.org/docs/advanced/transitions/",
+      "checkedAt": "2026-10-09T11:05:16.068621+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://barba.js.org/docs/advanced/transitions/",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 529
+        }
+      ],
+      "robots": {
+        "url": "https://barba.js.org/robots.txt",
+        "response": {
+          "status": 404,
+          "finalUrl": "https://barba.js.org/robots.txt",
+          "error": "Not Found",
+          "elapsedMs": 560
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-blob-morph-study",
+      "url": "https://github.com/torifo/animation-blob-morph",
+      "checkedAt": "2026-10-09T11:04:58.077728+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/torifo/animation-blob-morph",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 716
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-blossom-carousel",
+      "url": "https://www.blossom-carousel.com/docs/examples/advanced/custom-scrollbar",
+      "checkedAt": "2026-10-09T11:04:22.281579+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.blossom-carousel.com/docs/examples/advanced/custom-scrollbar",
+          "contentType": "text/html",
+          "bytes": 0,
+          "elapsedMs": 804
+        }
+      ],
+      "robots": {
+        "url": "https://www.blossom-carousel.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://www.blossom-carousel.com/robots.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "bytes": 127,
+          "elapsedMs": 1085
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/www-blossom-carousel-com.txt",
+        "sha256": "86bac26556a4d20677346a70b8e56204e64a118cccd9c0bbe60683dbf8817ad0"
+      }
+    },
+    {
+      "id": "ref-bounshy",
+      "url": "https://www.howardyam.design/projects/bounshy",
+      "checkedAt": "2026-10-09T11:04:25.572526+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.howardyam.design/projects/bounshy",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 329
+        }
+      ],
+      "robots": {
+        "url": "https://www.howardyam.design/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://www.howardyam.design/robots.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "bytes": 209,
+          "elapsedMs": 874
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/www-howardyam-design.txt",
+        "sha256": "efad089e479b32666b9c9a5a25b2ade9efc33ca70e348ce54fd4f0e823c5d889"
+      }
+    },
+    {
+      "id": "ref-carbon-motion",
+      "url": "https://www.carbondesignsystem.com/building-blocks/foundations/motion/overview",
+      "checkedAt": "2026-10-09T11:04:42.089392+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.carbondesignsystem.com/building-blocks/foundations/motion/overview",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 652
+        }
+      ],
+      "robots": {
+        "url": "https://www.carbondesignsystem.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://www.carbondesignsystem.com/robots.txt",
+          "contentType": "text/plain; charset=UTF-8",
+          "bytes": 677,
+          "elapsedMs": 645
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/www-carbondesignsystem-com.txt",
+        "sha256": "943859806e0c4ba56e0b8949036e79e47ed3dd68fcdd24184cbd67a2a0f951e8"
+      }
+    },
+    {
+      "id": "ref-codrops-exat-microsite",
+      "url": "https://tympanus.net/codrops/2026/04/10/the-exat-microsite-pushing-a-typography-showcase-to-new-creative-extremes/",
+      "checkedAt": "2026-10-09T11:04:28.521617+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://tympanus.net/codrops/2026/04/10/the-exat-microsite-pushing-a-typography-showcase-to-new-creative-extremes/",
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "elapsedMs": 1187
+        }
+      ],
+      "robots": {
+        "url": "https://tympanus.net/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://tympanus.net/robots.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "bytes": 2791,
+          "elapsedMs": 489
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/tympanus-net.txt",
+        "sha256": "25cfa0c2eb807ea4335f7045ea0c7ab33410625503a2f6c81f29c6eca4a9bd35"
+      }
+    },
+    {
+      "id": "ref-color-hunt",
+      "url": "https://colorhunt.co/",
+      "checkedAt": "2026-10-09T11:05:10.434883+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://colorhunt.co/",
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "elapsedMs": 672
+        }
+      ],
+      "robots": {
+        "url": "https://colorhunt.co/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://colorhunt.co/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 175,
+          "elapsedMs": 1086
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/colorhunt-co.txt",
+        "sha256": "da26bfb8d091e31dee84f7fefe649ca06aa1d7a983f81d82bbf69e0a46cea1cb"
+      }
+    },
+    {
+      "id": "ref-colorspace",
+      "url": "https://mycolor.space/",
+      "checkedAt": "2026-10-09T11:05:13.842289+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://mycolor.space/",
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "elapsedMs": 936
+        }
+      ],
+      "robots": {
+        "url": "https://mycolor.space/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://mycolor.space/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 85,
+          "elapsedMs": 1063
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/mycolor-space.txt",
+        "sha256": "38745dae369d56ad4e1197419f52f1ccb942672c1c17196ddca582345f390b01"
+      }
+    },
+    {
+      "id": "ref-colourful-attraction",
+      "url": "https://github.com/qc20/colourful-attraction",
+      "checkedAt": "2026-10-09T11:04:35.592020+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/qc20/colourful-attraction",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 705
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-coolors",
+      "url": "https://coolors.co/",
+      "checkedAt": "2026-10-09T11:05:09.548023+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://coolors.co/",
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "elapsedMs": 772
+        }
+      ],
+      "robots": {
+        "url": "https://coolors.co/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://coolors.co/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 140,
+          "elapsedMs": 916
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/coolors-co.txt",
+        "sha256": "25e890c7e001eac470466e0bdb19b0ac47f3d769932a1f9c82cdb38b922abcf3"
+      }
+    },
+    {
+      "id": "ref-cosmic-visualizations",
+      "url": "https://github.com/muhkartal/webGL-cosmicVisualizations",
+      "checkedAt": "2026-10-09T11:04:27.106969+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/muhkartal/webGL-cosmicVisualizations",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 1047
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-creative-coding-resources",
+      "url": "https://codeberg.org/evasync/creative-coding-resources",
+      "checkedAt": "2026-10-09T11:04:26.220679+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://codeberg.org/evasync/creative-coding-resources",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 1733
+        }
+      ],
+      "robots": {
+        "url": "https://codeberg.org/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://codeberg.org/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 2192,
+          "elapsedMs": 746
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/codeberg-org.txt",
+        "sha256": "7a9daf796e5f5f8b01e9f634a63e53031a14c6779abe10f66b2e0a7db2e8b33a"
+      }
+    },
+    {
+      "id": "ref-crucible-recast",
+      "url": "https://crucibleui.com/components/text/recast",
+      "checkedAt": "2026-10-09T11:04:34.202895+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://crucibleui.com/components/text/recast",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 729
+        }
+      ],
+      "robots": {
+        "url": "https://crucibleui.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://crucibleui.com/robots.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "bytes": 102,
+          "elapsedMs": 1055
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/crucibleui-com.txt",
+        "sha256": "5788824269aa7e947ce45f1d71937c1d4cb1b7b416a229b8e311e3a6f3dd2e06"
+      }
+    },
+    {
+      "id": "ref-css-gradient",
+      "url": "https://cssgradient.io/",
+      "checkedAt": "2026-10-09T11:05:11.120875+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://cssgradient.io/",
+          "contentType": "text/html",
+          "bytes": 0,
+          "elapsedMs": 364
+        }
+      ],
+      "robots": {
+        "url": "https://cssgradient.io/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://cssgradient.io/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 57,
+          "elapsedMs": 486
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/cssgradient-io.txt",
+        "sha256": "148e683809e485ac808851c2297211f9282b4c5bd35800a094ac6660471abd01"
+      }
+    },
+    {
+      "id": "ref-cubic-bezier",
+      "url": "https://cubic-bezier.com/",
+      "checkedAt": "2026-10-09T11:05:14.537916+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://cubic-bezier.com/",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 276
+        }
+      ],
+      "robots": {
+        "url": "https://cubic-bezier.com/robots.txt",
+        "response": {
+          "status": 404,
+          "finalUrl": "https://cubic-bezier.com/robots.txt",
+          "error": "Not Found",
+          "elapsedMs": 308
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-designbetter-motion",
+      "url": "https://designbetter.style/motion",
+      "checkedAt": "2026-10-09T11:04:44.646819+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://designbetter.style/motion",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 626
+        }
+      ],
+      "robots": {
+        "url": "https://designbetter.style/robots.txt",
+        "response": {
+          "status": 404,
+          "finalUrl": "https://designbetter.style/robots.txt",
+          "error": "Not Found",
+          "elapsedMs": 1190
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-designsystems-com",
+      "url": "https://www.designsystems.com/5-steps-for-including-motion-design-in-your-system/",
+      "checkedAt": "2026-10-09T11:04:44.527665+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.designsystems.com/5-steps-for-including-motion-design-in-your-system/",
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "elapsedMs": 810
+        }
+      ],
+      "robots": {
+        "url": "https://www.designsystems.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://www.designsystems.com/robots.txt",
+          "contentType": "text/plain; charset=UTF-8",
+          "bytes": 93,
+          "elapsedMs": 558
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/www-designsystems-com.txt",
+        "sha256": "98b2a177615c487546aa4357a604c9059abd4f86a8bdab4020b9a3a265c359dd"
+      }
+    },
+    {
+      "id": "ref-easings-cheat-sheet",
+      "url": "https://easings.net/",
+      "checkedAt": "2026-10-09T11:05:07.955226+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://easings.net/",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 235
+        }
+      ],
+      "robots": {
+        "url": "https://easings.net/robots.txt",
+        "response": {
+          "status": 404,
+          "finalUrl": "https://easings.net/robots.txt",
+          "error": "Not Found",
+          "elapsedMs": 289
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-falling-text",
+      "url": "https://000h.cojeev.com/docs/falling-text/",
+      "checkedAt": "2026-10-09T11:04:36.500162+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://cojeev.com/ui/docs/falling-text/",
+          "contentType": "text/html",
+          "bytes": 0,
+          "elapsedMs": 1905
+        }
+      ],
+      "robots": {
+        "url": "https://000h.cojeev.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://cojeev.com/ui/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 67,
+          "elapsedMs": 1246
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/000h-cojeev-com.txt",
+        "sha256": "8f2e20a495968566c97c6520dbc96debb4e91682513df164392db6433ec35e04"
+      }
+    },
+    {
+      "id": "ref-fluid-studio",
+      "url": "https://github.com/Giacomo-Paolini/fluid",
+      "checkedAt": "2026-10-09T11:04:22.251931+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/wag-me/fluid",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 1126
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-framewave",
+      "url": "https://github.com/VFitter/framewave",
+      "checkedAt": "2026-10-09T11:04:49.360766+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/VFitter/framewave",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 806
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-fwd-tools-gsap-playground",
+      "url": "https://fwdtools.com/gsap-playground/",
+      "checkedAt": "2026-10-09T11:04:22.879039+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://webdevpuneet.com/gsap-playground/",
+          "contentType": "text/html",
+          "bytes": 0,
+          "elapsedMs": 1825
+        }
+      ],
+      "robots": {
+        "url": "https://fwdtools.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://fwdtools.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 320,
+          "elapsedMs": 961
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/fwdtools-com.txt",
+        "sha256": "2105ba26dcc6cac2ad5c2bb89498c31f5d33f772f70f22542a38f0aa303e214f"
+      }
+    },
+    {
+      "id": "ref-geronimo",
+      "url": "https://geronimo-paris.fr/",
+      "checkedAt": "2026-10-09T11:04:56.888092+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://geronimo-paris.fr/",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 728
+        }
+      ],
+      "robots": {
+        "url": "https://geronimo-paris.fr/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://geronimo-paris.fr/robots.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "bytes": 512,
+          "elapsedMs": 1044
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/geronimo-paris-fr.txt",
+        "sha256": "528e60c0205dd8e66cbb3ee24bd54edb22785c06784213cb75edfe20a0be7a32"
+      }
+    },
+    {
+      "id": "ref-ggfx",
+      "url": "https://ggfx.com.br/en/",
+      "checkedAt": "2026-10-09T11:04:52.441738+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://ggfx.com.br/en/",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 630
+        }
+      ],
+      "robots": {
+        "url": "https://ggfx.com.br/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://ggfx.com.br/robots.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "bytes": 65,
+          "elapsedMs": 936
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/ggfx-com-br.txt",
+        "sha256": "6d879d48afe63a554947c00c1b5b24d1b2001780d7c9b6267f4a730086b2ec30"
+      }
+    },
+    {
+      "id": "ref-gitframes",
+      "url": "https://github.com/gatewai-dev/gitframes",
+      "checkedAt": "2026-10-09T11:05:02.006046+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/gatewai-dev/framefields",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 803
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-github-brand-motion",
+      "url": "https://brand.github.com/motion/principles",
+      "checkedAt": "2026-10-09T11:04:39.506634+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://brand.github.com/motion/principles",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 254
+        }
+      ],
+      "robots": {
+        "url": "https://brand.github.com/robots.txt",
+        "response": {
+          "status": 404,
+          "finalUrl": "https://brand.github.com/robots.txt",
+          "error": "Not Found",
+          "elapsedMs": 293
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-gitlab-pajamas-motion",
+      "url": "https://design.gitlab.com/brand-design/motion",
+      "checkedAt": "2026-10-09T11:04:40.071589+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://design.gitlab.com/brand-design/motion/",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 1225
+        }
+      ],
+      "robots": {
+        "url": "https://design.gitlab.com/robots.txt",
+        "response": {
+          "status": 403,
+          "finalUrl": "https://gitlab.com/users/sign_in",
+          "error": "Forbidden",
+          "elapsedMs": 1627
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-glaze",
+      "url": "https://glaze.dev/docs/timelines",
+      "checkedAt": "2026-10-09T11:04:22.981356+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://glaze.dev/docs/timelines/",
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "elapsedMs": 2786
+        }
+      ],
+      "robots": {
+        "url": "https://glaze.dev/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://glaze.dev/robots.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "bytes": 62,
+          "elapsedMs": 1291
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/glaze-dev.txt",
+        "sha256": "d07a516e6b809beef154776ee03a58be5b939167f460a54c279b2952876df9c2"
+      }
+    },
+    {
+      "id": "ref-gocardless-motion",
+      "url": "https://brand.gocardless.com/motion",
+      "checkedAt": "2026-10-09T11:04:42.419065+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://brand.gocardless.com/motion",
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "elapsedMs": 1272
+        }
+      ],
+      "robots": {
+        "url": "https://brand.gocardless.com/robots.txt",
+        "response": {
+          "status": 404,
+          "finalUrl": "https://brand.gocardless.com/robots.txt",
+          "error": "Not Found",
+          "elapsedMs": 918
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-gradient-gl",
+      "url": "https://github.com/metaory/gradient-gl",
+      "checkedAt": "2026-10-09T11:04:23.649248+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/metaory/gradient-gl",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 667
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-grainient-skill",
+      "url": "https://github.com/tdimino/claude-code-minoan/tree/main/skills/design-media/grainient",
+      "checkedAt": "2026-10-09T11:04:38.693594+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/tdimino/claude-code-minoan/tree/main/skills/design-media/grainient",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 981
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-gsap-documentation",
+      "url": "https://gsap.com/docs/v3/GSAP/",
+      "checkedAt": "2026-10-09T11:04:15.427848+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://gsap.com/docs/v3/GSAP/",
+          "contentType": "text/html",
+          "bytes": 0,
+          "elapsedMs": 947
+        }
+      ],
+      "robots": {
+        "url": "https://gsap.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://gsap.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 107,
+          "elapsedMs": 150
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/gsap-com.txt",
+        "sha256": "925b2528182b946fa76404ceb26bdda59e50ad532b0995926f43dc54962f8ea5"
+      }
+    },
+    {
+      "id": "ref-haikei",
+      "url": "https://haikei.app/",
+      "checkedAt": "2026-10-09T11:05:07.121609+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://haikei.app/",
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "elapsedMs": 505
+        }
+      ],
+      "robots": {
+        "url": "https://haikei.app/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://haikei.app/robots.txt",
+          "contentType": "text/plain; charset=UTF-8",
+          "bytes": 77,
+          "elapsedMs": 795
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/haikei-app.txt",
+        "sha256": "398216b135c53adcde19a5755aa3b8e90b502cc3e4043bdbe8c65a0ebe761c6b"
+      }
+    },
+    {
+      "id": "ref-highway",
+      "url": "https://highway.js.org/",
+      "checkedAt": "2026-10-09T11:05:17.103141+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://highway.js.org/",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 531
+        }
+      ],
+      "robots": {
+        "url": "https://highway.js.org/robots.txt",
+        "response": {
+          "status": 404,
+          "finalUrl": "https://highway.js.org/robots.txt",
+          "error": "Not Found",
+          "elapsedMs": 585
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-interactive-developer",
+      "url": "https://www.youtube.com/watch",
+      "checkedAt": "2026-10-09T11:04:32.615460+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.youtube.com/",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 617
+        }
+      ],
+      "robots": {
+        "url": "https://www.youtube.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://www.youtube.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 792,
+          "elapsedMs": 171
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/www-youtube-com.txt",
+        "sha256": "96f8640ca357626e7d9a894057fef8b5746eb838c29ed68fc176af58c9348c6f"
+      }
+    },
+    {
+      "id": "ref-julien-levy",
+      "url": "https://www.julienlevy.studio/",
+      "checkedAt": "2026-10-09T11:04:55.575881+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.julienlevy.studio/",
+          "contentType": "text/html",
+          "bytes": 0,
+          "elapsedMs": 856
+        }
+      ],
+      "robots": {
+        "url": "https://www.julienlevy.studio/robots.txt",
+        "response": {
+          "status": 404,
+          "finalUrl": "https://www.julienlevy.studio/robots.txt",
+          "error": "Not Found",
+          "elapsedMs": 1140
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-kansei",
+      "url": "https://github.com/Siroko/kansei",
+      "checkedAt": "2026-10-09T11:05:03.718179+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/Siroko/kansei",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 1026
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-kinetic-type-07",
+      "url": "https://www.behance.net/gallery/254081025/Kinetic-Type-07",
+      "checkedAt": "2026-10-09T11:04:29.928394+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 403,
+          "finalUrl": "https://www.behance.net/gallery/254081025/Kinetic-Type-07",
+          "error": "Forbidden",
+          "elapsedMs": 36
+        }
+      ],
+      "robots": {
+        "url": "https://www.behance.net/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://www.behance.net/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 1317,
+          "elapsedMs": 263
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/www-behance-net.txt",
+        "sha256": "1a55abe2475b1430444111a3ffceedde40c2782e40c2fda4a42ca95e2e02ba2b"
+      }
+    },
+    {
+      "id": "ref-klaudioz-gradients",
+      "url": "https://github.com/Klaudioz/gradients",
+      "checkedAt": "2026-10-09T11:04:34.195474+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/Klaudioz/gradients",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 651
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-live2d-cubism-web",
+      "url": "https://github.com/Live2D/CubismWebFramework/blob/develop/README.ja.md",
+      "checkedAt": "2026-10-09T11:04:52.150749+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/Live2D/CubismWebFramework/blob/develop/README.ja.md",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 724
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-lure-studio",
+      "url": "https://lurestudio.org/",
+      "checkedAt": "2026-10-09T11:04:59.756984+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://lurestudio.org/",
+          "contentType": "text/html",
+          "bytes": 0,
+          "elapsedMs": 1002
+        }
+      ],
+      "robots": {
+        "url": "https://lurestudio.org/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://lurestudio.org/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 168,
+          "elapsedMs": 1131
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/lurestudio-org.txt",
+        "sha256": "366209ebd76fa25acd04a349edbb112ca8663fd91978ee9f4eb17ded4c103eed"
+      }
+    },
+    {
+      "id": "ref-magic-ui",
+      "url": "https://magicui.design/",
+      "checkedAt": "2026-10-09T11:05:17.727783+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://magicui.design/",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 133
+        }
+      ],
+      "robots": {
+        "url": "https://magicui.design/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://magicui.design/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 121,
+          "elapsedMs": 464
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/magicui-design.txt",
+        "sha256": "e290a979ece32dc42c35e169c3e392ea7388f254d7a9fdf319fefe56cc0f19a2"
+      }
+    },
+    {
+      "id": "ref-mat-voyce-case-study",
+      "url": "https://www.hontran.dev/blog/mat-voyce-case-study-award-winning-portfolio",
+      "checkedAt": "2026-10-09T11:04:28.891921+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.hontran.dev/blog/mat-voyce-case-study-award-winning-portfolio",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 370
+        }
+      ],
+      "robots": {
+        "url": "https://www.hontran.dev/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://www.hontran.dev/robots.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "bytes": 1228,
+          "elapsedMs": 430
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/www-hontran-dev.txt",
+        "sha256": "8c90cf918539954f2d38b27d38d046f1db50c96d8dd45bbfdb93c10216a68c67"
+      }
+    },
+    {
+      "id": "ref-mesh-gradients",
+      "url": "https://www.meshgradients.com/",
+      "checkedAt": "2026-10-09T11:05:12.978617+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.meshgradients.com/",
+          "contentType": "text/html",
+          "bytes": 0,
+          "elapsedMs": 836
+        }
+      ],
+      "robots": {
+        "url": "https://www.meshgradients.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://www.meshgradients.com/robots.txt",
+          "contentType": "text/html",
+          "bytes": 803,
+          "elapsedMs": 982
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/www-meshgradients-com.txt",
+        "sha256": "47ea028eb38311b6bebb166a8b523e8ff6f4d2e3b32b4ad23bac2513377d7cae"
+      }
+    },
+    {
+      "id": "ref-mo-js",
+      "url": "https://github.com/mojs/mojs",
+      "checkedAt": "2026-10-09T11:04:50.744473+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/mojs/mojs",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 694
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-mostros",
+      "url": "https://mostros.co/work/audiovisual-portfolio/",
+      "checkedAt": "2026-10-09T11:05:05.078967+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://mostros.co/work/audiovisual-portfolio/",
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "elapsedMs": 7009
+        }
+      ],
+      "robots": {
+        "url": "https://mostros.co/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://mostros.co/robots.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "bytes": 316,
+          "elapsedMs": 367
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/mostros-co.txt",
+        "sha256": "7f227ff9173e33468856090e771985e9ac8f671520830d13629d85c58b5bc368"
+      }
+    },
+    {
+      "id": "ref-motion-animate",
+      "url": "https://motion.dev/docs/animate",
+      "checkedAt": "2026-10-09T11:04:15.809267+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://motion.dev/docs/animate",
+          "contentType": "text/html",
+          "bytes": 0,
+          "elapsedMs": 928
+        }
+      ],
+      "robots": {
+        "url": "https://motion.dev/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://motion.dev/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 835,
+          "elapsedMs": 536
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/motion-dev.txt",
+        "sha256": "d9c2244f0fb4a0f4c0f3f7360bb2d9bf1461cf43a257c2a0b25c59b104dfb5d9"
+      }
+    },
+    {
+      "id": "ref-motion-anything",
+      "url": "https://github.com/heyxianggao/motion-anything",
+      "checkedAt": "2026-10-09T11:04:55.196055+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/heyxianggao/motion-anything",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 810
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-motion-page-sdk",
+      "url": "https://motion.page/docs/sdk/motion-factory",
+      "checkedAt": "2026-10-09T11:04:19.326939+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://motion.page/docs/sdk/motion-factory",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 394
+        }
+      ],
+      "robots": {
+        "url": "https://motion.page/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://motion.page/robots.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "bytes": 534,
+          "elapsedMs": 390
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/motion-page.txt",
+        "sha256": "1e6e6aef84bf558ab61930e075f2b74aaecccfc0855ef402f1809564cc1761bb"
+      }
+    },
+    {
+      "id": "ref-motion-studio-color",
+      "url": "https://motion-studio.mtmograph.com/libraries/color",
+      "checkedAt": "2026-10-09T11:04:39.301963+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://motion-studio.mtmograph.com/libraries/color",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 423
+        }
+      ],
+      "robots": {
+        "url": "https://motion-studio.mtmograph.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://motion-studio.mtmograph.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 204,
+          "elapsedMs": 529
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/motion-studio-mtmograph-com.txt",
+        "sha256": "ea1c232cc0c2185946103f1d51f5a89bf2c49c4373339720a15a82dc0b09a516"
+      }
+    },
+    {
+      "id": "ref-motion-ui",
+      "url": "https://motion.dev/ui",
+      "checkedAt": "2026-10-09T11:04:18.088190+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://motion.dev/ui",
+          "contentType": "text/html",
+          "bytes": 0,
+          "elapsedMs": 1553
+        }
+      ],
+      "robots": {
+        "url": "https://motion.dev/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://motion.dev/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 835,
+          "elapsedMs": 536
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/motion-dev.txt",
+        "sha256": "d9c2244f0fb4a0f4c0f3f7360bb2d9bf1461cf43a257c2a0b25c59b104dfb5d9"
+      }
+    },
+    {
+      "id": "ref-moyo",
+      "url": "https://github.com/YoseiIkegami/moyo",
+      "checkedAt": "2026-10-09T11:04:53.684413+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/YoseiIkegami/moyo",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 849
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-nebula",
+      "url": "https://mafhper.github.io/nebula/",
+      "checkedAt": "2026-10-09T11:04:24.335338+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://mafhper.github.io/nebula/",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 309
+        }
+      ],
+      "robots": {
+        "url": "https://mafhper.github.io/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://mafhper.github.io/robots.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "bytes": 23,
+          "elapsedMs": 392
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/mafhper-github-io.txt",
+        "sha256": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95"
+      }
+    },
+    {
+      "id": "ref-nebulla-particle-library",
+      "url": "https://github.com/RavenRepo/nebulla-particle-library",
+      "checkedAt": "2026-10-09T11:04:31.314925+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/RavenRepo/nebulla-particle-library",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 681
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-nibi",
+      "url": "https://github.com/monoton-music/nibi",
+      "checkedAt": "2026-10-09T11:04:56.667081+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/monoton-music/nibi",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 785
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-nicolas-sordello",
+      "url": "https://sordello.net/",
+      "checkedAt": "2026-10-09T11:04:50.965347+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://sordello.net/",
+          "contentType": "text/html",
+          "bytes": 0,
+          "elapsedMs": 875
+        }
+      ],
+      "robots": {
+        "url": "https://sordello.net/robots.txt",
+        "response": {
+          "status": 404,
+          "finalUrl": "https://sordello.net/robots.txt",
+          "error": "Not Found",
+          "elapsedMs": 1226
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-obj-studio",
+      "url": "https://obj.studio/",
+      "checkedAt": "2026-10-09T11:04:54.386290+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://obj.studio/",
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "elapsedMs": 1366
+        }
+      ],
+      "robots": {
+        "url": "https://obj.studio/robots.txt",
+        "response": {
+          "status": 404,
+          "finalUrl": "https://obj.studio/robots.txt",
+          "error": "Not Found",
+          "elapsedMs": 1335
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-odorigu",
+      "url": "https://github.com/OFF-Proxy/odorigu",
+      "checkedAt": "2026-10-09T11:05:00.519315+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 404,
+          "finalUrl": "https://github.com/OFF-Proxy/odorigu",
+          "error": "Not Found",
+          "elapsedMs": 327
+        },
+        {
+          "status": 404,
+          "finalUrl": "https://github.com/OFF-Proxy/odorigu",
+          "error": "Not Found",
+          "elapsedMs": 64
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-ogl",
+      "url": "https://github.com/oframe/ogl",
+      "checkedAt": "2026-10-09T11:05:06.816362+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/oframe/ogl",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 649
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-okaybabe-shaders",
+      "url": "https://github.com/Okay-Babe/okaybabe-shaders",
+      "checkedAt": "2026-10-09T11:04:20.423969+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/Okay-Babe/okaybabe-shaders",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 942
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-openprocessing",
+      "url": "https://www.openprocessing.org/",
+      "checkedAt": "2026-10-09T11:05:06.486225+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://openprocessing.org/",
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "elapsedMs": 1515
+        }
+      ],
+      "robots": {
+        "url": "https://www.openprocessing.org/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://openprocessing.org/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 134,
+          "elapsedMs": 1877
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/www-openprocessing-org.txt",
+        "sha256": "6ae2f6418fe895aa059fe8b3a6b08892f04ff71c944a26e5769909dcbf941988"
+      }
+    },
+    {
+      "id": "ref-p5-js",
+      "url": "https://p5js.org/",
+      "checkedAt": "2026-10-09T11:05:01.236067+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://p5js.org/",
+          "contentType": "text/html",
+          "bytes": 0,
+          "elapsedMs": 474
+        }
+      ],
+      "robots": {
+        "url": "https://p5js.org/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://p5js.org/robots.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "bytes": 1248,
+          "elapsedMs": 588
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/p5js-org.txt",
+        "sha256": "8fa3036c68bfcbd32365f6225d24333264093b7cd38d306e106b4dbdc934fd5b"
+      }
+    },
+    {
+      "id": "ref-paletton",
+      "url": "https://paletton.com/",
+      "checkedAt": "2026-10-09T11:05:13.226488+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://paletton.com/",
+          "contentType": "text/html",
+          "bytes": 0,
+          "elapsedMs": 462
+        }
+      ],
+      "robots": {
+        "url": "https://paletton.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://paletton.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 22,
+          "elapsedMs": 772
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/paletton-com.txt",
+        "sha256": "44f3f8eafdf064cf69acb05f23ee4dfc9ab5b3d67d81c64246bc29f7e438789a"
+      }
+    },
+    {
+      "id": "ref-pekingpeking",
+      "url": "https://pekingpeking.de/",
+      "checkedAt": "2026-10-09T11:04:50.090054+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://pekingpeking.de/",
+          "contentType": "text/html",
+          "bytes": 0,
+          "elapsedMs": 828
+        }
+      ],
+      "robots": {
+        "url": "https://pekingpeking.de/robots.txt",
+        "response": {
+          "status": 404,
+          "finalUrl": "https://pekingpeking.de/robots.txt",
+          "error": "Not Found",
+          "elapsedMs": 1188
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-pixijs",
+      "url": "https://pixijs.com/",
+      "checkedAt": "2026-10-09T11:05:18.480547+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://pixijs.com/",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 239
+        }
+      ],
+      "robots": {
+        "url": "https://pixijs.com/robots.txt",
+        "response": {
+          "status": 404,
+          "finalUrl": "https://pixijs.com/robots.txt",
+          "error": "Not Found",
+          "elapsedMs": 412
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-pmndrs-timeline",
+      "url": "https://pmndrs.github.io/timeline/getting-started/3-overview",
+      "checkedAt": "2026-10-09T11:04:23.602963+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://pmndrs.github.io/timeline/getting-started/3-overview",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 280
+        }
+      ],
+      "robots": {
+        "url": "https://pmndrs.github.io/robots.txt",
+        "response": {
+          "status": 404,
+          "finalUrl": "https://pmndrs.github.io/robots.txt",
+          "error": "Not Found",
+          "elapsedMs": 291
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-popmotion-timeline",
+      "url": "https://popmotion.io/api/timeline/",
+      "checkedAt": "2026-10-09T11:04:19.621939+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 403,
+          "finalUrl": "https://popmotion.io/api/timeline/",
+          "error": "Forbidden",
+          "elapsedMs": 294
+        }
+      ],
+      "robots": {
+        "url": "https://popmotion.io/robots.txt",
+        "response": {
+          "status": 403,
+          "finalUrl": "https://popmotion.io/robots.txt",
+          "error": "Forbidden",
+          "elapsedMs": 426
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-prompt-vfx",
+      "url": "https://github.com/inthepond/prompt-vfx",
+      "checkedAt": "2026-10-09T11:04:40.110791+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/inthepond/prompt-vfx",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 732
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-pv-tool",
+      "url": "https://github.com/OnWhyPut/pv-tool",
+      "checkedAt": "2026-10-09T11:05:05.481631+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/OnWhyPut/pv-tool",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 1081
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-qwilr-kaleidoscope",
+      "url": "https://kaleidoscope.qwilr.com/design/guides/motion/",
+      "checkedAt": "2026-10-09T11:04:40.852024+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://kaleidoscope.qwilr.com/design/guides/motion/",
+          "contentType": "text/html",
+          "bytes": 0,
+          "elapsedMs": 390
+        }
+      ],
+      "robots": {
+        "url": "https://kaleidoscope.qwilr.com/robots.txt",
+        "response": {
+          "status": 404,
+          "finalUrl": "https://kaleidoscope.qwilr.com/robots.txt",
+          "error": "Not Found",
+          "elapsedMs": 433
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-radiant",
+      "url": "https://github.com/vagmi/radiant",
+      "checkedAt": "2026-10-09T11:04:41.470036+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/vagmi/radiant",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 675
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-rakuten-variable-font",
+      "url": "https://ksawerykarczewski.com/rakuten-font-family",
+      "checkedAt": "2026-10-09T11:04:26.119041+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://ksawerykarczewski.com/rakuten-font-family",
+          "contentType": "text/html",
+          "bytes": 0,
+          "elapsedMs": 388
+        }
+      ],
+      "robots": {
+        "url": "https://ksawerykarczewski.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://ksawerykarczewski.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 74,
+          "elapsedMs": 636
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/ksawerykarczewski-com.txt",
+        "sha256": "660baff3ece25c43aa21f9c5ce02e98595057d6d68b44337da53955dcfd62402"
+      }
+    },
+    {
+      "id": "ref-react-bits",
+      "url": "https://reactbits.dev/",
+      "checkedAt": "2026-10-09T11:05:17.778077+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://reactbits.dev/",
+          "contentType": "text/html",
+          "bytes": 0,
+          "elapsedMs": 447
+        }
+      ],
+      "robots": {
+        "url": "https://reactbits.dev/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://reactbits.dev/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 171,
+          "elapsedMs": 530
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/reactbits-dev.txt",
+        "sha256": "3f92bd304460001699d24115feac8eb3c9f3ad263825d0a4f20bf3df909d0caf"
+      }
+    },
+    {
+      "id": "ref-remotion-style-kit",
+      "url": "https://github.com/happy-token/remotion-style-kit",
+      "checkedAt": "2026-10-09T11:04:47.868763+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/happy-token/remotion-style-kit",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 725
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-rive",
+      "url": "https://rive.app/",
+      "checkedAt": "2026-10-09T11:05:04.701975+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://rive.app/",
+          "contentType": "text/html",
+          "bytes": 0,
+          "elapsedMs": 94
+        }
+      ],
+      "robots": {
+        "url": "https://rive.app/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://rive.app/robots.txt",
+          "contentType": "text/plain; charset=UTF-8",
+          "bytes": 62,
+          "elapsedMs": 582
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/rive-app.txt",
+        "sha256": "72fbe0e3b9374055d55ced1c159488c34bdd44081afce3a3f1040eeb4ca499d1"
+      }
+    },
+    {
+      "id": "ref-sailor-studio",
+      "url": "https://sailor.studio/",
+      "checkedAt": "2026-10-09T11:04:47.390481+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://sailor.studio/",
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "elapsedMs": 947
+        }
+      ],
+      "robots": {
+        "url": "https://sailor.studio/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://sailor.studio/robots.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "bytes": 171,
+          "elapsedMs": 1193
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/sailor-studio.txt",
+        "sha256": "7bd59d9ba50185b133211aa103d17195ecce532dbd2b2e331fc795be77c8383c"
+      }
+    },
+    {
+      "id": "ref-shader-gradient",
+      "url": "https://www.shadergradient.co/",
+      "checkedAt": "2026-10-09T11:05:06.709451+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://shadergradient.co/",
+          "contentType": "text/html",
+          "bytes": 0,
+          "elapsedMs": 139
+        }
+      ],
+      "robots": {
+        "url": "https://www.shadergradient.co/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://shadergradient.co/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 70,
+          "elapsedMs": 1139
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/www-shadergradient-co.txt",
+        "sha256": "3ddf438f71a3077cea5ec9802b8fb1af9408e4dcb5f40d4cb301114eb6919df1"
+      }
+    },
+    {
+      "id": "ref-shader-gradient-core",
+      "url": "https://github.com/Jannchie/shader-gradient",
+      "checkedAt": "2026-10-09T11:04:28.521447+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/Jannchie/shader-gradient",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 726
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-shadertoy",
+      "url": "https://www.shadertoy.com/",
+      "checkedAt": "2026-10-09T11:05:02.348181+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 403,
+          "finalUrl": "https://www.shadertoy.com/",
+          "error": "Forbidden",
+          "elapsedMs": 417
+        }
+      ],
+      "robots": {
+        "url": "https://www.shadertoy.com/robots.txt",
+        "response": {
+          "status": 403,
+          "finalUrl": "https://www.shadertoy.com/robots.txt",
+          "error": "Forbidden",
+          "elapsedMs": 422
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-shapefactory-gradient",
+      "url": "https://gradient.shapefactory.co/",
+      "checkedAt": "2026-10-09T11:05:14.261724+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://gradient.shapefactory.co/",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 309
+        }
+      ],
+      "robots": {
+        "url": "https://gradient.shapefactory.co/robots.txt",
+        "response": {
+          "status": 404,
+          "finalUrl": "https://gradient.shapefactory.co/robots.txt",
+          "error": "Not Found",
+          "elapsedMs": 254
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-studio-bbg",
+      "url": "https://bewegtbildgrafik.de/studio",
+      "checkedAt": "2026-10-09T11:04:52.859258+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://bewegtbildgrafik.de/studio",
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "elapsedMs": 833
+        }
+      ],
+      "robots": {
+        "url": "https://bewegtbildgrafik.de/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://bewegtbildgrafik.de/robots.txt",
+          "contentType": "text/plain; charset=UTF-8",
+          "bytes": 89,
+          "elapsedMs": 1215
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/bewegtbildgrafik-de.txt",
+        "sha256": "a252ebfcbcd03c08de63cc8c18898adb835a53e46d40673e28f356367a586100"
+      }
+    },
+    {
+      "id": "ref-studio-carlos",
+      "url": "https://studiocarlos.fr/",
+      "checkedAt": "2026-10-09T11:04:50.156407+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://studiocarlos.fr/",
+          "contentType": "text/html",
+          "bytes": 0,
+          "elapsedMs": 844
+        }
+      ],
+      "robots": {
+        "url": "https://studiocarlos.fr/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://studiocarlos.fr/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 2095,
+          "elapsedMs": 1195
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/studiocarlos-fr.txt",
+        "sha256": "1e110675e858af47e1882f55339dce31346d9325aba9bb82e31b259d40f5d672"
+      }
+    },
+    {
+      "id": "ref-superfluide",
+      "url": "https://superfluidestudio.com/",
+      "checkedAt": "2026-10-09T11:04:47.345509+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://superfluidestudio.com/",
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "elapsedMs": 846
+        }
+      ],
+      "robots": {
+        "url": "https://superfluidestudio.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://superfluidestudio.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 141,
+          "elapsedMs": 1131
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/superfluidestudio-com.txt",
+        "sha256": "d7d4a80105abfa48d7b57b272908d50cb7ea22b412ca419baa9fe5b43f2ee991"
+      }
+    },
+    {
+      "id": "ref-suplab",
+      "url": "https://suplab.cc/",
+      "checkedAt": "2026-10-09T11:04:46.371576+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://suplab.cc/",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 2166
+        }
+      ],
+      "robots": {
+        "url": "https://suplab.cc/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://suplab.cc/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 87,
+          "elapsedMs": 709
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/suplab-cc.txt",
+        "sha256": "8b2b850e5734102abcb8915e8cefe23cf6a2b7dc44bb03f2591f276e9b99defa"
+      }
+    },
+    {
+      "id": "ref-svg-backgrounds",
+      "url": "https://www.svgbackgrounds.com/",
+      "checkedAt": "2026-10-09T11:05:16.593455+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.svgbackgrounds.com/",
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "elapsedMs": 957
+        }
+      ],
+      "robots": {
+        "url": "https://www.svgbackgrounds.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://www.svgbackgrounds.com/robots.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "bytes": 123,
+          "elapsedMs": 1075
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/www-svgbackgrounds-com.txt",
+        "sha256": "90666b924598b5f3b51837f2734958b7428bcd618683e8bc09ecfae293dbb85b"
+      }
+    },
+    {
+      "id": "ref-svgsketch",
+      "url": "https://docs.svgsketch.com/sdk/animation/",
+      "checkedAt": "2026-10-09T11:04:18.088596+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://docs.svgsketch.com/sdk/animation/",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 1299
+        }
+      ],
+      "robots": {
+        "url": "https://docs.svgsketch.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://docs.svgsketch.com/robots.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "bytes": 71,
+          "elapsedMs": 598
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/docs-svgsketch-com.txt",
+        "sha256": "b9da419675add0f1548c33eb514be5d8d314e4a73c29a832661099b53d780572"
+      }
+    },
+    {
+      "id": "ref-swissgl",
+      "url": "https://github.com/paradigms-of-intelligence/swissgl",
+      "checkedAt": "2026-10-09T11:04:25.346835+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/paradigms-of-intelligence/swissgl",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 1011
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-swup",
+      "url": "https://swup.js.org/",
+      "checkedAt": "2026-10-09T11:05:16.402274+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://swup.js.org/",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 542
+        }
+      ],
+      "robots": {
+        "url": "https://swup.js.org/robots.txt",
+        "response": {
+          "status": 404,
+          "finalUrl": "https://swup.js.org/robots.txt",
+          "error": "Not Found",
+          "elapsedMs": 606
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-text-effects-kit",
+      "url": "https://www.framer.com/marketplace/plugins/text-effects-kit/",
+      "checkedAt": "2026-10-09T11:04:27.366113+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.framer.com/marketplace/plugins/text-effects-kit/",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 329
+        }
+      ],
+      "robots": {
+        "url": "https://www.framer.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://www.framer.com/robots.txt",
+          "contentType": "text/plain;charset=utf-8",
+          "bytes": 546,
+          "elapsedMs": 71
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/www-framer-com.txt",
+        "sha256": "fb602b3f98fb8098bc59c497a31f4ffaa3dc967fd8ebc4987bdbb1ce159e5a31"
+      }
+    },
+    {
+      "id": "ref-textalive",
+      "url": "https://github.com/lennystepn-hue/textalive",
+      "checkedAt": "2026-10-09T11:04:46.453184+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/lennystepn-hue/textalive",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 925
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-texttweener",
+      "url": "https://realmaker.de/texttweener/",
+      "checkedAt": "2026-10-09T11:04:31.091883+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://realmaker.de/texttweener/",
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "elapsedMs": 1090
+        }
+      ],
+      "robots": {
+        "url": "https://realmaker.de/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://realmaker.de/robots.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "bytes": 560,
+          "elapsedMs": 1721
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/realmaker-de.txt",
+        "sha256": "9c3c8213af43e6911c6d2a3cc71e15f63eb6ee178be0857367db411ed0905ab7"
+      }
+    },
+    {
+      "id": "ref-the-book-of-shaders",
+      "url": "https://thebookofshaders.com/",
+      "checkedAt": "2026-10-09T11:05:03.302896+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://thebookofshaders.com/",
+          "contentType": "text/html",
+          "bytes": 0,
+          "elapsedMs": 547
+        }
+      ],
+      "robots": {
+        "url": "https://thebookofshaders.com/robots.txt",
+        "response": {
+          "status": 404,
+          "finalUrl": "https://thebookofshaders.com/robots.txt",
+          "error": "Not Found",
+          "elapsedMs": 802
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-three-js",
+      "url": "https://threejs.org/",
+      "checkedAt": "2026-10-09T11:05:00.761407+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://threejs.org/",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 253
+        }
+      ],
+      "robots": {
+        "url": "https://threejs.org/robots.txt",
+        "response": {
+          "status": 404,
+          "finalUrl": "https://threejs.org/robots.txt",
+          "error": "Not Found",
+          "elapsedMs": 29
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-trickle",
+      "url": "https://tricklekit.dev/",
+      "checkedAt": "2026-10-09T11:04:27.558354+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://tricklekit.dev/",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 555
+        }
+      ],
+      "robots": {
+        "url": "https://tricklekit.dev/robots.txt",
+        "response": {
+          "status": 404,
+          "finalUrl": "https://tricklekit.dev/robots.txt",
+          "error": "Not Found",
+          "elapsedMs": 708
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-typexperiments",
+      "url": "https://github.com/pablostanley/typexperiments",
+      "checkedAt": "2026-10-09T11:04:44.841808+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/pablostanley/typexperiments",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 853
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-typo",
+      "url": "https://github.com/dragoon0x/typo",
+      "checkedAt": "2026-10-09T11:04:43.303642+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/dragoon0x/typo",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 1094
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-uigradients",
+      "url": "https://uigradients.com/",
+      "checkedAt": "2026-10-09T11:05:11.272296+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://uigradients.com/",
+          "contentType": "text/html",
+          "bytes": 0,
+          "elapsedMs": 448
+        }
+      ],
+      "robots": {
+        "url": "https://uigradients.com/robots.txt",
+        "response": {
+          "status": 404,
+          "finalUrl": "https://uigradients.com/robots.txt",
+          "error": "Not Found",
+          "elapsedMs": 502
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-vectormotion",
+      "url": "https://www.motion-svg.com/docs",
+      "checkedAt": "2026-10-09T11:04:15.380114+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.motion-svg.com/docs",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 803
+        }
+      ],
+      "robots": {
+        "url": "https://www.motion-svg.com/robots.txt",
+        "response": {
+          "status": 404,
+          "finalUrl": "https://www.motion-svg.com/robots.txt",
+          "error": "Not Found",
+          "elapsedMs": 228
+        },
+        "canFetch": null,
+        "path": null,
+        "sha256": null
+      }
+    },
+    {
+      "id": "ref-vj-suave",
+      "url": "https://vjsuave.com/",
+      "checkedAt": "2026-10-09T11:04:59.452370+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://vjsuave.com/",
+          "contentType": "text/html; charset=UTF-8",
+          "bytes": 0,
+          "elapsedMs": 972
+        }
+      ],
+      "robots": {
+        "url": "https://vjsuave.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://vjsuave.com/robots.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "bytes": 169,
+          "elapsedMs": 5313
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/vjsuave-com.txt",
+        "sha256": "d19ef8e3bb0cee7d0ad68096e2117bbf13dbe068c679538d893dc4f02b8dcd40"
+      }
+    },
+    {
+      "id": "ref-void-energy-kinetic-text",
+      "url": "https://voidenergy.dev/kinetic-text",
+      "checkedAt": "2026-10-09T11:04:33.008062+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://voidenergy.dev/kinetic-text",
+          "contentType": "text/html",
+          "bytes": 0,
+          "elapsedMs": 1325
+        }
+      ],
+      "robots": {
+        "url": "https://voidenergy.dev/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://voidenergy.dev/robots.txt",
+          "contentType": "text/plain; charset=utf-8",
+          "bytes": 74,
+          "elapsedMs": 810
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/voidenergy-dev.txt",
+        "sha256": "d121b097dec0bf0358eb76837742a475b04876b2993713127a70933ec8f5aba9"
+      }
+    },
+    {
+      "id": "ref-webgl-shader-gallery",
+      "url": "https://github.com/KaranChandekar/webgl-shader-gallery",
+      "checkedAt": "2026-10-09T11:04:29.925903+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/KaranChandekar/webgl-shader-gallery",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 721
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    },
+    {
+      "id": "ref-ze-do-motion",
+      "url": "https://www.behance.net/zeofmotion",
+      "checkedAt": "2026-10-09T11:04:31.682946+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://www.behance.net/zeofmotion",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 1036
+        }
+      ],
+      "robots": {
+        "url": "https://www.behance.net/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://www.behance.net/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 1317,
+          "elapsedMs": 263
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/www-behance-net.txt",
+        "sha256": "1a55abe2475b1430444111a3ffceedde40c2782e40c2fda4a42ca95e2e02ba2b"
+      }
+    },
+    {
+      "id": "ref-zoxilsi-studio",
+      "url": "https://github.com/zoxilsi/studio",
+      "checkedAt": "2026-10-09T11:04:37.028652+00:00",
+      "method": "HEAD",
+      "attempts": [
+        {
+          "status": 200,
+          "finalUrl": "https://github.com/zoxilsi/studio",
+          "contentType": "text/html; charset=utf-8",
+          "bytes": 0,
+          "elapsedMs": 753
+        }
+      ],
+      "robots": {
+        "url": "https://github.com/robots.txt",
+        "response": {
+          "status": 200,
+          "finalUrl": "https://github.com/robots.txt",
+          "contentType": "text/plain",
+          "bytes": 16739,
+          "elapsedMs": 381
+        },
+        "canFetch": true,
+        "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+        "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+      }
+    }
+  ]
+}

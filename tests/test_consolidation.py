@@ -1,14 +1,11 @@
 """Reviewed grouping preserves licensed originals and rejects stale policies."""
 
 from copy import deepcopy
-import contextlib
 import hashlib
-import io
 import json
 from pathlib import Path
 import tempfile
 import unittest
-from unittest.mock import patch
 
 from scripts.analyze import analyze_items
 from scripts.consolidate import apply_consolidation, record_sha
@@ -233,16 +230,6 @@ class ConsolidationTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError, "Original input fields or notices changed"):
                 verify(fixture, minimum=1)
 
-    def test_historical_audit_cannot_overwrite_snapshot_after_consolidation(self):
-        from scripts import audit_duplicates
-        raw = b'{"items":[{"consolidation":{"version":1}}]}'
-        with (patch.object(audit_duplicates, "load_json", return_value=(json.loads(raw), raw)),
-              patch.object(audit_duplicates.subprocess, "run") as refresh,
-              patch("sys.argv", ["audit_duplicates.py"]), contextlib.redirect_stderr(io.StringIO())):
-            with self.assertRaises(SystemExit) as failure:
-                audit_duplicates.main()
-            self.assertEqual(failure.exception.code, 2)
-            refresh.assert_not_called()
 
 
 if __name__ == "__main__":

@@ -1,0 +1,21 @@
+# The use of robots or other automated means to access the Adobe site
+# without the express permission of Adobe is strictly prohibited.
+# Notwithstanding the foregoing, Adobe may permit automated access to
+# access certain Adobe pages but solely for the limited purpose of
+# including content in publicly available search engines. Any other
+# use of robots or failure to obey the robots exclusion standards set
+# forth at http://www.robotstxt.org/ is strictly prohibited.
+
+# Details about Googlebot available at: http://www.google.com/bot.html
+# The Google search engine can see everything
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: AdsBot-Google-Mobile
+Allow: /
+
+User-agent: SearchmetricsBot
+Disallow: /
+
+Sitemap: https://color.adobe.com/sitemap-index.xml

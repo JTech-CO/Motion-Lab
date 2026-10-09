@@ -1,0 +1,83 @@
+# Aceternity UI — https://ui.aceternity.com
+# AI/LLM index: https://ui.aceternity.com/llms.txt
+# Full text corpus: https://ui.aceternity.com/llms-full.txt
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /login/
+Disallow: /profile/
+Disallow: /orders/
+Disallow: /testing-playground/
+Disallow: /preview/
+Disallow: /live-preview/
+Disallow: /success/
+Disallow: /pricing-bak
+
+# Allow the JSON component API for machine-readable access even though /api/ is
+# disallowed above. More specific Allow rules win over the broader Disallow.
+Allow: /api/components
+
+# ─── Answer engines and AI assistants ────────────────────────────────────────
+# Explicitly allowed so our components can be cited in AI-generated answers.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+Sitemap: https://ui.aceternity.com/sitemap.xml

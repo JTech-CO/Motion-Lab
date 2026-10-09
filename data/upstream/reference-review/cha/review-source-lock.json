@@ -1,0 +1,1707 @@
+{
+  "version": 1,
+  "reviewDate": "2026-10-09",
+  "sources": [
+    {
+      "path": "page.html",
+      "sha256": "1c1119619f732b17cda052d7d8820c6bc153cc094ee6028429d3387c1064e388",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "access": "public",
+      "status": 200,
+      "bytes": 171411
+    },
+    {
+      "path": "immersive-data.js",
+      "sha256": "ebc6c68423bf5bf445a4e453abd82775e5d92aebbf00cc05c17b7b3232ec1433",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit/immersive-data.js",
+      "access": "public",
+      "status": 200,
+      "bytes": 85582
+    },
+    {
+      "path": "robots-current.txt",
+      "sha256": "660265c07f42de63dd34175205da2ce3ee4144624977574ac360404fc3195cfb",
+      "sourceUrl": "https://www.careerhackeralex.com/robots.txt",
+      "access": "public",
+      "status": 200,
+      "bytes": 948
+    },
+    {
+      "path": "cards.json",
+      "sha256": "69a755bca7511a6c280c5e1155f7c1652f9eab02cd9b418939b389fd8338eb3f",
+      "sourceUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "access": "public",
+      "status": "literal-json-derived",
+      "bytes": 224558
+    },
+    {
+      "path": "jtech/1-index.html",
+      "sha256": "f4dd6322ec8509ff539c3a05bf0355e609357deaaf70a539cd98b532c497d838",
+      "sourceUrl": "https://raw.githubusercontent.com/JTech-CO/Motiongraphic/77fd0fadb3142c80038942802fcac71caeeba3d8/1.%20SpaceX%20Motion/index.html",
+      "access": "public",
+      "status": 200,
+      "bytes": 2269
+    },
+    {
+      "path": "jtech/1-storyboard.md",
+      "sha256": "0b42a19fe2155777e89f509102d8a9f79a54d6c6098a9396ca12ebb08be3eba8",
+      "sourceUrl": "https://raw.githubusercontent.com/JTech-CO/Motiongraphic/77fd0fadb3142c80038942802fcac71caeeba3d8/1.%20SpaceX%20Motion/prompt/STORYBOARD.md",
+      "access": "public",
+      "status": 200,
+      "bytes": 9813
+    },
+    {
+      "path": "jtech/2-index.html",
+      "sha256": "19d58b4321fd091c8f0dcf6952ebdd1ecb558d6c319fba02168f0deee3a61947",
+      "sourceUrl": "https://raw.githubusercontent.com/JTech-CO/Motiongraphic/77fd0fadb3142c80038942802fcac71caeeba3d8/2.%20Genesis%20Motion/index.html",
+      "access": "public",
+      "status": 200,
+      "bytes": 2218
+    },
+    {
+      "path": "jtech/2-storyboard.md",
+      "sha256": "0b9858ab8eedda139226ba602e1505452cb7bf8d9c17b0573a691fa6ef717c39",
+      "sourceUrl": "https://raw.githubusercontent.com/JTech-CO/Motiongraphic/77fd0fadb3142c80038942802fcac71caeeba3d8/2.%20Genesis%20Motion/prompt/STORYBOARD.md",
+      "access": "public",
+      "status": 200,
+      "bytes": 14544
+    },
+    {
+      "path": "jtech/3-index.html",
+      "sha256": "9a5e0bcd3e385af2b2e615a6c41e6a6e0d87dc7ccf7cf50e20938654b0117938",
+      "sourceUrl": "https://raw.githubusercontent.com/JTech-CO/Motiongraphic/77fd0fadb3142c80038942802fcac71caeeba3d8/3.%20DJI%20Motion/index.html",
+      "access": "public",
+      "status": 200,
+      "bytes": 2293
+    },
+    {
+      "path": "jtech/3-storyboard.md",
+      "sha256": "ddf5b492a953778dca6471ad562a1fa32c61b1ad86f0a3bfda2a6b01d03e7759",
+      "sourceUrl": "https://raw.githubusercontent.com/JTech-CO/Motiongraphic/77fd0fadb3142c80038942802fcac71caeeba3d8/3.%20DJI%20Motion/prompt/STORYBOARD.md",
+      "access": "public",
+      "status": 200,
+      "bytes": 22032
+    },
+    {
+      "path": "jtech/4-index.html",
+      "sha256": "efef3cda69b4b9dfa5b06564c8555a92bee3e7ba32528fcf0eaccfc8be394342",
+      "sourceUrl": "https://raw.githubusercontent.com/JTech-CO/Motiongraphic/77fd0fadb3142c80038942802fcac71caeeba3d8/4.%20Loopfield-Studio%20Motion/index.html",
+      "access": "public",
+      "status": 200,
+      "bytes": 2288
+    },
+    {
+      "path": "jtech/4-storyboard.md",
+      "sha256": "46ca35404f51082a470f474b7a341b3d8e7f6b2d2a98ea831434fdfe66f00e19",
+      "sourceUrl": "https://raw.githubusercontent.com/JTech-CO/Motiongraphic/77fd0fadb3142c80038942802fcac71caeeba3d8/4.%20Loopfield-Studio%20Motion/prompt/STORYBOARD.md",
+      "access": "public",
+      "status": 200,
+      "bytes": 26036
+    }
+  ],
+  "cards": [
+    {
+      "id": "bar-rise-reveal",
+      "promptSha256": "a8f7da0a01683825ea3dcaaae782f2688dc6785fb94b767708c0094d254f7d73",
+      "sourceCategory": "typography",
+      "duration": 4.69,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "beat-cut-words",
+      "promptSha256": "122b3c886cf39d1e7edc80e381993ee44f39580516eab7537a3a7881ff358a38",
+      "sourceCategory": "technique",
+      "duration": 4.6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "beat-squares-sentence",
+      "promptSha256": "ea3ec8c7ee8b887db8f975ae6830d01d61b652d9304d7441a1193838ecd18007",
+      "sourceCategory": "typography",
+      "duration": 4.75,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "beat-word-slam",
+      "promptSha256": "928570729d7ee13e4dde3914b9b00cceaa0d842aeece9b15042eac42b1ac8573",
+      "sourceCategory": "typography",
+      "duration": 5.16,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "bl-device-duo",
+      "promptSha256": "4a865a16c533a6ac10029b7508e3b1073b78df8a3501f169b712e98448b251d5",
+      "sourceCategory": "technique",
+      "duration": 6.0,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "bl-film-device-ad",
+      "promptSha256": "3682c8c5899c93d01807588e8398c186e3d491c5fb904f12f55ab56452e297b3",
+      "sourceCategory": "film",
+      "duration": 13.0,
+      "canvas": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "id": "bl-laptop-open",
+      "promptSha256": "2ebff0b6815c9ea34145530cee21f9a2a4db84d38d0d51359e466cd9930a93a3",
+      "sourceCategory": "technique",
+      "duration": 6.0,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "bl-phone-hero",
+      "promptSha256": "256ea9aed8cd0bc4a388840a977d27a1235d337fcfab0e992b48859b8924b191",
+      "sourceCategory": "technique",
+      "duration": 5.0,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "browser-url-load",
+      "promptSha256": "d5716cc739b14c014d860bd88a6bfc37451ed9ab86e0b59834e77a61e66c71c4",
+      "sourceCategory": "component",
+      "duration": 6.6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "card-stack-swipe",
+      "promptSha256": "6fa12abb393582aa20d706e7c3980767ee1a52ffedff404c3c0c6ed113e05c65",
+      "sourceCategory": "transition",
+      "duration": 4.6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "chat-stream",
+      "promptSha256": "90fa3823c2a83655c63839a084e3fedf5ce52950eea6d61bc46d424cb4782cca",
+      "sourceCategory": "component",
+      "duration": 6.6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "circle-mask-media",
+      "promptSha256": "67906638e47772f7b6bb5ca50b547563f7f5f20f5e2b47695f0f9b920c2e7b83",
+      "sourceCategory": "technique",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "clock-workday",
+      "promptSha256": "b904fbf4f3487617802360b47605cceaba09b6c30a2dfc8326c6144db4fd68d2",
+      "sourceCategory": "component",
+      "duration": 5.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "cursor-autozoom",
+      "promptSha256": "de57d587d7c4ac74e5226bfc9b84e1d0b811d1d1f4301c93ac1dd368b83611d5",
+      "sourceCategory": "component",
+      "duration": 6.6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "device-flip",
+      "promptSha256": "2e692d52d8de188b103c70dd185f9810e250d2b7f3f27b5df56838b8cc392118",
+      "sourceCategory": "transition",
+      "duration": 4.4,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "exploded-ui-layers",
+      "promptSha256": "9f9ef8b6898f5764343d88481a426a8a88d2e1406d7fdad8743359f5e48b9c6b",
+      "sourceCategory": "technique",
+      "duration": 6.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "figure-desk-typing",
+      "promptSha256": "d0828e2415633ab6467aaae8d315fb639ab759284343e96d8ee175584f275d9b",
+      "sourceCategory": "component",
+      "duration": 5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "figure-idea-burst",
+      "promptSha256": "df48608ff14552129d6c2e366208b59cb50a89ef7af7d53c6748c040fc9a987b",
+      "sourceCategory": "component",
+      "duration": 5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "figure-rig-sheet",
+      "promptSha256": "748b39a05425190eeffb76888cb336b7c8c957ef0eeff5d89fd84454f3614602",
+      "sourceCategory": "technique",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "figure-wave-endcard",
+      "promptSha256": "23f4ad4c1bceb494375c31658402488f786d64e8553d1c41a03a0fa78ea6e532",
+      "sourceCategory": "component",
+      "duration": 5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "figure-wave-endcard-vertical",
+      "promptSha256": "548370d81acebbba56ab6ed3558ea63447759f4b4a93d3428b41ca4cde89c1ac",
+      "sourceCategory": "component",
+      "duration": 5,
+      "canvas": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "id": "film-ad-channel",
+      "promptSha256": "19c564238fc364e029b4805e7d1f7c1c0afcd87fcce3cf8eafb21d4878ababa6",
+      "sourceCategory": "film",
+      "duration": 14,
+      "canvas": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "id": "film-laptop-prompt",
+      "promptSha256": "0fd230c64e6154854ea5a388d9db458371b7b50ed5c33963c81ebca9a26bc326",
+      "sourceCategory": "film",
+      "duration": 15,
+      "canvas": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "id": "film-mobile-demo",
+      "promptSha256": "9061a9881c3e8d8e414afc6c9e3832468ad9ce8c03b921f50e76dca42468438d",
+      "sourceCategory": "film",
+      "duration": 15,
+      "canvas": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "id": "film-seamless-oneshot",
+      "promptSha256": "ad8a32ebfd2a0ed1b58d0598b21af323b46c964b199a3863171f25380cb8f5ab",
+      "sourceCategory": "film",
+      "duration": 16,
+      "canvas": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "id": "folder-burst",
+      "promptSha256": "5bff1aca107f0a46871525a8cf5857f7710e8b78fc1fcfb40185eca5401f9297",
+      "sourceCategory": "technique",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "headline-highlighter",
+      "promptSha256": "309542b7938a8a134728f5020d527429b51a86611cbeb7b3aa1a80bd0addafa1",
+      "sourceCategory": "typography",
+      "duration": 4.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "highlighter-wipe",
+      "promptSha256": "2a3911bdbc15e705ec6910f5641127f758e07a87c6d02d1c9ca06911e912d8c1",
+      "sourceCategory": "transition",
+      "duration": 4.2,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "icon-scatter-endcard",
+      "promptSha256": "8d01dee89810334d34c48a435cc41734123ae9616a0f4271962192854f988511",
+      "sourceCategory": "typography",
+      "duration": 5.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "iso-window-wall",
+      "promptSha256": "1a7624fccf6a45859c068d423eae778bf3ecea12ebb79c4b8960b7a959453231",
+      "sourceCategory": "technique",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "karaoke-lime",
+      "promptSha256": "758eb8038e2b05e325e2e4127eeb473e9bb401e73c61100d373218f31b8a15e1",
+      "sourceCategory": "typography",
+      "duration": 5.4,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "label-box-words",
+      "promptSha256": "04246c83dc784d2a2baad251fa769c6aed14c18383bfee90b70550a6c4f528f8",
+      "sourceCategory": "typography",
+      "duration": 5.16,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "laptop-type-zoom",
+      "promptSha256": "370a6d9a4127b0ae6e44ba10cb8d345297c53abea877a10cf4e1de9dfbcb3dd7",
+      "sourceCategory": "technique",
+      "duration": 6.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "lens-match-cut",
+      "promptSha256": "8bbaa006d42201b00770bd7bfca8ef2bff27904f7c1069f5739523af6e6993a9",
+      "sourceCategory": "transition",
+      "duration": 4.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "letter-clip-shapes",
+      "promptSha256": "4df968148ec371dfd8a74f41572b634c3f1f745434b9c307050f063b4a6578fb",
+      "sourceCategory": "typography",
+      "duration": 5.63,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "logo-sting",
+      "promptSha256": "30c2003dabd47a69a02a266d23106f3617d4cdee29edebbfb6c2eaacbb804ac6",
+      "sourceCategory": "typography",
+      "duration": 3.0,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "logo-sting-vertical",
+      "promptSha256": "35bfd52b381495e83d4c431d29ae539abc9e903c7dd83130e0706ada9ba66344",
+      "sourceCategory": "typography",
+      "duration": 3.0,
+      "canvas": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "id": "long-page-dolly",
+      "promptSha256": "8b8ab165aeb55f80e2a07654c1859f0f24258950974d1ce0a5968e6b2cd06c90",
+      "sourceCategory": "technique",
+      "duration": 7,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "marquee-band-collage",
+      "promptSha256": "d0d69f98ecac418e8453b5a6ba7087aca2e4ea8bb7cf93d2c43fbc6d31c749e5",
+      "sourceCategory": "technique",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "mixed-type-wordmark",
+      "promptSha256": "1190e5620ce73fb4cea48212ed3001d0c60dfe7543b93c62c24693850d57e9ee",
+      "sourceCategory": "typography",
+      "duration": 5.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "mosaic-assemble",
+      "promptSha256": "4cb72d7cf0857c87a6963122cd903ef8418c0f9634ccdbc01a1b994ec63e86cb",
+      "sourceCategory": "technique",
+      "duration": 6.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "orbit-devices",
+      "promptSha256": "213d4d02183e6c244bb913d4319ae4c9347faf20cf73fac9891dd7472708999f",
+      "sourceCategory": "technique",
+      "duration": 6.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "outline-rows-backdrop",
+      "promptSha256": "1e7d3cf3940d1c556767d580525b8a7f98b6b5c2078a3195c6f0a20aa1065b4b",
+      "sourceCategory": "technique",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "parallax-hero",
+      "promptSha256": "5604c4e07fa51845e0694bd8816c2483e4ee60a7e25045cd29b2849861241f65",
+      "sourceCategory": "technique",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "phone-app-push",
+      "promptSha256": "716788e5fe7dbfbe14714b5a172b98c9feb728b06511e6a660c0607804a7579e",
+      "sourceCategory": "component",
+      "duration": 6.4,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "phone-float-scroll",
+      "promptSha256": "20b159cc5d64a43722588cd77a8def3976c0d735971383b7af2becb82191105e",
+      "sourceCategory": "component",
+      "duration": 6.4,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "phone-lock-notifs",
+      "promptSha256": "416462366d00babeba039308ad177f8fe52452c970c0feef68693aaecdd4e14b",
+      "sourceCategory": "component",
+      "duration": 6.6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "phrase-stack",
+      "promptSha256": "a8a0cfca217244719d693333d8830ea391e37ed992c35191f8dcef2be586fff1",
+      "sourceCategory": "typography",
+      "duration": 3.8,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "pixel-assemble-name",
+      "promptSha256": "0b1a194198b13a4ae9510750cef948d8348e8c579c7c85b0b67839a52b2413dc",
+      "sourceCategory": "typography",
+      "duration": 5.16,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "pixel-assemble-name-vertical",
+      "promptSha256": "eb231bcf98c5f58bfd2ec43e20ccd856d31e3ca0586fbd32e8fc93e7c96e90c6",
+      "sourceCategory": "typography",
+      "duration": 5.16,
+      "canvas": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "id": "pullback-reveal",
+      "promptSha256": "02ee81b3de327e7951aae99025b6ae325e35ee6e6c6c50aade3b3451c5ab64e6",
+      "sourceCategory": "transition",
+      "duration": 4.4,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "rack-focus",
+      "promptSha256": "95e7bd10a91564b6de046cdb7b7c1c196803b7392e9c9a0d8265df7c9dcdfe52",
+      "sourceCategory": "transition",
+      "duration": 4.4,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "rail-cover",
+      "promptSha256": "0a27ce37ff3f840724b585424283895665041ddf590e922c649cf55547f47ace",
+      "sourceCategory": "typography",
+      "duration": 4.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "screen-in-screen",
+      "promptSha256": "c9acb23e1077920fb92e45b42010a8b64563f208b83098138a2816c817550ec0",
+      "sourceCategory": "technique",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "selection-box-type",
+      "promptSha256": "f5d891b99157379504c99978930e497aa2ed16f0936e627aa0ac9b9c2a790b95",
+      "sourceCategory": "typography",
+      "duration": 5.16,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "side-title-frame",
+      "promptSha256": "cf46ea5cc9227e05b1dcb10e599bdd6dee41856bc8c7fe263caa7f3e12bab694",
+      "sourceCategory": "technique",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "slant-to-flat",
+      "promptSha256": "e0da23598924f5ffe603336f6b9a4195f4b3a56baf362a77a4779879c943da14",
+      "sourceCategory": "transition",
+      "duration": 4.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "split-focus-block",
+      "promptSha256": "878f65caa2e01cfa1ce99ab7990f0be58bfec9dc4fac1adb9d565bc768229f4f",
+      "sourceCategory": "component",
+      "duration": 5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "spotlight-lift",
+      "promptSha256": "bfe27f3aea1e6496a36b5091d121efc1a1f8d478f7ba4b16e06b63c73342a00d",
+      "sourceCategory": "technique",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "stat-hero",
+      "promptSha256": "78adb19f0c27ce81cb72bc9d55bca05519e8073d90cc003e46ad37a065aa467b",
+      "sourceCategory": "typography",
+      "duration": 4.0,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "tag-converge",
+      "promptSha256": "66466a2c609fc4d6420cd7934c7fdf68944473de19c9e70e893efab5c44fa0cb",
+      "sourceCategory": "typography",
+      "duration": 5.16,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "terminal-agent-run",
+      "promptSha256": "06a93429878f487ef8f8c1e7ad31839caca989c5bd62109e0bc0ea049825ca9b",
+      "sourceCategory": "component",
+      "duration": 6.4,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "text-window-mask",
+      "promptSha256": "1fa85b3ac5144aa30eac401734a87e8f17c12f14b30acb425a2e1e0db37ebf83",
+      "sourceCategory": "typography",
+      "duration": 4.6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "todo-check-figure",
+      "promptSha256": "008144f7a08ddfa1da1eb03370527aef2fede8f2e4d7d6d5f5f7a762c5dcdf37",
+      "sourceCategory": "component",
+      "duration": 5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "type-on-grid",
+      "promptSha256": "a3fe18c66a8ae04066f182227547ebf0721193f2c43e29bd011bb95b04aeeaef",
+      "sourceCategory": "typography",
+      "duration": 4.8,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "weight-breathe",
+      "promptSha256": "e12fa315f3d3857b32d98bf1e2f42073d8d2f954a90792b609c0adcbdfa2f7dc",
+      "sourceCategory": "typography",
+      "duration": 4.69,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "whip-speed-ramp",
+      "promptSha256": "e2fee314e9ab354d0b91e9dea0ea37af37a6ed74845d2fe36ee89db7c4b2a291",
+      "sourceCategory": "technique",
+      "duration": 5.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "window-open-cascade",
+      "promptSha256": "45bfeda8a3040000a88202aee8f74c337757d836847413dcc681531d40a92317",
+      "sourceCategory": "component",
+      "duration": 6.4,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "window-split-grid",
+      "promptSha256": "1081357664bbac9ba4cc880951d08582002137500d22f6d9022c3fe570efee66",
+      "sourceCategory": "transition",
+      "duration": 4.8,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "word-swap-inline",
+      "promptSha256": "0ae6e0fef1f63de80587aaebf1977aab55d6915839d52b79aa88b77b20a67cb1",
+      "sourceCategory": "typography",
+      "duration": 4.2,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "word-wall-number",
+      "promptSha256": "8b4b3905499cc67b71e79383b02cb78587ef6c7b1b1eb715ec22841afce75f19",
+      "sourceCategory": "typography",
+      "duration": 5.16,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "zoom-through-screen",
+      "promptSha256": "1c9a5c19fe1eedf7ee036201a5b961e067cc573543ac3f9f96906398157e4e64",
+      "sourceCategory": "transition",
+      "duration": 4.6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "glow-chat-ask",
+      "promptSha256": "579483475b9631a99d4881fd6f14c00c2a20442e03cc7d3a2bd420c33fa7898f",
+      "sourceCategory": "component",
+      "duration": 11,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "glow-agent-run",
+      "promptSha256": "c8ddd41e2969cf9bfc17559e5dff939a0df8e62e8e4473da318ec50392312ba8",
+      "sourceCategory": "component",
+      "duration": 9,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "motion-term-01",
+      "promptSha256": "a0719a2265d25d7abdcc847f12a10c4d49dee7541b4dedac432386bd4527d870",
+      "sourceCategory": "terms",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "motion-term-02",
+      "promptSha256": "0861ad7f8b07d7df99ad583d6e49c6d1dcb08d0211790a33221d6b25352e2a09",
+      "sourceCategory": "terms",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "motion-term-03",
+      "promptSha256": "5d7055f2e96f721459218808eea452981d4243733829fd53560860d093fb9530",
+      "sourceCategory": "terms",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "motion-term-04",
+      "promptSha256": "486758497bc7a80599729ab0fe4b5228f73601a7325b573bbbc204d21c9fc4a9",
+      "sourceCategory": "terms",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "motion-term-05",
+      "promptSha256": "bfa47c336e31505e3f5a7d4095e5a96ee29f304cc4405b571dc003fca417bd51",
+      "sourceCategory": "terms",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "motion-term-06",
+      "promptSha256": "57097e46dd699c8238cd585b2faffe031a3d398daaf0bcc637ded970137ba5aa",
+      "sourceCategory": "terms",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "motion-term-07",
+      "promptSha256": "285616d6864f4f3d483dbb50643ecd9bc59ae3707cb84656023a209f672fef13",
+      "sourceCategory": "terms",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "motion-term-08",
+      "promptSha256": "09c8b7c1c519392d94d657893eaa894bca932aa52172327360cd1e7b0600eb40",
+      "sourceCategory": "terms",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "motion-term-09",
+      "promptSha256": "f50d63fef97a6c4d209db0c8076187bc7b499b7d0472a75d1ef895c3d83ddeea",
+      "sourceCategory": "terms",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "motion-term-10",
+      "promptSha256": "c30a692e20b09acfbfd2872e4ef8b18873165159fb69cd0d2ae86fb394aa8593",
+      "sourceCategory": "terms",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "motion-term-11",
+      "promptSha256": "738d736cabcad6c3caca1777d7828bc2672fc21bca249e6a86de70d9ecd3ab90",
+      "sourceCategory": "terms",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "motion-term-12",
+      "promptSha256": "66d4de3d9cc732261ce78eb7daa3a9ddf4266a48d0814b1ca166effd6c8f84c2",
+      "sourceCategory": "terms",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "motion-term-13",
+      "promptSha256": "ec8e0878d5fd4f3e8abde66f0adc51cbd3f81dc4e057c40ec0af354a2ef5cddd",
+      "sourceCategory": "terms",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "motion-term-14",
+      "promptSha256": "dd5532ac1654b78f64aeaa65d6a271c2631ef1f64224d044c2d0a63432f1bd8a",
+      "sourceCategory": "terms",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "motion-term-15",
+      "promptSha256": "82d62afeba9a42731c196ae258fc07053f4700d8bef0b73a15fad23f1c5f4dc0",
+      "sourceCategory": "terms",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "motion-term-16",
+      "promptSha256": "c93960784fd12b06fd5d2095db0d1737ac2d2bcb9252c9949952bbddd3cb8ca4",
+      "sourceCategory": "terms",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "motion-term-17",
+      "promptSha256": "66bc86ddea98dc630cefeea3bb8d85062a121ebf215e157eb576c68d7351bc23",
+      "sourceCategory": "terms",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "motion-term-18",
+      "promptSha256": "dfbe1c45805c14b36d3dfa96072fab4c47467b46d6cdac8ca999a9ff635b28a8",
+      "sourceCategory": "terms",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "motion-term-19",
+      "promptSha256": "7884a49d4e0438bec34e786eefc66a9a2f611792bf2629c275e254c8f993708f",
+      "sourceCategory": "terms",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "motion-term-20",
+      "promptSha256": "473cc9d27aa308da0e57d02a41c46c3561df711382a176d1c6960f7820c2ad83",
+      "sourceCategory": "terms",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "motion-term-21",
+      "promptSha256": "7bd9d343ab21578da837d9a9f0e779768339a17ec763b8e914ff9505caf9b520",
+      "sourceCategory": "terms",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "motion-term-combo-title",
+      "promptSha256": "c8bcc86056f4abc459d3f032d4fb80a3ca934aa8d7949fd49058370782eb437b",
+      "sourceCategory": "terms",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "motion-term-combo-card",
+      "promptSha256": "68b33def5c68069d1b70164224217937a2f7436421bd17125eb4e84c2ec748c6",
+      "sourceCategory": "terms",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "motion-term-combo-stat",
+      "promptSha256": "9d853ce1a16c7deb4a11a629143a17ca9471959a730b84e7138c4950990fc872",
+      "sourceCategory": "terms",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "motion-term-combo-bounce",
+      "promptSha256": "45a67f15cc06de18fd58cd3da05323f746a5f69a25933e35e94d0b91b2fdc926",
+      "sourceCategory": "terms",
+      "duration": 6,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "create-audio-wave-to-captions",
+      "promptSha256": "a731b1650f57557888b9cbbcfd7bfd751724fde1d3ab301161029455024b210d",
+      "sourceCategory": "creative-transform",
+      "duration": 6.8,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "create-contact-sheet-select",
+      "promptSha256": "a2182e771a4043a48c6998b2b6998cab9d92a87065d3885df2b6c9419a44e48d",
+      "sourceCategory": "creative-transform",
+      "duration": 6.8,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "create-glyph-outline-fill",
+      "promptSha256": "15c48c6b1b4f81db94522c18a597ddf27836e0b10e9399ff1832727963fec1c8",
+      "sourceCategory": "creative-transform",
+      "duration": 6.8,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "create-image-outpaint-canvas",
+      "promptSha256": "cdcee20847cb4c126aa2b554d19a327c0cbb9da3409835e23f48b116a4e5628e",
+      "sourceCategory": "creative-transform",
+      "duration": 6.8,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "create-image-to-type-poster",
+      "promptSha256": "0721ad9b109953ee2f4e22d8d335f14b8b0fc267cc223676bd4ab5fe6c975bb8",
+      "sourceCategory": "creative-transform",
+      "duration": 6.8,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "create-layer-depth-camera",
+      "promptSha256": "bf9a2c601bddf8e2d85b3da98d9e83b5229bd6a3d5e5eb4c0e16b7eaa6836645",
+      "sourceCategory": "creative-transform",
+      "duration": 6.8,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "create-letter-media-shutter",
+      "promptSha256": "8248a5af55eb2caa2c6375aa5dd8a29ac197541876086c9097fd18be85d9da66",
+      "sourceCategory": "creative-transform",
+      "duration": 6.8,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "create-mask-inpaint-reveal",
+      "promptSha256": "96dcc0dbd667e3472d2fb23c4f109e26ad4bd082ec0fbecf5f7ac071878a004f",
+      "sourceCategory": "creative-transform",
+      "duration": 6.8,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "create-paragraph-to-headline",
+      "promptSha256": "088741c302a13a7c2496e197756b73119c1f191fa00d7982994a888a817cbc28",
+      "sourceCategory": "creative-transform",
+      "duration": 6.8,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "create-prompt-image-grid",
+      "promptSha256": "b7e92878edbe8862abaf6d4a94938bc9b1859f84ff8d91126eaaa46c5b9dc2bf",
+      "sourceCategory": "creative-transform",
+      "duration": 6.8,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "create-prompt-to-layout",
+      "promptSha256": "04804f85726282b15073d5de07edc6586965665736a0085eea3ef82460d15b6f",
+      "sourceCategory": "creative-transform",
+      "duration": 6.8,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "create-sketch-to-polished",
+      "promptSha256": "1a4a4efb15ff24050681c8ce17e2f0e5346213c506d5aad1dec019c8f9297daa",
+      "sourceCategory": "creative-transform",
+      "duration": 6.8,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "create-still-to-motion-strip",
+      "promptSha256": "bf5eda71bcf322345a9ddf9d8dba8d0fa58b819a409eaf4a23932152653511b6",
+      "sourceCategory": "creative-transform",
+      "duration": 6.8,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "create-style-reference-blend",
+      "promptSha256": "c0a5cf9dfcebeea5fc68e443d3c48c9503c3a841e35e3303d2ede171b6ebf1b5",
+      "sourceCategory": "creative-transform",
+      "duration": 6.8,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "create-text-path-carousel",
+      "promptSha256": "4c0fc8ebf108e4a7eeaea5cb75e3704e1f6ee44ee999ee1d5178340ef29d923f",
+      "sourceCategory": "creative-transform",
+      "duration": 6.8,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "create-text-to-vector-path",
+      "promptSha256": "d8f0f7377e96ff89259659d412520e0397948b4a0b3a5636b84d0cc4a9bf1d50",
+      "sourceCategory": "creative-transform",
+      "duration": 6.8,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "create-timeline-to-storyboard",
+      "promptSha256": "5c37d6c18d6dabb08fd50b7d4be16ef0492a60e4b19d1147a84fb6d6d208309a",
+      "sourceCategory": "creative-transform",
+      "duration": 6.8,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "create-token-to-pixel",
+      "promptSha256": "268a66d159de9097e39f057ac7c50c28b7dcc2c8e2e1c648680f852cf0bf6538",
+      "sourceCategory": "creative-transform",
+      "duration": 6.8,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "create-type-to-interface",
+      "promptSha256": "64cf85c77b9df47a67d357f831ae81f9bcec3708e6edc1b7b4254bfc723d18b7",
+      "sourceCategory": "creative-transform",
+      "duration": 6.8,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "create-word-extrude-fold",
+      "promptSha256": "74c425156f2db85d625eaab0fe9c0aac392f3e926694266078485a59872c9309",
+      "sourceCategory": "creative-transform",
+      "duration": 6.8,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "create-workflow-oner",
+      "promptSha256": "72ca32cf90e2c45fcbbc850d3379a79f20a661ec8ad43056a2f12374be51359e",
+      "sourceCategory": "creative-transform",
+      "duration": 16.8,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "demo-command-palette-dive",
+      "promptSha256": "0a54b080b0ea29ecd4e6273356725aaa8972956cf9bfa1bc241608184d50bf10",
+      "sourceCategory": "screen-workflow",
+      "duration": 6.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "demo-comment-resolve-chain",
+      "promptSha256": "eb8356aedc48c87be4660f7c8b8dab619730dc7040d173a04e51cdff0f55c874",
+      "sourceCategory": "screen-workflow",
+      "duration": 6.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "demo-component-detach-edit",
+      "promptSha256": "7ecb66325a8073c8d969d7617cab70025b169b7a7ce94e6a551194cef7364e60",
+      "sourceCategory": "screen-workflow",
+      "duration": 6.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "demo-drag-asset-drop",
+      "promptSha256": "891622119917ceb888166f9d014ef27d825ba51a2cf37130a8afbcf56e63faa7",
+      "sourceCategory": "screen-workflow",
+      "duration": 6.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "demo-form-to-dashboard",
+      "promptSha256": "81173732df1652940fa3477b2c5c571d3f9a3dd8b9c21ce58d00926c5a5ea66b",
+      "sourceCategory": "screen-workflow",
+      "duration": 6.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "demo-image-crop-reframe",
+      "promptSha256": "f75f6538a189cf2cf9d4228c70ba825ecc9d5a3c79da82f1cb6f3bbdbfce4606",
+      "sourceCategory": "screen-workflow",
+      "duration": 6.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "demo-infinite-canvas-route",
+      "promptSha256": "d7f15ace28b4815624d68c419d5a401cc6272aea5d75a7adab1e75ed9a4dcca4",
+      "sourceCategory": "screen-workflow",
+      "duration": 6.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "demo-inspector-live-style",
+      "promptSha256": "0d31a78d6448203d1e3e1a2da71d5b45417e247fd147570c3bff17c991c5cd84",
+      "sourceCategory": "screen-workflow",
+      "duration": 6.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "demo-keyboard-workflow",
+      "promptSha256": "ce0b1c25a237cefcaa3c614eac5543defbb2c5f4c039afce5959dae167158867",
+      "sourceCategory": "screen-workflow",
+      "duration": 6.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "demo-multi-cursor-handoff",
+      "promptSha256": "36d8313cc07ea33b214feab6e9af7b44e0435124a62536945e9a6f405389b407",
+      "sourceCategory": "screen-workflow",
+      "duration": 6.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "demo-node-connect-run",
+      "promptSha256": "e4bf97ac12a382bb4d7dc5f941261f3a6cde220c935961a82ad7aec752a551b7",
+      "sourceCategory": "screen-workflow",
+      "duration": 6.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "demo-responsive-canvas-reflow",
+      "promptSha256": "0429e6ade31d80413a3b26088443e821cb21e6358753fcdf1a892d270be33879",
+      "sourceCategory": "screen-workflow",
+      "duration": 6.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "demo-scroll-section-magnify",
+      "promptSha256": "63587d0e25934e59866f94b06d2489897ecf4f67ba3077b3a0c0b127699b8cc1",
+      "sourceCategory": "screen-workflow",
+      "duration": 6.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "demo-scrub-timeline-zoom",
+      "promptSha256": "d830dcdacd1571645e678674b32fcc4aea6abaf62d346d92bffd7af02687de9e",
+      "sourceCategory": "screen-workflow",
+      "duration": 6.0,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "demo-search-result-tunnel",
+      "promptSha256": "5dc5ae2566c7cba02d371a6ef94de399328126e03f86b34a744106e539743994",
+      "sourceCategory": "screen-workflow",
+      "duration": 6.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "demo-selection-marquee-group",
+      "promptSha256": "f990733483198bc2fa90984bf42d076d8fcbbd5ebaedde0603b5f2b11fc1a968",
+      "sourceCategory": "screen-workflow",
+      "duration": 6.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "demo-split-editor-preview",
+      "promptSha256": "45f69f90ee7c3e14549ac211a9b4dd8072850902a9cda58c7c01b9a4f51c6bc0",
+      "sourceCategory": "screen-workflow",
+      "duration": 6.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "demo-tab-context-switch",
+      "promptSha256": "7b0fc60678ae13fcb6365b8a1214c38c3e7c609e2465f5becb6cd42a9fe680af",
+      "sourceCategory": "screen-workflow",
+      "duration": 6.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "demo-table-filter-sort",
+      "promptSha256": "b2bbaa757cfe6a45da46c8ad6320503775d51df4e6b78a4987d0be8ba603d732",
+      "sourceCategory": "screen-workflow",
+      "duration": 6.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "demo-version-history-peel",
+      "promptSha256": "46fe98caf0d8e1f55ac99c26d0870781a5086cfcb27da3b3ff5c8d8d229de185",
+      "sourceCategory": "screen-workflow",
+      "duration": 6.5,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "explain-compare-sync-workflows",
+      "promptSha256": "05355587db4b12fa761d74596db4e18d2b745d03d910d6c63c843e53a720dc0c",
+      "sourceCategory": "recording-marketing",
+      "duration": 7.4,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "explain-evidence-source-to-quote",
+      "promptSha256": "a1abb465b2735a7b8045d2ff9d7e5889ca435768847830b91276ded06d2c4733",
+      "sourceCategory": "recording-marketing",
+      "duration": 5.2,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "explain-export-format-fanout",
+      "promptSha256": "cf7d21d9f29c41d4e7060c8cab6dee0abf2a276125ce1fed2d5d582dd0aed776",
+      "sourceCategory": "recording-marketing",
+      "duration": 6.9,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "explain-feature-priority-matrix",
+      "promptSha256": "5be280d57a677ed87577e32b460bfdfe4810a5e3733c3d63bd363764ff331431",
+      "sourceCategory": "recording-marketing",
+      "duration": 7.4,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "explain-metric-waterfall-impact",
+      "promptSha256": "cef6009bfc0910661f43c95a5e8ea58d91b8e4f9ab9fbfe226fb9f897c68e59f",
+      "sourceCategory": "recording-marketing",
+      "duration": 6.8,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "explain-objection-answer-stack",
+      "promptSha256": "3e88db17d2e9266e45ad32e2d6205f870ffd2fc4f9720894ab8b78ea94ab9725",
+      "sourceCategory": "recording-marketing",
+      "duration": 7.4,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "explain-result-detail-triptych",
+      "promptSha256": "d13897ff155511b8b3e110d8b5fbe26051fb6d4b7440b703a2884e48959ba395",
+      "sourceCategory": "recording-marketing",
+      "duration": 7.4,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "explain-steps-route-map",
+      "promptSha256": "2d2cfc220213470f5244da7577dfd449f6747c0a91dd4d74dc0720fac4aa2124",
+      "sourceCategory": "recording-marketing",
+      "duration": 6.0,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "explain-time-compression-bridge",
+      "promptSha256": "ab4d2ce9bc4c3866bc5a638892796f5d888edbb97c0a0a514225e68b11f5a574",
+      "sourceCategory": "recording-marketing",
+      "duration": 7.4,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "explain-workflow-branch-decision",
+      "promptSha256": "d11d642533859ed3bd9736f6bbec46819a6a1e7d65485c71b86371f96ef9b1a3",
+      "sourceCategory": "recording-marketing",
+      "duration": 6.2,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "record-camera-tour",
+      "promptSha256": "b21d6a61fcb5eefcd8bc047528e569c1316e330577343eda9a7e80a315ef54f9",
+      "sourceCategory": "recording-marketing",
+      "duration": 7.4,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "record-context-inset",
+      "promptSha256": "529e15dd4586989b14d25fc13e8cd7cc8acf68c3421477710e8613f19a23fb32",
+      "sourceCategory": "recording-marketing",
+      "duration": 7.4,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "record-cursor-trail-route",
+      "promptSha256": "c9acc3b58af36f73b8ae82f7bf46741cc260ed512d703d435cf6aad1788d16fe",
+      "sourceCategory": "recording-marketing",
+      "duration": 7.4,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "record-detail-freeze-callout",
+      "promptSha256": "22c86229e69471672558809c8d924e93a77991854a093d4c85f054f3b3f7c090",
+      "sourceCategory": "recording-marketing",
+      "duration": 7.4,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "record-linked-loupe",
+      "promptSha256": "5aa4d82b8647031ae96d51ffa8658689abd10eee500c50449e419a432146f074",
+      "sourceCategory": "recording-marketing",
+      "duration": 7.4,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "record-pan-between-controls",
+      "promptSha256": "4431afd549f0bac6d21b27108cd425b793f7c42a422dc6c50d71033a64f53d71",
+      "sourceCategory": "recording-marketing",
+      "duration": 7.4,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "record-portrait-reframe",
+      "promptSha256": "e685d60eddfba154360a4267a7b78cbdbc9a80abc5db00c062242daadf6d09e5",
+      "sourceCategory": "recording-marketing",
+      "duration": 7.4,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "record-proof-replay",
+      "promptSha256": "54390406bdac13f57c306703fbee0489c252e0536cd05fb874cad6a1f1eae75e",
+      "sourceCategory": "recording-marketing",
+      "duration": 7.4,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "record-punch-hold-return",
+      "promptSha256": "6f36f4a85fb61e47b222a17f8bf750ae6bdaddb71bab14147e88b135e2cd9d52",
+      "sourceCategory": "recording-marketing",
+      "duration": 7.4,
+      "canvas": [
+        1080,
+        830
+      ]
+    },
+    {
+      "id": "record-timeline-jump",
+      "promptSha256": "cbbf2714844ecbf91d56346fe5e6d170f8fc995b116a5c501505a854f504d3c5",
+      "sourceCategory": "recording-marketing",
+      "duration": 7.4,
+      "canvas": [
+        1080,
+        830
+      ]
+    }
+  ],
+  "method": "Public page HTML and public JS literals decoded as JSON without executing source scripts. All 160 matching prompts and four pinned scene/transition storyboards read. Independently authored explanations use only abstract geometry and substitute text. No MP4 or external media fetched.",
+  "rights": "Original references remain reference-only or retain their original declared rights. Source inspection bodies are evidence, not independently licensed asset exports. Only Motion Lab explanatory CSS and DOM are CC0-1.0.",
+  "robots": "Public /sharings/ paths allowed by current robots. No CHA /api/, account, login or restricted paths accessed."
+}

@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Disallow: /auth
+Disallow: /api/
+Disallow: /crm/
+Disallow: /.lovable/
+Disallow: /.mcp/
+Disallow: /mcp
+Sitemap: https://lurestudio.org/sitemap.xml

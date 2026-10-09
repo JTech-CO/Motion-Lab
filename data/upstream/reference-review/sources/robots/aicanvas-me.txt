@@ -1,0 +1,61 @@
+User-Agent: *
+Allow: /
+Disallow: /ideation
+Disallow: /ideation/
+
+User-Agent: GPTBot
+Allow: /
+Disallow: /ideation
+Disallow: /ideation/
+
+User-Agent: OAI-SearchBot
+Allow: /
+Disallow: /ideation
+Disallow: /ideation/
+
+User-Agent: ChatGPT-User
+Allow: /
+Disallow: /ideation
+Disallow: /ideation/
+
+User-Agent: ClaudeBot
+Allow: /
+Disallow: /ideation
+Disallow: /ideation/
+
+User-Agent: Claude-User
+Allow: /
+Disallow: /ideation
+Disallow: /ideation/
+
+User-Agent: Claude-SearchBot
+Allow: /
+Disallow: /ideation
+Disallow: /ideation/
+
+User-Agent: Claude-Web
+Allow: /
+Disallow: /ideation
+Disallow: /ideation/
+
+User-Agent: anthropic-ai
+Allow: /
+Disallow: /ideation
+Disallow: /ideation/
+
+User-Agent: PerplexityBot
+Allow: /
+Disallow: /ideation
+Disallow: /ideation/
+
+User-Agent: Google-Extended
+Allow: /
+Disallow: /ideation
+Disallow: /ideation/
+
+User-Agent: CCBot
+Allow: /
+Disallow: /ideation
+Disallow: /ideation/
+
+Sitemap: https://aicanvas.me/sitemap.xml

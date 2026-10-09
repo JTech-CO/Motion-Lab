@@ -1,0 +1,1224 @@
+# ===========================================
+# Atlan robots.txt Configuration
+# Last updated: 02/23/2026
+# ===========================================
+
+# ---- TRADITIONAL SEARCH CRAWLERS ----
+User-agent: Googlebot
+Allow: /
+# Block all internal tracking parameters
+Disallow: /*?ref=
+Disallow: /*&ref=
+Disallow: /*?tour=
+Disallow: /*&tour=
+Disallow: /*?tab=
+Disallow: /*&tab=
+Disallow: /*?partner=
+Disallow: /*&partner=
+Disallow: /*?name=
+Disallow: /*&name=
+Disallow: /*?wtime=
+Disallow: /*&wtime=
+Disallow: /*?363c93cb_page=
+Disallow: /*&363c93cb_page=
+Disallow: /*?ashby_jid=
+Disallow: /*&ashby_jid=
+Disallow: /*?skip_form_until=
+Disallow: /*&skip_form_until=
+Disallow: /*?submissionGuid=
+Disallow: /*&submissionGuid=
+# Block all UTM parameters (prefix match; includes utm_id and broader crawler compatibility)
+Disallow: /*?utm_
+Disallow: /*&utm_
+# Block Google Ads tracking
+Disallow: /*?gclid=
+Disallow: /*&gclid=
+Disallow: /*?gad_source=
+Disallow: /*&gad_source=
+Disallow: /*?hsa_
+Disallow: /*&hsa_
+# Block HubSpot tracking
+Disallow: /*?__hstc=
+Disallow: /*&__hstc=
+Disallow: /*?__hssc=
+Disallow: /*&__hssc=
+Disallow: /*?__hsfp=
+Disallow: /*&__hsfp=
+Disallow: /*?_hsenc=
+Disallow: /*&_hsenc=
+# Block social tracking
+Disallow: /*?fbclid=
+Disallow: /*&fbclid=
+Disallow: /*?msclkid=
+Disallow: /*&msclkid=
+# Block misc tracking
+Disallow: /*?device=
+Disallow: /*&device=
+Disallow: /*?location=
+Disallow: /*&location=
+Disallow: /*?adposition=
+Disallow: /*&adposition=
+Disallow: /*?devicemodel=
+Disallow: /*&devicemodel=
+Disallow: /docs/
+Disallow: /enablement/
+Disallow: /cdn-cgi/
+
+User-agent: Bingbot
+Allow: /
+# Block all internal tracking parameters
+Disallow: /*?ref=
+Disallow: /*&ref=
+Disallow: /*?tour=
+Disallow: /*&tour=
+Disallow: /*?tab=
+Disallow: /*&tab=
+Disallow: /*?partner=
+Disallow: /*&partner=
+Disallow: /*?name=
+Disallow: /*&name=
+Disallow: /*?wtime=
+Disallow: /*&wtime=
+Disallow: /*?363c93cb_page=
+Disallow: /*&363c93cb_page=
+Disallow: /*?ashby_jid=
+Disallow: /*&ashby_jid=
+Disallow: /*?skip_form_until=
+Disallow: /*&skip_form_until=
+Disallow: /*?submissionGuid=
+Disallow: /*&submissionGuid=
+# Block all UTM parameters (prefix match; includes utm_id and broader crawler compatibility)
+Disallow: /*?utm_
+Disallow: /*&utm_
+# Block Google Ads tracking
+Disallow: /*?gclid=
+Disallow: /*&gclid=
+Disallow: /*?gad_source=
+Disallow: /*&gad_source=
+Disallow: /*?hsa_
+Disallow: /*&hsa_
+# Block HubSpot tracking
+Disallow: /*?__hstc=
+Disallow: /*&__hstc=
+Disallow: /*?__hssc=
+Disallow: /*&__hssc=
+Disallow: /*?__hsfp=
+Disallow: /*&__hsfp=
+Disallow: /*?_hsenc=
+Disallow: /*&_hsenc=
+# Block social tracking
+Disallow: /*?fbclid=
+Disallow: /*&fbclid=
+Disallow: /*?msclkid=
+Disallow: /*&msclkid=
+# Block misc tracking
+Disallow: /*?device=
+Disallow: /*&device=
+Disallow: /*?location=
+Disallow: /*&location=
+Disallow: /*?adposition=
+Disallow: /*&adposition=
+Disallow: /*?devicemodel=
+Disallow: /*&devicemodel=
+Disallow: /docs/
+Disallow: /enablement/
+Disallow: /cdn-cgi/
+
+User-agent: DuckDuckBot
+Allow: /
+# Block all internal tracking parameters
+Disallow: /*?ref=
+Disallow: /*&ref=
+Disallow: /*?tour=
+Disallow: /*&tour=
+Disallow: /*?tab=
+Disallow: /*&tab=
+Disallow: /*?partner=
+Disallow: /*&partner=
+Disallow: /*?name=
+Disallow: /*&name=
+Disallow: /*?wtime=
+Disallow: /*&wtime=
+Disallow: /*?363c93cb_page=
+Disallow: /*&363c93cb_page=
+Disallow: /*?ashby_jid=
+Disallow: /*&ashby_jid=
+Disallow: /*?skip_form_until=
+Disallow: /*&skip_form_until=
+Disallow: /*?submissionGuid=
+Disallow: /*&submissionGuid=
+# Block all UTM parameters (prefix match; includes utm_id and broader crawler compatibility)
+Disallow: /*?utm_
+Disallow: /*&utm_
+# Block Google Ads tracking
+Disallow: /*?gclid=
+Disallow: /*&gclid=
+Disallow: /*?gad_source=
+Disallow: /*&gad_source=
+Disallow: /*?hsa_
+Disallow: /*&hsa_
+# Block HubSpot tracking
+Disallow: /*?__hstc=
+Disallow: /*&__hstc=
+Disallow: /*?__hssc=
+Disallow: /*&__hssc=
+Disallow: /*?__hsfp=
+Disallow: /*&__hsfp=
+Disallow: /*?_hsenc=
+Disallow: /*&_hsenc=
+# Block social tracking
+Disallow: /*?fbclid=
+Disallow: /*&fbclid=
+Disallow: /*?msclkid=
+Disallow: /*&msclkid=
+# Block misc tracking
+Disallow: /*?device=
+Disallow: /*&device=
+Disallow: /*?location=
+Disallow: /*&location=
+Disallow: /*?adposition=
+Disallow: /*&adposition=
+Disallow: /*?devicemodel=
+Disallow: /*&devicemodel=
+Disallow: /docs/
+Disallow: /enablement/
+Disallow: /cdn-cgi/
+
+# ---- OPENAI CRAWLERS ----
+User-agent: OAI-SearchBot
+Allow: /
+# Block all internal tracking parameters
+Disallow: /*?ref=
+Disallow: /*&ref=
+Disallow: /*?tour=
+Disallow: /*&tour=
+Disallow: /*?tab=
+Disallow: /*&tab=
+Disallow: /*?partner=
+Disallow: /*&partner=
+Disallow: /*?name=
+Disallow: /*&name=
+Disallow: /*?wtime=
+Disallow: /*&wtime=
+Disallow: /*?363c93cb_page=
+Disallow: /*&363c93cb_page=
+Disallow: /*?ashby_jid=
+Disallow: /*&ashby_jid=
+Disallow: /*?skip_form_until=
+Disallow: /*&skip_form_until=
+Disallow: /*?submissionGuid=
+Disallow: /*&submissionGuid=
+# Block all UTM parameters (prefix match; includes utm_id and broader crawler compatibility)
+Disallow: /*?utm_
+Disallow: /*&utm_
+# Block Google Ads tracking
+Disallow: /*?gclid=
+Disallow: /*&gclid=
+Disallow: /*?gad_source=
+Disallow: /*&gad_source=
+Disallow: /*?hsa_
+Disallow: /*&hsa_
+# Block HubSpot tracking
+Disallow: /*?__hstc=
+Disallow: /*&__hstc=
+Disallow: /*?__hssc=
+Disallow: /*&__hssc=
+Disallow: /*?__hsfp=
+Disallow: /*&__hsfp=
+Disallow: /*?_hsenc=
+Disallow: /*&_hsenc=
+# Block social tracking
+Disallow: /*?fbclid=
+Disallow: /*&fbclid=
+Disallow: /*?msclkid=
+Disallow: /*&msclkid=
+# Block misc tracking
+Disallow: /*?device=
+Disallow: /*&device=
+Disallow: /*?location=
+Disallow: /*&location=
+Disallow: /*?adposition=
+Disallow: /*&adposition=
+Disallow: /*?devicemodel=
+Disallow: /*&devicemodel=
+Disallow: /docs/
+Disallow: /enablement/
+Disallow: /cdn-cgi/
+
+User-agent: ChatGPT-User
+Allow: /
+# Block all internal tracking parameters
+Disallow: /*?ref=
+Disallow: /*&ref=
+Disallow: /*?tour=
+Disallow: /*&tour=
+Disallow: /*?tab=
+Disallow: /*&tab=
+Disallow: /*?partner=
+Disallow: /*&partner=
+Disallow: /*?name=
+Disallow: /*&name=
+Disallow: /*?wtime=
+Disallow: /*&wtime=
+Disallow: /*?363c93cb_page=
+Disallow: /*&363c93cb_page=
+Disallow: /*?ashby_jid=
+Disallow: /*&ashby_jid=
+Disallow: /*?skip_form_until=
+Disallow: /*&skip_form_until=
+Disallow: /*?submissionGuid=
+Disallow: /*&submissionGuid=
+# Block all UTM parameters (prefix match; includes utm_id and broader crawler compatibility)
+Disallow: /*?utm_
+Disallow: /*&utm_
+# Block Google Ads tracking
+Disallow: /*?gclid=
+Disallow: /*&gclid=
+Disallow: /*?gad_source=
+Disallow: /*&gad_source=
+Disallow: /*?hsa_
+Disallow: /*&hsa_
+# Block HubSpot tracking
+Disallow: /*?__hstc=
+Disallow: /*&__hstc=
+Disallow: /*?__hssc=
+Disallow: /*&__hssc=
+Disallow: /*?__hsfp=
+Disallow: /*&__hsfp=
+Disallow: /*?_hsenc=
+Disallow: /*&_hsenc=
+# Block social tracking
+Disallow: /*?fbclid=
+Disallow: /*&fbclid=
+Disallow: /*?msclkid=
+Disallow: /*&msclkid=
+# Block misc tracking
+Disallow: /*?device=
+Disallow: /*&device=
+Disallow: /*?location=
+Disallow: /*&location=
+Disallow: /*?adposition=
+Disallow: /*&adposition=
+Disallow: /*?devicemodel=
+Disallow: /*&devicemodel=
+Disallow: /docs/
+Disallow: /enablement/
+Disallow: /cdn-cgi/
+
+User-agent: GPTBot
+Allow: /
+# Block all internal tracking parameters
+Disallow: /*?ref=
+Disallow: /*&ref=
+Disallow: /*?tour=
+Disallow: /*&tour=
+Disallow: /*?tab=
+Disallow: /*&tab=
+Disallow: /*?partner=
+Disallow: /*&partner=
+Disallow: /*?name=
+Disallow: /*&name=
+Disallow: /*?wtime=
+Disallow: /*&wtime=
+Disallow: /*?363c93cb_page=
+Disallow: /*&363c93cb_page=
+Disallow: /*?ashby_jid=
+Disallow: /*&ashby_jid=
+Disallow: /*?skip_form_until=
+Disallow: /*&skip_form_until=
+Disallow: /*?submissionGuid=
+Disallow: /*&submissionGuid=
+# Block all UTM parameters (prefix match; includes utm_id and broader crawler compatibility)
+Disallow: /*?utm_
+Disallow: /*&utm_
+# Block Google Ads tracking
+Disallow: /*?gclid=
+Disallow: /*&gclid=
+Disallow: /*?gad_source=
+Disallow: /*&gad_source=
+Disallow: /*?hsa_
+Disallow: /*&hsa_
+# Block HubSpot tracking
+Disallow: /*?__hstc=
+Disallow: /*&__hstc=
+Disallow: /*?__hssc=
+Disallow: /*&__hssc=
+Disallow: /*?__hsfp=
+Disallow: /*&__hsfp=
+Disallow: /*?_hsenc=
+Disallow: /*&_hsenc=
+# Block social tracking
+Disallow: /*?fbclid=
+Disallow: /*&fbclid=
+Disallow: /*?msclkid=
+Disallow: /*&msclkid=
+# Block misc tracking
+Disallow: /*?device=
+Disallow: /*&device=
+Disallow: /*?location=
+Disallow: /*&location=
+Disallow: /*?adposition=
+Disallow: /*&adposition=
+Disallow: /*?devicemodel=
+Disallow: /*&devicemodel=
+Disallow: /docs/
+Disallow: /enablement/
+Disallow: /cdn-cgi/
+
+# ---- ANTHROPIC CRAWLERS ----
+User-agent: ClaudeBot
+Allow: /
+# Block all internal tracking parameters
+Disallow: /*?ref=
+Disallow: /*&ref=
+Disallow: /*?tour=
+Disallow: /*&tour=
+Disallow: /*?tab=
+Disallow: /*&tab=
+Disallow: /*?partner=
+Disallow: /*&partner=
+Disallow: /*?name=
+Disallow: /*&name=
+Disallow: /*?wtime=
+Disallow: /*&wtime=
+Disallow: /*?363c93cb_page=
+Disallow: /*&363c93cb_page=
+Disallow: /*?ashby_jid=
+Disallow: /*&ashby_jid=
+Disallow: /*?skip_form_until=
+Disallow: /*&skip_form_until=
+Disallow: /*?submissionGuid=
+Disallow: /*&submissionGuid=
+# Block all UTM parameters (prefix match; includes utm_id and broader crawler compatibility)
+Disallow: /*?utm_
+Disallow: /*&utm_
+# Block Google Ads tracking
+Disallow: /*?gclid=
+Disallow: /*&gclid=
+Disallow: /*?gad_source=
+Disallow: /*&gad_source=
+Disallow: /*?hsa_
+Disallow: /*&hsa_
+# Block HubSpot tracking
+Disallow: /*?__hstc=
+Disallow: /*&__hstc=
+Disallow: /*?__hssc=
+Disallow: /*&__hssc=
+Disallow: /*?__hsfp=
+Disallow: /*&__hsfp=
+Disallow: /*?_hsenc=
+Disallow: /*&_hsenc=
+# Block social tracking
+Disallow: /*?fbclid=
+Disallow: /*&fbclid=
+Disallow: /*?msclkid=
+Disallow: /*&msclkid=
+# Block misc tracking
+Disallow: /*?device=
+Disallow: /*&device=
+Disallow: /*?location=
+Disallow: /*&location=
+Disallow: /*?adposition=
+Disallow: /*&adposition=
+Disallow: /*?devicemodel=
+Disallow: /*&devicemodel=
+Disallow: /docs/
+Disallow: /enablement/
+Disallow: /cdn-cgi/
+
+User-agent: Claude-SearchBot
+Allow: /
+# Block all internal tracking parameters
+Disallow: /*?ref=
+Disallow: /*&ref=
+Disallow: /*?tour=
+Disallow: /*&tour=
+Disallow: /*?tab=
+Disallow: /*&tab=
+Disallow: /*?partner=
+Disallow: /*&partner=
+Disallow: /*?name=
+Disallow: /*&name=
+Disallow: /*?wtime=
+Disallow: /*&wtime=
+Disallow: /*?363c93cb_page=
+Disallow: /*&363c93cb_page=
+Disallow: /*?ashby_jid=
+Disallow: /*&ashby_jid=
+Disallow: /*?skip_form_until=
+Disallow: /*&skip_form_until=
+Disallow: /*?submissionGuid=
+Disallow: /*&submissionGuid=
+# Block all UTM parameters (prefix match; includes utm_id and broader crawler compatibility)
+Disallow: /*?utm_
+Disallow: /*&utm_
+# Block Google Ads tracking
+Disallow: /*?gclid=
+Disallow: /*&gclid=
+Disallow: /*?gad_source=
+Disallow: /*&gad_source=
+Disallow: /*?hsa_
+Disallow: /*&hsa_
+# Block HubSpot tracking
+Disallow: /*?__hstc=
+Disallow: /*&__hstc=
+Disallow: /*?__hssc=
+Disallow: /*&__hssc=
+Disallow: /*?__hsfp=
+Disallow: /*&__hsfp=
+Disallow: /*?_hsenc=
+Disallow: /*&_hsenc=
+# Block social tracking
+Disallow: /*?fbclid=
+Disallow: /*&fbclid=
+Disallow: /*?msclkid=
+Disallow: /*&msclkid=
+# Block misc tracking
+Disallow: /*?device=
+Disallow: /*&device=
+Disallow: /*?location=
+Disallow: /*&location=
+Disallow: /*?adposition=
+Disallow: /*&adposition=
+Disallow: /*?devicemodel=
+Disallow: /*&devicemodel=
+Disallow: /docs/
+Disallow: /enablement/
+Disallow: /cdn-cgi/
+
+User-agent: anthropic-ai
+Allow: /
+# Block all internal tracking parameters
+Disallow: /*?ref=
+Disallow: /*&ref=
+Disallow: /*?tour=
+Disallow: /*&tour=
+Disallow: /*?tab=
+Disallow: /*&tab=
+Disallow: /*?partner=
+Disallow: /*&partner=
+Disallow: /*?name=
+Disallow: /*&name=
+Disallow: /*?wtime=
+Disallow: /*&wtime=
+Disallow: /*?363c93cb_page=
+Disallow: /*&363c93cb_page=
+Disallow: /*?ashby_jid=
+Disallow: /*&ashby_jid=
+Disallow: /*?skip_form_until=
+Disallow: /*&skip_form_until=
+Disallow: /*?submissionGuid=
+Disallow: /*&submissionGuid=
+# Block all UTM parameters (prefix match; includes utm_id and broader crawler compatibility)
+Disallow: /*?utm_
+Disallow: /*&utm_
+# Block Google Ads tracking
+Disallow: /*?gclid=
+Disallow: /*&gclid=
+Disallow: /*?gad_source=
+Disallow: /*&gad_source=
+Disallow: /*?hsa_
+Disallow: /*&hsa_
+# Block HubSpot tracking
+Disallow: /*?__hstc=
+Disallow: /*&__hstc=
+Disallow: /*?__hssc=
+Disallow: /*&__hssc=
+Disallow: /*?__hsfp=
+Disallow: /*&__hsfp=
+Disallow: /*?_hsenc=
+Disallow: /*&_hsenc=
+# Block social tracking
+Disallow: /*?fbclid=
+Disallow: /*&fbclid=
+Disallow: /*?msclkid=
+Disallow: /*&msclkid=
+# Block misc tracking
+Disallow: /*?device=
+Disallow: /*&device=
+Disallow: /*?location=
+Disallow: /*&location=
+Disallow: /*?adposition=
+Disallow: /*&adposition=
+Disallow: /*?devicemodel=
+Disallow: /*&devicemodel=
+Disallow: /docs/
+Disallow: /enablement/
+Disallow: /cdn-cgi/
+
+User-agent: Claude-Web
+Allow: /
+# Block all internal tracking parameters
+Disallow: /*?ref=
+Disallow: /*&ref=
+Disallow: /*?tour=
+Disallow: /*&tour=
+Disallow: /*?tab=
+Disallow: /*&tab=
+Disallow: /*?partner=
+Disallow: /*&partner=
+Disallow: /*?name=
+Disallow: /*&name=
+Disallow: /*?wtime=
+Disallow: /*&wtime=
+Disallow: /*?363c93cb_page=
+Disallow: /*&363c93cb_page=
+Disallow: /*?ashby_jid=
+Disallow: /*&ashby_jid=
+Disallow: /*?skip_form_until=
+Disallow: /*&skip_form_until=
+Disallow: /*?submissionGuid=
+Disallow: /*&submissionGuid=
+# Block all UTM parameters (prefix match; includes utm_id and broader crawler compatibility)
+Disallow: /*?utm_
+Disallow: /*&utm_
+# Block Google Ads tracking
+Disallow: /*?gclid=
+Disallow: /*&gclid=
+Disallow: /*?gad_source=
+Disallow: /*&gad_source=
+Disallow: /*?hsa_
+Disallow: /*&hsa_
+# Block HubSpot tracking
+Disallow: /*?__hstc=
+Disallow: /*&__hstc=
+Disallow: /*?__hssc=
+Disallow: /*&__hssc=
+Disallow: /*?__hsfp=
+Disallow: /*&__hsfp=
+Disallow: /*?_hsenc=
+Disallow: /*&_hsenc=
+# Block social tracking
+Disallow: /*?fbclid=
+Disallow: /*&fbclid=
+Disallow: /*?msclkid=
+Disallow: /*&msclkid=
+# Block misc tracking
+Disallow: /*?device=
+Disallow: /*&device=
+Disallow: /*?location=
+Disallow: /*&location=
+Disallow: /*?adposition=
+Disallow: /*&adposition=
+Disallow: /*?devicemodel=
+Disallow: /*&devicemodel=
+Disallow: /docs/
+Disallow: /enablement/
+Disallow: /cdn-cgi/
+
+# ---- PERPLEXITY CRAWLERS ----
+User-agent: PerplexityBot
+Allow: /
+# Block all internal tracking parameters
+Disallow: /*?ref=
+Disallow: /*&ref=
+Disallow: /*?tour=
+Disallow: /*&tour=
+Disallow: /*?tab=
+Disallow: /*&tab=
+Disallow: /*?partner=
+Disallow: /*&partner=
+Disallow: /*?name=
+Disallow: /*&name=
+Disallow: /*?wtime=
+Disallow: /*&wtime=
+Disallow: /*?363c93cb_page=
+Disallow: /*&363c93cb_page=
+Disallow: /*?ashby_jid=
+Disallow: /*&ashby_jid=
+Disallow: /*?skip_form_until=
+Disallow: /*&skip_form_until=
+Disallow: /*?submissionGuid=
+Disallow: /*&submissionGuid=
+# Block all UTM parameters (prefix match; includes utm_id and broader crawler compatibility)
+Disallow: /*?utm_
+Disallow: /*&utm_
+# Block Google Ads tracking
+Disallow: /*?gclid=
+Disallow: /*&gclid=
+Disallow: /*?gad_source=
+Disallow: /*&gad_source=
+Disallow: /*?hsa_
+Disallow: /*&hsa_
+# Block HubSpot tracking
+Disallow: /*?__hstc=
+Disallow: /*&__hstc=
+Disallow: /*?__hssc=
+Disallow: /*&__hssc=
+Disallow: /*?__hsfp=
+Disallow: /*&__hsfp=
+Disallow: /*?_hsenc=
+Disallow: /*&_hsenc=
+# Block social tracking
+Disallow: /*?fbclid=
+Disallow: /*&fbclid=
+Disallow: /*?msclkid=
+Disallow: /*&msclkid=
+# Block misc tracking
+Disallow: /*?device=
+Disallow: /*&device=
+Disallow: /*?location=
+Disallow: /*&location=
+Disallow: /*?adposition=
+Disallow: /*&adposition=
+Disallow: /*?devicemodel=
+Disallow: /*&devicemodel=
+Disallow: /docs/
+Disallow: /enablement/
+Disallow: /cdn-cgi/
+
+User-agent: Perplexity-User
+Allow: /
+# Block all internal tracking parameters
+Disallow: /*?ref=
+Disallow: /*&ref=
+Disallow: /*?tour=
+Disallow: /*&tour=
+Disallow: /*?tab=
+Disallow: /*&tab=
+Disallow: /*?partner=
+Disallow: /*&partner=
+Disallow: /*?name=
+Disallow: /*&name=
+Disallow: /*?wtime=
+Disallow: /*&wtime=
+Disallow: /*?363c93cb_page=
+Disallow: /*&363c93cb_page=
+Disallow: /*?ashby_jid=
+Disallow: /*&ashby_jid=
+Disallow: /*?skip_form_until=
+Disallow: /*&skip_form_until=
+Disallow: /*?submissionGuid=
+Disallow: /*&submissionGuid=
+# Block all UTM parameters (prefix match; includes utm_id and broader crawler compatibility)
+Disallow: /*?utm_
+Disallow: /*&utm_
+# Block Google Ads tracking
+Disallow: /*?gclid=
+Disallow: /*&gclid=
+Disallow: /*?gad_source=
+Disallow: /*&gad_source=
+Disallow: /*?hsa_
+Disallow: /*&hsa_
+# Block HubSpot tracking
+Disallow: /*?__hstc=
+Disallow: /*&__hstc=
+Disallow: /*?__hssc=
+Disallow: /*&__hssc=
+Disallow: /*?__hsfp=
+Disallow: /*&__hsfp=
+Disallow: /*?_hsenc=
+Disallow: /*&_hsenc=
+# Block social tracking
+Disallow: /*?fbclid=
+Disallow: /*&fbclid=
+Disallow: /*?msclkid=
+Disallow: /*&msclkid=
+# Block misc tracking
+Disallow: /*?device=
+Disallow: /*&device=
+Disallow: /*?location=
+Disallow: /*&location=
+Disallow: /*?adposition=
+Disallow: /*&adposition=
+Disallow: /*?devicemodel=
+Disallow: /*&devicemodel=
+Disallow: /docs/
+Disallow: /enablement/
+Disallow: /cdn-cgi/
+
+# ---- GOOGLE AI CRAWLERS ----
+User-agent: Google-Extended
+Allow: /
+# Block all internal tracking parameters
+Disallow: /*?ref=
+Disallow: /*&ref=
+Disallow: /*?tour=
+Disallow: /*&tour=
+Disallow: /*?tab=
+Disallow: /*&tab=
+Disallow: /*?partner=
+Disallow: /*&partner=
+Disallow: /*?name=
+Disallow: /*&name=
+Disallow: /*?wtime=
+Disallow: /*&wtime=
+Disallow: /*?363c93cb_page=
+Disallow: /*&363c93cb_page=
+Disallow: /*?ashby_jid=
+Disallow: /*&ashby_jid=
+Disallow: /*?skip_form_until=
+Disallow: /*&skip_form_until=
+Disallow: /*?submissionGuid=
+Disallow: /*&submissionGuid=
+# Block all UTM parameters (prefix match; includes utm_id and broader crawler compatibility)
+Disallow: /*?utm_
+Disallow: /*&utm_
+# Block Google Ads tracking
+Disallow: /*?gclid=
+Disallow: /*&gclid=
+Disallow: /*?gad_source=
+Disallow: /*&gad_source=
+Disallow: /*?hsa_
+Disallow: /*&hsa_
+# Block HubSpot tracking
+Disallow: /*?__hstc=
+Disallow: /*&__hstc=
+Disallow: /*?__hssc=
+Disallow: /*&__hssc=
+Disallow: /*?__hsfp=
+Disallow: /*&__hsfp=
+Disallow: /*?_hsenc=
+Disallow: /*&_hsenc=
+# Block social tracking
+Disallow: /*?fbclid=
+Disallow: /*&fbclid=
+Disallow: /*?msclkid=
+Disallow: /*&msclkid=
+# Block misc tracking
+Disallow: /*?device=
+Disallow: /*&device=
+Disallow: /*?location=
+Disallow: /*&location=
+Disallow: /*?adposition=
+Disallow: /*&adposition=
+Disallow: /*?devicemodel=
+Disallow: /*&devicemodel=
+Disallow: /docs/
+Disallow: /enablement/
+Disallow: /cdn-cgi/
+
+User-agent: GoogleOther
+Allow: /
+# Block all internal tracking parameters
+Disallow: /*?ref=
+Disallow: /*&ref=
+Disallow: /*?tour=
+Disallow: /*&tour=
+Disallow: /*?tab=
+Disallow: /*&tab=
+Disallow: /*?partner=
+Disallow: /*&partner=
+Disallow: /*?name=
+Disallow: /*&name=
+Disallow: /*?wtime=
+Disallow: /*&wtime=
+Disallow: /*?363c93cb_page=
+Disallow: /*&363c93cb_page=
+Disallow: /*?ashby_jid=
+Disallow: /*&ashby_jid=
+Disallow: /*?skip_form_until=
+Disallow: /*&skip_form_until=
+Disallow: /*?submissionGuid=
+Disallow: /*&submissionGuid=
+# Block all UTM parameters (prefix match; includes utm_id and broader crawler compatibility)
+Disallow: /*?utm_
+Disallow: /*&utm_
+# Block Google Ads tracking
+Disallow: /*?gclid=
+Disallow: /*&gclid=
+Disallow: /*?gad_source=
+Disallow: /*&gad_source=
+Disallow: /*?hsa_
+Disallow: /*&hsa_
+# Block HubSpot tracking
+Disallow: /*?__hstc=
+Disallow: /*&__hstc=
+Disallow: /*?__hssc=
+Disallow: /*&__hssc=
+Disallow: /*?__hsfp=
+Disallow: /*&__hsfp=
+Disallow: /*?_hsenc=
+Disallow: /*&_hsenc=
+# Block social tracking
+Disallow: /*?fbclid=
+Disallow: /*&fbclid=
+Disallow: /*?msclkid=
+Disallow: /*&msclkid=
+# Block misc tracking
+Disallow: /*?device=
+Disallow: /*&device=
+Disallow: /*?location=
+Disallow: /*&location=
+Disallow: /*?adposition=
+Disallow: /*&adposition=
+Disallow: /*?devicemodel=
+Disallow: /*&devicemodel=
+Disallow: /docs/
+Disallow: /enablement/
+Disallow: /cdn-cgi/
+
+# ---- OTHER AI CRAWLERS ----
+User-agent: Meta-ExternalAgent
+Allow: /
+# Block all internal tracking parameters
+Disallow: /*?ref=
+Disallow: /*&ref=
+Disallow: /*?tour=
+Disallow: /*&tour=
+Disallow: /*?tab=
+Disallow: /*&tab=
+Disallow: /*?partner=
+Disallow: /*&partner=
+Disallow: /*?name=
+Disallow: /*&name=
+Disallow: /*?wtime=
+Disallow: /*&wtime=
+Disallow: /*?363c93cb_page=
+Disallow: /*&363c93cb_page=
+Disallow: /*?ashby_jid=
+Disallow: /*&ashby_jid=
+Disallow: /*?skip_form_until=
+Disallow: /*&skip_form_until=
+Disallow: /*?submissionGuid=
+Disallow: /*&submissionGuid=
+# Block all UTM parameters (prefix match; includes utm_id and broader crawler compatibility)
+Disallow: /*?utm_
+Disallow: /*&utm_
+# Block Google Ads tracking
+Disallow: /*?gclid=
+Disallow: /*&gclid=
+Disallow: /*?gad_source=
+Disallow: /*&gad_source=
+Disallow: /*?hsa_
+Disallow: /*&hsa_
+# Block HubSpot tracking
+Disallow: /*?__hstc=
+Disallow: /*&__hstc=
+Disallow: /*?__hssc=
+Disallow: /*&__hssc=
+Disallow: /*?__hsfp=
+Disallow: /*&__hsfp=
+Disallow: /*?_hsenc=
+Disallow: /*&_hsenc=
+# Block social tracking
+Disallow: /*?fbclid=
+Disallow: /*&fbclid=
+Disallow: /*?msclkid=
+Disallow: /*&msclkid=
+# Block misc tracking
+Disallow: /*?device=
+Disallow: /*&device=
+Disallow: /*?location=
+Disallow: /*&location=
+Disallow: /*?adposition=
+Disallow: /*&adposition=
+Disallow: /*?devicemodel=
+Disallow: /*&devicemodel=
+Disallow: /docs/
+Disallow: /enablement/
+Disallow: /cdn-cgi/
+
+User-agent: Applebot-Extended
+Allow: /
+# Block all internal tracking parameters
+Disallow: /*?ref=
+Disallow: /*&ref=
+Disallow: /*?tour=
+Disallow: /*&tour=
+Disallow: /*?tab=
+Disallow: /*&tab=
+Disallow: /*?partner=
+Disallow: /*&partner=
+Disallow: /*?name=
+Disallow: /*&name=
+Disallow: /*?wtime=
+Disallow: /*&wtime=
+Disallow: /*?363c93cb_page=
+Disallow: /*&363c93cb_page=
+Disallow: /*?ashby_jid=
+Disallow: /*&ashby_jid=
+Disallow: /*?skip_form_until=
+Disallow: /*&skip_form_until=
+Disallow: /*?submissionGuid=
+Disallow: /*&submissionGuid=
+# Block all UTM parameters (prefix match; includes utm_id and broader crawler compatibility)
+Disallow: /*?utm_
+Disallow: /*&utm_
+# Block Google Ads tracking
+Disallow: /*?gclid=
+Disallow: /*&gclid=
+Disallow: /*?gad_source=
+Disallow: /*&gad_source=
+Disallow: /*?hsa_
+Disallow: /*&hsa_
+# Block HubSpot tracking
+Disallow: /*?__hstc=
+Disallow: /*&__hstc=
+Disallow: /*?__hssc=
+Disallow: /*&__hssc=
+Disallow: /*?__hsfp=
+Disallow: /*&__hsfp=
+Disallow: /*?_hsenc=
+Disallow: /*&_hsenc=
+# Block social tracking
+Disallow: /*?fbclid=
+Disallow: /*&fbclid=
+Disallow: /*?msclkid=
+Disallow: /*&msclkid=
+# Block misc tracking
+Disallow: /*?device=
+Disallow: /*&device=
+Disallow: /*?location=
+Disallow: /*&location=
+Disallow: /*?adposition=
+Disallow: /*&adposition=
+Disallow: /*?devicemodel=
+Disallow: /*&devicemodel=
+Disallow: /docs/
+Disallow: /enablement/
+Disallow: /cdn-cgi/
+
+User-agent: GrokBot
+Allow: /
+# Block all internal tracking parameters
+Disallow: /*?ref=
+Disallow: /*&ref=
+Disallow: /*?tour=
+Disallow: /*&tour=
+Disallow: /*?tab=
+Disallow: /*&tab=
+Disallow: /*?partner=
+Disallow: /*&partner=
+Disallow: /*?name=
+Disallow: /*&name=
+Disallow: /*?wtime=
+Disallow: /*&wtime=
+Disallow: /*?363c93cb_page=
+Disallow: /*&363c93cb_page=
+Disallow: /*?ashby_jid=
+Disallow: /*&ashby_jid=
+Disallow: /*?skip_form_until=
+Disallow: /*&skip_form_until=
+Disallow: /*?submissionGuid=
+Disallow: /*&submissionGuid=
+# Block all UTM parameters (prefix match; includes utm_id and broader crawler compatibility)
+Disallow: /*?utm_
+Disallow: /*&utm_
+# Block Google Ads tracking
+Disallow: /*?gclid=
+Disallow: /*&gclid=
+Disallow: /*?gad_source=
+Disallow: /*&gad_source=
+Disallow: /*?hsa_
+Disallow: /*&hsa_
+# Block HubSpot tracking
+Disallow: /*?__hstc=
+Disallow: /*&__hstc=
+Disallow: /*?__hssc=
+Disallow: /*&__hssc=
+Disallow: /*?__hsfp=
+Disallow: /*&__hsfp=
+Disallow: /*?_hsenc=
+Disallow: /*&_hsenc=
+# Block social tracking
+Disallow: /*?fbclid=
+Disallow: /*&fbclid=
+Disallow: /*?msclkid=
+Disallow: /*&msclkid=
+# Block misc tracking
+Disallow: /*?device=
+Disallow: /*&device=
+Disallow: /*?location=
+Disallow: /*&location=
+Disallow: /*?adposition=
+Disallow: /*&adposition=
+Disallow: /*?devicemodel=
+Disallow: /*&devicemodel=
+Disallow: /docs/
+Disallow: /enablement/
+Disallow: /cdn-cgi/
+
+User-agent: AmazonBot
+Allow: /
+# Block all internal tracking parameters
+Disallow: /*?ref=
+Disallow: /*&ref=
+Disallow: /*?tour=
+Disallow: /*&tour=
+Disallow: /*?tab=
+Disallow: /*&tab=
+Disallow: /*?partner=
+Disallow: /*&partner=
+Disallow: /*?name=
+Disallow: /*&name=
+Disallow: /*?wtime=
+Disallow: /*&wtime=
+Disallow: /*?363c93cb_page=
+Disallow: /*&363c93cb_page=
+Disallow: /*?ashby_jid=
+Disallow: /*&ashby_jid=
+Disallow: /*?skip_form_until=
+Disallow: /*&skip_form_until=
+Disallow: /*?submissionGuid=
+Disallow: /*&submissionGuid=
+# Block all UTM parameters (prefix match; includes utm_id and broader crawler compatibility)
+Disallow: /*?utm_
+Disallow: /*&utm_
+# Block Google Ads tracking
+Disallow: /*?gclid=
+Disallow: /*&gclid=
+Disallow: /*?gad_source=
+Disallow: /*&gad_source=
+Disallow: /*?hsa_
+Disallow: /*&hsa_
+# Block HubSpot tracking
+Disallow: /*?__hstc=
+Disallow: /*&__hstc=
+Disallow: /*?__hssc=
+Disallow: /*&__hssc=
+Disallow: /*?__hsfp=
+Disallow: /*&__hsfp=
+Disallow: /*?_hsenc=
+Disallow: /*&_hsenc=
+# Block social tracking
+Disallow: /*?fbclid=
+Disallow: /*&fbclid=
+Disallow: /*?msclkid=
+Disallow: /*&msclkid=
+# Block misc tracking
+Disallow: /*?device=
+Disallow: /*&device=
+Disallow: /*?location=
+Disallow: /*&location=
+Disallow: /*?adposition=
+Disallow: /*&adposition=
+Disallow: /*?devicemodel=
+Disallow: /*&devicemodel=
+Disallow: /docs/
+Disallow: /enablement/
+Disallow: /cdn-cgi/
+
+User-agent: CCBot
+Allow: /
+# Block all internal tracking parameters
+Disallow: /*?ref=
+Disallow: /*&ref=
+Disallow: /*?tour=
+Disallow: /*&tour=
+Disallow: /*?tab=
+Disallow: /*&tab=
+Disallow: /*?partner=
+Disallow: /*&partner=
+Disallow: /*?name=
+Disallow: /*&name=
+Disallow: /*?wtime=
+Disallow: /*&wtime=
+Disallow: /*?363c93cb_page=
+Disallow: /*&363c93cb_page=
+Disallow: /*?ashby_jid=
+Disallow: /*&ashby_jid=
+Disallow: /*?skip_form_until=
+Disallow: /*&skip_form_until=
+Disallow: /*?submissionGuid=
+Disallow: /*&submissionGuid=
+# Block all UTM parameters (prefix match; includes utm_id and broader crawler compatibility)
+Disallow: /*?utm_
+Disallow: /*&utm_
+# Block Google Ads tracking
+Disallow: /*?gclid=
+Disallow: /*&gclid=
+Disallow: /*?gad_source=
+Disallow: /*&gad_source=
+Disallow: /*?hsa_
+Disallow: /*&hsa_
+# Block HubSpot tracking
+Disallow: /*?__hstc=
+Disallow: /*&__hstc=
+Disallow: /*?__hssc=
+Disallow: /*&__hssc=
+Disallow: /*?__hsfp=
+Disallow: /*&__hsfp=
+Disallow: /*?_hsenc=
+Disallow: /*&_hsenc=
+# Block social tracking
+Disallow: /*?fbclid=
+Disallow: /*&fbclid=
+Disallow: /*?msclkid=
+Disallow: /*&msclkid=
+# Block misc tracking
+Disallow: /*?device=
+Disallow: /*&device=
+Disallow: /*?location=
+Disallow: /*&location=
+Disallow: /*?adposition=
+Disallow: /*&adposition=
+Disallow: /*?devicemodel=
+Disallow: /*&devicemodel=
+Disallow: /docs/
+Disallow: /enablement/
+Disallow: /cdn-cgi/
+
+# ---- DEFAULT RULES ----
+User-agent: *
+Allow: /
+# ---- CONTENT SIGNALS (contentsignals.org / draft-romm-aipref-contentsignals) ----
+# Declares how Atlan permits AI systems to use content served from this domain.
+# Stance is deliberately permissive and matches the `Allow: /` posture granted to
+# GPTBot, ClaudeBot, anthropic-ai, PerplexityBot, CCBot, and Google-Extended above:
+# we WANT to be discovered, cited, and answered by AI (context-narrative north star).
+#   search    = use in AI-powered search results          -> yes
+#   ai-input  = use as grounding/RAG input at answer time  -> yes
+#   ai-train  = use to train/fine-tune models              -> yes
+# To restrict any usage, flip the value to `no` (e.g. ai-train=no).
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
+# Block all internal tracking parameters
+Disallow: /*?ref=
+Disallow: /*&ref=
+Disallow: /*?tour=
+Disallow: /*&tour=
+Disallow: /*?tab=
+Disallow: /*&tab=
+Disallow: /*?partner=
+Disallow: /*&partner=
+Disallow: /*?name=
+Disallow: /*&name=
+Disallow: /*?wtime=
+Disallow: /*&wtime=
+Disallow: /*?363c93cb_page=
+Disallow: /*&363c93cb_page=
+Disallow: /*?ashby_jid=
+Disallow: /*&ashby_jid=
+Disallow: /*?skip_form_until=
+Disallow: /*&skip_form_until=
+Disallow: /*?submissionGuid=
+Disallow: /*&submissionGuid=
+# Block all UTM parameters (prefix match; includes utm_id and broader crawler compatibility)
+Disallow: /*?utm_
+Disallow: /*&utm_
+# Block Google Ads tracking
+Disallow: /*?gclid=
+Disallow: /*&gclid=
+Disallow: /*?gad_source=
+Disallow: /*&gad_source=
+Disallow: /*?hsa_
+Disallow: /*&hsa_
+# Block HubSpot tracking
+Disallow: /*?__hstc=
+Disallow: /*&__hstc=
+Disallow: /*?__hssc=
+Disallow: /*&__hssc=
+Disallow: /*?__hsfp=
+Disallow: /*&__hsfp=
+Disallow: /*?_hsenc=
+Disallow: /*&_hsenc=
+# Block social tracking
+Disallow: /*?fbclid=
+Disallow: /*&fbclid=
+Disallow: /*?msclkid=
+Disallow: /*&msclkid=
+# Block misc tracking
+Disallow: /*?device=
+Disallow: /*&device=
+Disallow: /*?location=
+Disallow: /*&location=
+Disallow: /*?adposition=
+Disallow: /*&adposition=
+Disallow: /*?devicemodel=
+Disallow: /*&devicemodel=
+Disallow: /docs/
+Disallow: /enablement/
+Disallow: /cdn-cgi/
+
+# ---- SITEMAPS ----
+Sitemap: https://atlan.com/sitemap.xml

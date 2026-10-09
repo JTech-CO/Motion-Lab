@@ -1,0 +1,9 @@
+# //go away
+# User-agent: *
+# Disallow: /
+
+# //prod setup
+User-agent: *
+Crawl-delay: 6
+#User-agent: DataForSeoBot
+#Disallow: /sketch/*

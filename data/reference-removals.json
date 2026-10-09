@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "removed": [
+    {
+      "id": "ref-interactive-developer",
+      "sourceSha256": "afa3de8211df005917072ac4e3732dbeb2c3a66af0e4f91c00e77ad9147c8a3a",
+      "reason": "The original watch URL contains no video identifier and resolves only to generic YouTube content. The user explicitly requested deletion of inaccessible references.",
+      "status": "broken-link",
+      "verifiedAt": "2026-10-09",
+      "evidence": [
+        {
+          "path": "data/upstream/reference-review/sources/exclusions.json",
+          "sha256": "ae1f8846912988bd86c64f7d2eb2e5939c132a10cbea78732323837b5be8b42f"
+        },
+        {
+          "path": "data/upstream/reference-review/sources/removal-access-evidence.json",
+          "sha256": "04445ab008858dc7a5ae9b902b75556f63278b52a0ed50bf8581c8930418d307",
+          "sourceUrl": "https://www.youtube.com/watch"
+        }
+      ]
+    },
+    {
+      "id": "ref-odorigu",
+      "sourceSha256": "a4ac0253ac4932ffb05e64b218ecea7086dfa800b0a84da4ed894d9e45463203",
+      "reason": "The original public repository returned 404 twice and its official GitHub API endpoint also returned 404 while the owner's API endpoint remained available. An older Exa README extract does not establish current public access.",
+      "status": "broken-link",
+      "verifiedAt": "2026-10-09",
+      "evidence": [
+        {
+          "path": "data/upstream/reference-review/sources/exclusions.json",
+          "sha256": "ae1f8846912988bd86c64f7d2eb2e5939c132a10cbea78732323837b5be8b42f"
+        },
+        {
+          "path": "data/upstream/reference-review/sources/removal-access-evidence.json",
+          "sha256": "04445ab008858dc7a5ae9b902b75556f63278b52a0ed50bf8581c8930418d307",
+          "sourceUrl": "https://github.com/OFF-Proxy/odorigu"
+        }
+      ]
+    },
+    {
+      "id": "ref-astrolabe-studio",
+      "sourceSha256": "c4d25ea6ebe5b952297bf9ec1085b1f1cb097cff5f95531f459749a2503633d4",
+      "reason": "Public HTTPS access failed with a TLS protocol error in both urllib and native Chrome. The user requested deletion of inaccessible references; an earlier cached extract does not repair current public access.",
+      "status": "broken-link",
+      "verifiedAt": "2026-10-09",
+      "evidence": [
+        {
+          "path": "data/upstream/reference-review/sources/exclusions.json",
+          "sha256": "ae1f8846912988bd86c64f7d2eb2e5939c132a10cbea78732323837b5be8b42f"
+        },
+        {
+          "path": "data/upstream/reference-review/sources/removal-access-evidence.json",
+          "sha256": "04445ab008858dc7a5ae9b902b75556f63278b52a0ed50bf8581c8930418d307",
+          "sourceUrl": "https://astrolabe-studio.org/"
+        }
+      ]
+    },
+    {
+      "id": "ref-popmotion-timeline",
+      "sourceSha256": "61ac0e900f2b8b4a8a8f42862e0419cb6cb228ac0186d9b52c1d993d22cadee3",
+      "reason": "The original timeline documentation returned 403 in HEAD and an actual S3 AccessDenied page in native Chrome. The current official repository documents a different API and cannot verify this broken documentation endpoint.",
+      "status": "broken-link",
+      "verifiedAt": "2026-10-09",
+      "evidence": [
+        {
+          "path": "data/upstream/reference-review/sources/exclusions.json",
+          "sha256": "ae1f8846912988bd86c64f7d2eb2e5939c132a10cbea78732323837b5be8b42f"
+        },
+        {
+          "path": "data/upstream/reference-review/sources/removal-access-evidence.json",
+          "sha256": "04445ab008858dc7a5ae9b902b75556f63278b52a0ed50bf8581c8930418d307",
+          "sourceUrl": "https://popmotion.io/api/timeline/"
+        }
+      ]
+    }
+  ]
+}

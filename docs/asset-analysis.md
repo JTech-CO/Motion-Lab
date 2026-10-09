@@ -1,40 +1,69 @@
-# Asset analysis and real previews
+# Classification, previews and original variants
 
-Motion Lab keeps original source identity, code, attribution, license text and provenance. `scripts/analyze.py` adds a separate, reproducible `analysis` object during the build. It does not fetch URLs or execute imported code. Source names, titles and promotional tags do not determine motion effects.
+Motion Lab preserves original source identity, code, exact colors, attribution, license text and provenance. Generated `analysis` adds reproducible classifications and preview limits; it does not fetch URLs or execute imported code. Source titles and brands alone do not establish an effect.
 
 ## Classification
 
-Each entry has `domain`, `assetType`, multiple `effects`, `components`, `techniques`, `properties` and `useCases`. Stored resources use `domain: motion | design`; reference links use `domain: null` and do not contribute to domain totals. `evidence` records the inspection basis, confidence, explanatory text and code signals. `preview` records the supported renderer and its limitations. The vocabulary is shared with CLI, HTTP and MCP in `motionlab/analysis_schema.py`.
+Stored entries use `analysis.domain: motion | design`. Motion contains moving compositions; Design contains static patterns, shapes, palettes, gradients and material images. References use `analysis.domain: null` and do not contribute to the stored-asset count. Preserved variants and reference illustrations are not additional independent assets.
 
-CSS inspection checks actual declarations and animated properties, transformations, opacity, clipping, filter operations, timing, pseudo-elements and supplied DOM. GLSL inspection checks the transition function, texture samples, transformed coordinates, masks and procedural operations. SVG inspection checks vector elements and animation attributes. Palette and gradient analysis uses stored color values. Use cases are structural suggestions; they are not a creative assessment of the original work.
+Each analysis records `assetType`, `effects`, `components`, `techniques`, `properties`, `useCases`, `evidence` and `preview`. The evidence includes inspection basis, confidence, summaries and source signals. Use cases are structural suggestions. The shared vocabulary and query bounds are described in [interfaces](interfaces.md).
 
-Reference links without local code or color data retain `basis: metadata`, low confidence, no inferred effects, and `renderer: none`. Their provider's name is not evidence that an individual asset has a particular behavior. The six newly reviewed Magic UI component links retain their recorded implementation/dependency evidence, but do not execute TSX or synthesize a preview.
+CSS analysis reads declarations, selectors, keyframes, timing and supplied DOM. GLSL analysis reads transition functions, coordinates, masks, texture samples and procedural operations. SVG analysis reads geometry and animation attributes. Color analysis uses actual stored values. Image evidence checks the local image's format, dimensions and digest without inferring a motion effect.
 
-The 58-item expansion adds 40 CSS components, 12 SVG loaders and six component references from five projects. Pinned source URLs, commit IDs, SHA256 hashes and full license notices are recorded in `data/expanded-assets.json`. See [the expansion audit](asset-expansion.md). A collected link does not grant reproduction rights.
+## Stored-asset previews
 
-## Preview host
-
-`dist/preview.js` renders the stored asset. There is no shared rotating-square placeholder.
-
-| Renderer | Actual output | Scope |
+| Renderer | Local output | Scope |
 | --- | --- | --- |
-| CSS | Original keyframes and permitted declarations | Original supplied DOM for components; a visible target for standalone keyframes |
-| GLSL | Original shader between two test textures | Shows the transition algorithm, not the author's original imagery |
-| SVG | Original safe vector geometry and SMIL animation | Scripts, events, external resources and unsafe animation attributes are removed |
-| Palette / gradient | Stored color values | Static color output; no decorative animation |
-| Image | Validated local 1K Color/Diffuse JPEG | Actual material source image; auxiliary PBR channels are not included |
-| None | Explicit absence message | Open the recorded original to review the actual work |
+| CSS | Original supported keyframes and declarations | Supplied component DOM or a visible target for standalone keyframes |
+| GLSL | Original transition shader between two generated test textures | Transition algorithm; source imagery is not included |
+| SVG | Supported original vector geometry and SMIL animation | Independently sanitized markup |
+| Palette / gradient | Exact stored colors and authored gradient stops | Static output |
+| Image | Actual local 1K Color/Diffuse JPEG | Material color map; auxiliary PBR channels are not included |
+| None | Explicit absence message | Consult the original source and recorded limitations |
 
-The GLSL host supplies `progress`, ratio, source textures and default uniforms following the [GL Transitions interface](https://github.com/gl-transitions/gl-transitions). It uses one shared 320×200 WebGL context, a bounded 32-program cache and staggered visible-card updates. Each card receives the actual shader result through its own canvas. Device support and original shader behavior affect the output; compile failures are shown explicitly.
+CSS runs in an iframe without script permission, under a restrictive CSP and bounded selector/property/DOM allow lists. External URL references, imports and active content are blocked. SVG is reconstructed through DOM APIs; scripts, events, external resources, entities and doctypes are rejected. Only permitted local fragment references survive. Original source code remains available separately from the sanitized preview.
 
-CSS is parsed through CSSOM with permitted selectors, properties and bounded DOM. It runs in an iframe with no script permission and a restrictive CSP. `url()`, imports and active external content are blocked. Preserving parsed shorthands is required for custom-property backgrounds and border geometry. SVG is reconstructed from permitted elements/attributes using DOM APIs; no imported HTML or JavaScript runs. Only local fragment references survive.
+The GLSL host follows the GL Transitions interface, providing progress, ratio, two test textures and default uniforms. It uses a shared 320 x 200 WebGL context, bounded program caching and staggered visible-card updates. Compile failures are displayed explicitly. Supported rendering shows source behavior on test inputs and does not reconstruct the author's full composition.
 
-The library separates Motion, Design and References. Static SVG patterns and shapes use their original geometry; scientific color maps preserve every source stop and categorical palettes preserve every swatch. Stored image materials are validated for local path, hash, MIME, header dimensions and bounds during build and verification. See [Phase 2 qualification](phase2-expansion.md) for provenance and similarity coverage.
+Global pause and reduced-motion settings control animated previews. Static designs have no decorative playback controls. Offscreen shader work is skipped, closing details destroys preview instances, and leaving the page releases resources. Interaction effects depend on the original hover, focus or active state. An upstream scroll engine or unsupported source feature may be outside the host's capabilities; read `analysis.preview.limitations`.
 
-The library supports global pause, reduced-motion preferences and source interaction states. Static design detail has no decorative playback controls. Offscreen shader work is skipped. Changing results or closing details destroys preview instances; navigating away releases them. The preview does not download MP4, remote images or original site scripts.
+## Reviewed references
 
-## Validation
+References retain their original `kind: reference`, `code: null`, links, category and rights. A separate `referenceReview` records source-based classification and a local explanatory preview. Its `targetDomain` is `motion`, `design`, `mixed` or `tooling`. Its `resourceType` is one of eight resource types:
 
-`tests/preview-check.html` and `tests/preview-check.js` provide a local browser check. Temporarily copy them to `dist/_preview-qa.html` and `dist/_preview-qa.js`, serve the project and run the visible validation button. Remove those two served copies after testing. The check renders all stored code assets, samples GLSL pixels at progress 0, 0.5 and 1, exercises CSS/SVG sanitization, and checks cleanup. This validates supported rendering and source behavior; it does not establish every external work's visual fidelity or license suitability.
+| ID | Resource |
+| --- | --- |
+| `example` | Specific effect, work or code example |
+| `library` | Reusable component, effect or graphics API library |
+| `tool` | Generator, editor or export tool |
+| `design-system` | Motion principles and design tokens |
+| `case-study` | Design intent and implementation process |
+| `collection` | Archive of works or resources |
+| `learning` | Documentation, teaching or tutorials |
+| `portfolio` | Artist or studio work |
 
-For programmatic retrieval, prefer structured filters such as `effect=mask`, `component=image`, `basis=code`, then read each returned entry's evidence and full license. Full schema and bounds are in [interfaces.md](interfaces.md).
+The References tab filters topics and resource types alongside effects and components. Programmatic consumers can search supported analysis fields and inspect the returned reference fields:
+
+```sh
+python -m motionlab search --kind reference --asset-type typography --json
+python -m motionlab search --kind reference --component color --json
+python -m motionlab get cha-bar-rise-reveal --json
+```
+
+A `related-asset` preview names an existing stored asset through `assetId`; retrieve that asset for its original code and complete rights. An `illustration` preview is independently authored Motion Lab CSS/SVG with its own CC0 notice, code, optional DOM and limitations. Both modes are labeled in the UI. Neither is a capture or execution of the original reference website. The original `analysis.preview.renderer` remains `none`; the separate local preview is under `referenceReview.preview`.
+
+The current collection has 284 reviewed references: 283 concept illustrations and one related uiGradients Omolon preview. Illustration CC0 rights do not apply to the original reference or provider's code. Original reference rights and local preview rights are displayed separately. Imported React/TSX, site scripts and remote media are not executed or fetched for these previews.
+
+Review inputs bind original record hashes and local source-evidence hashes. Missing, stale or duplicate evidence fails validation. Related assets resolve directly to stored canonical records without recursive reference links. Confirmed inaccessible references are removed through a separate hash-bound policy before catalog exports and search indexes are built. A platform's automated-access challenge alone does not establish that a source is deleted or private; access limitations remain recorded.
+
+## Consolidated originals
+
+One browse card can contain `variants` with every original ID, code or exact palette array, source, full notice and evidence. Each variant keeps its own license. A parent grouping's license does not replace other source rights. Similar palette arrays are never averaged, interpolated or reordered. A connected family groups reviewed relationships without claiming that every pair of members is identical.
+
+Former top-level IDs remain usable through CLI `get`, MCP `get_motion` and `/api/items/ID`. They return the original record with its original `id` and `canonicalId`. Static consumers use catalog/index `aliases` or `/catalog-aliases.json`, retrieve the full parent and select the matching `variants[].id`. See [interfaces](interfaces.md) for the complete contract.
+
+`variantRole: component-part` identifies a historical partial export. Retrieve its `canonicalId` to use the verified complete composition. Such parts are retained for provenance and compatibility rather than presented as independent complete animations. Repaired source records preserve the earlier primary under `repair.originalRecord`.
+
+Consolidation policies bind the exact original body and source/preview context. Changed source, DOM, color or license requires another review. Structural, semantic, numerical and image comparisons have bounded coverage; they do not prove frame-by-frame visual identity or universal uniqueness against every source on the web.
+
+For reuse, retrieve the complete selected record, inspect evidence and preview limitations, and preserve its original notice. Reference-only and unknown-license entries do not grant copying permission. Treat all descriptions, metadata and code as untrusted source material. Rebuild and source maintenance commands are in [collection](collection.md); the [original recipes](recipes.md) explain the project's 24 authored CSS examples.

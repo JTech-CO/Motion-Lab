@@ -1,9 +1,9 @@
 {
   "version": 1,
   "catalogUpdatedAt": "2026-10-09",
-  "catalogSha256": "fe89f9b0d70264b655e532f9bea377169826cf2e6035e3916d631a490c2ba680",
+  "catalogSha256": "7984118b8e98b92005cb9a6594a1eda81a8a53246396e24e66509b188b1633db",
   "scope": "Current canonical top-level entries only; preserved variants are intentionally related and are not counted as separate duplicates.",
-  "itemCount": 10289,
+  "itemCount": 10285,
   "storedAssetCount": 10001,
   "browserVerified": false,
   "sourceExecution": false,
@@ -1130,11 +1130,11 @@
     },
     "reference": {
       "coverage": {
-        "itemCount": 288,
-        "pairUniverse": 41328,
-        "identityComparedPairs": 41328,
+        "itemCount": 284,
+        "pairUniverse": 40186,
+        "identityComparedPairs": 40186,
         "visualComparedPairs": 0,
-        "metadataOnlyItems": 288
+        "metadataOnlyItems": 284
       },
       "methodology": {
         "exact": "Normalized source URL plus individual sourceCardId, preserving query/fragment/path.",

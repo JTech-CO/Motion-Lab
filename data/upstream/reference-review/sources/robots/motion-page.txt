@@ -1,0 +1,15 @@
+# https://motion.page/robots.txt
+
+User-agent: *
+Allow: /
+
+# Dev-only QA routes. These already 302 to /404 in production; this keeps
+# crawlers from spending requests discovering that.
+Disallow: /qa/
+
+# Deliberately NOT disallowed: /account/, /checkout/ and /login/. They are
+# excluded from the sitemap and carry a `noindex` meta tag instead. Blocking
+# them here would stop Google from reading that tag, which would freeze the
+# already-indexed /login/ URL in the results permanently.
+
+Sitemap: https://motion.page/sitemap-index.xml

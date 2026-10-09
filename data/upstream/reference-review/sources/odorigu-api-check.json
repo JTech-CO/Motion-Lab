@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://api.github.com/repos/OFF-Proxy/odorigu",
+    "result": {
+      "status": 404,
+      "finalUrl": "https://api.github.com/repos/OFF-Proxy/odorigu",
+      "error": "Not Found",
+      "elapsedMs": 326
+    },
+    "body": ""
+  },
+  {
+    "url": "https://api.github.com/users/OFF-Proxy",
+    "result": {
+      "status": 200,
+      "finalUrl": "https://api.github.com/users/OFF-Proxy",
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 1196,
+      "elapsedMs": 352
+    },
+    "body": "{\"login\":\"OFF-Proxy\",\"id\":76189455,\"node_id\":\"MDQ6VXNlcjc2MTg5NDU1\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/76189455?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/OFF-Proxy\",\"html_url\":\"https://github.com/OFF-Proxy\",\"followers_url\":\"https://api.github.com/users/OFF-Proxy/followers\",\"following_url\":\"https://api.github.com/users/OFF-Proxy/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/OFF-Proxy/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/OFF-Proxy/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/OFF-Proxy/subscriptions\",\"organizations_url\":\"https://api.github.com/users/OFF-Proxy/orgs\",\"repos_url\":\"https://api.github.com/users/OFF-Proxy/repos\",\"events_url\":\"https://api.github.com/users/OFF-Proxy/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/OFF-Proxy/received_events\",\"type\":\"User\",\"user_view_type\":\"public\",\"site_admin\":false,\"name\":null,\"company\":null,\"blog\":\"\",\"location\":null,\"email\":null,\"hireable\":null,\"bio\":null,\"twitter_username\":null,\"public_repos\":1,\"public_gists\":0,\"followers\":0,\"following\":0,\"created_at\":\"2020-12-18T00:56:54Z\",\"updated_at\":\"2026-09-27T06:13:15Z\"}"
+  }
+]

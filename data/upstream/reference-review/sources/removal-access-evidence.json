@@ -1,0 +1,194 @@
+{
+  "version": 1,
+  "capturedAt": "2026-10-09",
+  "method": "Immutable copy of read-only availability observations, independent of subsequent local illustration-renderer QA. No access challenge was bypassed.",
+  "browser": "Chrome/154.0.8037.98",
+  "capturedBrowserReportSha256": "ada25dada49abaa4a7fc3192d2ecef1ce6a99ecec0adaab8592df4f852ee7a2e",
+  "observations": [
+    {
+      "id": "ref-interactive-developer",
+      "sourceUrl": "https://www.youtube.com/watch",
+      "headCheck": {
+        "id": "ref-interactive-developer",
+        "url": "https://www.youtube.com/watch",
+        "checkedAt": "2026-10-09T11:04:32.615460+00:00",
+        "method": "HEAD",
+        "attempts": [
+          {
+            "status": 200,
+            "finalUrl": "https://www.youtube.com/",
+            "contentType": "text/html; charset=utf-8",
+            "bytes": 0,
+            "elapsedMs": 617
+          }
+        ],
+        "robots": {
+          "url": "https://www.youtube.com/robots.txt",
+          "response": {
+            "status": 200,
+            "finalUrl": "https://www.youtube.com/robots.txt",
+            "contentType": "text/plain",
+            "bytes": 792,
+            "elapsedMs": 171
+          },
+          "canFetch": true,
+          "path": "data/upstream/reference-review/sources/robots/www-youtube-com.txt",
+          "sha256": "96f8640ca357626e7d9a894057fef8b5746eb838c29ed68fc176af58c9348c6f"
+        }
+      },
+      "nativeChrome": null
+    },
+    {
+      "id": "ref-odorigu",
+      "sourceUrl": "https://github.com/OFF-Proxy/odorigu",
+      "headCheck": {
+        "id": "ref-odorigu",
+        "url": "https://github.com/OFF-Proxy/odorigu",
+        "checkedAt": "2026-10-09T11:05:00.519315+00:00",
+        "method": "HEAD",
+        "attempts": [
+          {
+            "status": 404,
+            "finalUrl": "https://github.com/OFF-Proxy/odorigu",
+            "error": "Not Found",
+            "elapsedMs": 327
+          },
+          {
+            "status": 404,
+            "finalUrl": "https://github.com/OFF-Proxy/odorigu",
+            "error": "Not Found",
+            "elapsedMs": 64
+          }
+        ],
+        "robots": {
+          "url": "https://github.com/robots.txt",
+          "response": {
+            "status": 200,
+            "finalUrl": "https://github.com/robots.txt",
+            "contentType": "text/plain",
+            "bytes": 16739,
+            "elapsedMs": 381
+          },
+          "canFetch": true,
+          "path": "data/upstream/reference-review/sources/robots/github-com.txt",
+          "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db"
+        }
+      },
+      "nativeChrome": null
+    },
+    {
+      "id": "ref-astrolabe-studio",
+      "sourceUrl": "https://astrolabe-studio.org/",
+      "headCheck": {
+        "id": "ref-astrolabe-studio",
+        "url": "https://astrolabe-studio.org/",
+        "checkedAt": "2026-10-09T11:04:56.949908+00:00",
+        "method": "HEAD",
+        "attempts": [
+          {
+            "status": null,
+            "error": "<urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1077)>",
+            "elapsedMs": 174
+          }
+        ],
+        "robots": {
+          "url": "https://astrolabe-studio.org/robots.txt",
+          "response": {
+            "status": null,
+            "error": "<urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1077)>",
+            "elapsedMs": 478
+          },
+          "canFetch": null,
+          "path": null,
+          "sha256": null
+        }
+      },
+      "nativeChrome": {
+        "requestedUrl": "https://astrolabe-studio.org/",
+        "url": "chrome-error://chromewebdata/",
+        "title": "astrolabe-studio.org",
+        "text": "사이트에 보안 연결할 수 없음\n\nastrolabe-studio.org에서 잘못된 응답을 전송했습니다.\n\nWindows 네트워크 진단 프로그램을 실행해 보세요.\nERR_SSL_PROTOCOL_ERROR\n새로고침"
+      }
+    },
+    {
+      "id": "ref-popmotion-timeline",
+      "sourceUrl": "https://popmotion.io/api/timeline/",
+      "headCheck": {
+        "id": "ref-popmotion-timeline",
+        "url": "https://popmotion.io/api/timeline/",
+        "checkedAt": "2026-10-09T11:04:19.621939+00:00",
+        "method": "HEAD",
+        "attempts": [
+          {
+            "status": 403,
+            "finalUrl": "https://popmotion.io/api/timeline/",
+            "error": "Forbidden",
+            "elapsedMs": 294
+          }
+        ],
+        "robots": {
+          "url": "https://popmotion.io/robots.txt",
+          "response": {
+            "status": 403,
+            "finalUrl": "https://popmotion.io/robots.txt",
+            "error": "Forbidden",
+            "elapsedMs": 426
+          },
+          "canFetch": null,
+          "path": null,
+          "sha256": null
+        }
+      },
+      "nativeChrome": {
+        "requestedUrl": "https://popmotion.io/api/timeline/",
+        "url": "https://popmotion.io/api/timeline/",
+        "title": "403 Forbidden",
+        "text": "403 Forbidden\nCode: AccessDenied\nMessage: Access Denied\nRequestId: A8JBK6PC8E25HJKP\nHostId: /mmfnfdhvFi+aHctPu6H/w5q/Uzi+oiUJCXkqthD2GVFrStTG4UbcuZ/gA8AlNd0w4CGYovGmYZK3Fx7LDENdp/WgArLyWGl\nAn Error Occurred While Attempting to Retrieve a Custom Error Document\nCode: AccessDenied\nMessage: Access Denied"
+      }
+    }
+  ],
+  "odoriguOfficialApi": [
+    {
+      "url": "https://api.github.com/repos/OFF-Proxy/odorigu",
+      "result": {
+        "status": 404,
+        "finalUrl": "https://api.github.com/repos/OFF-Proxy/odorigu",
+        "error": "Not Found",
+        "elapsedMs": 326
+      },
+      "body": ""
+    },
+    {
+      "url": "https://api.github.com/users/OFF-Proxy",
+      "result": {
+        "status": 200,
+        "finalUrl": "https://api.github.com/users/OFF-Proxy",
+        "contentType": "application/json; charset=utf-8",
+        "bytes": 1196,
+        "elapsedMs": 352
+      },
+      "body": "{\"login\":\"OFF-Proxy\",\"id\":76189455,\"node_id\":\"MDQ6VXNlcjc2MTg5NDU1\",\"avatar_url\":\"https://avatars.githubusercontent.com/u/76189455?v=4\",\"gravatar_id\":\"\",\"url\":\"https://api.github.com/users/OFF-Proxy\",\"html_url\":\"https://github.com/OFF-Proxy\",\"followers_url\":\"https://api.github.com/users/OFF-Proxy/followers\",\"following_url\":\"https://api.github.com/users/OFF-Proxy/following{/other_user}\",\"gists_url\":\"https://api.github.com/users/OFF-Proxy/gists{/gist_id}\",\"starred_url\":\"https://api.github.com/users/OFF-Proxy/starred{/owner}{/repo}\",\"subscriptions_url\":\"https://api.github.com/users/OFF-Proxy/subscriptions\",\"organizations_url\":\"https://api.github.com/users/OFF-Proxy/orgs\",\"repos_url\":\"https://api.github.com/users/OFF-Proxy/repos\",\"events_url\":\"https://api.github.com/users/OFF-Proxy/events{/privacy}\",\"received_events_url\":\"https://api.github.com/users/OFF-Proxy/received_events\",\"type\":\"User\",\"user_view_type\":\"public\",\"site_admin\":false,\"name\":null,\"company\":null,\"blog\":\"\",\"location\":null,\"email\":null,\"hireable\":null,\"bio\":null,\"twitter_username\":null,\"public_repos\":1,\"public_gists\":0,\"followers\":0,\"following\":0,\"created_at\":\"2020-12-18T00:56:54Z\",\"updated_at\":\"2026-09-27T06:13:15Z\"}"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "data/upstream/reference-review/sources/access-check.json",
+      "sha256": "fafeb7a6c52bbb026ad280fa2776e95ed497045dd11fc293c7d6e09b6f4a3a6e"
+    },
+    {
+      "path": "data/upstream/reference-review/sources/odorigu-api-check.json",
+      "sha256": "bf9a3a8b859480833132806fb7847ef8fd096ec9754c82a8f9f89809ea425045"
+    },
+    {
+      "path": "data/upstream/reference-review/sources/exa-05.json",
+      "sha256": "98a87f72794743a08fd249d4e1155ce42cc81935f12d68dd93dcfb348b927b01"
+    }
+  ],
+  "notes": [
+    "The YouTube watch endpoint redirects to its homepage because the URL lacks a video identifier.",
+    "Odorigu returned two repository 404 results and a GitHub API repository 404 while the owner API returned 200.",
+    "Astrolabe failed TLS negotiation in urllib and returned native Chrome ERR_SSL_PROTOCOL_ERROR.",
+    "Popmotion timeline returned HEAD 403 and native Chrome showed an actual S3 AccessDenied document.",
+    "Behance platform-wide automation errors and Shadertoy Cloudflare verification are retained separately, without treating them as site deletion."
+  ]
+}

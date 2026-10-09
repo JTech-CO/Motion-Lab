@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /c/*
+Disallow: /create
+Disallow: /likes
+Disallow: /blog
+Disallow: /blog/*
+Disallow: /tab.php
+Disallow: /tab
+
+Sitemap: https://colorhunt.co/sitemap.xml

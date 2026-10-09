@@ -1,0 +1,85 @@
+User-Agent: *
+Allow: /
+Disallow: /cms
+Disallow: /api/
+Disallow: /private/
+
+User-Agent: GPTBot
+Allow: /
+Disallow: /cms
+Disallow: /api/
+Disallow: /private/
+
+User-Agent: OAI-SearchBot
+Allow: /
+Disallow: /cms
+Disallow: /api/
+Disallow: /private/
+
+User-Agent: ChatGPT-User
+Allow: /
+Disallow: /cms
+Disallow: /api/
+Disallow: /private/
+
+User-Agent: ClaudeBot
+Allow: /
+Disallow: /cms
+Disallow: /api/
+Disallow: /private/
+
+User-Agent: Claude-Web
+Allow: /
+Disallow: /cms
+Disallow: /api/
+Disallow: /private/
+
+User-Agent: anthropic-ai
+Allow: /
+Disallow: /cms
+Disallow: /api/
+Disallow: /private/
+
+User-Agent: PerplexityBot
+Allow: /
+Disallow: /cms
+Disallow: /api/
+Disallow: /private/
+
+User-Agent: Perplexity-User
+Allow: /
+Disallow: /cms
+Disallow: /api/
+Disallow: /private/
+
+User-Agent: Google-Extended
+Allow: /
+Disallow: /cms
+Disallow: /api/
+Disallow: /private/
+
+User-Agent: Applebot-Extended
+Allow: /
+Disallow: /cms
+Disallow: /api/
+Disallow: /private/
+
+User-Agent: CCBot
+Allow: /
+Disallow: /cms
+Disallow: /api/
+Disallow: /private/
+
+User-Agent: Amazonbot
+Allow: /
+Disallow: /cms
+Disallow: /api/
+Disallow: /private/
+
+User-Agent: Bytespider
+Allow: /
+Disallow: /cms
+Disallow: /api/
+Disallow: /private/
+
+Sitemap: https://www.hontran.dev/sitemap.xml

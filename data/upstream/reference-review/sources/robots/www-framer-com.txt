@@ -1,0 +1,23 @@
+User-Agent: *
+Allow: /
+Disallow: /api-proxy
+Disallow: /*?budget=
+Disallow: /*&budget=
+Disallow: /*?region=
+Disallow: /*&region=
+Disallow: /*?skill=
+Disallow: /*&skill=
+Disallow: /*?language=
+Disallow: /*&language=
+Disallow: /*?tab=
+Disallow: /*&tab=
+Disallow: /experts/*?referrer=
+Disallow: /experts/*&referrer=
+Disallow: /*?sort=
+Disallow: /*&sort=
+Disallow: /*?query=
+Disallow: /*&query=
+Content-Signal: ai-train=yes, search=yes, ai-input=yes
+
+Sitemap: https://www.framer.com/sitemap.xml
+Sitemap: https://www.framer.com/marketplace/sitemap.xml

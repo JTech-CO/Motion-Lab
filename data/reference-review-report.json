@@ -1,0 +1,336 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-09",
+  "complete": true,
+  "catalogSha256": "7984118b8e98b92005cb9a6594a1eda81a8a53246396e24e66509b188b1633db",
+  "rendererSha256": "26ead85d59a639c729f1d454aa50bc56eb13b459228c1eebf0459094fc89be37",
+  "interfaceSha256": "51073a75069e2e17b817332d4f1f63f01c92256a43120f8570745d71079e07ba",
+  "scope": {
+    "startingReferences": 288,
+    "removedReferences": 4,
+    "retainedReferences": 284,
+    "storedAssets": 10001,
+    "browseEntries": 10285,
+    "sources": 159,
+    "domains": {
+      "design": 6656,
+      "motion": 3345
+    },
+    "noAddedStoredAssets": true
+  },
+  "classification": {
+    "total": 284,
+    "classified": 284,
+    "specificAssetTypes": 260,
+    "localPreviews": 284,
+    "targetDomains": {
+      "design": 13,
+      "mixed": 16,
+      "motion": 238,
+      "tooling": 17
+    },
+    "resourceTypes": {
+      "case-study": 8,
+      "collection": 12,
+      "design-system": 8,
+      "example": 173,
+      "learning": 15,
+      "library": 30,
+      "portfolio": 16,
+      "tool": 22
+    },
+    "assetTypes": {
+      "animation": 100,
+      "background": 8,
+      "gradient": 9,
+      "interaction": 51,
+      "palette": 6,
+      "reference": 24,
+      "shader": 13,
+      "shape": 2,
+      "transition": 20,
+      "typography": 51
+    },
+    "previewModes": {
+      "illustration": 283,
+      "related-asset": 1
+    }
+  },
+  "removals": {
+    "decisions": {
+      "path": "data/reference-removals.json",
+      "sha256": "26e3bfa5788b424209c92a6d92b36d14629228bcda0598dad3d326cd7a479df2"
+    },
+    "fixedAccessEvidence": {
+      "path": "data/upstream/reference-review/sources/removal-access-evidence.json",
+      "sha256": "04445ab008858dc7a5ae9b902b75556f63278b52a0ed50bf8581c8930418d307"
+    },
+    "items": [
+      {
+        "id": "ref-interactive-developer",
+        "sourceSha256": "afa3de8211df005917072ac4e3732dbeb2c3a66af0e4f91c00e77ad9147c8a3a",
+        "reason": "The original watch URL contains no video identifier and resolves only to generic YouTube content. The user explicitly requested deletion of inaccessible references.",
+        "status": "broken-link",
+        "verifiedAt": "2026-10-09",
+        "evidence": [
+          {
+            "path": "data/upstream/reference-review/sources/exclusions.json",
+            "sha256": "ae1f8846912988bd86c64f7d2eb2e5939c132a10cbea78732323837b5be8b42f"
+          },
+          {
+            "path": "data/upstream/reference-review/sources/removal-access-evidence.json",
+            "sha256": "04445ab008858dc7a5ae9b902b75556f63278b52a0ed50bf8581c8930418d307",
+            "sourceUrl": "https://www.youtube.com/watch"
+          }
+        ]
+      },
+      {
+        "id": "ref-odorigu",
+        "sourceSha256": "a4ac0253ac4932ffb05e64b218ecea7086dfa800b0a84da4ed894d9e45463203",
+        "reason": "The original public repository returned 404 twice and its official GitHub API endpoint also returned 404 while the owner's API endpoint remained available. An older Exa README extract does not establish current public access.",
+        "status": "broken-link",
+        "verifiedAt": "2026-10-09",
+        "evidence": [
+          {
+            "path": "data/upstream/reference-review/sources/exclusions.json",
+            "sha256": "ae1f8846912988bd86c64f7d2eb2e5939c132a10cbea78732323837b5be8b42f"
+          },
+          {
+            "path": "data/upstream/reference-review/sources/removal-access-evidence.json",
+            "sha256": "04445ab008858dc7a5ae9b902b75556f63278b52a0ed50bf8581c8930418d307",
+            "sourceUrl": "https://github.com/OFF-Proxy/odorigu"
+          }
+        ]
+      },
+      {
+        "id": "ref-astrolabe-studio",
+        "sourceSha256": "c4d25ea6ebe5b952297bf9ec1085b1f1cb097cff5f95531f459749a2503633d4",
+        "reason": "Public HTTPS access failed with a TLS protocol error in both urllib and native Chrome. The user requested deletion of inaccessible references; an earlier cached extract does not repair current public access.",
+        "status": "broken-link",
+        "verifiedAt": "2026-10-09",
+        "evidence": [
+          {
+            "path": "data/upstream/reference-review/sources/exclusions.json",
+            "sha256": "ae1f8846912988bd86c64f7d2eb2e5939c132a10cbea78732323837b5be8b42f"
+          },
+          {
+            "path": "data/upstream/reference-review/sources/removal-access-evidence.json",
+            "sha256": "04445ab008858dc7a5ae9b902b75556f63278b52a0ed50bf8581c8930418d307",
+            "sourceUrl": "https://astrolabe-studio.org/"
+          }
+        ]
+      },
+      {
+        "id": "ref-popmotion-timeline",
+        "sourceSha256": "61ac0e900f2b8b4a8a8f42862e0419cb6cb228ac0186d9b52c1d993d22cadee3",
+        "reason": "The original timeline documentation returned 403 in HEAD and an actual S3 AccessDenied page in native Chrome. The current official repository documents a different API and cannot verify this broken documentation endpoint.",
+        "status": "broken-link",
+        "verifiedAt": "2026-10-09",
+        "evidence": [
+          {
+            "path": "data/upstream/reference-review/sources/exclusions.json",
+            "sha256": "ae1f8846912988bd86c64f7d2eb2e5939c132a10cbea78732323837b5be8b42f"
+          },
+          {
+            "path": "data/upstream/reference-review/sources/removal-access-evidence.json",
+            "sha256": "04445ab008858dc7a5ae9b902b75556f63278b52a0ed50bf8581c8930418d307",
+            "sourceUrl": "https://popmotion.io/api/timeline/"
+          }
+        ]
+      }
+    ],
+    "allPublishedInterfacesAbsent": true,
+    "rawInspectionEvidenceRetainedForAudit": true
+  },
+  "originalIntegrity": {
+    "baseline": {
+      "path": "data/upstream/reference-review/baseline-integrity.json",
+      "sha256": "c98d12187dd4cf87364811ef0fec4ce853eaa6c451fc511009bf53f0b5a440d3"
+    },
+    "baselineCatalogSha256": "fe89f9b0d70264b655e532f9bea377169826cf2e6035e3916d631a490c2ba680",
+    "remainingCanonicalRecordsChecked": 10285,
+    "allRemainingOriginalBodiesUnchanged": true,
+    "all10001StoredAssetsUnchanged": true,
+    "removedIdsExactlyMatchPolicy": true,
+    "fieldsExcludedFromComparison": [
+      "analysis",
+      "referenceReview"
+    ],
+    "includedFields": "All original canonical fields, full license notices, original variants and repaired composition records."
+  },
+  "preview": {
+    "modes": {
+      "illustration": 283,
+      "related-asset": 1
+    },
+    "renderers": {
+      "svg": 117,
+      "css": 166,
+      "gradient": 1
+    },
+    "relatedAsset": "uigradients-0001",
+    "illustrationRights": "Independently authored Motion Lab CC0 illustrations have separate notices and do not grant rights over reference sources. Related stored asset retains full original rights.",
+    "sourceExecutionClaim": false,
+    "mediaDownloadsAdded": 0
+  },
+  "validation": {
+    "catalog": {
+      "path": "data/verification-report.json",
+      "sha256": "ba3ed976a4eeb0ebf490383d9216bb75a9f8d7f71bcc655b0cb8f9b0fd7937de"
+    },
+    "catalogChecks": [
+      "minimum",
+      "stored-minimum-and-domain-counts",
+      "schema",
+      "unique-ids",
+      "full-source-fields-and-notices",
+      "palette-code-equals-colors",
+      "all-original-input-identities",
+      "reviewed-consolidation-policy",
+      "pinned-source-component-repairs",
+      "full-web-json",
+      "compact-index",
+      "static-alias-map",
+      "all-category-collections",
+      "domain-collections",
+      "image-files-and-digests",
+      "read-only-sqlite-records",
+      "sqlite-aliases",
+      "legacy-get-preserves-original-source",
+      "sqlite-integrity",
+      "search-last-page",
+      "domain-search"
+    ],
+    "browser": {
+      "path": "data/reference-browser-qa.json",
+      "sha256": "7a2cfea9c2be1cb1a1f5cbf9d12ba277db0fb2cb015619b81bd1284f051dcb7b"
+    },
+    "browserChecks": 39,
+    "browserVersion": "Chrome/154.0.8037.98",
+    "readyPreviews": 284,
+    "actualIsolatedCssFrames": 166,
+    "preservedIllustrationCssNodes": 1434,
+    "preservedIllustrationSvgNodes": 8266,
+    "servedBytesMatchLocal": true,
+    "interfaces": {
+      "path": "data/reference-interface-qa.json",
+      "sha256": "f4ca55cab723b0868e2ae5ba7677a4b55cb52972407cfadff83dbab725eefc18"
+    },
+    "interfaceChecks": 23,
+    "all284FullReferenceRecordsMatchCliHttpMcp": true,
+    "pythonTests": {
+      "command": "python -m unittest discover -s tests -p \"test_*.py\"",
+      "passed": 190
+    },
+    "nodeReferenceUi": {
+      "command": "node tests/reference-ui-check.js",
+      "passed": true,
+      "retainedReferences": 284
+    },
+    "nodeOriginalVariants": {
+      "command": "node tests/variant-ui-check.js",
+      "passed": true,
+      "canonicalEntries": 10285,
+      "families": 20,
+      "selectableOriginals": 49,
+      "aliases": 34,
+      "repairedCompositions": 3
+    },
+    "skillValidation": {
+      "command": "python skill-creator/scripts/quick_validate.py skills/motion-lab",
+      "passed": true
+    },
+    "syntaxAndWhitespace": {
+      "javascript": [
+        "dist/app.js",
+        "dist/preview.js",
+        "tests/reference-browser-check.js"
+      ],
+      "gitDiffCheck": true
+    },
+    "currentConsolidationRecheck": {
+      "path": "data/consolidation-recheck.json",
+      "sha256": "41cddedf8a497e8c38122f0daea85f5d01b229aac0b8664c2b145951c1d99106"
+    },
+    "consolidationSummary": {
+      "exactGroupCount": 0,
+      "nearGroupCount": 0,
+      "candidatePairCount": 33,
+      "unreviewedCandidatePairCount": 0,
+      "errorItemCount": 0
+    },
+    "chaNativePreview": {
+      "path": "data/upstream/reference-review/cha/local-render-qa.json",
+      "sha256": "0a5c81f214677d476025a60bff89f9d9ec7ffa74c01da21b4bf795b41f8af3c7"
+    },
+    "chaReadyPreviews": 166,
+    "chaVisibleGeometry": 1228,
+    "chaNativeAnimations": 973,
+    "externalNativePreview": {
+      "path": "data/upstream/reference-review/sources/illustration-browser-qa.json",
+      "sha256": "ada25dada49abaa4a7fc3192d2ecef1ce6a99ecec0adaab8592df4f852ee7a2e"
+    },
+    "externalReadyIllustrations": 117,
+    "screenshot": {
+      "path": "data/upstream/reference-review/local-reference-library.png",
+      "sha256": "13f3b6ee2b5cb8d94169802f3b0b0f5063b92efa07bb9aff7b868f963cf35796"
+    }
+  },
+  "inspection": {
+    "inputs": [
+      {
+        "path": "data/reference-review-cha.json",
+        "sha256": "5b9ca2ddbe767a062bd03f12d673b55098963ae9b90d291b988e9aec3c14bcff"
+      },
+      {
+        "path": "data/reference-review-sources.json",
+        "sha256": "4f0f845e8ecdde284d695722b077eff8868e2ac9e6a17c82acf2260ee8ff1d55"
+      }
+    ],
+    "sourceSummaries": [
+      {
+        "path": "data/upstream/reference-review/cha/review-summary.json",
+        "sha256": "ba9b2d069aefee77aa592a72ca425b6758897e054093dec2c8f687a4705147c2"
+      },
+      {
+        "path": "data/upstream/reference-review/sources/review-summary.json",
+        "sha256": "95f99114b889ce3d24499db32f0bb6d76091d8481c82c9a37388f67549c2098d"
+      }
+    ],
+    "reviewedSourceCount": 284,
+    "metadataOnlyRemaining": 0,
+    "platformAccessLimitations": [
+      "Behance returned similar automation errors across its homepage and control profiles; that does not establish that a specific work was removed.",
+      "Shadertoy reached an authentication/challenge page; classification follows retained official description, with the direct access limitation preserved."
+    ],
+    "historicalGenerators": [
+      {
+        "formerPath": "scripts/review_reference_cha.py",
+        "sha256AtReview": "53607762c121456e92f811782f076b1ef7b030b886a58b019ead996320a9fc6a",
+        "retiredAt": "2026-10-09",
+        "status": "Development-only generator removed after its reviewed outputs were frozen."
+      },
+      {
+        "formerPath": "scripts/review_reference_sources.py",
+        "sha256AtReview": "bd9d0205a4b413dbf96d3636afe2b89159f6e7bae2710cfeb47c087b22ff6d46",
+        "retiredAt": "2026-10-09",
+        "status": "Development-only generator removed after its reviewed outputs were frozen."
+      }
+    ],
+    "reportScope": "Validation results are the completed reference-review snapshot. Historical developer tools are recorded separately from existing evidence artifacts."
+  },
+  "security": {
+    "checkedBaselineItems": 8,
+    "output": "External text uses textContent. No source scripts or event handlers are executed.",
+    "preview": "Closed CSS/SVG/DOM validation with code, string, depth, child and node limits; isolated CSS CSP and local SVG references only.",
+    "dataAccess": "Existing parameterized SQL and public read-only retrieval preserved.",
+    "personalDataSecretsCookiesTrackingAdded": false
+  },
+  "limitations": [
+    "These local concept illustrations explain inspected source mechanisms or collections; they are not pixel/frame-accurate original source executions.",
+    "Chrome checks validate rendered local compositions, DOM/CSS/SVG preservation and interface behavior, not every source animation frame.",
+    "Exa extracts are bounded official-site/documentation inspection snapshots, not byte-identical or complete original site imports.",
+    "Static consolidation recheck does not prove universal cross-language perceptual equivalence of all references.",
+    "Earlier phase2 reports retain their historical catalog/renderer bindings; current reference reports bind the final catalog and renderer."
+  ]
+}

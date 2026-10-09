@@ -1,0 +1,17 @@
+# *
+User-agent: *
+Content-Signal: ai-train=no, search=yes, ai-input=yes
+Disallow: /admin/*
+
+# Host
+Host: https://www.carbondesignsystem.com
+
+# Sitemaps
+Sitemap: https://www.carbondesignsystem.com/sitemap.xml
+Sitemap: https://www.carbondesignsystem.com/pages-sitemap.xml
+Sitemap: https://www.carbondesignsystem.com/articles-sitemap.xml
+Sitemap: https://www.carbondesignsystem.com/tutorials-sitemap.xml
+Sitemap: https://www.carbondesignsystem.com/experiences-sitemap.xml
+Sitemap: https://www.carbondesignsystem.com/support-sitemap.xml
+Sitemap: https://www.carbondesignsystem.com/getting-started-sitemap.xml
+Sitemap: https://www.carbondesignsystem.com/building-blocks-sitemap.xml

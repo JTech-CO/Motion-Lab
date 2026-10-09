@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "excluded": [
+    {
+      "id": "ref-interactive-developer",
+      "sourceUrl": "https://www.youtube.com/watch",
+      "reason": "The original watch URL contains no video identifier and resolves only to generic YouTube content. The user explicitly requested deletion of inaccessible references.",
+      "evidencePath": "data/upstream/reference-review/sources/removal-access-evidence.json",
+      "evidenceSha256": "04445ab008858dc7a5ae9b902b75556f63278b52a0ed50bf8581c8930418d307"
+    },
+    {
+      "id": "ref-odorigu",
+      "sourceUrl": "https://github.com/OFF-Proxy/odorigu",
+      "reason": "The original public repository returned 404 twice and its official GitHub API endpoint also returned 404 while the owner's API endpoint remained available. An older Exa README extract does not establish current public access.",
+      "evidencePath": "data/upstream/reference-review/sources/removal-access-evidence.json",
+      "evidenceSha256": "04445ab008858dc7a5ae9b902b75556f63278b52a0ed50bf8581c8930418d307"
+    },
+    {
+      "id": "ref-astrolabe-studio",
+      "sourceUrl": "https://astrolabe-studio.org/",
+      "reason": "Public HTTPS access failed with a TLS protocol error in both urllib and native Chrome. The user requested deletion of inaccessible references; an earlier cached extract does not repair current public access.",
+      "evidencePath": "data/upstream/reference-review/sources/removal-access-evidence.json",
+      "evidenceSha256": "04445ab008858dc7a5ae9b902b75556f63278b52a0ed50bf8581c8930418d307"
+    },
+    {
+      "id": "ref-popmotion-timeline",
+      "sourceUrl": "https://popmotion.io/api/timeline/",
+      "reason": "The original timeline documentation returned 403 in HEAD and an actual S3 AccessDenied page in native Chrome. The current official repository documents a different API and cannot verify this broken documentation endpoint.",
+      "evidencePath": "data/upstream/reference-review/sources/removal-access-evidence.json",
+      "evidenceSha256": "04445ab008858dc7a5ae9b902b75556f63278b52a0ed50bf8581c8930418d307"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-09",
+  "initialReferencesInScope": 122,
+  "excludedReferences": 4,
+  "acceptedReviews": 118,
+  "previewModes": {
+    "illustration": 117,
+    "related-asset": 1
+  },
+  "domains": {
+    "motion": 72,
+    "tooling": 17,
+    "mixed": 16,
+    "design": 13
+  },
+  "resourceTypes": {
+    "library": 30,
+    "learning": 15,
+    "tool": 22,
+    "example": 13,
+    "collection": 10,
+    "case-study": 4,
+    "design-system": 8,
+    "portfolio": 16
+  },
+  "assetTypes": {
+    "animation": 28,
+    "reference": 22,
+    "interaction": 11,
+    "shader": 12,
+    "gradient": 9,
+    "background": 7,
+    "typography": 18,
+    "palette": 6,
+    "shape": 2,
+    "transition": 3
+  },
+  "originalUrlHeadResults": {
+    "200": 117,
+    "None": 1,
+    "403": 3,
+    "404": 1
+  },
+  "collectionMethod": "Official-site and official-repository Exa extracts retained as bounded inspection snapshots. HEAD status and redirects checked independently; source bodies were not fetched by the availability checker. Robots snapshots are retained. No upstream script or video is imported into the local illustration.",
+  "contentLimits": "Exa clean markdown snapshots are not byte-identical upstream HTML or complete source imports. Classification confidence is medium, and every local preview states its independent schematic or related-asset status.",
+  "rights": "117 original Motion Lab vector concept illustrations are dedicated under CC0 1.0. uiGradients uses one already licensed stored gradient. Original reference fields, licenses and license notices remain unchanged.",
+  "partialAccess": [
+    {
+      "id": "ref-kinetic-type-07",
+      "status": "platform-blocked",
+      "reason": "Behance artwork, homepage and profile control visits all failed with native Chrome HTTP 400. Saved official artwork description supports classification; the artwork is not copied."
+    },
+    {
+      "id": "ref-ze-do-motion",
+      "status": "platform-blocked",
+      "reason": "Native Chrome Behance profile and homepage visits failed equally, although the original profile HEAD returned 200. Saved official profile text supports classification."
+    },
+    {
+      "id": "ref-shadertoy",
+      "status": "verification-challenge",
+      "reason": "Native Chrome reached a Cloudflare verification challenge; this is evidence of site presence, not a dead URL. Classification uses preserved official-page content, without importing community shaders."
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "ref-interactive-developer",
+      "sourceUrl": "https://www.youtube.com/watch",
+      "reason": "The original watch URL contains no video identifier and resolves only to generic YouTube content. The user explicitly requested deletion of inaccessible references.",
+      "evidencePath": "data/upstream/reference-review/sources/removal-access-evidence.json",
+      "evidenceSha256": "04445ab008858dc7a5ae9b902b75556f63278b52a0ed50bf8581c8930418d307"
+    },
+    {
+      "id": "ref-odorigu",
+      "sourceUrl": "https://github.com/OFF-Proxy/odorigu",
+      "reason": "The original public repository returned 404 twice and its official GitHub API endpoint also returned 404 while the owner's API endpoint remained available. An older Exa README extract does not establish current public access.",
+      "evidencePath": "data/upstream/reference-review/sources/removal-access-evidence.json",
+      "evidenceSha256": "04445ab008858dc7a5ae9b902b75556f63278b52a0ed50bf8581c8930418d307"
+    },
+    {
+      "id": "ref-astrolabe-studio",
+      "sourceUrl": "https://astrolabe-studio.org/",
+      "reason": "Public HTTPS access failed with a TLS protocol error in both urllib and native Chrome. The user requested deletion of inaccessible references; an earlier cached extract does not repair current public access.",
+      "evidencePath": "data/upstream/reference-review/sources/removal-access-evidence.json",
+      "evidenceSha256": "04445ab008858dc7a5ae9b902b75556f63278b52a0ed50bf8581c8930418d307"
+    },
+    {
+      "id": "ref-popmotion-timeline",
+      "sourceUrl": "https://popmotion.io/api/timeline/",
+      "reason": "The original timeline documentation returned 403 in HEAD and an actual S3 AccessDenied page in native Chrome. The current official repository documents a different API and cannot verify this broken documentation endpoint.",
+      "evidencePath": "data/upstream/reference-review/sources/removal-access-evidence.json",
+      "evidenceSha256": "04445ab008858dc7a5ae9b902b75556f63278b52a0ed50bf8581c8930418d307"
+    }
+  ],
+  "validation": {
+    "rootIntegrityValidation": 118,
+    "pythonTestsPassed": 8,
+    "offlineRegenerations": 2,
+    "offlineIdentical": true,
+    "browser": "Chrome/154.0.8037.98",
+    "svgPreviewsReady": 117,
+    "geometryNodesPreserved": 4334,
+    "animationNodesPreserved": 944,
+    "allSvgNodesPreserved": true,
+    "cleanupPassed": true,
+    "overlaySha256": "4f0f845e8ecdde284d695722b077eff8868e2ac9e6a17c82acf2260ee8ff1d55",
+    "rendererSha256": "26ead85d59a639c729f1d454aa50bc56eb13b459228c1eebf0459094fc89be37"
+  },
+  "artifacts": [
+    {
+      "path": "data/reference-review-sources.json",
+      "sha256": "4f0f845e8ecdde284d695722b077eff8868e2ac9e6a17c82acf2260ee8ff1d55"
+    },
+    {
+      "path": "data/upstream/reference-review/sources/access-check.json",
+      "sha256": "fafeb7a6c52bbb026ad280fa2776e95ed497045dd11fc293c7d6e09b6f4a3a6e"
+    },
+    {
+      "path": "data/upstream/reference-review/sources/exclusions.json",
+      "sha256": "ae1f8846912988bd86c64f7d2eb2e5939c132a10cbea78732323837b5be8b42f"
+    },
+    {
+      "path": "data/upstream/reference-review/sources/illustration-browser-qa.json",
+      "sha256": "ada25dada49abaa4a7fc3192d2ecef1ce6a99ecec0adaab8592df4f852ee7a2e"
+    },
+    {
+      "path": "scripts/review_reference_sources.py",
+      "sha256": "bd9d0205a4b413dbf96d3636afe2b89159f6e7bae2710cfeb47c087b22ff6d46"
+    },
+    {
+      "path": "tests/test_reference_sources_review.py",
+      "sha256": "e577978797d45a77b5edbcb047010de65ba67b5e91d14d7571e1d82af47dbf21"
+    },
+    {
+      "path": "tests/reference-sources-browser-check.js",
+      "sha256": "f9a78041df081e86986e42022a91c86cc1cbf20c066e11ca81ba75d8bc57d6fd"
+    },
+    {
+      "path": "data/upstream/reference-review/sources/removal-access-evidence.json",
+      "sha256": "04445ab008858dc7a5ae9b902b75556f63278b52a0ed50bf8581c8930418d307"
+    }
+  ],
+  "limitations": [
+    "Concept illustrations represent documented structures or fields of practice, not pixel/frame-accurate source execution.",
+    "No original portfolio imagery, fonts, videos, physics engines, paid components or downloaded runtime scripts are redistributed.",
+    "The four exclusions reflect reproducible access failures or missing target identity; platform automation blocks and challenges are recorded separately."
+  ]
+}

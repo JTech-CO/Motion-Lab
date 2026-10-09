@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /public/
+
+Sitemap: https://magicui.design/sitemap.xml

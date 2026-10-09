@@ -288,7 +288,7 @@
         if (/[<>\\]|javascript:|data:|https?:/i.test(value)) continue;
         if (name === 'id') { if (!/^[a-z0-9_-]{1,100}$/i.test(value)) continue; value = idPrefix + value; }
         else if (name === 'href') { if (!/^#[a-z0-9_-]{1,100}$/i.test(value)) continue; value = '#' + idPrefix + value.slice(1); }
-        else if (['mask','clip-path','filter'].includes(name) || /^url\(/i.test(value)) { const m = /^url\(#([a-z0-9_-]{1,100})\)$/i.exec(value); if (!m) continue; value = `url(#${idPrefix}${m[1]})`; }
+        else if (['mask','clip-path','filter'].includes(name) || /^url\(/i.test(value)) { const m = /^url\(\s*(['"]?)#([a-z0-9_-]{1,100})\1\s*\)$/i.exec(value); if (!m) continue; value = `url(#${idPrefix}${m[2]})`; }
         else if (name === 'transform-origin' || name === 'transform-box') { value = safeSvgStyle(name, value); if (!value) continue; }
         else if (name === 'stdDeviation') {
           const numbers = value.trim().split(/[,\s]+/);
@@ -415,6 +415,12 @@
   function create(item, options = {}) {
     const lang=options.lang==='en'?'en':'ko', words=labels[lang];
     const root=element('div','motion-preview'+(options.compact?' compact':''));
+    const referenceMode=['related-asset','illustration'].includes(options.reference?.mode)?options.reference.mode:null;
+    if(referenceMode){
+      root.classList.add('motion-preview-reference');root.dataset.referencePreview=referenceMode;root.dataset.referenceId=String(options.reference.id||'').slice(0,250);
+      const caption=lang==='ko'?(referenceMode==='related-asset'?'관련 로컬 에셋':options.compact?'Motion Lab 재현':'Motion Lab 개념 재현'):(referenceMode==='related-asset'?(options.compact?'Related asset':'Related local asset'):(options.compact?'Motion Lab study':'Motion Lab concept illustration'));
+      root.append(element('span','motion-preview-reference-label',caption));
+    }
     if(item.domain==='design'||item.analysis?.domain==='design')root.classList.add('motion-preview-design');
     root.dataset.itemId=String(item.id||'').slice(0,160);
     root.dataset.assetType=String(item.analysis?.assetType||item.category||'').slice(0,32);
@@ -440,6 +446,7 @@
       else if(renderer==='glsl'){if(!initGpu()){instance.unavailable('webgl');return root;}const canvas=element('canvas','motion-preview-canvas');canvas.width=320;canvas.height=200;stage.append(canvas);const entry={item,canvas,ctx:canvas.getContext('2d'),started:performance.now(),owner:instance};instance.gpuEntry=entry;gpu.entries.add(entry);drawShader(entry,.45);note.textContent=words.glsl;scheduleGpu();}
       else instance.unavailable('reference');
     } catch { instance.unavailable(renderer==='glsl'?'shader':'invalid'); }
+    if(referenceMode&&root.dataset.state!=='unavailable')note.textContent=options.compact?(lang==='ko'?(referenceMode==='related-asset'?'원본 화면 아님':'원본 소스 아님'):(referenceMode==='related-asset'?'Not the original page':'Not original source')):lang==='ko'?(referenceMode==='related-asset'?'관련 예시 · 원본 화면 아님':'개념 재현 · 원본 소스 아님'):(referenceMode==='related-asset'?'Related example / not the original page':'Concept illustration / not original source');
     return root;
   }
   cleanup.observe(document.documentElement,{childList:true,subtree:true});

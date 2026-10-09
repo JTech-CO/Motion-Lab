@@ -487,6 +487,10 @@ def _svg_analysis(item, code):
 
 def analyze_item(item):
     """Return a new analysis object without altering any imported field or notice."""
+    if item.get("kind") == "reference" and item.get("referenceReview"):
+        from motionlab.reference_review import reviewed_analysis
+        original = {key: value for key, value in item.items() if key != "referenceReview"}
+        return reviewed_analysis(item, analyze_item(original))
     language = item.get("language")
     code = item.get("code")
     colors = [value for value in item.get("colors", []) if isinstance(value, str) and re.fullmatch(r"#(?:[0-9a-fA-F]{3}|[0-9a-fA-F]{6}|[0-9a-fA-F]{8})", value)]

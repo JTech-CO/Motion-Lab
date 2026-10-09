@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "reviewDate": "2026-10-09",
+  "scope": {
+    "total": 166,
+    "chaExamples": 160,
+    "jtechCaseStudies": 4,
+    "collections": 2
+  },
+  "access": {
+    "publicReviewed": 166,
+    "sourceUnavailable": 0,
+    "excluded": 0,
+    "inspectionSources": 12
+  },
+  "classification": {
+    "targetDomain": {
+      "motion": 166
+    },
+    "resourceType": {
+      "example": 160,
+      "collection": 2,
+      "case-study": 4
+    },
+    "assetType": {
+      "typography": 33,
+      "animation": 72,
+      "interaction": 40,
+      "transition": 17,
+      "background": 1,
+      "reference": 2,
+      "shader": 1
+    },
+    "method": "Reviewed all 160 exact CHA prompt bodies and the four pinned JTech entry-point HTML files and storyboard scene/transition descriptions. Classification uses the motion construction rather than source titles."
+  },
+  "preservation": {
+    "originalFieldsUnchanged": [
+      "kind",
+      "code",
+      "license",
+      "category"
+    ],
+    "sourceHashExcludes": [
+      "analysis",
+      "referenceReview"
+    ],
+    "mediaFilesAdded": 0
+  },
+  "preview": {
+    "count": 166,
+    "mode": "illustration",
+    "language": "css",
+    "license": "CC0-1.0",
+    "attribution": "Motion Lab",
+    "uniqueCompositionFingerprints": 166,
+    "minimumLabelFontPx": 13,
+    "limitations": [
+      "Independently authored abstract composition illustrations based on reviewed descriptions. They are not copied source code and do not claim source-frame fidelity.",
+      "Source rights and missing original media inputs are preserved in per-entry notices."
+    ]
+  },
+  "validation": {
+    "unitTestsPassed": 5,
+    "nativeRenderer": {
+      "complete": true,
+      "browser": "Chrome/154.0.8037.98",
+      "frames": 166,
+      "visibleGeometry": 1228,
+      "nativeAnimations": 973,
+      "rendererSha256": "26ead85d59a639c729f1d454aa50bc56eb13b459228c1eebf0459094fc89be37"
+    },
+    "browserQaProcessCleanup": "Confirmed no owned reference-cha QA Chrome or Node processes remained after completion."
+  },
+  "artifacts": [
+    {
+      "path": "data/reference-review-cha.json",
+      "sha256": "5b9ca2ddbe767a062bd03f12d673b55098963ae9b90d291b988e9aec3c14bcff"
+    },
+    {
+      "path": "scripts/review_reference_cha.py",
+      "sha256": "53607762c121456e92f811782f076b1ef7b030b886a58b019ead996320a9fc6a"
+    },
+    {
+      "path": "data/upstream/reference-review/cha/review-source-lock.json",
+      "sha256": "3057ae493e22727593fe037975c3c891ba609ce459a565d4ab2d6c88b5ebc212"
+    },
+    {
+      "path": "data/upstream/reference-review/cha/local-render-qa.json",
+      "sha256": "0a5c81f214677d476025a60bff89f9d9ec7ffa74c01da21b4bf795b41f8af3c7"
+    }
+  ],
+  "freeze": "Annotation input and source evidence frozen after ASCII hyphen normalization on 2026-10-09."
+}

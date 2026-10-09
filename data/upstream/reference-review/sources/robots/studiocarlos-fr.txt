@@ -1,0 +1,97 @@
+# Studio Carlos — robots.txt
+# Site public : indexation LARGEMENT autorisée, y compris pour les IA
+# (moteurs de réponse et entraînement de modèles). Objectif : que le studio
+# soit bien référencé et compris par les moteurs classiques ET les IA.
+
+# ── Moteurs de recherche & réseaux sociaux ──
+User-agent: Googlebot
+Allow: /
+User-agent: Googlebot-Image
+Allow: /
+User-agent: Bingbot
+Allow: /
+User-agent: DuckDuckBot
+Allow: /
+User-agent: Applebot
+Allow: /
+User-agent: Twitterbot
+Allow: /
+User-agent: facebookexternalhit
+Allow: /
+User-agent: LinkedInBot
+Allow: /
+User-agent: Slackbot
+Allow: /
+User-agent: Discordbot
+Allow: /
+
+# ── Crawlers IA : réponses & entraînement (tous autorisés) ──
+# OpenAI
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+# Anthropic (Claude)
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-User
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: Claude-Web
+Allow: /
+# Google (Gemini / Vertex — opt-in explicite)
+User-agent: Google-Extended
+Allow: /
+User-agent: Google-CloudVertexBot
+Allow: /
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+# Apple Intelligence (opt-in explicite)
+User-agent: Applebot-Extended
+Allow: /
+# Common Crawl (jeu de données de nombreux LLM)
+User-agent: CCBot
+Allow: /
+# Amazon, Meta, Cohere, ByteDance, Mistral, autres
+User-agent: Amazonbot
+Allow: /
+User-agent: Meta-ExternalAgent
+Allow: /
+User-agent: FacebookBot
+Allow: /
+User-agent: cohere-ai
+Allow: /
+User-agent: cohere-training-data-crawler
+Allow: /
+User-agent: Bytespider
+Allow: /
+User-agent: MistralAI-User
+Allow: /
+User-agent: Diffbot
+Allow: /
+User-agent: YouBot
+Allow: /
+User-agent: DuckAssistBot
+Allow: /
+User-agent: Ai2Bot
+Allow: /
+User-agent: ImagesiftBot
+Allow: /
+
+# ── Défaut : tout le monde peut indexer (sauf zones techniques) ──
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+Sitemap: https://studiocarlos.fr/sitemap-index.xml
+
+# Résumés structurés pour les IA : /llms.txt (index LLM) et /ai.txt

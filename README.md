@@ -7,9 +7,9 @@
 ![MCP stdio](https://img.shields.io/badge/MCP-stdio-222222?style=flat-square)
 ![KO / EN](https://img.shields.io/badge/UI-KO%20%2F%20EN-555555?style=flat-square)
 
-A searchable archive of verified motion code and static design assets. Explore motion, transitions, typography and loaders separately from patterns, shapes, textures and colors. Browse original previews on the web, search with the CLI, or connect an AI tool through local MCP and the included SKILL. No MP4 files are stored.
+A searchable archive of verified motion code and static design assets. Explore motion, transitions, typography and loaders separately from patterns, shapes, textures and colors. Browse local previews on the web, search with the CLI, or connect an AI tool through local MCP and the included SKILL. No MP4 files are stored.
 
-**10,001 stored assets from 163 source projects:** 7,078 code assets, 2,429 palettes, and 494 material images. Browse 3,345 motion assets and 6,656 static design assets separately; 288 reference links are excluded from the stored-asset count. Duplicate and similar entries are consolidated into source-preserving variant groups.
+**10,001 stored assets** from 159 source projects: 3,345 motion assets and 6,656 static design assets, plus 284 reviewed references. The library provides local previews and structured filters. Similar entries are grouped with each original variant and its source rights preserved.
 
 [GitHub repository](https://github.com/JTech-CO/Motion-Lab) · [AI SKILL](skills/motion-lab/SKILL.md) · [CLI, HTTP & MCP](docs/interfaces.md)
 
@@ -40,25 +40,16 @@ For link-based access, serve the static `dist/` directory: `/llms.txt`, `/catalo
 
 ## Reuse and provenance
 
-Licenses apply **per asset**. Keep each entry's original code or image, source attribution, and full license notice when reusing it. Reference entries and unknown licenses do not grant copying permission. Previews use stored CSS, GLSL, SVG, exact colors or actual material images; adaptations and limitations are documented in each entry.
+Licenses apply **per asset**. Keep each entry's original code or image, source attribution, and full license notice when reusing it. Reference entries and unknown licenses do not grant copying permission. Stored-asset previews use CSS, GLSL, SVG, exact colors or actual material images. Reference previews are independently authored CC0 concept illustrations or a related stored asset, with separate rights and limitations; they do not reproduce the original reference page or source execution.
 
 The collection preserves source IDs, code, licenses, pinned commits, and hashes. Former IDs resolve to their original variants; each variant retains its own code or exact palette array and license. Analysis derives effects, components, and use cases from code or color values; reference-only metadata is marked separately.
 
-- [Collection pipeline and update commands](docs/collection.md)
-- [Phase 2 motion and design qualification](docs/phase2-expansion.md)
-- [Analysis and preview limitations](docs/asset-analysis.md)
-- [Consolidation results and preserved variants](docs/consolidation.md)
-- [Original 6,108-entry duplicate and similarity review](docs/duplicate-audit.md)
-- [Additional source assets and evidence](docs/asset-expansion.md)
-- [CSS collection](docs/css-wave.md) · [SVG and component collection](docs/vector-wave.md) · [Palette collection](docs/color-wave.md)
+- [Collection, rebuilding and packaging](docs/collection.md)
+- [Classification, previews and original variants](docs/asset-analysis.md)
 - [Original recipes](docs/recipes.md)
-- [Validation and security checks](docs/validation.md)
 
 The local API and MCP are read-only. The project does not require accounts, cookies, or uploads.
 
-Optional source qualification and image similarity checks use the packages in
-[phase2-requirements.txt](scripts/phase2-requirements.txt). Browsing, rebuilding
-the stored catalog and serving the public interfaces require no third-party
-Python packages. Current data is built from the repository inputs; the older
-portable ZIP is a historical snapshot, and `python scripts/package.py` creates
-a fresh local package when needed.
+Browsing, rebuilding and serving require no third-party Python packages.
+Optional image similarity checks use [phase2-requirements.txt](scripts/phase2-requirements.txt).
+Run `python scripts/package.py` to create a portable package from the current repository.

@@ -1,0 +1,12 @@
+﻿User-agent: *
+Allow: /
+Disallow: /dev/
+Disallow: /dev/*
+Disallow: /ui-snippets/mycode/?id=
+Disallow: /ui-snippets/*/embed/
+Disallow: /*?page=
+Disallow: /freelance-dashboard/?p=
+Disallow: /mini-kanban/?p=
+Disallow: /notepad/?tab=
+Sitemap: https://fwdtools.com/sitemap.xml
+Sitemap: https://fwdtools.com/blog/sitemap.xml
