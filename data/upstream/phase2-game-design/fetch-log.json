@@ -1,0 +1,28 @@
+{
+  "requests": [
+    {
+      "url": "https://codeload.github.com/robots.txt",
+      "httpStatus": 404
+    },
+    {
+      "url": "https://codeload.github.com/game-icons/icons/tar.gz/82d948812bfe3f269ef8f731dcdb07b08160edc4",
+      "httpStatus": 200,
+      "bytes": 3015620,
+      "sha256": "6ede4bfaed3bbe3cbe4b188b46ab2d62a28bcf737cbfcd1f0edcfdf12c124cff"
+    }
+  ],
+  "robots": {
+    "status": "absent",
+    "httpStatus": 404,
+    "allowed": true
+  },
+  "intervalSeconds": 1.25,
+  "maximumArchiveBytes": 33554432,
+  "maximumExpandedBytes": 83886080,
+  "maximumEntries": 5000,
+  "maximumSvgBytes": 65536,
+  "rawCandidateLimit": 199,
+  "acceptedLimit": 120,
+  "verifiedMembers": 191,
+  "sourceJavaScriptExecuted": false
+}

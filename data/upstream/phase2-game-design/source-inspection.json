@@ -1,0 +1,2809 @@
+{
+  "pin": {
+    "commit": "82d948812bfe3f269ef8f731dcdb07b08160edc4",
+    "tree": "819b975fa234b1ef75cc345b9a2856bed8f2a5a4",
+    "date": "2026-04-23T19:08:19Z"
+  },
+  "inventory": {
+    "svgFiles": 4239,
+    "maximumSvgBytes": 29212,
+    "completeTree": true
+  },
+  "sampleCount": 120,
+  "safeSamples": 120,
+  "sample": [
+    {
+      "path": "delapouite/airtight-hatch.svg",
+      "concept": "airtight-hatch",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/airtight-hatch.svg",
+      "gitBlobSha1": "ee2bc33f7350af0cd140d653d25ebeb73a60da9b",
+      "sha256": "df65189f9b020a0dbd131687a86f71494b79b76878953e2d1ae647c681804ac3",
+      "bytes": 582,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 478,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/alien-bug.svg",
+      "concept": "alien-bug",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/alien-bug.svg",
+      "gitBlobSha1": "54e02c5400d437de33db3c625330bc231a36e2f7",
+      "sha256": "faa5821e2acc08fa0317e0637b42b5e19f01155288f9280086d81d36fe70e0ce",
+      "bytes": 4748,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 4644,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/alien-egg.svg",
+      "concept": "alien-egg",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/alien-egg.svg",
+      "gitBlobSha1": "5f949a7f1ff697c72fb353f5314a56a5b6b0d607",
+      "sha256": "47dc42c18cb8a4a59231cb895dbf5777516ddb0f0d5863db4495c0e53d8a1c6c",
+      "bytes": 3020,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2916,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/brain-tentacle.svg",
+      "concept": "brain-tentacle",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/brain-tentacle.svg",
+      "gitBlobSha1": "ca4716227abaa7780a5e0fe4eaf0b362967a0a47",
+      "sha256": "0537633db0c359a9ee145bb29281d8b800df9867e1c78af78614e87b2e5bc53b",
+      "bytes": 2405,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2301,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/butterfly-flower.svg",
+      "concept": "butterfly-flower",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/butterfly-flower.svg",
+      "gitBlobSha1": "bd2adf800eb14223d07de77e8feb6f4e91ca995b",
+      "sha256": "f75bd19d5ebd1399acab8005a60b8f63e837716b659640777c7840a03261a729",
+      "bytes": 3362,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 3257,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/coral.svg",
+      "concept": "coral",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/coral.svg",
+      "gitBlobSha1": "207d1beb5c1f8afe3d721c7244bc71368239d84e",
+      "sha256": "76d08b0c1b2658a950fa7c50695fa47cc3eae562d6b0d6f3744da1213f98e0dd",
+      "bytes": 3055,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2951,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/cosmic-egg.svg",
+      "concept": "cosmic-egg",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/cosmic-egg.svg",
+      "gitBlobSha1": "465a8beab9d03ec2f211eda1270555676857438d",
+      "sha256": "d02cf50eac6bd6de8f5094931fe8801ce8a8f00c0b158b540456a2fdfcd1627a",
+      "bytes": 2788,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2684,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/cotton-flower.svg",
+      "concept": "cotton-flower",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/cotton-flower.svg",
+      "gitBlobSha1": "07121b977b19fe082fecea01a61868928966da72",
+      "sha256": "5fe8e6a495505776343a3e998a120e0bdab05e951722031d009157e070d1caf8",
+      "bytes": 1652,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1548,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/crystal-earrings.svg",
+      "concept": "crystal-earrings",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/crystal-earrings.svg",
+      "gitBlobSha1": "4e02ee47600b98452930ad9aac2c860f3dcabaac",
+      "sha256": "d2bea939bd2a0900266589cd50bd5739d77269ab900474fe9e6d310aa971995d",
+      "bytes": 1024,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 920,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/crystal-shrine.svg",
+      "concept": "crystal-shrine",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/crystal-shrine.svg",
+      "gitBlobSha1": "19445b168186e5903a68d89018985423b6e2c3f5",
+      "sha256": "aca56dc891868d27316f2aad89744590eaf5d0fabec3d628b8b08a5274586fbb",
+      "bytes": 1359,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1255,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/dandelion-flower.svg",
+      "concept": "dandelion-flower",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/dandelion-flower.svg",
+      "gitBlobSha1": "8df31005cf907e34eca844b0bee4a65f37293a43",
+      "sha256": "16c1fdaf36c52ef5af2d2847729aed3bbb637d4534c19c5f8e6c8b34afbc1649",
+      "bytes": 2372,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2268,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/dragon-orb.svg",
+      "concept": "dragon-orb",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/dragon-orb.svg",
+      "gitBlobSha1": "0bdf114570ecec6ed82ea449786323a9639146b3",
+      "sha256": "0057d9ebef0a35e7409181a535c7ff7e2a2eecea7f2ea200d7fa6ee58e3b3591",
+      "bytes": 2258,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2154,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/dragon-shield.svg",
+      "concept": "dragon-shield",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/dragon-shield.svg",
+      "gitBlobSha1": "0f3e0e28733aad6a0e40933b7a32847dfdf23609",
+      "sha256": "088978f82a53185694f1aec3f379c6f97ef8e3e82a9dfd5bbb4d10dfdaf5b8f3",
+      "bytes": 1463,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1359,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/drakkar-dragon.svg",
+      "concept": "drakkar-dragon",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/drakkar-dragon.svg",
+      "gitBlobSha1": "707cb63dbb1744d152b308138fb900dc8d856a39",
+      "sha256": "7522b33727b47140f2f558f8e0fde09fbddddc384aec4f83040716e0ad43de81",
+      "bytes": 3747,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 3643,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/energy-tank.svg",
+      "concept": "energy-tank",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/energy-tank.svg",
+      "gitBlobSha1": "08798edac4b4d337e063758cbb31b65a8a5ba31d",
+      "sha256": "9bd839ff717cb6f125d7478abfd67679dfccaa77888fe00b480f701ca4d4dbe1",
+      "bytes": 805,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 701,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/fire-flower.svg",
+      "concept": "fire-flower",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/fire-flower.svg",
+      "gitBlobSha1": "97f60074310451b80101f2b16d5b18318e187b14",
+      "sha256": "8925db7efa404022a7ffb2a6ea5762a98ed10e770cc0b3db7d94519a20e79352",
+      "bytes": 1694,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1590,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/floating-tentacles.svg",
+      "concept": "floating-tentacles",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/floating-tentacles.svg",
+      "gitBlobSha1": "c26dd5cd76b8f4278a69cddfcd64d4b7e407a577",
+      "sha256": "0b23764bc9ff03d4f42a1c399cbe90557c3fe527673beb136abec056f350ba4a",
+      "bytes": 3248,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 3144,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/floor-hatch.svg",
+      "concept": "floor-hatch",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/floor-hatch.svg",
+      "gitBlobSha1": "180455d961688e48247de148929df691b2340790",
+      "sha256": "917e4098454bc618b2d866e2c1e55b6eccc153b46e097266900c95a946d9073f",
+      "bytes": 992,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 888,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/flower-emblem.svg",
+      "concept": "flower-emblem",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/flower-emblem.svg",
+      "gitBlobSha1": "4377a9c7683c3902dd566e192cae611b2d433416",
+      "sha256": "ccfae7fed00964221f912c52a28749badb4a9183d8202194a42a62111b440831",
+      "bytes": 2203,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2099,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/flower-hat.svg",
+      "concept": "flower-hat",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/flower-hat.svg",
+      "gitBlobSha1": "dd74704baef2cc512ae860df68822f11d622d7d7",
+      "sha256": "773e6c13592d67573f06fade089d1bfe620b0d29cd90f9db173f96c850f109e7",
+      "bytes": 2813,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2709,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/flower-star.svg",
+      "concept": "flower-star",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/flower-star.svg",
+      "gitBlobSha1": "0789f9bb08f510266a10fdd4e6fe75ff023867a2",
+      "sha256": "a07411d280a8b27b9ba2652f0957fa01ad6d1818e06111e44d10e2e0ba02fed8",
+      "bytes": 946,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 842,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/flying-beetle.svg",
+      "concept": "flying-beetle",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/flying-beetle.svg",
+      "gitBlobSha1": "1061cf0b123fafaf4cf4a9933462340ee24c32c1",
+      "sha256": "cefd8eafb190eb8c6ee05314bb4a4f09cbd9f44b266692d316e9c2f6791d086a",
+      "bytes": 1643,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1539,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/galaxy.svg",
+      "concept": "galaxy",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/galaxy.svg",
+      "gitBlobSha1": "3a29c4b60e4af1e17565924027d456b33cc55d37",
+      "sha256": "483abac3022fb074c0b8f88e3ef63de74a3237dcd845dea40b900c8b44388704",
+      "bytes": 2771,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2666,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/giant-squid.svg",
+      "concept": "giant-squid",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/giant-squid.svg",
+      "gitBlobSha1": "9abc8e41ee3b8caf393e77e33584d323a148466d",
+      "sha256": "f1dd87fbf2d74d73dd6a8a95078f257405bea427d7e500949242285bc9216269",
+      "bytes": 4202,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 4098,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/glowing-artifact.svg",
+      "concept": "glowing-artifact",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/glowing-artifact.svg",
+      "gitBlobSha1": "74c30349b77476b25326aa55d28c2b6ff3f16a6e",
+      "sha256": "c81cb6255cb491b45bc959443bde64afa3c1c2eed9d143fd7470f7da767d9fe1",
+      "bytes": 1756,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1652,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/goose.svg",
+      "concept": "goose",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/goose.svg",
+      "gitBlobSha1": "d3dee180af9982cb113046ef5e460afb76184302",
+      "sha256": "a150ac60e7d90a352483d2c3763c3412acd403d45964022339c082c6c539bf23",
+      "bytes": 1132,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1028,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/grass-mushroom.svg",
+      "concept": "grass-mushroom",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/grass-mushroom.svg",
+      "gitBlobSha1": "9061142b8da509e8fc3d9b421f0eb92726fc0b30",
+      "sha256": "a931696a2303e70b372f372ecaaa7826da46c82d4e7af38181b57a2bde391471",
+      "bytes": 1258,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1154,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/grave-flowers.svg",
+      "concept": "grave-flowers",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/grave-flowers.svg",
+      "gitBlobSha1": "61218f65a0a747b801c95e177fe03503d74887ad",
+      "sha256": "315172d8e9afc6ec5a936e3c405282b4296937014ca53b91af153531b3ff352c",
+      "bytes": 3784,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 3680,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/hatchet.svg",
+      "concept": "hatchet",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/hatchet.svg",
+      "gitBlobSha1": "e964d21319f7173af4c0acbe9f2724606728cb84",
+      "sha256": "2c32125175bc75fb391d2d283282bafd6f536da12fbbf167aa8a3bee2109059b",
+      "bytes": 546,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 442,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/hieroglyph-legs.svg",
+      "concept": "hieroglyph-legs",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/hieroglyph-legs.svg",
+      "gitBlobSha1": "1b5861b52a4769f718b931d0e92a4cba06d031c4",
+      "sha256": "3d8ad93c55d150e9bfade1e4100b520134abf42f054da52fcf664f47e410a5ff",
+      "bytes": 455,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 350,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/hieroglyph-y.svg",
+      "concept": "hieroglyph-y",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/hieroglyph-y.svg",
+      "gitBlobSha1": "060eb1333796ef013f419cddbf8bc8697847b910",
+      "sha256": "49b3d0baa48996f55168422d8eb13904de9818ae31384d343a248292f194a899",
+      "bytes": 2627,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2523,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/kraken-tentacle.svg",
+      "concept": "kraken-tentacle",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/kraken-tentacle.svg",
+      "gitBlobSha1": "2741903ea589cc34e1cd0cc73707998a65e2a36d",
+      "sha256": "d4fae5df791383fa07f178478ed2621250b5b44ac6f4a200e0f5b52b14e8fe11",
+      "bytes": 2721,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2617,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/mushroom-house.svg",
+      "concept": "mushroom-house",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/mushroom-house.svg",
+      "gitBlobSha1": "e811365e4e2da5aec92b06ebe78709b097329560",
+      "sha256": "ac8e6625da140a3d606aef8462dcc485f3ef6a9cd3c105f4bb238a1da4241bef",
+      "bytes": 4705,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 4601,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/mushrooms-cluster.svg",
+      "concept": "mushrooms-cluster",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/mushrooms-cluster.svg",
+      "gitBlobSha1": "1f8b88957fbff5b35e71817d857bed576c79fe43",
+      "sha256": "4044cf4193260f796f5fdfdd440184a36e81c4386e57ede2347e869c071cc33e",
+      "bytes": 2402,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2298,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/mushrooms.svg",
+      "concept": "mushrooms",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/mushrooms.svg",
+      "gitBlobSha1": "7fd61ea887d4a403e6becc658870dd32512e2d66",
+      "sha256": "6d8301df32c913f95a937841e095f71554a959d41d4ebc8264a2b5e0a3c7157e",
+      "bytes": 1792,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1688,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/purple-tentacle.svg",
+      "concept": "purple-tentacle",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/purple-tentacle.svg",
+      "gitBlobSha1": "3dc153ae2bb4d86f3c57d1fb9aca5b05fb140cd7",
+      "sha256": "5f760195e8ba143907eaaf221447347ea4442ec7e4c3b5ed1279b4b111b8fb87",
+      "bytes": 2651,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2547,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/radiations.svg",
+      "concept": "radiations",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/radiations.svg",
+      "gitBlobSha1": "88ff8c2d29a1f743bba65cd217c205093f926b8c",
+      "sha256": "0313d1d3b6a4d0ad1cd13ba654192074b02b0eb6a8ad660fdd29fb2768f34b6f",
+      "bytes": 4855,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 4751,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/ringed-tentacle.svg",
+      "concept": "ringed-tentacle",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/ringed-tentacle.svg",
+      "gitBlobSha1": "b95df96f357bd028be31ebe0466fb698a593c64e",
+      "sha256": "141cce341b022b4ea188677b0fbe0301718b027fc5e87fb5fc8c445f06a0b869",
+      "bytes": 2043,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1938,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/shattered-heart.svg",
+      "concept": "shattered-heart",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/shattered-heart.svg",
+      "gitBlobSha1": "48f731fc60a610f0a63107c481aef52d82980aae",
+      "sha256": "1d3af302bcb2d241cb5644398f089f971b49e19f904142f34a45bda90c4b1898",
+      "bytes": 748,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 644,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/sliced-mushroom.svg",
+      "concept": "sliced-mushroom",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/sliced-mushroom.svg",
+      "gitBlobSha1": "6bc4446f7f152f5f99122b806079bb0e5017ee57",
+      "sha256": "ff5db57d8e5a785880df603473f9003136a780222634341dbf0651810f1992ae",
+      "bytes": 1878,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1774,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/sliced-sausage.svg",
+      "concept": "sliced-sausage",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/sliced-sausage.svg",
+      "gitBlobSha1": "775adf9a2586870204dc789e3dcba762888afb0c",
+      "sha256": "1e4a7f09a93018f8467781435cc84a0b7f61d760fef5ee4c603e7e068acad65e",
+      "bytes": 2523,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2419,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/snail-eyes.svg",
+      "concept": "snail-eyes",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/snail-eyes.svg",
+      "gitBlobSha1": "283008e63c6fbd27b82742c1dd94ba7d10e1269e",
+      "sha256": "ba404bf3ebbd4cd8fabf0511bbd9d7090103b51f918f1230af1686af5054cb8b",
+      "bytes": 1827,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1723,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/sperm-whale.svg",
+      "concept": "sperm-whale",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/sperm-whale.svg",
+      "gitBlobSha1": "fd4ebf2308bfaa3193973c680673960fc85b4fdb",
+      "sha256": "032a9e0ff40489bbc00de412fc7a72226dce99018f588dab6c4619e155f21591",
+      "bytes": 2424,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2320,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/spider-bot.svg",
+      "concept": "spider-bot",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/spider-bot.svg",
+      "gitBlobSha1": "18db468038b1e5f793067833e1bb84e9445ba224",
+      "sha256": "b1a8e9a8b2b6e13a9b5f499eb5ecc29e66dd7d279e65d6c5b84768eca12ce503",
+      "bytes": 1656,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1552,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/spider-eye.svg",
+      "concept": "spider-eye",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/spider-eye.svg",
+      "gitBlobSha1": "bffc10498b9b73af27e8e0650894e7698102a9b3",
+      "sha256": "202e13fb26d1185c04e88d0e1844b7a20c89b180c56521cd1d78376227e4b4c6",
+      "bytes": 2145,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2041,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/spider-mask.svg",
+      "concept": "spider-mask",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/spider-mask.svg",
+      "gitBlobSha1": "9c231341436ecb233155db1a1a35a072295f0907",
+      "sha256": "92bfb7183e348d6225752cbaab274a67271cabc4012f740bb11563723ec131c8",
+      "bytes": 329,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 225,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/spiked-dragon-head.svg",
+      "concept": "spiked-dragon-head",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/spiked-dragon-head.svg",
+      "gitBlobSha1": "6737cf6e5b5386c23edaed3efa37851e689bc6fe",
+      "sha256": "ab6d52692c3b5b005c0cd6c5773aa3ebee75749ac77a7c542814c816f62c6da9",
+      "bytes": 1970,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1866,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/steam-blast.svg",
+      "concept": "steam-blast",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/steam-blast.svg",
+      "gitBlobSha1": "7b61325fc375e94de35c6d32ad25e2991cfff9e3",
+      "sha256": "c8c1e4b2968a69deb4812d60cabfa97eba9788cc147ef1f5e374dbc17791fe2f",
+      "bytes": 1822,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1718,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/sunflower.svg",
+      "concept": "sunflower",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/sunflower.svg",
+      "gitBlobSha1": "b81b1729b0edc02f571d3c2020063bfbddd48b88",
+      "sha256": "9cb709b2126755bc7035abffcb78beeb7dfb55402f01c049c285ff843d20f616",
+      "bytes": 3155,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 3051,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/tentacles-barrier.svg",
+      "concept": "tentacles-barrier",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/tentacles-barrier.svg",
+      "gitBlobSha1": "f3c6af725b8fd56338102dc3056a2624dfb639c1",
+      "sha256": "85ec617caeb576e2f0a16152db2ed424c677c5930fd078f8a530d67077d9136a",
+      "bytes": 4296,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 4191,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/trunk-mushroom.svg",
+      "concept": "trunk-mushroom",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/trunk-mushroom.svg",
+      "gitBlobSha1": "f2f30c8effb592da3a66575b0c27905f0eb909bd",
+      "sha256": "dee2a78a63c5c1e659b59b312757277d317bbd93d865d4a1b493475ed2bab85a",
+      "bytes": 1722,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1618,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/warlock-eye.svg",
+      "concept": "warlock-eye",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/warlock-eye.svg",
+      "gitBlobSha1": "329c82f73c4591ff5c1a7cc620a51d37b02766ff",
+      "sha256": "679c8a2fb24c5aeb98c2877723054c8418cc79b9cb9514c8d62a9d203412c15a",
+      "bytes": 690,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 586,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/warlock-hood.svg",
+      "concept": "warlock-hood",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/warlock-hood.svg",
+      "gitBlobSha1": "4e27f4f8ab3b0d6d76d9e0f4c3a6853564cf2e9e",
+      "sha256": "1ebe84e74fc912a2ffebd7c434b3ed62994b727c473707679bdfb3648fe5c2a4",
+      "bytes": 1801,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1697,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/wizard-face.svg",
+      "concept": "wizard-face",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/wizard-face.svg",
+      "gitBlobSha1": "f94117a3feb88527f3e51818c1ca9bb20edcca3b",
+      "sha256": "20fbc45ec55e019fe970b26d2f5f88a5cddc60b584ba7d1532b27ee1fcd17a0a",
+      "bytes": 1981,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1876,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "delapouite/zigzag-hieroglyph.svg",
+      "concept": "zigzag-hieroglyph",
+      "author": "Delapouite",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/delapouite/zigzag-hieroglyph.svg",
+      "gitBlobSha1": "b7ca98659608e6dcc245d0ed659f019b383b8071",
+      "sha256": "efd3d992aecd418634e7a6a1201e0af481552b3cdc33bc4e8c672786c870429c",
+      "bytes": 499,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 395,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/alien-fire.svg",
+      "concept": "alien-fire",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/alien-fire.svg",
+      "gitBlobSha1": "b5b4dafc00aed704c9556a68539a6c8306e070c7",
+      "sha256": "8f351ce7709d92384b1402fbd6b856e1fa1ceba148a9b47174f8a46e84f12ac2",
+      "bytes": 938,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 834,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/alien-skull.svg",
+      "concept": "alien-skull",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/alien-skull.svg",
+      "gitBlobSha1": "1189998de9b479b9b88bdad7867e65d6bcf602ad",
+      "sha256": "6578c1baa7a88152197dbf7f58970258dd0fb4af9b7b54feb73975a39f2f5248",
+      "bytes": 1487,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1383,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/alien-stare.svg",
+      "concept": "alien-stare",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/alien-stare.svg",
+      "gitBlobSha1": "a6b05884a726a3aea9917251a7014ad682a123e6",
+      "sha256": "e92927070a132ba1ad64ff1f27a7d42268658f7d57b48012be358e98e005109f",
+      "bytes": 1525,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1421,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/ammonite-fossil.svg",
+      "concept": "ammonite-fossil",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/ammonite-fossil.svg",
+      "gitBlobSha1": "d49bf20730de253af6b4603896495f5d7ce43b55",
+      "sha256": "4319c0c3507e942b10840abbd9db0b5b30e9252234330afe02a5fed3ba52b99a",
+      "bytes": 2714,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2610,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/angular-spider.svg",
+      "concept": "angular-spider",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/angular-spider.svg",
+      "gitBlobSha1": "3c0e5108320421df5df3617aaf9225a6583fb0f8",
+      "sha256": "ccb146d315267f2bd484d44fb77b2a9fdf20c946393fe17656b312140e61ad64",
+      "bytes": 2648,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2544,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/beetle-shell.svg",
+      "concept": "beetle-shell",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/beetle-shell.svg",
+      "gitBlobSha1": "52ad48e0a5d505f2e2fe8a19741c927294e513de",
+      "sha256": "f7abb5b7f74532f3754d68d342adc9e6c8e4fd4a6c02e354156c2fd101e333dd",
+      "bytes": 2994,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2890,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/biohazard.svg",
+      "concept": "biohazard",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/biohazard.svg",
+      "gitBlobSha1": "07de09496d630896ec84eaa8d8ecbb60a91e922f",
+      "sha256": "3381f9cbbd289cf759ac92e227417901d15b6f99f18ed3d8f7df74b10a43cb94",
+      "bytes": 2020,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1916,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/burning-meteor.svg",
+      "concept": "burning-meteor",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/burning-meteor.svg",
+      "gitBlobSha1": "51729717305be4603aa2b5a926c4c1c3f56b0061",
+      "sha256": "849eeddb6197ec9d475ad0cc115b31645cefeccb8afcff5298e14be0717ec829",
+      "bytes": 1071,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 967,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/burst-blob.svg",
+      "concept": "burst-blob",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/burst-blob.svg",
+      "gitBlobSha1": "a905baa13cb1e96a855e0eb28fa9192d666e6808",
+      "sha256": "eae7eb0dc255ca5efbe6e9849bf6e5b460f438e9504c2bbde36915fd768f5608",
+      "bytes": 1501,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1397,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/cracked-alien-skull.svg",
+      "concept": "cracked-alien-skull",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/cracked-alien-skull.svg",
+      "gitBlobSha1": "79b94c5ff970dc14a8564b37de753f3c1f853701",
+      "sha256": "ca7346231b33a5b24627e63756050a1a226e57becfd098e67a16ed7314439016",
+      "bytes": 1198,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1094,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/crystal-ball.svg",
+      "concept": "crystal-ball",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/crystal-ball.svg",
+      "gitBlobSha1": "7c0c8482ab0620171a53fdb3273f081ba37732a3",
+      "sha256": "5bd0091b48f9a8fdb68a9ef3a1c85979052655466d08a2d1797f1d4bc5beba1a",
+      "bytes": 1351,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1247,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/crystal-bars.svg",
+      "concept": "crystal-bars",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/crystal-bars.svg",
+      "gitBlobSha1": "c1f9954413dd18cf0bad34025621c0aa21d98508",
+      "sha256": "4a7b142e12642a9b589e1c941865c3c1f62ee4778fc7b70e4430cb5a066172d6",
+      "bytes": 1453,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1349,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/crystal-cluster.svg",
+      "concept": "crystal-cluster",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/crystal-cluster.svg",
+      "gitBlobSha1": "cc420565be3932521fc629a498dbe4803f1e1f85",
+      "sha256": "452a4c5f0cbd5e65dc6875c662a1590f92d07d6787201f53b6be8d7ad83fa841",
+      "bytes": 742,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 638,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/crystal-eye.svg",
+      "concept": "crystal-eye",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/crystal-eye.svg",
+      "gitBlobSha1": "3929cc7d283e88230e345c7346f10e9b928b28e2",
+      "sha256": "32bf51e3e56904ccd31ee4ba7f08db40c77f14724b8d2cb3cf533c779123b35b",
+      "bytes": 1661,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1557,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/crystal-growth.svg",
+      "concept": "crystal-growth",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/crystal-growth.svg",
+      "gitBlobSha1": "4dd8a0eeaf21a57fefc11586c3e58920247a1e99",
+      "sha256": "9b5f92549a1173fc6d7061725a273d91fe3c58b213a52099d53b5262dec66e72",
+      "bytes": 591,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 486,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/crystal-shine.svg",
+      "concept": "crystal-shine",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/crystal-shine.svg",
+      "gitBlobSha1": "74a0903db06229dd5064697fd5af0d2d4fe23473",
+      "sha256": "ee651db337fd64985f237ffd3bbac536887b4d2575b4668154ce23f6b113dca4",
+      "bytes": 2484,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2380,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/crystal-wand.svg",
+      "concept": "crystal-wand",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/crystal-wand.svg",
+      "gitBlobSha1": "6e67cbafbc845e2edc62acc8b4bc5c0f1b4b2998",
+      "sha256": "2808d06e02ed3ef5499bb6a72e5bd77bedd6e4d8970fd6d2420fde7048039abf",
+      "bytes": 1042,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 938,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/crystalize.svg",
+      "concept": "crystalize",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/crystalize.svg",
+      "gitBlobSha1": "1605640b3bdac88d31e3022a0ea9c7f32556f54a",
+      "sha256": "f057a9413c128481e8728d97a1fa68ece131c5df4c5730b9124852403d436a05",
+      "bytes": 2061,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1957,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/cyclops.svg",
+      "concept": "cyclops",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/cyclops.svg",
+      "gitBlobSha1": "ced12ec28c25216faaadc84bb721a47bff2c199a",
+      "sha256": "3e936c8bc611dc4c20abccec6c7f80fadbe44668c5bdf246393ed6b8374c9bd1",
+      "bytes": 2049,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1945,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/droplet-splash.svg",
+      "concept": "droplet-splash",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/droplet-splash.svg",
+      "gitBlobSha1": "59dd20fb790aa9085581fd2be7b936cd541b6ea2",
+      "sha256": "6448ab44984f5363f733869e83b150bca876864d778d85f38dc564bd96e97b11",
+      "bytes": 1308,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1204,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/embryo.svg",
+      "concept": "embryo",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/embryo.svg",
+      "gitBlobSha1": "ffb4ba71af9f10a6439c7107fa269be3feb7e17b",
+      "sha256": "11354812776e9c5811c1126b94b7d91fe1cf0b51063645b083eb8959ecad8614",
+      "bytes": 1697,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1593,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/entangled-typhoon.svg",
+      "concept": "entangled-typhoon",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/entangled-typhoon.svg",
+      "gitBlobSha1": "b42b5e6d92b0dcc54381e9c5bf86bc0cbc6423d3",
+      "sha256": "0c51d7f99c26b82982952b6c4b56464d49581171d3b8959957244c2af24e76cc",
+      "bytes": 2970,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2866,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/floating-crystal.svg",
+      "concept": "floating-crystal",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/floating-crystal.svg",
+      "gitBlobSha1": "93ddfc66dc5c89a6227d2199504f03b0aa38af3b",
+      "sha256": "3c390ece2e4b8eaff2496efb9628e73fbf31ed1e04dbbe049584594b2ce347c0",
+      "bytes": 671,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 567,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/fluffy-swirl.svg",
+      "concept": "fluffy-swirl",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/fluffy-swirl.svg",
+      "gitBlobSha1": "2fd2b489b5678438d5429a498f344d75d7d1c7ff",
+      "sha256": "2c435e3b4dacc34fa8b18c0a7e0713e9b5df88d77d93d77ef1165afade5cf50d",
+      "bytes": 1380,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1276,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/fossil.svg",
+      "concept": "fossil",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/fossil.svg",
+      "gitBlobSha1": "dc0dfae6e25792ebfa1e70217d1f6c85d58f1123",
+      "sha256": "5f8d355fb9c04b3d670cce6140a015bc899dd1ef4557be734e0c1ac61d6b2c3c",
+      "bytes": 3353,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 3249,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/fragmented-meteor.svg",
+      "concept": "fragmented-meteor",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/fragmented-meteor.svg",
+      "gitBlobSha1": "8e91d0630d2582e8dc733d2907081b6fd3599caf",
+      "sha256": "a7bd53c4ef448c4a8233bd76e69f9bc5b6acb2823092df7becaa7bd6a3264ea3",
+      "bytes": 782,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 678,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/hydra-shot.svg",
+      "concept": "hydra-shot",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/hydra-shot.svg",
+      "gitBlobSha1": "dd24caf68d00d37d13480d0e6fcc9ef54a63435d",
+      "sha256": "6e09018f692d9f7a03dd80e4818801d33539e34bd6b34e55120579e4ebdbd39a",
+      "bytes": 1674,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1570,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/hydra.svg",
+      "concept": "hydra",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/hydra.svg",
+      "gitBlobSha1": "3d09de8bc5742b6308f6ba09ff53df13e2822a82",
+      "sha256": "46136e86df088d6ee8bc975ff9823945937e08d5d1954f099db066509b5dbe13",
+      "bytes": 2204,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2100,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/implosion.svg",
+      "concept": "implosion",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/implosion.svg",
+      "gitBlobSha1": "f78d4c1e3e739cdf2ef2fc1f16732bde028f66f7",
+      "sha256": "fde43cd23aeaebfdd2e4b3261c3436ebc34b8df55087fc1d2a91dcebb1dfc2f7",
+      "bytes": 2534,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2430,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/ink-swirl.svg",
+      "concept": "ink-swirl",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/ink-swirl.svg",
+      "gitBlobSha1": "3f1787c6653f65d4d14a13e9ab4c3ed77de90765",
+      "sha256": "407eec53aff3e9e35eaf50c34c130f6e460ebfac7491ef1e6dc4b9a86457a334",
+      "bytes": 1082,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 978,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/interlaced-tentacles.svg",
+      "concept": "interlaced-tentacles",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/interlaced-tentacles.svg",
+      "gitBlobSha1": "7a58c52c7621a1cee556691afe94086a30545f03",
+      "sha256": "66cf4d32fb17b694bf96e989c95b0a35cc21ec8de5b84ca80738a6ee5c2c68bd",
+      "bytes": 2480,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2376,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/ion-cannon-blast.svg",
+      "concept": "ion-cannon-blast",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/ion-cannon-blast.svg",
+      "gitBlobSha1": "39bb94e8f92d45e57db48a69e87a3a11b29c9b92",
+      "sha256": "940eeb7e956c96a65a3c1ec986aaad86e3f05bfe1aeba0712ee913f67c231099",
+      "bytes": 1673,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1569,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/laser-blast.svg",
+      "concept": "laser-blast",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/laser-blast.svg",
+      "gitBlobSha1": "03a7de01233b35576945de6b560a4fcbd213bb00",
+      "sha256": "0bade194e08f4226608866d1bc641a508adfc356e31ff0ce8ee1e7a79c409fa0",
+      "bytes": 1764,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1660,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/leaf-swirl.svg",
+      "concept": "leaf-swirl",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/leaf-swirl.svg",
+      "gitBlobSha1": "ff36e409f77e0d13b470c58a165833fad1a2866b",
+      "sha256": "48ace83979050d0d0b66ba6754b41538e94b67553ae38bc04f3eb0be7d670ea1",
+      "bytes": 2054,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1950,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/lightning-helix.svg",
+      "concept": "lightning-helix",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/lightning-helix.svg",
+      "gitBlobSha1": "8a16c9b5f76d8e9e25750524a3466653d5541321",
+      "sha256": "c51e4ad3c189457b08c6cee6ce3bf9b3946b9a8e5a2acaa657b01c431aaa1b27",
+      "bytes": 515,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 411,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/magic-swirl.svg",
+      "concept": "magic-swirl",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/magic-swirl.svg",
+      "gitBlobSha1": "10e2d2f501d37bb73d2d72e12b573da8111e48bf",
+      "sha256": "0caf11370169ccf706b8ff1beb6ac9f7d3246ac770063c654dd42df0f592addd",
+      "bytes": 1273,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1169,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/magnet-blast.svg",
+      "concept": "magnet-blast",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/magnet-blast.svg",
+      "gitBlobSha1": "112988dc9805769d28f66ef5fff6f1024ac48e0c",
+      "sha256": "0a1f547f3209d96ae2d7b3cb722cb0ba08cce1689df1cbe719a1328fd871170f",
+      "bytes": 1522,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1418,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/meteor-impact.svg",
+      "concept": "meteor-impact",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/meteor-impact.svg",
+      "gitBlobSha1": "3cfa786997b12342c9d7e1182baff246f82554b3",
+      "sha256": "b47dfae7eb457c807428389505882802e2532db2fac4246e12a28eeefa3a0621",
+      "bytes": 1466,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1362,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/mushroom-cloud.svg",
+      "concept": "mushroom-cloud",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/mushroom-cloud.svg",
+      "gitBlobSha1": "22213ec681ae6395a86b33c143433f9bb45b1a55",
+      "sha256": "a3f829b53328647993cb761dba6045f6763e7c2e8b9db21d21080c272d550c88",
+      "bytes": 3356,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 3252,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/mushroom-gills.svg",
+      "concept": "mushroom-gills",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/mushroom-gills.svg",
+      "gitBlobSha1": "dec9ebfd23aa9067bc1dba9a128459a40ac44b2f",
+      "sha256": "3c6379441cd2ec21b18884a6fd4f213ed99fa0f776d8c94afe6589e8ea264445",
+      "bytes": 1794,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1690,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/mushroom.svg",
+      "concept": "mushroom",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/mushroom.svg",
+      "gitBlobSha1": "eebd1cebf9392351d4179787eae4e0465efb6f4c",
+      "sha256": "25d28b8175823ff02cc43c8ffca76bcc88fe6fa39ea7517e452709a92549ad52",
+      "bytes": 1442,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1338,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/pentagram-rose.svg",
+      "concept": "pentagram-rose",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/pentagram-rose.svg",
+      "gitBlobSha1": "3a8fbd6aa562e5f7d97b6dae671b7c103a52431e",
+      "sha256": "4d256dd43bc0bd8f911ec384d1eaa2e23c5c84c5ed08dcdab39a952ba62e0876",
+      "bytes": 2603,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2499,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/plasma-bolt.svg",
+      "concept": "plasma-bolt",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/plasma-bolt.svg",
+      "gitBlobSha1": "12d3b015ec10073dbf5a197e01a0613101c934a3",
+      "sha256": "ece772c842820f9288d9d87997847eea9a38ab9cae673ecd10113c0a6e1aec4e",
+      "bytes": 2727,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2623,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/punch-blast.svg",
+      "concept": "punch-blast",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/punch-blast.svg",
+      "gitBlobSha1": "6e46e0f72c9ad66dc8f0973ec0d58dc4a514404d",
+      "sha256": "4490851b861db00f05d8573038bbb35cf6897b255ca6a9bd3daa21021fd66e31",
+      "bytes": 1363,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1259,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/rune-stone.svg",
+      "concept": "rune-stone",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/rune-stone.svg",
+      "gitBlobSha1": "62581da173b690a698a8ccd647685847c1f9cebf",
+      "sha256": "12bfb1ab9a536fd3cb04bbb68773631c88a4cc2a4c5aba87ad078794dc39921c",
+      "bytes": 1170,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1066,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/rune-sword.svg",
+      "concept": "rune-sword",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/rune-sword.svg",
+      "gitBlobSha1": "6aee666bc5a9e75631a4312df634aa85d2c5cefb",
+      "sha256": "1127bc4dd84967fef45de93f795797d75b1465c56d137202912fb29a9b71390f",
+      "bytes": 1144,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1040,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/sentry-gun.svg",
+      "concept": "sentry-gun",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/sentry-gun.svg",
+      "gitBlobSha1": "2480a3bb5354fd5c0e5e5a47dc09f56a6ef91386",
+      "sha256": "60a4163b6151658600583fe5e0d9e5dae65fa5ac6272dd6a4dacd915228b3333",
+      "bytes": 848,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 744,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/splash.svg",
+      "concept": "splash",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/splash.svg",
+      "gitBlobSha1": "3636dd72eefe484c0e66dd46eb93d6a429a9041e",
+      "sha256": "b2124c75fc64de7049f29c1b96f7a50c9d195136accaf5272854ab2755275cd4",
+      "bytes": 1079,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 975,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/splashy-stream.svg",
+      "concept": "splashy-stream",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/splashy-stream.svg",
+      "gitBlobSha1": "c5976e900ef1f32459cb59b9cfdc0245b347cc16",
+      "sha256": "ef7abd9d69fd1f681f3f5a8d4f76735f299288c884dcd3fcc11afd8cf16584e7",
+      "bytes": 1433,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1329,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/spotted-mushroom.svg",
+      "concept": "spotted-mushroom",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/spotted-mushroom.svg",
+      "gitBlobSha1": "e8dd0f2545913f63b11e3b432c8099dfbf9b9e58",
+      "sha256": "6c96f3f4b150068c23ba8e830b1c65ccf6e067ad65d7f59ac6635477dd9e3ae4",
+      "bytes": 2614,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2510,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/squid-head.svg",
+      "concept": "squid-head",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/squid-head.svg",
+      "gitBlobSha1": "1f705cebf75fc16238c0cb0069bd10e8d23a442f",
+      "sha256": "6eda513bdd8fdc37bdceac88ca099586bd4ec671b997b59c5c9fc84ffc1b66a3",
+      "bytes": 1606,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1502,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/squid.svg",
+      "concept": "squid",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/squid.svg",
+      "gitBlobSha1": "b8031f369a1ac3e66b974c0c0124a9e75e122b42",
+      "sha256": "93ac7692698ed1d71582c66b1c2fea3458343dc203b5dda2cc7281d950b2a5b2",
+      "bytes": 2231,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2127,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/star-swirl.svg",
+      "concept": "star-swirl",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/star-swirl.svg",
+      "gitBlobSha1": "ce934cade87f4e77c5acf8dd07a7e5a74e5a76b9",
+      "sha256": "a2c07146033f54b3874951d761c0fe82e967d44490057666d9238e058cfdc6fc",
+      "bytes": 1055,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 951,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/sun-radiations.svg",
+      "concept": "sun-radiations",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/sun-radiations.svg",
+      "gitBlobSha1": "b699a1eb89392528840b95aca49e38cf05fc08d3",
+      "sha256": "664a20adc10227f39cc9217b829e8bf599e3523e16f1e8f23dfe7314805c3dab",
+      "bytes": 930,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 826,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/super-mushroom.svg",
+      "concept": "super-mushroom",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/super-mushroom.svg",
+      "gitBlobSha1": "86d08cd803c64ba6a2385a5901e37300e0a148ed",
+      "sha256": "59e6c9e9e70bb5c8e16e6511547b2801e20a14c5619d926df90663a60be386a0",
+      "bytes": 2102,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1998,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/swirl-ring.svg",
+      "concept": "swirl-ring",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/swirl-ring.svg",
+      "gitBlobSha1": "e4049fc0a6f4488b3c46be56069c4396a4853e53",
+      "sha256": "594dc2ef21e947b91b159b07701f363821e6c6b197f8bfde54c728ab98defc94",
+      "bytes": 1473,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1369,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/swirl-string.svg",
+      "concept": "swirl-string",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/swirl-string.svg",
+      "gitBlobSha1": "93033553631ea8b5a6b5fd027fdd9f5abbd50aa3",
+      "sha256": "04b1a6f3a90d3dca992e21af6a2a668ee8abaee06218aa27b1ef98c800570ef0",
+      "bytes": 927,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 823,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/thorn-helix.svg",
+      "concept": "thorn-helix",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/thorn-helix.svg",
+      "gitBlobSha1": "012d310c3ce03f82bfc54ee0f4db047fa2886d16",
+      "sha256": "0b7a5178e3972cca12dc9d4deb9991f59822a7726fa08ff26b9dd84ed5a9ccf7",
+      "bytes": 3517,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 3413,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/thunder-blade.svg",
+      "concept": "thunder-blade",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/thunder-blade.svg",
+      "gitBlobSha1": "c1e534c63d4fa7ba6875e221274c03d38fc647c0",
+      "sha256": "7c4bb5167b8f80b32b3dd4be400d815c6312898def06da08a71a20453b5ad707",
+      "bytes": 1567,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1463,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/thunder-skull.svg",
+      "concept": "thunder-skull",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/thunder-skull.svg",
+      "gitBlobSha1": "c5146e958aa02abb3104680b5e247a920313913b",
+      "sha256": "1bfb8a2a333163160f9f1fb3adeac4d30a8a4f73480f9358c479fafbfb01191a",
+      "bytes": 1517,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1413,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/thunder-struck.svg",
+      "concept": "thunder-struck",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/thunder-struck.svg",
+      "gitBlobSha1": "eed7988cac893c14df7cd802c2112869ddcc42c8",
+      "sha256": "8f101b968016a8771f4703946c5b8291067615be180596a7975c500489bf761a",
+      "bytes": 698,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 594,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/thunderball.svg",
+      "concept": "thunderball",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/thunderball.svg",
+      "gitBlobSha1": "93665b72b9b6077f56919545748c5360d6c394ee",
+      "sha256": "2f7f445bc021030f2f5c0e252f09ac0593b50563c02640c9dd2de3a50dc3dae7",
+      "bytes": 913,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 809,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/vortex.svg",
+      "concept": "vortex",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/vortex.svg",
+      "gitBlobSha1": "420c96ccaf6ce1a208e46d0789dd4191358d6e18",
+      "sha256": "bc52725656644fd7f55daa5b1736b21f7d251c90bcb7361aa1fbf489c37cdd4d",
+      "bytes": 1999,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1895,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/water-splash.svg",
+      "concept": "water-splash",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/water-splash.svg",
+      "gitBlobSha1": "ab0db016ef137b18e011cf98dba39c6f70f21bac",
+      "sha256": "6475e84792dfb6a18e2b55bc7901c7b392ef697603bc14a65260360dc1d8eb28",
+      "bytes": 1865,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 1761,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    },
+    {
+      "path": "lorc/wizard-staff.svg",
+      "concept": "wizard-staff",
+      "author": "Lorc",
+      "license": "CC-BY-3.0",
+      "sourceUrl": "https://github.com/game-icons/icons/blob/82d948812bfe3f269ef8f731dcdb07b08160edc4/lorc/wizard-staff.svg",
+      "gitBlobSha1": "b943f41593dc234afaa6b47f62b749cf703738ec",
+      "sha256": "743b394ecdbf8c7bf6be177dac0d4e172a4559e66d5c86b8c5aad9c37c394637",
+      "bytes": 2277,
+      "nodes": 3,
+      "tags": {
+        "svg": 1,
+        "path": 2
+      },
+      "attributes": {
+        "viewBox": 1,
+        "d": 2,
+        "fill": 1
+      },
+      "geometryCharacters": 2173,
+      "safeProfile": true,
+      "unsafeAttributes": []
+    }
+  ],
+  "robots": {
+    "repositoryArchive": {
+      "status": "absent",
+      "httpStatus": 404,
+      "allowed": true,
+      "intervalSeconds": 1.25
+    },
+    "website": {
+      "status": "read",
+      "sha256": "f9bda9386b3678697c485bf7fe564dc12514019423b7bf04ced08b3411f57357",
+      "collectionUsed": false
+    }
+  },
+  "networkRequests": [
+    {
+      "url": "https://codeload.github.com/robots.txt",
+      "status": 404
+    },
+    {
+      "url": "https://codeload.github.com/game-icons/icons/tar.gz/82d948812bfe3f269ef8f731dcdb07b08160edc4",
+      "status": 200,
+      "bytes": 3015620,
+      "sha256": "6ede4bfaed3bbe3cbe4b188b46ab2d62a28bcf737cbfcd1f0edcfdf12c124cff"
+    },
+    {
+      "url": "https://game-icons.net/robots.txt",
+      "status": 200,
+      "bytes": 67,
+      "sha256": "f9bda9386b3678697c485bf7fe564dc12514019423b7bf04ced08b3411f57357"
+    }
+  ],
+  "sourceJavaScriptExecuted": false,
+  "catalogItemsAdded": 0
+}

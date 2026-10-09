@@ -1,0 +1,24 @@
+{
+  "coverage": {
+    "itemCount": 494,
+    "pairUniverse": 121771,
+    "pairComparisons": 121771
+  },
+  "methodology": {
+    "version": 1,
+    "exact": "SHA-256 of the actual stored JPEG after descriptor/file validation.",
+    "near": "8 rotation/reflection pHashes plus color quantiles, radial frequency, edge and low-contrast surface comparisons.",
+    "pairCoverage": "Every successfully decoded local image pair.",
+    "limitations": "Conservative surface-family similarity, not a guarantee of universal perceptual uniqueness."
+  },
+  "errors": [],
+  "exactGroups": [],
+  "nearGroups": [],
+  "candidatePairs": [],
+  "familyGroups": [],
+  "originalSourceCoverage": {
+    "verifiedOriginals": 494,
+    "sha256Matches": 494,
+    "catalogSha256": "9e5eaecb0e9cfebaa8991bc7c7f9efb41d97edc7213d9a2387d4414e79620362"
+  }
+}

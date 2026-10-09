@@ -1,0 +1,75 @@
+{
+  "version": 1,
+  "phase2MotionInputSha256": "9076417e392a6439ec32defa258bce5a84f6fb018e827169e861e30547a68bea",
+  "decisions": [
+    {
+      "domain": "css",
+      "ids": [
+        "phase2-motion-css-loaders-circle13",
+        "phase2-motion-css-loaders-circle18"
+      ],
+      "classification": "distinct-composition",
+      "basis": "manual-original-code-and-complete-DOM-inspection",
+      "reasonEN": "Circular orbiting ball versus a long radial clock-hand geometry.",
+      "codeSha256": {
+        "phase2-motion-css-loaders-circle13": "8ced8c64371e2084c8d18bd8a9dd926fd4732bb9820bd91214e988fbd34884de",
+        "phase2-motion-css-loaders-circle18": "1d10b6c079e8e4b80cce28208341aa87a79031dad48579f45e2603dd9d019e8d"
+      },
+      "canonicalSha256": {
+        "phase2-motion-css-loaders-circle13": "7d84ba0372eed39592d6a26858dc302686df85d81bbc3daa8c25a1c393943b2b",
+        "phase2-motion-css-loaders-circle18": "e483c71917ff5d0a6b4f157610ae014a249dc36b22d1cd4a0bb7b23782bdee55"
+      },
+      "renderedComparison": true,
+      "renderedComparisonScope": "One actual Chrome sample confirms the source composition distinction; not an exhaustive temporal-frame similarity comparison.",
+      "comparisonImage": "data/upstream/phase2-motion/composition-comparison-final.png",
+      "comparisonImageSha256": "c5c59a7d810031cfc9a30b67d7f5e4f8253b771ebf4fe26a5c39b8b4836ab865",
+      "comparisonRendererSha256": "46ee82db97f5139b23e4e2f969c7aa904bfb90401e3e0cd7b7b4aa0f7e49da5a"
+    },
+    {
+      "domain": "css",
+      "ids": [
+        "phase2-motion-css-loaders-bubble21",
+        "phase2-motion-css-loaders-rect20"
+      ],
+      "classification": "distinct-composition",
+      "basis": "manual-original-code-and-complete-DOM-inspection",
+      "reasonEN": "Same spin choreography but circular balls versus square boxes are materially different design shapes.",
+      "codeSha256": {
+        "phase2-motion-css-loaders-bubble21": "11402fc062a5d543ba56fa6263dc107cd744e6e2c946b3e972d522f786c8d082",
+        "phase2-motion-css-loaders-rect20": "49d8700c6dfb9ad50f04bb36ed5ff89e33d682e49d27db1ce16882ca38fe7a04"
+      },
+      "canonicalSha256": {
+        "phase2-motion-css-loaders-bubble21": "3179494024e2f8683db4b160d4083d08f93cbf6b01eae58d2bdf9dd1982f3dad",
+        "phase2-motion-css-loaders-rect20": "3105a21fa10a2af2c4878c8a3689b5c7c0c3366464cb56858210eaf7b7e118b5"
+      },
+      "renderedComparison": true,
+      "renderedComparisonScope": "One actual Chrome sample confirms the source composition distinction; not an exhaustive temporal-frame similarity comparison.",
+      "comparisonImage": "data/upstream/phase2-motion/composition-comparison-final.png",
+      "comparisonImageSha256": "c5c59a7d810031cfc9a30b67d7f5e4f8253b771ebf4fe26a5c39b8b4836ab865",
+      "comparisonRendererSha256": "46ee82db97f5139b23e4e2f969c7aa904bfb90401e3e0cd7b7b4aa0f7e49da5a"
+    },
+    {
+      "domain": "css",
+      "ids": [
+        "phase2-motion-css-loaders-skeleton07",
+        "phase2-motion-css-loaders-skeleton08"
+      ],
+      "classification": "distinct-composition",
+      "basis": "manual-original-code-and-complete-DOM-inspection",
+      "reasonEN": "Circular avatar footprint versus rectangular thumbnail footprint in a shimmer skeleton.",
+      "codeSha256": {
+        "phase2-motion-css-loaders-skeleton07": "349e693420e19679d154d16986d6f7cfbb683b78d9028a7da54f49a3fa0128a7",
+        "phase2-motion-css-loaders-skeleton08": "2cabca48c84fb1d2ca9fddc1817f9670ed7139597bbb8fb867c717ac450cde60"
+      },
+      "canonicalSha256": {
+        "phase2-motion-css-loaders-skeleton07": "30bc3b5eac722f5ef698c2ce9be35b192277d6f4ce9df1d3ea46565ac701f4df",
+        "phase2-motion-css-loaders-skeleton08": "5e3595621b1a63db1467c54e21bcddc646873dbe0b562494e58721fc7d10b2cb"
+      },
+      "renderedComparison": true,
+      "renderedComparisonScope": "One actual Chrome sample confirms the source composition distinction; not an exhaustive temporal-frame similarity comparison.",
+      "comparisonImage": "data/upstream/phase2-motion/composition-comparison-final.png",
+      "comparisonImageSha256": "c5c59a7d810031cfc9a30b67d7f5e4f8253b771ebf4fe26a5c39b8b4836ab865",
+      "comparisonRendererSha256": "46ee82db97f5139b23e4e2f969c7aa904bfb90401e3e0cd7b7b4aa0f7e49da5a"
+    }
+  ]
+}

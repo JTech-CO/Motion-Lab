@@ -1,0 +1,3281 @@
+{
+  "sha": "43cd68db79fa0b1759f72ffc941b3238e2a3954c",
+  "url": "https://api.github.com/repos/paper-design/shaders/git/trees/43cd68db79fa0b1759f72ffc941b3238e2a3954c",
+  "tree": [
+    {
+      "path": ".bun-version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0bb29e76388856b273698ae6064b0380ce5e5d2",
+      "size": 6,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/f0bb29e76388856b273698ae6064b0380ce5e5d2"
+    },
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e01dd9719be45262c8915b9a5eea4b55868fe26d",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/e01dd9719be45262c8915b9a5eea4b55868fe26d"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a91fb7e648e074163a16dc422f8700221394afb0",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/a91fb7e648e074163a16dc422f8700221394afb0"
+    },
+    {
+      "path": ".github/workflows/unit-test-packages.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7147ceccde0d413ba270b6f90751e543d787b945",
+      "size": 727,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/7147ceccde0d413ba270b6f90751e543d787b945"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4686499c91b0485a6dc30bcf37dec6575a048ba",
+      "size": 411,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/c4686499c91b0485a6dc30bcf37dec6575a048ba"
+    },
+    {
+      "path": ".prettierrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3708ec6b22e7d59bee62b39514adc07558d0aaad",
+      "size": 234,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/3708ec6b22e7d59bee62b39514adc07558d0aaad"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a66d86abfbc6edfc6c15ceb35753f25f05c572f4",
+      "size": 16232,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/a66d86abfbc6edfc6c15ceb35753f25f05c572f4"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "NOTICE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bb1b73ec7aef447ad4777c70d9e6609bace6f6c",
+      "size": 55,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/6bb1b73ec7aef447ad4777c70d9e6609bace6f6c"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db7aaea1d1f434a0608d39fa64688555bd2f8de2",
+      "size": 2690,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/db7aaea1d1f434a0608d39fa64688555bd2f8de2"
+    },
+    {
+      "path": "build.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbff353d6802b9a0cf4059f85646f35378408e93",
+      "size": 1474,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/fbff353d6802b9a0cf4059f85646f35378408e93"
+    },
+    {
+      "path": "bun.lock",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92bf18e3b9d299269c8689632c79170096e0ecc9",
+      "size": 184489,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/92bf18e3b9d299269c8689632c79170096e0ecc9"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5786a85d2d0ef4da2c32306b696c59b802093964",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/5786a85d2d0ef4da2c32306b696c59b802093964"
+    },
+    {
+      "path": "docs/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afc889aa07b60f06ed062c8a469d5823ee8ae36e",
+      "size": 529,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/afc889aa07b60f06ed062c8a469d5823ee8ae36e"
+    },
+    {
+      "path": "docs/eslint.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef145628102bfc4875105f369c0ca120625dc773",
+      "size": 515,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/ef145628102bfc4875105f369c0ca120625dc773"
+    },
+    {
+      "path": "docs/next.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81409fbebc5b627d21579bdc3a66b69dc3ea0db8",
+      "size": 289,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/81409fbebc5b627d21579bdc3a66b69dc3ea0db8"
+    },
+    {
+      "path": "docs/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fb0fdf140a5d6adc1fad62ac3832287b61a927b",
+      "size": 1066,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/2fb0fdf140a5d6adc1fad62ac3832287b61a927b"
+    },
+    {
+      "path": "docs/postcss.config.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "297374d80baa3b6081a566876859cf746a8b3669",
+      "size": 94,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/297374d80baa3b6081a566876859cf746a8b3669"
+    },
+    {
+      "path": "docs/public",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7f2c49ac3b94d7fb3376b3b058baaf4d25941345",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/7f2c49ac3b94d7fb3376b3b058baaf4d25941345"
+    },
+    {
+      "path": "docs/public/apple-touch-icon.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ffa0fe3f47804a2ddbe0bd32b3dedb5cb9ddb8a",
+      "size": 707,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/0ffa0fe3f47804a2ddbe0bd32b3dedb5cb9ddb8a"
+    },
+    {
+      "path": "docs/public/flowers.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "428a9fb905e10e70db6302a441aaf79d6d14850a",
+      "size": 56434,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/428a9fb905e10e70db6302a441aaf79d6d14850a"
+    },
+    {
+      "path": "docs/public/images",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "94db9eeaa576af27a284fe503ab405a6e9c1b95e",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/94db9eeaa576af27a284fe503ab405a6e9c1b95e"
+    },
+    {
+      "path": "docs/public/images/git-readme-picture.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ae9ba8163ede5535169f1425af02f59d9fc36f5",
+      "size": 209816,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/4ae9ba8163ede5535169f1425af02f59d9fc36f5"
+    },
+    {
+      "path": "docs/public/images/git-readme-picture.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a40056087746d28d068b381dc3b42b42efa8896",
+      "size": 66096,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/3a40056087746d28d068b381dc3b42b42efa8896"
+    },
+    {
+      "path": "docs/public/images/image-filters",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c1a65ef1b79073929b024587143f0e23cd8d16a7",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/c1a65ef1b79073929b024587143f0e23cd8d16a7"
+    },
+    {
+      "path": "docs/public/images/image-filters/001.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae54d3424fade9f8c900fbc2d6c76b42d42b0f81",
+      "size": 270190,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/ae54d3424fade9f8c900fbc2d6c76b42d42b0f81"
+    },
+    {
+      "path": "docs/public/images/image-filters/0010.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10cd0cea9b0f342dcf514ee6f02c001953c324ed",
+      "size": 28102,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/10cd0cea9b0f342dcf514ee6f02c001953c324ed"
+    },
+    {
+      "path": "docs/public/images/image-filters/0011.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e395bb5d827df54ede40e4e1a6f24d064faab5c8",
+      "size": 23754,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/e395bb5d827df54ede40e4e1a6f24d064faab5c8"
+    },
+    {
+      "path": "docs/public/images/image-filters/0012.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "484a8a29a721a2ca597d6836307c619d89e9fe92",
+      "size": 49366,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/484a8a29a721a2ca597d6836307c619d89e9fe92"
+    },
+    {
+      "path": "docs/public/images/image-filters/0013.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "08699ee1298ca61a5c2c90b3d8a08d3dc47e467b",
+      "size": 168440,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/08699ee1298ca61a5c2c90b3d8a08d3dc47e467b"
+    },
+    {
+      "path": "docs/public/images/image-filters/0014.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10a45595f8545d41f1a0532b012955968ca0e7ab",
+      "size": 67138,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/10a45595f8545d41f1a0532b012955968ca0e7ab"
+    },
+    {
+      "path": "docs/public/images/image-filters/0015.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7969924c3e74f8e12fbea365e61df6dba0f528df",
+      "size": 208316,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/7969924c3e74f8e12fbea365e61df6dba0f528df"
+    },
+    {
+      "path": "docs/public/images/image-filters/0016.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0caced711c715323bf18905017148325225d811",
+      "size": 58810,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/b0caced711c715323bf18905017148325225d811"
+    },
+    {
+      "path": "docs/public/images/image-filters/0017.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a54fcb4b76f0128ada1e23ee42d726873efa5d0d",
+      "size": 61052,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/a54fcb4b76f0128ada1e23ee42d726873efa5d0d"
+    },
+    {
+      "path": "docs/public/images/image-filters/0018.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "428a9fb905e10e70db6302a441aaf79d6d14850a",
+      "size": 56434,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/428a9fb905e10e70db6302a441aaf79d6d14850a"
+    },
+    {
+      "path": "docs/public/images/image-filters/0019.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27083b83c662da72ca0395b92d9c3017f6c85a2f",
+      "size": 4932,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/27083b83c662da72ca0395b92d9c3017f6c85a2f"
+    },
+    {
+      "path": "docs/public/images/image-filters/002.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60868ef7a3f82e7e9f9af518a9ae885181202fd8",
+      "size": 40728,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/60868ef7a3f82e7e9f9af518a9ae885181202fd8"
+    },
+    {
+      "path": "docs/public/images/image-filters/003.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8277a280d2934ccb602b0d45d2d21e1ac013a5b4",
+      "size": 68996,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/8277a280d2934ccb602b0d45d2d21e1ac013a5b4"
+    },
+    {
+      "path": "docs/public/images/image-filters/004.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc75fcbfd6d9f77749b39b4c96f228a601c7f032",
+      "size": 162140,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/dc75fcbfd6d9f77749b39b4c96f228a601c7f032"
+    },
+    {
+      "path": "docs/public/images/image-filters/005.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcedd18d4605b9071153e36d853416cafab02973",
+      "size": 121220,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/dcedd18d4605b9071153e36d853416cafab02973"
+    },
+    {
+      "path": "docs/public/images/image-filters/006.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f26789d095502d376190a59af9853b2a4e6d2a55",
+      "size": 235920,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/f26789d095502d376190a59af9853b2a4e6d2a55"
+    },
+    {
+      "path": "docs/public/images/image-filters/007.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47aeee8b9b644418eeb4d54eec2565dcf4a1da55",
+      "size": 196514,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/47aeee8b9b644418eeb4d54eec2565dcf4a1da55"
+    },
+    {
+      "path": "docs/public/images/image-filters/008.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4da4e657d2f1add078d62f8b88296fceca1b69ea",
+      "size": 103476,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/4da4e657d2f1add078d62f8b88296fceca1b69ea"
+    },
+    {
+      "path": "docs/public/images/image-filters/009.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02fc6f012cdbeb6a152dd72e43313357f5916571",
+      "size": 174282,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/02fc6f012cdbeb6a152dd72e43313357f5916571"
+    },
+    {
+      "path": "docs/public/images/image-filters/test.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bacc19041fb1a4865a6057148808709dd6cfa55",
+      "size": 663628,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/5bacc19041fb1a4865a6057148808709dd6cfa55"
+    },
+    {
+      "path": "docs/public/images/logos",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "60234e6e41e611f3d56c0037b7ba8b90325177ad",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/60234e6e41e611f3d56c0037b7ba8b90325177ad"
+    },
+    {
+      "path": "docs/public/images/logos/apple.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea852732e5a7c7a203b42b376e8a4924ce3d47be",
+      "size": 697,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/ea852732e5a7c7a203b42b376e8a4924ce3d47be"
+    },
+    {
+      "path": "docs/public/images/logos/brave.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b8e23a12b2977242501c6f417d330fe33802a9b",
+      "size": 3444,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/6b8e23a12b2977242501c6f417d330fe33802a9b"
+    },
+    {
+      "path": "docs/public/images/logos/capy.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b50b075a712b431a720a93d6a2b0fd53ecc219b",
+      "size": 1699,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/1b50b075a712b431a720a93d6a2b0fd53ecc219b"
+    },
+    {
+      "path": "docs/public/images/logos/chanel.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c85fe265088229ce8fb6972995bfd53867c41381",
+      "size": 1961,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/c85fe265088229ce8fb6972995bfd53867c41381"
+    },
+    {
+      "path": "docs/public/images/logos/cibc.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd2ffe9610b75078de29a008790984b5be5a3957",
+      "size": 2030,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/fd2ffe9610b75078de29a008790984b5be5a3957"
+    },
+    {
+      "path": "docs/public/images/logos/cloudflare.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dbaf089610c61f7d711374c25489696d58293bb",
+      "size": 1379,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/1dbaf089610c61f7d711374c25489696d58293bb"
+    },
+    {
+      "path": "docs/public/images/logos/contra.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "818a4d6d508fde49dc99f65dc71ebeb7d688a017",
+      "size": 1765,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/818a4d6d508fde49dc99f65dc71ebeb7d688a017"
+    },
+    {
+      "path": "docs/public/images/logos/diamond.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cace8a9794e1ced344ee6c0b60892f0f939989bc",
+      "size": 167,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/cace8a9794e1ced344ee6c0b60892f0f939989bc"
+    },
+    {
+      "path": "docs/public/images/logos/discord.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f2233edd4182add39e5e26ec84aae13a8037c22",
+      "size": 3018,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/7f2233edd4182add39e5e26ec84aae13a8037c22"
+    },
+    {
+      "path": "docs/public/images/logos/enterprise-rent.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8626286940a96b85dc83cb8dc0e27e5d60d927b",
+      "size": 4531,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/a8626286940a96b85dc83cb8dc0e27e5d60d927b"
+    },
+    {
+      "path": "docs/public/images/logos/inbound.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b195c0e8fd2a8f3e5b43eeb88fe6a6e86f665b7",
+      "size": 915,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/6b195c0e8fd2a8f3e5b43eeb88fe6a6e86f665b7"
+    },
+    {
+      "path": "docs/public/images/logos/infinite.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "654e86432772dcd229964e8e84c8d5b9cae84790",
+      "size": 1884,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/654e86432772dcd229964e8e84c8d5b9cae84790"
+    },
+    {
+      "path": "docs/public/images/logos/linear.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f828c08d46a1509068b010f48dccb7c091a8c631",
+      "size": 1054,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/f828c08d46a1509068b010f48dccb7c091a8c631"
+    },
+    {
+      "path": "docs/public/images/logos/mercury.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5639357ce8a71f2cfa887f26c7feb7766b5164b6",
+      "size": 11470,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/5639357ce8a71f2cfa887f26c7feb7766b5164b6"
+    },
+    {
+      "path": "docs/public/images/logos/microsoft.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a3eaf1d32685396038abeba2c65cdcd47510f92",
+      "size": 4717,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/7a3eaf1d32685396038abeba2c65cdcd47510f92"
+    },
+    {
+      "path": "docs/public/images/logos/mymind.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a102c9decf1e034a2495d3225203b1d28e67d6ef",
+      "size": 1683,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/a102c9decf1e034a2495d3225203b1d28e67d6ef"
+    },
+    {
+      "path": "docs/public/images/logos/nasa.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9d47171ca3d5c19880ee638e72f028a402382dc",
+      "size": 2426,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/e9d47171ca3d5c19880ee638e72f028a402382dc"
+    },
+    {
+      "path": "docs/public/images/logos/netflix.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2736b8383b9e11f94b76d44f80d16c58222c625",
+      "size": 1054,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/e2736b8383b9e11f94b76d44f80d16c58222c625"
+    },
+    {
+      "path": "docs/public/images/logos/nike.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7021e581a9fd2eb4a2550aee74cefbccf116d717",
+      "size": 609,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/7021e581a9fd2eb4a2550aee74cefbccf116d717"
+    },
+    {
+      "path": "docs/public/images/logos/paper-logo-only.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf4e31380f39617f44a4db8248d310caefd93262",
+      "size": 397,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/cf4e31380f39617f44a4db8248d310caefd93262"
+    },
+    {
+      "path": "docs/public/images/logos/paper.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "892f3994b7feef947f3800ca906765001392cab8",
+      "size": 2251,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/892f3994b7feef947f3800ca906765001392cab8"
+    },
+    {
+      "path": "docs/public/images/logos/paradigm.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9191b0bb6965ae3b9edb992e5304609530d00956",
+      "size": 756,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/9191b0bb6965ae3b9edb992e5304609530d00956"
+    },
+    {
+      "path": "docs/public/images/logos/resend.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed9960bf503413edd2c9c0e3e856ceafbd33cd2f",
+      "size": 548,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/ed9960bf503413edd2c9c0e3e856ceafbd33cd2f"
+    },
+    {
+      "path": "docs/public/images/logos/shopify.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "443af96d15c1645d280096c693b2e0370a6e332a",
+      "size": 1479,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/443af96d15c1645d280096c693b2e0370a6e332a"
+    },
+    {
+      "path": "docs/public/images/logos/vercel.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d5e695e417495d9ada9d39fd0cadfe2f5856690",
+      "size": 159,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/6d5e695e417495d9ada9d39fd0cadfe2f5856690"
+    },
+    {
+      "path": "docs/public/images/logos/volkswagen.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ff393b3c118b7b566b86b5725af21309f3f02bc",
+      "size": 1736,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/4ff393b3c118b7b566b86b5725af21309f3f02bc"
+    },
+    {
+      "path": "docs/public/images/logos/wealth-simple.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1108cc22ab0bb576aa5a4a1bbdbb5ef22003f73e",
+      "size": 1499,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/1108cc22ab0bb576aa5a4a1bbdbb5ef22003f73e"
+    },
+    {
+      "path": "docs/public/images/opengraph-image.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "225bea3288e539e3b96a3e819e987380bf779a85",
+      "size": 230673,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/225bea3288e539e3b96a3e819e987380bf779a85"
+    },
+    {
+      "path": "docs/public/logo-placeholder.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4557670da9edb806b707285d918b281b6d029649",
+      "size": 66,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/4557670da9edb806b707285d918b281b6d029649"
+    },
+    {
+      "path": "docs/public/robots.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9bf57af6ad2b87e74102f02a4a38b447d45e7ed",
+      "size": 47,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/e9bf57af6ad2b87e74102f02a4a38b447d45e7ed"
+    },
+    {
+      "path": "docs/public/shaders",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0bb96b5294fad7eefd763403ccbc980f68dc8544",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/0bb96b5294fad7eefd763403ccbc980f68dc8544"
+    },
+    {
+      "path": "docs/public/shaders/color-panels.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "589179a9787dbd55b76311d18cd4cf4cd6770556",
+      "size": 15180,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/589179a9787dbd55b76311d18cd4cf4cd6770556"
+    },
+    {
+      "path": "docs/public/shaders/dithering.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2029832c865c54ae94f8b19c7305102d6139fa55",
+      "size": 2852,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/2029832c865c54ae94f8b19c7305102d6139fa55"
+    },
+    {
+      "path": "docs/public/shaders/dot-grid.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7662117cee154d96cf538e88f83512f92c88209",
+      "size": 2256,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/d7662117cee154d96cf538e88f83512f92c88209"
+    },
+    {
+      "path": "docs/public/shaders/dot-orbit.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c518413d3229fb783d86219d24b7f959a73deab8",
+      "size": 82886,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/c518413d3229fb783d86219d24b7f959a73deab8"
+    },
+    {
+      "path": "docs/public/shaders/fluted-glass.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6b4d74135061683af81a6fc4c1b65bbcd089ad92",
+      "size": 50266,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/6b4d74135061683af81a6fc4c1b65bbcd089ad92"
+    },
+    {
+      "path": "docs/public/shaders/gem-smoke.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b39b4a38c2c44feceac2a447902c630e3096dfb",
+      "size": 14854,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/9b39b4a38c2c44feceac2a447902c630e3096dfb"
+    },
+    {
+      "path": "docs/public/shaders/god-rays.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f371e0832a19545955fa19bedcd67b096052b7fe",
+      "size": 48534,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/f371e0832a19545955fa19bedcd67b096052b7fe"
+    },
+    {
+      "path": "docs/public/shaders/grain-gradient.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddd6927539f4b82e16e534676fe3b13390aaa997",
+      "size": 163002,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/ddd6927539f4b82e16e534676fe3b13390aaa997"
+    },
+    {
+      "path": "docs/public/shaders/halftone-cmyk.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9df3f9be6edbcf800fb5f441c1e7c0b73665310f",
+      "size": 159496,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/9df3f9be6edbcf800fb5f441c1e7c0b73665310f"
+    },
+    {
+      "path": "docs/public/shaders/halftone-dots.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1c278d1673da14b81e46b19b2d0c3928f73df7a",
+      "size": 95090,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/e1c278d1673da14b81e46b19b2d0c3928f73df7a"
+    },
+    {
+      "path": "docs/public/shaders/heatmap.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cb005ac865579ae2bc6cbc4563c5fad0cd3831f",
+      "size": 80042,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/7cb005ac865579ae2bc6cbc4563c5fad0cd3831f"
+    },
+    {
+      "path": "docs/public/shaders/image-dithering.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbf1c98b1d2c6ecfdd1c86c672d1110fda851bba",
+      "size": 3234,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/dbf1c98b1d2c6ecfdd1c86c672d1110fda851bba"
+    },
+    {
+      "path": "docs/public/shaders/lens-distortion.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c81cd6b2f8f618ea50ab7d1083e5f723c143868",
+      "size": 13994,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/6c81cd6b2f8f618ea50ab7d1083e5f723c143868"
+    },
+    {
+      "path": "docs/public/shaders/liquid-metal.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e40689acb2f78ec78154f640e0b1082590b43fd",
+      "size": 14264,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/2e40689acb2f78ec78154f640e0b1082590b43fd"
+    },
+    {
+      "path": "docs/public/shaders/mesh-gradient.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66bc6ba6b2b457f702f6a7a8a366f4d2c954472e",
+      "size": 17056,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/66bc6ba6b2b457f702f6a7a8a366f4d2c954472e"
+    },
+    {
+      "path": "docs/public/shaders/metaballs.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "059488b0a6b1479f0c11abcda5c84f9aab27831d",
+      "size": 12012,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/059488b0a6b1479f0c11abcda5c84f9aab27831d"
+    },
+    {
+      "path": "docs/public/shaders/neuro-noise.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd5dad3df5d0766213935934269f460a96df1937",
+      "size": 31348,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/cd5dad3df5d0766213935934269f460a96df1937"
+    },
+    {
+      "path": "docs/public/shaders/paper-texture.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25f4de3dad3da9b4a76f9bc2c643bdb83a6606e3",
+      "size": 104062,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/25f4de3dad3da9b4a76f9bc2c643bdb83a6606e3"
+    },
+    {
+      "path": "docs/public/shaders/perlin-noise.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bda100bb9c175e567e22705d1de27abc512fdc2b",
+      "size": 43910,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/bda100bb9c175e567e22705d1de27abc512fdc2b"
+    },
+    {
+      "path": "docs/public/shaders/pulsing-border.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fca74b73c3b5fb615e4731af95aceaa64959d2c8",
+      "size": 8842,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/fca74b73c3b5fb615e4731af95aceaa64959d2c8"
+    },
+    {
+      "path": "docs/public/shaders/simplex-noise.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b5cff51e48d5fa8de12d260b34cc0472c79f297",
+      "size": 33092,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/5b5cff51e48d5fa8de12d260b34cc0472c79f297"
+    },
+    {
+      "path": "docs/public/shaders/smoke-ring.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8af7f7d0776a4e1432d950263672bdd1a1d03545",
+      "size": 52256,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/8af7f7d0776a4e1432d950263672bdd1a1d03545"
+    },
+    {
+      "path": "docs/public/shaders/spiral.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "723053a6ef16d85335e9d07ed23360323692d06b",
+      "size": 45104,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/723053a6ef16d85335e9d07ed23360323692d06b"
+    },
+    {
+      "path": "docs/public/shaders/static-mesh-gradient.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1bf02b7334616e5bc3911d96b76eab0e144afe7",
+      "size": 19436,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/b1bf02b7334616e5bc3911d96b76eab0e144afe7"
+    },
+    {
+      "path": "docs/public/shaders/static-radial-gradient.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c15a08d528371321e8d1a9fc39a7270a0ee1c7c",
+      "size": 9894,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/0c15a08d528371321e8d1a9fc39a7270a0ee1c7c"
+    },
+    {
+      "path": "docs/public/shaders/swirl.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9028548160420cd511a88b310481ad7acfc4dbcb",
+      "size": 35092,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/9028548160420cd511a88b310481ad7acfc4dbcb"
+    },
+    {
+      "path": "docs/public/shaders/voronoi.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6adb20787b8563c0b0b3e12e86b2e24b2a1666a",
+      "size": 93310,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/c6adb20787b8563c0b0b3e12e86b2e24b2a1666a"
+    },
+    {
+      "path": "docs/public/shaders/warp.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ac3edef44a15222d27527c41dd25d78f1a58aee",
+      "size": 45854,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/4ac3edef44a15222d27527c41dd25d78f1a58aee"
+    },
+    {
+      "path": "docs/public/shaders/water.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4411b1e6d9d01305ed0c589e156d15a1c4daf541",
+      "size": 64448,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/4411b1e6d9d01305ed0c589e156d15a1c4daf541"
+    },
+    {
+      "path": "docs/public/shaders/waves.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9c55bdc2702ec924cfac9e667c5ecdde2f8abae",
+      "size": 7002,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/e9c55bdc2702ec924cfac9e667c5ecdde2f8abae"
+    },
+    {
+      "path": "docs/registry.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb7a40ae29a1a395d2e8b67ae3c6d3ec9e8290db",
+      "size": 10955,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/fb7a40ae29a1a395d2e8b67ae3c6d3ec9e8290db"
+    },
+    {
+      "path": "docs/registry",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0bec553977432426266cd307719f82adbf8cf79e",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/0bec553977432426266cd307719f82adbf8cf79e"
+    },
+    {
+      "path": "docs/registry/color-panels-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "264a52b6612262b3f964c1148166c7625e1a958e",
+      "size": 262,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/264a52b6612262b3f964c1148166c7625e1a958e"
+    },
+    {
+      "path": "docs/registry/dithering-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c77cc38b5f7ee360e41a6eb3bde92b5d3e8fc6f",
+      "size": 245,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/6c77cc38b5f7ee360e41a6eb3bde92b5d3e8fc6f"
+    },
+    {
+      "path": "docs/registry/dot-grid-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d9256e91872828e0765e8db4457d66091c4c95d",
+      "size": 225,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/1d9256e91872828e0765e8db4457d66091c4c95d"
+    },
+    {
+      "path": "docs/registry/dot-orbit-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1414d62781a6a54ec1bc5c149e6410c498368b7",
+      "size": 230,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/e1414d62781a6a54ec1bc5c149e6410c498368b7"
+    },
+    {
+      "path": "docs/registry/fluted-glass-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f1138ec5f5d681b5e5b1d3b9bb953ef4b4cad5a",
+      "size": 240,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/2f1138ec5f5d681b5e5b1d3b9bb953ef4b4cad5a"
+    },
+    {
+      "path": "docs/registry/gem-smoke-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fb5130a51641467c7a4a967803e5b99a79695d1",
+      "size": 230,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/9fb5130a51641467c7a4a967803e5b99a79695d1"
+    },
+    {
+      "path": "docs/registry/god-rays-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8f0ade35655c3d56f3b7272e6555cf2d48345a0",
+      "size": 220,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/c8f0ade35655c3d56f3b7272e6555cf2d48345a0"
+    },
+    {
+      "path": "docs/registry/grain-gradient-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "324e98b811f81c17c74830c313fa825ecf03e321",
+      "size": 265,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/324e98b811f81c17c74830c313fa825ecf03e321"
+    },
+    {
+      "path": "docs/registry/halftone-cmyk-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed5f1b52f54b37a8e7a2a8ffef35c4df914ec2f2",
+      "size": 262,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/ed5f1b52f54b37a8e7a2a8ffef35c4df914ec2f2"
+    },
+    {
+      "path": "docs/registry/halftone-dots-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f518a2227942c0b42ea9d686fe20c8426c021f2a",
+      "size": 260,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/f518a2227942c0b42ea9d686fe20c8426c021f2a"
+    },
+    {
+      "path": "docs/registry/heatmap-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf0de3c182b00d01195115d06b7236b6ae162d0a",
+      "size": 235,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/cf0de3c182b00d01195115d06b7236b6ae162d0a"
+    },
+    {
+      "path": "docs/registry/image-dithering-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e03bc79b5ed2d26e5b904694d7c2a1e3731b83cb",
+      "size": 255,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/e03bc79b5ed2d26e5b904694d7c2a1e3731b83cb"
+    },
+    {
+      "path": "docs/registry/lens-distortion-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88853025edb37e6ca756d0d8d8778127e820ec4a",
+      "size": 255,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/88853025edb37e6ca756d0d8d8778127e820ec4a"
+    },
+    {
+      "path": "docs/registry/liquid-metal-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a9496c38a860cea8b0a821ca524aea65aef22e5",
+      "size": 240,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/1a9496c38a860cea8b0a821ca524aea65aef22e5"
+    },
+    {
+      "path": "docs/registry/mesh-gradient-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4aa99b915dea748d5394c7d49805cc18955c85c0",
+      "size": 245,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/4aa99b915dea748d5394c7d49805cc18955c85c0"
+    },
+    {
+      "path": "docs/registry/metaballs-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0989d6cdc872539d4b22a6acd1242dd129d3ed95",
+      "size": 230,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/0989d6cdc872539d4b22a6acd1242dd129d3ed95"
+    },
+    {
+      "path": "docs/registry/neuro-noise-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1a0b8cd1469e1126ee235a1be1e309faf433b42",
+      "size": 240,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/b1a0b8cd1469e1126ee235a1be1e309faf433b42"
+    },
+    {
+      "path": "docs/registry/paper-texture-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f8005c8de19d7ec90f820f702e73a693b793a68",
+      "size": 250,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/4f8005c8de19d7ec90f820f702e73a693b793a68"
+    },
+    {
+      "path": "docs/registry/perlin-noise-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b78d0ecce3fae9412a6b2f992bb7c46aca4767ec",
+      "size": 240,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/b78d0ecce3fae9412a6b2f992bb7c46aca4767ec"
+    },
+    {
+      "path": "docs/registry/pulsing-border-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0c129f9dd641b5e9aed7c6582fcce86721b6159",
+      "size": 250,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/a0c129f9dd641b5e9aed7c6582fcce86721b6159"
+    },
+    {
+      "path": "docs/registry/simplex-noise-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95cab637244ce965934b147eb2ba3a0acdaaf53d",
+      "size": 245,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/95cab637244ce965934b147eb2ba3a0acdaaf53d"
+    },
+    {
+      "path": "docs/registry/smoke-ring-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a936ec74d474e8001afd3782880c73fcacd059d",
+      "size": 230,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/9a936ec74d474e8001afd3782880c73fcacd059d"
+    },
+    {
+      "path": "docs/registry/spiral-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff8f07cc066a3a8a9a8985c5e8b1ae43f018596c",
+      "size": 215,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/ff8f07cc066a3a8a9a8985c5e8b1ae43f018596c"
+    },
+    {
+      "path": "docs/registry/static-mesh-gradient-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "097e40aa1ae6a72ab053c245675bbe3d4e29090a",
+      "size": 275,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/097e40aa1ae6a72ab053c245675bbe3d4e29090a"
+    },
+    {
+      "path": "docs/registry/static-radial-gradient-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d1e47f91ceeab2467942fafd54eeb84b5aba593a",
+      "size": 285,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/d1e47f91ceeab2467942fafd54eeb84b5aba593a"
+    },
+    {
+      "path": "docs/registry/swirl-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "814303f905b899d54f99d3d5c60155689f4dbb14",
+      "size": 210,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/814303f905b899d54f99d3d5c60155689f4dbb14"
+    },
+    {
+      "path": "docs/registry/voronoi-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba67f78b515abaa7510f2a44c06a043e3d218d25",
+      "size": 220,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/ba67f78b515abaa7510f2a44c06a043e3d218d25"
+    },
+    {
+      "path": "docs/registry/warp-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4db6ccfc231353e1f32007f417254eb976a86f92",
+      "size": 205,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/4db6ccfc231353e1f32007f417254eb976a86f92"
+    },
+    {
+      "path": "docs/registry/water-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bb75f82bf71a0a158ff269dfef08587743c8a5b",
+      "size": 210,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/8bb75f82bf71a0a158ff269dfef08587743c8a5b"
+    },
+    {
+      "path": "docs/registry/waves-example.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9e8833b180ebbfc869d054afc304e77037db321",
+      "size": 210,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/c9e8833b180ebbfc869d054afc304e77037db321"
+    },
+    {
+      "path": "docs/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9495a9c78adcbcf62495140cd14d99e52af82886",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/9495a9c78adcbcf62495140cd14d99e52af82886"
+    },
+    {
+      "path": "docs/src/app",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fb40018bd091b663158dc9634fa2ad9ff9b43ced",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/fb40018bd091b663158dc9634fa2ad9ff9b43ced"
+    },
+    {
+      "path": "docs/src/app/(shaders)",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f745ebd4c946356a8924f0dc56a8f65caf06c61a",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/f745ebd4c946356a8924f0dc56a8f65caf06c61a"
+    },
+    {
+      "path": "docs/src/app/(shaders)/color-demo-colorspace",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8fff52870ca9f3cae66748218538e60e38146ad0",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/8fff52870ca9f3cae66748218538e60e38146ad0"
+    },
+    {
+      "path": "docs/src/app/(shaders)/color-demo-colorspace/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4d2436307e81595eb60f119697768777e2f40f7",
+      "size": 198,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/f4d2436307e81595eb60f119697768777e2f40f7"
+    },
+    {
+      "path": "docs/src/app/(shaders)/color-demo-colorspace/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b48438c7f036438ee19f3bb248e5d96b128efe24",
+      "size": 7728,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/b48438c7f036438ee19f3bb248e5d96b128efe24"
+    },
+    {
+      "path": "docs/src/app/(shaders)/color-demo-softness",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "827f491616f807902d5b5fe21d4d0d9f2079edff",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/827f491616f807902d5b5fe21d4d0d9f2079edff"
+    },
+    {
+      "path": "docs/src/app/(shaders)/color-demo-softness/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4d2436307e81595eb60f119697768777e2f40f7",
+      "size": 198,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/f4d2436307e81595eb60f119697768777e2f40f7"
+    },
+    {
+      "path": "docs/src/app/(shaders)/color-demo-softness/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bced51de3898271ad05485af48a009bcce7d7edb",
+      "size": 6611,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/bced51de3898271ad05485af48a009bcce7d7edb"
+    },
+    {
+      "path": "docs/src/app/(shaders)/color-demo-steps",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c504f6b11a9361552d065d9c7dbea7f21c0e7016",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/c504f6b11a9361552d065d9c7dbea7f21c0e7016"
+    },
+    {
+      "path": "docs/src/app/(shaders)/color-demo-steps/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4d2436307e81595eb60f119697768777e2f40f7",
+      "size": 198,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/f4d2436307e81595eb60f119697768777e2f40f7"
+    },
+    {
+      "path": "docs/src/app/(shaders)/color-demo-steps/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0aff7f7f4591bc138c785bff7df809c71b6126b",
+      "size": 5948,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/f0aff7f7f4591bc138c785bff7df809c71b6126b"
+    },
+    {
+      "path": "docs/src/app/(shaders)/color-panels",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a61a3f327af1ac14a75624cb3ed278cb21c6ae24",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/a61a3f327af1ac14a75624cb3ed278cb21c6ae24"
+    },
+    {
+      "path": "docs/src/app/(shaders)/color-panels/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64cfc5f8fb1cdc640df12f08da76678a00e91d5f",
+      "size": 222,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/64cfc5f8fb1cdc640df12f08da76678a00e91d5f"
+    },
+    {
+      "path": "docs/src/app/(shaders)/color-panels/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ff4e5513fdd2dfedbb0657f33f49fcfb5d7df32",
+      "size": 3289,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/2ff4e5513fdd2dfedbb0657f33f49fcfb5d7df32"
+    },
+    {
+      "path": "docs/src/app/(shaders)/dithering",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "37ac0367b48e08350de69b8869054f7d832cbd3a",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/37ac0367b48e08350de69b8869054f7d832cbd3a"
+    },
+    {
+      "path": "docs/src/app/(shaders)/dithering/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fc5cc8ae9c94c2a820cd9bc6218db548b752fd0",
+      "size": 219,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/7fc5cc8ae9c94c2a820cd9bc6218db548b752fd0"
+    },
+    {
+      "path": "docs/src/app/(shaders)/dithering/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e53b236f639187713beabaff4bd4b42805dc4684",
+      "size": 2622,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/e53b236f639187713beabaff4bd4b42805dc4684"
+    },
+    {
+      "path": "docs/src/app/(shaders)/dot-grid",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7e1aa8b1b3598add4ec4fc6013cb4864cdd62984",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/7e1aa8b1b3598add4ec4fc6013cb4864cdd62984"
+    },
+    {
+      "path": "docs/src/app/(shaders)/dot-grid/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6a461d42903d7b46c3ab1ed4439bd7c75a6933b",
+      "size": 218,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/d6a461d42903d7b46c3ab1ed4439bd7c75a6933b"
+    },
+    {
+      "path": "docs/src/app/(shaders)/dot-grid/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23a0f01f8fb224cbc42ccb9a5aec824573ac0857",
+      "size": 2688,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/23a0f01f8fb224cbc42ccb9a5aec824573ac0857"
+    },
+    {
+      "path": "docs/src/app/(shaders)/dot-orbit",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "51b6d0e77f0f4d3aff9be21392f1ae1783c58e1a",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/51b6d0e77f0f4d3aff9be21392f1ae1783c58e1a"
+    },
+    {
+      "path": "docs/src/app/(shaders)/dot-orbit/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6cfa5ffd0ebf9eda3ecc1ce36974866a74900cc",
+      "size": 219,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/b6cfa5ffd0ebf9eda3ecc1ce36974866a74900cc"
+    },
+    {
+      "path": "docs/src/app/(shaders)/dot-orbit/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a597492b9f6b36e6759c95632ec757efebab00be",
+      "size": 2934,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/a597492b9f6b36e6759c95632ec757efebab00be"
+    },
+    {
+      "path": "docs/src/app/(shaders)/fluted-glass",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4aae3453291458ea00a31d46a826459723ca4122",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/4aae3453291458ea00a31d46a826459723ca4122"
+    },
+    {
+      "path": "docs/src/app/(shaders)/fluted-glass/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "328dd24180e7881c8be1b8d3424c5ce377c84247",
+      "size": 222,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/328dd24180e7881c8be1b8d3424c5ce377c84247"
+    },
+    {
+      "path": "docs/src/app/(shaders)/fluted-glass/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5847bdc1036e2fc9f0ce4500bba785c0af878c6",
+      "size": 4886,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/d5847bdc1036e2fc9f0ce4500bba785c0af878c6"
+    },
+    {
+      "path": "docs/src/app/(shaders)/gem-smoke",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3b311f20f24bbc101355a4a5a66e918d2e65ec77",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/3b311f20f24bbc101355a4a5a66e918d2e65ec77"
+    },
+    {
+      "path": "docs/src/app/(shaders)/gem-smoke/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c66437c464822dc31505a2f3476b0d7e6815c36a",
+      "size": 224,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/c66437c464822dc31505a2f3476b0d7e6815c36a"
+    },
+    {
+      "path": "docs/src/app/(shaders)/gem-smoke/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e44fb52ee81a4d2798ce807025ea22e7795e7aeb",
+      "size": 4741,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/e44fb52ee81a4d2798ce807025ea22e7795e7aeb"
+    },
+    {
+      "path": "docs/src/app/(shaders)/god-rays",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "87bfef1ec9c4d4a1f986301d566e0c09f2b76f36",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/87bfef1ec9c4d4a1f986301d566e0c09f2b76f36"
+    },
+    {
+      "path": "docs/src/app/(shaders)/god-rays/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54ddd673adba5b4c3972fa07a29f9922b69963b5",
+      "size": 217,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/54ddd673adba5b4c3972fa07a29f9922b69963b5"
+    },
+    {
+      "path": "docs/src/app/(shaders)/god-rays/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "219ed2f66a0d7ed556f16ffea5623a3035fc5e9b",
+      "size": 3115,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/219ed2f66a0d7ed556f16ffea5623a3035fc5e9b"
+    },
+    {
+      "path": "docs/src/app/(shaders)/grain-gradient",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f877ed2af29259ba3b059c2b481cb1d241238a74",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/f877ed2af29259ba3b059c2b481cb1d241238a74"
+    },
+    {
+      "path": "docs/src/app/(shaders)/grain-gradient/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "891f79d032613791914edd0764f3a27da109fbc0",
+      "size": 217,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/891f79d032613791914edd0764f3a27da109fbc0"
+    },
+    {
+      "path": "docs/src/app/(shaders)/grain-gradient/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39885a59502c0ad1eec3db16f376c98cab8e3fcf",
+      "size": 3104,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/39885a59502c0ad1eec3db16f376c98cab8e3fcf"
+    },
+    {
+      "path": "docs/src/app/(shaders)/halftone-cmyk",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9d83b79d5ebf0acabcfe51c33d88c6fb4b359d62",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/9d83b79d5ebf0acabcfe51c33d88c6fb4b359d62"
+    },
+    {
+      "path": "docs/src/app/(shaders)/halftone-cmyk/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fb1ca9711a4f28ce79a70bc45bba03ef60e6a84",
+      "size": 223,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/6fb1ca9711a4f28ce79a70bc45bba03ef60e6a84"
+    },
+    {
+      "path": "docs/src/app/(shaders)/halftone-cmyk/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c2c8eb9accf8c396d9c0880d40e7884bf90173f",
+      "size": 5086,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/0c2c8eb9accf8c396d9c0880d40e7884bf90173f"
+    },
+    {
+      "path": "docs/src/app/(shaders)/halftone-dots",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "bd047c82ace2f921c76613b2cc96abb789dab2e4",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/bd047c82ace2f921c76613b2cc96abb789dab2e4"
+    },
+    {
+      "path": "docs/src/app/(shaders)/halftone-dots/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd49cd0afb06607d2f9449ad60552cb3f7e82709",
+      "size": 223,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/bd49cd0afb06607d2f9449ad60552cb3f7e82709"
+    },
+    {
+      "path": "docs/src/app/(shaders)/halftone-dots/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efa887a01eeca1a665fc3612cfbfdb7e4e06b479",
+      "size": 4460,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/efa887a01eeca1a665fc3612cfbfdb7e4e06b479"
+    },
+    {
+      "path": "docs/src/app/(shaders)/heatmap",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "48b9d1a1e784e17cf9ae9ab943d32be7eafa3584",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/48b9d1a1e784e17cf9ae9ab943d32be7eafa3584"
+    },
+    {
+      "path": "docs/src/app/(shaders)/heatmap/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2923eadb117b27f980d147312edcab91fc7ae150",
+      "size": 217,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/2923eadb117b27f980d147312edcab91fc7ae150"
+    },
+    {
+      "path": "docs/src/app/(shaders)/heatmap/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0221d8630b0a0456ec04acac4a614479af14aa4",
+      "size": 4361,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/a0221d8630b0a0456ec04acac4a614479af14aa4"
+    },
+    {
+      "path": "docs/src/app/(shaders)/image-dithering",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "458579fde6cf1526397e0f67dc452157e7311ac2",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/458579fde6cf1526397e0f67dc452157e7311ac2"
+    },
+    {
+      "path": "docs/src/app/(shaders)/image-dithering/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acd9438627e899046e814f68c72b2402c6a2e44c",
+      "size": 219,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/acd9438627e899046e814f68c72b2402c6a2e44c"
+    },
+    {
+      "path": "docs/src/app/(shaders)/image-dithering/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e999f8477534086dad4b54842756ee106ee4a396",
+      "size": 4026,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/e999f8477534086dad4b54842756ee106ee4a396"
+    },
+    {
+      "path": "docs/src/app/(shaders)/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b1a43fb533235c86ed115122b8e56e059c520cd",
+      "size": 385,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/2b1a43fb533235c86ed115122b8e56e059c520cd"
+    },
+    {
+      "path": "docs/src/app/(shaders)/lens-distortion",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4c48e0b88562ed29ab145d8fed8e2275c30b9aff",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/4c48e0b88562ed29ab145d8fed8e2275c30b9aff"
+    },
+    {
+      "path": "docs/src/app/(shaders)/lens-distortion/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7d05066147578d2fd531def0ab144991a522ec6",
+      "size": 218,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/d7d05066147578d2fd531def0ab144991a522ec6"
+    },
+    {
+      "path": "docs/src/app/(shaders)/lens-distortion/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c34bbf02ed7d512574633fcf1c36de559a861336",
+      "size": 4925,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/c34bbf02ed7d512574633fcf1c36de559a861336"
+    },
+    {
+      "path": "docs/src/app/(shaders)/liquid-metal",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e8d90dae539ae28be549561e9336086fd75b9292",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/e8d90dae539ae28be549561e9336086fd75b9292"
+    },
+    {
+      "path": "docs/src/app/(shaders)/liquid-metal/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13f06d3f6badccf2e89bd4f69defc5667dca218c",
+      "size": 222,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/13f06d3f6badccf2e89bd4f69defc5667dca218c"
+    },
+    {
+      "path": "docs/src/app/(shaders)/liquid-metal/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30e7396632f5112f4ff52a850e0512b966a9cbdc",
+      "size": 3865,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/30e7396632f5112f4ff52a850e0512b966a9cbdc"
+    },
+    {
+      "path": "docs/src/app/(shaders)/mesh-gradient",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6f6eb9a4358f1a1905c039d3bd3e77877766b421",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/6f6eb9a4358f1a1905c039d3bd3e77877766b421"
+    },
+    {
+      "path": "docs/src/app/(shaders)/mesh-gradient/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c91c73f8c31cd18b846ea7d7e3e830629c871c25",
+      "size": 223,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/c91c73f8c31cd18b846ea7d7e3e830629c871c25"
+    },
+    {
+      "path": "docs/src/app/(shaders)/mesh-gradient/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23840c4afc8b62ff104269388745781b53cff5b1",
+      "size": 2870,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/23840c4afc8b62ff104269388745781b53cff5b1"
+    },
+    {
+      "path": "docs/src/app/(shaders)/metaballs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d6b709947f92cd948f2e77335a079bfc357585f5",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/d6b709947f92cd948f2e77335a079bfc357585f5"
+    },
+    {
+      "path": "docs/src/app/(shaders)/metaballs/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80ef96d3d87b7354b9e35ebaaa3c08aae153eed5",
+      "size": 219,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/80ef96d3d87b7354b9e35ebaaa3c08aae153eed5"
+    },
+    {
+      "path": "docs/src/app/(shaders)/metaballs/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4889a628fa10240eed9667f37b883b16c095ad34",
+      "size": 2794,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/4889a628fa10240eed9667f37b883b16c095ad34"
+    },
+    {
+      "path": "docs/src/app/(shaders)/neuro-noise",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0bfc6586131c2bd780ac8773a07f4dd18fb8e356",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/0bfc6586131c2bd780ac8773a07f4dd18fb8e356"
+    },
+    {
+      "path": "docs/src/app/(shaders)/neuro-noise/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5f85d9235d5e1b6635505cd90105f064d916017",
+      "size": 221,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/f5f85d9235d5e1b6635505cd90105f064d916017"
+    },
+    {
+      "path": "docs/src/app/(shaders)/neuro-noise/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f80a5f9871f37e767fcb7ad6d7542a116e39885",
+      "size": 2753,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/7f80a5f9871f37e767fcb7ad6d7542a116e39885"
+    },
+    {
+      "path": "docs/src/app/(shaders)/paper-texture",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c543000b0c66b6683bd541d5b9bdcc4ee7b30732",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/c543000b0c66b6683bd541d5b9bdcc4ee7b30732"
+    },
+    {
+      "path": "docs/src/app/(shaders)/paper-texture/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7d446075aa793ef2ba36f26e984ac2fa820f7a8",
+      "size": 223,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/a7d446075aa793ef2ba36f26e984ac2fa820f7a8"
+    },
+    {
+      "path": "docs/src/app/(shaders)/paper-texture/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5072799ef96c2194cbac78e59a3af117519c2ab6",
+      "size": 5294,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/5072799ef96c2194cbac78e59a3af117519c2ab6"
+    },
+    {
+      "path": "docs/src/app/(shaders)/perlin-noise",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c07efe631ee337fc3036b864a6fb918d2d557b66",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/c07efe631ee337fc3036b864a6fb918d2d557b66"
+    },
+    {
+      "path": "docs/src/app/(shaders)/perlin-noise/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f626b680d2694db6efedc050e783f41e6c56522",
+      "size": 222,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/1f626b680d2694db6efedc050e783f41e6c56522"
+    },
+    {
+      "path": "docs/src/app/(shaders)/perlin-noise/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12ce597912191fe1cf3c21e6ba3df3d06c754cfb",
+      "size": 2569,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/12ce597912191fe1cf3c21e6ba3df3d06c754cfb"
+    },
+    {
+      "path": "docs/src/app/(shaders)/pulsing-border",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "da24cfa86b0e408ef9acdb818857feb5f71133aa",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/da24cfa86b0e408ef9acdb818857feb5f71133aa"
+    },
+    {
+      "path": "docs/src/app/(shaders)/pulsing-border/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "545a01d19e1db100beb8e483d4e705424f5f6c38",
+      "size": 224,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/545a01d19e1db100beb8e483d4e705424f5f6c38"
+    },
+    {
+      "path": "docs/src/app/(shaders)/pulsing-border/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb75e07e8cb2593a939051e68f82ade305e3ae2d",
+      "size": 4083,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/bb75e07e8cb2593a939051e68f82ade305e3ae2d"
+    },
+    {
+      "path": "docs/src/app/(shaders)/simplex-noise",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "92ec36d2d101dc28c90caa38bc2484a2d8b0f849",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/92ec36d2d101dc28c90caa38bc2484a2d8b0f849"
+    },
+    {
+      "path": "docs/src/app/(shaders)/simplex-noise/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "038069bbee4fc30817a557cb2a61ef873812b587",
+      "size": 223,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/038069bbee4fc30817a557cb2a61ef873812b587"
+    },
+    {
+      "path": "docs/src/app/(shaders)/simplex-noise/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e731a4818b8f51e8d1edc82a6ba70628e31087d7",
+      "size": 2587,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/e731a4818b8f51e8d1edc82a6ba70628e31087d7"
+    },
+    {
+      "path": "docs/src/app/(shaders)/smoke-ring",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9b2a5973a3a82fed98db4e929918f8b007ca76a9",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/9b2a5973a3a82fed98db4e929918f8b007ca76a9"
+    },
+    {
+      "path": "docs/src/app/(shaders)/smoke-ring/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "219666509fc962c70c38ae7794f674fcb0b5eac9",
+      "size": 220,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/219666509fc962c70c38ae7794f674fcb0b5eac9"
+    },
+    {
+      "path": "docs/src/app/(shaders)/smoke-ring/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "674b62a7a89877f21a628e861228be03283a3e51",
+      "size": 3229,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/674b62a7a89877f21a628e861228be03283a3e51"
+    },
+    {
+      "path": "docs/src/app/(shaders)/spiral",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "81d912ba0fd83b894ab939049ffd7c7e0106ee9f",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/81d912ba0fd83b894ab939049ffd7c7e0106ee9f"
+    },
+    {
+      "path": "docs/src/app/(shaders)/spiral/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99a7e0170ea19ebd0fbb4745464517e5e03c3a76",
+      "size": 216,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/99a7e0170ea19ebd0fbb4745464517e5e03c3a76"
+    },
+    {
+      "path": "docs/src/app/(shaders)/spiral/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79e1b127baa6f66fd71693644f795abd2afb7733",
+      "size": 3042,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/79e1b127baa6f66fd71693644f795abd2afb7733"
+    },
+    {
+      "path": "docs/src/app/(shaders)/static-mesh-gradient",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eee425a94685df0ca8047616ed3853fc577d4e04",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/eee425a94685df0ca8047616ed3853fc577d4e04"
+    },
+    {
+      "path": "docs/src/app/(shaders)/static-mesh-gradient/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aadc5ec1e9dd1826766eb328e38a58afbb6e1d70",
+      "size": 230,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/aadc5ec1e9dd1826766eb328e38a58afbb6e1d70"
+    },
+    {
+      "path": "docs/src/app/(shaders)/static-mesh-gradient/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e156d43bd90b2c15ffa368f0767e94bf5a388385",
+      "size": 3187,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/e156d43bd90b2c15ffa368f0767e94bf5a388385"
+    },
+    {
+      "path": "docs/src/app/(shaders)/static-radial-gradient",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d3a2c6e9bb6bf8054a4229f57841e6edd767304a",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/d3a2c6e9bb6bf8054a4229f57841e6edd767304a"
+    },
+    {
+      "path": "docs/src/app/(shaders)/static-radial-gradient/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44f13927b6388d1974f6426d3e94ef783c31d547",
+      "size": 232,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/44f13927b6388d1974f6426d3e94ef783c31d547"
+    },
+    {
+      "path": "docs/src/app/(shaders)/static-radial-gradient/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23de248bd581c8e97dc1f975a17bafa05e022898",
+      "size": 3386,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/23de248bd581c8e97dc1f975a17bafa05e022898"
+    },
+    {
+      "path": "docs/src/app/(shaders)/swirl",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d8972a5c94866311c5790a845d8fd4e7ee5869a2",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/d8972a5c94866311c5790a845d8fd4e7ee5869a2"
+    },
+    {
+      "path": "docs/src/app/(shaders)/swirl/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f4ddfbb623d0ba9a2642251f447726e43cfbeb9",
+      "size": 215,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/5f4ddfbb623d0ba9a2642251f447726e43cfbeb9"
+    },
+    {
+      "path": "docs/src/app/(shaders)/swirl/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd7c4e32fe154bd8a89b9a924d6d7ca9eb1aa23c",
+      "size": 3067,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/cd7c4e32fe154bd8a89b9a924d6d7ca9eb1aa23c"
+    },
+    {
+      "path": "docs/src/app/(shaders)/voronoi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b748e575eb734851e580ab9fc5f15e5688992898",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/b748e575eb734851e580ab9fc5f15e5688992898"
+    },
+    {
+      "path": "docs/src/app/(shaders)/voronoi/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1a53bd76426b0b4e1b874ecee84e823681c4217",
+      "size": 225,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/e1a53bd76426b0b4e1b874ecee84e823681c4217"
+    },
+    {
+      "path": "docs/src/app/(shaders)/voronoi/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "223590bedfb91fe3af8a14902ff17d099353008d",
+      "size": 3273,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/223590bedfb91fe3af8a14902ff17d099353008d"
+    },
+    {
+      "path": "docs/src/app/(shaders)/warp",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fa089d061407f1424aac6bb3c85aea20fb5ce51d",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/fa089d061407f1424aac6bb3c85aea20fb5ce51d"
+    },
+    {
+      "path": "docs/src/app/(shaders)/warp/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "565881d42f21ed57dca47ba05afa09ed72731776",
+      "size": 214,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/565881d42f21ed57dca47ba05afa09ed72731776"
+    },
+    {
+      "path": "docs/src/app/(shaders)/warp/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29523126eda244437c4ea5b5b80316a614a06b79",
+      "size": 2904,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/29523126eda244437c4ea5b5b80316a614a06b79"
+    },
+    {
+      "path": "docs/src/app/(shaders)/water",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0e8e2aa5c20dabfcf27fb7c7de3e05ddd7e7f727",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/0e8e2aa5c20dabfcf27fb7c7de3e05ddd7e7f727"
+    },
+    {
+      "path": "docs/src/app/(shaders)/water/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36875cf6696ce1c83a59f44149c73f639ee2a3a0",
+      "size": 215,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/36875cf6696ce1c83a59f44149c73f639ee2a3a0"
+    },
+    {
+      "path": "docs/src/app/(shaders)/water/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c005c24c5a6644c0b547d967f1eb973a8d4be238",
+      "size": 4469,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/c005c24c5a6644c0b547d967f1eb973a8d4be238"
+    },
+    {
+      "path": "docs/src/app/(shaders)/waves",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6d725f18051e592885ebaae28893fe0d1812419c",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/6d725f18051e592885ebaae28893fe0d1812419c"
+    },
+    {
+      "path": "docs/src/app/(shaders)/waves/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d332a998f7f9f3214e978b636213ec05d97014a8",
+      "size": 223,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/d332a998f7f9f3214e978b636213ec05d97014a8"
+    },
+    {
+      "path": "docs/src/app/(shaders)/waves/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4984fc7e0ef76a19cb20e1a2e0e46fda989d5ee8",
+      "size": 2479,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/4984fc7e0ef76a19cb20e1a2e0e46fda989d5ee8"
+    },
+    {
+      "path": "docs/src/app/favicon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8d15e11c1ba4e18e655a832e31534b1446f758a",
+      "size": 4286,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/d8d15e11c1ba4e18e655a832e31534b1446f758a"
+    },
+    {
+      "path": "docs/src/app/home-thumbnails.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51b05ddfcecfe2c640d9e7184b5abbabcde0f4d0",
+      "size": 11701,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/51b05ddfcecfe2c640d9e7184b5abbabcde0f4d0"
+    },
+    {
+      "path": "docs/src/app/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97d4cd6d128838a2a024f34c6981a9027a8f0b0d",
+      "size": 1821,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/97d4cd6d128838a2a024f34c6981a9027a8f0b0d"
+    },
+    {
+      "path": "docs/src/app/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b950df4fc6cf629d8caca2ef30fd4bf49d19b7db",
+      "size": 5400,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/b950df4fc6cf629d8caca2ef30fd4bf49d19b7db"
+    },
+    {
+      "path": "docs/src/app/paper-texture-migration",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "212a3a5e169be4be06245ded98789f1fa816ab5b",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/212a3a5e169be4be06245ded98789f1fa816ab5b"
+    },
+    {
+      "path": "docs/src/app/paper-texture-migration/old-paper-texture.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "491e3e8645e5ddfa3311762ac83508a024cfdcfc",
+      "size": 2143,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/491e3e8645e5ddfa3311762ac83508a024cfdcfc"
+    },
+    {
+      "path": "docs/src/app/paper-texture-migration/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3902c6c4a01b186fdc0867aea1204c95a349822e",
+      "size": 15786,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/3902c6c4a01b186fdc0867aea1204c95a349822e"
+    },
+    {
+      "path": "docs/src/app/test",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0d715087596eaa77ed41ab11b04aa42306757f11",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/0d715087596eaa77ed41ab11b04aa42306757f11"
+    },
+    {
+      "path": "docs/src/app/test/app-thumbnails.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81d0be15273beb9284fd00190539768fbf33f50f",
+      "size": 2666,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/81d0be15273beb9284fd00190539768fbf33f50f"
+    },
+    {
+      "path": "docs/src/app/test/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6dbe70d632df753b6801678379a05b08bf147c7",
+      "size": 369,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/d6dbe70d632df753b6801678379a05b08bf147c7"
+    },
+    {
+      "path": "docs/src/app/test/thumbnails",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "362b8f803d44a2ed36dc669ccdaa7cb56f66cc48",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/362b8f803d44a2ed36dc669ccdaa7cb56f66cc48"
+    },
+    {
+      "path": "docs/src/app/test/thumbnails/1",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "74e99feb989798d76180e3fe9194a3e4126986ed",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/74e99feb989798d76180e3fe9194a3e4126986ed"
+    },
+    {
+      "path": "docs/src/app/test/thumbnails/1/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34c31ddf4942cf9206d344d4403d5796a9223cd4",
+      "size": 339,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/34c31ddf4942cf9206d344d4403d5796a9223cd4"
+    },
+    {
+      "path": "docs/src/app/test/thumbnails/2",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "97b8a92337fe8c7846f8e738295fd44077c6792f",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/97b8a92337fe8c7846f8e738295fd44077c6792f"
+    },
+    {
+      "path": "docs/src/app/test/thumbnails/2/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4616e6f3a198e42c72aee39deff05333a5ff4075",
+      "size": 340,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/4616e6f3a198e42c72aee39deff05333a5ff4075"
+    },
+    {
+      "path": "docs/src/app/test/thumbnails/3",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a140def45702aad403759d3affb0a542bdf188fa",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/a140def45702aad403759d3affb0a542bdf188fa"
+    },
+    {
+      "path": "docs/src/app/test/thumbnails/3/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a51c2102278d134a971e47f3c599cd6964d248a",
+      "size": 340,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/4a51c2102278d134a971e47f3c599cd6964d248a"
+    },
+    {
+      "path": "docs/src/app/test/thumbnails/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb0311cc6b6a3947b6324042c2bcc9fae947b6cd",
+      "size": 668,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/bb0311cc6b6a3947b6324042c2bcc9fae947b6cd"
+    },
+    {
+      "path": "docs/src/app/test/thumbnails/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "13ad623bf814fcf47e522d67da01803114f9e84a",
+      "size": 817,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/13ad623bf814fcf47e522d67da01803114f9e84a"
+    },
+    {
+      "path": "docs/src/components",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7c3d56e06c483c2b188df0c315e982284e6fe132",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/7c3d56e06c483c2b188df0c315e982284e6fe132"
+    },
+    {
+      "path": "docs/src/components/copy-button.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d8e841fab42bad95100a2e722c7fa5cc39ede95",
+      "size": 3666,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/4d8e841fab42bad95100a2e722c7fa5cc39ede95"
+    },
+    {
+      "path": "docs/src/components/logo.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d82f26bbd8bae10fbdd27b2dd419e66725365042",
+      "size": 2341,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/d82f26bbd8bae10fbdd27b2dd419e66725365042"
+    },
+    {
+      "path": "docs/src/components/save-previous-pathname.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24cd69a87afdcc41791d7bd6feb9aa34e60cb4a4",
+      "size": 990,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/24cd69a87afdcc41791d7bd6feb9aa34e60cb4a4"
+    },
+    {
+      "path": "docs/src/components/shader-container.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7202801c0b7271b4c7d2b901213b2e46a8ac8f5",
+      "size": 6261,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/f7202801c0b7271b4c7d2b901213b2e46a8ac8f5"
+    },
+    {
+      "path": "docs/src/components/shader-details.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27da265fad65645c6a3e5d80d4e4b4e173fca5e5",
+      "size": 8990,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/27da265fad65645c6a3e5d80d4e4b4e173fca5e5"
+    },
+    {
+      "path": "docs/src/components/site-header.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92f81916e55bc5ad0e51be41e89c125b916503f9",
+      "size": 16980,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/92f81916e55bc5ad0e51be41e89c125b916503f9"
+    },
+    {
+      "path": "docs/src/generate-llms-txt.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48b32864b58e479ea45c4f1172b72175a2a3b77c",
+      "size": 2289,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/48b32864b58e479ea45c4f1172b72175a2a3b77c"
+    },
+    {
+      "path": "docs/src/helpers",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b433dda29818588b25b2d6ef26771e6ffdc3347",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/8b433dda29818588b25b2d6ef26771e6ffdc3347"
+    },
+    {
+      "path": "docs/src/helpers/clean-up-leva-params.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "253181983ded3b71b2caf5562341762a31643548",
+      "size": 268,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/253181983ded3b71b2caf5562341762a31643548"
+    },
+    {
+      "path": "docs/src/helpers/color-utils.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ac04342ae0872a0d21d2ca65048fbb9f6c78baf",
+      "size": 1749,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/8ac04342ae0872a0d21d2ca65048fbb9f6c78baf"
+    },
+    {
+      "path": "docs/src/helpers/leva-image-button.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58919b9bfead6c979c19514c57a7d998b4085166",
+      "size": 928,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/58919b9bfead6c979c19514c57a7d998b4085166"
+    },
+    {
+      "path": "docs/src/helpers/url-serializer.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8081689688037a55ab1ddb5b218d117ce67c7633",
+      "size": 2316,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/8081689688037a55ab1ddb5b218d117ce67c7633"
+    },
+    {
+      "path": "docs/src/helpers/url-serializer.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50d185464b86fd7b8a67ca39e5a9c6b8ef9dd0d7",
+      "size": 2791,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/50d185464b86fd7b8a67ca39e5a9c6b8ef9dd0d7"
+    },
+    {
+      "path": "docs/src/helpers/use-colors.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cabce8f4d7671e144fac6039c1495aa98a61f13b",
+      "size": 2546,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/cabce8f4d7671e144fac6039c1495aa98a61f13b"
+    },
+    {
+      "path": "docs/src/helpers/use-preset-highlight.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5efe640a88d443d0fc1fcae9ba51d0bcc412c41c",
+      "size": 1716,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/5efe640a88d443d0fc1fcae9ba51d0bcc412c41c"
+    },
+    {
+      "path": "docs/src/helpers/use-reset-leva-params.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7e76d245fbe65f239e6ad87295c905473657c6f",
+      "size": 1494,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/b7e76d245fbe65f239e6ad87295c905473657c6f"
+    },
+    {
+      "path": "docs/src/helpers/use-url-params.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82451a2bacc0dba04e5a0401c31e798f85f16b71",
+      "size": 1417,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/82451a2bacc0dba04e5a0401c31e798f85f16b71"
+    },
+    {
+      "path": "docs/src/icons.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1f24d085d83474731546310df9847801e6e3cb1",
+      "size": 3777,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/a1f24d085d83474731546310df9847801e6e3cb1"
+    },
+    {
+      "path": "docs/src/index.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "905ad44ac06c1bf0fbc2a138687f3bbfb06cdc3e",
+      "size": 5888,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/905ad44ac06c1bf0fbc2a138687f3bbfb06cdc3e"
+    },
+    {
+      "path": "docs/src/shader-defs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "48ade6386657e170115481c1ce90485c621ad50a",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/48ade6386657e170115481c1ce90485c621ad50a"
+    },
+    {
+      "path": "docs/src/shader-defs/color-panels-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "908b3c0bb223b6d951dfdc35af517ac1de0bb038",
+      "size": 2468,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/908b3c0bb223b6d951dfdc35af517ac1de0bb038"
+    },
+    {
+      "path": "docs/src/shader-defs/common-param-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "330af294b7586a139edfe0e802a10788f9328970",
+      "size": 4314,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/330af294b7586a139edfe0e802a10788f9328970"
+    },
+    {
+      "path": "docs/src/shader-defs/dithering-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc8037584f72921089f16e5cf4ef86f72b52178c",
+      "size": 1435,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/dc8037584f72921089f16e5cf4ef86f72b52178c"
+    },
+    {
+      "path": "docs/src/shader-defs/dot-grid-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90716452b21a2bac4b83d5fe053eeba2920a753a",
+      "size": 2391,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/90716452b21a2bac4b83d5fe053eeba2920a753a"
+    },
+    {
+      "path": "docs/src/shader-defs/dot-orbit-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97640e28e6cac9b1433822a8d54935e3e98d0cb2",
+      "size": 1822,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/97640e28e6cac9b1433822a8d54935e3e98d0cb2"
+    },
+    {
+      "path": "docs/src/shader-defs/fluted-glass-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e16d1390642b9946acd5831eec9e33a392e158f",
+      "size": 5031,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/9e16d1390642b9946acd5831eec9e33a392e158f"
+    },
+    {
+      "path": "docs/src/shader-defs/gem-smoke-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d477b4f25c518567b4746c766bd5fe9f7076e559",
+      "size": 2988,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/d477b4f25c518567b4746c766bd5fe9f7076e559"
+    },
+    {
+      "path": "docs/src/shader-defs/god-rays-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b26b10c9dbce146ccd3d9caa690cf5e6a2ffe5f",
+      "size": 2262,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/0b26b10c9dbce146ccd3d9caa690cf5e6a2ffe5f"
+    },
+    {
+      "path": "docs/src/shader-defs/grain-gradient-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9376fba1b7cb58919b06fc7ea6f1897ede130a68",
+      "size": 1584,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/9376fba1b7cb58919b06fc7ea6f1897ede130a68"
+    },
+    {
+      "path": "docs/src/shader-defs/halftone-cmyk-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "734a325119a1ec342371f84c647b685cf2afddba",
+      "size": 5066,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/734a325119a1ec342371f84c647b685cf2afddba"
+    },
+    {
+      "path": "docs/src/shader-defs/halftone-dots-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34a32fe897140b1fc05d46d368689030072eaf7c",
+      "size": 3171,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/34a32fe897140b1fc05d46d368689030072eaf7c"
+    },
+    {
+      "path": "docs/src/shader-defs/heatmap-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b75affa4012806ff6207146d6eb24aaa9414b2c",
+      "size": 2349,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/0b75affa4012806ff6207146d6eb24aaa9414b2c"
+    },
+    {
+      "path": "docs/src/shader-defs/image-dithering-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19ad22a6e7511dfb04c8c18ff73af4a99ce9f1d8",
+      "size": 2450,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/19ad22a6e7511dfb04c8c18ff73af4a99ce9f1d8"
+    },
+    {
+      "path": "docs/src/shader-defs/lens-distortion-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abc9a5c15e97ebeaa9c9249d8b165b2e1faf0639",
+      "size": 7063,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/abc9a5c15e97ebeaa9c9249d8b165b2e1faf0639"
+    },
+    {
+      "path": "docs/src/shader-defs/liquid-metal-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68532ccae24197f8c5038340c108c4ef4e513958",
+      "size": 2933,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/68532ccae24197f8c5038340c108c4ef4e513958"
+    },
+    {
+      "path": "docs/src/shader-defs/mesh-gradient-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2334128e433f4926bd7b9dc954ee27a8ff0ade98",
+      "size": 1418,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/2334128e433f4926bd7b9dc954ee27a8ff0ade98"
+    },
+    {
+      "path": "docs/src/shader-defs/metaballs-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b08452a5b0ce0fe0d04345c564e58c40a8882b86",
+      "size": 1198,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/b08452a5b0ce0fe0d04345c564e58c40a8882b86"
+    },
+    {
+      "path": "docs/src/shader-defs/neuro-noise-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80edb381121534b4f6361cc745e4a4075a9db668",
+      "size": 1408,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/80edb381121534b4f6361cc745e4a4075a9db668"
+    },
+    {
+      "path": "docs/src/shader-defs/paper-texture-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16257c5643eb66ee6be1cd12955c05cf7715c3d0",
+      "size": 6439,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/16257c5643eb66ee6be1cd12955c05cf7715c3d0"
+    },
+    {
+      "path": "docs/src/shader-defs/perlin-noise-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c288e4837da89e9cc9585a821895ae92976ef206",
+      "size": 1908,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/c288e4837da89e9cc9585a821895ae92976ef206"
+    },
+    {
+      "path": "docs/src/shader-defs/pulsing-border-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ee96ea69e3acb7c04bbd9cfeb5533d35a19dbb5",
+      "size": 3932,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/2ee96ea69e3acb7c04bbd9cfeb5533d35a19dbb5"
+    },
+    {
+      "path": "docs/src/shader-defs/shader-def-types.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7560378748d8c986678a5dbba190ff2f5fa5e2f5",
+      "size": 385,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/7560378748d8c986678a5dbba190ff2f5fa5e2f5"
+    },
+    {
+      "path": "docs/src/shader-defs/shader-defs.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ae4ceedf441972bbc9c1fdd23700ee2ab231d23",
+      "size": 2138,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/7ae4ceedf441972bbc9c1fdd23700ee2ab231d23"
+    },
+    {
+      "path": "docs/src/shader-defs/simplex-noise-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05bece77ef69e19392cc4e109461c23d4ed90653",
+      "size": 1176,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/05bece77ef69e19392cc4e109461c23d4ed90653"
+    },
+    {
+      "path": "docs/src/shader-defs/smoke-ring-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20b3cca4708e82805a3c2909986b0c26b3d12b89",
+      "size": 1758,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/20b3cca4708e82805a3c2909986b0c26b3d12b89"
+    },
+    {
+      "path": "docs/src/shader-defs/spiral-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e02555d7ca9e3f8e711bb194121430d9d3883497",
+      "size": 2532,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/e02555d7ca9e3f8e711bb194121430d9d3883497"
+    },
+    {
+      "path": "docs/src/shader-defs/static-mesh-gradient-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa2caad666930c3acfd44abc1f41b1d6013852ff",
+      "size": 2367,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/aa2caad666930c3acfd44abc1f41b1d6013852ff"
+    },
+    {
+      "path": "docs/src/shader-defs/static-radial-gradient-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37b3e9bd1dc4cd89ba8989116784b8c3810a8c9b",
+      "size": 2916,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/37b3e9bd1dc4cd89ba8989116784b8c3810a8c9b"
+    },
+    {
+      "path": "docs/src/shader-defs/swirl-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09aa008fb6570bd5916eca0b2e6d760dda902bc6",
+      "size": 2236,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/09aa008fb6570bd5916eca0b2e6d760dda902bc6"
+    },
+    {
+      "path": "docs/src/shader-defs/voronoi-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a5a9a8e3fe707c5c6b209913bf494427037c7df",
+      "size": 1918,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/2a5a9a8e3fe707c5c6b209913bf494427037c7df"
+    },
+    {
+      "path": "docs/src/shader-defs/warp-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93d64638dc13e636662d1a455a895b1dab12bd70",
+      "size": 2182,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/93d64638dc13e636662d1a455a895b1dab12bd70"
+    },
+    {
+      "path": "docs/src/shader-defs/water-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5360d2e28c40e643941badf4dff1b6ad918cae8",
+      "size": 2281,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/c5360d2e28c40e643941badf4dff1b6ad918cae8"
+    },
+    {
+      "path": "docs/src/shader-defs/waves-def.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1566fde91613ff9f7bab3aac47ae4018e1b3fdfa",
+      "size": 2128,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/1566fde91613ff9f7bab3aac47ae4018e1b3fdfa"
+    },
+    {
+      "path": "docs/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8cdcc79e815a04397e53596f549d737f0b55738",
+      "size": 576,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/b8cdcc79e815a04397e53596f549d737f0b55738"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "456b083d8a0cc425ef615643edb28624b99398d4",
+      "size": 1058,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/456b083d8a0cc425ef615643edb28624b99398d4"
+    },
+    {
+      "path": "packages",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "01044b8540cd53f91eacdc39b8918c8bcaaf9831",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/01044b8540cd53f91eacdc39b8918c8bcaaf9831"
+    },
+    {
+      "path": "packages/shaders-react",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c4eb04608f0db410a24f14e7b4bc2caf7797a2c4",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/c4eb04608f0db410a24f14e7b4bc2caf7797a2c4"
+    },
+    {
+      "path": "packages/shaders-react/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "packages/shaders-react/NOTICE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7d7808bef12eea9110a9aac5104415232333d79",
+      "size": 91,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/f7d7808bef12eea9110a9aac5104415232333d79"
+    },
+    {
+      "path": "packages/shaders-react/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ffb5bcceaf4c3a433d67468135fcba54485dcc3",
+      "size": 607,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/4ffb5bcceaf4c3a433d67468135fcba54485dcc3"
+    },
+    {
+      "path": "packages/shaders-react/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "744d23b5d0e78c6cb1db6f0561e7886442726fd9",
+      "size": 840,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/744d23b5d0e78c6cb1db6f0561e7886442726fd9"
+    },
+    {
+      "path": "packages/shaders-react/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b358b344962ee391b60d085fc482cf10288138c6",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/b358b344962ee391b60d085fc482cf10288138c6"
+    },
+    {
+      "path": "packages/shaders-react/src/color-props-are-equal.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa04f8a787485fd9d53eb4f94fc1771108a29673",
+      "size": 987,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/aa04f8a787485fd9d53eb4f94fc1771108a29673"
+    },
+    {
+      "path": "packages/shaders-react/src/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32e27a07c30e3b93e1274a40c1ed9316096c098f",
+      "size": 7419,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/32e27a07c30e3b93e1274a40c1ed9316096c098f"
+    },
+    {
+      "path": "packages/shaders-react/src/set-min-image-size.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "805f1a334bd1e1ac3f4f0b3b9ecf35b760483514",
+      "size": 573,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/805f1a334bd1e1ac3f4f0b3b9ecf35b760483514"
+    },
+    {
+      "path": "packages/shaders-react/src/shader-mount.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46f47c2157aacef89e80993103ecd3488510de9d",
+      "size": 7194,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/46f47c2157aacef89e80993103ecd3488510de9d"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f4bfdbe0a634965c321cddb65ddcf57215b5d417",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/f4bfdbe0a634965c321cddb65ddcf57215b5d417"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/color-panels.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18ef38b0074f5b136754cc4f178c44f1bb2b78b7",
+      "size": 4306,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/18ef38b0074f5b136754cc4f178c44f1bb2b78b7"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/dithering.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "876ba6e962761330f391c51dbc682073b571e827",
+      "size": 3833,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/876ba6e962761330f391c51dbc682073b571e827"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/dot-grid.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67c378d5b8a82be04220385e71f8f86c43e641ad",
+      "size": 3793,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/67c378d5b8a82be04220385e71f8f86c43e641ad"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/dot-orbit.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce5a120ea29965ea797a58dae63cbdf8d819a49f",
+      "size": 3523,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/ce5a120ea29965ea797a58dae63cbdf8d819a49f"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/fluted-glass.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fa0cb5eb124eb2b65481302ddd605102fe0288b",
+      "size": 6049,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/8fa0cb5eb124eb2b65481302ddd605102fe0288b"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/gem-smoke.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d93130c6aac1c869c7d4a74f76776b4e72a08b84",
+      "size": 5864,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/d93130c6aac1c869c7d4a74f76776b4e72a08b84"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/god-rays.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56603160bbfef6d4213dbcc845de10ae2ae3b736",
+      "size": 4047,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/56603160bbfef6d4213dbcc845de10ae2ae3b736"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/grain-gradient.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f79f2f70d4527a8486984ababa2db3e36e63efb",
+      "size": 4228,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/3f79f2f70d4527a8486984ababa2db3e36e63efb"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/halftone-cmyk.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b13860ef8c55d5dfd4e86734c4ad902087f73d95",
+      "size": 5753,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/b13860ef8c55d5dfd4e86734c4ad902087f73d95"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/halftone-dots.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05342909bba26bcf3e95391ba12dd602da8559d2",
+      "size": 4511,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/05342909bba26bcf3e95391ba12dd602da8559d2"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/heatmap.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3bf17d7285b80b5ea3539d98715584fc9c723e4",
+      "size": 4940,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/e3bf17d7285b80b5ea3539d98715584fc9c723e4"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/image-dithering.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c73e60972f454e4a0a1af6d27adf32393cdd7e4",
+      "size": 4139,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/1c73e60972f454e4a0a1af6d27adf32393cdd7e4"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/lens-distortion.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2db06d0572fd4ce9f56a23da85cbf0859d36dbe3",
+      "size": 5630,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/2db06d0572fd4ce9f56a23da85cbf0859d36dbe3"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/liquid-metal.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffc6a9dd4bef2bf384652dddc1c9f5d4036f8a15",
+      "size": 5512,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/ffc6a9dd4bef2bf384652dddc1c9f5d4036f8a15"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/mesh-gradient.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d37eaaeb9de0303a27502486f4e997a5cdf8d98",
+      "size": 3322,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/5d37eaaeb9de0303a27502486f4e997a5cdf8d98"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/metaballs.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "443d504768ff7d996336664e91a2815023fd6b50",
+      "size": 3240,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/443d504768ff7d996336664e91a2815023fd6b50"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/neuro-noise.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5a107f85398dcb06db8d288d8a2d040805a7374",
+      "size": 3341,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/b5a107f85398dcb06db8d288d8a2d040805a7374"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/paper-texture.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f95ac247d4f3dd94a23471cd2878091955562dc8",
+      "size": 6637,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/f95ac247d4f3dd94a23471cd2878091955562dc8"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/perlin-noise.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ae3f0f4bb40fa4d492e9ebaf3dfc9f61c3fef9d",
+      "size": 3780,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/2ae3f0f4bb40fa4d492e9ebaf3dfc9f61c3fef9d"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/pulsing-border.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46559b6e65fe78b40be41ae1e5ea72611412e62c",
+      "size": 5497,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/46559b6e65fe78b40be41ae1e5ea72611412e62c"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/simplex-noise.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6b37e47cdc5b920ba81e2171d4215454a98295d",
+      "size": 3195,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/c6b37e47cdc5b920ba81e2171d4215454a98295d"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/smoke-ring.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83bca5b978e8048ca54ae3100110589b25cb765d",
+      "size": 3706,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/83bca5b978e8048ca54ae3100110589b25cb765d"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/spiral.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "541c412c19c923167702330bcc0062a641812ada",
+      "size": 3944,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/541c412c19c923167702330bcc0062a641812ada"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/static-mesh-gradient.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "52ce00b73b6b951ebb5156b17155c35300c83ff0",
+      "size": 4078,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/52ce00b73b6b951ebb5156b17155c35300c83ff0"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/static-radial-gradient.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30bdf1b730694265eade9c77dcf6451aa49d9253",
+      "size": 4733,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/30bdf1b730694265eade9c77dcf6451aa49d9253"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/swirl.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e7727fd4ac711a682bd16a04e7838bc8b0e11fe",
+      "size": 3811,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/6e7727fd4ac711a682bd16a04e7838bc8b0e11fe"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/voronoi.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfa9773dc41c363e7dfb682a0274de756068aadb",
+      "size": 3632,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/bfa9773dc41c363e7dfb682a0274de756068aadb"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/warp.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2fe601804a564627943b03fd78aec9d56bd6fd8",
+      "size": 4662,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/b2fe601804a564627943b03fd78aec9d56bd6fd8"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/water.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "445ee4f66dcf0cbeaa593133abb41ec7b43e0705",
+      "size": 3984,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/445ee4f66dcf0cbeaa593133abb41ec7b43e0705"
+    },
+    {
+      "path": "packages/shaders-react/src/shaders/waves.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38c2e731a66bf2b52d21588247a3e66caae0926f",
+      "size": 3518,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/38c2e731a66bf2b52d21588247a3e66caae0926f"
+    },
+    {
+      "path": "packages/shaders-react/src/suspend.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "181439e6f4436c47c4ee40eed14be5b7d1af8f98",
+      "size": 2382,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/181439e6f4436c47c4ee40eed14be5b7d1af8f98"
+    },
+    {
+      "path": "packages/shaders-react/src/transparent-pixel.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9e683abe97d33f9219e2c4f88a3c22c596161d0",
+      "size": 110,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/f9e683abe97d33f9219e2c4f88a3c22c596161d0"
+    },
+    {
+      "path": "packages/shaders-react/src/use-merge-refs.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e3b41b096ea742f0e8d6bd1db85b1e7757902df0",
+      "size": 1624,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/e3b41b096ea742f0e8d6bd1db85b1e7757902df0"
+    },
+    {
+      "path": "packages/shaders-react/tsconfig.build.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa9fc4eb78670e5ac55d485c449900d7959a5f1f",
+      "size": 134,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/fa9fc4eb78670e5ac55d485c449900d7959a5f1f"
+    },
+    {
+      "path": "packages/shaders-react/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ec112374eccfa9e7447104d96914aee1e56a5c2",
+      "size": 815,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/3ec112374eccfa9e7447104d96914aee1e56a5c2"
+    },
+    {
+      "path": "packages/shaders",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d92e8a087cc23909ff6721cbdf62579d9606cd8e",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/d92e8a087cc23909ff6721cbdf62579d9606cd8e"
+    },
+    {
+      "path": "packages/shaders/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "size": 11357,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64"
+    },
+    {
+      "path": "packages/shaders/NOTICE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7d7808bef12eea9110a9aac5104415232333d79",
+      "size": 91,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/f7d7808bef12eea9110a9aac5104415232333d79"
+    },
+    {
+      "path": "packages/shaders/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0021bd6f5f7b44cfc809260060811952d57c8182",
+      "size": 216,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/0021bd6f5f7b44cfc809260060811952d57c8182"
+    },
+    {
+      "path": "packages/shaders/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecf6f3b21690ef1b3522d694972ef7bfa72650c2",
+      "size": 564,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/ecf6f3b21690ef1b3522d694972ef7bfa72650c2"
+    },
+    {
+      "path": "packages/shaders/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "064c4949aa7c9878917dff06f3f5a557047c69d9",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/064c4949aa7c9878917dff06f3f5a557047c69d9"
+    },
+    {
+      "path": "packages/shaders/src/empty-pixel.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c59e742e6a34045601174faa590b24e52054bd5",
+      "size": 104,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/8c59e742e6a34045601174faa590b24e52054bd5"
+    },
+    {
+      "path": "packages/shaders/src/get-shader-color-from-string.test.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9424cae44aab0aa30b49352d599916de3142474f",
+      "size": 3028,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/9424cae44aab0aa30b49352d599916de3142474f"
+    },
+    {
+      "path": "packages/shaders/src/get-shader-color-from-string.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e107650c4572ee9d77f7c72eb8b54bc8f6834c6",
+      "size": 4368,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/7e107650c4572ee9d77f7c72eb8b54bc8f6834c6"
+    },
+    {
+      "path": "packages/shaders/src/get-shader-noise-texture.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd849379e974b11868ce1e61d4c707d27c799ece",
+      "size": 23473,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/cd849379e974b11868ce1e61d4c707d27c799ece"
+    },
+    {
+      "path": "packages/shaders/src/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "904e32d6e480266e61aa41da0951799e5c3ab890",
+      "size": 9267,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/904e32d6e480266e61aa41da0951799e5c3ab890"
+    },
+    {
+      "path": "packages/shaders/src/shader-color-spaces.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "557a37523034a8bad6b5c74d535062960302af0a",
+      "size": 2443,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/557a37523034a8bad6b5c74d535062960302af0a"
+    },
+    {
+      "path": "packages/shaders/src/shader-mount.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a6f1be7cbdcbc50ac3b14be507015ccf437f53a",
+      "size": 31802,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/3a6f1be7cbdcbc50ac3b14be507015ccf437f53a"
+    },
+    {
+      "path": "packages/shaders/src/shader-sizing.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "776809357dc34af3523c7daf9bc1c8ac4cc5b9ba",
+      "size": 1068,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/776809357dc34af3523c7daf9bc1c8ac4cc5b9ba"
+    },
+    {
+      "path": "packages/shaders/src/shader-utils.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c816fc716a181e681a84d7aa90c1c1f04be11812",
+      "size": 3456,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/c816fc716a181e681a84d7aa90c1c1f04be11812"
+    },
+    {
+      "path": "packages/shaders/src/shaders",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e69ba7c358fdf97f845342e077593dff1bb8374e",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/e69ba7c358fdf97f845342e077593dff1bb8374e"
+    },
+    {
+      "path": "packages/shaders/src/shaders/color-panels.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42ba95f2976c6a0bfa4b6e24800d603e09e8950d",
+      "size": 9237,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/42ba95f2976c6a0bfa4b6e24800d603e09e8950d"
+    },
+    {
+      "path": "packages/shaders/src/shaders/dithering.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c9707ab4fedcb960667ef85a295f9ce49c5a873",
+      "size": 9668,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/9c9707ab4fedcb960667ef85a295f9ce49c5a873"
+    },
+    {
+      "path": "packages/shaders/src/shaders/dot-grid.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41abb090cb7f7ea3cc0374a922038bc0bbf8b1dd",
+      "size": 5520,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/41abb090cb7f7ea3cc0374a922038bc0bbf8b1dd"
+    },
+    {
+      "path": "packages/shaders/src/shaders/dot-orbit.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be36fde3746e52c54ce0fd65843b804d72668734",
+      "size": 5731,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/be36fde3746e52c54ce0fd65843b804d72668734"
+    },
+    {
+      "path": "packages/shaders/src/shaders/fluted-glass.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "866b5f2869bae590cb2289f8230305f55b9e1e08",
+      "size": 15140,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/866b5f2869bae590cb2289f8230305f55b9e1e08"
+    },
+    {
+      "path": "packages/shaders/src/shaders/gem-smoke.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f35c07f9483a99e2bff9034cc7659d8c1f09ce4",
+      "size": 27986,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/6f35c07f9483a99e2bff9034cc7659d8c1f09ce4"
+    },
+    {
+      "path": "packages/shaders/src/shaders/god-rays.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc52943671754d1065cf63e4418899da0f9ea8fd",
+      "size": 6677,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/bc52943671754d1065cf63e4418899da0f9ea8fd"
+    },
+    {
+      "path": "packages/shaders/src/shaders/grain-gradient.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc10aca169b8dc336531fb928345b4cb16e857e3",
+      "size": 11835,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/bc10aca169b8dc336531fb928345b4cb16e857e3"
+    },
+    {
+      "path": "packages/shaders/src/shaders/halftone-cmyk.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0dbdc1001f6d6d33706fad05b8de231517b35a87",
+      "size": 14459,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/0dbdc1001f6d6d33706fad05b8de231517b35a87"
+    },
+    {
+      "path": "packages/shaders/src/shaders/halftone-dots.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d19cd9eb9d645f0b0bf13fc3b294c04a7ca82eb8",
+      "size": 11615,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/d19cd9eb9d645f0b0bf13fc3b294c04a7ca82eb8"
+    },
+    {
+      "path": "packages/shaders/src/shaders/heatmap.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae20204c4ba3edf589e0ca30a38b595077b1b768",
+      "size": 15460,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/ae20204c4ba3edf589e0ca30a38b595077b1b768"
+    },
+    {
+      "path": "packages/shaders/src/shaders/image-dithering.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a6837d5de68ce09ba6b071e2c01f2910222ec500",
+      "size": 8277,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/a6837d5de68ce09ba6b071e2c01f2910222ec500"
+    },
+    {
+      "path": "packages/shaders/src/shaders/lens-distortion.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8dde909b9644e2627d771bf06f35946521d97f0d",
+      "size": 14022,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/8dde909b9644e2627d771bf06f35946521d97f0d"
+    },
+    {
+      "path": "packages/shaders/src/shaders/liquid-metal.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64cffcbd6b9aeeeeacb76c6300d973d8ac868681",
+      "size": 30090,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/64cffcbd6b9aeeeeacb76c6300d973d8ac868681"
+    },
+    {
+      "path": "packages/shaders/src/shaders/mesh-gradient.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "111a0a9f6d00d38a5be49281a190dc2f947a4dad",
+      "size": 5592,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/111a0a9f6d00d38a5be49281a190dc2f947a4dad"
+    },
+    {
+      "path": "packages/shaders/src/shaders/metaballs.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26d92de3c6d9ad9629cac2863f23eb04ab077419",
+      "size": 4868,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/26d92de3c6d9ad9629cac2863f23eb04ab077419"
+    },
+    {
+      "path": "packages/shaders/src/shaders/neuro-noise.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5094589a5d064b3bf126c22c0b9c298db24df15e",
+      "size": 3881,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/5094589a5d064b3bf126c22c0b9c298db24df15e"
+    },
+    {
+      "path": "packages/shaders/src/shaders/paper-texture.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6b20baf39c14f1e84365a82099760148b8b43c7",
+      "size": 21311,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/d6b20baf39c14f1e84365a82099760148b8b43c7"
+    },
+    {
+      "path": "packages/shaders/src/shaders/perlin-noise.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be9fbc364958d82a6f3bd56900c287075c4b87be",
+      "size": 7189,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/be9fbc364958d82a6f3bd56900c287075c4b87be"
+    },
+    {
+      "path": "packages/shaders/src/shaders/pulsing-border.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f27a1bde1f21d2fc50b88f5d9cde2ac6aa325608",
+      "size": 11532,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/f27a1bde1f21d2fc50b88f5d9cde2ac6aa325608"
+    },
+    {
+      "path": "packages/shaders/src/shaders/simplex-noise.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "454df4fa58d5e2742c78a3c3f5c3722bc98f6263",
+      "size": 4224,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/454df4fa58d5e2742c78a3c3f5c3722bc98f6263"
+    },
+    {
+      "path": "packages/shaders/src/shaders/smoke-ring.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de1e64e5ebda32ee325b288fab67d5379a72cc95",
+      "size": 6137,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/de1e64e5ebda32ee325b288fab67d5379a72cc95"
+    },
+    {
+      "path": "packages/shaders/src/shaders/spiral.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9797e76ac2767c810a6f6316bcc65f3ced80807b",
+      "size": 5095,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/9797e76ac2767c810a6f6316bcc65f3ced80807b"
+    },
+    {
+      "path": "packages/shaders/src/shaders/static-mesh-gradient.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b901e5e9467d0fd041ca5c1d60ff8a7c0ee0ed03",
+      "size": 6244,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/b901e5e9467d0fd041ca5c1d60ff8a7c0ee0ed03"
+    },
+    {
+      "path": "packages/shaders/src/shaders/static-radial-gradient.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "466701e2fb2cd4927b45b071215883f69394c66a",
+      "size": 8619,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/466701e2fb2cd4927b45b071215883f69394c66a"
+    },
+    {
+      "path": "packages/shaders/src/shaders/swirl.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "768ad309d194745a1f2e2ffc89179df50432fba8",
+      "size": 5227,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/768ad309d194745a1f2e2ffc89179df50432fba8"
+    },
+    {
+      "path": "packages/shaders/src/shaders/voronoi.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51d611069ffb38b5f73d2dcefc96fcfa28af1cb1",
+      "size": 6232,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/51d611069ffb38b5f73d2dcefc96fcfa28af1cb1"
+    },
+    {
+      "path": "packages/shaders/src/shaders/warp.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bcde259f3cc81dffa17d4cb35dcfaa551632b454",
+      "size": 6371,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/bcde259f3cc81dffa17d4cb35dcfaa551632b454"
+    },
+    {
+      "path": "packages/shaders/src/shaders/water.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31df8d56c68123c6032dfa9afc69a2a22fefe542",
+      "size": 6122,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/31df8d56c68123c6032dfa9afc69a2a22fefe542"
+    },
+    {
+      "path": "packages/shaders/src/shaders/waves.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34d52606ccd4a00a5cf02289138286641ca4a7d5",
+      "size": 4308,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/34d52606ccd4a00a5cf02289138286641ca4a7d5"
+    },
+    {
+      "path": "packages/shaders/src/types.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d675c51038a95e8273cc4ba0c1a977cb9e187f64",
+      "size": 135,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/d675c51038a95e8273cc4ba0c1a977cb9e187f64"
+    },
+    {
+      "path": "packages/shaders/src/vertex-shader.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "584a919af80a7bee835d034425e0fa09d246fc68",
+      "size": 5131,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/584a919af80a7bee835d034425e0fa09d246fc68"
+    },
+    {
+      "path": "packages/shaders/tsconfig.build.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa9fc4eb78670e5ac55d485c449900d7959a5f1f",
+      "size": 134,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/fa9fc4eb78670e5ac55d485c449900d7959a5f1f"
+    },
+    {
+      "path": "packages/shaders/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34976bce606d7bf8e5080b228ae930ce8c084a3b",
+      "size": 704,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/34976bce606d7bf8e5080b228ae930ce8c084a3b"
+    },
+    {
+      "path": "patches",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c5d0279b409d67871a4e11a6788b82918d1fc6c7",
+      "url": "https://api.github.com/repos/paper-design/shaders/git/trees/c5d0279b409d67871a4e11a6788b82918d1fc6c7"
+    },
+    {
+      "path": "patches/leva@0.9.34.patch",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8e8f4e6acb2abad49d52368595e06b5acf93416",
+      "size": 1034,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/e8e8f4e6acb2abad49d52368595e06b5acf93416"
+    },
+    {
+      "path": "publish.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "24744a29e205492a08765bb5e91e851674d84b9c",
+      "size": 3829,
+      "url": "https://api.github.com/repos/paper-design/shaders/git/blobs/24744a29e205492a08765bb5e91e851674d84b9c"
+    }
+  ],
+  "truncated": false
+}

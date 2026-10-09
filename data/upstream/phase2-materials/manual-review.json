@@ -1,0 +1,57 @@
+{
+  "reviewedAt": "2026-10-09",
+  "method": "Contact sheets of actual original 1K color maps and stored JPEG albedo; inspect visible composition before relying on pixel hashes",
+  "sheets": [
+    {
+      "path": "data/upstream/phase2-materials/bricks-contact-sheet.jpg",
+      "sha256": "33c31a27e43462a4867a0f68abee490e19c4e9a1b997ca962d26f96fa532b483"
+    },
+    {
+      "path": "data/upstream/phase2-materials/tile-wood-concrete-contact-sheet.jpg",
+      "sha256": "a8487f31587d7634ac5805f8e237c014c663a4a6345a59ad4656be194e902d39"
+    },
+    {
+      "path": "data/upstream/phase2-materials/polyhaven-surfaces-contact-sheet.jpg",
+      "sha256": "7c5e81162b533be524945fd55c45f7ee7863b7b0c366fc86a2a6ae54b73a0341"
+    },
+    {
+      "path": "data/upstream/phase2-materials/polyhaven-late-surfaces-contact-sheet.jpg",
+      "sha256": "72d798eac3083b4e46d793dfdae9753bfcba53a351beb066897294a48fbb8564"
+    }
+  ],
+  "groups": {
+    "ambientCG": {
+      "Bricks009": "Bricks006",
+      "Bricks010": "Bricks006",
+      "Bricks017": "Bricks006",
+      "Bricks053": "Bricks006",
+      "Bricks086": "Bricks006",
+      "Bricks101": "Bricks006",
+      "Bricks025": "Bricks004",
+      "Bricks051": "Bricks004",
+      "Bricks092": "Bricks004",
+      "Tiles004": "Tiles003",
+      "Tiles073": "Tiles003",
+      "Tiles132A": "Tiles003",
+      "Tiles018": "Tiles017",
+      "Tiles074": "Tiles012",
+      "Wood041": "WoodFloor007",
+      "WoodFloor051": "WoodFloor007",
+      "WoodFloor071": "WoodFloor030"
+    },
+    "Poly Haven": {
+      "dark_brick_wall": "brick",
+      "factory_brick": "brick",
+      "large_red_bricks": "brick",
+      "embedded_plank_flooring": "brick",
+      "painted_brick": "brick",
+      "japanese_cedar_planks": "brown_planks",
+      "hinoki_planks": "brown_planks",
+      "roof_planks": "brown_planks",
+      "wooden_planks": "brown_planks",
+      "stone_embedded_concrete": "rock_embedded_floor"
+    }
+  },
+  "reason": "Clean running-bond brick grids, regular square tiles, checker grids, short plank floors and plain long planks differing mainly in color, rotation or crop scale do not create a new family; irregular pebble-embedded concrete samples differing in tint or crop scale likewise share one family",
+  "retainedDifferences": "Weathered or broken masonry, irregular stone, distressed paint, large visible grain variation, chipped edges and clearly different bond or parquet geometry remain candidates"
+}

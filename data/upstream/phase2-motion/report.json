@@ -1,0 +1,593 @@
+{
+  "date": "2026-10-09",
+  "catalogSha256": "84051c3b655b44cf349525b9263015f5aff10d4add9a93c00f406604945fa2d6",
+  "baselineCanonicalCount": 6074,
+  "baselineSnapshotSha256": "eff3b82696e1c71c1b96a9da919d631edc72b4d1f0bc9ddb11d03004067fd3a8",
+  "baselineOriginalAndRepairedBodies": 6111,
+  "baselineComparedCSSAndSVG": 3254,
+  "candidateCount": 549,
+  "retainedCount": 510,
+  "sources": {
+    "CSS Loaders / Vineeth TR": 343,
+    "Meteocons / Bas Milius": 167
+  },
+  "languages": {
+    "css": 343,
+    "svg": 167
+  },
+  "duplicatesExcluded": [
+    {
+      "id": "phase2-motion-meteocons-overcast",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast.svg",
+      "codeSha256": "6ee4a2c9e1b7db8af1152e9f8ce6a72913585e4868b3094d851b2a3a1cf789cc",
+      "retainedCodeSha256": "9ff4902e1376e60e07051cbf75e441b22d7e1efe89cf6ef87d3ff86dced750d9"
+    },
+    {
+      "id": "phase2-motion-meteocons-overcast-day",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme-day",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast-day.svg",
+      "codeSha256": "60aa63b2a3e56c308a26337f5cb240d23e2b56a46a112f3d3ca26e41ed11018d",
+      "retainedCodeSha256": "66293d3957024f455342979a1303d1e5b0a0592070f10d0e5be6fa44ac7f9954"
+    },
+    {
+      "id": "phase2-motion-meteocons-overcast-day-drizzle",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme-day-drizzle",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast-day-drizzle.svg",
+      "codeSha256": "35f516129876910a3712f0778463c8f7ff7a08da240534d267cdbed937db9020",
+      "retainedCodeSha256": "7d3e2a392601929fd04c7f2a5a4b467ef86d0292e2088fd09b66b6b060d66926"
+    },
+    {
+      "id": "phase2-motion-meteocons-overcast-day-fog",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme-day-fog",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast-day-fog.svg",
+      "codeSha256": "ca715f97ffdecc135ac3fb517416b2a0af16619e292b654a9fd28c7d326fc3b0",
+      "retainedCodeSha256": "54e8de8f8dee2839d98c261d9289f85663f28ac8975e23bad97508628782ee4b"
+    },
+    {
+      "id": "phase2-motion-meteocons-overcast-day-hail",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme-day-hail",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast-day-hail.svg",
+      "codeSha256": "3e8a3a2e0e8f849f62ef0e52a0185f0b3f9d6bcd79f67e7bfb3a09298cc1c2f8",
+      "retainedCodeSha256": "8805ceaa959af6faa3e0c570112b573049c5cffb741a977aaf4fc1145016bdbe"
+    },
+    {
+      "id": "phase2-motion-meteocons-overcast-day-haze",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme-day-haze",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast-day-haze.svg",
+      "codeSha256": "d3daea9a516321f9013f10da9ee58be2ead536f5dbd31cb86672bb0a7986239e",
+      "retainedCodeSha256": "66c6ef1bce75ac44a811f05129bb4e61091b1105337b96cfdc756bc6d11206b2"
+    },
+    {
+      "id": "phase2-motion-meteocons-overcast-day-rain",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme-day-rain",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast-day-rain.svg",
+      "codeSha256": "b95398431d4abdce10b03c686bcfb46b6713f30796e19c2c341b337c86e8b4fd",
+      "retainedCodeSha256": "065296a3fef44381de55dc341bac1d0e15f473ce7adecb1792873dac1f66332f"
+    },
+    {
+      "id": "phase2-motion-meteocons-overcast-day-sleet",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme-day-sleet",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast-day-sleet.svg",
+      "codeSha256": "56dbc79e11f0dcfc696b8cac04cca333ede85d1fbe7f67bdef3308b314c5436c",
+      "retainedCodeSha256": "5b5a2b60ceaef941a141d9b4f1fdd0117e2e2a526aaf5b0b99a2009b5a5e209a"
+    },
+    {
+      "id": "phase2-motion-meteocons-overcast-day-smoke",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme-day-smoke",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast-day-smoke.svg",
+      "codeSha256": "b1725438be842137846ad0dba77f8b5a362449256ff6062423887ba3ed54accc",
+      "retainedCodeSha256": "055c48540f829c2317ada74def8d37753c27c53c87b76df72080324ca3914f23"
+    },
+    {
+      "id": "phase2-motion-meteocons-overcast-day-snow",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme-day-snow",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast-day-snow.svg",
+      "codeSha256": "17d0bf76c42b72e390e36da0cd4a6c703069b867bc45705d250013a0c62bc37e",
+      "retainedCodeSha256": "f7e0a41df50b7eb5f6cd91b241394a565574061b3acb3c1c27c27a7521a42b00"
+    },
+    {
+      "id": "phase2-motion-meteocons-overcast-drizzle",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme-drizzle",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast-drizzle.svg",
+      "codeSha256": "18cfd8b6649f0f08e1740b14079e57e80a2b8f09180507b4a96453fcf559efac",
+      "retainedCodeSha256": "bb8d928271a13a2364bb76eff0755f38d7a54e83e7aa91f0b19931db23588909"
+    },
+    {
+      "id": "phase2-motion-meteocons-overcast-fog",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme-fog",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast-fog.svg",
+      "codeSha256": "55eb689102e7f01ef132667a0f40d1a04f4a3e5cea1866b9934e23e7fb278632",
+      "retainedCodeSha256": "0cf2fee1b091b2cc0b648303b525a8300242effb89782a10aae2a285ecf7b540"
+    },
+    {
+      "id": "phase2-motion-meteocons-overcast-hail",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme-hail",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast-hail.svg",
+      "codeSha256": "e305518ffb290d147fc81a703c3c3bbedb00d88565f274aac1ba7735e1e7ed3c",
+      "retainedCodeSha256": "a987e888ec70fdf9436857262b9b3914a72f47b50d7d1a06fe7ab3cc6a5a0c22"
+    },
+    {
+      "id": "phase2-motion-meteocons-overcast-haze",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme-haze",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast-haze.svg",
+      "codeSha256": "e3863dd19dab08c8b746c3cf6e58eff0640bf8d22ce34986ddba27f805a87afd",
+      "retainedCodeSha256": "e38fe17b5ef628b70e268fef0a38f738e8927f8b1dc91e16a7a92440c0b4a98f"
+    },
+    {
+      "id": "phase2-motion-meteocons-overcast-night",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme-night",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast-night.svg",
+      "codeSha256": "01d88a606f01fef9ebe4e9daf2579d3d030983149852ce42a82ae5da3aa0025b",
+      "retainedCodeSha256": "1d028039b1e106c2bcb57972fc25f13d10de5c1e43570075f2cc1040bb474135"
+    },
+    {
+      "id": "phase2-motion-meteocons-overcast-night-drizzle",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme-night-drizzle",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast-night-drizzle.svg",
+      "codeSha256": "4fc5cabed6172ba2b8d2c130b7c42a4d2f701c12528952e1757c2e8d9118fd4b",
+      "retainedCodeSha256": "b6c443d4f3e1dce9acbd1f744fe25be1857d2919b20a6f01c5a53f73c34635bd"
+    },
+    {
+      "id": "phase2-motion-meteocons-overcast-night-fog",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme-night-fog",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast-night-fog.svg",
+      "codeSha256": "7cd1e3acf57810a2bfb609dd3a497810c1c5e3493fd66735cb0b546ec1ce43eb",
+      "retainedCodeSha256": "bc6d4d789be41c8d5f0e19bcc688325d8c9008d61c46ea049117e1733cb18bc8"
+    },
+    {
+      "id": "phase2-motion-meteocons-overcast-night-hail",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme-night-hail",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast-night-hail.svg",
+      "codeSha256": "d9c3425e5995ac7598273a37c2a4de31f297155faffacf65cd7f8f5b8e7db90b",
+      "retainedCodeSha256": "c591eca589edb93c705d78df1b5f6996da0677cc3c5e88fd8b0c4d516bd2770b"
+    },
+    {
+      "id": "phase2-motion-meteocons-overcast-night-haze",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme-night-haze",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast-night-haze.svg",
+      "codeSha256": "3eb81a63b78e95f3ca86ed4fc6c8919eb5eeda154dcde4de5992a2920bed3dc2",
+      "retainedCodeSha256": "690c794f1cb73a3199d9bfd4339db6c33fca9d4caefc8b1f41e9347f54112a42"
+    },
+    {
+      "id": "phase2-motion-meteocons-overcast-night-rain",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme-night-rain",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast-night-rain.svg",
+      "codeSha256": "e22f63d98e841b8aa59c73aac9ece400177f64bfccbab910618217607d500a5f",
+      "retainedCodeSha256": "693df0b97b7645236c0cdf161ba1b42276dee742775c85b45412b157d9a3057c"
+    },
+    {
+      "id": "phase2-motion-meteocons-overcast-night-sleet",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme-night-sleet",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast-night-sleet.svg",
+      "codeSha256": "c38037a85300e699f4c30e52d8daf7b4ec2d9e94729f4b38185d0cc220123a94",
+      "retainedCodeSha256": "d830297e7e66b0be3ae78258713c1b030d19bdad489bf22eb5dbd259cd4fb590"
+    },
+    {
+      "id": "phase2-motion-meteocons-overcast-night-smoke",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme-night-smoke",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast-night-smoke.svg",
+      "codeSha256": "a198e11735af6f1a15fd4bd94dbf10389a90cf1e66b132c72008f669b4ff5506",
+      "retainedCodeSha256": "c12a2216af1d42fff2ebbfdc6a0dc751bb7421a8f25ea864720a97aaac59a3ce"
+    },
+    {
+      "id": "phase2-motion-meteocons-overcast-night-snow",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme-night-snow",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast-night-snow.svg",
+      "codeSha256": "204f3eb26d919375a8243fde5b50a482ba78d3472657100fcda0febee22c0e9e",
+      "retainedCodeSha256": "9ca10364b261399c7cfa83fde8c817e780f1c05ea4d19235db23b4c4a909ad3a"
+    },
+    {
+      "id": "phase2-motion-meteocons-overcast-rain",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme-rain",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast-rain.svg",
+      "codeSha256": "638ca125c059a7fe5a0b0c864007e65ff1ee6a9ed8e6d4a2b563f5d7895d975d",
+      "retainedCodeSha256": "cae87e095cdbe243d8994acceea9eb59ad63900a6b8a6edd086e508b95ac0dad"
+    },
+    {
+      "id": "phase2-motion-meteocons-overcast-sleet",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme-sleet",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast-sleet.svg",
+      "codeSha256": "96ad87d126caec082d0821588582a51ab4761ec14f38c269ccf8ccd6aaa2710f",
+      "retainedCodeSha256": "44fdccacde15ba95cee2818d9c20d077671071118bb800935b11b2198780ee83"
+    },
+    {
+      "id": "phase2-motion-meteocons-overcast-smoke",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme-smoke",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast-smoke.svg",
+      "codeSha256": "cbecabdbd0cce08b81afd9648228828fb5565523e011e7bb935753ec421dad09",
+      "retainedCodeSha256": "ad6a71872871c43d34439be508e3238993e7b96c414c0e10a056743da54a9e53"
+    },
+    {
+      "id": "phase2-motion-meteocons-overcast-snow",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-extreme-snow",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/overcast-snow.svg",
+      "codeSha256": "989133403028dda945882a8f17c4869576d528613383715ee5c35cbdf6e8972e",
+      "retainedCodeSha256": "8efbaa7ff714339cfd4416a9810780dceab35c29424f180d91528ca770187029"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-day-overcast",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-thunderstorms-day-extreme",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/thunderstorms-day-overcast.svg",
+      "codeSha256": "68bb40296720b6f98d9a65f68d06f1968db84abcca6a74132b6b4862f5db8fe1",
+      "retainedCodeSha256": "72fc6fe518a32333580939182adec87cd989b879971e53fc6e8fe1851c0b7f82"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-day-overcast-snow",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-thunderstorms-day-extreme-snow",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/thunderstorms-day-overcast-snow.svg",
+      "codeSha256": "f586a239a539decd9526c460f015d4ee60a8c10549662d6030d4265916277959",
+      "retainedCodeSha256": "57a1970da427a06aa74eb2ec64f760570c689700a0f2ecf83c081150da333a65"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-night-overcast",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-thunderstorms-night-extreme",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/thunderstorms-night-overcast.svg",
+      "codeSha256": "a37c3776da9ab85b43026916ae99f91e482d99042a197003a2f8ab065feeb078",
+      "retainedCodeSha256": "dbb0041e4bd422be718f8174645ed8155e1700bcc9dbd48121d101bfcdddcd46"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-night-overcast-snow",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-thunderstorms-night-extreme-snow",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/thunderstorms-night-overcast-snow.svg",
+      "codeSha256": "4c6483ef9a91571780cedcd5b5e7ff7cce98ac567a914d8c5b98250bce2ae22a",
+      "retainedCodeSha256": "d2cbe05cf74476ef736d2b405bbd4cc2d16e3ae1afea44885707f080b5ccc044"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-overcast",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-thunderstorms-extreme",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/thunderstorms-overcast.svg",
+      "codeSha256": "122c6e897a4b845daa8e0d809c775cbef949edb1d54417e7eeaa4be5bf2e9432",
+      "retainedCodeSha256": "8ce31918c1723aeb73e1c08d88a86c7e8fe956ce156be6ac67089b327d15b7f7"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-overcast-snow",
+      "reason": "paint-or-timing-only",
+      "retainedId": "phase2-motion-meteocons-thunderstorms-extreme-snow",
+      "sourceUrl": "https://github.com/basmilius/meteocons/blob/0ccc40fcff96ac10e325b53d138fed27c4d18afa/production/line/svg/thunderstorms-overcast-snow.svg",
+      "codeSha256": "ad857f7c5cc3aa703efbd5950308721c0f4b2d3211a4cf3a2385e1a89c05e58e",
+      "retainedCodeSha256": "f24e0f2b5b7aaf89568c9811cbd7abe972b23e1304d0524cc824a05bb055b0cf"
+    },
+    {
+      "id": "phase2-motion-css-loaders-circle05",
+      "retainedId": "phase2-motion-css-loaders-circle04",
+      "reason": "reviewed-source-composition-variant",
+      "reviewBasis": "Same polygon reveal/rotation and two ring layers; the additional inner inset is a ring-size variant.",
+      "sourceCommit": "e9078959e48c39b97613f333c14aac1c3d765c1f",
+      "sourceUrl": "https://github.com/vineethtrv/css-loader/blob/e9078959e48c39b97613f333c14aac1c3d765c1f/src/loaders/circle/circle05.module.css",
+      "codeSha256": "d55cf1415417559865a0303936cbbd8914e26a17bf67df9fa8dca8f3dd921c39",
+      "retainedCodeSha256": "c06776e10ca6454d1f984c0f4478eb1be8a4cb153dc9b06cfcd5452da09905c7",
+      "browserFramesCompared": false
+    },
+    {
+      "id": "phase2-motion-css-loaders-circle08",
+      "retainedId": "phase2-motion-css-loaders-circle07",
+      "reason": "reviewed-source-composition-variant",
+      "reviewBasis": "Same complete rotating ring and orbit arc; only pseudo-element ring diameter changes.",
+      "sourceCommit": "e9078959e48c39b97613f333c14aac1c3d765c1f",
+      "sourceUrl": "https://github.com/vineethtrv/css-loader/blob/e9078959e48c39b97613f333c14aac1c3d765c1f/src/loaders/circle/circle08.module.css",
+      "codeSha256": "ef1d1e9197a59aac024e3938c12864bad08f85123436c1ec03195fdf57edaf2a",
+      "retainedCodeSha256": "276c9573be335bfcc41b8d54a86785bf12a208b237d866fa164cde34d8c4d1fa",
+      "browserFramesCompared": false
+    },
+    {
+      "id": "phase2-motion-css-loaders-circle09",
+      "retainedId": "phase2-motion-css-loaders-circle07",
+      "reason": "reviewed-source-composition-variant",
+      "reviewBasis": "Same rotating double-ring footprint and choreography; extra opposite arc is a minor border-paint configuration.",
+      "sourceCommit": "e9078959e48c39b97613f333c14aac1c3d765c1f",
+      "sourceUrl": "https://github.com/vineethtrv/css-loader/blob/e9078959e48c39b97613f333c14aac1c3d765c1f/src/loaders/circle/circle09.module.css",
+      "codeSha256": "00bc52aff136c71edb3aa77b656fa4b1570e5cb962d99226061a2723385ada6c",
+      "retainedCodeSha256": "276c9573be335bfcc41b8d54a86785bf12a208b237d866fa164cde34d8c4d1fa",
+      "browserFramesCompared": false
+    },
+    {
+      "id": "phase2-motion-css-loaders-circle10",
+      "retainedId": "phase2-motion-css-loaders-circle07",
+      "reason": "reviewed-source-composition-variant",
+      "reviewBasis": "Same rotating double-ring footprint and choreography with alternate radius/border-paint configuration.",
+      "sourceCommit": "e9078959e48c39b97613f333c14aac1c3d765c1f",
+      "sourceUrl": "https://github.com/vineethtrv/css-loader/blob/e9078959e48c39b97613f333c14aac1c3d765c1f/src/loaders/circle/circle10.module.css",
+      "codeSha256": "ac1e2713878b0ce839a70be31a6f21a92c479c7c0433c8b5cb9fb49fbdeeca39",
+      "retainedCodeSha256": "276c9573be335bfcc41b8d54a86785bf12a208b237d866fa164cde34d8c4d1fa",
+      "browserFramesCompared": false
+    },
+    {
+      "id": "phase2-motion-css-loaders-circle56",
+      "retainedId": "phase2-motion-css-loaders-circle55",
+      "reason": "reviewed-source-composition-variant",
+      "reviewBasis": "Same stepped quarter-sector fill; source differs only in paint, fixed 45-degree orientation and duration.",
+      "sourceCommit": "e9078959e48c39b97613f333c14aac1c3d765c1f",
+      "sourceUrl": "https://github.com/vineethtrv/css-loader/blob/e9078959e48c39b97613f333c14aac1c3d765c1f/src/loaders/circle/circle56.module.css",
+      "codeSha256": "bca46ca2d561d1158d0496e672797cff1cf8cd408e7db98330b2d645acc5f848",
+      "retainedCodeSha256": "52b65d29f52b201019961f1cdb27b996f50bd949740b86109b32c5f23b3d0624",
+      "browserFramesCompared": false
+    },
+    {
+      "id": "phase2-motion-css-loaders-line08",
+      "retainedId": "phase2-motion-css-loaders-line07",
+      "reason": "reviewed-source-composition-variant",
+      "reviewBasis": "Same three staggered expanding bars and width trajectory; expansion anchor/alignment is a close positioning variant rather than a new asset.",
+      "sourceCommit": "e9078959e48c39b97613f333c14aac1c3d765c1f",
+      "sourceUrl": "https://github.com/vineethtrv/css-loader/blob/e9078959e48c39b97613f333c14aac1c3d765c1f/src/loaders/line/line08.module.css",
+      "codeSha256": "3f39e109b3a571c12175cedd336133b15bdf87174eb7a287104f040cb0eef9ea",
+      "retainedCodeSha256": "c06c652e6f68e357d2fd66651138dcdffcf379b31d52431dd670c682c334b729",
+      "browserFramesCompared": false
+    }
+  ],
+  "skipped": [
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/alert-avalanche-danger.svg",
+      "reason": "unsafe-or-ambiguous-source-SVG",
+      "detail": "duplicate element IDs make SVG reference normalization ambiguous"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/alert-falling-rocks.svg",
+      "reason": "unsafe-or-ambiguous-source-SVG",
+      "detail": "duplicate element IDs make SVG reference normalization ambiguous"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/celsius.svg",
+      "reason": "static-scene-no-animation"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/code-green.svg",
+      "reason": "static-scene-no-animation"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/code-orange.svg",
+      "reason": "static-scene-no-animation"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/code-red.svg",
+      "reason": "static-scene-no-animation"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/code-yellow.svg",
+      "reason": "static-scene-no-animation"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/fahrenheit.svg",
+      "reason": "static-scene-no-animation"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/moon-first-quarter.svg",
+      "reason": "static-scene-no-animation"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/moon-full.svg",
+      "reason": "static-scene-no-animation"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/moon-last-quarter.svg",
+      "reason": "static-scene-no-animation"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/moon-new.svg",
+      "reason": "static-scene-no-animation"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/moon-waning-crescent.svg",
+      "reason": "static-scene-no-animation"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/moon-waning-gibbous.svg",
+      "reason": "static-scene-no-animation"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/moon-waxing-crescent.svg",
+      "reason": "static-scene-no-animation"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/moon-waxing-gibbous.svg",
+      "reason": "static-scene-no-animation"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/not-available.svg",
+      "reason": "static-scene-no-animation"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/pressure-high-alt.svg",
+      "reason": "static-scene-no-animation"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/pressure-low-alt.svg",
+      "reason": "static-scene-no-animation"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/snowman.svg",
+      "reason": "static-scene-no-animation"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/thermometer-glass-celsius.svg",
+      "reason": "static-scene-no-animation"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/thermometer-glass-fahrenheit.svg",
+      "reason": "static-scene-no-animation"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/thermometer-glass.svg",
+      "reason": "static-scene-no-animation"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/thermometer-mercury-cold.svg",
+      "reason": "static-scene-no-animation"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/thermometer-mercury.svg",
+      "reason": "static-scene-no-animation"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/thunderstorms-day-extreme-rain.svg",
+      "reason": "unsafe-or-ambiguous-source-SVG",
+      "detail": "duplicate element IDs make SVG reference normalization ambiguous"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/thunderstorms-day-overcast-rain.svg",
+      "reason": "unsafe-or-ambiguous-source-SVG",
+      "detail": "duplicate element IDs make SVG reference normalization ambiguous"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/thunderstorms-day-rain.svg",
+      "reason": "unsafe-or-ambiguous-source-SVG",
+      "detail": "duplicate element IDs make SVG reference normalization ambiguous"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/thunderstorms-extreme-rain.svg",
+      "reason": "unsafe-or-ambiguous-source-SVG",
+      "detail": "duplicate element IDs make SVG reference normalization ambiguous"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/thunderstorms-night-extreme-rain.svg",
+      "reason": "unsafe-or-ambiguous-source-SVG",
+      "detail": "duplicate element IDs make SVG reference normalization ambiguous"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/thunderstorms-night-overcast-rain.svg",
+      "reason": "unsafe-or-ambiguous-source-SVG",
+      "detail": "duplicate element IDs make SVG reference normalization ambiguous"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/thunderstorms-night-rain.svg",
+      "reason": "unsafe-or-ambiguous-source-SVG",
+      "detail": "duplicate element IDs make SVG reference normalization ambiguous"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/thunderstorms-overcast-rain.svg",
+      "reason": "unsafe-or-ambiguous-source-SVG",
+      "detail": "duplicate element IDs make SVG reference normalization ambiguous"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/thunderstorms-rain.svg",
+      "reason": "unsafe-or-ambiguous-source-SVG",
+      "detail": "duplicate element IDs make SVG reference normalization ambiguous"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/tornado.svg",
+      "reason": "unsafe-or-ambiguous-source-SVG",
+      "detail": "duplicate element IDs make SVG reference normalization ambiguous"
+    },
+    {
+      "source": "meteocons",
+      "path": "production/line/svg/wind-beaufort-0.svg",
+      "reason": "static-scene-no-animation"
+    }
+  ],
+  "baselineParseErrors": [],
+  "reviewedDistinctCandidates": [
+    {
+      "ids": [
+        "circle13",
+        "circle18"
+      ],
+      "basis": "Circular orbiting ball versus a long radial clock-hand geometry."
+    },
+    {
+      "ids": [
+        "bubble21",
+        "rect20"
+      ],
+      "basis": "Same spin choreography but circular balls versus square boxes are materially different design shapes."
+    },
+    {
+      "ids": [
+        "skeleton07",
+        "skeleton08"
+      ],
+      "basis": "Circular avatar footprint versus rectangular thumbnail footprint in a shimmer skeleton."
+    }
+  ],
+  "validation": {
+    "pinnedGitBlobVerified": true,
+    "fullLicenseNotices": true,
+    "fullSourceDOM": true,
+    "allCanonicalVariantsAndRepairOriginalRecordsCompared": true,
+    "sourceExecution": false,
+    "browserFramesCompared": false
+  },
+  "heldSources": [
+    {
+      "source": "Paper Shaders",
+      "count": 30,
+      "reason": "WebGL2 vertex sizing, sampled randomizer textures and uniform arrays need an exact renderer adapter; no generic stand-in preview or TS execution used."
+    },
+    {
+      "source": "p5 Shader Examples",
+      "count": 40,
+      "reason": "Most are static filters, teaching variants, webcam feedback or vertex/geometry examples. No p5 runtime or camera/media source is executed; raw source kept for later renderer review."
+    }
+  ],
+  "limits": [
+    "Static exact/timing/paint/numeric-geometry comparison does not prove perceptual uniqueness across arbitrary equivalent CSS/geometry formulations.",
+    "Framework ports, static SVG weather versions and alternative styles are excluded from new motion counts.",
+    "Animation geometry and values are original; SVG symbol/use support in the site sanitizer is required."
+  ]
+}

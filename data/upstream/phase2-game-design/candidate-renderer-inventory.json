@@ -1,0 +1,27 @@
+{
+  "total": 191,
+  "ready": 191,
+  "originalNodes": 573,
+  "preservedNodes": 573,
+  "comparedAttributes": 764,
+  "lostAttributes": [],
+  "changedAttributes": [],
+  "failures": [],
+  "diagnostics": {
+    "instances": 0,
+    "gpuContexts": 0,
+    "shaderPrograms": 0,
+    "activeShaders": 0
+  },
+  "sourceJavaScriptExecuted": false,
+  "complete": true,
+  "rendererSha256": "46ee82db97f5139b23e4e2f969c7aa904bfb90401e3e0cd7b7b4aa0f7e49da5a",
+  "inputPath": "data/upstream/phase2-game-design/candidates.json",
+  "inputSha256": "c0b6c04b347fd19b29371b6cdf902f70d7552ae67689eee6a1b9a5c90ae540a4",
+  "browserOutputSha256": "2775992c7420df191dfe91183bb21af1cdf8d5d32da17903cd655211fdcf923e",
+  "temporalFramesCompared": false,
+  "completeBrowserDomObserved": true,
+  "browserExitWasNatural": false,
+  "ownedProcessTerminatedAfterCompleteDump": true,
+  "sourceCodeFixtureSha256": "388e714a4398950e3c7f12865e0fcd10c15b19e9d1c76cf7ffe678b16fac6d1a"
+}

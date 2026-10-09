@@ -1,6 +1,6 @@
 {
   "baseline": 2153,
-  "added": 3955,
+  "added": 8170,
   "inputs": {
     "css-wave-items.json": {
       "input": 644,
@@ -16,11 +16,31 @@
       "input": 1454,
       "accepted": 1454,
       "duplicates": 0
+    },
+    "phase2-motion-items.json": {
+      "input": 510,
+      "accepted": 510,
+      "duplicates": 0
+    },
+    "phase2-design-items.json": {
+      "input": 3157,
+      "accepted": 3157,
+      "duplicates": 0
+    },
+    "phase2-material-items.json": {
+      "input": 494,
+      "accepted": 494,
+      "duplicates": 0
+    },
+    "phase2-game-design-items.json": {
+      "input": 54,
+      "accepted": 54,
+      "duplicates": 0
     }
   },
   "duplicatePolicy": "Ordered hex arrays, CSS bodies with comments/whitespace normalized, and canonical SVG XML; existing IDs are retained.",
   "excluded": [],
-  "total": 6108,
-  "publishedTotal": 6074,
+  "total": 10323,
+  "publishedTotal": 10289,
   "consolidatedRemoved": 34
 }

@@ -1,0 +1,621 @@
+[
+  {
+    "name": "colorcet-code",
+    "url": "https://raw.githubusercontent.com/holoviz/colorcet/9f23c9659e81a3bd9b23c7bf874d5c9323f07c16/colorcet/__init__.py",
+    "bytes": 816252,
+    "staticPaletteLists": [
+      {
+        "name": "diverging_isoluminant_cjm_75_c23",
+        "rows": 256
+      },
+      {
+        "name": "linear_grey_10_95_c0",
+        "rows": 256
+      },
+      {
+        "name": "isoluminant_cgo_70_c39",
+        "rows": 256
+      },
+      {
+        "name": "diverging_bky_60_10_c30",
+        "rows": 256
+      },
+      {
+        "name": "diverging_bwr_40_95_c42",
+        "rows": 256
+      },
+      {
+        "name": "cyclic_mrybm_35_75_c68",
+        "rows": 256
+      },
+      {
+        "name": "diverging_gkr_60_10_c40",
+        "rows": 256
+      },
+      {
+        "name": "diverging_gwv_55_95_c39",
+        "rows": 256
+      },
+      {
+        "name": "rainbow_bgyrm_35_85_c71",
+        "rows": 256
+      },
+      {
+        "name": "linear_kryw_5_100_c64",
+        "rows": 256
+      },
+      {
+        "name": "diverging_bwr_55_98_c37",
+        "rows": 256
+      },
+      {
+        "name": "cyclic_mygbm_30_95_c78_s25",
+        "rows": 256
+      },
+      {
+        "name": "diverging_rainbow_bgymr_45_85_c67",
+        "rows": 256
+      },
+      {
+        "name": "linear_bgyw_15_100_c68",
+        "rows": 256
+      },
+      {
+        "name": "diverging_isoluminant_cjo_70_c25",
+        "rows": 256
+      },
+      {
+        "name": "cyclic_mygbm_30_95_c78",
+        "rows": 256
+      },
+      {
+        "name": "cyclic_mrybm_35_75_c68_s25",
+        "rows": 256
+      },
+      {
+        "name": "linear_bmw_5_95_c86",
+        "rows": 256
+      },
+      {
+        "name": "linear_bmy_10_95_c71",
+        "rows": 256
+      },
+      {
+        "name": "diverging_isoluminant_cjm_75_c24",
+        "rows": 256
+      },
+      {
+        "name": "rainbow_bgyr_35_85_c73",
+        "rows": 256
+      },
+      {
+        "name": "rainbow_bgyr_35_85_c72",
+        "rows": 256
+      },
+      {
+        "name": "linear_kry_5_98_c75",
+        "rows": 256
+      },
+      {
+        "name": "linear_blue_95_50_c20",
+        "rows": 256
+      },
+      {
+        "name": "linear_bgyw_15_100_c67",
+        "rows": 256
+      },
+      {
+        "name": "linear_kry_5_95_c72",
+        "rows": 256
+      },
+      {
+        "name": "rainbow_bgyrm_35_85_c69",
+        "rows": 256
+      },
+      {
+        "name": "diverging_bkr_55_10_c35",
+        "rows": 256
+      },
+      {
+        "name": "linear_bmw_5_95_c89",
+        "rows": 256
+      },
+      {
+        "name": "cyclic_wrwbw_40_90_c42_s25",
+        "rows": 256
+      },
+      {
+        "name": "isoluminant_cgo_80_c38",
+        "rows": 256
+      },
+      {
+        "name": "cyclic_grey_15_85_c0_s25",
+        "rows": 256
+      },
+      {
+        "name": "diverging_cwm_80_100_c22",
+        "rows": 256
+      },
+      {
+        "name": "linear_gow_60_85_c27",
+        "rows": 256
+      },
+      {
+        "name": "linear_bmy_10_95_c78",
+        "rows": 256
+      },
+      {
+        "name": "linear_gow_65_90_c35",
+        "rows": 256
+      },
+      {
+        "name": "isoluminant_cm_70_c39",
+        "rows": 256
+      },
+      {
+        "name": "diverging_linear_bjr_30_55_c53",
+        "rows": 256
+      },
+      {
+        "name": "diverging_gwr_55_95_c38",
+        "rows": 256
+      },
+      {
+        "name": "linear_bgy_10_95_c74",
+        "rows": 256
+      },
+      {
+        "name": "cyclic_grey_15_85_c0",
+        "rows": 256
+      },
+      {
+        "name": "cyclic_wrwbw_40_90_c42",
+        "rows": 256
+      },
+      {
+        "name": "linear_kryw_5_100_c67",
+        "rows": 256
+      },
+      {
+        "name": "diverging_linear_bjy_30_90_c45",
+        "rows": 256
+      },
+      {
+        "name": "linear_bgyw_20_98_c66",
+        "rows": 256
+      },
+      {
+        "name": "linear_tritanopic_krjcw_5_95_c24",
+        "rows": 256
+      },
+      {
+        "name": "diverging_bwr_20_95_c54",
+        "rows": 256
+      },
+      {
+        "name": "linear_tritanopic_krjcw_5_98_c46",
+        "rows": 256
+      },
+      {
+        "name": "cyclic_protanopic_deuteranopic_wywb_55_96_c33",
+        "rows": 256
+      },
+      {
+        "name": "diverging_bwg_20_95_c41",
+        "rows": 256
+      },
+      {
+        "name": "cyclic_protanopic_deuteranopic_bwyk_16_96_c31",
+        "rows": 256
+      },
+      {
+        "name": "linear_wyor_100_45_c55",
+        "rows": 256
+      },
+      {
+        "name": "linear_wcmr_100_45_c42",
+        "rows": 256
+      },
+      {
+        "name": "diverging_protanopic_deuteranopic_bwy_60_95_c32",
+        "rows": 256
+      },
+      {
+        "name": "diverging_tritanopic_cwr_75_98_c20",
+        "rows": 256
+      },
+      {
+        "name": "linear_protanopic_deuteranopic_kbw_5_98_c40",
+        "rows": 256
+      },
+      {
+        "name": "linear_protanopic_deuteranopic_kbjyw_5_95_c25",
+        "rows": 256
+      },
+      {
+        "name": "linear_worb_100_25_c53",
+        "rows": 256
+      },
+      {
+        "name": "linear_kbgyw_5_98_c62",
+        "rows": 256
+      },
+      {
+        "name": "linear_kbc_5_95_c73",
+        "rows": 256
+      },
+      {
+        "name": "cyclic_tritanopic_wrwc_70_100_c20",
+        "rows": 256
+      },
+      {
+        "name": "linear_kgy_5_95_c69",
+        "rows": 256
+      },
+      {
+        "name": "cyclic_tritanopic_cwrk_40_100_c20",
+        "rows": 256
+      },
+      {
+        "name": "glasbey_category10",
+        "rows": 256
+      },
+      {
+        "name": "glasbey_bw_minc_20_minl_30",
+        "rows": 256
+      },
+      {
+        "name": "glasbey_bw_minc_20_hue_330_100",
+        "rows": 256
+      },
+      {
+        "name": "glasbey_bw_minc_20",
+        "rows": 256
+      },
+      {
+        "name": "glasbey_bw",
+        "rows": 256
+      },
+      {
+        "name": "glasbey_bw_minc_20_maxl_70",
+        "rows": 256
+      },
+      {
+        "name": "glasbey_hv",
+        "rows": 256
+      },
+      {
+        "name": "glasbey_bw_minc_20_hue_150_280",
+        "rows": 256
+      },
+      {
+        "name": "circle_mgbm_67_c31_s25",
+        "rows": 256
+      },
+      {
+        "name": "linear_kbgyw_10_98_c63",
+        "rows": 256
+      },
+      {
+        "name": "cyclic_ymcgy_60_90_c67_s25",
+        "rows": 256
+      },
+      {
+        "name": "circle_mgbm_67_c31",
+        "rows": 256
+      },
+      {
+        "name": "linear_tritanopic_kcw_5_95_c22",
+        "rows": 256
+      },
+      {
+        "name": "cyclic_wrkbw_10_90_c43_s25",
+        "rows": 256
+      },
+      {
+        "name": "linear_protanopic_deuteranopic_kbw_5_95_c34",
+        "rows": 256
+      },
+      {
+        "name": "cyclic_rygcbmr_50_90_c64",
+        "rows": 256
+      },
+      {
+        "name": "cyclic_ymcgy_60_90_c67",
+        "rows": 256
+      },
+      {
+        "name": "cyclic_bgrmb_35_70_c75_s25",
+        "rows": 256
+      },
+      {
+        "name": "cyclic_wrkbw_10_90_c43",
+        "rows": 256
+      },
+      {
+        "name": "cyclic_mygbm_50_90_c46",
+        "rows": 256
+      },
+      {
+        "name": "linear_tritanopic_krw_5_95_c46",
+        "rows": 256
+      },
+      {
+        "name": "cyclic_mybm_20_100_c48",
+        "rows": 256
+      },
+      {
+        "name": "linear_kbgoy_20_95_c57",
+        "rows": 256
+      },
+      {
+        "name": "cyclic_rygcbmr_50_90_c64_s25",
+        "rows": 256
+      },
+      {
+        "name": "diverging_linear_protanopic_deuteranopic_bjy_57_89_c34",
+        "rows": 256
+      },
+      {
+        "name": "cyclic_mybm_20_100_c48_s25",
+        "rows": 256
+      },
+      {
+        "name": "linear_protanopic_deuteranopic_kyw_5_95_c49",
+        "rows": 256
+      },
+      {
+        "name": "cyclic_bgrmb_35_70_c75",
+        "rows": 256
+      },
+      {
+        "name": "rainbow_bgyr_10_90_c83",
+        "rows": 256
+      },
+      {
+        "name": "cyclic_mygbm_50_90_c46_s25",
+        "rows": 256
+      }
+    ]
+  },
+  {
+    "name": "colorcet-license",
+    "url": "https://raw.githubusercontent.com/holoviz/colorcet/9f23c9659e81a3bd9b23c7bf874d5c9323f07c16/LICENSE.txt",
+    "bytes": 14990,
+    "licenseSha256": "c97deeeca4ae375a0334bc7f7af5f707aabfcec959c53c783b9f8771d28fd5b3",
+    "licenseHeader": "Creative Commons Attribution 4.0 International Public License (CC-BY)"
+  },
+  {
+    "name": "cmocean-code",
+    "url": "https://raw.githubusercontent.com/matplotlib/cmocean/59c35002c3aa5296b65d9646e52604c627441eb6/cmocean/cm.py",
+    "bytes": 2937,
+    "mapnames": [
+      "thermal",
+      "haline",
+      "solar",
+      "ice",
+      "gray",
+      "oxy",
+      "deep",
+      "dense",
+      "algae",
+      "matter",
+      "turbid",
+      "speed",
+      "amp",
+      "tempo",
+      "rain",
+      "phase",
+      "topo",
+      "balance",
+      "delta",
+      "curl",
+      "diff",
+      "tarn"
+    ]
+  },
+  {
+    "name": "cmocean-license",
+    "url": "https://raw.githubusercontent.com/matplotlib/cmocean/59c35002c3aa5296b65d9646e52604c627441eb6/LICENSE.txt",
+    "bytes": 1082,
+    "licenseSha256": "ca2993ffcd19156051e2ff594e934976bffc4d71b56a59dfc998e236eb0ce7f7",
+    "licenseHeader": "The MIT License (MIT)"
+  },
+  {
+    "name": "cmcrameri-license",
+    "url": "https://raw.githubusercontent.com/callumrollo/cmcrameri/78f02a088fa3c4fb4cb8aa92bd8e52389ab9d09a/LICENSE.txt",
+    "bytes": 1166,
+    "licenseSha256": "f8ccecbeb9687f6b09a2cb13f12521c067ccb111280d1ea632c9500131b83e3b",
+    "licenseHeader": "MIT License"
+  },
+  {
+    "name": "wes-code",
+    "url": "https://raw.githubusercontent.com/karthik/wesanderson/02e4129c185e9d3c49b05b580717f35be2eef5c3/R/colors.R",
+    "bytes": 4628,
+    "paletteNames": [
+      "BottleRocket1",
+      "BottleRocket2",
+      "Rushmore1",
+      "Rushmore",
+      "Royal1",
+      "Royal2",
+      "Zissou1",
+      "Zissou1Continuous",
+      "Darjeeling1",
+      "Darjeeling2",
+      "Chevalier1",
+      "FantasticFox1",
+      "Moonrise1",
+      "Moonrise2",
+      "Moonrise3",
+      "Cavalcanti1",
+      "GrandBudapest1",
+      "GrandBudapest2",
+      "IsleofDogs1",
+      "IsleofDogs2",
+      "FrenchDispatch",
+      "AsteroidCity1",
+      "AsteroidCity2",
+      "AsteroidCity3"
+    ],
+    "paletteFingerprints": [
+      {
+        "name": "BottleRocket1",
+        "colorCount": 7,
+        "colorsSha256": "7e9a8aa56dd70a9453a5093dc1281feb6a8f7cb39b322d435d86e80bfaf19fcb"
+      },
+      {
+        "name": "BottleRocket2",
+        "colorCount": 5,
+        "colorsSha256": "a426ff3ae5af53508ac01938498a320049cdb44d3bfae4b4c17258b8a744537e"
+      },
+      {
+        "name": "Rushmore1",
+        "colorCount": 5,
+        "colorsSha256": "97d2c6c42c183497cefc003de00c092fb9efedcbbff45b15e29ea25f6c8578cf"
+      },
+      {
+        "name": "Rushmore",
+        "colorCount": 5,
+        "colorsSha256": "97d2c6c42c183497cefc003de00c092fb9efedcbbff45b15e29ea25f6c8578cf"
+      },
+      {
+        "name": "Royal1",
+        "colorCount": 4,
+        "colorsSha256": "1888fed22ffc8d359bcdd242ad6a9875e6a3229acbeea611c128303110d7c600"
+      },
+      {
+        "name": "Royal2",
+        "colorCount": 5,
+        "colorsSha256": "0dc9a0226b351a588570ec7844ad94beb72617fb0b02f768414d94e79c8cc2ca"
+      },
+      {
+        "name": "Zissou1",
+        "colorCount": 5,
+        "colorsSha256": "6f3dc84828673232a8534599d868a0a679fb0090b03c5b094fea1c2594ee58ff"
+      },
+      {
+        "name": "Zissou1Continuous",
+        "colorCount": 11,
+        "colorsSha256": "584441bd60e2d36a023033c2a87d780ebb24441fcc3b3ae0526a66034f11297b"
+      },
+      {
+        "name": "Darjeeling1",
+        "colorCount": 5,
+        "colorsSha256": "6397a7aa79e403901649e0d6812f4170c02cd9fff4ea9ab27f293e295197e12d"
+      },
+      {
+        "name": "Darjeeling2",
+        "colorCount": 5,
+        "colorsSha256": "2a5711bfb871ebda34b3f75618813e2a18c6164bd535db8754f400ede5a5bd96"
+      },
+      {
+        "name": "Chevalier1",
+        "colorCount": 4,
+        "colorsSha256": "0531216008a0b4ca524dc83bf184a7315a4a112d22e6f4ce136f6f898ab1c905"
+      },
+      {
+        "name": "FantasticFox1",
+        "colorCount": 5,
+        "colorsSha256": "124ec1efc23f4cad58e524014d8b3df9d5be57cb7374a3b5e24958824b205ccf"
+      },
+      {
+        "name": "Moonrise1",
+        "colorCount": 4,
+        "colorsSha256": "b7bc28201610c94c648cea31735a66b6620428c49156472679559738d2993279"
+      },
+      {
+        "name": "Moonrise2",
+        "colorCount": 4,
+        "colorsSha256": "12b91f1d9d8323cc95afcb45fecb0d5eb6717fb92a47354af882a16422361ad6"
+      },
+      {
+        "name": "Moonrise3",
+        "colorCount": 5,
+        "colorsSha256": "294a173154cd3e2057f24e663de50885629e8f6295ce70a7884d47c23bd0f30d"
+      },
+      {
+        "name": "Cavalcanti1",
+        "colorCount": 5,
+        "colorsSha256": "6f5079089e6726faca68b96c0e9184781f0da0317723f7695cfbe6a2904bf4b0"
+      },
+      {
+        "name": "GrandBudapest1",
+        "colorCount": 4,
+        "colorsSha256": "68bd8bde841c48bfda09dc6d39f15b31959af88ee93ca07000d66b77446c6856"
+      },
+      {
+        "name": "GrandBudapest2",
+        "colorCount": 4,
+        "colorsSha256": "2b1a5ad7b35a6bfc0a33ce2a04634cecffd84e8cbbb51c84b8309f1870aea0bb"
+      },
+      {
+        "name": "IsleofDogs1",
+        "colorCount": 6,
+        "colorsSha256": "8ad8e97e525521f13693f5dde58f14599143f0beb8641e356090a68b92026708"
+      },
+      {
+        "name": "IsleofDogs2",
+        "colorCount": 5,
+        "colorsSha256": "f4a0f2c549544ea28c244431ab85c4093d45acbfb7053a866a6c6554a006f67d"
+      },
+      {
+        "name": "FrenchDispatch",
+        "colorCount": 5,
+        "colorsSha256": "0a9d714d6e8d9b1f3b516db63bcafa1f6f202aea60ba1822a766eabd13c6cfe3"
+      },
+      {
+        "name": "AsteroidCity1",
+        "colorCount": 5,
+        "colorsSha256": "e234d0bc8cedb8a54e9800ee90c356e1ab92edfb8a607f8a69f6e3f8e4d6b802"
+      },
+      {
+        "name": "AsteroidCity2",
+        "colorCount": 6,
+        "colorsSha256": "db05418461137bbe72cb3700638910f356d594223cabe8cb5520c04e2747cf46"
+      },
+      {
+        "name": "AsteroidCity3",
+        "colorCount": 4,
+        "colorsSha256": "2eb7a5c8702e05afa90b9175709e1707129876f37d82366edb61272033281313"
+      }
+    ],
+    "baselineComparison": {
+      "existingRepresentations": 2828,
+      "matches": [
+        {
+          "new": "Royal2",
+          "existing": "color-wave-nbapalettes-spurs",
+          "relation": "ordered-exact"
+        }
+      ],
+      "scope": "All stored palette originals/variants and static gradient colors, same-size exact or Hungarian-matched OKLab*100 mean<=1,max<=2. Does not establish shape or motion uniqueness."
+    }
+  },
+  {
+    "name": "wes-license",
+    "url": "https://raw.githubusercontent.com/karthik/wesanderson/02e4129c185e9d3c49b05b580717f35be2eef5c3/LICENSE",
+    "bytes": 40,
+    "licenseSha256": "2cb2a63bc30cf6c250f31df64a63ebf552682b91cda70b4b6bd1756b89d00088",
+    "licenseHeader": "YEAR: 2022"
+  },
+  {
+    "name": "phosphor-license",
+    "url": "https://raw.githubusercontent.com/phosphor-icons/core/2b75f3ad12b420c9504ef05df8d2564a28f8500e/LICENSE",
+    "bytes": 1071,
+    "licenseSha256": "b5b1f1da112d18ea2147decfd48ddc1bf2b5aeb6c265381579340e95b15a2bb2",
+    "licenseHeader": "MIT License"
+  },
+  {
+    "name": "lucide-license",
+    "url": "https://raw.githubusercontent.com/lucide-icons/lucide/a04f228cd01185e09c188b7227b9600c08c565ec/LICENSE",
+    "bytes": 3208,
+    "licenseSha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57",
+    "licenseHeader": "ISC License"
+  },
+  {
+    "name": "ambient-docs",
+    "url": "https://docs.ambientcg.com/api/v2/full_json/",
+    "bytes": 35396
+  }
+]

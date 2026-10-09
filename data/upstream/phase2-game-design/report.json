@@ -1,0 +1,3800 @@
+{
+  "candidateCount": 191,
+  "retainedCount": 54,
+  "rejectedCount": 137,
+  "sources": {
+    "Delapouite": 42,
+    "Lorc": 12
+  },
+  "category": "design/shape",
+  "dependencies": [
+    {
+      "path": "data/upstream/phase2-design/baseline-comparison.json",
+      "sha256": "783e3d88c8aff5bde9e7fcca9206eaf79e151500c548d1af4d063f4de9d2827b",
+      "records": 6111
+    },
+    {
+      "path": "data/phase2-motion-items.json",
+      "sha256": "9076417e392a6439ec32defa258bce5a84f6fb018e827169e861e30547a68bea",
+      "records": 510
+    },
+    {
+      "path": "data/phase2-design-items.json",
+      "sha256": "c03896b1177c79d16a8fb03a5687c44121cd8e9b48eae833da0fafa69bfba23d",
+      "records": 3157
+    }
+  ],
+  "comparisonRecords": 9778,
+  "structuralSvgRecords": 4596,
+  "contourSvgRecords": 3962,
+  "deferredComparisons": [
+    {
+      "id": "asset-samherbert-audio",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "asset-samherbert-ball-triangle",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "asset-samherbert-oval",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "asset-samherbert-rings",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "asset-samherbert-spinning-circles",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "asset-samherbert-tail-spin",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-beer",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-beer-alt",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-beer-alt-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-beer-alt-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-beer-alt-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-beer-alt-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-beer-alt-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-beer-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-beer-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-beer-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-beer-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-beer-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-brake-abs",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-brake-abs-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-brake-abs-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-brake-alert-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-brake-hold-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-brake-parking-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-briefcase-cancel",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-briefcase-cancel-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-briefcase-cancel-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-briefcase-check",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-briefcase-check-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-briefcase-check-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-briefcase-minus",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-briefcase-minus-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-briefcase-minus-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-briefcase-plus",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-briefcase-plus-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-briefcase-plus-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-briefcase-remove",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-briefcase-remove-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-briefcase-remove-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-buy-me-a-coffee",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-buy-me-a-coffee-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-buy-me-a-coffee-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-car-light",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-car-light-alert",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-car-light-alert-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-car-light-alert-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-car-light-alert-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-car-light-alert-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-car-light-alert-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-car-light-dimmed",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-car-light-dimmed-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-car-light-dimmed-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-car-light-dimmed-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-car-light-dimmed-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-car-light-dimmed-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-car-light-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-car-light-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-car-light-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-car-light-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-car-light-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cellphone-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cellphone-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-chat-alert-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-chat-alert-filled-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-chat-alert-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-chat-alert-twotone-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-chat-bubble-filled-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-chat-bubble-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-chat-bubble-twotone-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-chat-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-chat-filled-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-chat-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-chat-round-alert-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-chat-round-alert-filled-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-chat-round-alert-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-chat-round-alert-twotone-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-chat-round-dots-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-chat-round-dots-filled-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-chat-round-dots-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-chat-round-dots-twotone-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-chat-round-filled-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-chat-round-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-chat-round-twotone-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-chat-twotone-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-check-all",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-circle-filled-to-confirm-circle-filled-transition",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-close-circle-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-close-square-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cloud-alt-braces",
+      "scope": "contour",
+      "reason": "SVG contains active or external attribute data"
+    },
+    {
+      "id": "vector-line-md-cloud-alt-braces-loop",
+      "scope": "contour",
+      "reason": "SVG contains active or external attribute data"
+    },
+    {
+      "id": "vector-line-md-cloud-alt-download-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cloud-alt-download-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cloud-alt-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cloud-alt-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cloud-alt-off-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cloud-alt-off-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cloud-alt-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cloud-alt-off-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cloud-alt-print",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cloud-alt-print-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cloud-alt-print-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cloud-alt-print-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cloud-alt-print-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cloud-alt-print-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cloud-alt-tags-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cloud-alt-tags-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cloud-alt-upload-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cloud-alt-upload-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cloud-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cloud-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cloud-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-coffee-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-coffee-half-empty-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-coffee-half-empty-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-coffee-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-coffee-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cog-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cog-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cog-off-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cog-off-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-compass",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-compass-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-compass-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-compass-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-compass-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-compass-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-compass-off-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-compass-off-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-compass-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-compass-off-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-compass-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-compass-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-computer-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-computer-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-computer-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-confirm-circle-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-confirm-circle-filled-to-circle-filled-transition",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-confirm-square-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-confirm-square-filled-to-square-filled-transition",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cookie-check",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cookie-check-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cookie-check-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cookie-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cookie-minus",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cookie-minus-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cookie-minus-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cookie-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cookie-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cookie-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cookie-plus",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cookie-plus-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cookie-plus-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cookie-remove",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cookie-remove-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cookie-remove-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-cookie-settings-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-download-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-download-off-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-download-off-outline",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-download-off-outline-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-download-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-download-off-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-email-arrow-down",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-email-arrow-down-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-email-arrow-down-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-email-arrow-left",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-email-arrow-left-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-email-arrow-left-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-email-arrow-right",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-email-arrow-right-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-email-arrow-right-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-email-arrow-up",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-email-arrow-up-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-email-arrow-up-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-email-check",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-email-check-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-email-check-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-email-minus",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-email-minus-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-email-minus-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-email-plus",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-email-plus-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-email-plus-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-email-remove",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-email-remove-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-email-remove-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-emoji-angry-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-emoji-cry",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-emoji-cry-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-emoji-frown-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-emoji-frown-open-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-emoji-grin-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-emoji-neutral-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-emoji-smile-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-emoji-smile-wink-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-engine-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-engine-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-engine-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-cancel",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-cancel-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-cancel-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-document-cancel",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-document-cancel-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-document-cancel-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-document-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-document-minus",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-document-minus-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-document-minus-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-document-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-document-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-document-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-document-plus",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-document-plus-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-document-plus-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-document-remove",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-document-remove-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-document-remove-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-download-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-export-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-import-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-minus",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-minus-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-minus-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-plus",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-plus-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-plus-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-remove",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-remove-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-remove-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-search-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-file-upload-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-filter-alt-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-filter-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-filter-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-filter-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-arrow-down",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-arrow-down-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-arrow-down-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-arrow-left",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-arrow-left-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-arrow-left-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-arrow-right",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-arrow-right-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-arrow-right-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-arrow-up",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-arrow-up-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-arrow-up-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-cancel",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-cancel-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-cancel-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-check",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-check-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-check-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-minus",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-minus-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-minus-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-music",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-music-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-music-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-plus",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-plus-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-plus-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-remove",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-remove-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-folder-remove-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-gauge",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-gauge-empty",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-gauge-empty-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-gauge-full",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-gauge-full-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-gauge-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-gauge-low",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-gauge-low-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-gauge-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-gauge-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-github-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-github-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-hazard-lights-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-hazard-lights-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-hazard-lights-off-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-hazard-lights-off-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-hazard-lights-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-hazard-lights-off-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-iconify2",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-iconify2-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-laptop-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-laptop-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-laptop-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-light-dark",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-light-dark-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-lightbulb-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-lightbulb-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-lightbulb-off-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-lightbulb-off-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-lightbulb-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-lightbulb-off-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-alt-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-alt-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-alt-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-alt-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-alt-off-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-alt-off-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-alt-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-alt-off-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-minus-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-multiple",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-multiple-alt",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-multiple-alt-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-multiple-alt-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-multiple-alt-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-multiple-alt-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-multiple-alt-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-multiple-alt-off-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-multiple-alt-off-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-multiple-alt-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-multiple-alt-off-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-multiple-alt-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-multiple-alt-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-multiple-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-multiple-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-multiple-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-multiple-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-multiple-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-multiple-off-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-multiple-off-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-multiple-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-multiple-off-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-multiple-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-multiple-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-off-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-off-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-off-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-plus-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-radius-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-map-marker-remove-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-mastodon-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-medical-services-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-minus-circle-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-minus-square-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-monitor-arrow-down-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-monitor-arrow-up-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-monitor-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-monitor-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-monitor-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-monitor-screenshot-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-monitor-small-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-monitor-small-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-monitor-small-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-moon-alt-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-moon-alt-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-moon-alt-off-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-moon-alt-off-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-moon-alt-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-moon-alt-off-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-moon-alt-to-sunny-outline-loop-transition",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-moon-filled-alt-to-sunny-filled-loop-transition",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-moon-filled-to-sunny-filled-transition",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-moon-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-moon-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-moon-off-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-moon-off-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-moon-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-moon-off-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-moon-simple-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-moon-simple-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-moon-simple-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-moon-to-sunny-outline-transition",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-mushroom-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-mushroom-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-mushroom-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-mushroom-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-my-location-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-my-location-off-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-my-location-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-my-location-off-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-pause-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-peanut-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-peanut-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-peanut-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-peanut-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-peertube",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-person-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-person-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-person-off-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-person-off-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-person-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-person-off-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-person-search",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-person-search-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-person-search-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-phone-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-phone-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-phone-off-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-phone-off-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-phone-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-phone-off-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-pixelfed-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-pizza-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-pizza-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-pizza-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-pizza-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-play-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-play-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-play-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-plus-circle-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-plus-square-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-reddit",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-reddit-circle",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-reddit-circle-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-reddit-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-security-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-security-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-security-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-soundcloud",
+      "scope": "contour",
+      "reason": "SVG contains active or external attribute data"
+    },
+    {
+      "id": "vector-line-md-speed",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-speed-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-speed-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-speed-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-speedometer",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-speedometer-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-spotify-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-square-filled-to-confirm-square-filled-transition",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-steering-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-sunny-filled-loop-to-moon-filled-alt-loop-transition",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-sunny-filled-loop-to-moon-filled-loop-transition",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-sunny-filled-loop-to-moon-filled-transition",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-sunny-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-sunny-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-sunny-off-filled-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-sunny-off-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-sunny-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-sunny-off-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-sunny-outline-to-moon-alt-loop-transition",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-sunny-outline-to-moon-loop-transition",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-sunny-outline-to-moon-transition",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-switch-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-switch-filled-to-switch-off-filled-transition",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-switch-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-switch-off-filled-to-switch-filled-transition",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-tablet-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-tablet-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-tiktok",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-upload-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-upload-off-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-upload-off-outline",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-upload-off-outline-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-upload-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-upload-off-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-volume-high-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-volume-high-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-volume-high-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-volume-low-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-volume-low-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-volume-low-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-volume-medium-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-volume-medium-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-volume-medium-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-watch-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-watch-off-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-watch-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-watch-off-twotone-loop",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-water-off",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-water-off-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-water-off-twotone",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-line-md-youtube-filled",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-svg-spinners-bars-rotate-fade",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-svg-spinners-gooey-balls-1",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "vector-svg-spinners-gooey-balls-2",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "vector-svg-spinners-pulse-ring",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-svg-spinners-pulse-rings-2",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-svg-spinners-pulse-rings-3",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "vector-svg-spinners-pulse-rings-multiple",
+      "scope": "contour",
+      "reason": "Complex geometry requires a dedicated visual review"
+    },
+    {
+      "id": "phase2-motion-meteocons-clear-day",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-clear-night",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-cloud-down",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-cloud-up",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-cloudy",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-drizzle",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust",
+      "scope": "contour",
+      "reason": "SVG contains active or external attribute data"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-day",
+      "scope": "contour",
+      "reason": "SVG contains active or external attribute data"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-night",
+      "scope": "contour",
+      "reason": "SVG contains active or external attribute data"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-wind",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-drizzle",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-fog",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-hail",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-haze",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-rain",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-sleet",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-smoke",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-snow",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-drizzle",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-fog",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-hail",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-haze",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-drizzle",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-fog",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-hail",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-haze",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-rain",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-sleet",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-smoke",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-snow",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-rain",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-sleet",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-smoke",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-snow",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-falling-stars",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-fog",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-fog-day",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-fog-night",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-hail",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-haze",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-haze-day",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-haze-night",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-horizon",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-humidity",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-lightning-bolt",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-moonrise",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-moonset",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-drizzle",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-fog",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-hail",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-haze",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-rain",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-sleet",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-smoke",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-snow",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-drizzle",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-fog",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-hail",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-haze",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-rain",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-sleet",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-smoke",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-snow",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen-flower",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen-grass",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen-tree",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-rain",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-rainbow",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-rainbow-clear",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-raindrop",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-raindrop-measure",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-raindrops",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-sleet",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-smoke",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-smoke-particles",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-snow",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-solar-eclipse",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-starry-night",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-sun-hot",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-sunrise",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-sunset",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-thermometer",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-thermometer-celsius",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-thermometer-colder",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-thermometer-fahrenheit",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-thermometer-moon",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-thermometer-raindrop",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-thermometer-snow",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-thermometer-sun",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-thermometer-warmer",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-thermometer-water",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-day",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-day-extreme",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-day-extreme-snow",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-day-snow",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-extreme",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-extreme-snow",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-night",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-night-extreme",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-night-extreme-snow",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-night-snow",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-snow",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-tide-high",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-tide-low",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-time-afternoon",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-time-evening",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-time-late-afternoon",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-time-late-evening",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-time-late-morning",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-time-late-night",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-time-morning",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-time-night",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-umbrella-wind",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-umbrella-wind-alt",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-uv-index",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-uv-index-1",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-uv-index-10",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-uv-index-11",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-uv-index-2",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-uv-index-3",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-uv-index-4",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-uv-index-5",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-uv-index-6",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-uv-index-7",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-uv-index-8",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-uv-index-9",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-wind",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-alert",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-beaufort-1",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-beaufort-10",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-beaufort-11",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-beaufort-12",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-beaufort-2",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-beaufort-3",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-beaufort-4",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-beaufort-5",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-beaufort-6",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-beaufort-7",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-beaufort-8",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-beaufort-9",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-offshore",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-onshore",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-snow",
+      "scope": "contour",
+      "reason": "SVG contains unsupported or active nodes"
+    }
+  ],
+  "rejections": [
+    {
+      "id": "phase2-game-design-delapouite-alien-bug",
+      "reason": "An alien/insect or alien/egg theme changes the decoration of already represented core glyphs."
+    },
+    {
+      "id": "phase2-game-design-delapouite-alien-egg",
+      "reason": "An alien/insect or alien/egg theme changes the decoration of already represented core glyphs."
+    },
+    {
+      "id": "phase2-game-design-delapouite-grass-mushroom",
+      "reason": "Species, count, cutting view and habitat/house decoration repeat the already represented mushroom core."
+    },
+    {
+      "id": "phase2-game-design-delapouite-hieroglyph-legs",
+      "reason": "Cropping the existing human figure to its legs and changing the walking pose is not a new independent assembly."
+    },
+    {
+      "id": "phase2-game-design-delapouite-hieroglyph-y",
+      "reason": "The source is a paired feather/leaf motif; the ancient-script filename does not establish a new shape concept."
+    },
+    {
+      "id": "phase2-game-design-delapouite-mushroom-house",
+      "reason": "Species, count, cutting view and habitat/house decoration repeat the already represented mushroom core."
+    },
+    {
+      "id": "phase2-game-design-delapouite-mushrooms-cluster",
+      "reason": "Species, count, cutting view and habitat/house decoration repeat the already represented mushroom core."
+    },
+    {
+      "id": "phase2-game-design-delapouite-mushrooms",
+      "reason": "Species, count, cutting view and habitat/house decoration repeat the already represented mushroom core."
+    },
+    {
+      "id": "phase2-game-design-delapouite-radiations",
+      "reason": "This is an emitter/wave motif already represented by wave and radiation symbols, not a distinct material or assembled apparatus."
+    },
+    {
+      "id": "phase2-game-design-delapouite-sliced-mushroom",
+      "reason": "Species, count, cutting view and habitat/house decoration repeat the already represented mushroom core."
+    },
+    {
+      "id": "phase2-game-design-delapouite-trunk-mushroom",
+      "reason": "Species, count, cutting view and habitat/house decoration repeat the already represented mushroom core."
+    },
+    {
+      "id": "phase2-game-design-delapouite-warlock-eye",
+      "reason": "Rays and occult styling decorate an existing eye glyph."
+    },
+    {
+      "id": "phase2-game-design-delapouite-warlock-hood",
+      "reason": "Attire and face/flower decoration do not establish a new head/hat concept."
+    },
+    {
+      "id": "phase2-game-design-delapouite-wizard-face",
+      "reason": "Attire and face/flower decoration do not establish a new head/hat concept."
+    },
+    {
+      "id": "phase2-game-design-delapouite-zigzag-hieroglyph",
+      "reason": "Line count and zigzag amplitude repeat the existing sawtooth/triangular wave motif."
+    },
+    {
+      "id": "phase2-game-design-lorc-alien-fire",
+      "reason": "The named alien subject is not a separate assembly; the actual source is a flame silhouette."
+    },
+    {
+      "id": "phase2-game-design-lorc-alien-skull",
+      "reason": "Eye count, crack decoration and skull drawing style do not create a new alien/skull concept."
+    },
+    {
+      "id": "phase2-game-design-lorc-alien-stare",
+      "reason": "Eye count, crack decoration and skull drawing style do not create a new alien/skull concept."
+    },
+    {
+      "id": "phase2-game-design-lorc-ammonite-fossil",
+      "reason": "A shell has already been represented. Segments or a surrounding stone frame do not create a separate core shape."
+    },
+    {
+      "id": "phase2-game-design-lorc-burning-meteor",
+      "reason": "Trailing fire, fragment count and impact decoration repeat the existing comet/meteor core."
+    },
+    {
+      "id": "phase2-game-design-lorc-cracked-alien-skull",
+      "reason": "Eye count, crack decoration and skull drawing style do not create a new alien/skull concept."
+    },
+    {
+      "id": "phase2-game-design-lorc-crystal-ball",
+      "reason": "The same orb-and-base construction is already represented."
+    },
+    {
+      "id": "phase2-game-design-lorc-crystal-bars",
+      "reason": "Facet style, cluster count and glints repeat the existing gem/diamond concept."
+    },
+    {
+      "id": "phase2-game-design-lorc-crystal-cluster",
+      "reason": "Facet style, cluster count and glints repeat the existing gem/diamond concept."
+    },
+    {
+      "id": "phase2-game-design-lorc-crystal-eye",
+      "reason": "Iris material and surrounding face shape repeat the generic eye core."
+    },
+    {
+      "id": "phase2-game-design-lorc-crystal-growth",
+      "reason": "Facet style, cluster count and glints repeat the existing gem/diamond concept."
+    },
+    {
+      "id": "phase2-game-design-lorc-crystal-shine",
+      "reason": "Facet style, cluster count and glints repeat the existing gem/diamond concept."
+    },
+    {
+      "id": "phase2-game-design-lorc-crystal-wand",
+      "reason": "Tip material and flourish style are variants of an existing wand/staff tool."
+    },
+    {
+      "id": "phase2-game-design-lorc-crystalize",
+      "reason": "Changing the interior from water to crystals decorates the existing droplet core."
+    },
+    {
+      "id": "phase2-game-design-lorc-cyclops",
+      "reason": "Iris material and surrounding face shape repeat the generic eye core."
+    },
+    {
+      "id": "phase2-game-design-lorc-droplet-splash",
+      "reason": "These share the existing droplet/liquid-splash vocabulary; rim and detached-drop count are conservative style/effect variants."
+    },
+    {
+      "id": "phase2-game-design-lorc-entangled-typhoon",
+      "reason": "Changing the end caps, material theme, spiral count and band thickness repeats the existing spiral/vortex core."
+    },
+    {
+      "id": "phase2-game-design-lorc-floating-crystal",
+      "reason": "Facet style, cluster count and glints repeat the existing gem/diamond concept."
+    },
+    {
+      "id": "phase2-game-design-lorc-fluffy-swirl",
+      "reason": "Changing the end caps, material theme, spiral count and band thickness repeats the existing spiral/vortex core."
+    },
+    {
+      "id": "phase2-game-design-lorc-fossil",
+      "reason": "A shell has already been represented. Segments or a surrounding stone frame do not create a separate core shape."
+    },
+    {
+      "id": "phase2-game-design-lorc-fragmented-meteor",
+      "reason": "Trailing fire, fragment count and impact decoration repeat the existing comet/meteor core."
+    },
+    {
+      "id": "phase2-game-design-lorc-hydra-shot",
+      "reason": "These are cause/weapon-themed versions of a directed beam or jet; keep the one source-authored directed plume representative."
+    },
+    {
+      "id": "phase2-game-design-lorc-hydra",
+      "reason": "Multiplying the existing dragon head/neck motif is a count variant of the dragon family."
+    },
+    {
+      "id": "phase2-game-design-lorc-implosion",
+      "reason": "Reversing a radial burst and changing particle count repeats the generic burst/circle construction."
+    },
+    {
+      "id": "phase2-game-design-lorc-ink-swirl",
+      "reason": "Changing the end caps, material theme, spiral count and band thickness repeats the existing spiral/vortex core."
+    },
+    {
+      "id": "phase2-game-design-lorc-interlaced-tentacles",
+      "reason": "Arm crossing, head crop and body style are folded into the one complete giant-squid representative."
+    },
+    {
+      "id": "phase2-game-design-lorc-ion-cannon-blast",
+      "reason": "These are cause/weapon-themed versions of a directed beam or jet; keep the one source-authored directed plume representative."
+    },
+    {
+      "id": "phase2-game-design-lorc-laser-blast",
+      "reason": "These are cause/weapon-themed versions of a directed beam or jet; keep the one source-authored directed plume representative."
+    },
+    {
+      "id": "phase2-game-design-lorc-leaf-swirl",
+      "reason": "Changing the end caps, material theme, spiral count and band thickness repeats the existing spiral/vortex core."
+    },
+    {
+      "id": "phase2-game-design-lorc-lightning-helix",
+      "reason": "Lightning decoration and its target do not create new base shapes or independent mechanical assemblies."
+    },
+    {
+      "id": "phase2-game-design-lorc-magic-swirl",
+      "reason": "Changing the end caps, material theme, spiral count and band thickness repeats the existing spiral/vortex core."
+    },
+    {
+      "id": "phase2-game-design-lorc-magnet-blast",
+      "reason": "Placing an existing magnet/fist icon over a generic impact flash is decoration of an already represented core."
+    },
+    {
+      "id": "phase2-game-design-lorc-meteor-impact",
+      "reason": "Trailing fire, fragment count and impact decoration repeat the existing comet/meteor core."
+    },
+    {
+      "id": "phase2-game-design-lorc-mushroom-gills",
+      "reason": "Cap detailing, spots and fill style are variants of the existing mushroom glyph."
+    },
+    {
+      "id": "phase2-game-design-lorc-mushroom",
+      "reason": "Cap detailing, spots and fill style are variants of the existing mushroom glyph."
+    },
+    {
+      "id": "phase2-game-design-lorc-pentagram-rose",
+      "reason": "Concentric frame and petal/ray detail decorate an existing pentagram/star."
+    },
+    {
+      "id": "phase2-game-design-lorc-plasma-bolt",
+      "reason": "Hole and tail styling repeat a flame/droplet projectile vocabulary."
+    },
+    {
+      "id": "phase2-game-design-lorc-punch-blast",
+      "reason": "Placing an existing magnet/fist icon over a generic impact flash is decoration of an already represented core."
+    },
+    {
+      "id": "phase2-game-design-lorc-rune-stone",
+      "reason": "Inscription changes only the interior decoration of an existing gem/stone-like shape or sword."
+    },
+    {
+      "id": "phase2-game-design-lorc-rune-sword",
+      "reason": "Inscription changes only the interior decoration of an existing gem/stone-like shape or sword."
+    },
+    {
+      "id": "phase2-game-design-lorc-sentry-gun",
+      "reason": "Fold the mounted gun into one source-authored fixed turret representative; retain the fuller dish/feed/pivot/base assembly."
+    },
+    {
+      "id": "phase2-game-design-lorc-splash",
+      "reason": "These share the existing droplet/liquid-splash vocabulary; rim and detached-drop count are conservative style/effect variants."
+    },
+    {
+      "id": "phase2-game-design-lorc-splashy-stream",
+      "reason": "These share the existing droplet/liquid-splash vocabulary; rim and detached-drop count are conservative style/effect variants."
+    },
+    {
+      "id": "phase2-game-design-lorc-spotted-mushroom",
+      "reason": "Cap detailing, spots and fill style are variants of the existing mushroom glyph."
+    },
+    {
+      "id": "phase2-game-design-lorc-squid-head",
+      "reason": "Arm crossing, head crop and body style are folded into the one complete giant-squid representative."
+    },
+    {
+      "id": "phase2-game-design-lorc-squid",
+      "reason": "Arm crossing, head crop and body style are folded into the one complete giant-squid representative."
+    },
+    {
+      "id": "phase2-game-design-lorc-star-swirl",
+      "reason": "Changing the end caps, material theme, spiral count and band thickness repeats the existing spiral/vortex core."
+    },
+    {
+      "id": "phase2-game-design-lorc-sun-radiations",
+      "reason": "Ray count and cropped position repeat the existing sun family."
+    },
+    {
+      "id": "phase2-game-design-lorc-super-mushroom",
+      "reason": "Cap detailing, spots and fill style are variants of the existing mushroom glyph."
+    },
+    {
+      "id": "phase2-game-design-lorc-swirl-ring",
+      "reason": "Changing the end caps, material theme, spiral count and band thickness repeats the existing spiral/vortex core."
+    },
+    {
+      "id": "phase2-game-design-lorc-swirl-string",
+      "reason": "Changing the end caps, material theme, spiral count and band thickness repeats the existing spiral/vortex core."
+    },
+    {
+      "id": "phase2-game-design-lorc-thorn-helix",
+      "reason": "Adding sharp end caps and thorns to an existing helix/spiral geometry does not establish a new device or material."
+    },
+    {
+      "id": "phase2-game-design-lorc-thunder-blade",
+      "reason": "Lightning decoration and its target do not create new base shapes or independent mechanical assemblies."
+    },
+    {
+      "id": "phase2-game-design-lorc-thunder-skull",
+      "reason": "Lightning decoration and its target do not create new base shapes or independent mechanical assemblies."
+    },
+    {
+      "id": "phase2-game-design-lorc-thunder-struck",
+      "reason": "Lightning decoration and its target do not create new base shapes or independent mechanical assemblies."
+    },
+    {
+      "id": "phase2-game-design-lorc-thunderball",
+      "reason": "Lightning decoration and its target do not create new base shapes or independent mechanical assemblies."
+    },
+    {
+      "id": "phase2-game-design-lorc-vortex",
+      "reason": "Changing the end caps, material theme, spiral count and band thickness repeats the existing spiral/vortex core."
+    },
+    {
+      "id": "phase2-game-design-lorc-water-splash",
+      "reason": "These share the existing droplet/liquid-splash vocabulary; rim and detached-drop count are conservative style/effect variants."
+    },
+    {
+      "id": "phase2-game-design-lorc-wizard-staff",
+      "reason": "Tip material and flourish style are variants of an existing wand/staff tool."
+    },
+    {
+      "id": "phase2-game-design-delapouite-airtight-hatch",
+      "reason": "A hatch-style frame and locking bar repeat the existing door concept."
+    },
+    {
+      "id": "phase2-game-design-delapouite-brain-tentacle",
+      "reason": "Tentacle decoration does not establish a new brain concept or functional assembly."
+    },
+    {
+      "id": "phase2-game-design-delapouite-cosmic-egg",
+      "reason": "Stars and surface cutouts decorate the existing egg core."
+    },
+    {
+      "id": "phase2-game-design-delapouite-cotton-flower",
+      "reason": "Species naming, petal count and silhouette treatment repeat existing flower shapes."
+    },
+    {
+      "id": "phase2-game-design-delapouite-dandelion-flower",
+      "reason": "Species naming, petal count and silhouette treatment repeat existing flower shapes."
+    },
+    {
+      "id": "phase2-game-design-delapouite-dragon-orb",
+      "reason": "Dragon head style or placement repeats the dragon core; the shield source has only diamond ornaments and is not a distinct dragon construction."
+    },
+    {
+      "id": "phase2-game-design-delapouite-dragon-shield",
+      "reason": "Dragon head style or placement repeats the dragon core; the shield source has only diamond ornaments and is not a distinct dragon construction."
+    },
+    {
+      "id": "phase2-game-design-delapouite-drakkar-dragon",
+      "reason": "Dragon head style or placement repeats the dragon core; the shield source has only diamond ornaments and is not a distinct dragon construction."
+    },
+    {
+      "id": "phase2-game-design-delapouite-fire-flower",
+      "reason": "Species naming, petal count and silhouette treatment repeat existing flower shapes."
+    },
+    {
+      "id": "phase2-game-design-delapouite-floating-tentacles",
+      "reason": "Direction, arm count, cropping and sucker styling repeat body-part shapes of the retained cephalopod, rather than adding a distinct construction."
+    },
+    {
+      "id": "phase2-game-design-delapouite-flower-emblem",
+      "reason": "Species naming, petal count and silhouette treatment repeat existing flower shapes."
+    },
+    {
+      "id": "phase2-game-design-delapouite-flower-hat",
+      "reason": "Attire and face/flower decoration do not establish a new head/hat concept."
+    },
+    {
+      "id": "phase2-game-design-delapouite-flower-star",
+      "reason": "Species naming, petal count and silhouette treatment repeat existing flower shapes."
+    },
+    {
+      "id": "phase2-game-design-delapouite-flying-beetle",
+      "reason": "Wing pose and silhouette style repeat the existing beetle."
+    },
+    {
+      "id": "phase2-game-design-delapouite-galaxy",
+      "reason": "Spiral-arm and star styling repeat the existing galaxy concept."
+    },
+    {
+      "id": "phase2-game-design-delapouite-glowing-artifact",
+      "reason": "The source is an abstract cross/starburst. The artifact name does not establish a separate construction beyond existing sparkle/star shapes."
+    },
+    {
+      "id": "phase2-game-design-delapouite-goose",
+      "reason": "Species and drawing style repeat the existing bird core."
+    },
+    {
+      "id": "phase2-game-design-delapouite-grave-flowers",
+      "reason": "Flowers decorate an already represented gravestone; this is not a distinct structural assembly."
+    },
+    {
+      "id": "phase2-game-design-delapouite-hatchet",
+      "reason": "Handle proportions and blade style repeat the existing axe."
+    },
+    {
+      "id": "phase2-game-design-delapouite-purple-tentacle",
+      "reason": "Direction, arm count, cropping and sucker styling repeat body-part shapes of the retained cephalopod, rather than adding a distinct construction."
+    },
+    {
+      "id": "phase2-game-design-delapouite-ringed-tentacle",
+      "reason": "Direction, arm count, cropping and sucker styling repeat body-part shapes of the retained cephalopod, rather than adding a distinct construction."
+    },
+    {
+      "id": "phase2-game-design-delapouite-shattered-heart",
+      "reason": "Cracks and fragment shapes repeat the existing broken/heart core."
+    },
+    {
+      "id": "phase2-game-design-delapouite-sliced-sausage",
+      "reason": "A cut surface is a view/detail variant of the existing sausage."
+    },
+    {
+      "id": "phase2-game-design-delapouite-snail-eyes",
+      "reason": "Cropping to stalks changes the view of an existing snail, rather than adding a new assembly."
+    },
+    {
+      "id": "phase2-game-design-delapouite-spider-bot",
+      "reason": "Robotic/eye decoration repeats the spider core; the mask source is a generic face mask silhouette."
+    },
+    {
+      "id": "phase2-game-design-delapouite-spider-eye",
+      "reason": "Robotic/eye decoration repeats the spider core; the mask source is a generic face mask silhouette."
+    },
+    {
+      "id": "phase2-game-design-delapouite-spider-mask",
+      "reason": "Robotic/eye decoration repeats the spider core; the mask source is a generic face mask silhouette."
+    },
+    {
+      "id": "phase2-game-design-delapouite-spiked-dragon-head",
+      "reason": "Dragon head style or placement repeats the dragon core; the shield source has only diamond ornaments and is not a distinct dragon construction."
+    },
+    {
+      "id": "phase2-game-design-delapouite-sunflower",
+      "reason": "Species naming, petal count and silhouette treatment repeat existing flower shapes."
+    },
+    {
+      "id": "phase2-game-design-delapouite-tentacles-barrier",
+      "reason": "Direction, arm count, cropping and sucker styling repeat body-part shapes of the retained cephalopod, rather than adding a distinct construction."
+    },
+    {
+      "id": "phase2-game-design-lorc-angular-spider",
+      "reason": "Leg pose, crop and shell striping repeat existing spider/beetle glyphs."
+    },
+    {
+      "id": "phase2-game-design-lorc-beetle-shell",
+      "reason": "Leg pose, crop and shell striping repeat existing spider/beetle glyphs."
+    },
+    {
+      "id": "phase2-game-design-lorc-biohazard",
+      "reason": "The standard biohazard symbol already exists."
+    },
+    {
+      "id": "phase2-game-design-lorc-burst-blob",
+      "reason": "These share the existing droplet/liquid-splash vocabulary; rim and detached-drop count are conservative style/effect variants."
+    },
+    {
+      "id": "phase2-game-design-delapouite-bamboo-fountain",
+      "reason": "Spout material or jet count repeats the existing fountain core."
+    },
+    {
+      "id": "phase2-game-design-delapouite-dam",
+      "reason": "The existing Lucide dam already represents a cross-section wall separating water level lines. Fill and cross-section proportions are style changes of the same hydraulic barrier."
+    },
+    {
+      "id": "phase2-game-design-delapouite-furnace",
+      "reason": "A box-shaped heating chamber and front controls repeat the existing oven/heater concept."
+    },
+    {
+      "id": "phase2-game-design-delapouite-oil-rig",
+      "reason": "The source does not visibly preserve a separate drilling apparatus; spray decoration alone does not establish a new tower core."
+    },
+    {
+      "id": "phase2-game-design-delapouite-star-altar",
+      "reason": "The displayed star changes the ornament of a pedestal/altar already represented by crystal-shrine; count the display construction once."
+    },
+    {
+      "id": "phase2-game-design-delapouite-theater-curtains",
+      "reason": "The existing theater icon already contains the same stage and paired drape arrangement; fill and swag detail are style variants."
+    },
+    {
+      "id": "phase2-game-design-delapouite-walking-turret",
+      "reason": "The weapon changes the existing whole-body robot motif. It is conservatively excluded with battle-mech and tracked-robot, rather than counting locomotion/armor variants."
+    },
+    {
+      "id": "phase2-game-design-delapouite-windpump",
+      "reason": "Rotor count, tower and tail styling repeat the existing windmill/wind-energy core."
+    },
+    {
+      "id": "phase2-game-design-delapouite-cage",
+      "reason": "The lattice and keyhole combine existing grid and lock vocabulary; no distinct confinement mechanism is visible."
+    },
+    {
+      "id": "phase2-game-design-delapouite-coiled-nail",
+      "reason": "Twisting/cropping a drill/fastener shaft does not add a separate construction."
+    },
+    {
+      "id": "phase2-game-design-delapouite-lighthouse",
+      "reason": "The same lighthouse/beam construction already exists."
+    },
+    {
+      "id": "phase2-game-design-delapouite-paddle-steamer",
+      "reason": "A propulsion subtype changes an existing ship core; this is conservatively excluded rather than counting boat style subtypes."
+    },
+    {
+      "id": "phase2-game-design-delapouite-water-fountain",
+      "reason": "Spout material or jet count repeats the existing fountain core."
+    },
+    {
+      "id": "phase2-game-design-lorc-artificial-hive",
+      "reason": "No independent hive apparatus is visible; this is a hexagonal tiling motif already represented by geometric patterns."
+    },
+    {
+      "id": "phase2-game-design-lorc-clockwork",
+      "reason": "The gear/clock motif already exists; cutout style and tooth count do not add a new mechanism."
+    },
+    {
+      "id": "phase2-game-design-lorc-sundial",
+      "reason": "Despite the filename, the source has no visible gnomon or graduated time scale. It is a sun motif already represented."
+    },
+    {
+      "id": "phase2-game-design-lorc-land-mine",
+      "reason": "The source is a disc with a warning decoration; no separate trigger or explosive construction is visible."
+    },
+    {
+      "id": "phase2-game-design-delapouite-battle-mech",
+      "reason": "The existing Tabler robot includes head, body, arms and legs. Armor, chest detail and locomotion subtype repeat that core; neither is counted separately."
+    },
+    {
+      "id": "phase2-game-design-delapouite-tracked-robot",
+      "reason": "The existing Tabler robot includes head, body, arms and legs. Armor, chest detail and locomotion subtype repeat that core; neither is counted separately."
+    },
+    {
+      "id": "phase2-game-design-delapouite-mortar",
+      "reason": "A different mount/barrel layout remains a gun emplacement. Conservatively keep one fixed mounted-weapon representative."
+    },
+    {
+      "id": "phase2-game-design-delapouite-shinto-shrine",
+      "reason": "The torii/shrine gate already exists. Fence and hanging bell additions decorate the same gate core."
+    },
+    {
+      "id": "phase2-game-design-lorc-grease-trap",
+      "reason": "The drop changes only the decoration/target of the same spring-jaw construction; retain wolf-trap once."
+    },
+    {
+      "id": "phase2-game-design-lorc-sinking-trap",
+      "reason": "Surface shape and arm pose vary the person/floor-opening scene already represented by floor-hatch."
+    },
+    {
+      "id": "phase2-game-design-lorc-internal-organ",
+      "reason": "Vessel directions and counts vary the same anatomical heart representation; retain heart-organ once."
+    },
+    {
+      "id": "phase2-game-design-lorc-anatomy",
+      "reason": "The source does not show an internal organ arrangement; existing brain/heart elements and labels decorate a generic human silhouette."
+    },
+    {
+      "id": "phase2-game-design-lorc-lever",
+      "reason": "The existing joystick already has a stick on a base. Handle angle, base shape and motion marks repeat the same core control construction."
+    },
+    {
+      "id": "phase2-game-design-lorc-puppet",
+      "reason": "No control strings or independent puppeteering mechanism are visible. Joint segmentation and pose are human-figure style changes."
+    },
+    {
+      "id": "phase2-game-design-delapouite-wheelbarrow",
+      "reason": "The existing Garden Cart explicitly identifies wheelbarrow in its original tags and already contains the same hopper, handles, support and single-wheel construction."
+    },
+    {
+      "id": "phase2-game-design-delapouite-cave-entrance",
+      "reason": "The entrance is an exterior view of the same cave-space core, with surrounding mountain decoration; retain the fuller roof/floor/stalactite cross-section once."
+    }
+  ],
+  "reviewedNameClassifierExceptions": [
+    {
+      "id": "phase2-game-design-delapouite-boat-engine",
+      "sourceCodeSha256": "f654d0986af1b79d2a7b1d2c450270f4b55d7cdb7248550ad9500a623568d0a6",
+      "namedFamily": "boat",
+      "reviewedConcept": "outboard-engine",
+      "existingId": "design-phosphor-boat",
+      "existingCodeSha256": "0156250dfe12524d02f4c3686890c3b8800b7f5ff0adcc2a8a3e0eea513306a3",
+      "reason": "The existing Phosphor Boat SVG contains a complete vessel hull, superstructure and bow. The new source has no hull: it depicts an outboard motor casing, bent drive shaft, lower gear housing and propeller. These are different functional component constructions; the shared boat token describes mounting context, not geometry equivalence."
+    },
+    {
+      "id": "phase2-game-design-lorc-heart-organ",
+      "sourceCodeSha256": "31000340e93cdfed48b3dece49a22173d619900a2b9a13cd2720a289ca611e51",
+      "namedFamily": "heart",
+      "reviewedConcept": "anatomical-heart",
+      "existingId": "vector-line-md-heart",
+      "existingCodeSha256": "91922178dbfb7df96ee8f8ad785fcc789d75363e5d206a503337fa4be151ac1c",
+      "reason": "The existing Line MD heart SVG draws the symmetric bilobed pointed valentine symbol. The new source depicts an asymmetric organ body connected to several open aortic/venous tubes. A valentine silhouette with pulse decoration does not carry this anatomical vessel topology. Keep one anatomical heart source and fold internal-organ into it."
+    },
+    {
+      "id": "phase2-game-design-delapouite-lock-picking",
+      "sourceCodeSha256": "f6ee4e3c5e384f396c4d65210640e33acf291ccd8ded356de1cf0a431f796e5f",
+      "namedFamily": "lock",
+      "reviewedConcept": "keyhole-tool-interaction",
+      "existingId": "design-tabler-lock",
+      "existingCodeSha256": "407856048124fdd63239f75a3640ca8f20a9acbc1f49cac9de0bcdb1cb42ec5f",
+      "reason": "The existing lock SVG draws a padlock body, U-shaped shackle and central keyhole. The new source contains a separate rounded keyhole/cylinder-like target plus two thin crossing insertion tools. This is a tool/target manipulation arrangement, rather than changing the fill or shackle outline of a lock glyph."
+    }
+  ],
+  "sourceJavaScriptExecuted": false,
+  "temporalFramesCompared": false,
+  "methodology": "Manual original-composition semantic gate; one representative per construction concept. Name classifier exceptions bind to the exact existing code and specific component differences; a name alone does not establish visual equivalence. Exact/timing SVG and numeric-coordinate checks plus centerline Jaccard>=0.90 at 64x64 across D4 rotations/reflections. Complex original comparators remain in structural/concept checks; deferred contour list retained.",
+  "limitations": [
+    "Static graphic compositions are design assets, not new motion mechanisms.",
+    "Structural/contour/concept review is not proof of universal perceptual uniqueness."
+  ],
+  "provenance": {
+    "repo": "game-icons/icons",
+    "commit": "82d948812bfe3f269ef8f731dcdb07b08160edc4",
+    "tree": "819b975fa234b1ef75cc345b9a2856bed8f2a5a4",
+    "candidateInputSha256": "c0b6c04b347fd19b29371b6cdf902f70d7552ae67689eee6a1b9a5c90ae540a4",
+    "selectionReviewSha256": "19f4b52044d9da666207a4a0631571392718a357103bf41abbf5951a41194bdf",
+    "independentReviewSha256": "93ee02af1fef0500dc9ef6dba8a35f7d1d977089282f308b22855f7270ad39d9",
+    "manifestSha256": "f124785b028506a065952a4230d066cba51340361a6af8f67fa22de0266ec4e7",
+    "fullLegalCodeSha256": "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76",
+    "completeTreeInventorySha256": "7d01ddec198de9a284faf69b46d543561237e8b245b5db31bcde4698c93e7b8f"
+  },
+  "outputSha256": "0bb0ea0919d247df64300a6b7204bf5e4dd9c4490425878eefbdb1a6040e07fd"
+}

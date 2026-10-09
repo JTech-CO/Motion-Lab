@@ -49,3 +49,23 @@ class ExpansionTest(unittest.TestCase):
         unlicensed.pop("licenseText")
         with self.assertRaises(ValueError):
             merge_expansion([], [("wave.json", [unlicensed])], lambda entry: entry)
+
+    def test_new_assets_are_compared_to_original_variants_and_repair_parts(self):
+        original = code("old-alias", ".part{opacity:.4}")
+        former = code("former", ".old{opacity:.8}")
+        parent = {**code("canonical", ".complete{opacity:1}"),
+                  "variants": [original], "repair": {"originalRecord": former}}
+        duplicates = [code("new-alias-body", original["code"]), code("new-former-body", former["code"])]
+        result, report = merge_expansion([parent], [("phase2.json", duplicates)], lambda entry: entry)
+        self.assertEqual(result, [])
+        self.assertEqual({entry["sameAs"] for entry in report["excluded"]}, {"old-alias", "former"})
+        with self.assertRaises(ValueError):
+            merge_expansion([parent], [("phase2.json", [original])], lambda entry: entry)
+
+    def test_image_identity_uses_stored_digest_not_provider_or_path(self):
+        first = {"id": "one", "kind": "image", "image": {"sha256": "a" * 64}, "licenseText": "CC0"}
+        second = {**first, "id": "two", "sourceName": "Different provider", "image": {"sha256": "a" * 64}}
+        self.assertEqual(asset_fingerprint(first), asset_fingerprint(second))
+        result, report = merge_expansion([first], [("materials.json", [second])], lambda entry: entry)
+        self.assertEqual(result, [])
+        self.assertEqual(report["excluded"][0]["sameAs"], "one")

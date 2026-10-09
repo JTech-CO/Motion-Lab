@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from motionlab.analysis_schema import (ANALYSIS_VERSION, ASSET_TYPES, COMPONENTS, EFFECTS,
     RENDERERS, TECHNIQUES, USE_CASES)  # noqa: E402
+from motionlab.image_assets import validate_image  # noqa: E402
 SAFE_PROPERTIES = frozenset(("opacity", "transform", "transform-origin", "translate", "rotate", "scale",
     "filter", "clip-path", "mask", "mask-image", "width", "height", "max-height", "min-height",
     "top", "right", "bottom", "left", "inset", "color", "background", "background-color",
@@ -471,7 +472,13 @@ def _svg_analysis(item, code):
         components.add("mask"); techniques.add("clip-path")
     if names["linearGradient"] or names["radialGradient"]:
         components.add("color"); techniques.add("gradient")
+    if names["pattern"]:
+        components.add("grid")
+    if not animations and item.get("domain") == "design":
+        techniques.update(("svg-geometry", "static-design"))
     cases = {"status"} if item.get("category") == "loader" else {"attention"} if animations else set()
+    if not animations and item.get("domain") == "design":
+        cases.add("color-system" if item.get("category") in ("palette", "gradient") else "design-kit")
     preview = {"renderer": "svg", "elements": dict(sorted(names.items())), "animations": animations[:64],
                "limitations": ["SVG requires independent sanitization before inserting it into a document."]}
     signals = ["svg-elements:" + ",".join(f"{key}:{value}" for key, value in sorted(names.items()))[:240]]
@@ -489,7 +496,21 @@ def analyze_item(item):
     summary_ko = "원문 링크와 수집 메타데이터만 확인했습니다. 실제 효과나 구성요소를 추측하지 않습니다."
     summary_en = "Discovery link and collection metadata only. No effects or components are inferred."
     animated_color_asset = language == "css" and isinstance(code, str) and len(code) <= MAX_CODE and re.search(r"@(?:-webkit-)?keyframes\b", _strip_comments(code), re.I)
-    if item.get("kind") != "reference" and (item.get("category") in ("palette", "gradient") or item.get("kind") == "palette") and colors and not animated_color_asset:
+    if item.get("kind") == "image" and isinstance(item.get("image"), dict):
+        image = item["image"]
+        try:
+            validate_image(image, verify_file=False)
+            valid_image = True
+        except ValueError:
+            valid_image = False
+        if valid_image:
+            asset_type, basis, confidence = "material", "image", "high"
+            components, properties, techniques, cases = {"image"}, {"texture"}, {"image-texture", "static-design"}, {"design-kit"}
+            signals = ["image-sha256:" + image["sha256"], f"image-dimensions:{image['width']}x{image['height']}"]
+            preview = {"renderer": "image", "limitations": []}
+            summary_ko = "저장된 소재 이미지의 형식, 크기와 해시를 확인했습니다. 정적 디자인 소재입니다."
+            summary_en = "Verified the stored material image format, dimensions and hash. This is a static design material."
+    elif item.get("kind") != "reference" and (item.get("category") in ("palette", "gradient") or item.get("kind") == "palette") and colors and not animated_color_asset:
         asset_type = "gradient" if item.get("category") == "gradient" or item.get("preview", {}).get("type") == "gradient" else "palette"
         basis, confidence = "color-values", "high"
         components, properties, techniques, cases = {"color"}, {"color"}, {"color-values"}, {"color-system"}
@@ -517,7 +538,14 @@ def analyze_item(item):
         basis = "reviewed-source"
     if asset_type not in ASSET_TYPES:
         asset_type = "animation" if basis == "code" else "reference"
-    return {"version": ANALYSIS_VERSION, "assetType": asset_type,
+    explicit_domain = item.get("domain")
+    static_code = language in ("css", "svg") and basis == "code" and not techniques.intersection({"keyframes", "transition", "svg-animation"})
+    domain = None if item.get("kind") == "reference" else explicit_domain if explicit_domain in ("motion", "design") else "design" if item.get("kind") in ("palette", "image") or static_code or basis == "color-values" else "motion"
+    if domain == "design":
+        techniques.add("static-design")
+        if static_code:
+            cases.add("color-system" if asset_type in ("palette", "gradient") else "design-kit")
+    return {"version": ANALYSIS_VERSION, "domain": domain, "assetType": asset_type,
             "effects": _ordered(effects, EFFECTS), "components": _ordered(components, COMPONENTS),
             "properties": sorted(properties & SAFE_PROPERTIES), "techniques": _ordered(techniques, TECHNIQUES),
             "useCases": _ordered(cases, USE_CASES),
@@ -532,7 +560,7 @@ def analyze_items(items):
 
 def analysis_terms(analysis):
     """Closed IDs and factual signals for bound FTS search; never SQL fragments."""
-    terms = [analysis["assetType"]]
+    terms = [analysis["assetType"], analysis.get("domain") or "reference"]
     for key in ("effects", "components", "properties", "techniques", "useCases"):
         terms.extend(analysis[key])
     terms.extend((analysis["evidence"]["basis"], analysis["evidence"]["summaryKO"], analysis["evidence"]["summaryEN"]))

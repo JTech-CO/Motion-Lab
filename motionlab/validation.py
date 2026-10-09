@@ -5,8 +5,8 @@ import unicodedata
 from .analysis_schema import ANALYSIS_FILTERS
 
 CATEGORIES = ("animation", "transition", "typography", "interaction", "background",
-              "loader", "palette", "gradient", "shader", "reference")
-KINDS = ("code", "palette", "reference")
+              "loader", "palette", "gradient", "shader", "reference", "pattern", "shape", "material")
+KINDS = ("code", "palette", "reference", "image")
 SEARCH_KEYS = frozenset({"query", "category", "license", "kind", "limit", "offset", *ANALYSIS_FILTERS})
 ID_RE = re.compile(r"[A-Za-z0-9][A-Za-z0-9._-]{0,159}\Z")
 

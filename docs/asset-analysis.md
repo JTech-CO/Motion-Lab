@@ -4,7 +4,7 @@ Motion Lab keeps original source identity, code, attribution, license text and p
 
 ## Classification
 
-Each entry has `assetType`, multiple `effects`, `components`, `techniques`, `properties` and `useCases`. `evidence` records the inspection basis, confidence, explanatory text and code signals. `preview` records the supported renderer and its limitations. The vocabulary is shared with CLI, HTTP and MCP in `motionlab/analysis_schema.py`.
+Each entry has `domain`, `assetType`, multiple `effects`, `components`, `techniques`, `properties` and `useCases`. Stored resources use `domain: motion | design`; reference links use `domain: null` and do not contribute to domain totals. `evidence` records the inspection basis, confidence, explanatory text and code signals. `preview` records the supported renderer and its limitations. The vocabulary is shared with CLI, HTTP and MCP in `motionlab/analysis_schema.py`.
 
 CSS inspection checks actual declarations and animated properties, transformations, opacity, clipping, filter operations, timing, pseudo-elements and supplied DOM. GLSL inspection checks the transition function, texture samples, transformed coordinates, masks and procedural operations. SVG inspection checks vector elements and animation attributes. Palette and gradient analysis uses stored color values. Use cases are structural suggestions; they are not a creative assessment of the original work.
 
@@ -22,13 +22,16 @@ The 58-item expansion adds 40 CSS components, 12 SVG loaders and six component r
 | GLSL | Original shader between two test textures | Shows the transition algorithm, not the author's original imagery |
 | SVG | Original safe vector geometry and SMIL animation | Scripts, events, external resources and unsafe animation attributes are removed |
 | Palette / gradient | Stored color values | Static color output; no decorative animation |
+| Image | Validated local 1K Color/Diffuse JPEG | Actual material source image; auxiliary PBR channels are not included |
 | None | Explicit absence message | Open the recorded original to review the actual work |
 
 The GLSL host supplies `progress`, ratio, source textures and default uniforms following the [GL Transitions interface](https://github.com/gl-transitions/gl-transitions). It uses one shared 320×200 WebGL context, a bounded 32-program cache and staggered visible-card updates. Each card receives the actual shader result through its own canvas. Device support and original shader behavior affect the output; compile failures are shown explicitly.
 
 CSS is parsed through CSSOM with permitted selectors, properties and bounded DOM. It runs in an iframe with no script permission and a restrictive CSP. `url()`, imports and active external content are blocked. Preserving parsed shorthands is required for custom-property backgrounds and border geometry. SVG is reconstructed from permitted elements/attributes using DOM APIs; no imported HTML or JavaScript runs. Only local fragment references survive.
 
-The library supports global pause, reduced-motion preferences and source interaction states. Offscreen shader work is skipped. Changing results or closing details destroys preview instances; navigating away releases them. The preview does not download MP4, remote images or original site scripts.
+The library separates Motion, Design and References. Static SVG patterns and shapes use their original geometry; scientific color maps preserve every source stop and categorical palettes preserve every swatch. Stored image materials are validated for local path, hash, MIME, header dimensions and bounds during build and verification. See [Phase 2 qualification](phase2-expansion.md) for provenance and similarity coverage.
+
+The library supports global pause, reduced-motion preferences and source interaction states. Static design detail has no decorative playback controls. Offscreen shader work is skipped. Changing results or closing details destroys preview instances; navigating away releases them. The preview does not download MP4, remote images or original site scripts.
 
 ## Validation
 

@@ -1,0 +1,43 @@
+{
+  "total": 167,
+  "originalNodes": 3307,
+  "preservedNodes": 3307,
+  "originalAttributes": 13172,
+  "comparedAttributes": 12855,
+  "animationNodes": 871,
+  "animatedAttributeCounts": {
+    "attributeName": 871,
+    "calcMode": 149,
+    "dur": 871,
+    "keySplines": 149,
+    "keyTimes": 224,
+    "repeatCount": 523,
+    "type": 570,
+    "values": 871,
+    "id": 342,
+    "fill": 2,
+    "additive": 508,
+    "begin": 461
+  },
+  "intentionalRewriteCounts": {
+    "safeLocalIdPrefix": 1849,
+    "beginListWhitespace": 345
+  },
+  "semanticNormalizations": [
+    "Renderer-owned local ID prefixes",
+    "Whitespace separating semicolon-delimited SMIL begin expressions"
+  ],
+  "lostNodes": [],
+  "lostAttributes": [],
+  "changedAttributes": [],
+  "attributesNotCompared": [
+    "xmlns",
+    "xmlns:xlink"
+  ],
+  "complete": true,
+  "phase2MotionInputSha256": "9076417e392a6439ec32defa258bce5a84f6fb018e827169e861e30547a68bea",
+  "rendererSha256": "46ee82db97f5139b23e4e2f969c7aa904bfb90401e3e0cd7b7b4aa0f7e49da5a",
+  "rendererIdentityNote": "Exact current local renderer tested",
+  "sourceJavaScriptExecuted": false,
+  "temporalFramesCompared": false
+}

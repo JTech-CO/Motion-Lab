@@ -8,6 +8,7 @@ import sqlite3
 
 from .validation import validate_id, validate_search
 from .analysis_schema import ANALYSIS_FILTERS
+from .payload_codec import PayloadError, decode_payload
 
 
 class CatalogUnavailable(RuntimeError):
@@ -26,6 +27,13 @@ class Catalog:
         connection.row_factory = sqlite3.Row
         connection.execute("PRAGMA query_only = ON")
         return connection
+
+    @staticmethod
+    def payload(value):
+        try:
+            return decode_payload(value)
+        except PayloadError as error:
+            raise CatalogUnavailable("Catalog payload is invalid. Rebuild the catalog.") from error
 
     def search(self, **arguments):
         args = validate_search(arguments)
@@ -65,7 +73,7 @@ class Catalog:
                     AND (? = '' OR license = ?) AND (? = '' OR kind = ?)
                 """ + facet_clause + " ORDER BY title COLLATE NOCASE, id LIMIT ? OFFSET ?",
                     values + [args["limit"], args["offset"]]).fetchall()
-        return {"items": [json.loads(row["payload"]) for row in rows], "total": total,
+        return {"items": [self.payload(row["payload"]) for row in rows], "total": total,
                 "limit": args["limit"], "offset": args["offset"]}
 
     def get(self, item_id):
@@ -74,7 +82,7 @@ class Catalog:
             row = conn.execute("SELECT payload FROM items WHERE id = ? AND access = ?",
                                (item_id, "public")).fetchone()
             if row:
-                return json.loads(row["payload"])
+                return self.payload(row["payload"])
             # Older local databases have no alias table. Do not hide other SQL
             # errors, and never follow an alias recursively to another alias.
             if not conn.execute("SELECT 1 FROM sqlite_master WHERE type = ? AND name = ?",
@@ -87,7 +95,7 @@ class Catalog:
             """, (item_id, "public")).fetchone()
         if alias is None:
             return None
-        parent = json.loads(alias["payload"])
+        parent = self.payload(alias["payload"])
         variants = parent.get("variants") if isinstance(parent, dict) else None
         if (alias["variant_id"] != item_id or alias["item_id"] == item_id
                 or not isinstance(parent, dict) or parent.get("id") != alias["item_id"]
@@ -115,4 +123,4 @@ class Catalog:
     def export(self):
         with closing(self.connection()) as conn:
             rows = conn.execute("SELECT payload FROM items WHERE access = ? ORDER BY id", ("public",)).fetchall()
-        return [json.loads(row[0]) for row in rows]
+        return [self.payload(row[0]) for row in rows]

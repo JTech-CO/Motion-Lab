@@ -37,6 +37,7 @@ for(const id of ['detail-dialog','detail-content','detail-close','gallery','sear
 document.getElementById('detail-dialog').open=true;
 const previews=[],copies=[];
 const context={document,HTMLElement:Element,HTMLSelectElement:Select,HTMLInputElement:Input,HTMLTextAreaElement:TextArea,URL,WeakMap,Map,Set,Promise,JSON,Object,Array,String,Number,Boolean,Math,matchMedia:()=>({matches:false}),requestAnimationFrame:callback=>callback(),getComputedStyle:()=>({visibility:'visible'}),navigator:{clipboard:{writeText:async value=>copies.push(value)}},setTimeout:()=>1,clearTimeout:()=>{},window:{MotionPreview:{create(item){previews.push(item);const element=document.createElement('div');element.dataset.state='ready';element.destroy=()=>{};return element;}}}};
+Object.assign(context,{URLSearchParams,location:{search:''}});
 let source=fs.readFileSync(path.resolve(__dirname,'../dist/app.js'),'utf8');
 const bindingMarker="  $('language-button').addEventListener";
 assert.ok(source.includes(bindingMarker),'Frontend initialization boundary is present');
@@ -88,7 +89,7 @@ assert.equal(links.find(link=>link.textContent==='Open original ↗').href,secon
 assert.equal(links.find(link=>link.textContent==='Original license ↗').href,second.licenseUrl,'License link follows the selected source');
 
 for(const key of ['ArrowUp','ArrowDown','Enter']){let prevented=false;api.navigateKeys({target:document.getElementById('detail-variant-select'),key,preventDefault(){prevented=true;}});assert.equal(prevented,false,`Native selector owns ${key}`);}
-api.state.query=part.id;assert.equal(api.matches(family),true,'Merged component aliases remain discoverable');
+api.state.view='design';api.state.query=part.id;assert.equal(api.matches(family),true,'Merged component aliases remain discoverable in the design domain');
 api.state.query='Original B';assert.equal(api.matches(family),true,'All original names remain searchable');
 const provenance=JSON.parse(api.provenance(second));
 assert.equal(provenance.mergedCollection.selectedVariantId,second.id);
@@ -114,7 +115,7 @@ const families=catalog.items.filter(item=>Array.isArray(item.variants)&&item.var
 assert.ok(families.length>0,'Generated catalog contains actual merged records');
 let actualVariants=0,actualAliases=0,repairedFamilies=0;
 for(const merged of families){
-  Object.assign(api.state,{detail:merged,detailVariant:merged.id,detailTab:'overview',query:'',lang:'en'});
+  Object.assign(api.state,{detail:merged,detailVariant:merged.id,detailTab:'overview',query:'',lang:'en',view:api.meta(merged).domain});
   api.renderDetail(false);
   const selectable=api.variants(merged);
   const controls=document.getElementById('detail-content').querySelectorAll('select');

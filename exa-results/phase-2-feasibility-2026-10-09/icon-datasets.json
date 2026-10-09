@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-09",
+  "method": "Read-only GitHub repository tree metadata and pinned license files. No asset bodies imported or executed.",
+  "sources_reviewed": 10,
+  "exaSearchCalls": 1,
+  "parallelSearchCalls": 1,
+  "parallelFetchCalls": 1,
+  "baselineProviderCrossCheck": "No canonical or alias-variant source records for these three author repositories. This is a provider check, not a visual duplicate check.",
+  "baseCandidateFiles": 8566,
+  "baseCandidateDistinctBlobHashesWithinEachProvider": 8565,
+  "netNewConfirmed": null,
+  "entries": [
+    {
+      "name": "Tabler Icons",
+      "repository": "https://github.com/tabler/tabler-icons",
+      "commit": "a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d",
+      "evidenceURL": "https://github.com/tabler/tabler-icons/tree/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/icons",
+      "licenseEvidenceURL": "https://github.com/tabler/tabler-icons/blob/a4ce1404bc6d24d3c365afe7b258d6bf6f48d62d/LICENSE",
+      "license": "MIT",
+      "rawAssetFiles": 6238,
+      "singleStyleBaseFiles": 5184,
+      "singleStyleDistinctBlobHashes": 5184,
+      "styles": {
+        "outline": 5184,
+        "filled": 1054
+      },
+      "motionStatus": "static SVG design assets; not complete motion effects",
+      "alreadyIngestedProvider": false,
+      "netUniqueAgainstExistingCatalog": null,
+      "netUniqueAcrossOtherCandidateProviders": null,
+      "baseCountIsUniqueMotionCount": false,
+      "risks": [
+        "Different named files and blob hashes are not proof of distinct geometry or visual motion.",
+        "Cross-library shared pictograms and existing animated line-md icons need geometry/semantic comparison.",
+        "Collapse fill/weight/color/size variants into a family before counting.",
+        "Static design assets require an explicitly labeled design scope; do not label them motion."
+      ],
+      "duplicateByteExample": null,
+      "quality": "Official author repository, commit-pinned Git tree inventory and license file."
+    },
+    {
+      "name": "Lucide",
+      "repository": "https://github.com/lucide-icons/lucide",
+      "commit": "a04f228cd01185e09c188b7227b9600c08c565ec",
+      "evidenceURL": "https://github.com/lucide-icons/lucide/tree/a04f228cd01185e09c188b7227b9600c08c565ec/icons",
+      "licenseEvidenceURL": "https://github.com/lucide-icons/lucide/blob/a04f228cd01185e09c188b7227b9600c08c565ec/LICENSE",
+      "license": "ISC plus MIT for listed Feather-derived icons",
+      "rawAssetFiles": 1870,
+      "singleStyleBaseFiles": 1870,
+      "singleStyleDistinctBlobHashes": 1869,
+      "styles": {
+        "outline": 1870
+      },
+      "motionStatus": "static SVG design assets; not complete motion effects",
+      "alreadyIngestedProvider": false,
+      "netUniqueAgainstExistingCatalog": null,
+      "netUniqueAcrossOtherCandidateProviders": null,
+      "baseCountIsUniqueMotionCount": false,
+      "risks": [
+        "Different named files and blob hashes are not proof of distinct geometry or visual motion.",
+        "Cross-library shared pictograms and existing animated line-md icons need geometry/semantic comparison.",
+        "Collapse fill/weight/color/size variants into a family before counting.",
+        "Static design assets require an explicitly labeled design scope; do not label them motion."
+      ],
+      "duplicateByteExample": [
+        "icons/clock.svg",
+        "icons/clock-4.svg"
+      ],
+      "quality": "Official author repository, commit-pinned Git tree inventory and license file."
+    },
+    {
+      "name": "Phosphor Icons",
+      "repository": "https://github.com/phosphor-icons/core",
+      "commit": "2b75f3ad12b420c9504ef05df8d2564a28f8500e",
+      "evidenceURL": "https://github.com/phosphor-icons/core/tree/2b75f3ad12b420c9504ef05df8d2564a28f8500e/assets/regular",
+      "licenseEvidenceURL": "https://github.com/phosphor-icons/core/blob/2b75f3ad12b420c9504ef05df8d2564a28f8500e/LICENSE",
+      "license": "MIT",
+      "rawAssetFiles": 9072,
+      "singleStyleBaseFiles": 1512,
+      "singleStyleDistinctBlobHashes": 1512,
+      "styles": {
+        "bold": 1512,
+        "duotone": 1512,
+        "fill": 1512,
+        "light": 1512,
+        "regular": 1512,
+        "thin": 1512
+      },
+      "motionStatus": "static SVG design assets; not complete motion effects",
+      "alreadyIngestedProvider": false,
+      "netUniqueAgainstExistingCatalog": null,
+      "netUniqueAcrossOtherCandidateProviders": null,
+      "baseCountIsUniqueMotionCount": false,
+      "risks": [
+        "Different named files and blob hashes are not proof of distinct geometry or visual motion.",
+        "Cross-library shared pictograms and existing animated line-md icons need geometry/semantic comparison.",
+        "Collapse fill/weight/color/size variants into a family before counting.",
+        "Static design assets require an explicitly labeled design scope; do not label them motion."
+      ],
+      "duplicateByteExample": null,
+      "quality": "Official author repository, commit-pinned Git tree inventory and license file."
+    }
+  ]
+}

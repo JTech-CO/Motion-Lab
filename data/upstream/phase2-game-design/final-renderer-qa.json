@@ -1,0 +1,56 @@
+{
+  "total": 54,
+  "ready": 54,
+  "byRenderer": {
+    "svg": {
+      "total": 54,
+      "ready": 54
+    }
+  },
+  "failures": [],
+  "shaderEndpointChecks": 0,
+  "shaderEndpointDifferent": 0,
+  "shaderDifferentFrames": 0,
+  "shaderDiscreteFrames": [],
+  "security": {
+    "cssExternalUrlBlocked": true,
+    "cssVariableShorthandPreserved": true,
+    "cssPartiallyOverriddenShorthandsPreserved": true,
+    "cssQuotedDeclarationAndCommentTextPreserved": true,
+    "cssAuthoredCascadeOrderPreserved": true,
+    "cssEmptySerializedValidShorthandPreserved": true,
+    "cssDeclarationBoundsAndCssomValidationPreserved": true,
+    "cssMalformedSourceRejected": true,
+    "cssStandaloneVisibleTarget": true,
+    "svgActiveContentBlocked": true,
+    "svgEntitiesBlocked": true,
+    "svgLocalClockAndMetadataPreserved": true,
+    "svgSetAndSafeOriginPreserved": true,
+    "cssSourceVariablesPreserved": true,
+    "svgLocalFiltersPreserved": true,
+    "svgFiltersBounded": true,
+    "cssReadonlyInputAndFocusPreserved": true,
+    "paletteAlphaValuesAndContrastPreserved": true
+  },
+  "diagnostics": {
+    "instances": 0,
+    "gpuContexts": 0,
+    "shaderPrograms": 0,
+    "activeShaders": 0
+  },
+  "complete": true,
+  "rendererSha256": "46ee82db97f5139b23e4e2f969c7aa904bfb90401e3e0cd7b7b4aa0f7e49da5a",
+  "inputPath": "data/phase2-game-design-items.json",
+  "inputSha256": "0bb0ea0919d247df64300a6b7204bf5e4dd9c4490425878eefbdb1a6040e07fd",
+  "browserOutputSha256": "20d7faea890b6463d943e443197c687b05abed2770d65f3841bbb7af97e76211",
+  "sourceJavaScriptExecuted": false,
+  "temporalFramesCompared": false,
+  "completeBrowserDomObserved": true,
+  "browserExitWasNatural": false,
+  "ownedProcessTerminatedAfterCompleteDump": true,
+  "securityCheckCount": 18,
+  "qaFixtureJavaScriptSha256": "c6f19aa0ad798aa8394bec3182649f41b5429398013c784091062f539aa8add0",
+  "scope": "All retained static originals used the actual browser renderer; independent 191-original DOM/attribute inventory and source composition review are separate evidence. No universal visual or temporal frame uniqueness claim.",
+  "catalogSha256": "fe89f9b0d70264b655e532f9bea377169826cf2e6035e3916d631a490c2ba680",
+  "catalogBytes": 86476170
+}

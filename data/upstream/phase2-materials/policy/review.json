@@ -1,0 +1,32 @@
+{
+  "reviewedAt": "2026-10-09",
+  "assetLicense": "CC0-1.0",
+  "licenseTextPath": "data/upstream/phase2-materials/policy/CC0-1.0.txt",
+  "ambientCG": {
+    "source": "https://docs.ambientcg.com/license/",
+    "finding": "All downloadable assets and preview renders are CC0. This importer downloads original 1K color maps only.",
+    "apiSource": "https://docs.ambientcg.com/api/",
+    "apiFinding": "Official API is provided to search and download assets using code. Serialized requests and cache avoid repeat load.",
+    "robots": "https://ambientcg.com/robots.txt",
+    "robotsFinding": "Allow root except /hx/. Registered API/download paths are allowed."
+  },
+  "polyHaven": {
+    "source": "https://polyhaven.com/license",
+    "finding": "Original asset files are CC0. Website renders, logos and avatars have separate restrictions; none are collected.",
+    "apiSource": "https://polyhaven.com/our-api",
+    "termsSource": "https://github.com/Poly-Haven/Public-API/blob/master/ToS.md",
+    "apiFinding": "API free for commercial and research use; unique User-Agent required, clear provider credit when surfacing live API content. Motion Lab preserves sourceName and original source link and serves downloaded images locally.",
+    "robots": "https://polyhaven.com/robots.txt",
+    "robotsFinding": "Prefer public API; account, client-navigation and search-query website paths disallowed. API robots returns 404 (no directives)."
+  },
+  "collectionControls": [
+    "HTTPS host/path allowlist, validated redirects",
+    "1.25 second minimum between requests",
+    "Stop on 403 or 429; no alternate provider access to bypass a refusal",
+    "Bounded bytes, static image magic and pixel dimensions",
+    "Read only one registered ZIP color entry, no archive extraction",
+    "Original SHA-256 and provider MD5 when supplied",
+    "JPEG re-encode strips EXIF; complete original albedo preserved",
+    "No thumbnails or PBR channels counted as new assets"
+  ]
+}

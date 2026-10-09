@@ -11,12 +11,12 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from motionlab.catalog import Catalog  # noqa: E402
-from scripts.build import compact_catalog_index, deduplicate_items, read_json, validate_item  # noqa: E402
+from motionlab.payload_codec import decode_payload  # noqa: E402
+from scripts.build import WAVE_INPUTS, compact_catalog_index, deduplicate_items, read_json, validate_item  # noqa: E402
 from scripts.expansion import merge_expansion  # noqa: E402
 
 BASE_INPUTS = ("imported-items.json", "research-sources.json", "manual-items.json",
                "glsl-items.json", "jtech-items.json", "expanded-assets.json")
-WAVE_INPUTS = ("css-wave-items.json", "vector-wave-items.json", "color-wave-items.json")
 MODES = {"exact": "exact-source", "motion": "motion-variant",
          "palette": "palette-variant", "component": "motion-variant"}
 
@@ -96,9 +96,11 @@ def reconstruct_inputs(root):
     return baseline, additions, waves, report
 
 
-def verify(root=ROOT, minimum=5000):
+def verify(root=ROOT, minimum=5000, minimum_stored=0):
     if not isinstance(minimum, int) or not 1 <= minimum <= 100_000:
         raise ValueError("Minimum must be between 1 and 100000")
+    if not isinstance(minimum_stored, int) or not 0 <= minimum_stored <= 100_000:
+        raise ValueError("Stored minimum must be between 0 and 100000")
     root = Path(root).resolve()
     full = read_json(root / "data/catalog.json", {})
     published = read_json(root / "dist/catalog.json", {})
@@ -108,6 +110,12 @@ def verify(root=ROOT, minimum=5000):
     by_id = {entry["id"]: entry for entry in entries}
     if len(entries) < minimum or len(entries) != len(by_id) or full["stats"]["total"] != len(entries):
         raise ValueError("Catalog minimum, unique IDs or recorded count failed")
+    stored_entries = [entry for entry in entries if entry.get("kind") != "reference"]
+    domains = dict(Counter(entry.get("analysis", {}).get("domain") for entry in stored_entries))
+    if (len(stored_entries) < minimum_stored or full["stats"].get("storedAssets") != len(stored_entries)
+            or set(domains) - {"motion", "design"} or full["stats"].get("domains") != domains
+            or any(entry.get("analysis", {}).get("domain") is not None for entry in entries if entry.get("kind") == "reference")):
+        raise ValueError("Stored asset minimum or domain counts failed")
     aliases = full.get("aliases", {})
     original_by_id, groups = original_record_views(entries, aliases)
     baseline, additions, waves, expected_expansion = reconstruct_inputs(root)
@@ -176,8 +184,16 @@ def verify(root=ROOT, minimum=5000):
     if (aliases or alias_path.is_file()) and read_json(alias_path, {}) != expected_static_aliases:
         raise ValueError("Static legacy alias map is stale")
     collections = []
+    for domain in ("motion", "design"):
+        if not (root / "dist/collections" / ("domain-" + domain + ".json")).is_file():
+            raise ValueError("A required domain collection is missing")
     for path in (root / "dist/collections").glob("*.json"):
         subset = read_json(path, [])
+        if path.stem in ("domain-motion", "domain-design"):
+            expected = [entry for entry in entries if entry["kind"] != "reference" and entry["analysis"]["domain"] == path.stem[7:]]
+            if subset != expected:
+                raise ValueError("A domain collection is stale")
+            continue
         if any(entry["category"] != path.stem or entry != by_id.get(entry["id"]) for entry in subset):
             raise ValueError("A source category collection is stale")
         collections.extend(entry["id"] for entry in subset)
@@ -188,7 +204,7 @@ def verify(root=ROOT, minimum=5000):
         raise ValueError("Read-only SQLite metadata is stale")
     with closing(catalog.connection()) as connection:
         rows = connection.execute("SELECT id,payload FROM items").fetchall()
-        if len(rows) != len(entries) or any(json.loads(row["payload"]) != by_id[row["id"]] for row in rows):
+        if len(rows) != len(entries) or any(decode_payload(row["payload"]) != by_id[row["id"]] for row in rows):
             raise ValueError("Read-only SQLite source records are stale")
         if connection.execute("PRAGMA quick_check").fetchone()[0] != "ok":
             raise ValueError("SQLite integrity check failed")
@@ -215,18 +231,29 @@ def verify(root=ROOT, minimum=5000):
         result = catalog.search(kind=kind, limit=100, offset=max(0, count - 100))
         if result["total"] != count or not result["items"]:
             raise ValueError("Search filtering or last-page offset failed")
-    return {"verifiedAt": full["updatedAt"], "total": len(entries), "originalIdentities": original_total,
+    for domain, count in full["stats"].get("domains", {}).items():
+        result = catalog.search(domain=domain, limit=100)
+        expected_count = sum(entry["analysis"]["domain"] == domain for entry in entries)
+        if result["total"] != expected_count or any(entry["analysis"]["domain"] != domain for entry in result["items"]):
+            raise ValueError("Domain search filtering failed")
+    for entry in entries:
+        if entry["kind"] == "image":
+            from motionlab.image_assets import validate_image
+            validate_image(entry["image"], root / "dist")
+    return {"verifiedAt": full["updatedAt"], "total": len(entries), "storedAssets": len(stored_entries),
+            "domains": domains, "minimumStored": minimum_stored, "originalIdentities": original_total,
             "mergedGroups": len(groups), "aliases": len(aliases),
             "variantRecords": sum(len(entry["variants"]) for entry in groups),
             "repairedCompositions": sum(entry["consolidation"]["mode"] == "component" for entry in groups),
             "added": added,
             "inputCounts": input_counts, "excluded": len(excluded), "kinds": full["stats"]["kinds"],
             "codeLanguages": dict(Counter(entry["language"] for entry in entries if entry["kind"] == "code")),
-            "checks": ["minimum", "schema", "unique-ids", "full-source-fields-and-notices",
+            "checks": ["minimum", "stored-minimum-and-domain-counts", "schema", "unique-ids", "full-source-fields-and-notices",
                        "palette-code-equals-colors", "all-original-input-identities", "reviewed-consolidation-policy",
                        "pinned-source-component-repairs", "full-web-json", "compact-index", "static-alias-map",
-                       "all-category-collections", "read-only-sqlite-records", "sqlite-aliases",
-                       "legacy-get-preserves-original-source", "sqlite-integrity", "search-last-page"],
+                       "all-category-collections", "domain-collections", "image-files-and-digests",
+                       "read-only-sqlite-records", "sqlite-aliases",
+                       "legacy-get-preserves-original-source", "sqlite-integrity", "search-last-page", "domain-search"],
             "catalogSha256": hashlib.sha256((root / "dist/catalog.json").read_bytes()).hexdigest()}
 
 
@@ -234,9 +261,10 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=ROOT)
     parser.add_argument("--minimum", type=int, default=5000)
+    parser.add_argument("--minimum-stored", type=int, default=0, help="Minimum stored assets, excluding reference links")
     options = parser.parse_args()
     try:
-        result = verify(options.root, options.minimum)
+        result = verify(options.root, options.minimum, options.minimum_stored)
         (options.root / "data/verification-report.json").write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8", newline="\n")
         print(json.dumps(result))
     except (OSError, ValueError, KeyError) as error:

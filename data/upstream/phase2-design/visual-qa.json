@@ -1,0 +1,37 @@
+{
+  "renderer": "Installed Chrome headless, isolated temporary profile, no external resource URLs, data:image/svg+xml only",
+  "examples": [
+    {
+      "id": "design-cmocean-haline",
+      "category": "gradient",
+      "storedCodeSha256": "0783a195d86704854f59907e61b909ac92aaa179670f451d2d4e5522781cc6f0"
+    },
+    {
+      "id": "design-colorcet-glasbey-category10",
+      "category": "palette",
+      "storedCodeSha256": "d486396bd766044ff77a3e36e217613d33174f7e8cf7fd258e2121da100852dd"
+    },
+    {
+      "id": "design-heropatterns-skulls",
+      "category": "pattern",
+      "storedCodeSha256": "b3790660ae9ea6ef3467260ffd4264d9645af11589bbc258d9ff391409b5148e"
+    },
+    {
+      "id": "design-coolshapes-flower-5",
+      "category": "shape",
+      "storedCodeSha256": "ccbc8a87123b194b6e190aca29370df8be90aeffe8f5c59769eb7c47303a9eda"
+    },
+    {
+      "id": "design-wesanderson-royal1",
+      "category": "palette",
+      "storedCodeSha256": "66db20f01c3cae34f2652ba8a491b6924bb0562b7a7bad908bf5686d1a1652a3"
+    },
+    {
+      "id": "design-tabler-acorn",
+      "category": "shape",
+      "storedCodeSha256": "0f4271fc10d756870c7b3b0ea578873e86174169ba9f86cddf6a11f2c8598f60"
+    }
+  ],
+  "page": "data/upstream/phase2-design/visual-qa.html",
+  "screenshot": "data/upstream/phase2-design/visual-qa.png"
+}

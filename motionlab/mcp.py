@@ -14,7 +14,7 @@ PROTOCOL_VERSION = "2025-06-18"
 SUPPORTED_VERSIONS = {"2024-11-05", "2025-03-26", PROTOCOL_VERSION}
 ANNOTATIONS = {"readOnlyHint": True, "destructiveHint": False, "idempotentHint": True, "openWorldHint": False}
 TOOLS = [
-    {"name": "search_motion", "description": "Search source-inspected motion assets, colors and reference links, with effects/components/use-case filters. Read analysis.evidence before reuse. Reference-only entries do not grant copying rights.",
+    {"name": "search_motion", "description": "Search source-inspected motion and design assets, colors and reference links. The domain filter separates motion from static design. Read analysis.evidence before reuse. Reference-only entries do not grant copying rights.",
      "inputSchema": {"type": "object", "additionalProperties": False, "properties": {
          "query": {"type": "string", "maxLength": 240},
          "category": {"type": "string", "enum": list(CATEGORIES)},
@@ -24,11 +24,11 @@ TOOLS = [
          "offset": {"type": "integer", "minimum": 0, "maximum": 100000, "default": 0},
          **{field: {"type": "string", "enum": list(allowed)} for field, allowed in ANALYSIS_FILTERS.items()},
      }}, "annotations": ANNOTATIONS},
-    {"name": "get_motion", "description": "Get one catalog entry with source analysis, preview, provenance, license and code. Consolidated entries include complete original variants. A former variant ID returns that original with canonicalId and variantRole when recorded. For component-part records, retrieve canonicalId for the whole effect.",
+    {"name": "get_motion", "description": "Get one motion or design entry with source analysis, preview, provenance, license and its code or local image descriptor. Consolidated entries include complete original variants. A former variant ID returns that original with canonicalId and variantRole when recorded. For component-part records, retrieve canonicalId for the whole effect.",
      "inputSchema": {"type": "object", "additionalProperties": False, "required": ["id"],
                      "properties": {"id": {"type": "string", "minLength": 1, "maxLength": 160}}},
      "annotations": ANNOTATIONS},
-    {"name": "motion_stats", "description": "Return catalog counts by category, license and kind, and the catalog update date.",
+    {"name": "motion_stats", "description": "Return catalog counts by category, license, kind and motion/design domain, and the catalog update date.",
      "inputSchema": {"type": "object", "additionalProperties": False, "properties": {}},
      "annotations": ANNOTATIONS},
 ]

@@ -1,0 +1,5 @@
+# Offline phase 2 collectors and image/contour audits only.
+# Web, CLI, HTTP, MCP and the normal catalog build use the standard library.
+Pillow==12.0.0
+numpy==2.3.4
+fonttools==4.60.1

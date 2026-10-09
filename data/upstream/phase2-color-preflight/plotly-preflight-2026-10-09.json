@@ -1,0 +1,434 @@
+{
+  "version": 1,
+  "verifiedAt": "2026-10-09",
+  "scope": "Future color-source research only. This report is not a catalog input, an asset collection, or a redistribution approval.",
+  "collectedAssets": 0,
+  "catalogInputsChanged": false,
+  "sourceProgramsExecuted": false,
+  "decision": "Do not ingest the Plotly literals under Plotly's MIT notice. Collect and qualify the identified original sources separately in a future expansion. Hold unresolved original provenance.",
+  "plotlySource": {
+    "repository": "https://github.com/plotly/plotly.py",
+    "commit": "cb82f6369db0d2223abf4ea7bc6a2d6ab20b7b4c",
+    "pinMethod": "git ls-remote refs/heads/main",
+    "publisherCopyright": "Copyright (c) 2016-2026 Plotly Technologies Inc.",
+    "publisherLicense": "MIT",
+    "caveat": "The publisher's MIT notice does not establish original authorship or replace the original licenses of copied color palettes and maps, even where they are direct list literals rather than Python reexports.",
+    "artifacts": [
+      {
+        "path": "LICENSE.txt",
+        "bytes": 1086,
+        "sha256": "ba712274f8336a5f0828c8e2bf639ab8a632c623800a35f96c8b0a67b5f2ab40"
+      },
+      {
+        "path": "_plotly_utils/colors/qualitative.py",
+        "bytes": 2792,
+        "sha256": "ce5430dd8a0d54cabe2594e827059cfc6e1a7d669855fc85ae273c56780ad149"
+      },
+      {
+        "path": "_plotly_utils/colors/sequential.py",
+        "bytes": 3776,
+        "sha256": "29c46b1f38dc4be05a55087ff8dc1dc3d1f69ae3a85f7d63c9a6940c9500ae1d"
+      },
+      {
+        "path": "_plotly_utils/colors/plotlyjs.py",
+        "bytes": 3796,
+        "sha256": "07a43fee186d858b621921bcbe2cd0a875b07c04607962c30d5cbd0bfd431cc5"
+      }
+    ],
+    "artifactUrlTemplate": "https://raw.githubusercontent.com/plotly/plotly.py/cb82f6369db0d2223abf4ea7bc6a2d6ab20b7b4c/{path}",
+    "inspection": "Bounded HTTPS reads, AST literal_eval of list assignments only; no module import or execution of upstream Python. Direct literals and six selected sequential reexports were examined. ColorBrewer, CARTO and cmocean reexports were outside the sample."
+  },
+  "comparison": {
+    "baselineCatalogSha256": "84051c3b655b44cf349525b9263015f5aff10d4add9a93c00f406604945fa2d6",
+    "baselineSnapshotPath": "data/upstream/phase2-design/baseline-comparison.json",
+    "baselineSnapshotSha256": "783e3d88c8aff5bde9e7fcca9206eaf79e151500c548d1af4d063f4de9d2827b",
+    "baselineOriginalAndRepairedViews": 6111,
+    "phase2DesignInput": "data/phase2-design-items.json",
+    "phase2DesignInputSha256": "c03896b1177c79d16a8fb03a5687c44121cd8e9b48eae833da0fafa69bfba23d",
+    "phase2DesignRecords": 3157,
+    "colorArrays": 2851,
+    "resampledFullMaps": 2961,
+    "sampleCount": 20,
+    "directLiteralSamples": 14,
+    "scope": "Existing palette/gradient RGBA arrays include preserved originals and aliases; new scientific SVG maps and categorical palettes use every authored fullOriginalRgbValues sample. Incidental colors in non-palette effects and images are not standalone palette records.",
+    "method": "Trusted local import_phase2_design helpers: original color counts retained; 64-position RGB(A) interpolation over black and white; ordered and reversed Euclidean OKLab mean <= 1 and max <= 2; same-size qualitative palettes additionally use Hungarian matching. Accepted samples are compared with each other. No generated palette, subset, reversed copy, or color-count variant becomes a new record.",
+    "result": "All 20 inspected Plotly-layer arrays pass the numeric sample gate. This establishes neither original provenance nor independence of the full original maps. None is a qualified or collected asset.",
+    "nameReviewCorrection": "An initial broad title-name match found unrelated CSS Plasma and UI Gradients Electric/Rainbow records. These are not evidence of the same authored color-map family and were not treated as duplicate findings. Source attribution, rather than a shared display word, must establish family identity.",
+    "trustedHelperSha256": {
+      "scripts/import_phase2_design.py": "c047beb039a6e35e84b98ef9cb8fde08147cf772b1231af0c17479aa2f3508de",
+      "scripts/duplicate_audit_palette.py": "a3f88100ec6ed9d3e4a37de1a7af17baa31b8dafe05ba22e6267c575db50b368"
+    },
+    "sourceVerifiedSamples": 20,
+    "sampleSetSha256": "c61c77b4feba7e4053588b29bcb12883d720b2a230942f095eab6f42a3677e34"
+  },
+  "samples": [
+    {
+      "name": "Plotly",
+      "module": "qualitative",
+      "originalColorCount": 10,
+      "numericSampleGate": "pass",
+      "originalSource": null,
+      "provenanceStatus": "hold-unresolved-original-authorship",
+      "originalArraySha256": "d727da384914c7b99fd0afe09d5a604758d5d673f89be4d437775804780cec00",
+      "normalizedRgbaSha256": "e2fd7828b7e134ad191aebca5dd7fe5aacc9b0bd5716004106d9d99dc95e70e4",
+      "sameAs": null
+    },
+    {
+      "name": "D3",
+      "module": "qualitative",
+      "originalColorCount": 10,
+      "numericSampleGate": "pass",
+      "originalSource": null,
+      "provenanceStatus": "hold-original-palette-author-and-license-not-verified",
+      "originalArraySha256": "28b95021a17f3c5c3f2a0b43a93d5a584347af50eb244e7e619b6efc24249f75",
+      "normalizedRgbaSha256": "a89761862043c4ccbc17d123dfd674004ef826b7f7e226a5b5904debda205709",
+      "sameAs": null
+    },
+    {
+      "name": "G10",
+      "module": "qualitative",
+      "originalColorCount": 10,
+      "numericSampleGate": "pass",
+      "originalSource": null,
+      "provenanceStatus": "hold-original-palette-author-and-license-not-verified",
+      "originalArraySha256": "5e8e365162fa992afed5e6aba401dd6690e2726e9987e75d3f20e54ac00d758c",
+      "normalizedRgbaSha256": "25e822deb76585881df1b8714c2e7dfa81c19aff813e265ab468fda7f68d8643",
+      "sameAs": null
+    },
+    {
+      "name": "T10",
+      "module": "qualitative",
+      "originalColorCount": 10,
+      "numericSampleGate": "pass",
+      "originalSource": null,
+      "provenanceStatus": "hold-original-palette-author-and-license-not-verified",
+      "originalArraySha256": "c482d0fbb641b1627fdc0c6735b7c7cfb0dc97d8014802c47ae2aeef3627d4c4",
+      "normalizedRgbaSha256": "bf0f92c542ae41f0dada9dc7e1fb8ecf5dda14d8f3a68976abd9110bd2c565d3",
+      "sameAs": null
+    },
+    {
+      "name": "Alphabet",
+      "module": "qualitative",
+      "originalColorCount": 26,
+      "numericSampleGate": "pass",
+      "originalSource": "polychrome",
+      "provenanceStatus": "original-source-identified-collect-separately",
+      "originalArraySha256": "17ba73fece71b078376af5ca6a2571d810f5f9992dadc5e880ec388ab53e6a9e",
+      "normalizedRgbaSha256": "6ad11111f07fa9bc3add925f28a972bf3df2bf6fdb80c89df67b99c3b96db29a",
+      "sameAs": null
+    },
+    {
+      "name": "Dark24",
+      "module": "qualitative",
+      "originalColorCount": 24,
+      "numericSampleGate": "pass",
+      "originalSource": "polychrome",
+      "provenanceStatus": "original-source-identified-review-luminance-family-before-counting",
+      "originalArraySha256": "256cb31e317992b981eadefd16015519223ebf598d41beb1ae2bfbf67953bb15",
+      "normalizedRgbaSha256": "cc8874aa9270ed434ab91c1497195fe238db4e7ce486e5fbea54e4f548d523a0",
+      "sameAs": null
+    },
+    {
+      "name": "Light24",
+      "module": "qualitative",
+      "originalColorCount": 24,
+      "numericSampleGate": "pass",
+      "originalSource": "polychrome",
+      "provenanceStatus": "original-source-identified-review-luminance-family-before-counting",
+      "originalArraySha256": "0c496758e4315544894496db585c15b6c110fe92a9096d73257ae991543aa4e9",
+      "normalizedRgbaSha256": "b741778bc7c5806b12f7c981099eef4c691808485093bba661f924a3d1f77f8e",
+      "sameAs": null
+    },
+    {
+      "name": "Plotly3",
+      "module": "sequential",
+      "originalColorCount": 13,
+      "numericSampleGate": "pass",
+      "originalSource": null,
+      "provenanceStatus": "hold-unresolved-original-authorship",
+      "originalArraySha256": "48da235f52d1707df1b017704116bbe962ccd1403abdccc72ca97105279de19d",
+      "normalizedRgbaSha256": "1e61f969791baac0cf00395b432409adbba672c36029c754683dcde43d7b60e7",
+      "sameAs": null
+    },
+    {
+      "name": "Viridis",
+      "module": "sequential",
+      "originalColorCount": 10,
+      "numericSampleGate": "pass",
+      "originalSource": "bids-colormap",
+      "provenanceStatus": "original-source-and-CC0-identified-collect-full-original-map",
+      "originalArraySha256": "de4ed797a70e233b7179f04a0b42160d316b6d7fcdfa8ccd0376f8f0ef6d05ff",
+      "normalizedRgbaSha256": "6b9754365b693e17fbc06d816f08062ce9894ca00591b97ded1662d218154d66",
+      "sameAs": null
+    },
+    {
+      "name": "Cividis",
+      "module": "sequential",
+      "originalColorCount": 10,
+      "numericSampleGate": "pass",
+      "originalSource": "pnnl-cmaputil",
+      "provenanceStatus": "original-source-identified-preserve-Battelle-license-and-disclaimer",
+      "originalArraySha256": "9732f5bc1c7b81ca23b8e18c8a5a3fb2b5f70c7d26c2f67ba8e22cfc0a57cc44",
+      "normalizedRgbaSha256": "6fb8bd6fe3249c31e89990eff7cc3102da1c83493415b6555f615f4db2354405",
+      "sameAs": null
+    },
+    {
+      "name": "Inferno",
+      "module": "sequential",
+      "originalColorCount": 10,
+      "numericSampleGate": "pass",
+      "originalSource": "bids-colormap",
+      "provenanceStatus": "original-source-and-CC0-identified-collect-full-original-map",
+      "originalArraySha256": "9d0193f4ef3604a83fac8584dba07ca1087a488b2c4bfadb6411ab60ece4f166",
+      "normalizedRgbaSha256": "bee01f6001ac977f5dfa871724c24736a93644b57a76e3cfc8f3c5b6e7095761",
+      "sameAs": null
+    },
+    {
+      "name": "Magma",
+      "module": "sequential",
+      "originalColorCount": 10,
+      "numericSampleGate": "pass",
+      "originalSource": "bids-colormap",
+      "provenanceStatus": "original-source-and-CC0-identified-collect-full-original-map",
+      "originalArraySha256": "05fdb5915841069278dcdd76747acd8d4b0e5ad03b36fc3e88a18270daca8b26",
+      "normalizedRgbaSha256": "9451399841b640edfea3aae62a90c8832883d4374b2e5b3d67e7dc92ea56b433",
+      "sameAs": null
+    },
+    {
+      "name": "Plasma",
+      "module": "sequential",
+      "originalColorCount": 10,
+      "numericSampleGate": "pass",
+      "originalSource": "bids-colormap",
+      "provenanceStatus": "original-source-and-CC0-identified-collect-full-original-map",
+      "originalArraySha256": "3042d5527d86f2870a52fa5dc9197a53986b0d54c856af5db21265ae2667d559",
+      "normalizedRgbaSha256": "72549fc3aec4f88e898ad07107be7bd73e5244d741a628c2fcc36ae59f421c38",
+      "sameAs": null
+    },
+    {
+      "name": "Turbo",
+      "module": "sequential",
+      "originalColorCount": 15,
+      "numericSampleGate": "pass",
+      "originalSource": "google-turbo",
+      "provenanceStatus": "original-source-author-and-Apache-2.0-identified-collect-full-original-map",
+      "originalArraySha256": "b9e8e3c4ff39fedf5a6d44993a1735414c27aa9370b5be5cdfef5947d5d15575",
+      "normalizedRgbaSha256": "701e5bd506f78cff995a27a9a922f79fd065d75cdfcb772eced4599ad2f28464",
+      "sameAs": null
+    },
+    {
+      "name": "Blackbody",
+      "module": "plotlyjs-sequential-reexport",
+      "originalColorCount": 5,
+      "numericSampleGate": "pass",
+      "originalSource": null,
+      "provenanceStatus": "hold-reexport-original-author-and-notices-not-reviewed",
+      "originalArraySha256": "c8e70cd7af10133a7a01526821d8ff3a7b70f246003836032a02d2b2e59d56e8",
+      "normalizedRgbaSha256": "3b60931402b502110b7dabb3ab3321f9fb37a468b583a61ecdca582d8c33aedd",
+      "sameAs": null
+    },
+    {
+      "name": "Bluered",
+      "module": "plotlyjs-sequential-reexport",
+      "originalColorCount": 2,
+      "numericSampleGate": "pass",
+      "originalSource": null,
+      "provenanceStatus": "hold-reexport-original-author-and-notices-not-reviewed",
+      "originalArraySha256": "fc3d0403ecce8f168b678fa025268e7d19151e2b23c742917f0f834f000f56af",
+      "normalizedRgbaSha256": "8ff69e20b9c9d3dada602f71f0f99c0c6e934e83fa9ea795e59c08ac8e3313e8",
+      "sameAs": null
+    },
+    {
+      "name": "Electric",
+      "module": "plotlyjs-sequential-reexport",
+      "originalColorCount": 6,
+      "numericSampleGate": "pass",
+      "originalSource": null,
+      "provenanceStatus": "hold-reexport-original-author-and-notices-not-reviewed",
+      "originalArraySha256": "c0462c20ca7aef7d5b8bbda21e7cce028a13b83961ebdda8d3c5775fbfc3aa99",
+      "normalizedRgbaSha256": "0f6419f1de5faabd7d8444dc507d47f9ea104c8b08166ea1c78b02bd367842de",
+      "sameAs": null
+    },
+    {
+      "name": "Hot",
+      "module": "plotlyjs-sequential-reexport",
+      "originalColorCount": 4,
+      "numericSampleGate": "pass",
+      "originalSource": null,
+      "provenanceStatus": "hold-reexport-original-author-and-notices-not-reviewed",
+      "originalArraySha256": "c1a2ef14e8901eebd455a8ff94e9f6e0ebde6fea6cb7d5135245811567c0396d",
+      "normalizedRgbaSha256": "33b0e5544b2e81cebdb1d46908d4c5807c51eae849c8bcda1882d01cb5b2bd0e",
+      "sameAs": null
+    },
+    {
+      "name": "Jet",
+      "module": "plotlyjs-sequential-reexport",
+      "originalColorCount": 6,
+      "numericSampleGate": "pass",
+      "originalSource": null,
+      "provenanceStatus": "hold-reexport-original-author-and-notices-not-reviewed",
+      "originalArraySha256": "dcc0ca27824deb43b270a2ebf328585a2d9e6257ff2fef47afac6aba400b5d6e",
+      "normalizedRgbaSha256": "c8683aa352abccef06059ade16e7dd5976d5128955e6d280b6420a33c9c1d445",
+      "sameAs": null
+    },
+    {
+      "name": "Rainbow",
+      "module": "plotlyjs-sequential-reexport",
+      "originalColorCount": 9,
+      "numericSampleGate": "pass",
+      "originalSource": null,
+      "provenanceStatus": "hold-reexport-original-author-and-notices-not-reviewed",
+      "originalArraySha256": "5e0e694c73b7b484562fc091eb1f271f626b4fa3c320a829a6bc876c42d85a35",
+      "normalizedRgbaSha256": "c6b9df2d294d7b5a1a4ea03eb5c401f272ca16810042420bc7c20deaebc38b49",
+      "sameAs": null
+    }
+  ],
+  "originalSources": {
+    "bids-colormap": {
+      "repository": "https://github.com/BIDS/colormap",
+      "commit": "bc549477db0c12b54a5928087552ad2cf274980f",
+      "names": [
+        "Viridis",
+        "Magma",
+        "Inferno",
+        "Plasma"
+      ],
+      "authors": [
+        "Nathaniel J. Smith",
+        "Stefan van der Walt",
+        "Eric Firing (Viridis)"
+      ],
+      "license": "CC0-1.0",
+      "evidence": "The original colormaps.py header explicitly identifies the authors and states that this file and its colormaps are released under CC0. Original 256-sample arrays are present. The README directs reuse to this original file.",
+      "notices": "Preserve the original header, author provenance and CC0 legalcode. The authors appreciate credit.",
+      "artifacts": [
+        {
+          "path": "LICENSE.txt",
+          "bytes": 360,
+          "sha256": "30419703377136667f2c8a426d396874a8dadf53699d277fc8ad759d05092799"
+        },
+        {
+          "path": "colormaps.py",
+          "bytes": 50518,
+          "sha256": "b7478d10e2ccfdb22128867e137f16f55b687e9c225065e91bcbd6bb9e6c0352"
+        }
+      ],
+      "artifactUrlTemplate": "https://raw.githubusercontent.com/BIDS/colormap/bc549477db0c12b54a5928087552ad2cf274980f/{path}",
+      "pending": "The original full arrays were not re-compared in this 20-sample Plotly preflight. A future collector must compare them against the then-current archive and preserve every original sample."
+    },
+    "polychrome": {
+      "repository": "https://github.com/cran/Polychrome",
+      "officialDocumentation": "https://stat.ethz.ch/CRAN/web/packages/Polychrome/refman/Polychrome.html",
+      "commit": "3cc3fde6675fe75ed4084ca66ebb2a268430f14d",
+      "version": "1.6.2",
+      "names": [
+        "Alphabet",
+        "Dark24",
+        "Light24"
+      ],
+      "authors": [
+        "Guy Brock",
+        "Kevin R. Coombes"
+      ],
+      "license": "Apache-2.0",
+      "evidence": "Official CRAN source documentation identifies the package authors and Apache 2.0. It explains that Alphabet and both 24-color palettes were authored using createPalette. All embedded ordered HEX tokens in the three pinned original R data files exactly match the corresponding Plotly literals.",
+      "tokenInspection": "Gzip magic inspection and bounded 32KiB decompression followed by HEX-token inspection. Serialized R objects were not deserialized or executed. This is provenance corroboration, not a general R-data importer.",
+      "notices": "Preserve original package authorship, copyright notices, any NOTICE and the complete Apache 2.0 license before redistribution. Do not relabel these palettes as Plotly-authored MIT assets.",
+      "artifacts": [
+        {
+          "path": "DESCRIPTION",
+          "bytes": 981,
+          "sha256": "879e981a6b8f124ee1c53c8ef0cb0c5f18dbb621ba329bcf6ff98ea3fcda1559"
+        },
+        {
+          "path": "data/alphabet.rda",
+          "bytes": 392,
+          "sha256": "1a3a8038f097f74eb67eb72e4c3a599d510cfb6574aa8e89a58fef7fa597c731",
+          "orderedHexTokenCount": 26,
+          "matchesPlotlyLiteral": true
+        },
+        {
+          "path": "data/Dark24.rda",
+          "bytes": 270,
+          "sha256": "6fa9ebf8c39d704fba604c7ad9fa90a581b3ded6548410c9350b8aff7409de60",
+          "orderedHexTokenCount": 24,
+          "matchesPlotlyLiteral": true
+        },
+        {
+          "path": "data/Light24.rda",
+          "bytes": 271,
+          "sha256": "83fefca365602f6de3b731f7ff5116c03bb10ddcc0ea24411533b2d52ed28ff5",
+          "orderedHexTokenCount": 24,
+          "matchesPlotlyLiteral": true
+        }
+      ],
+      "artifactUrlTemplate": "https://raw.githubusercontent.com/cran/Polychrome/3cc3fde6675fe75ed4084ca66ebb2a268430f14d/{path}",
+      "pending": "A future collector needs a narrowly validated extraction, complete original notices and current archive comparison. Dark24 and Light24 share a creation method with constrained luminance ranges; family-merging review is required before counting them separately."
+    },
+    "pnnl-cmaputil": {
+      "repository": "https://github.com/pnnl/cmaputil",
+      "commit": "a153df50156b3a7bf93d44abae6696a7b01cd47a",
+      "names": [
+        "Cividis"
+      ],
+      "copyright": "Copyright (c) 2017, Battelle Memorial Institute",
+      "license": "Battelle original permissive license; preserve the exact original text",
+      "evidence": "The original PNNL repository contains the Cividis data, links its originating paper and provides a permissive license with explicit copyright, redistribution, disclaimer and Battelle-name conditions.",
+      "artifacts": [
+        {
+          "path": "LICENSE",
+          "bytes": 1803,
+          "sha256": "3282e3c57335ff7a005ee184cfda62a9a68b9d038b66e8521e1467bffb69b2fe"
+        },
+        {
+          "path": "colormaps/cividis.txt",
+          "bytes": 5376,
+          "sha256": "6bc796b7883a014a79e27cc3545f131f1d4c21419dc5f97626da2c896b65bc36"
+        }
+      ],
+      "artifactUrlTemplate": "https://raw.githubusercontent.com/pnnl/cmaputil/a153df50156b3a7bf93d44abae6696a7b01cd47a/{path}",
+      "pending": "Do not substitute Plotly MIT or a guessed standard BSD identifier. Review and preserve the original license and cividis_disclaimer_pnnl.docx, then compare the full original data against the current archive."
+    },
+    "google-turbo": {
+      "officialProvenance": "https://research.google/blog/turbo-an-improved-rainbow-colormap-for-visualization/",
+      "source": "https://gist.github.com/mikhailov-work/ee72ba4191942acecc03fe6da94fc73f",
+      "commit": "dccf2856de98e3c60c7f0ac8acf3c33d9726dfb8",
+      "names": [
+        "Turbo"
+      ],
+      "author": "Anton Mikhailov",
+      "copyright": "Copyright 2019 Google LLC.",
+      "license": "Apache-2.0",
+      "evidence": "Google Research's author post explicitly introduces Turbo and links this original Python source. The source header names Anton Mikhailov, Google LLC copyright and SPDX Apache-2.0; it contains the original 256-entry floating-point sRGB lookup table.",
+      "artifact": {
+        "path": "turbo_colormap.py",
+        "bytes": 8222,
+        "sha256": "22e1c5b7ee9c402302af328ec5a3089f3cf896acb0df3392760c5ce2191e0499",
+        "url": "https://gist.githubusercontent.com/mikhailov-work/ee72ba4191942acecc03fe6da94fc73f/raw/dccf2856de98e3c60c7f0ac8acf3c33d9726dfb8/turbo_colormap.py"
+      },
+      "pending": "Preserve the original header and complete Apache 2.0 license; extract without executing the source and compare all original samples against the current archive."
+    }
+  },
+  "unresolvedOriginalProvenance": [
+    "Plotly",
+    "Plotly3",
+    "D3",
+    "G10",
+    "T10"
+  ],
+  "limitations": [
+    "Numeric sample similarity and rights qualification are separate gates. Direct source literals are not proof of original ownership.",
+    "Publisher names and palette names do not establish original authorship or license scope.",
+    "Four original source projects were identified for nine sample names, but no full original-source asset has been collected or qualified by this report.",
+    "The report records immutable URLs and observed artifact hashes; source files were read in memory and were not added as runtime or catalog assets.",
+    "Robots/access collection policy, complete source notices, source structure validation, current cross-audit and final renderer QA remain required before a future import.",
+    "The 10,000-asset expansion uses separately validated motion, design, material and Game source inputs; these research samples do not increase its count."
+  ],
+  "bounds": {
+    "plotlyArtifactBytes": 65536,
+    "originalProvenanceArtifactBytes": 131072,
+    "rDataInflatedBytes": 32768,
+    "minimumInterRequestDelaySeconds": 1.3,
+    "comparisonSamples": 20
+  }
+}

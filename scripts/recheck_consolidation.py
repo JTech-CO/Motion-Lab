@@ -37,6 +37,8 @@ def sha(value):
 
 
 def domain_for(item):
+    if item.get("kind") == "image":
+        return "image"
     if item.get("kind") in ("palette", "reference"):
         return item["kind"]
     if item.get("kind") == "code" and item.get("language") in ("css", "svg", "glsl"):
@@ -88,6 +90,31 @@ def history(root):
         sources[path.name] = sha(raw)
         for record in document.get("items", []):
             signatures[(domain, record["id"])] = record.get("canonicalSha256")
+    # New reviews remain bound to the complete authoritative input and both
+    # source/DOM signatures. They never alter the historical review evidence.
+    review_path = root / "data/upstream/phase2-motion/css-review-decisions.json"
+    if review_path.is_file():
+        document, raw = read_json(review_path)
+        input_path = root / "data/phase2-motion-items.json"
+        if (not input_path.is_file() or
+                document.get("phase2MotionInputSha256") != sha(input_path.read_bytes())):
+            raise ValueError("Phase 2 motion review input changed")
+        review_file = "upstream/phase2-motion/css-review-decisions.json"
+        sources[review_file] = sha(raw)
+        for decision in document.get("decisions", []):
+            ids = decision.get("ids", [])
+            if (decision.get("domain") != "css" or not isinstance(ids, list)
+                    or len(ids) != 2 or len(set(ids)) != 2
+                    or set(decision.get("codeSha256", {})) != set(ids)
+                    or set(decision.get("canonicalSha256", {})) != set(ids)):
+                raise ValueError("Invalid Phase 2 review membership")
+            for identifier in ids:
+                validate_id(identifier)
+                signatures[("css", identifier)] = decision["canonicalSha256"][identifier]
+            key = ("css", tuple(sorted(ids)))
+            if key in decisions:
+                raise ValueError("Repeated source review decision")
+            decisions[key] = {**decision, "reviewFile": review_file, "reviewScope": "phase2"}
     return decisions, signatures, sources, next(iter(catalog_hashes), None)
 
 
@@ -100,7 +127,8 @@ def candidate_review(domain, finding, manifests, by_id, decisions, old_signature
         for identifier in finding["ids"])
     if not unchanged:
         return {"status": "requires-current-source-review"}
-    return {"status": "previous-code-and-context-review-still-valid",
+    return {"status": "current-code-and-context-review-valid" if decision.get("reviewScope") == "phase2"
+            else "previous-code-and-context-review-still-valid",
             "classification": decision["classification"], "basis": decision["basis"],
             "reasonEN": decision.get("reasonEN"), "reviewFile": decision["reviewFile"],
             "codeSha256": decision["codeSha256"],
@@ -132,7 +160,11 @@ def recheck(root=ROOT, progress=print):
             "Families and candidates are not duplicate findings. Prior candidate judgments apply only when both code and canonical source/preview-context signatures remain unchanged.",
         ],
     }
-    for domain, audit in DOMAIN_AUDITS:
+    domain_audits = DOMAIN_AUDITS
+    if counts["image"]:
+        from scripts.duplicate_audit_image import audit as audit_images
+        domain_audits += (("image", lambda entries: audit_images(entries, root)),)
+    for domain, audit in domain_audits:
         progress("Rechecking " + domain + " canonical records...")
         result = audit(items)
         manifests = {record["id"]: record for record in result.get("items", result.get("inspectionManifest", []))}

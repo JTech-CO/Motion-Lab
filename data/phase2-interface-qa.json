@@ -1,0 +1,34 @@
+{
+  "complete": true,
+  "catalogSha256": "fe89f9b0d70264b655e532f9bea377169826cf2e6035e3916d631a490c2ba680",
+  "storedAssets": 10001,
+  "domains": {
+    "design": 6656,
+    "motion": 3345
+  },
+  "checks": [
+    "CLI final domain counts",
+    "HTTP final domain counts",
+    "CLI design filter",
+    "HTTP design filter",
+    "CLI motion filter",
+    "HTTP motion filter",
+    "CLI/HTTP complete source and notice: phase2-motion-css-loaders-bubble01",
+    "CLI/HTTP complete source and notice: design-cmcrameri-acton",
+    "CLI/HTTP complete source and notice: phase2-material-ambientcg-asphalt001",
+    "CLI/HTTP complete source and notice: phase2-game-design-delapouite-crystal-earrings",
+    "MCP complete source and notice: phase2-motion-css-loaders-bubble01",
+    "MCP complete source and notice: design-cmcrameri-acton",
+    "MCP complete source and notice: phase2-material-ambientcg-asphalt001",
+    "MCP complete source and notice: phase2-game-design-delapouite-crystal-earrings",
+    "MCP design filter",
+    "MCP motion filter"
+  ],
+  "selectedIds": [
+    "phase2-motion-css-loaders-bubble01",
+    "design-cmcrameri-acton",
+    "phase2-material-ambientcg-asphalt001",
+    "phase2-game-design-delapouite-crystal-earrings"
+  ],
+  "scope": "Actual final catalog through separate CLI/MCP processes and existing loopback HTTP server; no external AI-client configuration."
+}

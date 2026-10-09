@@ -16,11 +16,11 @@ from .analysis_schema import ANALYSIS_FILTERS
 
 
 def parser():
-    root = argparse.ArgumentParser(description="Motion Lab motion code and reference library")
+    root = argparse.ArgumentParser(description="Motion Lab motion and design asset library")
     root.add_argument("--root", type=Path, default=Path(__file__).resolve().parent.parent,
                       help="Project directory (default: installed package parent)")
     commands = root.add_subparsers(dest="command", required=True)
-    search = commands.add_parser("search", help="Search motion code and references")
+    search = commands.add_parser("search", help="Search motion and design assets and references")
     search.add_argument("query", nargs="?", default="")
     search.add_argument("--category", choices=CATEGORIES, default="")
     search.add_argument("--license", default="")
@@ -48,13 +48,15 @@ def render_export(items, format_name):
     if format_name == "json":
         return json.dumps(items, ensure_ascii=False, indent=2) + "\n"
     stream = io.StringIO(newline="")
-    fields = ("id", "title", "description", "category", "kind", "license", "sourceName", "sourceUrl", "tags", "colors", "analysis", "code",
+    fields = ("id", "title", "description", "category", "kind", "domain", "license", "sourceName", "sourceUrl", "tags", "colors", "analysis", "code", "image",
               "aliases", "consolidation", "variants")
     writer = csv.DictWriter(stream, fields, extrasaction="ignore")
     writer.writeheader()
     for item in items:
         row = {key: item.get(key, "") for key in fields}
-        for key in ("tags", "colors", "analysis", "aliases", "consolidation", "variants"):
+        if not row["domain"] and isinstance(item.get("analysis"), dict):
+            row["domain"] = item["analysis"].get("domain", "")
+        for key in ("tags", "colors", "analysis", "image", "aliases", "consolidation", "variants"):
             row[key] = json.dumps(row[key], ensure_ascii=False)
         # Prevent spreadsheet formula execution when opening exported CSV.
         for key, value in row.items():
@@ -103,6 +105,8 @@ def main(argv=None):
                     print("Original variants: " + ", ".join(variant["id"] for variant in item["variants"]))
                 if item.get("code"):
                     print(item["code"])
+                if item.get("image"):
+                    print("Image: " + item["image"]["path"])
         elif options.command == "stats":
             print(json.dumps(catalog.stats(), ensure_ascii=False, indent=2))
         elif options.command == "export":

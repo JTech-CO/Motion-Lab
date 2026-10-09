@@ -1,0 +1,32 @@
+{
+  "checks": [
+    "design count excludes other domains",
+    "motion count excludes other domains",
+    "references count excludes other domains",
+    "default Motion selection",
+    "native right arrow moves gallery focus",
+    "native Enter opens original detail",
+    "native Escape closes detail",
+    "native right arrow reaches Design tab",
+    "authored pattern background survives CSS isolation",
+    "static design has no playback control",
+    "Design has its own active tab",
+    "native select supports 50 entries",
+    "100 entry layout",
+    "English translation",
+    "Korean translation",
+    "material search returns one stored image",
+    "image detail keeps actual dimensions and download",
+    "mobile width has no horizontal overflow",
+    "design deep link selects domain"
+  ],
+  "complete": true,
+  "initialPageUrls": [
+    "chrome://newtab/"
+  ],
+  "catalogSha256": "fe89f9b0d70264b655e532f9bea377169826cf2e6035e3916d631a490c2ba680",
+  "rendererSha256": "46ee82db97f5139b23e4e2f969c7aa904bfb90401e3e0cd7b7b4aa0f7e49da5a",
+  "interfaceSha256": "a368467f022e96bd4e6376719886352998f3b408bf06c25b93383505dec3edb3",
+  "browser": "Chrome/154.0.8037.98",
+  "catalogStoredAssets": 10001
+}

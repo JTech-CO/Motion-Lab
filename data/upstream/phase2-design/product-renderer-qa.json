@@ -1,0 +1,87 @@
+{
+  "total": 3157,
+  "ready": 3157,
+  "originalNodesPreserved": 3157,
+  "completeTagInventoriesPreserved": 3157,
+  "failures": [],
+  "examples": [
+    {
+      "id": "design-cmcrameri-acton",
+      "renderer": "svg",
+      "state": "ready",
+      "expectedStops": 256,
+      "actualStops": 256,
+      "expectedRectangles": 1,
+      "actualRectangles": 1,
+      "completeInventoryPreserved": true,
+      "firstStopPreserved": true
+    },
+    {
+      "id": "design-cmcrameri-bam",
+      "renderer": "svg",
+      "state": "ready",
+      "expectedStops": 256,
+      "actualStops": 256,
+      "expectedRectangles": 1,
+      "actualRectangles": 1,
+      "completeInventoryPreserved": true,
+      "firstStopPreserved": true
+    },
+    {
+      "id": "design-cmcrameri-bamako",
+      "renderer": "svg",
+      "state": "ready",
+      "expectedStops": 256,
+      "actualStops": 256,
+      "expectedRectangles": 1,
+      "actualRectangles": 1,
+      "completeInventoryPreserved": true,
+      "firstStopPreserved": true
+    },
+    {
+      "id": "design-cmcrameri-batlow",
+      "renderer": "svg",
+      "state": "ready",
+      "expectedStops": 256,
+      "actualStops": 256,
+      "expectedRectangles": 1,
+      "actualRectangles": 1,
+      "completeInventoryPreserved": true,
+      "firstStopPreserved": true
+    },
+    {
+      "id": "design-cmcrameri-berlin",
+      "renderer": "svg",
+      "state": "ready",
+      "expectedStops": 256,
+      "actualStops": 256,
+      "expectedRectangles": 1,
+      "actualRectangles": 1,
+      "completeInventoryPreserved": true,
+      "firstStopPreserved": true
+    },
+    {
+      "id": "design-cmcrameri-bilbao",
+      "renderer": "svg",
+      "state": "ready",
+      "expectedStops": 256,
+      "actualStops": 256,
+      "expectedRectangles": 1,
+      "actualRectangles": 1,
+      "completeInventoryPreserved": true,
+      "firstStopPreserved": true
+    }
+  ],
+  "complete": true,
+  "coverage": "all published design SVG records",
+  "testedAt": "2026-10-09",
+  "elapsedSeconds": 1.94,
+  "rendererScriptSha256": "46ee82db97f5139b23e4e2f969c7aa904bfb90401e3e0cd7b7b4aa0f7e49da5a",
+  "currentQualifiedCount": 3157,
+  "missingQualifiedIds": [],
+  "changedQualifiedCode": [],
+  "canonicalCatalogSha256": "f0a9d9d2b405996486f493b2e8b9cab5c93cf68a2e00e02c714e521365ac2ab8",
+  "qualifiedInputSha256": "c03896b1177c79d16a8fb03a5687c44121cd8e9b48eae833da0fafa69bfba23d",
+  "qaHarnessSha256": "e8ca0073b786a98b206344b3c656a444678b0580bdcac51877653f41ed8aeb93",
+  "renderer": "Installed Chrome headless, isolated profile, actual MotionPreview.create from current local distribution"
+}

@@ -1,0 +1,52 @@
+{
+  "total": 2307,
+  "ready": 2307,
+  "byRenderer": {
+    "css": {
+      "total": 1930,
+      "ready": 1930
+    },
+    "gradient": {
+      "total": 377,
+      "ready": 377
+    }
+  },
+  "failures": [],
+  "shaderEndpointChecks": 0,
+  "shaderEndpointDifferent": 0,
+  "shaderDifferentFrames": 0,
+  "shaderDiscreteFrames": [],
+  "security": {
+    "cssExternalUrlBlocked": true,
+    "cssVariableShorthandPreserved": true,
+    "cssPartiallyOverriddenShorthandsPreserved": true,
+    "cssQuotedDeclarationAndCommentTextPreserved": true,
+    "cssAuthoredCascadeOrderPreserved": true,
+    "cssEmptySerializedValidShorthandPreserved": true,
+    "cssDeclarationBoundsAndCssomValidationPreserved": true,
+    "cssMalformedSourceRejected": true,
+    "cssStandaloneVisibleTarget": true,
+    "svgActiveContentBlocked": true,
+    "svgEntitiesBlocked": true,
+    "svgLocalClockAndMetadataPreserved": true,
+    "svgSetAndSafeOriginPreserved": true,
+    "cssSourceVariablesPreserved": true,
+    "svgLocalFiltersPreserved": true,
+    "svgFiltersBounded": true,
+    "cssReadonlyInputAndFocusPreserved": true,
+    "paletteAlphaValuesAndContrastPreserved": true
+  },
+  "diagnostics": {
+    "instances": 0,
+    "gpuContexts": 0,
+    "shaderPrograms": 0,
+    "activeShaders": 0
+  },
+  "complete": true,
+  "testedAt": "2026-10-09",
+  "elapsedSeconds": 37.55,
+  "rendererScriptSha256": "46ee82db97f5139b23e4e2f969c7aa904bfb90401e3e0cd7b7b4aa0f7e49da5a",
+  "scope": "All published records with language=css, including 1930 CSS-document renderers and 377 color-gradient renderers",
+  "canonicalCatalogSha256": "f0a9d9d2b405996486f493b2e8b9cab5c93cf68a2e00e02c714e521365ac2ab8",
+  "qaHarnessSha256": "dca7880095614c4ac2169a3697c3f73ef252978f5269f5e285069424ff52bb72"
+}

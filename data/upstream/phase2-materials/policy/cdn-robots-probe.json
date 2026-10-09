@@ -1,0 +1,8 @@
+{
+  "requestedUrl": "https://acg-download.struffelproductions.com/robots.txt",
+  "result": "Storage-provider error HTML rather than a robots file. No HTML executed or retained.",
+  "sampleSha256": "ee644ae5a43fb58af650399188450520be71c3f1e365541add99619105c57877",
+  "sampleBytes": 65537,
+  "sampleTruncated": true,
+  "downloadPolicy": "Only API-declared ambientCG file URLs are fetched, with host/path allowlist and safe redirects; original publisher permits CC0 file download through its documented API."
+}

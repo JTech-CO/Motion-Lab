@@ -126,7 +126,7 @@ def make_server(root, port=8787, host="127.0.0.1"):
                     if not limiter.allow(self.client_address[0]):
                         self.respond(429, {"error": "Rate limit exceeded"}, extra={"Retry-After": "60"})
                         return
-                    query = parse_qs(parsed.query, keep_blank_values=True, max_num_fields=12)
+                    query = parse_qs(parsed.query, keep_blank_values=True, max_num_fields=13)
                     if any(len(values) != 1 for values in query.values()):
                         raise ValidationError("Query parameters cannot repeat")
                     if parsed.path == "/api/search":

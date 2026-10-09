@@ -1,0 +1,1949 @@
+{
+  "catalogSha256": "84051c3b655b44cf349525b9263015f5aff10d4add9a93c00f406604945fa2d6",
+  "canonicalEntries": 6074,
+  "storedAssets": 5786,
+  "references": 288,
+  "additionalFor10000Entries": 3926,
+  "additionalFor10000StoredAssets": 4214,
+  "providers": {
+    "https://github.com/cyberalien/line-md": {
+      "canonicalCount": 1214,
+      "originalRecordCount": 1214,
+      "names": [
+        "Material Line Icons"
+      ],
+      "kinds": {
+        "code": 1214
+      },
+      "languages": {
+        "svg": 1214
+      }
+    },
+    "https://github.com/jam3/nice-color-palettes": {
+      "canonicalCount": 990,
+      "originalRecordCount": 992,
+      "names": [
+        "Nice Color Palettes"
+      ],
+      "kinds": {
+        "palette": 990
+      },
+      "languages": {
+        "json": 990
+      }
+    },
+    "https://github.com/salkomdesignstudio/sds-motion-forge": {
+      "canonicalCount": 596,
+      "originalRecordCount": 597,
+      "names": [
+        "SDS Motion Forge"
+      ],
+      "kinds": {
+        "code": 596
+      },
+      "languages": {
+        "css": 596
+      }
+    },
+    "https://github.com/yesiamrocks/cssanimation": {
+      "canonicalCount": 499,
+      "originalRecordCount": 499,
+      "names": [
+        "CSS Animation / Shafayetul Islam Pavel"
+      ],
+      "kinds": {
+        "code": 499
+      },
+      "languages": {
+        "css": 499
+      }
+    },
+    "https://github.com/timcdlucas/palettetown": {
+      "canonicalCount": 388,
+      "originalRecordCount": 388,
+      "names": [
+        "Palettetown / Tim Lucas"
+      ],
+      "kinds": {
+        "palette": 388
+      },
+      "languages": {
+        "json": 388
+      }
+    },
+    "https://github.com/ghosh/uigradients": {
+      "canonicalCount": 377,
+      "originalRecordCount": 382,
+      "names": [
+        "uiGradients"
+      ],
+      "kinds": {
+        "code": 377
+      },
+      "languages": {
+        "css": 377
+      }
+    },
+    "https://github.com/axismaps/colorbrewer": {
+      "canonicalCount": 264,
+      "originalRecordCount": 264,
+      "names": [
+        "ColorBrewer / Cynthia Brewer and Mark Harrower"
+      ],
+      "kinds": {
+        "palette": 264
+      },
+      "languages": {
+        "json": 264
+      }
+    },
+    "https://github.com/cartodb/cartocolor": {
+      "canonicalCount": 226,
+      "originalRecordCount": 227,
+      "names": [
+        "CARTOColors / CARTO"
+      ],
+      "kinds": {
+        "palette": 226
+      },
+      "languages": {
+        "json": 226
+      }
+    },
+    "https://www.careerhackeralex.com/sharings/cha-motion-kit": {
+      "canonicalCount": 161,
+      "originalRecordCount": 161,
+      "names": [
+        "Career Hacker Alex · CHA Motion Kit",
+        "Career Hacker Alex · 모션그래픽 160"
+      ],
+      "kinds": {
+        "reference": 161
+      },
+      "languages": {
+        "link": 161
+      }
+    },
+    "https://github.com/afif13/css-pattern": {
+      "canonicalCount": 145,
+      "originalRecordCount": 145,
+      "names": [
+        "CSS Pattern / Temani Afif"
+      ],
+      "kinds": {
+        "code": 145
+      },
+      "languages": {
+        "css": 145
+      }
+    },
+    "https://github.com/tylerlittlefield/lisa": {
+      "canonicalCount": 128,
+      "originalRecordCount": 128,
+      "names": [
+        "Color Lisa / lisa"
+      ],
+      "kinds": {
+        "palette": 128
+      },
+      "languages": {
+        "json": 128
+      }
+    },
+    "https://github.com/murrayjw/nbapalettes": {
+      "canonicalCount": 126,
+      "originalRecordCount": 126,
+      "names": [
+        "NBA Palettes / Josh Murray"
+      ],
+      "kinds": {
+        "palette": 126
+      },
+      "languages": {
+        "json": 126
+      }
+    },
+    "https://github.com/gl-transitions/gl-transitions": {
+      "canonicalCount": 123,
+      "originalRecordCount": 123,
+      "names": [
+        "GL Transitions"
+      ],
+      "kinds": {
+        "code": 123
+      },
+      "languages": {
+        "glsl": 123
+      }
+    },
+    "https://github.com/radix-ui/colors": {
+      "canonicalCount": 110,
+      "originalRecordCount": 124,
+      "names": [
+        "Radix Colors"
+      ],
+      "kinds": {
+        "palette": 110
+      },
+      "languages": {
+        "json": 110
+      }
+    },
+    "https://github.com/animate-css/animate.css": {
+      "canonicalCount": 78,
+      "originalRecordCount": 78,
+      "names": [
+        "Animate.css 3.7.2"
+      ],
+      "kinds": {
+        "code": 78
+      },
+      "languages": {
+        "css": 78
+      }
+    },
+    "https://github.com/martz90/vivify": {
+      "canonicalCount": 66,
+      "originalRecordCount": 68,
+      "names": [
+        "Vivify"
+      ],
+      "kinds": {
+        "code": 66
+      },
+      "languages": {
+        "css": 66
+      }
+    },
+    "https://github.com/minimac/magic": {
+      "canonicalCount": 65,
+      "originalRecordCount": 65,
+      "names": [
+        "Magic Animations"
+      ],
+      "kinds": {
+        "code": 65
+      },
+      "languages": {
+        "css": 65
+      }
+    },
+    "https://github.com/blakermills/metbrewer": {
+      "canonicalCount": 56,
+      "originalRecordCount": 56,
+      "names": [
+        "MetBrewer / Blake Robert Mills"
+      ],
+      "kinds": {
+        "palette": 56
+      },
+      "languages": {
+        "json": 56
+      }
+    },
+    "https://github.com/jacintak/colroz": {
+      "canonicalCount": 54,
+      "originalRecordCount": 54,
+      "names": [
+        "colRoz / Jacinta Kong and Nicholas Wu"
+      ],
+      "kinds": {
+        "palette": 54
+      },
+      "languages": {
+        "json": 54
+      }
+    },
+    "https://github.com/nrennie/prettycols": {
+      "canonicalCount": 46,
+      "originalRecordCount": 46,
+      "names": [
+        "PrettyCols / Nicola Rennie"
+      ],
+      "kinds": {
+        "palette": 46
+      },
+      "languages": {
+        "json": 46
+      }
+    },
+    "https://github.com/n3r4zzurr0/svg-spinners": {
+      "canonicalCount": 44,
+      "originalRecordCount": 46,
+      "names": [
+        "SVG Spinners"
+      ],
+      "kinds": {
+        "code": 44
+      },
+      "languages": {
+        "svg": 44
+      }
+    },
+    "https://github.com/laurenoconnelllab/poisonfrogs": {
+      "canonicalCount": 41,
+      "originalRecordCount": 41,
+      "names": [
+        "poisonfrogs / Camilo Rodriguez and Lauren OConnell"
+      ],
+      "kinds": {
+        "palette": 41
+      },
+      "languages": {
+        "json": 41
+      }
+    },
+    "https://github.com/nzbin/three-dots": {
+      "canonicalCount": 30,
+      "originalRecordCount": 32,
+      "names": [
+        "Three Dots"
+      ],
+      "kinds": {
+        "code": 30
+      },
+      "languages": {
+        "css": 30
+      }
+    },
+    "https://github.com/connoratherton/loaders.css": {
+      "canonicalCount": 29,
+      "originalRecordCount": 29,
+      "names": [
+        "Loaders.css / Connor Atherton"
+      ],
+      "kinds": {
+        "code": 29
+      },
+      "languages": {
+        "css": 29
+      }
+    },
+    "https://motion-lab-archive.bryan131.chatgpt.site/": {
+      "canonicalCount": 24,
+      "originalRecordCount": 24,
+      "names": [
+        "Motion Lab Originals"
+      ],
+      "kinds": {
+        "code": 24
+      },
+      "languages": {
+        "css": 24
+      }
+    },
+    "https://github.com/kristofferandreasen/wickedcss": {
+      "canonicalCount": 22,
+      "originalRecordCount": 24,
+      "names": [
+        "WickedCSS"
+      ],
+      "kinds": {
+        "code": 22
+      },
+      "languages": {
+        "css": 22
+      }
+    },
+    "https://github.com/tobiasahlin/spinkit": {
+      "canonicalCount": 12,
+      "originalRecordCount": 15,
+      "names": [
+        "SpinKit"
+      ],
+      "kinds": {
+        "code": 12
+      },
+      "languages": {
+        "css": 12
+      }
+    },
+    "https://github.com/samherbert/svg-loaders": {
+      "canonicalCount": 12,
+      "originalRecordCount": 12,
+      "names": [
+        "Sam Herbert SVG Loaders"
+      ],
+      "kinds": {
+        "code": 12
+      },
+      "languages": {
+        "svg": 12
+      }
+    },
+    "https://github.com/elrumordelaluz/csshake": {
+      "canonicalCount": 10,
+      "originalRecordCount": 10,
+      "names": [
+        "CSShake"
+      ],
+      "kinds": {
+        "code": 10
+      },
+      "languages": {
+        "css": 10
+      }
+    },
+    "https://github.com/lukehaas/css-loaders": {
+      "canonicalCount": 8,
+      "originalRecordCount": 8,
+      "names": [
+        "Luke Haas CSS Loaders"
+      ],
+      "kinds": {
+        "code": 8
+      },
+      "languages": {
+        "css": 8
+      }
+    },
+    "https://github.com/magicuidesign/magicui": {
+      "canonicalCount": 6,
+      "originalRecordCount": 6,
+      "names": [
+        "Magic UI"
+      ],
+      "kinds": {
+        "reference": 6
+      },
+      "languages": {
+        "link": 6
+      }
+    },
+    "https://github.com/jtech-co/motiongraphic": {
+      "canonicalCount": 5,
+      "originalRecordCount": 5,
+      "names": [
+        "JTech-CO / Motiongraphic",
+        "JTech-CO Motiongraphic"
+      ],
+      "kinds": {
+        "reference": 5
+      },
+      "languages": {
+        "link": 5
+      }
+    },
+    "https://github.com/ianlunn/hover": {
+      "canonicalCount": 3,
+      "originalRecordCount": 3,
+      "names": [
+        "Hover.css 2.1.1"
+      ],
+      "kinds": {
+        "code": 3
+      },
+      "languages": {
+        "css": 3
+      }
+    },
+    "https://animejs.com/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Anime.js"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://gsap.com/docs/v3/GSAP": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "GSAP documentation"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://motion.dev/docs/animate": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Motion animate"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://www.motion-svg.com/docs": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "VectorMotion"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/nitin42/animated-timeline": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Animated Timeline"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://docs.svgsketch.com/sdk/animation": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "SVGSketch"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://motion.page/docs/sdk/motion-factory": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Motion.page SDK"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://popmotion.io/api/timeline": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Popmotion Timeline"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://glaze.dev/docs/timelines": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Glaze"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/bowtiedswan/animejs-skills": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Anime.js Skills"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://fwdtools.com/gsap-playground": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "FWD Tools GSAP Playground"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://www.blossom-carousel.com/docs/examples/advanced/custom-scrollbar": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Blossom Carousel"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://pmndrs.github.io/timeline/getting-started/3-overview": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "pmndrs Timeline"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://mafhper.github.io/nebula": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Nebula"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/okay-babe/okaybabe-shaders": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "OkayBabe Shaders"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/giacomo-paolini/fluid": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Fluid Studio"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/metaory/gradient-gl": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Gradient GL"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://codeberg.org/evasync/creative-coding-resources": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Creative Coding Resources"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/paradigms-of-intelligence/swissgl": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "SwissGL"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/muhkartal/webgl-cosmicvisualizations": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Cosmic Visualizations"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/jannchie/shader-gradient": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Shader Gradient Core"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/karanchandekar/webgl-shader-gallery": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "WebGL Shader Gallery"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/ravenrepo/nebulla-particle-library": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Nebulla Particle Library"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/terkelg/awesome-creative-coding": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Awesome Creative Coding"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/klaudioz/gradients": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Klaudioz Gradients"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/qc20/colourful-attraction": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Colourful Attraction"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/zoxilsi/studio": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Zoxilsi Studio"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/tdimino/claude-code-minoan": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Grainient Skill"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/inthepond/prompt-vfx": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Prompt VFX"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/vagmi/radiant": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Radiant"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/dragoon0x/typo": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Typo"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/pablostanley/typexperiments": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Typexperiments"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://www.howardyam.design/projects/bounshy": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Bounshy"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://ksawerykarczewski.com/rakuten-font-family": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Rakuten Variable Font"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://tricklekit.dev/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Trickle"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://tympanus.net/codrops/2026/04/10/the-exat-microsite-pushing-a-typography-showcase-to-new-creative-extremes": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Codrops Exat Microsite"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://www.framer.com/marketplace/plugins/text-effects-kit": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Text Effects Kit"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/lennystepn-hue/textalive": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "TextAlive"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://www.hontran.dev/blog/mat-voyce-case-study-award-winning-portfolio": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Mat Voyce Case Study"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://realmaker.de/texttweener": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "TextTweener"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://aicanvas.me/components/playful": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "AI Canvas Playful"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://www.behance.net/gallery/254081025/Kinetic-Type-07": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Kinetic Type 07"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://voidenergy.dev/kinetic-text": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Void Energy Kinetic Text"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://www.youtube.com/watch": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Interactive Developer"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://crucibleui.com/components/text/recast": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Crucible Recast"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://000h.cojeev.com/docs/falling-text": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Falling Text"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://atlassian.design/foundations/motion": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Atlassian Motion"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://xd.adobe.com/ideas/wp-content/uploads/2021/06/Animation-in-Design-Systems.pdf": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Animation in Design Systems"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://design.gitlab.com/brand-design/motion": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "GitLab Pajamas Motion"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://motion-studio.mtmograph.com/libraries/color": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Motion Studio Color"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://brand.github.com/motion/principles": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "GitHub Brand Motion"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://kaleidoscope.qwilr.com/design/guides/motion": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Qwilr Kaleidoscope"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://brand.gocardless.com/motion": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "GoCardless Motion"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://www.carbondesignsystem.com/building-blocks/foundations/motion/overview": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Carbon Motion"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://atlan.com/brand/motion": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Atlan Motion"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://designbetter.style/motion": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Designbetter Motion"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://www.designsystems.com/5-steps-for-including-motion-design-in-your-system": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Designsystems.com"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/happy-token/remotion-style-kit": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Remotion Style Kit"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://motion.dev/ui": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Motion UI"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/vfitter/framewave": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Framewave"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/mojs/mojs": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "mo.js"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/live2d/cubismwebframework": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Live2D Cubism Web"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/yoseiikegami/moyo": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Moyo"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/heyxianggao/motion-anything": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Motion Anything"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/monoton-music/nibi": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Nibi"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/torifo/animation-blob-morph": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Blob Morph Study"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/off-proxy/odorigu": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Odorigu"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/gatewai-dev/gitframes": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Gitframes"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/siroko/kansei": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Kansei"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/onwhyput/pv-tool": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "PV Tool"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://suplab.cc/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "SupLab"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://sailor.studio/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Sailor Studio"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://superfluidestudio.com/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Superfluide"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://www.asquareportal.com/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Asquareportal"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://pekingpeking.de/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "PEKINGPEKING"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://studiocarlos.fr/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Studio Carlos"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://sordello.net/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Nicolas Sordello"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://bewegtbildgrafik.de/studio": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Studio BBG"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://ggfx.com.br/en": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "GGfx"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://obj.studio/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "OBJ.Studio"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://vjsuave.com/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "VJ Suave"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://www.julienlevy.studio/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Julien Levy"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://geronimo-paris.fr/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "GERONIMO"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://astrolabe-studio.org/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Astrolabe Studio"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://lurestudio.org/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "LURE Studio"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://mostros.co/work/audiovisual-portfolio": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "MOSTROS"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://www.behance.net/zeofmotion": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Ze do Motion"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://p5js.org/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "p5.js"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://threejs.org/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Three.js"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://www.shadertoy.com/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Shadertoy"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://thebookofshaders.com/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "The Book of Shaders"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://www.openprocessing.org/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "OpenProcessing"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://rive.app/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Rive"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://www.shadergradient.co/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Shader Gradient"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://haikei.app/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Haikei"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://animista.net/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Animista"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://easings.net/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Easings Cheat Sheet"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://coolors.co/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Coolors"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://colorhunt.co/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Color Hunt"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://color.adobe.com/create/color-wheel": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Adobe Color Wheel"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://cssgradient.io/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "CSS Gradient"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://uigradients.com/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "uiGradients"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://www.meshgradients.com/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Mesh Gradients"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://mycolor.space/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "ColorSpace"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://paletton.com/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Paletton"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://gradient.shapefactory.co/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "ShapeFactory Gradient"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://cubic-bezier.com/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Cubic Bezier"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://www.svgbackgrounds.com/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "SVG Backgrounds"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://barba.js.org/docs/advanced/transitions": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Barba Transitions"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://swup.js.org/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Swup"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://highway.js.org/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Highway"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://reactbits.dev/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "React Bits"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://magicui.design/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Magic UI"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://ui.aceternity.com/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "Aceternity UI"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://github.com/oframe/ogl": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "OGL"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    },
+    "https://pixijs.com/": {
+      "canonicalCount": 1,
+      "originalRecordCount": 1,
+      "names": [
+        "PixiJS"
+      ],
+      "kinds": {
+        "reference": 1
+      },
+      "languages": {
+        "link": 1
+      }
+    }
+  }
+}

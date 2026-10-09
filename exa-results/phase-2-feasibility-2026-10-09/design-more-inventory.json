@@ -1,0 +1,72 @@
+[
+  {
+    "name": "ambient-material",
+    "url": "https://ambientcg.com/api/v3/assets?type=material&limit=1&include=type,relations,title",
+    "body": {
+      "totalResults": 2014,
+      "nextPageHttp": "https://ambientcg.com/api/v3/assets?type=material&sort=popular&limit=1&offset=1&include=type%2Crelations%2Ctitle",
+      "currentPageHttp": "https://ambientcg.com/api/v3/assets?type=material&sort=popular&limit=1&include=type%2Crelations%2Ctitle",
+      "previousPageHttp": null,
+      "assets": [
+        {
+          "id": "Fabric084",
+          "type": "material",
+          "relations": {
+            "parents": [],
+            "children": [],
+            "variations": [],
+            "next": null,
+            "previous": "Fabric083"
+          },
+          "title": "Fabric 084"
+        }
+      ]
+    },
+    "responseSha256": "441bc1f16e8a485a8db70a3f20d57c15340204bf8627cbb3cbb68d197430d24e"
+  },
+  {
+    "name": "ambient-surface-image",
+    "url": "https://ambientcg.com/api/v3/assets?type=material,atlas,decal,plain-image&limit=1&include=type,relations,title",
+    "body": {
+      "totalResults": 2211,
+      "nextPageHttp": "https://ambientcg.com/api/v3/assets?type=material%2Catlas%2Cdecal%2Cplain-image&sort=popular&limit=1&offset=1&include=type%2Crelations%2Ctitle",
+      "currentPageHttp": "https://ambientcg.com/api/v3/assets?type=material%2Catlas%2Cdecal%2Cplain-image&sort=popular&limit=1&include=type%2Crelations%2Ctitle",
+      "previousPageHttp": null,
+      "assets": [
+        {
+          "id": "Fabric084",
+          "type": "material",
+          "relations": {
+            "parents": [],
+            "children": [],
+            "variations": [],
+            "next": null,
+            "previous": "Fabric083"
+          },
+          "title": "Fabric 084"
+        }
+      ]
+    },
+    "responseSha256": "54f6287668622594a9a09296aa1a8f13cbda5e7089ccf5a3bcded53366c72adb"
+  },
+  {
+    "name": "heropattern-tree",
+    "url": "https://api.github.com/repos/sschoger/hero-patterns/git/trees/master?recursive=1",
+    "error": "HTTP Error 403: rate limit exceeded"
+  },
+  {
+    "name": "subtlepatterns-tree",
+    "url": "https://api.github.com/repos/atlemo/SubtlePatterns/git/trees/master?recursive=1",
+    "error": "HTTP Error 403: rate limit exceeded"
+  },
+  {
+    "name": "coolshapes-tree",
+    "url": "https://api.github.com/repos/realvjy/coolshapes/git/trees/main?recursive=1",
+    "error": "HTTP Error 403: rate limit exceeded"
+  },
+  {
+    "name": "coolshapes-react-tree",
+    "url": "https://api.github.com/repos/realvjy/coolshapes-react/git/trees/main?recursive=1",
+    "error": "HTTP Error 403: rate limit exceeded"
+  }
+]

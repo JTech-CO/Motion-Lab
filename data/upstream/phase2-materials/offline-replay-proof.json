@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-09",
+  "deterministic": true,
+  "catalogSha256Before": "9e5eaecb0e9cfebaa8991bc7c7f9efb41d97edc7213d9a2387d4414e79620362",
+  "catalogSha256After": "9e5eaecb0e9cfebaa8991bc7c7f9efb41d97edc7213d9a2387d4414e79620362",
+  "requests": 0,
+  "accepted": 494,
+  "originalsRetained": 494,
+  "webJpegsRetained": 494,
+  "decisionsIncluded": 494,
+  "decisionStatuses": {
+    "rejected": 873,
+    "accepted": 494,
+    "family-merged": 27
+  },
+  "cachedUrlsAllowlisted": 1990,
+  "auditSummarySha256": "58b2db126d057be68217a0d26d64ba10589c737b0ca51d68e3463a57d1bbb24f",
+  "currentImporterSha256": "7e5ba35a24018557713516911e6fceb8e73e6c479b96b988c17111d1f7e18f00",
+  "cacheValidation": "Every registered cached URL passes the final importer HTTPS host/path allowlist"
+}

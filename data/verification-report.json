@@ -1,30 +1,42 @@
 {
   "verifiedAt": "2026-10-09",
-  "total": 6074,
-  "originalIdentities": 6108,
+  "total": 10289,
+  "storedAssets": 10001,
+  "domains": {
+    "motion": 3345,
+    "design": 6656
+  },
+  "minimumStored": 10000,
+  "originalIdentities": 10323,
   "mergedGroups": 20,
   "aliases": 34,
   "variantRecords": 54,
   "repairedCompositions": 3,
-  "added": 3955,
+  "added": 8170,
   "inputCounts": {
     "css-wave-items.json": 644,
     "vector-wave-items.json": 1857,
-    "color-wave-items.json": 1454
+    "color-wave-items.json": 1454,
+    "phase2-motion-items.json": 510,
+    "phase2-design-items.json": 3157,
+    "phase2-material-items.json": 494,
+    "phase2-game-design-items.json": 54
   },
   "excluded": 0,
   "kinds": {
-    "code": 3357,
+    "code": 7078,
+    "image": 494,
     "palette": 2429,
     "reference": 288
   },
   "codeLanguages": {
-    "css": 1964,
+    "css": 2307,
     "glsl": 123,
-    "svg": 1270
+    "svg": 4648
   },
   "checks": [
     "minimum",
+    "stored-minimum-and-domain-counts",
     "schema",
     "unique-ids",
     "full-source-fields-and-notices",
@@ -36,11 +48,14 @@
     "compact-index",
     "static-alias-map",
     "all-category-collections",
+    "domain-collections",
+    "image-files-and-digests",
     "read-only-sqlite-records",
     "sqlite-aliases",
     "legacy-get-preserves-original-source",
     "sqlite-integrity",
-    "search-last-page"
+    "search-last-page",
+    "domain-search"
   ],
-  "catalogSha256": "84051c3b655b44cf349525b9263015f5aff10d4add9a93c00f406604945fa2d6"
+  "catalogSha256": "fe89f9b0d70264b655e532f9bea377169826cf2e6035e3916d631a490c2ba680"
 }

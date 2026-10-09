@@ -1,0 +1,63 @@
+{
+  "specimens": [
+    {
+      "id": "phase2-motion-css-loaders-bubble21",
+      "codeSha256": "11402fc062a5d543ba56fa6263dc107cd744e6e2c946b3e972d522f786c8d082",
+      "sourceCommit": "e9078959e48c39b97613f333c14aac1c3d765c1f",
+      "sourceUrl": "https://github.com/vineethtrv/css-loader/blob/e9078959e48c39b97613f333c14aac1c3d765c1f/src/loaders/bubble/bubble21.module.css"
+    },
+    {
+      "id": "phase2-motion-css-loaders-circle13",
+      "codeSha256": "8ced8c64371e2084c8d18bd8a9dd926fd4732bb9820bd91214e988fbd34884de",
+      "sourceCommit": "e9078959e48c39b97613f333c14aac1c3d765c1f",
+      "sourceUrl": "https://github.com/vineethtrv/css-loader/blob/e9078959e48c39b97613f333c14aac1c3d765c1f/src/loaders/circle/circle13.module.css"
+    },
+    {
+      "id": "phase2-motion-css-loaders-circle18",
+      "codeSha256": "1d10b6c079e8e4b80cce28208341aa87a79031dad48579f45e2603dd9d019e8d",
+      "sourceCommit": "e9078959e48c39b97613f333c14aac1c3d765c1f",
+      "sourceUrl": "https://github.com/vineethtrv/css-loader/blob/e9078959e48c39b97613f333c14aac1c3d765c1f/src/loaders/circle/circle18.module.css"
+    },
+    {
+      "id": "phase2-motion-css-loaders-line07",
+      "codeSha256": "c06c652e6f68e357d2fd66651138dcdffcf379b31d52431dd670c682c334b729",
+      "sourceCommit": "e9078959e48c39b97613f333c14aac1c3d765c1f",
+      "sourceUrl": "https://github.com/vineethtrv/css-loader/blob/e9078959e48c39b97613f333c14aac1c3d765c1f/src/loaders/line/line07.module.css"
+    },
+    {
+      "id": "phase2-motion-css-loaders-line08",
+      "codeSha256": "3f39e109b3a571c12175cedd336133b15bdf87174eb7a287104f040cb0eef9ea",
+      "sourceCommit": "e9078959e48c39b97613f333c14aac1c3d765c1f",
+      "sourceUrl": "https://github.com/vineethtrv/css-loader/blob/e9078959e48c39b97613f333c14aac1c3d765c1f/src/loaders/line/line08.module.css"
+    },
+    {
+      "id": "phase2-motion-css-loaders-rect20",
+      "codeSha256": "49d8700c6dfb9ad50f04bb36ed5ff89e33d682e49d27db1ce16882ca38fe7a04",
+      "sourceCommit": "e9078959e48c39b97613f333c14aac1c3d765c1f",
+      "sourceUrl": "https://github.com/vineethtrv/css-loader/blob/e9078959e48c39b97613f333c14aac1c3d765c1f/src/loaders/rect/rect20.module.css"
+    },
+    {
+      "id": "phase2-motion-css-loaders-skeleton07",
+      "codeSha256": "349e693420e19679d154d16986d6f7cfbb683b78d9028a7da54f49a3fa0128a7",
+      "sourceCommit": "e9078959e48c39b97613f333c14aac1c3d765c1f",
+      "sourceUrl": "https://github.com/vineethtrv/css-loader/blob/e9078959e48c39b97613f333c14aac1c3d765c1f/src/loaders/skeleton/skeleton07.module.css"
+    },
+    {
+      "id": "phase2-motion-css-loaders-skeleton08",
+      "codeSha256": "2cabca48c84fb1d2ca9fddc1817f9670ed7139597bbb8fb867c717ac450cde60",
+      "sourceCommit": "e9078959e48c39b97613f333c14aac1c3d765c1f",
+      "sourceUrl": "https://github.com/vineethtrv/css-loader/blob/e9078959e48c39b97613f333c14aac1c3d765c1f/src/loaders/skeleton/skeleton08.module.css"
+    }
+  ],
+  "comparisonHtmlSha256": "a648555e4ec79ef8d3f61ce6aef5458eca3e3e338c7c269a934a02f8f196a83e",
+  "comparisonJsSha256": "1a29bfa61162f1aa35f6f75b49d671fb68d9119ed8886c3552534e7a2ffa5a2f",
+  "upstreamJavaScriptExecution": false,
+  "rendererSha256": "46ee82db97f5139b23e4e2f969c7aa904bfb90401e3e0cd7b7b4aa0f7e49da5a",
+  "phase2MotionInputSha256": "9076417e392a6439ec32defa258bce5a84f6fb018e827169e861e30547a68bea",
+  "sourceJavaScriptExecuted": false,
+  "temporalFramesCompared": false,
+  "compare-qa.htmlSha256": "a648555e4ec79ef8d3f61ce6aef5458eca3e3e338c7c269a934a02f8f196a83e",
+  "compare-qa.jsSha256": "1a29bfa61162f1aa35f6f75b49d671fb68d9119ed8886c3552534e7a2ffa5a2f",
+  "composition-comparison-final.pngSha256": "c5c59a7d810031cfc9a30b67d7f5e4f8253b771ebf4fe26a5c39b8b4836ab865",
+  "comparison-browser.htmlSha256": "c9aea4265fb96495be28b28ffbbb83ac646309debae62322febeb6eb3697cc8a"
+}

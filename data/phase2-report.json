@@ -1,0 +1,431 @@
+{
+  "date": "2026-10-09",
+  "objective": "Qualify original motion first and expand patterns, shapes, materials and colors as a separate static Design domain. Reach 10000 stored assets excluding references and preserved variants.",
+  "complete": true,
+  "baseline": {
+    "browseEntries": 6074,
+    "storedAssets": 5786,
+    "referenceEntries": 288,
+    "comparisonOriginalIdentities": 6108,
+    "repairedFullBodies": 3
+  },
+  "final": {
+    "total": 10289,
+    "storedAssets": 10001,
+    "sources": 163,
+    "domains": {
+      "design": 6656,
+      "motion": 3345
+    },
+    "kinds": {
+      "code": 7078,
+      "image": 494,
+      "palette": 2429,
+      "reference": 288
+    },
+    "categories": {
+      "animation": 2073,
+      "background": 154,
+      "gradient": 497,
+      "interaction": 257,
+      "loader": 549,
+      "material": 494,
+      "palette": 2457,
+      "pattern": 69,
+      "reference": 135,
+      "shader": 13,
+      "shape": 3010,
+      "transition": 400,
+      "typography": 181
+    },
+    "aliases": 34,
+    "mergedGroups": 20,
+    "variantRecords": 54,
+    "renderableVariants": 49
+  },
+  "addedStoredAssets": 4215,
+  "waves": [
+    {
+      "name": "motion",
+      "accepted": 510,
+      "input": {
+        "path": "data/phase2-motion-items.json",
+        "sha256": "9076417e392a6439ec32defa258bce5a84f6fb018e827169e861e30547a68bea"
+      },
+      "importer": {
+        "path": "scripts/import_phase2_motion.py",
+        "sha256": "0534daa7a2cb3b7bbf79e5718ce8b2b6097976867ab2b87a95cefd93ecd4ee11"
+      },
+      "qualification": {
+        "path": "data/upstream/phase2-motion/report.json",
+        "sha256": "1c2d8ea1b112fc554c4d0da568670ac9e12a85413b3c8b1387e2abc117cc0042"
+      }
+    },
+    {
+      "name": "design",
+      "accepted": 3157,
+      "input": {
+        "path": "data/phase2-design-items.json",
+        "sha256": "c03896b1177c79d16a8fb03a5687c44121cd8e9b48eae833da0fafa69bfba23d"
+      },
+      "importer": {
+        "path": "scripts/import_phase2_design.py",
+        "sha256": "c047beb039a6e35e84b98ef9cb8fde08147cf772b1231af0c17479aa2f3508de"
+      },
+      "qualification": {
+        "path": "data/upstream/phase2-design/report.json",
+        "sha256": "1adea9a0e9ccd81c929b4bb9fd1a2eb3a3a64f8867527010674ee589bef44e4c"
+      }
+    },
+    {
+      "name": "materials",
+      "accepted": 494,
+      "input": {
+        "path": "data/phase2-material-items.json",
+        "sha256": "9e5eaecb0e9cfebaa8991bc7c7f9efb41d97edc7213d9a2387d4414e79620362"
+      },
+      "importer": {
+        "path": "scripts/import_phase2_materials.py",
+        "sha256": "7e5ba35a24018557713516911e6fceb8e73e6c479b96b988c17111d1f7e18f00"
+      },
+      "qualification": {
+        "path": "data/upstream/phase2-materials/report.json",
+        "sha256": "91f0853b21e568bc9bb47a97ab362655f2e8b1b4f7911ea879443c756493f297"
+      }
+    },
+    {
+      "name": "game-design",
+      "accepted": 54,
+      "input": {
+        "path": "data/phase2-game-design-items.json",
+        "sha256": "0bb0ea0919d247df64300a6b7204bf5e4dd9c4490425878eefbdb1a6040e07fd"
+      },
+      "importer": {
+        "path": "scripts/import_phase2_game_design.py",
+        "sha256": "2156d56589ca0c70562ae344ca693f29076008070a2eb77befc043c293d72e2d"
+      },
+      "qualification": {
+        "path": "data/upstream/phase2-game-design/report.json",
+        "sha256": "6ac465ce51ecbf7c1eb0ac362d717443cddab735e5b4ffb64081fa318f1bb136"
+      }
+    }
+  ],
+  "catalogSha256": "fe89f9b0d70264b655e532f9bea377169826cf2e6035e3916d631a490c2ba680",
+  "verification": {
+    "path": "data/verification-report.json",
+    "sha256": "349660b9cd65b364d51cf803c3f2aa97cea0f278f1234673d483023dfeb7f0e0",
+    "minimumStored": 10000,
+    "checks": [
+      "minimum",
+      "stored-minimum-and-domain-counts",
+      "schema",
+      "unique-ids",
+      "full-source-fields-and-notices",
+      "palette-code-equals-colors",
+      "all-original-input-identities",
+      "reviewed-consolidation-policy",
+      "pinned-source-component-repairs",
+      "full-web-json",
+      "compact-index",
+      "static-alias-map",
+      "all-category-collections",
+      "domain-collections",
+      "image-files-and-digests",
+      "read-only-sqlite-records",
+      "sqlite-aliases",
+      "legacy-get-preserves-original-source",
+      "sqlite-integrity",
+      "search-last-page",
+      "domain-search"
+    ]
+  },
+  "consolidation": {
+    "path": "data/consolidation-recheck.json",
+    "sha256": "acc20485202321d1af738be02d27e30818c1ff295ea16762d4bcbc9c3b42f5d7",
+    "passed": true,
+    "scope": "Current canonical top-level entries only; preserved variants are intentionally related and are not counted as separate duplicates.",
+    "summary": {
+      "exactGroupCount": 0,
+      "nearGroupCount": 0,
+      "candidatePairCount": 33,
+      "unreviewedCandidatePairCount": 0,
+      "errorItemCount": 0
+    },
+    "coverage": {
+      "css": {
+        "itemCount": 2307,
+        "parsedItemCount": 2307,
+        "pairUniverse": 2659971,
+        "comparedPairs": 2659971,
+        "unparsedPairCount": 0,
+        "deepComparedPairs": 3148,
+        "exactPairCount": 0,
+        "nearPairCountExcludingExact": 0,
+        "candidatePairCount": 22,
+        "exactGroupCount": 0,
+        "nearGroupCount": 0,
+        "familyGroupCount": 91
+      },
+      "svg": {
+        "itemCount": 4648,
+        "parsedItems": 4648,
+        "errorItems": 0,
+        "pairUniverse": 10799628,
+        "comparedPairs": 10799628,
+        "skippedPairsForParseErrors": 0,
+        "pairClassificationCounts": {
+          "different-under-defined-model": 10792369,
+          "family-only": 7259
+        },
+        "sources": {
+          "Colorcet": 57,
+          "Coolshapes": 97,
+          "Game Icons": 54,
+          "Hero Patterns": 69,
+          "Lucide": 538,
+          "Material Line Icons": 1214,
+          "Meteocons / Bas Milius": 167,
+          "Phosphor Icons": 453,
+          "SVG Spinners": 44,
+          "Sam Herbert SVG Loaders": 12,
+          "Scientific Colour Maps": 32,
+          "Tabler Icons": 1868,
+          "Wes Anderson": 21,
+          "cmocean": 22
+        },
+        "elementCounts": {
+          "animate": 5592,
+          "animateTransform": 795,
+          "circle": 791,
+          "clipPath": 120,
+          "defs": 727,
+          "ellipse": 10,
+          "feBlend": 2,
+          "feColorMatrix": 2,
+          "feGaussianBlur": 2,
+          "filter": 2,
+          "g": 1906,
+          "line": 29,
+          "linearGradient": 152,
+          "mask": 469,
+          "path": 15565,
+          "polygon": 2,
+          "rect": 660,
+          "set": 517,
+          "stop": 28699,
+          "svg": 4648,
+          "symbol": 403,
+          "title": 1,
+          "use": 404
+        },
+        "animationElementCounts": {
+          "animate": 5592,
+          "animateTransform": 795,
+          "set": 517
+        }
+      },
+      "palette": {
+        "itemCount": 2429,
+        "validItemCount": 2429,
+        "pairUniverse": 2948806,
+        "comparedPairs": 2948806,
+        "sameCountPairs": 899392,
+        "differentCountPairs": 2049414,
+        "exactOrderedPairs": 0,
+        "exactReorderedPairs": 0,
+        "exactSubsetPairs": 780,
+        "centroidBoundRejectedPairs": 898671,
+        "perceptualCandidatePairs": 721,
+        "nearOrderedPairs": 0,
+        "nearReversedPairs": 0,
+        "nearPermutedPairs": 0,
+        "symmetricNearestBoundRejectedPairs": 721,
+        "optimalAssignmentPairs": 0,
+        "optimalAssignmentRejectedPairs": 0,
+        "invalidItemCount": 0,
+        "uncomparedPairsDueToInvalidItems": 0,
+        "exactGroupCount": 0,
+        "nearOrderedPairCount": 0,
+        "nearReorderedCandidatePairCount": 0,
+        "familyGroupCount": 849
+      },
+      "glsl": {
+        "itemCount": 123,
+        "pairUniverse": 7503,
+        "comparedPairs": 7503,
+        "parsedItems": 123
+      },
+      "reference": {
+        "itemCount": 288,
+        "pairUniverse": 41328,
+        "identityComparedPairs": 41328,
+        "visualComparedPairs": 0,
+        "metadataOnlyItems": 288
+      },
+      "image": {
+        "itemCount": 494,
+        "pairUniverse": 121771,
+        "pairComparisons": 121771
+      }
+    },
+    "candidateDecisions": "All 33 candidates have valid source/code/context-bound decisions; no unreviewed candidate remains. Related preserved variants are excluded from canonical duplicate counting."
+  },
+  "interfaces": {
+    "path": "data/phase2-interface-qa.json",
+    "sha256": "ce5ee55227911b038baf230fd33fae6347e144ee737595a89b879d3294260986",
+    "complete": true,
+    "checkCount": 16,
+    "scope": "Actual final catalog through separate CLI/MCP processes and existing loopback HTTP server; no external AI-client configuration."
+  },
+  "browser": {
+    "path": "data/phase2-browser-qa.json",
+    "sha256": "81fcaec1544a2f78c808cf0277eddf95f990f2ef7687c64f1ded9954a34c42c3",
+    "complete": true,
+    "checkCount": 19,
+    "browser": "Chrome/154.0.8037.98",
+    "rendererSha256": "46ee82db97f5139b23e4e2f969c7aa904bfb90401e3e0cd7b7b4aa0f7e49da5a",
+    "interfaceSha256": "a368467f022e96bd4e6376719886352998f3b408bf06c25b93383505dec3edb3",
+    "qaHarness": {
+      "path": "tests/phase2-browser-check.js",
+      "sha256": "489a7de4d9486714159a01388c396c706a83a37e4e37886ca99c90a0b0409c49"
+    },
+    "screenshot": ".cache/phase2-ui-qa/design-library.png"
+  },
+  "sourceRendererQualification": {
+    "motion": {
+      "path": "data/upstream/phase2-motion/browser-qa.json",
+      "sha256": "9d72213875fe73ef8f81fcb9b06a78cb2fc14ef9d2b986850a8bc5d37bd5011f",
+      "cssReady": 343,
+      "svgReady": 167,
+      "testedCatalogSha256": "f0a9d9d2b405996486f493b2e8b9cab5c93cf68a2e00e02c714e521365ac2ab8",
+      "qualifiedInputStillMatches": true,
+      "rendererStillMatches": true
+    },
+    "design": {
+      "path": "data/upstream/phase2-design/product-renderer-qa.json",
+      "sha256": "71ea620f0aadef17f28b40a1c48178bf73aa15d235f3db6504708870b4c94863",
+      "svgReady": 3157,
+      "fullTagInventoriesPreserved": 3157,
+      "testedCatalogSha256": "f0a9d9d2b405996486f493b2e8b9cab5c93cf68a2e00e02c714e521365ac2ab8",
+      "qualifiedInputStillMatches": true,
+      "rendererStillMatches": true
+    },
+    "allCss": {
+      "path": "data/upstream/phase2-design/css-renderer-qa.json",
+      "sha256": "a2fb452ca1077c307a502c745186a548594b40ede33e286ff825138abb3c7e9c",
+      "ready": 2307,
+      "securityAndPreservationChecks": 18,
+      "testedCatalogSha256": "f0a9d9d2b405996486f493b2e8b9cab5c93cf68a2e00e02c714e521365ac2ab8",
+      "rendererStillMatches": true
+    },
+    "game": {
+      "path": "data/upstream/phase2-game-design/final-renderer-qa.json",
+      "sha256": "9028388b8401cd640c8742459ef926c39eed5af43dc92f36b995bee5e13528f6",
+      "ready": 54,
+      "catalogSha256": "fe89f9b0d70264b655e532f9bea377169826cf2e6035e3916d631a490c2ba680",
+      "independent191OriginalReview": {
+        "path": "data/upstream/phase2-game-design/independent-review.json",
+        "sha256": "93ee02af1fef0500dc9ef6dba8a35f7d1d977089282f308b22855f7270ad39d9"
+      },
+      "deferredContourComparatorCount": 634,
+      "offlineRebuild": {
+        "path": "data/upstream/phase2-game-design/offline-rebuild-proof.json",
+        "sha256": "0a7f4b8008c2ac8dc12748131c9d8440beddb0715736564a645efec28fcbc175",
+        "retainedCount": 54,
+        "networkUsed": false,
+        "integratedCatalogIsComparisonInput": false,
+        "mainInputRewritten": false
+      }
+    },
+    "continuity": "Motion, design and all-CSS source renderer QA ran before the last 54 static shapes were added. Their recorded catalog hashes are preserved. Frozen qualified inputs and renderer hashes match the final files; final verification independently checks all canonical input source fields/notices. Game, UI and interfaces were tested against the final catalog.",
+    "sourceJavaScriptExecuted": false,
+    "allAnimationFramesPixelCompared": false
+  },
+  "materialQualification": {
+    "path": "data/upstream/phase2-materials/audit-summary.json",
+    "sha256": "58b2db126d057be68217a0d26d64ba10589c737b0ca51d68e3463a57d1bbb24f",
+    "originalSha256Matches": 494,
+    "storedJpegAllPairs": 121771,
+    "exactGroups": 0,
+    "nearGroups": 0,
+    "errors": 0,
+    "offlineReplay": {
+      "path": "data/upstream/phase2-materials/offline-replay-proof.json",
+      "sha256": "03fa0b3930b3bb71eabdf1f0157bb1e582157ae2a7dec818050219630d55d6af"
+    },
+    "offlineRequests": 0,
+    "channels": "Only actual original Color/Diffuse maps; no auxiliary PBR channel or rendered PBR preview is stored."
+  },
+  "tests": {
+    "python": {
+      "command": "python -m unittest discover -s tests -p 'test_*.py'",
+      "passed": 166,
+      "failed": 0
+    },
+    "variantDomModel": {
+      "command": "node tests/variant-ui-check.js",
+      "canonicalRecords": 10289,
+      "families": 20,
+      "selectableOriginals": 49,
+      "aliases": 34,
+      "repairedDoms": 3,
+      "passed": true,
+      "actualBrowserRendering": false
+    },
+    "javascriptSyntax": {
+      "files": [
+        "dist/app.js",
+        "dist/preview.js",
+        "tests/phase2-browser-check.js"
+      ],
+      "passed": true
+    },
+    "skillValidation": {
+      "path": "skills/motion-lab/SKILL.md",
+      "passed": true
+    }
+  },
+  "storage": {
+    "catalogBytes": 86476170,
+    "compactIndexBytes": 4822311,
+    "sqliteBytes": 67239936,
+    "acceptedOriginalMaterialBytes": 525144200,
+    "storedMaterialJpegBytes": 145071302,
+    "fullJson": "Compact whitespace only; complete source strings, full notices and every record field remain.",
+    "sqlitePayload": "Bounded MLZ1 compressed BLOB; old TEXT payloads remain readable; all interfaces return full JSON.",
+    "runtime": "Python standard library; qualification and image rechecks use pinned optional dependencies.",
+    "checkoutLineEndings": "JSON and hash-bound Python/JavaScript/HTML/CSS/Markdown use LF on Windows and POSIX; upstream artifacts remain byte-exact with -text."
+  },
+  "securityReview": {
+    "scope": "Changed code and public read-only interfaces; eight project baseline controls reviewed.",
+    "preserved": [
+      "Parameterized read-only SQL and closed filters",
+      "Metadata rendered through textContent",
+      "Bounded validated local image descriptors/files/hash",
+      "CSS declaration bounds and external URL blocking",
+      "Local SVG IDs/clocks and active-content blocking",
+      "Loopback Host/Origin and bounded API calls"
+    ],
+    "fixed": [
+      "Reject nonfinite values from JSON numeric overflow in TEXT and compressed payloads",
+      "Require both domain export files even when one domain is empty"
+    ],
+    "personalDataOrSecretsAdded": false
+  },
+  "futureSourcePreflight": {
+    "report": {
+      "path": "data/upstream/phase2-color-preflight/plotly-preflight-2026-10-09.json",
+      "sha256": "85a9d6c2fa57ca644f254994b38ebc18d63586f1e18093317170b586e9b88a46"
+    },
+    "admittedAssets": 0,
+    "reason": "Numerical novelty alone does not qualify original provenance; upstream author notices and color-family grouping require separate complete qualification."
+  },
+  "limitations": [
+    "Structural, semantic, numerical and image criteria do not establish universal perceptual uniqueness.",
+    "Contour comparison for listed complex original SVGs is deferred; these remain in structural/concept review.",
+    "Every animation frame was not pixel-compared.",
+    "Unsupported Paper Shaders and p5 sources were held without substitute previews.",
+    "Source qualification reports document source revisions, full license notices and actual supported scope.",
+    "No external AI-client configuration, push or publication was performed."
+  ]
+}

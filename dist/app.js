@@ -1,17 +1,18 @@
 'use strict';
 (() => {
   const $ = (id) => document.getElementById(id);
-  const TYPES = ['animation','transition','typography','interaction','background','loader','palette','gradient','shader','reference'];
+  const TYPES = ['animation','transition','typography','interaction','background','loader','palette','gradient','shader','reference','pattern','shape','material'];
   const EFFECTS = ['fade','slide','scale','rotate','flip','spring','shake','pulse','mask','glitch','pixel','wave','text','stagger','blur','other'];
   const COMPONENTS = ['text','shape','image','particles','grid','stroke','mask','layer','color'];
-  const USES = ['intro','outro','scene-change','status','attention','feedback','ambient','color-system','reference'];
+  const USES = ['intro','outro','scene-change','status','attention','feedback','ambient','color-system','reference','design-kit'];
   const PAGE_SIZES = new Set([20,50,100]);
+  const requestedDomain = new URLSearchParams(location.search).get('domain');
   const ROOT = 'C:/path/to/Motion-Lab';
   const REPOSITORY = 'https://github.com/JTech-CO/Motion-Lab';
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   const cache = new WeakMap(), positions = new Map();
   const openFacets = new Map([['assetType',true],['effects',true],['components',false],['useCases',false],['license',true]]);
-  const state = {lang:'ko',loaded:false,error:false,items:[],sources:[],data:null,view:'assets',query:'',sort:'balanced',page:0,pageSize:20,results:[],filters:{assetType:new Set(),effects:new Set(),components:new Set(),useCases:new Set(),license:new Set()},paused:reduced.matches,detail:null,detailVariant:null,detailTab:'overview',interaction:false,connectTab:'mcp'};
+  const state = {lang:'ko',loaded:false,error:false,items:[],sources:[],data:null,view:['motion','design','references'].includes(requestedDomain)?requestedDomain:'motion',query:'',sort:'balanced',page:0,pageSize:20,results:[],filters:{assetType:new Set(),effects:new Set(),components:new Set(),useCases:new Set(),license:new Set()},paused:reduced.matches,detail:null,detailVariant:null,detailTab:'overview',interaction:false,connectTab:'mcp'};
   let libraryActive=!document.getElementById('home-view'),resolveCatalog;
   const catalogReady=new Promise(resolve=>{resolveCatalog=resolve;});
   let galleryPreviews=[],detailPreview=null,searchTimer,toastTimer,returnId='';
@@ -32,6 +33,11 @@
   };
   Object.assign(copyWords.ko,{variant:'원본 변형',variants:'개 변형',variantHint:'같은 자료로 병합한 원본입니다. 변형을 선택하면 해당 코드, 색상, 출처와 라이선스를 확인할 수 있습니다.',variantKeyboard:'↑ ↓ 변형 선택 · Enter 확인 · ← → 다른 도구로 이동',mergedCollection:'병합 자료'});
   Object.assign(copyWords.en,{variant:'Original variant',variants:'variants',variantHint:'Original records merged into this asset. Select a variant to inspect its actual code, colors, source, and license.',variantKeyboard:'↑ ↓ choose a variant · Enter confirms · ← → move to other tools',mergedCollection:'Merged collection'});
+  Object.assign(copyWords.ko,{motion:'모션',design:'디자인',designTitle:'디자인 라이브러리',designDescription:'패턴, 형상, 팔레트와 소재를 비교하고 원본 에셋과 출처를 함께 가져오세요.',domain:'분야',imageBasis:'저장된 이미지',downloadImage:'소재 이미지 다운로드 ↓',imageSize:'이미지 크기',imageSource:'저장된 정적 디자인 소재'});
+  Object.assign(copyWords.en,{motion:'Motion',design:'Design',designTitle:'Design library',designDescription:'Compare patterns, shapes, color systems and materials with their original assets and provenance.',domain:'Domain',imageBasis:'Stored image',downloadImage:'Download material image ↓',imageSize:'Image dimensions',imageSource:'Stored static design material'});
+  labelData.assetType[1].push('패턴','형상','소재');labelData.assetType[2].push('Pattern','Shape','Material');
+  labelData.useCases[1].push('디자인 구성');labelData.useCases[2].push('Design kit');
+  labelData.techniques[0].push('svg-geometry','image-texture','static-design');labelData.techniques[1].push('SVG 기하','이미지 텍스처','정적 디자인');labelData.techniques[2].push('SVG geometry','Image texture','Static design');
   const t=(key)=>copyWords[state.lang][key]||key;
   copyWords.ko.keyboard='방향키 탐색 · Enter 실행 · 코드 방향키 스크롤 / Enter 복귀 · / 검색 · Tab도 사용 가능';
   copyWords.en.keyboard='Arrows browse · Enter activates · Code arrows scroll / Enter returns · / search · Tab also supported';
@@ -55,6 +61,8 @@
   function button(content,className,action){const el=node('button',className,content);el.type='button';el.addEventListener('click',action);return el;}
   function safeUrl(value){if(typeof value!=='string'||value.length>2048)return null;try{const u=new URL(value);return u.protocol==='https:'&&!u.username&&!u.password?u.href:null;}catch(_){return null;}}
   function localOriginal(item){return item.sourceName==='Motion Lab Originals'&&item.verification==='original-authored';}
+  function domainOf(item){return item.kind==='reference'?'references':['motion','design'].includes(item.analysis?.domain)?item.analysis.domain:['motion','design'].includes(item.domain)?item.domain:['palette','gradient','pattern','shape','material'].includes(item.category)||item.kind==='image'?'design':'motion';}
+  function imagePath(item){const path=item.image?.path;return item.kind==='image'&&typeof path==='string'&&/^assets\/materials\/[a-z0-9][a-z0-9-]{0,139}\.jpg$/.test(path)?'./'+path:null;}
   function sourceUrl(item){return localOriginal(item)&&TYPES.includes(item.category)?'./collections/'+item.category+'.json#'+encodeURIComponent(text(item.id,250)):safeUrl(item.sourceUrl);}
   function link(content,url,className='outlined-button'){if(!url)return null;const el=node('a',className,content);el.href=url;el.target='_blank';el.rel='noopener noreferrer';return el;}
   function needsReview(item){return item.kind==='reference'||!item.license||/reference|unknown|unverified|확인|all rights|not specified|not verified|not stated|unspecified|not granted|custom|personal|varies/i.test(item.license);}
@@ -64,7 +72,7 @@
   function meta(item){
     if(cache.has(item))return cache.get(item);
     const a=item.analysis&&typeof item.analysis==='object'?item.analysis:null;
-    const result={assetType:a&&TYPES.includes(a.assetType)?a.assetType:TYPES.includes(item.category)?item.category:'reference',effects:a?strings(a.effects).filter((v)=>EFFECTS.includes(v)):[],components:a?strings(a.components).filter((v)=>COMPONENTS.includes(v)):[],useCases:a?strings(a.useCases).filter((v)=>USES.includes(v)):[],techniques:a?strings(a.techniques):[],license:needsReview(item)?'review':'stated',analysis:a};
+    const result={domain:domainOf(item),assetType:a&&TYPES.includes(a.assetType)?a.assetType:TYPES.includes(item.category)?item.category:'reference',effects:a?strings(a.effects).filter((v)=>EFFECTS.includes(v)):[],components:a?strings(a.components).filter((v)=>COMPONENTS.includes(v)):[],useCases:a?strings(a.useCases).filter((v)=>USES.includes(v)):[],techniques:a?strings(a.techniques):[],license:needsReview(item)?'review':'stated',analysis:a};
     const translations=['ko','en'].flatMap((lang)=>['assetType','effects','components','useCases','techniques'].flatMap((field)=>(Array.isArray(result[field])?result[field]:[result[field]]).map((v)=>label(field,v,lang))));
     const originals=originalRecords(item).flatMap((entry)=>[text(entry.id),text(entry.title),text(entry.description,6000),text(entry.sourceName),text(entry.license),strings(entry.tags).join(' ')]);
     result.haystack=[text(item.title),text(item.description,6000),text(item.sourceName),text(item.id),text(item.license),text(item.language),strings(item.tags).join(' '),strings(item.aliases,1000).join(' '),...originals,strings(a&&a.properties,120).join(' '),result.techniques.join(' '),strings(a&&a.evidence&&a.evidence.signals,120).join(' '),...translations].join(' ').toLocaleLowerCase();
@@ -73,11 +81,12 @@
   function matches(item,omit){
     const m=meta(item);
     if(state.view==='references'?item.kind!=='reference':item.kind==='reference')return false;
+    if(['motion','design'].includes(state.view)&&m.domain!==state.view)return false;
     if(state.query.toLocaleLowerCase().split(/\s+/).filter(Boolean).slice(0,20).some((v)=>!m.haystack.includes(v)))return false;
     return Object.keys(state.filters).every((field)=>{const selected=state.filters[field];return field===omit||!selected.size||(Array.isArray(m[field])?m[field]:[m[field]]).some((v)=>selected.has(v));});
   }
   function balanced(items){
-    const order=['animation','loader','transition','typography','interaction','background','shader','palette','gradient','reference'],buckets=new Map();
+    const order=['animation','loader','transition','typography','interaction','background','shader','palette','gradient','pattern','shape','material','reference'],buckets=new Map();
     const compare=(a,b)=>text(a.title).localeCompare(text(b.title),'en',{numeric:true})||text(a.id).localeCompare(text(b.id));
     order.forEach((type)=>{
       const groups=new Map();items.filter((item)=>meta(item).assetType===type).forEach((item)=>{const key=text(item.sourceName,300);if(!groups.has(key))groups.set(key,[]);groups.get(key).push(item);});
@@ -105,20 +114,20 @@
   }
   function exportResults(){const data={version:state.data&&state.data.version,updatedAt:state.data&&state.data.updatedAt,query:state.query,scope:state.view,filters:Object.fromEntries(Object.entries(state.filters).map(([field,values])=>[field,[...values]])),items:state.results,sources:state.sources};const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json;charset=utf-8'})),a=node('a');a.href=url;a.download='motion-lab-'+state.view+'.json';document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);notify(t('downloaded'));}
   function translate(){
-    document.documentElement.lang=state.lang;document.title='Motion Lab / '+t('title');
-    const replacements={'skip-link':'skip','filters-label':'filters','reset-filters':'reset','library-title':state.view==='references'?'referenceTitle':'title','library-description':state.view==='references'?'referenceDescription':'description','export-button':'export','connect-button':'connect','sort-label':'sort','filter-toggle':'filters','empty-title':state.error?'error':'empty','empty-description':state.error?'loadHint':'emptyDescription','empty-reset':state.error?'retry':'clearAll','previous-page':'previous','next-page':'next','page-input-label':'page','go-page':'go','keyboard-hint':'keyboard','facet-evidence':'facetEvidence','detail-header-label':'details'};
+    document.documentElement.lang=state.lang;document.title='Motion Lab / '+t(state.view==='design'?'designTitle':state.view==='references'?'referenceTitle':'title');$('library-eyebrow').textContent=state.view==='design'?'SHAPE / PATTERN / MATERIAL':state.view==='references'?'LINK / SOURCE / REVIEW':'CODE / COLOR / MOTION';
+    const replacements={'skip-link':'skip','filters-label':'filters','reset-filters':'reset','library-title':state.view==='references'?'referenceTitle':state.view==='design'?'designTitle':'title','library-description':state.view==='references'?'referenceDescription':state.view==='design'?'designDescription':'description','export-button':'export','connect-button':'connect','sort-label':'sort','filter-toggle':'filters','empty-title':state.error?'error':'empty','empty-description':state.error?'loadHint':'emptyDescription','empty-reset':state.error?'retry':'clearAll','previous-page':'previous','next-page':'next','page-input-label':'page','go-page':'go','keyboard-hint':'keyboard','facet-evidence':'facetEvidence','detail-header-label':'details'};
     Object.entries(replacements).forEach(([id,key])=>{$(id).textContent=t(key);});
     $('library-description').append(node('span','keyboard-overview-help',t('keyboardShort')));
-    $('motion-label').textContent=t(state.paused?'play':'pause');$('motion-toggle').setAttribute('aria-pressed',String(state.paused));$('motion-toggle').disabled=reduced.matches;$('motion-toggle').title=reduced.matches?t('reduced'):t(state.paused?'play':'pause');
-    $('search-input').placeholder=t('search');$('search-input').setAttribute('aria-label',t('searchLabel'));
+    $('motion-toggle').hidden=state.view!=='motion';$('motion-label').textContent=t(state.paused?'play':'pause');$('motion-toggle').setAttribute('aria-pressed',String(state.paused));$('motion-toggle').disabled=reduced.matches;$('motion-toggle').title=reduced.matches?t('reduced'):t(state.paused?'play':'pause');
+    $('search-input').placeholder=state.view==='design'?(state.lang==='ko'?'형상, 패턴, 소재 검색':'Search shapes, patterns, materials'):t('search');$('search-input').setAttribute('aria-label',t('searchLabel'));
     $('language-button').replaceChildren(document.createTextNode(state.lang.toUpperCase()),node('span','',state.lang==='ko'?'/ EN':'/ KO'));$('language-button').setAttribute('aria-label',state.lang==='ko'?'Switch to English':'한국어로 변경');
     $('detail-language').textContent=state.lang==='ko'?'KO / EN':'EN / KO';$('detail-language').setAttribute('aria-label',state.lang==='ko'?'Switch to English':'한국어로 변경');
     [['detail-close','closeDetails'],['connect-close','closeConnect'],['close-filters','closeFilters'],['facet-sidebar','filters'],['pagination','pagination'],['page-input','page']].forEach(([id,key])=>$(id).setAttribute('aria-label',t(key)));
     [...$('sort-select').options].forEach((option,index)=>{option.textContent=t(['balanced','titleSort','sourceSort','typeSort'][index]);});
     $('page-size-label').textContent=t('pageSize');$('page-size-select').setAttribute('aria-label',t('pageSizeLabel'));$('page-size-select').value=String(state.pageSize);
-    const assets=state.items.filter((item)=>item.kind!=='reference').length,refs=state.items.length-assets;
-    $('assets-tab').replaceChildren(document.createTextNode(t('assets')),node('span','',assets.toLocaleString()));$('references-tab').replaceChildren(document.createTextNode(t('references')),node('span','',refs.toLocaleString()));
-    $('assets-tab').setAttribute('aria-selected',String(state.view==='assets'));$('references-tab').setAttribute('aria-selected',String(state.view==='references'));
+    const motion=state.items.filter((item)=>item.kind!=='reference'&&domainOf(item)==='motion').length,design=state.items.filter((item)=>item.kind!=='reference'&&domainOf(item)==='design').length,refs=state.items.filter((item)=>item.kind==='reference').length;
+    $('assets-tab').replaceChildren(document.createTextNode(t('motion')),node('span','',motion.toLocaleString()));$('design-tab').replaceChildren(document.createTextNode(t('design')),node('span','',design.toLocaleString()));$('references-tab').replaceChildren(document.createTextNode(t('references')),node('span','',refs.toLocaleString()));
+    $('assets-tab').setAttribute('aria-selected',String(state.view==='motion'));$('design-tab').setAttribute('aria-selected',String(state.view==='design'));$('references-tab').setAttribute('aria-selected',String(state.view==='references'));
     $('catalog-updated').textContent=state.data&&state.data.updatedAt?t('updated')+' '+text(state.data.updatedAt,30).slice(0,10):'';
   }
   function renderFacets(){
@@ -130,7 +139,7 @@
       const options=node('div','facet-options'),counts=new Map(values.map((v)=>[v,0]));
       state.items.forEach((item)=>{if(!matches(item,field))return;const m=meta(item);(Array.isArray(m[field])?m[field]:[m[field]]).forEach((v)=>{if(counts.has(v))counts.set(v,counts.get(v)+1);});});
       values.forEach((value)=>{const checked=state.filters[field].has(value),count=counts.get(value);if(!count&&!checked)return;const row=node('label','facet-option'),input=node('input');input.type='checkbox';input.id='facet-'+field+'-'+value;input.checked=checked;input.addEventListener('change',()=>{if(input.checked)state.filters[field].add(value);else state.filters[field].delete(value);state.page=0;renderLibrary();});row.append(input,node('span','facet-option-label',field==='license'?t(value):label(field,value)),node('span','facet-count',count.toLocaleString()));options.append(row);});
-      if(!options.childElementCount)options.append(node('p','facet-empty','-'));group.append(options);fragment.append(group);
+      if(!options.childElementCount)return;group.append(options);fragment.append(group);
     });
     $('facets').replaceChildren(fragment);if(focused&&focused.startsWith('facet-')&&$(focused))$(focused).focus({preventScroll:true});
   }
@@ -159,17 +168,17 @@
   function addMeta(dl,name,value){if(value)dl.append(node('dt','',name),node('dd','',value));}
   function originalProvenance(original,role){return {id:original.id,title:original.title,sourceName:original.sourceName,sourceUrl:original.sourceUrl,license:original.license,licenseUrl:original.licenseUrl,licenseText:original.licenseText,variantRole:role};}
   function provenance(item){const excluded=new Set(['code','licenseText','variants','originalRecord']),value=Object.fromEntries(Object.entries(item).filter(([key])=>!excluded.has(key)));if(localOriginal(item))value.localSource=sourceUrl(item);const repair=state.detail?.repair||item.repair;if(repair?.originalRecord){value.repair={...repair,originalRecord:originalProvenance(repair.originalRecord,'former-primary-record')};}if(state.detail&&originalRecords(state.detail).length>1){value.mergedCollection={id:state.detail.id,aliases:strings(state.detail.aliases,64),selectedVariantId:item.id,consolidation:state.detail.consolidation};value.mergedOriginals=originalRecords(state.detail).map((original)=>originalProvenance(original,state.detail.consolidation?.variantRoles?.[original.id]||'asset'));}return JSON.stringify(value,null,2);}
-  function actions(item,allowCopy=true){const el=node('div','detail-actions');if(allowCopy&&item.code&&item.kind!=='reference')el.append(button(t('copyCode'),'primary-button',()=>copy(codeText(item))));const original=link(t(localOriginal(item)?'sourceLocal':'sourceOpen'),sourceUrl(item)),license=link(t('licenseOpen'),safeUrl(item.licenseUrl));if(original)el.append(original);if(license)el.append(license);return el;}
+  function actions(item,allowCopy=true){const el=node('div','detail-actions');if(allowCopy&&item.code&&item.kind!=='reference')el.append(button(t('copyCode'),'primary-button',()=>copy(codeText(item))));const path=imagePath(item);if(path){const download=node('a','primary-button',t('downloadImage'));download.href=path;download.download=text(item.id,160)+'.jpg';el.append(download);}const original=link(t(localOriginal(item)?'sourceLocal':'sourceOpen'),sourceUrl(item)),license=link(t('licenseOpen'),safeUrl(item.licenseUrl));if(original)el.append(original);if(license)el.append(license);return el;}
   function overview(item,panel){
     const m=meta(item),stage=node('div','detail-preview-host');detailPreview=createPreview(item,false);stage.append(detailPreview);panel.append(stage);
     const renderer=m.analysis&&m.analysis.preview&&m.analysis.preview.renderer;
-    if(item.kind!=='reference'&&['css','svg','glsl'].includes(renderer)&&detailPreview.dataset.state!=='unavailable'){
+    if(item.kind!=='reference'&&m.domain==='motion'&&['css','svg','glsl'].includes(renderer)&&detailPreview.dataset.state!=='unavailable'){
       const controls=node('div','detail-actions preview-controls'),motion=button(t(state.paused?'play':'pause'),'outlined-button',toggleMotion);motion.id='detail-motion-toggle';motion.disabled=reduced.matches;motion.title=reduced.matches?t('reduced'):t(state.paused?'play':'pause');controls.append(motion);if(typeof detailPreview.restart==='function'&&!reduced.matches)controls.append(button(t('restart'),'outlined-button',()=>detailPreview.restart()));
       if(renderer==='css'&&/:hover|:active/.test(text(item.code,300000))&&typeof detailPreview.setInteraction==='function'){const el=button(t(state.interaction?'deactivate':'activate'),'outlined-button',()=>{state.interaction=!state.interaction;renderDetail();});el.id='detail-interaction-toggle';el.setAttribute('aria-pressed',String(state.interaction));controls.append(el);}panel.append(controls);
     }
-    panel.append(actions(item));const evidence=m.analysis&&m.analysis.evidence,summary=evidence&&text(state.lang==='ko'?evidence.summaryKO:evidence.summaryEN,6000),bases={code:'codeBasis','color-values':'colorBasis','reviewed-source':'reviewedBasis',metadata:'metadata'};
+    panel.append(actions(item));const evidence=m.analysis&&m.analysis.evidence,summary=evidence&&text(state.lang==='ko'?evidence.summaryKO:evidence.summaryEN,6000),bases={code:'codeBasis','color-values':'colorBasis','reviewed-source':'reviewedBasis','image':'imageBasis',metadata:'metadata'};
     panel.append(node('h3','detail-section-label',t('evidence')),node('p','detail-evidence',summary||t('fallbackEvidence')),node('p','evidence-caption',(evidence&&bases[evidence.basis]?t(bases[evidence.basis]):t('metadataBasis'))+' · '+t('confidence')+': '+t(evidence&&['high','medium','low'].includes(evidence.confidence)?evidence.confidence:'low')));
-    const dl=node('dl','metadata');addMeta(dl,t('assetType'),label('assetType',m.assetType));['effects','components','useCases','techniques'].forEach((field)=>addMeta(dl,t(field),m[field].map((v)=>label(field,v)).join(', ')));addMeta(dl,t('sourceName'),text(item.sourceName));addMeta(dl,t('license'),text(item.license));addMeta(dl,t('identifier'),text(item.id));addMeta(dl,t('verification'),localOriginal(item)?t('localOriginal'):text(item.verification));addMeta(dl,t('format'),text(item.language).toUpperCase());addMeta(dl,t('tags'),strings(item.tags).join(', '));panel.append(dl);
+    const dl=node('dl','metadata');addMeta(dl,t('domain'),t(m.domain));addMeta(dl,t('assetType'),label('assetType',m.assetType));if(item.kind==='image')addMeta(dl,t('imageSize'),String(item.image.width)+' × '+String(item.image.height));['effects','components','useCases','techniques'].forEach((field)=>addMeta(dl,t(field),m[field].map((v)=>label(field,v)).join(', ')));addMeta(dl,t('sourceName'),text(item.sourceName));addMeta(dl,t('license'),text(item.license));addMeta(dl,t('identifier'),text(item.id));addMeta(dl,t('verification'),localOriginal(item)?t('localOriginal'):text(item.verification));addMeta(dl,t('format'),text(item.language).toUpperCase());addMeta(dl,t('tags'),strings(item.tags).join(', '));panel.append(dl);
     const limits=m.analysis&&m.analysis.preview&&strings(m.analysis.preview.limitations);if(limits&&limits.length){panel.append(node('h3','detail-section-label',t('limits')));const ul=node('ul','preview-limitations');limits.forEach((v)=>ul.append(node('li','',state.lang==='ko'&&limitationKO[v]?limitationKO[v]:text(v,2000))));panel.append(ul);}if(needsReview(item))panel.append(node('p','legal-warning',t('licenseWarning')));
   }
   function renderDetail(remember=true){
@@ -191,7 +200,7 @@
   function openDetail(item,source){state.detail=item;state.detailVariant=item.id;state.detailTab='overview';state.interaction=false;returnId=source.dataset.itemId;renderDetail();$('detail-dialog').showModal();$('detail-close').focus();}
   function closeDetail(){rememberReader();destroyPreview(detailPreview);detailPreview=null;state.detail=null;state.detailVariant=null;$('detail-content').replaceChildren();const el=[...$('gallery').querySelectorAll('[data-item-id]')].find((candidate)=>candidate.dataset.itemId===returnId);if(el)el.focus({preventScroll:true});}
   const mcpConfig=()=>JSON.stringify({mcpServers:{'motion-lab':{command:'python',args:[ROOT+'/motionlab/launch_mcp.py','--root',ROOT]}}},null,2);
-  const cliCommands=()=>'git clone '+REPOSITORY+'.git\ncd Motion-Lab\npython scripts/build.py\npython -m motionlab search "bounce" --limit 10 --json\npython -m motionlab search --effect mask --component image --limit 20 --json\npython -m motionlab get animate-bounce --json\npython -m motionlab stats\npython -m motionlab serve --port 8787\npython -m motionlab mcp';
+  const cliCommands=()=>'git clone '+REPOSITORY+'.git\ncd Motion-Lab\npython scripts/build.py\npython -m motionlab search "bounce" --limit 10 --json\npython -m motionlab search --domain motion --effect mask --component image --limit 20 --json\npython -m motionlab search --domain design --category material --limit 20 --json\npython -m motionlab get animate-bounce --json\npython -m motionlab stats\npython -m motionlab serve --port 8787\npython -m motionlab mcp';
   async function downloadCatalog(file){
     if(!['catalog.json','catalog-index.json'].includes(file))return;
     try{const response=await fetch('./'+file);if(!response.ok)throw new Error('Download');const blob=await response.blob();const url=URL.createObjectURL(blob),a=node('a');a.href=url;a.download=file;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);notify(t('downloadFile'));}catch(_){notify(t('downloadFailed'));}
@@ -212,7 +221,7 @@
   function clearFilters(){clearTimeout(searchTimer);Object.values(state.filters).forEach((values)=>values.clear());state.query='';$('search-input').value='';state.page=0;renderLibrary();}
   function changePage(page){const max=Math.max(1,Math.ceil(state.results.length/state.pageSize));if(!Number.isInteger(page)||page<0||page>=max){notify(t('invalidPage'));return;}state.page=page;renderLibrary();$('library-main').scrollIntoView({block:'start',behavior:'instant'});const first=$('gallery').querySelector('[data-grid-index]');if(first)first.focus({preventScroll:true});}
   function goPage(){const value=$('page-input').value;if(!/^\d{1,5}$/.test(value)){notify(t('invalidPage'));return;}changePage(Number(value)-1);}
-  function setView(view){state.view=view;state.page=0;Object.values(state.filters).forEach((values)=>values.clear());renderLibrary();}
+  function setView(view){if(!['motion','design','references'].includes(view))return;state.view=view;state.page=0;Object.values(state.filters).forEach((values)=>values.clear());renderLibrary();}
   function rendered(el){return Boolean(el&&el.isConnected&&el.getClientRects().length&&!el.disabled&&getComputedStyle(el).visibility!=='hidden');}
   function focusControl(el){if(!rendered(el))return false;el.focus({preventScroll:true});el.scrollIntoView({block:'nearest',inline:'nearest'});return true;}
   function focusFirstAsset(){return focusControl($('gallery').querySelector('[data-grid-index]'));}
@@ -247,7 +256,7 @@
   }
   async function load(){state.loaded=false;state.error=false;renderLibrary();try{const response=await fetch('./catalog.json');if(!response.ok)throw new Error('Catalog unavailable');const data=await response.json();if(!data||!Array.isArray(data.items))throw new Error('Invalid catalog');state.data=data;state.items=data.items.filter((item)=>item&&typeof item==='object'&&typeof item.id==='string'&&typeof item.title==='string').slice(0,100000);state.sources=Array.isArray(data.sources)?data.sources:[];state.loaded=true;renderLibrary();resolveCatalog(data);document.dispatchEvent(new CustomEvent('motionlab:catalog-ready',{detail:data}));}catch(_){state.error=true;renderLibrary();resolveCatalog(null);}}
   $('language-button').addEventListener('click',toggleLanguage);$('detail-language').addEventListener('click',toggleLanguage);$('motion-toggle').addEventListener('click',toggleMotion);$('reset-filters').addEventListener('click',clearFilters);$('empty-reset').addEventListener('click',()=>state.error?load():clearFilters());$('export-button').addEventListener('click',exportResults);
-  $('assets-tab').addEventListener('click',()=>setView('assets'));$('references-tab').addEventListener('click',()=>setView('references'));$('previous-page').addEventListener('click',()=>changePage(state.page-1));$('next-page').addEventListener('click',()=>changePage(state.page+1));$('go-page').addEventListener('click',goPage);$('page-input').addEventListener('keydown',(event)=>{if(event.key==='Enter'){event.preventDefault();goPage();}});
+  $('assets-tab').addEventListener('click',()=>setView('motion'));$('design-tab').addEventListener('click',()=>setView('design'));$('references-tab').addEventListener('click',()=>setView('references'));$('previous-page').addEventListener('click',()=>changePage(state.page-1));$('next-page').addEventListener('click',()=>changePage(state.page+1));$('go-page').addEventListener('click',goPage);$('page-input').addEventListener('keydown',(event)=>{if(event.key==='Enter'){event.preventDefault();goPage();}});
   $('sort-select').addEventListener('change',(event)=>{state.sort=['balanced','title','source','type'].includes(event.target.value)?event.target.value:'balanced';state.page=0;renderLibrary();});
   $('page-size-select').addEventListener('change',(event)=>{const size=Number(event.target.value);if(!PAGE_SIZES.has(size)){event.target.value=String(state.pageSize);return;}const offset=state.page*state.pageSize;state.pageSize=size;state.page=Math.floor(offset/size);renderLibrary();});
   $('search-input').addEventListener('input',(event)=>{const value=text(event.target.value,200);clearTimeout(searchTimer);searchTimer=setTimeout(()=>{state.query=value.trim();state.page=0;renderLibrary();},140);});

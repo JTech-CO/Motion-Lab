@@ -19,19 +19,91 @@
     return (r*.299+g*.587+b*.114)*alpha+backdrop*(1-alpha)>145 ? '#061215' : '#f7ffff';
   }
   const stripComments = value => value.replace(/\/\*[\s\S]*?\*\//g, '');
-  const properties = new Set(('animation animation-name animation-duration animation-delay animation-timing-function animation-iteration-count animation-direction animation-fill-mode animation-play-state transform transform-origin transform-style perspective backface-visibility opacity visibility filter box-shadow text-shadow background background-color background-image background-size background-position background-repeat background-clip color border border-width border-style border-color border-radius border-top border-right border-bottom border-left border-top-color border-right-color border-bottom-color border-left-color width height min-width min-height max-width max-height margin margin-top margin-right margin-bottom margin-left padding padding-top padding-right padding-bottom padding-left position top right bottom left inset display flex flex-direction flex-wrap align-items justify-content place-items gap overflow box-sizing font font-size font-family font-weight font-variant-numeric letter-spacing line-height text-align text-transform white-space content clip-path isolation transition transition-property transition-duration transition-timing-function transition-delay pointer-events cursor vertical-align float clear grid grid-template-columns grid-template-rows grid-auto-flow grid-auto-columns grid-auto-rows grid-column grid-row grid-column-start grid-column-end grid-row-start grid-row-end justify-items align-content place-content row-gap column-gap aspect-ratio background-origin background-blend-mode mask mask-image mask-size mask-position mask-repeat mask-composite mask-mode scale rotate translate perspective-origin will-change text-fill-color appearance outline outline-width outline-style outline-color outline-offset offset-path offset-distance offset-rotate backdrop-filter z-index').split(' '));
-  function declarations(style) {
-    const output = [];
-    // CSSOM exposes empty longhands for shorthands containing var(). Keep the
-    // parsed shorthand as well, so source colors and geometry survive isolation.
-    for (const property of new Set([...style, ...properties])) {
+  function stripCssComments(source) {
+    let result = '', quote = '';
+    for (let i = 0; i < source.length; i++) {
+      const character = source[i];
+      if (quote) {
+        result += character;
+        if (character === '\\' && i + 1 < source.length) result += source[++i];
+        else if (character === quote) quote = '';
+      } else if (character === '"' || character === "'") { quote = character; result += character; }
+      else if (character === '/' && source[i + 1] === '*') {
+        const end = source.indexOf('*/', i + 2);
+        if (end < 0) return '';
+        i = end + 1;
+      } else result += character;
+    }
+    return quote ? '' : result;
+  }
+  // Read bounded CSS syntax, preserving authored declarations before CSSOM
+  // expands shorthands. A later longhand override can make every CSSOM spelling
+  // of a var()-containing shorthand empty, including its serialized cssText.
+  // Strings, comments and function arguments are never treated as declarations.
+  function sourceRules(source) {
+    const rules = [], stack = [];
+    let quote = '', depth = 0, start = 0, opening = -1, prelude = '';
+    for (let i = 0; i < source.length; i++) {
+      const character = source[i];
+      if (quote) { if (character === quote) quote = ''; continue; }
+      if (character === '"' || character === "'") { quote = character; continue; }
+      if (character === '(' || character === '[') { if (stack.length >= 48) return null; stack.push(character); continue; }
+      if (character === ')' || character === ']') { if (stack.pop() !== (character === ')' ? '(' : '[')) return null; continue; }
+      if (stack.length) continue;
+      if (character === '{') {
+        if (depth === 0) { prelude = source.slice(start, i).trim(); opening = i; }
+        if (++depth > 32) return null;
+      } else if (character === '}') {
+        if (!depth) return null;
+        if (--depth === 0) { rules.push({ prelude, body: source.slice(opening + 1, i) }); start = i + 1; }
+      } else if (character === ';' && depth === 0) { rules.push({ prelude: source.slice(start, i).trim(), body: null }); start = i + 1; }
+    }
+    if (quote || depth || stack.length) return null;
+    if (source.slice(start).trim()) rules.push({ prelude: source.slice(start).trim(), body: null });
+    return rules;
+  }
+  function sourceDeclarations(source) {
+    const entries = [], stack = [];
+    let quote = '', start = 0;
+    for (let i = 0; i <= source.length; i++) {
+      const character = source[i];
+      if (quote) { if (character === quote) quote = ''; continue; }
+      if (character === '"' || character === "'") { quote = character; continue; }
+      if (character === '(' || character === '[') { if (stack.length >= 48) return null; stack.push(character); continue; }
+      if (character === ')' || character === ']') { if (stack.pop() !== (character === ')' ? '(' : '[')) return null; continue; }
+      if (character === '{' || character === '}') return null;
+      if ((character === ';' || i === source.length) && !stack.length) { entries.push(source.slice(start, i)); start = i + 1; }
+    }
+    return quote || stack.length ? null : entries;
+  }
+  const properties = new Set(('animation animation-name animation-duration animation-delay animation-timing-function animation-iteration-count animation-direction animation-fill-mode animation-play-state transform transform-origin transform-style perspective backface-visibility opacity visibility filter box-shadow text-shadow background background-color background-image background-size background-position background-repeat background-clip color border border-width border-style border-color border-radius border-bottom-right-radius border-top border-right border-bottom border-left border-top-color border-right-color border-bottom-color border-left-color width height min-width min-height max-width max-height margin margin-top margin-right margin-bottom margin-left padding padding-top padding-right padding-bottom padding-left position top right bottom left inset display flex flex-direction flex-wrap align-items justify-content place-items gap overflow box-sizing font font-size font-family font-weight font-variant-numeric letter-spacing line-height text-align text-indent text-transform white-space content clip-path isolation transition transition-property transition-duration transition-timing-function transition-delay pointer-events cursor vertical-align float clear grid grid-template-columns grid-template-rows grid-auto-flow grid-auto-columns grid-auto-rows grid-column grid-row grid-column-start grid-column-end grid-row-start grid-row-end justify-items align-content place-content row-gap column-gap aspect-ratio background-origin background-blend-mode mix-blend-mode mask mask-image mask-size mask-position mask-repeat mask-composite mask-mode scale rotate translate perspective-origin will-change text-fill-color text-stroke appearance outline outline-width outline-style outline-color outline-offset offset-path offset-distance offset-rotate backdrop-filter z-index').split(' '));
+  function declarations(source) {
+    const output = [], entries = sourceDeclarations(source);
+    if (!entries) return '';
+    const style = document.createElement('div').style;
+    for (const entry of entries) {
+      const colon = entry.indexOf(':');
+      if (colon < 1) continue;
+      const authoredProperty = entry.slice(0, colon).trim();
+      const property = authoredProperty.startsWith('--') ? authoredProperty : authoredProperty.toLowerCase();
+      if (!/^(?:-webkit-)?[a-z][a-z0-9-]*$/.test(property) && !/^--[a-z_][a-z0-9_-]{0,70}$/i.test(property)) continue;
       const plain = property.replace(/^-webkit-/, '');
-      const value = style.getPropertyValue(property);
+      let value = entry.slice(colon + 1).trim();
+      const important = /!\s*important\s*$/i.test(value);
+      if (important) value = value.replace(/!\s*important\s*$/i, '').trim();
       if (!value) continue;
       if (!properties.has(plain) && !/^--[a-z_][a-z0-9_-]{0,70}$/i.test(property)) continue;
       if (value.length > 2400 || /[\\<>]|(?:url|expression|image-set|attr)\s*\(/i.test(value)) continue;
       if (plain === 'content' && !/^(?:none|normal|"[^"\\]{0,80}"|'[^'\\]{0,80}')$/.test(value.trim())) continue;
-      output.push(`${property}:${value}${style.getPropertyPriority(property) ? '!important' : ''};`);
+      // Validate each complete declaration with CSSOM independently, preserving
+      // its original value and cascade order only after the browser accepts it.
+      style.cssText = '';
+      style.setProperty(property, value, important ? 'important' : '');
+      // Valid shorthands such as border-bottom:none can also serialize as an
+      // empty shorthand. Accepted expanded longhands still prove CSSOM parsed
+      // the declaration; an invalid declaration leaves this empty style empty.
+      if (!style.length) continue;
+      output.push(`${property}:${value}${important ? '!important' : ''};`);
     }
     return output.join('');
   }
@@ -63,7 +135,7 @@
   }
   function treeClasses(tree, classes = new Set(['motion-sample'])) { for (const c of tree.className.split(' ')) if (c) classes.add(c); tree.children.forEach(child => treeClasses(child, classes)); return classes; }
   function sanitizedCss(item, tree) {
-    const source = typeof item.code === 'string' ? stripComments(item.code) : '';
+    const source = typeof item.code === 'string' ? stripCssComments(item.code) : '';
     if (!source || source.length > 180000 || /[\\<]|(?:url|expression|image-set|attr)\s*\(|@(?:import|font-face|namespace|document|supports|layer|property)/i.test(source)) return '';
     const classes = tree ? treeClasses(tree) : new Set(['motion-sample']);
     const key = item.id + ':' + source.length + ':' + [...classes].join(',');
@@ -80,21 +152,37 @@
     }
     try {
       const sheet = new CSSStyleSheet(); sheet.replaceSync(source);
-      if (sheet.cssRules.length > 200) return '';
-      function accept(rule, depth = 0) {
+      const originals = sourceRules(source);
+      if (!originals || sheet.cssRules.length > 200 || originals.length > 200) return '';
+      function accept(original, depth = 0) {
+        if (original.body === null) return;
+        const parsed = new CSSStyleSheet(); parsed.replaceSync(`${original.prelude}{${original.body}}`);
+        if (parsed.cssRules.length !== 1) return;
+        const rule = parsed.cssRules[0];
         if (rule.type === CSSRule.KEYFRAMES_RULE && /^[a-z0-9_-]{1,100}$/i.test(rule.name) && rule.cssRules.length <= 240) {
+          const originalFrames = sourceRules(original.body);
+          if (!originalFrames || originalFrames.length > 240) return;
           const frames = [];
-          for (const frame of rule.cssRules) if (/^(?:(?:from|to|\d+(?:\.\d+)?%)\s*,?\s*)+$/i.test(frame.keyText)) frames.push(`${frame.keyText}{${declarations(frame.style)}}`);
+          for (const originalFrame of originalFrames) {
+            if (originalFrame.body === null) continue;
+            const frameSheet = new CSSStyleSheet(); frameSheet.replaceSync(`@keyframes ${rule.name}{${originalFrame.prelude}{${originalFrame.body}}}`);
+            const parsedFrames = frameSheet.cssRules[0]?.cssRules;
+            if (parsedFrames?.length !== 1) continue;
+            const frame = parsedFrames[0];
+            if (/^(?:(?:from|to|\d+(?:\.\d+)?%)\s*,?\s*)+$/i.test(frame.keyText)) frames.push(`${frame.keyText}{${declarations(originalFrame.body)}}`);
+          }
           if (frames.length) blocks.push(`@keyframes ${rule.name}{${frames.join('')}}`);
         } else if (rule.type === CSSRule.STYLE_RULE) {
           const selectors = rule.selectorText.split(',').map(s => s.trim());
-          if (selectors.length <= 12 && selectors.every(selectorAllowed)) { blocks.push(`${selectors.join(',')}{${declarations(rule.style)}}`); found = true; }
+          if (selectors.length <= 12 && selectors.every(selectorAllowed)) { blocks.push(`${selectors.join(',')}{${declarations(original.body)}}`); found = true; }
         } else if (depth < 2 && rule.type === CSSRule.MEDIA_RULE && /^\(prefers-reduced-motion:\s*reduce\)$/.test(rule.conditionText)) {
-          const initial = blocks.length; for (const nested of rule.cssRules) accept(nested, depth + 1);
+          const nestedOriginals = sourceRules(original.body);
+          if (!nestedOriginals || nestedOriginals.length > 200) return;
+          const initial = blocks.length; for (const nested of nestedOriginals) accept(nested, depth + 1);
           const nested = blocks.splice(initial); if (nested.length) blocks.push(`@media(prefers-reduced-motion:reduce){${nested.join('')}}`);
         }
       }
-      for (const rule of sheet.cssRules) accept(rule);
+      for (const rule of originals) accept(rule);
     } catch { return ''; }
     const result = found ? blocks.join('\n') : '';
     cssCache.set(key, result); if (cssCache.size > 800) cssCache.delete(cssCache.keys().next().value);
@@ -141,8 +229,8 @@
   }
 
   const SVG_NS = 'http://www.w3.org/2000/svg';
-  const svgTags = new Set(['svg','g','path','circle','ellipse','rect','line','polyline','polygon','defs','linearGradient','radialGradient','stop','clipPath','mask','use','animate','animateTransform','set','filter','feGaussianBlur','feColorMatrix','feBlend']);
-  const svgAttributes = new Set(['viewBox','width','height','x','y','x1','x2','y1','y2','cx','cy','r','rx','ry','d','points','fill','fill-opacity','fill-rule','stroke','stroke-width','stroke-opacity','stroke-linecap','stroke-linejoin','stroke-dasharray','stroke-dashoffset','opacity','transform','transform-origin','transform-box','style','gradientTransform','gradientUnits','offset','stop-color','stop-opacity','id','clip-path','mask','filter','href','preserveAspectRatio','attributeName','attributeType','type','from','to','by','values','dur','begin','repeatCount','keyTimes','keySplines','calcMode','additive','accumulate','in','in2','result','mode','stdDeviation']);
+  const svgTags = new Set(['svg','title','g','symbol','path','circle','ellipse','rect','line','polyline','polygon','defs','pattern','linearGradient','radialGradient','stop','clipPath','mask','use','animate','animateTransform','set','filter','feGaussianBlur','feColorMatrix','feBlend']);
+  const svgAttributes = new Set(['viewBox','width','height','x','y','x1','x2','y1','y2','cx','cy','r','rx','ry','d','points','fill','fill-opacity','fill-rule','stroke','stroke-width','stroke-opacity','stroke-linecap','stroke-linejoin','stroke-miterlimit','overflow','stroke-dasharray','stroke-dashoffset','opacity','transform','transform-origin','transform-box','style','gradientTransform','gradientUnits','patternUnits','patternContentUnits','patternTransform','offset','stop-color','stop-opacity','id','clip-path','mask','filter','href','preserveAspectRatio','attributeName','attributeType','type','from','to','by','values','dur','begin','repeatCount','keyTimes','keySplines','calcMode','additive','accumulate','in','in2','result','mode','stdDeviation']);
   const animationNames = new Set(['transform','opacity','fill','fill-opacity','stroke','stroke-opacity','stroke-width','stroke-dashoffset','stroke-dasharray','r','rx','ry','cx','cy','x','y','width','height','d','points']);
   function safeSvgStyle(name, value) {
     if (typeof value !== 'string' || value.length > 160) return '';
@@ -160,10 +248,28 @@
     if (source.querySelector('parsererror') || source.documentElement.localName !== 'svg') return null;
     let count = 0, filterCount = 0;
     const idPrefix = 'ml-svg-' + (++serial) + '-';
+    const localIds = new Set([...source.querySelectorAll('[id]')].slice(0,700)
+      .filter(node=>svgTags.has(node.localName)&&/^[a-z0-9_-]{1,100}$/i.test(node.id)).map(node=>node.id));
+    function safeBegin(value) {
+      if(value.length>1000)return '';
+      const parts=value.split(';').map(part=>part.trim()).filter(Boolean);
+      if(!parts.length||parts.length>8)return '';
+      const clock=/^([+-]?(?:\d+(?:\.\d+)?|\.\d+))(ms|s)$/;
+      const boundedClock=part=>{const match=clock.exec(part);return Boolean(match&&Math.abs(Number(match[1]))/(match[2]==='ms'?1000:1)<=3600);};
+      const clean=[];
+      for(const part of parts){
+        if(boundedClock(part)){clean.push(part);continue;}
+        const sync=/^([a-z0-9_-]{1,100})\.(begin|end)([+-](?:\d+(?:\.\d+)?|\.\d+)(?:ms|s))?$/i.exec(part);
+        if(!sync||!localIds.has(sync[1])||(sync[3]&&!boundedClock(sync[3])))return '';
+        clean.push(idPrefix+sync[1]+'.'+sync[2]+(sync[3]||''));
+      }
+      return clean.join(';');
+    }
     function copy(node, depth = 0) {
       if (depth > 12 || ++count > 700 || !svgTags.has(node.localName)) return null;
       if (node.localName === 'filter' && ++filterCount > 8) return null;
       const out = document.createElementNS(SVG_NS, node.localName);
+      if(node.localName==='title')out.textContent=(node.textContent||'').slice(0,300);
       for (const attribute of node.attributes) {
         const name = attribute.name === 'xlink:href' ? 'href' : attribute.name;
         let value = attribute.value;
@@ -197,7 +303,7 @@
           if (numbers.length !== 20 || numbers.some(n => !/^-?(?:[0-9]+(?:\.[0-9]+)?|\.[0-9]+)(?:e[+-]?[0-9]+)?$/i.test(n) || !Number.isFinite(Number(n)) || Math.abs(Number(n)) > 100)) continue;
         }
         else if (name === 'attributeName' && !animationNames.has(value)) continue;
-        else if (name === 'begin' && !/^(?:\d+(?:\.\d+)?m?s;?\s*)+$/.test(value)) continue;
+        else if (name === 'begin') {value=safeBegin(value);if(!value)continue;}
         else if (!/^[a-z0-9#.,;()%+\s:_-]*$/i.test(value)) continue;
         out.setAttribute(name, value);
       }
@@ -309,21 +415,28 @@
   function create(item, options = {}) {
     const lang=options.lang==='en'?'en':'ko', words=labels[lang];
     const root=element('div','motion-preview'+(options.compact?' compact':''));
+    if(item.domain==='design'||item.analysis?.domain==='design')root.classList.add('motion-preview-design');
     root.dataset.itemId=String(item.id||'').slice(0,160);
+    root.dataset.assetType=String(item.analysis?.assetType||item.category||'').slice(0,32);
     const stage=element('div','motion-preview-stage');const note=element('p','motion-preview-note');root.append(stage,note);
     const instance={root,stage,note,lang,paused:Boolean(options.paused||reduced.matches),visible:true,attached:false,interaction:Boolean(options.interaction),gpuEntry:null,svg:null,frame:null,destroy(){visibility.unobserve(root);if(this.gpuEntry)gpu.entries.delete(this.gpuEntry);instances.delete(this);if(!gpu.entries.size){cancelAnimationFrame(gpu.frame);gpu.frame=0;}},unavailable(key){if(this.gpuEntry)gpu.entries.delete(this.gpuEntry);stage.replaceChildren();const box=element('div','motion-preview-unavailable');box.append(element('strong','',words[key]||words.invalid));if(key==='reference')box.append(element('span','',words.noPreview));stage.append(box);note.textContent='';root.dataset.state='unavailable';root.dataset.reason=key;},setPaused(value){this.paused=Boolean(value||reduced.matches);if(this.svg){if(this.paused)this.svg.pauseAnimations?.();else this.svg.unpauseAnimations?.();}if(this.frame)refreshCss();if(this.gpuEntry){if(this.paused)try{drawShader(this.gpuEntry,.5);}catch{this.unavailable('shader');}else scheduleGpu();}},setInteraction(value){this.interaction=Boolean(value);if(this.frame)refreshCss();},restart(){if(this.frame)refreshCss();if(this.svg)this.svg.setCurrentTime?.(0);if(this.gpuEntry)this.gpuEntry.started=performance.now();}};
     function refreshCss(){const built=cssDocument(item,instance.paused,instance.interaction);if(!built){instance.unavailable('invalid');return;}instance.frame.srcdoc=built.document;}
     root.destroy=()=>instance.destroy();root.setPaused=value=>instance.setPaused(value);root.setInteraction=value=>instance.setInteraction(value);root.restart=()=>instance.restart();
     root.setProgress=value=>{if(instance.gpuEntry&&Number.isFinite(value))drawShader(instance.gpuEntry,Math.max(0,Math.min(1,value)));};
     instances.add(instance);visibility.observe(root);
-    const renderer=item.analysis?.preview?.renderer || (item.kind==='reference'?'none':item.preview?.type==='gradient'?'gradient':item.kind==='palette'?'palette':item.language==='svg'?'svg':item.language==='glsl'?'glsl':item.language==='css'?'css':'none');
+    const renderer=item.analysis?.preview?.renderer || (item.kind==='reference'?'none':item.kind==='image'?'image':item.preview?.type==='gradient'?'gradient':item.kind==='palette'?'palette':item.language==='svg'?'svg':item.language==='glsl'?'glsl':item.language==='css'?'css':'none');
     root.dataset.renderer=renderer;root.dataset.state='ready';
     try {
       const colors=colorsOf(item);
       if(renderer==='palette'&&colors.length){const strips=element('div','motion-preview-colors');for(const color of colors){const strip=element('div','motion-preview-swatch');strip.style.backgroundColor=color;strip.style.color=paletteTextColor(color);strip.append(element('span','',color.toUpperCase()));strips.append(strip);}stage.append(strips);note.textContent=words.palette;}
       else if(renderer==='gradient'&&colors.length){const gradient=element('div','motion-preview-gradient');gradient.style.background=`linear-gradient(125deg,${colors.join(',')})`;stage.append(gradient);note.textContent=words.gradient;}
-      else if(renderer==='css'){const built=cssDocument(item,instance.paused,instance.interaction);if(!built){instance.unavailable('invalid');return root;}const frame=element('iframe','motion-preview-frame');frame.setAttribute('sandbox','');frame.referrerPolicy='no-referrer';frame.tabIndex=-1;frame.title=String(item.title||'CSS preview').slice(0,180);frame.srcdoc=built.document;stage.append(frame);instance.frame=frame;note.textContent=words[built.composition?'composition':'css'];}
-      else if(renderer==='svg'){const svg=sanitizedSvg(item.code);if(!svg){instance.unavailable('invalid');return root;}stage.append(svg);instance.svg=svg;note.textContent=words.svg;if(instance.paused)requestAnimationFrame(()=>{svg.setCurrentTime?.(.8);svg.pauseAnimations?.();});}
+      else if(renderer==='css'){const built=cssDocument(item,instance.paused,instance.interaction);if(!built){instance.unavailable('invalid');return root;}const frame=element('iframe','motion-preview-frame');frame.setAttribute('sandbox','');frame.referrerPolicy='no-referrer';frame.tabIndex=-1;frame.title=String(item.title||'CSS preview').slice(0,180);frame.srcdoc=built.document;stage.append(frame);instance.frame=frame;note.textContent=item.analysis?.domain==='design'||item.domain==='design'?(lang==='ko'?'원본 CSS 디자인':'Original CSS design'):words[built.composition?'composition':'css'];}
+      else if(renderer==='svg'){const svg=sanitizedSvg(item.code);if(!svg){instance.unavailable('invalid');return root;}stage.append(svg);instance.svg=svg;note.textContent=(item.domain==='design'||item.analysis?.domain==='design')?(lang==='ko'?'원본 SVG 디자인':'Original SVG design'):words.svg;if(instance.paused)requestAnimationFrame(()=>{svg.setCurrentTime?.(.8);svg.pauseAnimations?.();});}
+      else if(renderer==='image'){
+        const image=item.image,path=image?.path;
+        if(typeof path!=='string'||!/^assets\/materials\/[a-z0-9][a-z0-9-]{0,159}\.jpg$/.test(path)||image.mime!=='image/jpeg'||!Number.isInteger(image.width)||!Number.isInteger(image.height)||image.width<32||image.height<32||image.width>1024||image.height>1024){instance.unavailable('invalid');return root;}
+        const visual=element('img','motion-preview-image');visual.alt=String(item.title||'Material').slice(0,300);visual.width=image.width;visual.height=image.height;visual.decoding='async';visual.loading=options.compact?'lazy':'eager';visual.referrerPolicy='no-referrer';visual.addEventListener('error',()=>instance.unavailable('invalid'));visual.src='./'+path;stage.append(visual);note.textContent=lang==='ko'?'저장된 소재 이미지 · 정적 디자인':'Stored material image · static design';
+      }
       else if(renderer==='glsl'){if(!initGpu()){instance.unavailable('webgl');return root;}const canvas=element('canvas','motion-preview-canvas');canvas.width=320;canvas.height=200;stage.append(canvas);const entry={item,canvas,ctx:canvas.getContext('2d'),started:performance.now(),owner:instance};instance.gpuEntry=entry;gpu.entries.add(entry);drawShader(entry,.45);note.textContent=words.glsl;scheduleGpu();}
       else instance.unavailable('reference');
     } catch { instance.unavailable(renderer==='glsl'?'shader':'invalid'); }

@@ -1,0 +1,1080 @@
+{
+    "totalResults": 2014,
+    "nextPageHttp": null,
+    "currentPageHttp": "https://ambientcg.com/api/v3/assets?type=material&sort=alphabet&limit=500&offset=2000&include=type%2Crelations%2Ctitle%2Cdownloads%2Ctags%2Ctechnique",
+    "previousPageHttp": "https://ambientcg.com/api/v3/assets?type=material&sort=alphabet&limit=500&offset=1500&include=type%2Crelations%2Ctitle%2Cdownloads%2Ctags%2Ctechnique",
+    "assets": [
+        {
+            "id": "WoodFloor071",
+            "type": "material",
+            "relations": {
+                "parents": [],
+                "children": [],
+                "variations": [],
+                "next": null,
+                "previous": "WoodFloor070"
+            },
+            "title": "Wood Floor 071",
+            "downloads": [
+                {
+                    "attributes": "1K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodFloor071_1K-JPG.zip",
+                    "size": 4329043
+                },
+                {
+                    "attributes": "2K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodFloor071_2K-JPG.zip",
+                    "size": 15417498
+                },
+                {
+                    "attributes": "4K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodFloor071_4K-JPG.zip",
+                    "size": 65660845
+                },
+                {
+                    "attributes": "8K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodFloor071_8K-JPG.zip",
+                    "size": 260037958
+                },
+                {
+                    "attributes": "12K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodFloor071_12K-JPG.zip",
+                    "size": 521359722
+                },
+                {
+                    "attributes": "16K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodFloor071_16K-JPG.zip",
+                    "size": 852898854
+                },
+                {
+                    "attributes": "1K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodFloor071_1K-PNG.zip",
+                    "size": 13919618
+                },
+                {
+                    "attributes": "2K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodFloor071_2K-PNG.zip",
+                    "size": 53823716
+                },
+                {
+                    "attributes": "4K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodFloor071_4K-PNG.zip",
+                    "size": 218277302
+                },
+                {
+                    "attributes": "8K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodFloor071_8K-PNG.zip",
+                    "size": 857017017
+                },
+                {
+                    "attributes": "12K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodFloor071_12K-PNG.zip",
+                    "size": 1845209675
+                },
+                {
+                    "attributes": "16K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodFloor071_16K-PNG.zip",
+                    "size": 3200099821
+                }
+            ],
+            "tags": [
+                "071",
+                "71",
+                "beige",
+                "brown",
+                "clean",
+                "floor",
+                "indoor",
+                "interlocking",
+                "light",
+                "natural",
+                "parquet",
+                "polished",
+                "rustic",
+                "smooth",
+                "wood"
+            ],
+            "technique": "surface-photometric-stereo"
+        },
+        {
+            "id": "WoodSiding001",
+            "type": "material",
+            "relations": {
+                "parents": [
+                    "WoodSidingSubstance001"
+                ],
+                "children": [],
+                "variations": [],
+                "next": "WoodSiding002",
+                "previous": null
+            },
+            "title": "Wood Siding 001",
+            "downloads": [
+                {
+                    "attributes": "1K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding001_1K-JPG.zip",
+                    "size": 7245494
+                },
+                {
+                    "attributes": "2K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding001_2K-JPG.zip",
+                    "size": 24243071
+                },
+                {
+                    "attributes": "4K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding001_4K-JPG.zip",
+                    "size": 85493421
+                },
+                {
+                    "attributes": "8K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding001_8K-JPG.zip",
+                    "size": 324602035
+                },
+                {
+                    "attributes": "1K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding001_1K-PNG.zip",
+                    "size": 15679849
+                },
+                {
+                    "attributes": "2K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding001_2K-PNG.zip",
+                    "size": 57077708
+                },
+                {
+                    "attributes": "4K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding001_4K-PNG.zip",
+                    "size": 214060593
+                },
+                {
+                    "attributes": "8K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding001_8K-PNG.zip",
+                    "size": 813720154
+                }
+            ],
+            "tags": [
+                "1",
+                "dark",
+                "grunge",
+                "moss",
+                "nails",
+                "planks",
+                "siding",
+                "wall",
+                "wood"
+            ],
+            "technique": "surface-fully-procedural"
+        },
+        {
+            "id": "WoodSiding002",
+            "type": "material",
+            "relations": {
+                "parents": [
+                    "WoodSidingSubstance001"
+                ],
+                "children": [],
+                "variations": [],
+                "next": "WoodSiding003",
+                "previous": "WoodSiding001"
+            },
+            "title": "Wood Siding 002",
+            "downloads": [
+                {
+                    "attributes": "1K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding002_1K-JPG.zip",
+                    "size": 6894071
+                },
+                {
+                    "attributes": "2K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding002_2K-JPG.zip",
+                    "size": 22419417
+                },
+                {
+                    "attributes": "4K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding002_4K-JPG.zip",
+                    "size": 79314601
+                },
+                {
+                    "attributes": "8K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding002_8K-JPG.zip",
+                    "size": 313037124
+                },
+                {
+                    "attributes": "1K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding002_1K-PNG.zip",
+                    "size": 15371711
+                },
+                {
+                    "attributes": "2K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding002_2K-PNG.zip",
+                    "size": 55597034
+                },
+                {
+                    "attributes": "4K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding002_4K-PNG.zip",
+                    "size": 208182476
+                },
+                {
+                    "attributes": "8K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding002_8K-PNG.zip",
+                    "size": 807812763
+                }
+            ],
+            "tags": [
+                "2",
+                "dark",
+                "grunge",
+                "moss",
+                "nails",
+                "planks",
+                "siding",
+                "wall",
+                "wood"
+            ],
+            "technique": "surface-fully-procedural"
+        },
+        {
+            "id": "WoodSiding003",
+            "type": "material",
+            "relations": {
+                "parents": [
+                    "WoodSidingSubstance001"
+                ],
+                "children": [],
+                "variations": [],
+                "next": "WoodSiding004",
+                "previous": "WoodSiding002"
+            },
+            "title": "Wood Siding 003",
+            "downloads": [
+                {
+                    "attributes": "1K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding003_1K-JPG.zip",
+                    "size": 7245766
+                },
+                {
+                    "attributes": "2K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding003_2K-JPG.zip",
+                    "size": 23682996
+                },
+                {
+                    "attributes": "4K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding003_4K-JPG.zip",
+                    "size": 82115175
+                },
+                {
+                    "attributes": "8K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding003_8K-JPG.zip",
+                    "size": 325845076
+                },
+                {
+                    "attributes": "1K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding003_1K-PNG.zip",
+                    "size": 15479625
+                },
+                {
+                    "attributes": "2K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding003_2K-PNG.zip",
+                    "size": 56262500
+                },
+                {
+                    "attributes": "4K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding003_4K-PNG.zip",
+                    "size": 211637966
+                },
+                {
+                    "attributes": "8K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding003_8K-PNG.zip",
+                    "size": 839252466
+                }
+            ],
+            "tags": [
+                "3",
+                "dark",
+                "grunge",
+                "moss",
+                "nails",
+                "planks",
+                "siding",
+                "wall",
+                "wood"
+            ],
+            "technique": "surface-fully-procedural"
+        },
+        {
+            "id": "WoodSiding004",
+            "type": "material",
+            "relations": {
+                "parents": [
+                    "WoodSidingSubstance001"
+                ],
+                "children": [],
+                "variations": [],
+                "next": "WoodSiding005",
+                "previous": "WoodSiding003"
+            },
+            "title": "Wood Siding 004",
+            "downloads": [
+                {
+                    "attributes": "1K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding004_1K-JPG.zip",
+                    "size": 6517921
+                },
+                {
+                    "attributes": "2K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding004_2K-JPG.zip",
+                    "size": 20597301
+                },
+                {
+                    "attributes": "4K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding004_4K-JPG.zip",
+                    "size": 72420327
+                },
+                {
+                    "attributes": "8K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding004_8K-JPG.zip",
+                    "size": 294783749
+                },
+                {
+                    "attributes": "1K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding004_1K-PNG.zip",
+                    "size": 14908647
+                },
+                {
+                    "attributes": "2K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding004_2K-PNG.zip",
+                    "size": 53788414
+                },
+                {
+                    "attributes": "4K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding004_4K-PNG.zip",
+                    "size": 202285645
+                },
+                {
+                    "attributes": "8K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding004_8K-PNG.zip",
+                    "size": 799460927
+                }
+            ],
+            "tags": [
+                "4",
+                "dark",
+                "grunge",
+                "moss",
+                "nails",
+                "planks",
+                "siding",
+                "wall",
+                "wood"
+            ],
+            "technique": "surface-fully-procedural"
+        },
+        {
+            "id": "WoodSiding005",
+            "type": "material",
+            "relations": {
+                "parents": [
+                    "WoodSidingSubstance001"
+                ],
+                "children": [],
+                "variations": [],
+                "next": "WoodSiding006",
+                "previous": "WoodSiding004"
+            },
+            "title": "Wood Siding 005",
+            "downloads": [
+                {
+                    "attributes": "1K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding005_1K-JPG.zip",
+                    "size": 6602378
+                },
+                {
+                    "attributes": "2K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding005_2K-JPG.zip",
+                    "size": 21017782
+                },
+                {
+                    "attributes": "4K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding005_4K-JPG.zip",
+                    "size": 72969587
+                },
+                {
+                    "attributes": "8K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding005_8K-JPG.zip",
+                    "size": 290638157
+                },
+                {
+                    "attributes": "1K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding005_1K-PNG.zip",
+                    "size": 14920526
+                },
+                {
+                    "attributes": "2K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding005_2K-PNG.zip",
+                    "size": 53705037
+                },
+                {
+                    "attributes": "4K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding005_4K-PNG.zip",
+                    "size": 200884938
+                },
+                {
+                    "attributes": "8K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding005_8K-PNG.zip",
+                    "size": 780031161
+                }
+            ],
+            "tags": [
+                "5",
+                "dark",
+                "grunge",
+                "moss",
+                "nails",
+                "planks",
+                "siding",
+                "wall",
+                "wood"
+            ],
+            "technique": "surface-fully-procedural"
+        },
+        {
+            "id": "WoodSiding006",
+            "type": "material",
+            "relations": {
+                "parents": [
+                    "WoodSidingSubstance001"
+                ],
+                "children": [],
+                "variations": [],
+                "next": "WoodSiding007",
+                "previous": "WoodSiding005"
+            },
+            "title": "Wood Siding 006",
+            "downloads": [
+                {
+                    "attributes": "1K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding006_1K-JPG.zip",
+                    "size": 6681781
+                },
+                {
+                    "attributes": "2K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding006_2K-JPG.zip",
+                    "size": 21541325
+                },
+                {
+                    "attributes": "4K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding006_4K-JPG.zip",
+                    "size": 75023295
+                },
+                {
+                    "attributes": "8K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding006_8K-JPG.zip",
+                    "size": 298959041
+                },
+                {
+                    "attributes": "1K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding006_1K-PNG.zip",
+                    "size": 15136229
+                },
+                {
+                    "attributes": "2K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding006_2K-PNG.zip",
+                    "size": 54686473
+                },
+                {
+                    "attributes": "4K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding006_4K-PNG.zip",
+                    "size": 204869392
+                },
+                {
+                    "attributes": "8K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding006_8K-PNG.zip",
+                    "size": 801779671
+                }
+            ],
+            "tags": [
+                "6",
+                "dark",
+                "grunge",
+                "moss",
+                "nails",
+                "planks",
+                "siding",
+                "wall",
+                "wood"
+            ],
+            "technique": "surface-fully-procedural"
+        },
+        {
+            "id": "WoodSiding007",
+            "type": "material",
+            "relations": {
+                "parents": [
+                    "WoodSidingSubstance001"
+                ],
+                "children": [],
+                "variations": [],
+                "next": "WoodSiding008",
+                "previous": "WoodSiding006"
+            },
+            "title": "Wood Siding 007",
+            "downloads": [
+                {
+                    "attributes": "1K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding007_1K-JPG.zip",
+                    "size": 6899550
+                },
+                {
+                    "attributes": "2K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding007_2K-JPG.zip",
+                    "size": 22429579
+                },
+                {
+                    "attributes": "4K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding007_4K-JPG.zip",
+                    "size": 78374958
+                },
+                {
+                    "attributes": "8K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding007_8K-JPG.zip",
+                    "size": 314463409
+                },
+                {
+                    "attributes": "1K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding007_1K-PNG.zip",
+                    "size": 15247170
+                },
+                {
+                    "attributes": "2K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding007_2K-PNG.zip",
+                    "size": 55161800
+                },
+                {
+                    "attributes": "4K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding007_4K-PNG.zip",
+                    "size": 207333966
+                },
+                {
+                    "attributes": "8K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding007_8K-PNG.zip",
+                    "size": 824237805
+                }
+            ],
+            "tags": [
+                "7",
+                "dark",
+                "grunge",
+                "moss",
+                "nails",
+                "planks",
+                "siding",
+                "wall",
+                "wood"
+            ],
+            "technique": "surface-fully-procedural"
+        },
+        {
+            "id": "WoodSiding008",
+            "type": "material",
+            "relations": {
+                "parents": [
+                    "WoodSidingSubstance001"
+                ],
+                "children": [],
+                "variations": [],
+                "next": "WoodSiding009",
+                "previous": "WoodSiding007"
+            },
+            "title": "Wood Siding 008",
+            "downloads": [
+                {
+                    "attributes": "1K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding008_1K-JPG.zip",
+                    "size": 6941998
+                },
+                {
+                    "attributes": "2K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding008_2K-JPG.zip",
+                    "size": 21910270
+                },
+                {
+                    "attributes": "4K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding008_4K-JPG.zip",
+                    "size": 76698883
+                },
+                {
+                    "attributes": "8K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding008_8K-JPG.zip",
+                    "size": 301152436
+                },
+                {
+                    "attributes": "1K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding008_1K-PNG.zip",
+                    "size": 15190147
+                },
+                {
+                    "attributes": "2K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding008_2K-PNG.zip",
+                    "size": 54164495
+                },
+                {
+                    "attributes": "4K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding008_4K-PNG.zip",
+                    "size": 202391763
+                },
+                {
+                    "attributes": "8K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding008_8K-PNG.zip",
+                    "size": 786636098
+                }
+            ],
+            "tags": [
+                "8",
+                "dark",
+                "grunge",
+                "moss",
+                "nails",
+                "planks",
+                "siding",
+                "wall",
+                "wood"
+            ],
+            "technique": "surface-fully-procedural"
+        },
+        {
+            "id": "WoodSiding009",
+            "type": "material",
+            "relations": {
+                "parents": [],
+                "children": [],
+                "variations": [],
+                "next": "WoodSiding010",
+                "previous": "WoodSiding008"
+            },
+            "title": "Wood Siding 009",
+            "downloads": [
+                {
+                    "attributes": "1K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding009_1K-JPG.zip",
+                    "size": 4257092
+                },
+                {
+                    "attributes": "2K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding009_2K-JPG.zip",
+                    "size": 13807004
+                },
+                {
+                    "attributes": "4K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding009_4K-JPG.zip",
+                    "size": 54181568
+                },
+                {
+                    "attributes": "8K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding009_8K-JPG.zip",
+                    "size": 210730216
+                },
+                {
+                    "attributes": "1K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding009_1K-PNG.zip",
+                    "size": 8709702
+                },
+                {
+                    "attributes": "2K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding009_2K-PNG.zip",
+                    "size": 31538029
+                },
+                {
+                    "attributes": "4K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding009_4K-PNG.zip",
+                    "size": 123900412
+                },
+                {
+                    "attributes": "8K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding009_8K-PNG.zip",
+                    "size": 484363023
+                }
+            ],
+            "tags": [
+                "9",
+                "house",
+                "plank",
+                "planks",
+                "siding",
+                "wall",
+                "wood"
+            ],
+            "technique": "surface-photogrammetry"
+        },
+        {
+            "id": "WoodSiding010",
+            "type": "material",
+            "relations": {
+                "parents": [
+                    "WoodSidingSubstance002"
+                ],
+                "children": [],
+                "variations": [],
+                "next": "WoodSiding011",
+                "previous": "WoodSiding009"
+            },
+            "title": "Wood Siding 010",
+            "downloads": [
+                {
+                    "attributes": "1K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding010_1K-JPG.zip",
+                    "size": 7664197
+                },
+                {
+                    "attributes": "2K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding010_2K-JPG.zip",
+                    "size": 28211764
+                },
+                {
+                    "attributes": "4K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding010_4K-JPG.zip",
+                    "size": 114698479
+                },
+                {
+                    "attributes": "8K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding010_8K-JPG.zip",
+                    "size": 499015560
+                },
+                {
+                    "attributes": "1K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding010_1K-PNG.zip",
+                    "size": 16744615
+                },
+                {
+                    "attributes": "2K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding010_2K-PNG.zip",
+                    "size": 64222622
+                },
+                {
+                    "attributes": "4K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding010_4K-PNG.zip",
+                    "size": 257327624
+                },
+                {
+                    "attributes": "8K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding010_8K-PNG.zip",
+                    "size": 1035149883
+                }
+            ],
+            "tags": [
+                "10",
+                "shingles",
+                "siding",
+                "weathered",
+                "wood"
+            ],
+            "technique": "surface-fully-procedural"
+        },
+        {
+            "id": "WoodSiding011",
+            "type": "material",
+            "relations": {
+                "parents": [
+                    "WoodSidingSubstance002"
+                ],
+                "children": [],
+                "variations": [],
+                "next": "WoodSiding012",
+                "previous": "WoodSiding010"
+            },
+            "title": "Wood Siding 011",
+            "downloads": [
+                {
+                    "attributes": "1K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding011_1K-JPG.zip",
+                    "size": 6430187
+                },
+                {
+                    "attributes": "2K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding011_2K-JPG.zip",
+                    "size": 22529797
+                },
+                {
+                    "attributes": "4K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding011_4K-JPG.zip",
+                    "size": 88205520
+                },
+                {
+                    "attributes": "8K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding011_8K-JPG.zip",
+                    "size": 380682710
+                },
+                {
+                    "attributes": "1K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding011_1K-PNG.zip",
+                    "size": 15690835
+                },
+                {
+                    "attributes": "2K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding011_2K-PNG.zip",
+                    "size": 59321413
+                },
+                {
+                    "attributes": "4K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding011_4K-PNG.zip",
+                    "size": 234559031
+                },
+                {
+                    "attributes": "8K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding011_8K-PNG.zip",
+                    "size": 952334519
+                }
+            ],
+            "tags": [
+                "11",
+                "shingles",
+                "siding",
+                "weathered",
+                "wood"
+            ],
+            "technique": "surface-fully-procedural"
+        },
+        {
+            "id": "WoodSiding012",
+            "type": "material",
+            "relations": {
+                "parents": [
+                    "WoodSidingSubstance002"
+                ],
+                "children": [],
+                "variations": [],
+                "next": "WoodSiding013",
+                "previous": "WoodSiding011"
+            },
+            "title": "Wood Siding 012",
+            "downloads": [
+                {
+                    "attributes": "1K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding012_1K-JPG.zip",
+                    "size": 8263139
+                },
+                {
+                    "attributes": "2K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding012_2K-JPG.zip",
+                    "size": 29187036
+                },
+                {
+                    "attributes": "4K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding012_4K-JPG.zip",
+                    "size": 113433038
+                },
+                {
+                    "attributes": "8K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding012_8K-JPG.zip",
+                    "size": 479965830
+                },
+                {
+                    "attributes": "1K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding012_1K-PNG.zip",
+                    "size": 17044967
+                },
+                {
+                    "attributes": "2K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding012_2K-PNG.zip",
+                    "size": 64172803
+                },
+                {
+                    "attributes": "4K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding012_4K-PNG.zip",
+                    "size": 253378501
+                },
+                {
+                    "attributes": "8K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding012_8K-PNG.zip",
+                    "size": 1018836628
+                }
+            ],
+            "tags": [
+                "12",
+                "shingles",
+                "siding",
+                "weathered",
+                "wood"
+            ],
+            "technique": "surface-fully-procedural"
+        },
+        {
+            "id": "WoodSiding013",
+            "type": "material",
+            "relations": {
+                "parents": [
+                    "WoodSidingSubstance002"
+                ],
+                "children": [],
+                "variations": [],
+                "next": null,
+                "previous": "WoodSiding012"
+            },
+            "title": "Wood Siding 013",
+            "downloads": [
+                {
+                    "attributes": "1K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding013_1K-JPG.zip",
+                    "size": 7049367
+                },
+                {
+                    "attributes": "2K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding013_2K-JPG.zip",
+                    "size": 26672918
+                },
+                {
+                    "attributes": "4K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding013_4K-JPG.zip",
+                    "size": 110631923
+                },
+                {
+                    "attributes": "8K-JPG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding013_8K-JPG.zip",
+                    "size": 482663149
+                },
+                {
+                    "attributes": "1K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding013_1K-PNG.zip",
+                    "size": 16206801
+                },
+                {
+                    "attributes": "2K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding013_2K-PNG.zip",
+                    "size": 62605466
+                },
+                {
+                    "attributes": "4K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding013_4K-PNG.zip",
+                    "size": 253878675
+                },
+                {
+                    "attributes": "8K-PNG",
+                    "extension": "zip",
+                    "url": "https://ambientcg.com/get?file=WoodSiding013_8K-PNG.zip",
+                    "size": 1014716959
+                }
+            ],
+            "tags": [
+                "13",
+                "shingles",
+                "siding",
+                "weathered",
+                "wood"
+            ],
+            "technique": "surface-fully-procedural"
+        }
+    ]
+}

@@ -1,5 +1,10 @@
-# Keep generated JSON deterministic across Windows and POSIX checkouts.
+# Keep generated JSON and hash-bound code deterministic across checkouts.
 *.json text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.md text eol=lf
 
 # Original source artifacts and their manifests are verified as exact bytes.
 data/upstream/** -text

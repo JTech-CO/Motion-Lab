@@ -1,0 +1,95 @@
+{
+  "browser": "Local installed Google Chrome headless=new, separate importer-owned profiles",
+  "sourceJavaScriptExecuted": false,
+  "CSSAndNativeSMILPreviewConstructed": true,
+  "temporalFramesCompared": false,
+  "renderers": {
+    "css": {
+      "total": 343,
+      "ready": 343,
+      "byRenderer": {
+        "css": {
+          "total": 343,
+          "ready": 343
+        }
+      },
+      "failures": [],
+      "shaderEndpointChecks": 0,
+      "shaderEndpointDifferent": 0,
+      "shaderDifferentFrames": 0,
+      "shaderDiscreteFrames": [],
+      "security": {
+        "cssExternalUrlBlocked": true,
+        "cssVariableShorthandPreserved": true,
+        "cssPartiallyOverriddenShorthandsPreserved": true,
+        "cssQuotedDeclarationAndCommentTextPreserved": true,
+        "cssAuthoredCascadeOrderPreserved": true,
+        "cssEmptySerializedValidShorthandPreserved": true,
+        "cssDeclarationBoundsAndCssomValidationPreserved": true,
+        "cssMalformedSourceRejected": true,
+        "cssStandaloneVisibleTarget": true,
+        "svgActiveContentBlocked": true,
+        "svgEntitiesBlocked": true,
+        "svgLocalClockAndMetadataPreserved": true,
+        "svgSetAndSafeOriginPreserved": true,
+        "cssSourceVariablesPreserved": true,
+        "svgLocalFiltersPreserved": true,
+        "svgFiltersBounded": true,
+        "cssReadonlyInputAndFocusPreserved": true,
+        "paletteAlphaValuesAndContrastPreserved": true
+      },
+      "diagnostics": {
+        "instances": 0,
+        "gpuContexts": 0,
+        "shaderPrograms": 0,
+        "activeShaders": 0
+      },
+      "complete": true
+    },
+    "svg": {
+      "total": 167,
+      "ready": 167,
+      "byRenderer": {
+        "svg": {
+          "total": 167,
+          "ready": 167
+        }
+      },
+      "failures": [],
+      "shaderEndpointChecks": 0,
+      "shaderEndpointDifferent": 0,
+      "shaderDifferentFrames": 0,
+      "shaderDiscreteFrames": [],
+      "security": {
+        "cssExternalUrlBlocked": true,
+        "cssVariableShorthandPreserved": true,
+        "cssPartiallyOverriddenShorthandsPreserved": true,
+        "cssQuotedDeclarationAndCommentTextPreserved": true,
+        "cssAuthoredCascadeOrderPreserved": true,
+        "cssEmptySerializedValidShorthandPreserved": true,
+        "cssDeclarationBoundsAndCssomValidationPreserved": true,
+        "cssMalformedSourceRejected": true,
+        "cssStandaloneVisibleTarget": true,
+        "svgActiveContentBlocked": true,
+        "svgEntitiesBlocked": true,
+        "svgLocalClockAndMetadataPreserved": true,
+        "svgSetAndSafeOriginPreserved": true,
+        "cssSourceVariablesPreserved": true,
+        "svgLocalFiltersPreserved": true,
+        "svgFiltersBounded": true,
+        "cssReadonlyInputAndFocusPreserved": true,
+        "paletteAlphaValuesAndContrastPreserved": true
+      },
+      "diagnostics": {
+        "instances": 0,
+        "gpuContexts": 0,
+        "shaderPrograms": 0,
+        "activeShaders": 0
+      },
+      "complete": true
+    }
+  },
+  "rendererSha256": "46ee82db97f5139b23e4e2f969c7aa904bfb90401e3e0cd7b7b4aa0f7e49da5a",
+  "phase2MotionInputSha256": "9076417e392a6439ec32defa258bce5a84f6fb018e827169e861e30547a68bea",
+  "testedCatalogSha256": "f0a9d9d2b405996486f493b2e8b9cab5c93cf68a2e00e02c714e521365ac2ab8"
+}

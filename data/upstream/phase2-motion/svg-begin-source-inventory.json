@@ -1,0 +1,2384 @@
+{
+  "total": 461,
+  "currentSanitizerRejected": 461,
+  "affectedAssets": 72,
+  "beginValues": [
+    "-.33s",
+    "-.33s; x3.end+.33s",
+    "-.33s; y3.end+.33s",
+    "-.5s",
+    "-.67s",
+    "-.83s",
+    "-.83s; s2.end+1s",
+    "-.83s; t2.end+1s",
+    "-0.33s",
+    "-1.08s",
+    "-1.16s",
+    "-1.17s",
+    "-1.1s",
+    "-1.24s",
+    "-1.2s",
+    "-1.32s",
+    "-1.33s",
+    "-1.3s",
+    "-1.40s",
+    "-1.48s",
+    "-1.56s",
+    "-1.5s",
+    "-1.64s",
+    "-1.72s",
+    "-1.80s",
+    "-1.88s",
+    "-1s",
+    ".33s; x2.end+.33s",
+    ".33s; x3.end+.42s",
+    ".33s; y2.end+.33s",
+    ".33s; y3.end+.42s",
+    ".5s; x1.end+1.33s",
+    ".5s; x2.end+1.17s",
+    ".5s; y2.end+1.17s",
+    ".67s; x2.end+.42s",
+    ".67s; x3.end+1s",
+    ".67s; y2.end+.42s",
+    ".67s; y3.end+1s",
+    ".83s; s3.end+1s",
+    ".83s; t3.end+1s",
+    ".83s; x2.end+.75s",
+    ".83s; y2.end+.75s",
+    ".83s; z2.end+.75s",
+    "0s; s1.end+1s",
+    "0s; t1.end+1s",
+    "0s; x.end+2.58s",
+    "0s; x1.end+.33s",
+    "0s; x1.end+.42s",
+    "0s; x1.end+.67s",
+    "0s; x1.end+.75s",
+    "0s; x1.end+1.75s",
+    "0s; x1.end+1s",
+    "0s; x1.end+2s",
+    "0s; x3.end+1.17s",
+    "0s; x3.end+1.33s",
+    "0s; y1.end+.33s",
+    "0s; y1.end+.42s",
+    "0s; y1.end+.75s",
+    "0s; y1.end+1s",
+    "0s; y1.end+2s",
+    "0s; y3.end+1.17s",
+    "1.34s; x2.end+1s",
+    "1.34s; y2.end+1s",
+    "1.66s; x3.end+.75s",
+    "1.66s; y3.end+.75s",
+    "1.66s; z3.end+.75s",
+    "1s; x1.end+1.17s",
+    "1s; x2.end+1.33s",
+    "1s; y.end+2.25s",
+    "1s; y1.end+1.17s"
+  ],
+  "affected": [
+    {
+      "id": "phase2-motion-meteocons-beanie",
+      "tag": "animateTransform",
+      "begin": "0s; x.end+2.58s"
+    },
+    {
+      "id": "phase2-motion-meteocons-beanie",
+      "tag": "animateTransform",
+      "begin": "1s; y.end+2.25s"
+    },
+    {
+      "id": "phase2-motion-meteocons-cloud-down",
+      "tag": "animateTransform",
+      "begin": "-1.2s"
+    },
+    {
+      "id": "phase2-motion-meteocons-cloud-down",
+      "tag": "animate",
+      "begin": "-1.2s"
+    },
+    {
+      "id": "phase2-motion-meteocons-cloud-down",
+      "tag": "animateTransform",
+      "begin": "-1.1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-cloud-down",
+      "tag": "animate",
+      "begin": "-1.1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-cloud-down",
+      "tag": "animateTransform",
+      "begin": "-1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-cloud-down",
+      "tag": "animate",
+      "begin": "-1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-cloud-up",
+      "tag": "animateTransform",
+      "begin": "-1.2s"
+    },
+    {
+      "id": "phase2-motion-meteocons-cloud-up",
+      "tag": "animate",
+      "begin": "-1.2s"
+    },
+    {
+      "id": "phase2-motion-meteocons-cloud-up",
+      "tag": "animateTransform",
+      "begin": "-1.1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-cloud-up",
+      "tag": "animate",
+      "begin": "-1.1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-cloud-up",
+      "tag": "animateTransform",
+      "begin": "-1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-cloud-up",
+      "tag": "animate",
+      "begin": "-1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-drizzle",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-drizzle",
+      "tag": "animate",
+      "begin": "0s; y1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-drizzle",
+      "tag": "animateTransform",
+      "begin": "1.34s; x2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-drizzle",
+      "tag": "animate",
+      "begin": "1.34s; y2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-drizzle",
+      "tag": "animateTransform",
+      "begin": ".67s; x3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-drizzle",
+      "tag": "animate",
+      "begin": ".67s; y3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust",
+      "tag": "animate",
+      "begin": "-1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust",
+      "tag": "animate",
+      "begin": "-1.08s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust",
+      "tag": "animate",
+      "begin": "-1.16s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust",
+      "tag": "animate",
+      "begin": "-1.24s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust",
+      "tag": "animate",
+      "begin": "-1.32s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust",
+      "tag": "animate",
+      "begin": "-1.40s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust",
+      "tag": "animate",
+      "begin": "-1.48s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust",
+      "tag": "animate",
+      "begin": "-1.56s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust",
+      "tag": "animate",
+      "begin": "-1.64s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust",
+      "tag": "animate",
+      "begin": "-1.72s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust",
+      "tag": "animate",
+      "begin": "-1.80s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust",
+      "tag": "animate",
+      "begin": "-1.88s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-day",
+      "tag": "animate",
+      "begin": "-1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-day",
+      "tag": "animate",
+      "begin": "-1.08s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-day",
+      "tag": "animate",
+      "begin": "-1.16s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-day",
+      "tag": "animate",
+      "begin": "-1.24s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-day",
+      "tag": "animate",
+      "begin": "-1.32s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-day",
+      "tag": "animate",
+      "begin": "-1.40s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-day",
+      "tag": "animate",
+      "begin": "-1.48s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-day",
+      "tag": "animate",
+      "begin": "-1.56s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-day",
+      "tag": "animate",
+      "begin": "-1.64s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-day",
+      "tag": "animate",
+      "begin": "-1.72s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-day",
+      "tag": "animate",
+      "begin": "-1.80s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-day",
+      "tag": "animate",
+      "begin": "-1.88s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-night",
+      "tag": "animate",
+      "begin": "-1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-night",
+      "tag": "animate",
+      "begin": "-1.08s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-night",
+      "tag": "animate",
+      "begin": "-1.16s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-night",
+      "tag": "animate",
+      "begin": "-1.24s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-night",
+      "tag": "animate",
+      "begin": "-1.32s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-night",
+      "tag": "animate",
+      "begin": "-1.40s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-night",
+      "tag": "animate",
+      "begin": "-1.48s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-night",
+      "tag": "animate",
+      "begin": "-1.56s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-night",
+      "tag": "animate",
+      "begin": "-1.64s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-night",
+      "tag": "animate",
+      "begin": "-1.72s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-night",
+      "tag": "animate",
+      "begin": "-1.80s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-night",
+      "tag": "animate",
+      "begin": "-1.88s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-wind",
+      "tag": "animateTransform",
+      "begin": "1s; x1.end+1.17s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-wind",
+      "tag": "animate",
+      "begin": "1s; y1.end+1.17s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-wind",
+      "tag": "animateTransform",
+      "begin": ".5s; x2.end+1.17s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-wind",
+      "tag": "animate",
+      "begin": ".5s; y2.end+1.17s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-wind",
+      "tag": "animateTransform",
+      "begin": "0s; x3.end+1.17s"
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-wind",
+      "tag": "animate",
+      "begin": "0s; y3.end+1.17s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-drizzle",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-drizzle",
+      "tag": "animate",
+      "begin": "0s; y1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-drizzle",
+      "tag": "animateTransform",
+      "begin": "1.34s; x2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-drizzle",
+      "tag": "animate",
+      "begin": "1.34s; y2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-drizzle",
+      "tag": "animateTransform",
+      "begin": ".67s; x3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-drizzle",
+      "tag": "animate",
+      "begin": ".67s; y3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-hail",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-hail",
+      "tag": "animate",
+      "begin": "0s; y1.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-hail",
+      "tag": "animateTransform",
+      "begin": ".67s; x2.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-hail",
+      "tag": "animate",
+      "begin": ".67s; y2.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-hail",
+      "tag": "animateTransform",
+      "begin": ".33s; x3.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-hail",
+      "tag": "animate",
+      "begin": ".33s; y3.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-rain",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-rain",
+      "tag": "animate",
+      "begin": "0s; y1.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-rain",
+      "tag": "animateTransform",
+      "begin": ".33s; x2.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-rain",
+      "tag": "animate",
+      "begin": ".33s; y2.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-rain",
+      "tag": "animateTransform",
+      "begin": "-.33s; x3.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-rain",
+      "tag": "animate",
+      "begin": "-.33s; y3.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-sleet",
+      "tag": "animate",
+      "begin": "0s; t1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-sleet",
+      "tag": "animateTransform",
+      "begin": "0s; s1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-sleet",
+      "tag": "animate",
+      "begin": "-.83s; t2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-sleet",
+      "tag": "animateTransform",
+      "begin": "-.83s; s2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-sleet",
+      "tag": "animate",
+      "begin": ".83s; t3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-sleet",
+      "tag": "animateTransform",
+      "begin": ".83s; s3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-sleet",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-sleet",
+      "tag": "animate",
+      "begin": "0s; y1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-sleet",
+      "tag": "animateTransform",
+      "begin": "1.34s; x2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-sleet",
+      "tag": "animate",
+      "begin": "1.34s; y2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-sleet",
+      "tag": "animateTransform",
+      "begin": ".67s; x3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-sleet",
+      "tag": "animate",
+      "begin": ".67s; y3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-smoke",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-smoke",
+      "tag": "animate",
+      "begin": "0s; y1.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-smoke",
+      "tag": "animate",
+      "begin": "0s; y1.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-smoke",
+      "tag": "animateTransform",
+      "begin": ".83s; x2.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-smoke",
+      "tag": "animate",
+      "begin": ".83s; y2.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-smoke",
+      "tag": "animate",
+      "begin": ".83s; z2.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-smoke",
+      "tag": "animateTransform",
+      "begin": "1.66s; x3.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-smoke",
+      "tag": "animate",
+      "begin": "1.66s; y3.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-smoke",
+      "tag": "animate",
+      "begin": "1.66s; z3.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-snow",
+      "tag": "animate",
+      "begin": "0s; t1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-snow",
+      "tag": "animateTransform",
+      "begin": "0s; s1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-snow",
+      "tag": "animate",
+      "begin": "-.83s; t2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-snow",
+      "tag": "animateTransform",
+      "begin": "-.83s; s2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-snow",
+      "tag": "animate",
+      "begin": ".83s; t3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-day-snow",
+      "tag": "animateTransform",
+      "begin": ".83s; s3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-drizzle",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-drizzle",
+      "tag": "animate",
+      "begin": "0s; y1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-drizzle",
+      "tag": "animateTransform",
+      "begin": "1.34s; x2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-drizzle",
+      "tag": "animate",
+      "begin": "1.34s; y2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-drizzle",
+      "tag": "animateTransform",
+      "begin": ".67s; x3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-drizzle",
+      "tag": "animate",
+      "begin": ".67s; y3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-hail",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-hail",
+      "tag": "animate",
+      "begin": "0s; y1.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-hail",
+      "tag": "animateTransform",
+      "begin": ".67s; x2.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-hail",
+      "tag": "animate",
+      "begin": ".67s; y2.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-hail",
+      "tag": "animateTransform",
+      "begin": ".33s; x3.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-hail",
+      "tag": "animate",
+      "begin": ".33s; y3.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-drizzle",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-drizzle",
+      "tag": "animate",
+      "begin": "0s; y1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-drizzle",
+      "tag": "animateTransform",
+      "begin": "1.34s; x2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-drizzle",
+      "tag": "animate",
+      "begin": "1.34s; y2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-drizzle",
+      "tag": "animateTransform",
+      "begin": ".67s; x3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-drizzle",
+      "tag": "animate",
+      "begin": ".67s; y3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-hail",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-hail",
+      "tag": "animate",
+      "begin": "0s; y1.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-hail",
+      "tag": "animateTransform",
+      "begin": ".67s; x2.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-hail",
+      "tag": "animate",
+      "begin": ".67s; y2.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-hail",
+      "tag": "animateTransform",
+      "begin": ".33s; x3.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-hail",
+      "tag": "animate",
+      "begin": ".33s; y3.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-rain",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-rain",
+      "tag": "animate",
+      "begin": "0s; y1.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-rain",
+      "tag": "animateTransform",
+      "begin": ".33s; x2.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-rain",
+      "tag": "animate",
+      "begin": ".33s; y2.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-rain",
+      "tag": "animateTransform",
+      "begin": "-.33s; x3.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-rain",
+      "tag": "animate",
+      "begin": "-.33s; y3.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-sleet",
+      "tag": "animate",
+      "begin": "0s; t1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-sleet",
+      "tag": "animateTransform",
+      "begin": "0s; s1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-sleet",
+      "tag": "animate",
+      "begin": "-.83s; t2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-sleet",
+      "tag": "animateTransform",
+      "begin": "-.83s; s2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-sleet",
+      "tag": "animate",
+      "begin": ".83s; t3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-sleet",
+      "tag": "animateTransform",
+      "begin": ".83s; s3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-sleet",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-sleet",
+      "tag": "animate",
+      "begin": "0s; y1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-sleet",
+      "tag": "animateTransform",
+      "begin": "1.34s; x2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-sleet",
+      "tag": "animate",
+      "begin": "1.34s; y2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-sleet",
+      "tag": "animateTransform",
+      "begin": ".67s; x3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-sleet",
+      "tag": "animate",
+      "begin": ".67s; y3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-smoke",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-smoke",
+      "tag": "animate",
+      "begin": "0s; y1.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-smoke",
+      "tag": "animate",
+      "begin": "0s; y1.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-smoke",
+      "tag": "animateTransform",
+      "begin": ".83s; x2.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-smoke",
+      "tag": "animate",
+      "begin": ".83s; y2.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-smoke",
+      "tag": "animate",
+      "begin": ".83s; z2.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-smoke",
+      "tag": "animateTransform",
+      "begin": "1.66s; x3.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-smoke",
+      "tag": "animate",
+      "begin": "1.66s; y3.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-smoke",
+      "tag": "animate",
+      "begin": "1.66s; z3.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-snow",
+      "tag": "animate",
+      "begin": "0s; t1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-snow",
+      "tag": "animateTransform",
+      "begin": "0s; s1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-snow",
+      "tag": "animate",
+      "begin": "-.83s; t2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-snow",
+      "tag": "animateTransform",
+      "begin": "-.83s; s2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-snow",
+      "tag": "animate",
+      "begin": ".83s; t3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-snow",
+      "tag": "animateTransform",
+      "begin": ".83s; s3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-rain",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-rain",
+      "tag": "animate",
+      "begin": "0s; y1.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-rain",
+      "tag": "animateTransform",
+      "begin": ".33s; x2.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-rain",
+      "tag": "animate",
+      "begin": ".33s; y2.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-rain",
+      "tag": "animateTransform",
+      "begin": "-.33s; x3.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-rain",
+      "tag": "animate",
+      "begin": "-.33s; y3.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-sleet",
+      "tag": "animate",
+      "begin": "0s; t1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-sleet",
+      "tag": "animateTransform",
+      "begin": "0s; s1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-sleet",
+      "tag": "animate",
+      "begin": "-.83s; t2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-sleet",
+      "tag": "animateTransform",
+      "begin": "-.83s; s2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-sleet",
+      "tag": "animate",
+      "begin": ".83s; t3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-sleet",
+      "tag": "animateTransform",
+      "begin": ".83s; s3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-sleet",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-sleet",
+      "tag": "animate",
+      "begin": "0s; y1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-sleet",
+      "tag": "animateTransform",
+      "begin": "1.34s; x2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-sleet",
+      "tag": "animate",
+      "begin": "1.34s; y2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-sleet",
+      "tag": "animateTransform",
+      "begin": ".67s; x3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-sleet",
+      "tag": "animate",
+      "begin": ".67s; y3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-smoke",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-smoke",
+      "tag": "animate",
+      "begin": "0s; y1.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-smoke",
+      "tag": "animate",
+      "begin": "0s; y1.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-smoke",
+      "tag": "animateTransform",
+      "begin": ".83s; x2.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-smoke",
+      "tag": "animate",
+      "begin": ".83s; y2.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-smoke",
+      "tag": "animate",
+      "begin": ".83s; z2.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-smoke",
+      "tag": "animateTransform",
+      "begin": "1.66s; x3.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-smoke",
+      "tag": "animate",
+      "begin": "1.66s; y3.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-smoke",
+      "tag": "animate",
+      "begin": "1.66s; z3.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-snow",
+      "tag": "animate",
+      "begin": "0s; t1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-snow",
+      "tag": "animateTransform",
+      "begin": "0s; s1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-snow",
+      "tag": "animate",
+      "begin": "-.83s; t2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-snow",
+      "tag": "animateTransform",
+      "begin": "-.83s; s2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-snow",
+      "tag": "animate",
+      "begin": ".83s; t3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-snow",
+      "tag": "animateTransform",
+      "begin": ".83s; s3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-falling-stars",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+2s"
+    },
+    {
+      "id": "phase2-motion-meteocons-falling-stars",
+      "tag": "animate",
+      "begin": "0s; y1.end+2s"
+    },
+    {
+      "id": "phase2-motion-meteocons-falling-stars",
+      "tag": "animateTransform",
+      "begin": "-.67s"
+    },
+    {
+      "id": "phase2-motion-meteocons-falling-stars",
+      "tag": "animate",
+      "begin": "-.67s"
+    },
+    {
+      "id": "phase2-motion-meteocons-glove",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+1.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-hail",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-hail",
+      "tag": "animate",
+      "begin": "0s; y1.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-hail",
+      "tag": "animateTransform",
+      "begin": ".67s; x2.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-hail",
+      "tag": "animate",
+      "begin": ".67s; y2.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-hail",
+      "tag": "animateTransform",
+      "begin": ".33s; x3.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-hail",
+      "tag": "animate",
+      "begin": ".33s; y3.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-lightning-bolt",
+      "tag": "animate",
+      "begin": "0s; x1.end+.67s"
+    },
+    {
+      "id": "phase2-motion-meteocons-mist",
+      "tag": "animateTransform",
+      "begin": "-1.5s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-drizzle",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-drizzle",
+      "tag": "animate",
+      "begin": "0s; y1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-drizzle",
+      "tag": "animateTransform",
+      "begin": "1.34s; x2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-drizzle",
+      "tag": "animate",
+      "begin": "1.34s; y2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-drizzle",
+      "tag": "animateTransform",
+      "begin": ".67s; x3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-drizzle",
+      "tag": "animate",
+      "begin": ".67s; y3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-hail",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-hail",
+      "tag": "animate",
+      "begin": "0s; y1.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-hail",
+      "tag": "animateTransform",
+      "begin": ".67s; x2.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-hail",
+      "tag": "animate",
+      "begin": ".67s; y2.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-hail",
+      "tag": "animateTransform",
+      "begin": ".33s; x3.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-hail",
+      "tag": "animate",
+      "begin": ".33s; y3.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-rain",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-rain",
+      "tag": "animate",
+      "begin": "0s; y1.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-rain",
+      "tag": "animateTransform",
+      "begin": ".33s; x2.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-rain",
+      "tag": "animate",
+      "begin": ".33s; y2.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-rain",
+      "tag": "animateTransform",
+      "begin": "-.33s; x3.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-rain",
+      "tag": "animate",
+      "begin": "-.33s; y3.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-sleet",
+      "tag": "animate",
+      "begin": "0s; t1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-sleet",
+      "tag": "animateTransform",
+      "begin": "0s; s1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-sleet",
+      "tag": "animate",
+      "begin": "-.83s; t2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-sleet",
+      "tag": "animateTransform",
+      "begin": "-.83s; s2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-sleet",
+      "tag": "animate",
+      "begin": ".83s; t3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-sleet",
+      "tag": "animateTransform",
+      "begin": ".83s; s3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-sleet",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-sleet",
+      "tag": "animate",
+      "begin": "0s; y1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-sleet",
+      "tag": "animateTransform",
+      "begin": "1.34s; x2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-sleet",
+      "tag": "animate",
+      "begin": "1.34s; y2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-sleet",
+      "tag": "animateTransform",
+      "begin": ".67s; x3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-sleet",
+      "tag": "animate",
+      "begin": ".67s; y3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-smoke",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-smoke",
+      "tag": "animate",
+      "begin": "0s; y1.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-smoke",
+      "tag": "animate",
+      "begin": "0s; y1.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-smoke",
+      "tag": "animateTransform",
+      "begin": ".83s; x2.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-smoke",
+      "tag": "animate",
+      "begin": ".83s; y2.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-smoke",
+      "tag": "animate",
+      "begin": ".83s; z2.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-smoke",
+      "tag": "animateTransform",
+      "begin": "1.66s; x3.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-smoke",
+      "tag": "animate",
+      "begin": "1.66s; y3.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-smoke",
+      "tag": "animate",
+      "begin": "1.66s; z3.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-snow",
+      "tag": "animate",
+      "begin": "0s; t1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-snow",
+      "tag": "animateTransform",
+      "begin": "0s; s1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-snow",
+      "tag": "animate",
+      "begin": "-.83s; t2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-snow",
+      "tag": "animateTransform",
+      "begin": "-.83s; s2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-snow",
+      "tag": "animate",
+      "begin": ".83s; t3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-day-snow",
+      "tag": "animateTransform",
+      "begin": ".83s; s3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-drizzle",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-drizzle",
+      "tag": "animate",
+      "begin": "0s; y1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-drizzle",
+      "tag": "animateTransform",
+      "begin": "1.34s; x2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-drizzle",
+      "tag": "animate",
+      "begin": "1.34s; y2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-drizzle",
+      "tag": "animateTransform",
+      "begin": ".67s; x3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-drizzle",
+      "tag": "animate",
+      "begin": ".67s; y3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-hail",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-hail",
+      "tag": "animate",
+      "begin": "0s; y1.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-hail",
+      "tag": "animateTransform",
+      "begin": ".67s; x2.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-hail",
+      "tag": "animate",
+      "begin": ".67s; y2.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-hail",
+      "tag": "animateTransform",
+      "begin": ".33s; x3.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-hail",
+      "tag": "animate",
+      "begin": ".33s; y3.end+.42s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-rain",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-rain",
+      "tag": "animate",
+      "begin": "0s; y1.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-rain",
+      "tag": "animateTransform",
+      "begin": ".33s; x2.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-rain",
+      "tag": "animate",
+      "begin": ".33s; y2.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-rain",
+      "tag": "animateTransform",
+      "begin": "-.33s; x3.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-rain",
+      "tag": "animate",
+      "begin": "-.33s; y3.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-sleet",
+      "tag": "animate",
+      "begin": "0s; t1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-sleet",
+      "tag": "animateTransform",
+      "begin": "0s; s1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-sleet",
+      "tag": "animate",
+      "begin": "-.83s; t2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-sleet",
+      "tag": "animateTransform",
+      "begin": "-.83s; s2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-sleet",
+      "tag": "animate",
+      "begin": ".83s; t3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-sleet",
+      "tag": "animateTransform",
+      "begin": ".83s; s3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-sleet",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-sleet",
+      "tag": "animate",
+      "begin": "0s; y1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-sleet",
+      "tag": "animateTransform",
+      "begin": "1.34s; x2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-sleet",
+      "tag": "animate",
+      "begin": "1.34s; y2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-sleet",
+      "tag": "animateTransform",
+      "begin": ".67s; x3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-sleet",
+      "tag": "animate",
+      "begin": ".67s; y3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-smoke",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-smoke",
+      "tag": "animate",
+      "begin": "0s; y1.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-smoke",
+      "tag": "animate",
+      "begin": "0s; y1.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-smoke",
+      "tag": "animateTransform",
+      "begin": ".83s; x2.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-smoke",
+      "tag": "animate",
+      "begin": ".83s; y2.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-smoke",
+      "tag": "animate",
+      "begin": ".83s; z2.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-smoke",
+      "tag": "animateTransform",
+      "begin": "1.66s; x3.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-smoke",
+      "tag": "animate",
+      "begin": "1.66s; y3.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-smoke",
+      "tag": "animate",
+      "begin": "1.66s; z3.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-snow",
+      "tag": "animate",
+      "begin": "0s; t1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-snow",
+      "tag": "animateTransform",
+      "begin": "0s; s1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-snow",
+      "tag": "animate",
+      "begin": "-.83s; t2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-snow",
+      "tag": "animateTransform",
+      "begin": "-.83s; s2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-snow",
+      "tag": "animate",
+      "begin": ".83s; t3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-snow",
+      "tag": "animateTransform",
+      "begin": ".83s; s3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen",
+      "tag": "animateTransform",
+      "begin": "-0.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen",
+      "tag": "animateTransform",
+      "begin": "-1.17s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen",
+      "tag": "animateTransform",
+      "begin": "-1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen",
+      "tag": "animateTransform",
+      "begin": "-.67s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen",
+      "tag": "animateTransform",
+      "begin": "-1.5s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen",
+      "tag": "animateTransform",
+      "begin": "-1.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen",
+      "tag": "animateTransform",
+      "begin": "-.83s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen-flower",
+      "tag": "animateTransform",
+      "begin": "-0.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen-flower",
+      "tag": "animateTransform",
+      "begin": "-1.17s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen-flower",
+      "tag": "animateTransform",
+      "begin": "-1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen-flower",
+      "tag": "animateTransform",
+      "begin": "-.67s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen-flower",
+      "tag": "animateTransform",
+      "begin": "-1.5s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen-flower",
+      "tag": "animateTransform",
+      "begin": "-1.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen-flower",
+      "tag": "animateTransform",
+      "begin": "-.83s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen-grass",
+      "tag": "animateTransform",
+      "begin": "-0.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen-grass",
+      "tag": "animateTransform",
+      "begin": "-1.17s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen-grass",
+      "tag": "animateTransform",
+      "begin": "-1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen-grass",
+      "tag": "animateTransform",
+      "begin": "-.67s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen-grass",
+      "tag": "animateTransform",
+      "begin": "-1.5s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen-grass",
+      "tag": "animateTransform",
+      "begin": "-1.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen-grass",
+      "tag": "animateTransform",
+      "begin": "-.83s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen-tree",
+      "tag": "animateTransform",
+      "begin": "-0.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen-tree",
+      "tag": "animateTransform",
+      "begin": "-1.17s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen-tree",
+      "tag": "animateTransform",
+      "begin": "-1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen-tree",
+      "tag": "animateTransform",
+      "begin": "-.67s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen-tree",
+      "tag": "animateTransform",
+      "begin": "-1.5s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen-tree",
+      "tag": "animateTransform",
+      "begin": "-1.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen-tree",
+      "tag": "animateTransform",
+      "begin": "-.83s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pressure-high",
+      "tag": "animateTransform",
+      "begin": "-1.3s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pressure-high",
+      "tag": "animate",
+      "begin": "-1.3s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pressure-high",
+      "tag": "animateTransform",
+      "begin": "-1.2s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pressure-high",
+      "tag": "animate",
+      "begin": "-1.2s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pressure-high",
+      "tag": "animateTransform",
+      "begin": "-1.1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pressure-high",
+      "tag": "animate",
+      "begin": "-1.1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pressure-high",
+      "tag": "animateTransform",
+      "begin": "-1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pressure-high",
+      "tag": "animate",
+      "begin": "-1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pressure-low",
+      "tag": "animateTransform",
+      "begin": "-1.3s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pressure-low",
+      "tag": "animate",
+      "begin": "-1.3s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pressure-low",
+      "tag": "animateTransform",
+      "begin": "-1.2s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pressure-low",
+      "tag": "animate",
+      "begin": "-1.2s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pressure-low",
+      "tag": "animateTransform",
+      "begin": "-1.1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pressure-low",
+      "tag": "animate",
+      "begin": "-1.1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pressure-low",
+      "tag": "animateTransform",
+      "begin": "-1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-pressure-low",
+      "tag": "animate",
+      "begin": "-1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-rain",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-rain",
+      "tag": "animate",
+      "begin": "0s; y1.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-rain",
+      "tag": "animateTransform",
+      "begin": ".33s; x2.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-rain",
+      "tag": "animate",
+      "begin": ".33s; y2.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-rain",
+      "tag": "animateTransform",
+      "begin": "-.33s; x3.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-rain",
+      "tag": "animate",
+      "begin": "-.33s; y3.end+.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-sleet",
+      "tag": "animate",
+      "begin": "0s; t1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-sleet",
+      "tag": "animateTransform",
+      "begin": "0s; s1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-sleet",
+      "tag": "animate",
+      "begin": "-.83s; t2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-sleet",
+      "tag": "animateTransform",
+      "begin": "-.83s; s2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-sleet",
+      "tag": "animate",
+      "begin": ".83s; t3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-sleet",
+      "tag": "animateTransform",
+      "begin": ".83s; s3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-sleet",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-sleet",
+      "tag": "animate",
+      "begin": "0s; y1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-sleet",
+      "tag": "animateTransform",
+      "begin": "1.34s; x2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-sleet",
+      "tag": "animate",
+      "begin": "1.34s; y2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-sleet",
+      "tag": "animateTransform",
+      "begin": ".67s; x3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-sleet",
+      "tag": "animate",
+      "begin": ".67s; y3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-smoke",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-smoke",
+      "tag": "animate",
+      "begin": "0s; y1.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-smoke",
+      "tag": "animate",
+      "begin": "0s; y1.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-smoke",
+      "tag": "animateTransform",
+      "begin": ".83s; x2.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-smoke",
+      "tag": "animate",
+      "begin": ".83s; y2.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-smoke",
+      "tag": "animate",
+      "begin": ".83s; z2.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-smoke",
+      "tag": "animateTransform",
+      "begin": "1.66s; x3.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-smoke",
+      "tag": "animate",
+      "begin": "1.66s; y3.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-smoke",
+      "tag": "animate",
+      "begin": "1.66s; z3.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-smoke-particles",
+      "tag": "animateTransform",
+      "begin": "0s; x1.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-smoke-particles",
+      "tag": "animate",
+      "begin": "0s; y1.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-smoke-particles",
+      "tag": "animate",
+      "begin": "0s; y1.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-smoke-particles",
+      "tag": "animateTransform",
+      "begin": ".83s; x2.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-smoke-particles",
+      "tag": "animate",
+      "begin": ".83s; y2.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-smoke-particles",
+      "tag": "animate",
+      "begin": ".83s; z2.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-smoke-particles",
+      "tag": "animateTransform",
+      "begin": "1.66s; x3.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-smoke-particles",
+      "tag": "animate",
+      "begin": "1.66s; y3.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-smoke-particles",
+      "tag": "animate",
+      "begin": "1.66s; z3.end+.75s"
+    },
+    {
+      "id": "phase2-motion-meteocons-snow",
+      "tag": "animate",
+      "begin": "0s; t1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-snow",
+      "tag": "animateTransform",
+      "begin": "0s; s1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-snow",
+      "tag": "animate",
+      "begin": "-.83s; t2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-snow",
+      "tag": "animateTransform",
+      "begin": "-.83s; s2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-snow",
+      "tag": "animate",
+      "begin": ".83s; t3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-snow",
+      "tag": "animateTransform",
+      "begin": ".83s; s3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-starry-night",
+      "tag": "animateTransform",
+      "begin": "-.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-starry-night",
+      "tag": "animate",
+      "begin": "-.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-starry-night",
+      "tag": "animateTransform",
+      "begin": "-.67s"
+    },
+    {
+      "id": "phase2-motion-meteocons-starry-night",
+      "tag": "animate",
+      "begin": "-.67s"
+    },
+    {
+      "id": "phase2-motion-meteocons-sun-hot",
+      "tag": "animate",
+      "begin": "-.5s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thermometer-colder",
+      "tag": "animateTransform",
+      "begin": "-1.2s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thermometer-colder",
+      "tag": "animate",
+      "begin": "-1.2s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thermometer-colder",
+      "tag": "animateTransform",
+      "begin": "-1.1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thermometer-colder",
+      "tag": "animate",
+      "begin": "-1.1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thermometer-colder",
+      "tag": "animateTransform",
+      "begin": "-1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thermometer-colder",
+      "tag": "animate",
+      "begin": "-1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thermometer-warmer",
+      "tag": "animateTransform",
+      "begin": "-1.2s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thermometer-warmer",
+      "tag": "animate",
+      "begin": "-1.2s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thermometer-warmer",
+      "tag": "animateTransform",
+      "begin": "-1.1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thermometer-warmer",
+      "tag": "animate",
+      "begin": "-1.1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thermometer-warmer",
+      "tag": "animateTransform",
+      "begin": "-1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thermometer-warmer",
+      "tag": "animate",
+      "begin": "-1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms",
+      "tag": "animate",
+      "begin": "0s; x1.end+.67s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-day",
+      "tag": "animate",
+      "begin": "0s; x1.end+.67s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-day-extreme",
+      "tag": "animate",
+      "begin": "0s; x1.end+.67s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-day-extreme-snow",
+      "tag": "animate",
+      "begin": "0s; t1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-day-extreme-snow",
+      "tag": "animateTransform",
+      "begin": "0s; s1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-day-extreme-snow",
+      "tag": "animate",
+      "begin": "-.83s; t2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-day-extreme-snow",
+      "tag": "animateTransform",
+      "begin": "-.83s; s2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-day-extreme-snow",
+      "tag": "animate",
+      "begin": ".83s; t3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-day-extreme-snow",
+      "tag": "animateTransform",
+      "begin": ".83s; s3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-day-extreme-snow",
+      "tag": "animate",
+      "begin": "0s; x1.end+.67s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-day-snow",
+      "tag": "animate",
+      "begin": "0s; t1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-day-snow",
+      "tag": "animateTransform",
+      "begin": "0s; s1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-day-snow",
+      "tag": "animate",
+      "begin": "-.83s; t2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-day-snow",
+      "tag": "animateTransform",
+      "begin": "-.83s; s2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-day-snow",
+      "tag": "animate",
+      "begin": ".83s; t3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-day-snow",
+      "tag": "animateTransform",
+      "begin": ".83s; s3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-day-snow",
+      "tag": "animate",
+      "begin": "0s; x1.end+.67s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-extreme",
+      "tag": "animate",
+      "begin": "0s; x1.end+.67s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-extreme-snow",
+      "tag": "animate",
+      "begin": "0s; t1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-extreme-snow",
+      "tag": "animateTransform",
+      "begin": "0s; s1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-extreme-snow",
+      "tag": "animate",
+      "begin": "-.83s; t2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-extreme-snow",
+      "tag": "animateTransform",
+      "begin": "-.83s; s2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-extreme-snow",
+      "tag": "animate",
+      "begin": ".83s; t3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-extreme-snow",
+      "tag": "animateTransform",
+      "begin": ".83s; s3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-extreme-snow",
+      "tag": "animate",
+      "begin": "0s; x1.end+.67s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-night",
+      "tag": "animate",
+      "begin": "0s; x1.end+.67s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-night-extreme",
+      "tag": "animate",
+      "begin": "0s; x1.end+.67s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-night-extreme-snow",
+      "tag": "animate",
+      "begin": "0s; t1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-night-extreme-snow",
+      "tag": "animateTransform",
+      "begin": "0s; s1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-night-extreme-snow",
+      "tag": "animate",
+      "begin": "-.83s; t2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-night-extreme-snow",
+      "tag": "animateTransform",
+      "begin": "-.83s; s2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-night-extreme-snow",
+      "tag": "animate",
+      "begin": ".83s; t3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-night-extreme-snow",
+      "tag": "animateTransform",
+      "begin": ".83s; s3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-night-extreme-snow",
+      "tag": "animate",
+      "begin": "0s; x1.end+.67s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-night-snow",
+      "tag": "animate",
+      "begin": "0s; t1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-night-snow",
+      "tag": "animateTransform",
+      "begin": "0s; s1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-night-snow",
+      "tag": "animate",
+      "begin": "-.83s; t2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-night-snow",
+      "tag": "animateTransform",
+      "begin": "-.83s; s2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-night-snow",
+      "tag": "animate",
+      "begin": ".83s; t3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-night-snow",
+      "tag": "animateTransform",
+      "begin": ".83s; s3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-night-snow",
+      "tag": "animate",
+      "begin": "0s; x1.end+.67s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-snow",
+      "tag": "animate",
+      "begin": "0s; t1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-snow",
+      "tag": "animateTransform",
+      "begin": "0s; s1.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-snow",
+      "tag": "animate",
+      "begin": "-.83s; t2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-snow",
+      "tag": "animateTransform",
+      "begin": "-.83s; s2.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-snow",
+      "tag": "animate",
+      "begin": ".83s; t3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-snow",
+      "tag": "animateTransform",
+      "begin": ".83s; s3.end+1s"
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-snow",
+      "tag": "animate",
+      "begin": "0s; x1.end+.67s"
+    },
+    {
+      "id": "phase2-motion-meteocons-time-night",
+      "tag": "animateTransform",
+      "begin": "-.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-time-night",
+      "tag": "animate",
+      "begin": "-.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-time-night",
+      "tag": "animateTransform",
+      "begin": "-.67s"
+    },
+    {
+      "id": "phase2-motion-meteocons-time-night",
+      "tag": "animate",
+      "begin": "-.67s"
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-snow",
+      "tag": "animateTransform",
+      "begin": ".5s; x1.end+1.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-snow",
+      "tag": "animate",
+      "begin": ".5s; x1.end+1.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-snow",
+      "tag": "animateTransform",
+      "begin": "1s; x2.end+1.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-snow",
+      "tag": "animate",
+      "begin": "1s; x2.end+1.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-snow",
+      "tag": "animateTransform",
+      "begin": "0s; x3.end+1.33s"
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-snow",
+      "tag": "animate",
+      "begin": "0s; x3.end+1.33s"
+    }
+  ]
+}

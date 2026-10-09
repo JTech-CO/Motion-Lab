@@ -1,0 +1,2058 @@
+{
+  "candidateInputSha256": "c0b6c04b347fd19b29371b6cdf902f70d7552ae67689eee6a1b9a5c90ae540a4",
+  "independentReviewPath": "data/upstream/phase2-game-design/independent-review.json",
+  "independentReviewSha256": "93ee02af1fef0500dc9ef6dba8a35f7d1d977089282f308b22855f7270ad39d9",
+  "decisions": [
+    {
+      "id": "phase2-game-design-delapouite-alien-bug",
+      "codeSha256": "f641b93838e1f84d04f113ecc809258ba51ef637ef0f252e70182230c466de01",
+      "decision": "reject",
+      "reason": "An alien/insect or alien/egg theme changes the decoration of already represented core glyphs.",
+      "componentConcept": "alien",
+      "sourceComposition": "Alien facial features embedded in a six-limbed insect body or a cracked egg.",
+      "counterpartIds": [
+        "design-tabler-alien",
+        "design-phosphor-bug-beetle",
+        "design-phosphor-egg-crack"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-alien-egg",
+      "codeSha256": "88e695f958154a882938fe3169bc2ba6df7711d5e70ea39e5e4649df9c1f29ce",
+      "decision": "reject",
+      "reason": "An alien/insect or alien/egg theme changes the decoration of already represented core glyphs.",
+      "componentConcept": "alien",
+      "sourceComposition": "Alien facial features embedded in a six-limbed insect body or a cracked egg.",
+      "counterpartIds": [
+        "design-tabler-alien",
+        "design-phosphor-bug-beetle",
+        "design-phosphor-egg-crack"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-crystal-earrings",
+      "codeSha256": "5c6bb43bf6e9ec16dec775a6cec3c3f9dfdc2ac43659427135bbae29bcb6321a",
+      "decision": "retain",
+      "reason": "The hooks, attachment joints and hanging pendants form a wearable assembly; a bare gem icon does not express this construction.",
+      "componentConcept": "hook-pendant-earring",
+      "sourceComposition": "Two open ear hooks, connecting bars and suspended faceted pendants.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-crystal-shrine",
+      "codeSha256": "fb46b9517a3c70f3a04cc7d79459711b54e73a14bb6463ed296cbd3093708bac",
+      "decision": "retain",
+      "reason": "A standing display pedestal supports a separate artifact cluster. Retain one altar/display construction; the later star-altar changes only the displayed decoration.",
+      "componentConcept": "pedestal-artifact-display",
+      "sourceComposition": "Three faceted mineral pieces on a columned architectural pedestal, with sparse surrounding glints.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-giant-squid",
+      "codeSha256": "3c973f2e4cdece0112a36a9043e0774ab46369d519db87944f5f22549e5be312",
+      "decision": "retain",
+      "reason": "Retain one complete cephalopod silhouette. It has a mantle/fin/arm topology absent from the existing fish glyphs; other squid heads, squid bodies and isolated arm poses are not counted separately.",
+      "componentConcept": "cephalopod",
+      "sourceComposition": "Long tapered mantle with lateral fins, paired eyes and a fan of flexible arms.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-grass-mushroom",
+      "codeSha256": "57497354f34ca4621737ee1d76afb788d2f60a1c14d275535f496ac316c42a0b",
+      "decision": "reject",
+      "reason": "Species, count, cutting view and habitat/house decoration repeat the already represented mushroom core.",
+      "componentConcept": "mushroom",
+      "sourceComposition": "Cap-and-stalk fungus forms, repeated clusters, a cut cap, a trunk-mounted cap or a mushroom-shaped house.",
+      "counterpartIds": [
+        "vector-line-md-mushroom"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-hieroglyph-legs",
+      "codeSha256": "cf626d10f7476f1b641a6da186108c020a7aa6bcd63e3365862e50f882da3dd6",
+      "decision": "reject",
+      "reason": "Cropping the existing human figure to its legs and changing the walking pose is not a new independent assembly.",
+      "componentConcept": "human-body-part",
+      "sourceComposition": "Two human legs in a walking stance, cropped above the hips.",
+      "counterpartIds": [
+        "design-tabler-walk"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-hieroglyph-y",
+      "codeSha256": "45cc1ebd98f96a07c94744c272940b27bb2098f338bebf23bae2fa47d79fc758",
+      "decision": "reject",
+      "reason": "The source is a paired feather/leaf motif; the ancient-script filename does not establish a new shape concept.",
+      "componentConcept": "feather",
+      "sourceComposition": "A pair of long feather-shaped leaves with repeated diagonal barbs.",
+      "counterpartIds": [
+        "design-tabler-feather"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-kraken-tentacle",
+      "codeSha256": "4773c42466cec484096cc0501b6cfaf0660d0f1353363d85205d14598c3c9557",
+      "decision": "retain",
+      "reason": "This is a two-subject encounter scene with a distinct ship/creature spatial relation, rather than another isolated tentacle pose.",
+      "componentConcept": "ship-creature-encounter",
+      "sourceComposition": "Large suction-cup arm rising beside a separate sailing ship and shared waterline.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-mushroom-house",
+      "codeSha256": "68bca77646359b489674156f3daf3e54e7e1727979ab7248592acbcee932c8e9",
+      "decision": "reject",
+      "reason": "Species, count, cutting view and habitat/house decoration repeat the already represented mushroom core.",
+      "componentConcept": "mushroom",
+      "sourceComposition": "Cap-and-stalk fungus forms, repeated clusters, a cut cap, a trunk-mounted cap or a mushroom-shaped house.",
+      "counterpartIds": [
+        "vector-line-md-mushroom"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-mushrooms-cluster",
+      "codeSha256": "de4074272c3dbf0429045edcd0abebe825ab83dabbc97ecee5666c018d38e98c",
+      "decision": "reject",
+      "reason": "Species, count, cutting view and habitat/house decoration repeat the already represented mushroom core.",
+      "componentConcept": "mushroom",
+      "sourceComposition": "Cap-and-stalk fungus forms, repeated clusters, a cut cap, a trunk-mounted cap or a mushroom-shaped house.",
+      "counterpartIds": [
+        "vector-line-md-mushroom"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-mushrooms",
+      "codeSha256": "e36dc9fcd9d85c6fcc1724cde008eba62b0625c5b164e0ed229377ece70381c9",
+      "decision": "reject",
+      "reason": "Species, count, cutting view and habitat/house decoration repeat the already represented mushroom core.",
+      "componentConcept": "mushroom",
+      "sourceComposition": "Cap-and-stalk fungus forms, repeated clusters, a cut cap, a trunk-mounted cap or a mushroom-shaped house.",
+      "counterpartIds": [
+        "vector-line-md-mushroom"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-radiations",
+      "codeSha256": "9c66a7946c28c1561aec30322e6b4fb45b82885f567e0450b6db8c5b8843de93",
+      "decision": "reject",
+      "reason": "This is an emitter/wave motif already represented by wave and radiation symbols, not a distinct material or assembled apparatus.",
+      "componentConcept": "emanating-waves",
+      "sourceComposition": "A clipped circular source with three outward wavy lines and terminal dots.",
+      "counterpartIds": [
+        "design-tabler-waves-electricity",
+        "design-lucide-radiation"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-sliced-mushroom",
+      "codeSha256": "2b269fa809b9462c5f7c4af0452577fae26f875154035dc2d5733ea7aa8cb5b4",
+      "decision": "reject",
+      "reason": "Species, count, cutting view and habitat/house decoration repeat the already represented mushroom core.",
+      "componentConcept": "mushroom",
+      "sourceComposition": "Cap-and-stalk fungus forms, repeated clusters, a cut cap, a trunk-mounted cap or a mushroom-shaped house.",
+      "counterpartIds": [
+        "vector-line-md-mushroom"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-sperm-whale",
+      "codeSha256": "012163d21251f7184ab289739e8c7c9ba32d644ca826dc9eb720fd11ecf09009",
+      "decision": "retain",
+      "reason": "The complete marine animal and spout differ from the existing fish anatomy; one whale representation is retained.",
+      "componentConcept": "whale",
+      "sourceComposition": "Horizontal cetacean body, tail flukes, small fins and an upward branching water spout.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-steam-blast",
+      "codeSha256": "17ecfe4c001f9148a2a38ddb17854ecabb94021fcb2e02ece3d2da3d4105a402",
+      "decision": "retain",
+      "reason": "Retain one directed vapor-jet composition. Other cause-named blast icons repeat an emitter/beam/impact vocabulary or existing fist/lightning/magnet glyphs and are excluded.",
+      "componentConcept": "directed-jet-plume",
+      "sourceComposition": "Converging diagonal streaks ending in a cluster of rounded vapor puffs.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-trunk-mushroom",
+      "codeSha256": "d86dca624d37bb71cac1ad92ba07e059c5b5d3bca6e037ded7c2dff155d81359",
+      "decision": "reject",
+      "reason": "Species, count, cutting view and habitat/house decoration repeat the already represented mushroom core.",
+      "componentConcept": "mushroom",
+      "sourceComposition": "Cap-and-stalk fungus forms, repeated clusters, a cut cap, a trunk-mounted cap or a mushroom-shaped house.",
+      "counterpartIds": [
+        "vector-line-md-mushroom"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-warlock-eye",
+      "codeSha256": "7650807d59678f2490999d4a9e0de42360d0da23779df3733b36d565301c770b",
+      "decision": "reject",
+      "reason": "Rays and occult styling decorate an existing eye glyph.",
+      "componentConcept": "eye",
+      "sourceComposition": "One eye surrounded by faceted pointed rays.",
+      "counterpartIds": [
+        "design-tabler-eye"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-warlock-hood",
+      "codeSha256": "f3378d3a53531f840ffcb61337160242b9f9343036ec4a3b1b60737d40d03cc1",
+      "decision": "reject",
+      "reason": "Attire and face/flower decoration do not establish a new head/hat concept.",
+      "componentConcept": "head-attire",
+      "sourceComposition": "A hooded face opening, a pointed hat over a moustached face, or a dome hat with a small flower.",
+      "counterpartIds": [
+        "design-lucide-hat-glasses",
+        "design-phosphor-cowboy-hat"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-wizard-face",
+      "codeSha256": "4b1a42b857ea13c31da4cd29569f1a99f0f1f8825181297e43f5cd8a61fa15e8",
+      "decision": "reject",
+      "reason": "Attire and face/flower decoration do not establish a new head/hat concept.",
+      "componentConcept": "head-attire",
+      "sourceComposition": "A hooded face opening, a pointed hat over a moustached face, or a dome hat with a small flower.",
+      "counterpartIds": [
+        "design-lucide-hat-glasses",
+        "design-phosphor-cowboy-hat"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-zigzag-hieroglyph",
+      "codeSha256": "8326ee5e8d7a2a1b24099d6f1aedb47f2697d13f2a05b47be9d1771b80b17417",
+      "decision": "reject",
+      "reason": "Line count and zigzag amplitude repeat the existing sawtooth/triangular wave motif.",
+      "componentConcept": "wave",
+      "sourceComposition": "Two parallel zigzag strips.",
+      "counterpartIds": [
+        "design-phosphor-wave-triangle",
+        "design-phosphor-wave-sawtooth"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-alien-fire",
+      "codeSha256": "7ee1ae0b9fa81133b91217a8251467423f555a67afd519b36adc5dbef4be9f24",
+      "decision": "reject",
+      "reason": "The named alien subject is not a separate assembly; the actual source is a flame silhouette.",
+      "componentConcept": "flame",
+      "sourceComposition": "Symmetric flame outline surrounding a central circular void.",
+      "counterpartIds": [
+        "design-tabler-flame"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-alien-skull",
+      "codeSha256": "9f6428e0b52c2e9be94d9e40d6fd83fdec46c724f6fa39159748ef5b88194803",
+      "decision": "reject",
+      "reason": "Eye count, crack decoration and skull drawing style do not create a new alien/skull concept.",
+      "componentConcept": "alien",
+      "sourceComposition": "Large tapered alien face/skull with two or three eye holes; cracked version adds a fissure.",
+      "counterpartIds": [
+        "design-tabler-alien",
+        "design-tabler-skull"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-alien-stare",
+      "codeSha256": "6c59870b6f7df27a54907a2ddc1c3ccd8fbcfdad1bb8bbb1e26b3806c936fddb",
+      "decision": "reject",
+      "reason": "Eye count, crack decoration and skull drawing style do not create a new alien/skull concept.",
+      "componentConcept": "alien",
+      "sourceComposition": "Large tapered alien face/skull with two or three eye holes; cracked version adds a fissure.",
+      "counterpartIds": [
+        "design-tabler-alien",
+        "design-tabler-skull"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-ammonite-fossil",
+      "codeSha256": "520c722a68024c3c476923a6c86783fe29fb3f737ee07aba0c165caca4b8e3d1",
+      "decision": "reject",
+      "reason": "A shell has already been represented. Segments or a surrounding stone frame do not create a separate core shape.",
+      "componentConcept": "shell",
+      "sourceComposition": "A segmented spiral shell, or the same spiral shell enclosed in a faceted rock slab.",
+      "counterpartIds": [
+        "design-lucide-shell",
+        "design-tabler-spiral"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-burning-meteor",
+      "codeSha256": "20c3a9796eec2bece4a9a975bd1660d3581becb10175de669d2de2ef19cba924",
+      "decision": "reject",
+      "reason": "Trailing fire, fragment count and impact decoration repeat the existing comet/meteor core.",
+      "componentConcept": "meteor",
+      "sourceComposition": "A circular falling body with flame tails, broken shards, rays or impact lines.",
+      "counterpartIds": [
+        "design-tabler-meteor",
+        "design-tabler-comet"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-cracked-alien-skull",
+      "codeSha256": "b9be21b08c43d08811595c0f9452f080b34b1e8ebfbca2bc9090bd2c8dae8322",
+      "decision": "reject",
+      "reason": "Eye count, crack decoration and skull drawing style do not create a new alien/skull concept.",
+      "componentConcept": "alien",
+      "sourceComposition": "Large tapered alien face/skull with two or three eye holes; cracked version adds a fissure.",
+      "counterpartIds": [
+        "design-tabler-alien",
+        "design-tabler-skull"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-crystal-ball",
+      "codeSha256": "226d0ca244b3082b62690cdb6547da53a7edbc1512eab4737af60ebaa34eaf68",
+      "decision": "reject",
+      "reason": "The same orb-and-base construction is already represented.",
+      "componentConcept": "crystal-ball",
+      "sourceComposition": "A spherical reflective orb on a low pedestal.",
+      "counterpartIds": [
+        "design-tabler-crystal-ball"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-crystal-bars",
+      "codeSha256": "3f4a209e4dadc137cd6eba23030efc7f4b5703b53144a2bf5c9f29781c910b27",
+      "decision": "reject",
+      "reason": "Facet style, cluster count and glints repeat the existing gem/diamond concept.",
+      "componentConcept": "gem",
+      "sourceComposition": "Faceted prisms and mineral clusters, with changed count, suspension or surrounding rays.",
+      "counterpartIds": [
+        "design-lucide-gem",
+        "design-tabler-diamond"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-crystal-cluster",
+      "codeSha256": "66e1e4c8ddaee67a5ce970ef5c5661ce18fbe8a341dcce83d3f8944be3dddeb4",
+      "decision": "reject",
+      "reason": "Facet style, cluster count and glints repeat the existing gem/diamond concept.",
+      "componentConcept": "gem",
+      "sourceComposition": "Faceted prisms and mineral clusters, with changed count, suspension or surrounding rays.",
+      "counterpartIds": [
+        "design-lucide-gem",
+        "design-tabler-diamond"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-crystal-eye",
+      "codeSha256": "e3fccdb9ca006746b0e5297a840b0f3102e3465eb075dcf9763897bfddfeb818",
+      "decision": "reject",
+      "reason": "Iris material and surrounding face shape repeat the generic eye core.",
+      "componentConcept": "eye",
+      "sourceComposition": "An almond eye containing a faceted iris, or a single eye inside an oval face.",
+      "counterpartIds": [
+        "design-tabler-eye"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-crystal-growth",
+      "codeSha256": "1d8acf0d3198511dbfeea103365fb987cf964f90cb6240bcc9724b4968701260",
+      "decision": "reject",
+      "reason": "Facet style, cluster count and glints repeat the existing gem/diamond concept.",
+      "componentConcept": "gem",
+      "sourceComposition": "Faceted prisms and mineral clusters, with changed count, suspension or surrounding rays.",
+      "counterpartIds": [
+        "design-lucide-gem",
+        "design-tabler-diamond"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-crystal-shine",
+      "codeSha256": "595aeec103c7c6c654374bcfa61c50263866ec07ad479b22ff16cf779080071d",
+      "decision": "reject",
+      "reason": "Facet style, cluster count and glints repeat the existing gem/diamond concept.",
+      "componentConcept": "gem",
+      "sourceComposition": "Faceted prisms and mineral clusters, with changed count, suspension or surrounding rays.",
+      "counterpartIds": [
+        "design-lucide-gem",
+        "design-tabler-diamond"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-crystal-wand",
+      "codeSha256": "89427b3af59bfaec60104571f15bfe1aa342e184c7c017605c343aa6077c7a20",
+      "decision": "reject",
+      "reason": "Tip material and flourish style are variants of an existing wand/staff tool.",
+      "componentConcept": "wand",
+      "sourceComposition": "A long shaft topped with a crystal or a curled flourish.",
+      "counterpartIds": [
+        "design-tabler-wand",
+        "design-phosphor-magic-wand"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-crystalize",
+      "codeSha256": "f41b97a996ef6b3033153514456955f7fba3027c0b845958dd80123ae9d10b65",
+      "decision": "reject",
+      "reason": "Changing the interior from water to crystals decorates the existing droplet core.",
+      "componentConcept": "droplet",
+      "sourceComposition": "A teardrop outline filled with sharp facets and curved cutouts.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-lorc-cyclops",
+      "codeSha256": "507b340bad07419e2126ca9e0df58f710367eaabc8d898e92a0237edea2a45e0",
+      "decision": "reject",
+      "reason": "Iris material and surrounding face shape repeat the generic eye core.",
+      "componentConcept": "eye",
+      "sourceComposition": "An almond eye containing a faceted iris, or a single eye inside an oval face.",
+      "counterpartIds": [
+        "design-tabler-eye"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-droplet-splash",
+      "codeSha256": "d1bff940d1a47f83ace736a814549c3e250c5b9cba34a017e024e01c6692695f",
+      "decision": "reject",
+      "reason": "These share the existing droplet/liquid-splash vocabulary; rim and detached-drop count are conservative style/effect variants.",
+      "componentConcept": "splash",
+      "sourceComposition": "Liquid crowns, ringed pool splashes, multiple droplets, a curved stream or a lobed liquid blob.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-lorc-embryo",
+      "codeSha256": "261b600566d873ad37098b873311cbe9b4f941a28ceaafc26ab8e971eeb589b1",
+      "decision": "retain",
+      "reason": "The whole curled developmental anatomy differs from the existing baby-face symbol, rather than merely changing a face decoration.",
+      "componentConcept": "embryonic-body",
+      "sourceComposition": "Curled C-shaped developing body with large cranium, paired circular openings and a curling lower appendage.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-lorc-entangled-typhoon",
+      "codeSha256": "4dd5197a61a6093576f3b3912949862f9a0d35c0cf4ecf3e3c01ab3469d219a4",
+      "decision": "reject",
+      "reason": "Changing the end caps, material theme, spiral count and band thickness repeats the existing spiral/vortex core.",
+      "componentConcept": "swirl",
+      "sourceComposition": "One or two spiraling centers with curved bands and optional leaf, star or hand decorations.",
+      "counterpartIds": [
+        "design-tabler-spiral"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-floating-crystal",
+      "codeSha256": "1106773ae24b84eb2f171ea5981dead8be75d4e6de7ba1295875d3ded9605c49",
+      "decision": "reject",
+      "reason": "Facet style, cluster count and glints repeat the existing gem/diamond concept.",
+      "componentConcept": "gem",
+      "sourceComposition": "Faceted prisms and mineral clusters, with changed count, suspension or surrounding rays.",
+      "counterpartIds": [
+        "design-lucide-gem",
+        "design-tabler-diamond"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-fluffy-swirl",
+      "codeSha256": "1edf9bf290f62a285d7c12430914fd885d00e2be438ddab7b6f16985bb3c3e2e",
+      "decision": "reject",
+      "reason": "Changing the end caps, material theme, spiral count and band thickness repeats the existing spiral/vortex core.",
+      "componentConcept": "swirl",
+      "sourceComposition": "One or two spiraling centers with curved bands and optional leaf, star or hand decorations.",
+      "counterpartIds": [
+        "design-tabler-spiral"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-fossil",
+      "codeSha256": "a31cab78b134ae00d90ef786a35e04c84e6dab8c8c26c9ef600fadee3446862b",
+      "decision": "reject",
+      "reason": "A shell has already been represented. Segments or a surrounding stone frame do not create a separate core shape.",
+      "componentConcept": "shell",
+      "sourceComposition": "A segmented spiral shell, or the same spiral shell enclosed in a faceted rock slab.",
+      "counterpartIds": [
+        "design-lucide-shell",
+        "design-tabler-spiral"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-fragmented-meteor",
+      "codeSha256": "091a63d7abb52ecf27715e9452745c5b22a22ef19416f5dc82737482e4ee84c0",
+      "decision": "reject",
+      "reason": "Trailing fire, fragment count and impact decoration repeat the existing comet/meteor core.",
+      "componentConcept": "meteor",
+      "sourceComposition": "A circular falling body with flame tails, broken shards, rays or impact lines.",
+      "counterpartIds": [
+        "design-tabler-meteor",
+        "design-tabler-comet"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-hydra-shot",
+      "codeSha256": "9d1999229fed138228aac788911d0d6b22bc1b3c1f637e37f151d34086e41852",
+      "decision": "reject",
+      "reason": "These are cause/weapon-themed versions of a directed beam or jet; keep the one source-authored directed plume representative.",
+      "componentConcept": "directed-blast",
+      "sourceComposition": "Pointed projectile trails or a shaft/beam ending in an impact ring or flare.",
+      "counterpartIds": [
+        "phase2-game-design-delapouite-steam-blast"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-hydra",
+      "codeSha256": "bdf34ca6bdd64f203c656c2c22d26337bb625f8d7f79a7ff014fc041e960e4ef",
+      "decision": "reject",
+      "reason": "Multiplying the existing dragon head/neck motif is a count variant of the dragon family.",
+      "componentConcept": "dragon",
+      "sourceComposition": "Three long dragon-like heads on curving necks.",
+      "counterpartIds": [
+        "design-tabler-dragon"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-implosion",
+      "codeSha256": "90300a8dcc79b4b0f32257e82709d7537eca3e359d7c7a8db53de86aa7af3a33",
+      "decision": "reject",
+      "reason": "Reversing a radial burst and changing particle count repeats the generic burst/circle construction.",
+      "componentConcept": "radial-burst",
+      "sourceComposition": "A central disk with inward pointing bands and detached circular particles.",
+      "counterpartIds": [
+        "design-tabler-boom"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-ink-swirl",
+      "codeSha256": "eb6a740ee5933c439977f5528d667143cfd12e9bebc07a32ab1844c14e80d403",
+      "decision": "reject",
+      "reason": "Changing the end caps, material theme, spiral count and band thickness repeats the existing spiral/vortex core.",
+      "componentConcept": "swirl",
+      "sourceComposition": "One or two spiraling centers with curved bands and optional leaf, star or hand decorations.",
+      "counterpartIds": [
+        "design-tabler-spiral"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-interlaced-tentacles",
+      "codeSha256": "3d2d38dc09df793e25fd466375316ce089d95c30d38fdbd248d042917976dae7",
+      "decision": "reject",
+      "reason": "Arm crossing, head crop and body style are folded into the one complete giant-squid representative.",
+      "componentConcept": "cephalopod",
+      "sourceComposition": "Crossing flexible arms or rounded cephalopod heads with radiating arms.",
+      "counterpartIds": [
+        "phase2-game-design-delapouite-giant-squid"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-ion-cannon-blast",
+      "codeSha256": "cc9d4d9db0dc97576b30220686dbf23fc5baaa9e967522fbfff1e09ab7e42f9a",
+      "decision": "reject",
+      "reason": "These are cause/weapon-themed versions of a directed beam or jet; keep the one source-authored directed plume representative.",
+      "componentConcept": "directed-blast",
+      "sourceComposition": "Pointed projectile trails or a shaft/beam ending in an impact ring or flare.",
+      "counterpartIds": [
+        "phase2-game-design-delapouite-steam-blast"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-laser-blast",
+      "codeSha256": "cde9733ae8c2e0252af1c61a852f2d37c8c0ae86d5bd7c53de4ff90f0b199c8a",
+      "decision": "reject",
+      "reason": "These are cause/weapon-themed versions of a directed beam or jet; keep the one source-authored directed plume representative.",
+      "componentConcept": "directed-blast",
+      "sourceComposition": "Pointed projectile trails or a shaft/beam ending in an impact ring or flare.",
+      "counterpartIds": [
+        "phase2-game-design-delapouite-steam-blast"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-leaf-swirl",
+      "codeSha256": "7d5376e29451c3cae4e180184dcfadf7400d051751b5cce26dbedbc642e11097",
+      "decision": "reject",
+      "reason": "Changing the end caps, material theme, spiral count and band thickness repeats the existing spiral/vortex core.",
+      "componentConcept": "swirl",
+      "sourceComposition": "One or two spiraling centers with curved bands and optional leaf, star or hand decorations.",
+      "counterpartIds": [
+        "design-tabler-spiral"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-lightning-helix",
+      "codeSha256": "ad069bd480e77b83e3c10f1ba4d0688557a7da641ed42bd9d77c990564c91225",
+      "decision": "reject",
+      "reason": "Lightning decoration and its target do not create new base shapes or independent mechanical assemblies.",
+      "componentConcept": "lightning",
+      "sourceComposition": "Zigzag bolts alone or wrapped around a sword, skull, person or circular ball.",
+      "counterpartIds": [
+        "design-tabler-sword",
+        "design-tabler-skull"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-magic-swirl",
+      "codeSha256": "0bc186d9855830dfbc83426bd568b838e813fd2e355c26219b9fe5de39034236",
+      "decision": "reject",
+      "reason": "Changing the end caps, material theme, spiral count and band thickness repeats the existing spiral/vortex core.",
+      "componentConcept": "swirl",
+      "sourceComposition": "One or two spiraling centers with curved bands and optional leaf, star or hand decorations.",
+      "counterpartIds": [
+        "design-tabler-spiral"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-magnet-blast",
+      "codeSha256": "634535354b0dcce520719de9aac7e828909bf9acb406d9f0651876fd8daa2e1d",
+      "decision": "reject",
+      "reason": "Placing an existing magnet/fist icon over a generic impact flash is decoration of an already represented core.",
+      "componentConcept": "decorated-impact",
+      "sourceComposition": "A horseshoe magnet or clenched fist over a star-shaped impact flash.",
+      "counterpartIds": [
+        "design-tabler-magnet",
+        "design-lucide-hand-fist",
+        "design-tabler-boom"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-meteor-impact",
+      "codeSha256": "7b892b139aa0b69a1644092bfe174fcf423f42b5044a246f89844c1c93a9fa73",
+      "decision": "reject",
+      "reason": "Trailing fire, fragment count and impact decoration repeat the existing comet/meteor core.",
+      "componentConcept": "meteor",
+      "sourceComposition": "A circular falling body with flame tails, broken shards, rays or impact lines.",
+      "counterpartIds": [
+        "design-tabler-meteor",
+        "design-tabler-comet"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-mushroom-cloud",
+      "codeSha256": "ee8a952f9d81fb44ad6a526e14042399a38f3a3d7109275cecdc57fe8ebad089",
+      "decision": "retain",
+      "reason": "The vertical plume, stem and ground ring form one complete explosion composition; it is not a plant mushroom or a plain weather cloud glyph.",
+      "componentConcept": "vertical-blast-plume",
+      "sourceComposition": "Rounded cloud cap above a narrow rising stem and concentric ground footprint.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-lorc-mushroom-gills",
+      "codeSha256": "c4052b688e5c157365945510988fde15eafa236baeaef452fb3f58969f032ea7",
+      "decision": "reject",
+      "reason": "Cap detailing, spots and fill style are variants of the existing mushroom glyph.",
+      "componentConcept": "mushroom",
+      "sourceComposition": "Domed mushroom caps on stalks, with gills, edge cuts or circular spots.",
+      "counterpartIds": [
+        "vector-line-md-mushroom"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-mushroom",
+      "codeSha256": "065840c241f5fb352dab0cbcedc379563db76d3dedf9f2260c2bedafc82ddf89",
+      "decision": "reject",
+      "reason": "Cap detailing, spots and fill style are variants of the existing mushroom glyph.",
+      "componentConcept": "mushroom",
+      "sourceComposition": "Domed mushroom caps on stalks, with gills, edge cuts or circular spots.",
+      "counterpartIds": [
+        "vector-line-md-mushroom"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-pentagram-rose",
+      "codeSha256": "7b197079a6d79f8acd609cf1733cef2626b179d21c87d67314b5c3dfd406ae93",
+      "decision": "reject",
+      "reason": "Concentric frame and petal/ray detail decorate an existing pentagram/star.",
+      "componentConcept": "star",
+      "sourceComposition": "A five-pointed star/pentagram inside concentric radial pointed segments.",
+      "counterpartIds": [
+        "design-tabler-pentagram"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-plasma-bolt",
+      "codeSha256": "30e80f99594c36580f67140158c5539077ad6c3f87f758d49b194759e1dc77d7",
+      "decision": "reject",
+      "reason": "Hole and tail styling repeat a flame/droplet projectile vocabulary.",
+      "componentConcept": "flame",
+      "sourceComposition": "A teardrop/flame projectile with interior lobed holes.",
+      "counterpartIds": [
+        "design-tabler-flame"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-punch-blast",
+      "codeSha256": "6303d78514d8f5cc152e2439b2bf6d93320a9755a81abff681098c45207b873a",
+      "decision": "reject",
+      "reason": "Placing an existing magnet/fist icon over a generic impact flash is decoration of an already represented core.",
+      "componentConcept": "decorated-impact",
+      "sourceComposition": "A horseshoe magnet or clenched fist over a star-shaped impact flash.",
+      "counterpartIds": [
+        "design-tabler-magnet",
+        "design-lucide-hand-fist",
+        "design-tabler-boom"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-rune-stone",
+      "codeSha256": "903e707a1a5d3d9524e73d4c650dca0bab1d4a4ae7738c93cf2bbb0bdb94fdd6",
+      "decision": "reject",
+      "reason": "Inscription changes only the interior decoration of an existing gem/stone-like shape or sword.",
+      "componentConcept": "inscribed-object",
+      "sourceComposition": "A faceted stone slab or straight sword carrying an interior rune/sigil.",
+      "counterpartIds": [
+        "design-lucide-gem",
+        "design-tabler-sword"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-rune-sword",
+      "codeSha256": "bea59d7467edc32162e126badbac76645354419ea65231a7f15f34c117f27abc",
+      "decision": "reject",
+      "reason": "Inscription changes only the interior decoration of an existing gem/stone-like shape or sword.",
+      "componentConcept": "inscribed-object",
+      "sourceComposition": "A faceted stone slab or straight sword carrying an interior rune/sigil.",
+      "counterpartIds": [
+        "design-lucide-gem",
+        "design-tabler-sword"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-sentry-gun",
+      "codeSha256": "60aa797ba20d9b77ec56a678c114b671aec7038c6f99414c3e136669afe6db1d",
+      "decision": "reject",
+      "reason": "Fold the mounted gun into one source-authored fixed turret representative; retain the fuller dish/feed/pivot/base assembly.",
+      "componentConcept": "mounted-weapon",
+      "sourceComposition": "A barrel on a compact body supported by a tripod-like stationary base.",
+      "counterpartIds": [
+        "phase2-game-design-delapouite-laser-turret"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-splash",
+      "codeSha256": "073c0a891f7e810d6da78421dd17d5b5d19950ea58e741378740eac41b1d33cf",
+      "decision": "reject",
+      "reason": "These share the existing droplet/liquid-splash vocabulary; rim and detached-drop count are conservative style/effect variants.",
+      "componentConcept": "splash",
+      "sourceComposition": "Liquid crowns, ringed pool splashes, multiple droplets, a curved stream or a lobed liquid blob.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-lorc-splashy-stream",
+      "codeSha256": "50921cc9c054a0c7d539646bb63f3c8fabccc41737e8afd9116175c0ee88fe64",
+      "decision": "reject",
+      "reason": "These share the existing droplet/liquid-splash vocabulary; rim and detached-drop count are conservative style/effect variants.",
+      "componentConcept": "splash",
+      "sourceComposition": "Liquid crowns, ringed pool splashes, multiple droplets, a curved stream or a lobed liquid blob.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-lorc-spotted-mushroom",
+      "codeSha256": "9049a32ac0cfeca5346d88f901e4c3fe06427249a4a6b42f020f7a175b17e46b",
+      "decision": "reject",
+      "reason": "Cap detailing, spots and fill style are variants of the existing mushroom glyph.",
+      "componentConcept": "mushroom",
+      "sourceComposition": "Domed mushroom caps on stalks, with gills, edge cuts or circular spots.",
+      "counterpartIds": [
+        "vector-line-md-mushroom"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-squid-head",
+      "codeSha256": "3edd8a79208ee749db381da2a7599e9f7e8b272a2149cda0000fdb2be0b623be",
+      "decision": "reject",
+      "reason": "Arm crossing, head crop and body style are folded into the one complete giant-squid representative.",
+      "componentConcept": "cephalopod",
+      "sourceComposition": "Crossing flexible arms or rounded cephalopod heads with radiating arms.",
+      "counterpartIds": [
+        "phase2-game-design-delapouite-giant-squid"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-squid",
+      "codeSha256": "f34fbadaff425d299d13e3a80dd362470f77feb8d060917822507c5ddcb01ed8",
+      "decision": "reject",
+      "reason": "Arm crossing, head crop and body style are folded into the one complete giant-squid representative.",
+      "componentConcept": "cephalopod",
+      "sourceComposition": "Crossing flexible arms or rounded cephalopod heads with radiating arms.",
+      "counterpartIds": [
+        "phase2-game-design-delapouite-giant-squid"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-star-swirl",
+      "codeSha256": "0a6f08eeafd3a3bcf4eed4d6dc279fc8d177dbfc3dfa13d774e467ac6a320eba",
+      "decision": "reject",
+      "reason": "Changing the end caps, material theme, spiral count and band thickness repeats the existing spiral/vortex core.",
+      "componentConcept": "swirl",
+      "sourceComposition": "One or two spiraling centers with curved bands and optional leaf, star or hand decorations.",
+      "counterpartIds": [
+        "design-tabler-spiral"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-sun-radiations",
+      "codeSha256": "fbb2954e542afb04e94feaf57b1f6195c21367956c0f262081f421c595bf4d4a",
+      "decision": "reject",
+      "reason": "Ray count and cropped position repeat the existing sun family.",
+      "componentConcept": "sun",
+      "sourceComposition": "A sun disk at the corner with alternating outward pointed rays.",
+      "counterpartIds": [
+        "vector-line-md-sun-rising"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-super-mushroom",
+      "codeSha256": "39f47be1e1c70b69a7daef23e80405e6fc32f4e48e2967c508a6a629ccecca36",
+      "decision": "reject",
+      "reason": "Cap detailing, spots and fill style are variants of the existing mushroom glyph.",
+      "componentConcept": "mushroom",
+      "sourceComposition": "Domed mushroom caps on stalks, with gills, edge cuts or circular spots.",
+      "counterpartIds": [
+        "vector-line-md-mushroom"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-swirl-ring",
+      "codeSha256": "21ee47f1120af3395fe49ca309ab6e773aaa75996f401c44f0f6bc81cc1aea08",
+      "decision": "reject",
+      "reason": "Changing the end caps, material theme, spiral count and band thickness repeats the existing spiral/vortex core.",
+      "componentConcept": "swirl",
+      "sourceComposition": "One or two spiraling centers with curved bands and optional leaf, star or hand decorations.",
+      "counterpartIds": [
+        "design-tabler-spiral"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-swirl-string",
+      "codeSha256": "114019e25217b6e84445631ef72ef01b63ed80ee4b7e997a02d548ca60a4c64d",
+      "decision": "reject",
+      "reason": "Changing the end caps, material theme, spiral count and band thickness repeats the existing spiral/vortex core.",
+      "componentConcept": "swirl",
+      "sourceComposition": "One or two spiraling centers with curved bands and optional leaf, star or hand decorations.",
+      "counterpartIds": [
+        "design-tabler-spiral"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-thorn-helix",
+      "codeSha256": "6429606b5a6d118d70e8aa8b9272e5511a7bac43eca4a3cc8a04a781bb041df9",
+      "decision": "reject",
+      "reason": "Adding sharp end caps and thorns to an existing helix/spiral geometry does not establish a new device or material.",
+      "componentConcept": "twisted-strip",
+      "sourceComposition": "A diagonal segmented twisting strip with protruding thorns.",
+      "counterpartIds": [
+        "design-tabler-dna",
+        "design-tabler-spiral"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-thunder-blade",
+      "codeSha256": "7b2d9e1b939e694f61bae5c4332bc30aa38f946eae2c72b518392d83be334fe4",
+      "decision": "reject",
+      "reason": "Lightning decoration and its target do not create new base shapes or independent mechanical assemblies.",
+      "componentConcept": "lightning",
+      "sourceComposition": "Zigzag bolts alone or wrapped around a sword, skull, person or circular ball.",
+      "counterpartIds": [
+        "design-tabler-sword",
+        "design-tabler-skull"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-thunder-skull",
+      "codeSha256": "a0322b3f5034b1ae68c82525a78f7dddd51819a425637474c50729ce8200a8bd",
+      "decision": "reject",
+      "reason": "Lightning decoration and its target do not create new base shapes or independent mechanical assemblies.",
+      "componentConcept": "lightning",
+      "sourceComposition": "Zigzag bolts alone or wrapped around a sword, skull, person or circular ball.",
+      "counterpartIds": [
+        "design-tabler-sword",
+        "design-tabler-skull"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-thunder-struck",
+      "codeSha256": "19180cc26aa397b0b1c3f1de6d463475daf56fe333e5a0114c9e766e095c92d6",
+      "decision": "reject",
+      "reason": "Lightning decoration and its target do not create new base shapes or independent mechanical assemblies.",
+      "componentConcept": "lightning",
+      "sourceComposition": "Zigzag bolts alone or wrapped around a sword, skull, person or circular ball.",
+      "counterpartIds": [
+        "design-tabler-sword",
+        "design-tabler-skull"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-thunderball",
+      "codeSha256": "d79399072ab7011e384035178fed30687d9249d52753482a3a4619a7b682705d",
+      "decision": "reject",
+      "reason": "Lightning decoration and its target do not create new base shapes or independent mechanical assemblies.",
+      "componentConcept": "lightning",
+      "sourceComposition": "Zigzag bolts alone or wrapped around a sword, skull, person or circular ball.",
+      "counterpartIds": [
+        "design-tabler-sword",
+        "design-tabler-skull"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-vortex",
+      "codeSha256": "ca7d3505e254ef04d00fc5dc7bed3289c691c59dd15cc6dd814b187729c8fcc4",
+      "decision": "reject",
+      "reason": "Changing the end caps, material theme, spiral count and band thickness repeats the existing spiral/vortex core.",
+      "componentConcept": "swirl",
+      "sourceComposition": "One or two spiraling centers with curved bands and optional leaf, star or hand decorations.",
+      "counterpartIds": [
+        "design-tabler-spiral"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-water-splash",
+      "codeSha256": "19871ea7e4e2586e5313e578490dd1aa4e3ca714cf5ac6e7efff586f905b2ea6",
+      "decision": "reject",
+      "reason": "These share the existing droplet/liquid-splash vocabulary; rim and detached-drop count are conservative style/effect variants.",
+      "componentConcept": "splash",
+      "sourceComposition": "Liquid crowns, ringed pool splashes, multiple droplets, a curved stream or a lobed liquid blob.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-lorc-wizard-staff",
+      "codeSha256": "3e14de8f3fdac8351dea7b1b81ba15fb44019ac6f089865d0bbb725e5cc13323",
+      "decision": "reject",
+      "reason": "Tip material and flourish style are variants of an existing wand/staff tool.",
+      "componentConcept": "wand",
+      "sourceComposition": "A long shaft topped with a crystal or a curled flourish.",
+      "counterpartIds": [
+        "design-tabler-wand",
+        "design-phosphor-magic-wand"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-airtight-hatch",
+      "codeSha256": "6b5b671829803c317d10827f3efdd203f2b533d7fb06a15bf792aa406b682037",
+      "decision": "reject",
+      "reason": "A hatch-style frame and locking bar repeat the existing door concept.",
+      "componentConcept": "door",
+      "sourceComposition": "Framed octagonal front-facing doorway with a panel seam and horizontal locking bar.",
+      "counterpartIds": [
+        "design-tabler-door"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-brain-tentacle",
+      "codeSha256": "beee9b0dfb3e2817f707dc98b1c0e382d794c42660e11e6e4c534f0cc4c363ed",
+      "decision": "reject",
+      "reason": "Tentacle decoration does not establish a new brain concept or functional assembly.",
+      "componentConcept": "brain",
+      "sourceComposition": "A lobed brain/head resting above two curled appendages.",
+      "counterpartIds": [
+        "design-tabler-brain"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-butterfly-flower",
+      "codeSha256": "08bbc386eb2e6fc2b9180b692d16e801f56d73d2c8092e6ddd9b070adcd83772",
+      "decision": "retain",
+      "reason": "Retain the two-subject pollination arrangement, rather than counting another isolated flower or butterfly style.",
+      "componentConcept": "insect-flower-interaction",
+      "sourceComposition": "A separate winged insect faces a stemmed flower with their heads aligned.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-coral",
+      "codeSha256": "a75507589864557c02894892d2e14268c43aa57d619b868a261f5e88c05efe61",
+      "decision": "retain",
+      "reason": "Retain one branching marine growth structure; no equivalent coral representation was found in the fixed shape inputs.",
+      "componentConcept": "branching-coral",
+      "sourceComposition": "Irregular repeated forked branches without a leaf canopy, pot or single tree trunk.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-cosmic-egg",
+      "codeSha256": "0b820be598d8b75de35f6eb0a080bf5e0d28c28c4dab5dc98600fea0e3cc4c63",
+      "decision": "reject",
+      "reason": "Stars and surface cutouts decorate the existing egg core.",
+      "componentConcept": "egg",
+      "sourceComposition": "An egg silhouette with a central star and surrounding small stars.",
+      "counterpartIds": [
+        "design-tabler-egg"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-cotton-flower",
+      "codeSha256": "ba90bd189d1a356c179e3024df97078df9d12a62e389c396549aba4014c283ec",
+      "decision": "reject",
+      "reason": "Species naming, petal count and silhouette treatment repeat existing flower shapes.",
+      "componentConcept": "flower",
+      "sourceComposition": "Stemmed or radial flowers with rounded petals, linear rays or pointed petals.",
+      "counterpartIds": [
+        "design-tabler-flower",
+        "design-phosphor-flower-tulip"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-dandelion-flower",
+      "codeSha256": "13e7b312df1f23957544eea8aec11e40f5641ad606590363c9281223247d2891",
+      "decision": "reject",
+      "reason": "Species naming, petal count and silhouette treatment repeat existing flower shapes.",
+      "componentConcept": "flower",
+      "sourceComposition": "Stemmed or radial flowers with rounded petals, linear rays or pointed petals.",
+      "counterpartIds": [
+        "design-tabler-flower",
+        "design-phosphor-flower-tulip"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-dragon-orb",
+      "codeSha256": "8c205bfdb77dbc7bf2153b4db796c63dddecd10990807ebd17116da165e5338b",
+      "decision": "reject",
+      "reason": "Dragon head style or placement repeats the dragon core; the shield source has only diamond ornaments and is not a distinct dragon construction.",
+      "componentConcept": "dragon-or-shield",
+      "sourceComposition": "A dragon face/neck, a face inside an orb, or a shield with diamond-shaped cutouts.",
+      "counterpartIds": [
+        "design-tabler-dragon",
+        "design-tabler-crystal-ball",
+        "design-tabler-shield"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-dragon-shield",
+      "codeSha256": "8f8ac3f4510a850e3fffc07e6415093a6d64e78906a21878c718d098f3274fe5",
+      "decision": "reject",
+      "reason": "Dragon head style or placement repeats the dragon core; the shield source has only diamond ornaments and is not a distinct dragon construction.",
+      "componentConcept": "dragon-or-shield",
+      "sourceComposition": "A dragon face/neck, a face inside an orb, or a shield with diamond-shaped cutouts.",
+      "counterpartIds": [
+        "design-tabler-dragon",
+        "design-tabler-crystal-ball",
+        "design-tabler-shield"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-drakkar-dragon",
+      "codeSha256": "608447916b955c1bc34e059c632bf8696b8c1f97b128409b932a01657f736410",
+      "decision": "reject",
+      "reason": "Dragon head style or placement repeats the dragon core; the shield source has only diamond ornaments and is not a distinct dragon construction.",
+      "componentConcept": "dragon-or-shield",
+      "sourceComposition": "A dragon face/neck, a face inside an orb, or a shield with diamond-shaped cutouts.",
+      "counterpartIds": [
+        "design-tabler-dragon",
+        "design-tabler-crystal-ball",
+        "design-tabler-shield"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-energy-tank",
+      "codeSha256": "8db041d426043ffdbea695b0b9c1a031e4a25c7b5bed785a94b7c21b120e0ea2",
+      "decision": "retain",
+      "reason": "The chamber, support tiers and control form a complete apparatus; this is not another standalone battery/tank outline.",
+      "componentConcept": "pedestal-capsule-device",
+      "sourceComposition": "Framed octagonal capsule resting above a layered mechanical base with a circular control.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-fire-flower",
+      "codeSha256": "2f562d7ac5bece05f4907bf39279554810ada7080888d2c2ff17a1ecd9fcc952",
+      "decision": "reject",
+      "reason": "Species naming, petal count and silhouette treatment repeat existing flower shapes.",
+      "componentConcept": "flower",
+      "sourceComposition": "Stemmed or radial flowers with rounded petals, linear rays or pointed petals.",
+      "counterpartIds": [
+        "design-tabler-flower",
+        "design-phosphor-flower-tulip"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-floating-tentacles",
+      "codeSha256": "c13ffae38c5f3a7fe4c323e630a436f59ce7bccd10d7b6b93d3931fd455f4d6c",
+      "decision": "reject",
+      "reason": "Direction, arm count, cropping and sucker styling repeat body-part shapes of the retained cephalopod, rather than adding a distinct construction.",
+      "componentConcept": "cephalopod",
+      "sourceComposition": "Flexible isolated sucker-bearing limbs, cropped limb tips or two looping limb bands.",
+      "counterpartIds": [
+        "phase2-game-design-delapouite-giant-squid"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-floor-hatch",
+      "codeSha256": "0c670deaa3e413ef417f417269811f14ee0720f0979a19d70e98f4c3209cf334",
+      "decision": "retain",
+      "reason": "The person and floor aperture form a spatial interaction scene. Keep one representative; sinking-trap later changes the aperture and arm pose.",
+      "componentConcept": "person-floor-opening",
+      "sourceComposition": "A human upper body emerging from a foreshortened rectangular opening in a horizontal surface.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-flower-emblem",
+      "codeSha256": "084622bd968bc35a3156f91a5cfad61920c61c4b37b64d69f71647218f3b7434",
+      "decision": "reject",
+      "reason": "Species naming, petal count and silhouette treatment repeat existing flower shapes.",
+      "componentConcept": "flower",
+      "sourceComposition": "Stemmed or radial flowers with rounded petals, linear rays or pointed petals.",
+      "counterpartIds": [
+        "design-tabler-flower",
+        "design-phosphor-flower-tulip"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-flower-hat",
+      "codeSha256": "d9f1f1205e310516aef175dc1f3b7b971d81393ecd2be80ea5956a899a02c04c",
+      "decision": "reject",
+      "reason": "Attire and face/flower decoration do not establish a new head/hat concept.",
+      "componentConcept": "head-attire",
+      "sourceComposition": "A hooded face opening, a pointed hat over a moustached face, or a dome hat with a small flower.",
+      "counterpartIds": [
+        "design-lucide-hat-glasses",
+        "design-phosphor-cowboy-hat"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-flower-star",
+      "codeSha256": "80c7f037bee7624b4df97390473ec8f8420506c697cfdaa754b6323878bdaac1",
+      "decision": "reject",
+      "reason": "Species naming, petal count and silhouette treatment repeat existing flower shapes.",
+      "componentConcept": "flower",
+      "sourceComposition": "Stemmed or radial flowers with rounded petals, linear rays or pointed petals.",
+      "counterpartIds": [
+        "design-tabler-flower",
+        "design-phosphor-flower-tulip"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-flying-beetle",
+      "codeSha256": "54474cb781c7fac9db10799cca947313628c12546bc2dcbd07b9ff62ee73a76b",
+      "decision": "reject",
+      "reason": "Wing pose and silhouette style repeat the existing beetle.",
+      "componentConcept": "beetle",
+      "sourceComposition": "Oval beetle body with antennae, wings and six small limbs.",
+      "counterpartIds": [
+        "design-phosphor-bug-beetle"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-galaxy",
+      "codeSha256": "5bd96a71b6526f9b1e8a49a6a47fe8ec81f6f5a113814001130453af07afdf08",
+      "decision": "reject",
+      "reason": "Spiral-arm and star styling repeat the existing galaxy concept.",
+      "componentConcept": "galaxy",
+      "sourceComposition": "Spiral arms around a central void with surrounding stars.",
+      "counterpartIds": [
+        "design-tabler-galaxy"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-glowing-artifact",
+      "codeSha256": "695866ae336a6266a0a8d5f497eabcdb7928cd036d88959a475f2451da5b5b87",
+      "decision": "reject",
+      "reason": "The source is an abstract cross/starburst. The artifact name does not establish a separate construction beyond existing sparkle/star shapes.",
+      "componentConcept": "sparkle",
+      "sourceComposition": "A symmetric four-armed cutout body with a round center and detached radiating strokes.",
+      "counterpartIds": [
+        "design-tabler-sparkle",
+        "design-coolshapes-star-1"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-goose",
+      "codeSha256": "c739317c03e8833ff655ca87f3c63999826b75474076385b2afcd0203f589565",
+      "decision": "reject",
+      "reason": "Species and drawing style repeat the existing bird core.",
+      "componentConcept": "bird",
+      "sourceComposition": "A standing long-necked bird with a beak, wing cutout and two feet.",
+      "counterpartIds": [
+        "design-lucide-bird"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-grave-flowers",
+      "codeSha256": "5ccfdfbe3870c3c63bb35b3fc7af47bf5eef6c566f09dee15ab9c7ef545c84d3",
+      "decision": "reject",
+      "reason": "Flowers decorate an already represented gravestone; this is not a distinct structural assembly.",
+      "componentConcept": "grave",
+      "sourceComposition": "A rounded gravestone behind flowers and leaves.",
+      "counterpartIds": [
+        "design-tabler-grave"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-hatchet",
+      "codeSha256": "b0202414b76f672f5d34dfd3bde0cddc6e5e0b9eec47ea82653e747ece668ed1",
+      "decision": "reject",
+      "reason": "Handle proportions and blade style repeat the existing axe.",
+      "componentConcept": "axe",
+      "sourceComposition": "Short straight handle under a broad cutting blade.",
+      "counterpartIds": [
+        "design-tabler-axe"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-purple-tentacle",
+      "codeSha256": "24302c405ff9447d43116f78d756399e8b63559d72d4fbad02f8fe3bbbf267ab",
+      "decision": "reject",
+      "reason": "Direction, arm count, cropping and sucker styling repeat body-part shapes of the retained cephalopod, rather than adding a distinct construction.",
+      "componentConcept": "cephalopod",
+      "sourceComposition": "Flexible isolated sucker-bearing limbs, cropped limb tips or two looping limb bands.",
+      "counterpartIds": [
+        "phase2-game-design-delapouite-giant-squid"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-ringed-tentacle",
+      "codeSha256": "0fe41c2fca5a806642bc936f6569f38d3c9e45a9a1839eefdd43cb666f912270",
+      "decision": "reject",
+      "reason": "Direction, arm count, cropping and sucker styling repeat body-part shapes of the retained cephalopod, rather than adding a distinct construction.",
+      "componentConcept": "cephalopod",
+      "sourceComposition": "Flexible isolated sucker-bearing limbs, cropped limb tips or two looping limb bands.",
+      "counterpartIds": [
+        "phase2-game-design-delapouite-giant-squid"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-shattered-heart",
+      "codeSha256": "9e045d57e03187853ce94e4a38e4e19b2240d69fb4b8a565debe252056b57348",
+      "decision": "reject",
+      "reason": "Cracks and fragment shapes repeat the existing broken/heart core.",
+      "componentConcept": "heart",
+      "sourceComposition": "A heart divided by angular fracture lines.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-sliced-sausage",
+      "codeSha256": "9f1570a2227019a122e5ea4cc037095a8203ccb030ba6f8de49648630821bd1e",
+      "decision": "reject",
+      "reason": "A cut surface is a view/detail variant of the existing sausage.",
+      "componentConcept": "sausage",
+      "sourceComposition": "Angled sausage cylinder with a porous circular cut surface.",
+      "counterpartIds": [
+        "design-tabler-sausage"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-snail-eyes",
+      "codeSha256": "c1b5a85b8c10a28765820e10caa4826ed3d42603bf92fcb877cca284e396a0ad",
+      "decision": "reject",
+      "reason": "Cropping to stalks changes the view of an existing snail, rather than adding a new assembly.",
+      "componentConcept": "snail",
+      "sourceComposition": "Two eye stalks rising above a cropped snail head.",
+      "counterpartIds": [
+        "design-lucide-snail"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-spider-bot",
+      "codeSha256": "8020900bd13f6e58209c291ccef54d5e08b9770a502a2f7be8f27c827598eaa2",
+      "decision": "reject",
+      "reason": "Robotic/eye decoration repeats the spider core; the mask source is a generic face mask silhouette.",
+      "componentConcept": "spider-or-mask",
+      "sourceComposition": "Angular spider limbs surrounding a body/eye, or a plain oval mask with slanted eye holes.",
+      "counterpartIds": [
+        "design-tabler-spider",
+        "design-phosphor-bug-droid",
+        "design-tabler-mask"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-spider-eye",
+      "codeSha256": "cb29f3e8acbb71ae5ce73a354db0840fe22b3df53713a1f6982f07c9f09d5da4",
+      "decision": "reject",
+      "reason": "Robotic/eye decoration repeats the spider core; the mask source is a generic face mask silhouette.",
+      "componentConcept": "spider-or-mask",
+      "sourceComposition": "Angular spider limbs surrounding a body/eye, or a plain oval mask with slanted eye holes.",
+      "counterpartIds": [
+        "design-tabler-spider",
+        "design-phosphor-bug-droid",
+        "design-tabler-mask"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-spider-mask",
+      "codeSha256": "0071f90a648b66bb00c5550d681595ff8f711ddf3f6ed526832aec9fd68c805c",
+      "decision": "reject",
+      "reason": "Robotic/eye decoration repeats the spider core; the mask source is a generic face mask silhouette.",
+      "componentConcept": "spider-or-mask",
+      "sourceComposition": "Angular spider limbs surrounding a body/eye, or a plain oval mask with slanted eye holes.",
+      "counterpartIds": [
+        "design-tabler-spider",
+        "design-phosphor-bug-droid",
+        "design-tabler-mask"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-spiked-dragon-head",
+      "codeSha256": "1873d1c6b8e20e572d22f6ca3e22be9d0d86d6bbf9de738788eabeebca3f28f3",
+      "decision": "reject",
+      "reason": "Dragon head style or placement repeats the dragon core; the shield source has only diamond ornaments and is not a distinct dragon construction.",
+      "componentConcept": "dragon-or-shield",
+      "sourceComposition": "A dragon face/neck, a face inside an orb, or a shield with diamond-shaped cutouts.",
+      "counterpartIds": [
+        "design-tabler-dragon",
+        "design-tabler-crystal-ball",
+        "design-tabler-shield"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-sunflower",
+      "codeSha256": "dc24c724f23973e79dcfe664b25b155efc394f38a25a4c66696beefa7ef64f75",
+      "decision": "reject",
+      "reason": "Species naming, petal count and silhouette treatment repeat existing flower shapes.",
+      "componentConcept": "flower",
+      "sourceComposition": "Stemmed or radial flowers with rounded petals, linear rays or pointed petals.",
+      "counterpartIds": [
+        "design-tabler-flower",
+        "design-phosphor-flower-tulip"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-tentacles-barrier",
+      "codeSha256": "0ddfec714d20143e367a4daf55a1c22e9a7e7d4ec46a6b08fc5d9c6cf64e9c1f",
+      "decision": "reject",
+      "reason": "Direction, arm count, cropping and sucker styling repeat body-part shapes of the retained cephalopod, rather than adding a distinct construction.",
+      "componentConcept": "cephalopod",
+      "sourceComposition": "Flexible isolated sucker-bearing limbs, cropped limb tips or two looping limb bands.",
+      "counterpartIds": [
+        "phase2-game-design-delapouite-giant-squid"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-angular-spider",
+      "codeSha256": "71567e07951c3f7f9a142925790af41755ce0eb124e6f888e4c8d47626d77cd0",
+      "decision": "reject",
+      "reason": "Leg pose, crop and shell striping repeat existing spider/beetle glyphs.",
+      "componentConcept": "insect",
+      "sourceComposition": "Angular eight-legged spider or a striped dome shell above paired insect body segments.",
+      "counterpartIds": [
+        "design-tabler-spider",
+        "design-phosphor-bug-beetle"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-beetle-shell",
+      "codeSha256": "91fc4afd07cc1adb66896bc3d818142d6eda05e1aedfcdefd5ad8674915ba1b6",
+      "decision": "reject",
+      "reason": "Leg pose, crop and shell striping repeat existing spider/beetle glyphs.",
+      "componentConcept": "insect",
+      "sourceComposition": "Angular eight-legged spider or a striped dome shell above paired insect body segments.",
+      "counterpartIds": [
+        "design-tabler-spider",
+        "design-phosphor-bug-beetle"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-biohazard",
+      "codeSha256": "76f842261a71b260094ed458744bdc6eae7fe8fa29b41bcdfda1cd75a1b38dc3",
+      "decision": "reject",
+      "reason": "The standard biohazard symbol already exists.",
+      "componentConcept": "biohazard",
+      "sourceComposition": "Three overlapping curved lobes around a small center.",
+      "counterpartIds": [
+        "design-tabler-biohazard"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-burst-blob",
+      "codeSha256": "f97c9cc6dd02028789b7b785410a23c745289141c2441e38b0df1fa24975e53d",
+      "decision": "reject",
+      "reason": "These share the existing droplet/liquid-splash vocabulary; rim and detached-drop count are conservative style/effect variants.",
+      "componentConcept": "splash",
+      "sourceComposition": "Liquid crowns, ringed pool splashes, multiple droplets, a curved stream or a lobed liquid blob.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-aqueduct",
+      "codeSha256": "643e4c25408fe8fbfc8aeb359fc22dac44374e033076617eb66b3ee2719eec2c",
+      "decision": "retain",
+      "reason": "The multilevel arcade/channel arrangement is a distinct hydraulic architectural construction, rather than a generic single-span bridge style.",
+      "componentConcept": "tiered-water-bridge",
+      "sourceComposition": "Three stacked arcades of decreasing arch size below a continuous upper channel.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-bamboo-fountain",
+      "codeSha256": "7ddcf18bf47b1882ef2156c854b1f380d53c12516cc319965af845af4631e74b",
+      "decision": "reject",
+      "reason": "Spout material or jet count repeats the existing fountain core.",
+      "componentConcept": "fountain",
+      "sourceComposition": "A cut bamboo spout with a falling stream, or paired arcing jets above a basin and central tier.",
+      "counterpartIds": [
+        "design-tabler-fountain"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-boat-engine",
+      "codeSha256": "f654d0986af1b79d2a7b1d2c450270f4b55d7cdb7248550ad9500a623568d0a6",
+      "decision": "retain",
+      "reason": "The outboard shaft/propeller/mount assembly has a functional topology absent from the existing automotive engine-block glyph; it is not a ship style variant.",
+      "componentConcept": "outboard-engine",
+      "sourceComposition": "Upper motor casing connected by a bent shaft to a lower vertical gear housing and propeller.",
+      "counterpartIds": [],
+      "existingConceptDifference": {
+        "id": "design-phosphor-boat",
+        "codeSha256": "0156250dfe12524d02f4c3686890c3b8800b7f5ff0adcc2a8a3e0eea513306a3",
+        "reason": "The existing Phosphor Boat SVG contains a complete vessel hull, superstructure and bow. The new source has no hull: it depicts an outboard motor casing, bent drive shaft, lower gear housing and propeller. These are different functional component constructions; the shared boat token describes mounting context, not geometry equivalence."
+      }
+    },
+    {
+      "id": "phase2-game-design-delapouite-dam",
+      "codeSha256": "f9b3809f618411e9c17ba8417ad2a8f8396ca9309b82a1ea67814abc8200ca8f",
+      "decision": "reject",
+      "reason": "The existing Lucide dam already represents a cross-section wall separating water level lines. Fill and cross-section proportions are style changes of the same hydraulic barrier.",
+      "componentConcept": "water-level-barrier",
+      "sourceComposition": "Tall central wall separates high water on one side from a lower waterline on the other.",
+      "counterpartIds": [
+        "design-lucide-dam"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-drawbridge",
+      "codeSha256": "cbe07cf5b2236fd31755a7b0e20cec9d0532c3432e35fa7d0849ad4213b7a877",
+      "decision": "retain",
+      "reason": "The hinge/deck/chain/tower relation forms an operable bridge assembly, rather than an ornamented static bridge outline.",
+      "componentConcept": "chain-hinged-bridge",
+      "sourceComposition": "A crenellated tower, inclined bridge deck, suspension chain and waterline.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-furnace",
+      "codeSha256": "73d932543848ead9c66c12dc7ce187f80c18a096b7bd34019147e42adfea2e0b",
+      "decision": "reject",
+      "reason": "A box-shaped heating chamber and front controls repeat the existing oven/heater concept.",
+      "componentConcept": "oven-heater",
+      "sourceComposition": "Rectangular fire chamber, hinged side door/handle and three lower control marks below a cap.",
+      "counterpartIds": [
+        "design-phosphor-oven",
+        "design-lucide-heater"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-gold-mine",
+      "codeSha256": "9401d5133b936e48aa0270933954acb317a799f3a9e465348878b79c25887072",
+      "decision": "retain",
+      "reason": "The tunnel support, mine track and ore cart form a complete extraction scene; a pickaxe alone does not represent it.",
+      "componentConcept": "mine-rail-cart-scene",
+      "sourceComposition": "Timber-supported mine entrance, hanging lamp, inward rail steps and a filled wheeled cart.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-incubator",
+      "codeSha256": "5dcbe953a5a514a324fce4e974a9b51553214c58d06d9818803c75dbf6b58dd7",
+      "decision": "retain",
+      "reason": "The source encodes the emitter-to-egg heating arrangement; one complete incubation apparatus is retained.",
+      "componentConcept": "heated-egg-array",
+      "sourceComposition": "An overhead domed heat emitter, downward radiant strips and three eggs below it.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-laser-turret",
+      "codeSha256": "887341946d226d7b79899472026c0c5915ea2bb8b26e6df24648af3f9fe91b1d",
+      "decision": "retain",
+      "reason": "Retain one complete fixed turret assembly. Simpler sentry-gun and mortar versions are folded into this weapon-emplacement family.",
+      "componentConcept": "fixed-mounted-weapon",
+      "sourceComposition": "Parabolic dish/feed geometry, angled barrel, circular pivot and layered fixed base.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-manual-water-pump",
+      "codeSha256": "16622489c923a05b689dbe3764b10b9dd49991c3a95e0e85dabb8ed509bbcb43",
+      "decision": "retain",
+      "reason": "The lever/cylinder/spout arrangement differs from the existing fuel-pump box and hose; it is a distinct manually operated apparatus.",
+      "componentConcept": "hand-operated-pump",
+      "sourceComposition": "Curved operating lever, upright pump cylinder, projecting spout, support foot and separate droplet.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-observatory",
+      "codeSha256": "84e08c228c3d8611c204d1dc0a2b653b0abdf0540bd376a1c2c3a31d60248b11",
+      "decision": "retain",
+      "reason": "The slit/dome/telescope/building arrangement forms a complete observatory, beyond a standalone telescope glyph.",
+      "componentConcept": "dome-telescope-building",
+      "sourceComposition": "Rounded slotted dome enclosing a protruding telescope above a windowed circular base.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-oil-pump",
+      "codeSha256": "41533d261d0e625f393ebe67767a51c39a172128ec23d88c55b13bb674701dd2",
+      "decision": "retain",
+      "reason": "The reciprocal industrial linkage is a distinct mechanical assembly, rather than another hand-pump pose.",
+      "componentConcept": "pumpjack-linkage",
+      "sourceComposition": "Inclined beam with horsehead end, fulcrum frame, lower drive element and descending rod.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-oil-rig",
+      "codeSha256": "9fc731ae20f432f867d294625dba5b3dec272675ec8e47069c82e37465bcb0d3",
+      "decision": "reject",
+      "reason": "The source does not visibly preserve a separate drilling apparatus; spray decoration alone does not establish a new tower core.",
+      "componentConcept": "tower",
+      "sourceComposition": "Lattice tower with a spray-like motif above its top.",
+      "counterpartIds": [
+        "design-lucide-radio-tower",
+        "design-phosphor-crane-tower"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-power-generator",
+      "codeSha256": "4d1cfa52978f52fa2c738808252751f28a4c8a511588332f2d56cb86689f11c7",
+      "decision": "retain",
+      "reason": "The complete cabinet/terminal/control arrangement is a separate machine composition, rather than a bare battery or lightning glyph.",
+      "componentConcept": "electrical-machine",
+      "sourceComposition": "Vented central casing, two side housings, terminal blocks, control dots and waveform marks.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-pulley-hook",
+      "codeSha256": "f38316c7c118cdb99f24dc730d0ad9ecc6026a906d4f8a958177f6207a70fd5c",
+      "decision": "retain",
+      "reason": "The rope/wheel/hook topology is a complete lifting subassembly; the existing tower crane does not duplicate this standalone mechanism.",
+      "componentConcept": "rope-pulley-hook",
+      "sourceComposition": "Oval wheel housing with pivot hole, two rope leads and a hanging curved hook.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-refinery",
+      "codeSha256": "f4cafff9f4a2584a6f7d069fd6a4c6d9f9f8f999a05ae7c43df471ca6a0be707",
+      "decision": "retain",
+      "reason": "Interconnected vessel/pipe/flare arrangements form a distinct process-plant scene.",
+      "componentConcept": "process-plant",
+      "sourceComposition": "Separate cylindrical vessels joined by bent pipes beside a tall flaring stack and platform.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-sextant",
+      "codeSha256": "954638148c8ec94715add6f80a79c97b3a062085e334216d2038179e6bcff873",
+      "decision": "retain",
+      "reason": "The arc/pivot/sight geometry is a complete angle-measuring optical instrument, rather than an arrow or compass style.",
+      "componentConcept": "angular-optical-instrument",
+      "sourceComposition": "Graduated curved arc, triangular frame, optical sight and pivot arm.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-siege-tower",
+      "codeSha256": "d3a22ae6519d3e0a7cdcc951ab0564860dfc606ed3a674ad5351b0e16289ad55",
+      "decision": "retain",
+      "reason": "The tower/ramp/wheel assembly is an independently constructed mobile siege structure, beyond a decorated tower silhouette.",
+      "componentConcept": "wheeled-assault-tower",
+      "sourceComposition": "Crenellated upper box and projecting ramp above a braced frame on wheels.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-star-altar",
+      "codeSha256": "a799b9edd7f54f5f559acc1ec5dfa150c37519a4efb9fc7f9d2980c628132881",
+      "decision": "reject",
+      "reason": "The displayed star changes the ornament of a pedestal/altar already represented by crystal-shrine; count the display construction once.",
+      "componentConcept": "pedestal-artifact-display",
+      "sourceComposition": "Layered standing pedestal containing a star cutout beneath a small top slab.",
+      "counterpartIds": [
+        "phase2-game-design-delapouite-crystal-shrine"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-theater-curtains",
+      "codeSha256": "d48af53b683f400606c74dad8a0d037810286703c5da98a3327013035f9bee6b",
+      "decision": "reject",
+      "reason": "The existing theater icon already contains the same stage and paired drape arrangement; fill and swag detail are style variants.",
+      "componentConcept": "theater",
+      "sourceComposition": "Paired drapes, scalloped upper swag and lower stage within a rectangular frame.",
+      "counterpartIds": [
+        "design-tabler-theater"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-trebuchet",
+      "codeSha256": "0c24cacb5f1cde7b6c99857ae14d7ae77a4c44380b05d25d8d6056086e4a51a7",
+      "decision": "retain",
+      "reason": "The pivot/lever/sling/counterweight relation encodes a distinct mechanical launcher, not a gun or generic crane.",
+      "componentConcept": "counterweight-sling-engine",
+      "sourceComposition": "Long lever on a triangular braced frame, hanging sling and block counterweight.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-turbine",
+      "codeSha256": "b9bd0585ae949fb17d4d7350fd355974a7a6e324a90f422cc779f8a900ce0b21",
+      "decision": "retain",
+      "reason": "A rotor inside a coaxial flow housing is a distinct complete engine subassembly; it is more than a change in the blade count of the existing standalone fan.",
+      "componentConcept": "coaxial-rotor-housing",
+      "sourceComposition": "Long tapered nacelle enclosing a circular rotor with radial curved vanes and a central hub.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-walking-turret",
+      "codeSha256": "bc921ece70990f7740e8d32c221ccd3bb4a284c6d039125cede09f3f4aa54e2b",
+      "decision": "reject",
+      "reason": "The weapon changes the existing whole-body robot motif. It is conservatively excluded with battle-mech and tracked-robot, rather than counting locomotion/armor variants.",
+      "componentConcept": "robot",
+      "sourceComposition": "Box-shaped gun body on two jointed legs with feet.",
+      "counterpartIds": [
+        "design-tabler-robot"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-windpump",
+      "codeSha256": "36b8faa47f0958b82b1f5402ae55cc8bdb38ad55919eab7deeb8e00499f24061",
+      "decision": "reject",
+      "reason": "Rotor count, tower and tail styling repeat the existing windmill/wind-energy core.",
+      "componentConcept": "windmill",
+      "sourceComposition": "Radial multi-blade rotor and tail vane on a tall braced tower.",
+      "counterpartIds": [
+        "design-tabler-windmill"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-cage",
+      "codeSha256": "80f3f05c32e0db366c272e0d27bde53da2708058f0bf39f296fedfef6006f264",
+      "decision": "reject",
+      "reason": "The lattice and keyhole combine existing grid and lock vocabulary; no distinct confinement mechanism is visible.",
+      "componentConcept": "grid-lock",
+      "sourceComposition": "Repeated square bars surround a central keyhole.",
+      "counterpartIds": [
+        "vector-line-md-grid-3",
+        "design-tabler-lock"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-coiled-nail",
+      "codeSha256": "556d6efad613a8b971c34aec3676c6969696a07f50e662378a79ce95d9744a62",
+      "decision": "reject",
+      "reason": "Twisting/cropping a drill/fastener shaft does not add a separate construction.",
+      "componentConcept": "drill-fastener",
+      "sourceComposition": "Tapered diagonal shaft with spiral cut bands.",
+      "counterpartIds": [
+        "design-lucide-drill"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-lighthouse",
+      "codeSha256": "6469fa136e9af77a3828059ebc509948d62886e09edbe013e957a9f5d468dd97",
+      "decision": "reject",
+      "reason": "The same lighthouse/beam construction already exists.",
+      "componentConcept": "lighthouse",
+      "sourceComposition": "Tall tapered tower with windowed lantern room, triangular light beam and waterline.",
+      "counterpartIds": [
+        "design-lucide-lighthouse"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-paddle-steamer",
+      "codeSha256": "08e8a77e1100cfcf96ac48fbd2e5cb716c9db9bdcbf1a6cc6fc3ce428de1e430",
+      "decision": "reject",
+      "reason": "A propulsion subtype changes an existing ship core; this is conservatively excluded rather than counting boat style subtypes.",
+      "componentConcept": "ship",
+      "sourceComposition": "Ship hull, large side paddle wheel, chimney smoke and a lower waterline.",
+      "counterpartIds": [
+        "design-tabler-ship"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-water-fountain",
+      "codeSha256": "0f7b9f2f4a45b05a0dfe7e00d6710de6c6bb2e9c49c3e5915dbe607c03423ddd",
+      "decision": "reject",
+      "reason": "Spout material or jet count repeats the existing fountain core.",
+      "componentConcept": "fountain",
+      "sourceComposition": "A cut bamboo spout with a falling stream, or paired arcing jets above a basin and central tier.",
+      "counterpartIds": [
+        "design-tabler-fountain"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-artificial-hive",
+      "codeSha256": "8b06373ec027945f1b0fa9753a182d04728a922eebea1b8ec2b3b70223651121",
+      "decision": "reject",
+      "reason": "No independent hive apparatus is visible; this is a hexagonal tiling motif already represented by geometric patterns.",
+      "componentConcept": "hexagon-pattern",
+      "sourceComposition": "Six diamond/cube-like cells arranged inside a hexagonal border.",
+      "counterpartIds": [
+        "design-tabler-hexagon-3d"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-clockwork",
+      "codeSha256": "57ad6aac1abf4d7f7fbcafafcb712cfdca93b969b28bb9250c3ac792da7ff747",
+      "decision": "reject",
+      "reason": "The gear/clock motif already exists; cutout style and tooth count do not add a new mechanism.",
+      "componentConcept": "cog-clock",
+      "sourceComposition": "Central circular pivot, radial gear teeth, pointers and outer arc segments.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-lorc-guillotine",
+      "codeSha256": "6e24ad0d66e1ff56740f9fefaab83592e5b3e666e4a4aeb88b2bd9ad16116c93",
+      "decision": "retain",
+      "reason": "The sliding blade/frame/aperture topology is a distinct physical apparatus. A CSS card effect named guillotine is not the same depicted object.",
+      "componentConcept": "sliding-blade-frame",
+      "sourceComposition": "Tall two-post frame, slanted suspended blade and a circular neck aperture in the lower crossbar.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-lorc-maze",
+      "codeSha256": "787232b5089c0d603f0b61e8b3a071b9fa470106554300413966246a8393e304",
+      "decision": "retain",
+      "reason": "The connected passage topology is a complete plan graphic, not an indexed grid or a decorative repeated tile.",
+      "componentConcept": "labyrinth-plan",
+      "sourceComposition": "Connected rectilinear walls and passages form a bounded square labyrinth.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-lorc-ribcage",
+      "codeSha256": "af405dc7610e3cd6a2d0ff7bca52f258fc65508af8dc80af37d9b6ad431733f9",
+      "decision": "retain",
+      "reason": "The assembled thoracic structure differs from a single bone or fish-bone glyph; one anatomical rib arrangement is retained.",
+      "componentConcept": "thoracic-skeleton",
+      "sourceComposition": "Central sternum/spine axis and paired arcing ribs widening above a lower gap.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-lorc-sundial",
+      "codeSha256": "7fb136122e444ab8294025fa79bc92179e74430ed460c4535debce39bd6d0906",
+      "decision": "reject",
+      "reason": "Despite the filename, the source has no visible gnomon or graduated time scale. It is a sun motif already represented.",
+      "componentConcept": "sun",
+      "sourceComposition": "Rising semicircular disk below alternating pointed rays.",
+      "counterpartIds": [
+        "vector-line-md-sun-rising"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-tesla-coil",
+      "codeSha256": "850e7bf2a7626b863f5bccb9faf6e85a0899e58ff61eb433a39460535f259168",
+      "decision": "retain",
+      "reason": "The terminal/stacked-coil/discharge arrangement forms a complete electrical apparatus, rather than a bare lightning decoration.",
+      "componentConcept": "stacked-electrical-coil-device",
+      "sourceComposition": "Terminal sphere above separated horizontal coil disks with paired side discharge bolts.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-lorc-land-mine",
+      "codeSha256": "97ac9ac9f5c3650501863f43ed8280114772a8280230c3378c6390cb81ef6c4a",
+      "decision": "reject",
+      "reason": "The source is a disc with a warning decoration; no separate trigger or explosive construction is visible.",
+      "componentConcept": "warning",
+      "sourceComposition": "Flat ringed disc below a large exclamation mark.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-lorc-mining",
+      "codeSha256": "382042578b656714415e07618e80d6fc4d298911ac4c966e0e349650ce5399b6",
+      "decision": "retain",
+      "reason": "The tool/material contact and fracture relation form one extraction-action scene, distinct from the stationary rail-cart mine scene.",
+      "componentConcept": "pickaxe-rock-impact",
+      "sourceComposition": "A pickaxe crosses an angular cracked rock with detached impact fragments.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-battle-mech",
+      "codeSha256": "03dc889371d34cdc726ab576375f3ff970f4225b9a5e656ec9342450ec5c2e47",
+      "decision": "reject",
+      "reason": "The existing Tabler robot includes head, body, arms and legs. Armor, chest detail and locomotion subtype repeat that core; neither is counted separately.",
+      "componentConcept": "robot",
+      "sourceComposition": "Symmetric armored torso, head and paired articulated arms; lower limbs are either legs or tracked treads.",
+      "counterpartIds": [
+        "design-tabler-robot"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-tracked-robot",
+      "codeSha256": "7678cfbbed0c64e05c1deca60d5f16fcf7c885e1cc84eaf5a4a88c9153eae4f1",
+      "decision": "reject",
+      "reason": "The existing Tabler robot includes head, body, arms and legs. Armor, chest detail and locomotion subtype repeat that core; neither is counted separately.",
+      "componentConcept": "robot",
+      "sourceComposition": "Symmetric armored torso, head and paired articulated arms; lower limbs are either legs or tracked treads.",
+      "counterpartIds": [
+        "design-tabler-robot"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-mortar",
+      "codeSha256": "b958c678116806e8842dd76089e891b8ff9e19ac9a10eaa46af4dea86535f91f",
+      "decision": "reject",
+      "reason": "A different mount/barrel layout remains a gun emplacement. Conservatively keep one fixed mounted-weapon representative.",
+      "componentConcept": "fixed-mounted-weapon",
+      "sourceComposition": "Inclined short barrel on an adjustable joint with rear bipod and front baseplate.",
+      "counterpartIds": [
+        "phase2-game-design-delapouite-laser-turret"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-human-cannonball",
+      "codeSha256": "3771acc2cd4b175c0bc7c2a20dbfd2aa2406e038afcfbde4fd85d07cb3c4f121",
+      "decision": "retain",
+      "reason": "The launcher/projectile relation is an action scene, beyond a stationary mounted-weapon icon. The source name suggests a human performer; this review does not infer facial anatomy absent from the visible silhouette.",
+      "componentConcept": "launched-subject-scene",
+      "sourceComposition": "Inclined cannon tube on a pivoted mount, fuse tail and a distinct rounded launched subject at its mouth.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-shinto-shrine",
+      "codeSha256": "3b5d48b1941b58521cc2772f9fbc7373fbe163b96c0f7133f43a1b81ca9b6577",
+      "decision": "reject",
+      "reason": "The torii/shrine gate already exists. Fence and hanging bell additions decorate the same gate core.",
+      "componentConcept": "torii",
+      "sourceComposition": "Curved lintels and paired gate posts, with bell/rope and short fences.",
+      "counterpartIds": [
+        "design-tabler-torii"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-pan-flute",
+      "codeSha256": "c56e3ce02861e53cda8af616aaa46bebb98d2162d79848092faf8f608c990251",
+      "decision": "retain",
+      "reason": "No flute/pan-pipe counterpart was found in the complete fixed shape inputs. The connected graded pipe array is a distinct wind-instrument construction, rather than a generic stripe pattern.",
+      "componentConcept": "stepped-pipe-instrument",
+      "sourceComposition": "Parallel open pipes of graded length joined by horizontal binding channels.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-vending-machine",
+      "codeSha256": "4b0074992d1017eb0b2891c703d35ad4a06a46463129e90ca73a9361fc5882fe",
+      "decision": "retain",
+      "reason": "The inventory display, control column and delivery aperture form a dispensing apparatus absent from existing shop/server/washer glyphs.",
+      "componentConcept": "dispensing-cabinet",
+      "sourceComposition": "Tall cabinet, stocked display shelves, side selection/payment controls and lower delivery tray.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-lorc-grease-trap",
+      "codeSha256": "793895f2e2e830c578c7a246f511de255a883103290201b4cebcfb00e1181348",
+      "decision": "reject",
+      "reason": "The drop changes only the decoration/target of the same spring-jaw construction; retain wolf-trap once.",
+      "componentConcept": "spring-jaw-trap",
+      "sourceComposition": "Two opposing toothed jaws and pivot pin below a large drop.",
+      "counterpartIds": [
+        "phase2-game-design-lorc-wolf-trap"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-sinking-trap",
+      "codeSha256": "c1cf179ee12cac78a1aa2e22dd6c342628e2a1e0ca223fecf6fc287ef0818f8f",
+      "decision": "reject",
+      "reason": "Surface shape and arm pose vary the person/floor-opening scene already represented by floor-hatch.",
+      "componentConcept": "person-floor-opening",
+      "sourceComposition": "A human upper body with raised hands protrudes from an elliptical ground opening.",
+      "counterpartIds": [
+        "phase2-game-design-delapouite-floor-hatch"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-wolf-trap",
+      "codeSha256": "bc0c287bd98c2ed3c3abd8d81335858fc0fd051b22ebba048535fe6c74e048cc",
+      "decision": "retain",
+      "reason": "The opposing jaws and central trigger form one complete capture mechanism; it was not found in the fixed shape inputs. Drop-decorated grease-trap is folded into this representative.",
+      "componentConcept": "spring-jaw-trap",
+      "sourceComposition": "Paired curved toothed jaws surround a central trigger/pivot and linking spring bars.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-lorc-lyre",
+      "codeSha256": "7a7dd9e7323a58afad585d3caa27b5dfea5ca791513baab1507f10f04abd82ce",
+      "decision": "retain",
+      "reason": "No harp/lyre counterpart was found in the complete fixed shape inputs. The open frame and string anchoring differ from the existing enclosed guitar body and neck.",
+      "componentConcept": "open-frame-string-instrument",
+      "sourceComposition": "U-shaped resonance frame with curled terminals and parallel tensioned strings across its open center.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-lorc-heart-organ",
+      "codeSha256": "31000340e93cdfed48b3dece49a22173d619900a2b9a13cd2720a289ca611e51",
+      "decision": "retain",
+      "reason": "The actual organ body and vessel connections differ from an existing bilobed valentine heart symbol. Retain one anatomical heart; internal-organ changes the same organ vessel styling.",
+      "componentConcept": "anatomical-heart",
+      "sourceComposition": "Asymmetric rounded cardiac body with several open arterial/venous tubes emerging from its upper edge.",
+      "counterpartIds": [],
+      "existingConceptDifference": {
+        "id": "vector-line-md-heart",
+        "codeSha256": "91922178dbfb7df96ee8f8ad785fcc789d75363e5d206a503337fa4be151ac1c",
+        "reason": "The existing Line MD heart SVG draws the symmetric bilobed pointed valentine symbol. The new source depicts an asymmetric organ body connected to several open aortic/venous tubes. A valentine silhouette with pulse decoration does not carry this anatomical vessel topology. Keep one anatomical heart source and fold internal-organ into it."
+      }
+    },
+    {
+      "id": "phase2-game-design-lorc-internal-organ",
+      "codeSha256": "76afaf69cf48a3f89616c47d57a03fbc79b0c4d9ee7f22a870d7e63417b01ac3",
+      "decision": "reject",
+      "reason": "Vessel directions and counts vary the same anatomical heart representation; retain heart-organ once.",
+      "componentConcept": "anatomical-heart",
+      "sourceComposition": "Asymmetric cardiac body with branching tubular vessels extending around its edges.",
+      "counterpartIds": [
+        "phase2-game-design-lorc-heart-organ"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-anatomy",
+      "codeSha256": "4bd66087baf51099434830ab201057bc40a01025e09cdbf0afe179700461103e",
+      "decision": "reject",
+      "reason": "The source does not show an internal organ arrangement; existing brain/heart elements and labels decorate a generic human silhouette.",
+      "componentConcept": "annotated-user",
+      "sourceComposition": "Plain full-body human silhouette with detached brain and heart callouts at the side.",
+      "counterpartIds": [
+        "design-tabler-brain",
+        "phase2-game-design-lorc-heart-organ"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-lever",
+      "codeSha256": "f76520c629e65565dbb3275f262699e9258f5d8acaf4c1803e6564b7adacf4c9",
+      "decision": "reject",
+      "reason": "The existing joystick already has a stick on a base. Handle angle, base shape and motion marks repeat the same core control construction.",
+      "componentConcept": "joystick",
+      "sourceComposition": "Angled handle rises from a domed pivot on a flat base, with segmented motion arcs above it.",
+      "counterpartIds": [
+        "design-lucide-joystick"
+      ]
+    },
+    {
+      "id": "phase2-game-design-lorc-gibbet",
+      "codeSha256": "eda96e45bba77e070305bfb3b5d26394697695518693e94bbd601c83265745af",
+      "decision": "retain",
+      "reason": "The braced beam and hanging noose form a distinct rope suspension apparatus, separate from a sliding blade/neck-hole guillotine assembly.",
+      "componentConcept": "hanging-rope-frame",
+      "sourceComposition": "Single upright wooden post with top beam, diagonal support and a suspended closed rope loop.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-lorc-puppet",
+      "codeSha256": "ea9573f642723610ac62d11a7cb46f6ee677d4601c0bc91c147c2dbdde73f4cb",
+      "decision": "reject",
+      "reason": "No control strings or independent puppeteering mechanism are visible. Joint segmentation and pose are human-figure style changes.",
+      "componentConcept": "user",
+      "sourceComposition": "Round head, oval torso and separated human limb segments with circular endpoints.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-lorc-fishing-net",
+      "codeSha256": "7b4c91fea325aa00de35a1e3aa8de799dcd14ab74baea5024e5a617aba98e823",
+      "decision": "retain",
+      "reason": "This is a physical pocket/mesh/weight assembly. The existing connected globe/network and fish-hook glyphs do not represent a fishing net construction.",
+      "componentConcept": "weighted-mesh-net",
+      "sourceComposition": "Curved conical woven mesh with multiple round perimeter weights and an open rolled rim.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-kidneys",
+      "codeSha256": "a0772a85fc94e3b4ba252dcb1b52403d12e834ca73e32959bf54a56f6421b86b",
+      "decision": "retain",
+      "reason": "The organ-pair and tube arrangement is an anatomical renal structure absent from the fixed shape inputs, rather than a paired decorative bean motif.",
+      "componentConcept": "renal-pair",
+      "sourceComposition": "Paired bean-shaped organs with inward hilum openings and two descending ureter tubes.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-stomach",
+      "codeSha256": "e08e49402241c11cfcb549afbd6ad352427a0dd895dc161281557e43eb77f106",
+      "decision": "retain",
+      "reason": "The connected inlet/sac/outlet geometry is a distinct anatomical digestive organ, rather than a generic droplet or internal-heart style.",
+      "componentConcept": "gastric-organ",
+      "sourceComposition": "Rounded asymmetric gastric sac joins an upper entering tube and a lower outgoing tube, with a lower internal partition.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-pelvis-bone",
+      "codeSha256": "8c23c99a0b008338cc645bfb5abb099e02c8deb46d199d568e9fdc3fd59e7202",
+      "decision": "retain",
+      "reason": "The assembled pelvic topology differs from a single bone, skull or ribcage; one full anatomical girdle is retained.",
+      "componentConcept": "pelvic-girdle",
+      "sourceComposition": "Paired iliac wings around a central lower spine/sacral axis and a closed pubic ring.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-bagpipes",
+      "codeSha256": "df1eae7f9ce967eb41e7eb120250830e6a1c401e72a86ec43d23bf4f13b0fdc8",
+      "decision": "retain",
+      "reason": "The shared air reservoir and multiple pipe connections form a complete instrument assembly, distinct from the open graded tubes of pan-flute.",
+      "componentConcept": "air-reservoir-pipe-instrument",
+      "sourceComposition": "Bulging bound air bag connected to a mouth pipe and several long projecting reed pipes.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-xylophone",
+      "codeSha256": "ab1eae80fbd01fc087e3109c3483d5ffd3980aacfd7b641e40d51ee1d31e3e2c",
+      "decision": "retain",
+      "reason": "The mounted bar array and separate strikers form a complete percussion arrangement absent from the fixed shape inputs, rather than a keyboard or pipe style.",
+      "componentConcept": "struck-bar-instrument",
+      "sourceComposition": "Five graded rectangular bars with paired attachment holes above two crossed round-ended mallets.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-manual-meat-grinder",
+      "codeSha256": "59f079a147a151a2875ebca0df61b91a5774f15425b31e59700f738f6276f8b1",
+      "decision": "retain",
+      "reason": "The feed/body/crank/clamp relationship is a distinct manually operated machine assembly; no corresponding grinder construction exists in the fixed inputs.",
+      "componentConcept": "cranked-hopper-machine",
+      "sourceComposition": "Upper feed hopper over a horizontal grinding body with side shaft/crank, discharge and lower clamping support.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-slingshot",
+      "codeSha256": "ef0dc0a92f345dfc498b23b7f04d12cd40d226e8c91877839d3529e451c0402e",
+      "decision": "retain",
+      "reason": "The fork/bands/pouch construction is a physical elastic launcher. CSS effects named slingshot depict moving UI elements and do not supply the same object geometry.",
+      "componentConcept": "elastic-fork-launcher",
+      "sourceComposition": "Y-shaped handheld fork joined by two curved elastic bands and a central stretched pouch.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-chainsaw",
+      "codeSha256": "896527506f8e5c6efca3f777e7be7f7c86587b43898540d737004d5d4328f3d0",
+      "decision": "retain",
+      "reason": "The motor/guide-bar/chain/handle assembly is a powered cutting tool. The existing wave-saw-tool source is a signal waveform, not a saw object.",
+      "componentConcept": "powered-chain-bar-tool",
+      "sourceComposition": "Long toothed chain loop around a rounded guide bar connects to a motor body and hand grips.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-wheelbarrow",
+      "codeSha256": "7991cb66a5d0f731e2f8ac78d541fe4be08f2c62ba6ed32eff16b383c8fd9f62",
+      "decision": "reject",
+      "reason": "The existing Garden Cart explicitly identifies wheelbarrow in its original tags and already contains the same hopper, handles, support and single-wheel construction.",
+      "componentConcept": "garden-cart",
+      "sourceComposition": "Open slanted hopper on a frame with handles, support foot and one large front wheel.",
+      "counterpartIds": [
+        "design-tabler-garden-cart"
+      ]
+    },
+    {
+      "id": "phase2-game-design-delapouite-valve",
+      "codeSha256": "d137a9c2bf7b305a708980e07d6f78cac538758cd80fdbda129b031f7a9ea86f",
+      "decision": "retain",
+      "reason": "The chamber/stem/handle arrangement is an inline fluid control device. Existing pipeline depicts split development flow paths without a valve mechanism.",
+      "componentConcept": "inline-fluid-valve",
+      "sourceComposition": "Horizontal pipe ends meet a central chamber below a projecting stem and transverse operating handle, with a flow drop mark.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-periscope",
+      "codeSha256": "bdcf93c6ac1ccd61265e13dac9dfab775cff63aa432f693080792955115e3f92",
+      "decision": "retain",
+      "reason": "The upright/elbow/optical-mouth relationship is a distinct periscopic assembly, rather than a differently painted straight telescope.",
+      "componentConcept": "elbow-optical-tube",
+      "sourceComposition": "Vertical tube emerges from a waterline and turns through a right-angle elbow into a circular optical opening.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-lock-picking",
+      "codeSha256": "f6ee4e3c5e384f396c4d65210640e33acf291ccd8ded356de1cf0a431f796e5f",
+      "decision": "retain",
+      "reason": "The separate tool/object insertion relationship forms a manipulation scene beyond a plain padlock or key glyph; retain one complete source arrangement.",
+      "componentConcept": "keyhole-tool-interaction",
+      "sourceComposition": "Two thin elongated tools cross and enter a separate rounded keyhole/cylinder-like body.",
+      "counterpartIds": [],
+      "existingConceptDifference": {
+        "id": "design-tabler-lock",
+        "codeSha256": "407856048124fdd63239f75a3640ca8f20a9acbc1f49cac9de0bcdb1cb42ec5f",
+        "reason": "The existing lock SVG draws a padlock body, U-shaped shackle and central keyhole. The new source contains a separate rounded keyhole/cylinder-like target plus two thin crossing insertion tools. This is a tool/target manipulation arrangement, rather than changing the fill or shackle outline of a lock glyph."
+      }
+    },
+    {
+      "id": "phase2-game-design-delapouite-diving-helmet",
+      "codeSha256": "dd0036520e7ef799c2e3ce4d1630ef66fb3aa60b7ce27180e777f3d03862859d",
+      "decision": "retain",
+      "reason": "The sealed port/window/flange assembly differs structurally from the existing motorcycle helmet with an open visor; it is a complete apparatus rather than added face decoration.",
+      "componentConcept": "sealed-window-helmet",
+      "sourceComposition": "Enclosed spherical shell with circular barred front window, two side ports and a flanged collar/base.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-underground-cave",
+      "codeSha256": "8d7045d0139972a1148c508af55b1966793766723be77fdc5a86eb9d0f7ac3c1",
+      "decision": "retain",
+      "reason": "The roof/stalactite/floor spatial section forms one complete subterranean scene. Retain it once; the alternate cave entrance view is not counted separately.",
+      "componentConcept": "cave-cross-section",
+      "sourceComposition": "Upper rock ceiling with hanging pointed stalactites faces an uneven lower floor around a large enclosed negative-space passage.",
+      "counterpartIds": []
+    },
+    {
+      "id": "phase2-game-design-delapouite-cave-entrance",
+      "codeSha256": "10a210ea8bcb5b7c8c815389761dca79aea9238bf434fd7b45a9715e142e1082",
+      "decision": "reject",
+      "reason": "The entrance is an exterior view of the same cave-space core, with surrounding mountain decoration; retain the fuller roof/floor/stalactite cross-section once.",
+      "componentConcept": "cave-cross-section",
+      "sourceComposition": "Faceted rocky mountain mass with a dark irregular opening at its base.",
+      "counterpartIds": [
+        "phase2-game-design-delapouite-underground-cave"
+      ]
+    }
+  ]
+}

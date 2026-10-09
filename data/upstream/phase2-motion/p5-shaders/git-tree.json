@@ -1,0 +1,1761 @@
+{
+  "sha": "8034c3771f5d0cd16916a0977593a5b2bf14c308",
+  "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/8034c3771f5d0cd16916a0977593a5b2bf14c308",
+  "tree": [
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a06bba5cf298dfb5e5b61a3f00ce9654850cc2a",
+      "size": 29,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/2a06bba5cf298dfb5e5b61a3f00ce9654850cc2a"
+    },
+    {
+      "path": "1_basics",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "90e28837afac4416bf2942a7dffae975169ceba3",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/90e28837afac4416bf2942a7dffae975169ceba3"
+    },
+    {
+      "path": "1_basics/1-1_red",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d6f12022fd3f0c15b36e1d1b80623751012fedd6",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/d6f12022fd3f0c15b36e1d1b80623751012fedd6"
+    },
+    {
+      "path": "1_basics/1-1_red/basic.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "622a0221c2b32f05c2da8f8826444aa8ff0914c4",
+      "size": 1056,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/622a0221c2b32f05c2da8f8826444aa8ff0914c4"
+    },
+    {
+      "path": "1_basics/1-1_red/basic.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72fbf98eae125dec52390da6cb7f980bea17f321",
+      "size": 987,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/72fbf98eae125dec52390da6cb7f980bea17f321"
+    },
+    {
+      "path": "1_basics/1-1_red/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ec3fe014955ac1c779133b0c2ea4f092402627d",
+      "size": 400,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/0ec3fe014955ac1c779133b0c2ea4f092402627d"
+    },
+    {
+      "path": "1_basics/1-1_red/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c979917e0c3b5879277d0d81f381a2dfd8da2e5f",
+      "size": 983,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/c979917e0c3b5879277d0d81f381a2dfd8da2e5f"
+    },
+    {
+      "path": "1_basics/1-2_gray",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e4cd210e448ab71664651770fe23d380ee346d3d",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/e4cd210e448ab71664651770fe23d380ee346d3d"
+    },
+    {
+      "path": "1_basics/1-2_gray/basic.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46c6f5259bca3e986e31fd103d849c1a47997f60",
+      "size": 1032,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/46c6f5259bca3e986e31fd103d849c1a47997f60"
+    },
+    {
+      "path": "1_basics/1-2_gray/basic.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72fbf98eae125dec52390da6cb7f980bea17f321",
+      "size": 987,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/72fbf98eae125dec52390da6cb7f980bea17f321"
+    },
+    {
+      "path": "1_basics/1-2_gray/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53903c194a5048a3945d96d37b9e1dc581c93164",
+      "size": 401,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/53903c194a5048a3945d96d37b9e1dc581c93164"
+    },
+    {
+      "path": "1_basics/1-2_gray/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c979917e0c3b5879277d0d81f381a2dfd8da2e5f",
+      "size": 983,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/c979917e0c3b5879277d0d81f381a2dfd8da2e5f"
+    },
+    {
+      "path": "1_basics/1-3_cyan",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "75bf4e23fd9f3de75720a15c88967fef3f92a6f7",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/75bf4e23fd9f3de75720a15c88967fef3f92a6f7"
+    },
+    {
+      "path": "1_basics/1-3_cyan/basic.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3bc04e9ccfa6d4c19930e48031047e339f9f8af",
+      "size": 987,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/b3bc04e9ccfa6d4c19930e48031047e339f9f8af"
+    },
+    {
+      "path": "1_basics/1-3_cyan/basic.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72fbf98eae125dec52390da6cb7f980bea17f321",
+      "size": 987,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/72fbf98eae125dec52390da6cb7f980bea17f321"
+    },
+    {
+      "path": "1_basics/1-3_cyan/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a57aa74b1d6fed842e267e4cc8662a9b8353e85",
+      "size": 401,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/6a57aa74b1d6fed842e267e4cc8662a9b8353e85"
+    },
+    {
+      "path": "1_basics/1-3_cyan/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c979917e0c3b5879277d0d81f381a2dfd8da2e5f",
+      "size": 983,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/c979917e0c3b5879277d0d81f381a2dfd8da2e5f"
+    },
+    {
+      "path": "1_basics/1-4_functions",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d4af47c0d40fcd31552fa44e3eb2867e8867beb7",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/d4af47c0d40fcd31552fa44e3eb2867e8867beb7"
+    },
+    {
+      "path": "1_basics/1-4_functions/basic.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7571f10a4967de6391f61ba4b4e14e83787ffe0",
+      "size": 1397,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/c7571f10a4967de6391f61ba4b4e14e83787ffe0"
+    },
+    {
+      "path": "1_basics/1-4_functions/basic.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72fbf98eae125dec52390da6cb7f980bea17f321",
+      "size": 987,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/72fbf98eae125dec52390da6cb7f980bea17f321"
+    },
+    {
+      "path": "1_basics/1-4_functions/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a57aa74b1d6fed842e267e4cc8662a9b8353e85",
+      "size": 401,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/6a57aa74b1d6fed842e267e4cc8662a9b8353e85"
+    },
+    {
+      "path": "1_basics/1-4_functions/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c979917e0c3b5879277d0d81f381a2dfd8da2e5f",
+      "size": 983,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/c979917e0c3b5879277d0d81f381a2dfd8da2e5f"
+    },
+    {
+      "path": "1_basics/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "296238e1563a86c3ea9414475741f2ff3552f3df",
+      "size": 255,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/296238e1563a86c3ea9414475741f2ff3552f3df"
+    },
+    {
+      "path": "2_texture-coordinates",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6429716825e03ec89a90e7cd15476608ae7b4702",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/6429716825e03ec89a90e7cd15476608ae7b4702"
+    },
+    {
+      "path": "2_texture-coordinates/2-1_basic",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d33c84eb18a50e03b4f972c131d926183e60a45d",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/d33c84eb18a50e03b4f972c131d926183e60a45d"
+    },
+    {
+      "path": "2_texture-coordinates/2-1_basic/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f368e4c5c13855f4ebbe3942311c1f6aaaf6ca9b",
+      "size": 405,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/f368e4c5c13855f4ebbe3942311c1f6aaaf6ca9b"
+    },
+    {
+      "path": "2_texture-coordinates/2-1_basic/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0136fae3d5244528a341a2cc7da270fc7812a620",
+      "size": 524,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/0136fae3d5244528a341a2cc7da270fc7812a620"
+    },
+    {
+      "path": "2_texture-coordinates/2-1_basic/texcoord.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3e4fd26ac59259a8592de4204ff007eba3595e6",
+      "size": 700,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/d3e4fd26ac59259a8592de4204ff007eba3595e6"
+    },
+    {
+      "path": "2_texture-coordinates/2-1_basic/texcoord.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "327f22657106ba324fc342a81c99f479fd0ead8d",
+      "size": 743,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/327f22657106ba324fc342a81c99f479fd0ead8d"
+    },
+    {
+      "path": "2_texture-coordinates/2-2_tiles",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "730996255a8291666096d44c9801fe48660c4d6a",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/730996255a8291666096d44c9801fe48660c4d6a"
+    },
+    {
+      "path": "2_texture-coordinates/2-2_tiles/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f368e4c5c13855f4ebbe3942311c1f6aaaf6ca9b",
+      "size": 405,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/f368e4c5c13855f4ebbe3942311c1f6aaaf6ca9b"
+    },
+    {
+      "path": "2_texture-coordinates/2-2_tiles/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0136fae3d5244528a341a2cc7da270fc7812a620",
+      "size": 524,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/0136fae3d5244528a341a2cc7da270fc7812a620"
+    },
+    {
+      "path": "2_texture-coordinates/2-2_tiles/texcoord.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d95d6837519c59b903a3b4d975c23a88923314d",
+      "size": 686,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/2d95d6837519c59b903a3b4d975c23a88923314d"
+    },
+    {
+      "path": "2_texture-coordinates/2-2_tiles/texcoord.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "327f22657106ba324fc342a81c99f479fd0ead8d",
+      "size": 743,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/327f22657106ba324fc342a81c99f479fd0ead8d"
+    },
+    {
+      "path": "2_texture-coordinates/2-3_gradient",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "80e87fa4b4e4b2a078998d7ad1ded70d084cac10",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/80e87fa4b4e4b2a078998d7ad1ded70d084cac10"
+    },
+    {
+      "path": "2_texture-coordinates/2-3_gradient/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f368e4c5c13855f4ebbe3942311c1f6aaaf6ca9b",
+      "size": 405,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/f368e4c5c13855f4ebbe3942311c1f6aaaf6ca9b"
+    },
+    {
+      "path": "2_texture-coordinates/2-3_gradient/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0136fae3d5244528a341a2cc7da270fc7812a620",
+      "size": 524,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/0136fae3d5244528a341a2cc7da270fc7812a620"
+    },
+    {
+      "path": "2_texture-coordinates/2-3_gradient/texcoord.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29ecdac2564a74604e52b4592b2375193b6d2fc8",
+      "size": 924,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/29ecdac2564a74604e52b4592b2375193b6d2fc8"
+    },
+    {
+      "path": "2_texture-coordinates/2-3_gradient/texcoord.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "327f22657106ba324fc342a81c99f479fd0ead8d",
+      "size": 743,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/327f22657106ba324fc342a81c99f479fd0ead8d"
+    },
+    {
+      "path": "2_texture-coordinates/2-4_random",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2fdfb98fe01427e8a1fae6c538cfa3118bf997eb",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/2fdfb98fe01427e8a1fae6c538cfa3118bf997eb"
+    },
+    {
+      "path": "2_texture-coordinates/2-4_random/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3656fb165f960d918ff03b014013274e25a833b2",
+      "size": 402,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/3656fb165f960d918ff03b014013274e25a833b2"
+    },
+    {
+      "path": "2_texture-coordinates/2-4_random/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0136fae3d5244528a341a2cc7da270fc7812a620",
+      "size": 524,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/0136fae3d5244528a341a2cc7da270fc7812a620"
+    },
+    {
+      "path": "2_texture-coordinates/2-4_random/texcoord.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a2e1c445deeb4efdc77de967150cd2240e262a7",
+      "size": 1404,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/2a2e1c445deeb4efdc77de967150cd2240e262a7"
+    },
+    {
+      "path": "2_texture-coordinates/2-4_random/texcoord.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "327f22657106ba324fc342a81c99f479fd0ead8d",
+      "size": 743,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/327f22657106ba324fc342a81c99f479fd0ead8d"
+    },
+    {
+      "path": "2_texture-coordinates/2-5_noise",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "23b03adc3a4d8dfcd2e9af1c68f383dbf058e412",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/23b03adc3a4d8dfcd2e9af1c68f383dbf058e412"
+    },
+    {
+      "path": "2_texture-coordinates/2-5_noise/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f368e4c5c13855f4ebbe3942311c1f6aaaf6ca9b",
+      "size": 405,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/f368e4c5c13855f4ebbe3942311c1f6aaaf6ca9b"
+    },
+    {
+      "path": "2_texture-coordinates/2-5_noise/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0136fae3d5244528a341a2cc7da270fc7812a620",
+      "size": 524,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/0136fae3d5244528a341a2cc7da270fc7812a620"
+    },
+    {
+      "path": "2_texture-coordinates/2-5_noise/texcoord.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "939d0b2ada1860fa7ce5e01d4c2494cbf7fdd95c",
+      "size": 1507,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/939d0b2ada1860fa7ce5e01d4c2494cbf7fdd95c"
+    },
+    {
+      "path": "2_texture-coordinates/2-5_noise/texcoord.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "327f22657106ba324fc342a81c99f479fd0ead8d",
+      "size": 743,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/327f22657106ba324fc342a81c99f479fd0ead8d"
+    },
+    {
+      "path": "2_texture-coordinates/2-6_checker",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "43e0b81f5bd098047c1d7b2de31dc96019074bd6",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/43e0b81f5bd098047c1d7b2de31dc96019074bd6"
+    },
+    {
+      "path": "2_texture-coordinates/2-6_checker/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e672fe7c9656913ac231f32838934bf8d70188b4",
+      "size": 405,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/e672fe7c9656913ac231f32838934bf8d70188b4"
+    },
+    {
+      "path": "2_texture-coordinates/2-6_checker/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b826bd88ccabcf85a675db1e51220f0fbbac4c1c",
+      "size": 672,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/b826bd88ccabcf85a675db1e51220f0fbbac4c1c"
+    },
+    {
+      "path": "2_texture-coordinates/2-6_checker/texcoord.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "694ebad0c88899a681baf1fecdb5fed558279aba",
+      "size": 870,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/694ebad0c88899a681baf1fecdb5fed558279aba"
+    },
+    {
+      "path": "2_texture-coordinates/2-6_checker/texcoord.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "327f22657106ba324fc342a81c99f479fd0ead8d",
+      "size": 743,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/327f22657106ba324fc342a81c99f479fd0ead8d"
+    },
+    {
+      "path": "2_texture-coordinates/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc78b70e0acfec98cb87560a5947bd31451d370e",
+      "size": 357,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/bc78b70e0acfec98cb87560a5947bd31451d370e"
+    },
+    {
+      "path": "3_uniforms",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "51913c482f9e7cbc8550a5d7d2b29bb5a84487df",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/51913c482f9e7cbc8550a5d7d2b29bb5a84487df"
+    },
+    {
+      "path": "3_uniforms/3-1_mouse",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "38ecd75d2169074c0dbb6b7a56a7b6564c0a6737",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/38ecd75d2169074c0dbb6b7a56a7b6564c0a6737"
+    },
+    {
+      "path": "3_uniforms/3-1_mouse/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4db05d5f3a9a8fa4bf339afe29e14d957c4dad7",
+      "size": 404,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/b4db05d5f3a9a8fa4bf339afe29e14d957c4dad7"
+    },
+    {
+      "path": "3_uniforms/3-1_mouse/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48cd6f1ec9f95923cc792b63a35adf1ae5533583",
+      "size": 1747,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/48cd6f1ec9f95923cc792b63a35adf1ae5533583"
+    },
+    {
+      "path": "3_uniforms/3-1_mouse/uniform.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27b39242e352d76c2852530bf3bef2a3de5709e8",
+      "size": 238,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/27b39242e352d76c2852530bf3bef2a3de5709e8"
+    },
+    {
+      "path": "3_uniforms/3-1_mouse/uniform.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2edaf8d73695e2720268ebea1accc577b93a9b90",
+      "size": 317,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/2edaf8d73695e2720268ebea1accc577b93a9b90"
+    },
+    {
+      "path": "3_uniforms/3-2_texture2d",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e97fb250ff55bd3f626fdd14989b6746582521c4",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/e97fb250ff55bd3f626fdd14989b6746582521c4"
+    },
+    {
+      "path": "3_uniforms/3-2_texture2d/cacti.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fdb3b5931a3cefcc7bf708d6f562f6276ca2086",
+      "size": 174425,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/5fdb3b5931a3cefcc7bf708d6f562f6276ca2086"
+    },
+    {
+      "path": "3_uniforms/3-2_texture2d/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83d457f1ec8c799c0304b4a3480f7fd2b33c804b",
+      "size": 412,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/83d457f1ec8c799c0304b4a3480f7fd2b33c804b"
+    },
+    {
+      "path": "3_uniforms/3-2_texture2d/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "095e371ddcdbba46acda49fc30a3febb9dad5a0a",
+      "size": 936,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/095e371ddcdbba46acda49fc30a3febb9dad5a0a"
+    },
+    {
+      "path": "3_uniforms/3-2_texture2d/uniform.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85123c52c282aee6e344550e18a0363c2ddd72ad",
+      "size": 645,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/85123c52c282aee6e344550e18a0363c2ddd72ad"
+    },
+    {
+      "path": "3_uniforms/3-2_texture2d/uniform.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "660f8a319d796ebbfbaf85b743ab2d0f81e2cb09",
+      "size": 446,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/660f8a319d796ebbfbaf85b743ab2d0f81e2cb09"
+    },
+    {
+      "path": "3_uniforms/3-3_time",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d0842e2e0d45d8f1c397521c5c5532b33f6cfc33",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/d0842e2e0d45d8f1c397521c5c5532b33f6cfc33"
+    },
+    {
+      "path": "3_uniforms/3-3_time/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83d457f1ec8c799c0304b4a3480f7fd2b33c804b",
+      "size": 412,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/83d457f1ec8c799c0304b4a3480f7fd2b33c804b"
+    },
+    {
+      "path": "3_uniforms/3-3_time/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec05e17d82414529aa95f5caf6f7bf81ce6f782b",
+      "size": 779,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/ec05e17d82414529aa95f5caf6f7bf81ce6f782b"
+    },
+    {
+      "path": "3_uniforms/3-3_time/uniform.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e699ba457d83e46cd6b101998b770130d982b193",
+      "size": 1329,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/e699ba457d83e46cd6b101998b770130d982b193"
+    },
+    {
+      "path": "3_uniforms/3-3_time/uniform.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec428e0eaf367f32895f92a0570fe671ea12421",
+      "size": 452,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/bec428e0eaf367f32895f92a0570fe671ea12421"
+    },
+    {
+      "path": "3_uniforms/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fc03ccc63747663fd95d87f86e5220f0c8b270c",
+      "size": 216,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/1fc03ccc63747663fd95d87f86e5220f0c8b270c"
+    },
+    {
+      "path": "4_image-effects",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "569764f574ff172c03cbb8aeda11650d859b0674",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/569764f574ff172c03cbb8aeda11650d859b0674"
+    },
+    {
+      "path": "4_image-effects/4-10_two-pass-blur",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4da13649a1a088196a5f3841e8fb216f5cad7c37",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/4da13649a1a088196a5f3841e8fb216f5cad7c37"
+    },
+    {
+      "path": "4_image-effects/4-10_two-pass-blur/base.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec428e0eaf367f32895f92a0570fe671ea12421",
+      "size": 452,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/bec428e0eaf367f32895f92a0570fe671ea12421"
+    },
+    {
+      "path": "4_image-effects/4-10_two-pass-blur/blur.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66320049c9f5cf2597a19af3bdace6e53165240d",
+      "size": 3323,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/66320049c9f5cf2597a19af3bdace6e53165240d"
+    },
+    {
+      "path": "4_image-effects/4-10_two-pass-blur/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e0d0ace33632fa208d4e050c8b02b297d632f16",
+      "size": 480,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/4e0d0ace33632fa208d4e050c8b02b297d632f16"
+    },
+    {
+      "path": "4_image-effects/4-10_two-pass-blur/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9333098429999383dc728d72529b66e24885339",
+      "size": 2412,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/a9333098429999383dc728d72529b66e24885339"
+    },
+    {
+      "path": "4_image-effects/4-11_bloom",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b7ca227447119e54e5361058362422cd50b2f11d",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/b7ca227447119e54e5361058362422cd50b2f11d"
+    },
+    {
+      "path": "4_image-effects/4-11_bloom/base.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec428e0eaf367f32895f92a0570fe671ea12421",
+      "size": 452,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/bec428e0eaf367f32895f92a0570fe671ea12421"
+    },
+    {
+      "path": "4_image-effects/4-11_bloom/bloom.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7242a8d4f1e4cecc60770b3766c7564fbb61851",
+      "size": 879,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/a7242a8d4f1e4cecc60770b3766c7564fbb61851"
+    },
+    {
+      "path": "4_image-effects/4-11_bloom/blur.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66320049c9f5cf2597a19af3bdace6e53165240d",
+      "size": 3323,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/66320049c9f5cf2597a19af3bdace6e53165240d"
+    },
+    {
+      "path": "4_image-effects/4-11_bloom/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48412227d61ea70b4feac2aa308d88e1bcca077f",
+      "size": 474,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/48412227d61ea70b4feac2aa308d88e1bcca077f"
+    },
+    {
+      "path": "4_image-effects/4-11_bloom/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "943eb59edf56f601a9600e8031cacd113b6e8d5b",
+      "size": 3229,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/943eb59edf56f601a9600e8031cacd113b6e8d5b"
+    },
+    {
+      "path": "4_image-effects/4-12_threshold",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "60b12f907d758688246ffa54b01e92aebad9cb10",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/60b12f907d758688246ffa54b01e92aebad9cb10"
+    },
+    {
+      "path": "4_image-effects/4-12_threshold/effect.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30ef5198fb468ef441c0e5f16a91231136d81c57",
+      "size": 1197,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/30ef5198fb468ef441c0e5f16a91231136d81c57"
+    },
+    {
+      "path": "4_image-effects/4-12_threshold/effect.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec428e0eaf367f32895f92a0570fe671ea12421",
+      "size": 452,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/bec428e0eaf367f32895f92a0570fe671ea12421"
+    },
+    {
+      "path": "4_image-effects/4-12_threshold/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62d8f02741fce311639b489f6e4d3c98f49ece7e",
+      "size": 511,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/62d8f02741fce311639b489f6e4d3c98f49ece7e"
+    },
+    {
+      "path": "4_image-effects/4-12_threshold/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e1a78979ca675c79240ae7233f7334bb5de699f",
+      "size": 1124,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/6e1a78979ca675c79240ae7233f7334bb5de699f"
+    },
+    {
+      "path": "4_image-effects/4-13_frame-differencing",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "eb76e5a0fb125b6e3c4c6f7b3f9eca8e35b755c2",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/eb76e5a0fb125b6e3c4c6f7b3f9eca8e35b755c2"
+    },
+    {
+      "path": "4_image-effects/4-13_frame-differencing/effect.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cd375ebab1d1d55e4f0067e02a0540d097ae764",
+      "size": 623,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/6cd375ebab1d1d55e4f0067e02a0540d097ae764"
+    },
+    {
+      "path": "4_image-effects/4-13_frame-differencing/effect.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec428e0eaf367f32895f92a0570fe671ea12421",
+      "size": 452,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/bec428e0eaf367f32895f92a0570fe671ea12421"
+    },
+    {
+      "path": "4_image-effects/4-13_frame-differencing/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a330f723680e1609e26808f21d21557dc44964f9",
+      "size": 511,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/a330f723680e1609e26808f21d21557dc44964f9"
+    },
+    {
+      "path": "4_image-effects/4-13_frame-differencing/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e39f5f2309bfcf57bc9ec5c8e4e88a48a48c80c",
+      "size": 1842,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/8e39f5f2309bfcf57bc9ec5c8e4e88a48a48c80c"
+    },
+    {
+      "path": "4_image-effects/4-14_rgb-to-grayscale",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b86f75fe1685cba2c834149335a1668c14cb8b3d",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/b86f75fe1685cba2c834149335a1668c14cb8b3d"
+    },
+    {
+      "path": "4_image-effects/4-14_rgb-to-grayscale/effect.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce4f3e93508fb43f0b719c5005f9b0cde360266c",
+      "size": 952,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/ce4f3e93508fb43f0b719c5005f9b0cde360266c"
+    },
+    {
+      "path": "4_image-effects/4-14_rgb-to-grayscale/effect.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec428e0eaf367f32895f92a0570fe671ea12421",
+      "size": 452,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/bec428e0eaf367f32895f92a0570fe671ea12421"
+    },
+    {
+      "path": "4_image-effects/4-14_rgb-to-grayscale/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7dbb97bd5fb02ac98ac2c41546724234c594841",
+      "size": 491,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/a7dbb97bd5fb02ac98ac2c41546724234c594841"
+    },
+    {
+      "path": "4_image-effects/4-14_rgb-to-grayscale/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f01fd3e9d4b7fd616d74aae3cd5f9efd5a44c16d",
+      "size": 926,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/f01fd3e9d4b7fd616d74aae3cd5f9efd5a44c16d"
+    },
+    {
+      "path": "4_image-effects/4-15_convolution-kernel",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4f6694f892bd49c50775ef8ec50042aa87a45ede",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/4f6694f892bd49c50775ef8ec50042aa87a45ede"
+    },
+    {
+      "path": "4_image-effects/4-15_convolution-kernel/effect.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18d9f2dfee864fc3fef6a2605a45218d15b4db19",
+      "size": 2941,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/18d9f2dfee864fc3fef6a2605a45218d15b4db19"
+    },
+    {
+      "path": "4_image-effects/4-15_convolution-kernel/effect.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec428e0eaf367f32895f92a0570fe671ea12421",
+      "size": 452,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/bec428e0eaf367f32895f92a0570fe671ea12421"
+    },
+    {
+      "path": "4_image-effects/4-15_convolution-kernel/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f76e18256a4f2ded68c99c05803fb2a14c227164",
+      "size": 490,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/f76e18256a4f2ded68c99c05803fb2a14c227164"
+    },
+    {
+      "path": "4_image-effects/4-15_convolution-kernel/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8a81d884cef76ac142b7c3890bd973d269cfc37",
+      "size": 1332,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/a8a81d884cef76ac142b7c3890bd973d269cfc37"
+    },
+    {
+      "path": "4_image-effects/4-16_video-feedback",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "aa59c47cd58616069dc60ea3a8acf3da40d80717",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/aa59c47cd58616069dc60ea3a8acf3da40d80717"
+    },
+    {
+      "path": "4_image-effects/4-16_video-feedback/effect.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca072767c7710b3d25acf10f02121a4b348c8b55",
+      "size": 2047,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/ca072767c7710b3d25acf10f02121a4b348c8b55"
+    },
+    {
+      "path": "4_image-effects/4-16_video-feedback/effect.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec428e0eaf367f32895f92a0570fe671ea12421",
+      "size": 452,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/bec428e0eaf367f32895f92a0570fe671ea12421"
+    },
+    {
+      "path": "4_image-effects/4-16_video-feedback/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5475daef95e52c46e66ceae16a9b842395e9d1b4",
+      "size": 491,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/5475daef95e52c46e66ceae16a9b842395e9d1b4"
+    },
+    {
+      "path": "4_image-effects/4-16_video-feedback/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74aa9f5c7a7ed460af75ab2ecae17661a646a5a9",
+      "size": 1891,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/74aa9f5c7a7ed460af75ab2ecae17661a646a5a9"
+    },
+    {
+      "path": "4_image-effects/4-17_delay",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9df87cb54f0e28f44c841c94ff1898b76a5765a4",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/9df87cb54f0e28f44c841c94ff1898b76a5765a4"
+    },
+    {
+      "path": "4_image-effects/4-17_delay/effect.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc2e78c17958f2b96ba311790dd9c4a83c5b2c61",
+      "size": 679,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/cc2e78c17958f2b96ba311790dd9c4a83c5b2c61"
+    },
+    {
+      "path": "4_image-effects/4-17_delay/effect.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec428e0eaf367f32895f92a0570fe671ea12421",
+      "size": 452,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/bec428e0eaf367f32895f92a0570fe671ea12421"
+    },
+    {
+      "path": "4_image-effects/4-17_delay/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5475daef95e52c46e66ceae16a9b842395e9d1b4",
+      "size": 491,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/5475daef95e52c46e66ceae16a9b842395e9d1b4"
+    },
+    {
+      "path": "4_image-effects/4-17_delay/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53626af4fef73e4e0146d5760689b699437c5cde",
+      "size": 2410,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/53626af4fef73e4e0146d5760689b699437c5cde"
+    },
+    {
+      "path": "4_image-effects/4-18_discard",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c1f3a55cfd32464a297a5b8a2deb5f9895b00c79",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/c1f3a55cfd32464a297a5b8a2deb5f9895b00c79"
+    },
+    {
+      "path": "4_image-effects/4-18_discard/effect.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd4ee9edc0a6c382a5923048d5e9f0dbff82dcc1",
+      "size": 855,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/dd4ee9edc0a6c382a5923048d5e9f0dbff82dcc1"
+    },
+    {
+      "path": "4_image-effects/4-18_discard/effect.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec428e0eaf367f32895f92a0570fe671ea12421",
+      "size": 452,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/bec428e0eaf367f32895f92a0570fe671ea12421"
+    },
+    {
+      "path": "4_image-effects/4-18_discard/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cdff675bc066f852a2e2eb06a8dd10cd45bb3630",
+      "size": 491,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/cdff675bc066f852a2e2eb06a8dd10cd45bb3630"
+    },
+    {
+      "path": "4_image-effects/4-18_discard/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1da0567d15414698a48ac388303e0c1f562f9fc4",
+      "size": 940,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/1da0567d15414698a48ac388303e0c1f562f9fc4"
+    },
+    {
+      "path": "4_image-effects/4-19_slitscan",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dd4d08a2928eacc1b3ff02701fa06e412ddb3e61",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/dd4d08a2928eacc1b3ff02701fa06e412ddb3e61"
+    },
+    {
+      "path": "4_image-effects/4-19_slitscan/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4dd0ff30397fb66f35f8297410adfc2b59c09e8",
+      "size": 488,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/d4dd0ff30397fb66f35f8297410adfc2b59c09e8"
+    },
+    {
+      "path": "4_image-effects/4-19_slitscan/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96fc600ec0fbe8e3f54d8bf74317e397f7ee8b16",
+      "size": 2125,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/96fc600ec0fbe8e3f54d8bf74317e397f7ee8b16"
+    },
+    {
+      "path": "4_image-effects/4-1_webcam-invert",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f8da11a90aed26cdaae56d7b793d0d7d79c6d637",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/f8da11a90aed26cdaae56d7b793d0d7d79c6d637"
+    },
+    {
+      "path": "4_image-effects/4-1_webcam-invert/effect.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46fcfdbcd5594e811c2504e8407bd99377b19247",
+      "size": 454,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/46fcfdbcd5594e811c2504e8407bd99377b19247"
+    },
+    {
+      "path": "4_image-effects/4-1_webcam-invert/effect.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec428e0eaf367f32895f92a0570fe671ea12421",
+      "size": 452,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/bec428e0eaf367f32895f92a0570fe671ea12421"
+    },
+    {
+      "path": "4_image-effects/4-1_webcam-invert/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "313114e00b0e6d7ba0924354e24614eec07366aa",
+      "size": 478,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/313114e00b0e6d7ba0924354e24614eec07366aa"
+    },
+    {
+      "path": "4_image-effects/4-1_webcam-invert/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d92450b0e27f8627103d35077c42992b7957c48",
+      "size": 923,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/3d92450b0e27f8627103d35077c42992b7957c48"
+    },
+    {
+      "path": "4_image-effects/4-20_mosaic",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "769e451da812092ca8c9c38eb32a63e56cc00132",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/769e451da812092ca8c9c38eb32a63e56cc00132"
+    },
+    {
+      "path": "4_image-effects/4-20_mosaic/effect.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "615a1fe8c5dc259850c8f20054e700c04a317139",
+      "size": 1042,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/615a1fe8c5dc259850c8f20054e700c04a317139"
+    },
+    {
+      "path": "4_image-effects/4-20_mosaic/effect.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec428e0eaf367f32895f92a0570fe671ea12421",
+      "size": 452,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/bec428e0eaf367f32895f92a0570fe671ea12421"
+    },
+    {
+      "path": "4_image-effects/4-20_mosaic/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3b20cdd91b88699d65c01e8ea820e03501c68ff",
+      "size": 492,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/f3b20cdd91b88699d65c01e8ea820e03501c68ff"
+    },
+    {
+      "path": "4_image-effects/4-20_mosaic/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e87c66f776504e35eda3d95371598dd40da81c82",
+      "size": 980,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/e87c66f776504e35eda3d95371598dd40da81c82"
+    },
+    {
+      "path": "4_image-effects/4-2_rgb-split",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4637a380cc248251a966bb091381f2f0394b9e44",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/4637a380cc248251a966bb091381f2f0394b9e44"
+    },
+    {
+      "path": "4_image-effects/4-2_rgb-split/effect.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30adac0ec4ce2517052e7dab8bfa076fa192d6ac",
+      "size": 1027,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/30adac0ec4ce2517052e7dab8bfa076fa192d6ac"
+    },
+    {
+      "path": "4_image-effects/4-2_rgb-split/effect.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec428e0eaf367f32895f92a0570fe671ea12421",
+      "size": 452,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/bec428e0eaf367f32895f92a0570fe671ea12421"
+    },
+    {
+      "path": "4_image-effects/4-2_rgb-split/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41a9afa9be26df82259c715a14accbc99ccdcf5f",
+      "size": 477,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/41a9afa9be26df82259c715a14accbc99ccdcf5f"
+    },
+    {
+      "path": "4_image-effects/4-2_rgb-split/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b268bdd9589a3c811b2b18d5ce865a746074b35c",
+      "size": 1046,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/b268bdd9589a3c811b2b18d5ce865a746074b35c"
+    },
+    {
+      "path": "4_image-effects/4-3_sinewave-distort",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b48a7ed06485e2e6418c44e235e93cb81f1dc36b",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/b48a7ed06485e2e6418c44e235e93cb81f1dc36b"
+    },
+    {
+      "path": "4_image-effects/4-3_sinewave-distort/effect.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3755487af439ea5806d736db6ae38e3df0a37fb5",
+      "size": 1228,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/3755487af439ea5806d736db6ae38e3df0a37fb5"
+    },
+    {
+      "path": "4_image-effects/4-3_sinewave-distort/effect.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec428e0eaf367f32895f92a0570fe671ea12421",
+      "size": 452,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/bec428e0eaf367f32895f92a0570fe671ea12421"
+    },
+    {
+      "path": "4_image-effects/4-3_sinewave-distort/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c6475461469e6fb182ae0aa9c26390b97d9b3ea",
+      "size": 487,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/8c6475461469e6fb182ae0aa9c26390b97d9b3ea"
+    },
+    {
+      "path": "4_image-effects/4-3_sinewave-distort/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3658433b44137052bd2164f053b571213d35ef31",
+      "size": 1453,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/3658433b44137052bd2164f053b571213d35ef31"
+    },
+    {
+      "path": "4_image-effects/4-4_mirror",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "fbb601fcdbede86add27866170777aa17b9cbe96",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/fbb601fcdbede86add27866170777aa17b9cbe96"
+    },
+    {
+      "path": "4_image-effects/4-4_mirror/effect.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39f4315aec7d0cbfaa6ae7746bfcd3765d73b937",
+      "size": 574,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/39f4315aec7d0cbfaa6ae7746bfcd3765d73b937"
+    },
+    {
+      "path": "4_image-effects/4-4_mirror/effect.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec428e0eaf367f32895f92a0570fe671ea12421",
+      "size": 452,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/bec428e0eaf367f32895f92a0570fe671ea12421"
+    },
+    {
+      "path": "4_image-effects/4-4_mirror/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "103411c92931eeb2a18b7e18b1953fb38471b54c",
+      "size": 474,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/103411c92931eeb2a18b7e18b1953fb38471b54c"
+    },
+    {
+      "path": "4_image-effects/4-4_mirror/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff883bc8ed64eac5fb9249ccec8ca1dd52f1b2fc",
+      "size": 969,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/ff883bc8ed64eac5fb9249ccec8ca1dd52f1b2fc"
+    },
+    {
+      "path": "4_image-effects/4-5_stripes-from-image",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6e7c4f302d704f6a5d1e18cb219dbe42ed2f310b",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/6e7c4f302d704f6a5d1e18cb219dbe42ed2f310b"
+    },
+    {
+      "path": "4_image-effects/4-5_stripes-from-image/effect.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0503788d3440e0f51520b28ac3547867f0f7f8b",
+      "size": 553,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/e0503788d3440e0f51520b28ac3547867f0f7f8b"
+    },
+    {
+      "path": "4_image-effects/4-5_stripes-from-image/effect.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec428e0eaf367f32895f92a0570fe671ea12421",
+      "size": 452,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/bec428e0eaf367f32895f92a0570fe671ea12421"
+    },
+    {
+      "path": "4_image-effects/4-5_stripes-from-image/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d27ce204a4d57cbee216fe28ea3faa654240243d",
+      "size": 502,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/d27ce204a4d57cbee216fe28ea3faa654240243d"
+    },
+    {
+      "path": "4_image-effects/4-5_stripes-from-image/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "03a909f6090f4130ff642f314c92c15385f2f566",
+      "size": 929,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/03a909f6090f4130ff642f314c92c15385f2f566"
+    },
+    {
+      "path": "4_image-effects/4-6_pixelate",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3bb6c46db5baa372e527051bb0797a2e909db876",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/3bb6c46db5baa372e527051bb0797a2e909db876"
+    },
+    {
+      "path": "4_image-effects/4-6_pixelate/effect.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "413ec49037fc3741f5fb1904648b6e5134b2da15",
+      "size": 1312,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/413ec49037fc3741f5fb1904648b6e5134b2da15"
+    },
+    {
+      "path": "4_image-effects/4-6_pixelate/effect.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec428e0eaf367f32895f92a0570fe671ea12421",
+      "size": 452,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/bec428e0eaf367f32895f92a0570fe671ea12421"
+    },
+    {
+      "path": "4_image-effects/4-6_pixelate/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21f4f85ca48a924feb740eee80af881c2ccf1fd3",
+      "size": 472,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/21f4f85ca48a924feb740eee80af881c2ccf1fd3"
+    },
+    {
+      "path": "4_image-effects/4-6_pixelate/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1be70ee44ac16fb1c53e0606cf6bdc54a3993ac",
+      "size": 911,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/f1be70ee44ac16fb1c53e0606cf6bdc54a3993ac"
+    },
+    {
+      "path": "4_image-effects/4-7_displacement-map",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3493b6ff7f21b1c2ba3c0ddd9f012ec15c463c73",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/3493b6ff7f21b1c2ba3c0ddd9f012ec15c463c73"
+    },
+    {
+      "path": "4_image-effects/4-7_displacement-map/dog.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2c7ac8fd965e06e7a12953218715db0689f3aa4",
+      "size": 203323,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/c2c7ac8fd965e06e7a12953218715db0689f3aa4"
+    },
+    {
+      "path": "4_image-effects/4-7_displacement-map/effect.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e50be68be4f6633d25e35402cee0e0995a88f961",
+      "size": 974,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/e50be68be4f6633d25e35402cee0e0995a88f961"
+    },
+    {
+      "path": "4_image-effects/4-7_displacement-map/effect.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec428e0eaf367f32895f92a0570fe671ea12421",
+      "size": 452,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/bec428e0eaf367f32895f92a0570fe671ea12421"
+    },
+    {
+      "path": "4_image-effects/4-7_displacement-map/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "313114e00b0e6d7ba0924354e24614eec07366aa",
+      "size": 478,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/313114e00b0e6d7ba0924354e24614eec07366aa"
+    },
+    {
+      "path": "4_image-effects/4-7_displacement-map/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67d1207a18c2f73b1f41565e63c603a690adf99a",
+      "size": 1071,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/67d1207a18c2f73b1f41565e63c603a690adf99a"
+    },
+    {
+      "path": "4_image-effects/4-8_rgb-to-hsb",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "094b18c69a04ea23031b03023b716b74b9862391",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/094b18c69a04ea23031b03023b716b74b9862391"
+    },
+    {
+      "path": "4_image-effects/4-8_rgb-to-hsb/effect.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28db5b7bb270158ce29ccde7745d05a248fa0e68",
+      "size": 1827,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/28db5b7bb270158ce29ccde7745d05a248fa0e68"
+    },
+    {
+      "path": "4_image-effects/4-8_rgb-to-hsb/effect.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec428e0eaf367f32895f92a0570fe671ea12421",
+      "size": 452,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/bec428e0eaf367f32895f92a0570fe671ea12421"
+    },
+    {
+      "path": "4_image-effects/4-8_rgb-to-hsb/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "38ca5a558fd07622cc7da25b555b8ab37ed30e9c",
+      "size": 498,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/38ca5a558fd07622cc7da25b555b8ab37ed30e9c"
+    },
+    {
+      "path": "4_image-effects/4-8_rgb-to-hsb/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b7c2be74a6caa2ebf0d479a842a14b6eae02dea1",
+      "size": 989,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/b7c2be74a6caa2ebf0d479a842a14b6eae02dea1"
+    },
+    {
+      "path": "4_image-effects/4-9_single-pass-blur",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c0be34f65c8e03d3bcf7823f8509e29a0811a312",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/c0be34f65c8e03d3bcf7823f8509e29a0811a312"
+    },
+    {
+      "path": "4_image-effects/4-9_single-pass-blur/effect.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31bb003d87ae5ba8317f9a5961c543a8091e2bcb",
+      "size": 1751,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/31bb003d87ae5ba8317f9a5961c543a8091e2bcb"
+    },
+    {
+      "path": "4_image-effects/4-9_single-pass-blur/effect.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bec428e0eaf367f32895f92a0570fe671ea12421",
+      "size": 452,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/bec428e0eaf367f32895f92a0570fe671ea12421"
+    },
+    {
+      "path": "4_image-effects/4-9_single-pass-blur/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cac4f8132f7697fee8254b2b182f00e2560a0571",
+      "size": 468,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/cac4f8132f7697fee8254b2b182f00e2560a0571"
+    },
+    {
+      "path": "4_image-effects/4-9_single-pass-blur/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f219460ff964dd1bc88dd08ffa2302a9b2c7ac24",
+      "size": 1025,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/f219460ff964dd1bc88dd08ffa2302a9b2c7ac24"
+    },
+    {
+      "path": "4_image-effects/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "919a3d2ff94f73e8c0fc3c5186365280609849b7",
+      "size": 1259,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/919a3d2ff94f73e8c0fc3c5186365280609849b7"
+    },
+    {
+      "path": "5_shapes",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a079f871ac27e13f0c18ce783540784d5d380b67",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/a079f871ac27e13f0c18ce783540784d5d380b67"
+    },
+    {
+      "path": "5_shapes/5-1_rectangle",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "ddd41bc33dc650704e002eb4852b00ff40bbfee7",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/ddd41bc33dc650704e002eb4852b00ff40bbfee7"
+    },
+    {
+      "path": "5_shapes/5-1_rectangle/base.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f97f5e7e5d18d8dd61d7b0eb95dc148195ec51a",
+      "size": 543,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/5f97f5e7e5d18d8dd61d7b0eb95dc148195ec51a"
+    },
+    {
+      "path": "5_shapes/5-1_rectangle/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1faa2dd770bb065dae6f1157ddade95003828603",
+      "size": 407,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/1faa2dd770bb065dae6f1157ddade95003828603"
+    },
+    {
+      "path": "5_shapes/5-1_rectangle/rect.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6d6b7432bf14ab304cfbb2ae9972cdd96805759",
+      "size": 2937,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/f6d6b7432bf14ab304cfbb2ae9972cdd96805759"
+    },
+    {
+      "path": "5_shapes/5-1_rectangle/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02c4598f9d6b750ed63d6ca5bafd59f107df0ea6",
+      "size": 1139,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/02c4598f9d6b750ed63d6ca5bafd59f107df0ea6"
+    },
+    {
+      "path": "5_shapes/5-2_circle",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "79c5a2192c70c70d4b494568b5d1d969a2a25034",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/79c5a2192c70c70d4b494568b5d1d969a2a25034"
+    },
+    {
+      "path": "5_shapes/5-2_circle/base.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f97f5e7e5d18d8dd61d7b0eb95dc148195ec51a",
+      "size": 543,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/5f97f5e7e5d18d8dd61d7b0eb95dc148195ec51a"
+    },
+    {
+      "path": "5_shapes/5-2_circle/circle.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de1be59948f87d2dab539817ced7e6d7bd6a22f6",
+      "size": 1980,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/de1be59948f87d2dab539817ced7e6d7bd6a22f6"
+    },
+    {
+      "path": "5_shapes/5-2_circle/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb461d35ddd3380fee85d640b4b535a891a61a55",
+      "size": 404,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/eb461d35ddd3380fee85d640b4b535a891a61a55"
+    },
+    {
+      "path": "5_shapes/5-2_circle/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "341e2a5d4b3049ccfc56b6bfe3bc05c78af6602b",
+      "size": 744,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/341e2a5d4b3049ccfc56b6bfe3bc05c78af6602b"
+    },
+    {
+      "path": "5_shapes/5-3_polygon",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9e47f6a7ae64b7a123ed9413036ba4a26df6592",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/c9e47f6a7ae64b7a123ed9413036ba4a26df6592"
+    },
+    {
+      "path": "5_shapes/5-3_polygon/base.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f97f5e7e5d18d8dd61d7b0eb95dc148195ec51a",
+      "size": 543,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/5f97f5e7e5d18d8dd61d7b0eb95dc148195ec51a"
+    },
+    {
+      "path": "5_shapes/5-3_polygon/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6deee02d4cdd740500fffb7a28352f9ba5259660",
+      "size": 400,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/6deee02d4cdd740500fffb7a28352f9ba5259660"
+    },
+    {
+      "path": "5_shapes/5-3_polygon/polygon.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cc56b4ef900c6032bfb1e07b4f1d1c0211f12f7",
+      "size": 2669,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/7cc56b4ef900c6032bfb1e07b4f1d1c0211f12f7"
+    },
+    {
+      "path": "5_shapes/5-3_polygon/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e19fd94648211f5c2ddae20d3d49b9a213e2b701",
+      "size": 747,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/e19fd94648211f5c2ddae20d3d49b9a213e2b701"
+    },
+    {
+      "path": "5_shapes/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4151c330e9b9ab1359d0bf113fa42a4f1f95af3f",
+      "size": 224,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/4151c330e9b9ab1359d0bf113fa42a4f1f95af3f"
+    },
+    {
+      "path": "6_3d",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2e968e9acbfc5529a4bab770dc3560aa35326b22",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/2e968e9acbfc5529a4bab770dc3560aa35326b22"
+    },
+    {
+      "path": "6_3d/6-1_rectangle",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3c156c2e30f0cc18d3e0787e567d3251378b09bc",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/3c156c2e30f0cc18d3e0787e567d3251378b09bc"
+    },
+    {
+      "path": "6_3d/6-1_rectangle/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d41d3ec06109fb19e92d38f26c07b7cd331df0e",
+      "size": 433,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/4d41d3ec06109fb19e92d38f26c07b7cd331df0e"
+    },
+    {
+      "path": "6_3d/6-1_rectangle/shader.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56bc6b3436fb73c9d46a89a03f251c93aef0bd13",
+      "size": 174,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/56bc6b3436fb73c9d46a89a03f251c93aef0bd13"
+    },
+    {
+      "path": "6_3d/6-1_rectangle/shader.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f53876ad67187626fd41e3e595667b7f3013381a",
+      "size": 1778,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/f53876ad67187626fd41e3e595667b7f3013381a"
+    },
+    {
+      "path": "6_3d/6-1_rectangle/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f57840769a3469c5c67bf98cf38586223472d568",
+      "size": 1080,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/f57840769a3469c5c67bf98cf38586223472d568"
+    },
+    {
+      "path": "6_3d/6-2_vertexDisplacement",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e0589278fd5752fd7c1db37f9307f7ae0ca31c9a",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/e0589278fd5752fd7c1db37f9307f7ae0ca31c9a"
+    },
+    {
+      "path": "6_3d/6-2_vertexDisplacement/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3b833f37023949d0bbf36b826c594cf1bfc84e8",
+      "size": 436,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/c3b833f37023949d0bbf36b826c594cf1bfc84e8"
+    },
+    {
+      "path": "6_3d/6-2_vertexDisplacement/shader.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "789f029067f37c8aa43d1df8bb7008f8f417e63a",
+      "size": 281,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/789f029067f37c8aa43d1df8bb7008f8f417e63a"
+    },
+    {
+      "path": "6_3d/6-2_vertexDisplacement/shader.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbf6479cdd7b1bbcbd337c26e25b597bf0f910e8",
+      "size": 2438,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/fbf6479cdd7b1bbcbd337c26e25b597bf0f910e8"
+    },
+    {
+      "path": "6_3d/6-2_vertexDisplacement/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5fcd17be7f0e2220cbee1757c462e800d0b8c617",
+      "size": 1341,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/5fcd17be7f0e2220cbee1757c462e800d0b8c617"
+    },
+    {
+      "path": "6_3d/6-3_vertexDisplacementFromTexture",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2c78763a8af3cfff4f417998157b360526815dca",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/2c78763a8af3cfff4f417998157b360526815dca"
+    },
+    {
+      "path": "6_3d/6-3_vertexDisplacementFromTexture/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd6796b7bb7e6c470b2c3bf47ac892c738f524dd",
+      "size": 452,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/cd6796b7bb7e6c470b2c3bf47ac892c738f524dd"
+    },
+    {
+      "path": "6_3d/6-3_vertexDisplacementFromTexture/noise.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c44a50ecb4eb05f998fbc042cb7735ecca5ed4bf",
+      "size": 176137,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/c44a50ecb4eb05f998fbc042cb7735ecca5ed4bf"
+    },
+    {
+      "path": "6_3d/6-3_vertexDisplacementFromTexture/shader.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af24ef21d40e12a2b436583ed58fb2e8d72ce640",
+      "size": 241,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/af24ef21d40e12a2b436583ed58fb2e8d72ce640"
+    },
+    {
+      "path": "6_3d/6-3_vertexDisplacementFromTexture/shader.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee1106d904684892a6b22fa955aa202110fdbddc",
+      "size": 2538,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/ee1106d904684892a6b22fa955aa202110fdbddc"
+    },
+    {
+      "path": "6_3d/6-3_vertexDisplacementFromTexture/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b36d55ea4adb27f643051ca058c1d7b84d51345",
+      "size": 1486,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/8b36d55ea4adb27f643051ca058c1d7b84d51345"
+    },
+    {
+      "path": "6_3d/6-4_matcap",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "30e7cd5d42b9a37e86d0b6e81e1f1a41782d5ba7",
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/trees/30e7cd5d42b9a37e86d0b6e81e1f1a41782d5ba7"
+    },
+    {
+      "path": "6_3d/6-4_matcap/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea7d5a0da709b2aacbb86a24a80b1fccf7dc8ba5",
+      "size": 430,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/ea7d5a0da709b2aacbb86a24a80b1fccf7dc8ba5"
+    },
+    {
+      "path": "6_3d/6-4_matcap/matcap.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a36fa62d7ec9ff71dd064003567d12ee0cb04a5",
+      "size": 620692,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/4a36fa62d7ec9ff71dd064003567d12ee0cb04a5"
+    },
+    {
+      "path": "6_3d/6-4_matcap/shader.frag",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3109364d76c3c6cac33dd78ad4aa2ce4aa917b02",
+      "size": 822,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/3109364d76c3c6cac33dd78ad4aa2ce4aa917b02"
+    },
+    {
+      "path": "6_3d/6-4_matcap/shader.vert",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1c588611f94663749d28d9c526809a83ebcc0fe",
+      "size": 2473,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/c1c588611f94663749d28d9c526809a83ebcc0fe"
+    },
+    {
+      "path": "6_3d/6-4_matcap/sketch.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3200c8bf29d86991438ae4b85e3e9abc0d8a4f10",
+      "size": 1714,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/3200c8bf29d86991438ae4b85e3e9abc0d8a4f10"
+    },
+    {
+      "path": "6_3d/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "169f864ecdb93f08f989debd9f3b48c5d53f4cfa",
+      "size": 339,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/169f864ecdb93f08f989debd9f3b48c5d53f4cfa"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a4c1c1ff1ea385affa67384941490a1851f8ab5",
+      "size": 1060,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/2a4c1c1ff1ea385affa67384941490a1851f8ab5"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10963e23bd6ce0ef1bb0a92e48305ccb018a4a8d",
+      "size": 6903,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/10963e23bd6ce0ef1bb0a92e48305ccb018a4a8d"
+    },
+    {
+      "path": "index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb143c7084108bd6e764e5da1212423ca314d00d",
+      "size": 391,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/cb143c7084108bd6e764e5da1212423ca314d00d"
+    },
+    {
+      "path": "p5.dom.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c73540fb66522b60324877e448bfc0a222c01bfe",
+      "size": 91931,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/c73540fb66522b60324877e448bfc0a222c01bfe"
+    },
+    {
+      "path": "p5.dom.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c3fb8a2b7011015cfe2baf985380a6a089aae6f",
+      "size": 19589,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/7c3fb8a2b7011015cfe2baf985380a6a089aae6f"
+    },
+    {
+      "path": "p5.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4027af0873e79d6e732e2829df5075eb7391c5e",
+      "size": 2751378,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/d4027af0873e79d6e732e2829df5075eb7391c5e"
+    },
+    {
+      "path": "p5.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "930145ea341af15a3abfc6994f889b6f79cfe1d6",
+      "size": 574288,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/930145ea341af15a3abfc6994f889b6f79cfe1d6"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d07e542e232f4633e3c1f29bd3e538f43286bc9",
+      "size": 313,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/4d07e542e232f4633e3c1f29bd3e538f43286bc9"
+    },
+    {
+      "path": "sketch-styles.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef2a7aab68a51a03c6c12a9d40eccde81f62026e",
+      "size": 55,
+      "url": "https://api.github.com/repos/aferriss/p5jsShaderExamples/git/blobs/ef2a7aab68a51a03c6c12a9d40eccde81f62026e"
+    }
+  ],
+  "truncated": false
+}

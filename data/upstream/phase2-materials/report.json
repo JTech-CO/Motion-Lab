@@ -1,0 +1,5260 @@
+{
+  "date": "2026-10-09",
+  "policyVersion": 4,
+  "candidateFamilies": 1371,
+  "accepted": 494,
+  "rejected": [
+    {
+      "provider": "ambientcg",
+      "id": "AcousticFoam001",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Asphalt004",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Asphalt005",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Asphalt006",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Asphalt007",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Asphalt009",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Asphalt014",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Asphalt015",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Asphalt020L",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Asphalt023L",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Asphalt024A",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Asphalt030",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Asphalt031",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Asphalt032",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Asphalt033",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Bark003",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Bark007",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Bark011",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Bark012",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark002"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Bark013",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt008"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Bricks013",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Bricks020",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks012"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Bricks027",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Bricks028",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Bricks029",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Bricks037",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt021"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Bricks038",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Bricks052",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Bricks063",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Bricks072",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Bricks073A",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks006"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Bricks074",
+      "reason": "stored-jpeg-low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Bricks075A",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark015"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Bricks079",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt016"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Bricks080A",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Bricks083",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Bricks096",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Bricks098",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt016"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Bricks099",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks078"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Bricks102",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks087"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Bricks103",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Cardboard001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Carpet001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Carpet014",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Carpet015",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Carpet016",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Chainmail001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Chipboard001",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks076a"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Chipboard004",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Clay001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Concrete001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Concrete005",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Concrete006",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Concrete007",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Concrete012",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Concrete013",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Concrete025",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt002"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Concrete027",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Concrete034",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Concrete036",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete014"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Concrete037",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Concrete040",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Concrete041A",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Concrete046",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Concrete047A",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Concrete048",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Cork001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Cork002",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Cork004",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-cork003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "CorrugatedSteel006A",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "DiamondPlate005A",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "DiamondPlate009",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric002",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric003",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric005",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric007",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric016",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric022",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric030",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric031",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric032",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric033",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric034",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric035",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric043",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric044",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric045",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric046",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric061",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric068",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric069",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric070",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric073",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt008"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric074",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric075",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric077",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric079",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric081A",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Fabric084",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Foil001",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Footsteps001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Footsteps002",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Grass001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Grass005",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Gravel002",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Gravel005",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Gravel006",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt002"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Gravel007",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Gravel008",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark002"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Gravel009",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Gravel011",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Gravel013",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Gravel015",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt002"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Gravel016",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt002"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Gravel022",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-gravel001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Gravel031",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Gravel032",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-gravel030"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Gravel033",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Gravel034",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-gravel001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Gravel035",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt002"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Gravel036L",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Gravel037",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Gravel038",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-cork003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Gravel039",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Gravel040",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-gravel030"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Gravel042",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Gravel043",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-gravel003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground002",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt002"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground003",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground005",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-gravel010"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground006",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground009",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground010",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground013",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt021"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground014",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt021"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground015",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete039"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground016",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground018",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground019",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks010"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground020",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks074"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground021",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground023",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark006"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground024",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground025",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground022"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground026",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground027",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground028",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt002"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground029",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground030",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground031",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground032",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground004"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground033",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground037",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks024"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground038",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark006"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground039",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground048",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground049A",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground051",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground052",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground054",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground055L",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground056",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground057",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground058",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground059",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground060",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground061",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground062L",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground064",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground065",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground066",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground067",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground068",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-fence007a"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground069",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground070",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground004"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground071",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks084"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground074",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground076",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground077",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt002"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground078",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground063"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground079L",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground080",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground081",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground082L",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground083",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks076a"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground084",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks076a"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground085",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks076a"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground086",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete038"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground087",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground088",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground089",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground091",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground092A",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground103",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground104",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks076a"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground105",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground106",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground063"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground107",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt021"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground109",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground111",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground004"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ground112",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground073"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Ivory001A",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Lava001",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-chip005"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Leather001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Leather009",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Leather014",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Leather015",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Leather021",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Leather028",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Leather033A",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Leather037",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Leather038",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Leather039",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Marble001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Marble006",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark015"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Marble016",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark006"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Marble026",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Metal001",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground012"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Metal009",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Metal013",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground102"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Metal020",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks100"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Metal027",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Metal030",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Metal041A",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Metal048A",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Metal063",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "MetalPlates004",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "MetalWalkway010",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Moss001",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-gravel001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Net001A",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "OfficeCeiling001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Paint001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PaintedBricks001",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PaintedPlaster001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PaintedPlaster007",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PaintedPlaster017",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PaintedPlaster018",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PaintedWood006A",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Paper001",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Paper002",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Paper003",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Paper004",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Paper005",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Paper006",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Pathway002",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt021"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Pathway004",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones002",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones003",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones005",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones008",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones009",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground102"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones015",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-pavingstones004"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones017",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones019",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones020",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones021",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones022",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones023",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones024",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones025",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones026",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones027",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-pavingstones011"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones029",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones030",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones031",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones035",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones037",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones038",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones041",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks009"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones043",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt016"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones044",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones052",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones054",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground036"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones055",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks084"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones057",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones069",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt021"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones071",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-metal037"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones084",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones093",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones099",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones108",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks025"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones109",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-pavingstones040"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones110",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones113",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks084"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones114",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks105"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones118",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-gravel003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones121",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks095"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones122",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks084"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones123",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones124",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks078"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones125A",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete014"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones130",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones133",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-pavingstones132"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones134",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones135",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones137",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones141",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt002"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones147",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones148",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-gravel001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones150",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt008"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "PavingStones151",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-gravel041"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Planks005",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-paintedwood001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Planks007",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Planks009",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Planks010",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Planks023A",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Planks028",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Planks032",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-pavingstones032"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Planks038",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground073"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Plaster001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Plaster004",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Plastic001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Plastic003",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Plastic006",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Plastic012A",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Porcelain001",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Road008A",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rock001",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-metal037"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rock002",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rock004",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rock005",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt021"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rock010",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete039"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rock018",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rock020",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-pathway001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rock023",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground036"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rock027",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete026"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rock041",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rock042L",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks076a"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rock043L",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark006"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rock044",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark004"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rock045",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt008"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rock049",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground004"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rock050",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-planks003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rock051",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks100"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rock052",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-fingerprints005"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rock053",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt021"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rock054",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rock057",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-chip005"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rock058",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground102"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rock059",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rock060",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt021"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rock062",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rocks003",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark006"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rocks006",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-granite001a"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rocks007",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark015"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rocks025",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "RoofingTiles011A",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rubber001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rust002",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Rust007",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "ScatteredLeaves009",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "SheetMetal001",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks084"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Shells001",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-gravel003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Smear002",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt016"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Smear003",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-rock021"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Smear004",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Snow005",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Snow006",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Snow007A",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Snow013",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Snow014",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Sponge001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-pavingstones004"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Styrofoam001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Styrofoam005",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "SurfaceImperfections003",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-paintedmetal001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "SurfaceImperfections014",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-rock028"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "SurfaceImperfections017",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks084"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "SurfaceImperfections018",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "SurfaceImperfections019",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "SurfaceImperfections020",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "TactilePaving004",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Tatami001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-pavingstones004"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Terrazzo019L",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks078"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "ThatchedRoof001A",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Tiles001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-pavingstones004"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Tiles002",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-pavingstones004"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Tiles008",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Tiles019",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark015"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Tiles027",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark005"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Tiles028",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Tiles038",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Tiles039",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Tiles083",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt016"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Tiles090",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt016"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Tiles098",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-pavingstones001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Tiles115",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground102"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Tiles117",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete039"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Tiles130",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks095"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Tiles138",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Tiles139",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-paintedmetal001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wallpaper001A",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wicker013",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood002",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood003",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt016"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood011",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood012",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood013",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood021",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood033",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood034",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-pavingstones004"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood035",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete035"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood046",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood047",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground008"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood048",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-gravel010"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood053",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood054",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood055",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood056",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood057",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood058",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood059",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-pavingstones046"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood061",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood063",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt016"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood064",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood065",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood066",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground090"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood068",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood069",
+      "reason": "perceptual-geometry",
+      "similarTo": "phase2-material-ambientcg-wood067"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood073",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood080",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood081",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood082A",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete014"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood086",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood090A",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood091A",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood092",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood093",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood094",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood095",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-pavingstones004"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "Wood096",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "WoodChips001",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt002"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "WoodChips002",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt002"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "WoodChips003",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt002"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "WoodFloor001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "WoodFloor002",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt021"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "WoodFloor003",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete004"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "WoodFloor004",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "WoodFloor012",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "WoodFloor017",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt002"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "WoodFloor029",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "WoodFloor031",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-pavingstones117"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "WoodFloor032",
+      "reason": "perceptual-geometry",
+      "similarTo": "phase2-material-ambientcg-woodfloor030"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "WoodFloor033",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-pavingstones117"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "WoodFloor034",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete039"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "WoodFloor042",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "WoodFloor043",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-pavingstones136"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "WoodFloor044",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-pavingstones001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "WoodFloor045",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "WoodFloor046",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "WoodFloor061",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "WoodFloor065A",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "WoodFloor068",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt008"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "WoodFloor069",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "WoodFloor070",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-pavingstones111"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "WoodSiding001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "ambientcg",
+      "id": "WoodSiding010",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-woodfloor051"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "aerial_asphalt_01",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "aerial_beach_01",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "aerial_grass_rock",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground090"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "aerial_ground_rock",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete035"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "aerial_rocks_01",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground040"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "american_walnut_veneer",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "angli_veneer",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "anti_skid_tiles",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "ash_veneer",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "asphalt_01",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "asphalt_floor",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "asphalt_pit_lane",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "asphalt_snow",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground007"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "asphalt_track",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "bamboo_veneer",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "bamboo_wall",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks078"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "bark_bluegum",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark015"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "bark_willow",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "baseball_playground",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "beige_wall_001",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "bi_stretch",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "black_oak_veneer",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "black_walnut_veneer_01",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "blue_plaster_wall",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "blue_plaster_weathered",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "book_pattern",
+      "reason": "No unambiguous diffuse color channel"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "box_profile_metal_sheet",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "brick_floor",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks016"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "brick_gravel",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-gravel041"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "brick_pavement",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "brick_villa_floor",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "broken_brick_wall",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete039"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "brown_brick_02",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground073"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "brown_floor_tiles",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-paintedmetal001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "brown_leather",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "brown_mud_dry",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "brown_mud_leaves_01",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground008"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "brown_mud_rocks_01",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt002"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "brushed_concrete",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "caban",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "castle_brick_02_white",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete011"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "castle_brick_broken_06",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete011"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "ceiling_interior",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "cherry_veneer",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "chinese_cedar_bark",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-blue-metal-plate"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "chinese_hackberry_bark",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "chipped_concrete",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "church_bricks_02",
+      "reason": "No unambiguous diffuse color channel"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "clay_block_wall",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "clay_floor_001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "clay_plaster",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "clean_asphalt",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "clean_pebbles",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "climbing_wall",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-woodfloor051"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "climbing_wall_base",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "coast_sand_01",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt021"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "coast_sand_rocks_02",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt016"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "cobblestone_embedded_asphalt",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks095"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "cobblestone_floor_001",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks095"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "cobblestone_pavement",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete014"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "cobblestone_square",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-blue-floor-tiles-01"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "concrete",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-woodfloor007"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "concrete_block_wall",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "concrete_brick_wall_001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "concrete_debris",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "concrete_floor",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "concrete_floor_damaged_01",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground090"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "concrete_floor_worn_001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "concrete_moss",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "concrete_pavement",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "concrete_pavers",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "concrete_rock_path",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "concrete_tile_facade",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "concrete_tiles",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "concrete_wall_001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "container_side",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "coral_fort_wall_01",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete026"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "coral_stone_wall",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark015"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "corrugated_iron",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "cotton_jersey",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "cracked_concrete",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks074"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "cracked_concrete_wall",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-rock055"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "cracked_red_ground",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "crepe_georgette",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "crepe_satin",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "curly_teddy_natural",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "damaged_concrete_floor",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "damaged_plaster",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks100"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "damp_beach_sand",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "damp_sand",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "dark_paneled_wood",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "dark_rock",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "dark_wood",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks084"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "dark_wooden_planks",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "decrepit_wallpaper",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "defense_wall",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground102"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "denmin_fabric_02",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt016"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "dense_sand",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "diagonal_parquet",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt021"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "dirt",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "dirt_floor",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "dirty_carpet",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "dirty_tiles",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "distressed_painted_planks",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "double_brick_floor",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "dry_decay_leaves",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks078"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "dry_mud_field_001",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "dry_riverbed_rock",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground102"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "embedded_rock_floor",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "eucalyptus_bark",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "european_walnut_veneer_04",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "excavated_soil_wall",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "exterior_wall_cladding",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "fabric_leather_01",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-polyhaven-bitumen"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "fabric_pattern_05",
+      "reason": "No unambiguous diffuse color channel"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "farm_soil",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "fever_tree_bark",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-planks029l"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "fine_grained_wood",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "flamed_black_veneer",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "floor_bricks_02",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-blue-floor-tiles-01"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "floor_pattern_01",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-woodfloor071"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "floor_pavement",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "floor_pebbles_01",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-gravel003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "floor_tiles_02",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground090"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "floral_jacquard",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "flour",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "flower_scattered_asphalt",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "flower_scattered_dirt",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "flower_scattered_gravel",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-gravel003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "forest_floor",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground040"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "forest_ground_04",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks084"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "forrest_ground_01",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "forrest_sand_01",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-paintedmetal001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "garage_floor",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "granite_tile",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "granular_concrete",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "grass_ground",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "grass_path_2",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-rock028"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "grassy_cobblestone",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks095"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "gravel",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "gravel_concrete",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "gravel_embedded_concrete",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "gravel_floor",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-dry-ground-01"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "gravel_ground_01",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt021"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "gravel_road",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "gravel_stones",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "gravelly_sand",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "green_metal_rust",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "grey_lati_veneer",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "grey_oak_veneer_01",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "grey_plaster",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-denim-fabric"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "grey_stone_path",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks095"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "grey_tiles",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "grooved_concrete_driveway",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-pavingstones112"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "ground_grey",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark010"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "hangar_concrete_floor",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "herringbone_brick",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "herringbone_concrete_tile",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-gravel041"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "herringbone_parquet",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-rock021"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "hessian_230",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "japanese_camphor_bark",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-paintedmetal001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "japanese_cedar_bark",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "japanese_hackberry_bark",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-wood070"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "japanese_stone_wall",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt016"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "japanese_sycamore",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark004"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "japanese_zelkova_bark",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "jersey_melange",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "jogging_melange",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "jolcham_oak_bark_01",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-burned-ground-01"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "knitted_fleece",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "knotted_pine_bark",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "lacquered_cherry_wood",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "laminate_floor",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "large_floor_tiles_02",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-aerial-wood-snips"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "large_grey_tiles",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-rock056"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "large_pebbles",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "leaf_scattered_gravel",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "leafy_grass",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-gravel030"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "leather_red_02",
+      "reason": "No unambiguous diffuse color channel"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "leather_white",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "linoleum_brown",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "low_tide_rocks",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-cork003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "macro_flour",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "marble_cliff_01",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-coral-mud-01"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "marble_rock_01",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-rocks001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "medieval_blocks_02",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-coral-mud-01"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "medieval_wall_01",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-rock028"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "medieval_wood",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-castle-brick-01"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "metal_grate_rusty",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "metasequoia_bark",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "mixed_stone_tiles",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "mocha_oak_veneer",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "monastery_stone_floor",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-fence007a"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "moon_01",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "moon_dusted_01",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "moon_flat_macro_01",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "moon_footprints_01",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "moon_macro_01",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "moon_meteor_01",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "moon_track_01",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "moss_wood",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-ground-grey"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "mossy_brick",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks005"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "mossy_brick_floor",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "mossy_rock",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground073"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "mossy_sandstone",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "mud_cracked_dry_riverbed_002",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "mud_forest",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground008"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "muddy_tracks",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "natural_walnut_veneer",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "oak_veneer_01",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "oak_wood_planks",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "okoume_veneer",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "old_mosaic_floor",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-planks003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "old_planks_02",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground004"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "old_sandstone_02",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks008"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "old_wood_floor",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "old_wooden_floor_01",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-planks029l"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "olive_veneer",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "oriented_strand_board",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-bark-platanus"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "overgrown_concrete_pavers",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "painted_metal_shutter",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "painted_plaster_wall",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "painted_worn_brick",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "palm_bark",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-polyhaven-bitumen"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "park_dirt",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-gravel010"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "park_sand",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "patio_tiles",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "patterned_clay_plaster",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "patterned_clay_wall",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "patterned_cobblestone",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "patterned_concrete_pavers",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "patterned_concrete_wall",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "patterned_plaster_wall",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-rock040"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "pebble_bricks",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "pebble_cemented_floor",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-cork003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "pebble_embedded_concrete",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "pebble_embedded_pavement",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "pebble_ground_01",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground008"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "pebbles",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-brown-mud"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "peeling_painted_wall",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "pine_bark",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks074"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "plank_flooring",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-patterned-slate-tiles"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "plaster_brick_pattern",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "plaster_grey_04",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-ground-grey"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "plaster_stone_wall_01",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "plastered_stone_wall",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "plastered_wall",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "playground_sand",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "plywood",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "polar_fleece",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "poly_wool_herringbone",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "polystyrene",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "precast_concrete_wall",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks094"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "precast_stone_paving",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-mixed-rock-tiles"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "preconcrete_wall_001",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks074"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "preconcrete_wall_001_long",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-coated-pine"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "quarry_wall",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "quatrefoil_jacquard_fabric",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rabdentse_ruins_wall",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "raked_dirt",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rectangular_facade_tiles",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rectangular_parquet",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rectangular_paving",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "recycled_brick_floor",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt016"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "red_brick",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-aerial-mud-1"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "red_brick_pavers",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "red_brick_plaster_patch_02",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-broken-wall"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "red_bricks_02",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-rock047"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "red_dirt_mud_01",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-bicolour-gravel"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "red_laterite_soil_stones",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "red_mud_stones",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "red_oak_veneer",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "red_plaster_weathered",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "red_sand",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "red_sandstone_pavement",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground017"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "red_sandstone_tiles",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "red_sandstone_wall",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt021"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "ribbed_concrete_wall",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "ribbed_corduroy",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "river_small_rocks",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "road_damaged",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "road_damaged_clean",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rock_01",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rock_boulder_cracked",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground072"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rock_boulder_dry",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-rock028"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rock_embedded_concrete",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt008"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rock_embedded_concrete_wall",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks078"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rock_embedded_tiles",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-cork003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rock_face",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-denim-fabric"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rock_ground",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground036"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rock_path",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rock_surface",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rock_tile_floor",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rocks_ground_01",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-rocks022"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rocky_gravel",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-cork003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rocky_terrain",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-gravel014"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rocky_trail",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks074"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "romantic_veneer",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "roof_07",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-pavingstones033"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "roots",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks078"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rosewood_veneer1",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rough_linen",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rough_pine_door",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-corrugatedsteel001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rough_plaster_03",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground063"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rough_plasterbrick_05",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete039"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rough_wood",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete039"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rubber_tiles",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rubberized_track",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rubble",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-rock064"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rusted_shutter",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rustic_stone_wall",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rusty_corrugated_iron",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rusty_metal_sheet",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "rusty_metal_shutter",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "sakura_bark",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-rock019"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "sand_01",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-paintedmetal001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "sandstone_blocks_04",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "sandstone_cracks",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "sandy_gravel",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "sapele_veneer",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-polyhaven-bitumen"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "scuba_suede",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "scuffed_cement",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "seaside_rock",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "seaworn_sandstone_brick",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "seaworn_stone_tiles",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks084"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "shell_floor_01",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "short_bricks_floor",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-tiles116"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "silver_oak_veneer_01",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "slab_tiles",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt016"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "slate_driveway",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "slate_floor",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "slumped_mortar_brick",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "smoke_speckled_veneer",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "smooth_concrete_floor",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "snow_01",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground017"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "snow_field_aerial",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-metalplates010"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "snow_floor",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-cork003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "sparse_grass",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "square_brick_paving",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "square_concrete_pavers",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "square_floor",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "square_floor_patern_01",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-pavingstones120"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "square_pavers",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "stacked_brick_wall",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks078"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "stacked_stone_wall",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks078"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "stained_pine",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "stair_planks",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "stenciled_brick_floor",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "stone_block_wall",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "stone_brick_wall_001",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks084"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "stone_embedded_tiles",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "stone_floor",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "stone_pathway",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-paintedmetal001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "stone_pavers",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "stone_tile_wall",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "stone_tiles",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "stone_wall",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground040"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "stony_dirt_path",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt002"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "stretch_poplin",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "synthetic_wood",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "tarred_gravel",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "teak_veneer",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "terlenka",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "terracotta_floor_tiles",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "terrain_red_01",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "terrazzo_tiles",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "terry_cloth",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "thatch_roof_angled",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "tiger_rock",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground036"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "tiled_floor_001",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks008"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "trident_maple_bark",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "velour_velvet",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "volcanic_rock_tiles",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-cobblestone-large-01"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "waffle_pique_cotton",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "walnut_veneer",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "washed_grey_oak_veneer",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "weathered_brown_planks",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-coated-pine"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "weathered_planks",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "white_maple_veneer",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "white_oak_veneer",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "white_planks_clean",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "white_plaster_rough_01",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-coated-pine"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "white_sandstone_bricks",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-roof-slates-02"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "white_stucco",
+      "reason": "near-flat-color-map"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "whitewashed_brick",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-gravel030"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "winter_leaves",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "withered_grass",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt021"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "wood_cabinet_worn_long",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-tiles018"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "wood_chip_path",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bark014"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "wood_chips",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "wood_floor",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "wood_floor_deck",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks078"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "wood_peeling_paint_weathered",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-rock-wall"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "wood_planks",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-concrete039"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "wood_planks_grey",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt021"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "wood_shutter",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt016"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "wood_stone_pathway",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "wood_table",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt016"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "wood_table_worn",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "wood_textured_concrete",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "wood_trunk_wall",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt016"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "wooden_barrel",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks076a"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "wooden_floor_01",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-pavingstones046"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "wooden_garage_door",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "wooden_gate",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-asphalt021"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "worn_asphalt",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "worn_brick_path",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "worn_brick_wall",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-polyhaven-castle-brick-02-red"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "worn_concrete_floor",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-metalplates010"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "worn_corrugated_iron",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks005"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "worn_cracked_plaster",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-ground007"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "worn_planks",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-rock055"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "worn_rock_natural_01",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "worn_shutter",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "worn_tile_floor",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks003"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "yellow_flower_mulch",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "yellow_plaster",
+      "reason": "low-contrast-surface-family",
+      "similarTo": "phase2-material-ambientcg-asphalt001"
+    },
+    {
+      "provider": "polyhaven",
+      "id": "yellow_stone_wall",
+      "reason": "texture-statistics",
+      "similarTo": "phase2-material-ambientcg-bricks095"
+    }
+  ],
+  "countUnit": "One 1K diffuse/color surface family, not preview renders, PBR channels, resolutions, colors or neighboring samples",
+  "similarityPolicy": "Explicit variations, shared Substance parents, reviewed repeating brick grids and numeric neighboring samples group first; rotation/mirror perceptual hashes and texture statistics compare every remaining original and stored JPEG globally.",
+  "limitations": "No automated image distance proves semantic uniqueness. Highly similar texture statistics are conservatively excluded. Full PBR auxiliary channels remain available only from the original source link.",
+  "rawAmbientMaterials": 2014,
+  "rawPolyMaterials": 867,
+  "removedMetadataFamilyVariants": 1510,
+  "completed": true,
+  "orphanImagesRemoved": 0,
+  "requestsThisRun": 0,
+  "acceptedOriginalBytes": 525144200,
+  "storedJpegBytes": 145071302,
+  "acceptedOriginalBudgetBytes": 805306368,
+  "retention": "Accepted original color maps retained; rejected images discarded after recording source hashes, fingerprints and family decisions. Offline replay preserves those conservative rejections.",
+  "acceptedByProvider": {
+    "ambientCG": 342,
+    "Poly Haven": 152
+  },
+  "rejectionsByReason": {
+    "near-flat-color-map": 31,
+    "low-contrast-surface-family": 486,
+    "texture-statistics": 353,
+    "stored-jpeg-low-contrast-surface-family": 1,
+    "perceptual-geometry": 2,
+    "No unambiguous diffuse color channel": 4
+  }
+}

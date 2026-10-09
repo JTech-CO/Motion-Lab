@@ -1,0 +1,49 @@
+{
+  "candidateInputSha256": "c0b6c04b347fd19b29371b6cdf902f70d7552ae67689eee6a1b9a5c90ae540a4",
+  "rendererSha256": "46ee82db97f5139b23e4e2f969c7aa904bfb90401e3e0cd7b7b4aa0f7e49da5a",
+  "scope": "One actual sampled source composition per comparison, no universal perceptual uniqueness or temporal-frame comparison claim. Original code is sanitized for display without geometry or color substitutions.",
+  "comparisons": [
+    {
+      "decisionReason": "Retain: outboard assembly / whole boat",
+      "newId": "phase2-game-design-delapouite-boat-engine",
+      "newCodeSha256": "f654d0986af1b79d2a7b1d2c450270f4b55d7cdb7248550ad9500a623568d0a6",
+      "existingId": "design-phosphor-boat",
+      "existingCodeSha256": "0156250dfe12524d02f4c3686890c3b8800b7f5ff0adcc2a8a3e0eea513306a3"
+    },
+    {
+      "decisionReason": "Retain: anatomical chamber / heart symbol",
+      "newId": "phase2-game-design-lorc-heart-organ",
+      "newCodeSha256": "31000340e93cdfed48b3dece49a22173d619900a2b9a13cd2720a289ca611e51",
+      "existingId": "vector-line-md-heart-filled",
+      "existingCodeSha256": "708eafd3d80b717e7587a3f203d0140f17684a5c4db3541a7eb30689d96c9f06"
+    },
+    {
+      "decisionReason": "Retain: pressure vessel / motorcycle visor",
+      "newId": "phase2-game-design-delapouite-diving-helmet",
+      "newCodeSha256": "dd0036520e7ef799c2e3ce4d1630ef66fb3aa60b7ce27180e777f3d03862859d",
+      "existingId": "design-tabler-helmet",
+      "existingCodeSha256": "f595c7c40042420665f90d41222bf74b87d2bc8c9b0cf9fb723595bcf848176c"
+    },
+    {
+      "decisionReason": "Reject: same barrier/water levels",
+      "newId": "phase2-game-design-delapouite-dam",
+      "newCodeSha256": "f9b3809f618411e9c17ba8417ad2a8f8396ca9309b82a1ea67814abc8200ca8f",
+      "existingId": "design-lucide-dam",
+      "existingCodeSha256": "9dc3895c24bbe53aeac3d618951a00459c10d516709350d479cc76ea1191d36e"
+    },
+    {
+      "decisionReason": "Reject: same base/stick control",
+      "newId": "phase2-game-design-lorc-lever",
+      "newCodeSha256": "f76520c629e65565dbb3275f262699e9258f5d8acaf4c1803e6564b7adacf4c9",
+      "existingId": "design-lucide-joystick",
+      "existingCodeSha256": "73e5481260335dc44f627ceacd0c5b954fc41bfd2ccd8b8e6b80d3f638174090"
+    },
+    {
+      "decisionReason": "Reject: same single-wheel hopper cart",
+      "newId": "phase2-game-design-delapouite-wheelbarrow",
+      "newCodeSha256": "7991cb66a5d0f731e2f8ac78d541fe4be08f2c62ba6ed32eff16b383c8fd9f62",
+      "existingId": "design-tabler-garden-cart",
+      "existingCodeSha256": "a8e8897d46597e31944dd6761aeadab63955477015607f688d523786a5ba55b5"
+    }
+  ]
+}

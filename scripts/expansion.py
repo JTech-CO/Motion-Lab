@@ -12,6 +12,11 @@ def asset_fingerprint(item):
     if item.get("kind") == "reference":
         return None
     language = item.get("language")
+    if item.get("kind") == "image":
+        image = item.get("image")
+        if not isinstance(image, dict) or not re.fullmatch(r"[a-f0-9]{64}", str(image.get("sha256", ""))):
+            return None
+        return "image", image["sha256"]
     if item.get("kind") == "palette":
         colors = item.get("colors", [])
         if not colors:
@@ -50,9 +55,16 @@ def asset_fingerprint(item):
 
 def merge_expansion(existing, inputs, validate):
     """Existing IDs remain stable; all new records require full license notices."""
-    ids = {entry["id"] for entry in existing}
-    known = {}
+    originals = []
     for entry in existing:
+        originals.append(entry)
+        originals.extend(entry.get("variants", []))
+        repaired = entry.get("repair", {}).get("originalRecord")
+        if isinstance(repaired, dict):
+            originals.append(repaired)
+    ids = {entry["id"] for entry in originals}
+    known = {}
+    for entry in originals:
         fingerprint = asset_fingerprint(entry)
         if fingerprint is not None:
             known.setdefault(fingerprint, entry["id"])
