@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "completedAt": "2026-10-10T14:08:15.966645+00:00",
+  "baselineCommit": "c866125a6ed16ffb43b2ac69495e808ea6257b15",
+  "source": "pond5",
+  "status": "completed-no-qualified-supply",
+  "storageVerdict": "blocked-unverified",
+  "originalStudyVerdict": "eligible-candidate",
+  "originalStudyVerdictMeaning": "Conditional source-discovery route, not granted raw redistribution or qualified supply.",
+  "initialTarget": {
+    "minimum": 10,
+    "maximum": 30,
+    "criteriaNotRelaxed": true
+  },
+  "discovery": {
+    "searchMetric": {
+      "sources_reviewed": 55,
+      "definition": "Sum of requested numResults, not verified source or asset count.",
+      "exaSearchCalls": 6,
+      "requestedNumResults": [
+        10,
+        10,
+        10,
+        10,
+        10,
+        5
+      ],
+      "parsedTitleUrlNeighbors": 53,
+      "uniqueParsedNeighborUrls": 50,
+      "ordinaryWebSearchQueries": 9
+    },
+    "individualPond5PDWorksVerified": 0,
+    "officialInstitutionSameWorkMatches": 0,
+    "imagesDownloaded": 0
+  },
+  "qualifiedSupply": {
+    "verifiedNetNew": 0,
+    "unverifiedPotential": null
+  },
+  "candidatesReceipt": {
+    "path": "data/upstream/expansion12-grok/pond5/candidates.json",
+    "bytes": 4,
+    "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+  },
+  "evidenceReceipt": {
+    "path": "data/upstream/expansion12-grok/pond5/evidence.json",
+    "bytes": 17412,
+    "sha256": "36aa3301c5ec2e03233741ff665a6be08e4618fc038b0620d39fec5dab286f19"
+  },
+  "reasonKO": "Pond5 PD 개별 이미지와 원기관의 동일 작품 연결을 확인하지 못했습니다. 공식 목록은 시간 초과였고 기존 정상 Chrome 근거는 403입니다. 현재 CUA 초기화 실패와 Chrome 빈 DOM은 새 HTTP 403로 과장하지 않습니다. 검색된 기관 도식·패턴은 Pond5 개별 연계가 없고 무료 상업 합성은 원기관 원본과 동일하지 않아 수집하지 않았습니다.",
+  "excludedRoutes": [
+    {
+      "url": "https://www.pond5.com/free/photos/backgrounds-abstract",
+      "reasonKO": "무료 상업 목록과 NASA 요소 포함 합성이라는 설명은 개별 PD 원본 및 원본 재배포권을 입증하지 않습니다."
+    },
+    {
+      "url": "https://www.pond5.com/artist/claudiocaridi?tab=illustration",
+      "reasonKO": "일반 작가의 그림·합성을 NASA의 동일 원본 또는 PD로 입증할 근거가 없습니다."
+    },
+    {
+      "route": "Unlinked Library of Congress, Smithsonian and NASA search neighbors",
+      "reasonKO": "Pond5 개별 동일 자료 연결 없이 임의 기관 컬렉션으로 확장하지 않았습니다."
+    },
+    {
+      "url": "https://github.com/calesthio/OpenMontage/blob/9066dcb2/tools/video/stock_sources/pond5_pd.py",
+      "reasonKO": "제3자 CC0-equivalent 주장과 추정 API는 공식 권리 근거가 아니며 실행·호출하지 않았습니다."
+    }
+  ],
+  "duplicateAudit": {
+    "status": "not-run-no-rights-qualified-image-candidates",
+    "candidatePairsCompared": 0,
+    "baseline": {
+      "catalogReceipt": {
+        "path": "data/catalog.json",
+        "bytes": 111075103,
+        "sha256": "f3f125c7f7e43ad061d137fc20ee013f2f320c31f5a2fd0e9e7902e03c823b13"
+      },
+      "canonicalEntries": 11825,
+      "preservedOriginalIdentities": 11859,
+      "imageDescriptors": 1254,
+      "existingPond5OriginalSourceMatches": [],
+      "scope": "Canonical items, preserved variants and repair originals. This is a baseline inventory; it is not a candidate-image uniqueness claim."
+    },
+    "limitation": "No image crossed source-identity/rights gates; visual, exact-image and perceptual candidate comparisons were not performed."
+  },
+  "safety": {
+    "sourceScriptsExecuted": false,
+    "videoOrAudioFilesStored": false,
+    "credentialsUsed": false,
+    "challengeBypassAttempted": false,
+    "unrelatedOriginCollectionExpanded": false,
+    "robotsRespectedAfterRead": true,
+    "downloadCount": 0,
+    "futureImageGate": {
+      "allowlistedOfficialOriginHostsRequired": true,
+      "originalMaximumBytes": 4194304,
+      "maximumDecodedPixels": 16777216,
+      "requestTimeoutSeconds": 20,
+      "previewMaximumSide": 1024,
+      "previewMinimumSide": 32,
+      "previewMime": "image/jpeg",
+      "strictMimeAndMagicValidation": true,
+      "redirectHostValidationRequired": true
+    }
+  },
+  "integration": {
+    "existingInputsModified": false,
+    "readmeModified": false,
+    "buildInvoked": false,
+    "committed": false,
+    "pushed": false
+  },
+  "nextStepKO": "정상 공개 접근에서 Pond5 PD 개별 작품과 원기관 식별자가 확인된 경우에만 동일 원본의 권리·중복 검증을 재개합니다. 현재 검증된 추가 공급은 0개입니다."
+}

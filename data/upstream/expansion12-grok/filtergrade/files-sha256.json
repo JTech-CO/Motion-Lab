@@ -1,0 +1,215 @@
+{
+  "files": [
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/access-attempts.json",
+      "bytes": 340,
+      "sha256": "2c13fc513ecb3981e4a23d12f3c63a0a7831cc51210d9dba38fe274ea9d63d73"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/acquisitions.json",
+      "bytes": 11716,
+      "sha256": "fbcc00ed722c18279d79b80d25cb220ccf4ab6f924a651e5151bde5c9558c345"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/baseline-image-manifest.json",
+      "bytes": 419390,
+      "sha256": "2d9ca4a48005793a611d23bc8d601e5e57417d08d31b3a8c67be38b73627dce0"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/browser-access-attempts.json",
+      "bytes": 2991,
+      "sha256": "9ee0ec3f50b2bafe034010c6c46ade868d5686033bcf1a5271ce62487be13992"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/candidates.json",
+      "bytes": 98823,
+      "sha256": "faa91f0a0ea3e4a8038c842f688ecae4738cf23d79022596d20b51fc8ada377c"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/code-comparison.json",
+      "bytes": 1183602,
+      "sha256": "c93f4ca70e37dda161bd402711b5f0260d191b6a57b78e071d7f1b30833cb908"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/collection-policy.json",
+      "bytes": 2180,
+      "sha256": "7356d3f5246e39a9826e328ce4bab197e20fdd7eef0412cdc23789f9f0c3582e"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/decisions.json",
+      "bytes": 4168,
+      "sha256": "0df438742cf516a01cd3b9d36c3f776fddf1c6543fc18e10313877527f6514fc"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/evidence/robots-creativecommons.org.txt",
+      "bytes": 177,
+      "sha256": "d7a6362bab284aaa0b08d19dcbd455a2054914002c9859e14061e15e071f4705"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/evidence/robots-filtergrade.com.txt",
+      "bytes": 31,
+      "sha256": "a67c9d9688523ceebfd4b92cd7b606bade75634a9637a2be7a31cf476e17dd14"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/image-comparison.json",
+      "bytes": 389555,
+      "sha256": "977c667ef72ccaead4cb1d551dcefbbcc67dae6d0ab1985b447459d5d444e992"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/license-evidence.json",
+      "bytes": 592,
+      "sha256": "3a71707f2d8af1f82be77313c76230eeba8b46e2ec50e08db65419bb31568365"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/notices/CC-BY-3.0.txt",
+      "bytes": 19467,
+      "sha256": "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/notices/FilterGrade-16mm-License.txt",
+      "bytes": 20451,
+      "sha256": "d29bf1522f38aaed6166fe83fc6684c24b54986395d3605eb5fdf097b32730a8"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/one-original-access.json",
+      "bytes": 1209,
+      "sha256": "6184d53aa145ff4c7c8d2af14061356d2ea4ebc810617e57ec80c0f3f7322115"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/originals/filtergrade-film-scan-01.png",
+      "bytes": 5341215,
+      "sha256": "833ec2e3882a47a4f3d283de31f2652f5e1f077a0bd13f1d0b72caa4e658a532"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/originals/filtergrade-film-scan-02.png",
+      "bytes": 5220009,
+      "sha256": "1986a12b0d7c3317e65c45cb28071161970fb3039371bbe22b61bc93e7d302f3"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/originals/filtergrade-film-scan-03.png",
+      "bytes": 1284502,
+      "sha256": "3f72d88b9c8be128df5dfad0ccc1c966bcf9df7de8a41cd5713b370a8efd5376"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/originals/filtergrade-film-scan-04.png",
+      "bytes": 352065,
+      "sha256": "faaf024730ce3822767694b582809a589083e9a38fe1ec6c9e9de5e0e0b3af15"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/originals/filtergrade-film-scan-05.png",
+      "bytes": 1084489,
+      "sha256": "fdf1a131957b12a856b71c76c1a180ad31905fd0ab1afa948669a59a44df809b"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/originals/filtergrade-film-scan-06.png",
+      "bytes": 1976004,
+      "sha256": "a67fa6b7efe15b844053123e190d025e76cf745e44b443027463a186125575c6"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/originals/filtergrade-film-scan-07.png",
+      "bytes": 5220009,
+      "sha256": "1986a12b0d7c3317e65c45cb28071161970fb3039371bbe22b61bc93e7d302f3"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/originals/filtergrade-film-scan-08.png",
+      "bytes": 4328427,
+      "sha256": "80d583bb51bbbeb411fd8f26c2943d6f844901fd8960f24231c919b8283027e8"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/originals/filtergrade-film-scan-09.png",
+      "bytes": 1768421,
+      "sha256": "146d66af7b140d8d0bc734bbc42391e9e3f9c36af11240e67c6b64965bc4f10d"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/originals/filtergrade-film-scan-10.png",
+      "bytes": 1077427,
+      "sha256": "54a1b32de2359676850654aa1f63b3187a48837721834a9833d046d7cffc226b"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/preview-manifest.json",
+      "bytes": 3224,
+      "sha256": "5b2c8fdc6ace3f606a6df48ac6a0c5d38f05eab99516b09de121d6ded83e2c12"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/previews/expansion12-grok-filtergrade-16mm-circle-punch.jpg",
+      "bytes": 15022,
+      "sha256": "d22a44d1a2a335fc056ece740729c66164a288941658f7c22911687e5898917e"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/previews/expansion12-grok-filtergrade-16mm-light-leak.jpg",
+      "bytes": 50396,
+      "sha256": "c1de7a988e0f701bc3f5a391464c51ba5269284bd4793ff6149d44af9f7b2bfc"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/previews/expansion12-grok-filtergrade-16mm-negative-gate.jpg",
+      "bytes": 30536,
+      "sha256": "b1fb5426bd23868fba172361de0be1e1b4b33b501fbeea73cd64fe3b89e299d2"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/previews/expansion12-grok-filtergrade-16mm-white-edge.jpg",
+      "bytes": 41414,
+      "sha256": "2375fb79ef06da12b528a72344cb94ac76394df6ca697fb49b0cdf414dd67315"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/previews/film-scan-01.jpg",
+      "bytes": 50396,
+      "sha256": "c1de7a988e0f701bc3f5a391464c51ba5269284bd4793ff6149d44af9f7b2bfc"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/previews/film-scan-02.jpg",
+      "bytes": 72047,
+      "sha256": "a40e8ed719e7e5a395c36de4a7056f235980a9736d9c8d7acfcd07273e18cc5a"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/previews/film-scan-03.jpg",
+      "bytes": 30193,
+      "sha256": "98d4a5ce055d4c6bdb55e21c3bb766082b5e50c624d9cf26677521a431c7287f"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/previews/film-scan-04.jpg",
+      "bytes": 15022,
+      "sha256": "d22a44d1a2a335fc056ece740729c66164a288941658f7c22911687e5898917e"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/previews/film-scan-05.jpg",
+      "bytes": 30536,
+      "sha256": "b1fb5426bd23868fba172361de0be1e1b4b33b501fbeea73cd64fe3b89e299d2"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/previews/film-scan-06.jpg",
+      "bytes": 41414,
+      "sha256": "2375fb79ef06da12b528a72344cb94ac76394df6ca697fb49b0cdf414dd67315"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/previews/film-scan-07.jpg",
+      "bytes": 72047,
+      "sha256": "a40e8ed719e7e5a395c36de4a7056f235980a9736d9c8d7acfcd07273e18cc5a"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/previews/film-scan-08.jpg",
+      "bytes": 57179,
+      "sha256": "ad2b9946d560237da0da69199511e7d1cff35cdc14654c5f347f8e4b14c7c30c"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/previews/film-scan-09.jpg",
+      "bytes": 45666,
+      "sha256": "fc0da2b63388fa85ee7cdfca0a959b0d99c4aca18ccee8a0ca18cf901c4bc52c"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/previews/film-scan-10.jpg",
+      "bytes": 17124,
+      "sha256": "6370a626284b504ec18440c1117094ec3b83df272eed1dd4937502b0c520f5b0"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/result.json",
+      "bytes": 3479,
+      "sha256": "503264bbc076a2cb7719b2a027a20031c37f95c73e68a1c7fed0f2f3de4c0f1c"
+    },
+    {
+      "path": "data/upstream/expansion12-grok/filtergrade/rights-evidence.json",
+      "bytes": 2347,
+      "sha256": "7a1a72d1991b192a6b110af5703eab4aa191a1f908f65e8f11ca42435e5ece3f"
+    }
+  ],
+  "processesClosed": true
+}

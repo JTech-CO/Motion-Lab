@@ -1,0 +1,82 @@
+[
+  {
+    "candidateIndex": 1,
+    "decision": "eligible-candidate",
+    "id": "expansion12-grok-filtergrade-16mm-light-leak",
+    "originalSha256": "833ec2e3882a47a4f3d283de31f2652f5e1f077a0bd13f1d0b72caa4e658a532",
+    "previewSha256": "c1de7a988e0f701bc3f5a391464c51ba5269284bd4793ff6149d44af9f7b2bfc",
+    "reason": "Full-frame warm emulsion leak with a diagonal exposure boundary and left-edge perforations. Other warm/red exposure frames from this scan pack are collapsed into this family."
+  },
+  {
+    "candidateIndex": 2,
+    "decision": "excluded",
+    "originalSha256": "1986a12b0d7c3317e65c45cb28071161970fb3039371bbe22b61bc93e7d302f3",
+    "sameFamilyRepresentative": 1,
+    "reason": "same-film-gate-exposure-family",
+    "details": "Same perforated film-gate source family with amber exposure and gate-boundary variation; excluded rather than counting another frame."
+  },
+  {
+    "candidateIndex": 3,
+    "decision": "excluded",
+    "originalSha256": "3f72d88b9c8be128df5dfad0ccc1c966bcf9df7de8a41cd5713b370a8efd5376",
+    "sameFamilyRepresentative": 1,
+    "reason": "same-film-gate-exposure-family",
+    "details": "Flat warm exposure is a frame/exposure variation of the same perforated scan family."
+  },
+  {
+    "candidateIndex": 4,
+    "decision": "eligible-candidate",
+    "id": "expansion12-grok-filtergrade-16mm-circle-punch",
+    "originalSha256": "faaf024730ce3822767694b582809a589083e9a38fe1ec6c9e9de5e0e0b3af15",
+    "previewSha256": "d22a44d1a2a335fc056ece740729c66164a288941658f7c22911687e5898917e",
+    "reason": "Irregular punched circular opening within a complete perforated film frame. The alternate gray exposure of the same punch is excluded."
+  },
+  {
+    "candidateIndex": 5,
+    "decision": "eligible-candidate",
+    "id": "expansion12-grok-filtergrade-16mm-negative-gate",
+    "originalSha256": "fdf1a131957b12a856b71c76c1a180ad31905fd0ab1afa948669a59a44df809b",
+    "previewSha256": "b1fb5426bd23868fba172361de0be1e1b4b33b501fbeea73cd64fe3b89e299d2",
+    "reason": "Large black interior gate with a rounded lower corner and uneven green emulsion pool along the lower boundary; different complete mask from the diagonal leak and circle punch."
+  },
+  {
+    "candidateIndex": 6,
+    "decision": "eligible-candidate",
+    "id": "expansion12-grok-filtergrade-16mm-white-edge",
+    "originalSha256": "a67fa6b7efe15b844053123e190d025e76cf745e44b443027463a186125575c6",
+    "previewSha256": "2375fb79ef06da12b528a72344cb94ac76394df6ca697fb49b0cdf414dd67315",
+    "reason": "Pale unexposed film field with a thin upper emulsion line, horizontal scan scratches and left-edge perforations. The differently cropped pale edge frame is excluded."
+  },
+  {
+    "candidateIndex": 7,
+    "decision": "excluded",
+    "originalSha256": "1986a12b0d7c3317e65c45cb28071161970fb3039371bbe22b61bc93e7d302f3",
+    "sameFamilyRepresentative": 1,
+    "reason": "byte-exact-original-alias",
+    "details": "Byte-exact duplicate of candidate2; that exposure is also excluded in favor of family representative1."
+  },
+  {
+    "candidateIndex": 8,
+    "decision": "excluded",
+    "originalSha256": "80d583bb51bbbeb411fd8f26c2943d6f844901fd8960f24231c919b8283027e8",
+    "sameFamilyRepresentative": 1,
+    "reason": "same-film-gate-exposure-family",
+    "details": "Red exposure and rounded gate variation do not establish an independent scan family."
+  },
+  {
+    "candidateIndex": 9,
+    "decision": "excluded",
+    "originalSha256": "146d66af7b140d8d0bc734bbc42391e9e3f9c36af11240e67c6b64965bc4f10d",
+    "sameFamilyRepresentative": 6,
+    "reason": "same-white-film-edge-crop-family",
+    "details": "Same pale film field, thin top boundary and perforations with crop/aspect and exposure changes."
+  },
+  {
+    "candidateIndex": 10,
+    "decision": "excluded",
+    "originalSha256": "54a1b32de2359676850654aa1f63b3187a48837721834a9833d046d7cffc226b",
+    "sameFamilyRepresentative": 4,
+    "reason": "same-circle-punch-exposure-family",
+    "details": "Same irregular circular punch and perforation layout; gray/brown exposure and frame differences are excluded."
+  }
+]

@@ -1,0 +1,73 @@
+{
+  "version": 1,
+  "verifiedAt": "2026-10-10T14:12:56.530063+00:00",
+  "status": "review-complete",
+  "baselineCatalogSha256": "f3f125c7f7e43ad061d137fc20ee013f2f320c31f5a2fd0e9e7902e03c823b13",
+  "inputPath": "data/upstream/expansion12-grok/filtergrade/candidates.json",
+  "inputSha256": "faa91f0a0ea3e4a8038c842f688ecae4738cf23d79022596d20b51fc8ada377c",
+  "advertisedPackCount": 8,
+  "actualAuthorLinkedPngUrls": 10,
+  "originalsAcquired": 10,
+  "uniqueOriginalBodies": 9,
+  "byteExactDuplicateOriginals": 1,
+  "familyVariantsExcluded": 5,
+  "eligibleCandidates": 4,
+  "verifiedNetNewCandidates": 4,
+  "addedToCanonicalCatalog": 0,
+  "acceptedCandidateIndices": [
+    1,
+    4,
+    5,
+    6
+  ],
+  "excludedCandidateIndices": [
+    2,
+    3,
+    7,
+    8,
+    9,
+    10
+  ],
+  "previewFiles": {
+    "expansion12-grok-filtergrade-16mm-light-leak": "data/upstream/expansion12-grok/filtergrade/previews/expansion12-grok-filtergrade-16mm-light-leak.jpg",
+    "expansion12-grok-filtergrade-16mm-circle-punch": "data/upstream/expansion12-grok/filtergrade/previews/expansion12-grok-filtergrade-16mm-circle-punch.jpg",
+    "expansion12-grok-filtergrade-16mm-negative-gate": "data/upstream/expansion12-grok/filtergrade/previews/expansion12-grok-filtergrade-16mm-negative-gate.jpg",
+    "expansion12-grok-filtergrade-16mm-white-edge": "data/upstream/expansion12-grok/filtergrade/previews/expansion12-grok-filtergrade-16mm-white-edge.jpg"
+  },
+  "collectionEvidenceValidation": "PASS4/4 actual originals/full notice/stored JPEG SHA and descriptor checks",
+  "baselineComparison": {
+    "storedRecordViews": 11579,
+    "allStoredCodePaletteBodiesChecked": 10325,
+    "imageCount": 1254,
+    "newOldImagePairCount": 12540,
+    "newNewImagePairCount": 45,
+    "exactExistingMatches": 0,
+    "highConfidenceOldImageStructureMatches": 0,
+    "oldImageReviewPairsAtOrAbove0_9": 0,
+    "manualNearestScreenReviewed": true,
+    "manualFamiliesCollapsedDespiteBelowThresholdScores": true,
+    "sourceCodeExecuted": false,
+    "crossFormatLimit": "All code bodies scanned for embedded image/author URI/byte reuse and related film/shader/vector implementation inspected; every temporal animation state was not rasterized."
+  },
+  "accessSummary": {
+    "siteRobotsNormalChrome": 200,
+    "siteCrawlDelaySeconds": 10,
+    "articleNormalChrome": 403,
+    "cdnRobotsNormalChrome": 403,
+    "cdnRobotsMime": "application/xml",
+    "authorLinkedPngNormalChrome": {
+      "200": 10
+    },
+    "officialFullLegalTextNormalChrome": 200,
+    "collectionUsed": "Normal browser exact published PNG URL documents, unchanged UA/headers, isolated JS-disabled context; no proxy/token/auth/challenge solving."
+  },
+  "noticeSha256": "d29bf1522f38aaed6166fe83fc6684c24b54986395d3605eb5fdf097b32730a8",
+  "processesClosed": true,
+  "canonicalInputsModified": false,
+  "originalsModified": false,
+  "limitations": [
+    "The article advertises eight scans but exposes ten distinct PNG anchor URLs; byte aliases and visual-family variants were excluded before counting.",
+    "The article itself currently returns403 in ordinary Chrome, while official public web content and frozen rights/source evidence remain consistent and all actual author-linked PNG originals return200.",
+    "New Pixabay/Pond5/other Grok candidates are independently collected by parent lanes; final new-new cross-source comparison remains for root integration."
+  ]
+}

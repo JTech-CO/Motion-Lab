@@ -31,7 +31,7 @@ WAVE_INPUTS = ("css-wave-items.json", "vector-wave-items.json", "color-wave-item
                "expansion12-pattern-items.json", "expansion12-vector-items.json",
                "expansion12-material-items.json", "expansion12-shape-items.json",
                "expansion12-openmoji-items.json", "expansion12-ctrlv-items.json",
-               "expansion12-motion-reserve-items.json")
+               "expansion12-motion-reserve-items.json", "expansion12-grok-items.json")
 
 
 MAX_INPUT_JSON_BYTES = 100 * 1024 * 1024

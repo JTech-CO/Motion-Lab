@@ -1,6 +1,6 @@
 {
   "baseline": 2148,
-  "added": 9711,
+  "added": 9732,
   "inputs": {
     "css-wave-items.json": {
       "input": 644,
@@ -76,11 +76,16 @@
       "input": 0,
       "accepted": 0,
       "duplicates": 0
+    },
+    "expansion12-grok-items.json": {
+      "input": 21,
+      "accepted": 21,
+      "duplicates": 0
     }
   },
   "duplicatePolicy": "Ordered hex arrays, CSS bodies with comments/whitespace normalized, and canonical SVG XML; existing IDs are retained.",
   "excluded": [],
-  "total": 11859,
-  "publishedTotal": 11825,
+  "total": 11880,
+  "publishedTotal": 11846,
   "consolidatedRemoved": 34
 }

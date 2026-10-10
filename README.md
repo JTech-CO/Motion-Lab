@@ -12,13 +12,13 @@
 A library of motion code, design assets and reviewed references for people and AI tools. Compare local previews, search by effect and component, then retrieve the original code or image with its source and license. The collection stores code, colors and images rather than MP4 files.
 
 <!-- motionlab:catalog-summary:start -->
-**11,542 stored assets + 283 reviewed references**, across 170 registered sources.
+**11,563 stored assets + 283 reviewed references**, across 177 registered sources.
 Counts below reflect the catalog on 2026-10-10; run `python -m motionlab stats` for the current totals.
 
 | Collection | Entries | Contents |
 | --- | ---: | --- |
 | Motion | 3,399 | Animation, transitions, typography, loaders and interaction effects |
-| Design | 8,143 | Patterns, shapes, palettes, gradients and material images |
+| Design | 8,164 | Patterns, shapes, illustrations, palettes, gradients and material images |
 | References | 283 | Reviewed examples, libraries, tools, case studies and learning resources |
 <!-- motionlab:catalog-summary:end -->
 
@@ -74,7 +74,9 @@ The chart and both README count summaries update automatically when `python scri
 
 Licenses apply **per asset and per original variant**. Preserve the source attribution and required license notices when reusing code or images. Similar entries are grouped for browsing while retaining original IDs, code, exact colors and rights; variants are not counted as additional independent assets.
 
-Stored previews use supported CSS, GLSL, SVG, exact colors or local material images. Reference previews are separate concept illustrations or related stored assets, with their own rights and limitations. They do not reproduce the original website or grant rights to the referenced work. Classification and source checks do not certify imported code as safe to execute.
+The [Grok source review](data/grok-import-report.json) added 21 static design assets: 12 illustrations, 8 material images and 1 pattern. Each accepted work passed individual license checks and comparisons against the retained catalog; original files, notices and verification evidence are preserved.
+
+Stored previews use supported CSS, GLSL, SVG, exact colors or local images, including raster illustrations and scanned textures. Reference previews are separate concept illustrations or related stored assets, with their own rights and limitations. They do not reproduce the original website or grant rights to the referenced work. Classification and source checks do not certify imported code as safe to execute.
 
 - [Collection, rebuilding and packaging](docs/collection.md)
 - [Classification, previews and original variants](docs/asset-analysis.md)

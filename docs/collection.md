@@ -28,6 +28,7 @@ python -m motionlab serve --port 8787
 | CSS·SVG·색상 추가 입력 | `data/expanded-assets.json`, `css-wave-items.json`, `vector-wave-items.json`, `color-wave-items.json` |
 | 모션·디자인·소재·추가 형상 | `data/phase2-motion-items.json`, `phase2-design-items.json`, `phase2-material-items.json`, `phase2-game-design-items.json` |
 | 12,000개 확장 입력 | `data/expansion12-motion-items.json`, `expansion12-pattern-items.json`, `expansion12-vector-items.json`, `expansion12-material-items.json`, `expansion12-shape-items.json`, `expansion12-openmoji-items.json`, `expansion12-ctrlv-items.json`, `expansion12-motion-reserve-items.json` |
+| Grok 후보의 검증된 실제 에셋 | `data/expansion12-grok-items.json`, `data/grok-import-report.json` |
 | 원본 변형 병합 정책 | `data/consolidation-policy.json` |
 | 레퍼런스 분류·독립 미리보기 | `data/reference-review-cha.json`, `reference-review-sources.json` |
 | 접근 불가 레퍼런스 제외 정책 | `data/reference-removals.json` |
@@ -64,6 +65,8 @@ python scripts/recheck_consolidation.py
 이번 확장은 저장 에셋 12,000개를 목표로 하며 검토 레퍼런스는 별도로 집계합니다. 모션 100개, 패턴 120개, 소재 100개, 벡터 130개, 복합형상 50개를 먼저 고정해 원본·권리·미리보기·기존 변형·분야 간 유사를 검증합니다. 소재의 최신 100개 표본은 해당 목록의 전수 조사이며 전체 공급량으로 채택률을 외삽하지 않습니다. 결과와 개별 채택·제외 근거는 `data/upstream/expansion12-*/`에 보존합니다. 다음 15,000개와 20,000개 확장은 이번 실채택률과 아직 검증하지 않은 원본 공급량을 확인한 뒤 별도로 진행합니다.
 
 새 확장 입력의 `collectionEvidence`는 원본 파일·고지·저장 본문의 SHA256을 연결합니다. 빌드와 카탈로그 검증은 네트워크 접속 없이 이 증거를 검사하며, 해시 불일치·누락·프로젝트 밖 경로·파일 링크가 있으면 중단합니다. 절차형 GLSL은 원본 조각과 공개 초깃값을 보존한 로컬 시간 호스트 어댑터로 재생하고, SVG는 허용한 로컬 기하·필터·마스크만 렌더링합니다.
+
+Grok의 후보 4곳은 사이트 전체를 복제할 수 있다는 뜻이 아닙니다. 실제 채택은 개별 작품의 공개 원본·저자·재배포 권리·미리보기·중복 검증을 통과해야 합니다. 동일 작품의 저자 배포본 또는 명시적 CC0 공개 미러를 이용하면 원래 후보 사이트와 대체 원본의 관계를 함께 보존합니다. 접근 또는 권리 확인이 막힌 후보는 저장량에 포함하지 않으며, 이번 결과와 원본 근거는 `data/grok-import-report.json` 및 `data/upstream/expansion12-grok/`에서 확인합니다.
 
 과거 JSON 검토 기록은 당시 실행 결과·카탈로그·원문에 연결된 이력입니다. 그 안에 남은 당시 도구나 개발 문서 경로는 해당 파일이 현재도 존재한다는 보증이 아니며, 현재 재현 명령은 이 문서의 빌드·검증·재검사 명령입니다.
 

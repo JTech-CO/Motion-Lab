@@ -1,0 +1,926 @@
+{
+  "catalogSha256": "f3f125c7f7e43ad061d137fc20ee013f2f320c31f5a2fd0e9e7902e03c823b13",
+  "rendererSha256": "f96d0d7078ffe6aa189fce72723a1ee8dd2e8b2c475b628eb1f80bc2336b7151",
+  "baselineRecordViewsIncludingRepeatedVariantsRepairs": 11882,
+  "baselineCountDefinition": "Record views, not distinct original identities; includes canonical records, variants and repaired original views.",
+  "svgOriginals": 5379,
+  "renderedSvgOriginals": 5379,
+  "imageOriginals": 1254,
+  "comparedRecords": 6633,
+  "errors": [],
+  "reviewedRepresentatives": [
+    {
+      "n": 1,
+      "topMatches": [
+        {
+          "id": "design-tabler-moustache",
+          "normalizedInkCorrelation": 0.53061,
+          "contentSha256": "f33ca205aaf3f84ec127a518aad439e01cca67eff00397bf21879163f653291b"
+        },
+        {
+          "id": "expansion12-openmoji-1f40a",
+          "normalizedInkCorrelation": 0.511822,
+          "contentSha256": "5034f83d6382dfe9be2dc3c6ada8113664866edfabb0d620d9c57c36ec7698b4"
+        },
+        {
+          "id": "vector-line-md-play-filled-to-pause-transition",
+          "normalizedInkCorrelation": 0.500229,
+          "contentSha256": "a438930aa88ba53d5d73059f17778236c48bde6bb27c76ba84af8f8df5d7f51d"
+        },
+        {
+          "id": "phase2-motion-meteocons-flag-hurricane-warning",
+          "normalizedInkCorrelation": 0.498449,
+          "contentSha256": "9643e63fe5a371b403ce5c02a55f3867c5c09b0dcd741b1014cb0c65641e1ec8"
+        },
+        {
+          "id": "expansion12-openmoji-1f988",
+          "normalizedInkCorrelation": 0.494911,
+          "contentSha256": "4729d36497cb9f9d587b6593104bc8fff8fef4a1de6d02db3576be219c6e073e"
+        }
+      ],
+      "threshold": 0.925
+    },
+    {
+      "n": 3,
+      "topMatches": [
+        {
+          "id": "expansion12-vector-transhumans-chilly",
+          "normalizedInkCorrelation": 0.613295,
+          "contentSha256": "50ef123d2d315489cc121e37f97df14141bf771c774a9974cdfeb195f6877395"
+        },
+        {
+          "id": "phase2-material-ambientcg-footsteps003",
+          "normalizedInkCorrelation": 0.590833,
+          "contentSha256": "9c5272895395f527795ab2f32d46756d7849702419c514b397823378943a86ee"
+        },
+        {
+          "id": "phase2-material-ambientcg-rust001",
+          "normalizedInkCorrelation": 0.589369,
+          "contentSha256": "9ce404aea7933cedef5906888d8873e65244b985bb7c2510e490abb9db4c6078"
+        },
+        {
+          "id": "phase2-material-ambientcg-tactilepaving007",
+          "normalizedInkCorrelation": 0.575845,
+          "contentSha256": "22fdc15005908a91d85178635e86e21bb8b30dbf1e5676d4e6407a9f0ad4f8df"
+        },
+        {
+          "id": "vector-svg-spinners-gooey-balls-2",
+          "normalizedInkCorrelation": 0.566274,
+          "contentSha256": "a00fc1c652d7e6761c98393b8e9d92c4c9c52d67c49acab0df58393cfa33a03a"
+        }
+      ],
+      "threshold": 0.925
+    },
+    {
+      "n": 5,
+      "topMatches": [
+        {
+          "id": "vector-line-md-watch-off",
+          "normalizedInkCorrelation": 0.659438,
+          "contentSha256": "eb892819df466b8f000082edc414953fe0b2c0c682ffafb3948ee056069ca4c3"
+        },
+        {
+          "id": "vector-line-md-watch-twotone",
+          "normalizedInkCorrelation": 0.659438,
+          "contentSha256": "2011a361b87fdfdeaf18edf9d84db3639378bbb456a8027e8b903706d42380d0"
+        },
+        {
+          "id": "vector-line-md-watch-off-twotone-loop",
+          "normalizedInkCorrelation": 0.659438,
+          "contentSha256": "590cc34b8b5ed53876a19ef8cd5b34f594cd7fe1bbfaa74d9d1f57eb9e506f81"
+        },
+        {
+          "id": "vector-line-md-watch-twotone-loop",
+          "normalizedInkCorrelation": 0.659438,
+          "contentSha256": "268070ad8fdf473fdb7cd738ac67ef41341fc8fa9ad89833c3e751b39332a13e"
+        },
+        {
+          "id": "vector-line-md-watch-off-twotone",
+          "normalizedInkCorrelation": 0.659438,
+          "contentSha256": "600f84e0b1413affd738cb6ca74f26bba26a0f4c907124d8a9f04b54517a5589"
+        }
+      ],
+      "threshold": 0.925
+    },
+    {
+      "n": 6,
+      "topMatches": [
+        {
+          "id": "phase2-material-ambientcg-footsteps003",
+          "normalizedInkCorrelation": 0.593363,
+          "contentSha256": "9c5272895395f527795ab2f32d46756d7849702419c514b397823378943a86ee"
+        },
+        {
+          "id": "vector-line-md-watch-off-loop",
+          "normalizedInkCorrelation": 0.583434,
+          "contentSha256": "5b3b565c819378b3121ec2fe93e1e5f8ae43e0398039af63ec55649e7c623b2c"
+        },
+        {
+          "id": "vector-line-md-watch-twotone",
+          "normalizedInkCorrelation": 0.583434,
+          "contentSha256": "2011a361b87fdfdeaf18edf9d84db3639378bbb456a8027e8b903706d42380d0"
+        },
+        {
+          "id": "vector-line-md-watch-twotone-loop",
+          "normalizedInkCorrelation": 0.583434,
+          "contentSha256": "268070ad8fdf473fdb7cd738ac67ef41341fc8fa9ad89833c3e751b39332a13e"
+        },
+        {
+          "id": "vector-line-md-watch",
+          "normalizedInkCorrelation": 0.583434,
+          "contentSha256": "e32bb63b85342a93b54b2564c8ba5faac67c357ab7c430ecb188fe610daaf555"
+        }
+      ],
+      "threshold": 0.925
+    },
+    {
+      "n": 8,
+      "topMatches": [
+        {
+          "id": "phase2-material-ambientcg-rust001",
+          "normalizedInkCorrelation": 0.595392,
+          "contentSha256": "9ce404aea7933cedef5906888d8873e65244b985bb7c2510e490abb9db4c6078"
+        },
+        {
+          "id": "phase2-material-ambientcg-tactilepaving007",
+          "normalizedInkCorrelation": 0.563299,
+          "contentSha256": "22fdc15005908a91d85178635e86e21bb8b30dbf1e5676d4e6407a9f0ad4f8df"
+        },
+        {
+          "id": "phase2-material-ambientcg-footsteps003",
+          "normalizedInkCorrelation": 0.557352,
+          "contentSha256": "9c5272895395f527795ab2f32d46756d7849702419c514b397823378943a86ee"
+        },
+        {
+          "id": "expansion12-openmoji-1f40a",
+          "normalizedInkCorrelation": 0.532548,
+          "contentSha256": "5034f83d6382dfe9be2dc3c6ada8113664866edfabb0d620d9c57c36ec7698b4"
+        },
+        {
+          "id": "expansion12-vector-barbieland-barbie-lantern",
+          "normalizedInkCorrelation": 0.519553,
+          "contentSha256": "c7a15a152fba7d618a3639e5a06a7a78ef8decc680b69eb7c72ade71da4326d1"
+        }
+      ],
+      "threshold": 0.925
+    },
+    {
+      "n": 10,
+      "topMatches": [
+        {
+          "id": "vector-svg-spinners-gooey-balls-2",
+          "normalizedInkCorrelation": 0.544878,
+          "contentSha256": "a00fc1c652d7e6761c98393b8e9d92c4c9c52d67c49acab0df58393cfa33a03a"
+        },
+        {
+          "id": "phase2-material-ambientcg-rust001",
+          "normalizedInkCorrelation": 0.524272,
+          "contentSha256": "9ce404aea7933cedef5906888d8873e65244b985bb7c2510e490abb9db4c6078"
+        },
+        {
+          "id": "phase2-material-ambientcg-tactilepaving007",
+          "normalizedInkCorrelation": 0.495306,
+          "contentSha256": "22fdc15005908a91d85178635e86e21bb8b30dbf1e5676d4e6407a9f0ad4f8df"
+        },
+        {
+          "id": "phase2-material-ambientcg-footsteps003",
+          "normalizedInkCorrelation": 0.492955,
+          "contentSha256": "9c5272895395f527795ab2f32d46756d7849702419c514b397823378943a86ee"
+        },
+        {
+          "id": "expansion12-openmoji-1f40a",
+          "normalizedInkCorrelation": 0.485466,
+          "contentSha256": "5034f83d6382dfe9be2dc3c6ada8113664866edfabb0d620d9c57c36ec7698b4"
+        }
+      ],
+      "threshold": 0.925
+    },
+    {
+      "n": 11,
+      "topMatches": [
+        {
+          "id": "vector-line-md-watch-twotone",
+          "normalizedInkCorrelation": 0.600758,
+          "contentSha256": "2011a361b87fdfdeaf18edf9d84db3639378bbb456a8027e8b903706d42380d0"
+        },
+        {
+          "id": "vector-line-md-watch-twotone-loop",
+          "normalizedInkCorrelation": 0.600758,
+          "contentSha256": "268070ad8fdf473fdb7cd738ac67ef41341fc8fa9ad89833c3e751b39332a13e"
+        },
+        {
+          "id": "vector-line-md-watch",
+          "normalizedInkCorrelation": 0.600758,
+          "contentSha256": "e32bb63b85342a93b54b2564c8ba5faac67c357ab7c430ecb188fe610daaf555"
+        },
+        {
+          "id": "vector-line-md-watch-loop",
+          "normalizedInkCorrelation": 0.600758,
+          "contentSha256": "6bd7b2f5703c8ca4495785a883f65d1872a83d297630fbfd52bbe7dcbc827955"
+        },
+        {
+          "id": "vector-line-md-watch-off-twotone",
+          "normalizedInkCorrelation": 0.600758,
+          "contentSha256": "600f84e0b1413affd738cb6ca74f26bba26a0f4c907124d8a9f04b54517a5589"
+        }
+      ],
+      "threshold": 0.925
+    },
+    {
+      "n": 12,
+      "topMatches": [
+        {
+          "id": "phase2-material-ambientcg-rust001",
+          "normalizedInkCorrelation": 0.651387,
+          "contentSha256": "9ce404aea7933cedef5906888d8873e65244b985bb7c2510e490abb9db4c6078"
+        },
+        {
+          "id": "phase2-material-ambientcg-footsteps003",
+          "normalizedInkCorrelation": 0.646052,
+          "contentSha256": "9c5272895395f527795ab2f32d46756d7849702419c514b397823378943a86ee"
+        },
+        {
+          "id": "phase2-material-ambientcg-tactilepaving007",
+          "normalizedInkCorrelation": 0.604258,
+          "contentSha256": "22fdc15005908a91d85178635e86e21bb8b30dbf1e5676d4e6407a9f0ad4f8df"
+        },
+        {
+          "id": "vector-line-md-watch",
+          "normalizedInkCorrelation": 0.601911,
+          "contentSha256": "e32bb63b85342a93b54b2564c8ba5faac67c357ab7c430ecb188fe610daaf555"
+        },
+        {
+          "id": "vector-line-md-watch-off-twotone",
+          "normalizedInkCorrelation": 0.601911,
+          "contentSha256": "600f84e0b1413affd738cb6ca74f26bba26a0f4c907124d8a9f04b54517a5589"
+        }
+      ],
+      "threshold": 0.925
+    },
+    {
+      "n": 13,
+      "topMatches": [
+        {
+          "id": "phase2-material-ambientcg-rust001",
+          "normalizedInkCorrelation": 0.651278,
+          "contentSha256": "9ce404aea7933cedef5906888d8873e65244b985bb7c2510e490abb9db4c6078"
+        },
+        {
+          "id": "phase2-material-ambientcg-footsteps003",
+          "normalizedInkCorrelation": 0.640986,
+          "contentSha256": "9c5272895395f527795ab2f32d46756d7849702419c514b397823378943a86ee"
+        },
+        {
+          "id": "vector-line-md-watch-off",
+          "normalizedInkCorrelation": 0.606187,
+          "contentSha256": "eb892819df466b8f000082edc414953fe0b2c0c682ffafb3948ee056069ca4c3"
+        },
+        {
+          "id": "vector-line-md-watch",
+          "normalizedInkCorrelation": 0.606187,
+          "contentSha256": "e32bb63b85342a93b54b2564c8ba5faac67c357ab7c430ecb188fe610daaf555"
+        },
+        {
+          "id": "vector-line-md-watch-off-twotone-loop",
+          "normalizedInkCorrelation": 0.606187,
+          "contentSha256": "590cc34b8b5ed53876a19ef8cd5b34f594cd7fe1bbfaa74d9d1f57eb9e506f81"
+        }
+      ],
+      "threshold": 0.925
+    },
+    {
+      "n": 14,
+      "topMatches": [
+        {
+          "id": "phase2-material-ambientcg-rust001",
+          "normalizedInkCorrelation": 0.591326,
+          "contentSha256": "9ce404aea7933cedef5906888d8873e65244b985bb7c2510e490abb9db4c6078"
+        },
+        {
+          "id": "phase2-material-ambientcg-footsteps003",
+          "normalizedInkCorrelation": 0.586403,
+          "contentSha256": "9c5272895395f527795ab2f32d46756d7849702419c514b397823378943a86ee"
+        },
+        {
+          "id": "vector-line-md-watch-off-twotone",
+          "normalizedInkCorrelation": 0.565747,
+          "contentSha256": "600f84e0b1413affd738cb6ca74f26bba26a0f4c907124d8a9f04b54517a5589"
+        },
+        {
+          "id": "vector-line-md-watch",
+          "normalizedInkCorrelation": 0.565747,
+          "contentSha256": "e32bb63b85342a93b54b2564c8ba5faac67c357ab7c430ecb188fe610daaf555"
+        },
+        {
+          "id": "vector-line-md-watch-twotone",
+          "normalizedInkCorrelation": 0.565747,
+          "contentSha256": "2011a361b87fdfdeaf18edf9d84db3639378bbb456a8027e8b903706d42380d0"
+        }
+      ],
+      "threshold": 0.925
+    },
+    {
+      "n": 15,
+      "topMatches": [
+        {
+          "id": "phase2-material-ambientcg-rust001",
+          "normalizedInkCorrelation": 0.526699,
+          "contentSha256": "9ce404aea7933cedef5906888d8873e65244b985bb7c2510e490abb9db4c6078"
+        },
+        {
+          "id": "expansion12-vector-space-creepy-tree-organic-v-m-red800-2x",
+          "normalizedInkCorrelation": 0.520279,
+          "contentSha256": "12477a4ed78ddd3fdc23c09f1aa9157a4d2c80e2c2905ea5c1cdb3e57cc6dd47"
+        },
+        {
+          "id": "phase2-motion-meteocons-thermometer-sun",
+          "normalizedInkCorrelation": 0.516991,
+          "contentSha256": "4a843e0adfbf67978cbcd3dcb8eabfd5f99a82710df8d30d6ddeef45c9f6027a"
+        },
+        {
+          "id": "design-tabler-math-not",
+          "normalizedInkCorrelation": 0.51347,
+          "contentSha256": "d1bfdaefdf2805c7487a09e3d4352a94c18e5d49aa689c75168fe84f651af6ca"
+        },
+        {
+          "id": "phase2-motion-meteocons-wind-beaufort-10",
+          "normalizedInkCorrelation": 0.49799,
+          "contentSha256": "1c05818f5ad1676dc7967835c5821e1ee96b3e274f652f7a76e3ee09eb43b126"
+        }
+      ],
+      "threshold": 0.925
+    },
+    {
+      "n": 16,
+      "topMatches": [
+        {
+          "id": "phase2-material-ambientcg-footsteps003",
+          "normalizedInkCorrelation": 0.608948,
+          "contentSha256": "9c5272895395f527795ab2f32d46756d7849702419c514b397823378943a86ee"
+        },
+        {
+          "id": "vector-line-md-watch-twotone-loop",
+          "normalizedInkCorrelation": 0.60847,
+          "contentSha256": "268070ad8fdf473fdb7cd738ac67ef41341fc8fa9ad89833c3e751b39332a13e"
+        },
+        {
+          "id": "vector-line-md-watch",
+          "normalizedInkCorrelation": 0.60847,
+          "contentSha256": "e32bb63b85342a93b54b2564c8ba5faac67c357ab7c430ecb188fe610daaf555"
+        },
+        {
+          "id": "vector-line-md-watch-loop",
+          "normalizedInkCorrelation": 0.60847,
+          "contentSha256": "6bd7b2f5703c8ca4495785a883f65d1872a83d297630fbfd52bbe7dcbc827955"
+        },
+        {
+          "id": "vector-line-md-watch-off-twotone-loop",
+          "normalizedInkCorrelation": 0.60847,
+          "contentSha256": "590cc34b8b5ed53876a19ef8cd5b34f594cd7fe1bbfaa74d9d1f57eb9e506f81"
+        }
+      ],
+      "threshold": 0.925
+    },
+    {
+      "n": 36,
+      "topMatches": [
+        {
+          "id": "vector-line-md-watch",
+          "normalizedInkCorrelation": 0.594802,
+          "contentSha256": "e32bb63b85342a93b54b2564c8ba5faac67c357ab7c430ecb188fe610daaf555"
+        },
+        {
+          "id": "vector-line-md-watch-loop",
+          "normalizedInkCorrelation": 0.594802,
+          "contentSha256": "6bd7b2f5703c8ca4495785a883f65d1872a83d297630fbfd52bbe7dcbc827955"
+        },
+        {
+          "id": "vector-line-md-watch-off",
+          "normalizedInkCorrelation": 0.594802,
+          "contentSha256": "eb892819df466b8f000082edc414953fe0b2c0c682ffafb3948ee056069ca4c3"
+        },
+        {
+          "id": "vector-line-md-watch-off-loop",
+          "normalizedInkCorrelation": 0.594802,
+          "contentSha256": "5b3b565c819378b3121ec2fe93e1e5f8ae43e0398039af63ec55649e7c623b2c"
+        },
+        {
+          "id": "vector-line-md-watch-off-twotone",
+          "normalizedInkCorrelation": 0.594802,
+          "contentSha256": "600f84e0b1413affd738cb6ca74f26bba26a0f4c907124d8a9f04b54517a5589"
+        }
+      ],
+      "threshold": 0.925
+    },
+    {
+      "n": 46,
+      "topMatches": [
+        {
+          "id": "phase2-material-ambientcg-rust001",
+          "normalizedInkCorrelation": 0.593755,
+          "contentSha256": "9ce404aea7933cedef5906888d8873e65244b985bb7c2510e490abb9db4c6078"
+        },
+        {
+          "id": "phase2-material-ambientcg-footsteps003",
+          "normalizedInkCorrelation": 0.580128,
+          "contentSha256": "9c5272895395f527795ab2f32d46756d7849702419c514b397823378943a86ee"
+        },
+        {
+          "id": "phase2-material-ambientcg-tactilepaving007",
+          "normalizedInkCorrelation": 0.546275,
+          "contentSha256": "22fdc15005908a91d85178635e86e21bb8b30dbf1e5676d4e6407a9f0ad4f8df"
+        },
+        {
+          "id": "design-tabler-servicemark",
+          "normalizedInkCorrelation": 0.544017,
+          "contentSha256": "a414d9e8d1410508a593848b067d24ec4c780f92dc9bb018535e37385c5eaa19"
+        },
+        {
+          "id": "expansion12-openmoji-1f40a",
+          "normalizedInkCorrelation": 0.524923,
+          "contentSha256": "5034f83d6382dfe9be2dc3c6ada8113664866edfabb0d620d9c57c36ec7698b4"
+        }
+      ],
+      "threshold": 0.925
+    }
+  ],
+  "internalPairs": [
+    {
+      "left": 1,
+      "right": 3,
+      "normalizedInkCorrelation": 0.324165
+    },
+    {
+      "left": 1,
+      "right": 5,
+      "normalizedInkCorrelation": 0.261133
+    },
+    {
+      "left": 1,
+      "right": 6,
+      "normalizedInkCorrelation": 0.320126
+    },
+    {
+      "left": 1,
+      "right": 8,
+      "normalizedInkCorrelation": 0.65775
+    },
+    {
+      "left": 1,
+      "right": 10,
+      "normalizedInkCorrelation": 0.166359
+    },
+    {
+      "left": 1,
+      "right": 11,
+      "normalizedInkCorrelation": 0.268226
+    },
+    {
+      "left": 1,
+      "right": 12,
+      "normalizedInkCorrelation": 0.24554
+    },
+    {
+      "left": 1,
+      "right": 13,
+      "normalizedInkCorrelation": 0.243394
+    },
+    {
+      "left": 1,
+      "right": 14,
+      "normalizedInkCorrelation": 0.207097
+    },
+    {
+      "left": 1,
+      "right": 15,
+      "normalizedInkCorrelation": 0.174145
+    },
+    {
+      "left": 1,
+      "right": 16,
+      "normalizedInkCorrelation": 0.267963
+    },
+    {
+      "left": 1,
+      "right": 36,
+      "normalizedInkCorrelation": 0.17484
+    },
+    {
+      "left": 1,
+      "right": 46,
+      "normalizedInkCorrelation": 0.374771
+    },
+    {
+      "left": 3,
+      "right": 5,
+      "normalizedInkCorrelation": 0.72781
+    },
+    {
+      "left": 3,
+      "right": 6,
+      "normalizedInkCorrelation": 0.693551
+    },
+    {
+      "left": 3,
+      "right": 8,
+      "normalizedInkCorrelation": 0.37226
+    },
+    {
+      "left": 3,
+      "right": 10,
+      "normalizedInkCorrelation": 0.460211
+    },
+    {
+      "left": 3,
+      "right": 11,
+      "normalizedInkCorrelation": 0.722472
+    },
+    {
+      "left": 3,
+      "right": 12,
+      "normalizedInkCorrelation": 0.542202
+    },
+    {
+      "left": 3,
+      "right": 13,
+      "normalizedInkCorrelation": 0.565424
+    },
+    {
+      "left": 3,
+      "right": 14,
+      "normalizedInkCorrelation": 0.578285
+    },
+    {
+      "left": 3,
+      "right": 15,
+      "normalizedInkCorrelation": 0.272276
+    },
+    {
+      "left": 3,
+      "right": 16,
+      "normalizedInkCorrelation": 0.678956
+    },
+    {
+      "left": 3,
+      "right": 36,
+      "normalizedInkCorrelation": 0.606747
+    },
+    {
+      "left": 3,
+      "right": 46,
+      "normalizedInkCorrelation": 0.561995
+    },
+    {
+      "left": 5,
+      "right": 6,
+      "normalizedInkCorrelation": 0.888646
+    },
+    {
+      "left": 5,
+      "right": 8,
+      "normalizedInkCorrelation": 0.320298
+    },
+    {
+      "left": 5,
+      "right": 10,
+      "normalizedInkCorrelation": 0.419625
+    },
+    {
+      "left": 5,
+      "right": 11,
+      "normalizedInkCorrelation": 0.890119
+    },
+    {
+      "left": 5,
+      "right": 12,
+      "normalizedInkCorrelation": 0.718769
+    },
+    {
+      "left": 5,
+      "right": 13,
+      "normalizedInkCorrelation": 0.717728
+    },
+    {
+      "left": 5,
+      "right": 14,
+      "normalizedInkCorrelation": 0.778224
+    },
+    {
+      "left": 5,
+      "right": 15,
+      "normalizedInkCorrelation": 0.387587
+    },
+    {
+      "left": 5,
+      "right": 16,
+      "normalizedInkCorrelation": 0.892578
+    },
+    {
+      "left": 5,
+      "right": 36,
+      "normalizedInkCorrelation": 0.691454
+    },
+    {
+      "left": 5,
+      "right": 46,
+      "normalizedInkCorrelation": 0.624331
+    },
+    {
+      "left": 6,
+      "right": 8,
+      "normalizedInkCorrelation": 0.278598
+    },
+    {
+      "left": 6,
+      "right": 10,
+      "normalizedInkCorrelation": 0.387913
+    },
+    {
+      "left": 6,
+      "right": 11,
+      "normalizedInkCorrelation": 0.920021
+    },
+    {
+      "left": 6,
+      "right": 12,
+      "normalizedInkCorrelation": 0.697894
+    },
+    {
+      "left": 6,
+      "right": 13,
+      "normalizedInkCorrelation": 0.691037
+    },
+    {
+      "left": 6,
+      "right": 14,
+      "normalizedInkCorrelation": 0.757591
+    },
+    {
+      "left": 6,
+      "right": 15,
+      "normalizedInkCorrelation": 0.385429
+    },
+    {
+      "left": 6,
+      "right": 16,
+      "normalizedInkCorrelation": 0.8958
+    },
+    {
+      "left": 6,
+      "right": 36,
+      "normalizedInkCorrelation": 0.655987
+    },
+    {
+      "left": 6,
+      "right": 46,
+      "normalizedInkCorrelation": 0.651588
+    },
+    {
+      "left": 8,
+      "right": 10,
+      "normalizedInkCorrelation": 0.242244
+    },
+    {
+      "left": 8,
+      "right": 11,
+      "normalizedInkCorrelation": 0.242096
+    },
+    {
+      "left": 8,
+      "right": 12,
+      "normalizedInkCorrelation": 0.260298
+    },
+    {
+      "left": 8,
+      "right": 13,
+      "normalizedInkCorrelation": 0.271047
+    },
+    {
+      "left": 8,
+      "right": 14,
+      "normalizedInkCorrelation": 0.229265
+    },
+    {
+      "left": 8,
+      "right": 15,
+      "normalizedInkCorrelation": 0.127939
+    },
+    {
+      "left": 8,
+      "right": 16,
+      "normalizedInkCorrelation": 0.276825
+    },
+    {
+      "left": 8,
+      "right": 36,
+      "normalizedInkCorrelation": 0.250767
+    },
+    {
+      "left": 8,
+      "right": 46,
+      "normalizedInkCorrelation": 0.300869
+    },
+    {
+      "left": 10,
+      "right": 11,
+      "normalizedInkCorrelation": 0.367021
+    },
+    {
+      "left": 10,
+      "right": 12,
+      "normalizedInkCorrelation": 0.525875
+    },
+    {
+      "left": 10,
+      "right": 13,
+      "normalizedInkCorrelation": 0.539942
+    },
+    {
+      "left": 10,
+      "right": 14,
+      "normalizedInkCorrelation": 0.504737
+    },
+    {
+      "left": 10,
+      "right": 15,
+      "normalizedInkCorrelation": 0.581269
+    },
+    {
+      "left": 10,
+      "right": 16,
+      "normalizedInkCorrelation": 0.407943
+    },
+    {
+      "left": 10,
+      "right": 36,
+      "normalizedInkCorrelation": 0.373919
+    },
+    {
+      "left": 10,
+      "right": 46,
+      "normalizedInkCorrelation": 0.243666
+    },
+    {
+      "left": 11,
+      "right": 12,
+      "normalizedInkCorrelation": 0.681151
+    },
+    {
+      "left": 11,
+      "right": 13,
+      "normalizedInkCorrelation": 0.677157
+    },
+    {
+      "left": 11,
+      "right": 14,
+      "normalizedInkCorrelation": 0.72854
+    },
+    {
+      "left": 11,
+      "right": 15,
+      "normalizedInkCorrelation": 0.356305
+    },
+    {
+      "left": 11,
+      "right": 16,
+      "normalizedInkCorrelation": 0.869097
+    },
+    {
+      "left": 11,
+      "right": 36,
+      "normalizedInkCorrelation": 0.671253
+    },
+    {
+      "left": 11,
+      "right": 46,
+      "normalizedInkCorrelation": 0.68257
+    },
+    {
+      "left": 12,
+      "right": 13,
+      "normalizedInkCorrelation": 0.9535
+    },
+    {
+      "left": 12,
+      "right": 14,
+      "normalizedInkCorrelation": 0.891555
+    },
+    {
+      "left": 12,
+      "right": 15,
+      "normalizedInkCorrelation": 0.55639
+    },
+    {
+      "left": 12,
+      "right": 16,
+      "normalizedInkCorrelation": 0.727791
+    },
+    {
+      "left": 12,
+      "right": 36,
+      "normalizedInkCorrelation": 0.568396
+    },
+    {
+      "left": 12,
+      "right": 46,
+      "normalizedInkCorrelation": 0.469541
+    },
+    {
+      "left": 13,
+      "right": 14,
+      "normalizedInkCorrelation": 0.899751
+    },
+    {
+      "left": 13,
+      "right": 15,
+      "normalizedInkCorrelation": 0.556751
+    },
+    {
+      "left": 13,
+      "right": 16,
+      "normalizedInkCorrelation": 0.730892
+    },
+    {
+      "left": 13,
+      "right": 36,
+      "normalizedInkCorrelation": 0.570069
+    },
+    {
+      "left": 13,
+      "right": 46,
+      "normalizedInkCorrelation": 0.480728
+    },
+    {
+      "left": 14,
+      "right": 15,
+      "normalizedInkCorrelation": 0.501606
+    },
+    {
+      "left": 14,
+      "right": 16,
+      "normalizedInkCorrelation": 0.774886
+    },
+    {
+      "left": 14,
+      "right": 36,
+      "normalizedInkCorrelation": 0.601692
+    },
+    {
+      "left": 14,
+      "right": 46,
+      "normalizedInkCorrelation": 0.508042
+    },
+    {
+      "left": 15,
+      "right": 16,
+      "normalizedInkCorrelation": 0.390228
+    },
+    {
+      "left": 15,
+      "right": 36,
+      "normalizedInkCorrelation": 0.257689
+    },
+    {
+      "left": 15,
+      "right": 46,
+      "normalizedInkCorrelation": 0.16736
+    },
+    {
+      "left": 16,
+      "right": 36,
+      "normalizedInkCorrelation": 0.667734
+    },
+    {
+      "left": 16,
+      "right": 46,
+      "normalizedInkCorrelation": 0.633904
+    },
+    {
+      "left": 36,
+      "right": 46,
+      "normalizedInkCorrelation": 0.565419
+    }
+  ],
+  "method": "Actual safe SVG and stored image raster luminance, tight-ink bounding-box normalization, centered cosine correlation across D4 rotations/reflections. Coarse screen with separate semantic composition review, not an identity proof.",
+  "visualReviewKO": "최고 근접 원본 렌더와 Open Doodles/Open Peeps/Transhumans 인물 원본을 직접 확인했습니다. 최고 근접 항목은 수염, 악어, 날씨 기호, 추상 고리, 발자국 소재 등으로 전신 인물과 도구/돌봄 대상의 구성이 다릅니다. 기존 인물 세 작품은 심장 포옹 반신, 큰 후드, 재킷·반바지 등 별도 구성입니다.",
+  "distinctNormalizedStoredAssetFingerprints": 11572,
+  "fingerprintDefinition": "scripts.expansion.asset_fingerprint across non-reference record views, with CSS whitespace and SVG lexical canonicalization; this is not a count of separately authored original works.",
+  "baselineRootDistinctRetainedBodyIdentities": 11579,
+  "baselineRootCountDefinition": "Parent integration count after id/body de-duplication of canonical/variant/repair source bodies; excludes references.",
+  "manualNewCandidateReviews": [
+    {
+      "left": "Aoi-6",
+      "right": "Aoi-11",
+      "normalizedInkCorrelation": 0.920021,
+      "decision": "retain-different-compositions",
+      "reasonKO": "펼친 책의 중앙 접힘·페이지와 손 위치가 넓은 평면 패널과 달라 독서와 전면 패널의 실제 구성으로 구별됩니다."
+    },
+    {
+      "left": "Aoi-12",
+      "right": "Aoi-13",
+      "normalizedInkCorrelation": 0.9535,
+      "decision": "retain-different-subject-compositions",
+      "reasonKO": "공유 인물 몸통으로 높은 상관이 생기지만, 두 번째 대상의 아기 얼굴·사람 팔다리와 고양이의 뾰족한 귀·발·꼬리 형상이 다릅니다. 색/헤어/포즈만의 차이로 세지 않습니다."
+    }
+  ]
+}

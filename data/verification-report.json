@@ -1,18 +1,18 @@
 {
   "verifiedAt": "2026-10-10",
-  "total": 11825,
-  "storedAssets": 11542,
+  "total": 11846,
+  "storedAssets": 11563,
   "domains": {
     "motion": 3399,
-    "design": 8143
+    "design": 8164
   },
   "minimumStored": 0,
-  "originalIdentities": 11859,
+  "originalIdentities": 11880,
   "mergedGroups": 20,
   "aliases": 34,
   "variantRecords": 54,
   "repairedCompositions": 3,
-  "added": 9711,
+  "added": 9732,
   "inputCounts": {
     "css-wave-items.json": 644,
     "vector-wave-items.json": 1857,
@@ -28,19 +28,20 @@
     "expansion12-shape-items.json": 367,
     "expansion12-openmoji-items.json": 116,
     "expansion12-ctrlv-items.json": 19,
-    "expansion12-motion-reserve-items.json": 0
+    "expansion12-motion-reserve-items.json": 0,
+    "expansion12-grok-items.json": 21
   },
   "excluded": 0,
   "kinds": {
-    "code": 7859,
-    "image": 1254,
+    "code": 7860,
+    "image": 1274,
     "palette": 2429,
     "reference": 283
   },
   "codeLanguages": {
     "css": 2307,
     "glsl": 177,
-    "svg": 5375
+    "svg": 5376
   },
   "checks": [
     "minimum",
@@ -65,5 +66,5 @@
     "search-last-page",
     "domain-search"
   ],
-  "catalogSha256": "f3f125c7f7e43ad061d137fc20ee013f2f320c31f5a2fd0e9e7902e03c823b13"
+  "catalogSha256": "dc3756159bb3c203fb728573633ade0f34d8aa150a30f8820efdd873e7f158f6"
 }

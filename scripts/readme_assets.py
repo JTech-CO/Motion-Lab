@@ -90,7 +90,7 @@ def render_summary(stats, lang):
             f"아래 수량은 {stats['updatedAt']} 카탈로그 기준입니다. 현재 수량은 `python -m motionlab stats`로 확인하세요.",
             "", "| 자료 모음 | 수량 | 내용 |", "| --- | ---: | --- |",
             f"| 모션 | {counts['motion']:,} | 애니메이션, 전환, 타이포그래피, 로더, 인터랙션 효과 |",
-            f"| 디자인 | {counts['design']:,} | 패턴, 형상, 팔레트, 그라디언트, 소재 이미지 |",
+            f"| 디자인 | {counts['design']:,} | 패턴, 형상, 일러스트, 팔레트, 그라디언트, 소재 이미지 |",
             f"| 레퍼런스 | {counts['references']:,} | 검토한 예제, 라이브러리, 도구, 사례 연구, 학습 자료 |",
         ]
     else:
@@ -99,7 +99,7 @@ def render_summary(stats, lang):
             f"Counts below reflect the catalog on {stats['updatedAt']}; run `python -m motionlab stats` for the current totals.",
             "", "| Collection | Entries | Contents |", "| --- | ---: | --- |",
             f"| Motion | {counts['motion']:,} | Animation, transitions, typography, loaders and interaction effects |",
-            f"| Design | {counts['design']:,} | Patterns, shapes, palettes, gradients and material images |",
+            f"| Design | {counts['design']:,} | Patterns, shapes, illustrations, palettes, gradients and material images |",
             f"| References | {counts['references']:,} | Reviewed examples, libraries, tools, case studies and learning resources |",
         ]
     return "\n".join(lines)

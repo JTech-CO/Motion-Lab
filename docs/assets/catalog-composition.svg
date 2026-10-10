@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="420" viewBox="0 0 960 420" role="img" aria-labelledby="chart-title chart-description">
-<title id="chart-title">Motion Lab catalog composition: 11,825 entries</title>
-<desc id="chart-description">Motion: 3,399 (28.7%); Design: 8,143 (68.9%); References: 283 (2.4%). Updated 2026-10-10. Canonical entries only; preserved variants are excluded.</desc>
+<title id="chart-title">Motion Lab catalog composition: 11,846 entries</title>
+<desc id="chart-description">Motion: 3,399 (28.7%); Design: 8,164 (68.9%); References: 283 (2.4%). Updated 2026-10-10. Canonical entries only; preserved variants are excluded.</desc>
 <rect width="960" height="420" rx="12" fill="#080a0c"/>
 <g font-family="Arial, Helvetica, sans-serif">
 <text x="44" y="45" fill="#edf7fa" font-size="17" letter-spacing="1.5">CATALOG COMPOSITION</text>
 <circle cx="216" cy="215" r="118" fill="none" stroke="#1c2c32" stroke-width="58"/>
-<circle data-collection="motion" cx="216" cy="215" r="118" fill="none" stroke="#69e6f7" stroke-width="58" stroke-linecap="butt" pathLength="100" stroke-dasharray="28.74418605 100" stroke-dashoffset="-0.00000000" transform="rotate(-90 216 215)"/>
-<circle data-collection="design" cx="216" cy="215" r="118" fill="none" stroke="#edf7fa" stroke-width="58" stroke-linecap="butt" pathLength="100" stroke-dasharray="68.86257928 100" stroke-dashoffset="-28.74418605" transform="rotate(-90 216 215)"/>
-<circle data-collection="references" cx="216" cy="215" r="118" fill="none" stroke="#91a5b0" stroke-width="58" stroke-linecap="butt" pathLength="100" stroke-dasharray="2.39323467 100" stroke-dashoffset="-97.60676533" transform="rotate(-90 216 215)"/>
-<text x="216" y="214" text-anchor="middle" fill="#edf7fa" font-size="35.0" font-weight="700">11,825</text>
+<circle data-collection="motion" cx="216" cy="215" r="118" fill="none" stroke="#69e6f7" stroke-width="58" stroke-linecap="butt" pathLength="100" stroke-dasharray="28.69322978 100" stroke-dashoffset="-0.00000000" transform="rotate(-90 216 215)"/>
+<circle data-collection="design" cx="216" cy="215" r="118" fill="none" stroke="#edf7fa" stroke-width="58" stroke-linecap="butt" pathLength="100" stroke-dasharray="68.91777815 100" stroke-dashoffset="-28.69322978" transform="rotate(-90 216 215)"/>
+<circle data-collection="references" cx="216" cy="215" r="118" fill="none" stroke="#91a5b0" stroke-width="58" stroke-linecap="butt" pathLength="100" stroke-dasharray="2.38899206 100" stroke-dashoffset="-97.61100794" transform="rotate(-90 216 215)"/>
+<text x="216" y="214" text-anchor="middle" fill="#edf7fa" font-size="35.0" font-weight="700">11,846</text>
 <text x="216" y="243" text-anchor="middle" fill="#b0c1c7" font-size="15">total entries</text>
 <g id="legend-motion">
 <circle cx="440" cy="123" r="5" fill="#69e6f7"/>
@@ -20,7 +20,7 @@
 <circle cx="440" cy="207" r="5" fill="#edf7fa"/>
 <text x="460" y="214" fill="#edf7fa" font-size="22">Design</text>
 <text x="908" y="217" text-anchor="end" fill="#edf7fa" font-size="28" font-weight="700">68.9%</text>
-<text x="460" y="241" fill="#b0c1c7" font-size="15">8,143 entries</text>
+<text x="460" y="241" fill="#b0c1c7" font-size="15">8,164 entries</text>
 </g>
 <g id="legend-references">
 <circle cx="440" cy="291" r="5" fill="#91a5b0"/>

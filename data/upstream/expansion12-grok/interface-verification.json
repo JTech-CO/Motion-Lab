@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "inputSha256": "ccf82c2736adf1c2a8473ce73d90c292d361c02d62938e72d64c87b09517793d",
+  "records": 21,
+  "catalogAndMCPGet": 21,
+  "cliGet": 1,
+  "httpGet": 21,
+  "localImageHTTP": 20,
+  "publishedIndexAndDesignCollection": 21,
+  "sourceSearches": [
+    {
+      "source": "filtergrade",
+      "expectedNew": 4,
+      "searchTotal": 4
+    },
+    {
+      "source": "figma",
+      "expectedNew": 12,
+      "searchTotal": 14
+    },
+    {
+      "source": "pixabay",
+      "expectedNew": 5,
+      "searchTotal": 5
+    }
+  ],
+  "reviewedRasterShapeFacet": 12,
+  "domainCounts": {
+    "design": 8164,
+    "motion": 3399
+  },
+  "serverAndChildProcessesClosed": true
+}

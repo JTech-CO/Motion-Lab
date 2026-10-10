@@ -1,0 +1,53 @@
+{
+  "candidate": "Pixabay",
+  "attempts": [
+    {
+      "id": "expansion12-grok-pixabay-546867",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cardboard-546867.jpg",
+      "originalPixabayUrl": "https://pixabay.com/photos/cardboard-amber-sheet-texture-546867/",
+      "status": "downloaded-awaiting-deduplication",
+      "sourceSha256": "a65cec7ee715d03c0945074b74632d4ac0b7d646bcfe19b0641243f86fd1d99a",
+      "bytes": 3575403
+    },
+    {
+      "id": "expansion12-grok-pixabay-2062195",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Light_grey_stones.jpg",
+      "originalPixabayUrl": "https://pixabay.com/en/background-texture-stones-white-2062195/",
+      "status": "downloaded-awaiting-deduplication",
+      "sourceSha256": "4f21e1c1da8c58d7e7f265ac5e8bb32d44f152879152ddd55f68f4465a38deb2",
+      "bytes": 8104423
+    },
+    {
+      "id": "expansion12-grok-pixabay-1733680",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Brick_Wall_Tarks.jpg",
+      "originalPixabayUrl": "https://pixabay.com/en/wall-brick-wall-texture-1733680/",
+      "status": "downloaded-awaiting-deduplication",
+      "sourceSha256": "f6327aa997076f76f45b34a369e9f658a27955f6fa4bf4f89476595cac8a1de9",
+      "bytes": 4552121
+    },
+    {
+      "id": "expansion12-grok-pixabay-3027369",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Material_Non-Woven_Fabric.jpg",
+      "originalPixabayUrl": "https://pixabay.com/photos/material-non-woven-fabric-3027369/",
+      "status": "downloaded-awaiting-deduplication",
+      "sourceSha256": "51f4d01f3c4dd1738320c2cfe486224922696569952a5f550d8515b5aca1b634",
+      "bytes": 594108
+    },
+    {
+      "id": "expansion12-grok-pixabay-309425",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zebra-309425.svg",
+      "originalPixabayUrl": "https://pixabay.com/vectors/zebra-pattern-design-texture-309425/",
+      "status": "downloaded-awaiting-deduplication",
+      "sourceSha256": "07a5d5c4a8dfe1a72f209e58eeee7510632b30201f2dd887a394f93239f0dc43",
+      "bytes": 125529
+    }
+  ],
+  "downloadedCandidateCount": 5,
+  "strategy": "Individual CC0 mirrors explicitly sourced to Pixabay; no Pixabay scrape, bulk API, account, or authentication bypass.",
+  "robots": {
+    "commonsFilePagesAllowed": true,
+    "commonsApiDisallowed": true,
+    "apiUsedForCollection": false,
+    "initialProbe": "One read-only image metadata API request during setup; no subsequent API collection requests."
+  }
+}

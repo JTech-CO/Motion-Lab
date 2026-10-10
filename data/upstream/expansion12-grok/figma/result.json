@@ -1,0 +1,82 @@
+{
+  "site": "Figma Community",
+  "collection": "JOY / note inc.",
+  "status": "qualified-author-original-candidates-ready-for-parent-integration",
+  "originalAcquisitionRoute": "same-Community-collection author-published PNG archive; not a Figma file export",
+  "counts": {
+    "advertisedInventory": 400,
+    "advertisedInventoryQualified": false,
+    "actualOriginalAssetPngs": 427,
+    "actualOriginalGuidelinePngs": 2,
+    "characterPngs": 384,
+    "basicUiIconPngs": 43,
+    "visuallyReviewedAssetPngs": 427,
+    "rasterComparedRepresentativePngs": 14,
+    "eligibleIndependentActivityRepresentatives": 12,
+    "excludedBasicUiFamilies": 43,
+    "unselectedCharacterOrActivityVariants": 372,
+    "excludedOrUnselectedTotal": 415
+  },
+  "baseline": {
+    "catalogSha256": "f3f125c7f7e43ad061d137fc20ee013f2f320c31f5a2fd0e9e7902e03c823b13",
+    "recordViewsIncludingRepeatedVariantsRepairs": 11882,
+    "distinctRootRetainedBodyIdentities": 11579,
+    "distinctNormalizedStoredFingerprints": 11572,
+    "svgRecordViewsActuallyRendered": 5379,
+    "imageRecordViewsActuallyCompared": 1254,
+    "actualRasterRecordViewsCompared": 6633,
+    "definition": "Views can repeat the same retained body through variants/repair; the 11882 count includes 283 references. Distinct normalized fingerprints are a separate algorithmic count, not independent source works."
+  },
+  "deduplication": {
+    "baselineHighSimilarityCandidates": 0,
+    "maximumBaselineD4InkCorrelation": 0.659438,
+    "screenThreshold": 0.925,
+    "newSharedBodyAlertsRequireSemanticReview": true,
+    "activityFamilyReview": "data/upstream/expansion12-grok/figma/activity-family-review.json",
+    "duplicateReview": "data/upstream/expansion12-grok/figma/duplicate-review.json",
+    "exactOriginalImageShaConflicts": 0,
+    "notEveryExcludedPngHadAnIndividualNearDuplicateComparison": true
+  },
+  "rights": {
+    "license": "CC-BY-4.0",
+    "copyrightHolder": "note inc.",
+    "sameCollectionAuthorDeclarationAndDirectDownloadLinksVerified": true,
+    "CanvaExcluded": true,
+    "thirdPartyMediaOrFontsImported": false,
+    "guidelineJapaneseVersionControls": true,
+    "completeNoticePath": "data/upstream/expansion12-grok/figma/NOTICE.txt",
+    "originalGuidelineImagesPreserved": true,
+    "licenseEvidencePath": "data/upstream/expansion12-grok/figma/license-evidence.json"
+  },
+  "localRepresentation": {
+    "imageDescriptorPass": 12,
+    "collectionEvidencePass": 12,
+    "originalPngUnchanged": true,
+    "derivativeDimensions": [
+      1024,
+      640
+    ],
+    "method": "Complete original proportionally resized and white-matted on a landscape canvas to retain full figure in existing object-fit:cover cards.",
+    "maximumMeanAbsoluteJpegChannelError": 0.02372,
+    "fixedRendererSha256": "f96d0d7078ffe6aa189fce72723a1ee8dd2e8b2c475b628eb1f80bc2336b7151",
+    "trustedRendererPreviouslyVerifiedSubsetCount": 10,
+    "finalAdditionalCandidateCount": 2,
+    "fullFinalCardDetailQaByParentRequired": true,
+    "ownBrowserProcessesClosed": true,
+    "lastRepeatedQaTimeoutDoesNotInvalidateFirstCompletedSubsetEvidence": true
+  },
+  "unadoptedOtherCommunityCandidates": {
+    "detailPagesInvestigated": "Other free shape/pattern/poster/illustration Community file pages are retained in the ignored search/fetch cache. No original /design/ fileKey+nodeId was obtained.",
+    "whyNoCollection": "Normal anonymous Community Chrome returned CloudFront403; indexed previews or advertised formats/counts are not copied as originals. No login, cloud duplication, fake node identifiers, thumbnails or sampled code is used.",
+    "verifiedNetNew": 0,
+    "unverifiedPotential": null
+  },
+  "sources_reviewed": 45,
+  "remoteCodeExecuted": false,
+  "otherInputsOrRendererModified": false,
+  "candidatePaths": [
+    "data/upstream/expansion12-grok/figma/candidates.json",
+    "data/upstream/expansion12-grok/figma/eligible-items.json"
+  ],
+  "state": "Final candidate bytes and notices stable; parent integration may copy provenance.localPreviewPath to dist image.path and conduct cross-lane integration checks."
+}

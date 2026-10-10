@@ -1,0 +1,23 @@
+{
+  "descriptiveCorrection": "Aoi08 uses neutral observed panel-and-cup terminology.",
+  "licenseAndLinksReceipt": {
+    "path": "data/upstream/expansion12-grok/figma/sources/author-license-and-links.json",
+    "bytes": 1480,
+    "sha256": "5922753d1794174251ba7bd4764614e65a79199d2f402e13155665430d62658e"
+  },
+  "archiveReceipt": {
+    "path": "data/upstream/expansion12-grok/figma/sources/JOY-Illustration-Assets.zip",
+    "bytes": 42418458,
+    "sha256": "2785ba85dc843f8704e13bdca34a48603c82cdd0fe97ab6adece214612c3bfd0"
+  },
+  "sharedBodyAlerts": {
+    "expansion12-grok-figma-joy-aoi-13": "Accept distinct composition: a cat has pointed ears, muzzle and tail; the baby in Aoi12 has a human face and limbs. Shared standing figure explains the similarity alert.",
+    "expansion12-grok-figma-joy-aoi-14": "Accept distinct activity: a two-ended dumbbell differs from Aoi05's camera lens, camera body and neck strap. Same standing pose is not counted as another exercise variant.",
+    "expansion12-grok-figma-joy-aoi-46": "Accept distinct activity: a rectangular smartphone screen differs from Aoi14's dumbbell and its weight geometry. D4 pose similarity is retained as an alert, not hidden."
+  },
+  "candidateReceipt": {
+    "path": "data/upstream/expansion12-grok/figma/candidates.json",
+    "bytes": 379204,
+    "sha256": "0ef5946172a423c637c4c02851dded72f07ae8675ef2845dcc0236fe3426cf11"
+  }
+}

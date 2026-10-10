@@ -519,6 +519,12 @@ def analyze_item(item):
             preview = {"renderer": "image", "limitations": []}
             summary_ko = "저장된 소재 이미지의 형식, 크기와 해시를 확인했습니다. 정적 디자인 소재입니다."
             summary_en = "Verified the stored material image format, dimensions and hash. This is a static design material."
+            if item.get("category") == "shape":
+                asset_type = "shape"
+                components, properties, techniques = {"image", "shape"}, set(), {"static-design"}
+                signals.append("reviewed-image-category:shape")
+                summary_ko = "저장된 이미지의 형식, 크기와 해시를 확인하고 검토된 형상 분류를 유지합니다. 정적 래스터 일러스트이며 벡터 기하나 애니메이션을 추측하지 않습니다."
+                summary_en = "Verified stored image format, dimensions and hash; retains the reviewed shape classification. Static raster illustration, with no inferred vector geometry or animation."
     elif item.get("kind") != "reference" and (item.get("category") in ("palette", "gradient") or item.get("kind") == "palette") and colors and not animated_color_asset:
         asset_type = "gradient" if item.get("category") == "gradient" or item.get("preview", {}).get("type") == "gradient" else "palette"
         basis, confidence = "color-values", "high"

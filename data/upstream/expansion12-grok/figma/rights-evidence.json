@@ -1,0 +1,100 @@
+{
+  "collection": "JOY Illustration Assets",
+  "copyrightHolder": "note inc.",
+  "creator": "Taeyeon Kim / note design",
+  "communityUrl": "https://www.figma.com/community/file/1349289742690901096/joy-free-minimal-illustrations-by-note-inc",
+  "communityId": "1349289742690901096",
+  "figmaFileKey": null,
+  "figmaNodeId": null,
+  "acquisitionDescription": "Author-distributed originals of the same Community collection, not a Figma export. No account duplication or cloud file was created.",
+  "authorAnnouncement": {
+    "url": "https://note.com/taeyeonkim/n/n922f8414e4f7",
+    "observedHttpStatus": 200,
+    "responseBytes": 715150,
+    "responseSha256": "5c301b4bf2fb347b2ef6aac0bb70a8df577bc7c2e95ce529a03f7da6de7cd1f1",
+    "rawCachePath": "exa-results/expansion12-grok-figma/joy-creator.html",
+    "quote": "Canvaを除く※すべてのツールでのイラストをクリエイティブ・コモンズ表示4.0 国際 (CC BY 4.0) ライセンスで公開することにしました。",
+    "location": "Step4.イラストの品質を上げる / ガイドラインの作成",
+    "summaryKO": "저자는 Canva를 제외한 모든 도구에서 제공되는 JOY 그림을 CC BY 4.0으로 공개했다고 명시합니다. 같은 글의 공개 도구 선택 부분에서 아래와 동일한 PNG 자료집을 추가 공개했다고 설명하고 직접 연결합니다. 외부 제작 파트너와 협업한 사실도 공개하며, 권리 주체는 ZIP의 원본 이용 지침에서 note inc.로 확인됩니다.",
+    "durableExcerptReceipt": {
+      "path": "data/upstream/expansion12-grok/figma/sources/author-license-and-links.json",
+      "bytes": 1480,
+      "sha256": "5922753d1794174251ba7bd4764614e65a79199d2f402e13155665430d62658e"
+    }
+  },
+  "officialCollectionPage": {
+    "url": "https://note.design/JOY",
+    "observedHttpStatus": 200,
+    "method": "normal anonymous Chrome",
+    "bodyBytes": 1978,
+    "bodySha256": "4469b16a0357396ac1e1dada80ace107c67268f02b5fcb9f00dd17ad0819d69e",
+    "rawCachePath": "exa-results/expansion12-grok-figma/joy-guidelines-browser.txt",
+    "summaryKO": "공식 사이트는 Figma, Adobe Express, Canva, Download를 같은 도구 선택 목록에서 설명하고 동일 Community ID와 동일 Drive ZIP을 직접 연결합니다. Canva 제공판은 별도 Contributor Agreement 대상이며 이번 취득 범위에서 제외합니다.",
+    "observedLinks": [
+      {
+        "role": "Figma Community",
+        "url": "https://www.figma.com/community/file/1349289742690901096/joy-free-minimal-illustrations-by-note-inc"
+      },
+      {
+        "role": "Author original PNG archive",
+        "url": "https://drive.google.com/file/d/1yWUz8tVINGEAuBYrOuKu5ydujC9OPdek/view?usp=sharing"
+      }
+    ],
+    "rawLinksCachePath": "exa-results/expansion12-grok-figma/joy-guidelines-browser-links.json",
+    "rawLinksCacheSha256": "7ddd372ec1c128887eeab42bb5ddd4a7a7654473809f2aedf47e40f68834f883",
+    "durableObservedLinksReceipt": {
+      "path": "data/upstream/expansion12-grok/figma/sources/author-license-and-links.json",
+      "bytes": 1480,
+      "sha256": "5922753d1794174251ba7bd4764614e65a79199d2f402e13155665430d62658e"
+    }
+  },
+  "authorDistributedArchive": {
+    "publicSourceUrl": "https://drive.google.com/file/d/1yWUz8tVINGEAuBYrOuKu5ydujC9OPdek/view",
+    "filename": "JOY_Illustration Assets.zip",
+    "observedHttpStatus": 200,
+    "bytes": 42418458,
+    "sha256": "2785ba85dc843f8704e13bdca34a48603c82cdd0fe97ab6adece214612c3bfd0",
+    "rawCachePath": "exa-results/expansion12-grok-figma/JOY_Illustration-Assets.zip",
+    "memberCount": 906,
+    "uncompressedBytes": 52284310,
+    "actualAssetPngCount": 427,
+    "noticePngCount": 2,
+    "maxDownloadBytes": 67108864,
+    "maxMembers": 1200,
+    "maxOriginalBytes": 16777216,
+    "maxExpandedBytes": 268435456,
+    "pathTraversalOrLink": false,
+    "authenticationRequired": false,
+    "challengeBypassed": false,
+    "normalDownloadSizeWarningAccepted": true,
+    "remoteSourceCodeExecuted": false,
+    "macResourceForksAndDSStoreExcluded": true,
+    "durableOriginalArchiveReceipt": {
+      "path": "data/upstream/expansion12-grok/figma/sources/JOY-Illustration-Assets.zip",
+      "bytes": 42418458,
+      "sha256": "2785ba85dc843f8704e13bdca34a48603c82cdd0fe97ab6adece214612c3bfd0"
+    }
+  },
+  "originalGuidelines": [
+    {
+      "language": "ja",
+      "path": "data/upstream/expansion12-grok/figma/joy-guideline-ja.png",
+      "sha256": "134d539de412de014de37af0e1e225e9bc0fcd5d93721007ac8b19b91a9372d0",
+      "archivePath": "JOY_Illustration Assets/Guideline-README-FIRST/JP_JOY Illustration Assets_ guideline.png",
+      "bytes": 146132,
+      "date": "2024-04-11",
+      "controllingVersion": true
+    },
+    {
+      "language": "en",
+      "path": "data/upstream/expansion12-grok/figma/joy-guideline-en.png",
+      "sha256": "bb773f767eae4cf1d0f15ed592e6087e187b1d7ae3c7eadc4d3fcd2908804b30",
+      "archivePath": "JOY_Illustration Assets/Guideline-README-FIRST/ENG_JOY Illustration Assets_ guideline.png",
+      "bytes": 180183,
+      "date": "2024-04-11",
+      "controllingVersion": false
+    }
+  ],
+  "rightsInterpretationKO": "저자 글의 Canva 제외 전체 도구 CC BY 4.0 선언과 공식 사이트의 Download 연결을 함께 근거로 삼습니다. Figma Community 기본 라이선스만 PNG ZIP에 자동 적용하지 않습니다. 원본 이용 지침은 개인·법인·상업 이용, 수정 표시, 부적절한 사용 주의, 타인의 저작권·상표·초상·프라이버시 권리 존중, 일본어판 우선 등을 명시합니다. 브랜드 승인이나 제3자 권리를 포괄적으로 주장하지 않습니다.",
+  "scope": "Original transparent PNG illustration files only. No Canva assets, fonts, photographs, website previews, screenshots or tutorial media are collected as assets."
+}

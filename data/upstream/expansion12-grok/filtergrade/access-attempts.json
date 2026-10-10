@@ -1,0 +1,13 @@
+[
+  {
+    "url": "https://filtergrade.com/robots.txt",
+    "method": "bounded-default-urllib-public-GET",
+    "credentialsUsed": false,
+    "remoteCodeExecuted": false,
+    "verifiedAt": "2026-10-10T13:57:29.475832+00:00",
+    "byteLimit": 262144,
+    "timeoutSeconds": 22,
+    "status": 403,
+    "error": "HTTP failure"
+  }
+]

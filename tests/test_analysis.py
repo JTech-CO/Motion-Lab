@@ -26,6 +26,24 @@ def asset(code, language="css", category="animation", **extra):
 
 
 class AnalysisTest(unittest.TestCase):
+    def test_reviewed_raster_shapes_keep_their_facet_without_inferred_motion(self):
+        image = {"path": "assets/materials/reviewed-illustration.jpg", "mime": "image/jpeg",
+                 "width": 1024, "height": 640, "sha256": "a" * 64, "sourceSha256": "b" * 64}
+        item = asset(None, "image", "shape", kind="image", image=image,
+                     title="Rotating particle shader", tags=["rotate", "glsl", "stroke"])
+        result = analyze_item(item)
+        self.assertEqual(result["assetType"], "shape")
+        self.assertEqual(result["domain"], "design")
+        self.assertEqual(result["components"], ["shape", "image"])
+        self.assertEqual(result["effects"], [])
+        self.assertEqual(result["preview"]["renderer"], "image")
+        self.assertEqual(result["evidence"]["basis"], "image")
+        self.assertNotIn("stroke", result["properties"])
+        self.assertNotIn("svg-geometry", result["techniques"])
+        self.assertEqual(analyze_item({**item, "category": "material"})["assetType"], "material")
+        invalid = {**item, "image": {**image, "sha256": "<script>"}}
+        self.assertEqual(analyze_item(invalid)["preview"]["renderer"], "none")
+
     def test_decorative_content_is_shape_and_does_not_relabel_a_loader(self):
         for initial, final in [('""', '" "'), ('"⚽"', '"🏀"'), ('"\\2022"', '"\\263a"')]:
             result = analyze_item(asset('@keyframes a {from {content:' + initial + ';transform:translateX(0)} to {content:' + final + ';transform:translateX(20px)}} .part{animation:a 1s}', category="loader"))

@@ -1,0 +1,123 @@
+{
+  "attempts": [
+    {
+      "name": "note-design-robots",
+      "url": "https://note.design/robots.txt",
+      "method": "anonymous-urllib-GET",
+      "status": 200,
+      "finalUrl": "https://note.design/robots.txt",
+      "size": 86,
+      "sha256": "858bfb48ff5a32d6b63b21b835139cef04b9b8888fcd29fc1130d32f9475321d"
+    },
+    {
+      "name": "note-robots",
+      "url": "https://note.com/robots.txt",
+      "method": "anonymous-urllib-GET",
+      "status": 200,
+      "finalUrl": "https://note.com/robots.txt",
+      "size": 1197,
+      "sha256": "6ce52a654f74e7a4256491306b13fc7e93e04706567fbed9b04d9a78f7c18599"
+    },
+    {
+      "name": "drive-robots",
+      "url": "https://drive.google.com/robots.txt",
+      "method": "anonymous-urllib-GET",
+      "status": 200,
+      "finalUrl": "https://drive.google.com/robots.txt",
+      "size": 600,
+      "sha256": "87cecc58fb663a3f8650a3a88eb59c1ecaae20d063dcd6d50ab39f73167d4af4"
+    },
+    {
+      "name": "joy-site",
+      "url": "https://note.design/JOY",
+      "method": "anonymous-urllib-GET",
+      "status": 200,
+      "finalUrl": "https://note.design/JOY",
+      "size": 10526,
+      "sha256": "894aa5762208b58d78a7531d4eb881240b761ef7be98fc9f6b63b99643050f36"
+    },
+    {
+      "name": "joy-creator",
+      "url": "https://note.com/taeyeonkim/n/n922f8414e4f7",
+      "method": "anonymous-urllib-GET",
+      "status": 200,
+      "finalUrl": "https://note.com/taeyeonkim/n/n922f8414e4f7",
+      "size": 715150,
+      "sha256": "5c301b4bf2fb347b2ef6aac0bb70a8df577bc7c2e95ce529a03f7da6de7cd1f1"
+    },
+    {
+      "name": "joy-drive",
+      "url": "https://drive.google.com/file/d/1yWUz8tVINGEAuBYrOuKu5ydujC9OPdek/view",
+      "method": "anonymous-urllib-GET",
+      "status": 200,
+      "finalUrl": "https://drive.google.com/file/d/1yWUz8tVINGEAuBYrOuKu5ydujC9OPdek/view",
+      "size": 82064,
+      "sha256": "1ecfc6bd2d7bafa694cabb760577fd5d2a11efec4edfb09312aabbc4c63a3702"
+    },
+    {
+      "name": "joy-community",
+      "url": "https://www.figma.com/community/file/1349289742690901096/joy-free-flat-line-illustration-system-by-note-inc",
+      "method": "anonymous-urllib-GET",
+      "status": 403,
+      "finalUrl": "https://www.figma.com/community/file/1349289742690901096/joy-free-flat-line-illustration-system-by-note-inc",
+      "size": 919,
+      "sha256": "d1ae909385dcdea3bacec61cf3f47e4809fef14c5617cbfd88a9f6f074138067"
+    },
+    {
+      "name": "joy-guidelines-browser",
+      "url": "https://note.design/JOY",
+      "method": "normal-Chrome-anonymous",
+      "status": 200,
+      "finalUrl": "https://note.design/JOY",
+      "title": "note design",
+      "size": 1978,
+      "sha256": "4469b16a0357396ac1e1dada80ace107c67268f02b5fcb9f00dd17ad0819d69e"
+    },
+    {
+      "name": "joy-drive-browser",
+      "url": "https://drive.google.com/file/d/1yWUz8tVINGEAuBYrOuKu5ydujC9OPdek/view",
+      "method": "normal-Chrome-anonymous",
+      "status": 200,
+      "finalUrl": "https://drive.google.com/file/d/1yWUz8tVINGEAuBYrOuKu5ydujC9OPdek/view",
+      "title": "JOY_Illustration Assets.zip - Google Drive",
+      "size": 101,
+      "sha256": "e526632798305b872e386451d6d43b4b76e8f81255c4b4adf02d76a919177f3d"
+    },
+    {
+      "name": "joy-community-browser",
+      "url": "https://www.figma.com/community/file/1349289742690901096/joy-free-flat-line-illustration-system-by-note-inc",
+      "method": "normal-Chrome-anonymous",
+      "status": 403,
+      "finalUrl": "https://www.figma.com/community/file/1349289742690901096/joy-free-flat-line-illustration-system-by-note-inc",
+      "title": "ERROR: The request could not be satisfied",
+      "size": 513,
+      "sha256": "dab8a07c391996d435dd64b8be81b20f83bb9ddd4afea2112f969ae6bf6d215d"
+    },
+    {
+      "name": "config-community-browser",
+      "url": "https://www.figma.com/community/file/1650935618941867150/config-2026-digital-poster-kit",
+      "method": "normal-Chrome-anonymous",
+      "status": 403,
+      "finalUrl": "https://www.figma.com/community/file/1650935618941867150/config-2026-digital-poster-kit",
+      "title": "ERROR: The request could not be satisfied",
+      "size": 513,
+      "sha256": "1047cf2bfabe6a6c8fd0d3ad31c29c973e41b3846a0635e360f60ecaefb9ee10"
+    },
+    {
+      "name": "lines-community-browser",
+      "url": "https://www.figma.com/community/file/1674664856843065906/30-abstract-lines-by-uxuiheroes",
+      "method": "normal-Chrome-anonymous",
+      "status": 403,
+      "finalUrl": "https://www.figma.com/community/file/1674664856843065906/30-abstract-lines-by-uxuiheroes",
+      "title": "ERROR: The request could not be satisfied",
+      "size": 513,
+      "sha256": "fe9a117ff2c20a02940736d8eb4e64b1c4729b09f1b30943bf4471b6a73f6674"
+    }
+  ],
+  "figmaOriginalFileKeyOrNodeIdObtained": false,
+  "figmaToolsCalledWithGuessedIdentifiers": false,
+  "communityCloudFront403IsNotADeletedFileClaim": true,
+  "officialAuthorAlternativeUsed": true,
+  "robotsRespected": true,
+  "authenticationOrChallengeBypass": false
+}

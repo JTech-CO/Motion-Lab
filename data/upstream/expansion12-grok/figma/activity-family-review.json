@@ -1,0 +1,207 @@
+{
+  "scope": "All 427 assets visually reviewed in six contact sheets; Aoi activity families inspected with larger originals. Other seven characters repeat the same family of poses with clothing/hair/body styling changes.",
+  "activityFamilies": [
+    {
+      "family": "shoulder-bag",
+      "aoiNumbers": [
+        1
+      ],
+      "adoptedAoiNumber": 1
+    },
+    {
+      "family": "smartphone",
+      "aoiNumbers": [
+        2,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52
+      ],
+      "adoptedAoiNumber": 46
+    },
+    {
+      "family": "meal-with-chopsticks",
+      "aoiNumbers": [
+        3
+      ],
+      "adoptedAoiNumber": 3
+    },
+    {
+      "family": "camera",
+      "aoiNumbers": [
+        4,
+        5,
+        30
+      ],
+      "adoptedAoiNumber": 5
+    },
+    {
+      "family": "open-book",
+      "aoiNumbers": [
+        6,
+        15
+      ],
+      "adoptedAoiNumber": 6
+    },
+    {
+      "family": "handheld-panel-including-cup-variant",
+      "aoiNumbers": [
+        7,
+        8,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "adoptedAoiNumber": 8
+    },
+    {
+      "family": "dumbbell",
+      "aoiNumbers": [
+        9,
+        14
+      ],
+      "adoptedAoiNumber": 14
+    },
+    {
+      "family": "palette-and-brush",
+      "aoiNumbers": [
+        10
+      ],
+      "adoptedAoiNumber": 10
+    },
+    {
+      "family": "front-or-overhead-panel",
+      "aoiNumbers": [
+        11,
+        36,
+        37
+      ],
+      "adoptedAoiNumber": 11
+    },
+    {
+      "family": "infant-care",
+      "aoiNumbers": [
+        12
+      ],
+      "adoptedAoiNumber": 12
+    },
+    {
+      "family": "cat-care",
+      "aoiNumbers": [
+        13
+      ],
+      "adoptedAoiNumber": 13
+    },
+    {
+      "family": "clipboard",
+      "aoiNumbers": [
+        16
+      ],
+      "adoptedAoiNumber": 16
+    },
+    {
+      "family": "unencumbered-gesture",
+      "aoiNumbers": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "adoptedAoiNumber": null
+    }
+  ],
+  "fullAoiNumberCoverage": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52
+  ],
+  "familyInventory": {
+    "Aoi": 52,
+    "Haru": 52,
+    "Hiro": 36,
+    "Mirai": 36,
+    "Saki": 52,
+    "Sora": 52,
+    "Yuki": 52,
+    "Yume": 52,
+    "Icon": 43
+  },
+  "sourceCharacterPngs": 384,
+  "basicUiIconPngs": 43,
+  "finalRepresentatives": 12,
+  "excludedBasicUiFamilies": 43,
+  "unselectedCharacterVariants": 372,
+  "individualNearDuplicateClaimsForAllExcluded": false,
+  "reasonKO": "인물 자체를 제외하지 않습니다. 같은 캐릭터 시스템의 의상·머리·인물종류, 같은 활동의 작은 손짓·기기 높이·각도는 한 가족으로 처리합니다. 52개 포즈의 모든 번호를 12개 소품/활동 가족과 무소품 제스처 가족으로 분류했습니다. 식사3과 노트북/컵8은 추가 고해상도 검토 후 독립 가족으로 채택했습니다. 9는 컵이 아닌 덤벨이므로 운동14에, 15는 책이므로 독서6에, 36/37은 패널들기11에 포함합니다. 43개 기본 UI 아이콘은 기존 아이콘/기본 형상 가족에 포함됩니다. 415개 탈락 전부가 개별 고상관 비교에서 중복으로 증명됐다는 뜻은 아닙니다."
+}

@@ -1,0 +1,446 @@
+{
+  "version": 1,
+  "observedAt": "2026-10-10T14:08:15.966645+00:00",
+  "baselineCommit": "c866125a6ed16ffb43b2ac69495e808ea6257b15",
+  "scope": "Only individual Pond5 Public Domain still images and the exact same work at its official origin institution. No unrelated institutional collection expansion.",
+  "robots": {
+    "url": "https://www.pond5.com/robots.txt",
+    "method": "Exa official-URL extracted text, read before discovering agent denial",
+    "receipt": {
+      "path": "data/upstream/expansion12-grok/pond5/robots-exa.txt",
+      "bytes": 2287,
+      "sha256": "7162c71ab1aca728a985a72558260aa1d67abe9d5dc721ccd22273fe85741b42"
+    },
+    "gptBotDisallow": [
+      "/"
+    ],
+    "ccBotDisallow": [
+      "/"
+    ],
+    "wildcardDisallowIncludes": [
+      "/stock-images/photos/item/",
+      "/stock-images/illustrations/item/"
+    ],
+    "decision": "No further automated Pond5 crawling or fetching after read; indexed search discovery and ordinary isolated browser navigation only. No login or challenge bypass."
+  },
+  "officialLanding": {
+    "url": "https://www.pond5.com/public-domain",
+    "method": "Exa official-page extraction",
+    "advertisedImages": 63824,
+    "qualified": false,
+    "quote": "Create your free account",
+    "interpretationKO": "컬렉션 광고 수량과 무료 계정 다운로드 안내는 개별 원본 재배포권과 국제적 권리의 검증을 대신하지 않습니다."
+  },
+  "imageListing": {
+    "url": "https://www.pond5.com/search?kw=&media=photo&public_domain=1",
+    "method": "Exa fetch",
+    "status": "CRAWL_LIVECRAWL_TIMEOUT",
+    "individualWorkIdsExtracted": 0
+  },
+  "rightsBaseline": {
+    "path": "data/upstream/grok-source-review/core/pond5-rights.json",
+    "bytes": 2525,
+    "sha256": "603cbe62bbfe03207e7677a9a12bfebc3fec51aaa4464132de8dd33d2d19efd3",
+    "date": "2026-10-10",
+    "generalRawStockRedistributionVerified": false,
+    "pond5PDOriginalRedistributionVerified": false,
+    "interpretationKO": "미국 기준의 Public Domain 판단, 각국의 보호기간과 제3자 권리는 별도 확인 사항입니다."
+  },
+  "browserChecks": [
+    {
+      "method": "CUA normal Chrome initialization",
+      "url": "https://www.pond5.com/search?kw=&media=photo&public_domain=1",
+      "attempts": 2,
+      "status": "tool-initialization-failed",
+      "error": "trusted Node process exited unexpectedly; kernel reset, rerun your request",
+      "httpStatusVerified": false
+    },
+    {
+      "method": "Chrome 154.0.8037.98 isolated headless DOM navigation",
+      "url": "https://www.pond5.com/search?kw=&media=photo&public_domain=1",
+      "javaScriptEnabled": false,
+      "freshProfile": true,
+      "credentialsUsed": false,
+      "automaticMediaPlayback": false,
+      "status": "exited-with-empty-dom",
+      "domReceipt": {
+        "path": "exa-results/expansion12-grok/pond5/public-domain-browser.html",
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      "httpStatusVerified": false,
+      "limitation": "Empty DOM does not establish HTTP 403 or absence of works."
+    }
+  ],
+  "priorOrdinaryBrowserEvidence": [
+    {
+      "receipt": {
+        "path": "data/upstream/grok-source-review/core/details-access.json",
+        "bytes": 15969,
+        "sha256": "322f46d051e670f4526327ad8b8d35c617e44986306a1bfa5b64967ba4b389a1"
+      },
+      "scope": "Earlier same-day isolated Chrome normal navigations recorded 403; no individual work body could be read."
+    },
+    {
+      "receipt": {
+        "path": "data/upstream/grok-source-review/core/render-home-access.json",
+        "bytes": 8184,
+        "sha256": "9558744e523c3422c39ac11cf727c983cdd9fae4febdbb95129e26ca6edac8b2"
+      },
+      "scope": "Earlier same-day isolated Chrome normal navigations recorded 403; no individual work body could be read."
+    }
+  ],
+  "cacheReceipts": [
+    {
+      "path": "exa-results/expansion12-grok/pond5/exa-responses.json",
+      "bytes": 86810,
+      "sha256": "26f4b7af47d883015e3df7ca0d9659608ccd9d262193da83d3940895d8ad1268"
+    },
+    {
+      "path": "exa-results/expansion12-grok/pond5/web-search-responses.json",
+      "bytes": 101519,
+      "sha256": "55b6a4fd5c5cefd4e2ba027ac5584a4357003c53a95acf8b02086e4a76b20180"
+    },
+    {
+      "path": "exa-results/expansion12-grok/pond5/public-domain-browser.html",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "searchMetric": {
+    "sources_reviewed": 55,
+    "definition": "Sum of requested numResults, not verified source or asset count.",
+    "exaSearchCalls": 6,
+    "requestedNumResults": [
+      10,
+      10,
+      10,
+      10,
+      10,
+      5
+    ],
+    "parsedTitleUrlNeighbors": 53,
+    "uniqueParsedNeighborUrls": 50,
+    "ordinaryWebSearchQueries": 9
+  },
+  "searchResults": [
+    {
+      "searchCall": "discovery-0",
+      "title": "Public Domain ~ Free Media for Creative Projects - Pond5",
+      "url": "https://www.pond5.com/public-domain",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-0",
+      "title": "Textile. France, circa 1925. Woven geometric pattern in cotton and silk bourette. Staff of Primavera design department of Au Printemps department...",
+      "url": "https://library.si.edu/image-gallery/93474",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-0",
+      "title": "Sidewall | Smithsonian Institution",
+      "url": "https://www.si.edu/object/sidewall%3Achndm_1955-87-4",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-0",
+      "title": "Border | Smithsonian Institution",
+      "url": "https://www.si.edu/object/chndm_1995-165-31",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-0",
+      "title": "Free Stock Media - Pond5",
+      "url": "https://www.pond5.com/free",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-0",
+      "title": "Free to Use and Reuse Sets - Library of Congress",
+      "url": "https://www.loc.gov/free-to-use/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-0",
+      "title": "N/A",
+      "url": "https://www.si.edu/object/sidewall:chndm_1931-45-12",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-0",
+      "title": "N/A",
+      "url": "https://www.si.edu/object/sidewall:chndm_1970-26-4-bc",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-0",
+      "title": "Textiles. France, 1925-35. Rug, with printed velvet draperies with geometric inspiration. Eric Bagge, designer.",
+      "url": "https://library.si.edu/image-gallery/93489",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-0",
+      "title": "Sample book | Smithsonian Institution",
+      "url": "https://www.si.edu/object/sample-book:chndm_2017-22-2",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-1",
+      "title": "Surveyor 5 surface panorama | The Planetary Society",
+      "url": "https://www.planetary.org/space-images/surveyor-5-surface-panorama",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-1",
+      "title": "Guidelines for using NASA Images and Media ...",
+      "url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-1",
+      "title": "File : Picard-AS17-P2250.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Picard-AS17-P2250.jpg",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-1",
+      "title": "Pandora’s Flocks",
+      "url": "https://science.nasa.gov/resource/pandoras-flocks/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-1",
+      "title": "Panoramic view Station 5 (Camelot | Free Photo - rawpixel",
+      "url": "https://www.rawpixel.com/image/441428/free-photo-image-moon-surface-celestial",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-1",
+      "title": "Images by NASA",
+      "url": "https://pdimagearchive.org/galleries/artists/nasa/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-1",
+      "title": "Lunar Images and Maps",
+      "url": "https://www.lpi.usra.edu/lunar/lunar_images/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-1",
+      "title": "Pandora - NASA Science",
+      "url": "https://science.nasa.gov/resource/pandora-2/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-1",
+      "title": "Inner Planets Diagram - NASA Science",
+      "url": "https://science.nasa.gov/photojournal/inner-planets-diagram/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-1",
+      "title": "The fall of Ranger 7 | The Planetary Society",
+      "url": "https://www.planetary.org/space-images/ranger-7",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-2",
+      "title": "tools/video/stock_sources/pond5_pd.py",
+      "url": "https://github.com/calesthio/OpenMontage/blob/9066dcb2/tools/video/stock_sources/pond5_pd.py",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-2",
+      "title": "Map A celestial planisphere, or map of the heavens",
+      "url": "https://www.loc.gov/resource/g3190.ct003802/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-2",
+      "title": "Map of the solar system - digital file from original item | Library of Congress",
+      "url": "https://www.loc.gov/resource/ppmsca.58632/?st=grid",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-2",
+      "title": "A plan or map of the Solar System projected for schools & academies | Library of Congress",
+      "url": "https://www.loc.gov/resource/g3180.ct003790/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-2",
+      "title": "Photo, Print, Drawing [An orrery or planetarium designed by George Adams showing relative positions of the planets in relation to the sun] / T. Milne del. ; Jno",
+      "url": "https://www.loc.gov/item/2006691765/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-2",
+      "title": "Astronomical maps, no. 16, clusters of stars, primary systems and nebulae - digital file from original item | Library of Congress",
+      "url": "https://www.loc.gov/resource/ppmsca.44239/?st=list",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-2",
+      "title": "Free to Use and Reuse Sets",
+      "url": "https://www.loc.gov/free-to-use/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-2",
+      "title": "De figuere vander divisien der spheren ... / graphien van Pe. Apiano. - b&w film copy neg. | Library of Congress",
+      "url": "https://www.loc.gov/resource/cph.3b41328/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-2",
+      "title": "Photo, Print, Drawing [Geometric figure of earth, sun, and moon calculated by Aristarchus to approximate real scale of the solar system]",
+      "url": "https://www.loc.gov/item/92516455/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "discovery-2",
+      "title": "File : A map of the world on a new projection with a delineation of the various parts and phenomena of the solar system to facilitate the principles and study o",
+      "url": "https://commons.wikimedia.org/wiki/File:A_map_of_the_world_on_a_new_projection_with_a_delineation_of_the_various_parts_and_phenomena_of_the_solar_system_to_facilitate_the_principles_and_study_of_geography_and_astronomy_LOC_2017585681.jpg",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "targeted-0",
+      "title": "LOC catalog - The Library of Congress",
+      "url": "https://search.catalog.loc.gov/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "targeted-0",
+      "title": "Los Angeles Public Library: Homepage",
+      "url": "https://www.lapl.org/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "targeted-0",
+      "title": "San Francisco Public Library",
+      "url": "https://sfpl.org/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "targeted-0",
+      "title": "The New York Public Library",
+      "url": "https://www.nypl.org/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "targeted-0",
+      "title": "Free Library of Philadelphia",
+      "url": "https://www.freelibrary.org/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "targeted-0",
+      "title": "The Seattle Public Library: SPL - Home",
+      "url": "https://www.spl.org/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "targeted-0",
+      "title": "Chicago Public Library",
+      "url": "https://www.chipublib.org/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "targeted-0",
+      "title": "Home Page - Welcome to Charlotte Mecklenburg Library ...",
+      "url": "https://www.cmlibrary.org/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "targeted-0",
+      "title": "Multnomah County Library",
+      "url": "https://multcolib.org/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "targeted-0",
+      "title": "Columbus Metropolitan Library",
+      "url": "https://www.columbuslibrary.org/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "targeted-1",
+      "title": "NASA Images",
+      "url": "https://www.nasa.gov/images/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "targeted-1",
+      "title": "What Did Hubble See on Your Birthday?",
+      "url": "https://science.nasa.gov/mission/hubble/multimedia/what-did-hubble-see-on-your-birthday/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "targeted-1",
+      "title": "NASA",
+      "url": "https://www.nasa.gov/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "targeted-1",
+      "title": "NASA",
+      "url": "https://en.wikipedia.org/wiki/NASA",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "targeted-1",
+      "title": "NASA Live",
+      "url": "https://www.nasa.gov/live/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "targeted-1",
+      "title": "About NASA",
+      "url": "https://www.nasa.gov/about/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "targeted-1",
+      "title": "Learning Resources",
+      "url": "https://www.nasa.gov/learning-resources/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "targeted-1",
+      "title": "Careers - NASA",
+      "url": "https://www.nasa.gov/careers/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "artist-discovery",
+      "title": "tools/video/stock_sources/pond5_pd.py",
+      "url": "https://github.com/calesthio/OpenMontage/blob/9066dcb2/tools/video/stock_sources/pond5_pd.py",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "artist-discovery",
+      "title": "Finding Public Domain Images",
+      "url": "https://lindengross.com/2026/04/23/public-domain-images/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "artist-discovery",
+      "title": "Public Domain Image Archive",
+      "url": "https://pdimagearchive.org/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "artist-discovery",
+      "title": "Search, download and print PICRYL - Public Domain Media ...",
+      "url": "https://picryl.com/",
+      "classification": "unverified-search-neighbor"
+    },
+    {
+      "searchCall": "artist-discovery",
+      "title": "Free to Use and Reuse Sets",
+      "url": "https://www.loc.gov/free-to-use/",
+      "classification": "unverified-search-neighbor"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "sources_reviewed": 45,
+  "definition": "Sum of requested Exa numResults; fetches are separate and do not inflate this count.",
+  "searches": [
+    {
+      "query": "Figma Community free original vector abstract geometric shape pattern collection SVG editable design file",
+      "numResults": 10,
+      "objective": "Find official figma.com/community/file pages for independently authored free vector shapes or patterns, not icon replicas, plugin generators, paid packs or thumbnails. Identify the actual Community URL, creator and any published original design file link. Do not infer component counts or license clearance."
+    },
+    {
+      "query": "Figma Community free illustration decorative graphics artwork collection original vectors CC BY 4.0 public design file",
+      "numResults": 10,
+      "objective": "Find official Figma Community free source files with original non-icon illustrations or decorative visual compositions suitable for redistribution after CC BY 4.0 and third-party checks. Prefer primary creator descriptions and valid design file keys; exclude stock mockups and kit clones."
+    },
+    {
+      "query": "Figma Community free poster layout graphic compositions editable vector source public Figma design file",
+      "numResults": 10,
+      "objective": "Find official Community free original graphic compositions or posters with verifiable authorship and source nodes. Avoid UI starter kits, screenshots, image stock packs or bulk claims. Return original public file links where published."
+    },
+    {
+      "query": "Figma Config 2026 digital poster kit public source file figma.com/design",
+      "numResults": 5,
+      "objective": "Find an official Figma or creator page that explicitly publishes the real /design/ file URL or node ID for Community file 1650935618941867150. A numeric Community ID must not be treated as a design fileKey. Exclude remixes, thumbnail image URLs and unrelated conference assets."
+    },
+    {
+      "query": "Figma free abstract geometric vector patterns original editable public figma.com/design link",
+      "numResults": 5,
+      "objective": "Identify creator-published direct public /design/<fileKey> URLs associated with free Community source files for independently authored vector patterns. Need file provenance, author and CC BY 4.0, not blogs listing third-party downloads or paid packs."
+    },
+    {
+      "query": "JOY note design free flat line illustration Taeyeon Kim Figma Community source design file link download",
+      "numResults": 5,
+      "objective": "Find the exact creator's public source file or official guideline/download link for Community 1349289742690901096. Exclude unrelated Joy kits and alternate sources. Determine whether account duplication is necessary."
+    }
+  ]
+}
+

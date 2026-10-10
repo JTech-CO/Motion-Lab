@@ -1,0 +1,254 @@
+{
+  "version": 1,
+  "completedAt": "2026-10-10T14:56:58.451482+00:00",
+  "scope": "Actual, per-work qualified original assets from the four conditional Grok candidates; no sitewide copying or extrapolated supply.",
+  "priorStudy": {
+    "receipt": {
+      "path": "data/grok-source-review.json",
+      "bytes": 404199,
+      "sha256": "64bb7e162a98f04ee391f58d2006deffc21448fe0b04f90a730f57c3a51f56d3"
+    },
+    "interpretation": "Historical site feasibility only. Its zero imports and older catalog hash describe that earlier execution."
+  },
+  "execution": {
+    "firstCommit": "c866125a6ed16ffb43b2ac69495e808ea6257b15",
+    "firstPush": {
+      "remote": "origin",
+      "branch": "main",
+      "verifiedRemoteCommit": "c866125a6ed16ffb43b2ac69495e808ea6257b15"
+    },
+    "importsStartedAfterFirstPush": true,
+    "newImportsCommitted": false,
+    "newImportsPushed": false,
+    "finalRemoteCommitVerified": "c866125a6ed16ffb43b2ac69495e808ea6257b15",
+    "cleanup": {
+      "parentTemporaryHelpersRemoved": 15,
+      "parentBytecodeFilesRemoved": 22,
+      "sourceAgentTemporaryHelpersRemoved": 17,
+      "activeImportProcesses": 0,
+      "originalsNoticesAndDurableEvidencePreserved": true
+    }
+  },
+  "before": {
+    "catalogSha256": "f3f125c7f7e43ad061d137fc20ee013f2f320c31f5a2fd0e9e7902e03c823b13",
+    "browseTotal": 11825,
+    "storedAssets": 11542,
+    "motion": 3399,
+    "design": 8143,
+    "references": 283
+  },
+  "accepted": {
+    "netNew": 21,
+    "byDomain": {
+      "design": 21
+    },
+    "byKind": {
+      "image": 20,
+      "code": 1
+    },
+    "byCategory": {
+      "material": 8,
+      "shape": 12,
+      "pattern": 1
+    },
+    "ids": [
+      "expansion12-grok-filtergrade-16mm-light-leak",
+      "expansion12-grok-filtergrade-16mm-circle-punch",
+      "expansion12-grok-filtergrade-16mm-negative-gate",
+      "expansion12-grok-filtergrade-16mm-white-edge",
+      "expansion12-grok-figma-joy-aoi-01",
+      "expansion12-grok-figma-joy-aoi-03",
+      "expansion12-grok-figma-joy-aoi-05",
+      "expansion12-grok-figma-joy-aoi-06",
+      "expansion12-grok-figma-joy-aoi-08",
+      "expansion12-grok-figma-joy-aoi-10",
+      "expansion12-grok-figma-joy-aoi-11",
+      "expansion12-grok-figma-joy-aoi-12",
+      "expansion12-grok-figma-joy-aoi-13",
+      "expansion12-grok-figma-joy-aoi-14",
+      "expansion12-grok-figma-joy-aoi-16",
+      "expansion12-grok-figma-joy-aoi-46",
+      "expansion12-grok-pixabay-546867",
+      "expansion12-grok-pixabay-2062195",
+      "expansion12-grok-pixabay-1733680",
+      "expansion12-grok-pixabay-3027369",
+      "expansion12-grok-pixabay-309425"
+    ],
+    "inputReceipt": {
+      "path": "data/expansion12-grok-items.json",
+      "bytes": 673080,
+      "sha256": "ccf82c2736adf1c2a8473ce73d90c292d361c02d62938e72d64c87b09517793d"
+    }
+  },
+  "sources": {
+    "filtergrade": {
+      "acceptedCount": 4,
+      "candidatesReceipt": {
+        "path": "data/upstream/expansion12-grok/filtergrade/candidates.json",
+        "bytes": 98823,
+        "sha256": "faa91f0a0ea3e4a8038c842f688ecae4738cf23d79022596d20b51fc8ada377c"
+      },
+      "resultReceipt": {
+        "path": "data/upstream/expansion12-grok/filtergrade/result.json",
+        "bytes": 3479,
+        "sha256": "503264bbc076a2cb7719b2a027a20031c37f95c73e68a1c7fed0f2f3de4c0f1c"
+      }
+    },
+    "figma": {
+      "acceptedCount": 12,
+      "candidatesReceipt": {
+        "path": "data/upstream/expansion12-grok/figma/candidates.json",
+        "bytes": 379204,
+        "sha256": "0ef5946172a423c637c4c02851dded72f07ae8675ef2845dcc0236fe3426cf11"
+      },
+      "resultReceipt": {
+        "path": "data/upstream/expansion12-grok/figma/result.json",
+        "bytes": 4075,
+        "sha256": "fd887d2fe79be31973c612c3d258c315e1501e8ead199b769e8e82756fde0e99"
+      }
+    },
+    "pixabay": {
+      "acceptedCount": 5,
+      "candidatesReceipt": {
+        "path": "data/upstream/expansion12-grok/pixabay/candidates.json",
+        "bytes": 193943,
+        "sha256": "59cd37fc14bb86c42952dd89314de9aa7f50d0a963737a77302432269f27f043"
+      },
+      "resultReceipt": {
+        "path": "data/upstream/expansion12-grok/pixabay/result.json",
+        "bytes": 2530,
+        "sha256": "b4423b4ad8026ba0179a82dba3bb5e6a17ed238a487281289f433a3fec0e8509"
+      }
+    },
+    "pond5": {
+      "acceptedCount": 0,
+      "candidatesReceipt": {
+        "path": "data/upstream/expansion12-grok/pond5/candidates.json",
+        "bytes": 4,
+        "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+      },
+      "resultReceipt": {
+        "path": "data/upstream/expansion12-grok/pond5/result.json",
+        "bytes": 4871,
+        "sha256": "497e40838b2353563285a3aa7cbf81cee49589e094a8027c1f653acf82aee0a8"
+      }
+    }
+  },
+  "deduplicationReceipt": {
+    "path": "data/upstream/expansion12-grok/pre-import-deduplication.json",
+    "bytes": 41723,
+    "sha256": "f237264e7db85a5a52cb9346e127553c4f866ec6f299f6445535628e4e1d9a06"
+  },
+  "rights": {
+    "perWorkLicenseAndFullNoticeRetained": true,
+    "originalBytesAndSha256Retained": true,
+    "jpegTransformationsDisclosed": true,
+    "generalPaidStockLicensesNotUsedForRawRedistribution": true,
+    "unlicensedReferencesAdded": 0,
+    "figmaAuthorAndArchiveEvidenceReceipt": {
+      "path": "data/upstream/expansion12-grok/figma/rights-evidence.json",
+      "bytes": 5847,
+      "sha256": "00eb7d8da970c2a0c67499c9d3e48f9ec8d50e7935edd85f05fc0c3cab5ea571"
+    },
+    "figmaEvidenceManifestReceipt": {
+      "path": "data/upstream/expansion12-grok/figma/evidence-manifest.json",
+      "bytes": 9061,
+      "sha256": "a12a01b75fa74c0c1d22322e68d067e0f6ffead4b8489a929d3fe71d46b67678"
+    },
+    "fullProtectedAuthorArticleRedistributed": false
+  },
+  "security": {
+    "collectedHtmlOrScriptsExecuted": false,
+    "mp4OrOtherVideoStored": false,
+    "credentialsUsed": false,
+    "remotePreviewRequestsRequired": false,
+    "boundedOriginalsAndJpegDescriptorsValidated": true,
+    "localFileLinksRejectedByCollectionReceipt": true,
+    "finalReview": "Parameter-bound read-only queries and allowlisted facets retained; no secret/auth/payment/personal-data flow added; bounded receipts and safe local image/SVG rendering verified."
+  },
+  "limitations": [
+    "Pond5 yielded no individually matched public-domain work with verified official original; zero entries added.",
+    "Figma Community editor access is blocked; any Figma-lane entries are the same collection's author-published originals, not a claimed editor export.",
+    "Pixabay entries use explicit individually licensed pre-2019 CC0 works via public Wikimedia Commons originals, not the general Pixabay Content License or a bulk API.",
+    "Counts represent selected independent compositions. Character, pose, color, crop and exposure variants are not independent new supply.",
+    "Content-level comparisons cover the retained local catalog, including variants and repair originals; they do not certify worldwide uniqueness."
+  ],
+  "after": {
+    "browseTotal": 11846,
+    "storedAssets": 11563,
+    "motion": 3399,
+    "design": 8164,
+    "references": 283,
+    "sources": 177,
+    "kinds": {
+      "code": 7860,
+      "image": 1274,
+      "palette": 2429,
+      "reference": 283
+    },
+    "catalogReceipt": {
+      "path": "data/catalog.json",
+      "bytes": 111751469,
+      "sha256": "dc3756159bb3c203fb728573633ade0f34d8aa150a30f8820efdd873e7f158f6"
+    },
+    "indexReceipt": {
+      "path": "dist/catalog-index.json",
+      "bytes": 5555991,
+      "sha256": "7a3be3807d12f5323cb1348acc43341d89c4be30839b5b482c1137a466439bf2"
+    },
+    "sqliteReceipt": {
+      "path": "data/motionlab.sqlite",
+      "bytes": 81326080,
+      "sha256": "19c102ea79777d8a4b312a11b5e4741aad789688fe4d2ea1472d2d7afce6db8d"
+    }
+  },
+  "verification": {
+    "offlineBuild": "pass",
+    "verifyCatalog": "pass",
+    "pythonUnitTests": {
+      "run": 162,
+      "passed": 161,
+      "skipped": 1,
+      "phase": "After the dedicated import input was enabled; before the data-only build."
+    },
+    "nodeReferenceAndVariantModelChecks": "pass",
+    "focusedRasterClassificationAndImageTests": {
+      "run": 17,
+      "passed": 17,
+      "phase": "After raster shape classification was corrected."
+    },
+    "rasterShapeFacetVerified": 12,
+    "actualCardAndDetailPreviewChecks": 42,
+    "previewProof": {
+      "path": "data/upstream/expansion12-grok/preview-verification.json",
+      "bytes": 12375,
+      "sha256": "54cbb1c5907d5252d2bbface5661b7211e1a60edbf884c9f5cf06a711a576cd0"
+    },
+    "interfaceProof": {
+      "path": "data/upstream/expansion12-grok/interface-verification.json",
+      "bytes": 713,
+      "sha256": "5810d8281208e74dcad2860590338824e563678a32da5038416003d118fe1cb9"
+    },
+    "readmeAndKOUpdatedByBuild": true,
+    "compositionChartReceipt": {
+      "path": "docs/assets/catalog-composition.svg",
+      "bytes": 2732,
+      "sha256": "2e033d6e104ee942571e38ba404d04562b2e7a65225908f2497c169ba19969ea"
+    },
+    "allTemporaryServersBrowsersAndChildProcessesClosed": true
+  },
+  "additionalVisualCoverage": {
+    "figmaSourceActualBaselineRasterProof": {
+      "path": "data/upstream/expansion12-grok/figma/duplicate-review.json",
+      "bytes": 27076,
+      "sha256": "54ba5580bfb37b37073f4e5bdac39882ebd308c41656eb563e473ceffd9c51b2"
+    },
+    "note": "The Figma lane also compared actual trusted-renderer SVG geometry with all retained images. Shared-body activity alerts are preserved with explicit manual composition decisions."
+  },
+  "historicalNextTarget": {
+    "storedAssets": 15000,
+    "remaining": 3437,
+    "verifiedRemainingCandidateSupply": null,
+    "note": "The four source candidates do not establish enough independent, redistributable supply to reach 15,000. No extrapolation from inventories or variant counts."
+  }
+}

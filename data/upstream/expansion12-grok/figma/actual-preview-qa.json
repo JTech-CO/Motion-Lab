@@ -1,0 +1,123 @@
+{
+  "rendererSha256": "f96d0d7078ffe6aa189fce72723a1ee8dd2e8b2c475b628eb1f80bc2336b7151",
+  "methods": [
+    "fixed MotionPreview.create with compact:true and actual stored JPEG",
+    "fixed MotionPreview.create with compact:false and actual stored JPEG"
+  ],
+  "externalRequestsBlocked": true,
+  "profileIsolation": "fresh browser.new_context; no account or persistent profile",
+  "browserClosed": true,
+  "noSourceScriptsExecuted": true,
+  "results": [
+    {
+      "id": "expansion12-grok-figma-joy-aoi-01",
+      "state": "ready",
+      "renderer": "image",
+      "imageNaturalWidth": 1024,
+      "imageNaturalHeight": 640,
+      "objectFit": "cover",
+      "width": 258,
+      "height": 185
+    },
+    {
+      "id": "expansion12-grok-figma-joy-aoi-05",
+      "state": "ready",
+      "renderer": "image",
+      "imageNaturalWidth": 1024,
+      "imageNaturalHeight": 640,
+      "objectFit": "cover",
+      "width": 258,
+      "height": 185
+    },
+    {
+      "id": "expansion12-grok-figma-joy-aoi-06",
+      "state": "ready",
+      "renderer": "image",
+      "imageNaturalWidth": 1024,
+      "imageNaturalHeight": 640,
+      "objectFit": "cover",
+      "width": 258,
+      "height": 185
+    },
+    {
+      "id": "expansion12-grok-figma-joy-aoi-10",
+      "state": "ready",
+      "renderer": "image",
+      "imageNaturalWidth": 1024,
+      "imageNaturalHeight": 640,
+      "objectFit": "cover",
+      "width": 258,
+      "height": 185
+    },
+    {
+      "id": "expansion12-grok-figma-joy-aoi-11",
+      "state": "ready",
+      "renderer": "image",
+      "imageNaturalWidth": 1024,
+      "imageNaturalHeight": 640,
+      "objectFit": "cover",
+      "width": 258,
+      "height": 185
+    },
+    {
+      "id": "expansion12-grok-figma-joy-aoi-12",
+      "state": "ready",
+      "renderer": "image",
+      "imageNaturalWidth": 1024,
+      "imageNaturalHeight": 640,
+      "objectFit": "cover",
+      "width": 258,
+      "height": 185
+    },
+    {
+      "id": "expansion12-grok-figma-joy-aoi-13",
+      "state": "ready",
+      "renderer": "image",
+      "imageNaturalWidth": 1024,
+      "imageNaturalHeight": 640,
+      "objectFit": "cover",
+      "width": 258,
+      "height": 185
+    },
+    {
+      "id": "expansion12-grok-figma-joy-aoi-14",
+      "state": "ready",
+      "renderer": "image",
+      "imageNaturalWidth": 1024,
+      "imageNaturalHeight": 640,
+      "objectFit": "cover",
+      "width": 258,
+      "height": 185
+    },
+    {
+      "id": "expansion12-grok-figma-joy-aoi-16",
+      "state": "ready",
+      "renderer": "image",
+      "imageNaturalWidth": 1024,
+      "imageNaturalHeight": 640,
+      "objectFit": "cover",
+      "width": 258,
+      "height": 185
+    },
+    {
+      "id": "expansion12-grok-figma-joy-aoi-46",
+      "state": "ready",
+      "renderer": "image",
+      "imageNaturalWidth": 1024,
+      "imageNaturalHeight": 640,
+      "objectFit": "cover",
+      "width": 258,
+      "height": 185
+    }
+  ],
+  "screenshots": [
+    {
+      "path": "exa-results/expansion12-grok-figma/actual-cards.png",
+      "sha256": "e2f0d923d0502e31cc31b9bcbc706ffaf5bff01dada60fdf145e4178bc12cdab"
+    },
+    {
+      "path": "exa-results/expansion12-grok-figma/actual-details.png",
+      "sha256": "232f805f4b88eb2e89df78dace6d3f4cc2d165267ee0fde4330f1683de4b918f"
+    }
+  ]
+}
