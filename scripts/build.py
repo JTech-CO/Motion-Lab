@@ -23,6 +23,7 @@ from scripts.consolidate import apply_consolidation  # noqa: E402
 from scripts.repair_components import verify_overlay  # noqa: E402
 from scripts.readme_assets import write_readme_assets  # noqa: E402
 from scripts.browse_exports import write_browse_exports  # noqa: E402
+from motionlab.source_review import validate_source_review  # noqa: E402
 from motionlab.reference_review import (REVIEW_INPUTS, REMOVAL_INPUT, apply_reference_reviews,
                                       apply_reference_removals, validate_review)  # noqa: E402
 
@@ -32,7 +33,8 @@ WAVE_INPUTS = ("css-wave-items.json", "vector-wave-items.json", "color-wave-item
                "expansion12-pattern-items.json", "expansion12-vector-items.json",
                "expansion12-material-items.json", "expansion12-shape-items.json",
                "expansion12-openmoji-items.json", "expansion12-ctrlv-items.json",
-               "expansion12-motion-reserve-items.json", "expansion12-grok-items.json")
+               "expansion12-motion-reserve-items.json", "expansion12-grok-items.json",
+               "expansion12-promptfilm-items.json")
 
 
 MAX_INPUT_JSON_BYTES = 100 * 1024 * 1024
@@ -97,8 +99,10 @@ def validate_item(item):
         raise ValueError(f"Invalid code in item {item['id']}")
     if item["kind"] == "reference" and code:
         raise ValueError(f"Reference-only items cannot distribute code: {item['id']}")
-    if item.get("language") not in ("css", "glsl", "svg", "json", "link", "image"):
+    if item.get("language") not in ("css", "glsl", "svg", "json", "link", "image", "javascript"):
         raise ValueError(f"Invalid language in item {item['id']}")
+    if item.get("language") == "javascript" or "sourceReview" in item:
+        validate_source_review(item)
     if item["kind"] == "image":
         from motionlab.image_assets import validate_image
         validate_image(item.get("image"), verify_file=False)
@@ -324,6 +328,9 @@ def build(root=ROOT):
     remaining_ids = {item["id"] for item in baseline}
     removed_project_urls = {project_url(item["sourceUrl"]) for item in unfiltered_baseline
                             if item["id"] not in remaining_ids}
+    for item in baseline + [entry for _name, entries in waves for entry in entries]:
+        if item.get("sourceReview"):
+            validate_source_review(item, root=root)
     additions, expansion_report = merge_expansion(baseline, waves, validate_item, root=root)
     # Distinct classes in a bundled source file can share a human-readable title.
     # Expansion identity is the stored body, never the bundle URL + title.

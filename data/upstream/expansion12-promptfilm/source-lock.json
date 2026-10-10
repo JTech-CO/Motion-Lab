@@ -1,0 +1,120 @@
+{
+  "repository": "https://github.com/Seokwoooo/promptfilm",
+  "revision": "d39f4d327b24ae0e3da2c23adccb237c368530e4",
+  "retrievedAt": "2026-10-10T18:09:05.413611+00:00",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1066,
+      "sha256": "9ed2e1b9b7fd4c9c2e0edf1018826ecf4118934439d349d322a9139cb23c4e86",
+      "gitBlob": "2b63a714d8260eb61e57a60a452c6dcc46d6aa19",
+      "url": "https://raw.githubusercontent.com/Seokwoooo/promptfilm/d39f4d327b24ae0e3da2c23adccb237c368530e4/LICENSE"
+    },
+    {
+      "path": "README.md",
+      "bytes": 10309,
+      "sha256": "e462e611c7c9a13d0e2933cb1b187b5579c62b11d7d807b9d65f14d0b2524ebf",
+      "gitBlob": "69358f7317a00a0ea9665e2873a1a1139d814941",
+      "url": "https://raw.githubusercontent.com/Seokwoooo/promptfilm/d39f4d327b24ae0e3da2c23adccb237c368530e4/README.md"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 2762,
+      "sha256": "13514f2ac2617bc0a1c7eebbaa139dbfccc93f2bee95a0291599d451ed63a2aa",
+      "gitBlob": "599952df209b2e4a9cb090701ab8ff147818f43e",
+      "url": "https://raw.githubusercontent.com/Seokwoooo/promptfilm/d39f4d327b24ae0e3da2c23adccb237c368530e4/THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "path": "skills/promptfilm/engine/core/p7_post.js",
+      "bytes": 4114,
+      "sha256": "ca71735f464e069a2fbfda6b78c2092aadf78cd540ff07aeca379220f74d4bd6",
+      "gitBlob": "681a727d664d4022b3adc0a0423229aa99b8386b",
+      "url": "https://raw.githubusercontent.com/Seokwoooo/promptfilm/d39f4d327b24ae0e3da2c23adccb237c368530e4/skills/promptfilm/engine/core/p7_post.js"
+    },
+    {
+      "path": "skills/promptfilm/engine/core/p9_engine.js",
+      "bytes": 44998,
+      "sha256": "76f93cec8d780df097307e8935c5e25c779949f379a785b7fcb8e9ef7525ea25",
+      "gitBlob": "b01e25f301a75ede53bf4274d195b566f2b6864c",
+      "url": "https://raw.githubusercontent.com/Seokwoooo/promptfilm/d39f4d327b24ae0e3da2c23adccb237c368530e4/skills/promptfilm/engine/core/p9_engine.js"
+    },
+    {
+      "path": "skills/promptfilm/engine/demo-ad/p3_studio.js",
+      "bytes": 9647,
+      "sha256": "96294686550a1160275a8a6387b19b3561c5e3171059dc337cea4c72c37c77e2",
+      "gitBlob": "387ee6ad88f3d800ee1ef09d6bae84815b365080",
+      "url": "https://raw.githubusercontent.com/Seokwoooo/promptfilm/d39f4d327b24ae0e3da2c23adccb237c368530e4/skills/promptfilm/engine/demo-ad/p3_studio.js"
+    },
+    {
+      "path": "skills/promptfilm/engine/demo-ad/p4_product.js",
+      "bytes": 8511,
+      "sha256": "f716a2a6ce075c6e522d59ae69e3e3d3e08ff9845b86e59b3cf22eccadbb58c8",
+      "gitBlob": "260563a1ba26ef3c7b068c637ec2021c9a233657",
+      "url": "https://raw.githubusercontent.com/Seokwoooo/promptfilm/d39f4d327b24ae0e3da2c23adccb237c368530e4/skills/promptfilm/engine/demo-ad/p4_product.js"
+    },
+    {
+      "path": "skills/promptfilm/engine/demo-ad/p5_inside.js",
+      "bytes": 12120,
+      "sha256": "6414610b0ac800fa9899ba810f690d6b370b87be924cf21d613d0df6e98978a2",
+      "gitBlob": "2c37f73670e8e3e4cf2495b3160ebfb72243d2c5",
+      "url": "https://raw.githubusercontent.com/Seokwoooo/promptfilm/d39f4d327b24ae0e3da2c23adccb237c368530e4/skills/promptfilm/engine/demo-ad/p5_inside.js"
+    },
+    {
+      "path": "skills/promptfilm/engine/demo-ad/p8_timeline.js",
+      "bytes": 5277,
+      "sha256": "10c0763679af645868b86e0c28d63c39e3f7f7044af10d720b5471c956ac52be",
+      "gitBlob": "a95bff78016b488aad6a0c8320c1f75d185e21e1",
+      "url": "https://raw.githubusercontent.com/Seokwoooo/promptfilm/d39f4d327b24ae0e3da2c23adccb237c368530e4/skills/promptfilm/engine/demo-ad/p8_timeline.js"
+    },
+    {
+      "path": "skills/promptfilm/engine/demo/p3_scene.js",
+      "bytes": 7363,
+      "sha256": "7f1c162322f6d4e8d88c78a2d551b1b773720fe51172b28cf0d855c212031700",
+      "gitBlob": "c464efc3f3b1de2cfed2e497379a4bc387bb6908",
+      "url": "https://raw.githubusercontent.com/Seokwoooo/promptfilm/d39f4d327b24ae0e3da2c23adccb237c368530e4/skills/promptfilm/engine/demo/p3_scene.js"
+    },
+    {
+      "path": "skills/promptfilm/engine/demo/p8_timeline.js",
+      "bytes": 7314,
+      "sha256": "2a43dd2bcdbc587adb12c877452fbd98a031184e6c9e341529b9c45dbe60cf1d",
+      "gitBlob": "3a2fd4b701d73afba3eab31c437ef79df81e6f2c",
+      "url": "https://raw.githubusercontent.com/Seokwoooo/promptfilm/d39f4d327b24ae0e3da2c23adccb237c368530e4/skills/promptfilm/engine/demo/p8_timeline.js"
+    },
+    {
+      "path": "skills/promptfilm/examples/blackwell-silicon-to-scale.v11.html",
+      "bytes": 212443,
+      "sha256": "de4bc51afe163535e422b6c543fa4b6ebcd83ff1df11ad0b08feed79412d1f2e",
+      "gitBlob": "ddfbc5a85140d047ebcc4781e6050d69d7589b10",
+      "url": "https://raw.githubusercontent.com/Seokwoooo/promptfilm/d39f4d327b24ae0e3da2c23adccb237c368530e4/skills/promptfilm/examples/blackwell-silicon-to-scale.v11.html"
+    },
+    {
+      "path": "skills/promptfilm/examples/cosmic-scale/parts/p3_bodies.js",
+      "bytes": 41216,
+      "sha256": "38efd6e537fafadc849308b4af369e73a6aab78b1a0ef0474e8ccf16ad8496b7",
+      "gitBlob": "c2be14dbe20fd07a5c811082ce1b68da99a3864b",
+      "url": "https://raw.githubusercontent.com/Seokwoooo/promptfilm/d39f4d327b24ae0e3da2c23adccb237c368530e4/skills/promptfilm/examples/cosmic-scale/parts/p3_bodies.js"
+    },
+    {
+      "path": "skills/promptfilm/examples/cosmic-scale/parts/p4_points.js",
+      "bytes": 21613,
+      "sha256": "7aa307550b2a840386139e28aff3c74365dac8609e91b2a404647ec9cdd52430",
+      "gitBlob": "cae9a0858c200b4473072e185ddf83502427fa00",
+      "url": "https://raw.githubusercontent.com/Seokwoooo/promptfilm/d39f4d327b24ae0e3da2c23adccb237c368530e4/skills/promptfilm/examples/cosmic-scale/parts/p4_points.js"
+    },
+    {
+      "path": "skills/promptfilm/examples/cosmic-scale/parts/p5_maps.js",
+      "bytes": 17593,
+      "sha256": "2e7d5654302263ca6bf2182fdc19da8581fc94f0c4177bf762015945e471f9b2",
+      "gitBlob": "48cf0c86297760a9cd7e5f53dce4f5334b703894",
+      "url": "https://raw.githubusercontent.com/Seokwoooo/promptfilm/d39f4d327b24ae0e3da2c23adccb237c368530e4/skills/promptfilm/examples/cosmic-scale/parts/p5_maps.js"
+    },
+    {
+      "path": "skills/promptfilm/examples/cosmic-scale/parts/p6_volume.js",
+      "bytes": 26002,
+      "sha256": "4a9113d953bbb0547ab82ae1591aa05f24a029cee7e62bee96b827d049a7e9f5",
+      "gitBlob": "125d1555de69128ff89759f9c334b088ff4b38c0",
+      "url": "https://raw.githubusercontent.com/Seokwoooo/promptfilm/d39f4d327b24ae0e3da2c23adccb237c368530e4/skills/promptfilm/examples/cosmic-scale/parts/p6_volume.js"
+    }
+  ],
+  "retainedBytes": 432348
+}

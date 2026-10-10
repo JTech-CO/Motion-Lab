@@ -16,6 +16,7 @@ from scripts.build import (WAVE_INPUTS, MAX_GENERATED_CATALOG_BYTES, compact_cat
                            deduplicate_items, read_json, validate_item)  # noqa: E402
 from scripts.expansion import merge_expansion  # noqa: E402
 from scripts.browse_exports import verify_browse_exports  # noqa: E402
+from motionlab.source_review import validate_source_review  # noqa: E402
 from motionlab.reference_review import REVIEW_INPUTS, REMOVAL_INPUT, apply_reference_reviews, apply_reference_removals  # noqa: E402
 
 BASE_INPUTS = ("imported-items.json", "research-sources.json", "manual-items.json",
@@ -128,6 +129,9 @@ def verify(root=ROOT, minimum=5000, minimum_stored=0):
     aliases = full.get("aliases", {})
     original_by_id, groups = original_record_views(entries, aliases)
     baseline, additions, waves, expected_expansion = reconstruct_inputs(root)
+    for source in baseline + [entry for _name, inputs in waves for entry in inputs]:
+        if source.get("sourceReview"):
+            validate_source_review(source, root=root)
     source_by_id = {entry["id"]: entry for entry in baseline + additions}
     review_documents = [read_json(root / "data" / name, {}) for name in REVIEW_INPUTS
                         if (root / "data" / name).is_file()]
@@ -152,6 +156,8 @@ def verify(root=ROOT, minimum=5000, minimum_stored=0):
         raise ValueError("Consolidation lost or invented an original input identity")
     for identifier, source in source_by_id.items():
         stored = original_by_id[identifier]
+        if stored.get("sourceReview"):
+            validate_source_review(stored, root=root)
         if any(stored.get(key) != value for key, value in source.items() if key != "analysis"):
             raise ValueError(f"Original input fields or notices changed: {identifier}")
         if stored["kind"] == "palette" and json.loads(stored["code"]) != stored["colors"]:
@@ -278,6 +284,7 @@ def verify(root=ROOT, minimum=5000, minimum_stored=0):
             "inputCounts": input_counts, "excluded": len(excluded), "kinds": full["stats"]["kinds"],
             "codeLanguages": dict(Counter(entry["language"] for entry in entries if entry["kind"] == "code")),
             "checks": ["minimum", "stored-minimum-and-domain-counts", "schema", "unique-ids", "full-source-fields-and-notices",
+                       "stored-javascript-source-ranges-and-independent-preview-rights",
                        "palette-code-equals-colors", "all-original-input-identities", "reviewed-consolidation-policy",
                        "pinned-source-component-repairs", "full-web-json", "homepage-statistics", "compact-index", "static-alias-map",
                        "bounded-browser-source-shards", "browser-search-and-facet-equivalence", "homepage-transition-source",

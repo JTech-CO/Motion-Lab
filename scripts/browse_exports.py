@@ -51,6 +51,13 @@ def searchable_text(entry):
     if review:
         values.extend(text((review.get("evidence") or {}).get(key), 6000)
                       for key in ("summaryKO", "summaryEN"))
+    if entry.get("sourceReview"):
+        source_review = entry["sourceReview"]
+        values.extend(text((source_review.get("evidence") or {}).get(key), 6000)
+                      for key in ("summaryKO", "summaryEN"))
+        values.extend((" ".join(strings(source_review.get("dependencies"))),
+                       " ".join(strings(source_review.get("limitations"))),
+                       " ".join(strings((source_review.get("preview") or {}).get("limitations")))))
     return " ".join(values)
 
 
@@ -85,6 +92,10 @@ def browse_entry(entry, shard, by_id):
         item["referenceReview"]["preview"] = {key: value for key, value in review["preview"].items()
                                               if key in ("mode", "assetId")}
         item["referenceReview"]["preview"]["domain"] = reference_preview_domain(review["preview"], by_id)
+    if entry.get("sourceReview"):
+        review = entry["sourceReview"]
+        item["sourceReview"] = {"preview": {"mode": review["preview"]["mode"],
+                                           "domain": review["classification"]["domain"]}}
     if entry.get("variants"):
         item["aliases"] = entry["aliases"]
         item["variantCount"] = entry["consolidation"]["variantCount"]

@@ -35,6 +35,7 @@ GitHub Pages는 `.github/workflows/pages.yml`에서 `main` 변경 시 카탈로�
 | 모션·디자인·소재·추가 형상 | `data/phase2-motion-items.json`, `phase2-design-items.json`, `phase2-material-items.json`, `phase2-game-design-items.json` |
 | 12,000개 확장 입력 | `data/expansion12-motion-items.json`, `expansion12-pattern-items.json`, `expansion12-vector-items.json`, `expansion12-material-items.json`, `expansion12-shape-items.json`, `expansion12-openmoji-items.json`, `expansion12-ctrlv-items.json`, `expansion12-motion-reserve-items.json` |
 | Grok 후보의 검증된 실제 에셋 | `data/expansion12-grok-items.json`, `data/grok-import-report.json` |
+| Promptfilm의 검토된 구성요소 | `data/expansion12-promptfilm-items.json`, `data/promptfilm-import-report.json` |
 | 원본 변형 병합 정책 | `data/consolidation-policy.json` |
 | 레퍼런스 분류·독립 미리보기 | `data/reference-review-cha.json`, `reference-review-sources.json` |
 | 접근 불가 레퍼런스 제외 정책 | `data/reference-removals.json` |
@@ -65,6 +66,12 @@ GitHub Pages는 `.github/workflows/pages.yml`에서 `main` 변경 시 카탈로�
 
 새 자료는 원본과 적용 라이선스를 확인한 뒤 기존 입력 스키마에 맞게 추가합니다. 코드·DOM·색상·이미지 구성, 출처 URL과 고정 버전, 전체 고지, 원본 및 저장 파일 해시, 검토 근거를 보존합니다. 기존 입력과 보존된 변형도 함께 대조해 같은 코드·색상·형상이나 사실상 같은 효과를 추가 카드로 늘리지 않습니다. 원본이나 고지가 불명확한 링크는 복제 권한이 있는 저장 에셋으로 취급하지 않습니다.
 
+Promptfilm 입력은 `data/upstream/expansion12-promptfilm/`의 고정 원본·고지·`source-lock.json`·`import-plan.json`에서 오프라인으로 재생성합니다. 다음 명령은 검토된 정확한 줄 범위와 SHA256을 확인해 JavaScript 발췌문 및 독립 CC0 개념도를 만들며, 원문 JavaScript를 실행하지 않습니다. 재생성 후 아래 빌드와 검증을 실행합니다.
+
+```sh
+python scripts/import_promptfilm.py
+```
+
 ```sh
 python scripts/build.py
 python scripts/verify_catalog.py
@@ -80,7 +87,7 @@ python -m pip install -r scripts/phase2-requirements.txt
 python scripts/recheck_consolidation.py
 ```
 
-공개 원본을 확인할 때 robots.txt와 출처 약관을 따르고 접근 거부·호출 제한에서는 중단합니다. MP4/MOV/WebM은 저장하지 않으며 출처의 실행 스크립트를 사이트에서 실행하지 않습니다. 원본 HTML·JS·TS는 추출과 권리 확인의 근거로만 보존할 수 있습니다. 갱신된 원본에는 기존 병합·레퍼런스 검토 정책의 해시가 맞지 않을 수 있으므로 해당 항목을 다시 검토합니다. 레퍼런스는 자동으로 최신 상태가 보장되지 않습니다.
+공개 원본을 확인할 때 robots.txt와 출처 약관을 따르고 접근 거부·호출 제한에서는 중단합니다. MP4/MOV/WebM은 저장하지 않으며 출처의 실행 스크립트를 사이트에서 실행하지 않습니다. 원본 HTML·JS·TS는 추출과 권리 확인의 근거로 보존하며, 검토된 JavaScript 발췌문은 실행하지 않는 원본 데이터로도 저장합니다. 이 발췌문의 개념도는 별도 CC0 코드로 제공하며 원본의 라이선스와 구분합니다. 갱신된 원본에는 기존 병합·레퍼런스 검토 정책의 해시가 맞지 않을 수 있으므로 해당 항목을 다시 검토합니다. 레퍼런스는 자동으로 최신 상태가 보장되지 않습니다.
 
 이번 확장은 저장 에셋 12,000개를 목표로 하며 검토 레퍼런스는 별도로 집계합니다. 모션 100개, 패턴 120개, 소재 100개, 벡터 130개, 복합형상 50개를 먼저 고정해 원본·권리·미리보기·기존 변형·분야 간 유사를 검증합니다. 소재의 최신 100개 표본은 해당 목록의 전수 조사이며 전체 공급량으로 채택률을 외삽하지 않습니다. 결과와 개별 채택·제외 근거는 `data/upstream/expansion12-*/`에 보존합니다. 다음 15,000개와 20,000개 확장은 이번 실채택률과 아직 검증하지 않은 원본 공급량을 확인한 뒤 별도로 진행합니다.
 

@@ -28,6 +28,8 @@ The GLSL host follows the GL Transitions interface, providing progress, ratio, t
 
 Global pause and reduced-motion settings control animated previews. Static designs have no decorative playback controls. Offscreen shader work is skipped, closing details destroys preview instances, and leaving the page releases resources. Interaction effects depend on the original hover, focus or active state. An upstream scroll engine or unsupported source feature may be outside the host's capabilities; read `analysis.preview.limitations`.
 
+Reviewed JavaScript sources retain their exact original `code`, source range, dependencies and license. A hash-bound `sourceReview` supplies classification and an independently authored CSS/SVG concept illustration; the original `analysis.preview.renderer` stays `none`. The gallery and detail label explicitly state that original JavaScript is not executed. The Code tab contains the original JavaScript, while Preview code contains only the separate illustration. Original MIT or other source rights and the illustration's CC0 notice are displayed separately. Dependencies and limitations explain what the illustration omits; it is neither original playback nor a frame-for-frame reconstruction. Illustrations do not increase asset or reference counts.
+
 ## Reviewed references
 
 References retain their original `kind: reference`, `code: null`, links, category and rights. A separate `referenceReview` records source-based classification and a local explanatory preview. Its `targetDomain` is `motion`, `design`, `mixed` or `tooling`. Its `resourceType` is one of eight resource types:

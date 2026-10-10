@@ -1,0 +1,1515 @@
+[
+  {
+    "id": "log-hermite-camera",
+    "title": "Log-distance Hermite Camera and Floating Origin",
+    "path": "skills/promptfilm/engine/core/p9_engine.js",
+    "startLine": 19,
+    "endLine": 104,
+    "domain": "motion",
+    "assetType": "animation",
+    "effects": [
+      "scale",
+      "rotate",
+      "slide"
+    ],
+    "components": [
+      "shape",
+      "layer"
+    ],
+    "useCases": [
+      "scene-change",
+      "intro"
+    ],
+    "techniques": [
+      "keyframes",
+      "transform"
+    ],
+    "summaryKO": "로그 거리·단조 에르미트·쿼터니언을 결합하고 표적 중심 원점을 이동하는 연속 줌입니다.",
+    "summaryEN": "Monotone Hermite distance/target channels and quaternion rotation with floating origin stabilize continuous deep zoom.",
+    "dependencies": [
+      "THREE.Vector3/Quaternion/Matrix4",
+      "p2_core.js:53-62 clamp01/lerp/smoother/V3/deg",
+      "p2_core.js:86-139 camera frames/key",
+      "KEYS/LOOP_T/PROBLEMS",
+      "universe/camera/scene/frameEl/NEAR/FAR/vfovOf"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Canonical implementation replaces older camera copies; ordered valid keys required."
+    ],
+    "previewConcept": "log-hermite-camera",
+    "sourceSha256": "4090c8143337a21ef34b00e9db210858f33ce81d1d010e458aef299db4f783ae"
+  },
+  {
+    "id": "beat-speed-warp",
+    "title": "Eased Beat Speed Warp",
+    "path": "skills/promptfilm/engine/core/p9_engine.js",
+    "startLine": 106,
+    "endLine": 158,
+    "domain": "motion",
+    "assetType": "animation",
+    "effects": [
+      "scale",
+      "stagger"
+    ],
+    "components": [
+      "layer"
+    ],
+    "useCases": [
+      "scene-change",
+      "intro",
+      "outro"
+    ],
+    "techniques": [
+      "keyframes",
+      "transform"
+    ],
+    "summaryKO": "장면 속도를 로그 공간에서 부드럽게 연결하고 원고 시간과 재생 시간을 변환합니다.",
+    "summaryEN": "Eased log-speed blends and a bidirectional lookup retime authored beats into playback time.",
+    "dependencies": [
+      "BEATS/LOOP_T/FILM_SPEED/PACE_EDITS",
+      "clamp01/lerp/smoother",
+      "PROBLEMS"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Annotations must use toPlay after retiming."
+    ],
+    "previewConcept": "beat-speed-warp",
+    "sourceSha256": "5ecfeb5ab20d19a7f02b30b24e601943a1b55851ce616bf791ebf6ae393ec8e4"
+  },
+  {
+    "id": "pinned-labels",
+    "title": "Collision-aware 3D Pinned Labels",
+    "path": "skills/promptfilm/engine/core/p9_engine.js",
+    "startLine": 222,
+    "endLine": 247,
+    "domain": "motion",
+    "assetType": "typography",
+    "effects": [
+      "fade",
+      "slide",
+      "text"
+    ],
+    "components": [
+      "text",
+      "layer"
+    ],
+    "useCases": [
+      "attention",
+      "reference"
+    ],
+    "techniques": [
+      "transform",
+      "transition"
+    ],
+    "summaryKO": "3D 이름표를 화면에 투영하고 화면 경계·안전 영역·다른 글자와 충돌하면 숨깁니다.",
+    "summaryEN": "Projects 3D tags into screen coordinates and hides off-frame or colliding labels with playback-time fades.",
+    "dependencies": [
+      "TAGS_DEF/toPlay/FADE/pulse",
+      "camera/CAM/frameEl/_cv",
+      "DIR1/DIR2",
+      "p9_engine.js:185-220 obstacle and safe-zone helpers",
+      "#tags DOM/core head CSS"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "DOM overlays, not 3D TextGeometry."
+    ],
+    "previewConcept": "pinned-labels",
+    "sourceSha256": "01b7423510e82044b97c32fbf766f71b380c9cb45ec3577d010d25387e2a78fb"
+  },
+  {
+    "id": "ratio-callouts",
+    "title": "Ratio Callouts with Adaptive Placement",
+    "path": "skills/promptfilm/engine/core/p9_engine.js",
+    "startLine": 249,
+    "endLine": 290,
+    "domain": "motion",
+    "assetType": "typography",
+    "effects": [
+      "fade",
+      "scale",
+      "text"
+    ],
+    "components": [
+      "text",
+      "stroke",
+      "layer"
+    ],
+    "useCases": [
+      "attention",
+      "reference"
+    ],
+    "techniques": [
+      "transform",
+      "transition"
+    ],
+    "summaryKO": "비율 설명을 대상의 위·옆에서 덜 겹치는 곳에 놓고 짧은 연결선을 그립니다.",
+    "summaryEN": "Chooses above/left/right placement by obstacle penalties and connects subject edge to callout.",
+    "dependencies": [
+      "CALLOUTS/toPlay/FADE/pulse",
+      "screenOf/clamp/overlaps/SAFE/LABEL_Y1/frameEl",
+      "DIR1/DIR2",
+      "#callouts/#leaders DOM/CSS"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Original authored-label templates use innerHTML; consumers must escape untrusted labels."
+    ],
+    "previewConcept": "ratio-callouts",
+    "sourceSha256": "61b579d76bb151a91595e786a40e96d29f23b6325237b2a7c9ac546279cba83a"
+  },
+  {
+    "id": "small-subject-leaders",
+    "title": "Small Subject Ring and Leader Labels",
+    "path": "skills/promptfilm/engine/core/p9_engine.js",
+    "startLine": 292,
+    "endLine": 339,
+    "domain": "motion",
+    "assetType": "typography",
+    "effects": [
+      "fade",
+      "slide",
+      "text"
+    ],
+    "components": [
+      "text",
+      "stroke",
+      "shape"
+    ],
+    "useCases": [
+      "attention",
+      "reference"
+    ],
+    "techniques": [
+      "transform",
+      "transition"
+    ],
+    "summaryKO": "작은 대상의 원형 강조와 연결선 이름표를 글자·선·대상 충돌 점수로 배치합니다.",
+    "summaryEN": "Places rings and leader labels using text-overlap, connector-crossing and subject-obstruction penalties.",
+    "dependencies": [
+      "LEADER_DEF/SUBJECTS/toPlay/FADE/pulse",
+      "screenOf/clamp/inLabelZone/SAFE/LABEL_Y1/frameEl",
+      "svgNS/ldSvg/DIR1/DIR2",
+      "#leadlabs DOM/CSS"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Original authored-label templates use innerHTML; consumers must escape untrusted labels."
+    ],
+    "previewConcept": "small-subject-leaders",
+    "sourceSha256": "e0bcb3f809cdbcaf6548ea675bb3c013b8d40ae3a7c5f9323b77aa62f2ab7fa5"
+  },
+  {
+    "id": "camera-radial-blur",
+    "title": "Camera-derived Radial and Shift Motion Blur",
+    "path": "skills/promptfilm/engine/core/p7_post.js",
+    "startLine": 10,
+    "endLine": 30,
+    "domain": "motion",
+    "assetType": "shader",
+    "effects": [
+      "blur",
+      "scale",
+      "rotate"
+    ],
+    "components": [
+      "image",
+      "layer"
+    ],
+    "useCases": [
+      "scene-change"
+    ],
+    "techniques": [
+      "glsl",
+      "texture-sampling",
+      "filter"
+    ],
+    "summaryKO": "카메라 줌·회전에서 화면 이동량을 얻어 12회 샘플링하고 번짐을 약 2%로 제한합니다.",
+    "summaryEN": "A 12-tap shutter pass combines radial zoom and shift blur, caps streaks, applies exposure and removes invalid HDR pixels.",
+    "dependencies": [
+      "THREE.Vector2",
+      "ShaderPass/EffectComposer",
+      "p9_engine.js:401-432 camera shutter uniform updates",
+      "input HDR texture"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "WebGL2 isnan/isinf; requires camera-motion uniforms rather than elapsed time only."
+    ],
+    "previewConcept": "camera-radial-blur",
+    "sourceSha256": "3ae7a51a8be0521de5160d27f90692cc992970ff970bdc104534571f5c5574c1"
+  },
+  {
+    "id": "product-orbit-loop",
+    "title": "Continuous Product Orbit with Close-up and Return",
+    "path": "skills/promptfilm/engine/demo-ad/p8_timeline.js",
+    "startLine": 10,
+    "endLine": 21,
+    "domain": "motion",
+    "assetType": "animation",
+    "effects": [
+      "rotate",
+      "scale",
+      "slide"
+    ],
+    "components": [
+      "shape",
+      "layer"
+    ],
+    "useCases": [
+      "intro",
+      "outro"
+    ],
+    "techniques": [
+      "keyframes",
+      "transform"
+    ],
+    "summaryKO": "제품을 한 바퀴 돌며 상단 확대·분해 전체뷰를 거쳐 시작 자세로 돌아오는 카메라 키입니다.",
+    "summaryEN": "An authored orbit sequence visits top close-up and exploded stack before returning to its opening pose.",
+    "dependencies": [
+      "key/V3",
+      "p2_core.js:86-139 camera keys",
+      "p9_engine.js:19-104 evaluator",
+      "demo-ad product dimensions"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Final yaw 320 degrees equals opening yaw -40 degrees; evaluator required."
+    ],
+    "previewConcept": "product-orbit-loop",
+    "sourceSha256": "1ea42257a4510659842786d7277da90e4be29eb7284f85b606336c6d3d7079fb"
+  },
+  {
+    "id": "staged-product-explosion",
+    "title": "Staged Product Disassembly and Reassembly",
+    "path": "skills/promptfilm/engine/demo-ad/p8_timeline.js",
+    "startLine": 38,
+    "endLine": 63,
+    "domain": "motion",
+    "assetType": "animation",
+    "effects": [
+      "slide",
+      "stagger",
+      "fade"
+    ],
+    "components": [
+      "shape",
+      "stroke",
+      "layer"
+    ],
+    "useCases": [
+      "intro",
+      "outro"
+    ],
+    "techniques": [
+      "keyframes",
+      "transform"
+    ],
+    "summaryKO": "외장을 먼저 들어 올린 뒤 내부를 축으로 펼치고 역순으로 조립하며 멀어지면 니트 미세 요철을 줄입니다.",
+    "summaryEN": "Outer parts lift before internals spread along the axis; reverse reassembly includes distance-aware knit-detail fading.",
+    "dependencies": [
+      "tween/clamp01/smoother/V3/tag/TAU_NOW",
+      "demo-ad/p5_inside.js:108-121 PARTS/AXIS_LINE",
+      "MAT/LIGHT_RING/R/TOP/FACTS/LOOP"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Requires prebuilt parts; also authors labels and drives luminous-ring phase."
+    ],
+    "previewConcept": "staged-product-explosion",
+    "sourceSha256": "e7810c3f822b5b7bdb3e63c91aa2c885c89a90d3179cb106ebd76473b9460cd8"
+  },
+  {
+    "id": "luminous-ring",
+    "title": "Travelling Luminous Arc under Smoked Glass",
+    "path": "skills/promptfilm/engine/demo-ad/p4_product.js",
+    "startLine": 59,
+    "endLine": 69,
+    "domain": "motion",
+    "assetType": "shader",
+    "effects": [
+      "rotate",
+      "pulse",
+      "wave"
+    ],
+    "components": [
+      "shape",
+      "stroke",
+      "color"
+    ],
+    "useCases": [
+      "status",
+      "ambient"
+    ],
+    "techniques": [
+      "glsl",
+      "gradient"
+    ],
+    "summaryKO": "얇은 발광 띠와 넓은 글로우 위로 밝은 호와 파랑·보라 색상이 순환합니다.",
+    "summaryEN": "Gaussian narrow/wide light bands carry a cosine-powered arc and blue-purple travelling blend.",
+    "dependencies": [
+      "THREE.RingGeometry/ShaderMaterial/AdditiveBlending",
+      "CAP/TOP",
+      "demo-ad/p8_timeline.js:61-62 phase update"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "uPh needs whole turns per loop; attached to the product cap."
+    ],
+    "previewConcept": "luminous-ring",
+    "sourceSha256": "4e6756413cae8fa64f0a0167ea2117bbba1f433c2c2472dd312229eba93bfa72"
+  },
+  {
+    "id": "jersey-knit",
+    "title": "Heathered Jersey Knit Color and Normal Material",
+    "path": "skills/promptfilm/engine/demo-ad/p3_studio.js",
+    "startLine": 37,
+    "endLine": 65,
+    "domain": "design",
+    "assetType": "material",
+    "effects": [],
+    "components": [
+      "image",
+      "grid",
+      "color"
+    ],
+    "useCases": [
+      "design-kit"
+    ],
+    "techniques": [
+      "image-texture",
+      "procedural-noise",
+      "static-design"
+    ],
+    "summaryKO": "16×24 땀에 작은 편차와 실색을 넣어 색상 맵과 높이 기반 노멀 맵을 만듭니다.",
+    "summaryEN": "Wrapping 16 by 24 stitch tile with per-stitch variation, heathered color and Sobel normal map.",
+    "dependencies": [
+      "demo-ad/p3_studio.js:16-35 canvas2d/normalFromHeight/rndT",
+      "p4_product.js:20-23 fabric PBR"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Static 512 by 512 texture generated once."
+    ],
+    "previewConcept": "jersey-knit",
+    "sourceSha256": "d1683cbdd967cabb481c6101c4e015ec34c7f5512a8c9eb487f19d9a25564734"
+  },
+  {
+    "id": "concentric-brushed-metal",
+    "title": "Concentric Hairline Brushed Aluminum Normal Map",
+    "path": "skills/promptfilm/engine/demo-ad/p3_studio.js",
+    "startLine": 67,
+    "endLine": 75,
+    "domain": "design",
+    "assetType": "material",
+    "effects": [],
+    "components": [
+      "image",
+      "stroke"
+    ],
+    "useCases": [
+      "design-kit"
+    ],
+    "techniques": [
+      "image-texture",
+      "procedural-noise",
+      "static-design"
+    ],
+    "summaryKO": "반경 기반 두 겹 노이즈로 동심원 헤어라인 높이를 만들고 노멀 맵으로 바꿉니다.",
+    "summaryEN": "Two seeded radial noise bands create concentric hairline height and normal maps.",
+    "dependencies": [
+      "demo-ad/p3_studio.js:16-35 canvas2d/normalFromHeight/rndT",
+      "p4_product.js:24 brushed PBR"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Planar ring UVs required; linear brushed variant is not another card."
+    ],
+    "previewConcept": "concentric-brushed-metal",
+    "sourceSha256": "b0da7071dcd6fb1fe8c0c41bb85da5ebbf5325b4c719d8bd80f368779591666d"
+  },
+  {
+    "id": "pressed-paper",
+    "title": "Pressed Paper Fiber Surface",
+    "path": "skills/promptfilm/engine/demo-ad/p3_studio.js",
+    "startLine": 77,
+    "endLine": 83,
+    "domain": "design",
+    "assetType": "material",
+    "effects": [],
+    "components": [
+      "image",
+      "stroke",
+      "color"
+    ],
+    "useCases": [
+      "design-kit"
+    ],
+    "techniques": [
+      "image-texture",
+      "procedural-noise",
+      "static-design"
+    ],
+    "summaryKO": "어두운 종이에 방향·길이·굵기가 다른 밝고 어두운 섬유 2,600개를 그립니다.",
+    "summaryEN": "Draws 2600 seeded light/dark fibers with varied angle, length and width on a dark paper base.",
+    "dependencies": [
+      "canvas2d/rndT",
+      "THREE.CanvasTexture"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Static speaker-cone texture, not paper deformation animation."
+    ],
+    "previewConcept": "pressed-paper",
+    "sourceSha256": "4da1709923217b874845264c72913394d18cfca6108476a6ecc9412805a0f92c"
+  },
+  {
+    "id": "softbox-studio",
+    "title": "Softbox and Strip-light Reflection Studio",
+    "path": "skills/promptfilm/engine/demo-ad/p3_studio.js",
+    "startLine": 85,
+    "endLine": 103,
+    "domain": "design",
+    "assetType": "background",
+    "effects": [],
+    "components": [
+      "shape",
+      "layer",
+      "color"
+    ],
+    "useCases": [
+      "design-kit"
+    ],
+    "techniques": [
+      "gradient",
+      "static-design"
+    ],
+    "summaryKO": "소프트박스·스트립 패널을 PMREM 환경으로 굽고 따뜻한 키와 차가운 림 조명을 조합합니다.",
+    "summaryEN": "Bakes five reflection panels into a PMREM room, with warm key and cool/warm rim directions.",
+    "dependencies": [
+      "THREE.Scene/Mesh/PlaneGeometry/SphereGeometry/ShaderMaterial/PMREMGenerator/DirectionalLight",
+      "renderer/scene"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Lighting setup needs an initialized WebGL renderer; not a standalone HDR image."
+    ],
+    "previewConcept": "softbox-studio",
+    "sourceSha256": "bfd580862b9fa3ad1cb51c7a547c461e4df16950574cd9d9b1f1c2eb3c015938"
+  },
+  {
+    "id": "contact-shadow-stage",
+    "title": "Horizonless Product Stage with Contact Shadow",
+    "path": "skills/promptfilm/engine/demo-ad/p3_studio.js",
+    "startLine": 105,
+    "endLine": 121,
+    "domain": "design",
+    "assetType": "background",
+    "effects": [],
+    "components": [
+      "shape",
+      "layer",
+      "color"
+    ],
+    "useCases": [
+      "design-kit"
+    ],
+    "techniques": [
+      "glsl",
+      "gradient",
+      "static-design"
+    ],
+    "summaryKO": "배경에 섞이는 바닥 조명과 두 겹 접촉 그림자로 수평선 없는 제품 무대를 만듭니다.",
+    "summaryEN": "Graded spherical backdrop and unlit floor light pool combine two shadow falloffs and transparent edges.",
+    "dependencies": [
+      "THREE.SphereGeometry/CircleGeometry/ShaderMaterial",
+      "universe"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Analytic shadow centered under authored product, not a dynamic shadow-map solver."
+    ],
+    "previewConcept": "contact-shadow-stage",
+    "sourceSha256": "853d03a1d044cdebde7a33364c54ee5dd9447089f1102839b07825d76f7afb58"
+  },
+  {
+    "id": "rounded-speaker-shell",
+    "title": "Lathed Knit Shell and Recessed Glass Cap",
+    "path": "skills/promptfilm/engine/demo-ad/p4_product.js",
+    "startLine": 20,
+    "endLine": 44,
+    "domain": "design",
+    "assetType": "shape",
+    "effects": [],
+    "components": [
+      "shape",
+      "image",
+      "color"
+    ],
+    "useCases": [
+      "design-kit"
+    ],
+    "techniques": [
+      "image-texture",
+      "static-design"
+    ],
+    "summaryKO": "둥근 니트 어깨, 절삭 링, 브러시 상단과 들어간 검은 유리를 구성한 제품 형상입니다.",
+    "summaryEN": "Lathed knit shell with rounded shoulder, polished chamfers, planar brushed ring and recessed black glass.",
+    "dependencies": [
+      "THREE.LatheGeometry/RingGeometry/CircleGeometry/MeshPhysicalMaterial",
+      "p4_product.js:7-18 PRODUCT/R/TOP/profile",
+      "KNIT/BRUSH/texOf"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Fictional AURA geometry; material palette included rather than separate trivial material cards."
+    ],
+    "previewConcept": "rounded-speaker-shell",
+    "sourceSha256": "6e38d8ac2290eec7cc510a119502a33dfd4ce920fd60d070e9efe90bbc967991"
+  },
+  {
+    "id": "woofer-assembly",
+    "title": "Procedural Woofer Cone and Basket Assembly",
+    "path": "skills/promptfilm/engine/demo-ad/p5_inside.js",
+    "startLine": 24,
+    "endLine": 44,
+    "domain": "design",
+    "assetType": "shape",
+    "effects": [],
+    "components": [
+      "shape",
+      "layer",
+      "image"
+    ],
+    "useCases": [
+      "design-kit"
+    ],
+    "techniques": [
+      "static-design",
+      "image-texture"
+    ],
+    "summaryKO": "종이 콘, 롤 서라운드, 댐퍼, 여섯 살 바스켓과 자석을 회전체·구·박스로 구성합니다.",
+    "summaryEN": "Parametric primitives form a paper cone, rolled surround, corrugated spider, six-spoke basket and magnet assembly.",
+    "dependencies": [
+      "THREE.LatheGeometry/SphereGeometry/BoxGeometry/RoundedBoxGeometry",
+      "PRODUCT/V3/IM/lathe",
+      "p4_product.js:10-18 profile"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Fictional test geometry, not acoustic simulation."
+    ],
+    "previewConcept": "woofer-assembly",
+    "sourceSha256": "734f62a52fb19f9c4992c8942de81d87f25387debbc53de4b4effe20cad55b6e"
+  },
+  {
+    "id": "tweeter-waveguides",
+    "title": "Three Horn Tweeters on a Mounting Ring",
+    "path": "skills/promptfilm/engine/demo-ad/p5_inside.js",
+    "startLine": 45,
+    "endLine": 59,
+    "domain": "design",
+    "assetType": "shape",
+    "effects": [],
+    "components": [
+      "shape",
+      "layer"
+    ],
+    "useCases": [
+      "design-kit"
+    ],
+    "techniques": [
+      "static-design"
+    ],
+    "summaryKO": "토러스 링 주위에 돔·혼 웨이브가이드 트위터 셋을 바깥쪽 위로 배치합니다.",
+    "summaryEN": "Three domed horn tweeters with polished lips sit on a torus ring facing outward and upward.",
+    "dependencies": [
+      "THREE.TorusGeometry/SphereGeometry",
+      "PRODUCT/FACTS.tweeter.n/IM/lathe"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "One repeated assembly, not three database assets."
+    ],
+    "previewConcept": "tweeter-waveguides",
+    "sourceSha256": "9f642c23dd6bfb907c1165cb51ed7c1a94a62b067c78e3bd2c70b56038ab45d5"
+  },
+  {
+    "id": "electronics-board",
+    "title": "Procedural Electronics Board with Printed Traces",
+    "path": "skills/promptfilm/engine/demo-ad/p5_inside.js",
+    "startLine": 60,
+    "endLine": 91,
+    "domain": "design",
+    "assetType": "shape",
+    "effects": [],
+    "components": [
+      "shape",
+      "image",
+      "grid",
+      "color"
+    ],
+    "useCases": [
+      "design-kit"
+    ],
+    "techniques": [
+      "image-texture",
+      "procedural-noise",
+      "static-design"
+    ],
+    "summaryKO": "회로·패드·실크스크린 PCB에 칩·차폐캔·커패시터와 인스턴싱 소자를 배치합니다.",
+    "summaryEN": "Generated traces/pads/silkscreen PCB hosts chip, shield can, capacitors and instanced passive components.",
+    "dependencies": [
+      "THREE.CylinderGeometry/RoundedBoxGeometry/InstancedMesh/Matrix4",
+      "PRODUCT/IM/V3/mulberry32/canvas2d/texOf"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Names and dimensions are fictional; fallback fonts can change printed labels."
+    ],
+    "previewConcept": "electronics-board",
+    "sourceSha256": "15ec6a1b5ddf62fa1b0532c4bb9414ea8dc11db88a12acae663006cb43f00553"
+  },
+  {
+    "id": "printed-battery-pack",
+    "title": "Printed Cylindrical Battery Pack",
+    "path": "skills/promptfilm/engine/demo-ad/p5_inside.js",
+    "startLine": 92,
+    "endLine": 104,
+    "domain": "design",
+    "assetType": "shape",
+    "effects": [],
+    "components": [
+      "shape",
+      "image",
+      "text"
+    ],
+    "useCases": [
+      "design-kit"
+    ],
+    "techniques": [
+      "image-texture",
+      "static-design"
+    ],
+    "summaryKO": "가상 전압·용량·바코드 캔버스 래핑을 원통에 감고 금속 단자를 붙입니다.",
+    "summaryEN": "Wraps a cylinder with fictional product text, barcode and battery icon, plus lathed endcaps and terminal.",
+    "dependencies": [
+      "THREE.CylinderGeometry/MeshPhysicalMaterial",
+      "PRODUCT/FACTS.battery.hours/IM/lathe/canvas2d/texOf"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Printed electrical specifications are fictional, not real product data."
+    ],
+    "previewConcept": "printed-battery-pack",
+    "sourceSha256": "72bc21d526284a60cc70dbd3c0b8223e4f8cd71c51e53855c7154aaca61a3ad4"
+  },
+  {
+    "id": "comparison-framing",
+    "title": "Proportional Row Hero and Comparison Framing",
+    "path": "skills/promptfilm/engine/demo/p8_timeline.js",
+    "startLine": 17,
+    "endLine": 28,
+    "domain": "motion",
+    "assetType": "animation",
+    "effects": [
+      "scale",
+      "slide"
+    ],
+    "components": [
+      "shape",
+      "layer"
+    ],
+    "useCases": [
+      "intro",
+      "reference"
+    ],
+    "techniques": [
+      "keyframes",
+      "transform"
+    ],
+    "summaryKO": "구체의 전체 비교 폭을 맞추고 개별 대상은 자막 위에 일정한 화면 비율로 배치합니다.",
+    "summaryEN": "Computes comparison-row extents and subject hero poses above the caption band at consistent screen proportions.",
+    "dependencies": [
+      "ASPECT/V3/key/BODY/B/FACTS",
+      "demo/p3_scene.js:12-24 body row",
+      "camera evaluator"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Authored 3D framing recipe, not responsive DOM layout."
+    ],
+    "previewConcept": "comparison-framing",
+    "sourceSha256": "c45c0dae8c51164afa1efeba43e705930f5ef80299e1ec52be6de3e1ebe852fd"
+  },
+  {
+    "id": "procedural-planet-spin",
+    "title": "Procedural Rocky, Ocean and Banded Planet Spin",
+    "path": "skills/promptfilm/engine/demo/p3_scene.js",
+    "startLine": 28,
+    "endLine": 57,
+    "domain": "motion",
+    "assetType": "shader",
+    "effects": [
+      "rotate"
+    ],
+    "components": [
+      "shape",
+      "color",
+      "layer"
+    ],
+    "useCases": [
+      "ambient",
+      "reference"
+    ],
+    "techniques": [
+      "glsl",
+      "procedural-noise"
+    ],
+    "summaryKO": "구 표면 좌표를 회전하며 바위·바다와 구름·가스 줄무늬를 명암과 림 안개로 보여줍니다.",
+    "summaryEN": "Rotating sphere coordinates shade rocky, ocean/land/cloud and banded-gas looks with soft terminator and limb haze.",
+    "dependencies": [
+      "THREE.SphereGeometry/ShaderMaterial",
+      "BODY/universe/NOISE_GLSL",
+      "demo/p8_timeline.js:85-92 light/spin/fade updates"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Three look parameters are one material family, not three motion assets."
+    ],
+    "previewConcept": "procedural-planet-spin",
+    "sourceSha256": "5ed18fe43f24c5558b9535a9a070fdc05f104096561c2596b49e5c79691bf847"
+  },
+  {
+    "id": "looping-sun-surface",
+    "title": "Loop-periodic Boiling Sun Surface and Glow",
+    "path": "skills/promptfilm/engine/demo/p3_scene.js",
+    "startLine": 58,
+    "endLine": 84,
+    "domain": "motion",
+    "assetType": "shader",
+    "effects": [
+      "wave",
+      "pulse"
+    ],
+    "components": [
+      "shape",
+      "color",
+      "layer"
+    ],
+    "useCases": [
+      "ambient",
+      "reference"
+    ],
+    "techniques": [
+      "glsl",
+      "procedural-noise"
+    ],
+    "summaryKO": "원형 위상 벡터로 노이즈를 이동시켜 루프가 닫히는 발광 표면과 비례 글로우를 만듭니다.",
+    "summaryEN": "Circular noise phase produces seamlessly boiling emissive surface and disc-proportional additive billboard glow.",
+    "dependencies": [
+      "THREE.ShaderMaterial/PlaneGeometry",
+      "PLANET_VS/SPHERE/BODY/universe/NOISE_GLSL",
+      "demo/p8_timeline.js:85-92 phase update"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Illustrative Sun; exposure/bloom pipeline required."
+    ],
+    "previewConcept": "looping-sun-surface",
+    "sourceSha256": "ddbc02a9b3cce105aa5f25c3c14e83d6b0767a56f89f28bd5f3d8416750bdfa5"
+  },
+  {
+    "id": "pcb-routing-texture",
+    "title": "Graphite PCB Routing and Via Texture",
+    "path": "skills/promptfilm/examples/blackwell-silicon-to-scale.v11.html",
+    "startLine": 372,
+    "endLine": 393,
+    "domain": "design",
+    "assetType": "pattern",
+    "effects": [],
+    "components": [
+      "image",
+      "stroke",
+      "grid",
+      "color"
+    ],
+    "useCases": [
+      "design-kit"
+    ],
+    "techniques": [
+      "image-texture",
+      "procedural-noise",
+      "static-design"
+    ],
+    "summaryKO": "어두운 솔더 마스크에 직각·대각 배선과 구리색 비아를 시드로 생성합니다.",
+    "summaryEN": "Seeded orthogonal/diagonal routing strokes and copper vias decorate a graphite solder mask.",
+    "dependencies": [
+      "blackwell:342-350 canvasTex",
+      "mulberry32/THREE.CanvasTexture"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Decorative pattern, not electrically valid circuit layout."
+    ],
+    "previewConcept": "pcb-routing-texture",
+    "sourceSha256": "37794535a0c0a143f6aa9412630461ff36c79caa7ab8bf7d05ababec6bcfa3e9"
+  },
+  {
+    "id": "perforated-metal",
+    "title": "Staggered Perforated Metal Sheet",
+    "path": "skills/promptfilm/examples/blackwell-silicon-to-scale.v11.html",
+    "startLine": 362,
+    "endLine": 371,
+    "domain": "design",
+    "assetType": "pattern",
+    "effects": [],
+    "components": [
+      "image",
+      "grid",
+      "shape",
+      "color"
+    ],
+    "useCases": [
+      "design-kit"
+    ],
+    "techniques": [
+      "image-texture",
+      "static-design"
+    ],
+    "summaryKO": "엇갈린 행의 원형 구멍으로 반복 타공 금속 패턴을 만듭니다.",
+    "summaryEN": "Staggered circular-perforation rows form a repeating metal-sheet texture.",
+    "dependencies": [
+      "blackwell:342-350 canvasTex",
+      "THREE.CanvasTexture"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Perforation alternatives are parameter variants, not independent records."
+    ],
+    "previewConcept": "perforated-metal",
+    "sourceSha256": "cb8e325012c3b1489f83a28dd3e8b2734d3346b485401983dacf4372cc347464"
+  },
+  {
+    "id": "fresnel-sheen-sweep",
+    "title": "Fresnel-weighted Physical Material Light Sweep",
+    "path": "skills/promptfilm/examples/blackwell-silicon-to-scale.v11.html",
+    "startLine": 395,
+    "endLine": 423,
+    "domain": "motion",
+    "assetType": "shader",
+    "effects": [
+      "slide",
+      "wave"
+    ],
+    "components": [
+      "shape",
+      "layer",
+      "color"
+    ],
+    "useCases": [
+      "intro",
+      "attention"
+    ],
+    "techniques": [
+      "glsl",
+      "gradient"
+    ],
+    "summaryKO": "월드 축을 따라 가우시안 빛띠를 이동시키고 프레넬 각도에 따라 반짝임을 가중합니다.",
+    "summaryEN": "World-space Gaussian light sweep patches a physical material with view-angle Fresnel weighting and instancing support.",
+    "dependencies": [
+      "THREE.Vector3",
+      "PBR material onBeforeCompile/customProgramCacheKey",
+      "uSheenPos/uSheenAmt update"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Bound to Three.js r160 shader chunk names."
+    ],
+    "previewConcept": "fresnel-sheen-sweep",
+    "sourceSha256": "b0722c5b61c57cb91437770bf91e43fa2d953c7793bc42a05e6622ef67861c61"
+  },
+  {
+    "id": "electron-microscope-look",
+    "title": "Depth-aware Electron Microscope Look",
+    "path": "skills/promptfilm/examples/blackwell-silicon-to-scale.v11.html",
+    "startLine": 470,
+    "endLine": 511,
+    "domain": "design",
+    "assetType": "material",
+    "effects": [],
+    "components": [
+      "image",
+      "layer",
+      "color"
+    ],
+    "useCases": [
+      "design-kit",
+      "reference"
+    ],
+    "techniques": [
+      "glsl",
+      "texture-sampling",
+      "filter",
+      "static-design"
+    ],
+    "summaryKO": "깊이 경계·국소 대비·고정 노이즈로 청회색 현미경 룩을 만들며 녹색 주석을 보존합니다.",
+    "summaryEN": "Cool-gray microscopy look compresses luminance, boosts local contrast/depth edges and preserves green annotations.",
+    "dependencies": [
+      "THREE.Vector2/ShaderPass",
+      "gtao.depthTexture/camera near-far/dofPass/composer",
+      "packing shader chunk"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Illustrative imaging effect; sibling DOF shared-depth assignment retained."
+    ],
+    "previewConcept": "electron-microscope-look",
+    "sourceSha256": "2dc99d219d495af5b53bd18e12d304b2ff359cca7c15c3ced27a4736da193bdc"
+  },
+  {
+    "id": "magnification-relief-crossfade",
+    "title": "Magnification-driven Texture to 3D Relief Crossfade",
+    "path": "skills/promptfilm/examples/blackwell-silicon-to-scale.v11.html",
+    "startLine": 1608,
+    "endLine": 1629,
+    "domain": "motion",
+    "assetType": "transition",
+    "effects": [
+      "fade",
+      "scale"
+    ],
+    "components": [
+      "shape",
+      "image",
+      "layer"
+    ],
+    "useCases": [
+      "scene-change",
+      "reference"
+    ],
+    "techniques": [
+      "transform",
+      "transition",
+      "filter"
+    ],
+    "summaryKO": "평면 패턴이 선명해진 확대 수준에서 일치하는 3D 돌출을 디더링해 보이고 표적 패치만 활성화합니다.",
+    "summaryEN": "Crossfades matched flat patterns into alpha-hashed relief by log magnification and enables patches near floating-origin target.",
+    "dependencies": [
+      "smoother/range",
+      "DM/XM/SRM",
+      "phyGroup/sramGroup/devCoarse/devBack/sramCells",
+      "THREE.Vector3/alphaHash",
+      "FADE_DEV/FADE_SRAM"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Requires prebuilt matching flat/3D patterns; not automatic image-to-model conversion."
+    ],
+    "previewConcept": "magnification-relief-crossfade",
+    "sourceSha256": "0e5a96ee3bab3ecee955c0269070af814ecd502e1ea655e9adaf1f750ed96368"
+  },
+  {
+    "id": "electron-channel-flow",
+    "title": "Instanced Electron Flow through a Gated Channel",
+    "path": "skills/promptfilm/examples/blackwell-silicon-to-scale.v11.html",
+    "startLine": 1633,
+    "endLine": 1660,
+    "domain": "motion",
+    "assetType": "animation",
+    "effects": [
+      "slide",
+      "pulse"
+    ],
+    "components": [
+      "particles",
+      "shape",
+      "color"
+    ],
+    "useCases": [
+      "reference",
+      "attention"
+    ],
+    "techniques": [
+      "keyframes",
+      "transform"
+    ],
+    "summaryKO": "시간·시드 위상으로 채널의 전자를 이동하며 도통 상태에 맞춰 크기와 강조색을 바꿉니다.",
+    "summaryEN": "Seeded electron instances traverse illustrated channel while gate conduction modulates scale and silicon highlights.",
+    "dependencies": [
+      "blackwell:1534-1537 ELECTRONS/E_SEED",
+      "ATOM/AM/ATOM_HL/TARGET_GATE/_dm4",
+      "timeline state s",
+      "slabGroup/phyGroup/sramGroup/SRM/TILE_MARK/CELL_MARK"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Illustrative carrier motion; surrounding annotation pose updates remain in excerpt."
+    ],
+    "previewConcept": "electron-channel-flow",
+    "sourceSha256": "940d2a63ecb64f8a6dc158e02f70979e065634489ba5f5e6dd5547081b1e57cf"
+  },
+  {
+    "id": "hierarchical-chip-explosion",
+    "title": "Hierarchical Instanced Chip Explosion",
+    "path": "skills/promptfilm/examples/blackwell-silicon-to-scale.v11.html",
+    "startLine": 873,
+    "endLine": 907,
+    "domain": "motion",
+    "assetType": "animation",
+    "effects": [
+      "slide",
+      "scale",
+      "stagger"
+    ],
+    "components": [
+      "shape",
+      "grid",
+      "layer"
+    ],
+    "useCases": [
+      "reference",
+      "intro"
+    ],
+    "techniques": [
+      "keyframes",
+      "transform"
+    ],
+    "summaryKO": "GPC·내부 영역 분리를 인스턴스 행렬에 반영하고 선택 영역을 실리콘 뷰로 가라앉힙니다.",
+    "summaryEN": "Group and six-region separations update instance matrices while selected region sinks into silicon view.",
+    "dependencies": [
+      "ARCH/gpcInfo/SEL/CB/CHIP_N/CHIP_MESH/CHIP_SLOT/chipBlocks/chipFine/CHIP_MESHES",
+      "blackwell:590-871 instance construction",
+      "authored explodeFn/hf/sep"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Unofficial illustrative hardware; instance counts are not records."
+    ],
+    "previewConcept": "hierarchical-chip-explosion",
+    "sourceSha256": "2618c95aadcc246c3b5b27c780c53d26515ce4d8d7078d4256bf6d1c5e3d6b1f"
+  },
+  {
+    "id": "silicon-diamond-lattice",
+    "title": "Instanced Silicon Diamond Lattice and Gate-stack Atoms",
+    "path": "skills/promptfilm/examples/blackwell-silicon-to-scale.v11.html",
+    "startLine": 1441,
+    "endLine": 1533,
+    "domain": "design",
+    "assetType": "shape",
+    "effects": [],
+    "components": [
+      "particles",
+      "shape",
+      "stroke",
+      "layer",
+      "color"
+    ],
+    "useCases": [
+      "design-kit",
+      "reference"
+    ],
+    "techniques": [
+      "transform",
+      "static-design"
+    ],
+    "summaryKO": "45도 회전 다이아몬드 실리콘 격자·결합 막대·단면 게이트 원자와 한 원자의 네 이웃을 표시합니다.",
+    "summaryEN": "Rotated diamond lattice uses instanced atoms/bonds and illustrative gate-stack atoms with selected neighbor highlights.",
+    "dependencies": [
+      "THREE.InstancedMesh/IcosahedronGeometry/CylinderGeometry",
+      "devGroup/ATOM_BOX/ZC/FIN_HW/std/dm/RENDER_COUNTS",
+      "blackwell:1326-1353 constants"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Generic gate stack, not disclosed NVIDIA process or atomistic simulation."
+    ],
+    "previewConcept": "silicon-diamond-lattice",
+    "sourceSha256": "a17c5c9c250d58c6f302059eda275107cee47b954790456a9ecb5ba89689dcbd"
+  },
+  {
+    "id": "transistor-cutaway",
+    "title": "Sectioned Fin Transistor Cutaway Geometry",
+    "path": "skills/promptfilm/examples/blackwell-silicon-to-scale.v11.html",
+    "startLine": 1317,
+    "endLine": 1439,
+    "domain": "design",
+    "assetType": "shape",
+    "effects": [],
+    "components": [
+      "shape",
+      "layer",
+      "mask",
+      "color"
+    ],
+    "useCases": [
+      "design-kit",
+      "reference"
+    ],
+    "techniques": [
+      "transform",
+      "static-design"
+    ],
+    "summaryKO": "전·후면으로 나눈 핀 트랜지스터를 프로파일 클리핑·압출로 만들고 원자 창 마스크를 공유합니다.",
+    "summaryEN": "Front/back section groups use profile clipping/extrusion and a shared atom-window cutout material.",
+    "dependencies": [
+      "THREE.ExtrudeGeometry/Shape/PlaneGeometry/BoxGeometry",
+      "phyGroup/_dm4/dm/std/phys/patchMat/mesh utilities",
+      "FADE_DEV/TARGET_GATE/DEEP_T",
+      "world units"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Generic illustrative FinFET section; upstream shader-patching and coordinate units required."
+    ],
+    "previewConcept": "transistor-cutaway",
+    "sourceSha256": "993338b724d553391828151db70cb9fe2ceff5f290db0f9768013a28e9880ac7"
+  },
+  {
+    "id": "depth-window-point-cloud",
+    "title": "Energy-aware Point Cloud with Subject Depth Window",
+    "path": "skills/promptfilm/examples/cosmic-scale/parts/p4_points.js",
+    "startLine": 145,
+    "endLine": 195,
+    "domain": "design",
+    "assetType": "background",
+    "effects": [],
+    "components": [
+      "particles",
+      "shape",
+      "color"
+    ],
+    "useCases": [
+      "ambient",
+      "design-kit"
+    ],
+    "techniques": [
+      "glsl",
+      "texture-sampling",
+      "static-design"
+    ],
+    "summaryKO": "최소 화면 크기에 맞춰 밝기를 보정하고 표적 깊이 창으로 입자층을 제어합니다.",
+    "summaryEN": "Conserves subpixel brightness and uses Gaussian subject-depth window with soft/disc/inclined-galaxy variants.",
+    "dependencies": [
+      "THREE.BufferGeometry/BufferAttribute/Points/ShaderMaterial",
+      "PXR_U/DPR_U/POINT_COMMON/SIG_GLSL/SPRITE_FS/universe",
+      "supplied particle arrays"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Sprite parameters are one family; missing original astronomy catalogues not included."
+    ],
+    "previewConcept": "depth-window-point-cloud",
+    "sourceSha256": "04f341f5cf61e6a54367075c9402e829d597d4188bb45be6f40f8e4f09de1aca"
+  },
+  {
+    "id": "deformed-limb-shell",
+    "title": "Tail-stretched Limb-glow Shell",
+    "path": "skills/promptfilm/examples/cosmic-scale/parts/p5_maps.js",
+    "startLine": 52,
+    "endLine": 73,
+    "domain": "design",
+    "assetType": "shape",
+    "effects": [],
+    "components": [
+      "shape",
+      "layer",
+      "color"
+    ],
+    "useCases": [
+      "design-kit",
+      "reference"
+    ],
+    "techniques": [
+      "glsl",
+      "transform",
+      "static-design"
+    ],
+    "summaryKO": "구를 방향에 따라 늘린 꼬리 버블을 만들고 실루엣에서 얇게 발광시킵니다.",
+    "summaryEN": "Deformed spherical tail bubble receives faint additive limb glow from view-normal alignment.",
+    "dependencies": [
+      "THREE.SphereGeometry/Quaternion/ShaderMaterial",
+      "V3/eclDir/solar",
+      "uFade update"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Heliosphere-inspired illustration, not measured boundary; radius alternatives merged."
+    ],
+    "previewConcept": "deformed-limb-shell",
+    "sourceSha256": "b071f6431cc690a0b872d4049af3d6165a06869d39f90a9f540dde35abfc37ac"
+  },
+  {
+    "id": "attractor-streamlines",
+    "title": "Converging Attractor Streamline Field",
+    "path": "skills/promptfilm/examples/cosmic-scale/parts/p5_maps.js",
+    "startLine": 151,
+    "endLine": 182,
+    "domain": "design",
+    "assetType": "pattern",
+    "effects": [],
+    "components": [
+      "stroke",
+      "layer",
+      "color"
+    ],
+    "useCases": [
+      "ambient",
+      "design-kit",
+      "reference"
+    ],
+    "techniques": [
+      "gradient",
+      "transform",
+      "static-design"
+    ],
+    "summaryKO": "여러 인력 중심으로 휘는 경로를 적분하고 종점의 밝기 밀집을 감쇠하는 금색 흐름선입니다.",
+    "summaryEN": "Integrates paths toward attractors, rejects out-of-basin lines and attenuates brightness near destination.",
+    "dependencies": [
+      "LineGeometry/LineMaterial/Line2",
+      "unitGroup/LINE_MATS/galDir/eqDir/KM.MPC/V3/mulberry32/gauss/smoother/clamp01"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Static illustrative streamlines; no measured-flow or particle-animation claim."
+    ],
+    "previewConcept": "attractor-streamlines",
+    "sourceSha256": "5e0125f5cce4070c6b650e0a7199139247c5e406f0198d33519f8becebcf888d"
+  },
+  {
+    "id": "periodic-cosmic-web",
+    "title": "Periodic Voronoi Filament Density Volume",
+    "path": "skills/promptfilm/examples/cosmic-scale/parts/p6_volume.js",
+    "startLine": 37,
+    "endLine": 64,
+    "domain": "design",
+    "assetType": "pattern",
+    "effects": [],
+    "components": [
+      "grid",
+      "particles",
+      "layer"
+    ],
+    "useCases": [
+      "ambient",
+      "design-kit"
+    ],
+    "techniques": [
+      "procedural-noise",
+      "texture-sampling",
+      "static-design"
+    ],
+    "summaryKO": "주기적 보로노이의 이웃 거리 차를 결합해 벽·필라멘트·노드 밀도를 96³ 텍스처로 굽습니다.",
+    "summaryEN": "Periodic Voronoi neighbor gaps bake walls, filaments and nodes into a 96 cubed density texture.",
+    "dependencies": [
+      "THREE.Data3DTexture/RedFormat/UnsignedByteType",
+      "mulberry32"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "CPU bake expensive; do not execute during Motion Lab browsing."
+    ],
+    "previewConcept": "periodic-cosmic-web",
+    "sourceSha256": "ab5a995adbdde2543931c791feef83f3f6122b6fec42045e6a2469d97df29af2"
+  },
+  {
+    "id": "galaxy-volume-raymarch",
+    "title": "Ray-marched Galaxy and Cosmic Web Volume",
+    "path": "skills/promptfilm/examples/cosmic-scale/parts/p6_volume.js",
+    "startLine": 118,
+    "endLine": 267,
+    "domain": "motion",
+    "assetType": "shader",
+    "effects": [
+      "scale",
+      "slide",
+      "blur"
+    ],
+    "components": [
+      "particles",
+      "layer",
+      "color"
+    ],
+    "useCases": [
+      "ambient",
+      "scene-change",
+      "reference"
+    ],
+    "techniques": [
+      "glsl",
+      "texture-sampling",
+      "procedural-noise"
+    ],
+    "summaryKO": "광선을 따라 은하 원반·팽대부·먼지 흡수와 우주망 밀도를 깊이 창으로 적분하는 볼륨입니다.",
+    "summaryEN": "Ray-marches galaxy disc/bulge emission, dust absorption and web density with view-dependent depth windows.",
+    "dependencies": [
+      "WebGL2 sampler3D",
+      "NOISE_GLSL/ARM_GLSL/DARK_GLSL/GAL_MAX",
+      "p6_volume.js:302-314 VOLU/volMat",
+      "webTex/ARM_TEX/GALAXIES",
+      "p6_volume.js:333-356 updateVolumes"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Upstream full-film p0_data.js absent; consumers supply documented data/maps or procedural substitutes."
+    ],
+    "previewConcept": "galaxy-volume-raymarch",
+    "sourceSha256": "e8c7edb0ecbe1702a4249898ba5740763d19fb50393d9eeafe8849a6215026c9"
+  },
+  {
+    "id": "density-sampled-galaxy-field",
+    "title": "Density-weighted Inverse-CDF Galaxy Field",
+    "path": "skills/promptfilm/examples/cosmic-scale/parts/p6_volume.js",
+    "startLine": 66,
+    "endLine": 104,
+    "domain": "design",
+    "assetType": "background",
+    "effects": [],
+    "components": [
+      "particles",
+      "layer",
+      "color"
+    ],
+    "useCases": [
+      "ambient",
+      "design-kit"
+    ],
+    "techniques": [
+      "procedural-noise",
+      "transform",
+      "static-design"
+    ],
+    "summaryKO": "밀도 누적분포로 입자를 뽑아 반복 타일에 놓고 거리에 따라 붉고 어둡게 바꿉니다.",
+    "summaryEN": "Samples cumulative density into periodic tiles, rejects out-of-sphere points and grades color/brightness by distance.",
+    "dependencies": [
+      "webTex/WEB_N/WEB_PERIOD_MPC/mulberry32/KM.MPC",
+      "p4_points.js:145-195 makeCloud"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "450000 illustrative specks in original; reduce to performance budget. No real catalogue stored."
+    ],
+    "previewConcept": "density-sampled-galaxy-field",
+    "sourceSha256": "0a57519b00823dbb64e0ee0dd53dc39b1bae83456a4319a69a994a8963a7a989"
+  },
+  {
+    "id": "planetary-ring-bands",
+    "title": "Anti-aliased Planetary Ring Bands and Globe Shadow",
+    "path": "skills/promptfilm/examples/cosmic-scale/parts/p3_bodies.js",
+    "startLine": 400,
+    "endLine": 425,
+    "domain": "design",
+    "assetType": "material",
+    "effects": [],
+    "components": [
+      "shape",
+      "stroke",
+      "layer",
+      "color"
+    ],
+    "useCases": [
+      "design-kit",
+      "reference"
+    ],
+    "techniques": [
+      "glsl",
+      "procedural-noise",
+      "static-design"
+    ],
+    "summaryKO": "반경별 링 두께를 픽셀 크기로 안티앨리어싱하고 잔물결을 평균화하며 행성 그림자를 계산합니다.",
+    "summaryEN": "Optical-depth ring bands use footprint antialiasing, averaged ringlets and a globe shadow test.",
+    "dependencies": [
+      "NOISE_GLSL",
+      "equivalent vObj/vNv/vPv vertex outputs",
+      "uLightObj/uPolRatio/uFade/uLightV",
+      "THREE.RingGeometry/ShaderMaterial"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Saturn-inspired values; shader itself needs no external planetary image."
+    ],
+    "previewConcept": "planetary-ring-bands",
+    "sourceSha256": "3861920b3c931e81107f49c5617433b26b62c82b2838044a96cea2930e0c75cd"
+  },
+  {
+    "id": "luminosity-and-oblate-halos",
+    "title": "Luminosity-aware Stellar and Oblate Planet Halos",
+    "path": "skills/promptfilm/examples/cosmic-scale/parts/p3_bodies.js",
+    "startLine": 295,
+    "endLine": 345,
+    "domain": "design",
+    "assetType": "material",
+    "effects": [],
+    "components": [
+      "shape",
+      "layer",
+      "color"
+    ],
+    "useCases": [
+      "ambient",
+      "design-kit"
+    ],
+    "techniques": [
+      "glsl",
+      "procedural-noise",
+      "static-design"
+    ],
+    "summaryKO": "시선 거리로 별의 광도·먼지 글로우를 구하고 납작한 행성의 타원 외곽과 역광 대기광을 맞춥니다.",
+    "summaryEN": "Ray-to-disc distance controls stellar luminosity/dust glow and projected axis corrects oblate atmospheric halos.",
+    "dependencies": [
+      "NOISE_GLSL",
+      "THREE.PlaneGeometry/ShaderMaterial/AdditiveBlending",
+      "HALO_VS/body uniforms",
+      "camera/renderer"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Related star/planet profiles merged as one halo family, not per-body records."
+    ],
+    "previewConcept": "luminosity-and-oblate-halos",
+    "sourceSha256": "a9883e228c60899736d06aab6008887fea579ed6b55728a0b450c4b8558c6d0d"
+  },
+  {
+    "id": "solar-spicule-corona",
+    "title": "Procedural Solar Spicule Rim and Corona",
+    "path": "skills/promptfilm/examples/cosmic-scale/parts/p3_bodies.js",
+    "startLine": 346,
+    "endLine": 366,
+    "domain": "motion",
+    "assetType": "shader",
+    "effects": [
+      "wave",
+      "pulse"
+    ],
+    "components": [
+      "shape",
+      "stroke",
+      "layer",
+      "color"
+    ],
+    "useCases": [
+      "ambient",
+      "reference"
+    ],
+    "techniques": [
+      "glsl",
+      "procedural-noise"
+    ],
+    "summaryKO": "시간에 따라 높이가 변하는 불규칙 스피큘을 별 가장자리 바깥에 만들고 코로나를 더합니다.",
+    "summaryEN": "Ragged time-varying spicule-height field outside a stellar limb combines with soft corona.",
+    "dependencies": [
+      "NOISE_GLSL",
+      "p3_bodies.js:296-300 HALO_VS",
+      "uTime/uFade/uScale",
+      "THREE.ShaderMaterial/AdditiveBlending"
+    ],
+    "limitations": [
+      "Exact source component excerpt, not a complete standalone film.",
+      "Hydrogen-alpha-inspired illustration; declared uErupt unused, so eruption not claimed."
+    ],
+    "previewConcept": "solar-spicule-corona",
+    "sourceSha256": "e6e443171791ae1ec17ab0707943c20e01401e5f319095e7e5342078ccd24c76"
+  }
+]

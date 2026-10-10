@@ -1,0 +1,234 @@
+{
+  "repository": "https://github.com/Seokwoooo/promptfilm",
+  "revision": "d39f4d327b24ae0e3da2c23adccb237c368530e4",
+  "reviewedAt": "2026-10-11",
+  "selectionReview": {
+    "retained": 40,
+    "policy": "Only actual source visual/camera/material units. External skill is reference data, not executed.",
+    "mergedFamilies": [
+      "Canonical core camera/annotation/warp replaces older film copies.",
+      "Three procedural planet looks merged.",
+      "Stellar/oblate planet halo family merged.",
+      "Repeated object instances and shader parameters are not records.",
+      "Linear/concentric brush alternatives share a material family."
+    ],
+    "excluded": [
+      "All SKILL installation/execution instructions.",
+      "QA/Studio/build/export/setup controls.",
+      "Missing cosmic p0_data.js astronomy images/catalogues.",
+      "Per-caption and per-object-name records.",
+      "Generic math/easing/noise/load helpers as cards.",
+      "Generic grain/bokeh one-liners."
+    ],
+    "sourceFragmentChecks": {
+      "log-hermite-camera": {
+        "syntax": true,
+        "message": ""
+      },
+      "beat-speed-warp": {
+        "syntax": true,
+        "message": ""
+      },
+      "pinned-labels": {
+        "syntax": true,
+        "message": ""
+      },
+      "ratio-callouts": {
+        "syntax": true,
+        "message": ""
+      },
+      "small-subject-leaders": {
+        "syntax": true,
+        "message": ""
+      },
+      "camera-radial-blur": {
+        "syntax": true,
+        "message": ""
+      },
+      "product-orbit-loop": {
+        "syntax": true,
+        "message": ""
+      },
+      "staged-product-explosion": {
+        "syntax": true,
+        "message": ""
+      },
+      "luminous-ring": {
+        "syntax": true,
+        "message": ""
+      },
+      "jersey-knit": {
+        "syntax": true,
+        "message": ""
+      },
+      "concentric-brushed-metal": {
+        "syntax": true,
+        "message": ""
+      },
+      "pressed-paper": {
+        "syntax": true,
+        "message": ""
+      },
+      "softbox-studio": {
+        "syntax": true,
+        "message": ""
+      },
+      "contact-shadow-stage": {
+        "syntax": true,
+        "message": ""
+      },
+      "rounded-speaker-shell": {
+        "syntax": true,
+        "message": ""
+      },
+      "woofer-assembly": {
+        "syntax": true,
+        "message": ""
+      },
+      "tweeter-waveguides": {
+        "syntax": true,
+        "message": ""
+      },
+      "electronics-board": {
+        "syntax": true,
+        "message": ""
+      },
+      "printed-battery-pack": {
+        "syntax": true,
+        "message": ""
+      },
+      "comparison-framing": {
+        "syntax": true,
+        "message": ""
+      },
+      "procedural-planet-spin": {
+        "syntax": true,
+        "message": ""
+      },
+      "looping-sun-surface": {
+        "syntax": true,
+        "message": ""
+      },
+      "pcb-routing-texture": {
+        "syntax": true,
+        "message": ""
+      },
+      "perforated-metal": {
+        "syntax": true,
+        "message": ""
+      },
+      "fresnel-sheen-sweep": {
+        "syntax": true,
+        "message": ""
+      },
+      "electron-microscope-look": {
+        "syntax": true,
+        "message": ""
+      },
+      "magnification-relief-crossfade": {
+        "syntax": true,
+        "message": ""
+      },
+      "electron-channel-flow": {
+        "syntax": true,
+        "message": ""
+      },
+      "hierarchical-chip-explosion": {
+        "syntax": true,
+        "message": ""
+      },
+      "silicon-diamond-lattice": {
+        "syntax": true,
+        "message": ""
+      },
+      "transistor-cutaway": {
+        "syntax": true,
+        "message": ""
+      },
+      "depth-window-point-cloud": {
+        "syntax": true,
+        "message": ""
+      },
+      "deformed-limb-shell": {
+        "syntax": true,
+        "message": ""
+      },
+      "attractor-streamlines": {
+        "syntax": true,
+        "message": ""
+      },
+      "periodic-cosmic-web": {
+        "syntax": true,
+        "message": ""
+      },
+      "galaxy-volume-raymarch": {
+        "syntax": true,
+        "message": ""
+      },
+      "density-sampled-galaxy-field": {
+        "syntax": true,
+        "message": ""
+      },
+      "planetary-ring-bands": {
+        "syntax": true,
+        "message": ""
+      },
+      "luminosity-and-oblate-halos": {
+        "syntax": true,
+        "message": ""
+      },
+      "solar-spicule-corona": {
+        "syntax": true,
+        "message": ""
+      }
+    }
+  },
+  "imported": 40,
+  "domains": {
+    "motion": 18,
+    "design": 22
+  },
+  "evidenceFiles": 16,
+  "evidenceBytes": 432348,
+  "previewPolicy": "Independent CC0 SVG concept illustrations; original JavaScript is retained as MIT source data and never executed in the browser.",
+  "duplicateReview": {
+    "againstRetainedCatalog": 11846,
+    "exactFingerprintMatches": [],
+    "distinctSourceHashes": 40,
+    "distinctPreviewHashes": 40,
+    "semanticScope": "Canonical duplicate engine implementations and parameter-only variants were merged or excluded; retained mechanisms and component families are described in selectionReview. Distinct source mechanisms are not claimed to be universally visually unique.",
+    "comparedOriginalRecordsIncludingVariantsAndRepairs": 11903
+  },
+  "assetTypes": {
+    "animation": 7,
+    "typography": 3,
+    "shader": 7,
+    "material": 6,
+    "background": 4,
+    "shape": 8,
+    "pattern": 4,
+    "transition": 1
+  },
+  "storedSourceBytes": 102559,
+  "inputSha256": "dd8427121dc6ae943969ee0aa95e8a561d23ac7ac35d1a4ac08166057a2bb9ac",
+  "sourceLockSha256": "40fcbca36daebac80820bfc86598dd5b1409c16a54a28a3b60f309270f1a453b",
+  "verification": {
+    "previousRecordsUnchanged": 11846,
+    "newRecords": 40,
+    "javascriptSyntaxChecks": {
+      "checked": 40,
+      "passed": 40,
+      "executesSource": false
+    },
+    "catalogTotal": 11886,
+    "originalJavaScriptExecution": "disabled",
+    "offlineReproduction": "byte-identical",
+    "pythonRegressionTests": 52,
+    "fullSlimSearchComparisons": 364,
+    "browserReadyPreviews": 40,
+    "animatedMotionPreviews": 18,
+    "browserPageErrors": 0,
+    "originalAndPreviewNotices": "MIT source and separate CC0 preview retained",
+    "pagesPublicBytes": 807398531
+  }
+}

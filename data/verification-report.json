@@ -1,18 +1,18 @@
 {
-  "verifiedAt": "2026-10-10",
-  "total": 11846,
-  "storedAssets": 11563,
+  "verifiedAt": "2026-10-11",
+  "total": 11886,
+  "storedAssets": 11603,
   "domains": {
-    "motion": 3399,
-    "design": 8164
+    "motion": 3417,
+    "design": 8186
   },
   "minimumStored": 0,
-  "originalIdentities": 11880,
+  "originalIdentities": 11920,
   "mergedGroups": 20,
   "aliases": 34,
   "variantRecords": 54,
   "repairedCompositions": 3,
-  "added": 9732,
+  "added": 9772,
   "inputCounts": {
     "css-wave-items.json": 644,
     "vector-wave-items.json": 1857,
@@ -29,11 +29,12 @@
     "expansion12-openmoji-items.json": 116,
     "expansion12-ctrlv-items.json": 19,
     "expansion12-motion-reserve-items.json": 0,
-    "expansion12-grok-items.json": 21
+    "expansion12-grok-items.json": 21,
+    "expansion12-promptfilm-items.json": 40
   },
   "excluded": 0,
   "kinds": {
-    "code": 7860,
+    "code": 7900,
     "image": 1274,
     "palette": 2429,
     "reference": 283
@@ -41,7 +42,8 @@
   "codeLanguages": {
     "css": 2307,
     "glsl": 177,
-    "svg": 5376
+    "svg": 5376,
+    "javascript": 40
   },
   "checks": [
     "minimum",
@@ -49,6 +51,7 @@
     "schema",
     "unique-ids",
     "full-source-fields-and-notices",
+    "stored-javascript-source-ranges-and-independent-preview-rights",
     "palette-code-equals-colors",
     "all-original-input-identities",
     "reviewed-consolidation-policy",
@@ -71,11 +74,11 @@
     "domain-search"
   ],
   "browserExports": {
-    "browseBytes": 13128796,
-    "detailBytes": 111712253,
-    "detailShards": 262,
+    "browseBytes": 13231438,
+    "detailBytes": 112361024,
+    "detailShards": 263,
     "maximumDetailBytes": 524199,
     "homeTransitionBytes": 8986
   },
-  "catalogSha256": "558cc59a4707126e8d4cdc619dd192a8f835621b344cd026235ede88010f2d0e"
+  "catalogSha256": "679f04151da98305b5863e86841cc4479821afb1f75def92020e2b0dc132de84"
 }

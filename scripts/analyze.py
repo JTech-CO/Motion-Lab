@@ -492,6 +492,9 @@ def _svg_analysis(item, code):
 
 def analyze_item(item):
     """Return a new analysis object without altering any imported field or notice."""
+    if item.get("sourceReview"):
+        from motionlab.source_review import reviewed_source_analysis
+        return reviewed_source_analysis(item)
     if item.get("kind") == "reference" and item.get("referenceReview"):
         from motionlab.reference_review import reviewed_analysis
         original = {key: value for key, value in item.items() if key != "referenceReview"}
