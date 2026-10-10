@@ -37,7 +37,7 @@ python -m motionlab serve --port 8787
 
 Run the build after cloning. The full `data/catalog.json` and `dist/catalog.json` are generated locally from the tracked inputs and notices, and are included in static exports and portable packages.
 
-Open [the introduction](http://127.0.0.1:8787/) or [the library](http://127.0.0.1:8787/library.html). The Korean/English interface supports mouse and arrow-key/Enter navigation, effect/component filters, 20/50/100 entries per page, motion pause and reduced-motion preferences. The local server binds to loopback only.
+Open [the introduction](http://127.0.0.1:8787/) or [the library](http://127.0.0.1:8787/library.html). The Korean/English interface supports effect/component filters, 20/50/100 entries per page, motion pause and reduced-motion preferences. The local server binds to loopback only.
 
 ```sh
 python -m motionlab search --domain motion --effect mask --component image --limit 12 --json
@@ -68,7 +68,7 @@ The chart and both README count summaries update automatically when `python scri
 
 **SKILL, CLI and HTTP:** use the included [Motion Lab SKILL](skills/motion-lab/SKILL.md) and [interface guide](docs/interfaces.md). The site's **AI connection** dialog also provides copyable setup examples.
 
-**Static links and JSON:** serve `dist/`. Start with `/llms.txt` and `/catalog-index.json`, then retrieve selected records from `/collections/*.json` or `/catalog.json`. Full records retain code, evidence and license notices. GitHub and static site URLs do not provide a remote MCP endpoint or Python API.
+**Static links and JSON:** serve `dist/`. Start with `/llms.txt` and `/catalog-index.json`, then retrieve selected records from `/collections/*.json` or `/catalog.json`. Full records retain code, evidence and license notices. The [GitHub Pages workflow](.github/workflows/pages.yml) rebuilds the untracked full catalog and deploys the site on each push to `main`. GitHub and static site URLs do not provide a remote MCP endpoint or Python API.
 
 ## Reuse and provenance
 

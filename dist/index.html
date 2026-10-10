@@ -36,13 +36,29 @@
 <header class="home-toolbar"><span class="home-wordmark">MOTION LAB.</span><div class="home-toolbar-actions"><button class="home-tool" id="home-pause" type="button" aria-pressed="false">모션 정지</button><a class="home-tool home-github" id="home-github" href="https://github.com/JTech-CO/Motion-Lab" target="_blank" rel="noopener noreferrer" aria-label="GitHub 저장소 새 탭에서 열기">GitHub ↗</a><button class="home-tool" id="home-language" type="button" aria-label="Switch to English">KO / EN</button></div></header>
 <main class="home-center">
   <h1 class="home-title" id="home-title" data-source-asset="ml-original-text-fill-sweep">Motion Lab</h1>
-  <p class="home-subtitle" id="home-subtitle">모션 코드와 디자인 에셋을 탐색하는 자료 창고.</p>
-  <p class="home-description" id="home-description">전환, 타이포그래피, 로더부터 패턴, 형상, 소재와 색상까지.
-로컬 미리보기로 비교하고 코드·이미지·출처를 함께 확인하세요.</p>
-  <p class="home-scope" id="home-scope">모션 · 디자인 · 검토 레퍼런스</p>
-  <p class="home-interfaces" id="home-interfaces">웹 미리보기 · CLI · 로컬 MCP · JSON · SKILL</p>
-  <p class="home-rights" id="home-rights">재사용 조건은 각 항목의 원본 라이선스에서 확인하세요.</p>
-  <p class="home-key-help" id="home-help">방향키 선택 · Enter 실행</p>
+  <p class="home-subtitle" id="home-subtitle">모션 코드, 디자인 에셋과 레퍼런스를 한곳에서.</p>
+  <section class="home-composition" id="home-composition" aria-label="자료 구성" aria-busy="true" data-ready="false">
+    <dl class="home-collections">
+      <div class="home-collection" data-collection="motion"><dt><span class="home-collection-dot" aria-hidden="true"></span><span id="home-motion-label">모션</span></dt><dd><span class="home-collection-count" id="home-motion-count">...</span><span class="home-collection-share" id="home-motion-share"></span></dd></div>
+      <div class="home-collection" data-collection="design"><dt><span class="home-collection-dot" aria-hidden="true"></span><span id="home-design-label">디자인</span></dt><dd><span class="home-collection-count" id="home-design-count">...</span><span class="home-collection-share" id="home-design-share"></span></dd></div>
+      <div class="home-collection" data-collection="references"><dt><span class="home-collection-dot" aria-hidden="true"></span><span id="home-references-label">레퍼런스</span></dt><dd><span class="home-collection-count" id="home-references-count">...</span><span class="home-collection-share" id="home-references-share"></span></dd></div>
+    </dl>
+    <figure class="home-chart">
+      <svg class="home-chart-svg" viewBox="0 0 320 320" role="img" aria-labelledby="home-chart-title home-chart-description">
+        <title id="home-chart-title">모션, 디자인, 레퍼런스 비율</title><desc id="home-chart-description">자료 구성을 불러오는 중입니다.</desc>
+        <circle class="home-chart-orbit" cx="160" cy="160" r="146"/>
+        <circle class="home-chart-track" cx="160" cy="160" r="113"/>
+        <g class="home-chart-segments" transform="rotate(-90 160 160)">
+          <circle class="home-chart-segment" id="home-motion-segment" data-collection="motion" cx="160" cy="160" r="113" pathLength="100" stroke-dasharray="0 100"/>
+          <circle class="home-chart-segment" id="home-design-segment" data-collection="design" cx="160" cy="160" r="113" pathLength="100" stroke-dasharray="0 100"/>
+          <circle class="home-chart-segment" id="home-references-segment" data-collection="references" cx="160" cy="160" r="113" pathLength="100" stroke-dasharray="0 100"/>
+        </g>
+        <text class="home-chart-total" id="home-total" x="160" y="156" text-anchor="middle">...</text>
+        <text class="home-chart-total-label" id="home-total-label" x="160" y="184" text-anchor="middle">전체 자료</text>
+      </svg>
+      <figcaption id="home-stats-status" class="home-stats-status" role="status">자료 구성을 불러오는 중입니다.</figcaption>
+    </figure>
+  </section>
   <a class="home-enter" id="home-enter" href="./library.html"><span id="home-enter-label">라이브러리 열기</span><span class="home-enter-mark" aria-hidden="true">↗</span></a>
   <p class="home-motion-note" id="home-note"></p>
 </main>

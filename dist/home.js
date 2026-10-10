@@ -15,40 +15,68 @@
   const $ = (id) => document.getElementById(id);
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   const library = window.MotionLabLibrary;
-  const state = { lang: document.documentElement.lang === 'en' ? 'en' : 'ko', paused: reduced.matches, entering: false, frame: 0, pipeline: null, source: null, stats: null, framesRendered: 0, generation: 0 };
+  const state = { lang: document.documentElement.lang === 'en' ? 'en' : 'ko', paused: reduced.matches, entering: false, frame: 0, pipeline: null, source: null, stats: null, statsStatus: 'loading', statsFromCatalog: false, framesRendered: 0, generation: 0 };
   const copy = {
     ko: {
-      title: 'Motion Lab', subtitle: '모션 코드와 디자인 에셋을 탐색하는 자료 창고.',
-      description: '전환, 타이포그래피, 로더부터 패턴, 형상, 소재와 색상까지.\n로컬 미리보기로 비교하고 코드·이미지·출처를 함께 확인하세요.',
-      scope: '모션 · 디자인 · 검토 레퍼런스', motion: '모션', design: '디자인', references: '검토 레퍼런스',
-      interfaces: '웹 미리보기 · CLI · 로컬 MCP · JSON · SKILL', rights: '재사용 조건은 각 항목의 원본 라이선스에서 확인하세요.',
-      enter: '라이브러리 열기', pause: '모션 정지', play: '모션 재생', help: '방향키 선택 · Enter 실행',
-      method: '원본 CSS의 화면·색상 적용 · Drop_Zone_Flicker 원본 GLSL 가시성 마스크', reduced: '시스템의 모션 줄이기 설정을 따릅니다.',
+      title: 'Motion Lab', subtitle: '모션 코드, 디자인 에셋과 레퍼런스를 한곳에서.',
+      motion: '모션', design: '디자인', references: '레퍼런스', total: '전체 자료', composition: '자료 구성',
+      chart: '모션, 디자인, 레퍼런스 비율', statsLoading: '자료 구성을 불러오는 중입니다.', statsError: '자료 구성을 확인하지 못했습니다.',
+      enter: '라이브러리 열기', pause: '모션 정지', play: '모션 재생', reduced: '시스템의 모션 줄이기 설정을 따릅니다.',
       entering: '라이브러리로 이동합니다.', fallback: '전환 효과를 생략하고 라이브러리로 이동합니다.'
     },
     en: {
-      title: 'Motion Lab', subtitle: 'Motion code and design assets, ready to explore.',
-      description: 'Transitions, typography and loaders. Patterns, shapes, materials and color.\nCompare local previews, then inspect the source and license.',
-      scope: 'Motion · Design · Reviewed references', motion: 'Motion', design: 'Design', references: 'Reviewed references',
-      interfaces: 'Web previews · CLI · Local MCP · JSON · SKILL', rights: 'Check each original license before reusing an asset.',
-      enter: 'Explore the library', pause: 'Pause motion', play: 'Play motion', help: 'Arrows select · Enter activates',
-      method: 'Original CSS with adapted scale & colors · Drop_Zone_Flicker GLSL visibility mask', reduced: 'Respects the system reduced-motion setting.',
+      title: 'Motion Lab', subtitle: 'Motion code, design assets and references in one place.',
+      motion: 'Motion', design: 'Design', references: 'References', total: 'Total entries', composition: 'Collection composition',
+      chart: 'Motion, Design and References proportions', statsLoading: 'Loading collection composition.', statsError: 'Collection composition is unavailable.',
+      enter: 'Explore the library', pause: 'Pause motion', play: 'Play motion', reduced: 'Respects the system reduced-motion setting.',
       entering: 'Opening the library.', fallback: 'Opening the library without the transition effect.'
     }
   };
   const t = (key) => copy[state.lang][key];
+  const collections = ['motion', 'design', 'references'];
+  function composition(stats) {
+    if (!stats || typeof stats !== 'object') return null;
+    const counts = [stats.domains?.motion, stats.domains?.design, stats.kinds?.reference];
+    if (![...counts, stats.total, stats.storedAssets].every((value) => Number.isSafeInteger(value) && value >= 0 && value <= 1000000000)
+      || counts.reduce((sum, value) => sum + value, 0) !== stats.total
+      || counts[0] + counts[1] !== stats.storedAssets) return null;
+    return { counts, total: stats.total };
+  }
+  function renderComposition() {
+    const data = composition(state.stats);
+    const format = new Intl.NumberFormat(state.lang === 'ko' ? 'ko-KR' : 'en-US');
+    const percent = new Intl.NumberFormat(state.lang === 'ko' ? 'ko-KR' : 'en-US', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+    const section = $('home-composition');
+    section.setAttribute('aria-label', t('composition'));
+    section.setAttribute('aria-busy', String(!data && state.statsStatus === 'loading'));
+    section.dataset.ready = String(!!data);
+    $('home-chart-title').textContent = t('chart');
+    $('home-total-label').textContent = t('total');
+    $('home-total').textContent = data ? format.format(data.total) : '...';
+    const descriptions = [];
+    let start = 0;
+    collections.forEach((key, index) => {
+      const count = data?.counts[index];
+      const share = data && data.total ? count * 100 / data.total : 0;
+      $('home-' + key + '-label').textContent = t(key);
+      $('home-' + key + '-count').textContent = data ? format.format(count) : '...';
+      $('home-' + key + '-share').textContent = data ? percent.format(share) + '%' : '';
+      const segment = $('home-' + key + '-segment');
+      segment.setAttribute('stroke-dasharray', share.toFixed(8) + ' 100');
+      segment.setAttribute('stroke-dashoffset', (-start).toFixed(8));
+      start += share;
+      if (data) descriptions.push(t(key) + ': ' + format.format(count) + ' (' + percent.format(share) + '%)');
+    });
+    const status = state.statsStatus === 'loading' ? t('statsLoading') : t('statsError');
+    $('home-chart-description').textContent = data ? descriptions.join('; ') : status;
+    $('home-stats-status').textContent = data ? '' : status;
+    $('home-stats-status').hidden = !!data;
+  }
   function renderHome() {
     home.dataset.paused = String(state.paused || reduced.matches);
     $('home-subtitle').textContent = t('subtitle');
-    $('home-description').textContent = t('description');
-    const counts = [state.stats?.domains?.motion, state.stats?.domains?.design, state.stats?.kinds?.reference];
-    $('home-scope').textContent = counts.every((count) => Number.isSafeInteger(count) && count >= 0)
-      ? ['motion', 'design', 'references'].map((key, index) => t(key) + ' ' + counts[index].toLocaleString(state.lang === 'ko' ? 'ko-KR' : 'en-US')).join(' · ')
-      : t('scope');
-    $('home-interfaces').textContent = t('interfaces');
-    $('home-rights').textContent = t('rights');
+    renderComposition();
     $('home-enter-label').textContent = t('enter');
-    $('home-help').textContent = t('help');
     $('home-pause').textContent = t(state.paused || reduced.matches ? 'play' : 'pause');
     $('home-pause').setAttribute('aria-pressed', String(state.paused || reduced.matches));
     $('home-pause').disabled = reduced.matches;
@@ -225,13 +253,37 @@
   }
   const ready = library && library.ready && typeof library.ready.then === 'function' ? library.ready : Promise.resolve(null);
   function acceptCatalog(data) {
-    state.stats = data?.stats || null;
+    if (composition(data?.stats)) {
+      state.stats = data.stats;
+      state.statsStatus = 'ready';
+      state.statsFromCatalog = true;
+    }
     state.source = data && Array.isArray(data.items) ? data.items.find((item) => item.id === 'gl-transitions-drop-zone-flicker') || null : null;
     home.dataset.transitionSource = state.source ? state.source.id : 'unavailable';
     renderHome();
   }
   ready.then(acceptCatalog).catch(() => { state.source=null; });
   document.addEventListener('motionlab:catalog-ready',(event)=>acceptCatalog(event.detail));
+  async function loadComposition() {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 15000);
+    try {
+      const response = await fetch('./catalog-stats.json', { signal: controller.signal });
+      if (!response.ok) throw new Error('Composition unavailable');
+      const text = await response.text();
+      if (text.length > 65536) throw new Error('Composition too large');
+      const payload = JSON.parse(text);
+      const stats = payload?.stats;
+      if (!composition(stats)) throw new Error('Invalid composition');
+      if (!state.statsFromCatalog) { state.stats = stats; state.statsStatus = 'ready'; }
+    } catch (_) {
+      if (!state.stats) state.statsStatus = 'error';
+    } finally {
+      clearTimeout(timeout);
+      renderComposition();
+    }
+  }
+  loadComposition();
   async function enterLibrary(event) {
     event.preventDefault();
     if (state.entering) return;

@@ -199,6 +199,9 @@ def write_static_exports(root, catalog):
     """Smaller, AI-friendly files for clients that only have a hosted URL."""
     distribution = root / "dist"
     write_json(distribution / "catalog.json", catalog, compact=True)
+    write_json(distribution / "catalog-stats.json", {
+        "version": catalog["version"], "updatedAt": catalog["updatedAt"], "stats": catalog["stats"]
+    }, compact=True)
     write_json(distribution / "catalog-index.json", compact_catalog_index(catalog), compact=True)
     write_json(distribution / "catalog-aliases.json", {"version": 1, "updatedAt": catalog["updatedAt"],
                                                      "aliases": catalog.get("aliases", {})})

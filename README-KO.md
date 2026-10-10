@@ -37,7 +37,7 @@ python -m motionlab serve --port 8787
 
 클론한 뒤 빌드를 실행하세요. 전체 `data/catalog.json`과 `dist/catalog.json`은 Git으로 관리하는 입력과 고지에서 로컬로 생성하며, 정적 배포 파일과 휴대용 패키지에 포함됩니다.
 
-[소개페이지](http://127.0.0.1:8787/) 또는 [라이브러리](http://127.0.0.1:8787/library.html)를 엽니다. 한국어/영어 전환, 마우스 및 방향키/Enter 탐색, 효과와 구성 요소 필터, 페이지당 20/50/100개 보기, 모션 일시정지, 모션 감소 설정을 지원합니다. 로컬 서버는 루프백 주소에서만 접속할 수 있습니다.
+[소개페이지](http://127.0.0.1:8787/) 또는 [라이브러리](http://127.0.0.1:8787/library.html)를 엽니다. 한국어/영어 전환, 효과와 구성 요소 필터, 페이지당 20/50/100개 보기, 모션 일시정지, 모션 감소 설정을 지원합니다. 로컬 서버는 루프백 주소에서만 접속할 수 있습니다.
 
 ```sh
 python -m motionlab search --domain motion --effect mask --component image --limit 12 --json
@@ -68,7 +68,7 @@ python -m motionlab get gl-transitions-drop-zone-flicker --json
 
 **SKILL, CLI 및 HTTP:** 포함된 [Motion Lab SKILL](skills/motion-lab/SKILL.md)과 [인터페이스 가이드](docs/interfaces.md)를 활용합니다. 사이트의 **AI 연결** 창에서도 복사 가능한 설정 예시를 제공합니다.
 
-**정적 링크와 JSON:** `dist/`를 정적 사이트로 제공합니다. `/llms.txt`와 `/catalog-index.json`부터 확인한 뒤, `/collections/*.json` 또는 `/catalog.json`에서 필요한 항목을 가져옵니다. 전체 레코드에는 코드, 검증 근거, 라이선스 고지가 포함되어 있습니다. GitHub 및 정적 사이트 URL은 원격 MCP 엔드포인트나 Python API를 제공하지 않습니다.
+**정적 링크와 JSON:** `dist/`를 정적 사이트로 제공합니다. `/llms.txt`와 `/catalog-index.json`부터 확인한 뒤, `/collections/*.json` 또는 `/catalog.json`에서 필요한 항목을 가져옵니다. 전체 레코드에는 코드, 검증 근거, 라이선스 고지가 포함되어 있습니다. [GitHub Pages 워크플로](.github/workflows/pages.yml)는 `main` 푸시마다 Git으로 관리하지 않는 전체 카탈로그를 재생성하여 사이트를 배포합니다. GitHub 및 정적 사이트 URL은 원격 MCP 엔드포인트나 Python API를 제공하지 않습니다.
 
 ## 재사용과 출처
 

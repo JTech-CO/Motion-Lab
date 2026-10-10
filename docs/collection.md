@@ -18,7 +18,11 @@ python -m motionlab serve --port 8787
 
 전체 JSON 두 파일은 Git 추적에서 제외하고 클론 후 위 빌드로 생성합니다. 원본 입력, 고지, 검증 근거는 저장소에 보존하며 생성된 전체 JSON은 로컬 API, 정적 배포 및 휴대용 패키지에서 계속 사용할 수 있습니다.
 
+GitHub Pages는 `.github/workflows/pages.yml`에서 `main` 변경 시 카탈로그를 다시 만들고 검증한 뒤 배포합니다. 저장소 설정의 Pages 배포 원본은 **GitHub Actions**로 지정합니다. `python scripts/build_pages.py`는 공개 `dist/`만 `_site/dist/`에 복사하고 프로젝트 루트에 이동 안내를 생성하므로 기존 `/dist/index.html#library` 주소를 유지합니다. 전체 JSON은 배포 산출물에 포함되며 Git 이력에는 추가하지 않습니다. 비공개 설정·수집 작업 폴더는 배포하지 않고 파일 링크 및 사이트 크기 1 GB 초과를 차단합니다. `_site/`는 배포 검사용 생성 폴더이며 기존 내용이 있으면 덮어쓰지 않습니다.
+
 같은 빌드에서 `README.md`와 `README-KO.md`의 수량 요약 및 공통 원형 그래프 `docs/assets/catalog-composition.svg`도 갱신합니다. 그래프는 대표 탐색 항목의 모션·디자인·레퍼런스 수량을 사용하며 별칭과 보존 원본 변형을 추가로 계산하지 않습니다. README의 자동 생성 마커 밖 문장은 유지합니다. 현재 SQLite 통계로 문서와 그래프만 갱신하려면 `python scripts/readme_assets.py`를 실행합니다. 외부 차트 서비스나 추가 Python 패키지는 필요하지 않습니다.
+
+홈페이지 구성 그래프의 수량과 비율은 같은 빌드에서 생성하는 작은 `dist/catalog-stats.json`을 사용합니다. 전체 카탈로그와 일치하는지 배포 전 검증하므로 자료가 늘어나면 README와 홈페이지가 같은 기준으로 갱신됩니다.
 
 ## 입력과 근거
 

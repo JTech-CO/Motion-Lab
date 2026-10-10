@@ -14,6 +14,7 @@ node_modules/
 # Full catalogs are rebuilt from the tracked source inputs and notices.
 /data/catalog.json
 /dist/catalog.json
+/_site/
 .openai/.local/
 .openai/local/
 

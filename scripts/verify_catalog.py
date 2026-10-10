@@ -110,6 +110,9 @@ def verify(root=ROOT, minimum=5000, minimum_stored=0):
     published = read_json(root / "dist/catalog.json", {}, maximum_bytes=MAX_GENERATED_CATALOG_BYTES)
     if full != published:
         raise ValueError("Local and web full catalogs differ")
+    summary = read_json(root / "dist/catalog-stats.json", {}, maximum_bytes=256 * 1024)
+    if summary != {"version": full["version"], "updatedAt": full["updatedAt"], "stats": full["stats"]}:
+        raise ValueError("Homepage statistics do not match the full catalog")
     entries = full["items"]
     by_id = {entry["id"]: entry for entry in entries}
     if len(entries) < minimum or len(entries) != len(by_id) or full["stats"]["total"] != len(entries):
@@ -274,7 +277,7 @@ def verify(root=ROOT, minimum=5000, minimum_stored=0):
             "codeLanguages": dict(Counter(entry["language"] for entry in entries if entry["kind"] == "code")),
             "checks": ["minimum", "stored-minimum-and-domain-counts", "schema", "unique-ids", "full-source-fields-and-notices",
                        "palette-code-equals-colors", "all-original-input-identities", "reviewed-consolidation-policy",
-                       "pinned-source-component-repairs", "full-web-json", "compact-index", "static-alias-map",
+                       "pinned-source-component-repairs", "full-web-json", "homepage-statistics", "compact-index", "static-alias-map",
                        "all-category-collections", "domain-collections", "image-files-and-digests",
                        "read-only-sqlite-records", "sqlite-aliases",
                        "legacy-get-preserves-original-source", "sqlite-integrity", "search-last-page", "domain-search"],
