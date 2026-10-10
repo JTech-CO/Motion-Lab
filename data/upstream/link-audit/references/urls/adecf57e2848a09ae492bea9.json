@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/qc20/colourful-attraction",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/qc20/colourful-attraction",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/qc20/colourful-attraction",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/qc20/colourful-attraction",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:38.711923+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/qc20/colourful-attraction",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "50671e318dc5194ed3ef9521882d85e341121946b9a684b9f9fbebdb86499a5a",
+      "responseBodySha256": "50671e318dc5194ed3ef9521882d85e341121946b9a684b9f9fbebdb86499a5a",
+      "title": "GitHub - QC20/Colourful-Attraction: 100,000 GPU particles flowing through 12 strange attractors in real time. WebGL fragment shaders, ping-pong framebuffers, and chaotic dynamical systems that morph fluidly into one another. Built with p5.js and GLSL.ribes the content specifications for how I want y",
+      "textCharacters": 6381,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.734,
+      "captureCachePath": "exa-results/link-audit/references/captures/227f324f54998560ac91c195.json",
+      "captureCacheSha256": "b407678bd01200e4acc68e0de7fa979b911aa1af998e90b30b383a2f4bd39721"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-colourful-attraction",
+      "canonicalId": "ref-colourful-attraction",
+      "title": "Colourful Attraction",
+      "role": "canonical",
+      "sourceSha256": "7b478cfe9b1ba95e18f724b0a67c2249c75f2cb7dca5ca4df76b73483b444d2d"
+    }
+  ]
+}

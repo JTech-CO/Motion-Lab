@@ -1,0 +1,24 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Folding Hexagon / Origami Structure -->
+                <polygon points="150,80 250,80 300,150 250,220 150,220 100,150" fill="var(--primary-color)" opacity="0.2" stroke="var(--primary-color)" stroke-width="2"/>
+                
+                <!-- Folded facets -->
+                <polygon points="150,80 250,80 200,150" fill="var(--primary-color)" opacity="0.8"/>
+                <polygon points="150,80 100,150 200,150" fill="var(--secondary-color)"/>
+                <polygon points="250,80 300,150 200,150" fill="var(--accent-color)"/>
+                
+                <!-- Transforming / Folding Flaps -->
+                <g class="anim-rotate" >
+                    <polygon points="250,220 150,220 200,150" fill="var(--primary-color)" opacity="0.5"/>
+                    <path class="anim-pulse" d="M200 150 L250 220 L150 220 Z" stroke="var(--bg-surface)" stroke-width="4" fill="none"/>
+                </g>
+                
+                <!-- Quantum Nodes -->
+                <circle class="anim-glow" cx="200" cy="150" r="12" fill="var(--bg-surface)"/>
+                <circle class="anim-pulse" cx="150" cy="80" r="8" fill="var(--accent-color)"/>
+                <circle class="anim-pulse" cx="250" cy="80" r="8" fill="var(--secondary-color)"/>
+                <circle class="anim-pulse" cx="100" cy="150" r="8" fill="var(--accent-color)"/>
+                <circle class="anim-pulse" cx="300" cy="150" r="8" fill="var(--primary-color)"/>
+            </g>
+          </svg>

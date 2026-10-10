@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="130" ry="10" fill="#E2E8F0"/>
+            
+            <!--Hologram Floor Grid-->
+            <path class="anim-draw" d="M80 270 L140 230 M320 270 L260 230 M120 250 H280" stroke="var(--secondary-color)" stroke-width="3" fill="none" opacity="0.3"/>
+            
+            <g class="anim-float">
+                <!-- Head Silhouette Base -->
+                <circle cx="200" cy="140" r="60" fill="var(--charcoal)" opacity="0.1"/>
+                <path d="M150 140 C150 80 250 80 250 140 C250 180 220 200 200 210 C180 200 150 180 150 140 Z" fill="var(--primary-color)" opacity="0.05"/>
+                
+                <!-- The VR Headset -->
+                <rect x="130" y="110" width="140" height="60" rx="15" fill="var(--primary-color)"/>
+                <rect x="140" y="120" width="120" height="40" rx="10" fill="var(--bg-surface)" opacity="0.1"/>
+                <!-- Glowing Visor Screen -->
+                <rect class="anim-pulse" x="145" y="125" width="110" height="30" rx="8" fill="var(--accent-color)" opacity="0.8"/>
+                
+                <!-- Headband -->
+                <path d="M130 140 H100 A10 10 0 0 1 90 130 V120 A10 10 0 0 1 100 110 H130" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                <path d="M270 140 H300 A10 10 0 0 0 310 130 V120 A10 10 0 0 0 300 110 H270" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round" fill="none"/>
+            </g>
+            
+            <!--Floating Hologram Elements emitted from headset-->
+            <circle class="anim-bounce" cx="100" cy="80" r="10" fill="none" stroke="var(--secondary-color)" stroke-width="4"/>
+            <rect class="anim-bounce" x="280" y="70" width="20" height="20" rx="4" fill="var(--secondary-color)" style="animation-delay: -0.5s"/>
+            <polygon class="anim-bounce" points="200,40 215,70 185,70" fill="var(--accent-color)" style="animation-delay: -1s"/>
+          </svg>

@@ -1,0 +1,14 @@
+{
+  "url": "https://www.artofthetitle.com/about/",
+  "method": "Exa public fetch",
+  "status": "Exa-content-read",
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공개 URL의 Exa 추출 내용을 읽었다. 직접 서버의 HTTP 200으로 간주하지 않았다.",
+  "sector": 4,
+  "siteId": "art-of-the-title",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/art-of-the-title-terms-exa.json",
+  "rawCacheSha256": "79ddeeccc24ef1d325d7e43b1713927bf5a5280d19dc94f1849f1922513924e0",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "dee5bc68ec605f6f2eb0a11574d23184262308f962d735ed899a5c7e1e0e0bda",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json."
+}

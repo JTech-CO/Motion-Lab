@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <rect x="120" y="140" width="160" height="120" rx="8" fill="#334155" />
+                
+                
+                <rect x="130" y="150" width="140" height="30" rx="4" fill="#6366f1" />
+                <rect x="130" y="190" width="140" height="30" rx="4" fill="#6366f1" />
+                <rect x="130" y="230" width="140" height="30" rx="4" fill="#6366f1" />
+                
+                
+                <g fill="#DFD116">
+                    <circle cx="150" cy="165" r="4" />
+                    <circle cx="170" cy="165" r="4" />
+                    <circle cx="150" cy="205" r="4" />
+                    <circle cx="170" cy="205" r="4" />
+                    <circle cx="150" cy="245" r="4" />
+                    <circle cx="170" cy="245" r="4" />
+                </g>
+                <g stroke="white" stroke-width="2" stroke-linecap="round" opacity="0.5">
+                    <line x1="220" y1="165" x2="250" y2="165" />
+                    <line x1="220" y1="205" x2="250" y2="205" />
+                    <line x1="220" y1="245" x2="250" y2="245" />
+                </g>
+            </g>
+            
+            
+            <g>
+                <path d="M120 100 C120 70 160 60 180 60 C210 30 270 50 280 80 C310 80 320 120 280 120 C280 120 120 120 120 100 Z" fill="#DFD116" opacity="0.9" />
+                <path d="M200 120 V140 M160 115 V140 M240 115 V140" stroke="#f43f5e" stroke-width="4" stroke-linecap="round" stroke-dasharray="6 4" />
+                
+                <circle cx="200" cy="140" r="3" fill="#6366f1" />
+                <circle cx="160" cy="140" r="3" fill="#6366f1" />
+                <circle cx="240" cy="140" r="3" fill="#6366f1" />
+            </g>
+          </svg>

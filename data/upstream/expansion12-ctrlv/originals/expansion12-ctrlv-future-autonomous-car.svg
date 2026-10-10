@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="160" ry="12" fill="#E2E8F0"/>
+            
+            <!--Speed lines to indicate motion-->
+            <path class="anim-data" d="M60 250 H120 M40 220 H90 M80 190 H110" stroke="var(--secondary-color)" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.5"/>
+            <path class="anim-data" d="M340 250 H280 M360 220 H310" stroke="var(--secondary-color)" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.5" style="animation-delay: -0.5s"/>
+
+            <!--Vehicle Base(Sleek pod shape)-->
+            <path class="anim-bounce" d="M120 230 C120 180 160 150 220 150 C270 150 290 190 300 230 Z" fill="var(--primary-color)"/>
+            <path class="anim-bounce" d="M120 230 L300 230 C290 250 260 250 210 250 C160 250 130 250 120 230 Z" fill="var(--charcoal)" opacity="0.9"/>
+            
+            <!--Wheels(Hover tech / encased) -->
+            <circle class="anim-pulse" cx="160" cy="240" r="20" fill="var(--secondary-color)"/>
+            <circle class="anim-pulse" cx="260" cy="240" r="20" fill="var(--secondary-color)" style="animation-delay: -0.2s"/>
+            <circle cx="160" cy="240" r="10" fill="var(--charcoal)"/>
+            <circle cx="260" cy="240" r="10" fill="var(--charcoal)"/>
+
+            <!--Sleek Window-->
+            <path class="anim-bounce" d="M140 210 C150 170 190 160 220 160 C250 160 270 180 280 210 Z" fill="white" opacity="0.9"/>
+            <path class="anim-bounce" d="M220 160 V210" stroke="var(--primary-color)" stroke-width="4"/>
+            <path class="anim-bounce" d="M160 180 Q180 170 200 180" stroke="var(--secondary-color)" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.5"/>
+            
+            <!--LIDAR / Sensor Dome on top-->
+            <path class="anim-bounce" d="M200 150 A10 10 0 0 1 220 150 Z" fill="var(--accent-color)"/>
+            <!--Sensor Waves-->
+            <path class="anim-pulse" d="M210 135 A25 25 0 0 0 180 110 M210 120 A40 40 0 0 0 160 90" stroke="var(--accent-color)" stroke-width="3" stroke-linecap="round" fill="none"/>
+            <path class="anim-pulse" d="M210 135 A25 25 0 0 1 240 110 M210 120 A40 40 0 0 1 260 90" stroke="var(--accent-color)" stroke-width="3" stroke-linecap="round" fill="none" style="animation-delay: -0.5s"/>
+          </svg>

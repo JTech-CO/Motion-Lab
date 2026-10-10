@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="130" ry="10" fill="#E2E8F0"/>
+            <g class="anim-bounce">
+              <circle cx="200" cy="145" r="90" fill="var(--primary-color)"/>
+              <!-- Eyes -->
+              <path d="M165 125 Q175 112 185 125" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round" fill="none"/>
+              <path d="M215 125 Q225 112 235 125" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round" fill="none"/>
+              <!-- Wide smile -->
+              <path d="M155 165 Q200 210 245 165" stroke="var(--bg-surface)" stroke-width="8" stroke-linecap="round" fill="none"/>
+              <!-- Cheek blush -->
+              <circle cx="148" cy="162" r="15" fill="var(--secondary-color)" opacity="0.4"/>
+              <circle cx="252" cy="162" r="15" fill="var(--secondary-color)" opacity="0.4"/>
+            </g>
+            <!-- Sparkles radiating -->
+            <g class="anim-pulse" stroke="var(--accent-color)" stroke-linecap="round" stroke-width="4">
+              <path d="M100 80 L90 65 M100 80 L85 80 M100 80 L90 95"/>
+              <path d="M300 75 L310 60 M300 75 L315 75 M300 75 L310 90"/>
+              <path d="M80 170 L65 165 M80 170 L65 175"/>
+              <path d="M320 165 L335 160 M320 165 L335 170"/>
+            </g>
+          </svg>

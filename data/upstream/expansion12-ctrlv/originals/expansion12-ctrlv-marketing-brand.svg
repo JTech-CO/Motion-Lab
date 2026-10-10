@@ -1,0 +1,9 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-bounce">
+                <path d="M160 80 L240 80 L280 150 L200 240 L120 150 Z" fill="var(--primary-color)"/>
+                <path d="M160 80 L240 80 L280 150 L200 240 L120 150 Z" stroke="var(--secondary-color)" stroke-width="10" fill="none" stroke-linejoin="round"/>
+                <circle cx="200" cy="150" r="30" fill="var(--bg-surface)"/>
+                <path class="anim-draw" d="M185 150 Q200 130 215 150 T185 170" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round" fill="none"/>
+                <path class="anim-draw" style="animation-delay: 0.2s;" d="M175 140 Q200 110 225 140 T175 170" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round" fill="none"/>
+            </g>
+          </svg>

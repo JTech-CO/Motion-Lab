@@ -1,0 +1,20 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="130" ry="10" fill="#E2E8F0"/>
+            <g class="anim-pulse">
+              <circle cx="200" cy="145" r="90" fill="var(--secondary-color)"/>
+              <!-- Angry brows slanted inward -->
+              <path d="M155 108 L183 122 M217 122 L245 108" stroke="var(--charcoal)" stroke-width="9" stroke-linecap="round"/>
+              <!-- Squinted eyes -->
+              <path d="M163 132 H185 M215 132 H237" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round"/>
+              <!-- Gritted teeth frown -->
+              <path d="M162 175 Q200 195 238 175" stroke="var(--bg-surface)" stroke-width="8" stroke-linecap="round" fill="none"/>
+              <path d="M175 178 V188 M190 180 V190 M205 180 V190 M220 178 V188" stroke="var(--bg-surface)" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+            </g>
+            <!-- Heat waves / steam -->
+            <g class="anim-float" style="animation-direction: reverse;" stroke="var(--accent-color)" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.7">
+              <path d="M90 80 Q100 60 90 40"/>
+              <path d="M310 80 Q300 60 310 40"/>
+              <path d="M140 55 Q150 35 140 15"/>
+              <path d="M260 55 Q250 35 260 15"/>
+            </g>
+          </svg>

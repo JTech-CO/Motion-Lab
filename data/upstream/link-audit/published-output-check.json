@@ -1,0 +1,189 @@
+{
+  "checkedAt": "2026-10-10",
+  "catalogSha256": "f3f125c7f7e43ad061d137fc20ee013f2f320c31f5a2fd0e9e7902e03c823b13",
+  "removedIds": {
+    "ref-kinetic-type-07": {
+      "catalog": "not-found",
+      "cliExit": 1,
+      "apiStatus": 404,
+      "mcp": "Item not found"
+    },
+    "ref-shadertoy": {
+      "catalog": "not-found",
+      "cliExit": 1,
+      "apiStatus": 404,
+      "mcp": "Item not found"
+    }
+  },
+  "manualOriginalsPreserved": 24,
+  "staticExportRemoval": true,
+  "temporaryHttpServerClosed": true,
+  "catalogStats": {
+    "total": 11825,
+    "sources": 170,
+    "sourceUrls": 6989,
+    "categories": {
+      "animation": 2071,
+      "background": 154,
+      "gradient": 497,
+      "interaction": 257,
+      "loader": 549,
+      "material": 1254,
+      "palette": 2457,
+      "pattern": 216,
+      "reference": 134,
+      "shader": 67,
+      "shape": 3590,
+      "transition": 400,
+      "typography": 179
+    },
+    "kinds": {
+      "code": 7859,
+      "image": 1254,
+      "palette": 2429,
+      "reference": 283
+    },
+    "domains": {
+      "design": 8143,
+      "motion": 3399
+    },
+    "storedAssets": 11542,
+    "licenses": {
+      "Apache-2.0": 264,
+      "Apache-2.0 + attribution": 499,
+      "CC BY 3.0": 421,
+      "CC BY 4.0": 126,
+      "CC-BY-4.0": 226,
+      "CC-BY-SA-4.0": 116,
+      "CC0-1.0": 1481,
+      "ISC + MIT": 538,
+      "MIT": 7877,
+      "reference-only": 277
+    },
+    "updatedAt": "2026-10-10",
+    "analysis": {
+      "effects": {
+        "blur": 169,
+        "fade": 1393,
+        "flip": 205,
+        "glitch": 49,
+        "mask": 1449,
+        "other": 254,
+        "pixel": 100,
+        "pulse": 498,
+        "rotate": 907,
+        "scale": 858,
+        "shake": 151,
+        "slide": 1082,
+        "spring": 359,
+        "stagger": 156,
+        "text": 161,
+        "wave": 73
+      },
+      "components": {
+        "color": 3517,
+        "grid": 350,
+        "image": 1442,
+        "layer": 2306,
+        "mask": 865,
+        "particles": 10,
+        "shape": 6236,
+        "stroke": 4544,
+        "text": 1134
+      },
+      "techniques": {
+        "clip-path": 734,
+        "color-values": 2806,
+        "filter": 242,
+        "glsl": 177,
+        "gradient": 804,
+        "image-texture": 1254,
+        "keyframes": 1780,
+        "procedural-noise": 84,
+        "pseudo-element": 371,
+        "reference-link": 283,
+        "static-design": 8143,
+        "svg-animation": 1437,
+        "svg-geometry": 3938,
+        "texture-sampling": 123,
+        "transform": 1669,
+        "transition": 7
+      },
+      "useCases": {
+        "ambient": 74,
+        "attention": 2507,
+        "color-system": 2949,
+        "design-kit": 5227,
+        "feedback": 78,
+        "intro": 513,
+        "outro": 189,
+        "reference": 283,
+        "scene-change": 409,
+        "status": 588
+      },
+      "assetTypes": {
+        "animation": 2141,
+        "background": 156,
+        "gradient": 497,
+        "interaction": 257,
+        "loader": 548,
+        "material": 1254,
+        "palette": 2457,
+        "pattern": 216,
+        "reference": 24,
+        "shader": 67,
+        "shape": 3592,
+        "transition": 404,
+        "typography": 212
+      },
+      "basis": {
+        "code": 7482,
+        "color-values": 2806,
+        "image": 1254,
+        "reviewed-source": 283
+      }
+    },
+    "aliases": 34,
+    "mergedGroups": 20,
+    "variantRecords": 54,
+    "renderableVariants": 49,
+    "referenceReview": {
+      "total": 283,
+      "classified": 283,
+      "specificAssetTypes": 259,
+      "localPreviews": 283,
+      "targetDomains": {
+        "design": 13,
+        "mixed": 16,
+        "motion": 237,
+        "tooling": 17
+      },
+      "resourceTypes": {
+        "case-study": 8,
+        "collection": 11,
+        "design-system": 8,
+        "example": 172,
+        "learning": 15,
+        "library": 31,
+        "portfolio": 16,
+        "tool": 22
+      },
+      "assetTypes": {
+        "animation": 100,
+        "background": 8,
+        "gradient": 9,
+        "interaction": 51,
+        "palette": 6,
+        "reference": 24,
+        "shader": 13,
+        "shape": 2,
+        "transition": 20,
+        "typography": 50
+      },
+      "previewModes": {
+        "illustration": 282,
+        "related-asset": 1
+      }
+    }
+  }
+}

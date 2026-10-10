@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Shopping Cart Cart -->
+                <path d="M100 180 L140 180 L160 240 H260 L280 180 H300" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                <path d="M120 180 H280" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round"/>
+                <circle cx="180" cy="260" r="10" fill="var(--primary-color)"/>
+                <circle cx="240" cy="260" r="10" fill="var(--primary-color)"/>
+                
+                <!-- Giant Magnet pulling items -->
+                <path class="anim-bounce" d="M220 80 V100 C220 120 200 140 180 140 C160 140 140 120 140 100 V80 H120 V100 C120 140 150 160 180 160 C210 160 240 140 240 100 V80 Z" fill="var(--accent-color)"/>
+                <rect class="anim-bounce" x="120" y="60" width="20" height="20" fill="var(--primary-color)"/>
+                <rect class="anim-bounce" x="220" y="60" width="20" height="20" fill="var(--primary-color)"/>
+                
+                <!-- Magnetic Force Waves -->
+                <path class="anim-glow" d="M120 180 Q150 160 180 180 Q210 160 240 180" stroke="var(--secondary-color)" stroke-width="4" stroke-dasharray="6 6" fill="none"/>
+                <path class="anim-draw" d="M150 200 Q180 180 210 200" stroke="var(--secondary-color)" stroke-width="4" stroke-dasharray="6 6" fill="none"/>
+                
+                <!-- Product Boxes falling in -->
+                <rect class="anim-data" x="160" y="200" width="30" height="30" rx="4" fill="var(--primary-color)"/>
+                <rect class="anim-data" style="animation-delay: 0.3s;" x="210" y="210" width="30" height="20" rx="2" fill="var(--secondary-color)"/>
+            </g>
+          </svg>

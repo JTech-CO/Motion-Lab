@@ -1,0 +1,34 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Wooden Cabinet -->
+                <rect x="100" y="100" width="200" height="130" rx="10" fill="var(--secondary-color)"/>
+                <rect x="110" y="110" width="180" height="110" rx="5" fill="var(--bg-surface)"/>
+                
+                <!-- Speaker Grill -->
+                <rect x="120" y="120" width="80" height="90" rx="4" fill="var(--charcoal)"/>
+                <path d="M120 135 H200 M120 150 H200 M120 165 H200 M120 180 H200 M120 195 H200" stroke="var(--bg-surface)" stroke-width="4" opacity="0.4"/>
+                <circle class="anim-pulse" cx="160" cy="165" r="20" fill="var(--accent-color)" opacity="0.3"/>
+                
+                <!-- Tuning Dial -->
+                <rect x="210" y="120" width="70" height="40" rx="4" fill="var(--charcoal)"/>
+                <!-- Tuning lines -->
+                <path d="M220 140 H270 M220 145 H270 M220 150 H270 M230 130 V150 M240 130 V150 M250 130 V150 M260 130 V150" stroke="white" stroke-width="1" opacity="0.5"/>
+                <!-- Frequency Needle -->
+                <line x1="245" y1="125" x2="245" y2="155" stroke="var(--accent-color)" stroke-width="2"/>
+                
+                <!-- Knobs -->
+                <circle class="anim-rotate"  cx="225" cy="185" r="12" fill="var(--primary-color)"/>
+                <circle class="anim-rotate"  cx="225" cy="185" r="6" fill="var(--charcoal)"/>
+                <circle class="anim-rotate"  cx="265" cy="185" r="12" fill="var(--primary-color)"/>
+                <circle class="anim-rotate"  cx="265" cy="185" r="6" fill="var(--charcoal)"/>
+            </g>
+            
+            <!-- Antenna -->
+            <path class="anim-draw" d="M110 100 L80 30" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+            <circle class="anim-glow" cx="80" cy="30" r="4" fill="var(--accent-color)"/>
+            
+            <!-- Emitting Sound Waves -->
+            <path class="anim-pulse" d="M290 100 Q320 80 340 100" stroke="var(--secondary-color)" stroke-width="3" stroke-linecap="round" fill="none"/>
+            <path class="anim-pulse" d="M300 80 Q340 50 370 80" stroke="var(--secondary-color)" stroke-width="3" stroke-linecap="round" fill="none" style="animation-delay:-0.5s;"/>
+            <path class="anim-pulse" d="M60 140 Q40 160 60 180" stroke="var(--accent-color)" stroke-width="3" stroke-linecap="round" fill="none"/>
+          </svg>

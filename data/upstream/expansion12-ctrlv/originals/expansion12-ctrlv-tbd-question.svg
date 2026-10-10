@@ -1,0 +1,7 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="anim-float">
+            <rect x="100" y="80" width="200" height="140" rx="10" fill="var(--bg-surface)" stroke="var(--border-color)" stroke-width="4"/>
+            <text x="200" y="165" text-anchor="middle" font-family="Inter" font-weight="900" font-size="80" fill="var(--border-color)" opacity="0.3">?</text>
+        </g>
+        <text class="anim-pulse" x="200" y="270" text-anchor="middle" font-family="Inter" font-weight="900" font-size="40" fill="var(--charcoal)">TBD</text>
+    </svg>

@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="150" ry="15" fill="#E2E8F0" opacity="0.6"/>
+            <!-- Mat Top -->
+            <path class="anim-float" d="M120 160 L280 120 L350 180 L180 230 Z" fill="var(--primary-color)"/>
+            <!-- Mat Side/Thickness -->
+            <path class="anim-float" d="M180 230 L350 180 V190 L180 240 Z" fill="var(--primary-color)" opacity="0.7"/>
+            <!-- Rolled part of mat -->
+            <g transform="rotate(30 120 165)">
+                <ellipse class="anim-float" cx="120" cy="165" rx="15" ry="25" fill="var(--primary-color)" opacity="0.9" />
+            </g>
+            <path class="anim-float" d="M128 143 Q140 160 112 187 L132 195 Q160 170 148 153 Z" fill="var(--primary-color)"/>
+            <!-- Floating Zen Aura Nodes -->
+            <g class="anim-glow">
+                <circle cx="160" cy="80" r="12" fill="var(--secondary-color)"/>
+                <circle cx="260" cy="60" r="20" fill="var(--accent-color)" opacity="0.6"/>
+                <circle cx="310" cy="110" r="8" fill="var(--primary-color)"/>
+            </g>
+            <path class="anim-draw" d="M140 110 Q200 60 260 100" stroke="var(--charcoal)" stroke-width="2" stroke-dasharray="4 6" fill="none" opacity="0.5"/>
+          </svg>

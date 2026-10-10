@@ -1,0 +1,39 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            
+            <!-- Table / Base -->
+            <rect x="120" y="240" width="160" height="10" rx="2" fill="var(--charcoal)"/>
+            <path d="M140 250 L130 280 M260 250 L270 280" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+            
+            <!-- Left Flask -->
+            <g class="anim-float">
+                <path d="M160 140 H180 L200 240 H140 Z" fill="white" opacity="0.3"/>
+                <path d="M160 140 H180 L200 240 H140 Z" stroke="var(--charcoal)" stroke-width="4" fill="none" stroke-linejoin="round"/>
+                <!-- Liquid Glowing -->
+                <path d="M150 190 H190 L198 238 H142 Z" fill="var(--accent-color)"/>
+                <path class="anim-pulse" d="M150 190 H190 L198 238 H142 Z" fill="var(--accent-color)" opacity="0.5"/>
+                <!-- Bubbles -->
+                <circle cx="160" cy="220" r="4" fill="white" opacity="0.8"/>
+                <circle cx="180" cy="210" r="3" fill="white" opacity="0.8"/>
+                <circle cx="170" cy="230" r="5" fill="white" opacity="0.8"/>
+            </g>
+
+            <!-- Right Flask (Round) -->
+            <g class="anim-float" style="animation-delay: -1s;">
+                <path d="M235 160 H255 V200 C270 200 280 220 270 240 H220 C210 220 220 200 235 200 Z" fill="white" opacity="0.3"/>
+                <path d="M235 160 H255 V200 C270 200 280 220 270 240 H220 C210 220 220 200 235 200 Z" stroke="var(--charcoal)" stroke-width="4" fill="none" stroke-linejoin="round"/>
+                <!-- Liquid Glowing -->
+                <path d="M230 200 H260 C270 210 275 230 268 238 H222 C215 230 220 210 230 200 Z" fill="var(--secondary-color)"/>
+                <path class="anim-pulse" d="M230 200 H260 C270 210 275 230 268 238 H222 C215 230 220 210 230 200 Z" fill="var(--primary-color)" opacity="0.5"/>
+            </g>
+            
+            <!-- Radioactive Aura / Radiation Rings -->
+            <g class="anim-pulse" style="animation-duration: 3s">
+                <circle cx="170" cy="190" r="40" fill="none" stroke="var(--accent-color)" stroke-width="2" opacity="0.6"/>
+                <circle cx="170" cy="190" r="60" fill="none" stroke="var(--accent-color)" stroke-width="1" stroke-dasharray="4 4" opacity="0.4"/>
+            </g>
+            
+            <g class="anim-pulse" style="animation-duration: 2.5s; animation-delay: 1s">
+                <circle cx="245" cy="210" r="30" fill="none" stroke="var(--primary-color)" stroke-width="2" opacity="0.6"/>
+                <circle cx="245" cy="210" r="50" fill="none" stroke="var(--primary-color)" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
+            </g>
+          </svg>

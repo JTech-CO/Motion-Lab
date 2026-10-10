@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <path d="M50 200 A 150 150 0 0 0 350 200 Z" fill="#6366f1" />
+                <path d="M100 200 A 100 100 0 0 0 300 200 M150 200 A 50 50 0 0 0 250 200" stroke="#ffffff" stroke-width="4" fill="none" />
+                <path d="M50 200 H350" stroke="#334155" stroke-width="8" stroke-linecap="round" />
+                
+                
+                <g transform="translate(100, 160)">
+                    <g>
+                    
+                    <path d="M0 40 L30 0 H180 L200 40 Z" fill="#334155" />
+                    <path d="M20 40 H180" stroke="#ffffff" stroke-width="4" />
+                    
+                    
+                    
+                    <rect x="50" y="-30" width="30" height="30" fill="#f43f5e" />
+                    <rect x="85" y="-30" width="30" height="30" fill="#DFD116" />
+                    <rect x="120" y="-30" width="30" height="30" fill="#6366f1" />
+                    
+                    <rect x="50" y="-60" width="30" height="30" fill="#DFD116" />
+                    <rect x="85" y="-60" width="30" height="30" fill="#6366f1" />
+                    
+                    
+                    <path d="M60 -30 V0 M95 -30 V0 M130 -30 V0 M60 -60 V-30 M95 -60 V-30" stroke="#ffffff" stroke-width="2" />
+                    
+                    
+                    <rect x="155" y="-40" width="20" height="40" fill="#ffffff" stroke="#334155" stroke-width="4" />
+                    <rect x="155" y="-30" width="20" height="10" fill="#DFD116" />
+                </g>
+                </g>
+                
+                
+                <path d="M200 40 C200 40 220 70 200 100 C180 70 200 40 200 40 Z" fill="#f43f5e" />
+                <circle cx="200" cy="65" r="8" fill="#ffffff" />
+            </g>
+          </svg>

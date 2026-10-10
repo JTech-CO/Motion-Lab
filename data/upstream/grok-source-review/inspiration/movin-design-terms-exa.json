@@ -1,0 +1,14 @@
+{
+  "url": "https://movin.design/terms/",
+  "method": "Exa public fetch",
+  "status": "Exa-content-read",
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공개 URL의 Exa 추출 내용을 읽었다. 직접 서버의 HTTP 200으로 간주하지 않았다.",
+  "sector": 4,
+  "siteId": "movin-design",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/movin-design-terms-exa.json",
+  "rawCacheSha256": "4ad43eb69cca968e1220781ecaa67fbb980a935af68ce0e577cc640a44f73bc4",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "56f88d545787ab6f2c8687f2cf2ef835bf10858e542805a1972ec20c95862f6f",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json."
+}

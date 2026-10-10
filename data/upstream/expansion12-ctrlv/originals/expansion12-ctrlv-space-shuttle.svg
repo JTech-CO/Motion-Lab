@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="anim-float" d="M160 260 Q200 180 240 260 Z" fill="var(--secondary-color)" opacity="0.2"/>
+            <path class="anim-bounce" d="M140 260 Q200 220 260 260 Z" fill="var(--charcoal)" opacity="0.1"/>
+            <!-- Shuttle Body -->
+            <path class="anim-float" d="M200 40 Q230 100 220 200 H180 Q170 100 200 40 Z" fill="var(--primary-color)"/>
+            <rect class="anim-float" x="190" y="160" width="20" height="10" fill="var(--charcoal)" opacity="0.2"/>
+            <!-- Wings -->
+            <path class="anim-float" d="M185 160 L140 200 H180 Z" fill="var(--primary-color)"/>
+            <path class="anim-float" d="M215 160 L260 200 H220 Z" fill="var(--primary-color)"/>
+            <!-- Cockpit Window -->
+            <path class="anim-float" d="M195 90 Q200 80 205 90 V100 H195 Z" fill="var(--charcoal)" opacity="0.8"/>
+            <circle class="anim-float" cx="200" cy="120" r="5" fill="var(--secondary-color)"/>
+            <!-- Huge Flame -->
+            <path class="anim-pulse" d="M185 200 L200 250 L215 200 Z" fill="var(--accent-color)"/>
+            <!-- Stars -->
+            <circle class="anim-glow" cx="100" cy="80" r="4" fill="var(--accent-color)"/>
+            <circle class="anim-glow" cx="280" cy="100" r="3" fill="var(--secondary-color)" style="animation-delay:-0.5s"/>
+            <path class="anim-draw" d="M120 120 L130 140 M300 60 L280 80" stroke="var(--charcoal)" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.4"/>
+          </svg>

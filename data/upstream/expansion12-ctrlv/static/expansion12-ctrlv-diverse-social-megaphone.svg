@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <g transform="translate(300, 60)">
+                    <g>
+                    <path d="M0 0 C0 0 -15 -20 0 -30 C10 -35 20 -25 20 -15 C20 -5 0 15 0 15 C0 15 -20 -5 -20 -15 C-20 -25 -10 -35 0 -30 Z" fill="#DFD116" />
+                </g>
+                </g>
+                <g transform="translate(340, 110)">
+                    <g>
+                    <rect x="-10" y="-10" width="20" height="20" rx="4" fill="#6366f1" />
+                    <path d="M-4 0 L-2 4 L6 -4" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                </g>
+                </g>
+                <g transform="translate(300, 180)">
+                    <g>
+                    <circle cx="0" cy="0" r="15" fill="#f43f5e" />
+                    <path d="M-5 -5 L5 5 M-5 5 L5 -5" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+                </g>
+                </g>
+                
+                <path d="M250 80 Q290 50 330 80 M270 120 H350 M250 160 Q290 190 330 160" stroke="#334155" stroke-width="6" stroke-linecap="round" fill="none" />
+                
+                
+                <path d="M120 100 L250 50 V190 L120 140 Z" fill="#6366f1" />
+                <path d="M120 100 L250 50 L250 120 L120 140 Z" fill="#f43f5e" />
+                
+                
+                <ellipse cx="250" cy="120" rx="15" ry="70" fill="#ffffff" stroke="#334155" stroke-width="6" />
+                <ellipse cx="250" cy="120" rx="8" ry="40" fill="#334155" />
+                
+                
+                <rect x="80" y="105" width="40" height="30" rx="5" fill="#ffffff" stroke="#334155" stroke-width="6" />
+                <path d="M60 110 H80 V130 H60 A 10 10 0 0 1 50 120 A 10 10 0 0 1 60 110 Z" fill="#DFD116" />
+                
+                
+                <path d="M150 130 V180 A 10 10 0 0 0 160 190 H180 A 10 10 0 0 0 190 180 V145" stroke="#334155" stroke-width="16" stroke-linecap="round" fill="none" />
+            </g>
+          </svg>

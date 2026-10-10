@@ -1,0 +1,17 @@
+{
+  "id": "cinepacks",
+  "url": "https://cinepacks.store/robots.txt",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 200,
+  "finalUrl": "https://cinepacks.store/robots.txt",
+  "contentType": "text/plain; charset=utf-8",
+  "truncated": false,
+  "observedBytes": 3626,
+  "observedContentSha256": "d2fff287ff1e8bcdfd8972ff44a7ac93e39211275af9b24cad16e00efdba8dcc",
+  "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+  "challengeOrDenial": false,
+  "robotsPath": "exa-results/grok-source-review/stock/cinepacks-robots.txt",
+  "robotsContentSha256": "d2fff287ff1e8bcdfd8972ff44a7ac93e39211275af9b24cad16e00efdba8dcc"
+}

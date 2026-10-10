@@ -1,0 +1,26 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Data Nodes Background -->
+                <path d="M100 120 L200 80 L300 120" stroke="var(--charcoal)" stroke-width="4" opacity="0.2" fill="none"/>
+                <path d="M100 180 L200 240 L300 180" stroke="var(--charcoal)" stroke-width="4" opacity="0.2" fill="none"/>
+                <circle cx="100" cy="120" r="10" fill="var(--primary-color)" opacity="0.6"/>
+                <circle cx="300" cy="120" r="10" fill="var(--secondary-color)" opacity="0.6"/>
+                <circle cx="100" cy="180" r="10" fill="var(--accent-color)" opacity="0.6"/>
+                <circle cx="300" cy="180" r="10" fill="var(--primary-color)" opacity="0.6"/>
+                
+                <!-- Giant Shield -->
+                <g class="anim-pulse">
+                    <path d="M200 40 C200 40 280 60 280 120 C280 200 200 260 200 260 C200 260 120 200 120 120 C120 60 200 40 200 40 Z" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="8"/>
+                    <path d="M200 40 C200 40 280 60 280 120 C280 200 200 260 200 260 V40 Z" fill="var(--secondary-color)"/>
+                    <path d="M200 40 C200 40 120 60 120 120 C120 200 200 260 200 260 V40 Z" fill="var(--primary-color)"/>
+                </g>
+                
+                <!-- Lock Icon on Shield -->
+                <g transform="translate(200, 140)">
+                    <rect x="-20" y="-10" width="40" height="30" rx="4" fill="var(--bg-surface)"/>
+                    <path d="M-10 -10 V-20 A 10 10 0 0 1 10 -20 V-10" stroke="var(--bg-surface)" stroke-width="6" fill="none"/>
+                    <circle cx="0" cy="5" r="4" fill="var(--charcoal)"/>
+                    <path d="M0 5 V15" stroke="var(--charcoal)" stroke-width="3"/>
+                </g>
+            </g>
+          </svg>

@@ -1,0 +1,56 @@
+{
+  "url": "https://www.svgbackgrounds.com/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://www.svgbackgrounds.com/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://www.svgbackgrounds.com/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://www.svgbackgrounds.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://www.svgbackgrounds.com/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:06.225974+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://www.svgbackgrounds.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 95639,
+      "capturedSha256": "f699188be217389a097e759c2f0f1e194540d4e0991e0e5654228e93634b5299",
+      "responseBodySha256": "f699188be217389a097e759c2f0f1e194540d4e0991e0e5654228e93634b5299",
+      "title": "SVG backgrounds, icons, and other website graphics | SVG BackgroundsSVG Backgrounds LogoSVG Backgrounds Logo",
+      "textCharacters": 5001,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.003,
+      "captureCachePath": "exa-results/link-audit/references/captures/6f3bdfb0e6f78d8027979be0.json",
+      "captureCacheSha256": "007e139ae66e6068aa28c457bca8f2f3780ffd7a365013eefaf4e9d8d0395d5e"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-svg-backgrounds",
+      "canonicalId": "ref-svg-backgrounds",
+      "title": "SVG Backgrounds",
+      "role": "canonical",
+      "sourceSha256": "c28daa6854611eb9b2aeb7abc770bb63e520dd68036b0d6c28fc849876ab951a"
+    }
+  ]
+}

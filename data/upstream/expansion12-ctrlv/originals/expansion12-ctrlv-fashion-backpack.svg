@@ -1,0 +1,17 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Handle -->
+                <path d="M160 70 C160 30 240 30 240 70" stroke="var(--primary-color)" stroke-width="12" fill="none"/>
+                <!-- Main Body -->
+                <rect x="120" y="70" width="160" height="180" rx="40" fill="var(--primary-color)"/>
+                <path d="M120 130 Q200 150 280 130 V210 Q200 250 120 210 Z" fill="var(--secondary-color)" opacity="0.3"/>
+                <!-- Front Pocket -->
+                <rect class="anim-bounce" x="140" y="150" width="120" height="80" rx="20" fill="var(--secondary-color)"/>
+                <path d="M150 180 H250" stroke="var(--charcoal)" stroke-width="4" stroke-dasharray="4 4"/>
+                <!-- Side Pockets -->
+                <path d="M120 140 L100 160 V220 L120 220 Z M280 140 L300 160 V220 L280 220 Z" fill="var(--primary-color)"/>
+                <!-- Straps visible from front -->
+                <path d="M140 70 L110 150 M260 70 L290 150" stroke="var(--charcoal)" stroke-width="12" stroke-linecap="round"/>
+                <circle class="anim-glow" cx="200" cy="110" r="10" fill="var(--accent-color)"/>
+            </g>
+          </svg>

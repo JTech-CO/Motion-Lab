@@ -1,0 +1,13 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <g class="anim-rotate">
+                    <circle cx="170" cy="130" r="40" stroke="var(--primary-color)" stroke-width="8" fill="none" stroke-dasharray="20 10"/>
+                </g>
+                <g class="anim-rotate" style="animation-direction: reverse;">
+                    <circle cx="240" cy="180" r="30" stroke="var(--secondary-color)" stroke-width="6" fill="none" stroke-dasharray="15 8"/>
+                </g>
+                <path class="anim-draw" d="M120 220 H280" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round"/>
+                <circle class="anim-pulse" cx="120" cy="220" r="8" fill="var(--accent-color)"/>
+                <circle class="anim-pulse" cx="280" cy="220" r="8" fill="var(--accent-color)"/>
+            </g>
+          </svg>

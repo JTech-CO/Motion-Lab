@@ -1,0 +1,8 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line x1="80" y1="240" x2="320" y2="240" stroke="var(--charcoal)" stroke-width="2"/>
+        <line x1="80" y1="240" x2="80" y2="60" stroke="var(--charcoal)" stroke-width="2"/>
+        <path class="anim-draw" d="M80 200 Q150 100 320 80" stroke="var(--primary-color)" stroke-width="6" fill="none"/>
+        <g class="anim-pulse">
+            <circle cx="320" cy="80" r="10" fill="var(--secondary-color)"/>
+        </g>
+    </svg>

@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="anim-float" d="M80 160 Q150 80 280 120 T320 200 Q250 260 120 220 Z" fill="var(--secondary-color)" opacity="0.1"/>
+            <!-- Storefront Awning -->
+            <path class="anim-bounce" d="M100 120 H300 L280 160 H120 Z" fill="var(--primary-color)"/>
+            <path class="anim-bounce" d="M120 160 L140 180 L160 160 L180 180 L200 160 L220 180 L240 160 L260 180 L280 160 Z" fill="var(--primary-color)" opacity="0.8"/>
+            <!-- Phone Base -->
+            <rect x="140" y="160" width="120" height="100" rx="10" fill="var(--charcoal)"/>
+            <rect x="150" y="170" width="100" height="80" rx="4" fill="white"/>
+            <!-- E-commerce items -->
+            <rect class="anim-float" x="160" y="180" width="35" height="40" rx="4" fill="var(--secondary-color)"/>
+            <rect class="anim-float" x="205" y="180" width="35" height="40" rx="4" fill="var(--secondary-color)" style="animation-delay: -0.2s"/>
+            <path class="anim-draw" d="M170 235 H230" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+            <!-- Buy Button -->
+            <circle class="anim-glow" cx="240" cy="235" r="8" fill="var(--accent-color)"/>
+            <path class="anim-float" d="M300 80 L320 120 L300 140 Z" fill="var(--accent-color)" opacity="0.8"/>
+          </svg>

@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Gravity Well Grid -->
+            <path class="anim-draw" d="M60 150 Q150 100 200 80 T340 150 M60 150 Q150 200 200 220 T340 150" stroke="var(--charcoal)" stroke-width="2" opacity="0.2" fill="none"/>
+            <!-- Accretion Disk Back -->
+            <g transform="rotate(-15 200 150)">
+                <ellipse class="anim-glow" cx="200" cy="150" rx="110" ry="35" fill="none" stroke="var(--secondary-color)" stroke-width="8" opacity="0.4" />
+            </g>
+            <g transform="rotate(-15 200 150)">
+                <ellipse class="anim-float" cx="200" cy="150" rx="90" ry="25" fill="none" stroke="var(--accent-color)" stroke-width="6" opacity="0.6" />
+            </g>
+            <!-- Black Hole Sphere -->
+            <circle cx="200" cy="150" r="45" fill="var(--charcoal)"/>
+            <!-- Accretion Disk Front -->
+            <path class="anim-pulse" d="M94 178 A110 35 0 0 0 306 122" fill="none" stroke="var(--primary-color)" stroke-width="20" stroke-linecap="round" opacity="0.9"/>
+            <!-- Matter getting pulled in -->
+            <circle class="anim-data" cx="130" cy="200" r="6" fill="var(--accent-color)"/>
+            <circle class="anim-data" cx="280" cy="100" r="4" fill="var(--accent-color)" style="animation-delay:-0.4s"/>
+            <path class="anim-draw" d="M120 220 Q160 180 180 160" stroke="var(--primary-color)" stroke-width="3" stroke-dasharray="6 6" fill="none"/>
+          </svg>

@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://openclipart.org/robots.txt",
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1077)>"
+  },
+  {
+    "url": "https://openclipart.org/share",
+    "error": "The read operation timed out"
+  },
+  {
+    "url": "https://openclipart.org/developers",
+    "error": "The read operation timed out"
+  }
+]

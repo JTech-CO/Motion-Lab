@@ -1,0 +1,50 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Network Grid Background -->
+                <path d="M50 150 H350 M200 50 V250" stroke="var(--charcoal)" stroke-width="2" opacity="0.1"/>
+                
+                <!-- Block 1 (Left) -->
+                <g transform="translate(100, 150)">
+                    <g class="anim-bounce">
+                    <rect x="-25" y="-30" width="50" height="60" rx="5" fill="var(--primary-color)"/>
+                    <path d="M-15 -10 H15 M-15 0 H15 M-15 10 H5" stroke="var(--bg-surface)" stroke-width="3" stroke-linecap="round"/>
+                </g>
+                </g>
+                
+                <!-- Link 1-2 -->
+                <path class="anim-draw" d="M125 150 H165" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                <path class="anim-draw" d="M125 150 H165" stroke="var(--accent-color)" stroke-width="2" stroke-dasharray="4 4"/>
+                
+                <!-- Block 2 (Center Base) -->
+                <g transform="translate(200, 150)">
+                    <g class="anim-bounce" style="animation-delay: 0.2s;">
+                    <rect x="-25" y="-30" width="50" height="60" rx="5" fill="var(--secondary-color)"/>
+                    <path d="M-15 -10 H15 M-15 0 H15 M-15 10 H5" stroke="var(--bg-surface)" stroke-width="3" stroke-linecap="round"/>
+                </g>
+                </g>
+                
+                <!-- Link 2-3 -->
+                <path class="anim-draw" d="M235 150 H275" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                <path class="anim-draw" d="M235 150 H275" stroke="var(--accent-color)" stroke-width="2" stroke-dasharray="4 4"/>
+                
+                <!-- Block 3 (Right) -->
+                <g transform="translate(300, 150)">
+                    <g class="anim-bounce" style="animation-delay: 0.4s;">
+                    <rect x="-25" y="-30" width="50" height="60" rx="5" fill="var(--primary-color)"/>
+                    <path d="M-15 -10 H15 M-15 0 H15 M-15 10 H5" stroke="var(--bg-surface)" stroke-width="3" stroke-linecap="round"/>
+                </g>
+                </g>
+                
+                <!-- Floating Hash Symbols -->
+                <g transform="translate(150, 100)">
+                    <g class="anim-pulse">
+                    <text x="0" y="0" font-family="monospace" font-weight="bold" font-size="20" fill="var(--accent-color)">#</text>
+                </g>
+                </g>
+                <g transform="translate(250, 200)">
+                    <g class="anim-pulse" style="animation-delay: 0.3s;">
+                    <text x="0" y="0" font-family="monospace" font-weight="bold" font-size="20" fill="var(--accent-color)">#</text>
+                </g>
+                </g>
+            </g>
+          </svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <ellipse cx="200" cy="270" rx="150" ry="12" fill="#e2e8f0" opacity="0.6" />
+            
+            <g>
+                
+                <rect x="80" y="120" width="40" height="130" fill="#6366f1" />
+                <rect x="90" y="140" width="20" height="4" fill="#DFD116" />
+                <rect x="90" y="160" width="20" height="4" fill="#DFD116" />
+                <rect x="90" y="180" width="20" height="4" fill="#DFD116" />
+                
+                
+                <rect x="140" y="60" width="60" height="190" fill="#334155" />
+                <path d="M150 80 H190 M150 110 H190 M150 140 H190 M150 170 H190" stroke="#f43f5e" stroke-width="8" opacity="0.8" />
+                <rect x="160" y="200" width="20" height="20" fill="#DFD116" />
+                
+                
+                <rect x="220" y="100" width="50" height="150" fill="#6366f1" />
+                <rect x="230" y="130" width="30" height="8" fill="#ffffff" />
+                <rect x="230" y="160" width="30" height="8" fill="#ffffff" />
+                
+                
+                <rect x="290" y="160" width="40" height="90" fill="#f43f5e" />
+                <circle cx="310" cy="190" r="10" fill="#DFD116" />
+            </g>
+            
+            
+            <path d="M100 260 H310" stroke="#DFD116" stroke-width="4" stroke-linecap="round" />
+            <path d="M170 60 V30 H240 V100" stroke="#DFD116" stroke-width="3" stroke-dasharray="6 6" fill="none" />
+            <path d="M100 120 V90 H140" stroke="#f43f5e" stroke-width="3" stroke-dasharray="6 6" fill="none" />
+          </svg>

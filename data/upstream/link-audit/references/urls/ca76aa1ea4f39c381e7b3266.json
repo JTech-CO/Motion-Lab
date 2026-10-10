@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/1.%20SpaceX%20Motion/index.html",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/1.%20SpaceX%20Motion/index.html",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/1.%20SpaceX%20Motion/index.html",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/1.%20SpaceX%20Motion/index.html",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:08.084794+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/1.%20SpaceX%20Motion/index.html",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 242631,
+      "capturedSha256": "2e7a318ac16199e4b1ded3076257efd54a5194aa9300b4e12f0e04a29ac35256",
+      "responseBodySha256": "2e7a318ac16199e4b1ded3076257efd54a5194aa9300b4e12f0e04a29ac35256",
+      "title": "Motiongraphic/1. SpaceX Motion/index.html at 77fd0fadb3142c80038942802fcac71caeeba3d8 · JTech-CO/Motiongraphic · GitHub",
+      "textCharacters": 5112,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.617,
+      "captureCachePath": "exa-results/link-audit/references/captures/90bd638d255dc6b9b8b349b2.json",
+      "captureCacheSha256": "d14aa756e20739186ff9af3cd2a4a02ba9cff95530c068e06075cf85cd97d66b"
+    }
+  ],
+  "items": [
+    {
+      "id": "jtech-spacex",
+      "canonicalId": "jtech-spacex",
+      "title": "SpaceX 2002–2026",
+      "role": "canonical",
+      "sourceSha256": "2ca53a51411a7f88678e51499906d3fe6f90a6e29f1a8fe710a917c6d5ac6897"
+    }
+  ]
+}

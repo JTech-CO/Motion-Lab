@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <path d="M100 80 H140 L160 120 H100 Z" fill="#f43f5e" />
+                
+                <path d="M130 120 C130 160 190 160 190 120 Z" fill="#6366f1" />
+                
+                <g>
+                    <circle cx="160" cy="140" r="15" fill="#334155" />
+                    <circle cx="160" cy="140" r="6" fill="#DFD116" />
+                    <path d="M160 160 L140 240 M160 160 L180 240 M140 240 A 40 10 0 0 0 180 240" stroke="#DFD116" stroke-width="2" fill="none" opacity="0.5" />
+                    <polygon points="160,155 130,260 190,260" fill="#DFD116" opacity="0.1" />
+                </g>
+                <circle cx="180" cy="90" r="4" fill="#DFD116" />
+            </g>
+          </svg>

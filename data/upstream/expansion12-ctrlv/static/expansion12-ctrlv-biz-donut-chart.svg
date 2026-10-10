@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6" />
+            <g>
+                
+                <circle cx="200" cy="140" r="80" stroke="#334155" stroke-width="40" opacity="0.2" fill="none" />
+                
+                <g style="transform-origin:200px 140px">
+                    
+                    
+                    <circle cx="200" cy="140" r="80" stroke="#6366f1" stroke-width="40" stroke-dasharray="280 500" fill="none" />
+                    
+                    
+                    <circle cx="200" cy="140" r="80" stroke="#f43f5e" stroke-width="40" stroke-dasharray="120 500" stroke-dashoffset="-285" fill="none" />
+                    
+                    
+                    <circle cx="200" cy="140" r="80" stroke="#DFD116" stroke-width="40" stroke-dasharray="90 500" stroke-dashoffset="-410" fill="none" />
+                </g>
+                
+                
+                <circle cx="200" cy="140" r="60" fill="#ffffff" />
+                <path d="M185 140 H215 M200 125 V155" stroke="#334155" stroke-width="6" stroke-linecap="round" />
+                
+                
+                <g>
+                    
+                    <path d="M260 80 L290 50 H320" stroke="#6366f1" stroke-width="4" stroke-linecap="round" fill="none" />
+                    <rect x="330" y="40" width="40" height="20" rx="5" fill="#6366f1" />
+                    <rect x="340" y="48" width="20" height="4" rx="2" fill="#ffffff" />
+                    
+                    
+                    <path d="M220 220 L240 250 H270" stroke="#f43f5e" stroke-width="4" stroke-linecap="round" fill="none" />
+                    <rect x="280" y="240" width="40" height="20" rx="5" fill="#f43f5e" />
+                    <rect x="290" y="248" width="20" height="4" rx="2" fill="#ffffff" />
+                    
+                    
+                    <path d="M120 140 L90 140 L70 120 H40" stroke="#DFD116" stroke-width="4" stroke-linecap="round" fill="none" />
+                    <rect x="20" y="110" width="40" height="20" rx="5" fill="#DFD116" />
+                    <rect x="30" y="118" width="20" height="4" rx="2" fill="#ffffff" />
+                </g>
+            </g>
+          </svg>

@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="240" cy="270" rx="80" ry="8" fill="#FDE68A"/> <!-- Sand Island -->
+            <g class="anim-wave">
+                <path d="M220 280 Q250 150 160 100" stroke="var(--charcoal)" stroke-width="20" stroke-linecap="round" fill="none"/>
+                
+                <g transform="translate(160, 100)">
+                    <path class="anim-pulse" d="M0 0 Q-40 -40 -80 0 Q-40 20 0 0 Z" fill="var(--primary-color)"/>
+                    <path class="anim-pulse" style="animation-delay: 0.1s;" d="M0 0 Q-20 -60 20 -80 Q30 -40 0 0 Z" fill="var(--secondary-color)"/>
+                    <path class="anim-pulse" style="animation-delay: 0.2s;" d="M0 0 Q40 -60 80 -20 Q40 0 0 0 Z" fill="var(--primary-color)"/>
+                    <path class="anim-pulse" style="animation-delay: 0.3s;" d="M0 0 Q60 0 60 40 Q20 20 0 0 Z" fill="var(--secondary-color)"/>
+                    <path class="anim-pulse" style="animation-delay: 0.4s;" d="M0 0 Q-40 20 -60 60 Q-20 40 0 0 Z" fill="var(--secondary-color)"/>
+                    
+                    <circle cx="-10" cy="15" r="10" fill="var(--accent-color)"/>
+                    <circle cx="10" cy="5" r="8" fill="var(--accent-color)"/>
+                </g>
+            </g>
+            <style>
+                .anim-wave {
+                    animation: waveTree 3s infinite ease-in-out alternate;
+                    transform-origin: 220px 280px;
+                }
+                @keyframes waveTree {
+                    0% { transform: rotate(0deg); }
+                    100% { transform: rotate(5deg); }
+                }
+            </style>
+          </svg>

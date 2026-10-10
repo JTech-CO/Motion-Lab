@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="130" ry="10" fill="#E2E8F0"/>
+            <g class="anim-float" style="animation-duration: 5s;">
+              <circle cx="200" cy="145" r="88" fill="var(--secondary-color)" opacity="0.7"/>
+              <!-- Warm wistful eyes (looking up slightly) -->
+              <path d="M160 125 Q172 118 184 125 M216 125 Q228 118 240 125" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round" fill="none"/>
+              <circle cx="172" cy="128" r="6" fill="var(--bg-surface)"/>
+              <circle cx="228" cy="128" r="6" fill="var(--bg-surface)"/>
+              <!-- Small smile -->
+              <path d="M172 168 Q200 183 228 168" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round" fill="none"/>
+              <!-- Single tear -->
+              <ellipse cx="228" cy="148" rx="4" ry="6" fill="var(--accent-color)" opacity="0.7"/>
+            </g>
+            <!-- Memory cloud above -->
+            <g class="anim-pulse" style="animation-duration: 4s;" fill="var(--primary-color)" opacity="0.2">
+              <circle cx="285" cy="75" r="22"/>
+              <circle cx="310" cy="65" r="28"/>
+              <circle cx="338" cy="75" r="20"/>
+            </g>
+            <g fill="var(--charcoal)" opacity="0.1">
+              <circle cx="285" cy="75" r="20"/>
+              <circle cx="310" cy="65" r="26"/>
+              <circle cx="338" cy="75" r="18"/>
+            </g>
+            <!-- Photo/memory frame inside cloud -->
+            <rect x="290" y="55" width="50" height="40" rx="3" stroke="var(--secondary-color)" stroke-width="2" fill="none" opacity="0.4"/>
+          </svg>

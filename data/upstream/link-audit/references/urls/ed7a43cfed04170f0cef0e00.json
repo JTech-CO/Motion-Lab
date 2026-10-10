@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/oframe/ogl",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/oframe/ogl",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/oframe/ogl",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/oframe/ogl",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:07.084188+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/oframe/ogl",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "4c238ff7cae1f6a54c75f5b4470db926379eb18502b66815a5c2112ba3559c85",
+      "responseBodySha256": "4c238ff7cae1f6a54c75f5b4470db926379eb18502b66815a5c2112ba3559c85",
+      "title": "GitHub - oframe/ogl: Minimal WebGL Library · GitHub",
+      "textCharacters": 2686,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.63,
+      "captureCachePath": "exa-results/link-audit/references/captures/3016cdd6be3ec390f3d33bea.json",
+      "captureCacheSha256": "2b44159164941878c0e47f3e49e237dcc0001790c2bddf8b47c8afefc7bfc2b8"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-ogl",
+      "canonicalId": "ref-ogl",
+      "title": "OGL",
+      "role": "canonical",
+      "sourceSha256": "030e03f9b47c0c75030240494f8343e81499336d5ec24dcd66970286af98f265"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Shirt Base -->
+                <path d="M100 80 L200 260 L300 80 Z" fill="white"/>
+                <!-- Suit Jacket -->
+                <path d="M100 80 L200 260 H80 Z M300 80 L200 260 H320 Z" fill="var(--primary-color)"/>
+                <path d="M100 80 L160 140 L120 180 Z M300 80 L240 140 L280 180 Z" fill="var(--secondary-color)"/>
+                <!-- Collar -->
+                <path d="M160 60 L200 100 L240 60 Z" fill="var(--bg-surface)"/>
+                <!-- Tie -->
+                <path class="anim-bounce" d="M190 90 H210 L220 170 L200 210 L180 170 Z" fill="var(--accent-color)"/>
+                <!-- Pocket Square -->
+                <path class="anim-pulse" d="M250 110 L260 90 L270 100 Z" fill="var(--accent-color)"/>
+            </g>
+          </svg>

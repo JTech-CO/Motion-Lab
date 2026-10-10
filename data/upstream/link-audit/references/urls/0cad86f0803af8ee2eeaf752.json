@@ -1,0 +1,56 @@
+{
+  "url": "https://atlan.com/brand/motion/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://atlan.com/brand/motion/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://atlan.com/brand/motion/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://atlan.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://atlan.com/brand/motion/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:49.752912+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://atlan.com/brand/motion/",
+      "contentType": "text/html",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 204203,
+      "capturedSha256": "5d9b9070953174ed2e68614bf4e0796891041af05252820eebf6287d675dc01c",
+      "responseBodySha256": "5d9b9070953174ed2e68614bf4e0796891041af05252820eebf6287d675dc01c",
+      "title": "Motion | Atlan Brand Guidelines",
+      "textCharacters": 8262,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.147,
+      "captureCachePath": "exa-results/link-audit/references/captures/1bf7dc72fa7bc97c1465a445.json",
+      "captureCacheSha256": "0d56b573d81e9cd295598cdc1969b6c8d2d9133d1a910bf3e0003cf65d4bbfc9"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-atlan-motion",
+      "canonicalId": "ref-atlan-motion",
+      "title": "Atlan Motion",
+      "role": "canonical",
+      "sourceSha256": "1ccedfe0aa174c2b5556c425d41c9aa7c38cb34b570ab76b01ba6eeeaadc9f17"
+    }
+  ]
+}

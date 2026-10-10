@@ -1,0 +1,19 @@
+{
+  "url": "https://store.stashmedia.tv/policies/terms-of-service",
+  "method": "bounded public HTTP GET",
+  "status": 200,
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공식 공개 URL의 제한된 HTTP GET 응답을 읽었다. 원격 JavaScript·미디어 파일을 실행하거나 다운로드하지 않았다. 스토어 약관의 서비스 복제·판매·이용 제한. 이 문서만으로 개별 원작의 모든 권리 조건을 단정하지 않는다.",
+  "sector": 4,
+  "siteId": "stash",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/stash-terms-http.json",
+  "rawCacheSha256": "0b9a25f7e16574ecc32d9b931417cf95e503796c96e595f2dc6885dc070ea6f7",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "6de1364ccbbef359745ecc6c299a31eddd321c835a47988341e0b522190b089b",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "finalUrl": "https://store.stashmedia.tv/policies/terms-of-service",
+  "byteCount": 167498,
+  "boundedAt": 1048576,
+  "truncated": false,
+  "originalResponseSha256": "ba1d168adefc470003ba25eb067b6ca6008d74b04be68dbaa72549a9db961660"
+}

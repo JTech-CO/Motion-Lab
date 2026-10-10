@@ -1,0 +1,19 @@
+{
+  "url": "https://dribbble.com/",
+  "method": "isolated installed Chrome, JavaScript disabled, public navigation only",
+  "status": 202,
+  "fetchedAt": "2026-10-10",
+  "observedContent": "일반 공개 Chrome에서 인간/로봇 확인 화면을 관찰했다. challenge를 처리하지 않았다.",
+  "sector": 4,
+  "siteId": "dribbble",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/dribbble-home-chrome.json",
+  "rawCacheSha256": "7f0ba5def39fe070eb01bd79ba7338b690f206892f2965e7c6202e36bcc3c3aa",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "ebccbd5922b41e48d556f96420b77b24fb66ddfe709666bb5b22acc99765c63f",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "finalUrl": "https://dribbble.com/",
+  "visibleTextSha256": "ebccbd5922b41e48d556f96420b77b24fb66ddfe709666bb5b22acc99765c63f",
+  "loginAttempted": false,
+  "challengeBypassed": false,
+  "cookiesImported": false
+}

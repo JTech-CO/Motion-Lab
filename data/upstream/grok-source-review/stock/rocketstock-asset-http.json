@@ -1,0 +1,16 @@
+{
+  "id": "rocketstock-asset",
+  "url": "https://www.rocketstock.com/video-packs/lucent-ultra-vivid-lens-flares/",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 403,
+  "finalUrl": "https://www.shutterstock.com/video/elements/lucent-ultra-vivid-lens-flares",
+  "contentType": "text/html;charset=utf-8",
+  "truncated": false,
+  "observedBytes": 784,
+  "observedContentSha256": "d990e9681fb76fc62f38d5e50b0c50afe37b96e4a93bcaada54722ff2f551391",
+  "links": [],
+  "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+  "challengeOrDenial": true
+}

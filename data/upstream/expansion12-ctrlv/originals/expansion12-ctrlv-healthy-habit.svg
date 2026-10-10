@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Modern Fruit Bowl / Concept -->
+        <path d="M100 220 Q200 260 300 220 L280 250 H120 Z" fill="var(--border-color)"/>
+        
+        <!-- Apple with detail -->
+        <g class="anim-bounce">
+            <path d="M200 180 C200 150 160 150 160 180 C160 210 180 220 200 210 C220 220 240 210 240 180 C240 150 200 150 200 180 Z" fill="var(--primary-color)"/>
+            <path d="M200 155 V140" stroke="#166534" stroke-width="4" stroke-linecap="round"/>
+            <path d="M200 145 Q215 130 225 145" fill="#166534" opacity="0.6"/>
+        </g>
+        
+        <!-- Floating Berries/Vitamins -->
+        <g class="anim-float">
+            <circle cx="260" cy="160" r="15" fill="var(--secondary-color)" opacity="0.8"/>
+            <circle cx="140" cy="150" r="10" fill="var(--accent-color)" opacity="0.8"/>
+            <circle style="animation-delay: -0.5s" cx="280" cy="190" r="8" fill="var(--primary-color)" opacity="0.5"/>
+        </g>
+        
+        <!-- Sparkle indicating "Health" -->
+        <path class="anim-pulse" d="M110 110 L115 100 L120 110 L130 115 L120 120 L115 130 L110 120 L100 115 Z" fill="#facc15"/>
+    </svg>

@@ -1,0 +1,9 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="200" cy="240" rx="140" ry="40" fill="var(--primary-color)" opacity="0.2"/>
+        <g class="anim-float">
+            <circle cx="200" cy="120" r="30" fill="var(--primary-color)"/>
+            <path d="M200 150 L160 220 H240 Z" fill="var(--primary-color)"/>
+            <path d="M160 220 Q120 200 140 180" stroke="var(--primary-color)" stroke-width="8" stroke-linecap="round"/>
+            <path d="M240 220 Q280 200 260 180" stroke="var(--primary-color)" stroke-width="8" stroke-linecap="round"/>
+        </g>
+    </svg>

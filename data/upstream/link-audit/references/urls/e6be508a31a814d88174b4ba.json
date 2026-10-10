@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/paradigms-of-intelligence/swissgl",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/paradigms-of-intelligence/swissgl",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/paradigms-of-intelligence/swissgl",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/paradigms-of-intelligence/swissgl",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:33.348032+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/paradigms-of-intelligence/swissgl",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "7e32e89f05b2d842c51d988376d4e03ad26a08f23ee825f62b5b610aeac98c23",
+      "responseBodySha256": "7e32e89f05b2d842c51d988376d4e03ad26a08f23ee825f62b5b610aeac98c23",
+      "title": "GitHub - paradigms-of-intelligence/swissgl: SwissGL is a minimalistic wrapper on top of WebGL2 JS API. It's designed to reduce the amount of boilerplate code required to manage GLSL shaders, textures and framebuffers when making procedural visualizations or simulations. · GitHub",
+      "textCharacters": 3136,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.62,
+      "captureCachePath": "exa-results/link-audit/references/captures/fde7d4edf85c9b77c784f809.json",
+      "captureCacheSha256": "e65003286b4689bff12129d80ebf02addf9de4427413af1febee4fc69b1b8e10"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-swissgl",
+      "canonicalId": "ref-swissgl",
+      "title": "SwissGL",
+      "role": "canonical",
+      "sourceSha256": "fd1d2240597695bf6d4a2e310a4df93cbc88d6a476e82ee2fd4e434d4f9feaad"
+    }
+  ]
+}

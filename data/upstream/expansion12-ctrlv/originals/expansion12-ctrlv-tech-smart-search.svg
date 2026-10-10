@@ -1,0 +1,31 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Background Binary Code -->
+                <g font-family="monospace" font-size="12" fill="var(--charcoal)" opacity="0.1">
+                    <text x="50" y="50">010110</text>
+                    <text x="50" y="80">110010</text>
+                    <text x="50" y="110">001101</text>
+                    <text x="300" y="200">101011</text>
+                    <text x="300" y="230">011100</text>
+                </g>
+                
+                <!-- Magnifying Glass -->
+                <g class="anim-bounce" style="animation-duration: 4s;">
+                    <!-- Handle -->
+                    <rect x="240" y="200" width="10" height="60" rx="5" fill="var(--charcoal)" transform="rotate(-45, 240, 200)"/>
+                    
+                    <!-- Glass Frame -->
+                    <circle cx="200" cy="150" r="60" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="8"/>
+                    <circle cx="200" cy="150" r="50" fill="var(--primary-color)" opacity="0.1"/>
+                    
+                    <!-- Highlighted Data Inside -->
+                    <g class="anim-pulse">
+                        <text x="200" y="160" font-family="monospace" font-weight="bold" font-size="24" fill="var(--accent-color)" text-anchor="middle">FOUND</text>
+                        <circle cx="200" cy="150" r="40" stroke="var(--accent-color)" stroke-width="2" stroke-dasharray="4 4"/>
+                    </g>
+                </g>
+                
+                <!-- Sparkle -->
+                <path class="anim-rotate" d="M280 80 L285 95 L300 95 L290 105 L295 120 L280 110 L265 120 L270 105 L260 95 L275 95 Z" fill="var(--secondary-color)"/>
+            </g>
+          </svg>

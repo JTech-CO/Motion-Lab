@@ -1,0 +1,19 @@
+{
+  "url": "https://www.behance.net/",
+  "method": "bounded public HTTP GET",
+  "status": 403,
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공개 HTTP 요청의 거부 또는 빈 응답을 기록했다. 응답 제한을 우회하지 않았다.",
+  "sector": 4,
+  "siteId": "behance",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/behance-home-http.json",
+  "rawCacheSha256": "a56fd53d8497bace059fb529c42bd9292320f253e90ab7d2cfbed25f3db3422c",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "finalUrl": "https://www.behance.net/",
+  "byteCount": 453,
+  "boundedAt": 1048576,
+  "truncated": false,
+  "originalResponseSha256": "a7c2b78ed5a37edd5d180a849a99d474015d2dac68264d7ef8890bf09bf00da0"
+}

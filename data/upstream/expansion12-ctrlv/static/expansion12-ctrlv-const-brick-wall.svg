@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                
+                <rect x="60" y="220" width="60" height="30" fill="#6366f1" stroke="#334155" stroke-width="4" />
+                <rect x="120" y="220" width="80" height="30" fill="#f43f5e" stroke="#334155" stroke-width="4" />
+                <rect x="200" y="220" width="80" height="30" fill="#6366f1" stroke="#334155" stroke-width="4" />
+                <rect x="280" y="220" width="60" height="30" fill="#6366f1" stroke="#334155" stroke-width="4" />
+                
+                
+                <rect x="60" y="190" width="30" height="30" fill="#6366f1" stroke="#334155" stroke-width="4" />
+                <rect x="90" y="190" width="80" height="30" fill="#6366f1" stroke="#334155" stroke-width="4" />
+                <rect x="170" y="190" width="80" height="30" fill="#f43f5e" stroke="#334155" stroke-width="4" />
+                <rect x="250" y="190" width="80" height="30" fill="#6366f1" stroke="#334155" stroke-width="4" />
+                <rect x="330" y="190" width="10" height="30" fill="#6366f1" stroke="#334155" stroke-width="4" />
+                
+                
+                <rect x="60" y="160" width="60" height="30" fill="#f43f5e" stroke="#334155" stroke-width="4" />
+                <rect x="120" y="160" width="80" height="30" fill="#6366f1" stroke="#334155" stroke-width="4" />
+                
+                
+                <g transform="translate(200, 110)">
+<g>
+                    <rect x="0" y="0" width="80" height="30" fill="#DFD116" stroke="#334155" stroke-width="4" />
+                    
+                    <path d="M10 30 Q40 50 70 30 Z" fill="#ffffff" stroke="#334155" stroke-width="2" />
+                </g>
+</g>
+                
+                
+                <g transform="translate(280, 110) rotate(-25)">
+                    <g style="transform-origin:60px 0px">
+                        
+                        <path d="M0 0 L40 20 L20 40 Z" fill="#ffffff" stroke="#334155" stroke-width="4" />
+                        
+                        <path d="M25 25 L45 45 L60 30" stroke="#334155" stroke-width="6" stroke-linecap="round" fill="none" />
+                        <rect x="55" y="15" width="20" height="30" rx="4" fill="#f43f5e" stroke="#334155" stroke-width="4" transform="rotate(45, 65, 30)" />
+                    </g>
+                </g>
+            </g>
+          </svg>

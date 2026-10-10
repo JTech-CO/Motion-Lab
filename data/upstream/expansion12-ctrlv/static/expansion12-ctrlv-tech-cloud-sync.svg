@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <path d="M100 200 C100 160 140 140 160 140 C160 100 240 100 240 140 C280 140 300 160 300 200 C300 240 260 260 240 260 H160 C140 260 100 240 100 200 Z" fill="#ffffff" stroke="#334155" stroke-width="8" />
+                
+                
+                <g transform="translate(200, 190)">
+                    <g>
+                    <path d="M-30 0 A 30 30 0 0 1 30 0" stroke="#6366f1" stroke-width="6" stroke-linecap="round" fill="none" />
+                    <path d="M30 0 L40 -10 L20 -10 Z" fill="#6366f1" />
+                    
+                    <g transform="rotate(180)">
+                <path d="M30 0 A 30 30 0 0 1 -30 0" stroke="#f43f5e" stroke-width="6" stroke-linecap="round" fill="none" />
+            </g>
+                    <path d="M-30 0 L-40 10 L-20 10 Z" fill="#f43f5e" />
+                </g>
+                </g>
+                
+                
+                <circle cx="150" cy="140" r="8" fill="#DFD116" />
+                <circle cx="250" cy="140" r="6" fill="#6366f1" />
+            </g>
+          </svg>

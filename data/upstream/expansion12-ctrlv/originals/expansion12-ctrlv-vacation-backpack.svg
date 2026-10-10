@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <rect x="130" y="80" width="140" height="180" rx="30" fill="var(--secondary-color)"/>
+                <rect x="140" y="140" width="120" height="80" rx="15" fill="var(--primary-color)"/>
+                
+                <!-- Straps -->
+                <path d="M150 80 C110 50 110 150 150 120 M250 80 C290 50 290 150 250 120" stroke="var(--charcoal)" stroke-width="12" stroke-linecap="round" fill="none"/>
+                
+                <!-- Pockets & Details -->
+                <rect x="110" y="180" width="20" height="40" rx="5" fill="var(--primary-color)"/>
+                <rect x="270" y="180" width="20" height="40" rx="5" fill="var(--primary-color)"/>
+                
+                <path d="M170 100 H230 M150 120 H250" stroke="var(--primary-color)" stroke-width="8" stroke-linecap="round"/>
+                
+                <rect class="anim-pulse" x="180" y="150" width="40" height="15" rx="5" fill="var(--accent-color)"/>
+                
+                <!-- Bedroll on top -->
+                <rect x="130" y="40" width="140" height="40" rx="20" fill="var(--charcoal)"/>
+                <path d="M150 40 V80 M250 40 V80" stroke="var(--primary-color)" stroke-width="6"/>
+            </g>
+          </svg>

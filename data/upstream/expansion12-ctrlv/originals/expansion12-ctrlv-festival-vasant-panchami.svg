@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Stack of books -->
+            <g class="anim-float" style="animation-delay: -1s;">
+                <path d="M120 240 L240 210 V230 L120 260 Z" fill="var(--secondary-color)"/>
+                <path d="M120 240 L160 220 L280 190 L240 210 Z" fill="#FFF"/>
+                <path d="M120 260 L160 240 L280 210 V190 L160 220 Z" fill="var(--primary-color)"/>
+                <path d="M140 220 L260 190 V210 L140 240 Z" fill="var(--accent-color)"/>
+                <path d="M140 220 L180 200 L300 170 L260 190 Z" fill="#FFF"/>
+                <path d="M140 240 L180 220 L300 190 V170 L180 200 Z" fill="var(--charcoal)"/>
+            </g>
+            <!-- Veena (Indian Lute) -->
+            <g class="anim-bounce">
+                <!-- Resonators (Gourds) -->
+                <circle cx="150" cy="140" r="30" fill="var(--primary-color)"/>
+                <circle cx="280" cy="100" r="25" fill="var(--primary-color)"/>
+                <!-- Main neck -->
+                <path d="M140 150 L290 90" stroke="var(--charcoal)" stroke-width="15" stroke-linecap="round"/>
+                <!-- Frets / Strings -->
+                <path d="M135 145 L285 85" stroke="var(--secondary-color)" stroke-width="2"/>
+                <path d="M145 155 L295 95" stroke="var(--secondary-color)" stroke-width="2"/>
+                <line x1="170" y1="120" x2="180" y2="135" stroke="white" stroke-width="3"/>
+                <line x1="200" y1="110" x2="210" y2="125" stroke="white" stroke-width="3"/>
+                <line x1="230" y1="100" x2="240" y2="115" stroke="white" stroke-width="3"/>
+                <!-- Pegs -->
+                <path d="M280 80 L290 70 M290 85 L300 75" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round"/>
+            </g>
+          </svg>

@@ -1,0 +1,13 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <g class="anim-float">
+              <ellipse cx="200" cy="100" rx="80" ry="25" fill="var(--primary-color)"/>
+              <path d="M120 100 V190 C120 204 160 215 200 215 C240 215 280 204 280 190 V100" fill="var(--secondary-color)"/>
+              <ellipse cx="200" cy="100" rx="80" ry="25" fill="var(--primary-color)"/>
+              <ellipse class="anim-pulse" cx="200" cy="140" rx="80" ry="25" fill="var(--primary-color)" opacity="0.7"/>
+              <ellipse cx="200" cy="180" rx="80" ry="25" fill="var(--primary-color)"/>
+              <path d="M140 100 H260 M140 140 H260 M140 180 H260" stroke="var(--bg-surface)" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+              <circle class="anim-glow" cx="200" cy="100" r="8" fill="var(--accent-color)"/>
+              <circle class="anim-glow" cx="200" cy="140" r="8" fill="var(--accent-color)"/>
+            </g>
+          </svg>

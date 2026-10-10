@@ -1,0 +1,17 @@
+{
+  "id": "pexels",
+  "url": "https://www.pexels.com/robots.txt",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 200,
+  "finalUrl": "https://www.pexels.com/robots.txt",
+  "contentType": "text/plain; charset=utf-8",
+  "truncated": false,
+  "observedBytes": 11790,
+  "observedContentSha256": "645c2591dd5371038a48c525f4c7bc14247be449a2aef4cbd2250092c21aef28",
+  "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+  "challengeOrDenial": false,
+  "robotsPath": "exa-results/grok-source-review/stock/pexels-robots.txt",
+  "robotsContentSha256": "645c2591dd5371038a48c525f4c7bc14247be449a2aef4cbd2250092c21aef28"
+}

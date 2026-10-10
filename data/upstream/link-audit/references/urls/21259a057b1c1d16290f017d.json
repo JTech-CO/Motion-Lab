@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/metaory/gradient-gl",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/metaory/gradient-gl",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/metaory/gradient-gl",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/metaory/gradient-gl",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:45.719054+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/metaory/gradient-gl",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "cf5123ca24f745233c5931e5ed4cd09c593d3e8b90dbb6d468a8d07c34b534c5",
+      "responseBodySha256": "cf5123ca24f745233c5931e5ed4cd09c593d3e8b90dbb6d468a8d07c34b534c5",
+      "title": "GitHub - metaory/gradient-gl: Tiny WebGL library for Deterministic seed-driven Procedural Gradient Animations · GitHub",
+      "textCharacters": 3039,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.648,
+      "captureCachePath": "exa-results/link-audit/references/captures/b7156318354ef9c8e4d18f96.json",
+      "captureCacheSha256": "1925a802fdb38611dd37cad64994033f51acd42df3fa21823c0fddae82978bd3"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-gradient-gl",
+      "canonicalId": "ref-gradient-gl",
+      "title": "Gradient GL",
+      "role": "canonical",
+      "sourceSha256": "22b3945b696f92c2ba127167e2c4c87dd5df060284d64758b9ad80b001ed7c61"
+    }
+  ]
+}

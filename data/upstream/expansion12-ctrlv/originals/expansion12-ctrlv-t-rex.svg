@@ -1,0 +1,9 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="anim-bounce">
+            <path d="M60 220 Q60 140 140 140 Q180 140 180 100 C180 60 220 60 260 60 L280 60 C300 60 320 80 320 100 L320 140 C320 160 280 160 260 160 C240 160 220 200 220 240 L100 240 L60 220" fill="var(--primary-color)"/>
+            <path d="M200 170 L220 185 M200 185 L220 200" stroke="var(--bg-surface)" stroke-width="4" stroke-linecap="round"/>
+            <path d="M140 240 L130 275 M180 240 L190 275" stroke="var(--primary-color)" stroke-width="15" stroke-linecap="round"/>
+            <circle cx="280" cy="90" r="4" fill="white"/>
+            <path d="M280 130 H320" stroke="var(--bg-surface)" stroke-width="2" stroke-linecap="round"/>
+        </g>
+    </svg>

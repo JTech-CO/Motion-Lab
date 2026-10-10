@@ -1,0 +1,39 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Main Chat Interface -->
+                <rect x="100" y="40" width="200" height="220" rx="10" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="4"/>
+                <path d="M100 80 H300 M100 210 H300" stroke="var(--charcoal)" stroke-width="4"/>
+                
+                <!-- Chat Bubbles -->
+                <!-- Bubble Left -->
+                <path d="M120 100 H220 C225 100 230 105 230 110 V130 C230 135 225 140 220 140 H130 L120 150 V100 Z" fill="var(--secondary-color)" opacity="0.2"/>
+                <path d="M120 100 H220 C225 100 230 105 230 110 V130 C230 135 225 140 220 140 H130 L120 150 V100 Z" stroke="var(--secondary-color)" stroke-width="2" fill="none"/>
+                <path d="M140 115 H210 M140 125 H180" stroke="var(--secondary-color)" stroke-width="3" stroke-linecap="round"/>
+                
+                <!-- Bubble Right -->
+                <path d="M180 160 H280 C280 160 280 200 280 200 L270 190 H180 C175 190 170 185 170 180 V170 C170 165 175 160 180 160 Z" fill="var(--primary-color)"/>
+                <path class="anim-draw" d="M190 175 H260" stroke="#FFF" stroke-width="3" stroke-linecap="round"/>
+                
+                <!-- Input field dots -->
+                <circle class="anim-pulse" cx="130" cy="235" r="3" fill="var(--charcoal)" opacity="0.5"/>
+                <circle class="anim-pulse" style="animation-delay: 0.2s;" cx="145" cy="235" r="3" fill="var(--charcoal)" opacity="0.5"/>
+                <circle class="anim-pulse" style="animation-delay: 0.4s;" cx="160" cy="235" r="3" fill="var(--charcoal)" opacity="0.5"/>
+                
+                <!-- Send Button -->
+                <circle cx="270" cy="235" r="12" fill="var(--accent-color)"/>
+                <path d="M265 235 L275 230 V240 Z" fill="var(--bg-surface)"/>
+            </g>
+            
+            <!-- Support Agent Avatar floating outside -->
+            <g class="anim-bounce">
+                <circle cx="90" cy="80" r="30" fill="var(--primary-color)"/>
+                <circle cx="90" cy="80" r="26" fill="var(--bg-surface)"/>
+                <!-- Person abstract -->
+                <circle cx="90" cy="72" r="8" fill="var(--charcoal)"/>
+                <path d="M75 95 C75 85 105 85 105 95" fill="var(--charcoal)"/>
+                <!-- Headset -->
+                <path d="M80 72 C80 60 100 60 100 72 V80" fill="none" stroke="var(--primary-color)" stroke-width="3" stroke-linecap="round"/>
+                <circle cx="80" cy="78" r="4" fill="var(--accent-color)"/>
+                <path d="M84 80 Q90 85 95 80" stroke="var(--accent-color)" stroke-width="2" fill="none"/>
+            </g>
+          </svg>

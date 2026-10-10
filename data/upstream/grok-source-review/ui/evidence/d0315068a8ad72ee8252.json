@@ -1,0 +1,37 @@
+{
+  "url": "https://mosso.video/legal/terms/",
+  "site": "mosso",
+  "reviewedAt": "2026-10-10",
+  "captures": [
+    {
+      "method": "Exa-public-fetch",
+      "status": "content-returned-http-status-unavailable",
+      "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://mosso.video/legal/terms/",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/exa-mosso-fetch-1.json",
+      "rawCacheSha256": "7538c4f8c24ab09aa28b46bde16aa79bce38ccaf26847759f71e7e87d8ddbf2d",
+      "capturedTextSha256": "db309d959da3a8635971c016277d781d4b8a9c92d5476fda49646536d7a784b6",
+      "responseCapturedSha256": null,
+      "boundedAtBytes": null,
+      "providerResponseCacheBytes": 37453,
+      "truncated": null
+    },
+    {
+      "method": "public-HTTP-GET",
+      "status": 200,
+      "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://mosso.video/legal/terms/",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/mosso-terms-http.json",
+      "rawCacheSha256": "02d5c7b8f93a74b89db38d110f42cf60e71e0b47dee7d21f7f307084720269bb",
+      "capturedTextSha256": "3f8ff2bd51cbc96693a66810c73ec103b60c3f9cc32515f29d180cda2745b5c4",
+      "responseCapturedSha256": "115456f673f1d8e1d4627ee16cd52cff552b926f5bf4215e8f91604219120a5b",
+      "boundedAtBytes": 1048576,
+      "truncated": false
+    }
+  ],
+  "contentPolicy": "원문 전체는 ignored exa-results 캐시에만 보관합니다. 이 파일은 접근 상태와 SHA 및 자체 요약만 저장하며 페이지 인용은 sites.json termsEvidence에만 최대 25단어로 기록합니다."
+}

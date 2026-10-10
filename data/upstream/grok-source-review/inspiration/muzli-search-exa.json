@@ -1,0 +1,22 @@
+{
+  "url": "https://muz.li/terms/",
+  "method": "Exa public search",
+  "status": "Exa-search-result",
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공식 정체·작품·권리 문서 탐색용 검색 결과. URL은 발견 후보이며 검색 요약만으로 권리 허가를 판정하지 않았다.",
+  "sector": 4,
+  "siteId": "muzli",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/muzli-search-exa.json",
+  "rawCacheSha256": "3e795e6bb74f662ea7c06be2311b83b76acd7bb07db8105997aa481c78f5bc78",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "12566c1a773b5d822970a00608244b8a67e5da868ed44342ba2138eb71fcd4e6",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "requestedNumResults": 5,
+  "searchResultUrls": [
+    "https://muz.li/terms/",
+    "https://muz.li/content-guidelines/",
+    "https://muz.li/",
+    "https://muz.li/faq/",
+    "https://addons.mozilla.org/en-US/firefox/addon/muzli/"
+  ]
+}

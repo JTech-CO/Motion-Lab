@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-10",
+  "supplementalCandidateReview": [
+    {
+      "name": "Clipart.Free",
+      "status": "held-no-assets-collected",
+      "apiDocs": "https://clipart.free/developers/",
+      "terms": "https://clipart.free/terms/",
+      "basis": "Developer page advertises CC0 art and a key-based API; current general terms restrict copying, public display and mirroring. API artwork allowance and aggregate redistribution boundary require clarification before this repository can ingest this source. No signup, key, paid request or media collection performed."
+    },
+    {
+      "name": "Openclipart",
+      "status": "unavailable-in-this-review",
+      "urls": [
+        "https://openclipart.org/share",
+        "https://openclipart.org/policies"
+      ],
+      "basis": "Primary pages timed out or were inaccessible through the research tool; no originals collected."
+    }
+  ],
+  "expandedPilot": false,
+  "sourceJavaScriptExecuted": false
+}

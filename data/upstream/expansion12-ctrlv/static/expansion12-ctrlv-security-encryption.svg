@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                <path d="M140 140 V100 C140 60 260 60 260 100 V140" stroke="#6366f1" stroke-width="24" fill="none" />
+                <path d="M140 140 V100 C140 60 260 60 260 100 V140" stroke="#ffffff" stroke-width="8" fill="none" />
+                
+                <rect x="120" y="140" width="160" height="100" rx="10" fill="#f43f5e" />
+                
+                <path d="M140 160 H260 M140 190 H260 M140 220 H260 M170 140 V240 M200 140 V240 M230 140 V240" stroke="#6366f1" stroke-width="4" opacity="0.5" />
+                
+                <circle cx="200" cy="190" r="15" fill="#DFD116" />
+                <path d="M195 190 H205 L200 210 Z" fill="#DFD116" />
+                <circle cx="200" cy="190" r="5" fill="#ffffff" />
+            </g>
+          </svg>

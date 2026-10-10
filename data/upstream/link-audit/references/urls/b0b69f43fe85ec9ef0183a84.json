@@ -1,0 +1,56 @@
+{
+  "url": "https://www.meshgradients.com/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://www.meshgradients.com/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://www.meshgradients.com/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://www.meshgradients.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://www.meshgradients.com/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:05.381782+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://www.meshgradients.com/",
+      "contentType": "text/html",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 803,
+      "capturedSha256": "47ea028eb38311b6bebb166a8b523e8ff6f4d2e3b32b4ad23bac2513377d7cae",
+      "responseBodySha256": "47ea028eb38311b6bebb166a8b523e8ff6f4d2e3b32b4ad23bac2513377d7cae",
+      "title": "",
+      "textCharacters": 68,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.832,
+      "captureCachePath": "exa-results/link-audit/references/captures/34cdb27e91bc92284445085f.json",
+      "captureCacheSha256": "c7d52fb00333b703e800dacec09bed7ff3cb829035202b9d5b0c64e560e4429d"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-mesh-gradients",
+      "canonicalId": "ref-mesh-gradients",
+      "title": "Mesh Gradients",
+      "role": "canonical",
+      "sourceSha256": "2a5b7b1070a8a1ae112bfa19510eaa7283b02a397828018ed5e728ddd4f9be42"
+    }
+  ]
+}

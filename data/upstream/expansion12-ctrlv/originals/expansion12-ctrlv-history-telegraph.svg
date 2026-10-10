@@ -1,0 +1,50 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Wire stretching away -->
+            <path class="anim-pulse" d="M300 170 Q350 150 400 160" stroke="var(--charcoal)" stroke-width="3" fill="none" opacity="0.5"/>
+            
+            <g class="anim-bounce">
+                <!-- Base Board -->
+                <rect x="100" y="220" width="200" height="30" rx="5" fill="var(--primary-color)"/>
+                <!-- Metal plates / contacts -->
+                <rect x="130" y="210" width="40" height="10" fill="var(--bg-surface)"/>
+                <circle cx="150" cy="215" r="3" fill="var(--charcoal)"/>
+                
+                <!-- Electromagnet Coils -->
+                <rect x="230" y="150" width="20" height="70" rx="4" fill="var(--charcoal)"/>
+                <rect x="260" y="150" width="20" height="70" rx="4" fill="var(--charcoal)"/>
+                <path d="M230 160 H250 M230 170 H250 M230 180 H250 M230 190 H250 M230 200 H250 M230 210 H250" stroke="var(--accent-color)" stroke-width="4"/>
+                <path d="M260 160 H280 M260 170 H280 M260 180 H280 M260 190 H280 M260 200 H280 M260 210 H280" stroke="var(--accent-color)" stroke-width="4"/>
+                <!-- Coil Base/Top bridge -->
+                <rect x="225" y="220" width="60" height="10" fill="var(--secondary-color)"/>
+                <rect x="225" y="140" width="60" height="10" fill="var(--secondary-color)"/>
+
+                <!-- Lever Arm -->
+                <g class="anim-rotate" >
+                    <!-- Transverse beam -->
+                    <rect x="110" y="170" width="130" height="10" rx="5" fill="var(--secondary-color)"/>
+                    <!-- Knob / Key -->
+                    <ellipse cx="120" cy="160" rx="15" ry="10" fill="var(--charcoal)"/>
+                    <rect x="115" y="170" width="10" height="40" fill="var(--secondary-color)"/>
+                    <!-- Striker -->
+                    <rect x="230" y="180" width="10" height="20" fill="var(--charcoal)"/>
+                </g>
+
+                <!-- Arm Pivot Point -->
+                <rect x="190" y="180" width="20" height="40" fill="var(--bg-surface)"/>
+                <circle cx="200" cy="175" r="5" fill="var(--charcoal)"/>
+            </g>
+
+            <!-- Morse Code Output (Visualized) -->
+            <g class="anim-float" fill="var(--accent-color)">
+                <!-- Dot Dash Dot -->
+                <circle cx="100" cy="100" r="5"/>
+                <rect x="115" y="95" width="20" height="10" rx="5"/>
+                <circle cx="145" cy="100" r="5"/>
+                <!-- Dash Dash -->
+                <rect x="160" y="95" width="20" height="10" rx="5" style="animation-delay: 0.2s;"/>
+                <rect x="190" y="95" width="20" height="10" rx="5" style="animation-delay: 0.2s;"/>
+                <!-- Dot Dot -->
+                <circle cx="225" cy="100" r="5" style="animation-delay: 0.4s;"/>
+                <circle cx="240" cy="100" r="5" style="animation-delay: 0.4s;"/>
+            </g>
+          </svg>

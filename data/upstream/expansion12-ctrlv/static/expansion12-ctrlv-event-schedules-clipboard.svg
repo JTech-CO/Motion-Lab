@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <rect x="100" y="50" width="200" height="230" rx="4" fill="#ffffff" stroke="#334155" stroke-width="8" />
+                <rect x="150" y="35" width="100" height="30" rx="10" fill="#334155" />
+                
+                
+                <g>
+                    <text x="120" y="100" font-family="monospace" font-weight="bold" font-size="14" fill="#6366f1">09:00</text>
+                    <line x1="180" y1="95" x2="280" y2="95" stroke="#334155" stroke-width="4" opacity="0.3" />
+                    
+                    <text x="120" y="140" font-family="monospace" font-weight="bold" font-size="14" fill="#6366f1">11:00</text>
+                    <line x1="180" y1="135" x2="280" y2="135" stroke="#334155" stroke-width="4" opacity="0.3" />
+                    <rect x="180" y="145" width="90" height="15" rx="4" fill="#f43f5e" opacity="0.4" />
+                    
+                    <text x="120" y="190" font-family="monospace" font-weight="bold" font-size="14" fill="#6366f1">14:00</text>
+                    <line x1="180" y1="185" x2="280" y2="185" stroke="#334155" stroke-width="4" opacity="0.3" />
+                    
+                    <text x="120" y="240" font-family="monospace" font-weight="bold" font-size="14" fill="#6366f1">16:00</text>
+                    <path d="M180 235 H280" stroke="#DFD116" stroke-width="8" stroke-linecap="round" />
+                </g>
+            </g>
+          </svg>

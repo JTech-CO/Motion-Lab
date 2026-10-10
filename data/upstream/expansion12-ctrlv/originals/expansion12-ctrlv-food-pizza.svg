@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Outer Crust -->
+                <path d="M100 240 C100 240 150 250 200 250 C250 250 300 240 300 240 L200 50 Z" fill="var(--secondary-color)"/>
+                <!-- Inner Cheese Area -->
+                <path d="M115 230 C115 230 155 240 200 240 C245 240 285 230 285 230 L200 65 Z" fill="var(--primary-color)"/>
+                
+                <!-- Toppings (Pepperoni) -->
+                <circle cx="160" cy="210" r="12" fill="var(--accent-color)" opacity="0.8"/>
+                <circle cx="240" cy="210" r="12" fill="var(--accent-color)" opacity="0.8"/>
+                <circle cx="200" cy="170" r="10" fill="var(--accent-color)" opacity="0.8"/>
+                <circle cx="180" cy="120" r="8" fill="var(--accent-color)" opacity="0.8"/>
+                <circle cx="220" cy="120" r="8" fill="var(--accent-color)" opacity="0.8"/>
+                
+                <!-- Cheese Strings pull animation -->
+                <path class="anim-draw" d="M115 230 Q110 210 100 200 M285 230 Q290 210 300 200" stroke="var(--primary-color)" stroke-width="3" stroke-linecap="round" fill="none"/>
+            </g>
+          </svg>

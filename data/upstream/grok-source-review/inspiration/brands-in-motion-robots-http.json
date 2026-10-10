@@ -1,0 +1,19 @@
+{
+  "url": "https://www.brandsinmotion.xyz/robots.txt",
+  "method": "bounded public HTTP GET",
+  "status": 200,
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공식 공개 URL의 제한된 HTTP GET 응답을 읽었다. 원격 JavaScript·미디어 파일을 실행하거나 다운로드하지 않았다. 공개 갤러리와 CMS의 robots 규칙을 읽었다. 갤러리 원작의 재배포 라이선스를 포함하지 않는다.",
+  "sector": 4,
+  "siteId": "brands-in-motion",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/brands-in-motion-robots-http.json",
+  "rawCacheSha256": "42a48b20615e22e7185cd54213ccc57a7161839f6785e1ea77551c55bf248317",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "9366d8b73b35e6ccbd7ee9b3d4b10b54a519d93f37abcf18b89f25e0bc9272d0",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "finalUrl": "https://www.brandsinmotion.xyz/robots.txt",
+  "byteCount": 1513,
+  "boundedAt": 1048576,
+  "truncated": false,
+  "originalResponseSha256": "9366d8b73b35e6ccbd7ee9b3d4b10b54a519d93f37abcf18b89f25e0bc9272d0"
+}

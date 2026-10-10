@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Data nodes/Systems -->
+                <rect x="60" y="80" width="80" height="140" rx="10" fill="var(--primary-color)"/>
+                <rect x="260" y="80" width="80" height="140" rx="10" fill="var(--secondary-color)"/>
+                <path d="M80 100 H120 M80 120 H110 M280 100 H320 M280 120 H310" stroke="#FFF" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+                <circle cx="100" cy="180" r="15" fill="#FFF" opacity="0.2"/>
+                <circle cx="300" cy="180" r="15" fill="#FFF" opacity="0.2"/>
+                
+                <!-- Center API Hub -->
+                <circle class="anim-pulse" cx="200" cy="150" r="40" fill="var(--accent-color)"/>
+                <circle cx="200" cy="150" r="30" fill="var(--bg-surface)"/>
+                <path class="anim-rotate"  d="M190 140 L210 150 L190 160" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+
+            <!-- Connecting lines -->
+            <path class="anim-draw" d="M140 120 C170 120 170 140 165 145" fill="none" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+            <path class="anim-draw" style="animation-delay: -0.5s;" d="M260 180 C230 180 230 160 235 155" fill="none" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+            <path class="anim-draw" style="animation-delay: -1s;" d="M140 180 C170 180 170 160 165 155" fill="none" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+            <path class="anim-draw" style="animation-delay: -1.5s;" d="M260 120 C230 120 230 140 235 145" fill="none" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+            
+            <!-- Data packets moving along lines -->
+            <circle class="anim-data" cx="165" cy="145" r="4" fill="var(--primary-color)"/>
+            <circle class="anim-data" style="animation-delay: -0.5s;" cx="235" cy="155" r="4" fill="var(--secondary-color)"/>
+          </svg>

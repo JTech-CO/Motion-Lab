@@ -1,0 +1,38 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="130" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            
+            <g class="anim-float">
+                <!-- Light Box Behind -->
+                <rect x="90" y="40" width="220" height="220" rx="10" fill="var(--bg-surface)" stroke="var(--accent-color)" stroke-width="6"/>
+                <rect x="95" y="45" width="210" height="210" rx="5" fill="var(--accent-color)" opacity="0.1"/>
+                
+                <!-- Film Hanging Clips -->
+                <rect x="130" y="30" width="20" height="15" rx="2" fill="var(--charcoal)"/>
+                <rect x="250" y="30" width="20" height="15" rx="2" fill="var(--charcoal)"/>
+                
+                <!-- X-Ray Film -->
+                <rect x="110" y="60" width="180" height="180" rx="5" fill="var(--charcoal)"/>
+                <rect class="anim-pulse" style="animation-duration: 2s;" x="115" y="65" width="170" height="170" rx="2" fill="var(--primary-color)" opacity="0.2"/>
+                
+                <!-- Abstract Ribcage Bones (Glowing) -->
+                <g stroke="var(--bg-surface)" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+                    <!-- Spine -->
+                    <path class="anim-draw" d="M200 80 V220" stroke-width="8"/>
+                    <!-- Ribs Left -->
+                    <path class="anim-draw" d="M190 100 Q140 100 130 140" fill="none" stroke-width="6"/>
+                    <path class="anim-draw" d="M190 130 Q140 130 130 170" fill="none" stroke-width="6"/>
+                    <path class="anim-draw" d="M190 160 Q145 160 140 190" fill="none" stroke-width="6"/>
+                    <!-- Ribs Right -->
+                    <path class="anim-draw" d="M210 100 Q260 100 270 140" fill="none" stroke-width="6"/>
+                    <path class="anim-draw" d="M210 130 Q260 130 270 170" fill="none" stroke-width="6"/>
+                    <path class="anim-draw" d="M210 160 Q255 160 260 190" fill="none" stroke-width="6"/>
+                    
+                    <!-- Collarbones -->
+                    <path class="anim-draw" d="M190 85 Q150 75 140 90" fill="none" stroke-width="8"/>
+                    <path class="anim-draw" d="M210 85 Q250 75 260 90" fill="none" stroke-width="8"/>
+                </g>
+                
+                <!-- Scan line effect moving down -->
+                <rect class="anim-bounce" style="animation-duration: 3s; transform-origin: top;" x="110" y="60" width="180" height="5" fill="var(--accent-color)" opacity="0.8"/>
+            </g>
+          </svg>

@@ -1,0 +1,36 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            
+            <!-- Abstract Tree of Life / DNA branch -->
+            <g class="anim-draw">
+                <path d="M100 250 Q120 180 200 180 T300 100" stroke="var(--secondary-color)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                <path d="M200 180 Q250 200 280 150" stroke="var(--secondary-color)" stroke-width="6" stroke-linecap="round" fill="none"/>
+                <circle cx="300" cy="100" r="8" fill="var(--primary-color)"/>
+                <circle cx="280" cy="150" r="6" fill="var(--accent-color)"/>
+            </g>
+            
+            <!-- Magnifying Glass -->
+            <g class="anim-float" >
+                <!-- Handle -->
+                <path d="M120 180 L90 230" stroke="var(--charcoal)" stroke-width="12" stroke-linecap="round"/>
+                <!-- Lens Frame -->
+                <circle cx="150" cy="140" r="45" fill="none" stroke="var(--charcoal)" stroke-width="8"/>
+                <!-- Lens Glass -->
+                <circle cx="150" cy="140" r="41" fill="white" opacity="0.5"/>
+                <!-- Glare -->
+                <path d="M125 125 A 35 35 0 0 1 150 105" stroke="white" stroke-width="4" stroke-linecap="round" fill="none"/>
+            </g>
+
+            <!-- Finch / Bird under glass -->
+            <g class="anim-bounce">
+                <!-- Body -->
+                <path d="M130 140 C130 120 160 120 165 140 C170 160 140 160 130 140 Z" fill="var(--primary-color)"/>
+                <!-- Wing -->
+                <path d="M140 140 Q150 150 160 135" stroke="var(--secondary-color)" stroke-width="4" stroke-linecap="round" fill="none"/>
+                <!-- Beak (Classic Darwin finch beak) -->
+                <polygon points="160,135 175,135 165,145" fill="var(--accent-color)"/>
+                <!-- Eye -->
+                <circle cx="155" cy="132" r="2" fill="white"/>
+            </g>
+            
+            <path class="anim-data" d="M180 80 H220 M180 90 H210 M180 100 H230" stroke="var(--charcoal)" stroke-width="2" stroke-linecap="round" fill="none"/>
+          </svg>

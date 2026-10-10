@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/3.%20DJI%20Motion/index.html",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/3.%20DJI%20Motion/index.html",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/3.%20DJI%20Motion/index.html",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/3.%20DJI%20Motion/index.html",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:16.118356+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/3.%20DJI%20Motion/index.html",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 242922,
+      "capturedSha256": "e6730ca230d5e1bccfa55da48818aee87624a1da8a36ce10ba2da0dc0d2f7170",
+      "responseBodySha256": "e6730ca230d5e1bccfa55da48818aee87624a1da8a36ce10ba2da0dc0d2f7170",
+      "title": "Motiongraphic/3. DJI Motion/index.html at 77fd0fadb3142c80038942802fcac71caeeba3d8 · JTech-CO/Motiongraphic · GitHub",
+      "textCharacters": 5124,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.606,
+      "captureCachePath": "exa-results/link-audit/references/captures/557a2e759da61c774d881f90.json",
+      "captureCacheSha256": "d799cea10e59877f9ab1f2ed92205c1fa2a638992815d904acadc0b7fceb60cf"
+    }
+  ],
+  "items": [
+    {
+      "id": "jtech-dji",
+      "canonicalId": "jtech-dji",
+      "title": "DJI 2006–2026",
+      "role": "canonical",
+      "sourceSha256": "8581fcc28193a1d95ada5f501a6f6677aa1bc1bf1a4b60addccd5c1026b1aaa8"
+    }
+  ]
+}

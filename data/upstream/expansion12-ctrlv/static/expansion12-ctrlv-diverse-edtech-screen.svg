@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <rect x="80" y="80" width="240" height="150" rx="10" fill="#ffffff" stroke="#334155" stroke-width="8" />
+                <path d="M50 230 L350 230 L340 250 H60 Z" fill="#334155" />
+                
+                
+                <path d="M120 180 Q160 150 200 180 V120 Q160 90 120 120 Z" fill="#6366f1" />
+                <path d="M280 180 Q240 150 200 180 V120 Q240 90 280 120 Z" fill="#f43f5e" />
+                <line x1="200" y1="120" x2="200" y2="180" stroke="#ffffff" stroke-width="4" />
+                
+                
+                <path d="M130 140 Q160 120 190 140 M130 160 Q160 140 190 160" stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none" />
+                <path d="M270 140 Q240 120 210 140 M270 160 Q240 140 210 160" stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none" />
+                
+                
+                <g transform="translate(200, 70)">
+                    <g>
+                    <path d="M0 -30 L-40 -10 L0 10 L40 -10 Z" fill="#DFD116" />
+                    <path d="M-20 0 V15 A 20 10 0 0 0 20 15 V0 Z" fill="#6366f1" />
+                    <path d="M30 -5 V15" stroke="#334155" stroke-width="3" />
+                </g>
+                </g>
+                
+                
+                <path d="M90 60 L95 70 L105 75 L95 80 L90 90 L85 80 L75 75 L85 70 Z" fill="#f43f5e" />
+                <path d="M300 50 L303 56 L309 59 L303 62 L300 68 L297 62 L291 59 L297 56 Z" fill="#6366f1" />
+            </g>
+          </svg>

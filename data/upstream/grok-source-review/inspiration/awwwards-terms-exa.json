@@ -1,0 +1,14 @@
+{
+  "url": "https://www.awwwards.com/terms/",
+  "method": "Exa public fetch",
+  "status": "Exa-content-read",
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공개 URL의 Exa 추출 내용을 읽었다. 직접 서버의 HTTP 200으로 간주하지 않았다.",
+  "sector": 4,
+  "siteId": "awwwards",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/awwwards-terms-exa.json",
+  "rawCacheSha256": "c9ce9733c4b78acd1e64bd7ea9d8f82ab0a55f2918e1ec3febc06e1316b97fd6",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "8f9935332d0e24d3be87b103c2c6a7d3ffdd2810da8efebbef9b2da7926bc059",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json."
+}

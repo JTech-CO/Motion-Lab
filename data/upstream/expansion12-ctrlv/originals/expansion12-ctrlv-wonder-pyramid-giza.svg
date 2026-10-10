@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="160" ry="12" fill="#E2E8F0" opacity="0.8"/>
+            <!-- Huge Sun -->
+            <circle class="anim-pulse" cx="200" cy="180" r="90" fill="var(--accent-color)" opacity="0.1"/>
+            <!-- Sand Dunes -->
+            <path class="anim-float" d="M40 260 Q120 220 200 260 T360 260 V280 H40 Z" fill="var(--secondary-color)" opacity="0.15"/>
+            <!-- Small Pyramid -->
+            <path class="anim-bounce" d="M260 260 L310 160 L360 260 Z" fill="var(--primary-color)" opacity="0.7"/>
+            <path d="M310 160 L310 260 L360 260 Z" fill="var(--charcoal)" opacity="0.1"/>
+            <!-- Great Pyramid -->
+            <path class="anim-bounce" d="M100 260 L200 80 L300 260 Z" fill="var(--primary-color)"/>
+            <path d="M200 80 L200 260 L300 260 Z" fill="var(--charcoal)" opacity="0.1"/>
+            <!-- Lines representing stone tiers -->
+            <path class="anim-draw" d="M140 200 H260 M165 150 H235 M180 120 H220 M120 240 H280" stroke="white" stroke-width="2" stroke-dasharray="4 4" fill="none"/>
+            <!-- Glowing Eye of Horus abstraction above -->
+            <circle class="anim-glow" cx="200" cy="50" r="6" fill="var(--accent-color)"/>
+            <path class="anim-glow" d="M180 40 Q200 60 220 40" stroke="var(--accent-color)" stroke-width="2" stroke-linecap="round" fill="none"/>
+          </svg>

@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/heyxianggao/motion-anything",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/heyxianggao/motion-anything",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/heyxianggao/motion-anything",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/heyxianggao/motion-anything",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:59.015952+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/heyxianggao/motion-anything",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "4084c5955e7b1e6401feb1eed51962971f9cc670641ff6c478db216f067ebfbb",
+      "responseBodySha256": "4084c5955e7b1e6401feb1eed51962971f9cc670641ff6c478db216f067ebfbb",
+      "title": "GitHub - heyxianggao/motion-anything: ✨ The agentic motion layer — an open-source, chat-native motion engine. Describe the feeling; your AI ships the animation. · GitHub",
+      "textCharacters": 2750,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.78,
+      "captureCachePath": "exa-results/link-audit/references/captures/1be41abe622bf3b0fe314872.json",
+      "captureCacheSha256": "d7937bed11d55501625f7aa9ce613466ba985170bf188f22623cfa8702cd1ab1"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-motion-anything",
+      "canonicalId": "ref-motion-anything",
+      "title": "Motion Anything",
+      "role": "canonical",
+      "sourceSha256": "fa8380c483e8afe22fc6d1b2df83e7e86c7bd723e0c213384d96a666f0255f67"
+    }
+  ]
+}

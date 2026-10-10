@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Shield Base -->
+                <path d="M200 50 L100 80 V150 C100 210 200 250 200 250 C200 250 300 210 300 150 V80 L200 50 Z" fill="var(--primary-color)"/>
+                <path d="M200 60 L120 85 V150 C120 200 200 235 200 235 C200 235 280 200 280 150 V85 L200 60 Z" fill="var(--secondary-color)"/>
+                
+                <path d="M200 60 V235 C200 235 280 200 280 150 V85 L200 60 Z" fill="var(--bg-surface)" opacity="0.1"/>
+                
+                <!-- Checkmark -->
+                <path class="anim-bounce" d="M160 150 L190 180 L250 120" stroke="var(--accent-color)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                
+                <path class="anim-draw" d="M160 150 L190 180 L250 120" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                
+                <!-- Sparkles -->
+                <circle class="anim-pulse" cx="130" cy="110" r="5" fill="var(--accent-color)"/>
+                <circle class="anim-pulse" style="animation-delay: 0.3s;" cx="260" cy="190" r="8" fill="var(--accent-color)"/>
+            </g>
+          </svg>

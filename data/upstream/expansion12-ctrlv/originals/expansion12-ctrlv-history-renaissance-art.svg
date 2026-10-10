@@ -1,0 +1,35 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Easel -->
+                <line x1="200" y1="40" x2="200" y2="280" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                <line x1="200" y1="180" x2="160" y2="280" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                <line x1="200" y1="180" x2="240" y2="280" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                <rect x="140" y="220" width="120" height="10" fill="var(--charcoal)"/>
+
+                <!-- Painting Frame -->
+                <rect class="anim-bounce" x="120" y="60" width="160" height="160" fill="var(--accent-color)"/>
+                <rect class="anim-bounce" x="130" y="70" width="140" height="140" fill="var(--bg-surface)"/>
+                
+                <!-- Abstract Mona Lisa Figure -->
+                <g class="anim-bounce">
+                    <!-- Background Landscape -->
+                    <path d="M130 150 Q160 120 200 140 Q240 160 270 130 V210 H130 Z" fill="var(--secondary-color)" opacity="0.3"/>
+                    <!-- Figure Body -->
+                    <path d="M160 210 V180 C160 150 240 150 240 180 V210 H160 Z" fill="var(--primary-color)"/>
+                    <path d="M160 210 Q200 180 240 210" stroke="var(--charcoal)" stroke-width="2" fill="none"/>
+                    <!-- Hair -->
+                    <path d="M180 160 V120 C180 100 220 100 220 120 V160 Z" fill="var(--charcoal)"/>
+                    <!-- Face -->
+                    <ellipse cx="200" cy="130" rx="15" ry="20" fill="#FFF" stroke="var(--primary-color)" stroke-width="2"/>
+                    <!-- Abstract feature lines -->
+                    <path d="M195 125 H205 M200 135 H205 M195 145 Q200 148 205 145" stroke="var(--primary-color)" stroke-width="2" fill="none"/>
+                </g>
+                
+                <!-- Palette and Brush on the side -->
+                <ellipse class="anim-draw" cx="100" cy="240" rx="25" ry="20" fill="var(--secondary-color)"/>
+                <circle cx="90" cy="240" r="4" fill="var(--bg-surface)"/>
+                <circle cx="110" cy="235" r="4" fill="var(--accent-color)"/>
+                <circle cx="115" cy="245" r="4" fill="var(--primary-color)"/>
+                <path class="anim-draw" style="animation-delay: -0.5s;" d="M140 260 L90 245 M80 240 L90 245" stroke="var(--charcoal)" stroke-width="3" stroke-linecap="round"/>
+            </g>
+          </svg>

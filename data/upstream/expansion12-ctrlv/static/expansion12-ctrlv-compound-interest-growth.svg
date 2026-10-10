@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+        <path d="M50 250 Q150 240 250 150 T350 50" stroke="#6366f1" stroke-width="8" stroke-linecap="round" fill="none" />
+        <g>
+            <circle cx="350" cy="50" r="15" fill="#f43f5e" opacity="0.6" />
+            <path d="M340 50 L360 50 M350 40 L350 60" stroke="white" stroke-width="2" />
+        </g>
+        <text x="100" y="100" font-family="Inter" font-weight="900" font-size="20" fill="#6366f1">EXPONENTIAL</text>
+    </svg>

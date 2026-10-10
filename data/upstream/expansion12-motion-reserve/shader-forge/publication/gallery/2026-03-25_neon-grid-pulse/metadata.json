@@ -1,0 +1,18 @@
+{
+  "theme": "Neon Grid Pulse",
+  "style_hints": "",
+  "references": [
+    "shabon-fx/NeonGrid.frag",
+    "shabon-fx/AuroraWaves.frag",
+    "shabon-fx/PlasmaWave.frag",
+    "community/WebGPU-Lab/src_scripts_raytrace_cloud.wgsl",
+    "shabon-fx/Fireworks.frag"
+  ],
+  "attempts": 2,
+  "created_at": "2026-03-25T13:13:19.033058+00:00",
+  "glsl_lines": 92,
+  "success": true,
+  "status": "rejected",
+  "rejected_at": "2026-03-28T13:32:18.710858+00:00",
+  "rejected_comment": ""
+}

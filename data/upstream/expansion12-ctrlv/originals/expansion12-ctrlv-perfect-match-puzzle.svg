@@ -1,0 +1,9 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Left Puzzle Piece -->
+            <path class="anim-float" d="M80 100 H150 V80 C150 60 190 60 190 80 V100 H200 V160 H180 C160 160 160 200 180 200 H200 V230 H80 V180 H60 C40 180 40 140 60 140 H80 V100 Z" fill="var(--primary-color)"/>
+            <!-- Right Puzzle Piece -->
+            <path class="anim-float" d="M220 100 H320 V140 H340 C360 140 360 180 340 180 H320 V230 H220 V200 C200 200 200 160 220 160 V100 Z" fill="var(--primary-color)" style="animation-delay: -1s"/>
+            <!-- Spark -->
+            <circle class="anim-glow" cx="210" cy="180" r="10" fill="var(--accent-color)"/>
+            <path class="anim-data" d="M210 160 V150 M210 200 V210 M190 180 H180 M230 180 H240" stroke="var(--accent-color)" stroke-width="3" stroke-linecap="round"/>
+          </svg>

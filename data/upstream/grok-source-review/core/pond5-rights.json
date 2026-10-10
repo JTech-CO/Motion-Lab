@@ -1,0 +1,49 @@
+{
+  "id": "pond5",
+  "checkedAt": "2026-10-10",
+  "method": "official-Exa-extraction-and-public-web-connector-read",
+  "rightsObservations": [
+    {
+      "url": "https://www.pond5.com/legal/license",
+      "claim": "일반 Content License는 raw Content의 외부 접근 및 단독 파일·template 배포를 제한한다. 무료 일반 상품도 이 조건과 Public Domain을 구분해야 한다.",
+      "section": "5(3), Limit Access to and Distribution of Raw Content",
+      "quote": "",
+      "method": "official-page-read-via-Exa-and-public-web-connector",
+      "checkedAt": "2026-10-10",
+      "permissionObtained": false
+    },
+    {
+      "url": "https://www.pond5.com/public-domain",
+      "claim": "별도 Public Domain 컬렉션이 있으며 이미지 63,824개를 광고한다. footage/audio/3D를 이미지 공급량에 합산하지 않는다.",
+      "section": "Public Domain Project",
+      "quote": "",
+      "method": "official-page-read-via-Exa-and-public-web-connector",
+      "checkedAt": "2026-10-10",
+      "permissionObtained": false
+    },
+    {
+      "url": "https://www.pond5.com/legal/publicdomain",
+      "claim": "Public Domain 판단은 미국을 중심으로 하며 각국의 보호기간·제3자 권리가 다를 수 있다. 모든 국가의 무조건적 이용 허가를 보증하지 않는다.",
+      "section": "Public Domain disclaimer",
+      "quote": "",
+      "method": "official-page-read-via-Exa-and-public-web-connector",
+      "checkedAt": "2026-10-10",
+      "permissionObtained": false
+    }
+  ],
+  "representativeObservation": {
+    "url": "https://www.pond5.com/search?kw=&media=photo&public_domain=1",
+    "name": "Public Domain 이미지 컬렉션",
+    "formats": [
+      "image"
+    ],
+    "downloadGate": "Public Domain 원본도 무료 계정 필요",
+    "rights": "개별 Public Domain 출처·국가·제3자 권리 확인 필요",
+    "individualDetailRead": false,
+    "categoryOnly": true,
+    "limitation": "공식 목록과 PD 안내는 확인. 개별 이미지 상세 커넥터 오류와 일반 Chrome 403으로 원본·개별 저작권 기록은 확인하지 못함.",
+    "directPond5RedistributionPermissionVerified": false
+  },
+  "interpretation": "일반 스톡은 제외합니다. 별도 Public Domain 컬렉션은 원 기관의 이미지 원본·국가 권리·중복을 확인하는 후보 발굴 경로이며, Pond5에서 내려받은 파일 자체의 공개 재배포권은 확정하지 못했습니다.",
+  "mediaOrOriginalDownloaded": false
+}

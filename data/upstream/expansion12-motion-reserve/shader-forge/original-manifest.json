@@ -1,0 +1,390 @@
+{
+  "repository": "wrennly/shader-forge",
+  "commit": "549f0fda617b2081dd5c50ab57defa1a95e0f341",
+  "archiveUrl": "https://codeload.github.com/wrennly/shader-forge/zip/549f0fda617b2081dd5c50ab57defa1a95e0f341",
+  "archiveBytes": 15143434,
+  "archiveSha256": "770454ac73edd38a1f60e9485ca07d211a2824bb8ca6e27feca7d36658b7f72d",
+  "originals": [
+    {
+      "path": "gallery/2026-03-24_aurora-borealis-with-noise-curtains/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-24_aurora-borealis-with-noise-curtains/shader.frag",
+      "bytes": 4688,
+      "sha256": "7c8769317f10d5e3e118ad0000c653304c1c64032d29edba7b55d4e15f51692c",
+      "gitBlobSha": "3b1c116394a15ed636cffaa66eee45091d0d4ee6"
+    },
+    {
+      "path": "gallery/2026-03-24_bioluminescent-deep-ocean-jellyfish/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-24_bioluminescent-deep-ocean-jellyfish/shader.frag",
+      "bytes": 2860,
+      "sha256": "b91de5e3fe58e42a62d2230693f9509f283e5d7a644a3f8dc62ec549485ff544",
+      "gitBlobSha": "30512d5013bb4ac93b15728e42e6ba39cdafdb72"
+    },
+    {
+      "path": "gallery/2026-03-24_fractal-mandelbulb-3d-power-8/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-24_fractal-mandelbulb-3d-power-8/shader.frag",
+      "bytes": 4075,
+      "sha256": "de41b71ad8c356fd96c5f87ecd472669ae8618c1ecfe09133547735a7a9d3b7e",
+      "gitBlobSha": "16f9a9a8b6561ada3a4139dc0675e0757b6b87dc"
+    },
+    {
+      "path": "gallery/2026-03-24_iridescent-soap-bubble-floating-in-sunlight/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-24_iridescent-soap-bubble-floating-in-sunlight/shader.frag",
+      "bytes": 5589,
+      "sha256": "8dc9448a95a9622822ae56a9e878f3591ca1aefee80658aee2a94b4d0ebc315c",
+      "gitBlobSha": "2f6c27ecc79ec28ca0d04f9a1fc230082ca14c5c"
+    },
+    {
+      "path": "gallery/2026-03-24_liquid-chrome-sphere-reflection/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-24_liquid-chrome-sphere-reflection/shader.frag",
+      "bytes": 2924,
+      "sha256": "8a931f39d300769fd3172bce5095d0b436e67dcf1cc0e4249c07056336724dd5",
+      "gitBlobSha": "957a02c6db681c8b3001d323261d67cee6b5fa7b"
+    },
+    {
+      "path": "gallery/2026-03-24_raymarched-underwater-caustics-with-volumetric-light-rays/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-24_raymarched-underwater-caustics-with-volumetric-light-rays/shader.frag",
+      "bytes": 4082,
+      "sha256": "9523a4200cd986d10a608c7a079690584f7ffe7b8a8dbee68f9799cdb9195473",
+      "gitBlobSha": "e95fc7110c3ab604811768bfbc0fa2597aad1144"
+    },
+    {
+      "path": "gallery/2026-03-24_underwater-caustics-with-light-shafts/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-24_underwater-caustics-with-light-shafts/shader.frag",
+      "bytes": 2321,
+      "sha256": "900e15616cf346044b5f9fa901f32a89b2504bf87e9d220c619e4e44912b3811",
+      "gitBlobSha": "276da868cecd572e9776e1a97431676a03dacacc"
+    },
+    {
+      "path": "gallery/2026-03-24_volumetric-god-rays-through-stained-glass-window/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-24_volumetric-god-rays-through-stained-glass-window/shader.frag",
+      "bytes": 3949,
+      "sha256": "94995102d4b73be7a4954a191051e27f36ad62c461b1a4cc50d413a59bdc3644",
+      "gitBlobSha": "cc148e9f3185e7f15e59f91cc49a18dfc0fbb0ce"
+    },
+    {
+      "path": "gallery/2026-03-25_abstract-flowing-liquid-metal-with-rainbow-reflections/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-25_abstract-flowing-liquid-metal-with-rainbow-reflections/shader.frag",
+      "bytes": 1833,
+      "sha256": "382b7d799b2d14db8070b3c5964269d099c6a6457016930d5ffd0727bc9dfc26",
+      "gitBlobSha": "53fa15b9382087fdca7496607428bd74fd7317fe"
+    },
+    {
+      "path": "gallery/2026-03-25_abstract-impossible-geometry-optical-illusion/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-25_abstract-impossible-geometry-optical-illusion/shader.frag",
+      "bytes": 3796,
+      "sha256": "07039e0f6286b2bb846b0d278c1440b4f756ede280c7ed24438b16c6755b4287",
+      "gitBlobSha": "ee2a97c172526edef0f6c7dfb6346755bbf62173"
+    },
+    {
+      "path": "gallery/2026-03-25_bright-neon-plasma-waves-filling-the-screen/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-25_bright-neon-plasma-waves-filling-the-screen/shader.frag",
+      "bytes": 2545,
+      "sha256": "fc12c98d1f152bcde8c991ef2d7890bb02598acb0138ab6bad8cb0f9f6ce52fa",
+      "gitBlobSha": "689a9cf34952fc58ef23cbcb391a1049f5671e82"
+    },
+    {
+      "path": "gallery/2026-03-25_colorful-plasma-energy-ball-with-electric-arcs/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-25_colorful-plasma-energy-ball-with-electric-arcs/shader.frag",
+      "bytes": 3907,
+      "sha256": "196034047e6ae9e27744d2924f560dd3e14974df7c91caa9ef1b220d6b82329a",
+      "gitBlobSha": "84ad9bde2d7523269931d8353645424addcb5e76"
+    },
+    {
+      "path": "gallery/2026-03-25_crystal-cave-with-bioluminescent-mushrooms/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-25_crystal-cave-with-bioluminescent-mushrooms/shader.frag",
+      "bytes": 6666,
+      "sha256": "7763e83a20b9291622de2bc0acd413566836f4d8dd1d69fcd8064a3e44c9feee",
+      "gitBlobSha": "a6784cc30500daf1838e91314958967c261a40c3"
+    },
+    {
+      "path": "gallery/2026-03-25_cyberpunk-city-rain-reflection-on-wet-street-at-night/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-25_cyberpunk-city-rain-reflection-on-wet-street-at-night/shader.frag",
+      "bytes": 3746,
+      "sha256": "fb71c94a6870df723016c182cc4ef4d2bf82728838728ffa034750fba045baef",
+      "gitBlobSha": "0cc96f8e4712e603720b8bc944b13c00ba14c8e0"
+    },
+    {
+      "path": "gallery/2026-03-25_fluid-lava-flow/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-25_fluid-lava-flow/shader.frag",
+      "bytes": 2034,
+      "sha256": "e48ddfc37e147210141fd87fe007595f35d565a5c0389b5e8c4acf1d43177c76",
+      "gitBlobSha": "1ed14fb9b4f6adf5e9e7ae4a526686bc410b43f3"
+    },
+    {
+      "path": "gallery/2026-03-25_fractal-aurora-borealis/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-25_fractal-aurora-borealis/shader.frag",
+      "bytes": 2145,
+      "sha256": "d89891d98dfdb648add895c0a336aa03c99bb5cd0bfa01b9b7895b134ccaf591",
+      "gitBlobSha": "d9606669c89a7c0a6154f82bc4fe4cde2b0f2d06"
+    },
+    {
+      "path": "gallery/2026-03-25_iridescent-soap-bubble-cluster-floating-in-golden-hour-sunlight/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-25_iridescent-soap-bubble-cluster-floating-in-golden-hour-sunlight/shader.frag",
+      "bytes": 5341,
+      "sha256": "2951ab20cc240f28e7821f968f9c6fd5e05e1dc32bbace23780586ad4475d6e9",
+      "gitBlobSha": "6e043336abd6d30065965faac7c7d34282a6c532"
+    },
+    {
+      "path": "gallery/2026-03-25_neon-grid-pulse/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-25_neon-grid-pulse/shader.frag",
+      "bytes": 2513,
+      "sha256": "ac8a3cbca690e475b6409e9e76a039cd208ea66555fd7e2eaedb99ee937be352",
+      "gitBlobSha": "f71a92bdac116967e74810209342521ca280b004"
+    },
+    {
+      "path": "gallery/2026-03-25_prism-light-refraction/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-25_prism-light-refraction/shader.frag",
+      "bytes": 1810,
+      "sha256": "5b3e0ff75797e612c1ea89969d96ecac117e7c0775cf878e7f4b957c127d37fb",
+      "gitBlobSha": "54292641adac49c2cdc1ecb7d856ed77656f785c"
+    },
+    {
+      "path": "gallery/2026-03-25_spinning-galaxy-spiral-with-nebula/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-25_spinning-galaxy-spiral-with-nebula/shader.frag",
+      "bytes": 2893,
+      "sha256": "05bee4f8b21e837bbf0647432c7eda4fa63cab1899aa5424db9e8ff2e4e208d1",
+      "gitBlobSha": "91ab0d3d26b6cea4ecd63dee6c25487e33236c42"
+    },
+    {
+      "path": "gallery/2026-03-25_synthwave-horizon/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-25_synthwave-horizon/shader.frag",
+      "bytes": 3130,
+      "sha256": "e47d9989a4521cfd0814c8c86547e2384a1f0ecf33640a09895521aab9431f48",
+      "gitBlobSha": "59f5f06a2bdd379a245673a08f3e2362c549f738"
+    },
+    {
+      "path": "gallery/2026-03-25_volcanic-eruption-with-flowing-lava-and-smoke/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-25_volcanic-eruption-with-flowing-lava-and-smoke/shader.frag",
+      "bytes": 3595,
+      "sha256": "d8f48bae237134e5e5d4282139430a46e1ded5a7cab728d8a8ce3e903f22c270",
+      "gitBlobSha": "784e2742c8e316e7d4e3a7cad51f803a737d348b"
+    },
+    {
+      "path": "gallery/2026-03-27_aurora-borealis-over-arctic-mountains/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-27_aurora-borealis-over-arctic-mountains/shader.frag",
+      "bytes": 2454,
+      "sha256": "0af63549ba216d82b51a7b59c6402a29d691a24a016307c060e04ce02b3e665d",
+      "gitBlobSha": "6fb96192d9db72140a87a36ef3044d64782fa737"
+    },
+    {
+      "path": "gallery/2026-03-27_bioluminescent-deep-sea-creature-with-pulsing-glow/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-27_bioluminescent-deep-sea-creature-with-pulsing-glow/shader.frag",
+      "bytes": 2952,
+      "sha256": "8cd3615b959474569bbb285f42dc6a3aa4c78ee1dd65cba3d4c38257c129afad",
+      "gitBlobSha": "e930861689946ba9e23291bdf8c7079998ca2b46"
+    },
+    {
+      "path": "gallery/2026-03-27_bioluminescent-jellyfish-in-deep-ocean/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-27_bioluminescent-jellyfish-in-deep-ocean/shader.frag",
+      "bytes": 2732,
+      "sha256": "f714925076f7380399ad8847c673ac319dc9adf01df6cd993cb7c359a3ad68b3",
+      "gitBlobSha": "6380b85cb2f3d167e4d78858def5fa269dcbd1d0"
+    },
+    {
+      "path": "gallery/2026-03-27_fractal-mandelbrot-zoom-with-electric-color-palette/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-27_fractal-mandelbrot-zoom-with-electric-color-palette/shader.frag",
+      "bytes": 48,
+      "sha256": "bfe5071878b6c07b71b966a7e56155546a33e1578b92e42ddc4e8699a7bfed19",
+      "gitBlobSha": "b118f2f03dab8adfaf0436b425a918926a140635"
+    },
+    {
+      "path": "gallery/2026-03-27_iridescent-crystal-cave-with-light-refraction/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-27_iridescent-crystal-cave-with-light-refraction/shader.frag",
+      "bytes": 48,
+      "sha256": "bfe5071878b6c07b71b966a7e56155546a33e1578b92e42ddc4e8699a7bfed19",
+      "gitBlobSha": "b118f2f03dab8adfaf0436b425a918926a140635"
+    },
+    {
+      "path": "gallery/2026-03-27_liquid-chrome-morphing-abstract-sculpture/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-27_liquid-chrome-morphing-abstract-sculpture/shader.frag",
+      "bytes": 2568,
+      "sha256": "176934243942ebc6df1b902515054149f3ebd18da0035dc1148afb4496650d79",
+      "gitBlobSha": "b59d7e949fc423091fe0526b5bb1788e037d9be4"
+    },
+    {
+      "path": "gallery/2026-03-27_neon-cyberpunk-rain-on-wet-street/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-27_neon-cyberpunk-rain-on-wet-street/shader.frag",
+      "bytes": 2641,
+      "sha256": "3abbf0363c8de6d0dad3dc70b438db37e4318a4d14935f983151bbe093b8b004",
+      "gitBlobSha": "ba83eb82748408e2eef6eb2543e5aab6976d13ea"
+    },
+    {
+      "path": "gallery/2026-03-27_neon-fluid-fractals/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-27_neon-fluid-fractals/shader.frag",
+      "bytes": 2567,
+      "sha256": "6c052930f21606a22c8e90940ef7b795018eb6d5efa7e25e7553d0c7466c9ef5",
+      "gitBlobSha": "32544f6aa370393fd62a78d8ec7676bfa3fb3be3"
+    },
+    {
+      "path": "gallery/2026-03-27_simple-plasma-wave/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-27_simple-plasma-wave/shader.frag",
+      "bytes": 943,
+      "sha256": "748a9d400438d9317040c2c99a5ccd33e0049ad54ced95a7c1333967659590f7",
+      "gitBlobSha": "a1e6014636690ab04a8fe1c60c5986241454eadc"
+    },
+    {
+      "path": "gallery/2026-03-27_vibrant-plasma-energy-field-with-electric-arcs/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-27_vibrant-plasma-energy-field-with-electric-arcs/shader.frag",
+      "bytes": 2120,
+      "sha256": "f748f52a7269768b75cc31a364a3f1e987caaa578e0e71d4c5456dd3aa9e94dc",
+      "gitBlobSha": "13ea8adc42ad596065187da8bcb4478f9a256811"
+    },
+    {
+      "path": "gallery/2026-03-28_abstract-fluid-marble-with-gold-veins/shader.wgsl",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-28_abstract-fluid-marble-with-gold-veins/shader.wgsl",
+      "bytes": 3393,
+      "sha256": "f310f56472a190d7aa5a9eef5895e452f8bb72f5b0a59395b165430c39c64389",
+      "gitBlobSha": "489813273d11c58e77f306e407a50980db451444"
+    },
+    {
+      "path": "gallery/2026-03-28_abstract-voronoi-crystal-growth-animation/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-28_abstract-voronoi-crystal-growth-animation/shader.frag",
+      "bytes": 1552,
+      "sha256": "65dcdd958035a5d47cdd30856ef3319fe49c01bf147b443b6e7bd00e7327f426",
+      "gitBlobSha": "ada793fdfe14b60eaf4696878614aaee578807a0"
+    },
+    {
+      "path": "gallery/2026-03-28_colorful-gradient-waves/shader.wgsl",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-28_colorful-gradient-waves/shader.wgsl",
+      "bytes": 2777,
+      "sha256": "f46b1e0ae6d627d53a695f472f0493904535cc4dc5e4c26b755c0ed5eca549c7",
+      "gitBlobSha": "6229cf901fe80b5af93d866e204ee550b6a7927c"
+    },
+    {
+      "path": "gallery/2026-03-28_cosmic-jellyfish-nebula-floating-in-space/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-28_cosmic-jellyfish-nebula-floating-in-space/shader.frag",
+      "bytes": 3851,
+      "sha256": "29b13e81059883dbd6f1dc90d9c13980fa3c42a78f92b9167cc6589fc162da1f",
+      "gitBlobSha": "634e3f6e451ba46d7b0bc7b103eb5c7efc2eff9a"
+    },
+    {
+      "path": "gallery/2026-03-28_digital-rain-matrix-with-glowing-kanji/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-28_digital-rain-matrix-with-glowing-kanji/shader.frag",
+      "bytes": 1364,
+      "sha256": "6d8bceea2220fb6c2260d9792d79f89c31e639f8cb5dfd5841f2457330c4f485",
+      "gitBlobSha": "d63505017372ae2f701400b5dd911452adb08540"
+    },
+    {
+      "path": "gallery/2026-03-28_electric-storm-with-branching-lightning/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-28_electric-storm-with-branching-lightning/shader.frag",
+      "bytes": 1759,
+      "sha256": "3ece5a86e3fc779caafddc2dbfeae229383dc5b8c9c1a925751ee61dbed92ec0",
+      "gitBlobSha": "c93a815d4968198792682d0f3872f3e79065589b"
+    },
+    {
+      "path": "gallery/2026-03-28_ethereal-aurora-borealis-with-raymarched-mountains/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-28_ethereal-aurora-borealis-with-raymarched-mountains/shader.frag",
+      "bytes": 3851,
+      "sha256": "29b13e81059883dbd6f1dc90d9c13980fa3c42a78f92b9167cc6589fc162da1f",
+      "gitBlobSha": "634e3f6e451ba46d7b0bc7b103eb5c7efc2eff9a"
+    },
+    {
+      "path": "gallery/2026-03-28_holographic-prism-light-dispersion/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-28_holographic-prism-light-dispersion/shader.frag",
+      "bytes": 2756,
+      "sha256": "c554068b843b6821d491b37c4254aa46ff8abfb88e19f2c70d6f9645b16dc03b",
+      "gitBlobSha": "4020b277ab9390ae3677f3b0ee41a2b60e622f08"
+    },
+    {
+      "path": "gallery/2026-03-28_iridescent-soap-bubble-close-up-with-thin-film-interference/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-28_iridescent-soap-bubble-close-up-with-thin-film-interference/shader.frag",
+      "bytes": 5010,
+      "sha256": "d23baea9e808cf8ee68025058ce2e2eda99ce79a95bcbb1f2ad93fab1f3a61e0",
+      "gitBlobSha": "3be73aad1adeb8bb4b327333cb4561efac3a1ea1"
+    },
+    {
+      "path": "gallery/2026-03-28_liquid-chrome-morphing-sculpture/shader.wgsl",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-28_liquid-chrome-morphing-sculpture/shader.wgsl",
+      "bytes": 6523,
+      "sha256": "a56f88853e02a48c310d7f46024f2f5c48c42c640a3fb3d5cd8f92486a042cef",
+      "gitBlobSha": "14d01e6b7852e5215626b680ddf0a12a750fd42c"
+    },
+    {
+      "path": "gallery/2026-03-28_molten-gold-flowing-through-crystal-veins/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-28_molten-gold-flowing-through-crystal-veins/shader.frag",
+      "bytes": 4212,
+      "sha256": "429c868fdf79a92ef6957cb746408f23f171b260e90a7b0aa52a94ec998a65f0",
+      "gitBlobSha": "7525a469a3f5a6cc34c0f02dd950490fc231c4c3"
+    },
+    {
+      "path": "gallery/2026-03-28_neon-synthwave-grid-with-glowing-sun/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-28_neon-synthwave-grid-with-glowing-sun/shader.frag",
+      "bytes": 3624,
+      "sha256": "c2f126eafcc076b4cc01d7e9afaaba75aa419dad3e400219c4bc5de68f53168e",
+      "gitBlobSha": "10741d0b3cd84a82048d0ff38eb2e86f6686a184"
+    },
+    {
+      "path": "gallery/2026-03-28_neon-synthwave-grid-with-glowing-sun/shader.wgsl",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-28_neon-synthwave-grid-with-glowing-sun/shader.wgsl",
+      "bytes": 5033,
+      "sha256": "715fd89ca88242a95559c125c37f4116a4ccd0ebdbd7df75ca0c8638e14a3767",
+      "gitBlobSha": "e05720a629523b693710f8f9f4b4a0587a56c9ed"
+    },
+    {
+      "path": "gallery/2026-03-28_neon-wireframe-landscape-with-retro-synthwave-sun/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-28_neon-wireframe-landscape-with-retro-synthwave-sun/shader.frag",
+      "bytes": 3343,
+      "sha256": "6fd56fd0dc557fe0f0a5acdb98cb4b1d07135047458c1b9fe26503ffed4b4e43",
+      "gitBlobSha": "9d40cf7c23cf3dc6b03fa1d361fcea9c8212880c"
+    },
+    {
+      "path": "gallery/2026-03-28_underwater-caustics-with-bioluminescent-particles/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-28_underwater-caustics-with-bioluminescent-particles/shader.frag",
+      "bytes": 48,
+      "sha256": "bfe5071878b6c07b71b966a7e56155546a33e1578b92e42ddc4e8699a7bfed19",
+      "gitBlobSha": "b118f2f03dab8adfaf0436b425a918926a140635"
+    },
+    {
+      "path": "gallery/2026-03-28_vibrant-plasma-energy-field/shader.wgsl",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-28_vibrant-plasma-energy-field/shader.wgsl",
+      "bytes": 4511,
+      "sha256": "1c44243760cc85a3f24922f114ff5f01b353bf32142c4d708fbad4a54697d124",
+      "gitBlobSha": "f4efd990612a0d1c0d66fc871ff4c7a8ce065c07"
+    },
+    {
+      "path": "gallery/2026-03-28_vibrant-plasma-energy-vortex/shader.wgsl",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-28_vibrant-plasma-energy-vortex/shader.wgsl",
+      "bytes": 4515,
+      "sha256": "a67d426ef51c63ebb74732ae0c426d98155f2d161b86f765211c98be2487de4d",
+      "gitBlobSha": "96f53475e148b3b7e55e5718fca29ac7e2df309d"
+    },
+    {
+      "path": "gallery/2026-03-29_abstract-gyroid-structure-with-iridescent-surface/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-29_abstract-gyroid-structure-with-iridescent-surface/shader.frag",
+      "bytes": 2082,
+      "sha256": "7b2abbb7fe8461e00ee9f39147cbd4bc597077659b3e9ec65dae23590fc46d4b",
+      "gitBlobSha": "a237e604eea24752fa038af601213b4bf8e12db9"
+    },
+    {
+      "path": "gallery/2026-03-29_fractal-mandelbrot-deep-zoom-with-electric-colors/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-29_fractal-mandelbrot-deep-zoom-with-electric-colors/shader.frag",
+      "bytes": 1489,
+      "sha256": "62dfcefb38745fc99bb044dce137be4acef6e8cd9a75340dc672d3944271e7ef",
+      "gitBlobSha": "d8c7a4a2beaf0c756cf5b92cc623b70265d469ac"
+    },
+    {
+      "path": "gallery/2026-03-29_raymarched-infinite-tunnel-with-neon-lights/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-29_raymarched-infinite-tunnel-with-neon-lights/shader.frag",
+      "bytes": 1914,
+      "sha256": "6b50b4a728ed7d052087c16e6a3e3634c4cf902f3f1e106ffe9ab076a073e3a9",
+      "gitBlobSha": "fad2292a0269d608f76c86567092fda37527dab2"
+    },
+    {
+      "path": "gallery/2026-03-29_seascape-ocean-waves-with-foam-and-sun-reflection/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-29_seascape-ocean-waves-with-foam-and-sun-reflection/shader.frag",
+      "bytes": 3493,
+      "sha256": "c5c0440bffdaaf27415c304971f59ef818b1e9a8955cc7efc9a729998041437e",
+      "gitBlobSha": "a93c9f693ce756847b55aafcf50339b6af6bedc0"
+    },
+    {
+      "path": "gallery/2026-03-29_volumetric-clouds-with-god-rays-at-sunset/shader.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-29_volumetric-clouds-with-god-rays-at-sunset/shader.frag",
+      "bytes": 3063,
+      "sha256": "9f5f38c631f28726b7d09a7ba453ea710bbdd92fca4a54d4a7c82cb7913a1e43",
+      "gitBlobSha": "dfb3eea26852acb2db333968836a081be2c6d047"
+    }
+  ],
+  "sourceJavaScriptExecuted": false,
+  "videoOrImagesDownloaded": false,
+  "copyrightBoundary": "Gallery output qualification remains separate from repository tooling and reference/training corpus."
+}

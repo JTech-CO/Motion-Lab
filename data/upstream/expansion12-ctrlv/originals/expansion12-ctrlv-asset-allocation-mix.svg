@@ -1,0 +1,11 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="200" cy="150" r="100" stroke="var(--border-color)" stroke-width="2"/>
+        <g class="anim-rotate">
+            <path d="M200 150 L200 50 A100 100 0 0 1 300 150 Z" fill="var(--primary-color)"/>
+            <path d="M200 150 L100 150 A100 100 0 0 0 200 50 Z" fill="var(--secondary-color)"/>
+        </g>
+        <g class="anim-float">
+            <text x="250" y="100" font-family="Inter" font-weight="900" font-size="12" fill="var(--primary-color)">STOCKS</text>
+            <text x="130" y="100" font-family="Inter" font-weight="900" font-size="12" fill="var(--secondary-color)">BONDS</text>
+        </g>
+    </svg>

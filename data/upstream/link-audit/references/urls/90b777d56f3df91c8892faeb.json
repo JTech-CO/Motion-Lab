@@ -1,0 +1,56 @@
+{
+  "url": "https://easings.net/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://easings.net/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://easings.net/",
+      "allowedForAuditGet": true,
+      "reason": "robots-missing-not-a-license",
+      "robotsUrl": "https://easings.net/robots.txt",
+      "robotsStatus": 404
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://easings.net/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:04.187685+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://easings.net/",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 54480,
+      "capturedSha256": "10720a769f341225064833565ee9817a94c84bc3de320784874cfe8d760022c0",
+      "responseBodySha256": "10720a769f341225064833565ee9817a94c84bc3de320784874cfe8d760022c0",
+      "title": "Easing Functions Cheat Sheet",
+      "textCharacters": 2810,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.291,
+      "captureCachePath": "exa-results/link-audit/references/captures/ae7ba7a9af1dad32de354334.json",
+      "captureCacheSha256": "c34b3e61cffd2e8176f62071d2a073fae61bf9f6938cb4a47d34d7f274cb3b0f"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-easings-cheat-sheet",
+      "canonicalId": "ref-easings-cheat-sheet",
+      "title": "Easings Cheat Sheet",
+      "role": "canonical",
+      "sourceSha256": "af3de6f7297dc5e7f8ef6ac65918cae776872f574e58ed0ddf71676b5805007d"
+    }
+  ]
+}

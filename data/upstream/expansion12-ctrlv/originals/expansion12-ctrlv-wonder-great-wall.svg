@@ -1,0 +1,14 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="150" ry="12" fill="#E2E8F0"/>
+            <path class="anim-float" d="M50 150 Q120 80 200 120 T350 100 Q280 180 200 150 T50 150Z" fill="var(--secondary-color)" opacity="0.1"/>
+            <path d="M40 250 C100 220 150 260 220 200 C280 140 330 180 380 120" stroke="var(--primary-color)" stroke-width="20" stroke-linecap="round" fill="none"/>
+            <path d="M40 250 C100 220 150 260 220 200 C280 140 330 180 380 120" stroke="var(--primary-color)" stroke-width="20" stroke-linecap="round" fill="none" opacity="0.6" stroke-dasharray="10 5"/>
+            <!-- Watchtowers -->
+            <path d="M120 230 V200 H160 V225 Z" fill="var(--primary-color)"/>
+            <path d="M115 200 H165 M120 190 V200 M130 190 V200 M140 190 V200 M150 190 V200 M160 190 V200" stroke="var(--primary-color)" stroke-width="4"/>
+            <rect x="130" y="210" width="20" height="20" rx="10" fill="var(--charcoal)" opacity="0.8"/>
+            <path d="M260 160 V130 H300 V165 Z" fill="var(--primary-color)"/>
+            <path d="M255 130 H305 M260 120 V130 M270 120 V130 M280 120 V130 M290 120 V130 M300 120 V130" stroke="var(--primary-color)" stroke-width="4"/>
+            <rect x="270" y="140" width="20" height="20" rx="10" fill="var(--charcoal)" opacity="0.8"/>
+            <path class="anim-draw" d="M100 80 Q150 40 200 80 T300 40" stroke="var(--charcoal)" stroke-width="2" stroke-dasharray="6 6" fill="none" opacity="0.4"/>
+          </svg>

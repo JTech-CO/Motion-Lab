@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/muhkartal/webGL-cosmicVisualizations",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/muhkartal/webGL-cosmicVisualizations",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/muhkartal/webGL-cosmicVisualizations",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/muhkartal/webGL-cosmicVisualizations",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:44.716682+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/muhkartal/webGL-cosmicVisualizations",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "2c1bccae76ead8b2f3c791474ee5ab79f7c736e2c35baf7e7645355960271926",
+      "responseBodySha256": "2c1bccae76ead8b2f3c791474ee5ab79f7c736e2c35baf7e7645355960271926",
+      "title": "GitHub - muhkartal/webGL-cosmicVisualizations: A high-performance WebGL 2.0 visualization framework for interactive 3D fractals and particle-based cosmic simulations, powered by GLSL shaders and written in pure JavaScript. · GitHub",
+      "textCharacters": 3116,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.78,
+      "captureCachePath": "exa-results/link-audit/references/captures/b44dc964b593a396e22998d8.json",
+      "captureCacheSha256": "4b43a3a715d612dc8359acffb57ff37b259f9b6b7b9b9df841224d342304f826"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-cosmic-visualizations",
+      "canonicalId": "ref-cosmic-visualizations",
+      "title": "Cosmic Visualizations",
+      "role": "canonical",
+      "sourceSha256": "ceaa85a57b1ae1c547d9e01989920d624b7376aaa59843e83778bb9714965c2b"
+    }
+  ]
+}

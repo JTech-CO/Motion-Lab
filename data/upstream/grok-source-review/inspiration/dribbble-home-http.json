@@ -1,0 +1,19 @@
+{
+  "url": "https://dribbble.com/",
+  "method": "bounded public HTTP GET",
+  "status": 202,
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공개 HTTP 요청의 거부 또는 빈 응답을 기록했다. 응답 제한을 우회하지 않았다.",
+  "sector": 4,
+  "siteId": "dribbble",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/dribbble-home-http.json",
+  "rawCacheSha256": "366e518baac4fc213d02049c11f9a1bd8fb84c85ae61089fe6b6e40d38d7a5f5",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "finalUrl": "https://dribbble.com/",
+  "byteCount": 0,
+  "boundedAt": 1048576,
+  "truncated": false,
+  "originalResponseSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

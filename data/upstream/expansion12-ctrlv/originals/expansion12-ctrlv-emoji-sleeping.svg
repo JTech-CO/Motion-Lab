@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <circle cx="200" cy="150" r="100" fill="var(--primary-color)"/>
+                
+                <!-- Closed Eyes -->
+                <path d="M140 120 Q160 140 180 120" stroke="var(--bg-surface)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                <path d="M220 120 Q240 140 260 120" stroke="var(--bg-surface)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                
+                <!-- Breathing Mouth -->
+                <ellipse class="anim-pulse" cx="200" cy="180" rx="10" ry="10" fill="var(--bg-surface)"/>
+                
+                <!-- Zzzs -->
+                <g class="anim-draw">
+                    <path d="M260 80 H280 L260 100 H280" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    <path style="animation-delay: 0.5s;" d="M290 60 H310 L290 80 H310" stroke="var(--secondary-color)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    <path style="animation-delay: 1s;" d="M320 30 H350 L320 60 H350" stroke="var(--accent-color)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                </g>
+            </g>
+          </svg>

@@ -1,0 +1,37 @@
+{
+  "url": "https://www.mralextech.com/magiczoomfree",
+  "site": "mralextech",
+  "reviewedAt": "2026-10-10",
+  "captures": [
+    {
+      "method": "Exa-public-fetch",
+      "status": "content-returned-http-status-unavailable",
+      "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://www.mralextech.com/magiczoomfree",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/exa-mralextech-fetch-1.json",
+      "rawCacheSha256": "406441ee51955774b261f1270cc9a8b613402a669fbf640d2db7a3949c40d8fe",
+      "capturedTextSha256": "20df9ee8fe48f3d67b5bef31a290622f6753faa3446e49b572ba03ed635efb41",
+      "responseCapturedSha256": null,
+      "boundedAtBytes": null,
+      "providerResponseCacheBytes": 17688,
+      "truncated": null
+    },
+    {
+      "method": "public-HTTP-GET",
+      "status": 200,
+      "observedContent": "HTTP 200이지만 요청한 예전 제품 상세가 아닌 현재 홈페이지 내용이 반환됐습니다. 해당 과거 다운로드 페이지를 유효한 상세로 계산하지 않습니다.",
+      "challengeObserved": false,
+      "semanticFallback": true,
+      "finalUrl": "https://magic-toolkit.com/",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/mralextech-representative-http.json",
+      "rawCacheSha256": "f2a8f64e227e0cb1215833abad2561abd3e397bf68bbc58ea746da232c5e2575",
+      "capturedTextSha256": "ed71f40db86c4836a35b90e83a17846f063e059c786aeca38aee3f9a7ca473e0",
+      "responseCapturedSha256": "dc301f75b614c3bc77163c4b401bb49901f74400afd4e38f0ead276f430209f6",
+      "boundedAtBytes": 1048576,
+      "truncated": false
+    }
+  ],
+  "contentPolicy": "원문 전체는 ignored exa-results 캐시에만 보관합니다. 이 파일은 접근 상태와 SHA 및 자체 요약만 저장하며 페이지 인용은 sites.json termsEvidence에만 최대 25단어로 기록합니다."
+}

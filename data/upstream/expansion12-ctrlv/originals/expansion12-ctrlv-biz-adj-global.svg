@@ -1,0 +1,10 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-rotate">
+                <circle cx="200" cy="150" r="80" stroke="var(--primary-color)" stroke-width="2" fill="none"/>
+                <ellipse cx="200" cy="150" rx="30" ry="80" stroke="var(--primary-color)" stroke-width="2" fill="none"/>
+                <ellipse cx="200" cy="150" rx="80" ry="30" stroke="var(--primary-color)" stroke-width="2" fill="none"/>
+                <circle class="anim-pulse" cx="200" cy="150" r="10" fill="var(--accent-color)"/>
+                <circle class="anim-pulse" cx="280" cy="150" r="5" fill="var(--secondary-color)"/>
+                <circle class="anim-pulse" cx="120" cy="150" r="5" fill="var(--secondary-color)"/>
+            </g>
+          </svg>

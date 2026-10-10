@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/YoseiIkegami/moyo",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/YoseiIkegami/moyo",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/YoseiIkegami/moyo",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/YoseiIkegami/moyo",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:52.005464+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/YoseiIkegami/moyo",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "e9bf4305a1a4a53b5f9f87fc7116d2c2b7a466ed8b6916ee787284d2ea67fcf0",
+      "responseBodySha256": "e9bf4305a1a4a53b5f9f87fc7116d2c2b7a466ed8b6916ee787284d2ea67fcf0",
+      "title": "GitHub - YoseiIkegami/moyo · GitHub",
+      "textCharacters": 2643,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.892,
+      "captureCachePath": "exa-results/link-audit/references/captures/dbf2d25601906b441479672f.json",
+      "captureCacheSha256": "50095296f070ac5bd2d3e485ba0ba6cc64530de0672420ab29c57c4ae411dda3"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-moyo",
+      "canonicalId": "ref-moyo",
+      "title": "Moyo",
+      "role": "canonical",
+      "sourceSha256": "be2013929fd3e9a6e6f6ef3374868becc6d2f34684d3264011fcc5dd4cf45d1c"
+    }
+  ]
+}

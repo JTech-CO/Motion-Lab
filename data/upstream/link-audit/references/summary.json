@@ -1,0 +1,71 @@
+{
+  "checkedAt": "2026-10-10T11:42:06.525168+00:00",
+  "catalogPath": "data/catalog.json",
+  "catalogSha256": "643300e8581b957345acc4d636a13b30bf52c5b24cf3714b10341a53c4032c97",
+  "catalogUnchanged": true,
+  "complete": true,
+  "canonicalReferences": 285,
+  "originalReferencesIncludingVariants": 285,
+  "variants": 0,
+  "uniqueUrls": 125,
+  "domains": 81,
+  "statusCounts": {
+    "accessible": 122,
+    "unavailable-in-review": 2,
+    "inconclusive": 1
+  },
+  "accessibleReferenceCount": 282,
+  "confirmedInvalidCount": 0,
+  "reviewUnavailableCount": 2,
+  "reviewUnavailableIds": [
+    "ref-kinetic-type-07",
+    "ref-shadertoy"
+  ],
+  "inconclusiveCount": 1,
+  "inconclusiveIds": [
+    "ref-ze-do-motion"
+  ],
+  "replacementCandidateCount": 5,
+  "cha": {
+    "references": 161,
+    "cards": 160,
+    "currentHTML": 99,
+    "officialStaticDataOnly": 61,
+    "missing": 0,
+    "generalPage": 1
+  },
+  "normalBrowser": {
+    "independentProfiles": 3,
+    "closed": true,
+    "profilesRemoved": true,
+    "auth": false,
+    "challengeBypass": false,
+    "mediaDownloadsBlocked": true
+  },
+  "requestBounds": {
+    "httpGetTimeoutSeconds": 10,
+    "maxConcurrentRequestsPerDomain": 2,
+    "minimumDomainStartGapSeconds": 1,
+    "pageResponseByteLimit": 262144,
+    "robotsByteLimit": 131072,
+    "chaExplicitStaticJSByteLimit": 524288,
+    "browserNavigationTimeoutMs": 15000
+  },
+  "limits": [
+    "Historical search indexes are not live accessibility proof.",
+    "No linked media playback or downstream downloads were audited.",
+    "Ze do Motion has a current 200 profile identity and a conflicting browser HTTP 400; retained as inconclusive.",
+    "A typo auxiliary Nebula URL was excluded; the actual catalog URL returned 200 with current UI.",
+    "The final Behance embed body read failed in the browser; no site invalidity conclusion is derived from that error."
+  ],
+  "reports": {
+    "results": "data/upstream/link-audit/references/results.json",
+    "candidates": "data/upstream/link-audit/references/unavailable-candidates.json",
+    "semantic": "data/upstream/link-audit/references/semantic-review.json",
+    "cha": "data/upstream/link-audit/references/cha-card-check.json",
+    "replacements": "data/upstream/link-audit/references/replacement-candidates.json"
+  },
+  "inputCatalogModified": false,
+  "buildRun": false,
+  "commitOrPush": false
+}

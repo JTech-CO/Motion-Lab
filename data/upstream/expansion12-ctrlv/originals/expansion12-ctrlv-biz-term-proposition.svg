@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Product/Box -->
+                <rect x="80" y="120" width="60" height="60" rx="8" fill="var(--primary-color)"/>
+                <path d="M110 120 V180 M80 150 H140" stroke="var(--bg-surface)" stroke-width="2" opacity="0.5"/>
+                
+                <!-- Customer -->
+                <circle cx="300" cy="120" r="20" fill="var(--secondary-color)"/>
+                <path d="M270 180 C270 150 330 150 330 180" fill="var(--secondary-color)"/>
+                
+                <!-- Value connecting them -->
+                <path class="anim-draw" d="M150 150 L250 150" stroke="var(--accent-color)" stroke-width="8" stroke-linecap="round" stroke-dasharray="10 5"/>
+                <path class="anim-pulse" d="M245 140 L260 150 L245 160 Z" fill="var(--accent-color)"/>
+                
+                <!-- Benefit Badge on arrow -->
+                <g class="anim-bounce">
+                    <circle cx="200" cy="150" r="25" fill="var(--accent-color)" stroke="var(--bg-surface)" stroke-width="4"/>
+                    <path d="M190 150 L197 157 L212 142" stroke="var(--bg-surface)" stroke-width="4" stroke-linecap="round" fill="none"/>
+                </g>
+            </g>
+          </svg>

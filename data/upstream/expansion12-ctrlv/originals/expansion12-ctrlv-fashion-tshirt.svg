@@ -1,0 +1,13 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Shirt Body -->
+                <path d="M140 80 C160 60 240 60 260 80 L320 120 L290 160 L260 130 V250 H140 V130 L110 160 L80 120 Z" fill="var(--primary-color)"/>
+                <!-- Collar -->
+                <path d="M160 80 C180 110 220 110 240 80" stroke="var(--secondary-color)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                <!-- Logo/Print -->
+                <circle class="anim-pulse" cx="200" cy="160" r="30" fill="var(--accent-color)"/>
+                <path d="M190 160 L210 150 V170 Z" fill="white"/>
+                <!-- Seams -->
+                <path class="anim-draw" d="M140 80 V250 M260 80 V250" stroke="var(--charcoal)" stroke-width="2" stroke-dasharray="4 4" opacity="0.3"/>
+            </g>
+          </svg>

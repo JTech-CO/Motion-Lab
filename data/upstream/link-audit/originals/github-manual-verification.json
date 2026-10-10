@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-10-10T11:25:23.493565+00:00",
+  "sourceUrl": "https://raw.githubusercontent.com/JTech-CO/Motion-Lab/main/data/manual-items.json",
+  "status": 200,
+  "remoteSha256": "b63ed8bcb9882d6dbc21f958c6f2b180d6d0393b788e0026e742fa115caafb55",
+  "localSha256": "b63ed8bcb9882d6dbc21f958c6f2b180d6d0393b788e0026e742fa115caafb55",
+  "itemCount": 24,
+  "idsMatch": true,
+  "codeAndNoticesMatch": true,
+  "comparedFields": [
+    "id",
+    "code",
+    "license",
+    "licenseText",
+    "sourceName"
+  ]
+}

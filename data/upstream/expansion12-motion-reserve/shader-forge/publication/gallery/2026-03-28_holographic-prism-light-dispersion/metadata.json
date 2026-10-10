@@ -1,0 +1,29 @@
+{
+  "theme": "holographic prism light dispersion",
+  "style_hints": "",
+  "references": [
+    "community/lygia/sdf_octogonPrismSDF.glsl [raymarching]",
+    "community/lygia/color_palette_spectral_gems.glsl [color_palette,wave]",
+    "community/lygia/lighting_ior_2f0.glsl []",
+    "community/three-js-chunks/lights_physical_fragment.glsl [lighting,matrix,reflection]",
+    "community/lygia/sdf_octogonPrismSDF.wgsl [raymarching]"
+  ],
+  "attempts": 3,
+  "created_at": "2026-03-28T01:58:51.366998+00:00",
+  "glsl_lines": 96,
+  "success": true,
+  "design_brief": "**Implementation Guide: Holographic Prism Light Dispersion**  \n*(WebGL1 / GLSL ES 1.00 only)*\n\n1. **Architecture**  \n   `main()` → `uv = gl_FragCoord.xy / uResolution.xy; uv = uv * 2. - 1.; uv.x *= uResolution.x/uResolution.y;`  \n   Then: `vec3 color = raymarchDispersion(uv, uTime);` → `gl_FragColor = vec4(color, 1.0);`\n\n2. **Key Functions**  \n   - `float raymarchDispersion(vec2 uv, float t)` — returns RGB dispersion color  \n   - `float prismSDF(vec3 p)` — *use octogonPrismSDF from ref #1* with `r=0.6, h=0.8`  \n   - `vec3 dispersionColor(float wavelength)` — *use `spectral_gems()` from ref #2*  \n   - `vec3 curlNoise(vec2 p, float t)` — implement with Perlin noise (e.g., `noise() - 0.5` + curl derivative trick *without* dFdx)\n\n3. **Reference Reuse**  \n   - Use `octogonPrismSDF` from ref #1 for the core shape (prism)  \n   - Use `spectral_gems` from ref #2 for wavelength → RGB mapping  \n   - Use `ior2f0` from ref #3 to compute Fresnel reflectance (e.g., `f0 = ior2f0(1.5)`)\n\n4. **Color & Brightness**  \n   - Accumulate *additive* dispersion: start with `vec3(1.0)` background, subtract absorption, add spectral spikes  \n   - Boost saturation via `pow(color, vec3(0.8))` and `min(color, 1.0)`  \n   - Ensure full-screen fill by scaling UV to [-1.5, 1.5] and using large prism radius\n\n5. **Animation**  \n   - Drive `uTime` into:  \n     - Prism rotation: `p.xz *= mat2(cos(t), -sin(t), sin(t), cos(t))`  \n     - Wavelength sweep: `w = fract(t * 0.3 + p.y * 0.1)`  \n   - Speed: `0.2–0.6` rad/s; loop via `fract()` or `sin(uTime * 0.5)`\n\n6. **Pitfalls to Avoid**  \n   - ❌ No `dFdx/dFdy`, `fwidth`, bitwise ops  \n   - ❌ No `layout()` or `out vec4` — always `gl_FragColor`  \n   - ✅ Use `texture2D()` for buffers (if needed)  \n   - ✅ Clamp all UVs to [0,1] before sampling  \n   - ✅ Avoid deep recursion (max 30 ray steps) for WebGL1 perf  \n\n*Keep it vivid: use high-contrast spectral sampling, additive blending, and bright background.*",
+  "review": {
+    "visual_complexity": 4,
+    "code_quality": 4,
+    "theme_match": 5,
+    "animation": 4,
+    "originality": 4,
+    "total": 21,
+    "verdict": "pass",
+    "feedback": "Excellent implementation of holographic prism dispersion with spectral raymarching and curl noise; brightness could be improved by adding ambient glow or increasing dispersion intensity to avoid dark voids."
+  },
+  "status": "rejected",
+  "rejected_at": "2026-03-28T13:25:39.724976+00:00",
+  "rejected_comment": ""
+}

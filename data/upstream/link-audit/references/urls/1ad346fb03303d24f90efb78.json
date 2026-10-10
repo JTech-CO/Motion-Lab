@@ -1,0 +1,56 @@
+{
+  "url": "https://color.adobe.com/create/color-wheel",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://color.adobe.com/create/color-wheel",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://color.adobe.com/create/color-wheel",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://color.adobe.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://color.adobe.com/create/color-wheel",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:04.950831+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://color.adobe.com/create/color-wheel",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 22438,
+      "capturedSha256": "5c841b762ff220ff20e7be0a509f26301ede94b80ddb5135c327867e350b45ea",
+      "responseBodySha256": "5c841b762ff220ff20e7be0a509f26301ede94b80ddb5135c327867e350b45ea",
+      "title": "Color Palette Generator – Color Wheel Tool | Adobe Express​",
+      "textCharacters": 3041,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.064,
+      "captureCachePath": "exa-results/link-audit/references/captures/3f9eb5f21bdbdf0c62816253.json",
+      "captureCacheSha256": "3a897a44bc10f1c80f4a3a268022b40b71923106de4502909e0e027bfe7be035"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-adobe-color-wheel",
+      "canonicalId": "ref-adobe-color-wheel",
+      "title": "Adobe Color Wheel",
+      "role": "canonical",
+      "sourceSha256": "863951df6ca24cf00323d93f97c565108bf6135696225f76dddc4a6c2c0ecda9"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Concentric Peace Waves -->
+        <g class="anim-pulse">
+            <circle cx="200" cy="150" r="100" stroke="var(--primary-color)" stroke-width="1" stroke-dasharray="10 20" opacity="0.1"/>
+            <circle cx="200" cy="150" r="130" stroke="var(--secondary-color)" stroke-width="1" stroke-dasharray="5 15" opacity="0.05"/>
+        </g>
+        
+        <!-- Meditating Figure -->
+        <g class="anim-float">
+            <!-- Grounding Aura -->
+            <ellipse cx="200" cy="240" rx="80" ry="20" fill="var(--charcoal)" opacity="0.05"/>
+            
+            <!-- Body -->
+            <path d="M150 240 Q170 160 200 160 Q230 160 250 240" fill="var(--bg-surface)" stroke="var(--primary-color)" stroke-width="4"/>
+            <circle cx="200" cy="120" r="35" fill="var(--bg-surface)" stroke="var(--primary-color)" stroke-width="4"/>
+            
+            <!-- Lotus Arms -->
+            <path d="M170 200 Q140 220 160 250 M230 200 Q260 220 240 250" stroke="var(--primary-color)" stroke-width="6" stroke-linecap="round" fill="none"/>
+        </g>
+        
+        <!-- Floating Zen Stones -->
+        <g class="anim-float" style="animation-delay: -1.5s">
+            <rect x="300" y="180" width="30" height="15" rx="7" fill="var(--charcoal)" opacity="0.4"/>
+            <rect x="305" y="170" width="20" height="10" rx="5" fill="var(--charcoal)" opacity="0.6"/>
+        </g>
+    </svg>

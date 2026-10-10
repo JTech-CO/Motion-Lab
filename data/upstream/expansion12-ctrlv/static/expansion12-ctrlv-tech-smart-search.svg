@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <g font-family="monospace" font-size="12" fill="#334155" opacity="0.1">
+                    <text x="50" y="50">010110</text>
+                    <text x="50" y="80">110010</text>
+                    <text x="50" y="110">001101</text>
+                    <text x="300" y="200">101011</text>
+                    <text x="300" y="230">011100</text>
+                </g>
+                
+                
+                <g>
+                    
+                    <rect x="240" y="200" width="10" height="60" rx="5" fill="#334155" transform="rotate(-45, 240, 200)" />
+                    
+                    
+                    <circle cx="200" cy="150" r="60" fill="#ffffff" stroke="#334155" stroke-width="8" />
+                    <circle cx="200" cy="150" r="50" fill="#6366f1" opacity="0.1" />
+                    
+                    
+                    <g>
+                        <text x="200" y="160" font-family="monospace" font-weight="bold" font-size="24" fill="#DFD116" text-anchor="middle">FOUND</text>
+                        <circle cx="200" cy="150" r="40" stroke="#DFD116" stroke-width="2" stroke-dasharray="4 4" />
+                    </g>
+                </g>
+                
+                
+                <path d="M280 80 L285 95 L300 95 L290 105 L295 120 L280 110 L265 120 L270 105 L260 95 L275 95 Z" fill="#f43f5e" />
+            </g>
+          </svg>

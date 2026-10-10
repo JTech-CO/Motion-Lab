@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Guidelines -->
+                <g stroke="var(--charcoal)" stroke-width="2" opacity="0.2">
+                    <line x1="50" y1="100" x2="350" y2="100"/>
+                    <line x1="50" y1="200" x2="350" y2="200"/>
+                    <line x1="50" y1="230" x2="350" y2="230"/>
+                </g>
+                
+                <!-- Giant Letter A -->
+                <g class="anim-draw">
+                    <path d="M150 230 L200 60 L250 230" stroke="var(--primary-color)" stroke-width="24" stroke-linecap="round" fill="none"/>
+                    <path d="M175 160 H225" stroke="var(--primary-color)" stroke-width="16" stroke-linecap="round"/>
+                </g>
+                
+                <!-- Serifs / Details Nodes -->
+                <rect class="anim-pulse" x="140" y="225" width="20" height="10" fill="var(--accent-color)"/>
+                <rect class="anim-pulse" x="240" y="225" width="20" height="10" fill="var(--accent-color)"/>
+                <circle class="anim-bounce" cx="200" cy="60" r="10" fill="var(--secondary-color)"/>
+                
+                <!-- Text Measurement -->
+                <path class="anim-draw" d="M150 250 H250" stroke="var(--secondary-color)" stroke-width="4" stroke-dasharray="4 4" fill="none"/>
+                <text x="200" y="270" font-family="monospace" font-weight="bold" font-size="12" fill="var(--charcoal)" text-anchor="middle">KERNING</text>
+            </g>
+          </svg>

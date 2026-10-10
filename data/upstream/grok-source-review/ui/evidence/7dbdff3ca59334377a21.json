@@ -1,0 +1,37 @@
+{
+  "url": "https://www.mralextech.com/licenses",
+  "site": "mralextech",
+  "reviewedAt": "2026-10-10",
+  "captures": [
+    {
+      "method": "Exa-public-fetch",
+      "status": "content-returned-http-status-unavailable",
+      "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://www.mralextech.com/licenses",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/exa-representatives-and-api-fetch.json",
+      "rawCacheSha256": "70ae2f8e179db0ce9b95aeb1b7c7639fb88cc4fe1a5086317d29008869b0ba4c",
+      "capturedTextSha256": "8e55adf863a176320809350db2c922eecbc12e98fbf84aaec4db4b56eb4d80ae",
+      "responseCapturedSha256": null,
+      "boundedAtBytes": null,
+      "providerResponseCacheBytes": 59421,
+      "truncated": null
+    },
+    {
+      "method": "public-HTTP-GET",
+      "status": 200,
+      "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://www.mralextech.com/licenses",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/mralextech-components-licenses-http.json",
+      "rawCacheSha256": "3305b409adecda7a1ba0b9e1c0001af3430ebacc7fcb21362c22da3febeb55a7",
+      "capturedTextSha256": "911a52c54bac13884786bcb2a6e111ecda9901c54c4463a325a60fb83ace1dea",
+      "responseCapturedSha256": "577ef4b6ab9a03050d99fa3533e4c80b02f599f5d230ba9730773f672f18c8ae",
+      "boundedAtBytes": 1048576,
+      "truncated": false
+    }
+  ],
+  "contentPolicy": "원문 전체는 ignored exa-results 캐시에만 보관합니다. 이 파일은 접근 상태와 SHA 및 자체 요약만 저장하며 페이지 인용은 sites.json termsEvidence에만 최대 25단어로 기록합니다."
+}

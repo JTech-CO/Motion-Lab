@@ -1,0 +1,14 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="120" ry="10" fill="#E2E8F0"/>
+            <!-- Adult silhouette -->
+            <path d="M120 260 C120 180 150 140 180 140 H190 C220 140 240 180 240 260 V270 H120 V260Z" fill="var(--primary-color)"/>
+            <circle cx="180" cy="100" r="35" fill="var(--primary-color)"/>
+            <!-- Child silhouette -->
+            <path d="M220 260 C220 210 240 190 260 190 H270 C290 190 310 210 310 260 V270 H220 V260Z" fill="var(--primary-color)"/>
+            <circle cx="265" cy="160" r="25" fill="var(--primary-color)"/>
+            <!-- Separator/connection line -->
+            <path d="M225 260 C225 220 240 190 250 190" stroke="white" stroke-width="4" stroke-linecap="round" fill="none"/>
+            <!-- Heart and connection -->
+            <path class="anim-bounce" d="M120 70 A 20 20 0 0 1 160 70 A 20 20 0 0 1 200 70 Q 200 110 160 130 Q 120 110 120 70 Z" fill="var(--accent-color)"/>
+            <path class="anim-draw" d="M185 140 Q215 160 240 160" stroke="var(--secondary-color)" stroke-width="6" stroke-linecap="round" stroke-dasharray="8 8" fill="none"/>
+          </svg>

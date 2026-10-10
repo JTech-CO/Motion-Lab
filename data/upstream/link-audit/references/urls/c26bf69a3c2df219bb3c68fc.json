@@ -1,0 +1,56 @@
+{
+  "url": "https://realmaker.de/texttweener/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://realmaker.de/texttweener/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://realmaker.de/texttweener/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://realmaker.de/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://realmaker.de/texttweener/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:45.520440+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://realmaker.de/texttweener/",
+      "contentType": "text/html; charset=UTF-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 119318,
+      "capturedSha256": "d1a45f06f1051153fc5aefa976a8ff539bb9d624d3d75ebddd316817e5d2fb6a",
+      "responseBodySha256": "d1a45f06f1051153fc5aefa976a8ff539bb9d624d3d75ebddd316817e5d2fb6a",
+      "title": "TextTweener - realmaker",
+      "textCharacters": 15918,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 2.292,
+      "captureCachePath": "exa-results/link-audit/references/captures/86898adf38d50a9e2568fa83.json",
+      "captureCacheSha256": "6170b4fd1dc388d5703551eaf9a074be5a333ad03c912946be8ee48c40255e79"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-texttweener",
+      "canonicalId": "ref-texttweener",
+      "title": "TextTweener",
+      "role": "canonical",
+      "sourceSha256": "9be7427c8eccf7dcd8fe1a08c247dddce343543f130a633be5354b5281c9e19c"
+    }
+  ]
+}

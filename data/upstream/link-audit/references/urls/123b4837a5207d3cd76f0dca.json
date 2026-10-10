@@ -1,0 +1,56 @@
+{
+  "url": "https://pmndrs.github.io/timeline/getting-started/3-overview",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://pmndrs.github.io/timeline/getting-started/3-overview",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://pmndrs.github.io/timeline/getting-started/3-overview",
+      "allowedForAuditGet": true,
+      "reason": "robots-missing-not-a-license",
+      "robotsUrl": "https://pmndrs.github.io/robots.txt",
+      "robotsStatus": 404
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://pmndrs.github.io/timeline/getting-started/3-overview",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:30.747249+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://pmndrs.github.io/timeline/getting-started/3-overview",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "329f2ef4bf266043c210fd24e81af11469f5f5cd270754340360d72b8c3b1e0c",
+      "responseBodySha256": "329f2ef4bf266043c210fd24e81af11469f5f5cd270754340360d72b8c3b1e0c",
+      "title": "Overview of All Functions. - timeline",
+      "textCharacters": 9822,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.344,
+      "captureCachePath": "exa-results/link-audit/references/captures/d0d185004da7720907ad8eb2.json",
+      "captureCacheSha256": "645a10bb69ff713cad7b5d9f9da0f14e30fa68f702b700aebd2f79cf1d928d57"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-pmndrs-timeline",
+      "canonicalId": "ref-pmndrs-timeline",
+      "title": "pmndrs Timeline",
+      "role": "canonical",
+      "sourceSha256": "4379f334c7502cd9eb7458b7ed5163dd41cb6c5258580fc30b3d4c1f50792e57"
+    }
+  ]
+}

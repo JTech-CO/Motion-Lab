@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <path d="M70 60 V240 H330" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+            
+            <!-- Layer 1 Background (Primary) -->
+            <path class="anim-pulse" d="M70 240 L100 120 C140 80 180 160 220 130 C260 100 290 110 330 60 V240 Z" fill="var(--primary-color)" opacity="0.6"/>
+            <path class="anim-draw" d="M70 240 L100 120 C140 80 180 160 220 130 C260 100 290 110 330 60" stroke="var(--primary-color)" stroke-width="6" fill="none" stroke-linecap="round"/>
+            
+            <!-- Layer 2 Foreground (Secondary/Accent) -->
+            <path class="anim-pulse" style="animation-delay: 0.5s;" d="M70 240 L120 180 C160 200 200 100 240 160 C280 220 300 160 330 140 V240 Z" fill="var(--secondary-color)" opacity="0.8"/>
+            <path class="anim-draw" style="animation-delay: 0.5s;" d="M70 240 L120 180 C160 200 200 100 240 160 C280 220 300 160 330 140" stroke="var(--accent-color)" stroke-width="6" fill="none" stroke-linecap="round"/>
+            
+            <!-- Peak Highlights -->
+            <circle class="anim-glow" cx="215" cy="115" r="6" fill="var(--bg-surface)" stroke="var(--accent-color)" stroke-width="3"/>
+            <circle class="anim-glow" style="animation-delay: 0.5s;" cx="330" cy="60" r="6" fill="var(--bg-surface)" stroke="var(--primary-color)" stroke-width="3"/>
+          </svg>

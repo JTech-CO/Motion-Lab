@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <ellipse cx="200" cy="270" rx="160" ry="12" fill="#e2e8f0" opacity="0.6" />
+            
+            <path d="M40 270 L140 180 M360 270 L260 180" stroke="#334155" stroke-width="2" fill="none" opacity="0.1" />
+            
+            
+            <rect x="160" y="60" width="80" height="180" rx="4" fill="#6366f1" opacity="0.6" />
+            
+            
+            <rect x="80" y="80" width="80" height="180" rx="4" fill="#6366f1" />
+            <rect x="80" y="80" width="20" height="180" rx="4" fill="#334155" opacity="0.1" />
+            
+            
+            <rect x="240" y="100" width="80" height="180" rx="4" fill="#6366f1" opacity="0.9" />
+            <rect x="240" y="100" width="20" height="180" rx="4" fill="#334155" opacity="0.1" />
+            
+            
+            
+            <g>
+                <rect x="105" y="100" width="45" height="15" rx="2" fill="#334155" opacity="0.8" />
+                <circle cx="115" cy="107" r="3" fill="#DFD116" />
+                <rect x="105" y="125" width="45" height="15" rx="2" fill="#334155" opacity="0.8" />
+                <circle cx="115" cy="132" r="3" fill="#f43f5e" />
+                <rect x="105" y="150" width="45" height="15" rx="2" fill="#334155" opacity="0.8" />
+                <circle cx="115" cy="157" r="3" fill="#DFD116" />
+                <rect x="105" y="175" width="45" height="15" rx="2" fill="#334155" opacity="0.8" />
+                <circle cx="115" cy="182" r="3" fill="#f43f5e" />
+            </g>
+
+            
+            <g>
+                <rect x="265" y="120" width="45" height="15" rx="2" fill="#334155" opacity="0.8" />
+                <circle cx="275" cy="127" r="3" fill="#f43f5e" />
+                <rect x="265" y="145" width="45" height="15" rx="2" fill="#334155" opacity="0.8" />
+                <circle cx="275" cy="152" r="3" fill="#DFD116" />
+                <rect x="265" y="170" width="45" height="15" rx="2" fill="#334155" opacity="0.8" />
+                <circle cx="275" cy="177" r="3" fill="#f43f5e" />
+            </g>
+
+            
+            <path d="M160 220 L240 240 M160 200 L240 220" stroke="#f43f5e" stroke-width="3" stroke-dasharray="6 4" fill="none" />
+            <path d="M200 60 V10" stroke="#DFD116" stroke-width="4" stroke-linecap="round" />
+          </svg>

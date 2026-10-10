@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <rect x="120" y="40" width="160" height="220" rx="15" fill="#ffffff" stroke="#334155" stroke-width="8" />
+                
+                
+                <rect x="140" y="60" width="120" height="40" rx="5" fill="#f43f5e" opacity="0.8" />
+                <text x="250" y="88" font-family="monospace" font-weight="bold" font-size="20" fill="#ffffff" text-anchor="end">1,500</text>
+                
+                
+                
+                <circle cx="155" cy="130" r="12" fill="#6366f1" />
+                <circle cx="200" cy="130" r="12" fill="#6366f1" />
+                <circle cx="245" cy="130" r="12" fill="#DFD116" />
+                
+                <circle cx="155" cy="170" r="12" fill="#6366f1" />
+                <circle cx="200" cy="170" r="12" fill="#6366f1" />
+                <circle cx="245" cy="170" r="12" fill="#DFD116" />
+                
+                <circle cx="155" cy="210" r="12" fill="#6366f1" />
+                <circle cx="200" cy="210" r="12" fill="#6366f1" />
+                <circle cx="245" cy="210" r="12" fill="#f43f5e" />
+                
+                <path d="M240 210 H250 M240 206 H250 M240 214 H250" stroke="#ffffff" stroke-width="2" />
+                
+                
+                <g transform="translate(90, 100)">
+                    <g>
+                    <circle cx="0" cy="0" r="15" fill="#DFD116" />
+                    <circle cx="0" cy="0" r="10" fill="none" stroke="#ffffff" stroke-width="2" />
+                    <text x="0" y="5" font-family="monospace" font-weight="bold" font-size="14" fill="#ffffff" text-anchor="middle">$</text>
+                </g>
+                </g>
+                <g transform="translate(310, 160)">
+                    <g>
+                    <circle cx="0" cy="0" r="15" fill="#f43f5e" />
+                    <circle cx="0" cy="0" r="10" fill="none" stroke="#ffffff" stroke-width="2" />
+                    <text x="0" y="5" font-family="monospace" font-weight="bold" font-size="14" fill="#ffffff" text-anchor="middle">$</text>
+                </g>
+                </g>
+            </g>
+          </svg>

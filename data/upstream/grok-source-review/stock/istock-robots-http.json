@@ -1,0 +1,17 @@
+{
+  "id": "istock",
+  "url": "https://www.istockphoto.com/robots.txt",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 200,
+  "finalUrl": "https://www.istockphoto.com/robots.txt",
+  "contentType": "text/plain; charset=utf-8",
+  "truncated": false,
+  "observedBytes": 3436,
+  "observedContentSha256": "9bb27dfdde3a43ebcc4541d1b7c8b00232322ce82c06c8deb028930bb334134b",
+  "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+  "challengeOrDenial": false,
+  "robotsPath": "exa-results/grok-source-review/stock/istock-robots.txt",
+  "robotsContentSha256": "9bb27dfdde3a43ebcc4541d1b7c8b00232322ce82c06c8deb028930bb334134b"
+}

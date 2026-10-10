@@ -1,0 +1,56 @@
+{
+  "url": "https://haikei.app/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://haikei.app/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://haikei.app/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://haikei.app/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://haikei.app/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:03.817953+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://haikei.app/",
+      "contentType": "text/html; charset=UTF-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 97429,
+      "capturedSha256": "3ccc806e23827b7f06fe3a23cda38f478e966ae4594995d4920d03d55a83e134",
+      "responseBodySha256": "3ccc806e23827b7f06fe3a23cda38f478e966ae4594995d4920d03d55a83e134",
+      "title": "Generate unique SVG design assets | Haikei",
+      "textCharacters": 4291,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.824,
+      "captureCachePath": "exa-results/link-audit/references/captures/a9fbbbfe16c0733604e283ad.json",
+      "captureCacheSha256": "9c050e9eb5e607687189d6ded3ee3fefce5cb3b18fedb500aa7ff298e1ccc5ed"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-haikei",
+      "canonicalId": "ref-haikei",
+      "title": "Haikei",
+      "role": "canonical",
+      "sourceSha256": "1a7bcfdfa9d63e489720f76f57a1000efe49b33bb83b61a9d8f22249e4f60de5"
+    }
+  ]
+}

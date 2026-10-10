@@ -1,0 +1,35 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <!-- Background: Polaroid Frame Grid -->
+            <g class="anim-float-slow" opacity="0.15">
+                <rect x="80" y="60" width="60" height="70" fill="var(--charcoal)"/>
+                <rect x="85" y="65" width="50" height="40" fill="white"/>
+                <rect x="280" y="100" width="60" height="70" fill="var(--primary-color)"/>
+                <rect x="285" y="105" width="50" height="40" fill="white"/>
+            </g>
+            
+            <g class="anim-bounce">
+                <!-- Character Body -->
+                <path d="M120 260 C120 160 220 160 220 260 Z" fill="var(--primary-color)"/>
+                
+                <!-- Head -->
+                <circle cx="170" cy="120" r="35" fill="var(--secondary-color)"/>
+                <!-- Beanie -->
+                <path d="M135 110 C135 60 205 60 205 110" fill="var(--accent-color)"/>
+                
+                <!-- Camera Strap -->
+                <path d="M140 180 Q170 240 240 180" stroke="var(--charcoal)" stroke-width="6" fill="none"/>
+                
+                <!-- Prop: SLR Camera -->
+                <g class="anim-float" style="transform-origin: 230px 180px;">
+                    <rect x="200" y="160" width="60" height="40" rx="4" fill="var(--charcoal)"/>
+                    <!-- Lens -->
+                    <circle class="anim-pulse" cx="230" cy="180" r="15" fill="var(--bg-surface)" stroke="var(--primary-color)" stroke-width="4"/>
+                    <circle cx="230" cy="180" r="5" fill="var(--primary-color)"/>
+                    <!-- Flash -->
+                    <circle class="anim-glow" cx="215" cy="170" r="4" fill="white"/>
+                    <!-- Button -->
+                    <rect x="245" y="155" width="8" height="5" rx="1" fill="var(--accent-color)"/>
+                </g>
+            </g>
+          </svg>

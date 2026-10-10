@@ -1,0 +1,31 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="160" ry="12" fill="#E2E8F0"/>
+            <!-- Rock bed -->
+            <path class="anim-float" d="M60 250 L100 100 L300 80 L340 250 Z" fill="var(--bg-surface)"/>
+            <path class="anim-float" d="M60 250 L100 100 L200 170 L340 250 Z" fill="var(--secondary-color)" opacity="0.2"/>
+            
+            <g class="anim-bounce">
+                <!-- T-Rex Skull -->
+                <path d="M280 120 C280 120 280 140 250 140 L250 160 L230 150 C230 150 220 170 200 160 C180 150 170 120 200 90 C230 60 270 80 280 120 Z" fill="var(--primary-color)"/>
+                <!-- Eye Socket -->
+                <circle cx="230" cy="110" r="15" fill="var(--bg-surface)"/>
+                <circle cx="235" cy="105" r="5" fill="var(--charcoal)" opacity="0.5"/>
+                <!-- Nose Cavity -->
+                <path d="M260 130 C270 130 270 120 260 120 Z" fill="var(--bg-surface)" stroke="var(--bg-surface)" stroke-width="4" stroke-linecap="round"/>
+                <!-- Teeth -->
+                <path d="M230 150 L235 160 L240 150 M240 150 L245 158 L250 150 M250 150 L255 155 L260 145 M260 145 L263 152 L266 142" stroke="var(--primary-color)" stroke-width="2" fill="var(--bg-surface)"/>
+                <!-- Lower Jaw -->
+                <path d="M200 170 C220 180 260 175 270 160 L260 155 C240 165 210 160 200 170 Z" fill="var(--primary-color)"/>
+                <!-- Jaw Teeth -->
+                <path d="M260 155 L255 145 L250 155 M250 155 L245 147 L240 155 M240 155 L235 149 L230 155" stroke="var(--primary-color)" stroke-width="2" fill="var(--bg-surface)"/>
+
+                <!-- Spine / Neck -->
+                <path class="anim-pulse" d="M190 120 L160 130 M180 140 L150 150 M170 160 L140 170 M160 180 L130 190M150 200 L120 210 M140 220 L110 230" stroke="var(--primary-color)" stroke-width="8" stroke-linecap="round"/>
+                <path d="M195 120 Q140 180 100 230" stroke="var(--charcoal)" stroke-width="12" fill="none" opacity="0.6"/>
+                <!-- Ribs -->
+                <path class="anim-pulse" d="M130 190 Q90 150 80 190 M120 210 Q70 170 60 210 M140 170 Q110 140 100 170" fill="none" stroke="var(--primary-color)" stroke-width="6" stroke-linecap="round"/>
+            </g>
+            <!-- Brush / Tool -->
+            <path class="anim-draw" d="M340 230 L300 190" stroke="var(--secondary-color)" stroke-width="6" stroke-linecap="round"/>
+            <path d="M305 195 L285 175" stroke="var(--accent-color)" stroke-width="15" stroke-linecap="round"/>
+          </svg>

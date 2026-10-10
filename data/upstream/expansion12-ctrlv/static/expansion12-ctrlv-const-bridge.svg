@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <path d="M40 260 Q120 280 200 260 T360 260" stroke="#6366f1" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.3" />
+                <path d="M60 280 Q140 260 220 280 T380 280" stroke="#f43f5e" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.3" />
+                
+                
+                <rect x="40" y="200" width="320" height="15" rx="4" fill="#334155" />
+                
+                
+                <path d="M120 240 L120 60 L140 60 L140 240 Z" fill="#f43f5e" stroke="#334155" stroke-width="4" />
+                <path d="M260 240 L260 60 L280 60 L280 240 Z" fill="#f43f5e" stroke="#334155" stroke-width="4" />
+                
+                
+                <path d="M40 200 Q130 60 130 60 L200 180 L270 60 Q270 60 360 200" stroke="#6366f1" stroke-width="6" stroke-linecap="round" fill="none" />
+                
+                
+                <g stroke="#334155" stroke-width="2" opacity="0.6">
+                    <line x1="60" y1="180" x2="60" y2="200" />
+                    <line x1="80" y1="150" x2="80" y2="200" />
+                    <line x1="100" y1="120" x2="100" y2="200" />
+                    
+                    <line x1="160" y1="120" x2="160" y2="200" />
+                    <line x1="180" y1="150" x2="180" y2="200" />
+                    <line x1="220" y1="150" x2="220" y2="200" />
+                    <line x1="240" y1="120" x2="240" y2="200" />
+                    
+                    <line x1="300" y1="120" x2="300" y2="200" />
+                    <line x1="320" y1="150" x2="320" y2="200" />
+                    <line x1="340" y1="180" x2="340" y2="200" />
+                </g>
+                
+                
+                <circle cx="200" cy="120" r="30" fill="#DFD116" opacity="0.4" />
+            </g>
+          </svg>

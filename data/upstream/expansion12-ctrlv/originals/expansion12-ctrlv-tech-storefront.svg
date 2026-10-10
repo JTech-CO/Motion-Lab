@@ -1,0 +1,31 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Store House Structure -->
+                <path d="M60 260 V120 L200 60 L340 120 V260 H60 Z" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="8"/>
+                
+                <!-- Roof Details -->
+                <path d="M60 120 L200 60 L340 120" stroke="var(--primary-color)" stroke-width="8" stroke-linecap="round"/>
+                
+                <!-- Awning -->
+                <g class="anim-pulse">
+                    <rect x="80" y="110" width="240" height="30" fill="var(--primary-color)"/>
+                    <path d="M80 140 Q100 160 120 140 Q140 160 160 140 Q180 160 200 140 Q220 160 240 140 Q260 160 280 140 Q300 160 320 140" fill="var(--primary-color)"/>
+                </g>
+                
+                <!-- Center Window/Door -->
+                <rect x="160" y="180" width="80" height="80" rx="4" fill="var(--charcoal)" opacity="0.1"/>
+                <rect x="175" y="195" width="50" height="50" rx="2" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="2"/>
+                
+                <!-- Animated "Open" Sign -->
+                <g transform="translate(200, 220)">
+                    <g class="anim-bounce" >
+                    <rect x="-30" y="-10" width="60" height="20" rx="10" fill="var(--accent-color)"/>
+                    <text x="0" y="5" font-family="monospace" font-weight="bold" font-size="10" fill="var(--bg-surface)" text-anchor="middle">OPEN</text>
+                </g>
+                </g>
+                
+                <!-- Side Display -->
+                <circle cx="110" cy="200" r="20" fill="var(--secondary-color)" opacity="0.6"/>
+                <circle cx="290" cy="200" r="20" fill="var(--secondary-color)" opacity="0.6"/>
+            </g>
+          </svg>

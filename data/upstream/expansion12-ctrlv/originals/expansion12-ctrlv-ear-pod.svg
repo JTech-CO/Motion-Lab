@@ -1,0 +1,20 @@
+
+      <svg viewBox="0 0 512 384" xmlns="http://www.w3.org/2000/svg">
+        <!-- Charging Case -->
+        <rect x="190" y="150" width="132" height="144" rx="35" fill="var(--illu-primary)" fill-opacity="0.05" stroke="var(--illu-primary)" stroke-width="8"/>
+        <line x1="190" y1="210" x2="322" y2="210" stroke="var(--illu-primary)" stroke-width="4" stroke-opacity="0.3"/>
+        <circle class="anim-pulse" cx="256" cy="245" r="6" fill="var(--illu-accent)"/>
+        
+        <!-- Earbud Left -->
+        <g class="anim-float">
+          <path d="M170 120 C170 100, 210 100, 210 120 L210 160 C210 170, 190 170, 190 160 L190 150" fill="var(--illu-secondary)" fill-opacity="0.1" stroke="var(--illu-secondary)" stroke-width="8" stroke-linecap="round"/>
+          <circle cx="190" cy="115" r="5" fill="var(--illu-accent)" opacity="0.6"/>
+        </g>
+        
+        <!-- Earbud Right -->
+        <g class="anim-float" style="animation-delay: -1s;">
+          <path d="M302 120 C302 100, 342 100, 342 120 L342 160 C342 170, 322 170, 322 160 L322 150" fill="var(--illu-primary)" fill-opacity="0.1" stroke="var(--illu-primary)" stroke-width="8" stroke-linecap="round"/>
+          <circle cx="322" cy="115" r="5" fill="var(--illu-accent)" opacity="0.6"/>
+        </g>
+      </svg>
+    

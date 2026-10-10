@@ -1,0 +1,22 @@
+{
+  "url": "https://www.mralextech.com/robots.txt",
+  "site": "mralextech",
+  "reviewedAt": "2026-10-10",
+  "captures": [
+    {
+      "method": "public-HTTP-GET",
+      "status": 200,
+      "observedContent": "공식 robots.txt 공개 응답을 읽고 수집 전에 홈 경로 조건을 확인했습니다. robots 규칙은 재배포 라이선스와 별개입니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://www.mralextech.com/robots.txt",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/mralextech-robots-http.json",
+      "rawCacheSha256": "da7b6b54bf01e534a77a00430b2a3f37d903f7c6286265fc209cc3613ca33f31",
+      "capturedTextSha256": "2969e6a0000b78f942b540d8a2d8f264694a81c6b40aeb319c7b011ca8d88ac2",
+      "responseCapturedSha256": "2969e6a0000b78f942b540d8a2d8f264694a81c6b40aeb319c7b011ca8d88ac2",
+      "boundedAtBytes": 1048576,
+      "truncated": false
+    }
+  ],
+  "contentPolicy": "원문 전체는 ignored exa-results 캐시에만 보관합니다. 이 파일은 접근 상태와 SHA 및 자체 요약만 저장하며 페이지 인용은 sites.json termsEvidence에만 최대 25단어로 기록합니다."
+}

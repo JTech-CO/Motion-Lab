@@ -1,0 +1,14 @@
+{
+  "url": "https://muz.li/",
+  "method": "Exa public fetch",
+  "status": "Exa-content-read",
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공개 URL의 Exa 추출 내용을 읽었다. 직접 서버의 HTTP 200으로 간주하지 않았다. Muzli: 디자인 큐레이션과 실제 인터랙티브 예제를 확인했다.",
+  "sector": 4,
+  "siteId": "muzli",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/muzli-home-exa.json",
+  "rawCacheSha256": "41b9a5c141584336d85d5c2ac0dd046550a6909814a4bc9b754fe9eb6ec2948b",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "bb20e87ff96f4290d831f43730862181a4fc8262b3c82272d6a942fac1aae5e9",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json."
+}

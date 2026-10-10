@@ -1,0 +1,37 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <!-- Background: Easel & Canvas -->
+            <g class="anim-float-slow" opacity="0.15">
+                <path d="M100 240 L130 60 L160 240 M130 60 V220" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round"/>
+                <rect x="90" y="80" width="80" height="100" fill="var(--primary-color)"/>
+                <rect x="100" y="90" width="60" height="80" fill="var(--bg-surface)"/>
+            </g>
+            
+            <g class="anim-bounce">
+                <!-- Character Body -->
+                <path d="M150 260 C150 170 230 170 230 260 Z" fill="var(--secondary-color)"/>
+                <!-- Smock Details -->
+                <path d="M150 260 L190 180 L230 260" fill="var(--primary-color)" opacity="0.8"/>
+                
+                <!-- Head -->
+                <circle cx="190" cy="130" r="35" fill="var(--primary-color)"/>
+                <!-- Beret -->
+                <path d="M150 110 C150 90 230 90 230 110 Z" fill="var(--accent-color)"/>
+                <circle cx="190" cy="95" r="4" fill="var(--accent-color)"/>
+                
+                <!-- Props: Brush & Palette -->
+                <g class="anim-float">
+                    <!-- Palette -->
+                    <circle cx="260" cy="200" r="30" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="4"/>
+                    <circle cx="270" cy="190" r="5" fill="var(--charcoal)"/>
+                    <!-- Color dabs -->
+                    <circle cx="245" cy="190" r="6" fill="var(--primary-color)"/>
+                    <circle cx="255" cy="215" r="6" fill="var(--secondary-color)"/>
+                    <circle cx="275" cy="210" r="6" fill="var(--accent-color)"/>
+                    
+                    <!-- Brush -->
+                    <path d="M210 240 L240 150" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                    <path class="anim-pulse" d="M239 152 L250 120 L246 120 Z" fill="var(--primary-color)"/>
+                </g>
+            </g>
+          </svg>

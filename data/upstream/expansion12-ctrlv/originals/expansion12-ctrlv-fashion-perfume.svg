@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Bottle Body -->
+                <path class="anim-bounce" d="M140 140 L120 260 H280 L260 140 Z" fill="var(--primary-color)" opacity="0.6"/>
+                <path class="anim-bounce" d="M140 140 L120 260 H280 L260 140 Z" stroke="var(--primary-color)" stroke-width="8" fill="none"/>
+                <circle class="anim-pulse" cx="200" cy="200" r="30" fill="var(--secondary-color)"/>
+                <path d="M130 150 L270 150 M125 250 L275 250" stroke="white" stroke-width="4" opacity="0.4"/>
+                
+                <!-- Spray Mechanism / Neck -->
+                <rect x="180" y="110" width="40" height="30" fill="var(--charcoal)"/>
+                <rect x="170" y="70" width="60" height="40" rx="5" fill="var(--accent-color)"/>
+                <circle cx="200" cy="70" r="30" fill="white" opacity="0.8"/>
+            </g>
+            <!-- Spray mist -->
+            <path class="anim-data" d="M160 70 L120 40 M150 60 L100 60 M170 50 L140 20" stroke="var(--accent-color)" stroke-width="4" stroke-dasharray="4 8" stroke-linecap="round"/>
+          </svg>

@@ -1,0 +1,14 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <rect x="100" y="80" width="160" height="180" rx="5" fill="var(--primary-color)" opacity="0.1"/>
+                <rect x="120" y="60" width="160" height="180" rx="5" fill="var(--primary-color)" opacity="0.9"/>
+                <path d="M140 100 H240 M140 140 H200" stroke="white" stroke-width="6" stroke-linecap="round"/>
+                <path d="M140 200 H200" stroke="white" stroke-width="4" stroke-linecap="round" stroke-dasharray="4 4"/>
+                <path class="anim-draw" d="M140 190 Q160 170 180 190 T220 180" stroke="var(--accent-color)" stroke-width="4" fill="none"/>
+            </g>
+            <g class="anim-bounce" style="animation-duration: 2s;">
+                <path d="M300 80 L220 160 L210 190 L240 180 L320 100 Z" fill="var(--charcoal)"/>
+                <path d="M320 100 L300 80" stroke="var(--secondary-color)" stroke-width="8"/>
+                <path d="M220 160 L240 180" stroke="var(--bg-surface)" stroke-width="4"/>
+            </g>
+          </svg>

@@ -1,0 +1,90 @@
+{
+  "url": "https://github.com/gatewai-dev/gitframes",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/gatewai-dev/framefields",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/gatewai-dev/gitframes",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    },
+    {
+      "url": "https://github.com/gatewai-dev/framefields",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/gatewai-dev/gitframes",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:54.009083+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 301,
+      "finalUrl": "https://github.com/gatewai-dev/gitframes",
+      "contentType": "text/html; charset=utf-8",
+      "location": "https://github.com/gatewai-dev/framefields",
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 0,
+      "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "responseBodySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "",
+      "textCharacters": 0,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.233,
+      "captureCachePath": "exa-results/link-audit/references/captures/bf961a599552876ed9748c2b.json",
+      "captureCacheSha256": "940bac58b9358abce87ee23c79a31a627724cfdea3438531504aba2dac5b7832"
+    },
+    {
+      "url": "https://github.com/gatewai-dev/framefields",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:56.009753+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/gatewai-dev/framefields",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "2d398f8d04875e6f039c5f6a343804d64237cc302a8eec109bc6eae0268d141a",
+      "responseBodySha256": "2d398f8d04875e6f039c5f6a343804d64237cc302a8eec109bc6eae0268d141a",
+      "title": "GitHub - gatewai-dev/framefields: Code-first video, rendered natively on WebGPU. · GitHub",
+      "textCharacters": 2156,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.574,
+      "captureCachePath": "exa-results/link-audit/references/captures/9eb9e13c84aae092fa8fd586.json",
+      "captureCacheSha256": "deec7751af08d15b1714e27b8ae3bbd74ea181c1a67f0d42772dd40324b575b1"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-gitframes",
+      "canonicalId": "ref-gitframes",
+      "title": "Gitframes",
+      "role": "canonical",
+      "sourceSha256": "e617b51a7725a4caa5ba2115a26a1c1ecb3fa4879594ba16d7a1371583e2fffa"
+    }
+  ]
+}

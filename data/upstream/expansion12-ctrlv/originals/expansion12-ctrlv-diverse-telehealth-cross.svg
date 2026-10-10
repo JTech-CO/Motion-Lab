@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Tablet / Screen -->
+                <rect x="100" y="50" width="200" height="200" rx="15" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="8"/>
+                <circle cx="200" cy="230" r="8" fill="var(--charcoal)"/>
+                
+                <!-- Medical Cross Background -->
+                <g class="anim-pulse">
+                    <path d="M180 80 H220 V120 H260 V160 H220 V200 H180 V160 H140 V120 H180 Z" fill="var(--secondary-color)" opacity="0.2"/>
+                </g>
+                
+                <!-- Stethoscope forming a heart/connection -->
+                <path class="anim-draw" d="M140 100 C140 70 200 70 200 100 C200 130 170 160 170 190" stroke="var(--primary-color)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                
+                <ellipse cx="140" cy="100" rx="15" ry="5" fill="var(--primary-color)" transform="rotate(-30 140 100)"/>
+                <circle class="anim-bounce" cx="170" cy="200" r="15" fill="var(--accent-color)"/>
+                <circle cx="170" cy="200" r="5" fill="var(--bg-surface)"/>
+                
+                <!-- Connection Signal -->
+                <g transform="translate(240, 90)">
+                    <g class="anim-pulse">
+                    <path d="M0 20 A 20 20 0 0 0 20 0 M5 15 A 10 10 0 0 0 15 5" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round" fill="none"/>
+                    <circle cx="0" cy="0" r="4" fill="var(--accent-color)"/>
+                </g>
+                </g>
+            </g>
+          </svg>

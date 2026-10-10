@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Palette -->
+            <g class="anim-float">
+                <rect x="80" y="140" width="180" height="120" rx="10" fill="var(--charcoal)"/>
+                <rect x="90" y="150" width="70" height="100" rx="5" fill="white" opacity="0.9"/> <!-- Mirror -->
+                <circle cx="210" cy="170" r="15" fill="var(--primary-color)"/>
+                <circle cx="210" cy="210" r="15" fill="var(--secondary-color)"/>
+                <circle cx="210" cy="250" r="15" fill="var(--accent-color)"/>
+            </g>
+            <!-- Brush -->
+            <g class="anim-bounce">
+                <path d="M300 80 L320 60 L340 80 L320 240 Z" fill="var(--secondary-color)"/>
+                <path class="anim-pulse" d="M300 80 C300 50 340 50 340 80 Z" fill="var(--accent-color)"/>
+                <path d="M310 90 H330 M315 100 H325" stroke="var(--charcoal)" stroke-width="4"/>
+            </g>
+          </svg>

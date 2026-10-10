@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Newspaper Basket -->
+                <path d="M100 180 L120 240 H280 L300 180 Z" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="2"/>
+                <path d="M110 190 H290 M115 205 H285 M120 220 H280" stroke="var(--charcoal)" stroke-width="1" opacity="0.3"/>
+                
+                <!-- Chips -->
+                <g fill="var(--primary-color)" opacity="0.8">
+                    <rect x="130" y="140" width="15" height="60" rx="4" transform="rotate(-15 130 140)"/>
+                    <rect x="150" y="145" width="15" height="60" rx="4" transform="rotate(5 150 145)"/>
+                    <rect x="175" y="140" width="15" height="60" rx="4" transform="rotate(-5 175 140)"/>
+                    <rect x="160" y="150" width="15" height="60" rx="4" transform="rotate(10 160 150)"/>
+                </g>
+                
+                <!-- Fried Fish -->
+                <g class="anim-bounce">
+                    <path d="M180 170 C180 140 320 140 320 170 C320 185 280 190 250 190 C220 190 180 185 180 170 Z" fill="var(--primary-color)"/>
+                    <!-- Batter texture -->
+                    <circle cx="220" cy="160" r="5" fill="var(--bg-surface)" opacity="0.3"/>
+                    <circle cx="260" cy="165" r="4" fill="var(--bg-surface)" opacity="0.3"/>
+                    <circle cx="290" cy="155" r="6" fill="var(--bg-surface)" opacity="0.3"/>
+                </g>
+                
+                <!-- Lemon Wedge -->
+                <path d="M120 170 Q140 150 160 170 Z" fill="var(--accent-color)"/>
+            </g>
+          </svg>

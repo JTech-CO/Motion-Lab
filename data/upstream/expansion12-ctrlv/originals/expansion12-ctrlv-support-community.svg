@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Connections -->
+            <g class="anim-draw">
+                <path d="M120 120 L280 120 L200 210 Z" stroke="var(--primary-color)" stroke-width="6" stroke-linejoin="round" fill="none"/>
+                <path d="M200 160 L120 120 M200 160 L280 120 M200 160 L200 210" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round" stroke-dasharray="6 6"/>
+            </g>
+            
+            <g class="anim-bounce">
+                <!-- User Nodes -->
+                <!-- Top Left -->
+                <circle cx="120" cy="120" r="30" fill="var(--secondary-color)"/>
+                <circle cx="120" cy="115" r="10" fill="white"/>
+                <path d="M105 130 C105 120 135 120 135 130" stroke="white" stroke-width="4" stroke-linecap="round" fill="none"/>
+                
+                <!-- Top Right -->
+                <circle cx="280" cy="120" r="30" fill="var(--secondary-color)"/>
+                <circle cx="280" cy="115" r="10" fill="white"/>
+                <path d="M265 130 C265 120 295 120 295 130" stroke="white" stroke-width="4" stroke-linecap="round" fill="none"/>
+                
+                <!-- Bottom Center -->
+                <circle cx="200" cy="210" r="35" fill="var(--primary-color)"/>
+                <circle cx="200" cy="205" r="12" fill="white"/>
+                <path d="M185 225 C185 210 215 210 215 225" stroke="white" stroke-width="6" stroke-linecap="round" fill="none"/>
+                
+                <!-- Center Node (Core/Hub) -->
+                <circle class="anim-pulse" cx="200" cy="160" r="15" fill="var(--accent-color)"/>
+            </g>
+          </svg>

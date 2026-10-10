@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <path d="M200 150 L100 80 M200 150 L300 80 M200 150 L100 220 M200 150 L300 220" stroke="#334155" stroke-width="4" stroke-dasharray="8 8" />
+                
+                
+                <circle cx="200" cy="150" r="30" fill="#DFD116" />
+                <circle cx="200" cy="150" r="15" fill="#ffffff" />
+                
+                
+                <g transform="translate(100, 80)">
+                    <g>
+                    <circle cx="0" cy="0" r="25" fill="#6366f1" />
+                    <circle cx="0" cy="-5" r="10" fill="#ffffff" />
+                    <path d="M-15 15 A 15 10 0 0 1 15 15" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+                </g>
+                </g>
+                
+                
+                <g transform="translate(300, 80)">
+                    <g>
+                    <circle cx="0" cy="0" r="25" fill="#f43f5e" />
+                    <circle cx="0" cy="-5" r="10" fill="#ffffff" />
+                    <path d="M-15 15 A 15 10 0 0 1 15 15" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+                </g>
+                </g>
+                
+                
+                <g transform="translate(100, 220)">
+                    <g>
+                    <circle cx="0" cy="0" r="25" fill="#f43f5e" />
+                    <circle cx="0" cy="-5" r="10" fill="#ffffff" />
+                    <path d="M-15 15 A 15 10 0 0 1 15 15" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+                </g>
+                </g>
+                
+                
+                <g transform="translate(300, 220)">
+                    <g>
+                    <circle cx="0" cy="0" r="25" fill="#6366f1" />
+                    <circle cx="0" cy="-5" r="10" fill="#ffffff" />
+                    <path d="M-15 15 A 15 10 0 0 1 15 15" stroke="#ffffff" stroke-width="6" stroke-linecap="round" />
+                </g>
+                </g>
+            </g>
+          </svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            
+            <path d="M100 80 Q130 60 160 80 T220 70" stroke="#f43f5e" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.4" />
+            <path d="M280 120 Q310 100 340 120" stroke="#DFD116" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.5" />
+
+            
+            <rect x="80" y="180" width="30" height="90" fill="#94a3b8" opacity="0.4" />
+            <rect x="290" y="160" width="40" height="110" fill="#94a3b8" opacity="0.4" />
+            <rect x="115" y="150" width="35" height="120" fill="#6366f1" opacity="0.6" />
+            
+            
+            <rect x="180" y="100" width="40" height="170" fill="#6366f1" />
+            <path d="M185 100 L195 60 H205 L215 100 Z" fill="#6366f1" />
+            <path d="M200 60 V20" stroke="#DFD116" stroke-width="4" stroke-linecap="round" />
+            <circle cx="200" cy="20" r="4" fill="#DFD116" />
+
+            
+            <rect x="235" y="140" width="30" height="130" fill="#6366f1" />
+            <path d="M235 140 Q250 110 265 140 Z" fill="#6366f1" />
+            <path d="M250 110 V80" stroke="#6366f1" stroke-width="2" />
+            <circle cx="250" cy="80" r="3" fill="#DFD116" />
+
+            
+            <g fill="#ffffff">
+                <rect x="190" y="120" width="6" height="10" rx="1" />
+                <rect x="204" y="120" width="6" height="10" rx="1" />
+                <rect x="190" y="150" width="6" height="10" rx="1" />
+                <rect x="204" y="150" width="6" height="10" rx="1" />
+                <rect x="190" y="180" width="6" height="10" rx="1" />
+                <rect x="204" y="180" width="6" height="10" rx="1" />
+                <rect x="190" y="210" width="6" height="10" rx="1" />
+                <rect x="204" y="210" width="6" height="10" rx="1" />
+            </g>
+            <g fill="#ffffff">
+                <rect x="242" y="160" width="6" height="10" rx="1" />
+                <rect x="252" y="160" width="6" height="10" rx="1" />
+                <rect x="242" y="190" width="6" height="10" rx="1" />
+                <rect x="252" y="190" width="6" height="10" rx="1" />
+            </g>
+            
+            
+            <path d="M40 250 Q120 200 200 250 T360 250" fill="none" stroke="#334155" stroke-width="6" stroke-linecap="round" opacity="0.8" />
+            <path d="M80 230 V270 M320 230 V270" stroke="#334155" stroke-width="8" stroke-linecap="round" opacity="0.8" />
+          </svg>

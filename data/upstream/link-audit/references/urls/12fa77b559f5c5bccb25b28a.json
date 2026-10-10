@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/Okay-Babe/okaybabe-shaders",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/Okay-Babe/okaybabe-shaders",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/Okay-Babe/okaybabe-shaders",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/Okay-Babe/okaybabe-shaders",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:31.346449+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/Okay-Babe/okaybabe-shaders",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "176cf721663b8342dd55a5b2d92f27fe97aeed1fee6b1f45b660d6316ffb03f6",
+      "responseBodySha256": "176cf721663b8342dd55a5b2d92f27fe97aeed1fee6b1f45b660d6316ffb03f6",
+      "title": "GitHub - Okay-Babe/okaybabe-shaders: 13 free animated GLSL background shaders as zero-dependency React wrappers (+ optional react-three-fiber). Live WebGL, SSR-safe, reduced-motion aware. MIT. · GitHub",
+      "textCharacters": 3176,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.912,
+      "captureCachePath": "exa-results/link-audit/references/captures/f70eeba52f8f835f22a26c4f.json",
+      "captureCacheSha256": "17d40c5cadd13ce9b55b823b045852638b9e0a3da8b3bc8510c04b7ff7a5811a"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-okaybabe-shaders",
+      "canonicalId": "ref-okaybabe-shaders",
+      "title": "OkayBabe Shaders",
+      "role": "canonical",
+      "sourceSha256": "ff06f551422161785500531eb2f005dd54f76a92e574fc393192c4c2784691c7"
+    }
+  ]
+}

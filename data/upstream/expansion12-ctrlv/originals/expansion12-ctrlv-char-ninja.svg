@@ -1,0 +1,31 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <!-- Background: Bamboo & Full Moon -->
+            <g class="anim-float-slow" opacity="0.3">
+                <circle cx="280" cy="100" r="40" fill="var(--accent-color)"/>
+                <path d="M80 60 V220 M110 80 V220 M140 100 V220" stroke="var(--primary-color)" stroke-width="8" stroke-linecap="round"/>
+                <path d="M75 120 H85 M105 150 H115 M135 180 H145" stroke="var(--bg-surface)" stroke-width="4"/>
+            </g>
+            
+            <g class="anim-bounce">
+                <!-- Character Body -->
+                <path d="M140 260 C140 160 220 160 220 260 Z" fill="var(--charcoal)"/>
+                <!-- Sash -->
+                <path d="M140 210 L180 220 L220 210" stroke="var(--secondary-color)" stroke-width="8"/>
+                <path class="anim-float" d="M180 220 L170 260 M180 220 L190 260" stroke="var(--secondary-color)" stroke-width="6" stroke-linecap="round"/>
+                
+                <!-- Head -->
+                <circle cx="180" cy="120" r="35" fill="var(--charcoal)"/>
+                <!-- Eye Slit -->
+                <path d="M150 120 Q180 130 210 120 Q180 110 150 120 Z" fill="var(--bg-surface)"/>
+                <circle class="anim-glow" cx="170" cy="120" r="4" fill="var(--accent-color)"/>
+                <circle class="anim-glow" cx="190" cy="120" r="4" fill="var(--accent-color)"/>
+                
+                <!-- Prop: Katana -->
+                <g class="anim-float" style="transform-origin: 240px 180px;">
+                    <path d="M200 200 L280 120" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                    <path class="anim-draw" d="M215 185 L295 105" stroke="var(--bg-surface)" stroke-width="4" stroke-linecap="round"/>
+                    <path d="M210 180 L230 200" stroke="var(--primary-color)" stroke-width="6" stroke-linecap="round"/>
+                </g>
+            </g>
+          </svg>

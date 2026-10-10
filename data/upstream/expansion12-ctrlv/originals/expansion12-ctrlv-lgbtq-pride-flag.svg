@@ -1,0 +1,42 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Flag pole -->
+            <rect x="60" y="40" width="8" height="230" rx="4" fill="var(--charcoal)"/>
+            <circle cx="64" cy="36" r="7" fill="var(--charcoal)"/>
+
+            <!-- Waving flag stripes -->
+            <g class="anim-float" style="animation-duration: 3s;">
+              <!-- Red -->
+              <path d="M68 55 Q180 45 340 60 Q180 68 68 78 Z" fill="#FF0018"/>
+              <!-- Orange -->
+              <path d="M68 78 Q180 68 340 83 Q180 91 68 101 Z" fill="#FFA52C"/>
+              <!-- Yellow -->
+              <path d="M68 101 Q180 91 340 106 Q180 114 68 124 Z" fill="#FFFF41"/>
+              <!-- Green -->
+              <path d="M68 124 Q180 114 340 129 Q180 137 68 147 Z" fill="#008018"/>
+              <!-- Blue -->
+              <path d="M68 147 Q180 137 340 152 Q180 160 68 170 Z" fill="#0000F9"/>
+              <!-- Violet -->
+              <path d="M68 170 Q180 160 340 175 Q180 183 68 193 Z" fill="#86007D"/>
+
+              <!-- Sheen / highlight -->
+              <path d="M68 55 Q200 50 340 60 L340 65 Q200 55 68 62 Z" fill="white" opacity="0.15"/>
+            </g>
+
+            <!-- Floating stars of celebration -->
+            <g class="anim-pulse" style="animation-duration: 2s;">
+              <circle cx="300" cy="60" r="4" fill="#FF0018" opacity="0.7"/>
+              <circle cx="320" cy="100" r="3" fill="#FFA52C" opacity="0.7"/>
+              <circle cx="310" cy="140" r="5" fill="#FFFF41" opacity="0.7"/>
+              <circle cx="330" cy="175" r="3" fill="#008018" opacity="0.7"/>
+            </g>
+
+            <!-- Heart badge -->
+            <g transform="translate(350, 120)">
+        <g class="anim-bounce" style="animation-duration: 5s;">
+        
+              <circle cx="0" cy="0" r="20" fill="white" opacity="0.9"/>
+              <path d="M0 8 C-4 3 -14 3 -14 -5 C-14 -12 -7 -12 0 -5 C7 -12 14 -12 14 -5 C14 3 4 3 0 8 Z" fill="#FF0018"/>
+            
+        </g>
+    </g>
+          </svg>

@@ -1,0 +1,2713 @@
+{
+  "reviewedAt": "2026-10-10T11:30:15.443684+00:00",
+  "catalogPath": "data/catalog.json",
+  "catalogSha256": "643300e8581b957345acc4d636a13b30bf52c5b24cf3714b10341a53c4032c97",
+  "canonicalReferenceCount": 285,
+  "originalReferenceCountIncludingVariants": 285,
+  "uniqueUrlCount": 125,
+  "domains": {
+    "www.careerhackeralex.com": 1,
+    "animejs.com": 1,
+    "gsap.com": 1,
+    "motion.dev": 2,
+    "www.motion-svg.com": 1,
+    "github.com": 43,
+    "docs.svgsketch.com": 1,
+    "motion.page": 1,
+    "glaze.dev": 1,
+    "fwdtools.com": 1,
+    "www.blossom-carousel.com": 1,
+    "pmndrs.github.io": 1,
+    "mafhper.github.io": 1,
+    "codeberg.org": 1,
+    "www.howardyam.design": 1,
+    "ksawerykarczewski.com": 1,
+    "tricklekit.dev": 1,
+    "tympanus.net": 1,
+    "www.framer.com": 1,
+    "www.hontran.dev": 1,
+    "realmaker.de": 1,
+    "aicanvas.me": 1,
+    "www.behance.net": 2,
+    "voidenergy.dev": 1,
+    "crucibleui.com": 1,
+    "000h.cojeev.com": 1,
+    "atlassian.design": 1,
+    "xd.adobe.com": 1,
+    "design.gitlab.com": 1,
+    "motion-studio.mtmograph.com": 1,
+    "brand.github.com": 1,
+    "kaleidoscope.qwilr.com": 1,
+    "brand.gocardless.com": 1,
+    "www.carbondesignsystem.com": 1,
+    "atlan.com": 1,
+    "designbetter.style": 1,
+    "www.designsystems.com": 1,
+    "suplab.cc": 1,
+    "sailor.studio": 1,
+    "superfluidestudio.com": 1,
+    "www.asquareportal.com": 1,
+    "pekingpeking.de": 1,
+    "studiocarlos.fr": 1,
+    "sordello.net": 1,
+    "bewegtbildgrafik.de": 1,
+    "ggfx.com.br": 1,
+    "obj.studio": 1,
+    "vjsuave.com": 1,
+    "www.julienlevy.studio": 1,
+    "geronimo-paris.fr": 1,
+    "lurestudio.org": 1,
+    "mostros.co": 1,
+    "p5js.org": 1,
+    "threejs.org": 1,
+    "www.shadertoy.com": 1,
+    "thebookofshaders.com": 1,
+    "www.openprocessing.org": 1,
+    "rive.app": 1,
+    "www.shadergradient.co": 1,
+    "haikei.app": 1,
+    "animista.net": 1,
+    "easings.net": 1,
+    "coolors.co": 1,
+    "colorhunt.co": 1,
+    "color.adobe.com": 1,
+    "cssgradient.io": 1,
+    "uigradients.com": 1,
+    "www.meshgradients.com": 1,
+    "mycolor.space": 1,
+    "paletton.com": 1,
+    "gradient.shapefactory.co": 1,
+    "cubic-bezier.com": 1,
+    "www.svgbackgrounds.com": 1,
+    "barba.js.org": 1,
+    "swup.js.org": 1,
+    "highway.js.org": 1,
+    "reactbits.dev": 1,
+    "magicui.design": 1,
+    "ui.aceternity.com": 1,
+    "pixijs.com": 1,
+    "shaders.com": 1
+  },
+  "urlItems": [
+    {
+      "url": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "items": [
+        {
+          "id": "cha-bar-rise-reveal",
+          "canonicalId": "cha-bar-rise-reveal",
+          "title": "바에서 솟아오르는 워드",
+          "role": "canonical",
+          "sourceSha256": "54f5fd61292e2f91f8349bf876a6b8d892582bdd22937632e06cdf6cf2c773a3"
+        },
+        {
+          "id": "cha-beat-cut-words",
+          "canonicalId": "cha-beat-cut-words",
+          "title": "비트마다 하드컷 — 풀프레임 배경 위 한 단어",
+          "role": "canonical",
+          "sourceSha256": "7723c2edb9404c8a56c33da0703b8d21dc9f698ec3d64ba4a9b0d42e4651b49e"
+        },
+        {
+          "id": "cha-beat-squares-sentence",
+          "canonicalId": "cha-beat-squares-sentence",
+          "title": "비트 스퀘어 문장 빌드",
+          "role": "canonical",
+          "sourceSha256": "fa9156d61cb7c40c98adb54e6c03c00935c26485110e241f618248e54036f979"
+        },
+        {
+          "id": "cha-beat-word-slam",
+          "canonicalId": "cha-beat-word-slam",
+          "title": "뷰파인더 비트 워드 슬램",
+          "role": "canonical",
+          "sourceSha256": "518bcb7b4a01bea2ea11ffd668636cf19829f966784903ae87658d5c9ae646a5"
+        },
+        {
+          "id": "cha-bl-device-duo",
+          "canonicalId": "cha-bl-device-duo",
+          "title": "블렌더 노트북 + 폰 — 페이퍼 스윕 오빗",
+          "role": "canonical",
+          "sourceSha256": "f0021f6cfe11e83badfd769b5fd203e0d9b5efd7f71cc232e46033e0cc9893eb"
+        },
+        {
+          "id": "cha-bl-film-device-ad",
+          "canonicalId": "cha-bl-film-device-ad",
+          "title": "블렌더 세로 광고 — 폰 히어로 턴 → 컷 없이 노트북 → 로고 엔드카드",
+          "role": "canonical",
+          "sourceSha256": "f0c51f77d6782587b23bd2e35deef0b8cd7f5bc69df8ba8a7bca9451f1d47df2"
+        },
+        {
+          "id": "cha-bl-laptop-open",
+          "canonicalId": "cha-bl-laptop-open",
+          "title": "블렌더 노트북 — 힌지로 열리고 화면이 깨어나며 정면 돌리 + 포커스 풀",
+          "role": "canonical",
+          "sourceSha256": "37e4cec0face01d5d38bc63df9291d641c778c4f6e7763b599049ceea67cf289"
+        },
+        {
+          "id": "cha-bl-phone-hero",
+          "canonicalId": "cha-bl-phone-hero",
+          "title": "블렌더 폰 히어로 — 뒷면에서 앞면으로 떠오르는 회전",
+          "role": "canonical",
+          "sourceSha256": "03dbc1ff440ca7eff59ce7245fead3cd3da875c8f7f9e392a2ea7077a7d8db1a"
+        },
+        {
+          "id": "cha-browser-url-load",
+          "canonicalId": "cha-browser-url-load",
+          "title": "브라우저 주소 입력 → 로딩 바 → 스켈레톤이 콘텐츠로 → 스크롤",
+          "role": "canonical",
+          "sourceSha256": "7a743f4ce68dbe18ca7a81937f11967053ad5ba150f8a799670539681620322a"
+        },
+        {
+          "id": "cha-card-stack-swipe",
+          "canonicalId": "cha-card-stack-swipe",
+          "title": "카드 스택 스와이프 두 번 → 다음 장면",
+          "role": "canonical",
+          "sourceSha256": "55c20c9fa3efac6d0b1e547b8a7d3bd6c120f2887c825cf723d6784e1024759e"
+        },
+        {
+          "id": "cha-chat-stream",
+          "canonicalId": "cha-chat-stream",
+          "title": "채팅 — 질문 입력 → 생각 중 → 토큰 스트리밍 → 결과 카드",
+          "role": "canonical",
+          "sourceSha256": "bc070759df9637ba5199fe9d97d4d2041e9977c66e88adac19f963eb34991bc4"
+        },
+        {
+          "id": "cha-circle-mask-media",
+          "canonicalId": "cha-circle-mask-media",
+          "title": "원형 마스크 화면 + 원형 타이포 회전 + 라임 점 공전",
+          "role": "canonical",
+          "sourceSha256": "dd42adc1ffaf65cb6a227edaccb9be11c48661cd7ee41711fffc2ce95a2804d3"
+        },
+        {
+          "id": "cha-clock-workday",
+          "canonicalId": "cha-clock-workday",
+          "title": "근무 시간 시계 09:00 → 18:00 + 피규어",
+          "role": "canonical",
+          "sourceSha256": "42bdf1c5a9f23fbd703a4e2f6be90815cf45ffd0b99543d4d637fb4495659ef1"
+        },
+        {
+          "id": "cha-create-audio-wave-to-captions",
+          "canonicalId": "cha-create-audio-wave-to-captions",
+          "title": "말소리를 읽을 수 있는 문장으로",
+          "role": "canonical",
+          "sourceSha256": "61427b072d010562b9a607c8fd35fb37d1128a948744c9a85f75231b835f5c6a"
+        },
+        {
+          "id": "cha-create-contact-sheet-select",
+          "canonicalId": "cha-create-contact-sheet-select",
+          "title": "아홉 컷에서 가장 좋은 순간을",
+          "role": "canonical",
+          "sourceSha256": "c7a417e579d4d3381ae4f10a79b34192c1aab8a7930172c08b7b3abdd457f040"
+        },
+        {
+          "id": "cha-create-glyph-outline-fill",
+          "canonicalId": "cha-create-glyph-outline-fill",
+          "title": "윤곽선이 로고의 면이 되다",
+          "role": "canonical",
+          "sourceSha256": "251212e19de2220c99b88d6b169bc4eeac120e45a564e4f7915dd7743acb10f2"
+        },
+        {
+          "id": "cha-create-image-outpaint-canvas",
+          "canonicalId": "cha-create-image-outpaint-canvas",
+          "title": "이미지 밖까지 캔버스를 넓히기",
+          "role": "canonical",
+          "sourceSha256": "2537bb28e972f65c4cc61d0d24e2e93ca0635021e7e87a6805f22ceea4a666ee"
+        },
+        {
+          "id": "cha-create-image-to-type-poster",
+          "canonicalId": "cha-create-image-to-type-poster",
+          "title": "이미지가 글자의 표면이 될 때",
+          "role": "canonical",
+          "sourceSha256": "76930f4bcae0274d44724abf52e1ee2a3c733f6a9ed0d35cfbcf38c1cf1bbf2f"
+        },
+        {
+          "id": "cha-create-layer-depth-camera",
+          "canonicalId": "cha-create-layer-depth-camera",
+          "title": "평면 이미지의 레이어를 펼치기",
+          "role": "canonical",
+          "sourceSha256": "89ec503a12820f75cb64d6a36791e3eae1845650b10ecf3c7ddf17de96f4b3f0"
+        },
+        {
+          "id": "cha-create-letter-media-shutter",
+          "canonicalId": "cha-create-letter-media-shutter",
+          "title": "글자가 열리면 장면이 시작된다",
+          "role": "canonical",
+          "sourceSha256": "6bd49557f4f62a260fc4093b9602b2111765f7d58762cd0f33848b452a7ff8fe"
+        },
+        {
+          "id": "cha-create-mask-inpaint-reveal",
+          "canonicalId": "cha-create-mask-inpaint-reveal",
+          "title": "바꾸고 싶은 부분만 고치기",
+          "role": "canonical",
+          "sourceSha256": "f03f63665b95bcc3f29e485fd8d1243a6fa55594cedb5c49b90e5236d74eb016"
+        },
+        {
+          "id": "cha-create-paragraph-to-headline",
+          "canonicalId": "cha-create-paragraph-to-headline",
+          "title": "긴 설명에서 핵심만 꺼내기",
+          "role": "canonical",
+          "sourceSha256": "647dfde4e741bd44f496e3cad3090da08f08dab98cf2103cfa7b04d09b5d69e4"
+        },
+        {
+          "id": "cha-create-prompt-image-grid",
+          "canonicalId": "cha-create-prompt-image-grid",
+          "title": "한 문장이 네 장의 시안으로",
+          "role": "canonical",
+          "sourceSha256": "5957700c8b808b9526ba5f8ddf7172692c96ad0008c3a12e8e56537ea8ac0d11"
+        },
+        {
+          "id": "cha-create-prompt-to-layout",
+          "canonicalId": "cha-create-prompt-to-layout",
+          "title": "한 줄의 요청이 화면 구조로",
+          "role": "canonical",
+          "sourceSha256": "0caf9eed51aae4afd994be6d145162d2a724d5737ed2316cecc7feaf248e2f4d"
+        },
+        {
+          "id": "cha-create-sketch-to-polished",
+          "canonicalId": "cha-create-sketch-to-polished",
+          "title": "낙서가 제품 시안이 되는 순간",
+          "role": "canonical",
+          "sourceSha256": "b6c6cff37057173b702e406e3b99fa1b9db70bc30b19680cbc1374ed6ef6c225"
+        },
+        {
+          "id": "cha-create-still-to-motion-strip",
+          "canonicalId": "cha-create-still-to-motion-strip",
+          "title": "정지 이미지에서 움직이는 장면으로",
+          "role": "canonical",
+          "sourceSha256": "ddc88d11fa87919c4327693fb52eb6d10c9f471f8a939252a77a7b650b0b534d"
+        },
+        {
+          "id": "cha-create-style-reference-blend",
+          "canonicalId": "cha-create-style-reference-blend",
+          "title": "형태와 질감을 따로 참고하기",
+          "role": "canonical",
+          "sourceSha256": "f70560bdfaa8bf499a570041a48e23d2325bab8f0da8984393da5da346234c1d"
+        },
+        {
+          "id": "cha-create-text-path-carousel",
+          "canonicalId": "cha-create-text-path-carousel",
+          "title": "곡선을 타고 들어와 문장이 되다",
+          "role": "canonical",
+          "sourceSha256": "9dd86a5cc980bf337adb28834163fd7aaf1c3b1673621d536a6cebd65fd63848"
+        },
+        {
+          "id": "cha-create-text-to-vector-path",
+          "canonicalId": "cha-create-text-to-vector-path",
+          "title": "문장에서 편집 가능한 벡터로",
+          "role": "canonical",
+          "sourceSha256": "4982682d072d7c6b75c1cf1c7f6432fcbc8603622a70fb9c33a361ff5142ccfb"
+        },
+        {
+          "id": "cha-create-timeline-to-storyboard",
+          "canonicalId": "cha-create-timeline-to-storyboard",
+          "title": "타임라인을 장면 계획으로",
+          "role": "canonical",
+          "sourceSha256": "b4cc1557a57d8e9606b78fb5ae13daec3ebaacd5da3d77a58e51796f554b2148"
+        },
+        {
+          "id": "cha-create-token-to-pixel",
+          "canonicalId": "cha-create-token-to-pixel",
+          "title": "텍스트 토큰이 그림의 재료로",
+          "role": "canonical",
+          "sourceSha256": "66bde8531f7e8adbd7fba42f60300dd5da28896ac8a4eee5f495261f2e91214a"
+        },
+        {
+          "id": "cha-create-type-to-interface",
+          "canonicalId": "cha-create-type-to-interface",
+          "title": "키워드가 작업 화면이 되다",
+          "role": "canonical",
+          "sourceSha256": "36b7dfbefe08b266ef3ea07e97626f631d5dbea0c3a4824c715b6595b71308d8"
+        },
+        {
+          "id": "cha-create-word-extrude-fold",
+          "canonicalId": "cha-create-word-extrude-fold",
+          "title": "글자의 깊이를 접어 한 줄로",
+          "role": "canonical",
+          "sourceSha256": "94cfe425427564877f5648b2023932797e3a1d051b25a5321b69ca1d6c73bc13"
+        },
+        {
+          "id": "cha-create-workflow-oner",
+          "canonicalId": "cha-create-workflow-oner",
+          "title": "입력에서 이미지, 움직임, 타이포까지",
+          "role": "canonical",
+          "sourceSha256": "443e86bebf47ce8828582702276a30654410c8df2f2c3de19875d2c61029dede"
+        },
+        {
+          "id": "cha-cursor-autozoom",
+          "canonicalId": "cha-cursor-autozoom",
+          "title": "스크린 녹화 오토줌 — 커서 따라 1.6× 줌·팬·줌아웃",
+          "role": "canonical",
+          "sourceSha256": "ce71bbaffdbb2c803dba21b912033e5bb2a1068de1a03deb24ebbfb43be8b0fa"
+        },
+        {
+          "id": "cha-demo-command-palette-dive",
+          "canonicalId": "cha-demo-command-palette-dive",
+          "title": "명령 한 줄로 장면을 열다",
+          "role": "canonical",
+          "sourceSha256": "73013a52b357c66941d94a9417944f8d900048157a899177b29e18804ad51853"
+        },
+        {
+          "id": "cha-demo-comment-resolve-chain",
+          "canonicalId": "cha-demo-comment-resolve-chain",
+          "title": "댓글에서 수정 완료까지",
+          "role": "canonical",
+          "sourceSha256": "f5671289d9ae6f34e3865db23c13d282c79ee4e592be8f84023568b29e1a3bfe"
+        },
+        {
+          "id": "cha-demo-component-detach-edit",
+          "canonicalId": "cha-demo-component-detach-edit",
+          "title": "연결을 풀고 하나만 바꾸기",
+          "role": "canonical",
+          "sourceSha256": "d8df5685d53686e64bd3968b8b26c3957c5339bd784cf4e41a46833ba398577c"
+        },
+        {
+          "id": "cha-demo-drag-asset-drop",
+          "canonicalId": "cha-demo-drag-asset-drop",
+          "title": "이미지를 끌어 바로 적용",
+          "role": "canonical",
+          "sourceSha256": "525ba8547bd00288cbe788762ac223b4c0ce7b5e714d8c45f701e77751e7acfa"
+        },
+        {
+          "id": "cha-demo-form-to-dashboard",
+          "canonicalId": "cha-demo-form-to-dashboard",
+          "title": "입력이 곧 대시보드가 된다",
+          "role": "canonical",
+          "sourceSha256": "b58aa48e56284c7b60beab2f0963cbf38d17006a452b7f7d915ad70f288521ba"
+        },
+        {
+          "id": "cha-demo-image-crop-reframe",
+          "canonicalId": "cha-demo-image-crop-reframe",
+          "title": "같은 이미지에서 주인공 찾기",
+          "role": "canonical",
+          "sourceSha256": "a29e2db9dbcd22b432f388fa9d4f742a19f56827f1be9784da3c74b5044ffded"
+        },
+        {
+          "id": "cha-demo-infinite-canvas-route",
+          "canonicalId": "cha-demo-infinite-canvas-route",
+          "title": "캔버스를 가로질러 완성까지",
+          "role": "canonical",
+          "sourceSha256": "1743be0ddf983ada7dd5a8d40d3da4ef378b4137225c3cc5dd2b09a1b2594488"
+        },
+        {
+          "id": "cha-demo-inspector-live-style",
+          "canonicalId": "cha-demo-inspector-live-style",
+          "title": "슬라이더가 화면을 바꾼다",
+          "role": "canonical",
+          "sourceSha256": "054baf2f0d442379fc888075c497923996f1d28e2d2d2a80d4cea9391945f9b1"
+        },
+        {
+          "id": "cha-demo-keyboard-workflow",
+          "canonicalId": "cha-demo-keyboard-workflow",
+          "title": "손이 기억하는 빠른 편집",
+          "role": "canonical",
+          "sourceSha256": "06abbded5b064b025c5bbe0a6928b6a9ba82c61f07b07de99bef44ed7f237285"
+        },
+        {
+          "id": "cha-demo-multi-cursor-handoff",
+          "canonicalId": "cha-demo-multi-cursor-handoff",
+          "title": "같은 화면에서 이어받기",
+          "role": "canonical",
+          "sourceSha256": "daee9dea34794867cbeb5cd64df61db3603de921cc2cf0e286d5aac9cb37231a"
+        },
+        {
+          "id": "cha-demo-node-connect-run",
+          "canonicalId": "cha-demo-node-connect-run",
+          "title": "노드를 연결하면 흐름이 돈다",
+          "role": "canonical",
+          "sourceSha256": "a1393694bf8fa5393a41412fb07acedecc159129c8f682fa1c9c9ad209fa3627"
+        },
+        {
+          "id": "cha-demo-responsive-canvas-reflow",
+          "canonicalId": "cha-demo-responsive-canvas-reflow",
+          "title": "폭이 바뀌면 구조도 바뀐다",
+          "role": "canonical",
+          "sourceSha256": "12c80e0920cbfa2f7820309de8ca4f2c836528304568053d93436d88dd55551c"
+        },
+        {
+          "id": "cha-demo-scroll-section-magnify",
+          "canonicalId": "cha-demo-scroll-section-magnify",
+          "title": "스크롤하다 핵심에서 멈추기",
+          "role": "canonical",
+          "sourceSha256": "2e33724fd605fd6e3af46189f3bb313e74cde60485e332a44c4b1c127929b4c2"
+        },
+        {
+          "id": "cha-demo-scrub-timeline-zoom",
+          "canonicalId": "cha-demo-scrub-timeline-zoom",
+          "title": "타임라인에서 정확한 순간 찾기",
+          "role": "canonical",
+          "sourceSha256": "6a5b62227cb3417d62921bb5ea3d589a09ad7532c20047e4c92479f3b8812d92"
+        },
+        {
+          "id": "cha-demo-search-result-tunnel",
+          "canonicalId": "cha-demo-search-result-tunnel",
+          "title": "검색에서 답으로 들어가기",
+          "role": "canonical",
+          "sourceSha256": "32fab1e03cfde5bb0301700ed954bb0473f1601127ee3ac5568460eb49f8721b"
+        },
+        {
+          "id": "cha-demo-selection-marquee-group",
+          "canonicalId": "cha-demo-selection-marquee-group",
+          "title": "흩어진 요소를 한 번에 묶다",
+          "role": "canonical",
+          "sourceSha256": "77ecfbc72e6bd630107158630fc649d40455584a655c4182fcfe9d5e07f21901"
+        },
+        {
+          "id": "cha-demo-split-editor-preview",
+          "canonicalId": "cha-demo-split-editor-preview",
+          "title": "코드를 쓰면 화면이 따라온다",
+          "role": "canonical",
+          "sourceSha256": "a7e018b603c50d7229c34dae90ab6bfb7bb6e72b4d1d07de9ab5bae306a9ba9c"
+        },
+        {
+          "id": "cha-demo-tab-context-switch",
+          "canonicalId": "cha-demo-tab-context-switch",
+          "title": "탭을 바꿔도 맥락은 그대로",
+          "role": "canonical",
+          "sourceSha256": "2ce5066330bbf1f889e6d5eccdbc88778ebf3b3360903b753e50e0dee5f9c5ab"
+        },
+        {
+          "id": "cha-demo-table-filter-sort",
+          "canonicalId": "cha-demo-table-filter-sort",
+          "title": "필터로 줄이고 순서로 읽다",
+          "role": "canonical",
+          "sourceSha256": "e358d80d608c5e7f255dd087c726064b509369ac112440034fbc12582eb5a831"
+        },
+        {
+          "id": "cha-demo-version-history-peel",
+          "canonicalId": "cha-demo-version-history-peel",
+          "title": "이전 버전을 꺼내 복원",
+          "role": "canonical",
+          "sourceSha256": "b0ec484ec5fff4b948c5daa9b34db6377d51a7f5113763728e8ddb5cb9aa2b9b"
+        },
+        {
+          "id": "cha-device-flip",
+          "canonicalId": "cha-device-flip",
+          "title": "폰이 뒤집히며 다음 화면으로",
+          "role": "canonical",
+          "sourceSha256": "0eec7d7d25d2ca13b5130efc5202e1c40f14d73dc1e2e1084b52926933c1e752"
+        },
+        {
+          "id": "cha-explain-compare-sync-workflows",
+          "canonicalId": "cha-explain-compare-sync-workflows",
+          "title": "같은 단계끼리 나란히 비교하기",
+          "role": "canonical",
+          "sourceSha256": "910e25bba9e690f56cf81f26e1bab257364488044308c318fe7af58f4c6efe6b"
+        },
+        {
+          "id": "cha-explain-evidence-source-to-quote",
+          "canonicalId": "cha-explain-evidence-source-to-quote",
+          "title": "원문에서 핵심 문장으로",
+          "role": "canonical",
+          "sourceSha256": "4f502bd635d5618e52465331590c1738078cc250ce2932743aa507a497065ba4"
+        },
+        {
+          "id": "cha-explain-export-format-fanout",
+          "canonicalId": "cha-explain-export-format-fanout",
+          "title": "한 결과를 세 가지 포맷으로",
+          "role": "canonical",
+          "sourceSha256": "86d9e67ad2d459a296f336c03bb70b70bcc2a5f8854b31e6ad7d6292ce8e620c"
+        },
+        {
+          "id": "cha-explain-feature-priority-matrix",
+          "canonicalId": "cha-explain-feature-priority-matrix",
+          "title": "기준을 놓고 우선순위 정하기",
+          "role": "canonical",
+          "sourceSha256": "a79f09526846b71c6e4d49a955cf1d05ee8010ff0269958ff667ceb4375a54b3"
+        },
+        {
+          "id": "cha-explain-metric-waterfall-impact",
+          "canonicalId": "cha-explain-metric-waterfall-impact",
+          "title": "어디에서 시간이 줄었는지",
+          "role": "canonical",
+          "sourceSha256": "407418008edc0d70812dcd90e2a862988596228b7e1d5bd59bd6d4db86166d1c"
+        },
+        {
+          "id": "cha-explain-objection-answer-stack",
+          "canonicalId": "cha-explain-objection-answer-stack",
+          "title": "궁금한 점을 하나씩 해결하기",
+          "role": "canonical",
+          "sourceSha256": "5df9caaea00cdecf25de87d90369b2e072a6d5f2ffd1030f1ec9818609e3d810"
+        },
+        {
+          "id": "cha-explain-result-detail-triptych",
+          "canonicalId": "cha-explain-result-detail-triptych",
+          "title": "한 결과를 세 시야로",
+          "role": "canonical",
+          "sourceSha256": "9a73e60632b24bc175f978928601409bdc376e7c93cca9964de96ce8f902037e"
+        },
+        {
+          "id": "cha-explain-steps-route-map",
+          "canonicalId": "cha-explain-steps-route-map",
+          "title": "작업이 어디로 이어지는지",
+          "role": "canonical",
+          "sourceSha256": "5bf972641ae918c40550208ac6f3d5088e3327e00cef28c7569c354bd4f50fe9"
+        },
+        {
+          "id": "cha-explain-time-compression-bridge",
+          "canonicalId": "cha-explain-time-compression-bridge",
+          "title": "반복은 빠르게, 결과는 원래 속도로",
+          "role": "canonical",
+          "sourceSha256": "25eca189241d54edec115cfd161ad945043933d0e43c97a6e37627bce3bda313"
+        },
+        {
+          "id": "cha-explain-workflow-branch-decision",
+          "canonicalId": "cha-explain-workflow-branch-decision",
+          "title": "조건에 따라 다음 작업을 고르기",
+          "role": "canonical",
+          "sourceSha256": "1b5bf717de8b4ed2b94b18953e08f385afb7029ded6d97c7f4c34a31bfd4122e"
+        },
+        {
+          "id": "cha-exploded-ui-layers",
+          "canonicalId": "cha-exploded-ui-layers",
+          "title": "UI 카드 분해도 (레이어 익스플로드)",
+          "role": "canonical",
+          "sourceSha256": "731556d2550e3b9d5dba1eb16d75bdfbf6335d79f36b11ad2a022986c603c3e3"
+        },
+        {
+          "id": "cha-figure-desk-typing",
+          "canonicalId": "cha-figure-desk-typing",
+          "title": "피규어 데스크 타이핑 + 채팅 말풍선",
+          "role": "canonical",
+          "sourceSha256": "70d9226029ae9fc7724819951d4515706ba19a68ef66a907e43c26e33d1d01c0"
+        },
+        {
+          "id": "cha-figure-idea-burst",
+          "canonicalId": "cha-figure-idea-burst",
+          "title": "피규어 고민 → 아이디어 번뜩 (선버스트)",
+          "role": "canonical",
+          "sourceSha256": "9908e81596c663d0a2b2696ab69ab1faebf5b0cd05eca505b7817c4c9708100f"
+        },
+        {
+          "id": "cha-figure-rig-sheet",
+          "canonicalId": "cha-figure-rig-sheet",
+          "title": "CHA 피규어 리그 시트 (포즈 레퍼런스)",
+          "role": "canonical",
+          "sourceSha256": "b16d0abd8ee4cd7eb98a60f645badbbc318d03091ed1c7ec727e99e5f88fe367"
+        },
+        {
+          "id": "cha-figure-wave-endcard",
+          "canonicalId": "cha-figure-wave-endcard",
+          "title": "피규어 워크인 + 손 흔드는 엔드카드",
+          "role": "canonical",
+          "sourceSha256": "97fa7db795ea1bf1456df6c992632e5139443bf84d32e1e24252a32b2ca00040"
+        },
+        {
+          "id": "cha-figure-wave-endcard-vertical",
+          "canonicalId": "cha-figure-wave-endcard-vertical",
+          "title": "피규어 워크인 + 손 흔드는 엔드카드 (세로 1080×1920)",
+          "role": "canonical",
+          "sourceSha256": "ea80d8b68b3687ce8756ca524e58ad3c1cac7e8a2b7675318254830d6d25dcda"
+        },
+        {
+          "id": "cha-film-ad-channel",
+          "canonicalId": "cha-film-ad-channel",
+          "title": "채널 광고 스팟 — AI 도구, 직접 써보고 알려드립니다",
+          "role": "canonical",
+          "sourceSha256": "35d519bb54db268392e3e7c171534c3ddd2f785b5a9da06f33a95297c751bbbc"
+        },
+        {
+          "id": "cha-film-laptop-prompt",
+          "canonicalId": "cha-film-laptop-prompt",
+          "title": "히어로 필름 · 노트북 프롬프트 광고",
+          "role": "canonical",
+          "sourceSha256": "089e67f54c46884e9e98f789e5abfd9dcd89391b309abdc319630a95301571ff"
+        },
+        {
+          "id": "cha-film-mobile-demo",
+          "canonicalId": "cha-film-mobile-demo",
+          "title": "히어로 필름 · 모바일 앱 데모 광고",
+          "role": "canonical",
+          "sourceSha256": "e87b2e98daff6f851b723ba7aaed27c1dd09937e3791e72d8f2ecf5333ad740f"
+        },
+        {
+          "id": "cha-film-seamless-oneshot",
+          "canonicalId": "cha-film-seamless-oneshot",
+          "title": "원테이크 심리스 필름 — 점 → 앱 → 폰 → 노트북 → 창의 벽 → 한 줄 → 로고",
+          "role": "canonical",
+          "sourceSha256": "1d6aeaec0206168dea9ed3e6723d82d5ef520a11e4cdf39fa3166c60d5212655"
+        },
+        {
+          "id": "cha-folder-burst",
+          "canonicalId": "cha-folder-burst",
+          "title": "폴더 열림 → 카드 부채꼴 + 선택 박스 리사이즈 타이틀",
+          "role": "canonical",
+          "sourceSha256": "59c2928d198571a632756a4c9f80f6936e27a76ed0711c4eee25718cfa3f2ba4"
+        },
+        {
+          "id": "cha-glow-agent-run",
+          "canonicalId": "cha-glow-agent-run",
+          "title": "글로우 에이전트 — 한 문장 요청이 단계별로 끝나는 장면",
+          "role": "canonical",
+          "sourceSha256": "56b9d8b453cae99670237f69c98698e54c58f0536785f7d6f2d3ccfe6a3e5d0d"
+        },
+        {
+          "id": "cha-glow-chat-ask",
+          "canonicalId": "cha-glow-chat-ask",
+          "title": "글로우 채팅 — 사진 첨부부터 답변 스트리밍, 블러 엔드카드까지",
+          "role": "canonical",
+          "sourceSha256": "6849928b98d82cbfdd3406bd70ff3fde2391dc6ab65ef3a64c11d8e7e0f79b64"
+        },
+        {
+          "id": "cha-headline-highlighter",
+          "canonicalId": "cha-headline-highlighter",
+          "title": "두 줄 헤드라인 + 라임 형광펜",
+          "role": "canonical",
+          "sourceSha256": "0dd98192652f6a58b8f1fb754cfb28c6e06526a4b60da3dc53470c8451dd5385"
+        },
+        {
+          "id": "cha-highlighter-wipe",
+          "canonicalId": "cha-highlighter-wipe",
+          "title": "라임 형광펜 대각선 와이프",
+          "role": "canonical",
+          "sourceSha256": "17f68be53d70eefedc00c0d31ff9030a7683ea4e300a49ed72f7904a2bcd24ca"
+        },
+        {
+          "id": "cha-icon-scatter-endcard",
+          "canonicalId": "cha-icon-scatter-endcard",
+          "title": "엔드카드 — 로고 + 이름 + 라인 아이콘 흩뿌리기",
+          "role": "canonical",
+          "sourceSha256": "5e2a01395569138587efb86592f442f69f884c1008f212a7781667a2ec6f0f50"
+        },
+        {
+          "id": "cha-iso-window-wall",
+          "canonicalId": "cha-iso-window-wall",
+          "title": "아이소 창 벽 → 하나 들어올리기",
+          "role": "canonical",
+          "sourceSha256": "ffa2eb792d7959b8bc4c555b933ffb0761739e355e88e006c06a4d3f48f18bc2"
+        },
+        {
+          "id": "cha-karaoke-lime",
+          "canonicalId": "cha-karaoke-lime",
+          "title": "읽는 만큼 채워지는 자막 + 라임 키워드",
+          "role": "canonical",
+          "sourceSha256": "ccc43de41dd3faf6f864550415b64c0b308046659ef5b442ebba4c2f7ac81040"
+        },
+        {
+          "id": "cha-label-box-words",
+          "canonicalId": "cha-label-box-words",
+          "title": "라벨 박스 워드 → 한글 문장",
+          "role": "canonical",
+          "sourceSha256": "4b9be35ee72510af50dad1c1acbe9031cc82c43616a66c1a74094cfdd01be68e"
+        },
+        {
+          "id": "cha-laptop-type-zoom",
+          "canonicalId": "cha-laptop-type-zoom",
+          "title": "노트북 열고 타이핑 → 줌인 → 슬랜트 풀백",
+          "role": "canonical",
+          "sourceSha256": "d92a42705b85b255e44acb05c44f629ffeb13ae81f9a71ed1c1d31e33fe185f4"
+        },
+        {
+          "id": "cha-lens-match-cut",
+          "canonicalId": "cha-lens-match-cut",
+          "title": "라임 점 → 로고 렌즈 매치컷",
+          "role": "canonical",
+          "sourceSha256": "71e4587e43304a4ec99759129bfd8b594d57d74b3c889f0466013fab8d997a2d"
+        },
+        {
+          "id": "cha-letter-clip-shapes",
+          "canonicalId": "cha-letter-clip-shapes",
+          "title": "글자 안에서 움직이는 도형",
+          "role": "canonical",
+          "sourceSha256": "14eeaf831fb8cda90edb30dbbbebef1595fc184c095f3c695ad600d165d354dc"
+        },
+        {
+          "id": "cha-logo-sting",
+          "canonicalId": "cha-logo-sting",
+          "title": "로고 스팅 — 라임 렌즈 → 실루엣",
+          "role": "canonical",
+          "sourceSha256": "4bdcfdc1b2bbe53df2dc0f06b45993ea9b95d3973cd74668a76ee04bc8c2a33a"
+        },
+        {
+          "id": "cha-logo-sting-vertical",
+          "canonicalId": "cha-logo-sting-vertical",
+          "title": "로고 스팅 세로형 (쇼츠 엔딩)",
+          "role": "canonical",
+          "sourceSha256": "78dcfc6193f663f523447a6f724bbc87a126c7b85df6ba3667a12a0baf7da4c6"
+        },
+        {
+          "id": "cha-long-page-dolly",
+          "canonicalId": "cha-long-page-dolly",
+          "title": "긴 랜딩 페이지 슬랜트 돌리 → CTA",
+          "role": "canonical",
+          "sourceSha256": "79ed91a397f12d7f97c79b4c88596bf4f771c63907fc2f66f835d96f80865158"
+        },
+        {
+          "id": "cha-marquee-band-collage",
+          "canonicalId": "cha-marquee-band-collage",
+          "title": "UI 콜라주 + 대각선 티커 밴드 교차",
+          "role": "canonical",
+          "sourceSha256": "a80dd87ed69abe36fb766ed5a68e6d6f6bc744b8c7034511eef5d619409b340a"
+        },
+        {
+          "id": "cha-mixed-type-wordmark",
+          "canonicalId": "cha-mixed-type-wordmark",
+          "title": "믹스 타입 워드마크 (모노 소문자 + 캡스 + 라임 음절)",
+          "role": "canonical",
+          "sourceSha256": "b7aa5c7ccf13e6bea2e3f41a5221a6bdbe19b0af2470cd95afec2e4034ee5121"
+        },
+        {
+          "id": "cha-mosaic-assemble",
+          "canonicalId": "cha-mosaic-assemble",
+          "title": "모자이크 조립 → 풀백 → 한 칸 포커스",
+          "role": "canonical",
+          "sourceSha256": "d39a6058179c95a5c0accfaa9d9e56acb8449f6c96f5e0b0b3354a405da9236c"
+        },
+        {
+          "id": "cha-motion-term-01",
+          "canonicalId": "cha-motion-term-01",
+          "title": "01 이징 — 부드러운 가감속",
+          "role": "canonical",
+          "sourceSha256": "d4c5942b4e04a4c3fecc5b1e88c3116e19b64f3cf9666c0c11f910eb3a72c296"
+        },
+        {
+          "id": "cha-motion-term-02",
+          "canonicalId": "cha-motion-term-02",
+          "title": "02 예비동작 — 큰 동작 전 준비",
+          "role": "canonical",
+          "sourceSha256": "b30de28857eda3a73ad948a4dcf545ff6d1b67ff0aca711fb5c4a969ee4c90b0"
+        },
+        {
+          "id": "cha-motion-term-03",
+          "canonicalId": "cha-motion-term-03",
+          "title": "03 스쿼시 앤 스트레치 — 눌리고 늘어나는 탄력",
+          "role": "canonical",
+          "sourceSha256": "4dde1d2c55173285d5a18326c87f25b51511868e9415980889efbf388491afb5"
+        },
+        {
+          "id": "cha-motion-term-04",
+          "canonicalId": "cha-motion-term-04",
+          "title": "04 아크 — 포물선 이동",
+          "role": "canonical",
+          "sourceSha256": "c9042df7f710b57e99a14af0056d96b692db7ac12e3cb2ab2f9a6f416fc731c7"
+        },
+        {
+          "id": "cha-motion-term-05",
+          "canonicalId": "cha-motion-term-05",
+          "title": "05 팔로스루 — 끝부분이 늦게 따라옴",
+          "role": "canonical",
+          "sourceSha256": "a7e733f87ca7022ca34f3136b8de94c7ce174c4a567879e26eb66e1d7e865e04"
+        },
+        {
+          "id": "cha-motion-term-06",
+          "canonicalId": "cha-motion-term-06",
+          "title": "06 오버랩 — 부위별 시간차",
+          "role": "canonical",
+          "sourceSha256": "e8db3adb9cae71fc952dbf85eb6fca7addc84e15b79f928fcd5abe6dc65e3614"
+        },
+        {
+          "id": "cha-motion-term-07",
+          "canonicalId": "cha-motion-term-07",
+          "title": "07 스태거 — 순차 등장",
+          "role": "canonical",
+          "sourceSha256": "f16fa6782201e0041c883953f71e6e8676eb519f5e8109ffcc9366110cffd5dd"
+        },
+        {
+          "id": "cha-motion-term-08",
+          "canonicalId": "cha-motion-term-08",
+          "title": "08 매치컷 — 형태 이어서 전환",
+          "role": "canonical",
+          "sourceSha256": "4e808405d435d76ccc74ceb38433b820de5e86635bcf23b408c7aa8e0d82982d"
+        },
+        {
+          "id": "cha-motion-term-09",
+          "canonicalId": "cha-motion-term-09",
+          "title": "09 패럴랙스 — 거리별 속도차",
+          "role": "canonical",
+          "sourceSha256": "e2c2bc6656830a8d3037cf67d44223d0f9cba2bb339fe29bbe67639182d36335"
+        },
+        {
+          "id": "cha-motion-term-10",
+          "canonicalId": "cha-motion-term-10",
+          "title": "10 마스크 리빌 — 가려졌다 등장",
+          "role": "canonical",
+          "sourceSha256": "04eaf4a786dbcce349b2d8f41e2cfd28ee643a7c2c59da6acf1c94ba11f244aa"
+        },
+        {
+          "id": "cha-motion-term-11",
+          "canonicalId": "cha-motion-term-11",
+          "title": "11 모션 블러 — 빠른 움직임 잔상",
+          "role": "canonical",
+          "sourceSha256": "5195c60eee603c73d37ebd638f750557a8b3bc8247d7e44f5844b68b4eda8451"
+        },
+        {
+          "id": "cha-motion-term-12",
+          "canonicalId": "cha-motion-term-12",
+          "title": "12 홀드 — 잠깐 멈춤",
+          "role": "canonical",
+          "sourceSha256": "d6aec609b7481a30b770934be3a016650dd3fb408866fa8df2656cef5fe63653"
+        },
+        {
+          "id": "cha-motion-term-13",
+          "canonicalId": "cha-motion-term-13",
+          "title": "13 세컨더리 액션 — 보조 움직임",
+          "role": "canonical",
+          "sourceSha256": "541c76af11765b0f749c01d88465e23caf67f007c417c903613047775d1a3b67"
+        },
+        {
+          "id": "cha-motion-term-14",
+          "canonicalId": "cha-motion-term-14",
+          "title": "14 줌 스루 — 확대하며 장면 전환",
+          "role": "canonical",
+          "sourceSha256": "6f9bf3948c09bbd7df934eea83d86124ea95cdff57594cf2ed35e06d9d114d12"
+        },
+        {
+          "id": "cha-motion-term-15",
+          "canonicalId": "cha-motion-term-15",
+          "title": "15 휩 팬 — 휙 넘기는 전환",
+          "role": "canonical",
+          "sourceSha256": "38ffc725ee3bc389c5ffa61be2ffa01cd53247f8bb4de372ba92447294d0a2dc"
+        },
+        {
+          "id": "cha-motion-term-16",
+          "canonicalId": "cha-motion-term-16",
+          "title": "16 아이리스 — 원형 전환",
+          "role": "canonical",
+          "sourceSha256": "24f67e41715d22a66a3b48f3dc8fa8130bd3694e7e377251f065b13e7238a85c"
+        },
+        {
+          "id": "cha-motion-term-17",
+          "canonicalId": "cha-motion-term-17",
+          "title": "17 키네틱 타이포 — 움직이는 글자",
+          "role": "canonical",
+          "sourceSha256": "d5129470a659f4e7b2c3cba88a372edc871d80074f57b306414c42d2188f23b8"
+        },
+        {
+          "id": "cha-motion-term-18",
+          "canonicalId": "cha-motion-term-18",
+          "title": "18 카운트업 — 숫자 증가 연출",
+          "role": "canonical",
+          "sourceSha256": "5c0f8149caacdca155620131e2a6d7394de03914dee417355e83aa81a9cbac5f"
+        },
+        {
+          "id": "cha-motion-term-19",
+          "canonicalId": "cha-motion-term-19",
+          "title": "19 푸시 인 — 카메라가 천천히 접근",
+          "role": "canonical",
+          "sourceSha256": "ffc6f8c83d3a90d16f45f7de099fdcdcaf0ce6d63dee705b06793027d2ab9df5"
+        },
+        {
+          "id": "cha-motion-term-20",
+          "canonicalId": "cha-motion-term-20",
+          "title": "20 비트 싱크 — 박자에 맞춰 움직임",
+          "role": "canonical",
+          "sourceSha256": "7a9f556304a05b0d2bb642214645ec8e0754008847fa0d5de7022ca032583c3b"
+        },
+        {
+          "id": "cha-motion-term-21",
+          "canonicalId": "cha-motion-term-21",
+          "title": "21 루프 — 끝과 처음 연결",
+          "role": "canonical",
+          "sourceSha256": "f4b01394b142396b50a5c1002481893876411f838ebb06da5254ca9cbb0bd26f"
+        },
+        {
+          "id": "cha-motion-term-combo-bounce",
+          "canonicalId": "cha-motion-term-combo-bounce",
+          "title": "조합 · 통통 튀는 등장 — 아크 + 스쿼시 앤 스트레치 + 팔로스루 + 세컨더리 액션",
+          "role": "canonical",
+          "sourceSha256": "9d5e17cfd179a94d8edd2e6cd2e291377fe06838d7d1b5effc6d96bf0cc69d6e"
+        },
+        {
+          "id": "cha-motion-term-combo-card",
+          "canonicalId": "cha-motion-term-combo-card",
+          "title": "조합 · 카드 넘기기 — 예비동작 + 휩 팬 + 모션 블러 + 오버랩",
+          "role": "canonical",
+          "sourceSha256": "bbf33692886946b08c9311706e4732c14d676d24186767dcc924616f99af28c5"
+        },
+        {
+          "id": "cha-motion-term-combo-stat",
+          "canonicalId": "cha-motion-term-combo-stat",
+          "title": "조합 · 숫자 강조 — 푸시 인 + 카운트업 + 비트 싱크 + 홀드",
+          "role": "canonical",
+          "sourceSha256": "8d25951eada90dbe17618aab5c3875d7209d3ea8d8c102ab11a0e88f281b5f6b"
+        },
+        {
+          "id": "cha-motion-term-combo-title",
+          "canonicalId": "cha-motion-term-combo-title",
+          "title": "조합 · 타이틀 등장 — 키네틱 타이포 + 마스크 리빌 + 스태거 + 이징",
+          "role": "canonical",
+          "sourceSha256": "307c3a5077b1740bb2ac1f5bbf9788c5074c7ef897a2bf9ac6bf9b4a6696d43b"
+        },
+        {
+          "id": "cha-orbit-devices",
+          "canonicalId": "cha-orbit-devices",
+          "title": "노트북·폰 동기화 오빗",
+          "role": "canonical",
+          "sourceSha256": "e42acfaaff321096ca9c7036f0ff4938bd5d6dac8a889b63258bcf2f9ac352c7"
+        },
+        {
+          "id": "cha-outline-rows-backdrop",
+          "canonicalId": "cha-outline-rows-backdrop",
+          "title": "아웃라인 텍스트 행 배경 + 비트마다 바뀌는 중앙 카드",
+          "role": "canonical",
+          "sourceSha256": "d7d9b8cfc2fdcb8a94018e890e8149431011722db9bd28e6d35f388fd8426337"
+        },
+        {
+          "id": "cha-parallax-hero",
+          "canonicalId": "cha-parallax-hero",
+          "title": "레이어 패럴랙스 히어로 (트럭)",
+          "role": "canonical",
+          "sourceSha256": "dc002f30cccd52da6332ebb8c7fe1f8562af77d1e17db93c603138bbd802fbb8"
+        },
+        {
+          "id": "cha-phone-app-push",
+          "canonicalId": "cha-phone-app-push",
+          "title": "폰 앱 내비게이션 — 리스트 탭 → 푸시 → 바텀시트",
+          "role": "canonical",
+          "sourceSha256": "86d9e5a25f247210d37146eecacee1c93c0cafb8a08ad956012575f59bebfa3f"
+        },
+        {
+          "id": "cha-phone-float-scroll",
+          "canonicalId": "cha-phone-float-scroll",
+          "title": "폰 플로팅 → 피드 관성 스크롤 → 카드 탭 리프트",
+          "role": "canonical",
+          "sourceSha256": "fc586cc89eb716fb4ac303c12e222127dc2edb895aca1f5f244d169b10f89fdb"
+        },
+        {
+          "id": "cha-phone-lock-notifs",
+          "canonicalId": "cha-phone-lock-notifs",
+          "title": "잠금화면 알림 스택 → 펼침 → 상세 카드",
+          "role": "canonical",
+          "sourceSha256": "ef9848b354c6dfa1bd0f1e9967a79cd7e33f14b7e70b51f4b5d43fda6d32d74c"
+        },
+        {
+          "id": "cha-phrase-stack",
+          "canonicalId": "cha-phrase-stack",
+          "title": "같은 자리에서 바뀌는 문구 스택",
+          "role": "canonical",
+          "sourceSha256": "0a170e4cbdeed22e853003683b2c463cacd78eda221034d8c85dfa750a7f2327"
+        },
+        {
+          "id": "cha-pixel-assemble-name",
+          "canonicalId": "cha-pixel-assemble-name",
+          "title": "픽셀로 조립되는 네임 플레이트",
+          "role": "canonical",
+          "sourceSha256": "b86d06f0ba8e1d8c5ca71dc361f7870cfd30900c09138b4f2122799da0756af3"
+        },
+        {
+          "id": "cha-pixel-assemble-name-vertical",
+          "canonicalId": "cha-pixel-assemble-name-vertical",
+          "title": "픽셀 네임 플레이트 (세로 9:16)",
+          "role": "canonical",
+          "sourceSha256": "94377d2829c448322a0c242e8af82bd0b518f9cc556d211d3ca9eac0db8c9804"
+        },
+        {
+          "id": "cha-pullback-reveal",
+          "canonicalId": "cha-pullback-reveal",
+          "title": "풀프레임 화면 → 풀백, 알고 보니 폰 화면",
+          "role": "canonical",
+          "sourceSha256": "355a6d5619e9f8429cd3300c804f9a5f264f17f77935a0b9cd2850bdbb615ef5"
+        },
+        {
+          "id": "cha-rack-focus",
+          "canonicalId": "cha-rack-focus",
+          "title": "랙 포커스 — 앞 카드에서 뒤 화면으로",
+          "role": "canonical",
+          "sourceSha256": "b4359eefa4c8bb27b67f973e8b471af03981d3fc7b1a2b6554dd7cd4d88f88de"
+        },
+        {
+          "id": "cha-rail-cover",
+          "canonicalId": "cha-rail-cover",
+          "title": "에디토리얼 커버 — 레일 위에 앉는 헤드라인",
+          "role": "canonical",
+          "sourceSha256": "b189213eacb7809e766e8867899138f759026d3760bf89605b47c118aa08d433"
+        },
+        {
+          "id": "cha-record-camera-tour",
+          "canonicalId": "cha-record-camera-tour",
+          "title": "녹화 화면을 따라 세 곳으로",
+          "role": "canonical",
+          "sourceSha256": "68fcc2ee7639f48a2eee387fe74bdbeddb1283025b38e0fd5b592ee2150a2567"
+        },
+        {
+          "id": "cha-record-context-inset",
+          "canonicalId": "cha-record-context-inset",
+          "title": "크게 보면서 위치도 기억하기",
+          "role": "canonical",
+          "sourceSha256": "81cdf7b79f9d537b90e0d039250e4e18d1c6b132b74bf7c867c0f46df01b7af8"
+        },
+        {
+          "id": "cha-record-cursor-trail-route",
+          "canonicalId": "cha-record-cursor-trail-route",
+          "title": "조작 경로를 한눈에",
+          "role": "canonical",
+          "sourceSha256": "3c23fddc8da74ecd4f9d6b137700d2e4dba9f05b369fcc006b52b4f66c2fc75b"
+        },
+        {
+          "id": "cha-record-detail-freeze-callout",
+          "canonicalId": "cha-record-detail-freeze-callout",
+          "title": "먼저 짚고 재생하기",
+          "role": "canonical",
+          "sourceSha256": "240b5034d4974a64e41dec2f8d5f5059f8b01c2ee54e08826a672bc8042eb6dc"
+        },
+        {
+          "id": "cha-record-linked-loupe",
+          "canonicalId": "cha-record-linked-loupe",
+          "title": "전체 맥락과 디테일을 동시에",
+          "role": "canonical",
+          "sourceSha256": "f16ad20ae3115a23c277c0b037cea66fb8adc0383cdcdf5319a261bac4a32ae1"
+        },
+        {
+          "id": "cha-record-pan-between-controls",
+          "canonicalId": "cha-record-pan-between-controls",
+          "title": "입력에서 실행까지 옆으로",
+          "role": "canonical",
+          "sourceSha256": "cb3073e5c80727628dea0ee3636068fa1c883928218f99cdf990a8889b4855f6"
+        },
+        {
+          "id": "cha-record-portrait-reframe",
+          "canonicalId": "cha-record-portrait-reframe",
+          "title": "가로 녹화를 세로로 다시 담기",
+          "role": "canonical",
+          "sourceSha256": "cb32eec8aa6f72142d9747e84fc8ceffd099be3267386e7f5961919673d1ee81"
+        },
+        {
+          "id": "cha-record-proof-replay",
+          "canonicalId": "cha-record-proof-replay",
+          "title": "같은 장면을 다시 확인하기",
+          "role": "canonical",
+          "sourceSha256": "6345315626c8ee2f97ff1bfc7c802a6b828736dd5efbb4861ad6a4cc12409b9f"
+        },
+        {
+          "id": "cha-record-punch-hold-return",
+          "canonicalId": "cha-record-punch-hold-return",
+          "title": "중요한 순간만 가까이",
+          "role": "canonical",
+          "sourceSha256": "2a0bffc1e74e05bfd8fbd29f80a27cae0fc490931f777e8e3b944c1293e3ae6c"
+        },
+        {
+          "id": "cha-record-timeline-jump",
+          "canonicalId": "cha-record-timeline-jump",
+          "title": "필요한 세 구간만 이어 보기",
+          "role": "canonical",
+          "sourceSha256": "4f7d49c9d9239aa3bdbaf9cf7649875cf20c47418932733fd31e59c14273620d"
+        },
+        {
+          "id": "cha-screen-in-screen",
+          "canonicalId": "cha-screen-in-screen",
+          "title": "화면 속 화면 무한 줌 (드로스테 루프)",
+          "role": "canonical",
+          "sourceSha256": "526a70606a7656003fd84a6c43255d662f6bdb0bfe5e2f16f1ebd91a090e5f9e"
+        },
+        {
+          "id": "cha-selection-box-type",
+          "canonicalId": "cha-selection-box-type",
+          "title": "디자인툴 선택 박스 타이포",
+          "role": "canonical",
+          "sourceSha256": "613bc2ba1795f548e02928d18589e809636aaab152db8ee3fdbebf0a3e25f820"
+        },
+        {
+          "id": "cha-side-title-frame",
+          "canonicalId": "cha-side-title-frame",
+          "title": "세로 사이드 타이틀 + 프레임 카드 2회 교체",
+          "role": "canonical",
+          "sourceSha256": "089c9c57e442e556ffca1b0a2d0a13c8e6df8350a195e7ce2b7d6d25d04116f3"
+        },
+        {
+          "id": "cha-slant-to-flat",
+          "canonicalId": "cha-slant-to-flat",
+          "title": "비스듬한 창 3개가 모여 한 화면으로",
+          "role": "canonical",
+          "sourceSha256": "072afea6bc3aab21da587c77cd0a613619278b875fd016757ec92bc9807a19b2"
+        },
+        {
+          "id": "cha-split-focus-block",
+          "canonicalId": "cha-split-focus-block",
+          "title": "잉크 | 페이퍼 | 라임 블록 분할 + 세로 FOCUS",
+          "role": "canonical",
+          "sourceSha256": "03240d89f4b0351c91821f84e0cfbfde0555257310c4314fecedea6f0f69bc51"
+        },
+        {
+          "id": "cha-spotlight-lift",
+          "canonicalId": "cha-spotlight-lift",
+          "title": "대시보드 스포트라이트 리프트",
+          "role": "canonical",
+          "sourceSha256": "2a121f875c114e760a9c1f399c75850298152f8aad32e3c45514261cfa4cc5ef"
+        },
+        {
+          "id": "cha-stat-hero",
+          "canonicalId": "cha-stat-hero",
+          "title": "거대한 숫자 롤 + 라임 라벨 + 진행선",
+          "role": "canonical",
+          "sourceSha256": "5c6e704747e5d1734dc99169e185c26b800ba8ab80fe3a2eabb8b85d30248768"
+        },
+        {
+          "id": "cha-tag-converge",
+          "canonicalId": "cha-tag-converge",
+          "title": "흩어진 태그 → 한 문장으로 수렴",
+          "role": "canonical",
+          "sourceSha256": "74a1a78cedd9b1bba54a2f0f3434b31a2fb9d0bdc33a75ba491e839058518f7c"
+        },
+        {
+          "id": "cha-terminal-agent-run",
+          "canonicalId": "cha-terminal-agent-run",
+          "title": "터미널 에이전트 실행 — 명령 입력 → 로그 스트리밍 → DONE",
+          "role": "canonical",
+          "sourceSha256": "2fcf9759e2ae4cfb28a9c921dbc7df8a2b05dccf0c5af79bbd1328d417d227e7"
+        },
+        {
+          "id": "cha-text-window-mask",
+          "canonicalId": "cha-text-window-mask",
+          "title": "글자가 창이 되는 전환 (텍스트 마스크 → 풀프레임)",
+          "role": "canonical",
+          "sourceSha256": "88915f24e9a70c3c6895604b663891262eef4f7b6069f0e703b15dfc46458f24"
+        },
+        {
+          "id": "cha-todo-check-figure",
+          "canonicalId": "cha-todo-check-figure",
+          "title": "피규어가 가리키는 투두 체크리스트",
+          "role": "canonical",
+          "sourceSha256": "a00472f610e6a1145222f55d4479fbf37ec1c65868afdecca25e1fad5f647324"
+        },
+        {
+          "id": "cha-type-on-grid",
+          "canonicalId": "cha-type-on-grid",
+          "title": "레이아웃 그리드 위에 조립되는 타이포",
+          "role": "canonical",
+          "sourceSha256": "833a2c49aa2b88077ffafc66f9751193b359a496ee5f86fc0bb38985f50c2eab"
+        },
+        {
+          "id": "cha-weight-breathe",
+          "canonicalId": "cha-weight-breathe",
+          "title": "숨쉬는 굵기·자간 워드",
+          "role": "canonical",
+          "sourceSha256": "33787aa3c1293b7863a0b137d6393c82c75c03b006b0c0c0e7ad3b7dbeb0e503"
+        },
+        {
+          "id": "cha-whip-speed-ramp",
+          "canonicalId": "cha-whip-speed-ramp",
+          "title": "휩 팬 + 스피드 램프",
+          "role": "canonical",
+          "sourceSha256": "288ff1fbab5898faac96afa00631cdb053c77b13487abb4814a044500f965820"
+        },
+        {
+          "id": "cha-window-open-cascade",
+          "canonicalId": "cha-window-open-cascade",
+          "title": "독에서 창 열기 → 캐스케이드 → 포커스 전환 → 타일 정리",
+          "role": "canonical",
+          "sourceSha256": "df20d4640237dba83baba4cffaf4979c023081c95084667cbfdecdb73fd21156"
+        },
+        {
+          "id": "cha-window-split-grid",
+          "canonicalId": "cha-window-split-grid",
+          "title": "창 하나 → 3×3 그리드 → 하나 골라 줌인",
+          "role": "canonical",
+          "sourceSha256": "e8209614db0d641575a128884b0c42adca7ce059d566308b023a8eb044c61645"
+        },
+        {
+          "id": "cha-word-swap-inline",
+          "canonicalId": "cha-word-swap-inline",
+          "title": "문장 속 한 단어만 바뀌는 슬롯",
+          "role": "canonical",
+          "sourceSha256": "d4817ef5e5405aa04eb303e02ebc4d261f6b4478405a1a6b6b85a7f1c98d291e"
+        },
+        {
+          "id": "cha-word-wall-number",
+          "canonicalId": "cha-word-wall-number",
+          "title": "워드 월 + 숫자 펀치",
+          "role": "canonical",
+          "sourceSha256": "cafb359ba2ca88fcde2fa783ca473ad1c883ceac1b5de90e73676a74859110cc"
+        },
+        {
+          "id": "cha-zoom-through-screen",
+          "canonicalId": "cha-zoom-through-screen",
+          "title": "노트북 화면 속으로 줌인 → 다음 장면",
+          "role": "canonical",
+          "sourceSha256": "6a1ef8aeccbf0df7c0f8ef3f3c603547e4dcbeccc3600ddde415b1087a581556"
+        },
+        {
+          "id": "ref-career-hacker-alex-160",
+          "canonicalId": "ref-career-hacker-alex-160",
+          "title": "Career Hacker Alex · 모션그래픽 160",
+          "role": "canonical",
+          "sourceSha256": "a87cd98d8ed8db5a29cf70c74e1b996b604ab4a5aa6d0c846465f7a025ad9271"
+        }
+      ]
+    },
+    {
+      "url": "https://animejs.com/",
+      "items": [
+        {
+          "id": "ref-anime-js",
+          "canonicalId": "ref-anime-js",
+          "title": "Anime.js",
+          "role": "canonical",
+          "sourceSha256": "7e4942cceacf8fa76c88fcfec259f6f76f77721552914c34eb1d31ac714309d7"
+        }
+      ]
+    },
+    {
+      "url": "https://gsap.com/docs/v3/GSAP/",
+      "items": [
+        {
+          "id": "ref-gsap-documentation",
+          "canonicalId": "ref-gsap-documentation",
+          "title": "GSAP documentation",
+          "role": "canonical",
+          "sourceSha256": "facee26d14d21d69039889b82e7abeb6d7d24b484094e4e6e0eadd168babd824"
+        }
+      ]
+    },
+    {
+      "url": "https://motion.dev/docs/animate",
+      "items": [
+        {
+          "id": "ref-motion-animate",
+          "canonicalId": "ref-motion-animate",
+          "title": "Motion animate",
+          "role": "canonical",
+          "sourceSha256": "b360976f9cff5f149ec19aa8314176e6674ded8dd9f7ec244ad01aa0dc905285"
+        }
+      ]
+    },
+    {
+      "url": "https://www.motion-svg.com/docs",
+      "items": [
+        {
+          "id": "ref-vectormotion",
+          "canonicalId": "ref-vectormotion",
+          "title": "VectorMotion",
+          "role": "canonical",
+          "sourceSha256": "9280b33263e6bab0f9d41989aa80146a40ffc2f1646d764908a98f1d7c30d4cb"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/nitin42/Animated-Timeline/blob/master/docs/Spring.md",
+      "items": [
+        {
+          "id": "ref-animated-timeline",
+          "canonicalId": "ref-animated-timeline",
+          "title": "Animated Timeline",
+          "role": "canonical",
+          "sourceSha256": "57c136af01fefbfdaf4e6dda77d364ac8cf433b7fb712ddabfe21ba80a13cb51"
+        }
+      ]
+    },
+    {
+      "url": "https://docs.svgsketch.com/sdk/animation/",
+      "items": [
+        {
+          "id": "ref-svgsketch",
+          "canonicalId": "ref-svgsketch",
+          "title": "SVGSketch",
+          "role": "canonical",
+          "sourceSha256": "1b94537c460fa60e5543e03388d47ff389902e955202defbbced5ec01dd3222c"
+        }
+      ]
+    },
+    {
+      "url": "https://motion.page/docs/sdk/motion-factory",
+      "items": [
+        {
+          "id": "ref-motion-page-sdk",
+          "canonicalId": "ref-motion-page-sdk",
+          "title": "Motion.page SDK",
+          "role": "canonical",
+          "sourceSha256": "2f1cc013acadd904297e6abce6c4f3dd12ecad5fb4c3a7f4e273f16f645b967b"
+        }
+      ]
+    },
+    {
+      "url": "https://glaze.dev/docs/timelines",
+      "items": [
+        {
+          "id": "ref-glaze",
+          "canonicalId": "ref-glaze",
+          "title": "Glaze",
+          "role": "canonical",
+          "sourceSha256": "d71878afe324951c2ec78c0e0a5567b500466ef0b2d99f04460a490bbab445b6"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/bowtiedswan/animejs-skills",
+      "items": [
+        {
+          "id": "ref-anime-js-skills",
+          "canonicalId": "ref-anime-js-skills",
+          "title": "Anime.js Skills",
+          "role": "canonical",
+          "sourceSha256": "797c012a169e12843060590d2f78541b214e373dd9becc85ef56f5967d34d6df"
+        }
+      ]
+    },
+    {
+      "url": "https://fwdtools.com/gsap-playground/",
+      "items": [
+        {
+          "id": "ref-fwd-tools-gsap-playground",
+          "canonicalId": "ref-fwd-tools-gsap-playground",
+          "title": "FWD Tools GSAP Playground",
+          "role": "canonical",
+          "sourceSha256": "3e95865448bf4942f51ffb3a290d0b9ebb09761acd0df29064f3a3d646cba02d"
+        }
+      ]
+    },
+    {
+      "url": "https://www.blossom-carousel.com/docs/examples/advanced/custom-scrollbar",
+      "items": [
+        {
+          "id": "ref-blossom-carousel",
+          "canonicalId": "ref-blossom-carousel",
+          "title": "Blossom Carousel",
+          "role": "canonical",
+          "sourceSha256": "82dfc6cb85c6f28751fc5b4e1268ba4be8c1c74fcabc92a64a12ec589ff5daa2"
+        }
+      ]
+    },
+    {
+      "url": "https://pmndrs.github.io/timeline/getting-started/3-overview",
+      "items": [
+        {
+          "id": "ref-pmndrs-timeline",
+          "canonicalId": "ref-pmndrs-timeline",
+          "title": "pmndrs Timeline",
+          "role": "canonical",
+          "sourceSha256": "4379f334c7502cd9eb7458b7ed5163dd41cb6c5258580fc30b3d4c1f50792e57"
+        }
+      ]
+    },
+    {
+      "url": "https://mafhper.github.io/nebula/",
+      "items": [
+        {
+          "id": "ref-nebula",
+          "canonicalId": "ref-nebula",
+          "title": "Nebula",
+          "role": "canonical",
+          "sourceSha256": "fe6ab2ba98d65c3e930ee46c348be9fa65a669de00701a2c975a42e952b7f2f4"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Okay-Babe/okaybabe-shaders",
+      "items": [
+        {
+          "id": "ref-okaybabe-shaders",
+          "canonicalId": "ref-okaybabe-shaders",
+          "title": "OkayBabe Shaders",
+          "role": "canonical",
+          "sourceSha256": "ff06f551422161785500531eb2f005dd54f76a92e574fc393192c4c2784691c7"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Giacomo-Paolini/fluid",
+      "items": [
+        {
+          "id": "ref-fluid-studio",
+          "canonicalId": "ref-fluid-studio",
+          "title": "Fluid Studio",
+          "role": "canonical",
+          "sourceSha256": "59fda5df347c850c72fc565a353744f8b3272af61c92f60ed2931ccdea72aafb"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/metaory/gradient-gl",
+      "items": [
+        {
+          "id": "ref-gradient-gl",
+          "canonicalId": "ref-gradient-gl",
+          "title": "Gradient GL",
+          "role": "canonical",
+          "sourceSha256": "22b3945b696f92c2ba127167e2c4c87dd5df060284d64758b9ad80b001ed7c61"
+        }
+      ]
+    },
+    {
+      "url": "https://codeberg.org/evasync/creative-coding-resources",
+      "items": [
+        {
+          "id": "ref-creative-coding-resources",
+          "canonicalId": "ref-creative-coding-resources",
+          "title": "Creative Coding Resources",
+          "role": "canonical",
+          "sourceSha256": "35a21ae4997bbc7c5171edcd77acb285099ba1415e060176835263bdf1bf6770"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/paradigms-of-intelligence/swissgl",
+      "items": [
+        {
+          "id": "ref-swissgl",
+          "canonicalId": "ref-swissgl",
+          "title": "SwissGL",
+          "role": "canonical",
+          "sourceSha256": "fd1d2240597695bf6d4a2e310a4df93cbc88d6a476e82ee2fd4e434d4f9feaad"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/muhkartal/webGL-cosmicVisualizations",
+      "items": [
+        {
+          "id": "ref-cosmic-visualizations",
+          "canonicalId": "ref-cosmic-visualizations",
+          "title": "Cosmic Visualizations",
+          "role": "canonical",
+          "sourceSha256": "ceaa85a57b1ae1c547d9e01989920d624b7376aaa59843e83778bb9714965c2b"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Jannchie/shader-gradient",
+      "items": [
+        {
+          "id": "ref-shader-gradient-core",
+          "canonicalId": "ref-shader-gradient-core",
+          "title": "Shader Gradient Core",
+          "role": "canonical",
+          "sourceSha256": "f47e7d6dd615da9d46e94ca42c13f31d08ba7ca2cb3d9499cf93207d9e2b21ab"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/KaranChandekar/webgl-shader-gallery",
+      "items": [
+        {
+          "id": "ref-webgl-shader-gallery",
+          "canonicalId": "ref-webgl-shader-gallery",
+          "title": "WebGL Shader Gallery",
+          "role": "canonical",
+          "sourceSha256": "29beff2a780c47310c1b8b9d78574fc879b10702b4d597b11858777c377d8285"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/RavenRepo/nebulla-particle-library",
+      "items": [
+        {
+          "id": "ref-nebulla-particle-library",
+          "canonicalId": "ref-nebulla-particle-library",
+          "title": "Nebulla Particle Library",
+          "role": "canonical",
+          "sourceSha256": "8b726e327bcee69ed28df9fd1e27b031f8c975ed368792a2cfe3479ebff7ddd0"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/terkelg/awesome-creative-coding",
+      "items": [
+        {
+          "id": "ref-awesome-creative-coding",
+          "canonicalId": "ref-awesome-creative-coding",
+          "title": "Awesome Creative Coding",
+          "role": "canonical",
+          "sourceSha256": "096bfb364e030040ac88f0a60f33681cf2cca4dee552437526cc559287c38435"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Klaudioz/gradients",
+      "items": [
+        {
+          "id": "ref-klaudioz-gradients",
+          "canonicalId": "ref-klaudioz-gradients",
+          "title": "Klaudioz Gradients",
+          "role": "canonical",
+          "sourceSha256": "d80084639dbcd93e43c3fc3b71c919312374fac13d1e86426303bc0513a83201"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/qc20/colourful-attraction",
+      "items": [
+        {
+          "id": "ref-colourful-attraction",
+          "canonicalId": "ref-colourful-attraction",
+          "title": "Colourful Attraction",
+          "role": "canonical",
+          "sourceSha256": "7b478cfe9b1ba95e18f724b0a67c2249c75f2cb7dca5ca4df76b73483b444d2d"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/zoxilsi/studio",
+      "items": [
+        {
+          "id": "ref-zoxilsi-studio",
+          "canonicalId": "ref-zoxilsi-studio",
+          "title": "Zoxilsi Studio",
+          "role": "canonical",
+          "sourceSha256": "9caf9b831d3441f8dd8099d1554f6667e698a2a77aac46353cbab73ba443a319"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/tdimino/claude-code-minoan/tree/main/skills/design-media/grainient",
+      "items": [
+        {
+          "id": "ref-grainient-skill",
+          "canonicalId": "ref-grainient-skill",
+          "title": "Grainient Skill",
+          "role": "canonical",
+          "sourceSha256": "e4c16f60de0834c1f0305fe00e5b660e53dfd9df740a21af9ce7a5a7e505df58"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/inthepond/prompt-vfx",
+      "items": [
+        {
+          "id": "ref-prompt-vfx",
+          "canonicalId": "ref-prompt-vfx",
+          "title": "Prompt VFX",
+          "role": "canonical",
+          "sourceSha256": "7526b60816f7d3c5cd13fd063b00fa5b6320471b2f83d9618eea75851072e2f7"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/vagmi/radiant",
+      "items": [
+        {
+          "id": "ref-radiant",
+          "canonicalId": "ref-radiant",
+          "title": "Radiant",
+          "role": "canonical",
+          "sourceSha256": "590bc979e3e8c21c03cd193568d6161045d4a6ddae937bd411380f35e56203c6"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/dragoon0x/typo",
+      "items": [
+        {
+          "id": "ref-typo",
+          "canonicalId": "ref-typo",
+          "title": "Typo",
+          "role": "canonical",
+          "sourceSha256": "a1b40d5a5021b362860a2035451fe814863bd8b2183eac0d89c4777219a04d9d"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/pablostanley/typexperiments",
+      "items": [
+        {
+          "id": "ref-typexperiments",
+          "canonicalId": "ref-typexperiments",
+          "title": "Typexperiments",
+          "role": "canonical",
+          "sourceSha256": "fbe978e0e635677e53b59fc3f185cec73ce199ec190b01a592f5a8b5f6fd582d"
+        }
+      ]
+    },
+    {
+      "url": "https://www.howardyam.design/projects/bounshy",
+      "items": [
+        {
+          "id": "ref-bounshy",
+          "canonicalId": "ref-bounshy",
+          "title": "Bounshy",
+          "role": "canonical",
+          "sourceSha256": "74045fd99fb65ff247cfa5fc2d79d0abf41c8b671064bdfe3e345e1bf7bd051a"
+        }
+      ]
+    },
+    {
+      "url": "https://ksawerykarczewski.com/rakuten-font-family",
+      "items": [
+        {
+          "id": "ref-rakuten-variable-font",
+          "canonicalId": "ref-rakuten-variable-font",
+          "title": "Rakuten Variable Font",
+          "role": "canonical",
+          "sourceSha256": "b80b8bd12fa839d3d6faf79468d3d0852a1f4b0968f58bf5d285a87751a4c3f5"
+        }
+      ]
+    },
+    {
+      "url": "https://tricklekit.dev/",
+      "items": [
+        {
+          "id": "ref-trickle",
+          "canonicalId": "ref-trickle",
+          "title": "Trickle",
+          "role": "canonical",
+          "sourceSha256": "4992aadfa534640f555ed4365a2e7794c5a9a8415016163ef691fbbba943df41"
+        }
+      ]
+    },
+    {
+      "url": "https://tympanus.net/codrops/2026/04/10/the-exat-microsite-pushing-a-typography-showcase-to-new-creative-extremes/",
+      "items": [
+        {
+          "id": "ref-codrops-exat-microsite",
+          "canonicalId": "ref-codrops-exat-microsite",
+          "title": "Codrops Exat Microsite",
+          "role": "canonical",
+          "sourceSha256": "d840988d2563ee456d36c802955c4ee53ce911e5bd851229e63aa377d0e7fdb8"
+        }
+      ]
+    },
+    {
+      "url": "https://www.framer.com/marketplace/plugins/text-effects-kit/",
+      "items": [
+        {
+          "id": "ref-text-effects-kit",
+          "canonicalId": "ref-text-effects-kit",
+          "title": "Text Effects Kit",
+          "role": "canonical",
+          "sourceSha256": "64ce0fef9e5f51f84240d7f0cd6d94072ba7dfeb638a240061d4675bb1e14bba"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/lennystepn-hue/textalive",
+      "items": [
+        {
+          "id": "ref-textalive",
+          "canonicalId": "ref-textalive",
+          "title": "TextAlive",
+          "role": "canonical",
+          "sourceSha256": "4cb3caeec9c2f8d9429c69b11b4a7ef56930bc0d54f176ce2d71f29365fc2dd9"
+        }
+      ]
+    },
+    {
+      "url": "https://www.hontran.dev/blog/mat-voyce-case-study-award-winning-portfolio",
+      "items": [
+        {
+          "id": "ref-mat-voyce-case-study",
+          "canonicalId": "ref-mat-voyce-case-study",
+          "title": "Mat Voyce Case Study",
+          "role": "canonical",
+          "sourceSha256": "50c1d465211e236739346954c94906e1ab2d223b4e9b27535514f3cbd5e3ecd7"
+        }
+      ]
+    },
+    {
+      "url": "https://realmaker.de/texttweener/",
+      "items": [
+        {
+          "id": "ref-texttweener",
+          "canonicalId": "ref-texttweener",
+          "title": "TextTweener",
+          "role": "canonical",
+          "sourceSha256": "9be7427c8eccf7dcd8fe1a08c247dddce343543f130a633be5354b5281c9e19c"
+        }
+      ]
+    },
+    {
+      "url": "https://aicanvas.me/components/playful",
+      "items": [
+        {
+          "id": "ref-ai-canvas-playful",
+          "canonicalId": "ref-ai-canvas-playful",
+          "title": "AI Canvas Playful",
+          "role": "canonical",
+          "sourceSha256": "72e1785329f90d1829fb81aea5a77d5d6fd1decebdd9a9e364ce72c857d5c708"
+        }
+      ]
+    },
+    {
+      "url": "https://www.behance.net/gallery/254081025/Kinetic-Type-07",
+      "items": [
+        {
+          "id": "ref-kinetic-type-07",
+          "canonicalId": "ref-kinetic-type-07",
+          "title": "Kinetic Type 07",
+          "role": "canonical",
+          "sourceSha256": "8751b5b87ffd83bd76d906f4e4d00be68e70292c9a833b1f0af1c3de2dd7e582"
+        }
+      ]
+    },
+    {
+      "url": "https://voidenergy.dev/kinetic-text",
+      "items": [
+        {
+          "id": "ref-void-energy-kinetic-text",
+          "canonicalId": "ref-void-energy-kinetic-text",
+          "title": "Void Energy Kinetic Text",
+          "role": "canonical",
+          "sourceSha256": "808dea2fe9807d51abf04e4f93a500cab1d6878d715fdd7a55fee5341ed2e11d"
+        }
+      ]
+    },
+    {
+      "url": "https://crucibleui.com/components/text/recast",
+      "items": [
+        {
+          "id": "ref-crucible-recast",
+          "canonicalId": "ref-crucible-recast",
+          "title": "Crucible Recast",
+          "role": "canonical",
+          "sourceSha256": "62a96484429955c4aae8826e43a1c661baaa18fb3a35b7ccfb1132106e721235"
+        }
+      ]
+    },
+    {
+      "url": "https://000h.cojeev.com/docs/falling-text/",
+      "items": [
+        {
+          "id": "ref-falling-text",
+          "canonicalId": "ref-falling-text",
+          "title": "Falling Text",
+          "role": "canonical",
+          "sourceSha256": "12dbdcde1d9c179c3ca9581e333a297e24dc85fe79d8fca7c1a19b4582bf4b27"
+        }
+      ]
+    },
+    {
+      "url": "https://atlassian.design/foundations/motion",
+      "items": [
+        {
+          "id": "ref-atlassian-motion",
+          "canonicalId": "ref-atlassian-motion",
+          "title": "Atlassian Motion",
+          "role": "canonical",
+          "sourceSha256": "ce82faa3dc08d83cb4d0ca835cda0bb537e6deeb38033462a314e442c1bb2ce2"
+        }
+      ]
+    },
+    {
+      "url": "https://xd.adobe.com/ideas/wp-content/uploads/2021/06/Animation-in-Design-Systems.pdf",
+      "items": [
+        {
+          "id": "ref-animation-in-design-systems",
+          "canonicalId": "ref-animation-in-design-systems",
+          "title": "Animation in Design Systems",
+          "role": "canonical",
+          "sourceSha256": "729a1618a78afe929bb5b1452217b063a76fd23f8fd81fa1da03357d6d80c725"
+        }
+      ]
+    },
+    {
+      "url": "https://design.gitlab.com/brand-design/motion",
+      "items": [
+        {
+          "id": "ref-gitlab-pajamas-motion",
+          "canonicalId": "ref-gitlab-pajamas-motion",
+          "title": "GitLab Pajamas Motion",
+          "role": "canonical",
+          "sourceSha256": "43f11123e6c6b2b501da710d3811ade6e56b1c6b81fd61fe5373361ba11f3322"
+        }
+      ]
+    },
+    {
+      "url": "https://motion-studio.mtmograph.com/libraries/color",
+      "items": [
+        {
+          "id": "ref-motion-studio-color",
+          "canonicalId": "ref-motion-studio-color",
+          "title": "Motion Studio Color",
+          "role": "canonical",
+          "sourceSha256": "b35f8e0dc5fe4c4f56887065f494feaf6db670723c12608afa9bcb0cc5662d54"
+        }
+      ]
+    },
+    {
+      "url": "https://brand.github.com/motion/principles",
+      "items": [
+        {
+          "id": "ref-github-brand-motion",
+          "canonicalId": "ref-github-brand-motion",
+          "title": "GitHub Brand Motion",
+          "role": "canonical",
+          "sourceSha256": "4af9e53708bafc800813cda5ab7fd692945bd440484af6856b7b5d35da910189"
+        }
+      ]
+    },
+    {
+      "url": "https://kaleidoscope.qwilr.com/design/guides/motion/",
+      "items": [
+        {
+          "id": "ref-qwilr-kaleidoscope",
+          "canonicalId": "ref-qwilr-kaleidoscope",
+          "title": "Qwilr Kaleidoscope",
+          "role": "canonical",
+          "sourceSha256": "a1619e0a8c86655abdaf00e3f6e1664e3be4e42fe5aa830577d25e1da6ed60b3"
+        }
+      ]
+    },
+    {
+      "url": "https://brand.gocardless.com/motion",
+      "items": [
+        {
+          "id": "ref-gocardless-motion",
+          "canonicalId": "ref-gocardless-motion",
+          "title": "GoCardless Motion",
+          "role": "canonical",
+          "sourceSha256": "c7cd98dbd6235f9176a36a1d40f8ac270611e67084896259c0c6516d7195d9ce"
+        }
+      ]
+    },
+    {
+      "url": "https://www.carbondesignsystem.com/building-blocks/foundations/motion/overview",
+      "items": [
+        {
+          "id": "ref-carbon-motion",
+          "canonicalId": "ref-carbon-motion",
+          "title": "Carbon Motion",
+          "role": "canonical",
+          "sourceSha256": "0371aa81b8d2dedd971c9e111b5ba071c9fc4605fd787927bc8afb27f5846f43"
+        }
+      ]
+    },
+    {
+      "url": "https://atlan.com/brand/motion/",
+      "items": [
+        {
+          "id": "ref-atlan-motion",
+          "canonicalId": "ref-atlan-motion",
+          "title": "Atlan Motion",
+          "role": "canonical",
+          "sourceSha256": "1ccedfe0aa174c2b5556c425d41c9aa7c38cb34b570ab76b01ba6eeeaadc9f17"
+        }
+      ]
+    },
+    {
+      "url": "https://designbetter.style/motion",
+      "items": [
+        {
+          "id": "ref-designbetter-motion",
+          "canonicalId": "ref-designbetter-motion",
+          "title": "Designbetter Motion",
+          "role": "canonical",
+          "sourceSha256": "182bc9f9a2129d98628109164718c855f639ea1cbcc812285b37f771333c2f2b"
+        }
+      ]
+    },
+    {
+      "url": "https://www.designsystems.com/5-steps-for-including-motion-design-in-your-system/",
+      "items": [
+        {
+          "id": "ref-designsystems-com",
+          "canonicalId": "ref-designsystems-com",
+          "title": "Designsystems.com",
+          "role": "canonical",
+          "sourceSha256": "f835d6f81ace68620a0bede7932b16bbcecba493feced593d7a447c9b42eef47"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/happy-token/remotion-style-kit",
+      "items": [
+        {
+          "id": "ref-remotion-style-kit",
+          "canonicalId": "ref-remotion-style-kit",
+          "title": "Remotion Style Kit",
+          "role": "canonical",
+          "sourceSha256": "a06f96d94073e65db46e576c66c604f5fb92f89dea8e7522572be3567db06e8e"
+        }
+      ]
+    },
+    {
+      "url": "https://motion.dev/ui",
+      "items": [
+        {
+          "id": "ref-motion-ui",
+          "canonicalId": "ref-motion-ui",
+          "title": "Motion UI",
+          "role": "canonical",
+          "sourceSha256": "c6fbba9121f437dda327457a2fe9a08d408f46c88fabe5e49b7d1812abad0383"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/VFitter/framewave",
+      "items": [
+        {
+          "id": "ref-framewave",
+          "canonicalId": "ref-framewave",
+          "title": "Framewave",
+          "role": "canonical",
+          "sourceSha256": "15c51b96337d83962ea181d0a72acc5b8b5d53b884e8f7831a59cfd88c512ff8"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/mojs/mojs",
+      "items": [
+        {
+          "id": "ref-mo-js",
+          "canonicalId": "ref-mo-js",
+          "title": "mo.js",
+          "role": "canonical",
+          "sourceSha256": "00addc575087227180d142a9d022671bf5b87117b72fc5513fa59cd7fed52e10"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Live2D/CubismWebFramework/blob/develop/README.ja.md",
+      "items": [
+        {
+          "id": "ref-live2d-cubism-web",
+          "canonicalId": "ref-live2d-cubism-web",
+          "title": "Live2D Cubism Web",
+          "role": "canonical",
+          "sourceSha256": "c326a9760cca65169bdb89158ad65f1914aad85702c4a9dd0838559d1a09e8dc"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/YoseiIkegami/moyo",
+      "items": [
+        {
+          "id": "ref-moyo",
+          "canonicalId": "ref-moyo",
+          "title": "Moyo",
+          "role": "canonical",
+          "sourceSha256": "be2013929fd3e9a6e6f6ef3374868becc6d2f34684d3264011fcc5dd4cf45d1c"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/heyxianggao/motion-anything",
+      "items": [
+        {
+          "id": "ref-motion-anything",
+          "canonicalId": "ref-motion-anything",
+          "title": "Motion Anything",
+          "role": "canonical",
+          "sourceSha256": "fa8380c483e8afe22fc6d1b2df83e7e86c7bd723e0c213384d96a666f0255f67"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/monoton-music/nibi",
+      "items": [
+        {
+          "id": "ref-nibi",
+          "canonicalId": "ref-nibi",
+          "title": "Nibi",
+          "role": "canonical",
+          "sourceSha256": "cdeb19ff4bcde73450b9629994072c6a35d768c65b3c38d9097d545a0c67e390"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/torifo/animation-blob-morph",
+      "items": [
+        {
+          "id": "ref-blob-morph-study",
+          "canonicalId": "ref-blob-morph-study",
+          "title": "Blob Morph Study",
+          "role": "canonical",
+          "sourceSha256": "690a4ac2fbf4bf9e7120e16394de123159cce9d46fa996cfe3edc5db04ea87dc"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/gatewai-dev/gitframes",
+      "items": [
+        {
+          "id": "ref-gitframes",
+          "canonicalId": "ref-gitframes",
+          "title": "Gitframes",
+          "role": "canonical",
+          "sourceSha256": "e617b51a7725a4caa5ba2115a26a1c1ecb3fa4879594ba16d7a1371583e2fffa"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/Siroko/kansei",
+      "items": [
+        {
+          "id": "ref-kansei",
+          "canonicalId": "ref-kansei",
+          "title": "Kansei",
+          "role": "canonical",
+          "sourceSha256": "1841f81403dd9ff5e9194c2e34ff441972a7479c456e790d9f073ec66a77c931"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/OnWhyPut/pv-tool",
+      "items": [
+        {
+          "id": "ref-pv-tool",
+          "canonicalId": "ref-pv-tool",
+          "title": "PV Tool",
+          "role": "canonical",
+          "sourceSha256": "a84472bed62d3037b927f5531745b8f76da0e00b5116c0c497952cae415972ea"
+        }
+      ]
+    },
+    {
+      "url": "https://suplab.cc/",
+      "items": [
+        {
+          "id": "ref-suplab",
+          "canonicalId": "ref-suplab",
+          "title": "SupLab",
+          "role": "canonical",
+          "sourceSha256": "cec64d52c370849d2d9a41fc340e10d367452134f75233a97282fc07d4f832ff"
+        }
+      ]
+    },
+    {
+      "url": "https://sailor.studio/",
+      "items": [
+        {
+          "id": "ref-sailor-studio",
+          "canonicalId": "ref-sailor-studio",
+          "title": "Sailor Studio",
+          "role": "canonical",
+          "sourceSha256": "4a38cee11f29392281b8492fae04646c4b7c78803c9b0bfc5a2c5d383194314a"
+        }
+      ]
+    },
+    {
+      "url": "https://superfluidestudio.com/",
+      "items": [
+        {
+          "id": "ref-superfluide",
+          "canonicalId": "ref-superfluide",
+          "title": "Superfluide",
+          "role": "canonical",
+          "sourceSha256": "64f00b88e8839741dd40ef28172ee4a4cb6044b4222b4592354ce7ff3765010f"
+        }
+      ]
+    },
+    {
+      "url": "https://www.asquareportal.com/",
+      "items": [
+        {
+          "id": "ref-asquareportal",
+          "canonicalId": "ref-asquareportal",
+          "title": "Asquareportal",
+          "role": "canonical",
+          "sourceSha256": "d8ab17391fe6c1e6ca8a8a452f0eed502d15de60ca1a5b9a8277878a9efb8ae4"
+        }
+      ]
+    },
+    {
+      "url": "https://pekingpeking.de/",
+      "items": [
+        {
+          "id": "ref-pekingpeking",
+          "canonicalId": "ref-pekingpeking",
+          "title": "PEKINGPEKING",
+          "role": "canonical",
+          "sourceSha256": "d389bc2fb7f92d294152ae7a3e891c5268f1945a000a45ff7b31687b4d82c8e2"
+        }
+      ]
+    },
+    {
+      "url": "https://studiocarlos.fr/",
+      "items": [
+        {
+          "id": "ref-studio-carlos",
+          "canonicalId": "ref-studio-carlos",
+          "title": "Studio Carlos",
+          "role": "canonical",
+          "sourceSha256": "dc80d2d991ff4df4c62f58f0c7248f9fd77bd8bf1382973f816318742f01624e"
+        }
+      ]
+    },
+    {
+      "url": "https://sordello.net/",
+      "items": [
+        {
+          "id": "ref-nicolas-sordello",
+          "canonicalId": "ref-nicolas-sordello",
+          "title": "Nicolas Sordello",
+          "role": "canonical",
+          "sourceSha256": "8b71d8cda2cc4b30a1c214ee6243c761285cf791b3f6fe2d223256e8cea25a26"
+        }
+      ]
+    },
+    {
+      "url": "https://bewegtbildgrafik.de/studio",
+      "items": [
+        {
+          "id": "ref-studio-bbg",
+          "canonicalId": "ref-studio-bbg",
+          "title": "Studio BBG",
+          "role": "canonical",
+          "sourceSha256": "8d8171dc0dce73b317cb74fe5ee88a055a2555964c83d048066cb8248606c4b6"
+        }
+      ]
+    },
+    {
+      "url": "https://ggfx.com.br/en/",
+      "items": [
+        {
+          "id": "ref-ggfx",
+          "canonicalId": "ref-ggfx",
+          "title": "GGfx",
+          "role": "canonical",
+          "sourceSha256": "505fb201332283da960fc2e088b9a1d3270e42dce69b35dc46835f2de70dd8a6"
+        }
+      ]
+    },
+    {
+      "url": "https://obj.studio/",
+      "items": [
+        {
+          "id": "ref-obj-studio",
+          "canonicalId": "ref-obj-studio",
+          "title": "OBJ.Studio",
+          "role": "canonical",
+          "sourceSha256": "cc0bff7cb2c423e80a93fdfeb97cccb22016add24deae9572bf5f5e4be85a532"
+        }
+      ]
+    },
+    {
+      "url": "https://vjsuave.com/",
+      "items": [
+        {
+          "id": "ref-vj-suave",
+          "canonicalId": "ref-vj-suave",
+          "title": "VJ Suave",
+          "role": "canonical",
+          "sourceSha256": "83533b47f0a1289d5c29e6fd1e89173a4f51146f3d2ad5fd485201ec93ac4d7c"
+        }
+      ]
+    },
+    {
+      "url": "https://www.julienlevy.studio/",
+      "items": [
+        {
+          "id": "ref-julien-levy",
+          "canonicalId": "ref-julien-levy",
+          "title": "Julien Levy",
+          "role": "canonical",
+          "sourceSha256": "320967cfde27ad3c2cd81df47d13f8ddf2c8e78dd77ecc8c3d3d5aa301cfdce3"
+        }
+      ]
+    },
+    {
+      "url": "https://geronimo-paris.fr/",
+      "items": [
+        {
+          "id": "ref-geronimo",
+          "canonicalId": "ref-geronimo",
+          "title": "GERONIMO",
+          "role": "canonical",
+          "sourceSha256": "974d62d1c4736aa39cc5ec922e4e8e96e30370a44bcc1c413e2ca8bfee2b0756"
+        }
+      ]
+    },
+    {
+      "url": "https://lurestudio.org/",
+      "items": [
+        {
+          "id": "ref-lure-studio",
+          "canonicalId": "ref-lure-studio",
+          "title": "LURE Studio",
+          "role": "canonical",
+          "sourceSha256": "63a4a052e867daf7dea999ab69a562d8ac8cfd8238491b94c0599c522ba8e07c"
+        }
+      ]
+    },
+    {
+      "url": "https://mostros.co/work/audiovisual-portfolio/",
+      "items": [
+        {
+          "id": "ref-mostros",
+          "canonicalId": "ref-mostros",
+          "title": "MOSTROS",
+          "role": "canonical",
+          "sourceSha256": "b450f1ee66ddce8e6c87e0e8cde7219b5132a26db7107688cb828e92b777e9f8"
+        }
+      ]
+    },
+    {
+      "url": "https://www.behance.net/zeofmotion",
+      "items": [
+        {
+          "id": "ref-ze-do-motion",
+          "canonicalId": "ref-ze-do-motion",
+          "title": "Ze do Motion",
+          "role": "canonical",
+          "sourceSha256": "a49194ac82427b6dd728fb22f0ac1426ee9ee4af385a8401177f6e8805fedd4f"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/JTech-CO/Motiongraphic",
+      "items": [
+        {
+          "id": "ref-jtech-co-motiongraphic",
+          "canonicalId": "ref-jtech-co-motiongraphic",
+          "title": "JTech-CO Motiongraphic",
+          "role": "canonical",
+          "sourceSha256": "39eb1cc65af06b2946104eb064dbcef4e23c6b1d34497ee36f179bb9af1da353"
+        }
+      ]
+    },
+    {
+      "url": "https://p5js.org/",
+      "items": [
+        {
+          "id": "ref-p5-js",
+          "canonicalId": "ref-p5-js",
+          "title": "p5.js",
+          "role": "canonical",
+          "sourceSha256": "de754b19e15b6c8ac17b8f40d33234173eb8a56754d00b8f3306ed41dae1c447"
+        }
+      ]
+    },
+    {
+      "url": "https://threejs.org/",
+      "items": [
+        {
+          "id": "ref-three-js",
+          "canonicalId": "ref-three-js",
+          "title": "Three.js",
+          "role": "canonical",
+          "sourceSha256": "b38b27ab461760bd8d1efd70b9f142d9193c1f141a22e943fef2121f6bb29284"
+        }
+      ]
+    },
+    {
+      "url": "https://www.shadertoy.com/",
+      "items": [
+        {
+          "id": "ref-shadertoy",
+          "canonicalId": "ref-shadertoy",
+          "title": "Shadertoy",
+          "role": "canonical",
+          "sourceSha256": "c17c7e91c22e1e628903d8c6f4f9fbffb32120ec5548b7caaf3581699e30d145"
+        }
+      ]
+    },
+    {
+      "url": "https://thebookofshaders.com/",
+      "items": [
+        {
+          "id": "ref-the-book-of-shaders",
+          "canonicalId": "ref-the-book-of-shaders",
+          "title": "The Book of Shaders",
+          "role": "canonical",
+          "sourceSha256": "a7e32e91782af7d1fb1c2aae91197830380a337ea3a5265d6b2de630df4a8de5"
+        }
+      ]
+    },
+    {
+      "url": "https://www.openprocessing.org/",
+      "items": [
+        {
+          "id": "ref-openprocessing",
+          "canonicalId": "ref-openprocessing",
+          "title": "OpenProcessing",
+          "role": "canonical",
+          "sourceSha256": "b956ad1fbc70a8c7171c52e5e15a37d789d1727a9a8485ba748fff26eceb6e00"
+        }
+      ]
+    },
+    {
+      "url": "https://rive.app/",
+      "items": [
+        {
+          "id": "ref-rive",
+          "canonicalId": "ref-rive",
+          "title": "Rive",
+          "role": "canonical",
+          "sourceSha256": "8da9ecfa7b0d63c5308c5517b978e91be8ed0b3e0aa91bd700d365aebe534ad3"
+        }
+      ]
+    },
+    {
+      "url": "https://www.shadergradient.co/",
+      "items": [
+        {
+          "id": "ref-shader-gradient",
+          "canonicalId": "ref-shader-gradient",
+          "title": "Shader Gradient",
+          "role": "canonical",
+          "sourceSha256": "0be7bf072585935047983dfb018490c05bec94c2df0b1dd115bba9dc5d8d456e"
+        }
+      ]
+    },
+    {
+      "url": "https://haikei.app/",
+      "items": [
+        {
+          "id": "ref-haikei",
+          "canonicalId": "ref-haikei",
+          "title": "Haikei",
+          "role": "canonical",
+          "sourceSha256": "1a7bcfdfa9d63e489720f76f57a1000efe49b33bb83b61a9d8f22249e4f60de5"
+        }
+      ]
+    },
+    {
+      "url": "https://animista.net/",
+      "items": [
+        {
+          "id": "ref-animista",
+          "canonicalId": "ref-animista",
+          "title": "Animista",
+          "role": "canonical",
+          "sourceSha256": "4a490e80a35675596fdcd56a1149738b43b36dad96527e6412954ce94d692950"
+        }
+      ]
+    },
+    {
+      "url": "https://easings.net/",
+      "items": [
+        {
+          "id": "ref-easings-cheat-sheet",
+          "canonicalId": "ref-easings-cheat-sheet",
+          "title": "Easings Cheat Sheet",
+          "role": "canonical",
+          "sourceSha256": "af3de6f7297dc5e7f8ef6ac65918cae776872f574e58ed0ddf71676b5805007d"
+        }
+      ]
+    },
+    {
+      "url": "https://coolors.co/",
+      "items": [
+        {
+          "id": "ref-coolors",
+          "canonicalId": "ref-coolors",
+          "title": "Coolors",
+          "role": "canonical",
+          "sourceSha256": "1771a244c0481a30aeb6d6653c0091144ea4705c2b6d035b1558729d223220a9"
+        }
+      ]
+    },
+    {
+      "url": "https://colorhunt.co/",
+      "items": [
+        {
+          "id": "ref-color-hunt",
+          "canonicalId": "ref-color-hunt",
+          "title": "Color Hunt",
+          "role": "canonical",
+          "sourceSha256": "376310c80f4fcaf8fac22321e031aec57d204d7e23b5eae15c16ef8356e5d2a3"
+        }
+      ]
+    },
+    {
+      "url": "https://color.adobe.com/create/color-wheel",
+      "items": [
+        {
+          "id": "ref-adobe-color-wheel",
+          "canonicalId": "ref-adobe-color-wheel",
+          "title": "Adobe Color Wheel",
+          "role": "canonical",
+          "sourceSha256": "863951df6ca24cf00323d93f97c565108bf6135696225f76dddc4a6c2c0ecda9"
+        }
+      ]
+    },
+    {
+      "url": "https://cssgradient.io/",
+      "items": [
+        {
+          "id": "ref-css-gradient",
+          "canonicalId": "ref-css-gradient",
+          "title": "CSS Gradient",
+          "role": "canonical",
+          "sourceSha256": "a454cb807948f97d08a504d1a9d9ac89b12c1f1d09c82012743de5e1b6391bfe"
+        }
+      ]
+    },
+    {
+      "url": "https://uigradients.com/",
+      "items": [
+        {
+          "id": "ref-uigradients",
+          "canonicalId": "ref-uigradients",
+          "title": "uiGradients",
+          "role": "canonical",
+          "sourceSha256": "17fbfdd34d96b9a04ec69e1dc70b0d06e1a6e28853d10baabdc0a7f860ca798a"
+        }
+      ]
+    },
+    {
+      "url": "https://www.meshgradients.com/",
+      "items": [
+        {
+          "id": "ref-mesh-gradients",
+          "canonicalId": "ref-mesh-gradients",
+          "title": "Mesh Gradients",
+          "role": "canonical",
+          "sourceSha256": "2a5b7b1070a8a1ae112bfa19510eaa7283b02a397828018ed5e728ddd4f9be42"
+        }
+      ]
+    },
+    {
+      "url": "https://mycolor.space/",
+      "items": [
+        {
+          "id": "ref-colorspace",
+          "canonicalId": "ref-colorspace",
+          "title": "ColorSpace",
+          "role": "canonical",
+          "sourceSha256": "307daa8826ffafbefcf7956449c4c19ae0419885c5d407b47e0350b2d6738b40"
+        }
+      ]
+    },
+    {
+      "url": "https://paletton.com/",
+      "items": [
+        {
+          "id": "ref-paletton",
+          "canonicalId": "ref-paletton",
+          "title": "Paletton",
+          "role": "canonical",
+          "sourceSha256": "fb542d99b9bc414653a7f67f58e3c3760ff56129ec458bfd93ffe706584cda51"
+        }
+      ]
+    },
+    {
+      "url": "https://gradient.shapefactory.co/",
+      "items": [
+        {
+          "id": "ref-shapefactory-gradient",
+          "canonicalId": "ref-shapefactory-gradient",
+          "title": "ShapeFactory Gradient",
+          "role": "canonical",
+          "sourceSha256": "82c18859cc0c2933ad0c5b3ef7cf4eb5b3f2641e774d792b030b55df8c1fd942"
+        }
+      ]
+    },
+    {
+      "url": "https://cubic-bezier.com/",
+      "items": [
+        {
+          "id": "ref-cubic-bezier",
+          "canonicalId": "ref-cubic-bezier",
+          "title": "Cubic Bezier",
+          "role": "canonical",
+          "sourceSha256": "b0acdcaf719a600d29d46330db7c7bea471c6a8317cad79a41fc14c4c75bc237"
+        }
+      ]
+    },
+    {
+      "url": "https://www.svgbackgrounds.com/",
+      "items": [
+        {
+          "id": "ref-svg-backgrounds",
+          "canonicalId": "ref-svg-backgrounds",
+          "title": "SVG Backgrounds",
+          "role": "canonical",
+          "sourceSha256": "c28daa6854611eb9b2aeb7abc770bb63e520dd68036b0d6c28fc849876ab951a"
+        }
+      ]
+    },
+    {
+      "url": "https://barba.js.org/docs/advanced/transitions/",
+      "items": [
+        {
+          "id": "ref-barba-transitions",
+          "canonicalId": "ref-barba-transitions",
+          "title": "Barba Transitions",
+          "role": "canonical",
+          "sourceSha256": "6e1345cc16478e0d753dcbf3246fa9223f76c80720e00d9c7f4183167f80083c"
+        }
+      ]
+    },
+    {
+      "url": "https://swup.js.org/",
+      "items": [
+        {
+          "id": "ref-swup",
+          "canonicalId": "ref-swup",
+          "title": "Swup",
+          "role": "canonical",
+          "sourceSha256": "7066778db669376b17535074dd3b440820773f1e827becc97e1ea40689e257b8"
+        }
+      ]
+    },
+    {
+      "url": "https://highway.js.org/",
+      "items": [
+        {
+          "id": "ref-highway",
+          "canonicalId": "ref-highway",
+          "title": "Highway",
+          "role": "canonical",
+          "sourceSha256": "5831a44085d2f9d166ff074d340512aa11af4cdd5347356e4452b5b65529a071"
+        }
+      ]
+    },
+    {
+      "url": "https://reactbits.dev/",
+      "items": [
+        {
+          "id": "ref-react-bits",
+          "canonicalId": "ref-react-bits",
+          "title": "React Bits",
+          "role": "canonical",
+          "sourceSha256": "02499735fedb990ccfedf4dd77db413a2000c3d2a6df554d250a9133305f7a23"
+        }
+      ]
+    },
+    {
+      "url": "https://magicui.design/",
+      "items": [
+        {
+          "id": "ref-magic-ui",
+          "canonicalId": "ref-magic-ui",
+          "title": "Magic UI",
+          "role": "canonical",
+          "sourceSha256": "af604944454f347b8e312eebfc8596fdaba7b2569304da48b4069b8ec35950d6"
+        }
+      ]
+    },
+    {
+      "url": "https://ui.aceternity.com/",
+      "items": [
+        {
+          "id": "ref-aceternity-ui",
+          "canonicalId": "ref-aceternity-ui",
+          "title": "Aceternity UI",
+          "role": "canonical",
+          "sourceSha256": "ae1f7d6846e73a277f1a80ab7b8974fe157d07913392f36ee5c000e7cab51a31"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/oframe/ogl",
+      "items": [
+        {
+          "id": "ref-ogl",
+          "canonicalId": "ref-ogl",
+          "title": "OGL",
+          "role": "canonical",
+          "sourceSha256": "030e03f9b47c0c75030240494f8343e81499336d5ec24dcd66970286af98f265"
+        }
+      ]
+    },
+    {
+      "url": "https://pixijs.com/",
+      "items": [
+        {
+          "id": "ref-pixijs",
+          "canonicalId": "ref-pixijs",
+          "title": "PixiJS",
+          "role": "canonical",
+          "sourceSha256": "230f8da4a22cceae4b939d44336c6abfca7e7410096ef4b16e45533d73de783f"
+        }
+      ]
+    },
+    {
+      "url": "https://shaders.com/",
+      "items": [
+        {
+          "id": "ref-shaders-webgpu",
+          "canonicalId": "ref-shaders-webgpu",
+          "title": "Shaders - WebGPU Effects & Design Editor",
+          "role": "canonical",
+          "sourceSha256": "6bcae0d379f601e87fe4456756110217e92c533edff4c1a4045b478bd43960a3"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/1.%20SpaceX%20Motion/index.html",
+      "items": [
+        {
+          "id": "jtech-spacex",
+          "canonicalId": "jtech-spacex",
+          "title": "SpaceX 2002–2026",
+          "role": "canonical",
+          "sourceSha256": "2ca53a51411a7f88678e51499906d3fe6f90a6e29f1a8fe710a917c6d5ac6897"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/2.%20Genesis%20Motion/index.html",
+      "items": [
+        {
+          "id": "jtech-genesis",
+          "canonicalId": "jtech-genesis",
+          "title": "Genesis 2015–2026",
+          "role": "canonical",
+          "sourceSha256": "bc3796d8fb8be5bb17e43bdaeb53445c622c6985e8ab147fecfe5285ec1fa343"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/3.%20DJI%20Motion/index.html",
+      "items": [
+        {
+          "id": "jtech-dji",
+          "canonicalId": "jtech-dji",
+          "title": "DJI 2006–2026",
+          "role": "canonical",
+          "sourceSha256": "8581fcc28193a1d95ada5f501a6f6677aa1bc1bf1a4b60addccd5c1026b1aaa8"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/4.%20Loopfield-Studio%20Motion/index.html",
+      "items": [
+        {
+          "id": "jtech-loopfield",
+          "canonicalId": "jtech-loopfield",
+          "title": "Loopfield Studio",
+          "role": "canonical",
+          "sourceSha256": "af02205a28b68ef5dcef65ca73246b249221a9fdd59e506c90159a6b398555fd"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/text-animate.tsx",
+      "items": [
+        {
+          "id": "asset-magicui-text-animate",
+          "canonicalId": "asset-magicui-text-animate",
+          "title": "Magic UI · Text Animate",
+          "role": "canonical",
+          "sourceSha256": "c1290150004b67af53284c1859da60506cfb43d8a92279f4d14932d23227b355"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/meteors.tsx",
+      "items": [
+        {
+          "id": "asset-magicui-meteors",
+          "canonicalId": "asset-magicui-meteors",
+          "title": "Magic UI · Meteors",
+          "role": "canonical",
+          "sourceSha256": "0ef9e0542f9aa1fd11ae1b0d09f057ba44ff1230b6b2396dc8ce9416dc8e2b68"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/shimmer-button.tsx",
+      "items": [
+        {
+          "id": "asset-magicui-shimmer-button",
+          "canonicalId": "asset-magicui-shimmer-button",
+          "title": "Magic UI · Shimmer Button",
+          "role": "canonical",
+          "sourceSha256": "c6912c78cd183fb061657be0ee57683c6d29a2e41075e66b948b610d2b5b3e3a"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/animated-beam.tsx",
+      "items": [
+        {
+          "id": "asset-magicui-animated-beam",
+          "canonicalId": "asset-magicui-animated-beam",
+          "title": "Magic UI · Animated Beam",
+          "role": "canonical",
+          "sourceSha256": "5c6415c12bbf713b316507f4ab06cb76aa827c1eb25eb0c8341f4016aa4b51f0"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/particles.tsx",
+      "items": [
+        {
+          "id": "asset-magicui-particles",
+          "canonicalId": "asset-magicui-particles",
+          "title": "Magic UI · Particles",
+          "role": "canonical",
+          "sourceSha256": "33082ad25c6e4cc6cf25e52f77a13d7e6681e3c48406182b703269b7c33738dc"
+        }
+      ]
+    },
+    {
+      "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/border-beam.tsx",
+      "items": [
+        {
+          "id": "asset-magicui-border-beam",
+          "canonicalId": "asset-magicui-border-beam",
+          "title": "Magic UI · Border Beam",
+          "role": "canonical",
+          "sourceSha256": "2ae9126739b992d5d37898262b24b0a421dec174442d72fabbb8337b762012e7"
+        }
+      ]
+    }
+  ]
+}

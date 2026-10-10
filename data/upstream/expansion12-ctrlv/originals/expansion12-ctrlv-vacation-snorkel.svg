@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Mask -->
+                <rect x="100" y="100" width="160" height="90" rx="30" fill="var(--secondary-color)"/>
+                <path d="M120 120 H240 C250 120 250 160 240 160 H200 A 20 20 0 0 0 160 160 H120 C110 160 110 120 120 120 Z" fill="white"/>
+                
+                <rect x="80" y="130" width="40" height="20" rx="5" fill="var(--charcoal)"/>
+                <rect x="240" y="130" width="40" height="20" rx="5" fill="var(--charcoal)"/>
+                <path d="M60 140 Q40 140 40 160 T60 180 L80 180" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                <path d="M300 140 Q320 140 320 160 T300 180 L280 180" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                
+                <!-- Snorkel -->
+                <path class="anim-bounce" d="M280 180 Q320 180 320 100 V40" stroke="var(--primary-color)" stroke-width="20" stroke-linecap="round" fill="none"/>
+                <rect x="305" y="30" width="30" height="20" rx="4" fill="var(--accent-color)"/>
+                
+                <path class="anim-pulse" d="M140 130 H170 M190 130 H220" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round"/>
+            </g>
+          </svg>

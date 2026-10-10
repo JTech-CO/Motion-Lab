@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <rect x="60" y="60" width="280" height="200" rx="10" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="8"/>
+                
+                <!-- Columns -->
+                <line x1="153" y1="60" x2="153" y2="260" stroke="var(--charcoal)" stroke-width="4"/>
+                <line x1="246" y1="60" x2="246" y2="260" stroke="var(--charcoal)" stroke-width="4"/>
+                
+                <!-- Headers -->
+                <rect x="70" y="70" width="73" height="15" rx="5" fill="var(--charcoal)" opacity="0.2"/>
+                <rect x="163" y="70" width="73" height="15" rx="5" fill="var(--charcoal)" opacity="0.2"/>
+                <rect x="256" y="70" width="73" height="15" rx="5" fill="var(--charcoal)" opacity="0.2"/>
+                
+                <!-- To Do Cards -->
+                <rect class="anim-pulse" style="animation-delay: 0.1s;" x="70" y="100" width="73" height="30" rx="5" fill="var(--secondary-color)"/>
+                <rect class="anim-pulse" style="animation-delay: 0.3s;" x="70" y="140" width="73" height="40" rx="5" fill="var(--primary-color)"/>
+                <rect class="anim-pulse" style="animation-delay: 0.5s;" x="70" y="190" width="73" height="20" rx="5" fill="var(--accent-color)"/>
+                
+                <!-- In Progress Cards -->
+                <rect class="anim-bounce" x="163" y="100" width="73" height="40" rx="5" fill="var(--primary-color)"/>
+                <rect class="anim-bounce" style="animation-delay: 0.2s;" x="163" y="150" width="73" height="30" rx="5" fill="var(--secondary-color)"/>
+                
+                <!-- Done Cards -->
+                <rect x="256" y="100" width="73" height="20" rx="5" fill="var(--accent-color)"/>
+                <path d="M280 110 L290 120 L310 100" stroke="var(--bg-surface)" stroke-width="3" stroke-linecap="round" fill="none"/>
+            </g>
+          </svg>

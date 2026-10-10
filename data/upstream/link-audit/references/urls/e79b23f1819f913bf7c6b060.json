@@ -1,0 +1,56 @@
+{
+  "url": "https://superfluidestudio.com/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://superfluidestudio.com/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://superfluidestudio.com/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://superfluidestudio.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://superfluidestudio.com/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:58.638486+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://superfluidestudio.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 33664,
+      "capturedSha256": "0ab1d54f97cfa96182634d33ff1f3e4f6714c3389a51212e1e68e1da4dc77be0",
+      "responseBodySha256": "0ab1d54f97cfa96182634d33ff1f3e4f6714c3389a51212e1e68e1da4dc77be0",
+      "title": "Superfluide. Motion Design Studio Paris",
+      "textCharacters": 971,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 2.362,
+      "captureCachePath": "exa-results/link-audit/references/captures/6139a03f590a0d309736d095.json",
+      "captureCacheSha256": "49d831632138041bbe2be29bf70d8ed5ff842f076b43c39bcb91ad53e9e8fdd3"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-superfluide",
+      "canonicalId": "ref-superfluide",
+      "title": "Superfluide",
+      "role": "canonical",
+      "sourceSha256": "64f00b88e8839741dd40ef28172ee4a4cb6044b4222b4592354ce7ff3765010f"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Browser Outline -->
+                <rect x="50" y="40" width="300" height="220" rx="8" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="6"/>
+                <line x1="50" y1="70" x2="350" y2="70" stroke="var(--charcoal)" stroke-width="4"/>
+                <circle cx="70" cy="55" r="4" fill="var(--charcoal)" opacity="0.3"/>
+                <circle cx="85" cy="55" r="4" fill="var(--charcoal)" opacity="0.3"/>
+                <circle cx="100" cy="55" r="4" fill="var(--charcoal)" opacity="0.3"/>
+                
+                <!-- Layout Blocks -->
+                <rect class="anim-draw" x="70" y="85" width="260" height="30" rx="4" fill="none" stroke="var(--primary-color)" stroke-width="4" stroke-dasharray="8 4"/>
+                <rect class="anim-draw" style="animation-delay: 0.2s;" x="70" y="130" width="120" height="100" rx="4" fill="none" stroke="var(--secondary-color)" stroke-width="4" stroke-dasharray="8 4"/>
+                <rect class="anim-draw" style="animation-delay: 0.4s;" x="210" y="130" width="120" height="40" rx="4" fill="none" stroke="var(--accent-color)" stroke-width="4" stroke-dasharray="8 4"/>
+                <rect class="anim-draw" style="animation-delay: 0.6s;" x="210" y="190" width="120" height="40" rx="4" fill="none" stroke="var(--primary-color)" stroke-width="4" stroke-dasharray="8 4"/>
+                
+                <!-- Placeholder Crosses -->
+                <path d="M70 130 L190 230 M190 130 L70 230" stroke="var(--secondary-color)" stroke-width="2" opacity="0.3"/>
+            </g>
+          </svg>

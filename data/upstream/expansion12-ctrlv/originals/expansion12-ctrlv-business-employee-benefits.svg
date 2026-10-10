@@ -1,0 +1,44 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Gift Box (Center Focus) -->
+                <g transform="translate(200, 160)">
+                    <g class="anim-bounce">
+                    <rect x="-40" y="-30" width="80" height="60" rx="4" fill="var(--secondary-color)"/>
+                    <rect x="-45" y="-40" width="90" height="20" rx="4" fill="var(--primary-color)"/>
+                    <rect x="-10" y="-40" width="20" height="70" fill="var(--accent-color)"/>
+                    
+                    <!-- Bow -->
+                    <path class="anim-pulse" d="M0 -40 C-30 -80 -60 -40 0 -40 C60 -40 30 -80 0 -40 Z" fill="var(--accent-color)"/>
+                </g>
+                </g>
+                
+                <!-- Health/Wellness Cross (Floating Left) -->
+                <g transform="translate(100, 100)">
+                    <g class="anim-pulse" style="animation-delay: 0.2s;">
+                    <path d="M-10 -30 H10 V-10 H30 V10 H10 V30 H-10 V10 H-30 V-10 H-10 Z" fill="var(--primary-color)"/>
+                </g>
+                </g>
+                
+                <!-- Heart/Care (Floating Right) -->
+                <g transform="translate(300, 100)">
+                    <g class="anim-pulse" style="animation-delay: 0.4s;">
+                    <path d="M0 15 C-40 -20 -20 -50 0 -30 C20 -50 40 -20 0 15 Z" fill="var(--accent-color)"/>
+                </g>
+                </g>
+                
+                <!-- Shield/Security (Bottom Left) -->
+                <g transform="translate(120, 220)">
+                    <g class="anim-pulse" style="animation-delay: 0.6s;">
+                    <path d="M-20 -20 L0 -30 L20 -20 v10 c0 20 -20 30 -20 30 c0 0 -20 -10 -20 -30 Z" fill="var(--secondary-color)"/>
+                </g>
+                </g>
+                
+                <!-- Umbrella/Coverage (Bottom Right) -->
+                <g transform="translate(280, 220)">
+                    <g class="anim-pulse" style="animation-delay: 0.8s;">
+                    <path d="M-30 0 A 30 30 0 0 1 30 0 H-30 Z" fill="var(--primary-color)"/>
+                    <path d="M0 0 V20 A 5 5 0 0 0 10 20" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round" fill="none"/>
+                </g>
+                </g>
+            </g>
+          </svg>

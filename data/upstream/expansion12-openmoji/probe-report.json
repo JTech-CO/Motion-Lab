@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-10",
+  "separateReserveNotFixedPilot": true,
+  "sourceRepository": "https://github.com/hfg-gmuend/openmoji",
+  "rightsReference": "https://github.com/hfg-gmuend/openmoji#license",
+  "attributionReference": "https://github.com/hfg-gmuend/openmoji#attribution-requirements",
+  "sourceJavaScriptExecuted": false,
+  "previewRendererSha256": "f96d0d7078ffe6aa189fce72723a1ee8dd2e8b2c475b628eb1f80bc2336b7151",
+  "robots": {
+    "url": "https://github.com/robots.txt",
+    "sha256": "12bc55582b1ddb8eb3300d9cb26b0421c9fc80193fc77e5f04862e934f8097db",
+    "repoPageAllowed": true,
+    "htmlTreeAllowed": false,
+    "officialApiRecommendedInRobots": true,
+    "route": "Official documented REST API and fixed-version published original data only; no HTML tree/raw/archive crawl.",
+    "htmlTreeDisallowRule": "Disallow: /*/tree/"
+  },
+  "stableRelease": "17.0.0",
+  "upstreamCommit": "f9fc506a3f913be9897ab0181d611d4c910a4104",
+  "accessStatus": "official-robots-and-repo-license-confirmed",
+  "graphicsLicense": "CC-BY-SA-4.0",
+  "codeLicense": "LGPL-3.0 not imported",
+  "sourceFiles": {
+    "LICENSE.txt": {
+      "artifactPath": "data/upstream/expansion12-openmoji/LICENSE.txt",
+      "sha256": "5e436ff8ffbb77d8607220e9bce20c8915d860010feeb6c1ebef5a85688e9b39",
+      "gitBlobSha": "cc3e2459dc5c46f1936b6e3b54137099063818e0",
+      "bytes": 20137
+    },
+    "README.md": {
+      "artifactPath": "data/upstream/expansion12-openmoji/README.md",
+      "sha256": "20ad1969e2dcf0a7ce0a7b6147927efa70126aced212fbb082d7236c2ce3fe7c",
+      "gitBlobSha": "94656abd3aeafadf5812f3b93117c7ddcdb690ad",
+      "bytes": 6128
+    },
+    "data/openmoji.json": {
+      "artifactPath": "data/upstream/expansion12-openmoji/data-openmoji.json",
+      "sha256": "ab181dd523021dfbe2b98a13d96ab384b7b3014d17815261bc267fb39d9a211b",
+      "gitBlobSha": "ce1e08c477abedf28513db1f1b65c5ae09002355",
+      "bytes": 2193231
+    }
+  },
+  "attribution": "OpenMoji / HfG Schwaebisch Gmuend; individual authors will be retained from official metadata.",
+  "shareAlikeBoundary": "Each original SVG, its provenance, full publisher notices and CC BY-SA-4.0 graphic license stay explicit. Project code and unrelated assets keep their own terms.",
+  "metadataRecords": 4495,
+  "metadataFields": [
+    "annotation",
+    "emoji",
+    "group",
+    "hexcode",
+    "openmoji_author",
+    "openmoji_date",
+    "openmoji_tags",
+    "order",
+    "skintone",
+    "skintone_base_emoji",
+    "skintone_base_hexcode",
+    "skintone_combination",
+    "subgroups",
+    "tags",
+    "unicode"
+  ],
+  "initialMetadataSample": [
+    {
+      "emoji": "😀",
+      "hexcode": "1F600",
+      "group": "smileys-emotion",
+      "subgroups": "face-smiling",
+      "annotation": "grinning face",
+      "tags": "cheerful, cheery, face, grin, grinning, happy, laugh, nice, smile, smiling, teeth",
+      "openmoji_tags": "smile, happy",
+      "openmoji_author": "Emily Jäger",
+      "openmoji_date": "2018-04-18",
+      "skintone": "",
+      "skintone_combination": "",
+      "skintone_base_emoji": "",
+      "skintone_base_hexcode": "",
+      "unicode": 1,
+      "order": 1
+    },
+    {
+      "emoji": "😃",
+      "hexcode": "1F603",
+      "group": "smileys-emotion",
+      "subgroups": "face-smiling",
+      "annotation": "grinning face with big eyes",
+      "tags": "awesome, big, eyes, face, grin, grinning, happy, mouth, open, smile, smiling, teeth, yay",
+      "openmoji_tags": "eyes, teeth",
+      "openmoji_author": "Emily Jäger",
+      "openmoji_date": "2018-04-18",
+      "skintone": "",
+      "skintone_combination": "",
+      "skintone_base_emoji": "",
+      "skintone_base_hexcode": "",
+      "unicode": 0.6,
+      "order": 2
+    },
+    {
+      "emoji": "😄",
+      "hexcode": "1F604",
+      "group": "smileys-emotion",
+      "subgroups": "face-smiling",
+      "annotation": "grinning face with smiling eyes",
+      "tags": "eye, eyes, face, grin, grinning, happy, laugh, lol, mouth, open, smile, smiling",
+      "openmoji_tags": "happy, teeth",
+      "openmoji_author": "Emily Jäger",
+      "openmoji_date": "2018-04-18",
+      "skintone": "",
+      "skintone_combination": "",
+      "skintone_base_emoji": "",
+      "skintone_base_hexcode": "",
+      "unicode": 0.6,
+      "order": 3
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "method": "Read-only isolated browser; JavaScript disabled; no authentication or challenge bypass",
+  "results": [
+    {
+      "url": "https://openclipart.org/",
+      "status": 500,
+      "bytes": 572,
+      "sha256": "1dbf44ad33bef078badd75a496d4974de756ae8354f6b9b7c143a67a35f21cef",
+      "visibleText": "500 Internal Server Error\nnginx"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Mystical aura -->
+            <ellipse class="anim-float" cx="200" cy="200" rx="120" ry="50" fill="none" stroke="var(--secondary-color)" stroke-width="2" opacity="0.4" stroke-dasharray="10 10"/>
+            <circle class="anim-pulse" cx="200" cy="120" r="80" fill="var(--secondary-color)" opacity="0.05"/>
+            <!-- Standing Stones (trilithons) -->
+            <g class="anim-bounce">
+                <!-- Left trilithon -->
+                <rect x="80" y="150" width="20" height="110" rx="2" fill="var(--primary-color)"/>
+                <rect x="120" y="140" width="20" height="120" rx="2" fill="var(--primary-color)"/>
+                <rect x="75" y="130" width="70" height="20" rx="2" fill="var(--primary-color)"/>
+                <!-- Right trilithon -->
+                <rect x="260" y="140" width="20" height="120" rx="2" fill="var(--primary-color)"/>
+                <rect x="300" y="150" width="20" height="110" rx="2" fill="var(--primary-color)"/>
+                <rect x="255" y="130" width="70" height="20" rx="2" fill="var(--primary-color)"/>
+                <!-- Center largest trilithon -->
+                <rect x="160" y="100" width="25" height="160" rx="2" fill="var(--primary-color)"/>
+                <rect x="215" y="100" width="25" height="160" rx="2" fill="var(--primary-color)"/>
+                <rect x="150" y="80" width="100" height="25" rx="3" fill="var(--primary-color)"/>
+            </g>
+            <!-- Single fallen/standing stones -->
+            <g transform="rotate(15 100 240)">
+                <rect class="anim-float" x="100" y="240" width="40" height="15" rx="2" fill="var(--charcoal)" opacity="0.3" />
+            </g>
+            <circle class="anim-glow" cx="200" cy="150" r="10" fill="var(--accent-color)" opacity="0.6"/>
+          </svg>

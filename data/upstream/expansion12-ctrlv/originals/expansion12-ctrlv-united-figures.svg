@@ -1,0 +1,10 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="anim-float">
+            <circle cx="150" cy="120" r="20" fill="var(--primary-color)"/>
+            <circle cx="200" cy="110" r="20" fill="var(--accent-color)"/>
+            <circle cx="250" cy="120" r="20" fill="var(--secondary-color)"/>
+            <path d="M120 220 Q150 140 180 220" fill="var(--primary-color)"/>
+            <path d="M170 210 Q200 130 230 210" fill="var(--accent-color)"/>
+            <path d="M220 220 Q250 144 280 220" fill="var(--secondary-color)"/>
+        </g>
+    </svg>

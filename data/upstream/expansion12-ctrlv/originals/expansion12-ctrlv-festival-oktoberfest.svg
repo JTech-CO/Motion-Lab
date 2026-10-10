@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="150" ry="12" fill="#E2E8F0"/>
+            <g class="anim-bounce">
+              <rect x="100" y="130" width="70" height="110" rx="8" fill="var(--primary-color)"/>
+              <path d="M170 145 Q190 145 190 165 Q190 185 170 185" stroke="var(--primary-color)" stroke-width="12" stroke-linecap="round" fill="none"/>
+              <path d="M95 130 Q110 110 125 130 Q140 110 155 130 Q170 110 180 130" fill="var(--bg-surface)" stroke="var(--bg-surface)" stroke-width="2"/>
+              <rect x="100" y="160" width="70" height="80" rx="4" fill="var(--accent-color)" opacity="0.7"/>
+              <rect x="230" y="140" width="70" height="100" rx="8" fill="var(--primary-color)"/>
+              <path d="M300 155 Q320 155 320 175 Q320 195 300 195" stroke="var(--primary-color)" stroke-width="12" stroke-linecap="round" fill="none"/>
+              <path d="M225 140 Q240 120 255 140 Q270 120 285 140 Q300 120 310 140" fill="var(--bg-surface)" stroke="var(--bg-surface)" stroke-width="2"/>
+              <rect x="230" y="165" width="70" height="75" rx="4" fill="var(--accent-color)" opacity="0.7"/>
+            </g>
+            <g class="anim-float">
+              <path d="M200 160 C185 160 175 175 175 190 C175 210 195 220 200 220 C205 220 215 210 215 190 C215 175 205 160 200 160Z" fill="none" stroke="var(--secondary-color)" stroke-width="14" stroke-linecap="round"/>
+            </g>
+          </svg>

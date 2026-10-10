@@ -1,0 +1,56 @@
+{
+  "url": "https://brand.github.com/motion/principles",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://brand.github.com/motion/principles",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://brand.github.com/motion/principles",
+      "allowedForAuditGet": true,
+      "reason": "robots-missing-not-a-license",
+      "robotsUrl": "https://brand.github.com/robots.txt",
+      "robotsStatus": 404
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://brand.github.com/motion/principles",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:48.800641+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://brand.github.com/motion/principles",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 128233,
+      "capturedSha256": "78c58e89904ca6654ef80a22bc8d90f906329999002f0f49747693e964d6653c",
+      "responseBodySha256": "78c58e89904ca6654ef80a22bc8d90f906329999002f0f49747693e964d6653c",
+      "title": "Overview - Brand Toolkit",
+      "textCharacters": 7369,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.288,
+      "captureCachePath": "exa-results/link-audit/references/captures/de35f3957340d3e64eddf0e6.json",
+      "captureCacheSha256": "d4450cb8e67a4d9998ab85d7d870a312061c72d04f1c51970896dca17a5323b5"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-github-brand-motion",
+      "canonicalId": "ref-github-brand-motion",
+      "title": "GitHub Brand Motion",
+      "role": "canonical",
+      "sourceSha256": "4af9e53708bafc800813cda5ab7fd692945bd440484af6856b7b5d35da910189"
+    }
+  ]
+}

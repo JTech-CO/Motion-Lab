@@ -1,0 +1,56 @@
+{
+  "url": "https://sailor.studio/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://sailor.studio/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://sailor.studio/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://sailor.studio/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://sailor.studio/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:57.876721+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://sailor.studio/",
+      "contentType": "text/html; charset=UTF-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "81019432ca9cd250dcebc86918214c2b0ccd7ff49a65f8b0d4f5fe214f10dc93",
+      "responseBodySha256": "81019432ca9cd250dcebc86918214c2b0ccd7ff49a65f8b0d4f5fe214f10dc93",
+      "title": "Sailor Studio | Animation, Design & Film",
+      "textCharacters": 3700,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 2.286,
+      "captureCachePath": "exa-results/link-audit/references/captures/13130077f2a25150da8326c7.json",
+      "captureCacheSha256": "3e00955d3514b1fbb221cf481275a8b2474080a879252c22b858830697b6e84e"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-sailor-studio",
+      "canonicalId": "ref-sailor-studio",
+      "title": "Sailor Studio",
+      "role": "canonical",
+      "sourceSha256": "4a38cee11f29392281b8492fae04646c4b7c78803c9b0bfc5a2c5d383194314a"
+    }
+  ]
+}

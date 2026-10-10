@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Bag Body -->
+                <path d="M120 160 L100 260 H300 L280 160 Z" fill="var(--primary-color)"/>
+                <!-- Flap -->
+                <path d="M120 160 L200 220 L280 160 Z" fill="var(--secondary-color)"/>
+                <!-- Handles -->
+                <path d="M150 160 C150 80 250 80 250 160" stroke="var(--charcoal)" stroke-width="12" stroke-linecap="round" fill="none"/>
+                <path d="M150 160 C150 80 250 80 250 160" stroke="var(--primary-color)" stroke-width="6" stroke-linecap="round" fill="none"/>
+                <!-- Clasp / Lock -->
+                <circle class="anim-pulse" cx="200" cy="220" r="15" fill="var(--accent-color)"/>
+                <rect x="195" y="215" width="10" height="10" fill="white"/>
+                <!-- Details -->
+                <path class="anim-glow" d="M105 240 H295" stroke="var(--accent-color)" stroke-width="4" opacity="0.5"/>
+            </g>
+          </svg>

@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <rect x="80" y="140" width="240" height="40" rx="5" fill="var(--primary-color)"/>
+                <rect class="anim-pulse" x="100" y="150" width="15" height="15" fill="var(--secondary-color)"/>
+                <rect class="anim-pulse" style="animation-delay: 0.2s;" x="130" y="150" width="15" height="15" fill="var(--secondary-color)"/>
+                <rect class="anim-pulse" style="animation-delay: 0.4s;" x="160" y="150" width="15" height="15" fill="var(--secondary-color)"/>
+                <rect class="anim-pulse" style="animation-delay: 0.6s;" x="190" y="150" width="15" height="15" fill="var(--secondary-color)"/>
+                <rect class="anim-pulse" style="animation-delay: 0.8s;" x="220" y="150" width="15" height="15" fill="var(--secondary-color)"/>
+                
+                <path class="anim-draw" d="M107 165 C107 200 60 220 60 260" stroke="var(--charcoal)" stroke-width="6" fill="none"/>
+                <path class="anim-draw" style="animation-delay: 0.2s;" d="M167 165 C167 220 140 240 140 280" stroke="var(--accent-color)" stroke-width="6" fill="none"/>
+                <path class="anim-draw" style="animation-delay: 0.4s;" d="M227 165 C227 200 280 220 280 260" stroke="var(--charcoal)" stroke-width="6" fill="none"/>
+                
+                <rect x="250" y="155" width="50" height="10" rx="2" fill="var(--bg-surface)"/>
+            </g>
+          </svg>

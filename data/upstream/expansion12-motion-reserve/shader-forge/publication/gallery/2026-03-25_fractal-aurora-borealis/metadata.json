@@ -1,0 +1,18 @@
+{
+  "theme": "Fractal Aurora Borealis",
+  "style_hints": "",
+  "references": [
+    "shabon-fx/AuroraWaves.frag",
+    "community/open-shaders/Others_ray_tracing_renderer_three_chunks_envMap.glsl",
+    "community/open-shaders/Engines_G3D_DeepGBuffer_BumpMap_BumpMap.glsl",
+    "community/WebGPU-Lab/src_scripts_raytrace_cloud.wgsl",
+    "community/three-js-chunks/emissivemap_pars_fragment.glsl"
+  ],
+  "attempts": 1,
+  "created_at": "2026-03-25T13:15:52.158241+00:00",
+  "glsl_lines": 79,
+  "success": true,
+  "status": "rejected",
+  "rejected_at": "2026-03-28T13:32:08.107213+00:00",
+  "rejected_comment": ""
+}

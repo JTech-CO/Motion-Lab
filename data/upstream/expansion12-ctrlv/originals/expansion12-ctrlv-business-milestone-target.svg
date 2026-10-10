@@ -1,0 +1,29 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Bullseye Board -->
+                <circle cx="200" cy="180" r="80" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="8"/>
+                <circle cx="200" cy="180" r="50" fill="var(--secondary-color)"/>
+                <circle cx="200" cy="180" r="20" fill="var(--accent-color)"/>
+                <path d="M120 180 H280 M200 100 V260" stroke="var(--charcoal)" stroke-width="4" opacity="0.2"/>
+                
+                <!-- Stand -->
+                <path d="M180 260 L140 320 H260 L220 260" fill="var(--charcoal)"/>
+                
+                <!-- Dart/Arrow 1 -->
+                <g transform="translate(130, 80) rotate(45)">
+                    <g class="anim-bounce" style="animation-delay: 0.4s;">
+                    <path d="M0 0 L0 50 L-10 60 L10 60 L0 50 Z" fill="var(--primary-color)"/>
+                    <line x1="0" y1="50" x2="0" y2="100" stroke="var(--charcoal)" stroke-width="6"/>
+                </g>
+                </g>
+                
+                <!-- Winning Dart in Center -->
+                <g transform="translate(200, 180) rotate(45)">
+                    <g class="anim-bounce">
+                    <path d="M0 -100 L0 -50 L-15 -40 L15 -40 L0 -50 Z" fill="var(--accent-color)"/>
+                    <line x1="0" y1="-50" x2="0" y2="0" stroke="var(--charcoal)" stroke-width="6"/>
+                    <path class="anim-pulse" d="M0 -30 L-30 -10 L0 -20 L30 -10 Z" fill="var(--primary-color)"/>
+                </g>
+                </g>
+            </g>
+          </svg>

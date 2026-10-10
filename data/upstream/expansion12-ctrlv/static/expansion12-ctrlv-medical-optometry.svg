@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            
+            <g>
+                
+                <rect x="120" y="40" width="160" height="220" rx="4" fill="#ffffff" stroke="#334155" stroke-width="4" />
+                
+                <rect x="140" y="30" width="120" height="10" fill="#f43f5e" />
+                
+                
+                
+                <path d="M180 80 H220 M200 80 V110" stroke="#6366f1" stroke-width="15" stroke-linecap="square" />
+                
+                <circle cx="170" cy="140" r="10" fill="none" stroke="#6366f1" stroke-width="8" />
+                <rect x="210" y="130" width="20" height="20" fill="none" stroke="#6366f1" stroke-width="8" />
+                
+                <path d="M150 180 L160 165 L170 180" fill="none" stroke="#6366f1" stroke-width="6" stroke-linejoin="round" />
+                <circle cx="200" cy="172" r="8" fill="none" stroke="#6366f1" stroke-width="6" />
+                <path d="M230 180 V165 H250 V180" fill="none" stroke="#6366f1" stroke-width="6" stroke-linejoin="round" />
+                
+                <path d="M140 205 H260 M140 215 H250 M140 225 H240 M140 235 H220" stroke="#334155" stroke-width="3" opacity="0.5" />
+            </g>
+            
+            <g>
+                
+                <path d="M60 180 Q100 120 180 180 Q200 190 220 180 Q300 120 340 180" fill="none" stroke="#DFD116" stroke-width="6" stroke-linecap="round" />
+                
+                
+                <circle cx="130" cy="180" r="35" fill="#ffffff" stroke="#334155" stroke-width="6" />
+                <circle cx="130" cy="180" r="28" fill="#f43f5e" opacity="0.2" />
+                
+                <circle cx="270" cy="180" r="35" fill="#ffffff" stroke="#334155" stroke-width="6" />
+                <circle cx="270" cy="180" r="28" fill="#f43f5e" opacity="0.2" />
+                
+                
+                <path d="M165 180 Q200 160 235 180" fill="none" stroke="#334155" stroke-width="6" />
+                
+                
+                <rect x="120" y="135" width="20" height="10" rx="3" fill="#6366f1" />
+                <rect x="260" y="135" width="20" height="10" rx="3" fill="#6366f1" />
+                
+                <path d="M165 210 V150 C165 120 180 110 200 110" stroke="#FFF" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.5" />
+            </g>
+          </svg>

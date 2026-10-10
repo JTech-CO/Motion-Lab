@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="anim-float" d="M120 180 Q200 100 280 180 T200 280 T120 180 Z" fill="var(--secondary-color)" opacity="0.1"/>
+            
+            <!-- Base Arches -->
+            <path d="M130 260 Q200 180 270 260" stroke="var(--primary-color)" stroke-width="8" fill="none"/>
+            <path d="M120 260 L140 200 H260 L280 260 Z" fill="none" stroke="var(--primary-color)" stroke-width="8"/>
+            <rect x="135" y="190" width="130" height="10" fill="var(--primary-color)"/>
+            
+            <!-- Middle Section -->
+            <path d="M150 190 L170 120 H230 L250 190 Z" fill="none" stroke="var(--primary-color)" stroke-width="6"/>
+            <rect x="165" y="110" width="70" height="10" fill="var(--primary-color)"/>
+            
+            <!-- Top Tower -->
+            <path d="M175 110 L195 40 H205 L225 110 Z" fill="var(--primary-color)"/>
+            <rect x="190" y="30" width="20" height="10" fill="var(--charcoal)" opacity="0.8"/>
+            <path class="anim-glow" d="M200 30 V10" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round"/>
+            <circle class="anim-pulse" cx="200" cy="5" r="4" fill="var(--accent-color)"/>
+            
+            <!-- Lattice work (abstracted) -->
+            <path class="anim-draw" d="M150 220 L250 220 M140 240 L260 240 M160 150 L240 150 M165 130 L235 130 M180 80 L220 80 M185 60 L215 60" stroke="var(--charcoal)" stroke-width="2" opacity="0.4"/>
+            <path class="anim-draw" d="M130 260 L170 190 M270 260 L230 190 M150 190 L190 110 M250 190 L210 110" stroke="var(--charcoal)" stroke-width="2" opacity="0.4"/>
+          </svg>

@@ -1,0 +1,56 @@
+{
+  "url": "https://motion.page/docs/sdk/motion-factory",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://motion.page/docs/sdk/motion-factory",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://motion.page/docs/sdk/motion-factory",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://motion.page/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://motion.page/docs/sdk/motion-factory",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:30.120644+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://motion.page/docs/sdk/motion-factory",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "7cabb8b41d5b761e1659c69d2a9fc31f7633df4131a6f5c9c62de583597bb2e1",
+      "responseBodySha256": "7cabb8b41d5b761e1659c69d2a9fc31f7633df4131a6f5c9c62de583597bb2e1",
+      "title": "Motion() Factory — Motion.page Docs",
+      "textCharacters": 36261,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.48,
+      "captureCachePath": "exa-results/link-audit/references/captures/bcbb2164f61f795c637d6a65.json",
+      "captureCacheSha256": "bf1a788662f3881dba20704c407f08c1e345b775a419488527330ec8e1e145f6"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-motion-page-sdk",
+      "canonicalId": "ref-motion-page-sdk",
+      "title": "Motion.page SDK",
+      "role": "canonical",
+      "sourceSha256": "2f1cc013acadd904297e6abce6c4f3dd12ecad5fb4c3a7f4e273f16f645b967b"
+    }
+  ]
+}

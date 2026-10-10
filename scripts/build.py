@@ -27,15 +27,29 @@ from motionlab.reference_review import (REVIEW_INPUTS, REMOVAL_INPUT, apply_refe
 
 WAVE_INPUTS = ("css-wave-items.json", "vector-wave-items.json", "color-wave-items.json",
                "phase2-motion-items.json", "phase2-design-items.json", "phase2-material-items.json",
-               "phase2-game-design-items.json")
+               "phase2-game-design-items.json", "expansion12-motion-items.json",
+               "expansion12-pattern-items.json", "expansion12-vector-items.json",
+               "expansion12-material-items.json", "expansion12-shape-items.json",
+               "expansion12-openmoji-items.json", "expansion12-ctrlv-items.json",
+               "expansion12-motion-reserve-items.json")
 
 
-def read_json(path, default):
+MAX_INPUT_JSON_BYTES = 100 * 1024 * 1024
+MAX_GENERATED_CATALOG_BYTES = 128 * 1024 * 1024
+
+
+def read_json(path, default, *, maximum_bytes=MAX_INPUT_JSON_BYTES):
+    if type(maximum_bytes) is not int or not 1 <= maximum_bytes <= MAX_GENERATED_CATALOG_BYTES:
+        raise ValueError("Invalid JSON byte limit")
     if not path.is_file():
         return default
-    if path.stat().st_size > 100 * 1024 * 1024:
-        raise ValueError(f"Input exceeds 100 MiB: {path.name}")
-    return json.loads(path.read_text(encoding="utf-8-sig"))
+    if path.stat().st_size > maximum_bytes:
+        raise ValueError(f"Input exceeds its {maximum_bytes}-byte limit: {path.name}")
+    with path.open("rb") as stream:
+        body = stream.read(maximum_bytes + 1)
+    if len(body) > maximum_bytes:
+        raise ValueError(f"Input exceeds its {maximum_bytes}-byte limit: {path.name}")
+    return json.loads(body.decode("utf-8-sig"))
 
 
 def canonical_url(value):
@@ -130,7 +144,7 @@ def project_url(value):
     segments = [part for part in parts.path.split("/") if part]
     if parts.hostname == "github.com" and len(segments) >= 2:
         return "https://github.com/" + "/".join(segments[:2]).casefold()
-    if parts.hostname in {"ambientcg.com", "polyhaven.com"}:
+    if parts.hostname in {"ambientcg.com", "polyhaven.com", "3dtextures.me", "kenney.nl"}:
         return "https://" + parts.hostname
     return canonical
 
@@ -305,7 +319,7 @@ def build(root=ROOT):
     remaining_ids = {item["id"] for item in baseline}
     removed_project_urls = {project_url(item["sourceUrl"]) for item in unfiltered_baseline
                             if item["id"] not in remaining_ids}
-    additions, expansion_report = merge_expansion(baseline, waves, validate_item)
+    additions, expansion_report = merge_expansion(baseline, waves, validate_item, root=root)
     # Distinct classes in a bundled source file can share a human-readable title.
     # Expansion identity is the stored body, never the bundle URL + title.
     items = analyze_items(baseline + additions)

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+        <g>
+            <path d="M120 180 Q100 100 200 80 Q300 100 280 200 Q250 240 150 220 Z" fill="#E2E8F0" />
+            <circle cx="160" cy="120" r="12" fill="#6366f1" />
+            <circle cx="210" cy="110" r="12" fill="#f43f5e" />
+            <circle cx="250" cy="150" r="12" fill="#DFD116" />
+            <circle cx="150" cy="180" r="12" fill="#334155" />
+        </g>
+        <g transform="translate(260, 240) rotate(-45)">
+            <g>
+                <rect x="-5" y="-60" width="10" height="60" fill="#334155" />
+                <path d="M-8 -60 L0 -80 L8 -60 Z" fill="#6366f1" />
+            </g>
+        </g>
+    </svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            
+            <rect x="0" y="150" width="400" height="150" fill="#f43f5e" opacity="0.15" rx="0" />
+
+            
+            <circle cx="340" cy="175" r="30" fill="none" stroke="#DFD116" stroke-width="3" opacity="0.5" />
+            <circle cx="340" cy="175" r="55" fill="none" stroke="#DFD116" stroke-width="2" opacity="0.3" />
+            <circle cx="340" cy="175" r="80" fill="none" stroke="#DFD116" stroke-width="1.5" opacity="0.2" />
+
+            
+            <circle cx="160" cy="120" r="5" fill="#ffffff" opacity="0.5" />
+            <circle cx="200" cy="100" r="3" fill="#ffffff" opacity="0.4" />
+            <circle cx="130" cy="110" r="4" fill="#ffffff" opacity="0.35" />
+
+            <g>
+                
+                <path d="M60 160 H340 C370 160 390 172 390 180 C390 188 370 200 340 200 H60 C30 200 20 188 20 180 C20 172 30 160 60 160 Z" fill="#6366f1" />
+
+                
+                <rect x="170" y="130" width="70" height="32" rx="8" fill="#6366f1" />
+                
+                <line x1="220" y1="130" x2="220" y2="100" stroke="#334155" stroke-width="5" stroke-linecap="round" />
+                <rect x="215" y="96" width="20" height="8" rx="3" fill="#334155" />
+
+                
+                <g fill="none" stroke="#f43f5e" stroke-width="4" opacity="0.6">
+                    <circle cx="120" cy="180" r="12" />
+                    <circle cx="165" cy="180" r="12" />
+                    <circle cx="250" cy="180" r="12" />
+                    <circle cx="295" cy="180" r="12" />
+                </g>
+
+                
+                <g>
+                    <ellipse cx="28" cy="162" rx="5" ry="14" fill="#334155" />
+                    <ellipse cx="28" cy="198" rx="5" ry="14" fill="#334155" />
+                </g>
+                <circle cx="28" cy="180" r="8" fill="#334155" />
+
+                
+                <path d="M40 192 L20 218 L50 210 Z" fill="#f43f5e" />
+                <path d="M40 168 L20 142 L50 150 Z" fill="#f43f5e" />
+            </g>
+          </svg>

@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Background Mountains -->
+            <path class="anim-float" d="M50 260 L100 120 L180 260 Z" fill="var(--secondary-color)" opacity="0.3"/>
+            <path class="anim-float" d="M250 260 L320 80 L380 260 Z" fill="var(--secondary-color)" opacity="0.2"/>
+            <!-- Main Peak -->
+            <path d="M120 260 L220 50 L300 260 Z" fill="var(--primary-color)"/>
+            <!-- Terraces -->
+            <path d="M150 260 L170 200 H250 L270 260 Z" fill="var(--primary-color)" opacity="0.8"/>
+            <path class="anim-draw" d="M165 220 H255 M160 240 H260 M170 200 H250 M175 180 H245" stroke="var(--charcoal)" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.2"/>
+            <!-- Tiny Temple/Houses -->
+            <rect class="anim-bounce" x="200" y="160" width="20" height="20" fill="var(--charcoal)" opacity="0.8"/>
+            <polygon points="195,160 210,140 225,160" fill="var(--charcoal)" opacity="0.8"/>
+            <rect class="anim-bounce" x="180" y="180" width="15" height="15" fill="var(--charcoal)" opacity="0.8" style="animation-delay: -0.5s"/>
+            <polygon points="175,180 187,165 200,180" fill="var(--charcoal)" opacity="0.8"/>
+            <circle class="anim-glow" cx="90" cy="80" r="8" fill="var(--accent-color)"/>
+          </svg>

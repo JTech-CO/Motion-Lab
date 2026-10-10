@@ -1,0 +1,26 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Confetti -->
+            <g transform="rotate(20 120 80)">
+                <rect class="anim-data" x="120" y="80" width="8" height="12" fill="var(--charcoal)" />
+            </g>
+            <circle class="anim-data" cx="280" cy="100" r="6" fill="var(--secondary-color)" style="animation-delay: -0.5s"/>
+            <g transform="rotate(-30 160 140)">
+                <rect class="anim-data" x="160" y="140" width="10" height="6" fill="var(--accent-color)"  style="animation-delay: -1s"/>
+            </g>
+            <circle class="anim-data" cx="240" cy="60" r="5" fill="var(--charcoal)" style="animation-delay: -1.5s"/>
+            
+            <!-- Character -->
+            <path d="M150 260 C150 200 170 180 200 180 H220 C250 180 270 200 270 260 V270 H150 V260 Z" fill="var(--primary-color)"/>
+            <circle cx="210" cy="150" r="28" fill="#94A3B8"/>
+            <path d="M200 150 Q210 160 220 150" stroke="white" stroke-width="3" stroke-linecap="round" fill="none"/>
+            
+            <!-- Cap -->
+            <path d="M170 120 L210 100 L250 120 L210 140 Z" fill="var(--primary-color)"/>
+            <path d="M210 120 Q230 130 240 150" stroke="var(--secondary-color)" stroke-width="2" fill="none"/>
+            
+            <!-- Diploma -->
+            <g class="anim-float">
+                <rect x="250" y="180" width="20" height="60" rx="4" fill="#F8FAFC" stroke="var(--slate-200)" stroke-width="2" transform="rotate(-15 250 180)"/>
+                <path d="M245 200 L265 195" stroke="var(--accent-color)" stroke-width="4" transform="rotate(-15 250 180)"/>
+            </g>
+          </svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <g transform="translate(60, 140)">
+                    
+                    <rect x="0" y="0" width="280" height="10" fill="#f43f5e" stroke="#334155" stroke-width="3" />
+                    <rect x="0" y="30" width="280" height="10" fill="#f43f5e" stroke="#334155" stroke-width="3" />
+                    <rect x="0" y="10" width="280" height="20" fill="#ffffff" opacity="0.5" />
+                    <line x1="0" y1="20" x2="280" y2="20" stroke="#334155" stroke-width="3" />
+                </g>
+                
+                
+                <g transform="translate(180, 40)">
+                    <rect x="0" y="0" width="40" height="220" fill="#6366f1" stroke="#334155" stroke-width="4" />
+                    
+                    <rect x="-10" y="-10" width="60" height="10" fill="#f43f5e" stroke="#334155" stroke-width="4" />
+                    <rect x="-10" y="220" width="60" height="10" fill="#f43f5e" stroke="#334155" stroke-width="4" />
+                    
+                    
+                    <line x1="20" y1="0" x2="20" y2="220" stroke="#334155" stroke-width="2" opacity="0.5" />
+                </g>
+                
+                
+                <g transform="translate(180, 140)">
+                    <circle cx="10" cy="10" r="4" fill="#334155" />
+                    <circle cx="30" cy="10" r="4" fill="#334155" />
+                    <circle cx="10" cy="30" r="4" fill="#334155" />
+                    <circle cx="30" cy="30" r="4" fill="#334155" />
+                </g>
+                
+                
+                <g transform="translate(280, 40)">
+<g>
+                    <line x1="0" y1="-40" x2="0" y2="60" stroke="#334155" stroke-width="4" />
+                    <path d="M-10 60 C-10 80 10 90 20 70 M20 70 L15 65" stroke="#334155" stroke-width="6" stroke-linecap="round" fill="none" />
+                </g>
+</g>
+            </g>
+          </svg>

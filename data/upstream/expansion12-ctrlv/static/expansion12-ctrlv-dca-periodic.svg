@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+        <g>
+            <circle cx="200" cy="150" r="100" stroke="#e2e8f0" stroke-width="2" stroke-dasharray="10 20" />
+        </g>
+        <g>
+            <circle cx="200" cy="50" r="15" fill="#6366f1" />
+            <circle cx="200" cy="250" r="15" fill="#6366f1" />
+            <circle cx="100" cy="150" r="15" fill="#6366f1" />
+            <circle cx="300" cy="150" r="15" fill="#6366f1" />
+        </g>
+        <text x="200" y="160" text-anchor="middle" font-family="Inter" font-weight="900" font-size="24" fill="#334155">MONTHLY</text>
+    </svg>

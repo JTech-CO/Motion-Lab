@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            
+            <path d="M60 40 C60 40 100 20 200 40 C300 60 340 40 340 40 V240 C340 240 300 260 200 240 C100 220 60 240 60 240 Z" fill="#334155" />
+            <path d="M80 60 C80 60 120 40 200 60 C280 80 320 60 320 60 V220 C320 220 280 240 200 220 C120 200 80 220 80 220 Z" fill="#6366f1" />
+            
+            
+            <g fill="#DFD116" opacity="0.5">
+                
+                <circle cx="120" cy="100" r="10" />
+                <path d="M115 90 V70 M120 90 V65 M125 90 V72 M130 95 V80 M110 95 L100 105" stroke="#DFD116" stroke-width="4" stroke-linecap="round" />
+                
+                <circle cx="300" cy="180" r="12" />
+                <path d="M295 168 V145 M300 168 V140 M305 168 V148 M310 172 V155 M288 172 L275 185" stroke="#DFD116" stroke-width="5" stroke-linecap="round" />
+            </g>
+
+            <g stroke="#f43f5e" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+                
+                <path d="M200 120 C220 100 250 110 260 130 C270 150 260 170 240 180 C210 190 180 180 170 160 C160 140 180 140 200 120 Z" />
+                
+                <path d="M180 130 Q160 110 170 100 M185 135 Q170 120 180 110" />
+                
+                <path d="M180 170 V200 M200 175 V205 M230 175 V205 M250 165 V195" />
+                
+                <path d="M260 150 Q280 150 270 170" />
+
+                
+                <path d="M100 160 L100 190 M100 190 L90 220 M100 190 L110 210 M100 170 L120 180 M100 170 L80 180" />
+                <circle cx="100" cy="150" r="10" fill="#f43f5e" />
+                
+                <path d="M80 160 L140 130 M140 130 L135 125 M140 130 L132 135" />
+            </g>
+          </svg>

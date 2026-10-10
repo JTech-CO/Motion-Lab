@@ -1,0 +1,35 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            
+            <!-- Light Beam -->
+            <path class="anim-glow" d="M220 140 L360 80 V200 Z" fill="var(--accent-color)" opacity="0.15"/>
+            <path d="M230 140 L360 100 V180 Z" fill="var(--secondary-color)" opacity="0.1"/>
+            
+            <!-- Projector Base -->
+            <rect x="100" y="200" width="80" height="40" rx="4" fill="var(--primary-color)"/>
+            <rect x="110" y="190" width="60" height="10" fill="var(--charcoal)" opacity="0.8"/>
+            <rect x="130" y="240" width="20" height="30" fill="var(--charcoal)"/>
+            
+            <!-- Main Body -->
+            <path d="M120 100 H160 V190 H120 Z" fill="var(--primary-color)"/>
+            <circle cx="140" cy="140" r="40" fill="var(--primary-color)"/>
+            
+            <!-- Film Reels -->
+            <g class="anim-rotate" >
+                <circle cx="140" cy="100" r="30" fill="none" stroke="var(--charcoal)" stroke-width="6"/>
+                <circle cx="140" cy="100" r="10" fill="var(--charcoal)"/>
+                <path d="M140 70 V130 M110 100 H170 M118 78 L162 122 M162 78 L118 122" stroke="var(--charcoal)" stroke-width="4"/>
+            </g>
+            <g class="anim-rotate" >
+                <circle cx="100" cy="160" r="25" fill="none" stroke="var(--charcoal)" stroke-width="6"/>
+                <circle cx="100" cy="160" r="8" fill="var(--charcoal)"/>
+                <path d="M100 135 V185 M75 160 H125 M82 142 L118 178 M118 142 L82 178" stroke="var(--charcoal)" stroke-width="4"/>
+            </g>
+            
+            <!-- Lens Tube -->
+            <path d="M180 130 H220 V150 H180 Z" fill="var(--charcoal)"/>
+            <rect x="210" y="125" width="10" height="30" rx="2" fill="var(--secondary-color)"/>
+            
+            <!-- Film strip routing -->
+            <path class="anim-data" d="M140 130 C160 160 100 130 100 135" stroke="var(--charcoal)" stroke-width="2" fill="none"/>
+            <circle class="anim-pulse" cx="140" cy="220" r="6" fill="var(--accent-color)"/>
+          </svg>

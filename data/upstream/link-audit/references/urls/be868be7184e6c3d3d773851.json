@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/2.%20Genesis%20Motion/index.html",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/2.%20Genesis%20Motion/index.html",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/2.%20Genesis%20Motion/index.html",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/2.%20Genesis%20Motion/index.html",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:15.110086+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/2.%20Genesis%20Motion/index.html",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 242198,
+      "capturedSha256": "5efd07d777fd5dd0bb9bf8f0883046195a7b45af034e3f201bc9d06741c03d02",
+      "responseBodySha256": "5efd07d777fd5dd0bb9bf8f0883046195a7b45af034e3f201bc9d06741c03d02",
+      "title": "Motiongraphic/2. Genesis Motion/index.html at 77fd0fadb3142c80038942802fcac71caeeba3d8 · JTech-CO/Motiongraphic · GitHub",
+      "textCharacters": 5057,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.546,
+      "captureCachePath": "exa-results/link-audit/references/captures/fbe47071f24cdb238cd9ec64.json",
+      "captureCacheSha256": "a369c1bdeb311eeee23188f30de8493a1de382202ca00e58614aeb24ea8f7621"
+    }
+  ],
+  "items": [
+    {
+      "id": "jtech-genesis",
+      "canonicalId": "jtech-genesis",
+      "title": "Genesis 2015–2026",
+      "role": "canonical",
+      "sourceSha256": "bc3796d8fb8be5bb17e43bdaeb53445c622c6985e8ab147fecfe5285ec1fa343"
+    }
+  ]
+}

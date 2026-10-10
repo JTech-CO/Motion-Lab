@@ -1,0 +1,14 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="anim-rotate" style="animation-duration: 10s">
+            <path d="M200 50 L220 130 L300 150 L220 170 L200 250 L180 170 L100 150 L180 130 Z" fill="url(#glowGradient)" opacity="0.6"/>
+        </g>
+        <g class="anim-pulse">
+            <circle cx="200" cy="150" r="30" fill="white" opacity="0.8"/>
+        </g>
+        <defs>
+            <radialGradient id="glowGradient" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="var(--primary-color)"/>
+                <stop offset="100%" stop-color="var(--secondary-color)"/>
+            </radialGradient>
+        </defs>
+    </svg>

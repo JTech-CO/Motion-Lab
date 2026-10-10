@@ -1,0 +1,56 @@
+{
+  "url": "https://shaders.com/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://shaders.com/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://shaders.com/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://shaders.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://shaders.com/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:07.251396+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://shaders.com/",
+      "contentType": "text/html;charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "52954e3e8ef1a38c3e5eb686f5ea7c707733fc6da8fc1f787fd507b635e9f854",
+      "responseBodySha256": "52954e3e8ef1a38c3e5eb686f5ea7c707733fc6da8fc1f787fd507b635e9f854",
+      "title": "Shaders: Open-source WebGPU shader components & free design editor",
+      "textCharacters": 4364,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 2.073,
+      "captureCachePath": "exa-results/link-audit/references/captures/fee3056a6c8a9cb02a3715da.json",
+      "captureCacheSha256": "93ae7ae44cc6afbf089db6f75ce019fd30ab1cfad2c09cdce1ee6aec806fee74"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-shaders-webgpu",
+      "canonicalId": "ref-shaders-webgpu",
+      "title": "Shaders - WebGPU Effects & Design Editor",
+      "role": "canonical",
+      "sourceSha256": "6bcae0d379f601e87fe4456756110217e92c533edff4c1a4045b478bd43960a3"
+    }
+  ]
+}

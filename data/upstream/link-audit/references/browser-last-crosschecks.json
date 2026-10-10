@@ -1,0 +1,25 @@
+{
+  "results": [
+    {
+      "url": "https://mafhper.github.io/nebula/",
+      "checkedAt": "2026-10-10T11:37:03.810457+00:00",
+      "method": "normal-isolated-Chrome-public-navigation",
+      "timeoutMs": 15000,
+      "authenticated": false,
+      "challengeBypass": false,
+      "headless": true,
+      "stealth": false,
+      "mediaDownloadsBlocked": true,
+      "httpStatus": 200,
+      "status": "navigation-completed",
+      "finalUrl": "https://mafhper.github.io/nebula/",
+      "title": "Nebula — WebGL effects for React",
+      "bodyCharacters": 5299,
+      "bodySha256": "151e9f5e4c1e059dc0da9083ca9cc04703838c8b9635ec5c34dca35a7d6779ed",
+      "canvasCount": 2,
+      "rawCachePath": "exa-results/link-audit/references/chrome-last/6acf326c4a74323cfe502078.json",
+      "rawCacheSha256": "b5690bdd44c9c1edf0fddfc06ea245f70d0e7d1cf60e6eb20b261d41c12616d6"
+    }
+  ],
+  "complete": false
+}

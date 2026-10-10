@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            
+            <g>
+                
+                <path d="M120 250 L140 160 M200 250 L180 160" stroke="#334155" stroke-width="6" stroke-linecap="round" />
+                <path d="M120 160 L140 250 M200 160 L180 250" stroke="#334155" stroke-width="6" stroke-linecap="round" />
+                <path d="M110 180 V100 M210 180 V100" stroke="#334155" stroke-width="6" stroke-linecap="round" />
+                
+                <rect x="110" y="100" width="100" height="30" fill="#6366f1" />
+                <path d="M120 160 C140 170 180 170 200 160" fill="none" stroke="#6366f1" stroke-width="20" stroke-linecap="round" />
+                
+                <polygon points="160,105 165,115 175,115 167,120 170,128 160,123 150,128 153,120 145,115 155,115" fill="white" />
+            </g>
+
+            
+            <g>
+                
+                <path d="M220 150 L320 110 V190 L220 150 Z" fill="#f43f5e" />
+                <path d="M220 150 L320 120 V180 L220 150 Z" fill="white" opacity="0.2" />
+                
+                <rect x="205" y="140" width="15" height="20" fill="#334155" />
+                
+                <rect x="250" y="150" width="10" height="30" rx="4" fill="#6366f1" transform="rotate(-20 250 150)" />
+            </g>
+            
+            
+            <path d="M340 110 C360 130 360 170 340 190" stroke="#DFD116" stroke-width="4" stroke-linecap="round" fill="none" />
+            <path d="M360 90 C390 120 390 180 360 210" stroke="#DFD116" stroke-width="4" stroke-linecap="round" fill="none" />
+          </svg>

@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="130" ry="10" fill="#E2E8F0"/>
+            <g class="anim-float">
+              <circle cx="200" cy="145" r="88" fill="var(--primary-color)"/>
+              <!-- Confident half-lid eyes -->
+              <path d="M158 128 H184 M216 128 H242" stroke="var(--bg-surface)" stroke-width="7" stroke-linecap="round"/>
+              <path d="M158 128 Q171 120 184 128 M216 128 Q229 120 242 128" stroke="var(--bg-surface)" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.5"/>
+              <!-- Raised eyebrow -->
+              <path d="M155 110 Q172 100 188 108 M212 108 Q228 100 245 108" stroke="var(--charcoal)" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.5"/>
+              <!-- Smug half-smile -->
+              <path d="M168 168 Q195 185 235 170" stroke="var(--bg-surface)" stroke-width="7" stroke-linecap="round" fill="none"/>
+            </g>
+            <!-- Crown / Medal above -->
+            <g class="anim-bounce" fill="var(--accent-color)">
+              <path d="M165 65 L175 40 L200 60 L225 40 L235 65 Z"/>
+              <rect x="162" y="62" width="76" height="12" rx="4" fill="var(--accent-color)"/>
+              <!-- Crown gems -->
+              <circle cx="200" cy="55" r="5" fill="var(--secondary-color)"/>
+              <circle cx="175" cy="55" r="3" fill="var(--secondary-color)"/>
+              <circle cx="225" cy="55" r="3" fill="var(--secondary-color)"/>
+            </g>
+          </svg>

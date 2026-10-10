@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            
+            <circle cx="100" cy="80" r="3" fill="white" />
+            <circle cx="140" cy="40" r="2" fill="white" />
+            <circle cx="350" cy="100" r="4" fill="#6366f1" opacity="0.5" />
+            <circle cx="300" cy="50" r="2" fill="white" />
+            
+            
+            <g>
+                <circle cx="80" cy="100" r="30" fill="#f43f5e" />
+                <path d="M40 110 Q80 130 120 90" stroke="#DFD116" stroke-width="6" stroke-linecap="round" fill="none" />
+                <path d="M45 100 Q80 120 115 80" stroke="#6366f1" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.5" />
+            </g>
+
+            
+            <g>
+                <path d="M250 180 L200 260 M250 180 L250 260 M250 180 L300 260" stroke="#334155" stroke-width="6" stroke-linecap="round" />
+                <path d="M220 220 H280" stroke="#334155" stroke-width="4" />
+            </g>
+            
+            
+            <g>
+                <path d="M140 120 L320 180 L330 150 L150 90 Z" fill="#6366f1" />
+                
+                <path d="M145 105 L160 150" stroke="#f43f5e" stroke-width="8" stroke-linecap="round" />
+                <path d="M215 130 L230 175" stroke="white" stroke-width="4" stroke-linecap="round" opacity="0.4" />
+                <path d="M295 155 L310 200" stroke="white" stroke-width="4" stroke-linecap="round" opacity="0.4" />
+                
+                
+                <rect x="315" y="160" width="25" height="15" rx="2" fill="#334155" transform="rotate(18 315 160)" />
+            </g>
+            
+            
+            <path d="M140 100 L90 100" stroke="#DFD116" stroke-width="4" stroke-linecap="round" stroke-dasharray="4 8" fill="none" />
+          </svg>

@@ -1,0 +1,56 @@
+{
+  "url": "https://atlassian.design/foundations/motion",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://atlassian.design/foundations/motion",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://atlassian.design/foundations/motion",
+      "allowedForAuditGet": true,
+      "reason": "robots-missing-not-a-license",
+      "robotsUrl": "https://atlassian.design/robots.txt",
+      "robotsStatus": 404
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://atlassian.design/foundations/motion",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:47.833214+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://atlassian.design/foundations/motion",
+      "contentType": "text/html",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "c50958c1c8cb0e7bd8898b37ab35a4b0a790c98606a7672a77e0f48ec04f6763",
+      "responseBodySha256": "c50958c1c8cb0e7bd8898b37ab35a4b0a790c98606a7672a77e0f48ec04f6763",
+      "title": "Overview - Motion - Atlassian Design",
+      "textCharacters": 2780,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.142,
+      "captureCachePath": "exa-results/link-audit/references/captures/80be27bb70817088151786d6.json",
+      "captureCacheSha256": "80cd6f5abc9e43ec697a2cf51274614fb64db2de17d30ce3d0815e731ea2a737"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-atlassian-motion",
+      "canonicalId": "ref-atlassian-motion",
+      "title": "Atlassian Motion",
+      "role": "canonical",
+      "sourceSha256": "ce82faa3dc08d83cb4d0ca835cda0bb537e6deeb38033462a314e442c1bb2ce2"
+    }
+  ]
+}

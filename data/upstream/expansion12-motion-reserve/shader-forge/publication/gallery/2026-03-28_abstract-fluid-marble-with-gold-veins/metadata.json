@@ -1,0 +1,27 @@
+{
+  "theme": "abstract fluid marble with gold veins",
+  "style_hints": "",
+  "references": [
+    "shabon-fx/LiquidMetalBlob.frag [lighting,postprocess,raymarching,reflection]",
+    "shabon-fx/DNAHelix.frag [color_palette,grid,lighting,postprocess,raymarching,volumetric]",
+    "shabon-fx/FluidSimulation.frag [fractal,grid,noise,postprocess]",
+    "shabon-fx/CrystalOrb.frag [color_palette,lighting,matrix,postprocess,raymarching,reflection]",
+    "wgsl-art/fluid/src/sph/3d/common/shaders/pressure.wgsl/pressure.wgsl [color_palette,grid,particles]"
+  ],
+  "attempts": 1,
+  "created_at": "2026-03-28T13:24:27.967959+00:00",
+  "glsl_lines": 124,
+  "success": true,
+  "target": "wgsl",
+  "design_brief": "**Implementation Guide: Abstract Fluid Marble with Gold Veins (WebGL1/GLSL ES 1.00)**  \n\n1. **Architecture**:  \n   ```glsl\n   void main() {\n     vec2 uv = vUv * 2.0 - 1.0;\n     uv.x *= uResolution.x / uResolution.y;\n     vec3 col = marbles(uv, uTime);\n     gl_FragColor = vec4(col, 1.0);\n   }\n   ```  \n   `marbles()` returns RGB — no early return; fill screen with full-coverage flow.\n\n2. **Key functions**:  \n   - `vec2 curl(vec2 p, float t)` — divergence-free flow (use `ref #3`'s `noise()` + `hash()`, then ∂y/∂x twist)  \n   - `float fbm(vec2 p)` — layered `noise()` (4–6 octaves, gain 0.5, lacunarity 2.0)  \n   - `vec3 marbles(vec2 uv, float t)` — main: domain-warp `uv` via curl flow → sample `fbm()` → remap to gold veins (see #3’s FBM + contrast boost)\n\n3. **Reuse patterns**:  \n   - `noise()` + `hash()` from **ref #3** (WebGL1-safe, no extensions)  \n   - FBM loop structure from **ref #3**  \n   - `smin()` from **ref #1/2** for blending gold veins (optional, if adding multiple strands)\n\n4. **Color & brightness**:  \n   - Base: warm gold `mix(vec3(1.0, 0.8, 0.2), vec3(1.0, 0.5, 0.0), fbm)`  \n   - Veins: `pow(fbm, 8.0) * vec3(1.0, 0.7, 0.1)` — high contrast, bright  \n   - Add subtle white highlight: `+ pow(fbm, 12.0)`  \n   - Tone-map with `1.0 - exp(-col * 1.5)` for vibrant, non-clipped output.\n\n5. **Animation**:  \n   - Driven by `uTime * 0.4` (moderate speed: 0.2–0.6 range)  \n   - No looping needed — curl noise + FBM is inherently non-repeating  \n   - Domain-warp `uv` with `curl(uv * 0.8, t)` for organic swirls.\n\n6. **Pitfalls**:  \n   - ❌ No `fwidth`/`dFdx` — avoid anti-aliasing via supersampling (too expensive); use smooth `clamp()`/`mix()` instead  \n   - ❌ No bitwise ops — use `fract()`/`sin()` for hashing (as in ref #3)  \n   - ✅ Always normalize `uv` by aspect ratio (prevents oval blobs)  \n   - ✅ Clamp noise inputs to avoid banding: `p = fract(p * 0.5) * 2.0 - 1.0`",
+  "review": {
+    "visual_complexity": 4,
+    "code_quality": 4,
+    "theme_match": 5,
+    "animation": 5,
+    "originality": 4,
+    "total": 22,
+    "verdict": "pass",
+    "feedback": "Excellent fluid marble implementation with gold veins using curl noise, domain warping, and layered FBM; animation is rich and multi-layered. However, vignetting and tone mapping cause significant darkening in corners and midtones—reduce vignette strength and adjust tone mapping to improve full-canvas visibility."
+  }
+}

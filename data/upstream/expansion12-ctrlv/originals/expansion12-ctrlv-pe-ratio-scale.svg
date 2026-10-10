@@ -1,0 +1,12 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line x1="100" y1="220" x2="300" y2="220" stroke="var(--charcoal)" stroke-width="4"/>
+        <g class="anim-bounce">
+            <rect x="120" y="140" width="60" height="80" rx="4" fill="var(--primary-color)" opacity="0.6"/>
+            <text x="150" y="240" text-anchor="middle" font-family="Inter" font-weight="900" font-size="14" fill="var(--primary-color)">PRICE</text>
+        </g>
+        <g class="anim-bounce" style="animation-delay: -0.5s">
+            <rect x="220" y="180" width="60" height="40" rx="4" fill="var(--secondary-color)" opacity="0.6"/>
+            <text x="250" y="240" text-anchor="middle" font-family="Inter" font-weight="900" font-size="14" fill="var(--secondary-color)">EPS</text>
+        </g>
+        <path class="anim-pulse" d="M180 120 L220 120" stroke="var(--border-color)" stroke-width="2" stroke-dasharray="4 4"/>
+    </svg>

@@ -1,0 +1,3495 @@
+{
+  "methodology": {
+    "scope": "Stored GLSL programs and current host uniform defaults.",
+    "exact": "Comments/whitespace removed; consistently rename declared nonbuiltin identifiers; preserve operators, axes, numeric literal types, calls and default values.",
+    "candidate": "All pairs inspected; numeric-only skeleton matches are families; otherwise length ratio >=0.8, five-token shingle Dice >=0.8 and token sequence ratio >=0.85.",
+    "limitations": [
+      "No shader execution or image/pixel equivalence is claimed.",
+      "Identifier renaming is conservative lexical normalization, not algebraic symbolic proof.",
+      "Numeric changes can reverse direction or materially change geometry, so they are not automatically near duplicates."
+    ]
+  },
+  "coverage": {
+    "itemCount": 194,
+    "pairUniverse": 18721,
+    "comparedPairs": 18721,
+    "parsedItems": 194
+  },
+  "items": [
+    {
+      "id": "expansion12-shaderforge-2026-03-25_synthwave-horizon-glsl",
+      "codeSha256": "f065336a90491cec069ad7996850824b718af6185e06d2650906282cd14e67a4",
+      "canonicalSha256": "3b1409acba0c0ffd840c65a9d83611a307af96965c6b04ae98f8aa02232b299f",
+      "tokenCount": 940,
+      "uniformDefaults": [
+        [
+          "vec2",
+          "v2",
+          [
+            320.0,
+            200.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "expansion12-shaderforge-2026-03-27_liquid-chrome-morphing-abstract-sculpture-glsl",
+      "codeSha256": "ed8855d38f21334eced28f2c590088860dbb96330306c43ff064b8d0d8cbb968",
+      "canonicalSha256": "487a6f40d4f543e6047dbdcdf8cd212fb342904cc1913e2fac734d96c6d02d14",
+      "tokenCount": 916,
+      "uniformDefaults": [
+        [
+          "vec2",
+          "v2",
+          [
+            320.0,
+            200.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "expansion12-shaderforge-2026-03-27_neon-cyberpunk-rain-on-wet-street-glsl",
+      "codeSha256": "3576864afa773ce58acf8a6a539cc3349d9de2dd64e4c937863befe3f435a70a",
+      "canonicalSha256": "179f8016d01b046c409c6812a8524e75412d07c95039b6309e5eb83058492d8a",
+      "tokenCount": 753,
+      "uniformDefaults": [
+        [
+          "vec2",
+          "v2",
+          [
+            320.0,
+            200.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "expansion12-shaderforge-2026-03-27_neon-fluid-fractals-glsl",
+      "codeSha256": "8c33061b648c981ebd62bc6dc100462f63f6ad6b01d4985bd88ce1d19e47bb8a",
+      "canonicalSha256": "0eb3067f1867de4bb257d8b106d8c081108acad7caa34fb61b74b8c7cffa5acf",
+      "tokenCount": 757,
+      "uniformDefaults": [
+        [
+          "vec2",
+          "v2",
+          [
+            320.0,
+            200.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "expansion12-shaderforge-2026-03-27_simple-plasma-wave-glsl",
+      "codeSha256": "af5026e6c462a10167011d44a6d09a5f617afe3d5a859a82686973432dde78f4",
+      "canonicalSha256": "a4c467a93b5c14ed7c48f43c18215998e468cc8fbfe54e76fa19a1e861810135",
+      "tokenCount": 318,
+      "uniformDefaults": [
+        [
+          "vec2",
+          "v2",
+          [
+            320.0,
+            200.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "expansion12-shaderforge-2026-03-27_vibrant-plasma-energy-field-with-electric-arcs-glsl",
+      "codeSha256": "0e0447400976a3c2a7cb9a94c5c103a66a6c1e37b826f48890be456b2643c5da",
+      "canonicalSha256": "0de84e8ea336952f6b1bd7e69a45d461d7e5715e90b1889b3bec653d162c16fb",
+      "tokenCount": 483,
+      "uniformDefaults": [
+        [
+          "vec2",
+          "v2",
+          [
+            320.0,
+            200.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "expansion12-shaderforge-2026-03-28_abstract-voronoi-crystal-growth-animation-glsl",
+      "codeSha256": "a776a1e8f68faf9d3cfc61000c9212642d27703a8f1d6cddb799e1544562f974",
+      "canonicalSha256": "83a561ccf281794fb5ffb4a5fa0704867001c5726e1027dd1d73e2a87f9efc09",
+      "tokenCount": 426,
+      "uniformDefaults": [
+        [
+          "vec2",
+          "v2",
+          [
+            320.0,
+            200.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "expansion12-shaderforge-2026-03-28_cosmic-jellyfish-nebula-floating-in-space-glsl",
+      "codeSha256": "b0e3b01952390c6b24a2a77e0ee02ace6023c0a0ea96e3dc1afbf81fc8f728af",
+      "canonicalSha256": "45351d7b43336b2d1e4366b4a8a9b398b1e71177cedc674b0b8d1042cff6ccb7",
+      "tokenCount": 1072,
+      "uniformDefaults": [
+        [
+          "vec2",
+          "v2",
+          [
+            320.0,
+            200.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "expansion12-shaderforge-2026-03-28_electric-storm-with-branching-lightning-glsl",
+      "codeSha256": "fbf71edc18feae7a3c17c3821bed5af57cfb5c62a4db8ddb167067b9d4211a92",
+      "canonicalSha256": "5085c65e0467ee976bc8a3b42eaa9e3561ba561fb0089a6b3a3a9734f4431022",
+      "tokenCount": 609,
+      "uniformDefaults": [
+        [
+          "vec2",
+          "v2",
+          [
+            320.0,
+            200.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "expansion12-shaderforge-2026-03-28_ethereal-aurora-borealis-with-raymarched-mountains-glsl",
+      "codeSha256": "b0e3b01952390c6b24a2a77e0ee02ace6023c0a0ea96e3dc1afbf81fc8f728af",
+      "canonicalSha256": "45351d7b43336b2d1e4366b4a8a9b398b1e71177cedc674b0b8d1042cff6ccb7",
+      "tokenCount": 1072,
+      "uniformDefaults": [
+        [
+          "vec2",
+          "v2",
+          [
+            320.0,
+            200.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "expansion12-shaderforge-2026-03-28_iridescent-soap-bubble-close-up-with-thin-film-interference-glsl",
+      "codeSha256": "0f0630ea231c0b0485e84ba93e9f13784a9e3547ec72e355819ec38d9ed692fb",
+      "canonicalSha256": "64bc5e8329e17de534bebceb27c156698267f7be6ea91b2bbf36d213f1fb1e70",
+      "tokenCount": 1263,
+      "uniformDefaults": [
+        [
+          "vec2",
+          "v2",
+          [
+            320.0,
+            200.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "expansion12-shaderforge-2026-03-28_neon-synthwave-grid-with-glowing-sun-glsl",
+      "codeSha256": "ea41b98bffd68e74050ce2049019c49fbd8eed92062109bf6342b21fe1c7c950",
+      "canonicalSha256": "249112fd2de1b4fc5a113a36e4a8bdcdef3ecf5be1a41e804424420fe766b4e5",
+      "tokenCount": 844,
+      "uniformDefaults": [
+        [
+          "vec2",
+          "v2",
+          [
+            320.0,
+            200.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "expansion12-shaderforge-2026-03-28_neon-wireframe-landscape-with-retro-synthwave-sun-glsl",
+      "codeSha256": "12085ab326f64882649e1a8b098fe90c1ddfdbb5636f4f502eaf6335cade86fc",
+      "canonicalSha256": "91a78e7e8721b9c9f314e8fcdd67fa1235e737f8ce3ab2c452af5d6f9a6859f0",
+      "tokenCount": 956,
+      "uniformDefaults": [
+        [
+          "vec2",
+          "v2",
+          [
+            320.0,
+            200.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "expansion12-shaderforge-2026-03-29_fractal-mandelbrot-deep-zoom-with-electric-colors-glsl",
+      "codeSha256": "31e4839e180fc8035f2d3df934a982b44be393553a08c4dc493496597e1cae9d",
+      "canonicalSha256": "8eb8bccd28b15b0612eaac16cb5577719dd3bd2d6b46b96f03c1481eb417bf1a",
+      "tokenCount": 470,
+      "uniformDefaults": [
+        [
+          "vec2",
+          "v2",
+          [
+            320.0,
+            200.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "expansion12-shaderforge-2026-03-29_raymarched-infinite-tunnel-with-neon-lights-glsl",
+      "codeSha256": "0dad58531c7083c0ca3ea4c768cea1917a6be9726434df683475a0fcfea0c85f",
+      "canonicalSha256": "f6d1031c339541c3b322e39b2f24282eaa118def8870a9c35e627f67c63b42c0",
+      "tokenCount": 575,
+      "uniformDefaults": [
+        [
+          "vec2",
+          "v2",
+          [
+            320.0,
+            200.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "expansion12-shaderforge-2026-03-29_seascape-ocean-waves-with-foam-and-sun-reflection-glsl",
+      "codeSha256": "35864e8f2d413d79402dcb5ecc97602111bee37fa889f3d6092046f376507bd3",
+      "canonicalSha256": "c06f6a757a90767385141bcd748024339b3c2f730e8d9864bc6c7813b620b0c0",
+      "tokenCount": 906,
+      "uniformDefaults": [
+        [
+          "vec2",
+          "v2",
+          [
+            320.0,
+            200.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "expansion12-shaderforge-2026-03-29_volumetric-clouds-with-god-rays-at-sunset-glsl",
+      "codeSha256": "06c9f014475f0de5169bb1c7086c60d693bc6f81c5891ecd1190cee8bea45eef",
+      "canonicalSha256": "130f2773ea1eb28e4a45ccd1a23802671734e7e1959d53bb7fa8901b194396c5",
+      "tokenCount": 859,
+      "uniformDefaults": [
+        [
+          "vec2",
+          "v2",
+          [
+            320.0,
+            200.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-advancedmosaic",
+      "codeSha256": "0affe1a5ec5bf3451e5ccac3e456f0c775c70488f140350c23c2414884fc3c5d",
+      "canonicalSha256": "a0f86030beaa40607bdb2d27f6d83e9ab2d48e032555f8996076babf195910cf",
+      "tokenCount": 124,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            50.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-angular",
+      "codeSha256": "c44f5019c8163045ff54e1b32cd8ecce77632f1dc614876385bc74ed079e08cd",
+      "canonicalSha256": "557547a809e2d4aa9eccd385a1c7f16797a4ac356c65a53e79af72bb3f0bfc09",
+      "tokenCount": 90,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            90.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-blockdissolve",
+      "codeSha256": "3c5ff21627dc8ab470e16e6f5f917c5a596a7018b0f8467defdde115e02c2e63",
+      "canonicalSha256": "20d0a2d7bd149db4e925ab3dd2f96be13ff25c3da86372fbe6139913333c1072",
+      "tokenCount": 70,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            0.02
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-bookflip",
+      "codeSha256": "23dbb4648973ff0359468f40cf579a38997d087af45571f872c3a3cd3f1ac0d5",
+      "canonicalSha256": "5e4b0be18d3973169cdd2bc74d4b3c76e8532c0a5858c35d5c75c79b1874f885",
+      "tokenCount": 253,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-bounce",
+      "codeSha256": "69e75c9dcff1bbe955396cf78aba652cea814fd17d3cd44475e751c0881a97a8",
+      "canonicalSha256": "a23882b7bd4dea7271ca5983988e5b78b07b2ae573d6b2dfd950c6beeabfc0cf",
+      "tokenCount": 166,
+      "uniformDefaults": [
+        [
+          "vec4",
+          "v0",
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.6
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            0.075
+          ]
+        ],
+        [
+          "float",
+          "v2",
+          [
+            3.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-bowtiehorizontal",
+      "codeSha256": "d55ccb94783dcd7223af5982a0ef5af3dc74ac41dec90c5f454655d8d60ec98e",
+      "canonicalSha256": "465097439f92cffa88bfed281de20b5a6a901e8fe29b4e15394d0461b5b1a2d8",
+      "tokenCount": 678,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-bowtievertical",
+      "codeSha256": "7f6471b19eff5d581eacdaa7d60943d38440d81a42b74291d18fe5392db19b50",
+      "canonicalSha256": "1cea666f02aa91a58038dab5e58271cac4f2a06e9779f8a57964967d20fe1c69",
+      "tokenCount": 623,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-bowtiewithparameter",
+      "codeSha256": "a2dcdd2190144eb4863f937ccd4eaf98e453982b8c2d65f43288706a03705faa",
+      "canonicalSha256": "f6539aa4c97aae3002ad06a8c3821a5ff3bfdb7d0d932550a182bd96a69ef4f8",
+      "tokenCount": 508,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            0.5
+          ]
+        ],
+        [
+          "bool",
+          "v1",
+          [
+            0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-box",
+      "codeSha256": "5f36d498b7692ab3b6000a559b5d5e9b677e12e78a7a0e01ea7443b2db0ee36b",
+      "canonicalSha256": "b294a9688ca95980e0c7b8e147f97f4af7602535570da3a1284ddb6c65019555",
+      "tokenCount": 204,
+      "uniformDefaults": [
+        [
+          "int",
+          "v0",
+          [
+            1.0
+          ]
+        ],
+        [
+          "int",
+          "v1",
+          [
+            0.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-burn",
+      "codeSha256": "8e452dd332be77cb1b2823fdd3dabbea992f42e58df15e6936ab40d95937ca53",
+      "canonicalSha256": "5bea6f95c1d9c68d80051a9b3b024af4a47135b34019e81f0cb06f1d5d632a4b",
+      "tokenCount": 50,
+      "uniformDefaults": [
+        [
+          "vec3",
+          "v0",
+          [
+            0.9,
+            0.4,
+            0.2
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-burn0",
+      "codeSha256": "ffe6733b78b82caa29fe9c22f01f8544e8bd7296d0892084aa457473636a06a0",
+      "canonicalSha256": "dab2d135e651324a9b5c4f4cb7e591f3eaad35c95aececa027a41c6f8d8dd6f2",
+      "tokenCount": 339,
+      "uniformDefaults": [
+        [
+          "vec3",
+          "v0",
+          [
+            1.0,
+            0.5,
+            0.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-butterflywavescrawler",
+      "codeSha256": "b21137cdba5613177e7cd40b89b7f7587eb89711e70fd077d599eac42ee29dea",
+      "canonicalSha256": "15f925811764a7f408a026058d9ff91432d14d18b1a067bfe13051e37c550805",
+      "tokenCount": 257,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            1.0
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            30.0
+          ]
+        ],
+        [
+          "float",
+          "v2",
+          [
+            0.3
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-cannabisleaf",
+      "codeSha256": "42d1d002f2a40fac8f5f0749899408b8aa09f61eb3b36bb4fa95f55d627efed7",
+      "canonicalSha256": "f939c06be57754b11946cc2d0c2aa2416c769d8ecfd781e2eae48da07c1729b7",
+      "tokenCount": 147,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-chessboard",
+      "codeSha256": "d2a97e486b6f934e68511f928ee9a3c8d95d4d11704620395e82b080cbe7405d",
+      "canonicalSha256": "3793f18f8d574d2c4accaf50dea0186c69ef7e17206ae134b7a79276cb2ee4b4",
+      "tokenCount": 137,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            10.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-circle",
+      "codeSha256": "2538d236bd4a1630618ff6de6dd97c29dd13b85ba3430642705c19e7e0755482",
+      "canonicalSha256": "e80b956aa32c0b5a960370cd4ed5ca0dd9d6b169e6f7d81d67da2189d630826b",
+      "tokenCount": 79,
+      "uniformDefaults": [
+        [
+          "vec2",
+          "v0",
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        [
+          "vec3",
+          "v1",
+          [
+            0.1,
+            0.1,
+            0.1
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-circlecrop",
+      "codeSha256": "dca6731aed06a5dfc6834e0b9cd8857730883ecb507d8333e0b6ba13c61aae18",
+      "canonicalSha256": "c2581f7861d7cbf114feee899a74d9e0a99a82ffd01f2835f9048613782049f3",
+      "tokenCount": 85,
+      "uniformDefaults": [
+        [
+          "vec4",
+          "v0",
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-circleopen",
+      "codeSha256": "2dd91ce847cd8c2a8aeaeef8f58dfc80fc7bb693a8eac080e1deb6de321eb376",
+      "canonicalSha256": "c95d9f402cd3f67a3512c7c0cd86b3186d244ef601403d5f1703f68cc74beac2",
+      "tokenCount": 94,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            0.3
+          ]
+        ],
+        [
+          "bool",
+          "v1",
+          [
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-colorphase",
+      "codeSha256": "8905b6eff2404ac8ce4078c430a93f1483e82833df8872257ffcc7e10c1742b1",
+      "canonicalSha256": "68d6728c2a2464f2bc231f710ea37869d99efa2ee803c40cd2cb96b9b0c9b898",
+      "tokenCount": 52,
+      "uniformDefaults": [
+        [
+          "vec4",
+          "v0",
+          [
+            0.0,
+            0.2,
+            0.4,
+            0.0
+          ]
+        ],
+        [
+          "vec4",
+          "v1",
+          [
+            0.6,
+            0.8,
+            1.0,
+            1.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-colourdistance",
+      "codeSha256": "78787cf8028d60a8c31fccdb640f3a3aeb4b9a917258720d795c15eb818dfb37",
+      "canonicalSha256": "8bf5e8dd034fa4b9c32e5eef393170048b05fbb7ea9b4d1e6b1b83b4cb9dd176",
+      "tokenCount": 65,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            5.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-coord-from-in",
+      "codeSha256": "874d3c2e9701dbeaa432c872abb0d9f3632441b715986f7d123e9abcf796ee72",
+      "canonicalSha256": "1d14c53f5d92de24eb576f42c453ba8b8604acefd370878d4bffacef6dc4f4a2",
+      "tokenCount": 58,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-crazyparametricfun",
+      "codeSha256": "369e7ca26de7aaefd276a272121b697a1238968426f7346623131ccacfa2e25d",
+      "canonicalSha256": "4a0de3f689204377e97682339816c855736f6371dcf4970fb4d4269057bf28a2",
+      "tokenCount": 175,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            4.0
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            1.0
+          ]
+        ],
+        [
+          "float",
+          "v2",
+          [
+            120.0
+          ]
+        ],
+        [
+          "float",
+          "v3",
+          [
+            0.1
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-crosshatch",
+      "codeSha256": "ea49f73260f32d432e78c5d85e2d5a94bf2f180588ad56eac0903749def6f992",
+      "canonicalSha256": "d9614bf4736c75e4cc967906031fe90908d72fba3a66050ae6310317f2714018",
+      "tokenCount": 146,
+      "uniformDefaults": [
+        [
+          "vec2",
+          "v0",
+          [
+            0.5
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            3.0
+          ]
+        ],
+        [
+          "float",
+          "v2",
+          [
+            0.1
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-crosswarp",
+      "codeSha256": "f3bb6ddca7dcaa1b9ec7e6c8673969f4e19b61cae6a3daaccfe163c0ebd3637c",
+      "canonicalSha256": "db8492056664207d0e204d730df73b827b8dd841cc90210766cc9d075e25b947",
+      "tokenCount": 70,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-crosszoom",
+      "codeSha256": "38602ea2d7217904a7c25dbd3e0f266597e488b275f4140273b97716ebf5b18f",
+      "canonicalSha256": "fb716995a381a51d85a838ae538c801efad3f577a91161fbd346adbaac1eeba0",
+      "tokenCount": 411,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            0.4
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-cube",
+      "codeSha256": "1e70444af315f102e0a40f74664e037470541af50902a569a0408d7552f9135e",
+      "canonicalSha256": "26aefd1207a02d83078b8a83fe118851f95851957b06728a393678481ff1b238",
+      "tokenCount": 476,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            0.7
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            0.3
+          ]
+        ],
+        [
+          "float",
+          "v2",
+          [
+            0.4
+          ]
+        ],
+        [
+          "float",
+          "v3",
+          [
+            3.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-defocusblur",
+      "codeSha256": "240b8de3f8ef08ba29445c8c3a37ba4861bd9fd7daab7dd16cae8ae76eb16aac",
+      "canonicalSha256": "595d57bde04b574144f048732d98a281c7798a2c6a3482546ac4093f8ae4f855",
+      "tokenCount": 527,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            0.02
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-directional",
+      "codeSha256": "0f3cb7e1249cd9e4b5615a2e453779ea1acdb757a69fe0260bd2f2bc61fae8e4",
+      "canonicalSha256": "9c4f8c82f7c5d9c3e0b2baecf73e66ce5f18424680d20d4617ee43aac8d0396f",
+      "tokenCount": 82,
+      "uniformDefaults": [
+        [
+          "vec2",
+          "v0",
+          [
+            0.0,
+            1.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-directional-easing",
+      "codeSha256": "b3da2837f43f27676bb77afbb5e30271c0d1b7732290450c7bd19e60f7c56a78",
+      "canonicalSha256": "41ede96134a2f1632406f617667075db71bfc0c8c99d609b95f21c2fac4cf88b",
+      "tokenCount": 96,
+      "uniformDefaults": [
+        [
+          "vec2",
+          "v0",
+          [
+            0.0,
+            1.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-directionalscaled",
+      "codeSha256": "3a06f605188cca92da4398e99676245daa9e37ae4f14e2ebeff271ab45df953f",
+      "canonicalSha256": "2b06ec7e3c4fb016411e43c73134f3c322aba72725a781fdf24acb5c829da7a2",
+      "tokenCount": 229,
+      "uniformDefaults": [
+        [
+          "vec2",
+          "v0",
+          [
+            0.0,
+            1.0
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            0.7
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-directionalwarp",
+      "codeSha256": "633a962a9f6c59bc9d3567cf894333a5ec8a870ad18396e34e1bc5ddc632c102",
+      "canonicalSha256": "2986e3e77ec1f1d46b992bdd69b5ad729f6698216b731528f027a0c774bd0617",
+      "tokenCount": 150,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            0.1
+          ]
+        ],
+        [
+          "vec2",
+          "v1",
+          [
+            -1.0,
+            1.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-directionalwipe",
+      "codeSha256": "24e80bc7acc356f59f537d094c85640c7c425b30b51e2abfb354216010af635d",
+      "canonicalSha256": "7a01b1270f2c2edb5d2ff7ad8eeda7ffa567cf93a376f7d94b366a54e5fd8460",
+      "tokenCount": 143,
+      "uniformDefaults": [
+        [
+          "vec2",
+          "v0",
+          [
+            1.0,
+            -1.0
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            0.5
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-displacement",
+      "codeSha256": "c47921286fd468743db00d25bf48102352ba9c5e6e2aafcfd1fe6344f211b492",
+      "canonicalSha256": "10dedbcd2d66c0de9c3714a4f16450ca602faadec3a8b75414d283b768c3d310",
+      "tokenCount": 86,
+      "uniformDefaults": [
+        [
+          "sampler2D",
+          "v0",
+          [
+            0.5
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            0.5
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-dissolve",
+      "codeSha256": "ed40197c1e18ca4c6c108a0eff3cd95f9d142058adace7379761a547653cfc52",
+      "canonicalSha256": "3c2566a44f533162fb04de7599eea529fce1b04e855d5d307df1a93f8d8eac78",
+      "tokenCount": 440,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            0.1
+          ]
+        ],
+        [
+          "vec3",
+          "v1",
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        [
+          "vec3",
+          "v2",
+          [
+            0.9,
+            0.9,
+            0.2
+          ]
+        ],
+        [
+          "float",
+          "v3",
+          [
+            5.0
+          ]
+        ],
+        [
+          "float",
+          "v4",
+          [
+            1.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-doomscreentransition",
+      "codeSha256": "6fe6a62eaa94bdef64dde27524629efc85806b9c2df8ab86ced9b4ee4ff2082c",
+      "canonicalSha256": "182f862e608cfc6553393d4efd7ecb306c0c1cce683105a1648c5c6462a3ba34",
+      "tokenCount": 334,
+      "uniformDefaults": [
+        [
+          "int",
+          "v0",
+          [
+            30.0
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            2.0
+          ]
+        ],
+        [
+          "float",
+          "v2",
+          [
+            0.1
+          ]
+        ],
+        [
+          "float",
+          "v3",
+          [
+            0.5
+          ]
+        ],
+        [
+          "float",
+          "v4",
+          [
+            0.5
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-doorway",
+      "codeSha256": "f0870222f2ef4262af16b102390c9da97e527dc8d31eda208342c51b7386f411",
+      "canonicalSha256": "7fe67d5055c2ae6378be5a9361eae7067b14dde2051adc235656364b1adf2417",
+      "tokenCount": 370,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            0.4
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            0.4
+          ]
+        ],
+        [
+          "float",
+          "v2",
+          [
+            3.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-dreamy",
+      "codeSha256": "4afafcc23301fd89a5399bf3da650b46c8f64f1684f7088ae21f36f5e8061077",
+      "canonicalSha256": "9154e4383df84def6ab3edc02773844f249447a1fbc2f293e7f695070bc22417",
+      "tokenCount": 99,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-dreamyzoom",
+      "codeSha256": "1e54f99356d18538d0ed34fd61127f7063ce1be17d8a0bf1b895283330838d09",
+      "canonicalSha256": "72bc75c820ecc240ba57266318b09080ff0465577842014e3e3d74033922f48f",
+      "tokenCount": 237,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            6.0
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            1.2
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-drop-zone-flicker",
+      "codeSha256": "196757c24b32bc9704e72fc335dc22b5247caca95029534071d6edbe2ee8cbd9",
+      "canonicalSha256": "9c647347c27ed1aa2ac64bbc59b394b386b68d07dc9658a67f53645142db2649",
+      "tokenCount": 1162,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            24.0
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            0.014
+          ]
+        ],
+        [
+          "float",
+          "v2",
+          [
+            0.72
+          ]
+        ],
+        [
+          "float",
+          "v3",
+          [
+            0.62
+          ]
+        ],
+        [
+          "float",
+          "v4",
+          [
+            0.58
+          ]
+        ],
+        [
+          "float",
+          "v5",
+          [
+            0.075
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-edgetransition",
+      "codeSha256": "95b7e664b32453ef4a4f24a27b0896ef9098b326fc86c8866a2af2fea3719fe9",
+      "canonicalSha256": "c0a0ed373695db86834ff0338230e0d8d361b1b909f1cc330e97845457e1ae31",
+      "tokenCount": 389,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            0.001
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            8.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-fade",
+      "codeSha256": "a16074d9812e440fb84e829a68ba7b078dd32182370d48bef05dbe71358e732e",
+      "canonicalSha256": "d971843e3e795bf06f1c6a3a5970101733829db9366a1e5947fc74207e9ecfa2",
+      "tokenCount": 24,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-fadecolor",
+      "codeSha256": "2ecad64044e7b0e4c2d3bd196b3d4a069294e5f66a304a81fd9499055a3063ca",
+      "canonicalSha256": "914573f058da8ac1de9179f8cbe31be4a78945303db52c35390e43f2dad6fb9c",
+      "tokenCount": 72,
+      "uniformDefaults": [
+        [
+          "vec3",
+          "v0",
+          [
+            0.0
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            0.4,
+            0.0,
+            0.9
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-fadegrayscale",
+      "codeSha256": "79f9466b1803518d3bed78394082c8017398031d2211be5bc5dd5889ff0da26d",
+      "canonicalSha256": "a384f7fb308780e2c45f9948fb9cd388106e2f51981fd89d0cba46d3781419ee",
+      "tokenCount": 118,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            0.3,
+            0.0,
+            0.9
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-filmburn",
+      "codeSha256": "95f464e637f6a455543f608eab2417996e94f22539b9de7711a972fcfba19a9c",
+      "canonicalSha256": "15864ec060fd8e388a8c1def57cbf648cf400fa0f30e6e1ff66869fa3abc697e",
+      "tokenCount": 835,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            2.31
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-flyeye",
+      "codeSha256": "869be5c8e2aa9f3aa8cb07c17c4500cccac74640d520429a915ca0ab1b10e973",
+      "canonicalSha256": "c07b04b4ffce711d364d31842ad47d5050324cf3564f1dfa392b2b5fd679b273",
+      "tokenCount": 127,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            0.04
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            50.0
+          ]
+        ],
+        [
+          "float",
+          "v2",
+          [
+            0.3
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-fold",
+      "codeSha256": "13e78ed152d46601ce56c1c304320d370f67b44b8c39efc0a9374d0f19ab8080",
+      "canonicalSha256": "a4b0db4b2e1b17d8c6d00cd0783628dd44310cd5a7b1be55703271d931724f6a",
+      "tokenCount": 66,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-fragment",
+      "codeSha256": "7392e0eb4ecb1ceca1766be968bd9b17deba1f9401490704d8fe0af72f88ea8d",
+      "canonicalSha256": "562f7091abaf93c924c7ed7dc8c1d6c9b23dbda2b7883a045ad7ef36b4d65bbb",
+      "tokenCount": 338,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-glitchdisplace",
+      "codeSha256": "7ebe05478a603b570fc8fd22abebe7501a09beddc249c17b433d9184a5dd5545",
+      "canonicalSha256": "6f421b8687d27d562abf08454f4cdea47bd3b171578948a7a8dd4aa6d8f48090",
+      "tokenCount": 602,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-glitchmemories",
+      "codeSha256": "9b634e77504806a42e7029e0de9ea06c873002968413a8274e28ea9945bba663",
+      "canonicalSha256": "b21ed88033ab5ae207310bd083d1f1d3d49b7f9ea9212211c663fc39ff7cd376",
+      "tokenCount": 169,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-gridflip",
+      "codeSha256": "5f7326abd67f7775333d1598dc139c5a2fcb08964f8bd76cff84384b9d3370e7",
+      "canonicalSha256": "d70f3767617e12ceb304b7bf964657c1b15ae4de94edd1c0a3c5c6da21feef89",
+      "tokenCount": 572,
+      "uniformDefaults": [
+        [
+          "ivec2",
+          "v0",
+          [
+            4.0
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            0.1
+          ]
+        ],
+        [
+          "float",
+          "v2",
+          [
+            0.05
+          ]
+        ],
+        [
+          "vec4",
+          "v3",
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        [
+          "float",
+          "v4",
+          [
+            0.1
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-heart",
+      "codeSha256": "ae2807141569bcdb469dc9fc229d6a02b6bc9419f45afce8f04049b84cc2e18a",
+      "canonicalSha256": "01332517006a6074dd49ea152907b56a97704927e55240719f6120a92d70e05b",
+      "tokenCount": 125,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-hexagonalize",
+      "codeSha256": "3935761ca2dff2ed443e1757143a20b15099110d2caf635c6aedf1d812ae0a1a",
+      "canonicalSha256": "4733bb9e5f5ef3cc4f91ee9916e64b9d5d230ade660f732725e05f4ec2ec1d1a",
+      "tokenCount": 450,
+      "uniformDefaults": [
+        [
+          "int",
+          "v0",
+          [
+            50.0
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            20.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-horizontalclose",
+      "codeSha256": "7991d30a608859253d53bc7fae51bc283593a2dce7548b036ecacf17a5e969c1",
+      "canonicalSha256": "ca0fb1a140a4e5c38c67da2c40af25b459db1445a88dcac3ded9c2d7e8a3db69",
+      "tokenCount": 57,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-horizontalopen",
+      "codeSha256": "847aa4d7fa84573581113c68d43564a7da4ddab1a268d38948e0c949292974ef",
+      "canonicalSha256": "e5fba67ac0ef7ce20346dccd12edfcb245d249376b7c47c2a6317fb1d6d0a4ed",
+      "tokenCount": 64,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-hsvfade",
+      "codeSha256": "276b670e9399331e042efbf57a47799114d2a6d2f7a3c736323217fd8ef35b12",
+      "canonicalSha256": "ca8412f05fb966dc18f45ecf3ed0c85b657042ba0c6c5a7843539210a6d2dc43",
+      "tokenCount": 304,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-kaleidoscope",
+      "codeSha256": "588b864e89f43640e1e35ce5570c0772c19e7594e2d1122c60f581b5c322ec35",
+      "canonicalSha256": "ecd8d501dc2dd4eb13acb2b95cc88ef315fc3288762cc8294d033c9ee9633d13",
+      "tokenCount": 188,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            1.0
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            1.0
+          ]
+        ],
+        [
+          "float",
+          "v2",
+          [
+            1.5
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-leftright",
+      "codeSha256": "9bb05f7449a5a9500fb16d6407090202b65cb71af358c21e68d09c67a673b9b9",
+      "canonicalSha256": "9e95b8cd2144014bf74d8c280c2be81035897dec7bbc015d07f4696d7c40afef",
+      "tokenCount": 186,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-linearblur",
+      "codeSha256": "c050f00e27d6b3229587dcdf4e57ed139bdf80a12e031180cf5a5b92b8813eb9",
+      "canonicalSha256": "28aeb01ef34e7e50e07b36228ab154e0ef4aab4e5ccf4c6ddab63d7ea3958f31",
+      "tokenCount": 181,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            0.1
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-luma",
+      "codeSha256": "ed9f6b4096636acbf0a5283bd3f38742c8f1f0dcbec2340d3dcae2f07664f2c1",
+      "canonicalSha256": "cd4c47299c8ee1831dc935016f8d836341ca687fc6fd27a1f725b81cf66db7a7",
+      "tokenCount": 40,
+      "uniformDefaults": [
+        [
+          "sampler2D",
+          "v0",
+          [
+            0.5
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-luminance-melt",
+      "codeSha256": "f39a371548e81fe4ff9cdf39ed45b564e1143855f6c06d4f37f4c580ed7030e4",
+      "canonicalSha256": "19a98f31fae33a076fff7baa35335e89b0ebe05d14cbb6ba019bfe450a86d366",
+      "tokenCount": 652,
+      "uniformDefaults": [
+        [
+          "bool",
+          "v0",
+          [
+            0
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            0.8
+          ]
+        ],
+        [
+          "bool",
+          "v2",
+          [
+            0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-morph",
+      "codeSha256": "1773c8fc94a2a65f2e42dcfbe5c74749e66bdc7e649737f28464086cdd8de4ba",
+      "canonicalSha256": "6a17d36b6bb3a7967495a9d731d730ec00ebc9d35b7b0ab030cc23f3d9ccfb10",
+      "tokenCount": 124,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            0.1
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-mosaic",
+      "codeSha256": "44014bdfa8ca2f6e1c5e7b0f5d332c0d1a190cafd921d666f3f63ef098e2d3b6",
+      "canonicalSha256": "0ef128d7a57b7c1fb7cda4e7909db75c721802ae334925faff3eddecb8ddad72",
+      "tokenCount": 354,
+      "uniformDefaults": [
+        [
+          "int",
+          "v0",
+          [
+            2.0
+          ]
+        ],
+        [
+          "int",
+          "v1",
+          [
+            -1.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-mosaic-transition",
+      "codeSha256": "5976de28693348e0b86175da459197690845b8cab534b1af9e684c7b6a97323b",
+      "canonicalSha256": "fb0b7f350a6906ce3c12ad10d9f3025fe78e8620721b4c5d867834fbbfcb5e6a",
+      "tokenCount": 115,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            10.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-multiply-blend",
+      "codeSha256": "40913fd1831de850c7d47b2077768263878af1b113553bdc1a6e397fc8f2d0a0",
+      "canonicalSha256": "ab052a2f4853fdc9ec8f0cad3feb3db8f6fbecab34797ee3a9a78db6322950a2",
+      "tokenCount": 79,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-old-tv-lost-signal",
+      "codeSha256": "274814dee2f8b54b5227980917d2596e200c30abe11d2a2d35e1fc3b29fdc05e",
+      "canonicalSha256": "8b0ca5be4e0142910108d787c838ce3cc16faa0f3f359c0492ed6a4386b809f1",
+      "tokenCount": 223,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-overexposure",
+      "codeSha256": "2dc20be3888f8f1f2c4aa3354b6c22e639e2d7b4543929991ca95949564eebcc",
+      "canonicalSha256": "9b6145841709b8779605242eff8f55176f38b5f9b9cc2eb5b37056bb6c1ee903",
+      "tokenCount": 141,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            0.6
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-parametric-glitch",
+      "codeSha256": "fafd595b905ca2c20c5d7c8beaf1e5b4e92fb8058ebaf7bea3a0999e03b094c5",
+      "canonicalSha256": "cddece0ef2ba468aa4c0e7d999537143df71e9ffe63ab011e500798a3aa5a555",
+      "tokenCount": 169,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            1.0
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            1.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-perlin",
+      "codeSha256": "55bcac03a3777a51b7bffd31af602e5279e1860390aa35043457a25cd3cc96c6",
+      "canonicalSha256": "7e8af03812a2b5c03c1e852babb18a6e9cadcffe9bdc5e9f1bfcbe1dfa4ffd0f",
+      "tokenCount": 306,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            4.0
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            0.01
+          ]
+        ],
+        [
+          "float",
+          "v2",
+          [
+            12.9898
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-pinwheel",
+      "codeSha256": "7285b8f493ee605cfbbb8acef048d86159e6a916d1cda753c01ede1bbf0b6258",
+      "canonicalSha256": "ebfe8b00c8e197ce811455bff9b5a888677b3ef7240d45599dc9f509c7364cd3",
+      "tokenCount": 91,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            2.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-pixelize",
+      "codeSha256": "6fa7ae826e07a3d45fb7a0f8309310d38858d88fd48a098120d0207b66fbf2e1",
+      "canonicalSha256": "e0ab2f3a2ea23d6c7cc84eae7b9057e7f2a13a77e44f440ee2898725f651e7e3",
+      "tokenCount": 102,
+      "uniformDefaults": [
+        [
+          "ivec2",
+          "v0",
+          [
+            20.0
+          ]
+        ],
+        [
+          "int",
+          "v1",
+          [
+            50.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-polar-function",
+      "codeSha256": "d0644846d58cc5dcdeeb26bfea0cbeabbd8c8a652a9fc98350880d80fd4e6f44",
+      "canonicalSha256": "6ffb858ec0bbab068457249e9963fd059d9a0b33273ebe725c2ee252e53c4896",
+      "tokenCount": 110,
+      "uniformDefaults": [
+        [
+          "int",
+          "v0",
+          [
+            5.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-polkadotscurtain",
+      "codeSha256": "9b99f2c589b9bcfe3927412c90828bff9e78f75309da50f21420d35e6aeaac9a",
+      "canonicalSha256": "8ff0cc261f23b4409bb7ecdc5d5aa80061947054ecd42f3b7a691d13ce6f6f23",
+      "tokenCount": 66,
+      "uniformDefaults": [
+        [
+          "float",
+          "v1",
+          [
+            20.0
+          ]
+        ],
+        [
+          "vec2",
+          "v2",
+          [
+            0.0,
+            0.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-powerkaleido",
+      "codeSha256": "20ae03da2bc8d5365f6f799ca6832b6af8d2cfa6945408635e0d144842bf18ee",
+      "canonicalSha256": "19c91ee29e569c1d8bd424820150be60a399e432486202d28231e5135a18d409",
+      "tokenCount": 510,
+      "uniformDefaults": [
+        [
+          "float",
+          "v2",
+          [
+            2.0
+          ]
+        ],
+        [
+          "float",
+          "v3",
+          [
+            1.5
+          ]
+        ],
+        [
+          "float",
+          "v5",
+          [
+            5.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-puzzleright",
+      "codeSha256": "3fa07899c88f4000adab74d49b5ddc1be24262abe8cf0e6ace4b6ad40da0afa4",
+      "canonicalSha256": "b1ae254b1cdf89f811b9d7327546d9ed8b14b2a9fa23fec3b425160f401f963b",
+      "tokenCount": 524,
+      "uniformDefaults": [
+        [
+          "ivec2",
+          "v0",
+          [
+            4.0,
+            4.0
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            0.1
+          ]
+        ],
+        [
+          "float",
+          "v2",
+          [
+            0.005
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-radial",
+      "codeSha256": "a275c8a125f7d552108a4776ed409f994a68b9e6dfb30ac05cee78e112e87e63",
+      "canonicalSha256": "d07671bbfad29772e6f3b9783816c70fe525a1a645c709fb1572fa00fe205fa2",
+      "tokenCount": 69,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            1.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-randomnoisex",
+      "codeSha256": "e3882b3b8aeb107506b7717bce27d1aa4e5b6350ffadfe2ecfcb09c86f035b7a",
+      "canonicalSha256": "2f5e2745529f7ec02585b86c51de94a987a501d1ee955e54119a5c21d0ce33e0",
+      "tokenCount": 78,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-randomsquares",
+      "codeSha256": "87b24da45728c58e014cc4eb2abd4b947ec2ee257a0f18f18f10da2eb644863a",
+      "canonicalSha256": "6103144bec89199f383115d011aa6cbced7c0919e3b85212c6fc101fe36d297f",
+      "tokenCount": 102,
+      "uniformDefaults": [
+        [
+          "ivec2",
+          "v0",
+          [
+            10.0,
+            10.0
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            0.5
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-rectangle",
+      "codeSha256": "4a6bfc60f92877f11af7a42f804c9b8d22e8cb2b84fede44b39bc25c0e13cb3c",
+      "canonicalSha256": "089e34d61632af3d97c285c30ddb3c013ba078e58b043ccbb068079dd492e599",
+      "tokenCount": 138,
+      "uniformDefaults": [
+        [
+          "vec4",
+          "v0",
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-rectanglecrop",
+      "codeSha256": "f5ad3d6276258440279b14f39e36b7751de299e381daeaee35a1e96ff2dcb967",
+      "canonicalSha256": "08bef8a10a05b348ea793b1d4f848ba35319675235d455691657b2712fe819e5",
+      "tokenCount": 142,
+      "uniformDefaults": [
+        [
+          "vec4",
+          "v0",
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-revolve-left",
+      "codeSha256": "c7a86839f68aa5a7414658363e4f69654f57a9104f338a2f0bc37581de175cb0",
+      "canonicalSha256": "49d0a970266240f7823b33db91fae651bc5f3bf8f24497d5aaef2aa08aa46c2b",
+      "tokenCount": 583,
+      "uniformDefaults": [
+        [
+          "vec2",
+          "v0",
+          [
+            0.46,
+            0.52
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            -1.0
+          ]
+        ],
+        [
+          "float",
+          "v2",
+          [
+            1.95
+          ]
+        ],
+        [
+          "float",
+          "v3",
+          [
+            2.22
+          ]
+        ],
+        [
+          "float",
+          "v4",
+          [
+            2.85
+          ]
+        ],
+        [
+          "float",
+          "v5",
+          [
+            0.38
+          ]
+        ],
+        [
+          "float",
+          "v6",
+          [
+            1.0
+          ]
+        ],
+        [
+          "float",
+          "v7",
+          [
+            0.3
+          ]
+        ],
+        [
+          "float",
+          "v8",
+          [
+            0.5
+          ]
+        ],
+        [
+          "float",
+          "v9",
+          [
+            0.16
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-ripple",
+      "codeSha256": "0bcdcb7006aff268adff577e3359ca68ab7aa1fc83cc4da267b7dab0e241ceda",
+      "canonicalSha256": "95c431abe418f19ecb8d97541d1358bd5928dd2369fa60830a8c2f3724da9ca9",
+      "tokenCount": 85,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            100.0
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            50.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-rolls",
+      "codeSha256": "43fd99c06859cfb18bac0ad57e990dcc6f9009191cb1b75d3df7e7bc5bb6ca19",
+      "canonicalSha256": "08bb981ea109ef755857734c1ae1e80488836e37973b6c96d2fef4a0e34dc735",
+      "tokenCount": 363,
+      "uniformDefaults": [
+        [
+          "int",
+          "v0",
+          [
+            0.0
+          ]
+        ],
+        [
+          "bool",
+          "v1",
+          [
+            0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-rotate-scale-fade",
+      "codeSha256": "92bb7cc6c39d5b78b710d0170f22ee5c936918a87ebe1b552ee8a16d425b28b6",
+      "canonicalSha256": "a35cbaea8e27ba2d4db8c10d840902f15116b611bbc98fd516e7bdbd69cb9181",
+      "tokenCount": 183,
+      "uniformDefaults": [
+        [
+          "vec2",
+          "v0",
+          [
+            0.5,
+            0.5
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            1.0
+          ]
+        ],
+        [
+          "float",
+          "v2",
+          [
+            8.0
+          ]
+        ],
+        [
+          "vec4",
+          "v3",
+          [
+            0.15,
+            0.15,
+            0.15,
+            1.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-rotatescalevanish",
+      "codeSha256": "050a014eb9e0827fff98a4598cd7f917fdacbdbf411735a96617a644e8205026",
+      "canonicalSha256": "61c7f2763c2c471cc0f98d05a1a63f17f2929b3d40b855745b4f462103c25e59",
+      "tokenCount": 285,
+      "uniformDefaults": [
+        [
+          "bool",
+          "v0",
+          [
+            1
+          ]
+        ],
+        [
+          "bool",
+          "v1",
+          [
+            0
+          ]
+        ],
+        [
+          "bool",
+          "v2",
+          [
+            0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-rotatetransition",
+      "codeSha256": "9a310fc7d1eda2f0c181cea1c70f72b7fccd6eef514809722bffa05dd9d7d7d8",
+      "canonicalSha256": "c6fe53fcdc3f12b12dad62024489276e26fc8728e9a5eeaffa1a156526b0ff4f",
+      "tokenCount": 89,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-scale-in",
+      "codeSha256": "c9c1808bb7e07723daea14cb3d0d06bc9a81a7f5a3a7bd26cba5ea8a301a46af",
+      "canonicalSha256": "d4c8aa088a7857b126fac1d49bd6a8a843566f2689fd41d76cdf2ceb9bea3ffb",
+      "tokenCount": 51,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-simpleflip",
+      "codeSha256": "b6d4b6324cf6b7ff6a039f8a7792b6adfd8d99f22afa59cb67ec7356b402656c",
+      "canonicalSha256": "a62b8ab5b9a16dfa3455d92cb58a62bf9e6a565d43ea0ebc461aebc478cd6aae",
+      "tokenCount": 93,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-simplezoom",
+      "codeSha256": "e3b3473142574b554c0799ac73e1ba3c2b3b64f8535a82879b684ec4f7e178e7",
+      "canonicalSha256": "20608881584b70a9532d4349f6ce603101ae12ce75dbcd05936ea5d3e5ceb456",
+      "tokenCount": 89,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            0.8
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-simplezoomout",
+      "codeSha256": "40c9cc125b20e1f375391ae248fde1d65fdc94f07bc80d64c5febca085694527",
+      "canonicalSha256": "20fe3fe4dcb2dc6b0f6e35fc5c97eb288bce8e74aa27f90dff2fb99b56a3f89a",
+      "tokenCount": 111,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            0.8
+          ]
+        ],
+        [
+          "bool",
+          "v1",
+          [
+            1
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-slides",
+      "codeSha256": "abd2dac652c2497c53bd3d7e6eccac80e10e98a471a2422f2010d667a9c3da6b",
+      "canonicalSha256": "003880b01c48935ff3f2e616cc130eb6b5cb670ddd5a97d27735d1b7c8f9c648",
+      "tokenCount": 329,
+      "uniformDefaults": [
+        [
+          "int",
+          "v0",
+          [
+            0.0
+          ]
+        ],
+        [
+          "bool",
+          "v1",
+          [
+            0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-splitslideinhorizontal",
+      "codeSha256": "e543ff3ee3fd3f8e11b761984019e05d52290f08a7ca0e93ba619f58235ecee5",
+      "canonicalSha256": "9e802b46ceeca7714bcd6a5ba8e69d140f42e33a1d134ab1878e1b8edd502693",
+      "tokenCount": 147,
+      "uniformDefaults": [
+        [
+          "bool",
+          "v0",
+          [
+            0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-splitslideinouthorizontal",
+      "codeSha256": "0f598be728714ae7cdb6252438aa4f2cb968dd21402402e91fc893806ff0621b",
+      "canonicalSha256": "ff13094920e680cbf4ba8e19c4ea1f59a5e0ca06ff1e7d1b388096ecd71279e3",
+      "tokenCount": 148,
+      "uniformDefaults": [
+        [
+          "bool",
+          "v0",
+          [
+            0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-splitslideinoutvertical",
+      "codeSha256": "b011afbbe53d7c3f0e93fcf8e56bba6bbac9c85eba766b951a8c80916dda473b",
+      "canonicalSha256": "583b841a5542979e7c856ca6bce58fb91ebfb0574b3b41b6a8029f049d2c2eb4",
+      "tokenCount": 148,
+      "uniformDefaults": [
+        [
+          "bool",
+          "v0",
+          [
+            0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-splitslideinvertical",
+      "codeSha256": "ddc71ccecdabbc4b200623bec709cd0e76e1b1c22f8daa173a1331ec05d65541",
+      "canonicalSha256": "801e2b74638bc6e97af06f4a950fd48575c16fc6a794b90e0b2e209b62b93565",
+      "tokenCount": 142,
+      "uniformDefaults": [
+        [
+          "bool",
+          "v0",
+          [
+            0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-splitslideouthorizontal",
+      "codeSha256": "2f486e615f1943e2a27449dab391c00cb15d708ffc4872cdac441eaf20d1d682",
+      "canonicalSha256": "d298b3949f5d0866a5d0fe51f359186ebfad8521f4350cfd94bc298cdf52e448",
+      "tokenCount": 124,
+      "uniformDefaults": [
+        [
+          "bool",
+          "v0",
+          [
+            0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-splitslideoutvertical",
+      "codeSha256": "b54781e52695daac04983781481a7ba815acdab6dc2f30ea8d446d835f63fb6b",
+      "canonicalSha256": "8fc0a8bdc1c9a44e80717b981010c2c39c0ae4bd4a6890625028370d95222e62",
+      "tokenCount": 124,
+      "uniformDefaults": [
+        [
+          "bool",
+          "v0",
+          [
+            0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-squareswire",
+      "codeSha256": "c94709836a2ddbeae69f676d32f0eb9822b2614802c932b644f6d878103f182e",
+      "canonicalSha256": "dbab0399a9a75afbd16e9956c361245e8feadebb8e9c57b95d1c1b0f83ae810c",
+      "tokenCount": 230,
+      "uniformDefaults": [
+        [
+          "ivec2",
+          "v0",
+          [
+            10.0,
+            10.0
+          ]
+        ],
+        [
+          "vec2",
+          "v1",
+          [
+            1.0,
+            -0.5
+          ]
+        ],
+        [
+          "float",
+          "v2",
+          [
+            1.6
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-squeeze",
+      "codeSha256": "515f78c4f2cac0a941ee2df3f120526b4d4b2b9cb6d92019fa0c6e1eec3613f1",
+      "canonicalSha256": "b1e94d4eb4476545f4f34ea5b14584ce25cc7667eeae0019e729b6e3f9ada95c",
+      "tokenCount": 124,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            0.04
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-starwipe",
+      "codeSha256": "c3019f2e9f59c58a71b2c600e58eb251432252c671f6df83cb838d83940c9f5c",
+      "canonicalSha256": "849827ed6f8484003ee7e9358bdfd5f2383abcddd2c33413e8b289a88f654254",
+      "tokenCount": 268,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            0.01
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            0.75
+          ]
+        ],
+        [
+          "vec4",
+          "v2",
+          [
+            1.0
+          ]
+        ],
+        [
+          "vec2",
+          "v3",
+          [
+            0.5
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-static-wipe",
+      "codeSha256": "2c02aa43819db3c5fc69d609caf68f070eff4566d27563796c97558617a4ba67",
+      "canonicalSha256": "7e927107a3c3108adfdb5da01aebcf876949ca73b0064a28d71b570d60a82e47",
+      "tokenCount": 174,
+      "uniformDefaults": [
+        [
+          "bool",
+          "v2",
+          [
+            1
+          ]
+        ],
+        [
+          "float",
+          "v3",
+          [
+            0.5
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-staticfade",
+      "codeSha256": "8d6098e8839ada6f4aa3ab49e7f53a695bc6541ee7e324e5529ecb91e4ea1804",
+      "canonicalSha256": "98d78064d0fe2958bd4db672bacd90d8cdb3409f3ec6273ab18f59e2893f84c5",
+      "tokenCount": 262,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            200.0
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            0.8
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-stripdatamoshglitch",
+      "codeSha256": "3cf42ebb8e4bd6f180fc7e28a51c9c1bcda0f0dfd2fa24f9751fd85057929e30",
+      "canonicalSha256": "64991226822306f1c1a77fc741c929fc5ee4ac99caee397bbb1411359b6868a9",
+      "tokenCount": 1668,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            1.0
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            42.0
+          ]
+        ],
+        [
+          "float",
+          "v2",
+          [
+            18.0
+          ]
+        ],
+        [
+          "float",
+          "v3",
+          [
+            0.18
+          ]
+        ],
+        [
+          "float",
+          "v4",
+          [
+            0.032
+          ]
+        ],
+        [
+          "float",
+          "v5",
+          [
+            0.62
+          ]
+        ],
+        [
+          "float",
+          "v6",
+          [
+            0.16
+          ]
+        ],
+        [
+          "float",
+          "v7",
+          [
+            0.13
+          ]
+        ],
+        [
+          "float",
+          "v8",
+          [
+            0.2
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-swap",
+      "codeSha256": "f45af429feae5e90f652537a6dbba0bf705784eb8d7e0c8bfe7d58cb59d499af",
+      "canonicalSha256": "db94c3e0efbe4d06fb6c2b196c2f6b353df93c2ab14cf862ba57c3260ed5232d",
+      "tokenCount": 456,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            0.4
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            0.2
+          ]
+        ],
+        [
+          "float",
+          "v2",
+          [
+            3.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-swirl",
+      "codeSha256": "5ce1c017bb08a5a5a5a684d834563ae71b9f225fcd8ad172d75158f0565deea9",
+      "canonicalSha256": "c4d8998af1ee9992a159b67fa0987282fa4f35c0979774825e4166073f8c4013",
+      "tokenCount": 185,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-tangentmotionblur",
+      "codeSha256": "b8367b1c5445bcba823df3f1b6adc8ba3217bd5f93cb067b1be3c7ec5c63f4e4",
+      "canonicalSha256": "4846b03bbf07051ef364957e0636b03e0011f6882c9229b4f58fa27b87a94c0d",
+      "tokenCount": 901,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-tileswave",
+      "codeSha256": "96d8c506dab6adda880c36dfafe1ab3b17ad57f8fdbf9ce62be58a5781f1a166",
+      "canonicalSha256": "c1ab288cb031d96a395c79ac65e345522379c56dbde14e960f67da278db58dd0",
+      "tokenCount": 486,
+      "uniformDefaults": [
+        [
+          "ivec2",
+          "v0",
+          [
+            8.0,
+            8.0
+          ]
+        ],
+        [
+          "bool",
+          "v1",
+          [
+            1
+          ]
+        ],
+        [
+          "bool",
+          "v2",
+          [
+            0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-topbottom",
+      "codeSha256": "16e0aa3af9c14e9438e4ee452ac25dcf7274bd7f7c8a5de95d500789abdcef84",
+      "canonicalSha256": "e68a3dc4f5df02225e8fc917967732b638e6b9aed4598ada56cea9e0aa5a5e55",
+      "tokenCount": 186,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-tvstatic",
+      "codeSha256": "12f62893e4b8daee47e92ef2cd70bfba8d6894c8d7e3a871db735ad3c01ed102",
+      "canonicalSha256": "0febdcc87455886ec3b09913a28ab1a03ce9a172764a5eadd74c45340520ca8e",
+      "tokenCount": 131,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            0.05
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-undulatingburnout",
+      "codeSha256": "75ec1bb6013b66ea51ad44139069bbb30f1682621b34e4469df495177fbc23cf",
+      "canonicalSha256": "75a4bce1020499ea4349c8d95ec9b79f8b8f9b422b43739bda13d73404bee917",
+      "tokenCount": 353,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            0.03
+          ]
+        ],
+        [
+          "vec2",
+          "v1",
+          [
+            0.5
+          ]
+        ],
+        [
+          "vec3",
+          "v2",
+          [
+            0.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-verticalclose",
+      "codeSha256": "6f40f60736543feaf29f541f64fd06d87be29b90b7a1830df33b632b9eecada2",
+      "canonicalSha256": "4f1bda4296186ca4db9cdb0e2bb0198ba61631842d73f0ddedc9eb7952a1c340",
+      "tokenCount": 57,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-verticalopen",
+      "codeSha256": "ab28b52e5936882c5d1b7615bf9b3c703a154c352966b4c2e5366779cfbd8605",
+      "canonicalSha256": "9e3bbee915b6f2c5d1ca6810b9c7382b07c42e83a260c1c6ee5bb73c0f8309f4",
+      "tokenCount": 64,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-waterdrop",
+      "codeSha256": "145e6201b4460e5107cac485718a976f1b0197e9856d5a4daba75f81d9c3d897",
+      "canonicalSha256": "e5f2b9b0370ad5cf29b7cd3ea56c02c159787bbde57afec9b3754bba5dcd1a8d",
+      "tokenCount": 95,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            30.0
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            30.0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-wind",
+      "codeSha256": "bc29c5584865aa14dfb0bc27f70d789f05a55a8e3bcce58247ff8fa063141364",
+      "canonicalSha256": "bc9cb964d5cf7dc6381a9a97bd96b7745e708f68b820900211103bad891eb287",
+      "tokenCount": 126,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            0.2
+          ]
+        ],
+        [
+          "bool",
+          "v1",
+          [
+            0
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-windowblinds",
+      "codeSha256": "4a531478746232536291f3ba8ab0744794b75bca9cf9f305210bc083fc613e33",
+      "canonicalSha256": "1f5e37c66daa977ce9e363d6cfedae347c9f5fe3c2f7446e434a1a3f429f6b46",
+      "tokenCount": 70,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-windowslice",
+      "codeSha256": "693dff9c66e359fedf742e4d61a1ac75a712102ea1640d7c9699c098d65bc65d",
+      "canonicalSha256": "ed7fc9a8d971b3c7b9fee92bd2b7e318a27800f2c496398147780370e49fc59a",
+      "tokenCount": 72,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            10.0
+          ]
+        ],
+        [
+          "float",
+          "v1",
+          [
+            0.5
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-wipedown",
+      "codeSha256": "0e9897ab1b6fc5383772f0b4c4ea49551942d138bc5d363a1a401e43832a21ea",
+      "canonicalSha256": "2138ae4a1a1307a8e5d715ff33c04b7a1e12161a0230df7b102c798cd9ede732",
+      "tokenCount": 57,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-wipeleft",
+      "codeSha256": "e877946d2df38eed3510a388c246c04f8898d158d056f1925301dc0852288e51",
+      "canonicalSha256": "2e390bd6fc0f8ec5c0e9cfe94531984cff341ecf2db11c179093d21f06d361ba",
+      "tokenCount": 57,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-wiperight",
+      "codeSha256": "986db07618558edb7a46d9734ac572fa4d9c2b001afdfc46acd8690571db46c8",
+      "canonicalSha256": "c57650fe98de914da97ec9151e3b7fce48d73ed4b929ffb1987f8bdaea1cc972",
+      "tokenCount": 57,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-wipeup",
+      "codeSha256": "37e389eb3c245d67bd27f4ad8cdb76de419425e149ed5df0dd2a0b7c673d91f7",
+      "canonicalSha256": "1a0696ce67370815262d73a2a8d588572abb5deaff19838a268f3374d6c70a59",
+      "tokenCount": 57,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-x-axis-translation",
+      "codeSha256": "e695bda9750e11228e471b9ce2af75525655558000c370f63501897d67642cad",
+      "canonicalSha256": "7be6f17cbdaa2f92935bbd58396fbe190d6a661ba69ed6ede419f49573f51310",
+      "tokenCount": 52,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-zoomincircles",
+      "codeSha256": "2e5d3380a292c799f86b283e4b5b9a8131a03b1ad5352db68d834f4f4183b9d8",
+      "canonicalSha256": "99d43f0e60345d957df62774ecb692a7f9f321c6894eae456d7ffa756c6b17bf",
+      "tokenCount": 235,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-zoominout",
+      "codeSha256": "850c1eefb0d0ed8b4b09535aef020d809f30dee9f34c2b6d4c1424c93ae83c44",
+      "canonicalSha256": "4b5c93e3a88212546b95fd4551685ab1b4f000735b625ef08380ae73d23a7482",
+      "tokenCount": 106,
+      "uniformDefaults": []
+    },
+    {
+      "id": "gl-transitions-zoomleftwipe",
+      "codeSha256": "13d14bdd5d7f15a876184fa2f9164c4124be13d164886bbcb851adc3c057c17d",
+      "canonicalSha256": "d9f0dff276376073ffbc0426cbe1d6afc4258ec792c0c14e54ad50944cc70874",
+      "tokenCount": 183,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            0.8
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "gl-transitions-zoomrigthwipe",
+      "codeSha256": "53e4e2f3ba9b8f66830325beb65ba22038e02d538b6773c7dacc5d8173d5a338",
+      "canonicalSha256": "852036bff9f4ca9a87f870768bb990c475d7ee74aa3fc6c04bb7c92c00a26aab",
+      "tokenCount": 183,
+      "uniformDefaults": [
+        [
+          "float",
+          "v0",
+          [
+            0.8
+          ]
+        ]
+      ]
+    },
+    {
+      "id": "motion-exp12-creative-lab-003-raymarching",
+      "codeSha256": "15e6fc21fd4774dff905851de09d743a35441a179c74a2a5666aecf2876f2b38",
+      "canonicalSha256": "7226fd9cd4ec9e27f2aacc834f4ea5b42e6157e4dd063daafc4c5d5acdaf3cb4",
+      "tokenCount": 1376,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-artpop-iridescence",
+      "codeSha256": "966c7aee3b44a67eaca9e6c77b04f7575965d8cae89956967f993d281c03a177",
+      "canonicalSha256": "eb85a11c5cd10daa52e129da6b79f2829b56599180943e867aff18a566878240",
+      "tokenCount": 2170,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-aurora-curtain",
+      "codeSha256": "eeefecdb4cc84db53bcc3affda3912331e57541a53fc3679e8e1423e5afa0d0e",
+      "canonicalSha256": "bf663a6d188eb662cea7a652328500b6c767b51a1ac2886b75d7f758a15a2f2a",
+      "tokenCount": 758,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-aurora-veil",
+      "codeSha256": "5ebd4614c71b81082560a67447ee077bb3735d339c3ec17cd10ddc5332816941",
+      "canonicalSha256": "daba658a529074dedb1d32d3aeb1f6337057ce9eefdcd80dfa0b8a1186b93335",
+      "tokenCount": 2603,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-bass-ripple",
+      "codeSha256": "cca447420406283c084f2711991627fc4f27dd0499937ffeeba5c1db10382bbe",
+      "canonicalSha256": "c607f61c35234094eb9bee18fedd13822d36bcf1ee4507a80ff736e33fb328a8",
+      "tokenCount": 2639,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-bioluminescence",
+      "codeSha256": "31a7d6139bb3ec3edf838c32c7b3c46d16fb2e1b31b6be73b723a14df20c2781",
+      "canonicalSha256": "829d22d16c23bc1e6390625c56782eccf1aaeba937f074eb5a6ead1e3e7dab0b",
+      "tokenCount": 2120,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-burning-film",
+      "codeSha256": "cc70208def484d2cf6e9dfc8a1324d44609314672902b067d005e0de136633ab",
+      "canonicalSha256": "ff0684c328fa4e62e07091abee63c9ae87c4fad25c0b958a5470359e332f0259",
+      "tokenCount": 1892,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-chladni-resonance",
+      "codeSha256": "2c89014203ce00b5968375eb482ba8d91823abeef00d9e0cded8f8a18f881485",
+      "canonicalSha256": "af89ef1a581fb12a4df373235153dbea0d1cd6288cd7ea165777fa0582581d8f",
+      "tokenCount": 975,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-chromatic-bloom",
+      "codeSha256": "1cd00d3b77435593fd6678537c22d8648a41b8f5ca8b07f0814e1037da65caa5",
+      "canonicalSha256": "0561f329a3a52e340b5ed6535fd5987263afba16e0db0e6eb673e9bbb88425e5",
+      "tokenCount": 1860,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-crystal-lattice",
+      "codeSha256": "f4e3b123fe9cb5543461b412989df45364269cf218afdc0e5779faa49104b47b",
+      "canonicalSha256": "b6cf99810fd72f5b2971f1da44fb278dbc5b8b79e339444b61a9f052cfc2643f",
+      "tokenCount": 4642,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-diamond-caustics",
+      "codeSha256": "f81b56b0b7ce7f5d6d4276254120069593711195a0187305c755352bd2518141",
+      "canonicalSha256": "74439e51ac85fdbd28eeb1872595a519dc8a3894fdd74a4555136311ca927a1e",
+      "tokenCount": 2862,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-dither-gradient",
+      "codeSha256": "fee379ad51a76fbf3b76beda7b3882fe27115c674e5fcd323fd85d2784f4e970",
+      "canonicalSha256": "ae67481202ad7a1d1b3968c97a3d1c023377f3ed7d5da42335018e5e04f5bce8",
+      "tokenCount": 2068,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-eclipse-glow",
+      "codeSha256": "3b67695c8d9ec7f60444d9c286b1f186269286c68bf18913c85acd4b3cd509c3",
+      "canonicalSha256": "b4bed39b761e094bf9562c0f56ead8c53a7ccc7cb67658c82e7708aa6638f9de",
+      "tokenCount": 1778,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-event-horizon",
+      "codeSha256": "7e2e25d648089fa02fb912e74e2b3ec622d38fd32a214a4d3078418da51876b9",
+      "canonicalSha256": "12f3a61893c332ca33530157bc2b344b7cf11886e882bd7461bbb74250918961",
+      "tokenCount": 2627,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-fluid-amber",
+      "codeSha256": "ae6af1c47fd12ead3fe633b5c5f977d3ddb9d66f78924140c28f92ac43eca95e",
+      "canonicalSha256": "4d4f19700e09f5fe78bd02b8f030ef303ad54db1f5059a15b707e0a782ab5284",
+      "tokenCount": 935,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-gilded-fracture",
+      "codeSha256": "a8b6c74c6b4d04a6162b50897455813df49189eba57e6afceb709e4839a076ef",
+      "canonicalSha256": "531c11b394f442125d4b328f0d605f809874d9ca04a532c86f0890f021ad4022",
+      "tokenCount": 7327,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-gilt-mosaic",
+      "codeSha256": "70c856801fca904ec8c7e1bef422f5171476e5878283aaf893bf002e6f9461be",
+      "canonicalSha256": "703abc3ae2e8f3841afd88d836277bb956e8718d0098719ede9cad74e0560936",
+      "tokenCount": 2574,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-golden-throne",
+      "codeSha256": "4da92024afedbc93e9f8f0acd25d454a898959c36b64b8d49b9ef3342df14a01",
+      "canonicalSha256": "3ec53d374a962821a239445d2e8f63afd8e870d820ee0595d8b33ec6c4547569",
+      "tokenCount": 2073,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-gothic-filigree",
+      "codeSha256": "0c00e5238a98ae7ceb7e8352a010fd2d9188f8a3155b440ffa9bbdc35e164838",
+      "canonicalSha256": "d84b6c6e950f56a4373264c282304d2a5b9ab50292ac1beddade95196a409e49",
+      "tokenCount": 2501,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-hologram-glitch",
+      "codeSha256": "9a1936b7e858f9dc99e3271c24786245f86bfc62fd932ad521ad407a6677f753",
+      "canonicalSha256": "3a175903fcb410baf9d237f92d46ce7252c570f1146d2b7bdb9e02c81b3b7b77",
+      "tokenCount": 2340,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-ink-dissolve",
+      "codeSha256": "ac0eea81acb4377eb7d01284288afd0dc8d57829b636dcd3f95efe6053535f4f",
+      "canonicalSha256": "3b2cc761e86955b0d5dd7bc4ddad8bbc28da25301cb63229db4deeb3116d2e4d",
+      "tokenCount": 1597,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-kaleidoscope-runway",
+      "codeSha256": "4b161b379ec856011443cc985045e011686c4108fd3bf9a1f22f06b692f1e3af",
+      "canonicalSha256": "74799a0d4dd8946869c379674ea01038fb5f6d38778f4363f0719315b76fa0eb",
+      "tokenCount": 1794,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-laser-labyrinth",
+      "codeSha256": "ef4877d87668e69b58da6b10d200e27ad674a41719545ed52185dcbef800a927",
+      "canonicalSha256": "cab3fa2c0e118a59b875bf1169c6c040a89a7c88757b0f910a26ed2662f528e3",
+      "tokenCount": 2025,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-lens-whisper",
+      "codeSha256": "54c316c2436abaab9312977d921f53842ab792bdfe1fa03aec64da3dbdb14db6",
+      "canonicalSha256": "2ca8f5b51c6ef24df0aac322d17a10b3a2ae6181c7fde0202e35b0410845196b",
+      "tokenCount": 1749,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-liquid-gold",
+      "codeSha256": "bc4fadfc0f1d1f8e8c8f596e64dd0d92bfda77f29e3d6cbf8ff3720ffa42f68a",
+      "canonicalSha256": "d365b53b750add2b66f187e21b3bcf081a70d7f553d3af2b6bc1b4d4d5ad4e14",
+      "tokenCount": 1643,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-magma-core",
+      "codeSha256": "0de94aa1aa8674c45c22c98908e80b1c22b1640f048eb24ee64889c9c2067c33",
+      "canonicalSha256": "7c7e724aa802d9601bd783bae74208b96f43fc6068de1f497c6f8e19c861525c",
+      "tokenCount": 1894,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-magnetic-field",
+      "codeSha256": "c2cca907b09f669a094fa7469ca70e68c88247b57debc0e4e92106cee8af46fe",
+      "canonicalSha256": "38053076a513489f7a1918d42102299afb78e13ea31fda826ae2dfdd2bba3310",
+      "tokenCount": 888,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-metamorphosis",
+      "codeSha256": "410deb92ffca78fe19a91e97ad676d4addb343795a4c29e13494f957aa042344",
+      "canonicalSha256": "c0f6619237a6ed749804e529ba25857636a308d4f450ed9114ebb1f7128d8e85",
+      "tokenCount": 2672,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-moire-interference",
+      "codeSha256": "def799f5334db5c028d8dd3fb22d904f35ed89a34c4a514df363ce0721031e67",
+      "canonicalSha256": "420662496bb5fe0d3e2eb3d639b14d77f630704d60b36916f1b1d48059f50218",
+      "tokenCount": 824,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-moonlit-ripple",
+      "codeSha256": "c23c86e050c436db672e063033cab5c2b0f7bdec4853d4a87d36eb431664e05c",
+      "canonicalSha256": "22c81788e88fa62aa3fbfa399a76d2306cdc5552943b4b05995453a1be4297ca",
+      "tokenCount": 1346,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-neon-drip",
+      "codeSha256": "18fd1a3ab52cff34e8cb8b6c5102427c585b604ea6c6fdc217ab59907c3fb4b9",
+      "canonicalSha256": "34dec67e8c8cd5ef35bf7c05389761197b1d2782967593d43f723cd2b3923850",
+      "tokenCount": 1663,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-neon-drive",
+      "codeSha256": "130ebe66d8eb949b7ce932889cd9e0490bbe37b20add7f079a15aec9ba17fc79",
+      "canonicalSha256": "ed8cbf7ffb440230d2b3e0342c744962658682c5c803e8e579b135cb586dbae1",
+      "tokenCount": 2624,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-neon-revival",
+      "codeSha256": "2563f88bcbdec56165954feffbdfd76d3a3008557711a40f97f9be4945cf4501",
+      "canonicalSha256": "d29265701f3e5730fc6a8ab061eee8167c10e2fdb7fbf17377563dc8fc5c48fd",
+      "tokenCount": 6110,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-painted-strata",
+      "codeSha256": "5721268555d09ec7669b371c93305d1552586104ef4244eb74f2f4020d86b068",
+      "canonicalSha256": "12dfbf4807c2cc0d1b1eba5640559a373ea42c52f5c02485372196272dff211e",
+      "tokenCount": 2326,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-polaroid-burn",
+      "codeSha256": "c607c2e92560c218e1e15621a74bd08c47fd62dc3d818d6ab61080784cc2676d",
+      "canonicalSha256": "3d5e793d95fa7d82b87b4ea877b5e88e6768e1e58e92a9305523d4b8acafb1ab",
+      "tokenCount": 2047,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-radiant-geometry",
+      "codeSha256": "9953a0dbea5e9a5d50d5d74ec5ff61806899d388adf9656cfd4d17464c7f3777",
+      "canonicalSha256": "5f20772c71340b51848cee0ffb9b3c98a78370e52b5419975024b47d2af92a9f",
+      "tokenCount": 3968,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-sacred-strange",
+      "codeSha256": "b544d128782cb2059f9bc52cf583968d67f6ce112aa9a997078952ea79b11c89",
+      "canonicalSha256": "eea8b26fca3a593310ee31b28257dd48b4f6362ab1c170f09e813bdc90476f4f",
+      "tokenCount": 3063,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-scream-wave",
+      "codeSha256": "9c57717f0f9158989a1544af5720b897912687a062ed9f14f1f8b5846ee1128c",
+      "canonicalSha256": "15f982055ecc097b14352784e27bc1fb4a6408299c268318533e3fcd112dabd3",
+      "tokenCount": 2210,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-sequin-wave",
+      "codeSha256": "e41ca4295ab6d23b02c075973b82517df63cacdd6cb512c8450531772689164a",
+      "canonicalSha256": "46b8b4a19210595cccd9c0db54746d3fd72398014852ed1d017accbb538fe215",
+      "tokenCount": 1422,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-shifting-veils",
+      "codeSha256": "81ce08a0308d8a00767bdfc383097cdaa1ffb367b559c7bde6b43f65888ddef5",
+      "canonicalSha256": "684d9ef172d08f46410d5c8cef57ae0c8ec3dff3efd9d8cccc9b4978ff7949ae",
+      "tokenCount": 1237,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-signal-decay",
+      "codeSha256": "694f488c743b88bbed68f115e2c581a423152c30411cdd1bd423aefc263aaf0d",
+      "canonicalSha256": "eb5e68106dd0aa65386416ee38a27fb116b7c4fffd23781e1771a0da326b05f5",
+      "tokenCount": 2150,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-silk-cascade",
+      "codeSha256": "5900f426d750f9f1f2dd82f5f36647a25541e1bd85ea7ac1af3096c310d6c2e6",
+      "canonicalSha256": "a1cc959b6d716e52e6dd411601441afebccecb6ab1a11ad3df00a893902d8428",
+      "tokenCount": 2417,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-silk-groove",
+      "codeSha256": "9bf3ebc019d308ea85ae714bcc7002167e577e0423d6a68cd035944cd58a33fd",
+      "canonicalSha256": "61def2ad6997d4c95709f37ed443a516124ff82e1aea0b4c75c2d5b85c9a0893",
+      "tokenCount": 1841,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-smolder",
+      "codeSha256": "13866be815c57c4818bd931be15e061fbd6747dfb88d83f584398dccd5e5f97a",
+      "canonicalSha256": "9e4fc2a6a424ecdba67fb85e14fa6072c8082ec49f80f96f61bc60461cf30d88",
+      "tokenCount": 2405,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-stardust-veil",
+      "codeSha256": "731bf3cd832757196f92f6a6fac5be1154b9c2b8ff486e39168f5896b8eb662f",
+      "canonicalSha256": "f8de68e092fda1ab2e11c45047d527ab48961403eaa4b63d477ea119382d5612",
+      "tokenCount": 2636,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-strobe-geometry",
+      "codeSha256": "7b377544822fbf747e03b159c468bd9fd464fa2b0c7426ee42fc70c352420a4c",
+      "canonicalSha256": "7d18d08bff338107a5e8ed7196bca08edf61ca2c651b31a3029820dae3e3b5f5",
+      "tokenCount": 3031,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-sugar-glass",
+      "codeSha256": "3d453ba2070d85af534bb327c2a460e24304b09362a2f0b72a1ccec41f716c9a",
+      "canonicalSha256": "1bf0165bcd5ca39c150eafa2b9e042425a4168ec37294cfb72e7d4b28ae437de",
+      "tokenCount": 3853,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-thunder-sermon",
+      "codeSha256": "bc5ac08d845a1cd23b230088c7796a1bb00d95f5b85b18831ec0e814b9356920",
+      "canonicalSha256": "43e9776ea4e8bbb132ad4c58e3997e0f6218d9604b0b9d36f4f08338f855b435",
+      "tokenCount": 2760,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-torn-paper",
+      "codeSha256": "daa2e4055ed57033a6cc02815d952d0a5f73331241b906eeb9985fdcfc83fe60",
+      "canonicalSha256": "6394c2a544a3db76baa7aa7653dcb4ce9331def6546a214d31922c35c24a828a",
+      "tokenCount": 3160,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-tropical-heat",
+      "codeSha256": "f4450a991a4b2832bc0540a2746a6f31d58ddebb7bdecc1b64661e6fe4846f50",
+      "canonicalSha256": "7df6b0462cac685c0c7f64f0441eaba24f60985cd87759b871113163205ab7b7",
+      "tokenCount": 2132,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-vertigo",
+      "codeSha256": "c8f6ab423867f4cfbca19126431699d16459669b17a271048669d7fa352eef6e",
+      "canonicalSha256": "422e796a4f819cf8e433c8bfb48f09272e03fe3c7d84314e2d7f53aa6b9d9998",
+      "tokenCount": 1126,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-vinyl-grooves",
+      "codeSha256": "e61605e326c2b77b424502bc4afed20fa652a1385abbb2e4689aa5606161186b",
+      "canonicalSha256": "90f8e5ccd3bc009d0ede7d935b4fdf8fd248680c033bb787e445cae27f21cfe2",
+      "tokenCount": 1938,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-voltage-arc",
+      "codeSha256": "aac95cb2464d436667521c983f35849a430712f6590658b8ff4b3adcd0984adb",
+      "canonicalSha256": "fbf0ebb6560e27a408e8a3aa713d1dc2d48eebc8732d9abee30540da522cff26",
+      "tokenCount": 2264,
+      "uniformDefaults": []
+    },
+    {
+      "id": "motion-exp12-radiant-vortex",
+      "codeSha256": "620e6ef39f6dd4afa64b32c2fee10b0f421b1228a5aadd2120e879e43cdf1bd3",
+      "canonicalSha256": "6d34a8c8f8cd1231954061150139958e2f23008a057a6650155584c8f15e57ac",
+      "tokenCount": 719,
+      "uniformDefaults": []
+    }
+  ],
+  "exactGroups": [
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-28_cosmic-jellyfish-nebula-floating-in-space-glsl",
+        "expansion12-shaderforge-2026-03-28_ethereal-aurora-borealis-with-raymarched-mountains-glsl"
+      ],
+      "reason": "Same GLSL tokens after consistent declared-identifier renaming, with equal host uniform defaults.",
+      "confidence": "high",
+      "evidence": {
+        "signatureSha256": "45351d7b43336b2d1e4366b4a8a9b398b1e71177cedc674b0b8d1042cff6ccb7",
+        "codeSha256": {
+          "expansion12-shaderforge-2026-03-28_cosmic-jellyfish-nebula-floating-in-space-glsl": "b0e3b01952390c6b24a2a77e0ee02ace6023c0a0ea96e3dc1afbf81fc8f728af",
+          "expansion12-shaderforge-2026-03-28_ethereal-aurora-borealis-with-raymarched-mountains-glsl": "b0e3b01952390c6b24a2a77e0ee02ace6023c0a0ea96e3dc1afbf81fc8f728af"
+        }
+      }
+    }
+  ],
+  "nearGroups": [],
+  "candidatePairs": [
+    {
+      "ids": [
+        "gl-transitions-horizontalclose",
+        "gl-transitions-verticalclose"
+      ],
+      "reason": "High normalized token overlap; output equivalence needs review.",
+      "confidence": "candidate",
+      "evidence": {
+        "tokenSequenceRatio": 0.982456,
+        "fiveTokenShingleDice": 0.90566,
+        "codeSha256": {
+          "gl-transitions-horizontalclose": "7991d30a608859253d53bc7fae51bc283593a2dce7548b036ecacf17a5e969c1",
+          "gl-transitions-verticalclose": "6f40f60736543feaf29f541f64fd06d87be29b90b7a1830df33b632b9eecada2"
+        }
+      },
+      "differences": {
+        "tokenChanges": [
+          {
+            "operation": "replace",
+            "gl-transitions-horizontalclose": [
+              "y"
+            ],
+            "gl-transitions-verticalclose": [
+              "x"
+            ]
+          }
+        ],
+        "uniformDefaults": {
+          "gl-transitions-horizontalclose": [],
+          "gl-transitions-verticalclose": []
+        }
+      },
+      "recommendation": "Review the changed operators, axes and samples; shared algorithm text does not prove near-identical output."
+    },
+    {
+      "ids": [
+        "gl-transitions-horizontalopen",
+        "gl-transitions-verticalopen"
+      ],
+      "reason": "High normalized token overlap; output equivalence needs review.",
+      "confidence": "candidate",
+      "evidence": {
+        "tokenSequenceRatio": 0.984375,
+        "fiveTokenShingleDice": 0.916667,
+        "codeSha256": {
+          "gl-transitions-horizontalopen": "847aa4d7fa84573581113c68d43564a7da4ddab1a268d38948e0c949292974ef",
+          "gl-transitions-verticalopen": "ab28b52e5936882c5d1b7615bf9b3c703a154c352966b4c2e5366779cfbd8605"
+        }
+      },
+      "differences": {
+        "tokenChanges": [
+          {
+            "operation": "replace",
+            "gl-transitions-horizontalopen": [
+              "y"
+            ],
+            "gl-transitions-verticalopen": [
+              "x"
+            ]
+          }
+        ],
+        "uniformDefaults": {
+          "gl-transitions-horizontalopen": [],
+          "gl-transitions-verticalopen": []
+        }
+      },
+      "recommendation": "Review the changed operators, axes and samples; shared algorithm text does not prove near-identical output."
+    },
+    {
+      "ids": [
+        "gl-transitions-leftright",
+        "gl-transitions-topbottom"
+      ],
+      "reason": "High normalized token overlap; output equivalence needs review.",
+      "confidence": "candidate",
+      "evidence": {
+        "tokenSequenceRatio": 0.978495,
+        "fiveTokenShingleDice": 0.934066,
+        "codeSha256": {
+          "gl-transitions-leftright": "9bb05f7449a5a9500fb16d6407090202b65cb71af358c21e68d09c67a673b9b9",
+          "gl-transitions-topbottom": "16e0aa3af9c14e9438e4ee452ac25dcf7274bd7f7c8a5de95d500789abdcef84"
+        }
+      },
+      "differences": {
+        "tokenChanges": [
+          {
+            "operation": "replace",
+            "gl-transitions-leftright": [
+              "-"
+            ],
+            "gl-transitions-topbottom": [
+              "+"
+            ]
+          },
+          {
+            "operation": "replace",
+            "gl-transitions-leftright": [
+              "1."
+            ],
+            "gl-transitions-topbottom": [
+              "0.0",
+              ",",
+              "1.0"
+            ]
+          },
+          {
+            "operation": "delete",
+            "gl-transitions-leftright": [
+              ",",
+              "0.0"
+            ],
+            "gl-transitions-topbottom": []
+          }
+        ],
+        "uniformDefaults": {
+          "gl-transitions-leftright": [],
+          "gl-transitions-topbottom": []
+        }
+      },
+      "recommendation": "Review the changed operators, axes and samples; shared algorithm text does not prove near-identical output."
+    },
+    {
+      "ids": [
+        "gl-transitions-splitslideouthorizontal",
+        "gl-transitions-splitslideoutvertical"
+      ],
+      "reason": "High normalized token overlap; output equivalence needs review.",
+      "confidence": "candidate",
+      "evidence": {
+        "tokenSequenceRatio": 0.959677,
+        "fiveTokenShingleDice": 0.858333,
+        "codeSha256": {
+          "gl-transitions-splitslideouthorizontal": "2f486e615f1943e2a27449dab391c00cb15d708ffc4872cdac441eaf20d1d682",
+          "gl-transitions-splitslideoutvertical": "b54781e52695daac04983781481a7ba815acdab6dc2f30ea8d446d835f63fb6b"
+        }
+      },
+      "differences": {
+        "tokenChanges": [
+          {
+            "operation": "replace",
+            "gl-transitions-splitslideouthorizontal": [
+              "y"
+            ],
+            "gl-transitions-splitslideoutvertical": [
+              "x"
+            ]
+          },
+          {
+            "operation": "insert",
+            "gl-transitions-splitslideouthorizontal": [],
+            "gl-transitions-splitslideoutvertical": [
+              ",",
+              "v5",
+              ".",
+              "y"
+            ]
+          },
+          {
+            "operation": "delete",
+            "gl-transitions-splitslideouthorizontal": [
+              ",",
+              "v5",
+              ".",
+              "y"
+            ],
+            "gl-transitions-splitslideoutvertical": []
+          }
+        ],
+        "uniformDefaults": {
+          "gl-transitions-splitslideouthorizontal": [
+            [
+              "bool",
+              "v0",
+              [
+                0
+              ]
+            ]
+          ],
+          "gl-transitions-splitslideoutvertical": [
+            [
+              "bool",
+              "v0",
+              [
+                0
+              ]
+            ]
+          ]
+        }
+      },
+      "recommendation": "Review the changed operators, axes and samples; shared algorithm text does not prove near-identical output."
+    },
+    {
+      "ids": [
+        "gl-transitions-wipedown",
+        "gl-transitions-wipeleft"
+      ],
+      "reason": "High normalized token overlap; output equivalence needs review.",
+      "confidence": "candidate",
+      "evidence": {
+        "tokenSequenceRatio": 0.982456,
+        "fiveTokenShingleDice": 0.90566,
+        "codeSha256": {
+          "gl-transitions-wipedown": "0e9897ab1b6fc5383772f0b4c4ea49551942d138bc5d363a1a401e43832a21ea",
+          "gl-transitions-wipeleft": "e877946d2df38eed3510a388c246c04f8898d158d056f1925301dc0852288e51"
+        }
+      },
+      "differences": {
+        "tokenChanges": [
+          {
+            "operation": "replace",
+            "gl-transitions-wipedown": [
+              "y"
+            ],
+            "gl-transitions-wipeleft": [
+              "x"
+            ]
+          }
+        ],
+        "uniformDefaults": {
+          "gl-transitions-wipedown": [],
+          "gl-transitions-wipeleft": []
+        }
+      },
+      "recommendation": "Review the changed operators, axes and samples; shared algorithm text does not prove near-identical output."
+    },
+    {
+      "ids": [
+        "gl-transitions-wipedown",
+        "gl-transitions-wiperight"
+      ],
+      "reason": "High normalized token overlap; output equivalence needs review.",
+      "confidence": "candidate",
+      "evidence": {
+        "tokenSequenceRatio": 0.947368,
+        "fiveTokenShingleDice": 0.830189,
+        "codeSha256": {
+          "gl-transitions-wipedown": "0e9897ab1b6fc5383772f0b4c4ea49551942d138bc5d363a1a401e43832a21ea",
+          "gl-transitions-wiperight": "986db07618558edb7a46d9734ac572fa4d9c2b001afdfc46acd8690571db46c8"
+        }
+      },
+      "differences": {
+        "tokenChanges": [
+          {
+            "operation": "replace",
+            "gl-transitions-wipedown": [
+              "1.0",
+              "-"
+            ],
+            "gl-transitions-wiperight": [
+              "0.0",
+              "+"
+            ]
+          },
+          {
+            "operation": "replace",
+            "gl-transitions-wipedown": [
+              "y"
+            ],
+            "gl-transitions-wiperight": [
+              "x"
+            ]
+          }
+        ],
+        "uniformDefaults": {
+          "gl-transitions-wipedown": [],
+          "gl-transitions-wiperight": []
+        }
+      },
+      "recommendation": "Review the changed operators, axes and samples; shared algorithm text does not prove near-identical output."
+    },
+    {
+      "ids": [
+        "gl-transitions-wipedown",
+        "gl-transitions-wipeup"
+      ],
+      "reason": "High normalized token overlap; output equivalence needs review.",
+      "confidence": "candidate",
+      "evidence": {
+        "tokenSequenceRatio": 0.964912,
+        "fiveTokenShingleDice": 0.886792,
+        "codeSha256": {
+          "gl-transitions-wipedown": "0e9897ab1b6fc5383772f0b4c4ea49551942d138bc5d363a1a401e43832a21ea",
+          "gl-transitions-wipeup": "37e389eb3c245d67bd27f4ad8cdb76de419425e149ed5df0dd2a0b7c673d91f7"
+        }
+      },
+      "differences": {
+        "tokenChanges": [
+          {
+            "operation": "replace",
+            "gl-transitions-wipedown": [
+              "1.0",
+              "-"
+            ],
+            "gl-transitions-wipeup": [
+              "0.0",
+              "+"
+            ]
+          }
+        ],
+        "uniformDefaults": {
+          "gl-transitions-wipedown": [],
+          "gl-transitions-wipeup": []
+        }
+      },
+      "recommendation": "Review the changed operators, axes and samples; shared algorithm text does not prove near-identical output."
+    },
+    {
+      "ids": [
+        "gl-transitions-wipeleft",
+        "gl-transitions-wiperight"
+      ],
+      "reason": "High normalized token overlap; output equivalence needs review.",
+      "confidence": "candidate",
+      "evidence": {
+        "tokenSequenceRatio": 0.964912,
+        "fiveTokenShingleDice": 0.886792,
+        "codeSha256": {
+          "gl-transitions-wipeleft": "e877946d2df38eed3510a388c246c04f8898d158d056f1925301dc0852288e51",
+          "gl-transitions-wiperight": "986db07618558edb7a46d9734ac572fa4d9c2b001afdfc46acd8690571db46c8"
+        }
+      },
+      "differences": {
+        "tokenChanges": [
+          {
+            "operation": "replace",
+            "gl-transitions-wipeleft": [
+              "1.0",
+              "-"
+            ],
+            "gl-transitions-wiperight": [
+              "0.0",
+              "+"
+            ]
+          }
+        ],
+        "uniformDefaults": {
+          "gl-transitions-wipeleft": [],
+          "gl-transitions-wiperight": []
+        }
+      },
+      "recommendation": "Review the changed operators, axes and samples; shared algorithm text does not prove near-identical output."
+    },
+    {
+      "ids": [
+        "gl-transitions-wipeleft",
+        "gl-transitions-wipeup"
+      ],
+      "reason": "High normalized token overlap; output equivalence needs review.",
+      "confidence": "candidate",
+      "evidence": {
+        "tokenSequenceRatio": 0.947368,
+        "fiveTokenShingleDice": 0.830189,
+        "codeSha256": {
+          "gl-transitions-wipeleft": "e877946d2df38eed3510a388c246c04f8898d158d056f1925301dc0852288e51",
+          "gl-transitions-wipeup": "37e389eb3c245d67bd27f4ad8cdb76de419425e149ed5df0dd2a0b7c673d91f7"
+        }
+      },
+      "differences": {
+        "tokenChanges": [
+          {
+            "operation": "replace",
+            "gl-transitions-wipeleft": [
+              "1.0",
+              "-"
+            ],
+            "gl-transitions-wipeup": [
+              "0.0",
+              "+"
+            ]
+          },
+          {
+            "operation": "replace",
+            "gl-transitions-wipeleft": [
+              "x"
+            ],
+            "gl-transitions-wipeup": [
+              "y"
+            ]
+          }
+        ],
+        "uniformDefaults": {
+          "gl-transitions-wipeleft": [],
+          "gl-transitions-wipeup": []
+        }
+      },
+      "recommendation": "Review the changed operators, axes and samples; shared algorithm text does not prove near-identical output."
+    },
+    {
+      "ids": [
+        "gl-transitions-wiperight",
+        "gl-transitions-wipeup"
+      ],
+      "reason": "High normalized token overlap; output equivalence needs review.",
+      "confidence": "candidate",
+      "evidence": {
+        "tokenSequenceRatio": 0.982456,
+        "fiveTokenShingleDice": 0.90566,
+        "codeSha256": {
+          "gl-transitions-wiperight": "986db07618558edb7a46d9734ac572fa4d9c2b001afdfc46acd8690571db46c8",
+          "gl-transitions-wipeup": "37e389eb3c245d67bd27f4ad8cdb76de419425e149ed5df0dd2a0b7c673d91f7"
+        }
+      },
+      "differences": {
+        "tokenChanges": [
+          {
+            "operation": "replace",
+            "gl-transitions-wiperight": [
+              "x"
+            ],
+            "gl-transitions-wipeup": [
+              "y"
+            ]
+          }
+        ],
+        "uniformDefaults": {
+          "gl-transitions-wiperight": [],
+          "gl-transitions-wipeup": []
+        }
+      },
+      "recommendation": "Review the changed operators, axes and samples; shared algorithm text does not prove near-identical output."
+    },
+    {
+      "ids": [
+        "gl-transitions-zoomleftwipe",
+        "gl-transitions-zoomrigthwipe"
+      ],
+      "reason": "High normalized token overlap; output equivalence needs review.",
+      "confidence": "candidate",
+      "evidence": {
+        "tokenSequenceRatio": 0.989071,
+        "fiveTokenShingleDice": 0.96648,
+        "codeSha256": {
+          "gl-transitions-zoomleftwipe": "13d14bdd5d7f15a876184fa2f9164c4124be13d164886bbcb851adc3c057c17d",
+          "gl-transitions-zoomrigthwipe": "53e4e2f3ba9b8f66830325beb65ba22038e02d538b6773c7dacc5d8173d5a338"
+        }
+      },
+      "differences": {
+        "tokenChanges": [
+          {
+            "operation": "replace",
+            "gl-transitions-zoomleftwipe": [
+              "1.0",
+              "-"
+            ],
+            "gl-transitions-zoomrigthwipe": [
+              "0.0",
+              "+"
+            ]
+          }
+        ],
+        "uniformDefaults": {
+          "gl-transitions-zoomleftwipe": [
+            [
+              "float",
+              "v0",
+              [
+                0.8
+              ]
+            ]
+          ],
+          "gl-transitions-zoomrigthwipe": [
+            [
+              "float",
+              "v0",
+              [
+                0.8
+              ]
+            ]
+          ]
+        }
+      },
+      "recommendation": "Review the changed operators, axes and samples; shared algorithm text does not prove near-identical output."
+    }
+  ],
+  "familyGroups": [],
+  "errors": []
+}

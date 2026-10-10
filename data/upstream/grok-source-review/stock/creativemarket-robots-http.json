@@ -1,0 +1,16 @@
+{
+  "id": "creativemarket",
+  "url": "https://creativemarket.com/robots.txt",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 403,
+  "finalUrl": "https://creativemarket.com/robots.txt",
+  "contentType": "text/html; charset=UTF-8",
+  "truncated": false,
+  "observedBytes": 5524,
+  "observedContentSha256": "41b3640205f4f3291e678846dd1834be4e99ce80a7ec6da64a7ad0bd57d35959",
+  "links": [],
+  "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+  "challengeOrDenial": true
+}

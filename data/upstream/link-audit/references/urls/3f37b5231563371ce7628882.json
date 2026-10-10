@@ -1,0 +1,56 @@
+{
+  "url": "https://docs.svgsketch.com/sdk/animation/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://docs.svgsketch.com/sdk/animation/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://docs.svgsketch.com/sdk/animation/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://docs.svgsketch.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://docs.svgsketch.com/sdk/animation/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:29.641048+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://docs.svgsketch.com/sdk/animation/",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 19742,
+      "capturedSha256": "afa0d59745ecd008f7677ee775695140470d88a3c5860537d3aa243ea749a02c",
+      "responseBodySha256": "afa0d59745ecd008f7677ee775695140470d88a3c5860537d3aa243ea749a02c",
+      "title": "Animation | SVGSketch Docs",
+      "textCharacters": 8932,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.577,
+      "captureCachePath": "exa-results/link-audit/references/captures/d8310968750a9ddcdfccc51f.json",
+      "captureCacheSha256": "cac0219dfecc97ae67f870ba192cb3d31150d386562a37b1372f230ecb765741"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-svgsketch",
+      "canonicalId": "ref-svgsketch",
+      "title": "SVGSketch",
+      "role": "canonical",
+      "sourceSha256": "1b94537c460fa60e5543e03388d47ff389902e955202defbbced5ec01dd3222c"
+    }
+  ]
+}

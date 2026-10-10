@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <path d="M50 150 H350 M200 50 V250" stroke="#334155" stroke-width="2" opacity="0.1" />
+                
+                
+                <g transform="translate(100, 150)">
+                    <g>
+                    <rect x="-25" y="-30" width="50" height="60" rx="5" fill="#6366f1" />
+                    <path d="M-15 -10 H15 M-15 0 H15 M-15 10 H5" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+                </g>
+                </g>
+                
+                
+                <path d="M125 150 H165" stroke="#334155" stroke-width="6" stroke-linecap="round" />
+                <path d="M125 150 H165" stroke="#DFD116" stroke-width="2" stroke-dasharray="4 4" />
+                
+                
+                <g transform="translate(200, 150)">
+                    <g>
+                    <rect x="-25" y="-30" width="50" height="60" rx="5" fill="#f43f5e" />
+                    <path d="M-15 -10 H15 M-15 0 H15 M-15 10 H5" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+                </g>
+                </g>
+                
+                
+                <path d="M235 150 H275" stroke="#334155" stroke-width="6" stroke-linecap="round" />
+                <path d="M235 150 H275" stroke="#DFD116" stroke-width="2" stroke-dasharray="4 4" />
+                
+                
+                <g transform="translate(300, 150)">
+                    <g>
+                    <rect x="-25" y="-30" width="50" height="60" rx="5" fill="#6366f1" />
+                    <path d="M-15 -10 H15 M-15 0 H15 M-15 10 H5" stroke="#ffffff" stroke-width="3" stroke-linecap="round" />
+                </g>
+                </g>
+                
+                
+                <g transform="translate(150, 100)">
+                    <g>
+                    <text x="0" y="0" font-family="monospace" font-weight="bold" font-size="20" fill="#DFD116">#</text>
+                </g>
+                </g>
+                <g transform="translate(250, 200)">
+                    <g>
+                    <text x="0" y="0" font-family="monospace" font-weight="bold" font-size="20" fill="#DFD116">#</text>
+                </g>
+                </g>
+            </g>
+          </svg>

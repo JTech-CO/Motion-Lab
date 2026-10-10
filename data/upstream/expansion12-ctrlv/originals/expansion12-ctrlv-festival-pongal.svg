@@ -1,0 +1,26 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Fire -->
+            <path class="anim-pulse" d="M180 260 Q200 220 220 260 Z" fill="var(--accent-color)"/>
+            <path class="anim-glow" d="M170 270 Q200 200 230 270 Z" fill="var(--secondary-color)" opacity="0.6"/>
+            <g class="anim-float">
+                <!-- Earthen Pot -->
+                <path d="M150 160 C130 230 270 230 250 160 L230 140 H170 Z" fill="var(--primary-color)"/>
+                <rect x="160" y="130" width="80" height="15" rx="5" fill="var(--charcoal)"/>
+                <path d="M150 180 Q200 200 250 180" stroke="white" stroke-width="4" fill="none"/>
+                <!-- Boiling over (Pongal) -->
+                <path class="anim-bounce" d="M170 130 C160 100 190 80 200 110 C210 80 240 100 230 130 Z" fill="white"/>
+                <circle class="anim-data" cx="160" cy="120" r="10" fill="white" style="animation-duration: 2s;"/>
+                <circle class="anim-data" cx="240" cy="110" r="8" fill="white" style="animation-duration: 2.5s; animation-delay: -1s;"/>
+            </g>
+            <!-- Sugarcane -->
+            <g class="anim-float" style="animation-delay: -1s">
+                <path d="M100 260 L120 60" stroke="var(--primary-color)" stroke-width="8" stroke-linecap="round"/>
+                <path d="M101 220 H118 M105 180 H122 M108 140 H125 M112 100 H129" stroke="white" stroke-width="4"/>
+                <path d="M120 60 Q100 40 80 70" fill="var(--secondary-color)"/>
+            </g>
+            <g class="anim-float" style="animation-delay: -2s">
+                <path d="M300 260 L280 80" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+                <path d="M299 220 H282 M295 180 H278 M292 140 H275 M288 100 H271" stroke="white" stroke-width="4"/>
+                <path d="M280 80 Q300 50 320 80" fill="var(--secondary-color)"/>
+            </g>
+          </svg>

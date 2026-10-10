@@ -1,0 +1,18 @@
+{
+  "theme": "liquid chrome morphing sculpture",
+  "style_hints": "",
+  "references": [
+    "shabon-fx/LiquidMetalBlob.frag [lighting,postprocess,raymarching,reflection]",
+    "shabon-fx/MorphingShapes.frag [color_palette,lighting,matrix,postprocess,raymarching,reflection]",
+    "shabon-fx/LivingShabon.frag [color_palette,grid,lighting,noise,postprocess,raymarching,reflection,wave]",
+    "shabon-fx/DNAHelix.frag [color_palette,grid,lighting,postprocess,raymarching,volumetric]",
+    "wgsl-art/fluid/src/sph/3d/webgpu_screen_space/screen_space/shaders/depth.wgsl/depth.wgsl [particles]"
+  ],
+  "attempts": 5,
+  "created_at": "2026-03-28T12:05:57.748258+00:00",
+  "glsl_lines": 251,
+  "success": false,
+  "target": "wgsl",
+  "design_brief": "1. **Architecture**: `main()` → compute `uv` (centered, aspect-correct), `p` (ray origin/direction), then `for(int i=0; i<MAX_STEPS; i++)` raymarch with signed distance field `scene(p)`, accumulating color via smooth min blending (`smin()` from ref #1) for morphing blobs. Use lighting from ref #2’s `calcLighting()` pattern.\n\n2. **Key functions**:  \n   - `scene(vec3 p)` — SDF composition using `sdSphere()`/`sdTorus()` (ref #2), time-modulated transforms (rotY/rotX/rotZ), and `smin()` for metaball morphing.  \n   - `snoise(vec3)` — copy *exactly* from ref #3 (Ashima-style, WebGL1-safe).  \n   - `curl(vec3 p)` — derive velocity from `grad(snoise)` (3D curl of scalar field → divergence-free flow for liquid motion).  \n   - `calcLighting(vec3 p, vec3 n)` — Phong with rim light + reflection (ref #1’s `uColor`, `uAccentColor`).\n\n3. **Reuse patterns**:  \n   - Use ref #3’s `snoise` *unchanged* for curl noise.  \n   - Borrow ref #1’s `smin()` for smooth blob blending.  \n   - Use ref #2’s rotation matrices (`rotY`, `rotX`) for sculptural orientation.\n\n4. **Color & brightness**:  \n   - Base `vec3 base = mix(uColor, uAccentColor, snoise(p*2.0)*0.5+0.5);`  \n   - Add `vec3 rim = pow(1.0 - dot(viewDir, normal), 3.0) * uAccentColor;`  \n   - Final `gl_FragColor = vec4(base + rim * 0.7, 1.0)` — always ≥0.3 brightness (no black void).\n\n5. **Animation**:  \n   - `uTime` drives: blob orbits (`t = uTime * 0.4`), curl flow (`p += curl(p) * 0.02`), and `smin` smoothing (`k = 0.3 - 0.2*sin(uTime*0.5)`).  \n   - Loop via `mod(uTime, 10.0)` for periodicity.\n\n6. **Pitfalls**:  \n   - NO `dFdx/dFdy` → avoid edge antialiasing tricks.  \n   - NO `layout()`/`out vec4` → use `gl_FragColor`.  \n   - NO bitwise ops → noise must use `mod289`/`permute` (ref #3).  \n   - Keep all loops `int`-indexed and unrolled where possible (WebGL1 frag shader limits).",
+  "last_error": "Could not parse WGSL:\nerror: invalid left-hand side of assignment\n    ┌─ <shader>:167:7\n    │\n167 │   let color = baseColor * (diff1 * 0.6 + diff2 + 0.2);\n    │       ^^^^^ this is an immutable binding\n168 │   color += spec1 + spec2;\n    │   ^^^^^ cannot assign to this expression\n    │\n    = note: consider declaring `color` with `var` instead of `let`"
+}

@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Base Building -->
+            <rect x="120" y="200" width="120" height="70" fill="var(--primary-color)"/>
+            <rect x="140" y="140" width="80" height="60" fill="var(--primary-color)"/>
+            <!-- Grid lines -->
+            <path d="M120 235 H240 M180 200 V270 M140 170 H220" stroke="#F8FAFC" stroke-width="4" opacity="0.4"/>
+            <path d="M120 200 H240 M140 140 H220" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+            
+            <!-- Crane Tower -->
+            <path d="M300 270 V60" stroke="var(--primary-color)" stroke-width="12"/>
+            <path d="M290 270 L300 240 M310 270 L300 240" stroke="var(--primary-color)" stroke-width="6"/>
+            <path d="M290 80 H310 M290 120 H310 M290 160 H310 M290 200 H310" stroke="var(--charcoal)" stroke-width="4"/>
+            
+            <!-- Crane Arm & Hook -->
+            <path d="M320 60 H140" stroke="var(--primary-color)" stroke-width="12" stroke-linecap="round"/>
+            <path d="M300 60 L180 30 V60" fill="var(--primary-color)" opacity="0.2"/>
+            <path d="M300 60 L180 30" stroke="var(--charcoal)" stroke-width="4"/>
+            
+            <g class="anim-float">
+                <path d="M160 60 V100" stroke="var(--charcoal)" stroke-width="2" stroke-dasharray="4 4"/>
+                <path d="M150 100 H170 L160 110 Z" fill="var(--charcoal)"/>
+                <!-- Suspended Block -->
+                <rect x="140" y="110" width="40" height="30" rx="4" fill="var(--primary-color)"/>
+            </g>
+            
+            <!-- Safety/Warning Light -->
+            <circle class="anim-glow" cx="300" cy="50" r="6" fill="#EF4444"/>
+          </svg>

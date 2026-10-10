@@ -1,0 +1,26 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Color Bucket -->
+                <path d="M130 180 L150 260 H250 L270 180 Z" fill="var(--charcoal)"/>
+                <path d="M150 260 H250 C250 270 150 270 150 260 Z" fill="var(--primary-color)"/>
+                <ellipse cx="200" cy="180" rx="70" ry="15" fill="var(--charcoal)"/>
+                <ellipse cx="200" cy="180" rx="60" ry="10" fill="var(--secondary-color)"/>
+                <!-- Splash Cloud -->
+                <path class="anim-bounce" d="M140 160 C100 120 140 80 180 120 C200 60 260 80 240 130 C280 130 280 180 240 170 Z" fill="var(--accent-color)" opacity="0.8"/>
+                <circle class="anim-data" cx="150" cy="100" r="10" fill="var(--primary-color)"/>
+                <circle class="anim-data" cx="260" cy="110" r="15" fill="var(--primary-color)" style="animation-delay: -0.5s"/>
+                <circle class="anim-data" cx="210" cy="70" r="12" fill="var(--secondary-color)" style="animation-delay: -1s"/>
+            </g>
+            <!-- Pichkari (Water Gun) -->
+            <g transform="rotate(25 280 200)">
+                <g class="anim-float" style="animation-delay: -1.5s;">
+                <rect x="250" y="150" width="80" height="20" rx="5" fill="var(--primary-color)"/>
+                <rect x="240" y="155" width="10" height="10" fill="var(--secondary-color)"/>
+                <!-- Handle -->
+                <rect x="330" y="155" width="30" height="10" fill="var(--charcoal)"/>
+                <circle cx="360" cy="160" r="10" fill="var(--primary-color)"/>
+                <!-- Water stream -->
+                <path class="anim-draw" d="M230 160 L180 160" stroke="var(--secondary-color)" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 10"/>
+            </g>
+            </g>
+          </svg>

@@ -1,0 +1,19 @@
+{
+  "url": "https://movin.design/robots.txt",
+  "method": "bounded public HTTP GET",
+  "status": 200,
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공식 공개 URL의 제한된 HTTP GET 응답을 읽었다. 원격 JavaScript·미디어 파일을 실행하거나 다운로드하지 않았다. AI 학습 봇과 계정·저장·API 경로를 제한하며 일부 검색/요청 에이전트는 공개 경로를 허용한다.",
+  "sector": 4,
+  "siteId": "movin-design",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/movin-design-robots-http.json",
+  "rawCacheSha256": "a660e38ebde0873619b986438eb902b4478cbc04e9de7e57cffeaa63a4723d29",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "f46c120bbd33a6844933346f242ce53807204c973e6647c41a2aa43ef70d7aad",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "finalUrl": "https://movin.design/robots.txt",
+  "byteCount": 1329,
+  "boundedAt": 1048576,
+  "truncated": false,
+  "originalResponseSha256": "f46c120bbd33a6844933346f242ce53807204c973e6647c41a2aa43ef70d7aad"
+}

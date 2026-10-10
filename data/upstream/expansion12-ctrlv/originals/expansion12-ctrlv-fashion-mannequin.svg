@@ -1,0 +1,10 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <path d="M150 100 C150 70 250 70 250 100 L230 200 C230 220 170 220 170 200 Z" fill="var(--primary-color)" opacity="0.8"/>
+                <rect x="190" y="40" width="20" height="40" fill="var(--secondary-color)"/>
+                <circle class="anim-glow" cx="200" cy="30" r="15" fill="var(--charcoal)"/>
+                <path d="M200 210 V260" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round"/>
+                <path d="M170 260 H230" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round"/>
+                <path class="anim-draw" d="M150 100 Q200 130 250 100 M165 150 Q200 170 235 150" stroke="var(--bg-surface)" stroke-width="2" fill="none"/>
+            </g>
+          </svg>

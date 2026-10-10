@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Base Stem -->
+            <path d="M180 270 L190 140 H210 L220 270 Z" fill="var(--primary-color)"/>
+            <path d="M190 140 H210 M185 200 H215" stroke="white" stroke-width="2" opacity="0.3"/>
+            <!-- Pod/Observation Deck -->
+            <path d="M170 140 C170 120 190 100 200 100 C210 100 230 120 230 140 Z" fill="var(--primary-color)"/>
+            <path d="M170 140 C170 160 230 160 230 140 Z" fill="var(--charcoal)"/>
+            <!-- Skypod above -->
+            <rect x="195" y="80" width="10" height="20" fill="var(--primary-color)"/>
+            <ellipse cx="200" cy="80" rx="15" ry="5" fill="var(--primary-color)"/>
+            <!-- Spire -->
+            <path d="M198 80 L200 10 L202 80 Z" fill="var(--primary-color)"/>
+            
+            <!-- Glowing circling lights on Pod -->
+            <rect class="anim-glow" x="175" y="130" width="10" height="6" fill="var(--accent-color)"/>
+            <rect class="anim-glow" x="195" y="130" width="10" height="6" fill="var(--secondary-color)" style="animation-delay: -0.5s"/>
+            <rect class="anim-glow" x="215" y="130" width="10" height="6" fill="var(--accent-color)" style="animation-delay: -1s"/>
+          </svg>

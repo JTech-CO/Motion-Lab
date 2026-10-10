@@ -1,0 +1,15 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Stylus -->
+            <path class="anim-bounce" d="M280 80 L320 120 L240 200 L200 160 Z" fill="var(--charcoal)" opacity="0.9"/>
+            <path class="anim-bounce" d="M200 160 L180 180 L205 185 Z" fill="var(--accent-color)"/>
+            <!-- Tablet Body -->
+            <g transform="rotate(-10 190 140)">
+                <rect class="anim-float" x="80" y="60" width="220" height="160" rx="15" fill="var(--primary-color)" />
+            </g>
+            <g transform="rotate(-10 190 140)">
+                <rect class="anim-float" x="90" y="70" width="190" height="140" rx="5" fill="var(--bg-surface)" />
+            </g>
+            <!-- Drawing on screen -->
+            <path class="anim-draw" d="M120 180 Q150 100 220 120 T260 80" stroke="var(--secondary-color)" stroke-width="6" stroke-linecap="round" fill="none"/>
+            <circle class="anim-glow" cx="220" cy="120" r="8" fill="var(--accent-color)"/>
+          </svg>

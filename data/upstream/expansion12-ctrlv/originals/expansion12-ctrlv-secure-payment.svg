@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="160" ry="12" fill="#e2e8f0" opacity="0.6"/>
+            <g class="anim-float">
+                <!-- Massive Shield Background -->
+                <path d="M200 60 C100 60 100 120 100 160 C100 220 200 260 200 260 C200 260 300 220 300 160 C300 120 300 60 200 60 Z" fill="var(--primary-color)" opacity="0.2"/>
+                <path d="M200 80 C120 80 120 130 120 160 C120 210 200 240 200 240 C200 240 280 210 280 160 C280 130 280 80 200 80 Z" stroke="var(--primary-color)" stroke-width="8" fill="none"/>
+                
+                <!-- Credit Card -->
+                <rect x="140" y="120" width="120" height="80" rx="8" fill="var(--secondary-color)"/>
+                <rect x="140" y="140" width="120" height="15" fill="var(--charcoal)"/>
+                <rect x="160" y="175" width="40" height="10" fill="white" opacity="0.5"/>
+                
+                <!-- Heavy Padlock locking it down -->
+                <g class="anim-bounce">
+                    <rect x="175" y="170" width="50" height="40" rx="6" fill="var(--accent-color)"/>
+                    <path class="anim-draw" d="M190 170 V150 C190 140 210 140 210 150 V170" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                    <circle cx="200" cy="190" r="6" fill="white"/>
+                    <path d="M200 196 V205" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                </g>
+                
+                <!-- Trust Stars -->
+                <g class="anim-pulse">
+                    <path d="M300 80 L305 95 H320 L308 105 L312 120 L300 110 L288 120 L292 105 L280 95 H295 Z" fill="var(--accent-color)"/>
+                    <path d="M100 80 L105 95 H120 L108 105 L112 120 L100 110 L88 120 L92 105 L80 95 H95 Z" fill="var(--accent-color)"/>
+                </g>
+            </g>
+          </svg>

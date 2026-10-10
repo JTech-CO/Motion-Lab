@@ -1,0 +1,16 @@
+{
+  "id": "pixabay",
+  "url": "https://pixabay.com/service/terms/",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 403,
+  "finalUrl": "https://pixabay.com/service/terms/",
+  "contentType": "text/html; charset=UTF-8",
+  "truncated": false,
+  "observedBytes": 5529,
+  "observedContentSha256": "156a885abe413279cc74e1368e6e74346370142dfbca6e430cf0aba35aac4520",
+  "links": [],
+  "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+  "challengeOrDenial": true
+}

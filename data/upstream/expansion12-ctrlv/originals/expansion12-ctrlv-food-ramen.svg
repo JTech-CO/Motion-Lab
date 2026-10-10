@@ -1,0 +1,30 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Bowl -->
+                <path d="M100 150 C100 230 300 230 300 150 H100 Z" fill="var(--primary-color)"/>
+                <path d="M100 150 H300" stroke="var(--charcoal)" stroke-width="4" opacity="0.2"/>
+                
+                <!-- Broth -->
+                <ellipse cx="200" cy="150" rx="95" ry="20" fill="var(--secondary-color)" opacity="0.6"/>
+                
+                <!-- Noodles -->
+                <g class="anim-draw" stroke="var(--primary-color)" stroke-width="3" fill="none">
+                    <path d="M140 150 Q160 170 180 150 Q200 130 220 150"/>
+                    <path d="M150 160 Q180 180 210 160 Q240 140 260 160" opacity="0.6"/>
+                    <path d="M130 145 Q200 165 270 145" opacity="0.4"/>
+                </g>
+                
+                <!-- Egg -->
+                <circle cx="240" cy="150" r="20" fill="var(--bg-surface)"/>
+                <circle cx="240" cy="150" r="10" fill="var(--accent-color)"/>
+                
+                <!-- Steam -->
+                <path class="anim-float" style="animation-duration: 3s;" d="M180 120 Q190 100 180 80 M210 120 Q220 100 210 80 M240 120 Q250 100 240 80" stroke="var(--primary-color)" stroke-width="4" stroke-linecap="round" opacity="0.3"/>
+            </g>
+            
+            <!-- Chopsticks -->
+            <g class="anim-bounce">
+                <rect x="220" y="50" width="10" height="150" rx="5" fill="var(--charcoal)" transform="rotate(-15 220 50)"/>
+                <rect x="250" y="60" width="10" height="150" rx="5" fill="var(--charcoal)" transform="rotate(-15 250 60)"/>
+            </g>
+          </svg>

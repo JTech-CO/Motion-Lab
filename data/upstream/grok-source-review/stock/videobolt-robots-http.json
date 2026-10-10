@@ -1,0 +1,17 @@
+{
+  "id": "videobolt",
+  "url": "https://videobolt.net/robots.txt",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 200,
+  "finalUrl": "https://videobolt.net/robots.txt",
+  "contentType": "text/plain; charset=utf-8",
+  "truncated": false,
+  "observedBytes": 204,
+  "observedContentSha256": "9df0aa0e80911e83e968e4f80e8cd3f5f06c579bbeda071e931d8a839df7abc5",
+  "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+  "challengeOrDenial": false,
+  "robotsPath": "exa-results/grok-source-review/stock/videobolt-robots.txt",
+  "robotsContentSha256": "9df0aa0e80911e83e968e4f80e8cd3f5f06c579bbeda071e931d8a839df7abc5"
+}

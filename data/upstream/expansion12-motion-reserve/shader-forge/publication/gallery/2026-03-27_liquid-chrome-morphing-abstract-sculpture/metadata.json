@@ -1,0 +1,26 @@
+{
+  "theme": "liquid chrome morphing abstract sculpture",
+  "style_hints": "",
+  "references": [
+    "community/open-shaders/Engines_playcanvas_reflDirAniso.frag [reflection]",
+    "community/lygia/color_layer_reflectSourceOver.glsl [reflection]",
+    "community/lygia/color_layer_phoenixSourceOver.glsl []",
+    "community/lygia/color_layer_hardMixSourceOver.glsl []",
+    "community/lygia/color_layer_reflectSourceOver.wgsl [reflection]"
+  ],
+  "attempts": 2,
+  "created_at": "2026-03-27T18:37:50.528160+00:00",
+  "glsl_lines": 83,
+  "success": true,
+  "design_brief": "**Implementation Guide: Liquid Chrome Morphing Abstract Sculpture**  \n\n1. **Architecture**: `main()` → `vec3 pos = uv.xy * 2.0 - 1.0;` → `float t = uTime * 0.5;` → loop 3–5 times: `pos = warp(pos, t)` (using curl noise) → `float density = smoothstep(0.3, 0.0, length(pos))` → `color = mix(0.9, 0.95, density) * chromeColor(pos, t)` → `gl_FragColor = vec4(color, 1.0)`.  \n\n2. **Key functions**:  \n   - `vec3 curlNoise(vec2 uv, float t)` — returns divergence-free flow (use ref #2’s `gradNoise` + curl formula)  \n   - `vec3 warp(vec3 p, float t)` — iteratively applies curl noise: `p += curl * 0.25`  \n   - `vec3 chromeColor(vec3 p, float t)` — returns iridescent metallic hue via `sin(p.xy * 5.0 + t)` + `mix(0.5, 1.0, dot(p, p))`  \n\n3. **Reuse patterns**:  \n   - Use ref #2’s `gradNoise` (from *lygia*) for stable, smooth curl noise — *avoid* Perlin noise (too aliased).  \n   - Adopt `layerReflectSourceOver`’s structure for layering: first base, then iridescence, then highlight.  \n\n4. **Color & brightness**:  \n   - Base: `vec3(0.05, 0.05, 0.08)` (dark chrome), mid: `mix(vec3(0.4), vec3(0.9), sin(uTime*0.8))`, highlight: `vec3(1.0)`.  \n   - Always use `smoothstep(0.0, 1.0, density)` to avoid dark voids — fill 100% of screen.  \n\n5. **Animation**:  \n   - Drive with `uTime * 0.3` (0.25–0.5 range) — slow, looping morph.  \n   - Add subtle `uTime * 2.0` for high-frequency ripple (curl amplitude).  \n\n6. **Pitfalls**:  \n   - NO `dFdx/dFdy` — compute derivatives manually (e.g., finite diff over `0.001`).  \n   - Avoid loops > 5 iterations (WebGL1 perf).  \n   - Use `fract()` for tiling — no modulo on floats.  \n   - All `varying` vars must be declared *before* `main()` — no inline `vec2 uv = vUv;`.",
+  "review": {
+    "visual_complexity": 4,
+    "code_quality": 4,
+    "theme_match": 3,
+    "animation": 4,
+    "originality": 4,
+    "total": 19,
+    "verdict": "pass",
+    "feedback": "Solid implementation of liquid chrome morphing with layered warping, curl noise, and iridescent chrome coloring; improve brightness by ensuring the core shape occupies more of the canvas (currently density falloff may leave large areas dim)."
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "baseline": 2150,
-  "added": 8170,
+  "baseline": 2148,
+  "added": 9711,
   "inputs": {
     "css-wave-items.json": {
       "input": 644,
@@ -36,11 +36,51 @@
       "input": 54,
       "accepted": 54,
       "duplicates": 0
+    },
+    "expansion12-motion-items.json": {
+      "input": 54,
+      "accepted": 54,
+      "duplicates": 0
+    },
+    "expansion12-pattern-items.json": {
+      "input": 119,
+      "accepted": 119,
+      "duplicates": 0
+    },
+    "expansion12-vector-items.json": {
+      "input": 82,
+      "accepted": 82,
+      "duplicates": 0
+    },
+    "expansion12-material-items.json": {
+      "input": 784,
+      "accepted": 784,
+      "duplicates": 0
+    },
+    "expansion12-shape-items.json": {
+      "input": 367,
+      "accepted": 367,
+      "duplicates": 0
+    },
+    "expansion12-openmoji-items.json": {
+      "input": 116,
+      "accepted": 116,
+      "duplicates": 0
+    },
+    "expansion12-ctrlv-items.json": {
+      "input": 19,
+      "accepted": 19,
+      "duplicates": 0
+    },
+    "expansion12-motion-reserve-items.json": {
+      "input": 0,
+      "accepted": 0,
+      "duplicates": 0
     }
   },
   "duplicatePolicy": "Ordered hex arrays, CSS bodies with comments/whitespace normalized, and canonical SVG XML; existing IDs are retained.",
   "excluded": [],
-  "total": 10320,
-  "publishedTotal": 10286,
+  "total": 11859,
+  "publishedTotal": 11825,
   "consolidatedRemoved": 34
 }

@@ -1,0 +1,707 @@
+{
+  "baselineRenderedOriginals": 3211,
+  "candidateRepresentatives": 195,
+  "pairs": [
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-colorcet-diverging-isoluminant-cjm-75-c23"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Diverging Isoluminant Cjm 75 C23",
+      "existingSource": "Colorcet",
+      "dhashDistance256": 2,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-colorcet-isoluminant-cgo-70-c39"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Isoluminant Cgo 70 C39",
+      "existingSource": "Colorcet",
+      "dhashDistance256": 2,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-cmcrameri-acton"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Acton",
+      "existingSource": "Scientific Colour Maps",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-cmcrameri-bamako"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Bamako",
+      "existingSource": "Scientific Colour Maps",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-cmcrameri-batlow"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Batlow",
+      "existingSource": "Scientific Colour Maps",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-cmcrameri-bilbao"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Bilbao",
+      "existingSource": "Scientific Colour Maps",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-cmcrameri-buda"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Buda",
+      "existingSource": "Scientific Colour Maps",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-cmcrameri-davos"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Davos",
+      "existingSource": "Scientific Colour Maps",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-cmcrameri-devon"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Devon",
+      "existingSource": "Scientific Colour Maps",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-cmcrameri-glasgow"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Glasgow",
+      "existingSource": "Scientific Colour Maps",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-cmcrameri-grayc"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Grayc",
+      "existingSource": "Scientific Colour Maps",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-cmcrameri-hawaii"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Hawaii",
+      "existingSource": "Scientific Colour Maps",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-cmcrameri-imola"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Imola",
+      "existingSource": "Scientific Colour Maps",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-cmcrameri-lajolla"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Lajolla",
+      "existingSource": "Scientific Colour Maps",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-cmcrameri-lapaz"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Lapaz",
+      "existingSource": "Scientific Colour Maps",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-cmcrameri-lipari"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Lipari",
+      "existingSource": "Scientific Colour Maps",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-cmcrameri-navia"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Navia",
+      "existingSource": "Scientific Colour Maps",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-cmcrameri-nuuk"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Nuuk",
+      "existingSource": "Scientific Colour Maps",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-cmcrameri-oslo"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Oslo",
+      "existingSource": "Scientific Colour Maps",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-cmcrameri-tokyo"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Tokyo",
+      "existingSource": "Scientific Colour Maps",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-cmcrameri-turku"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Turku",
+      "existingSource": "Scientific Colour Maps",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-cmocean-gray"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Gray",
+      "existingSource": "cmocean",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-cmocean-haline"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Haline",
+      "existingSource": "cmocean",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-cmocean-ice"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Ice",
+      "existingSource": "cmocean",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-cmocean-solar"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Solar",
+      "existingSource": "cmocean",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-cmocean-thermal"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Thermal",
+      "existingSource": "cmocean",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-colorcet-diverging-isoluminant-cjo-70-c25"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Diverging Isoluminant Cjo 70 C25",
+      "existingSource": "Colorcet",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-colorcet-diverging-linear-bjr-30-55-c53"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Diverging Linear Bjr 30 55 C53",
+      "existingSource": "Colorcet",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-colorcet-diverging-linear-bjy-30-90-c45"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Diverging Linear Bjy 30 90 C45",
+      "existingSource": "Colorcet",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-colorcet-diverging-linear-protanopic-deuteranopic-bjy-57-89-c34"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Diverging Linear Protanopic Deuteranopic Bjy 57 89 C34",
+      "existingSource": "Colorcet",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-colorcet-isoluminant-cm-70-c39"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Isoluminant Cm 70 C39",
+      "existingSource": "Colorcet",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-colorcet-linear-bgy-10-95-c74"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Linear Bgy 10 95 C74",
+      "existingSource": "Colorcet",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-colorcet-linear-bgyw-15-100-c68"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Linear Bgyw 15 100 C68",
+      "existingSource": "Colorcet",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-colorcet-linear-bmw-5-95-c86"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Linear Bmw 5 95 C86",
+      "existingSource": "Colorcet",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-colorcet-linear-bmy-10-95-c71"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Linear Bmy 10 95 C71",
+      "existingSource": "Colorcet",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-colorcet-linear-gow-60-85-c27"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Linear Gow 60 85 C27",
+      "existingSource": "Colorcet",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-colorcet-linear-grey-10-95-c0"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Linear Grey 10 95 C0",
+      "existingSource": "Colorcet",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-colorcet-linear-kbc-5-95-c73"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Linear Kbc 5 95 C73",
+      "existingSource": "Colorcet",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-colorcet-linear-kbgoy-20-95-c57"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Linear Kbgoy 20 95 C57",
+      "existingSource": "Colorcet",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-colorcet-linear-kbgyw-5-98-c62"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Linear Kbgyw 5 98 C62",
+      "existingSource": "Colorcet",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-colorcet-linear-kgy-5-95-c69"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Linear Kgy 5 95 C69",
+      "existingSource": "Colorcet",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-colorcet-linear-kry-5-98-c75"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Linear Kry 5 98 C75",
+      "existingSource": "Colorcet",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-colorcet-linear-kryw-5-100-c64"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Linear Kryw 5 100 C64",
+      "existingSource": "Colorcet",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-colorcet-linear-protanopic-deuteranopic-kbjyw-5-95-c25"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Linear Protanopic Deuteranopic Kbjyw 5 95 C25",
+      "existingSource": "Colorcet",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-colorcet-linear-protanopic-deuteranopic-kbw-5-98-c40"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Linear Protanopic Deuteranopic Kbw 5 98 C40",
+      "existingSource": "Colorcet",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-colorcet-linear-protanopic-deuteranopic-kyw-5-95-c49"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Linear Protanopic Deuteranopic Kyw 5 95 C49",
+      "existingSource": "Colorcet",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-colorcet-linear-tritanopic-kcw-5-95-c22"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Linear Tritanopic Kcw 5 95 C22",
+      "existingSource": "Colorcet",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-colorcet-linear-tritanopic-krw-5-95-c46"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Linear Tritanopic Krw 5 95 C46",
+      "existingSource": "Colorcet",
+      "dhashDistance256": 6,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-cmocean-oxy"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Oxy",
+      "existingSource": "cmocean",
+      "dhashDistance256": 8,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+        "design-colorcet-linear-tritanopic-krjcw-5-95-c24"
+      ],
+      "newFamily": "cable-segment",
+      "existingTitle": "Linear Tritanopic Krjcw 5 95 C24",
+      "existingSource": "Colorcet",
+      "dhashDistance256": 10,
+      "softAlphaIoU32": 0.8480017185211182,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-dungeon-terrain-pattern-2x",
+        "design-coolshapes-rectangle-1"
+      ],
+      "newFamily": "terrain",
+      "existingTitle": "Rectangle 1",
+      "existingSource": "Coolshapes",
+      "dhashDistance256": 20,
+      "softAlphaIoU32": 1.0,
+      "decision": "requires-original-construction-review"
+    },
+    {
+      "ids": [
+        "expansion12-vector-nature-dirt-tile-1",
+        "design-coolshapes-rectangle-1"
+      ],
+      "newFamily": "dirt tile",
+      "existingTitle": "Rectangle 1",
+      "existingSource": "Coolshapes",
+      "dhashDistance256": 21,
+      "softAlphaIoU32": 1.0,
+      "decision": "requires-original-construction-review"
+    }
+  ],
+  "bestPerCandidate": [
+    {
+      "id": "expansion12-vector-dungeon-terrain-pattern-2x",
+      "best": [
+        {
+          "ids": [
+            "expansion12-vector-dungeon-terrain-pattern-2x",
+            "design-coolshapes-rectangle-1"
+          ],
+          "newFamily": "terrain",
+          "existingTitle": "Rectangle 1",
+          "existingSource": "Coolshapes",
+          "dhashDistance256": 20,
+          "softAlphaIoU32": 1.0,
+          "decision": "requires-original-construction-review"
+        }
+      ]
+    },
+    {
+      "id": "expansion12-vector-nature-dirt-tile-1",
+      "best": [
+        {
+          "ids": [
+            "expansion12-vector-nature-dirt-tile-1",
+            "design-coolshapes-rectangle-1"
+          ],
+          "newFamily": "dirt tile",
+          "existingTitle": "Rectangle 1",
+          "existingSource": "Coolshapes",
+          "dhashDistance256": 21,
+          "softAlphaIoU32": 1.0,
+          "decision": "requires-original-construction-review"
+        }
+      ]
+    },
+    {
+      "id": "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+      "best": [
+        {
+          "ids": [
+            "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+            "design-colorcet-diverging-isoluminant-cjm-75-c23"
+          ],
+          "newFamily": "cable-segment",
+          "existingTitle": "Diverging Isoluminant Cjm 75 C23",
+          "existingSource": "Colorcet",
+          "dhashDistance256": 2,
+          "softAlphaIoU32": 0.8480017185211182,
+          "decision": "requires-original-construction-review"
+        },
+        {
+          "ids": [
+            "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+            "design-colorcet-isoluminant-cgo-70-c39"
+          ],
+          "newFamily": "cable-segment",
+          "existingTitle": "Isoluminant Cgo 70 C39",
+          "existingSource": "Colorcet",
+          "dhashDistance256": 2,
+          "softAlphaIoU32": 0.8480017185211182,
+          "decision": "requires-original-construction-review"
+        },
+        {
+          "ids": [
+            "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+            "design-cmcrameri-acton"
+          ],
+          "newFamily": "cable-segment",
+          "existingTitle": "Acton",
+          "existingSource": "Scientific Colour Maps",
+          "dhashDistance256": 6,
+          "softAlphaIoU32": 0.8480017185211182,
+          "decision": "requires-original-construction-review"
+        }
+      ]
+    }
+  ]
+}

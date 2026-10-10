@@ -1,0 +1,35 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="160" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <!-- Ground rail -->
+            <rect x="40" y="250" width="320" height="6" rx="3" fill="var(--charcoal)" opacity="0.4"/>
+
+            <!-- Motion lines -->
+            <g class="anim-draw" stroke="var(--secondary-color)" stroke-width="4" stroke-linecap="round" opacity="0.5">
+                <path d="M30 220 H70 M20 205 H60 M10 190 H50"/>
+            </g>
+
+            <g class="anim-float">
+                <!-- Wheels -->
+                <circle class="anim-rotate"  cx="100" cy="240" r="24" fill="var(--charcoal)"/>
+                <circle  cx="100" cy="240" r="10" fill="var(--secondary-color)"/>
+                <circle class="anim-rotate"  cx="160" cy="244" r="16" fill="var(--charcoal)"/>
+                <circle  cx="160" cy="244" r="7" fill="var(--secondary-color)"/>
+                <circle class="anim-rotate"  cx="220" cy="244" r="16" fill="var(--charcoal)"/>
+                <circle  cx="220" cy="244" r="7" fill="var(--secondary-color)"/>
+
+                <!-- Main boiler body -->
+                <rect x="80" y="185" width="220" height="55" rx="10" fill="var(--primary-color)"/>
+                <!-- Cab at back -->
+                <rect x="250" y="145" width="80" height="40" rx="6" fill="var(--primary-color)"/>
+                <rect x="260" y="155" width="30" height="22" rx="4" fill="var(--secondary-color)" opacity="0.6"/>
+                <!-- Stack at front -->
+                <rect x="95" y="155" width="25" height="30" rx="5" fill="var(--charcoal)"/>
+                <!-- Cowcatcher -->
+                <path d="M60 240 L80 224 H100 V240 Z" fill="var(--charcoal)" opacity="0.7"/>
+
+                <!-- Steam puffs -->
+                <circle class="anim-bounce" cx="107" cy="145" r="14" fill="var(--bg-surface)" opacity="0.7"/>
+                <circle class="anim-bounce" style="animation-delay:-.4s;" cx="125" cy="130" r="18" fill="var(--bg-surface)" opacity="0.5"/>
+                <circle class="anim-bounce" style="animation-delay:-.8s;" cx="148" cy="115" r="12" fill="var(--bg-surface)" opacity="0.3"/>
+            </g>
+          </svg>

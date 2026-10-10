@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <path class="anim-draw" d="M200 80 L120 150 M200 80 L200 150 M200 80 L280 150 M120 150 L80 220 M120 150 L160 220 M200 150 L200 220 M280 150 L240 220 M280 150 L320 220" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round" fill="none"/>
+                
+                <ellipse cx="200" cy="80" rx="30" ry="15" fill="var(--primary-color)"/>
+                <ellipse cx="120" cy="150" rx="25" ry="12" fill="var(--secondary-color)"/>
+                <ellipse cx="200" cy="150" rx="25" ry="12" fill="var(--secondary-color)"/>
+                <ellipse cx="280" cy="150" rx="25" ry="12" fill="var(--secondary-color)"/>
+                
+                <circle class="anim-pulse" cx="80" cy="220" r="10" fill="var(--accent-color)"/>
+                <circle class="anim-pulse" style="animation-delay: 0.1s;" cx="160" cy="220" r="10" fill="var(--accent-color)"/>
+                <circle class="anim-pulse" style="animation-delay: 0.2s;" cx="200" cy="220" r="10" fill="var(--accent-color)"/>
+                <circle class="anim-pulse" style="animation-delay: 0.3s;" cx="240" cy="220" r="10" fill="var(--accent-color)"/>
+                <circle class="anim-pulse" style="animation-delay: 0.4s;" cx="320" cy="220" r="10" fill="var(--accent-color)"/>
+            </g>
+          </svg>

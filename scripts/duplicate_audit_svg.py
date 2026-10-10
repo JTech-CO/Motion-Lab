@@ -20,6 +20,7 @@ from pathlib import Path
 import re
 import tempfile
 import xml.etree.ElementTree as ET
+from urllib.parse import unquote
 
 
 SVG_NS = "http://www.w3.org/2000/svg"
@@ -286,17 +287,30 @@ def _parse(item):
             check(child, depth + 1)
     check(root, 1)
     original_ids = [node.attrib["id"] for node in nodes if "id" in node.attrib]
-    if len(original_ids) != len(set(original_ids)):
-        raise ValueError("duplicate element IDs make SVG reference normalization ambiguous")
+    duplicate_ids = {ident for ident, count in Counter(original_ids).items() if count > 1}
     # Nonvisual title/desc/metadata can be discarded only when not referenced.
     referenced = set()
     for node in nodes:
         for key, value in node.attrib.items():
             if _local(key) == "id":
                 continue
-            for ident in original_ids:
-                if re.search(r"(?:#|(?<![\w:.-]))" + re.escape(ident) + r"(?:\.(?:begin|end|repeat)|(?=[\s)\"']|$))", value):
+            if duplicate_ids and "\\" in value and _local(key) in {"href", "xlink:href", "style", "fill", "stroke", "mask", "clip-path", "filter"}:
+                raise ValueError("escaped references with duplicate IDs are outside safe normalization")
+            for ident in set(original_ids):
+                # Local URL/href, token-list attributes and SMIL event/syncbase
+                # references all make a repeated ID ambiguous. Match whole ID
+                # tokens; an ID prefix is not a reference to the shorter ID.
+                reference = r"(?:#|(?<![\w:.-]))" + re.escape(ident) + r"(?:\.[a-zA-Z_][\w:-]*|(?=[\s)\"']|$))"
+                if any(re.search(reference, spelling) for spelling in (value, unquote(value))):
                     referenced.add(ident)
+    if duplicate_ids & referenced:
+        raise ValueError("duplicate element IDs make SVG reference normalization ambiguous")
+    # Unreferenced repeated labels do not affect SVG geometry or paint. Remove
+    # only those labels from the parsed in-memory tree, preserving original code,
+    # byte hash, child order and all other attributes. Referenced IDs remain strict.
+    for node in nodes:
+        if node.attrib.get("id") in duplicate_ids:
+            del node.attrib["id"]
     retained_ids = [ident for ident in original_ids if any(n.attrib.get("id") == ident and (_local(n.tag) not in METADATA or ident in referenced) for n in nodes)]
     id_map = {ident: "svg_id_" + str(index) for index, ident in enumerate(retained_ids)}
     exact = _canonical(root, id_map)
@@ -317,7 +331,7 @@ def _parse(item):
             "animations": animation_inventory, "exact": _hash(exact), "timing": _hash(timing),
             "family": _hash(geometry) if geometry[1] else None, "skeleton": _hash(skeleton), "vector": vector,
             "unit": unit, "flat": _flatten(ordinary), "rawFlat": _flatten(raw),
-            "originalIds": original_ids}
+            "originalIds": original_ids, "ignoredUnreferencedDuplicateIds": sorted(duplicate_ids)}
 
 
 def _timing_pair(a, b):
@@ -445,7 +459,7 @@ def audit(items):
     candidate_ids = {ident for pair in candidate_pairs for ident in pair["ids"]}
     family_ids = {ident for group in family_groups for ident in group["ids"]}
     return {"methodology": {"name": "svg-structural-pair-audit", "version": 1,
-                "exact": "XML namespace/attribute-order/indentation normalization; comments and unreferenced title/desc/metadata removed; IDs renamed with local URL/href/SMIL references retained; numeric lexical equivalents normalized; linear numeric values samples reduced only by exact rational collinearity. Child paint order, root dimensions/viewBox, initial state, paint, transforms, timing, repeat/fill/easing and actual animation values otherwise retained.",
+                "exact": "XML namespace/attribute-order/indentation normalization; comments and unreferenced title/desc/metadata removed; only unreferenced duplicate ID labels omitted in memory; referenced duplicate IDs rejected; remaining IDs renamed with local URL/href/SMIL references retained; numeric lexical equivalents normalized; linear numeric values samples reduced only by exact rational collinearity. Child paint order, root dimensions/viewBox, initial state, paint, transforms, timing, repeat/fill/easing and actual animation values otherwise retained.",
                 "near": "Same complete XML tree and all non-timing attributes after safe numeric normalization. Only begin/end/dur/min/max/keyTimes may differ; duration ratios over 2 are review candidates, not high-confidence near groups.",
                 "candidate": "All valid pairs are compared. Small-coordinate candidates require identical tree/paint/path commands/static transforms/animation values and max delta <=1.5% of the smaller viewBox extent plus RMS <=0.6%. Arc paths keep exact numeric geometry to preserve discrete arc flags. No perceptual or name-based verdict is used.",
                 "family": "Exact multiset of initial drawable geometry with root size/viewBox, ancestor transform chains and mask/defs context. A family may intentionally differ in fill/outline, loop behavior, layering or endpoints and is not a redundancy recommendation.",
@@ -467,7 +481,8 @@ def audit(items):
             "inspectionManifest": [{"id": x["id"], "sourceName": x["sourceName"], "codeSha256": x["codeSha256"],
                 "canonicalSha256": x["exact"], "timingIndependentSha256": x["timing"],
                 "initialGeometrySha256": x["family"], "geometrySkeletonSha256": x["skeleton"],
-                "nodeCount": x["nodeCount"], "elementCounts": x["tags"], "animationCount": len(x["animations"])} for x in records],
+                "nodeCount": x["nodeCount"], "elementCounts": x["tags"], "animationCount": len(x["animations"]),
+                "ignoredUnreferencedDuplicateIds": x["ignoredUnreferencedDuplicateIds"]} for x in records],
             "exactGroups": sorted(exact_groups, key=lambda x: x["ids"]), "nearGroups": near_groups,
             "candidatePairs": sorted(candidate_pairs, key=lambda x: x["ids"]),
             "familyGroups": sorted(family_groups, key=lambda x: x["ids"]), "manualReviewExamples": examples, "errors": errors}

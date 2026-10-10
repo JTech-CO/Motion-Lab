@@ -1,0 +1,1602 @@
+{
+  "rendererSha256": "f96d0d7078ffe6aa189fce72723a1ee8dd2e8b2c475b628eb1f80bc2336b7151",
+  "purpose": "Prior animated SVG drawings may be invisible at source time zero. Inert source inline SVG evaluated at 60 seconds for human composition review only; original sources and catalog unchanged. Does not establish static pixel equivalence to the OpenMoji drawings.",
+  "records": [
+    {
+      "id": "asset-samherbert-ball-triangle",
+      "codeSha256": "5eb9d86e29111817e33a8d447efca007ff291c5721cb3c449d678d206ec54548",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/asset-samherbert-ball-triangle.png",
+      "pngSha256": "2b218b35b8916c9c01f3df33765496ceec69b04352b98224bc091a4409ee94ca",
+      "currentTime": 60
+    },
+    {
+      "id": "asset-samherbert-circles",
+      "codeSha256": "01067435548694021773018558a263a3a248917c1668104eeebc5e4fcf40a2a3",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/asset-samherbert-circles.png",
+      "pngSha256": "455372c193c633f200fb8542ed270182449405f330cf4492f0f27cf74a6d8d85",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-clear-night",
+      "codeSha256": "e4e4a1f63780868da8430270dd4a231e1176c2d665fd2ade69c77870631f99e6",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-clear-night.png",
+      "pngSha256": "ea44834cfc0a63ea640d24527d45bf51df277ec2ef05791676de99df8741ba4c",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-night",
+      "codeSha256": "35bf7460fadfd4d9b523037be6f31cacd736068f20cb9fc912c3ecdbea4491f7",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-dust-night.png",
+      "pngSha256": "09be5f225ec072955f3f13a7d444b5be696ecd3970d19cc39873d575f5ec08c9",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-dust-wind",
+      "codeSha256": "fc25671081d854e0d7c79c920a64221e8316f5915060174dfd0f150578cb525f",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-dust-wind.png",
+      "pngSha256": "8af59aa7021656d69a41f7dae17c1d00524ca676cb18d4cf503cbb05d48050b5",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night",
+      "codeSha256": "1d028039b1e106c2bcb57972fc25f13d10de5c1e43570075f2cc1040bb474135",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-extreme-night.png",
+      "pngSha256": "1b24dc9735095f63d986988ecaccb95060d2114e6ecb829f1176c2593ed75e12",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-drizzle",
+      "codeSha256": "b6c443d4f3e1dce9acbd1f744fe25be1857d2919b20a6f01c5a53f73c34635bd",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-extreme-night-drizzle.png",
+      "pngSha256": "f837dcf54dd2faeaabbb4f5e35be4ece650c5e0c30538c7f014a930fdaeddf15",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-fog",
+      "codeSha256": "bc6d4d789be41c8d5f0e19bcc688325d8c9008d61c46ea049117e1733cb18bc8",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-extreme-night-fog.png",
+      "pngSha256": "ce61849bc45ae1a839edcbac2cc6b2513910294cbdde4c824580d1d06c32a511",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-hail",
+      "codeSha256": "c591eca589edb93c705d78df1b5f6996da0677cc3c5e88fd8b0c4d516bd2770b",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-extreme-night-hail.png",
+      "pngSha256": "c2405e59ae2351d5c8ea0debe48d5d2e0b67dcf77f4b1316ec68e6c736344693",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-haze",
+      "codeSha256": "690c794f1cb73a3199d9bfd4339db6c33fca9d4caefc8b1f41e9347f54112a42",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-extreme-night-haze.png",
+      "pngSha256": "0b4e93e0ea7dc3f94cad6bae069c0d5229a28d8a33e936c2a6cec7ffe5869c53",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-rain",
+      "codeSha256": "693df0b97b7645236c0cdf161ba1b42276dee742775c85b45412b157d9a3057c",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-extreme-night-rain.png",
+      "pngSha256": "17521c70e976df62eab578cb9c000b4713f1fff16cfdbd0412509dbbb276052f",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-sleet",
+      "codeSha256": "d830297e7e66b0be3ae78258713c1b030d19bdad489bf22eb5dbd259cd4fb590",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-extreme-night-sleet.png",
+      "pngSha256": "e7f7059dc54cea95bcc4a83659c3d783e2833fb9bef87bba74e2a9ca472e3743",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-smoke",
+      "codeSha256": "c12a2216af1d42fff2ebbfdc6a0dc751bb7421a8f25ea864720a97aaac59a3ce",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-extreme-night-smoke.png",
+      "pngSha256": "017ee3eca5c8710022d41c37bdd7816edd4de946c20865783ac5451b1f69c478",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-extreme-night-snow",
+      "codeSha256": "9ca10364b261399c7cfa83fde8c817e780f1c05ea4d19235db23b4c4a909ad3a",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-extreme-night-snow.png",
+      "pngSha256": "7d88ea21ca58b698a7bea1d5f86fc38e3ba5a4513b2bab2f7c131ad0488cc6e8",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-flag-hurricane-warning",
+      "codeSha256": "9643e63fe5a371b403ce5c02a55f3867c5c09b0dcd741b1014cb0c65641e1ec8",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-flag-hurricane-warning.png",
+      "pngSha256": "874b8686a585234c562a06c367fb8ea1c186cedb06b8701fd041fa35836d1f68",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-fog-night",
+      "codeSha256": "cc0281a70d4f25095ee4854350147b76c21a9ffbe75d7ccd0e50d5699f5a1051",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-fog-night.png",
+      "pngSha256": "9593cc8621e91a08c116d49e197401850f5fe2f0ab976850a2b9d7c5ec4b3131",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-haze-night",
+      "codeSha256": "153e73fb97da39935b34ddbeb42419cead0ba1d1e908b2938ac0de041f9e372d",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-haze-night.png",
+      "pngSha256": "bdc81f1d23e36365b3661a90d8041267d8e44085481da0fa0fd9cb90d3240334",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-moonset",
+      "codeSha256": "fb2b9b0e89725c24a074c10e4d20356354f75b899525b18f80d04232c857ae75",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-moonset.png",
+      "pngSha256": "bd1de26a557cb0d7ab6636524a3c0d7b804dc002a9b0e59956b2413cccc06172",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night",
+      "codeSha256": "fe035431366eb9e40d023d7975c9bfffe7b31cca7016419bce74fee51330345f",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-partly-cloudy-night.png",
+      "pngSha256": "a17a8f045047e99a3896adf72d0d8365f7925de13b120b90a92b431899f77492",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-drizzle",
+      "codeSha256": "25d13d02ae6e3410133b889582fb493d387d0888f9d76bb6e349881199488c65",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-partly-cloudy-night-drizzle.png",
+      "pngSha256": "b77466f3db4b29a22ad2a982e299f60bc0742b498d121f73d7994eaf3188f91a",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-fog",
+      "codeSha256": "9d06d8d552d62034e60fb82778f6e25f296ca313523938f08d6997c4ed836014",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-partly-cloudy-night-fog.png",
+      "pngSha256": "c0ad890cc4e18606830b85b86f13a1edc81027782cf62f232181aaaf93386ea4",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-hail",
+      "codeSha256": "9bdfcf1804bd4463fb428cc57f9e6ba3b2816e812e34bf4010061baacbedbbcc",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-partly-cloudy-night-hail.png",
+      "pngSha256": "523b673d3166a4c6a22206bc6ca42faf58137320b62af574907f999e2653c7fb",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-haze",
+      "codeSha256": "9f4c8bc86021ba5131fa196dc41f75020eaf51d35abbb16a97bc129a8425871c",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-partly-cloudy-night-haze.png",
+      "pngSha256": "b53004c83f847cac1493b04c1376018b91f255d2367ce804b2712a1f673da941",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-rain",
+      "codeSha256": "2d3ca2966a6c81d4651b6bf0e282cf44060e06ccff506b0a9b34043e87b0bc4d",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-partly-cloudy-night-rain.png",
+      "pngSha256": "9e5e5cd832c3b9a29c7f8121f8e5b92854151d10720c5c41fd0f537bff130c2c",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-sleet",
+      "codeSha256": "5567c91acaed1ef1963c0f67ab125bb487c3ae0d4149dfd32aa9172361c0b39c",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-partly-cloudy-night-sleet.png",
+      "pngSha256": "aa45d1bca3afc2ee99a2dadb0ad6fd521407d5dd59ae6567ed8908192f0d5af9",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-smoke",
+      "codeSha256": "5f4ee0b9a8e08923651c9401ba6fbd95798921a42c27a9d2cd1892ebc3f054e0",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-partly-cloudy-night-smoke.png",
+      "pngSha256": "4502e822ca281743fc61b03f99c14b4180f7b1f0f407f598e03f5adcf2b3e48e",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-partly-cloudy-night-snow",
+      "codeSha256": "b8d87a638d2e0093fc70f9fc733836866d888d5750787bf475b39a05a0b59fd8",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-partly-cloudy-night-snow.png",
+      "pngSha256": "65e66b0eb1bf3e94ea972fbdf86c51c1185c80dc6dc005babc5c19010f1ccc22",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-pollen-tree",
+      "codeSha256": "b1f8e3f4153ec5ca7b27691be788f0755cf7dd7050b2b931b7b6ec08377ddb20",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-pollen-tree.png",
+      "pngSha256": "b7b0e1e75cf647fd022c3655fe6d09aef8902546d77189384dd0dc73e008bcda",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-smoke-particles",
+      "codeSha256": "71850f63d3b118959d113269be7eb90635b8787ace5041838d78c292c2aba2d7",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-smoke-particles.png",
+      "pngSha256": "fb851ba6e5c15d3dfb2cbab65d6ef80ac32c9156276ad70abb28e4c75713c9be",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-solar-eclipse",
+      "codeSha256": "4b404c0e88e0c9029cf5fb4655d2644799aa1ef02fda6a4496ab716a7f9948f0",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-solar-eclipse.png",
+      "pngSha256": "803bbe1849280ea98022764b10d59a63f6bfe7e818e82b745951ce5df9344ee5",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-starry-night",
+      "codeSha256": "a7f4b9783826e72d0e6de5203c958dc9cf8e444962244c2f3c402776fb249fa2",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-starry-night.png",
+      "pngSha256": "fc7975427a08234052ac4ec836783274253f02f22d2cfb9aa469346ab12656e1",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-sun-hot",
+      "codeSha256": "eaedfe7e2493f85e1cee9af912b68289aa66400413a01427c67602c4753bfafb",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-sun-hot.png",
+      "pngSha256": "c4585952c421905270191b03b38e041ddaf8b7f2d2ca73fce4df778223046efb",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-sunrise",
+      "codeSha256": "7b99da33407dc777df5f5e08d330f1abda9b2bc54ca9acb007208470eb410964",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-sunrise.png",
+      "pngSha256": "c1313e8826f701d28947b97aed3a42ba6f3fc743d6fb1bcb998e367c669ba18b",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-sunset",
+      "codeSha256": "765ed872457f969c355140cf4789181ef348d326cc9639a2dcea2f72a3b8d094",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-sunset.png",
+      "pngSha256": "bbb22461b871ca51bdf16130bbbc4d0c872d900a1eb7a49f6f39c34859bcb662",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-night",
+      "codeSha256": "cb7941bbdf4ac87fe38d8d708463db8da59063a917f159efb21ac46ae5b7dd03",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-thunderstorms-night.png",
+      "pngSha256": "7cf1eac1bc2f4aff9d739c2f80eb67d05f6a7b6446df72252b08081d5c5a65b4",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-night-extreme",
+      "codeSha256": "dbb0041e4bd422be718f8174645ed8155e1700bcc9dbd48121d101bfcdddcd46",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-thunderstorms-night-extreme.png",
+      "pngSha256": "6bb029e320245d376861bdb405279f34dd36083d7623208966b9aa336d246cd9",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-night-extreme-snow",
+      "codeSha256": "d2cbe05cf74476ef736d2b405bbd4cc2d16e3ae1afea44885707f080b5ccc044",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-thunderstorms-night-extreme-snow.png",
+      "pngSha256": "707e0964d2df9662c503bec076a9888f571152e7f0ed6ed7e4e982d7ee7d8c89",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-thunderstorms-night-snow",
+      "codeSha256": "21b3be41c0147122ade977f96885b7844a4c54d5c2382a9c73036c4428345918",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-thunderstorms-night-snow.png",
+      "pngSha256": "6c3494e843f8c4f5c69e01ba0b88701930b2ebcb9c8e9631613ba4ff7f55bd3c",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-time-late-night",
+      "codeSha256": "758dbc28eb81e4dd2553cb93864a01df90048bf36e222b09a8e31bbd23cb29f3",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-time-late-night.png",
+      "pngSha256": "4a216c5d3978e1062a5d5d4741ea72cb94e29aaef1dfad879da99668b40dbdda",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-time-night",
+      "codeSha256": "9e13adff90e265161f34414ba3f1e7c969d9cb815cf0498f8e66e6ee17f6f7dc",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-time-night.png",
+      "pngSha256": "e0947caaca30e470325bdce633f1650dca8a9c9de3eda534af57e9ad7c79b9c6",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-umbrella",
+      "codeSha256": "a7e7f2bc035f3c51532067dfa69e1d38b1bdb63dd3dbf87a59bc257871ce6914",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-umbrella.png",
+      "pngSha256": "53e9bbebebcbf42788a8e5e344f0cdd314cf28fa4bd19d7d5d20b975daeaf057",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-umbrella-wind",
+      "codeSha256": "d4d27e05fb9bf5db844316ed129850c4cb374e342d356916938cf645fdc3d106",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-umbrella-wind.png",
+      "pngSha256": "53a153c01714f768d871a080e0f8f0e023bda1137985b9f92ae5d835b2ba0618",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-umbrella-wind-alt",
+      "codeSha256": "edd9f24fd00a4191c74788c30086b3dbfb65dc7e54219340547de8cfc604d2c3",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-umbrella-wind-alt.png",
+      "pngSha256": "df709d06ad51a724dbfaeb29feb83cf1cc39ec9b32aecc3f2010e578df245d5c",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-wind",
+      "codeSha256": "716fb89609d154ca70b6fbb98a8fc8434367bb63d0b374395e10330dbf93b3d1",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-wind.png",
+      "pngSha256": "258d3a2afe0812c785ddc5eb1ab48c4d29b4441993d1085ed6a23a44b09c2683",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-alert",
+      "codeSha256": "5878d7fabf1024a6e413705d370a607454d760a25432657ab1711b008fbab309",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-wind-alert.png",
+      "pngSha256": "0fa009eb736f0ca455e4a553251061f0aae923a8837c2e0eee8551c7541a0168",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-beaufort-1",
+      "codeSha256": "4392fe7e055c5f65eb493d606490655409ce3ff985eefe75727cced5f78add21",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-wind-beaufort-1.png",
+      "pngSha256": "92b0d3cb8561b15223c6a6093d9dc73ab628e8b9144bffe666252a240c4fe84b",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-beaufort-10",
+      "codeSha256": "1c05818f5ad1676dc7967835c5821e1ee96b3e274f652f7a76e3ee09eb43b126",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-wind-beaufort-10.png",
+      "pngSha256": "bee41df5be0b4fc0b07fa5ba0d13a27a5bee40715274c30b00737c97fcafa3c9",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-beaufort-11",
+      "codeSha256": "383f780e5121e937c2b386dddda3457d2f2791de557afac92d69507bf3916227",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-wind-beaufort-11.png",
+      "pngSha256": "622d0f62220547add93d676f022e2d01d1c01c3843244363aa50281bfc3eb100",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-beaufort-12",
+      "codeSha256": "2fc12c90421f903c99ff9653da9ddd0eec277d7125af31d00c26b25f407868f5",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-wind-beaufort-12.png",
+      "pngSha256": "ae4a70e2f9757219ec5ac646e952e0e9b45e81513281d5c5ad748d90a4a84458",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-beaufort-2",
+      "codeSha256": "c0e44d35633283104537f52b8c79bd5a555b90eb21be213d8830df9203c82195",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-wind-beaufort-2.png",
+      "pngSha256": "4ade24c1ad6e70ef1e78986baf7087a4a45b29fffe116e8bc41817bf157f5797",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-beaufort-3",
+      "codeSha256": "177100144c8a6730c84bdbc3d2557ba8a09388d5846341cae1204617fc8dff0b",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-wind-beaufort-3.png",
+      "pngSha256": "09b1d1a449a79994b1225326de2784136cb4fe94c1ab0fad58242cfcb30f450e",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-beaufort-4",
+      "codeSha256": "8dfabdaa174d0de2f5b8fb5e6326b97653c7ba255fd07dad0120e316f1df953d",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-wind-beaufort-4.png",
+      "pngSha256": "d79c12129d8f968f67a12e459f1fab16cf268010663af0295f05ad93ef836d95",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-beaufort-5",
+      "codeSha256": "b5afec91fce10304d15ee150522ccb3123331a28ee3089aca520309fa749bb74",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-wind-beaufort-5.png",
+      "pngSha256": "6f6ba5caea10fcd34f7b020a035d0aa2bf627280a741602ed959acdb0949e016",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-beaufort-6",
+      "codeSha256": "c9b50c09c147d53b26fadd5289b3ccafe747124d674a803bcacba7389796bb99",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-wind-beaufort-6.png",
+      "pngSha256": "e0ac36bcdb71d7e49d2a615cadd689ba0d9bd6dd4d85f4a8384ddf9066db3783",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-beaufort-7",
+      "codeSha256": "adf3e5923f6564a84dc708c04794dd5d340693c49cc3fe1e87052e8dd82d9cd2",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-wind-beaufort-7.png",
+      "pngSha256": "e6ea8c0b60663d0fea5f1769a80027ac6d0582de4aaf21ad7757c36e1c13af2e",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-beaufort-8",
+      "codeSha256": "09cf31f1da9f9a870b104482b98f2ef0d3047f727ca6eeca404d919942e47e0d",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-wind-beaufort-8.png",
+      "pngSha256": "e40c6e7169b597f00de763f336d26dbb0279f44fae808b847a9f4ac826ee0756",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-beaufort-9",
+      "codeSha256": "0a5c1acc98c0a719a655a5a5c99a58c39dd635f78812c1289b510943fc181959",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-wind-beaufort-9.png",
+      "pngSha256": "ed11b3bb9400a8f0f7bc6ac212a40459d5dc631d3c8c0f27f5740115300543dc",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-offshore",
+      "codeSha256": "57006e7cc02985b0fac9bd40e62e1a67cbbc7811b878e85522d2b035acac17ce",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-wind-offshore.png",
+      "pngSha256": "23a67a4877853e3cf09c5a1b1d1310f7f4bfa2a7ddce7c49bf36dc44b2433b10",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-onshore",
+      "codeSha256": "5ae0fb767fc41cb2c5bc052c4a417be2eec84a389beafd84cac41da0f522f4a7",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-wind-onshore.png",
+      "pngSha256": "1ddd6cce1853cf3867c413c59a6d0b1800af02d4f73c4de596b06b1a3bd15273",
+      "currentTime": 60
+    },
+    {
+      "id": "phase2-motion-meteocons-wind-snow",
+      "codeSha256": "81e5653e1f217f7c1353c0ae5ed32c83c10c83226ac34520adc5fd657be1a7ce",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/phase2-motion-meteocons-wind-snow.png",
+      "pngSha256": "c044e2f14e5e3379a0ce6551b553db52d29cb8a542c75578695419d3d4a3410c",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-account",
+      "codeSha256": "e0674861c90ee2c45b4e676a1acba4bef79ac17563c4505005e11da3e37843f6",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-account.png",
+      "pngSha256": "accdd9c729795a38dae1855e583bbc059b2da3281a05864ab313a218a98fc374",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-alert-circle",
+      "codeSha256": "85b99a87b46c71163a4d5f2138a420883aacdf75633b6d740fefef634bcbc017",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-alert-circle.png",
+      "pngSha256": "429734e4344aafeafb863579f838f60736ecb5e5b647230b9d8893a71408b2c2",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-alert-square",
+      "codeSha256": "10f62d6cfd9b6483843378e9f23dfdfca5bf70d496f02c2869d9c900f1a1f483",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-alert-square.png",
+      "pngSha256": "5dd041825ae308de779172cac7685865cc346f82b9c9965b54ea85cccc295631",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-arrows-long-diagonal",
+      "codeSha256": "906dcd958b570aa0244943f3c1adaaed5889af0154e9e6ea501d47428b0e737e",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-arrows-long-diagonal.png",
+      "pngSha256": "f1360ab66f13ed1bc6de458ac974ad1205ae270af02d249f44a82f82ec1d7cce",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-arrows-long-diagonal-rotated",
+      "codeSha256": "f78f988f667825fb233fe051f4927454316b8f5b92f3d9f0d391b19f7b33b180",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-arrows-long-diagonal-rotated.png",
+      "pngSha256": "7ca6afb69cffdf6c6024cf966f475e82e4b9a7114dd59a79c1a563345985ab80",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-arrows-vertical",
+      "codeSha256": "e6371c7f39d6f99dfa91cc364336c2c710af8f62ca192861e7d1f0c9d019f502",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-arrows-vertical.png",
+      "pngSha256": "75d870345430408fbc8b3742a781b6b77c4e8ad32df0396e548e4ba49f32df49",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-arrows-vertical-alt",
+      "codeSha256": "689d86e7878a5f0ef6ebbc29ed3adeb9430387bf16bd455b748dfe61a951f0ba",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-arrows-vertical-alt.png",
+      "pngSha256": "7fafd84507b32f3a32ee2e447a59083c80a1db689ca6cad76e88d8eefdb2a850",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-at",
+      "codeSha256": "3bec6bf91be5caee19ff6b90db3def56103c4d32690611d9fa83a5d84c8aec10",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-at.png",
+      "pngSha256": "00d1225ed9d7315e9a715afda48180a0ddb6329f64afa1cd2566d00a4d82b876",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-beer",
+      "codeSha256": "c540ae74a17f994210c45aa23156d130a8440c3b370edb0f6f0eed09695c9d96",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-beer.png",
+      "pngSha256": "baa0b8a3adad7947e324ed041bf7ee9c669d0409d7a70cfa4d95d9ab5dd9d1aa",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-beer-alt",
+      "codeSha256": "a85a2404f8fee0c6a5191e13d91ad86620e348a42643bd82e1e24d55b961a1b6",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-beer-alt.png",
+      "pngSha256": "baa0b8a3adad7947e324ed041bf7ee9c669d0409d7a70cfa4d95d9ab5dd9d1aa",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-beer-alt-filled",
+      "codeSha256": "d764d40f90c411b7c1f0af29bdc757e6426c7420cc39c3f98697675f2fb4d2ff",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-beer-alt-filled.png",
+      "pngSha256": "762e61930d7f8305971c8d49e6500875bb22f203ef1dccdf0d46385f96ceceac",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-beer-alt-filled-loop",
+      "codeSha256": "eba8e8fd269f6296a07e1a83ab18dff331be7daf58fcd31a0899b2dcfabbfe5e",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-beer-alt-filled-loop.png",
+      "pngSha256": "bd349fea6892391aa74b7ac0f42541efa9443736a1459a45091074b780018206",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-beer-alt-loop",
+      "codeSha256": "ad94e152b1a37b15875ddc594d19cd727659253e947e2ea1fb34b5017e5d4f49",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-beer-alt-loop.png",
+      "pngSha256": "5004f4b0e47f40cbc9303268cec45c2090aeda088eabba2c87b27f9e42de20ca",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-beer-alt-twotone",
+      "codeSha256": "25c7969055d80a6cf6248d5bcf8f37cc5e975bc4ec96fef5a7161f63fd188814",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-beer-alt-twotone.png",
+      "pngSha256": "723fb1e37c9fb764a57443edda6113eeed4c1aee00a092d221860b5c4080d0fe",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-beer-alt-twotone-loop",
+      "codeSha256": "589e7cc3f753b0895eb2b4b39d79eb95d739566bee1f90bc0d86366703f1f1f2",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-beer-alt-twotone-loop.png",
+      "pngSha256": "fcb555720fb16f70f17e70f1bae7f738750d1563fb9094f32ec9f2ac780a82a5",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-beer-filled",
+      "codeSha256": "cbca2abd68102a8d9e2e3fca78063a7a7a27aab93c1c0132f55c3fd2f009e74f",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-beer-filled.png",
+      "pngSha256": "762e61930d7f8305971c8d49e6500875bb22f203ef1dccdf0d46385f96ceceac",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-beer-filled-loop",
+      "codeSha256": "00d435fb903684d16980b20405419e1d8a617b336bba8414d62a2d70e3554ff0",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-beer-filled-loop.png",
+      "pngSha256": "6e131d862783e507a7c7a0566c0f1c70659e313366d174a02df9c7edbbe11110",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-beer-loop",
+      "codeSha256": "3ae7f26488ce7a1859a290c9746b30faf985800e6dec7c7c7f16d60f7d07bc05",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-beer-loop.png",
+      "pngSha256": "22b0413b97015f5aab3c648a7eb90db1e5dabf1afa9a676238ef29fedec396dd",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-beer-twotone",
+      "codeSha256": "dfdc07c2ccd1b7273e76016350f0aaee029479db067ad03cfb5a7d7f1f3e11d1",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-beer-twotone.png",
+      "pngSha256": "723fb1e37c9fb764a57443edda6113eeed4c1aee00a092d221860b5c4080d0fe",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-beer-twotone-loop",
+      "codeSha256": "4de97c8496f1884c93e67a130d30f3ab2d40d3435c52601ea113093cc11ddf6e",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-beer-twotone-loop.png",
+      "pngSha256": "fcb555720fb16f70f17e70f1bae7f738750d1563fb9094f32ec9f2ac780a82a5",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-bell-twotone-loop",
+      "codeSha256": "22202f1a55181c4f00b302c7cd77bb95a27f9010f63bae89669f6b8c5d57b0a8",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-bell-twotone-loop.png",
+      "pngSha256": "50b5137c60d81b4ea36ccfd2532aebe3f7de5805cae67e1bd29001060932bb92",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-brake-hold",
+      "codeSha256": "59f93609a3ddfa95d242d2d0648a956612437a9411e384310ecd303e83b7d68b",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-brake-hold.png",
+      "pngSha256": "3be68dfc95b3d2258e30c2676f0ac760ee82d4b817efdde194f634b8fa69976a",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-brake-hold-filled",
+      "codeSha256": "23d282195f57aa1ead609f8ea9a4cbf9bac90ca87e2fc304e98adcb9348c8f68",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-brake-hold-filled.png",
+      "pngSha256": "66ad37e3a53e1fcab13ee8623f5a93bc1454a5c3c3d0cedc949ef2ba5d179882",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-brake-hold-twotone",
+      "codeSha256": "9713a086c269cda9838839e2c31a5552fc44b3d76483c2ac2b13c4b502e4a77f",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-brake-hold-twotone.png",
+      "pngSha256": "151dceff4e648f9ee9607a1c087a020448868f235de331f5d11623fed3a86640",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-briefcase-twotone",
+      "codeSha256": "00a7c6e255e6dcb8eb28940e0a01411db6fddb2bba3097e869f00d0000b4bbea",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-briefcase-twotone.png",
+      "pngSha256": "99def0e826e2158e27ca314c3bdb068af794b0bd1bab234f1d372f89f977b0a5",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-buy-me-a-coffee",
+      "codeSha256": "bd0b8fb7e9b315392cbd514b6ef0155df53b6fa8f5bbc0ee9f19b38652fc97b0",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-buy-me-a-coffee.png",
+      "pngSha256": "d40003cb39da9f17748fbf72f08cfdfc5ca9fc94d320665e438a2592a28ce5b6",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-buy-me-a-coffee-filled",
+      "codeSha256": "5785460cb5fa248bba15b8b16ece464cce35197105dd910a76768992a0aa3384",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-buy-me-a-coffee-filled.png",
+      "pngSha256": "2e0740caef95aa07f7f4b713070cbdd6fb823f350938252855bb5b45d91f1151",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-buy-me-a-coffee-twotone",
+      "codeSha256": "3c51683a373b98c07953d21cd73f28149d040cbb4e28b29d2530b1f10527c6b5",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-buy-me-a-coffee-twotone.png",
+      "pngSha256": "91daf06928acd2f9fd006a19e6a203197b25e0a7987b7fb6493034d3668b82be",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-cake",
+      "codeSha256": "ba7346fbf8353aaa20d6bcef144f4382ce784d325c2a4267fc910bc4eb36e9fe",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-cake.png",
+      "pngSha256": "8a772b5266d00d82e669e2c3cfe8eb74224fc69c6fce000a27dbeb9708ead4c1",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-cake-filled",
+      "codeSha256": "08a29aa9a715e2241dafb4eea244c0ff4c80500bb17c8346960279cfbd698c4e",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-cake-filled.png",
+      "pngSha256": "220243a93406f4a69709fcded53bd145993bc04fb2acf77b90e48f966b4409a3",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-cake-twotone",
+      "codeSha256": "40838a16a2d63167cd68ed7577481fd34fe8b2b77009e885e7056b18b1c0e676",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-cake-twotone.png",
+      "pngSha256": "259aca908c17c4c54fe0d6c673eae607d07829c3d74b99856e22decda9f2c782",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-cancel",
+      "codeSha256": "d1ec7f976cd46a6c94521aeb8f123e5210ce1761befeaaca050c2d97aae8174b",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-cancel.png",
+      "pngSha256": "0824aedc6c175cf4289f0d13bbb7ca00c4f443550f6acc26e05e5faf5c6b1bdd",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-car-light",
+      "codeSha256": "7c7783f4ae1e042d6ba1562331174ac59a950651d7541f12391a693303a436f7",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-car-light.png",
+      "pngSha256": "da603e83e2273d95a5493d14b0cdc663f64093e8333cbc489581e4155bd6b3a5",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-car-light-alert",
+      "codeSha256": "bb0e4d6c06c23d5f9766bc56da9dfca52effaf6eb935fb9f6e9b751c92929403",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-car-light-alert.png",
+      "pngSha256": "891c9dd179f9059dda0a88e5e20cc017d8f67612fb887f78e7ae77e979633ffa",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-car-light-alert-filled",
+      "codeSha256": "6899c46e502a5377bf195d1570992d07ff2097b2b6128df13cfa1eb3c792622a",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-car-light-alert-filled.png",
+      "pngSha256": "344c93274367e3d26c45e0a19ee600ebd33d369bdffb8b4703c16600b8884fda",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-car-light-alert-off",
+      "codeSha256": "e6c51e91677e45b2027ea12c9e975ab21a1b93895cc59cb9b37ecea78999fda5",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-car-light-alert-off.png",
+      "pngSha256": "961c2b2b77a856834eaf3877f541392089a30191798e95517f487404bdd325f4",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-car-light-alert-off-filled",
+      "codeSha256": "eb728b80670624e3dd9cdc1f3955a64f3680a8501646ddb5f7f29b4b10da8a3c",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-car-light-alert-off-filled.png",
+      "pngSha256": "75c703d808db6dbf3a584e0c317108d7fa2905bb8ca3fbda532827ee9ac49ac3",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-car-light-alert-off-twotone",
+      "codeSha256": "e8c785aaa4ce7f282c3461b5a9ee67a70b1aaaa426323275b450e22741e1a4dd",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-car-light-alert-off-twotone.png",
+      "pngSha256": "1b5667f5e2d68b91cec8b1dc3d6389fb4fcbf2d9b22239cc71f32ee9e2a6b35d",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-car-light-alert-twotone",
+      "codeSha256": "ce0418528ce2a7cdbd8dc7fa3e3e57daa0c7d99f7ac58ee104fda0ac989f0fe5",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-car-light-alert-twotone.png",
+      "pngSha256": "8a19e44a22a889bcd0186fee1b65d37140dd124b45e2ce3c5073ce60ffbf70f4",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-car-light-dimmed",
+      "codeSha256": "9ef9699f03657c0cdd6c86f8f479884cfd30e82ee648d2351bf9142774896a7e",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-car-light-dimmed.png",
+      "pngSha256": "9d5b89b2470a2c5a17b797b42b5e0989d4a64d663f82da1df1b6dfd963b957d9",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-car-light-dimmed-filled",
+      "codeSha256": "915591bb3c0a033e475c94903a4ab4accc163ebc249ce6c9e88258054e0754ab",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-car-light-dimmed-filled.png",
+      "pngSha256": "711634c68e9d17a215004932ae3a87f6dcd82d66df0c8cebad860cf503ee0986",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-car-light-dimmed-off",
+      "codeSha256": "b19173c9b4d4c87212dc4313de258548952aff15cfc264f0f286f2a5aaf62264",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-car-light-dimmed-off.png",
+      "pngSha256": "613eb60c96826531716763357fc42ee1ba3d203d621c9efa5ee95a109930a5f2",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-car-light-dimmed-off-filled",
+      "codeSha256": "169b1cccd8bae469355ba73622a196f3cbcd5cf382a4df8b52f41a5df93a13b1",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-car-light-dimmed-off-filled.png",
+      "pngSha256": "93247f2f4ab3b376d7264591033c7ef3fe6a517135fe990e769030984d087c79",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-car-light-dimmed-off-twotone",
+      "codeSha256": "87c527f202588c6458ff726c9ec24889b24fc0fa1301ae1c003e67f199fb4b7d",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-car-light-dimmed-off-twotone.png",
+      "pngSha256": "cea4b543543b7d6f218512f76f0426d99250a7a6c418156eca62bbc62c945dce",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-car-light-dimmed-twotone",
+      "codeSha256": "e678c178a4e2863b53ed909ebea264d7d6ea57d0fa1561d93bd5d66add3b4456",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-car-light-dimmed-twotone.png",
+      "pngSha256": "c3a955a90da2b99fa0be3d01cca1711cb029e34f084988ee30b32cc077b0f3ff",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-car-light-filled",
+      "codeSha256": "f3bc1ef305c1d70b8479a03b6173e35a1235502f6f368584840422690eaf1ff4",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-car-light-filled.png",
+      "pngSha256": "68255cdbac379bac397918532abaa4fd0bdff778731df82f691714031529691d",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-car-light-off",
+      "codeSha256": "8fe9f656a3938a3775fb60404be235ec2c770d34be77f6b9ddff8fdc2b089df0",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-car-light-off.png",
+      "pngSha256": "34f59fafc8b94063050584a6b3e4b321025175730dc04b2e64333f32d94e5432",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-car-light-off-filled",
+      "codeSha256": "873f5701a61d7007929404e70a900bc5548cffa7e30132406fc293471abea51a",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-car-light-off-filled.png",
+      "pngSha256": "63d4a8c3027a4d77ba59a84405d4ae0853fe9e29bdebec882da71314e2248069",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-car-light-off-twotone",
+      "codeSha256": "0b33c0838f29216d21cec40ff84cc62ee9a73ff7e706b06994d9ed4015455c10",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-car-light-off-twotone.png",
+      "pngSha256": "f402199fd5d560d343180bf53e2bece73defc675cf3d72e17ad959300c085ac6",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-car-light-twotone",
+      "codeSha256": "bf279c5f60dad37c6b5fad0ccdf4686fb80e91d724d4c907bdb7fc033ba206bc",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-car-light-twotone.png",
+      "pngSha256": "9944a81dd8f2898d9ecd7d41fee3b35cd58401ea8d0f1e771f3a613276d2df05",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-chat-round-off",
+      "codeSha256": "4012fb93a9a7326d22312af3f94044bca6f0fcad259990f170cf4e75ea53e96c",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-chat-round-off.png",
+      "pngSha256": "d0e01e379f09cf05b850bbc2ad3f7eaf887d42dc8d69f55024042c45e595f44f",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-check-all",
+      "codeSha256": "e40adffc748ea8775a22f81f8ff8c70f2d3b6935c91c6efc9449c74d6c6a7293",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-check-all.png",
+      "pngSha256": "eac8ad93df74b42f8123900701ac6edff82a6af44b9c38395effd41c8e9c16bc",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-clipboard",
+      "codeSha256": "ea62e19126a0520b76badc7ca4d1c053e14efd813ad01236cbd22eab7237decc",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-clipboard.png",
+      "pngSha256": "6e2a15dc4ebb6267d52cbd6c61b6f080ce734f0a57952da6d141272a47cd1ed1",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-clipboard-arrow",
+      "codeSha256": "f0e762713b822c2ba2cbd3856cd26b386280c5f8a81c2111053f7a0afc232e56",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-clipboard-arrow.png",
+      "pngSha256": "ba518fd3301e496218b5d2b2ea093b7af65387db395bf9ff9743e69f28fa534a",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-clipboard-arrow-twotone",
+      "codeSha256": "95e4082af8d6a02a77a7ff3fc9fad41e4b116101f6243cb5a728a6a9efacd82e",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-clipboard-arrow-twotone.png",
+      "pngSha256": "e5e01e1156584b3d87a8519e561de254a0d8a2f6093ddcd0402239c83ae5e7d2",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-clipboard-check",
+      "codeSha256": "961c5af0b32ae1e567efc27e05469bb0fa759909814768678c15147981282062",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-clipboard-check.png",
+      "pngSha256": "bf95440a22277086e8adcfe5e08afd4e0d4b4a98c3d3fe43652c94d2967d2741",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-clipboard-check-to-clipboard-transition",
+      "codeSha256": "5afb812406dee28c359e3e14e785f71ae17f9fad13674be8986a44e2fe394f93",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-clipboard-check-to-clipboard-transition.png",
+      "pngSha256": "6e2a15dc4ebb6267d52cbd6c61b6f080ce734f0a57952da6d141272a47cd1ed1",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-clipboard-check-twotone",
+      "codeSha256": "1e1cf85486ba2d3a09c0c1c20aff6b723722a66f0a5deda8d4feaf980f8fbd52",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-clipboard-check-twotone.png",
+      "pngSha256": "c12f2e619029e72f67e80116bf4df392d8b99d107e9c8c4982126fae7c4a1cbb",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-clipboard-check-twotone-to-clipboard-twotone-transition",
+      "codeSha256": "2408f7222f495b5ba740195bc6dcf051dd317acbf6b61e8696dc426a2c0be758",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-clipboard-check-twotone-to-clipboard-twotone-transition.png",
+      "pngSha256": "88d21727af8f85b34cd530b18a8542860b9e5c2032e97e198c3151c58467fe21",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-clipboard-list",
+      "codeSha256": "66052dc24eebb73dc639888412282386cf0e012da2515298b1685a48456f76f9",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-clipboard-list.png",
+      "pngSha256": "cf6d98ce2c81acbf2ae27c06ab746bbcb91c61bcef0e4e67a07e509b021f839a",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-clipboard-list-twotone",
+      "codeSha256": "d4322586b84dead6b024cc6ad22ca6abd21954053622d07d39dee7fb4df55fdd",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-clipboard-list-twotone.png",
+      "pngSha256": "e1bcce26a0aa3386d0bec381160106bd6a4dc4b4186d07a64a9191cf3d94c638",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-clipboard-minus",
+      "codeSha256": "5cdc25d0c3f0a59a3161fd7ff95db3be214e2b0b1ce1da5d40caa760e8375962",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-clipboard-minus.png",
+      "pngSha256": "2bffd3878234c52af1cd474f676c415c820f5fc81fd46c23340e3954a26a4515",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-clipboard-minus-twotone",
+      "codeSha256": "67ea1eb2beebb6be6e0ede59c628eef1749a06cded6e4d34d7b893b9261d8cee",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-clipboard-minus-twotone.png",
+      "pngSha256": "05ae42e3ee5799576b85324e00da8e93a0378abc66eeeb1e4c09b42dbfcdaef4",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-clipboard-plus",
+      "codeSha256": "aae868d3d7a7cc23bc34b4f885e786b6778e5b170d48fb478841bd1ed19dd60e",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-clipboard-plus.png",
+      "pngSha256": "633c53e740100736158870c1fb762c2821e820d2b7bc570769026341442f33d0",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-clipboard-plus-twotone",
+      "codeSha256": "153eae168fe2b205b263f8b9c1e81bd8a7eac2c58e3c12a848f4ea6529dda444",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-clipboard-plus-twotone.png",
+      "pngSha256": "68910ed925483e7b052cf8bf965b2ad83d92aba2d38475857aa76960ff54005a",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-clipboard-remove",
+      "codeSha256": "e4fd2294e5bf4f9ebdcedf75e4cc0e9fa771a435b969c1d831992441739ed4ea",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-clipboard-remove.png",
+      "pngSha256": "f9196e9e21f0f99716fa36b7f941b9b5d9b4e015025fc952ef77f92dc69775bf",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-clipboard-remove-twotone",
+      "codeSha256": "efef92262dfdf3f11c380df3ca0da3d82bb4d48448b4c7fc8aec46971a71e588",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-clipboard-remove-twotone.png",
+      "pngSha256": "1f107d01efe3c2750385afc0d9232f27a77cf526ce5de8296b5a5f17c0bdb8f5",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-clipboard-to-clipboard-check-transition",
+      "codeSha256": "67a8101a12d0247dd782ade5091c20b186f825982e47f8c6768d0135ab0e9ebc",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-clipboard-to-clipboard-check-transition.png",
+      "pngSha256": "bf95440a22277086e8adcfe5e08afd4e0d4b4a98c3d3fe43652c94d2967d2741",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-clipboard-twotone",
+      "codeSha256": "c7767954024313b372414755c743210d7593e46e6bea3958b6e0ce56acc269e5",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-clipboard-twotone.png",
+      "pngSha256": "88d21727af8f85b34cd530b18a8542860b9e5c2032e97e198c3151c58467fe21",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-clipboard-twotone-to-clipboard-check-twotone-transition",
+      "codeSha256": "4671347e628207b49bf8504ac36964ac589ab1d922966e1fe956924009f138f9",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-clipboard-twotone-to-clipboard-check-twotone-transition.png",
+      "pngSha256": "c12f2e619029e72f67e80116bf4df392d8b99d107e9c8c4982126fae7c4a1cbb",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-cloud-alt-upload-twotone-loop",
+      "codeSha256": "1774ee0ea10be4ed68822a167dc077dae852af9bc27ef4f20bc7e7c8a4531fb8",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-cloud-alt-upload-twotone-loop.png",
+      "pngSha256": "f53cb1616b915c0b68423f24e9b23bad336f3eb548c3c3b261adf7520057ef08",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-cloud-down-twotone",
+      "codeSha256": "ed3a117e6747f4dcc8505f639a339bb61f81ee3d06e1a1ce04d6f80b7249ce29",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-cloud-down-twotone.png",
+      "pngSha256": "eee48e260a9efc763baa18a080ac9bffe77b3aa4960df104841031cb9b210987",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-coffee",
+      "codeSha256": "19c5d10aa1ba5df19838f0c9c0dbe6c444f02b69389178109758304294c1f545",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-coffee.png",
+      "pngSha256": "15b64cda2dd6eaf6a65efb8df354ab6b27f675c3c0d5a70482d9f0c43e3dbb0f",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-coffee-arrow",
+      "codeSha256": "d228eaa14c774f0d14de17e736b19fddeabc199fed8a2e0d21f512f626984a55",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-coffee-arrow.png",
+      "pngSha256": "3ddadc26ba09cf344a7dec065719aff5d72732e9e4c66fd9ed5cf0f6c70aa65f",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-coffee-arrow-filled",
+      "codeSha256": "d9436b68f1ba8355244017a394df170a82de0c77cb061bc356bee2eb2b0e5501",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-coffee-arrow-filled.png",
+      "pngSha256": "a658d8e7cb832bf8f576de8f6f5520fc1ece22cd0d9ef467c5401a315260abe5",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-coffee-arrow-twotone",
+      "codeSha256": "05227d13983e8a990761d8d1dfeeb7f47654f08d1fd42f5a2975c2267a7dcaad",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-coffee-arrow-twotone.png",
+      "pngSha256": "e33d15739d604728982618dc63f7961ef34803b7641ace421425fe1033d2797a",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-coffee-filled",
+      "codeSha256": "a620b478d5ae941826736c353590b3d8009e9fb5687939ffb7c89e4b7999b9e9",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-coffee-filled.png",
+      "pngSha256": "16bbae1ca2a1c14eefac838c6113135097c67ed0bac9c5220d0c713aedaa7193",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-coffee-filled-loop",
+      "codeSha256": "4eddf5f535314bf908060a6802a5f7a4933aa4bd934d06e7652abe55d9bb6441",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-coffee-filled-loop.png",
+      "pngSha256": "b99c55614f0e231eb7a6a918bfbb6a7322741445df4b2e576344da361d62d296",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-coffee-half-empty-filled-loop",
+      "codeSha256": "a756205351078821d7ad956218f4e44271759c704ae5540fcec069fe1dea83ab",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-coffee-half-empty-filled-loop.png",
+      "pngSha256": "42092622245b88f0ae4628870f7648938462573440bb3d95aad0737139884f95",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-coffee-half-empty-twotone-loop",
+      "codeSha256": "7f23e8f0b9b83242fd57896e5f67b857f939760ba2562702028251635a810531",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-coffee-half-empty-twotone-loop.png",
+      "pngSha256": "2df8ab3cb07d3b8dd591d32a8759ffc3da4819fe8e147a2714d0eda130b27257",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-coffee-loop",
+      "codeSha256": "707bae78e48a9a177f3018cc9ec4c3245388d87aa238352708a484225fd205ed",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-coffee-loop.png",
+      "pngSha256": "a6e9d593665ad73c8217ca9fca6435dbe14374d334e6c76ed8df7e7cdfb309a3",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-coffee-twotone",
+      "codeSha256": "5700cb106b9c76892e792da400bb733f7958a2e93cc9bdaf6f8d75b03ace28b6",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-coffee-twotone.png",
+      "pngSha256": "bc74cfbc767b246513f55362726ea382b15f88964ec52d7817f893954d566924",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-coffee-twotone-loop",
+      "codeSha256": "af2e12aaa21724fea23c2ce9bc817749ef4001bfd8524bd353ff0c85e4543cf4",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-coffee-twotone-loop.png",
+      "pngSha256": "56f0e57c018ac4ce1768d104c8de6e45a934e0a7c45221145b397f687d3a308c",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-computer-twotone",
+      "codeSha256": "943fd96a38660124106cb079ff1badf86333b9db7fa045ba6f4e541008d9daa6",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-computer-twotone.png",
+      "pngSha256": "90f5d1b088f212b2f24f7ae31c20afd5752379163c411142456aca0df0348821",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-double-arrow-vertical",
+      "codeSha256": "3ddacdc03bc92834db0b400740e0fa3318f9908957ed8cdd0c95062daa489283",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-double-arrow-vertical.png",
+      "pngSha256": "112999aebaaf7f1b7d1d75cb6a0306c9e596d41bf76cded0ec3b1da35bd726d3",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-edit-full-twotone",
+      "codeSha256": "4eda8680730e163cf9d759b5acac91e4e03cb530055c38d0b8a61ea1df4bfba7",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-edit-full-twotone.png",
+      "pngSha256": "625c5a6bbd40ffd9d3be41eba3866158554be50d84b7a5d041ccb8a7c0bf1435",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-edit-twotone",
+      "codeSha256": "6b1cc3ba360959e042a9115059edf7c319369fb4cf817e41ccd30eb8ff92d0fd",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-edit-twotone.png",
+      "pngSha256": "ad1f402436d5f1dbebb5ca827c761efe445ece4581885a696ccf1187f4e32027",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-email",
+      "codeSha256": "3dffb6b512a74b3c41f7d1eceaddca71214eb9bbe7458801f14619ad1a012093",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-email.png",
+      "pngSha256": "619a1319a649f3c523ac2497aee090096ce07dda979aa891339855192e150de7",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-emoji-cry-filled",
+      "codeSha256": "7dbd584a95876f6b14b0d8b52646c337105ba3ddcd33514d85c43a0cf254e409",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-emoji-cry-filled.png",
+      "pngSha256": "4a541e06e9e221c9656a6ae7a29cfd97d3eb2b086049855158575c575bd72051",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-engine",
+      "codeSha256": "5c5753c97e086f68f7281b165078ed8f850f09e195e42e12ae0f4b77c4dfd1d8",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-engine.png",
+      "pngSha256": "f4a7b73b26a9ef0c9e3a517ae3d3f79b7b47b2cadeddb649b2550877496fc43a",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-engine-filled",
+      "codeSha256": "5153c6ae5049e37aa59cdd6e9e346c4b04791dec9bd5f5459631087d6cf9e9b4",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-engine-filled.png",
+      "pngSha256": "8cd56104791bf89300863d400e8b15e253707d6a87d3c662776cdfd07728dfc6",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-engine-off",
+      "codeSha256": "2e839f3ff78e1738f30ec7b631f9886664a97c7f096e057c8dff0cbea9b64d2a",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-engine-off.png",
+      "pngSha256": "e6aa2f9946453c8eb1807927dad038185d4d77d7ae9e970c6e8964fd90b7c4ce",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-engine-off-filled",
+      "codeSha256": "74056766afe619e8a6808f82a79c170c356bd8483cb4815588d3965f736c8faa",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-engine-off-filled.png",
+      "pngSha256": "7fbf08a151b95ec8d1e913ae4b716afdc6342e0f7ff6d857818e0788fffcbae5",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-engine-off-twotone",
+      "codeSha256": "44eb0dec536974b2bffd7afee7e9db24ade98eabe54f1e48f0d9a7422ed050cd",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-engine-off-twotone.png",
+      "pngSha256": "472cdb8df32e524f469939a192cee5d11879c45ca6a1d953bd2423fcfa52e440",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-engine-twotone",
+      "codeSha256": "39bdacdb330c802fe90763a4fda483f429962c74ba60d278bc6fa17e2f7e0613",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-engine-twotone.png",
+      "pngSha256": "b52fb653ff891c8d9422158d81bdcd2fa26fbfe3127e3967db3291999c8d071f",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-file",
+      "codeSha256": "76fbda4def8725a57952efe782c8d74e58c8ee36734fcf864dfd054752483b52",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-file.png",
+      "pngSha256": "dc48177e15911f48d9de5f7924c4182bc6f43dfb064671854d8aa2378ef9af61",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-filter-confirm-filled",
+      "codeSha256": "113308709e6496d30fd8271868453ce66c025005f431f64bbafa073e3c47f3cc",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-filter-confirm-filled.png",
+      "pngSha256": "f9925e269602e8e6ac42a7c2cdb28c718dff00cf055e103d505d6c0cdd98fe4e",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-filter-twotone",
+      "codeSha256": "0be8a4c63285bebc79b95a93cd97171b9a1024d93a8cf76590d12b254170dd09",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-filter-twotone.png",
+      "pngSha256": "2fa7ff8d5e72901982ea87b8f894258b5f719e3c3c8139dc8025d393be0ead08",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-folder-network",
+      "codeSha256": "d129264229768acd0e37489d585a52fd6267ebf986f118c049e4ca9b66090254",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-folder-network.png",
+      "pngSha256": "8dec546e3467e3b5aa979aff7e5a0758541139338c07fc5548d2412a74684bf3",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-folder-zip-twotone",
+      "codeSha256": "7912a913dfc3b90a3a13b0790b9191b00913a79126312d965d20881068f52737",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-folder-zip-twotone.png",
+      "pngSha256": "8cf1104b637dc672f40c1f76a82b07103d967fe732cba20cda9b369b0313a98a",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-fork-left",
+      "codeSha256": "0b76b7476efb1fae5cb93fc72cf355ab922161c8ed37f9d991514e93d92d8a21",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-fork-left.png",
+      "pngSha256": "ddc419817b5db2670eced2f30e294554eb7664daa6bffb6bba8e5c5e6e62754f",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-heart-half-twotone",
+      "codeSha256": "6ba00e806f7416160a38ab188239379fe171e08a11a70e8d970469e80ec46873",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-heart-half-twotone.png",
+      "pngSha256": "481aa90949c1988dffbe1dbcfccfbd66a7f8762dd1d0e8cdb939ad9bfda522f0",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-home-simple",
+      "codeSha256": "3710fa8c7fa40e88011ed1d356fe142400ecda78e22c12d8a5985c4a06d5c55d",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-home-simple.png",
+      "pngSha256": "b2e1affa3ceba5803341362c286b33392ebdf1bda12bbfa2353ee38f76c84d8a",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-laptop",
+      "codeSha256": "e7caebc834872db49edd313a1469148fefc21359f0b7ed363f218334c95a529b",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-laptop.png",
+      "pngSha256": "ace4f151a117ec190b2644ab7c51ddb9d3077e91206a47798589aaa9aaf5bf57",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-laptop-filled",
+      "codeSha256": "3ac9d79aa6eabb02c08a2da8e0ca98cc2673e078944c714d6d42034313a9d84d",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-laptop-filled.png",
+      "pngSha256": "b576d0f03c3c4e81757a4b0f9e747effb5a6297d74429042dda6d8c15bbe51cc",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-laptop-off",
+      "codeSha256": "e0149aa2633f8c78793ae74adffcccd2eb9d653373119bbe9db638afaaefae83",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-laptop-off.png",
+      "pngSha256": "b4e71b6630fbdc7fab4a5a5d1129aa79a8a58ccca0b807bad6f6e1de2f67b94e",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-laptop-off-filled",
+      "codeSha256": "0a5dbcb78c966aa97fe5590cebb2076e35a88f8f4363c7112f0b679e875e937e",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-laptop-off-filled.png",
+      "pngSha256": "f6c2ce53bc194ed8564559cb0a75882e00cf0b2e200f9ab06a2d93b2d237de3d",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-laptop-off-twotone",
+      "codeSha256": "35bee4d7f559b83ef291e0105f3ebc52ca19dd18144d41e7fcf2fd0cc1fa273c",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-laptop-off-twotone.png",
+      "pngSha256": "76358611351fedc90c0bcd9bf1302ebfc007e7ccbfe223da87c4543108ee3eaf",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-laptop-twotone",
+      "codeSha256": "b29240c44f2cd89f1af3acf9cd878d1a2a1fca98c79edbcb371941abbdf4053f",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-laptop-twotone.png",
+      "pngSha256": "72657df19c54d5186c46852fb6a07be0dbd6cb29c3ae0865e0650502902f16b9",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-lightbulb-twotone",
+      "codeSha256": "20c044aca0b0588cbbde6ae90e64105bd8b70e04eb98d75ed1df232e6cd83059",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-lightbulb-twotone.png",
+      "pngSha256": "1adc6a0124fc7480f643167f8c0db0e73d6e63bfbf5e1ec2f0abaf8e1a967ede",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-loading-loop",
+      "codeSha256": "c0a0632ae8ba512c7eb8cb9dd5bad6c5e0f46faa36931c49faec84b40795fb39",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-loading-loop.png",
+      "pngSha256": "e804c2b3d120f8bd70ff59132934814e822ad69369ed1514b68c4a06ba281d5d",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-map-marker-radius-filled",
+      "codeSha256": "622aba24ab2c30598bcde2d63de6bffa82515b95e7f727b2c3ca6b461bd20a48",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-map-marker-radius-filled.png",
+      "pngSha256": "12c4952311f6b56b9d89b84f82d6b96916a78539c409fba4905719fcc88d90a0",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-marker",
+      "codeSha256": "c6d1e9122b33d4a1019a87710855fb692c8817c09d58dd3cd7ce4ae81f1080c0",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-marker.png",
+      "pngSha256": "bae22fbc3bda3d6195b6e1251325aa0c7ac44d1adb64f8f676c6e89c94ec0921",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-marker-filled",
+      "codeSha256": "478005cf8a90735e38bbbd92bbb08ed9cb62ddc882f275a10cab4b7977f255d5",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-marker-filled.png",
+      "pngSha256": "03bfe5e4aef7fba42232e2a91e0bd285da9a0963b55b76d3187cd0d9d528eb25",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-marker-twotone",
+      "codeSha256": "ab8f5eee81c75f462430afc821785f712bbe7734ef2baeb26f938715c27ebc3a",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-marker-twotone.png",
+      "pngSha256": "3224c47923aa98a9c7fb331d1df4e6d13d02e010c5d31c559ed331d896341ee7",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-mastodon-twotone",
+      "codeSha256": "6718d9cfaff7951b5a9ffc61fe88531245a887e5102439a99712142d9f51b04e",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-mastodon-twotone.png",
+      "pngSha256": "fbb63dadfd43813ecec2cebe788eadbb482774d93d165d8bb0ff37f608db3a9f",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-mushroom",
+      "codeSha256": "a51ab65336631416bad5332b9375b9ecf73d85a7c02a7d802738d0a613e28ac7",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-mushroom.png",
+      "pngSha256": "6630bccf40f37b319ea96bb6955820ca8cb5b19ba5338d4176dd12b3f484cb91",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-mushroom-filled",
+      "codeSha256": "1562ced2ecea9a6241a76de053b33a48b21524dbae57e0b83dc067e3ec88d29c",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-mushroom-filled.png",
+      "pngSha256": "5c052ee90dca436883b906f3d6a3d8845f9e360159a55ea2ee83e7b21afc2955",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-mushroom-off",
+      "codeSha256": "e55589a5ba5a27e94c3297e773d94807dc0cadddf0e24e7b6b2914cdce449bec",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-mushroom-off.png",
+      "pngSha256": "a7ceeee8ed03c7cae4ef5520e2f79f7163e7be5c74bd8d15a3759ad798c49264",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-mushroom-off-filled",
+      "codeSha256": "e534a874522e086e182eea6b970dcc238c0aec719d3b8706ef9bf428c2195eaa",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-mushroom-off-filled.png",
+      "pngSha256": "ca58478918e4b0a57b9dc62ca26dad000e5b4db110b1772ce89b32359c7a78f4",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-mushroom-off-twotone",
+      "codeSha256": "3f46fbb12bdb3f5de0941fd0a5ceb69a9abcea5c27c5b6eafa3d4207fda8c021",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-mushroom-off-twotone.png",
+      "pngSha256": "f5913ad772c3e9015a30eed5bc480f4a325f777877a5f381171cc0a87e417430",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-mushroom-twotone",
+      "codeSha256": "7ca1b02a52671c110a3dc3055129b06158d8f81debe66fba0807a3f0f9a24377",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-mushroom-twotone.png",
+      "pngSha256": "236bcf889c39bcad6c4f303b4278ef1f300e7adfd6b9d665141b9133e8fde253",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-paint-drop-half-filled",
+      "codeSha256": "125e5323d22b72c9f5d825256a072f932f66892db88706fde643e914ea372a00",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-paint-drop-half-filled.png",
+      "pngSha256": "358a1285b62134ece4802338be3e4eab4d6c35ef3aea31c22dfdfc2fc678c5db",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-paint-drop-half-twotone",
+      "codeSha256": "a8dcd6d768edc676effca094fa7585738dc6fd34ca9b12edc7da222996dcb763",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-paint-drop-half-twotone.png",
+      "pngSha256": "39cf0911a541acf0318e9cf2e6f2f3b28644e15d9755adafd57d1fb7ca433385",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-pencil",
+      "codeSha256": "730e31e3ee1c3b7bd41d76c446653fb65c28706f723913815bfa1cf2dbc4dac4",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-pencil.png",
+      "pngSha256": "2f17be95688fa1eeb4038d33011328ef1dfe9f21afcddc6dee550406347db664",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-pencil-twotone",
+      "codeSha256": "da3e5199682b45399f71b1ffd672dab12463a53cfe83f540a8139358d18aebbe",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-pencil-twotone.png",
+      "pngSha256": "2c9361352c55388c1c93d3aad2541a457dde09c48363c01ea2ae42d0c3d156f5",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-pixelfed",
+      "codeSha256": "225b276b2828f72733cfeb9e814a2e7e9ebd3f47f908d0fbff3ed7d7a7fd42e1",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-pixelfed.png",
+      "pngSha256": "495eac06a2fe114894b24e9afa202d272ee9f6e91dad740d5b5f17aaac44e358",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-pizza",
+      "codeSha256": "74ad2ffbd95106b8cbeef6ab2e2f020eeb2798c35f84868b0b5f58eb2a7ee2b5",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-pizza.png",
+      "pngSha256": "926c726906e9f30018ea746a84ec1a44c3c0b2d4c1805997b9cc4ce970dc5581",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-pizza-filled",
+      "codeSha256": "77aa3548a2ed734c3f895323100bf662a60f8a18c5b743e0f50152d9a35fd3f7",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-pizza-filled.png",
+      "pngSha256": "64a8c799389a1d773fdc1e714cdecb46f98b32eba9253ef7024e7e80f93408d6",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-pizza-off",
+      "codeSha256": "6ac03ff3f6bf3f9bdd782e7d6ac101f933915bb28699838bd417b71c2b55f457",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-pizza-off.png",
+      "pngSha256": "39cc2dd1b4ba95a50b19443c8d206d7435fc57dfa92ee8a46b42ca5290ec3c1c",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-pizza-off-filled",
+      "codeSha256": "e2f451c405fd6e6d40e4a46cf81523b1a37f366658a4cf4aab3a2590faa1d9d3",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-pizza-off-filled.png",
+      "pngSha256": "c0cd2ece2d0354e48cb365f109f765132bc40d44536b3a5ec86b9c5ae85a0e8f",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-pizza-off-twotone",
+      "codeSha256": "b60d75884c337cdccb0e876e4afdcbc14759f9b398becd8dbe93e2699b016e87",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-pizza-off-twotone.png",
+      "pngSha256": "dc9bd99960adc10248068db0f521a4dcaae88e30f15623a2de247f27a6a3b4f3",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-pizza-twotone",
+      "codeSha256": "f8822a03c7be07489b0b4017c1d916fd001878e1621e151cabe1c86b07b8a2ea",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-pizza-twotone.png",
+      "pngSha256": "d8f461b8f76a815a95b59fb3f13dbe84fe9dabc32f411c209a7fad1f27004e51",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-question",
+      "codeSha256": "8a88bf72ee104b4600f009e2be12a45d3a603f8a8c69d8d712f10aca007d476a",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-question.png",
+      "pngSha256": "06b6e3a0fe180fdc64fe6744c443bd365a1965c5bc910eda495ae9f31a56eab4",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-rotate-90",
+      "codeSha256": "9d7db162e6a54e8dca0cb0eb78283c2ae8cdca731c68e6311aa79a8056d4179d",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-rotate-90.png",
+      "pngSha256": "8db06068bbe630e327c32bc14730982918e1cf6f521e890e7f046f0706e815bf",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-round-360",
+      "codeSha256": "0089e74d7804766c889197fb79853a00fec5710fb93d99803e2dd111c2c5124c",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-round-360.png",
+      "pngSha256": "1fd2fe41168628584fe29d7f9f3b447db19167c309a29fcfca8a40d594e96af8",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-soundcloud",
+      "codeSha256": "cb60ad547943f162bec76667fbcab82f23052f5bf6056cd7194ad1be5045adea",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-soundcloud.png",
+      "pngSha256": "ba7448571e956a4bb4a6fb19cc21af43017c8dadba9260384574cbe1d9cca2fc",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-speed",
+      "codeSha256": "fe4bd1a62c8d8aeee23c77194ab41dc4f31c361c268c1f5984bdfef058dd721b",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-speed.png",
+      "pngSha256": "b8813ac0cb672b352db05f3d7ca7bc025e5504515e4a4c8b5a6d63e842dde44b",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-speed-twotone",
+      "codeSha256": "cd64c411b244364a50edba101d9c2480bf2b87a94c249553ca9519f7bab1b567",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-speed-twotone.png",
+      "pngSha256": "20c1ec574703efd1ec7b40e01bdf2e4bb1ae88c906e7fc57fff59d36f37eccd4",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-speed-twotone-loop",
+      "codeSha256": "61324d5d267d16a4dea4adf8c3fd7a86a625dee24a84e1cff1edb653775023da",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-speed-twotone-loop.png",
+      "pngSha256": "af1584032b34763f26c30d16e09e6ee8bd7bcae4347072f0b566d9fe2217f4eb",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-speedometer",
+      "codeSha256": "e62d67f4423a2cec2f36a0daa0731f25a9b4ef591d80d3b0392ff7f4ff639dd4",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-speedometer.png",
+      "pngSha256": "a2fa50eb44abfbf97e7680c986742241cc8f801519bb3168cae28084f9d0f90c",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-switch-filled",
+      "codeSha256": "fab781ff1b3d7a0971e556937454f8c3308b79e688a2fa257e30db932c641cc2",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-switch-filled.png",
+      "pngSha256": "f5fcfbedf228c34a4706cf402b8581162993dd2120cf4f09a6252ed1823947f5",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-switch-twotone",
+      "codeSha256": "72df4218054fe8d7e540c5ed2e7a794a48842528e58dd26c57a7a30c3a4be4d0",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-switch-twotone.png",
+      "pngSha256": "62777fbfda4cb9c29cfd5ffbdd48b646dd00d0c796902d4be6212d32537969b6",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-taco",
+      "codeSha256": "0dae0f187b19d889837ea5c6d2739f470c61ce6e04746805fa9a34a43ecf58d6",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-taco.png",
+      "pngSha256": "c3be31d52d00b1365205222339eab236e1397901501ba20983075a7fd7c744ee",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-text-box",
+      "codeSha256": "eea8ad3f500c7d21a388a24c38edd50602c376391254ffacf28b817e1564a2ba",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-text-box.png",
+      "pngSha256": "0f0e20d86abd585e39348eaa75efc6142af17ebde9cc15baa9894b00fb8d8717",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-text-box-multiple",
+      "codeSha256": "f83cf0a9b1b701ffc2010a58729450ffc6f93247d2e9fbaa9db5e7fff0adf310",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-text-box-multiple.png",
+      "pngSha256": "1c2baa955ac4bb4e586c11f8ff7bfcefce21bde0da5f378a419ca6dc4e91e2f2",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-text-box-multiple-to-text-box-transition",
+      "codeSha256": "63d9d83324e8ae006959da02ea8663fb6964e839b12ee00fe1cb2eb0aa10129e",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-text-box-multiple-to-text-box-transition.png",
+      "pngSha256": "9344a727df3fc366f87d9a965e410cd132ef0c33b8799011bd9e00612bbbf081",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-text-box-multiple-twotone",
+      "codeSha256": "8c8d26f0f8f46314e86fbc876428f389250078b1190c005918b93f17b0db73ba",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-text-box-multiple-twotone.png",
+      "pngSha256": "1ab052a6b163abb3a8a40203a9cc3ea140e681bc076b1e0f577cfaaa5ce2708f",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-text-box-multiple-twotone-to-text-box-twotone-transition",
+      "codeSha256": "90f5f1d23ff1634fbf6e84e82f279cf7bc8c10091147683ab15f7927bb83e379",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-text-box-multiple-twotone-to-text-box-twotone-transition.png",
+      "pngSha256": "430b2a8666c0f9ea350357525023530e8e6b9cecb551b0185aac7167310dee38",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-text-box-to-text-box-multiple-transition",
+      "codeSha256": "911abf03f76f801cc4be2eaaa130376d40b6c76c8f49ace1d6389dfe03d47278",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-text-box-to-text-box-multiple-transition.png",
+      "pngSha256": "4351d2e1c69519759d05f943f7bb3c44edd16bfd188ef044e6a5065d97388ce1",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-text-box-twotone",
+      "codeSha256": "1c137543a393ceeba55c1b747ce2dd4195c837d972af6e304771d5604bbf0096",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-text-box-twotone.png",
+      "pngSha256": "deedb9a8161854f560cfab89bf56037b5db2cbd30ea1adcebb140d88e2291a67",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-text-box-twotone-to-text-box-multiple-twotone-transition",
+      "codeSha256": "0a73c63de2ef6e8ef288e85224626a7c45d87806b17f9e57acccd9ee23c72c83",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-text-box-twotone-to-text-box-multiple-twotone-transition.png",
+      "pngSha256": "80c53f6b5a4e41fe07f7af67862abb0e18e55d736c4dfcbb331b552c1243f9a2",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-thumbs-up-twotone",
+      "codeSha256": "a888959a3d2cf5015076970e2e8274772e2d83ae804b2469b133f1e13a6a59aa",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-thumbs-up-twotone.png",
+      "pngSha256": "9cdb5209526ccdce56fba7fc835041928a34c0672274317002ee7f826274b4cc",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-tiktok",
+      "codeSha256": "66d02f75d4c2b63b385e907c297dc41c472afca2b641fd1e8d9202f2bc7ffeea",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-tiktok.png",
+      "pngSha256": "a337d0c1e1d49c5dc3b59c97c227ace7698996ad291be2feb222df1d341f4e3f",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-line-md-valign-baseline",
+      "codeSha256": "050d84f91843e209f6f301721e11ebe161392baa9b3d1ce602805dff79818e7e",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-line-md-valign-baseline.png",
+      "pngSha256": "cb80268b77654f79ec1136f2bfe8b184e566ba49bda19d71c34f618150456873",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-svg-spinners-12-dots-scale-rotate",
+      "codeSha256": "678937c0ab9f23993dd4088385c516b6cb1481b44512033826866e2df43d69e9",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-svg-spinners-12-dots-scale-rotate.png",
+      "pngSha256": "e41a00303d1c9ce84a252e8fc10a7bdf1194e594d4488fa5b5602a9b31f3c695",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-svg-spinners-3-dots-scale",
+      "codeSha256": "9a57b6b885d24f1ce3b282009145594e1d3cb71df322fb5ba370f92deb6c0d95",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-svg-spinners-3-dots-scale.png",
+      "pngSha256": "a70b041061d3f98f8f2ff5fc133102fc07698dd1d5f36d7fb74aeef323900a49",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-svg-spinners-3-dots-scale-middle",
+      "codeSha256": "78a3e63877fe7b36ba313c70319a13c512d7c2ec42b7e1f17d8d0967a5b7ad88",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-svg-spinners-3-dots-scale-middle.png",
+      "pngSha256": "95e1f0739a67840f7b841a21e89d97773608347213865a6afec833b55bab4dd2",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-svg-spinners-6-dots-scale",
+      "codeSha256": "b43180919cd7a342e6a256df5067ba8b078b5ed961df9613c0c145ebcd71968f",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-svg-spinners-6-dots-scale.png",
+      "pngSha256": "5f2ed1911711fe1f46639c7b67609b1a09f797ff57dfccb69743cf264cbf8a29",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-svg-spinners-6-dots-scale-middle",
+      "codeSha256": "98aeded5aadf179087c3d75e31ed5f1aedb91a99575698c6569fbc34b6d5ca5c",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-svg-spinners-6-dots-scale-middle.png",
+      "pngSha256": "5f2ed1911711fe1f46639c7b67609b1a09f797ff57dfccb69743cf264cbf8a29",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-svg-spinners-bars-scale",
+      "codeSha256": "4f22cd290e77718f807e45b40cdcb47f355a9f237f3eee654c7a4bf991e2abc6",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-svg-spinners-bars-scale.png",
+      "pngSha256": "23b1d5a593ce1a352d9ac51aa8aa7943ad1e06e44503d028bda6b6b83bf13258",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-svg-spinners-bars-scale-fade",
+      "codeSha256": "23d1ebc166cf47fc05b615ef304387f7d4bea81484a6225b6ba87e6e5b03016f",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-svg-spinners-bars-scale-fade.png",
+      "pngSha256": "ba979723d517cac7a99fe9af8a8ab4bcbf97987a3fdd84901f5279bd160d77cc",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-svg-spinners-bars-scale-middle",
+      "codeSha256": "93d7df162773b1ee858f6a86adce2b75685b38993044e283cf314246ce6ded3e",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-svg-spinners-bars-scale-middle.png",
+      "pngSha256": "23b1d5a593ce1a352d9ac51aa8aa7943ad1e06e44503d028bda6b6b83bf13258",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-svg-spinners-blocks-scale",
+      "codeSha256": "2221ddb66b903aedef22a9c8a549eb2a182773eb8875fc221f8e27335761591b",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-svg-spinners-blocks-scale.png",
+      "pngSha256": "f223c0a80dd6fb5ff37331d5486803996ad2a14b56fad6ae2716d85d2481c96e",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-svg-spinners-bouncing-ball",
+      "codeSha256": "752f84e2951aaccf7b622a9e0e92f70cb27a858cd30ca4a49b54a2e97836a810",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-svg-spinners-bouncing-ball.png",
+      "pngSha256": "e32841cb3be9946f224d57956c2954bfc320ec5fe7c8931f563928e150d35381",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-svg-spinners-gooey-balls-1",
+      "codeSha256": "32a3f0f6597ec0a7aaac2e0512eae1074e628f2eeb839f74f5a63691b74bbb60",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-svg-spinners-gooey-balls-1.png",
+      "pngSha256": "4eaca65ed7afc990498d981c8df1c2d28564193ba1bd73036f76fb908c28eeb1",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-svg-spinners-gooey-balls-2",
+      "codeSha256": "a00fc1c652d7e6761c98393b8e9d92c4c9c52d67c49acab0df58393cfa33a03a",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-svg-spinners-gooey-balls-2.png",
+      "pngSha256": "44e3b7cf0e05f6b195e51ff5cc02d0b4e440ca45de90df011bf3136880ea9648",
+      "currentTime": 60
+    },
+    {
+      "id": "vector-svg-spinners-wind-toy",
+      "codeSha256": "22f1d6b9d1f2932e272d53afe6082fa42bcfba26e42da04b68e41c26d7544d05",
+      "pngPath": "exa-results/expansion12/openmoji-previews/completed-neighbors/vector-svg-spinners-wind-toy.png",
+      "pngSha256": "89883d955455952300bf5e751d6419cde22119f4278cdce0831755b207905bb0",
+      "currentTime": 60
+    }
+  ]
+}

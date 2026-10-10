@@ -1,0 +1,19 @@
+{
+  "url": "https://vimeo.com/robots.txt",
+  "method": "bounded public HTTP GET",
+  "status": 200,
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공식 공개 URL의 제한된 HTTP GET 응답을 읽었다. 원격 JavaScript·미디어 파일을 실행하거나 다운로드하지 않았다. 허가 없는 자동 수집과 사용자 영상·프로필·댓글·메타데이터의 수집·학습을 제한하는 안내를 확인했다.",
+  "sector": 4,
+  "siteId": "vimeo",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/vimeo-robots-http.json",
+  "rawCacheSha256": "0d176d2e851f9839899872bc8492e71246c49fdad27e0f9007682ff454a944f8",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "021ea0af6b29208b5ad678715c9e6671373ae3a937b8e879a366e5f497f88b10",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "finalUrl": "https://vimeo.com/robots.txt",
+  "byteCount": 22615,
+  "boundedAt": 1048576,
+  "truncated": false,
+  "originalResponseSha256": "021ea0af6b29208b5ad678715c9e6671373ae3a937b8e879a366e5f497f88b10"
+}

@@ -1,0 +1,56 @@
+{
+  "url": "https://www.blossom-carousel.com/docs/examples/advanced/custom-scrollbar",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://www.blossom-carousel.com/docs/examples/advanced/custom-scrollbar",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://www.blossom-carousel.com/docs/examples/advanced/custom-scrollbar",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://www.blossom-carousel.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://www.blossom-carousel.com/docs/examples/advanced/custom-scrollbar",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:30.724641+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://www.blossom-carousel.com/docs/examples/advanced/custom-scrollbar",
+      "contentType": "text/html",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 153912,
+      "capturedSha256": "bb5238be9fdeac5160baa99b8d2df34dee6e46ad7756c15ab295920c06ddb342",
+      "responseBodySha256": "bb5238be9fdeac5160baa99b8d2df34dee6e46ad7756c15ab295920c06ddb342",
+      "title": "Custom scrollbar with Blossom Carousel",
+      "textCharacters": 7334,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.824,
+      "captureCachePath": "exa-results/link-audit/references/captures/f09fc35abbb82c45132753fa.json",
+      "captureCacheSha256": "0cde93fe65a2207c2181466650184edde5159445103a6d0b1c367da26401e6eb"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-blossom-carousel",
+      "canonicalId": "ref-blossom-carousel",
+      "title": "Blossom Carousel",
+      "role": "canonical",
+      "sourceSha256": "82dfc6cb85c6f28751fc5b4e1268ba4be8c1c74fcabc92a64a12ec589ff5daa2"
+    }
+  ]
+}

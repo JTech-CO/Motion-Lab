@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <circle cx="200" cy="150" r="30" fill="var(--accent-color)"/>
+                <path class="anim-draw" d="M200 150 L120 80 M200 150 L280 80 M200 150 L120 220 M200 150 L280 220 M200 150 L200 50 M200 150 L200 250 M200 150 L100 150 M200 150 L300 150" stroke="var(--secondary-color)" stroke-width="4" fill="none"/>
+                <g class="anim-pulse">
+                    <circle cx="120" cy="80" r="15" fill="var(--primary-color)"/>
+                    <circle cx="280" cy="80" r="15" fill="var(--primary-color)"/>
+                    <circle cx="120" cy="220" r="15" fill="var(--primary-color)"/>
+                    <circle cx="280" cy="220" r="15" fill="var(--primary-color)"/>
+                    <circle cx="200" cy="50" r="12" fill="var(--primary-color)"/>
+                    <circle cx="200" cy="250" r="12" fill="var(--primary-color)"/>
+                    <circle cx="100" cy="150" r="12" fill="var(--primary-color)"/>
+                    <circle cx="300" cy="150" r="12" fill="var(--primary-color)"/>
+                </g>
+            </g>
+          </svg>

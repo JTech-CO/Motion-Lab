@@ -1,0 +1,17 @@
+{
+  "id": "productioncrate",
+  "url": "https://www.productioncrate.com/robots.txt",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 200,
+  "finalUrl": "https://www.productioncrate.com/robots.txt",
+  "contentType": "text/plain",
+  "truncated": false,
+  "observedBytes": 97,
+  "observedContentSha256": "d4c029819ff54fa38484a48bedbfc094e08c41744952f95d95020d247f8e7b69",
+  "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+  "challengeOrDenial": false,
+  "robotsPath": "exa-results/grok-source-review/stock/productioncrate-robots.txt",
+  "robotsContentSha256": "d4c029819ff54fa38484a48bedbfc094e08c41744952f95d95020d247f8e7b69"
+}

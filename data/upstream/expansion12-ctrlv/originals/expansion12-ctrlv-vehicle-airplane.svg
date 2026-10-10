@@ -1,0 +1,29 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="160" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <!-- Contrail -->
+            <path class="anim-draw" d="M30 190 Q100 155 160 155" stroke="var(--bg-surface)" stroke-width="12" stroke-linecap="round" opacity="0.5"/>
+            <path class="anim-draw" style="animation-delay:-.3s;" d="M20 205 Q95 175 150 175" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round" opacity="0.3"/>
+
+            <g class="anim-float" style="animation-duration:3s;">
+                <!-- Fuselage -->
+                <path d="M100 160 H330 C360 160 380 168 380 175 C380 182 360 190 330 190 H100 Z" fill="var(--primary-color)"/>
+                <!-- Nose -->
+                <path d="M330 160 L380 175 L330 190 Z" fill="var(--secondary-color)"/>
+                <!-- Windows -->
+                <g fill="var(--secondary-color)" opacity="0.5">
+                    <rect x="200" y="165" width="18" height="18" rx="5"/>
+                    <rect x="230" y="165" width="18" height="18" rx="5"/>
+                    <rect x="260" y="165" width="18" height="18" rx="5"/>
+                    <rect x="290" y="165" width="18" height="18" rx="5"/>
+                </g>
+
+                <!-- Main Wing (left/bottom) -->
+                <path d="M180 190 L130 255 L280 230 L260 190 Z" fill="var(--secondary-color)"/>
+                <!-- Main Wing engine -->
+                <rect x="165" y="238" width="50" height="12" rx="6" fill="var(--charcoal)" opacity="0.8"/>
+                <!-- Tail horizontal stabilizer -->
+                <path d="M100 175 L60 215 L130 210 L120 175 Z" fill="var(--secondary-color)" opacity="0.9"/>
+                <!-- Tail vertical stabilizer -->
+                <path d="M110 160 L90 115 L130 130 L130 160 Z" fill="var(--primary-color)"/>
+            </g>
+          </svg>

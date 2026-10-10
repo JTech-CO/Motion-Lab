@@ -1,0 +1,17 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <path d="M200 60 L120 90 V170 C120 220 200 260 200 260 C200 260 280 220 280 170 V90 L200 60 Z" fill="var(--primary-color)"/>
+                <path d="M200 80 L140 100 V170 C140 210 200 240 200 240 Z" fill="var(--bg-surface)" opacity="0.2"/>
+                <path d="M200 80 L260 100 V170 C260 210 200 240 200 240 Z" fill="var(--secondary-color)"/>
+                <path class="anim-draw" d="M160 160 L190 190 L250 130" stroke="white" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                
+                <g class="anim-bounce" >
+                    <path d="M80 140 L110 160 L90 180" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round" fill="none"/>
+                    <circle cx="100" cy="150" r="15" fill="var(--accent-color)" opacity="0.5"/>
+                </g>
+                <g class="anim-bounce" >
+                    <path d="M320 90 L290 110 L310 130" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round" fill="none"/>
+                    <circle cx="300" cy="110" r="15" fill="var(--accent-color)" opacity="0.5"/>
+                </g>
+            </g>
+          </svg>

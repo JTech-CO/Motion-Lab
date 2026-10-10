@@ -1,0 +1,56 @@
+{
+  "url": "https://tricklekit.dev/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://tricklekit.dev/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://tricklekit.dev/",
+      "allowedForAuditGet": true,
+      "reason": "robots-missing-not-a-license",
+      "robotsUrl": "https://tricklekit.dev/robots.txt",
+      "robotsStatus": 404
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://tricklekit.dev/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:44.202454+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://tricklekit.dev/",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "f804e831d3464914359700ebc85f4329b9e014e21277711f9dda633db9618a8a",
+      "responseBodySha256": "f804e831d3464914359700ebc85f4329b9e014e21277711f9dda633db9618a8a",
+      "title": "trickle — text animation kit for React",
+      "textCharacters": 11012,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.248,
+      "captureCachePath": "exa-results/link-audit/references/captures/aa245a9d828f0afdbf133971.json",
+      "captureCacheSha256": "977fe599c44cdb3a0f5dcb464b5e18bad3a59b97b7207ffcabaa47305704b82d"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-trickle",
+      "canonicalId": "ref-trickle",
+      "title": "Trickle",
+      "role": "canonical",
+      "sourceSha256": "4992aadfa534640f555ed4365a2e7794c5a9a8415016163ef691fbbba943df41"
+    }
+  ]
+}

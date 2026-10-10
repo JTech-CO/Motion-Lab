@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            
+            <ellipse cx="120" cy="220" rx="60" ry="15" fill="#f43f5e" />
+            <path d="M60 220 V235 C60 250 180 250 180 235 V220 Z" fill="#6366f1" />
+            
+            
+            <g>
+                
+                <rect transform="rotate(25 280 100)" x="270" y="80" width="20" height="150" rx="10" fill="#6366f1" />
+                
+                <g transform="rotate(25 280 100) translate(280, 80)">
+                    <rect x="-40" y="-20" width="80" height="40" rx="5" fill="#f43f5e" />
+                    <rect x="-45" y="-15" width="10" height="30" rx="3" fill="#DFD116" />
+                    <rect x="35" y="-15" width="10" height="30" rx="3" fill="#DFD116" />
+                    <circle cx="0" cy="0" r="10" fill="#ffffff" />
+                </g>
+            </g>
+            
+            <g>
+                <path d="M120 180 L120 150 M90 190 L60 170 M150 190 L180 170" stroke="#DFD116" stroke-width="4" stroke-linecap="round" fill="none" />
+            </g>
+          </svg>

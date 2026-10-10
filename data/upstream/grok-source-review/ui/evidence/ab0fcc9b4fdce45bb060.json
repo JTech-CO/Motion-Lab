@@ -1,0 +1,36 @@
+{
+  "url": "https://www.lottielab.com/robots.txt",
+  "site": "lottielab",
+  "reviewedAt": "2026-10-10",
+  "captures": [
+    {
+      "method": "normal-isolated-Chrome-public-navigation",
+      "status": 404,
+      "observedContent": "요청한 robots.txt가 HTTP 404로 반환되었습니다. 누락 상태를 접근 허가나 크롤링 거부로 해석하지 않습니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://www.lottielab.com/robots.txt",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/lottielab-robots-chrome.json",
+      "rawCacheSha256": "8dcff0c0897c07c38c4879dc51c4906cc96f827bd90aa8f8efd835c2cf6980c2",
+      "capturedTextSha256": "c4157a90f28a57b46b1116ac2a32843b06c4d4371734692bf55f723614baf1fb",
+      "responseCapturedSha256": null,
+      "boundedAtBytes": null,
+      "truncated": false
+    },
+    {
+      "method": "public-HTTP-GET",
+      "status": 404,
+      "observedContent": "요청한 robots.txt가 HTTP 404로 반환되었습니다. 누락 상태를 접근 허가나 크롤링 거부로 해석하지 않습니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://www.lottielab.com/robots.txt",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/lottielab-robots-http.json",
+      "rawCacheSha256": "555b7ab988752d169ec36f98d528460772eb1f8710168563b5f0412c74b3f7be",
+      "capturedTextSha256": "3a441349675d75adf25f506d960fcd9d6b61db5cb1fbf7d60ae5cbf4de395f7e",
+      "responseCapturedSha256": "3a441349675d75adf25f506d960fcd9d6b61db5cb1fbf7d60ae5cbf4de395f7e",
+      "boundedAtBytes": null,
+      "truncated": false
+    }
+  ],
+  "contentPolicy": "원문 전체는 ignored exa-results 캐시에만 보관합니다. 이 파일은 접근 상태와 SHA 및 자체 요약만 저장하며 페이지 인용은 sites.json termsEvidence에만 최대 25단어로 기록합니다."
+}

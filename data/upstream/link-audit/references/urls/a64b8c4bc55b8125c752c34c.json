@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/inthepond/prompt-vfx",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/inthepond/prompt-vfx",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/inthepond/prompt-vfx",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/inthepond/prompt-vfx",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:40.715482+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/inthepond/prompt-vfx",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "5b7badfff9e74ae8601c0833dd053eeefe63e90d9ba613f1c5c39337cb2295a3",
+      "responseBodySha256": "5b7badfff9e74ae8601c0833dd053eeefe63e90d9ba613f1c5c39337cb2295a3",
+      "title": "GitHub - inthepond/prompt-vfx: Visual effects generated from prompts — a live gallery (VFX · GSAP · 3D/WebGL). No build. · GitHub",
+      "textCharacters": 3471,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.736,
+      "captureCachePath": "exa-results/link-audit/references/captures/b7dda3e90a640a4abfaa5709.json",
+      "captureCacheSha256": "ffe016d9f9cd562ff9cf661f1cde4dfa20201f0568affed743c089ed5348c5cf"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-prompt-vfx",
+      "canonicalId": "ref-prompt-vfx",
+      "title": "Prompt VFX",
+      "role": "canonical",
+      "sourceSha256": "7526b60816f7d3c5cd13fd063b00fa5b6320471b2f83d9618eea75851072e2f7"
+    }
+  ]
+}

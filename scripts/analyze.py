@@ -417,6 +417,11 @@ def _glsl_analysis(item, code):
         properties.update(("uv", "texture"))
     preview = {"renderer": "glsl", "uniforms": [{"type": kind, "name": name} for kind, name in uniforms],
                "limitations": ["Requires a GLSL transition renderer and two input images; compilation is a separate runtime check."]}
+    if item.get("preview", {}).get("scene") == "procedural" and not samplers:
+        components.add("color")
+        preview["scene"] = "procedural"
+        preview["limitations"] = ["The original fragment is adapted to the local time host at source defaults; pointer input and parameter controls are fixed. Compilation and multiple-frame playback are checked separately."]
+        return "shader", effects, components, properties, techniques, {"ambient"}, signals, preview, bool(re.search(r"\bvec4\s+transition\s*\(", text))
     return "transition", effects, components, properties, techniques, {"scene-change"}, signals, preview, bool(re.search(r"\bvec4\s+transition\s*\(", text))
 
 

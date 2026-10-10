@@ -1,0 +1,56 @@
+{
+  "url": "https://rive.app/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://rive.app/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://rive.app/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://rive.app/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://rive.app/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:03.675978+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://rive.app/",
+      "contentType": "text/html",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "3c1ba1dc86bf7a46dbffe791ed7753cf5f7694e72c80a4c80c0b4238413c4879",
+      "responseBodySha256": "3c1ba1dc86bf7a46dbffe791ed7753cf5f7694e72c80a4c80c0b4238413c4879",
+      "title": "Rive — the interactive experience engine",
+      "textCharacters": 40,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.128,
+      "captureCachePath": "exa-results/link-audit/references/captures/9d5e50ce4b68fa5c22e4b2b5.json",
+      "captureCacheSha256": "760a04528b08cdb5b4f603819453f6c1d4a50682acc30a4fe80ebd59b5d6bd8a"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-rive",
+      "canonicalId": "ref-rive",
+      "title": "Rive",
+      "role": "canonical",
+      "sourceSha256": "8da9ecfa7b0d63c5308c5517b978e91be8ed0b3e0aa91bd700d365aebe534ad3"
+    }
+  ]
+}

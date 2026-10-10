@@ -1,0 +1,26 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="150" ry="10" fill="#e2e8f0" opacity="0.6"/>
+            
+            <!-- Gate Roof -->
+            <rect x="80" y="100" width="240" height="20" fill="var(--primary-color)"/>
+            <rect x="90" y="80" width="220" height="20" fill="var(--primary-color)"/>
+            <!-- Top Chariot Statue Block Representation -->
+            <path d="M180 80 V50 H220 V80 Z" fill="var(--primary-color)"/>
+            <circle cx="200" cy="40" r="10" fill="var(--primary-color)"/>
+            
+            <!-- Columns -->
+            <rect x="90" y="120" width="20" height="150" fill="var(--primary-color)"/>
+            <rect x="130" y="120" width="20" height="150" fill="var(--primary-color)"/>
+            <rect x="170" y="120" width="20" height="150" fill="var(--primary-color)"/>
+            <rect x="210" y="120" width="20" height="150" fill="var(--primary-color)"/>
+            <rect x="250" y="120" width="20" height="150" fill="var(--primary-color)"/>
+            <rect x="290" y="120" width="20" height="150" fill="var(--primary-color)"/>
+            
+            <!-- Base pedestals -->
+            <rect x="80" y="260" width="240" height="10" fill="var(--charcoal)" opacity="0.2"/>
+            
+            <!-- Floating Glowing Lanterns between columns -->
+            <circle class="anim-glow" cx="120" cy="180" r="5" fill="var(--accent-color)"/>
+            <circle class="anim-glow" cx="200" cy="180" r="6" fill="var(--accent-color)" style="animation-delay: -0.5s"/>
+            <circle class="anim-glow" cx="280" cy="180" r="5" fill="var(--accent-color)" style="animation-delay: -1s"/>
+          </svg>

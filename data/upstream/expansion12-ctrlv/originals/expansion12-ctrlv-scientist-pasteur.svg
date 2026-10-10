@@ -1,0 +1,44 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            
+            <!-- Microscope -->
+            <g class="anim-bounce">
+                <!-- Base -->
+                <path d="M120 250 L140 220 H200 L220 250 H120 Z" fill="var(--charcoal)"/>
+                <circle cx="170" cy="235" r="10" fill="white" opacity="0.2"/>
+                
+                <!-- Arm -->
+                <path d="M170 220 V160 C170 120 230 110 230 150" stroke="var(--primary-color)" stroke-width="20" stroke-linecap="round" fill="none"/>
+                
+                <!-- Stage -->
+                <rect x="130" y="170" width="60" height="10" rx="4" fill="var(--secondary-color)"/>
+                <!-- Light Mirror -->
+                <ellipse cx="160" cy="205" rx="15" ry="5" fill="var(--accent-color)" transform="rotate(15 160 205)"/>
+                
+                <!-- Lens Tube -->
+                <path d="M210 130 L170 80" stroke="var(--charcoal)" stroke-width="15" stroke-linecap="round"/>
+                <!-- Objective Lenses -->
+                <path d="M200 130 L160 130" stroke="var(--secondary-color)" stroke-width="10" stroke-linecap="round"/>
+                <rect x="160" y="130" width="10" height="20" rx="2" fill="var(--primary-color)"/>
+                <rect x="180" y="130" width="8" height="25" rx="2" fill="var(--accent-color)"/>
+                
+                <!-- Eyepiece -->
+                <rect x="145" y="70" width="20" height="15" rx="2" fill="var(--primary-color)"/>
+            </g>
+            
+            <!-- Microbes / Bacteria viewing area circle representation -->
+            <circle class="anim-pulse" cx="280" cy="120" r="60" fill="white" stroke="var(--secondary-color)" stroke-width="4"/>
+            <path d="M220 120 L240 120" stroke="var(--charcoal)" stroke-dasharray="4 4" stroke-width="2"/>
+            
+            <!-- Inner Microbe Ecosystem -->
+            <g class="anim-float" style="animation-duration: 4s;">
+                <!-- Bacilli (Rod shapes) -->
+                <rect x="250" y="90" width="30" height="12" rx="6" fill="var(--primary-color)" transform="rotate(45 250 90)"/>
+                <rect x="290" y="140" width="25" height="10" rx="5" fill="var(--primary-color)" transform="rotate(-20 290 140)"/>
+                <!-- Cocci (Sphere clusters) -->
+                <circle cx="280" cy="100" r="5" fill="var(--accent-color)"/>
+                <circle cx="288" cy="105" r="5" fill="var(--accent-color)"/>
+                <circle cx="275" cy="110" r="5" fill="var(--accent-color)"/>
+                <!-- Organic swimming tail -->
+                <path class="anim-draw" d="M260 145 C250 160 270 170 260 180" stroke="var(--secondary-color)" stroke-width="3" stroke-linecap="round" fill="none"/>
+            </g>
+          </svg>

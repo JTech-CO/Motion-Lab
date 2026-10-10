@@ -1,0 +1,37 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            
+            <!--Hologram Projector Device-->
+            <ellipse cx="200" cy="250" rx="40" ry="15" fill="var(--charcoal)"/>
+            <ellipse cx="200" cy="245" rx="30" ry="10" fill="var(--primary-color)"/>
+            <circle class="anim-glow" cx="200" cy="245" r="5" fill="var(--accent-color)"/>
+
+            <!--Light Cone / Beam-->
+            <path class="anim-pulse" d="M180 245 L100 80 Q200 60 300 80 L220 245 Z" fill="var(--secondary-color)" opacity="0.1"/>
+
+            <!--Floating UI Elements-->
+            <g class="anim-float">
+                <!-- Main Screen -->
+                <rect x="130" y="80" width="140" height="90" rx="8" fill="var(--primary-color)" opacity="0.9"/>
+                
+                <!-- UI Lines -->
+                <rect x="145" y="95" width="50" height="10" rx="2" fill="var(--bg-surface)" opacity="0.5"/>
+                <rect x="145" y="115" width="80" height="6" rx="2" fill="var(--bg-surface)" opacity="0.5"/>
+                <rect x="145" y="130" width="60" height="6" rx="2" fill="var(--bg-surface)" opacity="0.5"/>
+                
+                <!-- UI Circle Graph -->
+                <circle cx="240" cy="130" r="20" fill="none" stroke="var(--accent-color)" stroke-width="6"/>
+                <path d="M240 110 A20 20 0 0 1 260 130" fill="none" stroke="var(--secondary-color)" stroke-width="6" stroke-linecap="round"/>
+            </g>
+            
+            <!--Side Floating Panels-->
+            <g class="anim-bounce">
+                <!-- Left Panel -->
+                <rect x="90" y="120" width="30" height="40" rx="4" fill="var(--secondary-color)" opacity="0.8" transform="skewY(-15)"/>
+                <!-- Right Panel -->
+                <rect x="280" y="70" width="30" height="50" rx="4" fill="var(--accent-color)" opacity="0.8" transform="skewY(15)"/>
+            </g>
+            
+            <!--Hand interacting(Abstract)-->
+            <path class="anim-draw" d="M290 280 Q250 200 240 140" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round" fill="none"/>
+            <circle cx="240" cy="140" r="6" fill="var(--accent-color)"/>
+          </svg>

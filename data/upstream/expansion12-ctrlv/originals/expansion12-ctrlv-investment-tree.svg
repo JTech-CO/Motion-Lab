@@ -1,0 +1,13 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M150 260 H250 L235 285 H165 Z" fill="var(--charcoal)"/>
+        <g class="anim-float">
+            <path d="M200 260 V140" stroke="#166534" stroke-width="8" stroke-linecap="round"/>
+            <path d="M200 180 Q160 160 175 120 M200 200 Q240 180 225 150" stroke="#166534" stroke-width="6" stroke-linecap="round" fill="none"/>
+            
+            <!-- Coins as leaves -->
+            <circle class="anim-pulse" cx="170" cy="110" r="12" fill="#facc15" stroke="#ca8a04" stroke-width="1"/>
+            <circle class="anim-pulse" style="animation-delay: -0.5s" cx="230" cy="140" r="12" fill="#facc15" stroke="#ca8a04" stroke-width="1"/>
+            <circle class="anim-pulse" style="animation-delay: -1s" cx="200" cy="80" r="12" fill="#facc15" stroke="#ca8a04" stroke-width="1"/>
+        </g>
+        <path class="anim-draw" d="M120 100 Q150 50 180 80" stroke="var(--accent-color)" stroke-width="2" stroke-dasharray="4 4"/>
+    </svg>

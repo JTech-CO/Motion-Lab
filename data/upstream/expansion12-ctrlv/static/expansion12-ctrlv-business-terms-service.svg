@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <path d="M120 70 H280 V250 H120 Z" fill="#334155" opacity="0.1" />
+                <path d="M110 60 H290 V260 H110 Z" fill="#ffffff" stroke="#334155" stroke-width="8" />
+                
+                
+                <path d="M250 60 L290 100 V60 H250 Z" fill="#6366f1" />
+                <path d="M250 60 V100 H290" fill="none" stroke="#334155" stroke-width="6" />
+                
+                
+                
+                <rect x="140" y="100" width="20" height="20" rx="4" fill="#f43f5e" />
+                <path d="M145 110 L150 115 L160 100" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                <line x1="175" y1="110" x2="260" y2="110" stroke="#334155" stroke-width="4" stroke-linecap="round" />
+                
+                
+                <rect x="140" y="140" width="20" height="20" rx="4" fill="#f43f5e" />
+                <path d="M145 150 L150 155 L160 140" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                <line x1="175" y1="150" x2="250" y2="150" stroke="#334155" stroke-width="4" stroke-linecap="round" />
+                
+                
+                <rect x="140" y="180" width="20" height="20" rx="4" fill="#ffffff" stroke="#334155" stroke-width="4" />
+                <line x1="175" y1="190" x2="260" y2="190" stroke="#334155" stroke-width="4" stroke-linecap="round" />
+                
+                
+                <line x1="140" y1="240" x2="260" y2="240" stroke="#334155" stroke-width="4" stroke-dasharray="8 4" />
+                
+                
+                <g>
+                    <path d="M230 220 L280 140 L295 150 L240 230 Z" fill="#DFD116" />
+                    <path d="M230 220 L240 230 L220 235 Z" fill="#334155" />
+                    
+                    <path d="M150 235 Q180 210 200 235 T230 220" stroke="#334155" stroke-width="3" fill="none" />
+                </g>
+            </g>
+          </svg>

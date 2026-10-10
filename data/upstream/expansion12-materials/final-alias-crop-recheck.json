@@ -1,0 +1,219 @@
+[
+  {
+    "left": "metal-galvanized-001-2",
+    "right": "metal-galvanized-001",
+    "maxSimilarity": 0.3172528147697449,
+    "best": {
+      "leftCrop": [
+        768,
+        384,
+        1024,
+        640
+      ],
+      "rightCrop": [
+        384,
+        768,
+        640,
+        1024
+      ],
+      "d4Index": 6,
+      "periodicShift": [
+        28,
+        12
+      ]
+    },
+    "leftOriginalPath": "data/upstream/expansion12-materials/originals/3dtextures/metal-galvanized-001-2.jpg",
+    "rightOriginalPath": "data/upstream/expansion12-materials/originals/3dtextures/metal-galvanized-001.jpg",
+    "leftSourceSha256": "8fe79f1ad98f4cabfd33c43d911271006241d24ae6b73841a2547567bceff624",
+    "rightSourceSha256": "0d9c7fa15fd670dbbf1ca333f794c6d9c6733350c06fea424faac1d60f585e02",
+    "method": "Full original and .75/.5/.375/.25 square crops at9 positions; grayscale/contrast normalized32px; all D4 and32x32 periodic shifts. Score flags require direct-image confirmation.",
+    "directOriginalImageReview": "Retain: the first map has large cloudy corrosion patches; the older map has a fine connected crystalline lattice. Original crop/phase inspection does not show shared locations or a recolored common map.",
+    "enlargedEvidence": "data/upstream/expansion12-materials/final-alias-original-pairs.jpg"
+  },
+  {
+    "left": "metal-rusted-006-2",
+    "right": "metal-rusted-006",
+    "maxSimilarity": 0.5522891879081726,
+    "best": {
+      "leftCrop": [
+        640,
+        0,
+        1024,
+        384
+      ],
+      "rightCrop": [
+        0,
+        0,
+        1024,
+        1024
+      ],
+      "d4Index": 5,
+      "periodicShift": [
+        8,
+        30
+      ]
+    },
+    "leftOriginalPath": "data/upstream/expansion12-materials/originals/3dtextures/metal-rusted-006-2.png",
+    "rightOriginalPath": "data/upstream/expansion12-materials/originals/3dtextures/metal-rusted-006.jpg",
+    "leftSourceSha256": "5b5d6a40d45e5f0440d520df63412ada1d360f9582373c0ef69185c6985d5967",
+    "rightSourceSha256": "1ad859e15b8381b41e68712b9ff377f21ec481e9d59ec13c3c44a3e967fa21fe",
+    "method": "Full original and .75/.5/.375/.25 square crops at9 positions; grayscale/contrast normalized32px; all D4 and32x32 periodic shifts. Score flags require direct-image confirmation.",
+    "directOriginalImageReview": "Retain: enlarged originals show broad isolated orange corrosion clouds in the newer map versus fine dense red speckling with chipped islands in the older map. The visible grain/construction differs, beyond a uniform recolor.",
+    "enlargedEvidence": "data/upstream/expansion12-materials/final-alias-original-pairs.jpg"
+  },
+  {
+    "left": "metal-rusted-007-2",
+    "right": "metal-rusted-007",
+    "maxSimilarity": 0.27851447463035583,
+    "best": {
+      "leftCrop": [
+        640,
+        0,
+        1024,
+        384
+      ],
+      "rightCrop": [
+        0,
+        384,
+        256,
+        640
+      ],
+      "d4Index": 0,
+      "periodicShift": [
+        8,
+        4
+      ]
+    },
+    "leftOriginalPath": "data/upstream/expansion12-materials/originals/3dtextures/metal-rusted-007-2.png",
+    "rightOriginalPath": "data/upstream/expansion12-materials/originals/3dtextures/metal-rusted-007.png",
+    "leftSourceSha256": "133da45555f50f903e274080ce01e4f30550704ca7b6a8cb3d35bda49e317594",
+    "rightSourceSha256": "3609424c97c74c614a1c6168f8af229c87ef565b292489b902f11f8dc405517d",
+    "method": "Full original and .75/.5/.375/.25 square crops at9 positions; grayscale/contrast normalized32px; all D4 and32x32 periodic shifts. Score flags require direct-image confirmation.",
+    "directOriginalImageReview": "Retain: the older original has isolated coarse punctures and lighter spalled areas; the newer original has fine dense rust along irregular thin borders. Enlarged original maps are not cropped/recolored instances of the same field.",
+    "enlargedEvidence": "data/upstream/expansion12-materials/final-alias-original-pairs.jpg"
+  },
+  {
+    "left": "wood-011",
+    "right": "wood-011a",
+    "maxSimilarity": 0.9969853162765503,
+    "best": {
+      "leftCrop": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "rightCrop": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "d4Index": 0,
+      "periodicShift": [
+        0,
+        0
+      ]
+    },
+    "leftOriginalPath": "data/upstream/expansion12-materials/originals/3dtextures/wood-011.jpg",
+    "rightOriginalPath": "data/upstream/expansion12-materials/originals/3dtextures/wood-011a.jpg",
+    "leftSourceSha256": "7699ae6ef70fef1753e3650b8ccc8de39815f247cb7ee7c5d0de975db58bfad0",
+    "rightSourceSha256": "2292ccc14d7348bd2953c3fe9c78ea1bc91636aac0b4603fcdb06ae8a5b2c46b",
+    "method": "Full original and .75/.5/.375/.25 square crops at9 positions; grayscale/contrast normalized32px; all D4 and32x32 periodic shifts. Score flags require direct-image confirmation.",
+    "directOriginalImageReview": "Exclude the wood-011a finish variant: enlarged originals share the same grain locations and cross-cut bands. Brightness/color change preserves the actual wood grain; crop/phase normalized score .996985 confirms the matching field.",
+    "enlargedEvidence": "data/upstream/expansion12-materials/final-alias-original-pairs.jpg"
+  },
+  {
+    "left": "stylized-bark-001",
+    "right": "stylized-bark-002",
+    "maxSimilarity": 0.4994216561317444,
+    "best": {
+      "leftCrop": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "rightCrop": [
+        0,
+        384,
+        256,
+        640
+      ],
+      "d4Index": 6,
+      "periodicShift": [
+        29,
+        20
+      ]
+    },
+    "leftOriginalPath": "data/upstream/expansion12-materials/originals/3dtextures/stylized-bark-001.jpg",
+    "rightOriginalPath": "data/upstream/expansion12-materials/originals/3dtextures/stylized-bark-002.jpg",
+    "leftSourceSha256": "1ec5aafe4cc1d20aed80b46da4e5ff1ce7641dd5d8225057d74a93c8c87af044",
+    "rightSourceSha256": "c1699af11311e914fca80ba667365fd668d634d147261050bacce39dfadda31e",
+    "method": "Full original and .75/.5/.375/.25 square crops at9 positions; grayscale/contrast normalized32px; all D4 and32x32 periodic shifts. Score flags require direct-image confirmation.",
+    "directOriginalImageReview": "Retain: Bark001 uses broad interlocking broken plate knots while Bark002 uses long thin fibrous grooves. The local plate/fiber assembly visibly differs; same material name does not establish duplication.",
+    "enlargedEvidence": "data/upstream/expansion12-materials/final-alias-original-pairs.jpg"
+  },
+  {
+    "left": "dirt-005-2",
+    "right": "dirt-005",
+    "maxSimilarity": 1.0000001192092896,
+    "best": {
+      "leftCrop": [
+        0,
+        128,
+        768,
+        896
+      ],
+      "rightCrop": [
+        0,
+        128,
+        768,
+        896
+      ],
+      "d4Index": 0,
+      "periodicShift": [
+        0,
+        0
+      ]
+    },
+    "leftOriginalPath": "data/upstream/expansion12-materials/originals/3dtextures/dirt-005-2.jpg",
+    "rightOriginalPath": "data/upstream/expansion12-materials/originals/3dtextures/dirt-005.jpg",
+    "leftSourceSha256": "d13963673ed1b3225d720bbeabdaf3b0be52054af8a329aa4412d8756ae9b980",
+    "rightSourceSha256": "d13963673ed1b3225d720bbeabdaf3b0be52054af8a329aa4412d8756ae9b980",
+    "method": "Full original and .75/.5/.375/.25 square crops at9 positions; grayscale/contrast normalized32px; all D4 and32x32 periodic shifts. Score flags require direct-image confirmation.",
+    "directOriginalImageReview": "Exclude exact original-byte duplicate of dirt-005-2. Enlarged maps and original SHA match exactly.",
+    "enlargedEvidence": "data/upstream/expansion12-materials/final-alias-original-pairs.jpg"
+  },
+  {
+    "left": "wood-particle-board-002",
+    "right": "particle-board-001",
+    "maxSimilarity": 0.3539721965789795,
+    "best": {
+      "leftCrop": [
+        384,
+        768,
+        640,
+        1024
+      ],
+      "rightCrop": [
+        768,
+        0,
+        1024,
+        256
+      ],
+      "d4Index": 1,
+      "periodicShift": [
+        0,
+        17
+      ]
+    },
+    "leftOriginalPath": "data/upstream/expansion12-materials/originals/3dtextures/wood-particle-board-002.jpg",
+    "rightOriginalPath": "data/upstream/expansion12-materials/originals/3dtextures/particle-board-001.jpg",
+    "leftSourceSha256": "8ba870221c94d3cfcc7f1444c6734a6d7d6b5ecadb32835203502d6475ed70a5",
+    "rightSourceSha256": "15270ac3dc43abac9949774a9ab6d89924126a25e26a7a2eec915f04988d0bfd",
+    "method": "Full original and .75/.5/.375/.25 square crops at9 positions; grayscale/contrast normalized32px; all D4 and32x32 periodic shifts. Score flags require direct-image confirmation.",
+    "directOriginalImageReview": "Retain: WoodParticleBoard002 contains large widely directed elongated chips with open crossing gaps; ParticleBoard001 is a dense field of finer short flakes. Actual chip shapes/assembly differ, rather than a crop or recolor of the same map.",
+    "enlargedEvidence": "data/upstream/expansion12-materials/final-alias-original-pairs.jpg"
+  }
+]

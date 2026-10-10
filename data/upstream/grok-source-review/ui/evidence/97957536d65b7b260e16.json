@@ -1,0 +1,22 @@
+{
+  "url": "https://www.allavio.com/robots.txt",
+  "site": "allavio",
+  "reviewedAt": "2026-10-10",
+  "captures": [
+    {
+      "method": "public-HTTP-GET",
+      "status": 200,
+      "observedContent": "공식 robots.txt 공개 응답을 읽고 수집 전에 홈 경로 조건을 확인했습니다. robots 규칙은 재배포 라이선스와 별개입니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://www.allavio.com/robots.txt",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/allavio-robots-http.json",
+      "rawCacheSha256": "16babdf6d6bb709fc57ec7aa13afab256f4258f5a25af1466b15cf4182e61f90",
+      "capturedTextSha256": "546b989b5200c4528d6ddd33952a719541a1287564d2a102873f97a1f3a3f69d",
+      "responseCapturedSha256": "546b989b5200c4528d6ddd33952a719541a1287564d2a102873f97a1f3a3f69d",
+      "boundedAtBytes": 1048576,
+      "truncated": false
+    }
+  ],
+  "contentPolicy": "원문 전체는 ignored exa-results 캐시에만 보관합니다. 이 파일은 접근 상태와 SHA 및 자체 요약만 저장하며 페이지 인용은 sites.json termsEvidence에만 최대 25단어로 기록합니다."
+}

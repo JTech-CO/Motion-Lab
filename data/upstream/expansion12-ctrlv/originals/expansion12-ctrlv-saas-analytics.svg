@@ -1,0 +1,26 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-bounce">
+                <!-- Base Grid -->
+                <path d="M80 60 V240 M140 60 V240 M200 60 V240 M260 60 V240 M320 60 V240" stroke="var(--primary-color)" stroke-width="1" opacity="0.1"/>
+                <path d="M80 60 H320 M80 120 H320 M80 180 H320 M80 240 H320" stroke="var(--primary-color)" stroke-width="1" opacity="0.1"/>
+                
+                <!-- Main Axis -->
+                <path class="anim-draw" d="M80 40 V240 H340" fill="none" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                
+                <!-- Line Chart -->
+                <path class="anim-draw" d="M80 220 L140 160 L200 180 L260 100 L320 60" fill="none" stroke="var(--primary-color)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                
+                <!-- Area under curve -->
+                <path class="anim-float" d="M80 220 L140 160 L200 180 L260 100 L320 60 V240 H80 Z" fill="var(--primary-color)" opacity="0.15"/>
+                
+                <!-- Data Points -->
+                <circle class="anim-pulse" cx="140" cy="160" r="6" fill="var(--bg-surface)" stroke="var(--primary-color)" stroke-width="3"/>
+                <circle class="anim-pulse" style="animation-delay:-0.5s;" cx="200" cy="180" r="6" fill="var(--bg-surface)" stroke="var(--primary-color)" stroke-width="3"/>
+                <circle class="anim-pulse" style="animation-delay:-1s;" cx="260" cy="100" r="6" fill="var(--bg-surface)" stroke="var(--primary-color)" stroke-width="3"/>
+                <circle class="anim-pulse" style="animation-delay:-1.5s;" cx="320" cy="60" r="8" fill="var(--accent-color)" stroke="var(--bg-surface)" stroke-width="3"/>
+                
+                <!-- Growth Arrow overlay -->
+                <path class="anim-float" d="M280 40 L340 20 L320 80 Z" fill="var(--secondary-color)"/>
+                <path class="anim-float" d="M260 100 L320 40" stroke="var(--secondary-color)" stroke-width="4" stroke-linecap="round"/>
+            </g>
+          </svg>

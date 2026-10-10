@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/bowtiedswan/animejs-skills",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/bowtiedswan/animejs-skills",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/bowtiedswan/animejs-skills",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/bowtiedswan/animejs-skills",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:30.346315+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/bowtiedswan/animejs-skills",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "89b18113860e8678a8a9c04ed4c327654faecaf2a3fc5098f189dbe62acb0f1e",
+      "responseBodySha256": "89b18113860e8678a8a9c04ed4c327654faecaf2a3fc5098f189dbe62acb0f1e",
+      "title": "GitHub - BowTiedSwan/animejs-skills: Claude Code skill for Anime.js v4 - comprehensive JavaScript animation library documentation and examples · GitHub",
+      "textCharacters": 2895,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.621,
+      "captureCachePath": "exa-results/link-audit/references/captures/48c8f395e18e20fb14dd1e6e.json",
+      "captureCacheSha256": "95a3d3f49190ee947edfef9167dff40e34cc4283b14254559c4b90ebcc0389d4"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-anime-js-skills",
+      "canonicalId": "ref-anime-js-skills",
+      "title": "Anime.js Skills",
+      "role": "canonical",
+      "sourceSha256": "797c012a169e12843060590d2f78541b214e373dd9becc85ef56f5967d34d6df"
+    }
+  ]
+}

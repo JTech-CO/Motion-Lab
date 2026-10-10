@@ -1,0 +1,35 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g style="animation-duration: 6s;" class="anim-float">
+                <!-- CAB -->
+                <path d="M260 240 V150 Q280 150 300 180 V240 Z" fill="var(--secondary-color)"/>
+                <path d="M270 160 H285 L295 180 H270 Z" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="4"/>
+                <circle style="animation-duration: 4s;" class="anim-pulse" cx="290" cy="220" r="6" fill="var(--accent-color)"/>
+                
+                <!-- Wheels -->
+                <g transform="translate(100, 240)">
+                    <circle style="animation-duration: 10s;" class="anim-rotate" cx="0" cy="0" r="25" fill="var(--charcoal)"/>
+                    <circle style="animation-duration: 10s;" class="anim-rotate" cx="0" cy="0" r="10" fill="var(--bg-surface)" stroke="var(--primary-color)" stroke-width="4"/>
+                </g>
+                <g transform="translate(160, 240)">
+                    <circle style="animation-duration: 10s;" class="anim-rotate" cx="0" cy="0" r="25" fill="var(--charcoal)"/>
+                    <circle style="animation-duration: 10s;" class="anim-rotate" cx="0" cy="0" r="10" fill="var(--bg-surface)" stroke="var(--primary-color)" stroke-width="4"/>
+                </g>
+                <g transform="translate(270, 240)">
+                    <circle style="animation-duration: 10s;" class="anim-rotate" cx="0" cy="0" r="20" fill="var(--charcoal)"/>
+                    <circle style="animation-duration: 10s;" class="anim-rotate" cx="0" cy="0" r="8" fill="var(--bg-surface)" stroke="var(--secondary-color)" stroke-width="4"/>
+                </g>
+                
+                <!-- Chassis -->
+                <rect x="60" y="210" width="220" height="20" rx="4" fill="var(--primary-color)"/>
+                
+                <!-- Dump Bed (Tilted) -->
+                <g transform="translate(260, 210) rotate(-20)">
+                    <rect class="anim-bounce" style="animation-duration: 8s;" x="-180" y="-80" width="160" height="70" rx="4" fill="var(--primary-color)" stroke="var(--charcoal)" stroke-width="6"/>
+                    
+                    <!-- Dirt/Rubble inside bed -->
+                    <path style="animation-duration: 4s;" class="anim-pulse" d="M-170 -80 Q-150 -100 -120 -80 Q-90 -110 -60 -80 Z" fill="var(--accent-color)" opacity="0.5"/>
+                    <circle cx="-140" cy="-90" r="15" fill="var(--accent-color)" opacity="0.3"/>
+                    <circle cx="-80" cy="-85" r="10" fill="var(--accent-color)" opacity="0.3"/>
+                </g>
+            </g>
+          </svg>

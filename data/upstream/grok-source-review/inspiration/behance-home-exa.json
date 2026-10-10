@@ -1,0 +1,14 @@
+{
+  "url": "https://www.behance.net/",
+  "method": "Exa public fetch",
+  "status": "Exa-content-read",
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공개 URL의 Exa 추출 내용을 읽었다. 직접 서버의 HTTP 200으로 간주하지 않았다. Behance: 원권리자가 프로젝트마다 공유 범위를 선택한다.",
+  "sector": 4,
+  "siteId": "behance",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/behance-home-exa.json",
+  "rawCacheSha256": "dd9cf9e845c594da05e9491b89eb46253ed091fe56d080c408e5df8c1af87074",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "41e085b2e6fc2de72afc3a239d53629ff89fdc75f46cd88a9c9765b0e44bb2c7",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json."
+}

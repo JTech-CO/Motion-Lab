@@ -1,0 +1,14 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="anim-float">
+            <rect x="80" y="120" width="70" height="100" rx="10" fill="var(--bg-surface)" stroke="var(--border-color)" stroke-width="2"/>
+            <circle cx="115" cy="150" r="15" fill="var(--border-color)"/>
+        </g>
+        <g class="anim-float" style="animation-delay: -0.5s">
+            <rect x="165" y="80" width="70" height="140" rx="10" fill="var(--primary-color)" opacity="0.1" stroke="var(--primary-color)" stroke-width="3"/>
+            <circle class="anim-pulse" cx="200" cy="120" r="20" fill="var(--primary-color)"/>
+        </g>
+        <g class="anim-float" style="animation-delay: -1s">
+            <rect x="250" y="100" width="70" height="120" rx="10" fill="var(--bg-surface)" stroke="var(--border-color)" stroke-width="2"/>
+            <circle cx="285" cy="135" r="18" fill="var(--secondary-color)" opacity="0.4"/>
+        </g>
+    </svg>

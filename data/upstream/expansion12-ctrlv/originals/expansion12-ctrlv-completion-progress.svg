@@ -1,0 +1,15 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="80" y="140" width="240" height="20" rx="10" fill="var(--border-color)"/>
+        <rect class="anim-draw" x="80" y="140" width="180" height="20" rx="10" fill="url(#progressGradient)"/>
+        <g class="anim-bounce">
+            <circle cx="260" cy="150" r="25" fill="var(--bg-surface)" stroke="var(--primary-color)" stroke-width="4"/>
+            <path class="anim-pulse" d="M150 110 L250 110" stroke="var(--text-muted)" stroke-width="2" stroke-dasharray="4 4"/>
+            <text x="260" y="155" text-anchor="middle" font-family="Inter" font-weight="900" font-size="12" fill="var(--primary-color)">75%</text>
+        </g>
+        <defs>
+            <linearGradient id="progressGradient" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="var(--primary-color)" />
+                <stop offset="100%" stop-color="var(--secondary-color)" />
+            </linearGradient>
+        </defs>
+    </svg>

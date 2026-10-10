@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <path d="M60 220 L100 200 H300 L340 220 Z" fill="#6366f1" opacity="0.2" />
+                <line x1="50" y1="220" x2="350" y2="220" stroke="#334155" stroke-width="6" stroke-linecap="round" />
+                
+                
+                <rect x="140" y="120" width="120" height="80" rx="4" fill="#ffffff" stroke="#334155" stroke-width="6" />
+                <path d="M120 200 H280 L290 210 H110 Z" fill="#334155" />
+                <rect x="150" y="130" width="100" height="60" fill="#f43f5e" />
+                
+                
+                <g transform="translate(100, 180)">
+                    <g>
+                    <rect x="0" y="0" width="24" height="30" rx="2" fill="#6366f1" />
+                    <path d="M24 5 H30 A 5 5 0 0 1 35 10 V15 A 5 5 0 0 1 30 20 H24" stroke="#6366f1" stroke-width="4" fill="none" />
+                    <rect x="-2" y="-5" width="28" height="5" rx="2" fill="#334155" />
+                    
+                    <path d="M6 -10 Q2 -15 6 -20 T6 -30 M18 -10 Q22 -15 18 -20 T18 -30" stroke="#334155" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.5" />
+                </g>
+                </g>
+                
+                
+                <g transform="translate(290, 180)">
+                    <g>
+                    <path d="M0 0 L5 30 H25 L30 0 Z" fill="#DFD116" />
+                    <path d="M15 0 C0 -20 -10 0 15 0 Z" fill="#f43f5e" />
+                    <path d="M15 0 C30 -30 40 -10 15 0 Z" fill="#6366f1" />
+                    <path d="M15 0 C10 -40 20 -40 15 0 Z" fill="#f43f5e" />
+                </g>
+                </g>
+            </g>
+          </svg>

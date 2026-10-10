@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-bounce">
+                <!-- Base -->
+                <path d="M160 250 L240 250 L210 220 H190 Z" fill="var(--secondary-color)"/>
+                <!-- Pillar -->
+                <rect x="195" y="80" width="10" height="140" fill="var(--secondary-color)"/>
+                <!-- Top Cap -->
+                <ellipse cx="200" cy="80" rx="15" ry="5" fill="var(--primary-color)"/>
+                
+                <!-- Crossbar & Pivot -->
+                <path class="anim-rotate"  d="M100 90 L300 90" stroke="var(--primary-color)" stroke-width="8" stroke-linecap="round"/>
+                <circle cx="200" cy="90" r="8" fill="var(--accent-color)"/>
+                
+                <!-- Left Scale -->
+                <g class="anim-rotate" style="animation-direction: reverse; transform-origin: 200px 90px;">
+                    <path class="anim-float" d="M100 90 L70 180 M100 90 L130 180" stroke="var(--charcoal)" stroke-width="2" opacity="0.5"/>
+                    <path class="anim-float" d="M60 180 C60 210 140 210 140 180 Z" fill="var(--primary-color)"/>
+                </g>
+                <!-- Right Scale -->
+                <g class="anim-rotate" style="animation-direction: reverse; animation-delay: -1s; transform-origin: 200px 90px;">
+                    <path class="anim-float" style="animation-delay: -1s;" d="M300 90 L270 180 M300 90 L330 180" stroke="var(--charcoal)" stroke-width="2" opacity="0.5"/>
+                    <path class="anim-float" style="animation-delay: -1s;" d="M260 180 C260 210 340 210 340 180 Z" fill="var(--primary-color)"/>
+                </g>
+            </g>
+          </svg>

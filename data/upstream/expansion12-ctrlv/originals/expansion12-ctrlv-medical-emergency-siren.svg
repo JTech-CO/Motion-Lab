@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="120" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            
+            <!-- Flashing abstract aura -->
+            <circle class="anim-pulse" cx="200" cy="150" r="110" fill="var(--accent-color)" opacity="0.1"/>
+            <circle class="anim-pulse" style="animation-delay:-0.5s;" cx="200" cy="150" r="80" fill="var(--accent-color)" opacity="0.2"/>
+            
+            <g class="anim-float">
+                <!-- Siren Base -->
+                <path d="M140 240 H260 L280 260 H120 Z" fill="var(--charcoal)"/>
+                <rect x="150" y="220" width="100" height="20" rx="5" fill="var(--primary-color)"/>
+                
+                <!-- Glass Dome -->
+                <path d="M150 220 V150 C150 100 250 100 250 150 V220 Z" fill="var(--bg-surface)" stroke="var(--secondary-color)" stroke-width="4" opacity="0.9"/>
+                
+                <!-- Internal Rotating Light -->
+                <g class="anim-rotate" >
+                    <path d="M180 220 L190 120 H210 L220 220 Z" fill="var(--accent-color)"/>
+                    <circle cx="200" cy="140" r="15" fill="var(--bg-surface)"/>
+                    <!-- Light Beams -->
+                    <path d="M200 140 L100 80 M200 140 L300 80 M190 120 L150 40 M210 120 L250 40" stroke="var(--accent-color)" stroke-width="8" stroke-linecap="round" opacity="0.6"/>
+                </g>
+                
+                <!-- Dome reflection -->
+                <path d="M165 210 V150 C165 120 180 110 200 110" stroke="#FFF" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.5"/>
+            </g>
+          </svg>

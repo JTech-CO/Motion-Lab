@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Strap -->
+                <rect x="160" y="40" width="80" height="220" rx="8" fill="var(--charcoal)" opacity="0.9"/>
+                <rect x="170" y="40" width="60" height="220" rx="4" fill="var(--secondary-color)"/>
+                <path d="M160 80 H240 M160 220 H240" stroke="var(--accent-color)" stroke-width="4"/>
+                
+                <!-- Watch Face Base -->
+                <circle cx="200" cy="150" r="70" fill="var(--primary-color)"/>
+                <circle cx="200" cy="150" r="60" fill="white"/>
+                
+                <!-- Crown / Button -->
+                <rect class="anim-pulse" x="265" y="140" width="15" height="20" rx="4" fill="var(--accent-color)"/>
+                
+                <!-- Inner Dials / Tech -->
+                <circle cx="200" cy="150" r="50" stroke="var(--secondary-color)" stroke-width="2" stroke-dasharray="4 4" fill="none"/>
+                
+                <!-- Hands -->
+                <g class="anim-rotate" >
+                    <path d="M200 150 L200 110" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                </g>
+                <g class="anim-rotate" >
+                    <path d="M200 150 L235 150" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round"/>
+                </g>
+                <circle cx="200" cy="150" r="6" fill="var(--charcoal)"/>
+            </g>
+          </svg>

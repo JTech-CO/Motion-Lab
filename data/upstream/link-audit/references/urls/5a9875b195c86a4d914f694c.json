@@ -1,0 +1,56 @@
+{
+  "url": "https://p5js.org/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://p5js.org/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://p5js.org/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://p5js.org/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://p5js.org/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:02.850033+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://p5js.org/",
+      "contentType": "text/html",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 51135,
+      "capturedSha256": "06373437d4fe29923d9f3fdf0a51d324115e8e035488b89795ee2d96c03ba375",
+      "responseBodySha256": "06373437d4fe29923d9f3fdf0a51d324115e8e035488b89795ee2d96c03ba375",
+      "title": "p5.js",
+      "textCharacters": 2558,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 3.692,
+      "captureCachePath": "exa-results/link-audit/references/captures/e835472a8752c20f38e0b332.json",
+      "captureCacheSha256": "14ca6195c487c4b97fa5a68c419ffb15759478d7f9c558d4b3666f7717d5f164"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-p5-js",
+      "canonicalId": "ref-p5-js",
+      "title": "p5.js",
+      "role": "canonical",
+      "sourceSha256": "de754b19e15b6c8ac17b8f40d33234173eb8a56754d00b8f3306ed41dae1c447"
+    }
+  ]
+}

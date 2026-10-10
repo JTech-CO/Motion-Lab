@@ -1,6 +1,6 @@
 """Offline, bounded inspection of stored image materials and all image pairs."""
 
-from collections import defaultdict
+from collections import Counter, defaultdict
 import hashlib
 import io
 import warnings
@@ -13,6 +13,9 @@ from motionlab.image_assets import validate_image
 
 ROOT = Path(__file__).resolve().parents[1]
 MAX_IMAGE = 4 * 1024 * 1024
+STRUCTURE_SIZE = 128
+STRUCTURE_THRESHOLD = 0.985
+STRUCTURE_REVIEW_THRESHOLD = 0.90
 
 
 def decode_image(body):
@@ -57,6 +60,7 @@ def image_features(image):
 
 
 def near_image(left, right):
+    """Unchanged coarse candidate screen, not a confirmed near-duplicate gate."""
     color = float(np.max(np.abs(np.asarray(left["quantiles"]) - right["quantiles"])))
     contrast = float(np.max(np.abs(np.asarray(left["grayQuantiles"]) - right["grayQuantiles"])))
     if color > 0.075 and contrast > 0.04:
@@ -75,6 +79,71 @@ def near_image(left, right):
     return None
 
 
+def image_structure(image):
+    """Bounded positional luminance, independent of mean color and contrast.
+
+    Keep one normalized plane and one FFT per image, not all eight D4 FFTs.
+    The arrays are local working data and are never serialized into reports.
+    """
+    rgb = np.asarray(image.resize((STRUCTURE_SIZE, STRUCTURE_SIZE), Image.Resampling.LANCZOS),
+                     dtype=np.float32) / 255.0
+    gray = rgb @ np.asarray([0.299, 0.587, 0.114], dtype=np.float32)
+    centered = gray - gray.mean(dtype=np.float64)
+    norm = float(np.linalg.norm(centered))
+    standard_deviation = float(centered.std())
+    if standard_deviation <= 1e-7:
+        return {"normalized": None, "fft": None, "spatialStd": standard_deviation,
+                "normalizedLuminanceSha256": None}
+    normalized = np.asarray(centered / norm, dtype=np.float32)
+    return {"normalized": normalized,
+            "fft": np.asarray(np.fft.rfft2(normalized), dtype=np.complex64),
+            "spatialStd": standard_deviation,
+            "normalizedLuminanceSha256": hashlib.sha256(normalized.astype("<f4").tobytes()).hexdigest()}
+
+
+def structure_orientations(structure):
+    """Generate one left image's D4 spectra, reused across its coarse pairs."""
+    if structure["normalized"] is None:
+        return []
+    return [(mirrored, rotation,
+             np.asarray(np.fft.rfft2(np.rot90(np.fliplr(structure["normalized"]) if mirrored
+                                             else structure["normalized"], rotation)), dtype=np.complex64))
+            for mirrored in (False, True) for rotation in range(4)]
+
+
+def compare_image_structure(left, right, *, orientations=None):
+    """Maximum normalized correlation over D4 and every integer periodic shift.
+
+    Absolute correlation permits an affine luminance inversion after recoloring.
+    It does not claim to identify arbitrary crops, scale changes or random textures.
+    """
+    evidence = {"resolution": [STRUCTURE_SIZE, STRUCTURE_SIZE],
+                "threshold": STRUCTURE_THRESHOLD,
+                "leftSpatialStd": left["spatialStd"], "rightSpatialStd": right["spatialStd"],
+                "periodicShiftCountPerOrientation": STRUCTURE_SIZE ** 2,
+                "orientationCount": 8}
+    if left["fft"] is None or right["fft"] is None:
+        return {**evidence, "status": "insufficient-spatial-variance", "confirmed": False,
+                "normalizedCorrelation": None}
+    best = None
+    for mirrored, rotation, spectrum in (orientations if orientations is not None
+                                        else structure_orientations(left)):
+        correlation = np.fft.irfft2(spectrum * np.conj(right["fft"]),
+                                   s=(STRUCTURE_SIZE, STRUCTURE_SIZE))
+        peak = np.unravel_index(np.argmax(np.abs(correlation)), correlation.shape)
+        signed_score = float(correlation[peak])
+        score = min(1.0, abs(signed_score))
+        if best is None or score > best["normalizedCorrelation"]:
+            best = {"normalizedCorrelation": score,
+                    "leftTransform": {"reflectedHorizontally": mirrored,
+                                      "counterclockwiseQuarterTurns": rotation},
+                    "periodicShiftOfRight": {"y": int(peak[0]), "x": int(peak[1])},
+                    "luminancePolarity": 1 if signed_score >= 0 else -1}
+    confirmed = best["normalizedCorrelation"] >= STRUCTURE_THRESHOLD
+    return {**evidence, **best, "status": "confirmed" if confirmed else "below-structure-threshold",
+            "confirmed": confirmed}
+
+
 def audit(items, root=ROOT):
     selected = [item for item in items if item.get("kind") == "image"]
     if len(selected) > 3000:
@@ -84,38 +153,102 @@ def audit(items, root=ROOT):
         try:
             descriptor = validate_image(item.get("image"), Path(root) / "dist")
             body = (Path(root) / "dist" / descriptor["path"]).read_bytes()
-            feature = image_features(decode_image(body))
+            decoded = decode_image(body)
+            feature = image_features(decoded)
+            structure = image_structure(decoded)
             signature = hashlib.sha256(body).hexdigest()
             manifest.append({"id": item["id"], "canonicalSha256": signature,
                              "storedImageSha256": signature,
                              "originalImageSha256": descriptor["sourceSha256"],
                              "width": descriptor["width"], "height": descriptor["height"],
-                             "features": feature})
-            parsed.append((item, feature))
+                             "features": feature,
+                             "positionStructure": {"resolution": [STRUCTURE_SIZE, STRUCTURE_SIZE],
+                                                   "spatialStd": structure["spatialStd"],
+                                                   "normalizedLuminanceSha256": structure["normalizedLuminanceSha256"]}})
+            parsed.append((item, feature, structure))
         except (ValueError, OSError, KeyError) as error:
             errors.append({"id": item.get("id"), "reason": str(error)[:300]})
     groups = defaultdict(list)
-    for item, _ in parsed:
+    for item, _, _ in parsed:
         groups[item["image"]["sha256"]].append(item["id"])
     exact = [{"ids": ids, "reason": "identical-stored-image", "confidence": "high"}
              for ids in groups.values() if len(ids) > 1]
-    near, comparisons = [], 0
-    for index, (left, left_features) in enumerate(parsed):
-        for right, right_features in parsed[index + 1:]:
+    near, candidates, statistical_alerts, comparisons = [], [], [], 0
+    coarse_counts, confirmed_counts, unresolved_counts, statistical_counts = Counter(), Counter(), Counter(), Counter()
+    score_distribution = Counter()
+    insufficient = 0
+    for index, (left, left_features, left_structure) in enumerate(parsed):
+        orientations = None
+        for right, right_features, right_structure in parsed[index + 1:]:
             comparisons += 1
             if left["image"]["sha256"] == right["image"]["sha256"]:
                 continue
             reason = near_image(left_features, right_features)
             if reason:
-                near.append({"ids": [left["id"], right["id"]], "reason": reason,
-                             "confidence": "high",
-                             "evidence": "All rotation/reflection hashes and color/texture statistics were compared on stored local images."})
+                coarse_counts[reason] += 1
+                if orientations is None:
+                    orientations = structure_orientations(left_structure)
+                structure_result = compare_image_structure(left_structure, right_structure,
+                                                           orientations=orientations)
+                evidence = {"coarseReason": reason, "structure": structure_result,
+                            "source": "Actual descriptor-validated stored JPEG pixels, resized to 128x128; no name/category comparison.",
+                            "images": [{"id": entry["id"], "path": entry["image"]["path"],
+                                        "storedImageSha256": entry["image"]["sha256"],
+                                        "originalImageSha256": entry["image"]["sourceSha256"]}
+                                       for entry in (left, right)],
+                            "interpretation": "Coarse statistics nominate pairs; only positional structure confirms a high-confidence near relation. Below-threshold scores do not certify uniqueness."}
+                score = structure_result["normalizedCorrelation"]
+                band = "insufficient-spatial-variance" if score is None else next(
+                    label for ceiling, label in ((0.5, "below-0.5"), (0.8, "0.5-to-0.8"),
+                                                 (0.9, "0.8-to-0.9"), (0.97, "0.9-to-0.97"),
+                                                 (0.985, "0.97-to-0.985"), (2, "0.985-and-above"))
+                    if score < ceiling)
+                score_distribution[band] += 1
+                if structure_result["confirmed"]:
+                    confirmed_counts[reason] += 1
+                    near.append({"ids": [left["id"], right["id"]],
+                                 "reason": "confirmed-periodic-image-structure", "confidence": "high",
+                                 "evidence": evidence})
+                elif score is None or score >= STRUCTURE_REVIEW_THRESHOLD:
+                    unresolved_counts[reason] += 1
+                    insufficient += structure_result["status"] == "insufficient-spatial-variance"
+                    candidates.append({"ids": [left["id"], right["id"]],
+                                       "reason": "coarse-image-similarity-without-structure-confirmation",
+                                       "confidence": "low", "evidence": evidence})
+                else:
+                    statistical_counts[reason] += 1
+                    statistical_alerts.append({"ids": [left["id"], right["id"]],
+                                               "reason": "coarse-statistics-position-model-disagreement",
+                                               "confidence": "low", "evidence": evidence})
     return {"coverage": {"itemCount": len(selected), "pairUniverse": len(selected) * (len(selected) - 1) // 2,
-                         "pairComparisons": comparisons},
-            "methodology": {"version": 1,
+                         "successfullyDecodedImageCount": len(parsed),
+                         "decodedPairUniverse": len(parsed) * (len(parsed) - 1) // 2,
+                         "pairComparisons": comparisons,
+                         "coarseAlarmCount": sum(coarse_counts.values()),
+                         "coarseAlarmCountsByReason": dict(sorted(coarse_counts.items())),
+                         "structureRecheckPairCount": sum(coarse_counts.values()),
+                         "confirmedStructurePairCount": len(near),
+                         "confirmedCountsByCoarseReason": dict(sorted(confirmed_counts.items())),
+                         "unresolvedCoarsePairCount": len(candidates),
+                         "unresolvedCountsByCoarseReason": dict(sorted(unresolved_counts.items())),
+                         "statisticalAlertCount": len(statistical_alerts),
+                         "statisticalAlertCountsByCoarseReason": dict(sorted(statistical_counts.items())),
+                         "structureScoreDistribution": dict(sorted(score_distribution.items())),
+                         "insufficientSpatialVariancePairCount": insufficient},
+            "methodology": {"version": 2,
                 "exact": "SHA-256 of the actual stored JPEG after descriptor/file validation.",
-                "near": "8 rotation/reflection pHashes plus color quantiles, radial frequency, edge and low-contrast surface comparisons.",
+                "candidate": "Unchanged coarse screen: 8 rotation/reflection pHashes plus color quantiles, radial frequency, edge and low-contrast surface comparisons. Every alarm and original reason is retained: confirmed structure in nearGroups; 0.90-to-0.985 or insufficient structure in candidatePairs; below-0.90 model disagreements in statisticalAlerts. No alarm is declared unique.",
+                "near": "Coarse alarms require positional mean-centered, unit-L2 luminance correlation on actual 128x128 JPEG pixels. FFT checks all 16384 periodic integer shifts in each of 8 D4 orientations. Affine recoloring and luminance inversion are allowed; maximum absolute correlation must be >=0.985.",
+                "nearThresholds": {"normalizedPositionCorrelation": STRUCTURE_THRESHOLD,
+                                   "unresolvedReviewBandMinimum": STRUCTURE_REVIEW_THRESHOLD},
+                "metric": {"structureResolution": [STRUCTURE_SIZE, STRUCTURE_SIZE],
+                           "normalization": "Mean-centered luminance divided by spatial L2 norm; QA measurement only, source pixels unchanged.",
+                           "workingArrays": "One float32 plane and one complex64 rFFT per decoded image; eight left spectra reused within that image's pair loop. No all-pairs matrix or pixel arrays in JSON.",
+                           "workingArrayBytesPerImage": STRUCTURE_SIZE ** 2 * 4 + STRUCTURE_SIZE * (STRUCTURE_SIZE // 2 + 1) * 8,
+                           "maximumDecodedImages": 3000},
+                "nearMatching": "Only confirmed structure pairs enter nearGroups. Candidate and model-disagreement reports retain scores, orientation, shift and file SHA evidence. The 0.90 review band is a conservative operational uncertainty band, not a calibrated perceptual probability; actual score distribution is recorded in coverage. Statistics alone never confirm a duplicate.",
                 "pairCoverage": "Every successfully decoded local image pair.",
-                "limitations": "Conservative surface-family similarity, not a guarantee of universal perceptual uniqueness."},
+                "limitations": "Two-stage stored-pixel comparison, not universal perceptual uniqueness. No arbitrary crop, subpixel shift, scale, perspective or stochastic material-family guarantee; the structure gate only rechecks coarse alarms. Equal grayscale structure can preserve palette variants; flat images cannot establish positional structure. No asset is deleted or merged by this audit."},
             "items": manifest, "errors": errors, "exactGroups": exact,
-            "nearGroups": near, "candidatePairs": [], "familyGroups": []}
+            "nearGroups": near, "candidatePairs": candidates, "statisticalAlerts": statistical_alerts,
+            "familyGroups": []}

@@ -1,0 +1,11 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="anim-bounce">
+            <circle cx="150" cy="150" r="50" fill="var(--primary-color)" opacity="0.1" stroke="var(--primary-color)" stroke-width="4"/>
+            <text x="150" y="170" text-anchor="middle" font-family="Inter" font-weight="900" font-size="50" fill="var(--primary-color)">Q</text>
+        </g>
+        <g class="anim-bounce" style="animation-delay: -0.5s">
+            <circle cx="250" cy="150" r="50" fill="var(--secondary-color)" opacity="0.1" stroke="var(--secondary-color)" stroke-width="4"/>
+            <text x="250" y="170" text-anchor="middle" font-family="Inter" font-weight="900" font-size="50" fill="var(--secondary-color)">A</text>
+        </g>
+        <text class="anim-pulse" x="200" y="160" text-anchor="middle" font-family="Inter" font-weight="900" font-size="40" fill="var(--charcoal)">&</text>
+    </svg>

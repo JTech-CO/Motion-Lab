@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="150" ry="12" fill="#E2E8F0"/>
+            <g class="anim-float">
+                <!-- Glowing Brain Hub -->
+                <path d="M120 180 C80 180 60 140 80 100 C100 60 180 50 200 80 C220 50 300 60 320 100 C340 140 320 180 280 180 Z" fill="var(--primary-color)" opacity="0.2"/>
+                <path d="M140 160 C110 160 100 130 110 100 C120 70 180 60 200 90 C220 60 280 70 290 100 C300 130 290 160 260 160 Z" fill="var(--primary-color)" opacity="0.4"/>
+                
+                <!-- Circuit connections inside mind -->
+                <path class="anim-draw" d="M120 120 H160 V100 H180" stroke="var(--accent-color)" stroke-width="4" fill="none"/>
+                <circle class="anim-glow" cx="120" cy="120" r="6" fill="var(--accent-color)"/>
+                <path class="anim-draw" style="animation-delay: 0.2s;" d="M280 130 H240 V150 H220" stroke="var(--secondary-color)" stroke-width="4" fill="none"/>
+                <circle class="anim-glow" cx="280" cy="130" r="6" fill="var(--secondary-color)"/>
+            </g>
+            
+            <!-- Code Interface emerging from mind -->
+            <rect class="anim-bounce" x="150" y="140" width="100" height="80" rx="6" fill="var(--charcoal)"/>
+            <rect class="anim-bounce" x="150" y="140" width="100" height="15" rx="6" fill="var(--secondary-color)"/>
+            <circle class="anim-bounce" cx="160" cy="147" r="3" fill="white"/>
+            
+            <path class="anim-typing" d="M160 170 H220 M160 185 H240 M160 200 H200" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round"/>
+          </svg>

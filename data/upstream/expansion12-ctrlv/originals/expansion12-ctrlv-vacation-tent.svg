@@ -1,0 +1,24 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Tent Body -->
+                <path d="M100 240 L200 80 L300 240 Z" fill="var(--primary-color)"/>
+                <path d="M200 80 L230 120 L170 240 Z" fill="var(--bg-surface)" opacity="0.2"/>
+                
+                <!-- Tent Opening -->
+                <path d="M200 120 L160 240 H240 Z" fill="var(--charcoal)"/>
+                <path d="M200 120 L180 240 M200 120 L220 240" stroke="var(--secondary-color)" stroke-width="4"/>
+                
+                <!-- Pegs and ropes -->
+                <path d="M100 240 L60 260 M300 240 L340 260" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+                <circle cx="60" cy="260" r="4" fill="var(--accent-color)"/>
+                <circle cx="340" cy="260" r="4" fill="var(--accent-color)"/>
+                
+                <!-- Fire -->
+                <g transform="translate(140, 240) scale(0.5)">
+                    <g class="anim-bounce">
+                    <path d="M0 40 L-20 60 L-10 70 L10 50 M0 40 L20 60 L10 70 L-10 50" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                    <path d="M0 50 Q-20 20 0 -20 Q20 20 0 50" fill="var(--accent-color)"/>
+                </g>
+                </g>
+            </g>
+          </svg>

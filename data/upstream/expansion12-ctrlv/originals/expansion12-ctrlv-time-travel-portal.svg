@@ -1,0 +1,20 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Portal rings -->
+            <circle class="anim-rotate" cx="200" cy="150" r="80" fill="none" stroke="var(--primary-color)" stroke-width="8" stroke-dasharray="40 20"/>
+            <circle class="anim-rotate" style="animation-direction: reverse; animation-duration: 4s;" cx="200" cy="150" r="100" fill="none" stroke="var(--secondary-color)" stroke-width="4" stroke-dasharray="30 30"/>
+            <!-- Portal Center -->
+            <circle class="anim-pulse" cx="200" cy="150" r="60" fill="var(--accent-color)" opacity="0.2"/>
+            <circle cx="200" cy="150" r="40" fill="var(--charcoal)"/>
+            <!-- Space/Time warping into it -->
+            <path class="anim-draw" d="M100 50 Q160 100 180 130 M300 50 Q240 100 220 130 M100 250 Q160 200 180 170 M300 250 Q240 200 220 170" stroke="var(--primary-color)" stroke-width="2" fill="none"/>
+            <!-- Floating Clocks / Roman Numerals -->
+            <g class="anim-float">
+                <circle cx="120" cy="80" r="15" fill="none" stroke="var(--charcoal)" stroke-width="2"/>
+                <path d="M120 70 V80 L125 85" stroke="var(--accent-color)" stroke-width="2" stroke-linecap="round"/>
+            </g>
+            <g class="anim-float" style="animation-delay:-1s">
+                <circle cx="280" cy="220" r="20" fill="none" stroke="var(--charcoal)" stroke-width="2"/>
+                <path d="M280 205 V220 L270 225" stroke="var(--accent-color)" stroke-width="2" stroke-linecap="round"/>
+            </g>
+            <circle class="anim-data" cx="190" cy="140" r="4" fill="white"/>
+          </svg>

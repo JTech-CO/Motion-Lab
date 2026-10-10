@@ -1,0 +1,219 @@
+{
+  "scope": "Individual original/reference/notice static comparison only; referenced corpus not imported as assets. Upstream Shader Forge does not publish the RAG corpus or reference commit IDs. Current pinned primary sources do not establish which historical input it used.",
+  "references": [
+    {
+      "repository": "patriciogonzalezvivo/lygia",
+      "commit": "ce08fe351478b6c14297d103a8ce98d8e787d4d2",
+      "path": "commit.json",
+      "url": "https://raw.githubusercontent.com/patriciogonzalezvivo/lygia/ce08fe351478b6c14297d103a8ce98d8e787d4d2/commit.json",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--commit.json",
+      "sha256": "e76d576356c5e27f1029cab259f1c896b0c4fa0ac13ff7f3f657edb3e5aa78fa",
+      "gitBlobShaComputed": "485e3eb1d8dce5f3f847bd38fc2f07f356e033de",
+      "bytes": 18221
+    },
+    {
+      "repository": "patriciogonzalezvivo/lygia",
+      "commit": "ce08fe351478b6c14297d103a8ce98d8e787d4d2",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/patriciogonzalezvivo/lygia/ce08fe351478b6c14297d103a8ce98d8e787d4d2/README.md",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--README.md",
+      "sha256": "34bb7ef4f044cd5cfc0000021356b208bc4c88892c836b93037fa016208056bf",
+      "gitBlobShaComputed": "86e5553d6b93d4e6e48c84ee0585e185f3fc297a",
+      "bytes": 16023
+    },
+    {
+      "repository": "patriciogonzalezvivo/lygia",
+      "commit": "ce08fe351478b6c14297d103a8ce98d8e787d4d2",
+      "path": "generative/voronoi.glsl",
+      "url": "https://raw.githubusercontent.com/patriciogonzalezvivo/lygia/ce08fe351478b6c14297d103a8ce98d8e787d4d2/generative/voronoi.glsl",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--generative_voronoi.glsl",
+      "sha256": "e4c1f8f8894c0c878e61930907639b72dffeb8e3b15939ea9e203b4904eb9645",
+      "gitBlobShaComputed": "54caa63fc18728b420135cf09c758b0c2673c8d6",
+      "bytes": 1380
+    },
+    {
+      "repository": "patriciogonzalezvivo/lygia",
+      "commit": "ce08fe351478b6c14297d103a8ce98d8e787d4d2",
+      "path": "lighting/iridescence.glsl",
+      "url": "https://raw.githubusercontent.com/patriciogonzalezvivo/lygia/ce08fe351478b6c14297d103a8ce98d8e787d4d2/lighting/iridescence.glsl",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--lighting_iridescence.glsl",
+      "sha256": "532631123ae843e1e54b30590575a2c68698d4900417f7a4007968a85b041793",
+      "gitBlobShaComputed": "e97a4c57801eec7cc30b35e973006ca25bae4d09",
+      "bytes": 1655
+    },
+    {
+      "repository": "patriciogonzalezvivo/lygia",
+      "commit": "ce08fe351478b6c14297d103a8ce98d8e787d4d2",
+      "path": "lighting/fresnelReflection.glsl",
+      "url": "https://raw.githubusercontent.com/patriciogonzalezvivo/lygia/ce08fe351478b6c14297d103a8ce98d8e787d4d2/lighting/fresnelReflection.glsl",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--lighting_fresnelReflection.glsl",
+      "sha256": "8fd5e9bd3030e919de2960060fe98291359ac1955cd1f1a65e19ea225136705b",
+      "gitBlobShaComputed": "02a9e401528ba0d488421798148900f07670400b",
+      "bytes": 4297
+    },
+    {
+      "repository": "patriciogonzalezvivo/lygia",
+      "commit": "ce08fe351478b6c14297d103a8ce98d8e787d4d2",
+      "path": "color/layer/reflectSourceOver.glsl",
+      "url": "https://raw.githubusercontent.com/patriciogonzalezvivo/lygia/ce08fe351478b6c14297d103a8ce98d8e787d4d2/color/layer/reflectSourceOver.glsl",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--color_layer_reflectSourceOver.glsl",
+      "sha256": "f2951bf75ad4796e7725f55d7d224eeac16f7f018e20a5487dbceb6412b8e2f1",
+      "gitBlobShaComputed": "5cec7a3bfbee057407f6c0f5576a70527ee38498",
+      "bytes": 996
+    },
+    {
+      "repository": "patriciogonzalezvivo/lygia",
+      "commit": "ce08fe351478b6c14297d103a8ce98d8e787d4d2",
+      "path": "color/layer/phoenixSourceOver.glsl",
+      "url": "https://raw.githubusercontent.com/patriciogonzalezvivo/lygia/ce08fe351478b6c14297d103a8ce98d8e787d4d2/color/layer/phoenixSourceOver.glsl",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--color_layer_phoenixSourceOver.glsl",
+      "sha256": "be99164c715d9a3f0754af837521ae7bad4c15885bfdfe31b4fd4ccfa036d7b9",
+      "gitBlobShaComputed": "e039c64f14c3da95c77ec7e801c90668b9786d9f",
+      "bytes": 996
+    },
+    {
+      "repository": "patriciogonzalezvivo/lygia",
+      "commit": "ce08fe351478b6c14297d103a8ce98d8e787d4d2",
+      "path": "color/layer/hardMixSourceOver.glsl",
+      "url": "https://raw.githubusercontent.com/patriciogonzalezvivo/lygia/ce08fe351478b6c14297d103a8ce98d8e787d4d2/color/layer/hardMixSourceOver.glsl",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--color_layer_hardMixSourceOver.glsl",
+      "sha256": "755af11293d07c79843b8758b7558afcc4d5b951d03ea89622ddbbabfb349c20",
+      "gitBlobShaComputed": "a4e284f4cfa22382142d3b81d7303c41ef15ba40",
+      "bytes": 1001
+    },
+    {
+      "repository": "patriciogonzalezvivo/thebookofshaders",
+      "commit": "5a537e76d7367dbbcda537723394b5dc03114449",
+      "path": "commit.json",
+      "url": "https://raw.githubusercontent.com/patriciogonzalezvivo/thebookofshaders/5a537e76d7367dbbcda537723394b5dc03114449/commit.json",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--thebookofshaders--commit.json",
+      "sha256": "bcac3eb743d4e70535d085f56b994015967376dfbcac5f3db0c601f6539e9bc9",
+      "gitBlobShaComputed": "706450173c03c75f0bcdbb83ec344a010300fd8f",
+      "bytes": 6338
+    },
+    {
+      "repository": "patriciogonzalezvivo/thebookofshaders",
+      "commit": "5a537e76d7367dbbcda537723394b5dc03114449",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/patriciogonzalezvivo/thebookofshaders/5a537e76d7367dbbcda537723394b5dc03114449/LICENSE",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--thebookofshaders--LICENSE",
+      "sha256": "34082a07e6a452f47bdc4d87e0fb88397dfbd34d7de4b900f6cc93a3dcbba305",
+      "gitBlobShaComputed": "76aa1e8cd2d84cf21b47b8b1a25ebfbec3ab63b3",
+      "bytes": 655
+    },
+    {
+      "repository": "patriciogonzalezvivo/thebookofshaders",
+      "commit": "5a537e76d7367dbbcda537723394b5dc03114449",
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/patriciogonzalezvivo/thebookofshaders/5a537e76d7367dbbcda537723394b5dc03114449/README.md",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--thebookofshaders--README.md",
+      "sha256": "2d53489c1e79d6c35e2dc35c6bd93bbcac51f11dab2fb5be35d6851a2cd46f99",
+      "gitBlobShaComputed": "82adbdc7aabc6c3bcfe63d07f5b739e88ea9b738",
+      "bytes": 6729
+    },
+    {
+      "repository": "patriciogonzalezvivo/thebookofshaders",
+      "commit": "5a537e76d7367dbbcda537723394b5dc03114449",
+      "path": "12/vorono-01.frag",
+      "url": "https://raw.githubusercontent.com/patriciogonzalezvivo/thebookofshaders/5a537e76d7367dbbcda537723394b5dc03114449/12/vorono-01.frag",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--thebookofshaders--12_vorono-01.frag",
+      "sha256": "acd0ca5c831de5f467b249315d5ff67bd254c1acf3864ee723fb89b7c90ef788",
+      "gitBlobShaComputed": "a8b5691596d2aa6c2d4ded991381bb003e83b735",
+      "bytes": 1465
+    },
+    {
+      "repository": "tuxalin/procedural-tileable-shaders",
+      "commit": "3b867954908418427683f705671b236db0454235",
+      "path": "commit.json",
+      "url": "https://raw.githubusercontent.com/tuxalin/procedural-tileable-shaders/3b867954908418427683f705671b236db0454235/commit.json",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/tuxalin--procedural-tileable-shaders--commit.json",
+      "sha256": "0977bb223bb6a03c22f82d9f1bfb94342cc02b565732eec8900a3e02730482ce",
+      "gitBlobShaComputed": "a7cbe439870717eaf248649d6ee9e1a3c6d5ef36",
+      "bytes": 41651
+    },
+    {
+      "repository": "tuxalin/procedural-tileable-shaders",
+      "commit": "3b867954908418427683f705671b236db0454235",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/tuxalin/procedural-tileable-shaders/3b867954908418427683f705671b236db0454235/LICENSE",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/tuxalin--procedural-tileable-shaders--LICENSE",
+      "sha256": "6e5a319b178f6a8a18fbcec8cbb928e61cdd824f1468df73bb692751537a9a41",
+      "gitBlobShaComputed": "b112ec0fc7192766bd6d81161d032d580259e4b2",
+      "bytes": 1061
+    },
+    {
+      "repository": "tuxalin/procedural-tileable-shaders",
+      "commit": "3b867954908418427683f705671b236db0454235",
+      "path": "voronoi.glsl",
+      "url": "https://raw.githubusercontent.com/tuxalin/procedural-tileable-shaders/3b867954908418427683f705671b236db0454235/voronoi.glsl",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/tuxalin--procedural-tileable-shaders--voronoi.glsl",
+      "sha256": "430dbbb157c58b32dc9081c5946a13210c38c50263c4e22dbf0059fd42963eab",
+      "gitBlobShaComputed": "c94783dad13cf3334e14c875bb444b40693b8ed6",
+      "bytes": 7872
+    },
+    {
+      "repository": "patriciogonzalezvivo/lygia",
+      "commit": "ce08fe351478b6c14297d103a8ce98d8e787d4d2",
+      "path": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/patriciogonzalezvivo/lygia/ce08fe351478b6c14297d103a8ce98d8e787d4d2/LICENSE.md",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--LICENSE.md",
+      "sha256": "07011ea2ef9819e2aa019dff343fcfcdb24d9826e42d25b6a71ac4e77910b926",
+      "gitBlobShaComputed": "74482d28f0014fb2c737224ebd6a684d6e4371c3",
+      "bytes": 3096
+    },
+    {
+      "repository": "playcanvas/engine",
+      "commit": "2241ec1f3dc4d7ab75215c4d032a99f3f4307309",
+      "path": "commit.json",
+      "url": "https://raw.githubusercontent.com/playcanvas/engine/2241ec1f3dc4d7ab75215c4d032a99f3f4307309/commit.json",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/playcanvas--engine--commit.json",
+      "sha256": "e378b79c4b2de3a284d303390df5cf638b288ff325807a5d731d6b582194f85f",
+      "gitBlobShaComputed": "56e2e296474621ab3bf9d476a0f8b5f842b0719b",
+      "bytes": 3178
+    },
+    {
+      "repository": "playcanvas/engine",
+      "commit": "2241ec1f3dc4d7ab75215c4d032a99f3f4307309",
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/playcanvas/engine/2241ec1f3dc4d7ab75215c4d032a99f3f4307309/LICENSE",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/playcanvas--engine--LICENSE",
+      "sha256": "42fa51ddd556be151a29f381fb97ee975825dcc454e805ea3ea9c079cca04d34",
+      "gitBlobShaComputed": "7f478db6d47a259cd70f74b1e69d8ce407fd0912",
+      "bytes": 1064
+    },
+    {
+      "repository": "playcanvas/engine",
+      "commit": "2241ec1f3dc4d7ab75215c4d032a99f3f4307309",
+      "path": "src/scene/shader-lib/glsl/chunks/lit/frag/reflDirAniso.js",
+      "url": "https://raw.githubusercontent.com/playcanvas/engine/2241ec1f3dc4d7ab75215c4d032a99f3f4307309/src/scene/shader-lib/glsl/chunks/lit/frag/reflDirAniso.js",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/playcanvas--engine--src_scene_shader-lib_glsl_chunks_lit_frag_reflDirAniso.js",
+      "sha256": "eccefe7685e30854b704e3cbaa749cb3d33a159d3d53ee3a266a3af4a9cb7808",
+      "gitBlobShaComputed": "80c377917509a3721ed2347fc28677795b84113d",
+      "bytes": 843
+    },
+    {
+      "repository": "patriciogonzalezvivo/lygia",
+      "commit": "ce08fe351478b6c14297d103a8ce98d8e787d4d2",
+      "path": "color/layer/reflectSourceOver.wgsl",
+      "url": "https://raw.githubusercontent.com/patriciogonzalezvivo/lygia/ce08fe351478b6c14297d103a8ce98d8e787d4d2/color/layer/reflectSourceOver.wgsl",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--color_layer_reflectSourceOver.wgsl",
+      "sha256": "5f68b0aa606ae410247b715c4553dce8a8db98fc6310dfd18f92584b52a30621",
+      "gitBlobShaComputed": "a48605e3b6e21b8ad3acec4196915c688aa2bcd6",
+      "bytes": 928
+    }
+  ],
+  "failures": [
+    {
+      "repository": "patriciogonzalezvivo/lygia",
+      "path": "LICENSE",
+      "status": 404
+    },
+    {
+      "repository": "playcanvas/engine",
+      "path": "src/scene/shader-lib/chunks/lit/frag/reflDirAniso.js",
+      "status": 404
+    }
+  ],
+  "sourceCodeExecuted": false,
+  "unauthenticatedRateLimitStop": false
+}

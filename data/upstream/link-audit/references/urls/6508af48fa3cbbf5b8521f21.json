@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/VFitter/framewave",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/VFitter/framewave",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/VFitter/framewave",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/VFitter/framewave",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:51.004699+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/VFitter/framewave",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "b46f38bc32934d877c15ad9572b04f5fcec61e46ad7e5d792daac2fc2d348631",
+      "responseBodySha256": "b46f38bc32934d877c15ad9572b04f5fcec61e46ad7e5d792daac2fc2d348631",
+      "title": "GitHub - VFitter/framewave: GPU-first, deterministic motion graphics for the web. WebGPU rendering, WebCodecs export, analytic springs, OKLab color. MIT. · GitHub",
+      "textCharacters": 3040,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.882,
+      "captureCachePath": "exa-results/link-audit/references/captures/8fec750648b0374e8854d391.json",
+      "captureCacheSha256": "18948f5a3e7110b6d079d2d1960a951977cc0ad57d6c138c4aab71636d97d1fb"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-framewave",
+      "canonicalId": "ref-framewave",
+      "title": "Framewave",
+      "role": "canonical",
+      "sourceSha256": "15c51b96337d83962ea181d0a72acc5b8b5d53b884e8f7831a59cfd88c512ff8"
+    }
+  ]
+}

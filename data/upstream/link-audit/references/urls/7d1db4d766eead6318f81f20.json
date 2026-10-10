@@ -1,0 +1,90 @@
+{
+  "url": "https://glaze.dev/docs/timelines",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://glaze.dev/docs/timelines/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://glaze.dev/docs/timelines",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://glaze.dev/robots.txt",
+      "robotsStatus": 200
+    },
+    {
+      "url": "https://glaze.dev/docs/timelines/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://glaze.dev/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://glaze.dev/docs/timelines",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:30.242430+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 301,
+      "finalUrl": "https://glaze.dev/docs/timelines",
+      "contentType": "text/html; charset=UTF-8",
+      "location": "https://glaze.dev/docs/timelines/",
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 0,
+      "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "responseBodySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "",
+      "textCharacters": 0,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 2.511,
+      "captureCachePath": "exa-results/link-audit/references/captures/f3246005678c7a976f0b9944.json",
+      "captureCacheSha256": "4eacb9a2e1e7a87f06d3559b393e15349327f6341688a0ba8e0fbde7d79f8724"
+    },
+    {
+      "url": "https://glaze.dev/docs/timelines/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:32.767118+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://glaze.dev/docs/timelines/",
+      "contentType": "text/html; charset=UTF-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 65440,
+      "capturedSha256": "b77a2ff9cab625c9d0d5184a0d1e4dcac1ae8de00100d2b2426a3c13750de7fe",
+      "responseBodySha256": "b77a2ff9cab625c9d0d5184a0d1e4dcac1ae8de00100d2b2426a3c13750de7fe",
+      "title": "Timelines - Glaze",
+      "textCharacters": 3713,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.455,
+      "captureCachePath": "exa-results/link-audit/references/captures/2fc21ae85fc3689036aa1431.json",
+      "captureCacheSha256": "7e0590944f102ef1fa16a86c9cfdf168d3fa945758b333cd050f7cbb261c2333"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-glaze",
+      "canonicalId": "ref-glaze",
+      "title": "Glaze",
+      "role": "canonical",
+      "sourceSha256": "d71878afe324951c2ec78c0e0a5567b500466ef0b2d99f04460a490bbab445b6"
+    }
+  ]
+}

@@ -1,0 +1,5808 @@
+[
+  {
+    "key": "monster:waves-1",
+    "id": "design-exp12-monster-waves-1",
+    "source": "monster",
+    "family": "waves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:waves-2",
+    "id": "design-exp12-monster-waves-2",
+    "source": "monster",
+    "family": "waves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:waves-3",
+    "id": "design-exp12-monster-waves-3",
+    "source": "monster",
+    "family": "waves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:waves-4",
+    "id": "design-exp12-monster-waves-4",
+    "source": "monster",
+    "family": "waves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:waves-5",
+    "id": "design-exp12-monster-waves-5",
+    "source": "monster",
+    "family": "waves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:waves-6",
+    "id": "design-exp12-monster-waves-6",
+    "source": "monster",
+    "family": "waves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:waves-7",
+    "id": "design-exp12-monster-waves-7",
+    "source": "monster",
+    "family": "waves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:chevron-1",
+    "id": "design-exp12-monster-chevron-1",
+    "source": "monster",
+    "family": "chevron",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:chevron-2",
+    "id": "design-exp12-monster-chevron-2",
+    "source": "monster",
+    "family": "chevron",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:chevron-3",
+    "id": "design-exp12-monster-chevron-3",
+    "source": "monster",
+    "family": "chevron",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:straight-lines",
+    "id": "design-exp12-monster-straight-lines",
+    "source": "monster",
+    "family": "straight-lines",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:cross-section",
+    "id": "design-exp12-monster-cross-section",
+    "source": "monster",
+    "family": "cross-section",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:brick-wall-1",
+    "id": "design-exp12-monster-brick-wall-1",
+    "source": "monster",
+    "family": "brick-wall",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:brick-wall-2",
+    "id": "design-exp12-monster-brick-wall-2",
+    "source": "monster",
+    "family": "brick-wall",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:herringbone-1",
+    "id": "design-exp12-monster-herringbone-1",
+    "source": "monster",
+    "family": "herringbone",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:herringbone-2",
+    "id": "design-exp12-monster-herringbone-2",
+    "source": "monster",
+    "family": "herringbone",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:herringbone-3",
+    "id": "design-exp12-monster-herringbone-3",
+    "source": "monster",
+    "family": "herringbone",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:herringbone-4",
+    "id": "design-exp12-monster-herringbone-4",
+    "source": "monster",
+    "family": "herringbone",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:herringbone-5",
+    "id": "design-exp12-monster-herringbone-5",
+    "source": "monster",
+    "family": "herringbone",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:herringbone-6",
+    "id": "design-exp12-monster-herringbone-6",
+    "source": "monster",
+    "family": "herringbone",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:herringbone-7",
+    "id": "design-exp12-monster-herringbone-7",
+    "source": "monster",
+    "family": "herringbone",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:herringbone-8",
+    "id": "design-exp12-monster-herringbone-8",
+    "source": "monster",
+    "family": "herringbone",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:flower-1",
+    "id": "design-exp12-monster-flower-1",
+    "source": "monster",
+    "family": "flower",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:flower-2",
+    "id": "design-exp12-monster-flower-2",
+    "source": "monster",
+    "family": "flower",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:flower-3",
+    "id": "design-exp12-monster-flower-3",
+    "source": "monster",
+    "family": "flower",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:flower-4",
+    "id": "design-exp12-monster-flower-4",
+    "source": "monster",
+    "family": "flower",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:flower-5",
+    "id": "design-exp12-monster-flower-5",
+    "source": "monster",
+    "family": "flower",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:flower-6",
+    "id": "design-exp12-monster-flower-6",
+    "source": "monster",
+    "family": "flower",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:flower-7",
+    "id": "design-exp12-monster-flower-7",
+    "source": "monster",
+    "family": "flower",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:plus-1",
+    "id": "design-exp12-monster-plus-1",
+    "source": "monster",
+    "family": "plus",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:plus-2",
+    "id": "design-exp12-monster-plus-2",
+    "source": "monster",
+    "family": "plus",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:plus-3",
+    "id": "design-exp12-monster-plus-3",
+    "source": "monster",
+    "family": "plus",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:plus-4",
+    "id": "design-exp12-monster-plus-4",
+    "source": "monster",
+    "family": "plus",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:circles-1",
+    "id": "design-exp12-monster-circles-1",
+    "source": "monster",
+    "family": "circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:circles-2",
+    "id": "design-exp12-monster-circles-2",
+    "source": "monster",
+    "family": "circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:circles-3",
+    "id": "design-exp12-monster-circles-3",
+    "source": "monster",
+    "family": "circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:circles-4",
+    "id": "design-exp12-monster-circles-4",
+    "source": "monster",
+    "family": "circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:circles-5",
+    "id": "design-exp12-monster-circles-5",
+    "source": "monster",
+    "family": "circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:circles-6",
+    "id": "design-exp12-monster-circles-6",
+    "source": "monster",
+    "family": "circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:circles-7",
+    "id": "design-exp12-monster-circles-7",
+    "source": "monster",
+    "family": "circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:concentric-circles-1",
+    "id": "design-exp12-monster-concentric-circles-1",
+    "source": "monster",
+    "family": "concentric-circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:concentric-circles-2",
+    "id": "design-exp12-monster-concentric-circles-2",
+    "source": "monster",
+    "family": "concentric-circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:concentric-circles-3",
+    "id": "design-exp12-monster-concentric-circles-3",
+    "source": "monster",
+    "family": "concentric-circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:adjointed-circles",
+    "id": "design-exp12-monster-adjointed-circles",
+    "source": "monster",
+    "family": "adjointed-circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:adjointed-diamonds",
+    "id": "design-exp12-monster-adjointed-diamonds",
+    "source": "monster",
+    "family": "adjointed-diamonds",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:diamonds-1",
+    "id": "design-exp12-monster-diamonds-1",
+    "source": "monster",
+    "family": "diamonds",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:diamonds-2",
+    "id": "design-exp12-monster-diamonds-2",
+    "source": "monster",
+    "family": "diamonds",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:diamonds-3",
+    "id": "design-exp12-monster-diamonds-3",
+    "source": "monster",
+    "family": "diamonds",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:hexagon-1",
+    "id": "design-exp12-monster-hexagon-1",
+    "source": "monster",
+    "family": "hexagon",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:hexagon-2",
+    "id": "design-exp12-monster-hexagon-2",
+    "source": "monster",
+    "family": "hexagon",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:hexagon-3",
+    "id": "design-exp12-monster-hexagon-3",
+    "source": "monster",
+    "family": "hexagon",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:hexagon-4",
+    "id": "design-exp12-monster-hexagon-4",
+    "source": "monster",
+    "family": "hexagon",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:hexagon-5",
+    "id": "design-exp12-monster-hexagon-5",
+    "source": "monster",
+    "family": "hexagon",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:hexagon-6",
+    "id": "design-exp12-monster-hexagon-6",
+    "source": "monster",
+    "family": "hexagon",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:hexagon-7",
+    "id": "design-exp12-monster-hexagon-7",
+    "source": "monster",
+    "family": "hexagon",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:hexagon-8",
+    "id": "design-exp12-monster-hexagon-8",
+    "source": "monster",
+    "family": "hexagon",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:overlapping-hexagons",
+    "id": "design-exp12-monster-overlapping-hexagons",
+    "source": "monster",
+    "family": "overlapping-hexagons",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:squares-and-squares-1",
+    "id": "design-exp12-monster-squares-and-squares-1",
+    "source": "monster",
+    "family": "squares-and-squares",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:squares-and-squares-2",
+    "id": "design-exp12-monster-squares-and-squares-2",
+    "source": "monster",
+    "family": "squares-and-squares",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:squares-and-diamonds",
+    "id": "design-exp12-monster-squares-and-diamonds",
+    "source": "monster",
+    "family": "squares-and-diamonds",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:squares-and-circles-1",
+    "id": "design-exp12-monster-squares-and-circles-1",
+    "source": "monster",
+    "family": "squares-and-circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:squares-and-circles-2",
+    "id": "design-exp12-monster-squares-and-circles-2",
+    "source": "monster",
+    "family": "squares-and-circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:squares-and-plus-1",
+    "id": "design-exp12-monster-squares-and-plus-1",
+    "source": "monster",
+    "family": "squares-and-plus",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:squares-and-plus-2",
+    "id": "design-exp12-monster-squares-and-plus-2",
+    "source": "monster",
+    "family": "squares-and-plus",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:squares-and-stars-1",
+    "id": "design-exp12-monster-squares-and-stars-1",
+    "source": "monster",
+    "family": "squares-and-stars",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:squares-and-stars-2",
+    "id": "design-exp12-monster-squares-and-stars-2",
+    "source": "monster",
+    "family": "squares-and-stars",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:stars-and-lines-1",
+    "id": "design-exp12-monster-stars-and-lines-1",
+    "source": "monster",
+    "family": "stars-and-lines",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:stars-and-lines-2",
+    "id": "design-exp12-monster-stars-and-lines-2",
+    "source": "monster",
+    "family": "stars-and-lines",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:triangles-1",
+    "id": "design-exp12-monster-triangles-1",
+    "source": "monster",
+    "family": "triangles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:triangles-2",
+    "id": "design-exp12-monster-triangles-2",
+    "source": "monster",
+    "family": "triangles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:triangles-3",
+    "id": "design-exp12-monster-triangles-3",
+    "source": "monster",
+    "family": "triangles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:triangles-4",
+    "id": "design-exp12-monster-triangles-4",
+    "source": "monster",
+    "family": "triangles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:triangles-5",
+    "id": "design-exp12-monster-triangles-5",
+    "source": "monster",
+    "family": "triangles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:triangles-6",
+    "id": "design-exp12-monster-triangles-6",
+    "source": "monster",
+    "family": "triangles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:triangles-7",
+    "id": "design-exp12-monster-triangles-7",
+    "source": "monster",
+    "family": "triangles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:triangles-8",
+    "id": "design-exp12-monster-triangles-8",
+    "source": "monster",
+    "family": "triangles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:triangles-9",
+    "id": "design-exp12-monster-triangles-9",
+    "source": "monster",
+    "family": "triangles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:triangles-10",
+    "id": "design-exp12-monster-triangles-10",
+    "source": "monster",
+    "family": "triangles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:inverted-triangles",
+    "id": "design-exp12-monster-inverted-triangles",
+    "source": "monster",
+    "family": "inverted-triangles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:checkerboard",
+    "id": "design-exp12-monster-checkerboard",
+    "source": "monster",
+    "family": "checkerboard",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:japanese-pattern-1",
+    "id": "design-exp12-monster-japanese-pattern-1",
+    "source": "monster",
+    "family": "japanese-pattern",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:japanese-pattern-2",
+    "id": "design-exp12-monster-japanese-pattern-2",
+    "source": "monster",
+    "family": "japanese-pattern",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:japanese-pattern-3",
+    "id": "design-exp12-monster-japanese-pattern-3",
+    "source": "monster",
+    "family": "japanese-pattern",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:japanese-pattern-4",
+    "id": "design-exp12-monster-japanese-pattern-4",
+    "source": "monster",
+    "family": "japanese-pattern",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:japanese-pattern-5",
+    "id": "design-exp12-monster-japanese-pattern-5",
+    "source": "monster",
+    "family": "japanese-pattern",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:japanese-pattern-6",
+    "id": "design-exp12-monster-japanese-pattern-6",
+    "source": "monster",
+    "family": "japanese-pattern",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:eyes-1",
+    "id": "design-exp12-monster-eyes-1",
+    "source": "monster",
+    "family": "eyes",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:eyes-2",
+    "id": "design-exp12-monster-eyes-2",
+    "source": "monster",
+    "family": "eyes",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:eyes-3",
+    "id": "design-exp12-monster-eyes-3",
+    "source": "monster",
+    "family": "eyes",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:eyes-4",
+    "id": "design-exp12-monster-eyes-4",
+    "source": "monster",
+    "family": "eyes",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:jigsaw",
+    "id": "design-exp12-monster-jigsaw",
+    "source": "monster",
+    "family": "jigsaw",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:railroad",
+    "id": "design-exp12-monster-railroad",
+    "source": "monster",
+    "family": "railroad",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:octagons-1",
+    "id": "design-exp12-monster-octagons-1",
+    "source": "monster",
+    "family": "octagons",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:octagons-2",
+    "id": "design-exp12-monster-octagons-2",
+    "source": "monster",
+    "family": "octagons",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:lines-1",
+    "id": "design-exp12-monster-lines-1",
+    "source": "monster",
+    "family": "lines",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:lines-2",
+    "id": "design-exp12-monster-lines-2",
+    "source": "monster",
+    "family": "lines",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:scales-1",
+    "id": "design-exp12-monster-scales-1",
+    "source": "monster",
+    "family": "scales",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:scales-2",
+    "id": "design-exp12-monster-scales-2",
+    "source": "monster",
+    "family": "scales",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:scales-3",
+    "id": "design-exp12-monster-scales-3",
+    "source": "monster",
+    "family": "scales",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:scales-4",
+    "id": "design-exp12-monster-scales-4",
+    "source": "monster",
+    "family": "scales",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:leaves-1",
+    "id": "design-exp12-monster-leaves-1",
+    "source": "monster",
+    "family": "leaves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:leaves-2",
+    "id": "design-exp12-monster-leaves-2",
+    "source": "monster",
+    "family": "leaves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:leaves-3",
+    "id": "design-exp12-monster-leaves-3",
+    "source": "monster",
+    "family": "leaves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:leaves-4",
+    "id": "design-exp12-monster-leaves-4",
+    "source": "monster",
+    "family": "leaves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:leaves-5",
+    "id": "design-exp12-monster-leaves-5",
+    "source": "monster",
+    "family": "leaves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:leaves-6",
+    "id": "design-exp12-monster-leaves-6",
+    "source": "monster",
+    "family": "leaves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:leaves-7",
+    "source": "monster",
+    "status": "rejected",
+    "reason": "unsupported-svg-definition"
+  },
+  {
+    "key": "monster:leaves-8",
+    "id": "design-exp12-monster-leaves-8",
+    "source": "monster",
+    "family": "leaves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:pipes",
+    "id": "design-exp12-monster-pipes",
+    "source": "monster",
+    "family": "pipes",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:zebra",
+    "id": "design-exp12-monster-zebra",
+    "source": "monster",
+    "family": "zebra",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:memphis-1",
+    "id": "design-exp12-monster-memphis-1",
+    "source": "monster",
+    "family": "memphis",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:memphis-2",
+    "id": "design-exp12-monster-memphis-2",
+    "source": "monster",
+    "family": "memphis",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:memphis-3",
+    "id": "design-exp12-monster-memphis-3",
+    "source": "monster",
+    "family": "memphis",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:memphis-4",
+    "id": "design-exp12-monster-memphis-4",
+    "source": "monster",
+    "family": "memphis",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:memphis-5",
+    "id": "design-exp12-monster-memphis-5",
+    "source": "monster",
+    "family": "memphis",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:memphis-6",
+    "id": "design-exp12-monster-memphis-6",
+    "source": "monster",
+    "family": "memphis",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:greek-key",
+    "id": "design-exp12-monster-greek-key",
+    "source": "monster",
+    "family": "greek-key",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:chinese-1",
+    "id": "design-exp12-monster-chinese-1",
+    "source": "monster",
+    "family": "chinese",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:chinese-2",
+    "id": "design-exp12-monster-chinese-2",
+    "source": "monster",
+    "family": "chinese",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:chinese-3",
+    "id": "design-exp12-monster-chinese-3",
+    "source": "monster",
+    "family": "chinese",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:chinese-4",
+    "id": "design-exp12-monster-chinese-4",
+    "source": "monster",
+    "family": "chinese",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:chinese-5",
+    "id": "design-exp12-monster-chinese-5",
+    "source": "monster",
+    "family": "chinese",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:chinese-6",
+    "id": "design-exp12-monster-chinese-6",
+    "source": "monster",
+    "family": "chinese",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:chinese-7",
+    "id": "design-exp12-monster-chinese-7",
+    "source": "monster",
+    "family": "chinese",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:chinese-8",
+    "source": "monster",
+    "status": "rejected",
+    "reason": "unsupported-svg-definition"
+  },
+  {
+    "key": "monster:chinese-9",
+    "id": "design-exp12-monster-chinese-9",
+    "source": "monster",
+    "family": "chinese",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:new-1",
+    "id": "design-exp12-monster-new-1",
+    "source": "monster",
+    "family": "new",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:new-2",
+    "id": "design-exp12-monster-new-2",
+    "source": "monster",
+    "family": "new",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:new-3",
+    "id": "design-exp12-monster-new-3",
+    "source": "monster",
+    "family": "new",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:new-4",
+    "id": "design-exp12-monster-new-4",
+    "source": "monster",
+    "family": "new",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:new-5",
+    "id": "design-exp12-monster-new-5",
+    "source": "monster",
+    "family": "new",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:new-6",
+    "id": "design-exp12-monster-new-6",
+    "source": "monster",
+    "family": "new",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:new-7",
+    "id": "design-exp12-monster-new-7",
+    "source": "monster",
+    "family": "new",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:new-8",
+    "id": "design-exp12-monster-new-8",
+    "source": "monster",
+    "family": "new",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:new-9",
+    "id": "design-exp12-monster-new-9",
+    "source": "monster",
+    "family": "new",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:new-10",
+    "id": "design-exp12-monster-new-10",
+    "source": "monster",
+    "family": "new",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:new-11",
+    "id": "design-exp12-monster-new-11",
+    "source": "monster",
+    "family": "new",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:new-12",
+    "id": "design-exp12-monster-new-12",
+    "source": "monster",
+    "family": "new",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:new-13",
+    "id": "design-exp12-monster-new-13",
+    "source": "monster",
+    "family": "new",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:new-14",
+    "id": "design-exp12-monster-new-14",
+    "source": "monster",
+    "family": "new",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:new-15",
+    "id": "design-exp12-monster-new-15",
+    "source": "monster",
+    "family": "new",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:new-16",
+    "id": "design-exp12-monster-new-16",
+    "source": "monster",
+    "family": "new",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:new-17",
+    "id": "design-exp12-monster-new-17",
+    "source": "monster",
+    "family": "new",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:double-bubble-1",
+    "id": "design-exp12-monster-double-bubble-1",
+    "source": "monster",
+    "family": "double-bubble",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:double-bubble-2",
+    "id": "design-exp12-monster-double-bubble-2",
+    "source": "monster",
+    "family": "double-bubble",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:stars-1",
+    "id": "design-exp12-monster-stars-1",
+    "source": "monster",
+    "family": "stars",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:stars-2",
+    "id": "design-exp12-monster-stars-2",
+    "source": "monster",
+    "family": "stars",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:stars-3",
+    "id": "design-exp12-monster-stars-3",
+    "source": "monster",
+    "family": "stars",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:stars-4",
+    "id": "design-exp12-monster-stars-4",
+    "source": "monster",
+    "family": "stars",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:stars-5",
+    "id": "design-exp12-monster-stars-5",
+    "source": "monster",
+    "family": "stars",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:stars-6",
+    "id": "design-exp12-monster-stars-6",
+    "source": "monster",
+    "family": "stars",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:semicircles-1",
+    "id": "design-exp12-monster-semicircles-1",
+    "source": "monster",
+    "family": "semicircles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:songket-1",
+    "id": "design-exp12-monster-songket-1",
+    "source": "monster",
+    "family": "songket",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:christmas-tree-1",
+    "id": "design-exp12-monster-christmas-tree-1",
+    "source": "monster",
+    "family": "christmas-tree",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:candy-cane-1",
+    "id": "design-exp12-monster-candy-cane-1",
+    "source": "monster",
+    "family": "candy-cane",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:christmas-bells-1",
+    "id": "design-exp12-monster-christmas-bells-1",
+    "source": "monster",
+    "family": "christmas-bells",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:christmas-pattern-1",
+    "source": "monster",
+    "status": "rejected",
+    "reason": "svg-attribute-bound"
+  },
+  {
+    "key": "monster:christmas-pattern-2",
+    "id": "design-exp12-monster-christmas-pattern-2",
+    "source": "monster",
+    "family": "christmas-pattern",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:christmas-pattern-3",
+    "id": "design-exp12-monster-christmas-pattern-3",
+    "source": "monster",
+    "family": "christmas-pattern",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:snowflakes-1",
+    "id": "design-exp12-monster-snowflakes-1",
+    "source": "monster",
+    "family": "snowflakes",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:christmas-tree-balls",
+    "id": "design-exp12-monster-christmas-tree-balls",
+    "source": "monster",
+    "family": "christmas-tree-balls",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:santa-claus",
+    "id": "design-exp12-monster-santa-claus",
+    "source": "monster",
+    "family": "santa-claus",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:christmas-gift",
+    "id": "design-exp12-monster-christmas-gift",
+    "source": "monster",
+    "family": "christmas-gift",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:cubes-1",
+    "id": "design-exp12-monster-cubes-1",
+    "source": "monster",
+    "family": "cubes",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:cubes-2",
+    "id": "design-exp12-monster-cubes-2",
+    "source": "monster",
+    "family": "cubes",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:cubes-3",
+    "id": "design-exp12-monster-cubes-3",
+    "source": "monster",
+    "family": "cubes",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:stained-glass",
+    "id": "design-exp12-monster-stained-glass",
+    "source": "monster",
+    "family": "stained-glass",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:tiles-1",
+    "id": "design-exp12-monster-tiles-1",
+    "source": "monster",
+    "family": "tiles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:rectangles-and-squares-1",
+    "id": "design-exp12-monster-rectangles-and-squares-1",
+    "source": "monster",
+    "family": "rectangles-and-squares",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:mexican-pattern-1",
+    "id": "design-exp12-monster-mexican-pattern-1",
+    "source": "monster",
+    "family": "mexican-pattern",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:mexican-pattern-2",
+    "source": "monster",
+    "status": "rejected",
+    "reason": "unsupported-svg-definition"
+  },
+  {
+    "key": "monster:ethnic-pattern-1",
+    "id": "design-exp12-monster-ethnic-pattern-1",
+    "source": "monster",
+    "family": "ethnic-pattern",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:ethnic-pattern-2",
+    "id": "design-exp12-monster-ethnic-pattern-2",
+    "source": "monster",
+    "family": "ethnic-pattern",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:ethnic-pattern-3",
+    "id": "design-exp12-monster-ethnic-pattern-3",
+    "source": "monster",
+    "family": "ethnic-pattern",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:plaid-pattern-1",
+    "id": "design-exp12-monster-plaid-pattern-1",
+    "source": "monster",
+    "family": "plaid-pattern",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:plaid-pattern-2",
+    "id": "design-exp12-monster-plaid-pattern-2",
+    "source": "monster",
+    "family": "plaid-pattern",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:plaid-pattern-3",
+    "id": "design-exp12-monster-plaid-pattern-3",
+    "source": "monster",
+    "family": "plaid-pattern",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:plaid-pattern-4",
+    "id": "design-exp12-monster-plaid-pattern-4",
+    "source": "monster",
+    "family": "plaid-pattern",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:doodle-1",
+    "id": "design-exp12-monster-doodle-1",
+    "source": "monster",
+    "family": "doodle",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:doodle-2",
+    "id": "design-exp12-monster-doodle-2",
+    "source": "monster",
+    "family": "doodle",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:batik-1",
+    "id": "design-exp12-monster-batik-1",
+    "source": "monster",
+    "family": "batik",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:batik-2",
+    "id": "design-exp12-monster-batik-2",
+    "source": "monster",
+    "family": "batik",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:batik-3",
+    "id": "design-exp12-monster-batik-3",
+    "source": "monster",
+    "family": "batik",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:batik-4",
+    "id": "design-exp12-monster-batik-4",
+    "source": "monster",
+    "family": "batik",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:batik-5",
+    "id": "design-exp12-monster-batik-5",
+    "source": "monster",
+    "family": "batik",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:batik-6",
+    "id": "design-exp12-monster-batik-6",
+    "source": "monster",
+    "family": "batik",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:african-1",
+    "id": "design-exp12-monster-african-1",
+    "source": "monster",
+    "family": "african",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:african-2",
+    "id": "design-exp12-monster-african-2",
+    "source": "monster",
+    "family": "african",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:african-3",
+    "id": "design-exp12-monster-african-3",
+    "source": "monster",
+    "family": "african",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:african-4",
+    "id": "design-exp12-monster-african-4",
+    "source": "monster",
+    "family": "african",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:triangles-11",
+    "id": "design-exp12-monster-triangles-11",
+    "source": "monster",
+    "family": "triangles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:hexagon-9",
+    "id": "design-exp12-monster-hexagon-9",
+    "source": "monster",
+    "family": "hexagon",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:tiles-2",
+    "id": "design-exp12-monster-tiles-2",
+    "source": "monster",
+    "family": "tiles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:tiles-3",
+    "id": "design-exp12-monster-tiles-3",
+    "source": "monster",
+    "family": "tiles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:tribal-1",
+    "id": "design-exp12-monster-tribal-1",
+    "source": "monster",
+    "family": "tribal",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:tribal-2",
+    "id": "design-exp12-monster-tribal-2",
+    "source": "monster",
+    "family": "tribal",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:waves-8",
+    "id": "design-exp12-monster-waves-8",
+    "source": "monster",
+    "family": "waves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:leaves-9",
+    "id": "design-exp12-monster-leaves-9",
+    "source": "monster",
+    "family": "leaves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:blobs",
+    "id": "design-exp12-monster-blobs",
+    "source": "monster",
+    "family": "blobs",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:african-5",
+    "id": "design-exp12-monster-african-5",
+    "source": "monster",
+    "family": "african",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:triangles-12",
+    "id": "design-exp12-monster-triangles-12",
+    "source": "monster",
+    "family": "triangles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:squares-and-triangles-1",
+    "id": "design-exp12-monster-squares-and-triangles-1",
+    "source": "monster",
+    "family": "squares-and-triangles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:tribal-3",
+    "id": "design-exp12-monster-tribal-3",
+    "source": "monster",
+    "family": "tribal",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:circles-8",
+    "id": "design-exp12-monster-circles-8",
+    "source": "monster",
+    "family": "circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:triangles-13",
+    "id": "design-exp12-monster-triangles-13",
+    "source": "monster",
+    "family": "triangles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:triangles-14",
+    "id": "design-exp12-monster-triangles-14",
+    "source": "monster",
+    "family": "triangles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:triangles-15",
+    "id": "design-exp12-monster-triangles-15",
+    "source": "monster",
+    "family": "triangles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:triangles-16",
+    "id": "design-exp12-monster-triangles-16",
+    "source": "monster",
+    "family": "triangles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:circles-9",
+    "id": "design-exp12-monster-circles-9",
+    "source": "monster",
+    "family": "circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:concentric-circles-4",
+    "id": "design-exp12-monster-concentric-circles-4",
+    "source": "monster",
+    "family": "concentric-circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:concentric-circles-5",
+    "id": "design-exp12-monster-concentric-circles-5",
+    "source": "monster",
+    "family": "concentric-circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:concentric-circles-6",
+    "id": "design-exp12-monster-concentric-circles-6",
+    "source": "monster",
+    "family": "concentric-circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:stripes-1",
+    "id": "design-exp12-monster-stripes-1",
+    "source": "monster",
+    "family": "stripes",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:stripes-2",
+    "id": "design-exp12-monster-stripes-2",
+    "source": "monster",
+    "family": "stripes",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:chevron-4",
+    "id": "design-exp12-monster-chevron-4",
+    "source": "monster",
+    "family": "chevron",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:chevron-5",
+    "id": "design-exp12-monster-chevron-5",
+    "source": "monster",
+    "family": "chevron",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:terrazzo-1",
+    "id": "design-exp12-monster-terrazzo-1",
+    "source": "monster",
+    "family": "terrazzo",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:geometric-1",
+    "id": "design-exp12-monster-geometric-1",
+    "source": "monster",
+    "family": "geometric",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:halloween-1",
+    "id": "design-exp12-monster-halloween-1",
+    "source": "monster",
+    "family": "halloween",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:halloween-2",
+    "id": "design-exp12-monster-halloween-2",
+    "source": "monster",
+    "family": "halloween",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:halloween-3",
+    "id": "design-exp12-monster-halloween-3",
+    "source": "monster",
+    "family": "halloween",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:halloween-4",
+    "id": "design-exp12-monster-halloween-4",
+    "source": "monster",
+    "family": "halloween",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:halloween-5",
+    "id": "design-exp12-monster-halloween-5",
+    "source": "monster",
+    "family": "halloween",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:halloween-6",
+    "id": "design-exp12-monster-halloween-6",
+    "source": "monster",
+    "family": "halloween",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:hexagon-10",
+    "id": "design-exp12-monster-hexagon-10",
+    "source": "monster",
+    "family": "hexagon",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:hexagon-11",
+    "id": "design-exp12-monster-hexagon-11",
+    "source": "monster",
+    "family": "hexagon",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:squares-1",
+    "id": "design-exp12-monster-squares-1",
+    "source": "monster",
+    "family": "squares",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:squares-2",
+    "id": "design-exp12-monster-squares-2",
+    "source": "monster",
+    "family": "squares",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:sprinkles-1",
+    "id": "design-exp12-monster-sprinkles-1",
+    "source": "monster",
+    "family": "sprinkles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:cubes-4",
+    "id": "design-exp12-monster-cubes-4",
+    "source": "monster",
+    "family": "cubes",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:geometric-2",
+    "id": "design-exp12-monster-geometric-2",
+    "source": "monster",
+    "family": "geometric",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:geometric-3",
+    "id": "design-exp12-monster-geometric-3",
+    "source": "monster",
+    "family": "geometric",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:geometric-4",
+    "id": "design-exp12-monster-geometric-4",
+    "source": "monster",
+    "family": "geometric",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:circles-10",
+    "id": "design-exp12-monster-circles-10",
+    "source": "monster",
+    "family": "circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:circles-11",
+    "id": "design-exp12-monster-circles-11",
+    "source": "monster",
+    "family": "circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:circles-12",
+    "id": "design-exp12-monster-circles-12",
+    "source": "monster",
+    "family": "circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:triangles-17",
+    "id": "design-exp12-monster-triangles-17",
+    "source": "monster",
+    "family": "triangles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:triangles-18",
+    "id": "design-exp12-monster-triangles-18",
+    "source": "monster",
+    "family": "triangles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:geometric-5",
+    "id": "design-exp12-monster-geometric-5",
+    "source": "monster",
+    "family": "geometric",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:geometric-6",
+    "id": "design-exp12-monster-geometric-6",
+    "source": "monster",
+    "family": "geometric",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:squiggle-1",
+    "id": "design-exp12-monster-squiggle-1",
+    "source": "monster",
+    "family": "squiggle",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:moroccan-1",
+    "id": "design-exp12-monster-moroccan-1",
+    "source": "monster",
+    "family": "moroccan",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:moroccan-2",
+    "id": "design-exp12-monster-moroccan-2",
+    "source": "monster",
+    "family": "moroccan",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:japanese-pattern-7",
+    "id": "design-exp12-monster-japanese-pattern-7",
+    "source": "monster",
+    "family": "japanese-pattern",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:waves-9",
+    "id": "design-exp12-monster-waves-9",
+    "source": "monster",
+    "family": "waves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:christmas-pattern-4",
+    "id": "design-exp12-monster-christmas-pattern-4",
+    "source": "monster",
+    "family": "christmas-pattern",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:christmas-pattern-5",
+    "id": "design-exp12-monster-christmas-pattern-5",
+    "source": "monster",
+    "family": "christmas-pattern",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:plaid-pattern-5",
+    "id": "design-exp12-monster-plaid-pattern-5",
+    "source": "monster",
+    "family": "plaid-pattern",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:plaid-pattern-6",
+    "id": "design-exp12-monster-plaid-pattern-6",
+    "source": "monster",
+    "family": "plaid-pattern",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:circles-13",
+    "id": "design-exp12-monster-circles-13",
+    "source": "monster",
+    "family": "circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:circles-14",
+    "id": "design-exp12-monster-circles-14",
+    "source": "monster",
+    "family": "circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:interlocked-hexagons-1",
+    "id": "design-exp12-monster-interlocked-hexagons-1",
+    "source": "monster",
+    "family": "interlocked-hexagons",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:interlocked-hexagons-2",
+    "id": "design-exp12-monster-interlocked-hexagons-2",
+    "source": "monster",
+    "family": "interlocked-hexagons",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:interlocked-hexagons-3",
+    "id": "design-exp12-monster-interlocked-hexagons-3",
+    "source": "monster",
+    "family": "interlocked-hexagons",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:lanterns-1",
+    "id": "design-exp12-monster-lanterns-1",
+    "source": "monster",
+    "family": "lanterns",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:leaves-10",
+    "id": "design-exp12-monster-leaves-10",
+    "source": "monster",
+    "family": "leaves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:lines-3",
+    "id": "design-exp12-monster-lines-3",
+    "source": "monster",
+    "family": "lines",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:rope-1",
+    "id": "design-exp12-monster-rope-1",
+    "source": "monster",
+    "family": "rope",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:waves-10",
+    "id": "design-exp12-monster-waves-10",
+    "source": "monster",
+    "family": "waves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:waves-11",
+    "id": "design-exp12-monster-waves-11",
+    "source": "monster",
+    "family": "waves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:lines-4",
+    "id": "design-exp12-monster-lines-4",
+    "source": "monster",
+    "family": "lines",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:lines-5",
+    "id": "design-exp12-monster-lines-5",
+    "source": "monster",
+    "family": "lines",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:lines-6",
+    "id": "design-exp12-monster-lines-6",
+    "source": "monster",
+    "family": "lines",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:plus-5",
+    "id": "design-exp12-monster-plus-5",
+    "source": "monster",
+    "family": "plus",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:plus-6",
+    "id": "design-exp12-monster-plus-6",
+    "source": "monster",
+    "family": "plus",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:scales-5",
+    "id": "design-exp12-monster-scales-5",
+    "source": "monster",
+    "family": "scales",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:scales-6",
+    "id": "design-exp12-monster-scales-6",
+    "source": "monster",
+    "family": "scales",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:scales-7",
+    "id": "design-exp12-monster-scales-7",
+    "source": "monster",
+    "family": "scales",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:scales-8",
+    "id": "design-exp12-monster-scales-8",
+    "source": "monster",
+    "family": "scales",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:scales-9",
+    "id": "design-exp12-monster-scales-9",
+    "source": "monster",
+    "family": "scales",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:triangles-19",
+    "id": "design-exp12-monster-triangles-19",
+    "source": "monster",
+    "family": "triangles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:triangles-20",
+    "id": "design-exp12-monster-triangles-20",
+    "source": "monster",
+    "family": "triangles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:batik-7",
+    "id": "design-exp12-monster-batik-7",
+    "source": "monster",
+    "family": "batik",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:circles-15",
+    "id": "design-exp12-monster-circles-15",
+    "source": "monster",
+    "family": "circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:circles-16",
+    "id": "design-exp12-monster-circles-16",
+    "source": "monster",
+    "family": "circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:circles-17",
+    "id": "design-exp12-monster-circles-17",
+    "source": "monster",
+    "family": "circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:circles-and-diamonds",
+    "id": "design-exp12-monster-circles-and-diamonds",
+    "source": "monster",
+    "family": "circles-and-diamonds",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:diamonds-4",
+    "id": "design-exp12-monster-diamonds-4",
+    "source": "monster",
+    "family": "diamonds",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:diamonds-5",
+    "id": "design-exp12-monster-diamonds-5",
+    "source": "monster",
+    "family": "diamonds",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:diamonds-6",
+    "id": "design-exp12-monster-diamonds-6",
+    "source": "monster",
+    "family": "diamonds",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:geometric-7",
+    "id": "design-exp12-monster-geometric-7",
+    "source": "monster",
+    "family": "geometric",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:geometric-8",
+    "id": "design-exp12-monster-geometric-8",
+    "source": "monster",
+    "family": "geometric",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:geometric-9",
+    "id": "design-exp12-monster-geometric-9",
+    "source": "monster",
+    "family": "geometric",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:geometric-10",
+    "id": "design-exp12-monster-geometric-10",
+    "source": "monster",
+    "family": "geometric",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:waves-12",
+    "id": "design-exp12-monster-waves-12",
+    "source": "monster",
+    "family": "waves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:waves-13",
+    "id": "design-exp12-monster-waves-13",
+    "source": "monster",
+    "family": "waves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:waves-14",
+    "id": "design-exp12-monster-waves-14",
+    "source": "monster",
+    "family": "waves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:waves-15",
+    "id": "design-exp12-monster-waves-15",
+    "source": "monster",
+    "family": "waves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:double-bubble-3",
+    "id": "design-exp12-monster-double-bubble-3",
+    "source": "monster",
+    "family": "double-bubble",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:double-bubble-4",
+    "id": "design-exp12-monster-double-bubble-4",
+    "source": "monster",
+    "family": "double-bubble",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:patches",
+    "id": "design-exp12-monster-patches",
+    "source": "monster",
+    "family": "patches",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:squares-3",
+    "id": "design-exp12-monster-squares-3",
+    "source": "monster",
+    "family": "squares",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:squares-4",
+    "id": "design-exp12-monster-squares-4",
+    "source": "monster",
+    "family": "squares",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:squares-5",
+    "id": "design-exp12-monster-squares-5",
+    "source": "monster",
+    "family": "squares",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:squares-6",
+    "id": "design-exp12-monster-squares-6",
+    "source": "monster",
+    "family": "squares",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:triangles-21",
+    "id": "design-exp12-monster-triangles-21",
+    "source": "monster",
+    "family": "triangles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:triangles-22",
+    "id": "design-exp12-monster-triangles-22",
+    "source": "monster",
+    "family": "triangles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:triangles-23",
+    "id": "design-exp12-monster-triangles-23",
+    "source": "monster",
+    "family": "triangles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:tribal-4",
+    "id": "design-exp12-monster-tribal-4",
+    "source": "monster",
+    "family": "tribal",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:tribal-5",
+    "id": "design-exp12-monster-tribal-5",
+    "source": "monster",
+    "family": "tribal",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:chinese-10",
+    "id": "design-exp12-monster-chinese-10",
+    "source": "monster",
+    "family": "chinese",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:chinese-11",
+    "id": "design-exp12-monster-chinese-11",
+    "source": "monster",
+    "family": "chinese",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:diamonds-7",
+    "id": "design-exp12-monster-diamonds-7",
+    "source": "monster",
+    "family": "diamonds",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:diamonds-8",
+    "id": "design-exp12-monster-diamonds-8",
+    "source": "monster",
+    "family": "diamonds",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:diamonds-9",
+    "id": "design-exp12-monster-diamonds-9",
+    "source": "monster",
+    "family": "diamonds",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:waves-16",
+    "id": "design-exp12-monster-waves-16",
+    "source": "monster",
+    "family": "waves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:waves-17",
+    "id": "design-exp12-monster-waves-17",
+    "source": "monster",
+    "family": "waves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:waves-18",
+    "id": "design-exp12-monster-waves-18",
+    "source": "monster",
+    "family": "waves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:waves-19",
+    "id": "design-exp12-monster-waves-19",
+    "source": "monster",
+    "family": "waves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:waves-20",
+    "id": "design-exp12-monster-waves-20",
+    "source": "monster",
+    "family": "waves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:diamonds-10",
+    "id": "design-exp12-monster-diamonds-10",
+    "source": "monster",
+    "family": "diamonds",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:diamonds-11",
+    "id": "design-exp12-monster-diamonds-11",
+    "source": "monster",
+    "family": "diamonds",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:diamonds-12",
+    "id": "design-exp12-monster-diamonds-12",
+    "source": "monster",
+    "family": "diamonds",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:diamonds-13",
+    "id": "design-exp12-monster-diamonds-13",
+    "source": "monster",
+    "family": "diamonds",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:chinese-12",
+    "id": "design-exp12-monster-chinese-12",
+    "source": "monster",
+    "family": "chinese",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:chinese-13",
+    "id": "design-exp12-monster-chinese-13",
+    "source": "monster",
+    "family": "chinese",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:chinese-14",
+    "id": "design-exp12-monster-chinese-14",
+    "source": "monster",
+    "family": "chinese",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:egyptian-1",
+    "id": "design-exp12-monster-egyptian-1",
+    "source": "monster",
+    "family": "egyptian",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:egyptian-2",
+    "id": "design-exp12-monster-egyptian-2",
+    "source": "monster",
+    "family": "egyptian",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:egyptian-3",
+    "id": "design-exp12-monster-egyptian-3",
+    "source": "monster",
+    "family": "egyptian",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:circles-19",
+    "id": "design-exp12-monster-circles-19",
+    "source": "monster",
+    "family": "circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:circles-20",
+    "id": "design-exp12-monster-circles-20",
+    "source": "monster",
+    "family": "circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:egyptian-4",
+    "id": "design-exp12-monster-egyptian-4",
+    "source": "monster",
+    "family": "egyptian",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:egyptian-6",
+    "id": "design-exp12-monster-egyptian-6",
+    "source": "monster",
+    "family": "egyptian",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:waves-22",
+    "id": "design-exp12-monster-waves-22",
+    "source": "monster",
+    "family": "waves",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:squares-and-circles-3",
+    "id": "design-exp12-monster-squares-and-circles-3",
+    "source": "monster",
+    "family": "squares-and-circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:japanese-pattern-8",
+    "id": "design-exp12-monster-japanese-pattern-8",
+    "source": "monster",
+    "family": "japanese-pattern",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:circles-22",
+    "id": "design-exp12-monster-circles-22",
+    "source": "monster",
+    "family": "circles",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:diamonds-14",
+    "id": "design-exp12-monster-diamonds-14",
+    "source": "monster",
+    "family": "diamonds",
+    "status": "candidate"
+  },
+  {
+    "key": "monster:diamonds-15",
+    "id": "design-exp12-monster-diamonds-15",
+    "source": "monster",
+    "family": "diamonds",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:daisy",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:rose",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:tulip",
+    "id": "design-exp12-inkjet-tulip",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:sunflower",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:cherry-blossom",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:lotus",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:lily",
+    "id": "design-exp12-inkjet-lily",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:lavender",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:hibiscus",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:poppy",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:dandelion",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:clover",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:ivy",
+    "id": "design-exp12-inkjet-ivy",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:fern-frond",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:palm-leaf",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:monstera",
+    "id": "design-exp12-inkjet-monstera",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:wildflower",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:thistle",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:vine-spiral",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:blossom-scatter",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:magnolia",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:carnation",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:peony",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:orchid",
+    "id": "design-exp12-inkjet-orchid",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:bouquet",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:ditsy",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:toile-floral",
+    "id": "design-exp12-inkjet-toile-floral",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:botanical-print",
+    "id": "design-exp12-inkjet-botanical-print",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:seed-pod",
+    "id": "design-exp12-inkjet-seed-pod",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:wheat",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:acorn",
+    "id": "design-exp12-inkjet-acorn",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:maple-leaf",
+    "id": "design-exp12-inkjet-maple-leaf",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:ginkgo",
+    "id": "design-exp12-inkjet-ginkgo",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:wreath-floral",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:8bit-heart",
+    "id": "design-exp12-inkjet-8bit-heart",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:vinyl-grooves",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:cassette",
+    "id": "design-exp12-inkjet-cassette",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:tv-static",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:polka-retro",
+    "id": "design-exp12-inkjet-polka-retro",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:disco-ball",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:lava-lamp",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:flower-power",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:pac-dots",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:space-invader",
+    "id": "design-exp12-inkjet-space-invader",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:arcade-maze",
+    "id": "design-exp12-inkjet-arcade-maze",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:typewriter",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "rejected",
+    "reason": "unsupported-numeric-definition"
+  },
+  {
+    "key": "inkjet:rotary-phone",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:filmstrip",
+    "id": "design-exp12-inkjet-filmstrip",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:neon-sign",
+    "id": "design-exp12-inkjet-neon-sign",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:woodstock",
+    "id": "design-exp12-inkjet-woodstock",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:vhs-tracking",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:atari-block",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:starburst",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:boomerang",
+    "id": "design-exp12-inkjet-boomerang",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:atomic-star",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:kidney-shape",
+    "id": "design-exp12-inkjet-kidney-shape",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:googie",
+    "id": "design-exp12-inkjet-googie",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:diner-check",
+    "id": "design-exp12-inkjet-diner-check",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:sputnik",
+    "id": "design-exp12-inkjet-sputnik",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:jukebox",
+    "id": "design-exp12-inkjet-jukebox",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:groovy-swirl",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:radio-dial",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:pinball",
+    "id": "design-exp12-inkjet-pinball",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:roller-rink",
+    "id": "design-exp12-inkjet-roller-rink",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:rotoscope",
+    "id": "design-exp12-inkjet-rotoscope",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:blob",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:splatter",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:flow-field",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:warp",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:topology",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:particle-field",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:displacement",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:generative-arc",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:recursive-square",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:lissajous",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:rose-curve",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:spirograph",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:voronoi-cell",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:delaunay",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:reaction-diffusion",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:strange-attractor",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:cellular-automata",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:geodesic",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:parametric",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:contour-plot",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:vector-field",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:noise-field",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:circle-packing",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:penrose-tiling",
+    "id": "design-exp12-inkjet-penrose-tiling",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:superellipse",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:meta-circles",
+    "id": "design-exp12-inkjet-meta-circles",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:infinity",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:moebius",
+    "id": "design-exp12-inkjet-moebius",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:catenary",
+    "id": "design-exp12-inkjet-catenary",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:cardioid",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:checkerboard",
+    "id": "design-exp12-inkjet-checkerboard",
+    "source": "inkjet",
+    "family": "check",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:micro-check",
+    "source": "inkjet",
+    "family": "check",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:natte",
+    "id": "design-exp12-inkjet-natte",
+    "source": "inkjet",
+    "family": "check",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:district-check",
+    "id": "design-exp12-inkjet-district-check",
+    "source": "inkjet",
+    "family": "check",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:graph-check",
+    "source": "inkjet",
+    "family": "check",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:vichy",
+    "id": "design-exp12-inkjet-vichy",
+    "source": "inkjet",
+    "family": "check",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:pixel-check",
+    "source": "inkjet",
+    "family": "check",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:twill-check",
+    "id": "design-exp12-inkjet-twill-check",
+    "source": "inkjet",
+    "family": "check",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:tatami",
+    "id": "design-exp12-inkjet-tatami",
+    "source": "inkjet",
+    "family": "check",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:harlequin",
+    "id": "design-exp12-inkjet-harlequin",
+    "source": "inkjet",
+    "family": "check",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:windowpane-bold",
+    "id": "design-exp12-inkjet-windowpane-bold",
+    "source": "inkjet",
+    "family": "check",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:overcheck",
+    "id": "design-exp12-inkjet-overcheck",
+    "source": "inkjet",
+    "family": "check",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:prince-of-wales",
+    "id": "design-exp12-inkjet-prince-of-wales",
+    "source": "inkjet",
+    "family": "check",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:bengal-stripe",
+    "id": "design-exp12-inkjet-bengal-stripe",
+    "source": "inkjet",
+    "family": "stripe",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:ticking-fine",
+    "id": "design-exp12-inkjet-ticking-fine",
+    "source": "inkjet",
+    "family": "stripe",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:multistripe",
+    "id": "design-exp12-inkjet-multistripe",
+    "source": "inkjet",
+    "family": "stripe",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:hairline-stripe",
+    "id": "design-exp12-inkjet-hairline-stripe",
+    "source": "inkjet",
+    "family": "stripe",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:bayadere",
+    "id": "design-exp12-inkjet-bayadere",
+    "source": "inkjet",
+    "family": "stripe",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:deckchair",
+    "id": "design-exp12-inkjet-deckchair",
+    "source": "inkjet",
+    "family": "stripe",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:blazer-stripe",
+    "id": "design-exp12-inkjet-blazer-stripe",
+    "source": "inkjet",
+    "family": "stripe",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:breton-stripe",
+    "source": "inkjet",
+    "family": "stripe",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:mattress-stripe",
+    "id": "design-exp12-inkjet-mattress-stripe",
+    "source": "inkjet",
+    "family": "stripe",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:candy-cane",
+    "id": "design-exp12-inkjet-candy-cane",
+    "source": "inkjet",
+    "family": "stripe",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:rainbow-stripe",
+    "source": "inkjet",
+    "family": "stripe",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:oxford-stripe",
+    "source": "inkjet",
+    "family": "stripe",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:snakeskin-diamond",
+    "id": "design-exp12-inkjet-snakeskin-diamond",
+    "source": "inkjet",
+    "family": "fashion",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:gradient-dot",
+    "source": "inkjet",
+    "family": "modern",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:klein-bottle",
+    "id": "design-exp12-inkjet-klein-bottle",
+    "source": "inkjet",
+    "family": "abstract",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:protea",
+    "source": "inkjet",
+    "family": "floral",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:record-label",
+    "id": "design-exp12-inkjet-record-label",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:cathode-ray",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:dot-matrix-print",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:ticker-tape",
+    "source": "inkjet",
+    "family": "retro",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:star-10fold",
+    "source": "inkjet",
+    "family": "islamic",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:tile-octagon",
+    "id": "design-exp12-inkjet-tile-octagon",
+    "source": "inkjet",
+    "family": "islamic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:tide-ripple",
+    "source": "inkjet",
+    "family": "nature-ext",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:lichen",
+    "source": "inkjet",
+    "family": "nature-ext",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:erosion",
+    "source": "inkjet",
+    "family": "nature-ext",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:finial",
+    "id": "design-exp12-inkjet-finial",
+    "source": "inkjet",
+    "family": "architectural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:rustication",
+    "id": "design-exp12-inkjet-rustication",
+    "source": "inkjet",
+    "family": "architectural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:dobby-weave",
+    "source": "inkjet",
+    "family": "textile",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:birdseye",
+    "id": "design-exp12-inkjet-birdseye",
+    "source": "inkjet",
+    "family": "textile",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:argyle",
+    "id": "design-exp12-inkjet-argyle",
+    "source": "inkjet",
+    "family": "textile",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:houndstooth",
+    "id": "design-exp12-inkjet-houndstooth",
+    "source": "inkjet",
+    "family": "textile",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:gingham",
+    "id": "design-exp12-inkjet-gingham",
+    "source": "inkjet",
+    "family": "textile",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:buffalo-check",
+    "id": "design-exp12-inkjet-buffalo-check",
+    "source": "inkjet",
+    "family": "textile",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:windowpane",
+    "id": "design-exp12-inkjet-windowpane",
+    "source": "inkjet",
+    "family": "textile",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:tattersall",
+    "id": "design-exp12-inkjet-tattersall",
+    "source": "inkjet",
+    "family": "textile",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:tweed",
+    "source": "inkjet",
+    "family": "textile",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:seersucker",
+    "source": "inkjet",
+    "family": "textile",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:corduroy",
+    "source": "inkjet",
+    "family": "textile",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:cable-knit",
+    "id": "design-exp12-inkjet-cable-knit",
+    "source": "inkjet",
+    "family": "textile",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:fair-isle",
+    "id": "design-exp12-inkjet-fair-isle",
+    "source": "inkjet",
+    "family": "textile",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:jacquard",
+    "id": "design-exp12-inkjet-jacquard",
+    "source": "inkjet",
+    "family": "textile",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:damask-weave",
+    "id": "design-exp12-inkjet-damask-weave",
+    "source": "inkjet",
+    "family": "textile",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:boucle",
+    "source": "inkjet",
+    "family": "textile",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:muslin",
+    "id": "design-exp12-inkjet-muslin",
+    "source": "inkjet",
+    "family": "textile",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:ticking",
+    "id": "design-exp12-inkjet-ticking",
+    "source": "inkjet",
+    "family": "textile",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:chambray",
+    "source": "inkjet",
+    "family": "textile",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:waffle-weave",
+    "id": "design-exp12-inkjet-waffle-weave",
+    "source": "inkjet",
+    "family": "textile",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:ottoman",
+    "id": "design-exp12-inkjet-ottoman",
+    "source": "inkjet",
+    "family": "textile",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:chenille",
+    "source": "inkjet",
+    "family": "textile",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:leopard",
+    "source": "inkjet",
+    "family": "fashion",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:zebra",
+    "source": "inkjet",
+    "family": "fashion",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:snake",
+    "source": "inkjet",
+    "family": "fashion",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:crocodile",
+    "source": "inkjet",
+    "family": "fashion",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:giraffe",
+    "source": "inkjet",
+    "family": "fashion",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:tiger",
+    "source": "inkjet",
+    "family": "fashion",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:cow",
+    "source": "inkjet",
+    "family": "fashion",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:peacock",
+    "id": "design-exp12-inkjet-peacock",
+    "source": "inkjet",
+    "family": "fashion",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:fishnet",
+    "id": "design-exp12-inkjet-fishnet",
+    "source": "inkjet",
+    "family": "fashion",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:lace",
+    "source": "inkjet",
+    "family": "fashion",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:crochet",
+    "id": "design-exp12-inkjet-crochet",
+    "source": "inkjet",
+    "family": "fashion",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:knit-stockinette",
+    "source": "inkjet",
+    "family": "fashion",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:feather-print",
+    "id": "design-exp12-inkjet-feather-print",
+    "source": "inkjet",
+    "family": "fashion",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:cheetah",
+    "source": "inkjet",
+    "family": "fashion",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:tortoiseshell",
+    "source": "inkjet",
+    "family": "fashion",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:butterfly-wing",
+    "source": "inkjet",
+    "family": "fashion",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:python",
+    "source": "inkjet",
+    "family": "fashion",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:alligator",
+    "source": "inkjet",
+    "family": "fashion",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:animal-spots",
+    "source": "inkjet",
+    "family": "fashion",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:gothic-arch",
+    "id": "design-exp12-inkjet-gothic-arch",
+    "source": "inkjet",
+    "family": "architectural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:roman-arch",
+    "id": "design-exp12-inkjet-roman-arch",
+    "source": "inkjet",
+    "family": "architectural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:keystone",
+    "id": "design-exp12-inkjet-keystone",
+    "source": "inkjet",
+    "family": "architectural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:column-flute",
+    "source": "inkjet",
+    "family": "architectural",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:tracery",
+    "id": "design-exp12-inkjet-tracery",
+    "source": "inkjet",
+    "family": "architectural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:rose-window",
+    "source": "inkjet",
+    "family": "architectural",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:fan-vault",
+    "source": "inkjet",
+    "family": "architectural",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:ogee-arch",
+    "id": "design-exp12-inkjet-ogee-arch",
+    "source": "inkjet",
+    "family": "architectural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:crenellation",
+    "id": "design-exp12-inkjet-crenellation",
+    "source": "inkjet",
+    "family": "architectural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:baluster",
+    "id": "design-exp12-inkjet-baluster",
+    "source": "inkjet",
+    "family": "architectural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:dentil",
+    "source": "inkjet",
+    "family": "architectural",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:egg-and-dart",
+    "id": "design-exp12-inkjet-egg-and-dart",
+    "source": "inkjet",
+    "family": "architectural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:frieze-scroll",
+    "id": "design-exp12-inkjet-frieze-scroll",
+    "source": "inkjet",
+    "family": "architectural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:pediment",
+    "id": "design-exp12-inkjet-pediment",
+    "source": "inkjet",
+    "family": "architectural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:pagoda",
+    "id": "design-exp12-inkjet-pagoda",
+    "source": "inkjet",
+    "family": "architectural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:torii",
+    "id": "design-exp12-inkjet-torii",
+    "source": "inkjet",
+    "family": "architectural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:minaret",
+    "id": "design-exp12-inkjet-minaret",
+    "source": "inkjet",
+    "family": "architectural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:dome",
+    "id": "design-exp12-inkjet-dome",
+    "source": "inkjet",
+    "family": "architectural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:flying-buttress",
+    "id": "design-exp12-inkjet-flying-buttress",
+    "source": "inkjet",
+    "family": "architectural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:lancet",
+    "id": "design-exp12-inkjet-lancet",
+    "source": "inkjet",
+    "family": "architectural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:star-8fold",
+    "source": "inkjet",
+    "family": "islamic",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:star-12fold",
+    "source": "inkjet",
+    "family": "islamic",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:arabesque-floral",
+    "id": "design-exp12-inkjet-arabesque-floral",
+    "source": "inkjet",
+    "family": "islamic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:girih",
+    "source": "inkjet",
+    "family": "islamic",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:mashrabiya",
+    "source": "inkjet",
+    "family": "islamic",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:zellige-star",
+    "source": "inkjet",
+    "family": "islamic",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:rub-el-hizb",
+    "id": "design-exp12-inkjet-rub-el-hizb",
+    "source": "inkjet",
+    "family": "islamic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:khatam",
+    "source": "inkjet",
+    "family": "islamic",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:interlace-8",
+    "source": "inkjet",
+    "family": "islamic",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:rosette-islamic",
+    "source": "inkjet",
+    "family": "islamic",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:star-6fold",
+    "id": "design-exp12-inkjet-star-6fold",
+    "source": "inkjet",
+    "family": "islamic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:arabesque-vine",
+    "id": "design-exp12-inkjet-arabesque-vine",
+    "source": "inkjet",
+    "family": "islamic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:muqarnas",
+    "id": "design-exp12-inkjet-muqarnas",
+    "source": "inkjet",
+    "family": "islamic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:geometric-islam",
+    "id": "design-exp12-inkjet-geometric-islam",
+    "source": "inkjet",
+    "family": "islamic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:biomorphic-islam",
+    "id": "design-exp12-inkjet-biomorphic-islam",
+    "source": "inkjet",
+    "family": "islamic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:memphis",
+    "source": "inkjet",
+    "family": "modern",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:glitch",
+    "source": "inkjet",
+    "family": "modern",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:pixel-art",
+    "source": "inkjet",
+    "family": "modern",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:low-poly",
+    "source": "inkjet",
+    "family": "modern",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:vaporwave",
+    "source": "inkjet",
+    "family": "modern",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:neon-grid",
+    "id": "design-exp12-inkjet-neon-grid",
+    "source": "inkjet",
+    "family": "modern",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:wireframe-3d",
+    "id": "design-exp12-inkjet-wireframe-3d",
+    "source": "inkjet",
+    "family": "modern",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:moire",
+    "source": "inkjet",
+    "family": "modern",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:op-art",
+    "source": "inkjet",
+    "family": "modern",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:de-stijl",
+    "id": "design-exp12-inkjet-de-stijl",
+    "source": "inkjet",
+    "family": "modern",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:suprematist",
+    "id": "design-exp12-inkjet-suprematist",
+    "source": "inkjet",
+    "family": "modern",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:constructivist",
+    "id": "design-exp12-inkjet-constructivist",
+    "source": "inkjet",
+    "family": "modern",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:escher-tessellation",
+    "id": "design-exp12-inkjet-escher-tessellation",
+    "source": "inkjet",
+    "family": "modern",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:impossible-triangle",
+    "id": "design-exp12-inkjet-impossible-triangle",
+    "source": "inkjet",
+    "family": "modern",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:fractal-tree",
+    "source": "inkjet",
+    "family": "modern",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:gradient-mesh",
+    "source": "inkjet",
+    "family": "modern",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:retrowave",
+    "source": "inkjet",
+    "family": "modern",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:holographic",
+    "source": "inkjet",
+    "family": "modern",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:bauhaus-geo",
+    "id": "design-exp12-inkjet-bauhaus-geo",
+    "source": "inkjet",
+    "family": "modern",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:kinetic",
+    "source": "inkjet",
+    "family": "modern",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:data-viz",
+    "source": "inkjet",
+    "family": "modern",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:circuit-modern",
+    "id": "design-exp12-inkjet-circuit-modern",
+    "source": "inkjet",
+    "family": "modern",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:scanline",
+    "id": "design-exp12-inkjet-scanline",
+    "source": "inkjet",
+    "family": "modern",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:dot-matrix-modern",
+    "source": "inkjet",
+    "family": "modern",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:quatrefoil",
+    "id": "design-exp12-inkjet-quatrefoil",
+    "source": "inkjet",
+    "family": "decorative",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:ogee-shape",
+    "id": "design-exp12-inkjet-ogee-shape",
+    "source": "inkjet",
+    "family": "decorative",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:trellis",
+    "id": "design-exp12-inkjet-trellis",
+    "source": "inkjet",
+    "family": "decorative",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:acanthus",
+    "id": "design-exp12-inkjet-acanthus",
+    "source": "inkjet",
+    "family": "decorative",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:palmette",
+    "source": "inkjet",
+    "family": "decorative",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:guilloche",
+    "id": "design-exp12-inkjet-guilloche",
+    "source": "inkjet",
+    "family": "decorative",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:scrollwork",
+    "id": "design-exp12-inkjet-scrollwork",
+    "source": "inkjet",
+    "family": "decorative",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:medallion",
+    "id": "design-exp12-inkjet-medallion",
+    "source": "inkjet",
+    "family": "decorative",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:festoon",
+    "id": "design-exp12-inkjet-festoon",
+    "source": "inkjet",
+    "family": "decorative",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:ribbon",
+    "id": "design-exp12-inkjet-ribbon",
+    "source": "inkjet",
+    "family": "decorative",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:tassel",
+    "source": "inkjet",
+    "family": "decorative",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:border-rope",
+    "id": "design-exp12-inkjet-border-rope",
+    "source": "inkjet",
+    "family": "decorative",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:border-chain",
+    "id": "design-exp12-inkjet-border-chain",
+    "source": "inkjet",
+    "family": "decorative",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:border-bead",
+    "source": "inkjet",
+    "family": "decorative",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:corner-flourish",
+    "id": "design-exp12-inkjet-corner-flourish",
+    "source": "inkjet",
+    "family": "decorative",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:filigree",
+    "id": "design-exp12-inkjet-filigree",
+    "source": "inkjet",
+    "family": "decorative",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:damask-floral",
+    "id": "design-exp12-inkjet-damask-floral",
+    "source": "inkjet",
+    "family": "decorative",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:fleur-de-lis",
+    "id": "design-exp12-inkjet-fleur-de-lis",
+    "source": "inkjet",
+    "family": "decorative",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:anthemion",
+    "source": "inkjet",
+    "family": "decorative",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:trefoil",
+    "id": "design-exp12-inkjet-trefoil",
+    "source": "inkjet",
+    "family": "decorative",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:cinquefoil",
+    "source": "inkjet",
+    "family": "decorative",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:cartouche",
+    "id": "design-exp12-inkjet-cartouche",
+    "source": "inkjet",
+    "family": "decorative",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:wreath",
+    "source": "inkjet",
+    "family": "decorative",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:greek-wave",
+    "id": "design-exp12-inkjet-greek-wave",
+    "source": "inkjet",
+    "family": "decorative",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:egg-dart-band",
+    "source": "inkjet",
+    "family": "decorative",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:fibonacci",
+    "source": "inkjet",
+    "family": "nature-ext",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:phyllotaxis",
+    "source": "inkjet",
+    "family": "nature-ext",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:nautilus",
+    "source": "inkjet",
+    "family": "nature-ext",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:fern",
+    "source": "inkjet",
+    "family": "nature-ext",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:lightning",
+    "id": "design-exp12-inkjet-lightning",
+    "source": "inkjet",
+    "family": "nature-ext",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:river-delta",
+    "id": "design-exp12-inkjet-river-delta",
+    "source": "inkjet",
+    "family": "nature-ext",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:sand-dune",
+    "source": "inkjet",
+    "family": "nature-ext",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:mountain",
+    "id": "design-exp12-inkjet-mountain",
+    "source": "inkjet",
+    "family": "nature-ext",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:crystal",
+    "id": "design-exp12-inkjet-crystal",
+    "source": "inkjet",
+    "family": "nature-ext",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:ice-crystal",
+    "source": "inkjet",
+    "family": "nature-ext",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:constellation",
+    "source": "inkjet",
+    "family": "nature-ext",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:nebula",
+    "source": "inkjet",
+    "family": "nature-ext",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:comet",
+    "id": "design-exp12-inkjet-comet",
+    "source": "inkjet",
+    "family": "nature-ext",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:tide-pool",
+    "source": "inkjet",
+    "family": "nature-ext",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:kelp",
+    "source": "inkjet",
+    "family": "nature-ext",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:aurora",
+    "source": "inkjet",
+    "family": "nature-ext",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:pinecone",
+    "source": "inkjet",
+    "family": "nature-ext",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:golden-spiral",
+    "source": "inkjet",
+    "family": "nature-ext",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:honeycomb-hex",
+    "id": "design-exp12-inkjet-honeycomb-hex",
+    "source": "inkjet",
+    "family": "nature-ext",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:bark",
+    "source": "inkjet",
+    "family": "nature-ext",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:glen-plaid",
+    "id": "design-exp12-inkjet-glen-plaid",
+    "source": "inkjet",
+    "family": "check",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:shepherd-check",
+    "id": "design-exp12-inkjet-shepherd-check",
+    "source": "inkjet",
+    "family": "check",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:madras",
+    "id": "design-exp12-inkjet-madras",
+    "source": "inkjet",
+    "family": "check",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:tartan-simple",
+    "id": "design-exp12-inkjet-tartan-simple",
+    "source": "inkjet",
+    "family": "check",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:checker-3d",
+    "id": "design-exp12-inkjet-checker-3d",
+    "source": "inkjet",
+    "family": "check",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:checker-diagonal",
+    "id": "design-exp12-inkjet-checker-diagonal",
+    "source": "inkjet",
+    "family": "check",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:checker-rounded",
+    "id": "design-exp12-inkjet-checker-rounded",
+    "source": "inkjet",
+    "family": "check",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:candy-stripe",
+    "id": "design-exp12-inkjet-candy-stripe",
+    "source": "inkjet",
+    "family": "stripe",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:barber-pole",
+    "id": "design-exp12-inkjet-barber-pole",
+    "source": "inkjet",
+    "family": "stripe",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:shadow-stripe",
+    "id": "design-exp12-inkjet-shadow-stripe",
+    "source": "inkjet",
+    "family": "stripe",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:satin-stripe",
+    "source": "inkjet",
+    "family": "stripe",
+    "status": "rejected",
+    "reason": "invalid syntax (<unknown>, line 1)"
+  },
+  {
+    "key": "inkjet:chalk-stripe",
+    "source": "inkjet",
+    "family": "stripe",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:regimental",
+    "id": "design-exp12-inkjet-regimental",
+    "source": "inkjet",
+    "family": "stripe",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:awning",
+    "id": "design-exp12-inkjet-awning",
+    "source": "inkjet",
+    "family": "stripe",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:racing-stripe",
+    "id": "design-exp12-inkjet-racing-stripe",
+    "source": "inkjet",
+    "family": "stripe",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:gradient-stripe",
+    "source": "inkjet",
+    "family": "stripe",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:pencil-stripe",
+    "id": "design-exp12-inkjet-pencil-stripe",
+    "source": "inkjet",
+    "family": "stripe",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:ribbon-stripe",
+    "id": "design-exp12-inkjet-ribbon-stripe",
+    "source": "inkjet",
+    "family": "stripe",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:club-stripe",
+    "id": "design-exp12-inkjet-club-stripe",
+    "source": "inkjet",
+    "family": "stripe",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:ombre-stripe",
+    "source": "inkjet",
+    "family": "stripe",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:dots",
+    "id": "design-exp12-inkjet-dots",
+    "source": "inkjet",
+    "family": "dots",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:dots-offset",
+    "id": "design-exp12-inkjet-dots-offset",
+    "source": "inkjet",
+    "family": "dots",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:dots-random",
+    "source": "inkjet",
+    "family": "dots",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:halftone",
+    "id": "design-exp12-inkjet-halftone",
+    "source": "inkjet",
+    "family": "dots",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:halftone-line",
+    "id": "design-exp12-inkjet-halftone-line",
+    "source": "inkjet",
+    "family": "dots",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:stipple",
+    "source": "inkjet",
+    "family": "dots",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:confetti",
+    "source": "inkjet",
+    "family": "dots",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:bubbles",
+    "source": "inkjet",
+    "family": "dots",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:polka",
+    "id": "design-exp12-inkjet-polka",
+    "source": "inkjet",
+    "family": "dots",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:rings",
+    "id": "design-exp12-inkjet-rings",
+    "source": "inkjet",
+    "family": "dots",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:dots-diagonal",
+    "id": "design-exp12-inkjet-dots-diagonal",
+    "source": "inkjet",
+    "family": "dots",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:dots-diamond",
+    "id": "design-exp12-inkjet-dots-diamond",
+    "source": "inkjet",
+    "family": "dots",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:dots-gradient",
+    "source": "inkjet",
+    "family": "dots",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:dots-hex",
+    "id": "design-exp12-inkjet-dots-hex",
+    "source": "inkjet",
+    "family": "dots",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:dots-cluster",
+    "id": "design-exp12-inkjet-dots-cluster",
+    "source": "inkjet",
+    "family": "dots",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:dots-trail",
+    "source": "inkjet",
+    "family": "dots",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:dots-spiral",
+    "source": "inkjet",
+    "family": "dots",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:dots-cross",
+    "id": "design-exp12-inkjet-dots-cross",
+    "source": "inkjet",
+    "family": "dots",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:dots-flower",
+    "source": "inkjet",
+    "family": "dots",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:dots-wave",
+    "source": "inkjet",
+    "family": "dots",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:lines-horizontal",
+    "id": "design-exp12-inkjet-lines-horizontal",
+    "source": "inkjet",
+    "family": "lines",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:lines-vertical",
+    "id": "design-exp12-inkjet-lines-vertical",
+    "source": "inkjet",
+    "family": "lines",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:lines-diagonal",
+    "id": "design-exp12-inkjet-lines-diagonal",
+    "source": "inkjet",
+    "family": "lines",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:lines-diagonal-reverse",
+    "id": "design-exp12-inkjet-lines-diagonal-reverse",
+    "source": "inkjet",
+    "family": "lines",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:crosshatch",
+    "id": "design-exp12-inkjet-crosshatch",
+    "source": "inkjet",
+    "family": "lines",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:crosshatch-fine",
+    "id": "design-exp12-inkjet-crosshatch-fine",
+    "source": "inkjet",
+    "family": "lines",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:pinstripe",
+    "id": "design-exp12-inkjet-pinstripe",
+    "source": "inkjet",
+    "family": "lines",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:railroad",
+    "id": "design-exp12-inkjet-railroad",
+    "source": "inkjet",
+    "family": "lines",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:dashed-h",
+    "id": "design-exp12-inkjet-dashed-h",
+    "source": "inkjet",
+    "family": "lines",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:dashed-v",
+    "id": "design-exp12-inkjet-dashed-v",
+    "source": "inkjet",
+    "family": "lines",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:dotted-h",
+    "id": "design-exp12-inkjet-dotted-h",
+    "source": "inkjet",
+    "family": "lines",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:zigzag",
+    "id": "design-exp12-inkjet-zigzag",
+    "source": "inkjet",
+    "family": "lines",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:herringbone",
+    "id": "design-exp12-inkjet-herringbone",
+    "source": "inkjet",
+    "family": "lines",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:chevron",
+    "id": "design-exp12-inkjet-chevron",
+    "source": "inkjet",
+    "family": "lines",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:wavy-h",
+    "id": "design-exp12-inkjet-wavy-h",
+    "source": "inkjet",
+    "family": "lines",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:wavy-v",
+    "id": "design-exp12-inkjet-wavy-v",
+    "source": "inkjet",
+    "family": "lines",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:scallop",
+    "id": "design-exp12-inkjet-scallop",
+    "source": "inkjet",
+    "family": "lines",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:hatching",
+    "source": "inkjet",
+    "family": "lines",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:scratch",
+    "source": "inkjet",
+    "family": "lines",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:contour",
+    "id": "design-exp12-inkjet-contour",
+    "source": "inkjet",
+    "family": "lines",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:grid",
+    "id": "design-exp12-inkjet-grid",
+    "source": "inkjet",
+    "family": "grid",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:grid-dot",
+    "id": "design-exp12-inkjet-grid-dot",
+    "source": "inkjet",
+    "family": "grid",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:graph-paper",
+    "id": "design-exp12-inkjet-graph-paper",
+    "source": "inkjet",
+    "family": "grid",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:blueprint",
+    "id": "design-exp12-inkjet-blueprint",
+    "source": "inkjet",
+    "family": "grid",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:isometric",
+    "id": "design-exp12-inkjet-isometric",
+    "source": "inkjet",
+    "family": "grid",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:hex-grid",
+    "id": "design-exp12-inkjet-hex-grid",
+    "source": "inkjet",
+    "family": "grid",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:triangle-grid",
+    "id": "design-exp12-inkjet-triangle-grid",
+    "source": "inkjet",
+    "family": "grid",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:diamond-grid",
+    "id": "design-exp12-inkjet-diamond-grid",
+    "source": "inkjet",
+    "family": "grid",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:brick",
+    "id": "design-exp12-inkjet-brick",
+    "source": "inkjet",
+    "family": "grid",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:tile",
+    "id": "design-exp12-inkjet-tile",
+    "source": "inkjet",
+    "family": "grid",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:basket-weave",
+    "id": "design-exp12-inkjet-basket-weave",
+    "source": "inkjet",
+    "family": "grid",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:plaid",
+    "id": "design-exp12-inkjet-plaid",
+    "source": "inkjet",
+    "family": "grid",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:lattice",
+    "id": "design-exp12-inkjet-lattice",
+    "source": "inkjet",
+    "family": "grid",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:mesh",
+    "id": "design-exp12-inkjet-mesh",
+    "source": "inkjet",
+    "family": "grid",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:parquet",
+    "id": "design-exp12-inkjet-parquet",
+    "source": "inkjet",
+    "family": "grid",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:subway",
+    "id": "design-exp12-inkjet-subway",
+    "source": "inkjet",
+    "family": "grid",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:shingle",
+    "id": "design-exp12-inkjet-shingle",
+    "source": "inkjet",
+    "family": "grid",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:cobblestone",
+    "source": "inkjet",
+    "family": "grid",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:triangles",
+    "id": "design-exp12-inkjet-triangles",
+    "source": "inkjet",
+    "family": "geometric",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:hexagons",
+    "id": "design-exp12-inkjet-hexagons",
+    "source": "inkjet",
+    "family": "geometric",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:diamonds",
+    "id": "design-exp12-inkjet-diamonds",
+    "source": "inkjet",
+    "family": "geometric",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:octagons",
+    "id": "design-exp12-inkjet-octagons",
+    "source": "inkjet",
+    "family": "geometric",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:stars-5",
+    "source": "inkjet",
+    "family": "geometric",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:stars-6",
+    "id": "design-exp12-inkjet-stars-6",
+    "source": "inkjet",
+    "family": "geometric",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:crosses",
+    "id": "design-exp12-inkjet-crosses",
+    "source": "inkjet",
+    "family": "geometric",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:arrows-up",
+    "id": "design-exp12-inkjet-arrows-up",
+    "source": "inkjet",
+    "family": "geometric",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:circles-nested",
+    "source": "inkjet",
+    "family": "geometric",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:squares-nested",
+    "source": "inkjet",
+    "family": "geometric",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:penrose",
+    "id": "design-exp12-inkjet-penrose",
+    "source": "inkjet",
+    "family": "geometric",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:sierpinski",
+    "id": "design-exp12-inkjet-sierpinski",
+    "source": "inkjet",
+    "family": "geometric",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:mosaic",
+    "id": "design-exp12-inkjet-mosaic",
+    "source": "inkjet",
+    "family": "geometric",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:pinwheel",
+    "id": "design-exp12-inkjet-pinwheel",
+    "source": "inkjet",
+    "family": "geometric",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:tessellation",
+    "id": "design-exp12-inkjet-tessellation",
+    "source": "inkjet",
+    "family": "geometric",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:kite",
+    "id": "design-exp12-inkjet-kite",
+    "source": "inkjet",
+    "family": "geometric",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:spiral-square",
+    "id": "design-exp12-inkjet-spiral-square",
+    "source": "inkjet",
+    "family": "geometric",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:cube",
+    "id": "design-exp12-inkjet-cube",
+    "source": "inkjet",
+    "family": "geometric",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:flower-of-life",
+    "source": "inkjet",
+    "family": "geometric",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:meander",
+    "id": "design-exp12-inkjet-meander",
+    "source": "inkjet",
+    "family": "geometric",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:leaves",
+    "id": "design-exp12-inkjet-leaves",
+    "source": "inkjet",
+    "family": "organic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:branches",
+    "id": "design-exp12-inkjet-branches",
+    "source": "inkjet",
+    "family": "organic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:vines",
+    "id": "design-exp12-inkjet-vines",
+    "source": "inkjet",
+    "family": "organic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:pebbles",
+    "source": "inkjet",
+    "family": "organic",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:cells",
+    "id": "design-exp12-inkjet-cells",
+    "source": "inkjet",
+    "family": "organic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:scales",
+    "id": "design-exp12-inkjet-scales",
+    "source": "inkjet",
+    "family": "organic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:feathers",
+    "id": "design-exp12-inkjet-feathers",
+    "source": "inkjet",
+    "family": "organic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:coral",
+    "source": "inkjet",
+    "family": "organic",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:wood-grain",
+    "source": "inkjet",
+    "family": "organic",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:marble",
+    "source": "inkjet",
+    "family": "organic",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:moss",
+    "source": "inkjet",
+    "family": "organic",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:mushroom",
+    "id": "design-exp12-inkjet-mushroom",
+    "source": "inkjet",
+    "family": "organic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:roots",
+    "id": "design-exp12-inkjet-roots",
+    "source": "inkjet",
+    "family": "organic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:clouds",
+    "id": "design-exp12-inkjet-clouds",
+    "source": "inkjet",
+    "family": "organic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:rain",
+    "source": "inkjet",
+    "family": "organic",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:snowflake",
+    "source": "inkjet",
+    "family": "organic",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:wave-organic",
+    "id": "design-exp12-inkjet-wave-organic",
+    "source": "inkjet",
+    "family": "organic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:terrain",
+    "source": "inkjet",
+    "family": "organic",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:noise-fine",
+    "source": "inkjet",
+    "family": "texture",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:noise-coarse",
+    "source": "inkjet",
+    "family": "texture",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:canvas",
+    "id": "design-exp12-inkjet-canvas",
+    "source": "inkjet",
+    "family": "texture",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:linen",
+    "source": "inkjet",
+    "family": "texture",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:paper",
+    "source": "inkjet",
+    "family": "texture",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:concrete",
+    "source": "inkjet",
+    "family": "texture",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:sandstone",
+    "source": "inkjet",
+    "family": "texture",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:denim",
+    "id": "design-exp12-inkjet-denim",
+    "source": "inkjet",
+    "family": "texture",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:leather",
+    "source": "inkjet",
+    "family": "texture",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:silk",
+    "source": "inkjet",
+    "family": "texture",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:rust",
+    "source": "inkjet",
+    "family": "texture",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:brushed-metal",
+    "source": "inkjet",
+    "family": "texture",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:carbon-fiber",
+    "id": "design-exp12-inkjet-carbon-fiber",
+    "source": "inkjet",
+    "family": "texture",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:film-grain",
+    "source": "inkjet",
+    "family": "texture",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:stucco",
+    "source": "inkjet",
+    "family": "texture",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:terrazzo",
+    "source": "inkjet",
+    "family": "texture",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:circuit",
+    "id": "design-exp12-inkjet-circuit",
+    "source": "inkjet",
+    "family": "technical",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:circuit-dot",
+    "id": "design-exp12-inkjet-circuit-dot",
+    "source": "inkjet",
+    "family": "technical",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:microchip",
+    "id": "design-exp12-inkjet-microchip",
+    "source": "inkjet",
+    "family": "technical",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:binary",
+    "source": "inkjet",
+    "family": "technical",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:blueprint-detail",
+    "source": "inkjet",
+    "family": "technical",
+    "status": "rejected",
+    "reason": "unsupported-numeric-definition"
+  },
+  {
+    "key": "inkjet:schematic",
+    "id": "design-exp12-inkjet-schematic",
+    "source": "inkjet",
+    "family": "technical",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:resistor",
+    "id": "design-exp12-inkjet-resistor",
+    "source": "inkjet",
+    "family": "technical",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:waveform",
+    "source": "inkjet",
+    "family": "technical",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:barcode",
+    "source": "inkjet",
+    "family": "technical",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:qr-dots",
+    "source": "inkjet",
+    "family": "technical",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:data-matrix",
+    "source": "inkjet",
+    "family": "technical",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:graph-line",
+    "source": "inkjet",
+    "family": "technical",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:ruler",
+    "source": "inkjet",
+    "family": "technical",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:crosshair",
+    "id": "design-exp12-inkjet-crosshair",
+    "source": "inkjet",
+    "family": "technical",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:dimension",
+    "id": "design-exp12-inkjet-dimension",
+    "source": "inkjet",
+    "family": "technical",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:gear",
+    "source": "inkjet",
+    "family": "technical",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:pcb-via",
+    "id": "design-exp12-inkjet-pcb-via",
+    "source": "inkjet",
+    "family": "technical",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:flowchart",
+    "id": "design-exp12-inkjet-flowchart",
+    "source": "inkjet",
+    "family": "technical",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:watercolor",
+    "source": "inkjet",
+    "family": "artistic",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:ink-splatter",
+    "source": "inkjet",
+    "family": "artistic",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:brush-stroke",
+    "id": "design-exp12-inkjet-brush-stroke",
+    "source": "inkjet",
+    "family": "artistic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:charcoal",
+    "source": "inkjet",
+    "family": "artistic",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:crayon",
+    "source": "inkjet",
+    "family": "artistic",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:etching",
+    "source": "inkjet",
+    "family": "artistic",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:woodcut",
+    "source": "inkjet",
+    "family": "artistic",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:linocut",
+    "id": "design-exp12-inkjet-linocut",
+    "source": "inkjet",
+    "family": "artistic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:zentangle",
+    "id": "design-exp12-inkjet-zentangle",
+    "source": "inkjet",
+    "family": "artistic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:abstract",
+    "id": "design-exp12-inkjet-abstract",
+    "source": "inkjet",
+    "family": "artistic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:pop-art",
+    "id": "design-exp12-inkjet-pop-art",
+    "source": "inkjet",
+    "family": "artistic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:art-deco",
+    "id": "design-exp12-inkjet-art-deco",
+    "source": "inkjet",
+    "family": "artistic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:nouveau",
+    "id": "design-exp12-inkjet-nouveau",
+    "source": "inkjet",
+    "family": "artistic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:bauhaus",
+    "id": "design-exp12-inkjet-bauhaus",
+    "source": "inkjet",
+    "family": "artistic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:minimalist",
+    "id": "design-exp12-inkjet-minimalist",
+    "source": "inkjet",
+    "family": "artistic",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:impressionist",
+    "source": "inkjet",
+    "family": "artistic",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:sine",
+    "source": "inkjet",
+    "family": "wave",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:cosine",
+    "source": "inkjet",
+    "family": "wave",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:sawtooth",
+    "id": "design-exp12-inkjet-sawtooth",
+    "source": "inkjet",
+    "family": "wave",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:square-wave",
+    "id": "design-exp12-inkjet-square-wave",
+    "source": "inkjet",
+    "family": "wave",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:triangle-wave",
+    "id": "design-exp12-inkjet-triangle-wave",
+    "source": "inkjet",
+    "family": "wave",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:ocean",
+    "id": "design-exp12-inkjet-ocean",
+    "source": "inkjet",
+    "family": "wave",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:ripple",
+    "source": "inkjet",
+    "family": "wave",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:seismic",
+    "source": "inkjet",
+    "family": "wave",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:pulse",
+    "id": "design-exp12-inkjet-pulse",
+    "source": "inkjet",
+    "family": "wave",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:interference",
+    "source": "inkjet",
+    "family": "wave",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:standing-wave",
+    "source": "inkjet",
+    "family": "wave",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:sound-wave",
+    "source": "inkjet",
+    "family": "wave",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:frequency",
+    "source": "inkjet",
+    "family": "wave",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:modulated",
+    "source": "inkjet",
+    "family": "wave",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:noise-wave",
+    "source": "inkjet",
+    "family": "wave",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:damped",
+    "source": "inkjet",
+    "family": "wave",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:perlin",
+    "source": "inkjet",
+    "family": "noise",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:simplex",
+    "source": "inkjet",
+    "family": "noise",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:white-noise",
+    "source": "inkjet",
+    "family": "noise",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:pink-noise",
+    "source": "inkjet",
+    "family": "noise",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:brown-noise",
+    "source": "inkjet",
+    "family": "noise",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:voronoi",
+    "source": "inkjet",
+    "family": "noise",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:worley",
+    "source": "inkjet",
+    "family": "noise",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:fractal",
+    "source": "inkjet",
+    "family": "noise",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:turbulence",
+    "source": "inkjet",
+    "family": "noise",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:cloud-noise",
+    "source": "inkjet",
+    "family": "noise",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:galaxy",
+    "source": "inkjet",
+    "family": "noise",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:plasma",
+    "source": "inkjet",
+    "family": "noise",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:static",
+    "source": "inkjet",
+    "family": "noise",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:dither",
+    "source": "inkjet",
+    "family": "noise",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:grain",
+    "source": "inkjet",
+    "family": "noise",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:speckle",
+    "source": "inkjet",
+    "family": "noise",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:sashiko",
+    "id": "design-exp12-inkjet-sashiko",
+    "source": "inkjet",
+    "family": "cultural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:seigaiha",
+    "id": "design-exp12-inkjet-seigaiha",
+    "source": "inkjet",
+    "family": "cultural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:asanoha",
+    "id": "design-exp12-inkjet-asanoha",
+    "source": "inkjet",
+    "family": "cultural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:moroccan",
+    "source": "inkjet",
+    "family": "cultural",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:celtic-knot",
+    "id": "design-exp12-inkjet-celtic-knot",
+    "source": "inkjet",
+    "family": "cultural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:greek-key",
+    "id": "design-exp12-inkjet-greek-key",
+    "source": "inkjet",
+    "family": "cultural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:aztec",
+    "id": "design-exp12-inkjet-aztec",
+    "source": "inkjet",
+    "family": "cultural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:tribal",
+    "id": "design-exp12-inkjet-tribal",
+    "source": "inkjet",
+    "family": "cultural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:ikat",
+    "id": "design-exp12-inkjet-ikat",
+    "source": "inkjet",
+    "family": "cultural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:kente",
+    "id": "design-exp12-inkjet-kente",
+    "source": "inkjet",
+    "family": "cultural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:paisley",
+    "id": "design-exp12-inkjet-paisley",
+    "source": "inkjet",
+    "family": "cultural",
+    "status": "candidate"
+  },
+  {
+    "key": "inkjet:mandala",
+    "source": "inkjet",
+    "family": "cultural",
+    "status": "rejected",
+    "reason": "procedural-generator-not-executed"
+  },
+  {
+    "key": "inkjet:hash",
+    "source": "inkjet",
+    "family": "typography",
+    "status": "rejected",
+    "reason": "unsupported-numeric-definition"
+  },
+  {
+    "key": "inkjet:asterisk",
+    "source": "inkjet",
+    "family": "typography",
+    "status": "rejected",
+    "reason": "unsupported-numeric-definition"
+  },
+  {
+    "key": "inkjet:dots-ellipsis",
+    "source": "inkjet",
+    "family": "typography",
+    "status": "rejected",
+    "reason": "unsupported-numeric-definition"
+  },
+  {
+    "key": "inkjet:brackets",
+    "source": "inkjet",
+    "family": "typography",
+    "status": "rejected",
+    "reason": "unsupported-numeric-definition"
+  },
+  {
+    "key": "inkjet:slashes",
+    "source": "inkjet",
+    "family": "typography",
+    "status": "rejected",
+    "reason": "unsupported-numeric-definition"
+  },
+  {
+    "key": "inkjet:at-sign",
+    "source": "inkjet",
+    "family": "typography",
+    "status": "rejected",
+    "reason": "unsupported-numeric-definition"
+  },
+  {
+    "key": "inkjet:ampersand",
+    "source": "inkjet",
+    "family": "typography",
+    "status": "rejected",
+    "reason": "unsupported-numeric-definition"
+  },
+  {
+    "key": "inkjet:tilde",
+    "source": "inkjet",
+    "family": "typography",
+    "status": "rejected",
+    "reason": "unsupported-numeric-definition"
+  },
+  {
+    "key": "inkjet:plus-sign",
+    "source": "inkjet",
+    "family": "typography",
+    "status": "rejected",
+    "reason": "unsupported-numeric-definition"
+  },
+  {
+    "key": "inkjet:pipe",
+    "source": "inkjet",
+    "family": "typography",
+    "status": "rejected",
+    "reason": "unsupported-numeric-definition"
+  }
+]

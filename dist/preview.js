@@ -7,8 +7,8 @@
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   let serial = 0;
   const labels = {
-    ko: { css: '원본 CSS · 동작 샘플', composition: '원본 CSS · 구성 요소 재생', glsl: '원본 GLSL · 테스트 장면 A → B', svg: '원본 SVG 애니메이션', palette: '실제 색상 값', gradient: '실제 그라디언트', reference: '원본 검토 필요', noPreview: '수록된 시각 에셋이 없습니다.', invalid: '안전하게 재생할 수 없는 형식입니다.', webgl: '이 환경에서는 WebGL 미리보기를 사용할 수 없습니다.', shader: '이 셰이더는 현재 호스트에서 컴파일되지 않습니다.' },
-    en: { css: 'Original CSS · motion sample', composition: 'Original CSS · component playback', glsl: 'Original GLSL · test scenes A → B', svg: 'Original SVG animation', palette: 'Actual color values', gradient: 'Actual gradient', reference: 'Original review required', noPreview: 'No visual asset is stored in this record.', invalid: 'This format cannot be previewed safely.', webgl: 'WebGL preview is unavailable in this environment.', shader: 'This shader does not compile in the current host.' }
+    ko: { css: '원본 CSS · 동작 샘플', composition: '원본 CSS · 구성 요소 재생', glsl: '원본 GLSL · 테스트 장면 A → B', procedural: '원본 GLSL · 기본값으로 재생하는 절차형 효과', svg: '원본 SVG 애니메이션', palette: '실제 색상 값', gradient: '실제 그라디언트', reference: '원본 검토 필요', noPreview: '수록된 시각 에셋이 없습니다.', invalid: '안전하게 재생할 수 없는 형식입니다.', webgl: '이 환경에서는 WebGL 미리보기를 사용할 수 없습니다.', shader: '이 셰이더는 현재 호스트에서 컴파일되지 않습니다.' },
+    en: { css: 'Original CSS · motion sample', composition: 'Original CSS · component playback', glsl: 'Original GLSL · test scenes A → B', procedural: 'Original GLSL · procedural effect at source defaults', svg: 'Original SVG animation', palette: 'Actual color values', gradient: 'Actual gradient', reference: 'Original review required', noPreview: 'No visual asset is stored in this record.', invalid: 'This format cannot be previewed safely.', webgl: 'WebGL preview is unavailable in this environment.', shader: 'This shader does not compile in the current host.' }
   };
   const element = (tag, className, text) => { const e = document.createElement(tag); if (className) e.className = className; if (text !== undefined) e.textContent = text; return e; };
   const escape = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
@@ -229,12 +229,22 @@
   }
 
   const SVG_NS = 'http://www.w3.org/2000/svg';
-  const svgTags = new Set(['svg','title','g','symbol','path','circle','ellipse','rect','line','polyline','polygon','defs','pattern','linearGradient','radialGradient','stop','clipPath','mask','use','animate','animateTransform','set','filter','feGaussianBlur','feColorMatrix','feBlend']);
-  const svgAttributes = new Set(['viewBox','width','height','x','y','x1','x2','y1','y2','cx','cy','r','rx','ry','d','points','fill','fill-opacity','fill-rule','stroke','stroke-width','stroke-opacity','stroke-linecap','stroke-linejoin','stroke-miterlimit','overflow','stroke-dasharray','stroke-dashoffset','opacity','transform','transform-origin','transform-box','style','gradientTransform','gradientUnits','patternUnits','patternContentUnits','patternTransform','offset','stop-color','stop-opacity','id','clip-path','mask','filter','href','preserveAspectRatio','attributeName','attributeType','type','from','to','by','values','dur','begin','repeatCount','keyTimes','keySplines','calcMode','additive','accumulate','in','in2','result','mode','stdDeviation']);
+  const svgTags = new Set(['svg','title','g','symbol','path','circle','ellipse','rect','line','polyline','polygon','defs','pattern','linearGradient','radialGradient','stop','clipPath','mask','use','animate','animateTransform','set','filter','feGaussianBlur','feColorMatrix','feBlend','feFlood','feOffset','feComposite','feMorphology']);
+  const svgAttributes = new Set(['viewBox','width','height','x','y','x1','x2','y1','y2','cx','cy','r','rx','ry','d','points','fill','fill-opacity','fill-rule','stroke','stroke-width','stroke-opacity','stroke-linecap','stroke-linejoin','stroke-miterlimit','overflow','stroke-dasharray','stroke-dashoffset','opacity','transform','transform-origin','transform-box','style','gradientTransform','gradientUnits','patternUnits','patternContentUnits','patternTransform','offset','stop-color','stop-opacity','id','clip-path','mask','filter','href','preserveAspectRatio','attributeName','attributeType','type','from','to','by','values','dur','begin','repeatCount','keyTimes','keySplines','calcMode','additive','accumulate','in','in2','result','mode','stdDeviation','filterUnits','primitiveUnits','color-interpolation-filters','flood-color','flood-opacity','dx','dy','operator','k1','k2','k3','k4','radius']);
   const animationNames = new Set(['transform','opacity','fill','fill-opacity','stroke','stroke-opacity','stroke-width','stroke-dashoffset','stroke-dasharray','r','rx','ry','cx','cy','x','y','width','height','d','points']);
+  const svgEnums = {
+    'clip-rule': new Set(['nonzero','evenodd']),
+    maskUnits: new Set(['userSpaceOnUse','objectBoundingBox']),
+    maskContentUnits: new Set(['userSpaceOnUse','objectBoundingBox']),
+    'mask-type': new Set(['alpha','luminance']),
+    'shape-rendering': new Set(['auto','optimizeSpeed','crispEdges','geometricPrecision']),
+    'mix-blend-mode': new Set(['normal','multiply','screen','overlay','darken','lighten','color-dodge','color-burn','hard-light','soft-light','difference','exclusion','hue','saturation','color','luminosity'])
+  };
+  for (const name of Object.keys(svgEnums)) svgAttributes.add(name);
   function safeSvgStyle(name, value) {
     if (typeof value !== 'string' || value.length > 160) return '';
     value = value.trim();
+    if (svgEnums[name]) return svgEnums[name].has(value) ? value : '';
     if (name === 'transform-box') return /^(?:fill-box|stroke-box|view-box|border-box|content-box)$/.test(value) ? value : '';
     if (name === 'transform-origin') {
       const token = '(?:left|right|top|bottom|center|-?(?:[0-9]+(?:\\.[0-9]+)?|\\.[0-9]+)(?:px|%|em|rem)?)';
@@ -265,6 +275,7 @@
       }
       return clean.join(';');
     }
+    const boundedNumber = (value, limit, positive = false) => /^-?(?:[0-9]+(?:\.[0-9]+)?|\.[0-9]+)(?:e[+-]?[0-9]+)?$/i.test(value) && Number.isFinite(Number(value)) && Math.abs(Number(value)) <= limit && (!positive || Number(value) >= 0);
     function copy(node, depth = 0) {
       if (depth > 12 || ++count > 700 || !svgTags.has(node.localName)) return null;
       if (node.localName === 'filter' && ++filterCount > 8) return null;
@@ -289,18 +300,31 @@
         if (name === 'id') { if (!/^[a-z0-9_-]{1,100}$/i.test(value)) continue; value = idPrefix + value; }
         else if (name === 'href') { if (!/^#[a-z0-9_-]{1,100}$/i.test(value)) continue; value = '#' + idPrefix + value.slice(1); }
         else if (['mask','clip-path','filter'].includes(name) || /^url\(/i.test(value)) { const m = /^url\(\s*(['"]?)#([a-z0-9_-]{1,100})\1\s*\)$/i.exec(value); if (!m) continue; value = `url(#${idPrefix}${m[2]})`; }
-        else if (name === 'transform-origin' || name === 'transform-box') { value = safeSvgStyle(name, value); if (!value) continue; }
+        else if (svgEnums[name] || name === 'transform-origin' || name === 'transform-box') { value = safeSvgStyle(name, value); if (!value) continue; }
         else if (name === 'stdDeviation') {
           const numbers = value.trim().split(/[,\s]+/);
           if (node.localName !== 'feGaussianBlur' || numbers.length < 1 || numbers.length > 2 || numbers.some(n => !/^(?:[0-9]+(?:\.[0-9]+)?|\.[0-9]+)$/.test(n) || !Number.isFinite(Number(n)) || Number(n) > 40)) return null;
         }
         else if (['in','in2','result'].includes(name)) { if (!/^[a-z_][a-z0-9_-]{0,99}$/i.test(value)) continue; }
+        else if (name === 'filterUnits' || name === 'primitiveUnits') { if (node.localName !== 'filter' || !/^(?:userSpaceOnUse|objectBoundingBox)$/.test(value)) continue; }
+        else if (name === 'color-interpolation-filters') { if (node.localName !== 'filter' || !/^(?:sRGB|linearRGB)$/.test(value)) continue; }
+        else if (name === 'flood-color') { if (node.localName !== 'feFlood' || value.length > 80 || /url\(/i.test(value) || !CSS.supports('color', value)) continue; }
+        else if (name === 'flood-opacity') { if (node.localName !== 'feFlood' || !boundedNumber(value, 1, true)) return null; }
+        else if (name === 'dx' || name === 'dy') { if (node.localName !== 'feOffset' || !boundedNumber(value, 256)) return null; }
+        else if (/^k[1-4]$/.test(name)) { if (node.localName !== 'feComposite' || !boundedNumber(value, 16)) return null; }
+        else if (name === 'radius') {
+          const numbers = value.trim().split(/[,\s]+/);
+          if (node.localName !== 'feMorphology' || numbers.length < 1 || numbers.length > 2 || numbers.some(n => !boundedNumber(n, 40, true))) return null;
+        }
+        else if (name === 'operator') {
+          if (node.localName === 'feMorphology' ? !/^(?:erode|dilate)$/.test(value) : node.localName !== 'feComposite' || !/^(?:over|in|out|atop|xor|arithmetic)$/.test(value)) return null;
+        }
         else if (name === 'mode') {
-          if (node.localName === 'feColorMatrix' ? value !== 'matrix' : node.localName !== 'feBlend' || !/^(?:normal|multiply|screen|darken|lighten)$/.test(value)) continue;
+          if (node.localName === 'feColorMatrix' ? value !== 'matrix' : node.localName !== 'feBlend' || !/^(?:normal|multiply|screen|darken|lighten|overlay)$/.test(value)) continue;
         }
         else if (name === 'values' && node.localName === 'feColorMatrix') {
           const numbers = value.trim().split(/[,\s]+/);
-          if (numbers.length !== 20 || numbers.some(n => !/^-?(?:[0-9]+(?:\.[0-9]+)?|\.[0-9]+)(?:e[+-]?[0-9]+)?$/i.test(n) || !Number.isFinite(Number(n)) || Math.abs(Number(n)) > 100)) continue;
+          if (numbers.length !== 20 || numbers.some(n => !boundedNumber(n, 256))) continue;
         }
         else if (name === 'attributeName' && !animationNames.has(value)) continue;
         else if (name === 'begin') {value=safeBegin(value);if(!value)continue;}
@@ -443,7 +467,7 @@
         if(typeof path!=='string'||!/^assets\/materials\/[a-z0-9][a-z0-9-]{0,159}\.jpg$/.test(path)||image.mime!=='image/jpeg'||!Number.isInteger(image.width)||!Number.isInteger(image.height)||image.width<32||image.height<32||image.width>1024||image.height>1024){instance.unavailable('invalid');return root;}
         const visual=element('img','motion-preview-image');visual.alt=String(item.title||'Material').slice(0,300);visual.width=image.width;visual.height=image.height;visual.decoding='async';visual.loading=options.compact?'lazy':'eager';visual.referrerPolicy='no-referrer';visual.addEventListener('error',()=>instance.unavailable('invalid'));visual.src='./'+path;stage.append(visual);note.textContent=lang==='ko'?'저장된 소재 이미지 · 정적 디자인':'Stored material image · static design';
       }
-      else if(renderer==='glsl'){if(!initGpu()){instance.unavailable('webgl');return root;}const canvas=element('canvas','motion-preview-canvas');canvas.width=320;canvas.height=200;stage.append(canvas);const entry={item,canvas,ctx:canvas.getContext('2d'),started:performance.now(),owner:instance};instance.gpuEntry=entry;gpu.entries.add(entry);drawShader(entry,.45);note.textContent=words.glsl;scheduleGpu();}
+      else if(renderer==='glsl'){if(!initGpu()){instance.unavailable('webgl');return root;}const canvas=element('canvas','motion-preview-canvas');canvas.width=320;canvas.height=200;stage.append(canvas);const entry={item,canvas,ctx:canvas.getContext('2d'),started:performance.now(),owner:instance};instance.gpuEntry=entry;gpu.entries.add(entry);drawShader(entry,.45);note.textContent=item.preview?.scene==='procedural'?words.procedural:words.glsl;scheduleGpu();}
       else instance.unavailable('reference');
     } catch { instance.unavailable(renderer==='glsl'?'shader':'invalid'); }
     if(referenceMode&&root.dataset.state!=='unavailable')note.textContent=options.compact?(lang==='ko'?(referenceMode==='related-asset'?'원본 화면 아님':'원본 소스 아님'):(referenceMode==='related-asset'?'Not the original page':'Not original source')):lang==='ko'?(referenceMode==='related-asset'?'관련 예시 · 원본 화면 아님':'개념 재현 · 원본 소스 아님'):(referenceMode==='related-asset'?'Related example / not the original page':'Concept illustration / not original source');

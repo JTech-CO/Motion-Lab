@@ -1,0 +1,23 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <g class="anim-float">
+                <!-- Outer Progress Ring -->
+                <circle cx="200" cy="140" r="80" stroke="var(--charcoal)" stroke-width="8" opacity="0.2" fill="none"/>
+                <circle class="anim-draw" cx="200" cy="140" r="80" stroke="var(--primary-color)" stroke-width="12" stroke-dasharray="350 500" stroke-linecap="round" fill="none"/>
+                
+                <!-- Center Icon -->
+                <g class="anim-bounce">
+                    <path d="M200 100 V180 M170 150 L200 180 L230 150" stroke="var(--accent-color)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+                
+                <!-- Orbiting Sync Dots -->
+                <g class="anim-rotate" style="transform-origin: 200px 140px; animation-duration: 4s;">
+                    <circle cx="200" cy="60" r="6" fill="var(--secondary-color)"/>
+                    <circle cx="200" cy="220" r="6" fill="var(--secondary-color)"/>
+                </g>
+                
+                <!-- Digital Label -->
+                <rect class="anim-pulse" x="175" y="230" width="50" height="20" rx="5" fill="var(--charcoal)"/>
+                <path d="M185 240 H215" stroke="var(--bg-surface)" stroke-width="2" stroke-linecap="round"/>
+            </g>
+          </svg>

@@ -1,0 +1,16 @@
+{
+  "id": "pexels",
+  "url": "https://www.pexels.com/video/vibrant-abstract-particle-animation-35288383/",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 403,
+  "finalUrl": "https://www.pexels.com/video/vibrant-abstract-particle-animation-35288383/",
+  "contentType": "text/html; charset=UTF-8",
+  "truncated": false,
+  "observedBytes": 5728,
+  "observedContentSha256": "c7022dca0f2d613f780b8e3fccfc9f6499e0189139a49cbfdc13c5c45ff2c614",
+  "links": [],
+  "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+  "challengeOrDenial": true
+}

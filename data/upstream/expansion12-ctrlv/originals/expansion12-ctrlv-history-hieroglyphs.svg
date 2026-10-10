@@ -1,0 +1,46 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Stone Tablet -->
+            <rect class="anim-float" x="100" y="40" width="200" height="220" rx="10" fill="var(--primary-color)"/>
+            <rect class="anim-float" x="110" y="50" width="180" height="200" rx="5" fill="var(--bg-surface)" opacity="0.9"/>
+            
+            <!-- Lines separating columns/rows -->
+            <path d="M170 60 V240 M230 60 V240 M120 120 H280 M120 180 H280" stroke="var(--charcoal)" stroke-width="2" opacity="0.2"/>
+            
+            <g class="anim-draw" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" opacity="0.8">
+                <!-- Eye of Horus abstract -->
+                <path d="M130 80 Q145 70 160 80 Q145 90 130 80 Z"/>
+                <circle cx="145" cy="80" r="3" fill="var(--charcoal)"/>
+                <path d="M145 80 Q135 100 150 110"/>
+                
+                <!-- Ankh -->
+                <circle cx="200" cy="75" r="8"/>
+                <path d="M200 83 V110 M185 90 H215"/>
+                
+                <!-- Bird abstract -->
+                <path d="M245 80 Q255 70 265 80 Q255 100 245 110 H265"/>
+                <path d="M245 90 L235 100"/>
+                
+                <!-- Water waves -->
+                <path d="M125 140 Q135 130 145 140 T165 140"/>
+                <path d="M125 160 Q135 150 145 160 T165 160"/>
+                
+                <!-- Scarab Beetle abstract -->
+                <ellipse cx="200" cy="150" rx="10" ry="15"/>
+                <path d="M190 150 C170 130 170 170 190 150 M210 150 C230 130 230 170 210 150"/>
+                
+                <!-- Reed / Plant -->
+                <path d="M250 170 V130 Q260 140 265 130"/>
+                <path d="M250 150 Q260 160 265 150"/>
+                
+                <!-- Sun / Ra -->
+                <circle cx="145" cy="210" r="10" fill="var(--accent-color)" stroke="none"/>
+                <path d="M145 195 V190 M145 225 V230 M130 210 H125 M160 210 H165 M135 200 L130 195 M155 220 L160 225 M155 200 L160 195 M135 220 L130 225" stroke="var(--accent-color)" stroke-width="2"/>
+                
+                <!-- Person abstract -->
+                <circle cx="200" cy="195" r="5"/>
+                <path d="M200 200 V220 M200 205 L185 210 M200 205 L215 200 M200 220 L190 235 M200 220 L210 235"/>
+                
+                <!-- Bowl / Basket -->
+                <path d="M240 210 C240 230 270 230 270 210 Z" fill="var(--secondary-color)" stroke="none"/>
+            </g>
+          </svg>

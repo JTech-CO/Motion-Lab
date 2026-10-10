@@ -1,0 +1,22 @@
+{
+  "url": "https://www.awwwards.com/terms/",
+  "method": "Exa public search",
+  "status": "Exa-search-result",
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공식 정체·작품·권리 문서 탐색용 검색 결과. URL은 발견 후보이며 검색 요약만으로 권리 허가를 판정하지 않았다.",
+  "sector": 4,
+  "siteId": "awwwards",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/awwwards-policy-search-exa.json",
+  "rawCacheSha256": "ddfbdce2312d586601e888c73fc8d049f705f7b56ba0da10d6c49ff52ac5343e",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "9eb3f86c29e157102fa5db38aeb89a6f87d5b8fdf95f053937a52de372184246",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "requestedNumResults": 5,
+  "searchResultUrls": [
+    "https://www.awwwards.com/terms/",
+    "https://www.awwwards.com/faqs/",
+    "https://www.awwwards.com/about-evaluation/",
+    "https://www.awwwards.com/awwwards/collections/sotm-nominees/",
+    "https://www.awwwards.com/contact-us/"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "profilePath": "exa-results/link-audit/references/chrome-profile-reference-last",
+  "independentFreshProfile": true,
+  "normalBrowserClose": true,
+  "profileRemoved": true,
+  "cleanupVerifiedAt": "2026-10-10T11:42:06.525168+00:00",
+  "complete": false,
+  "failureStage": "second-navigation-body-read",
+  "failure": "Page.title execution context destroyed during Behance embed navigation; no source unavailability inferred from this tool error."
+}

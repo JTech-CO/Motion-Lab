@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <!-- Background: Unspooling Film Strip -->
+            <g class="anim-draw" opacity="0.15" fill="none" stroke="var(--charcoal)" stroke-width="40" stroke-dasharray="10 10">
+                <path d="M60 200 C80 80 320 80 340 200"/>
+            </g>
+            
+            <g class="anim-bounce">
+                <!-- Character Body -->
+                <path d="M130 260 C130 170 230 170 230 260 Z" fill="var(--secondary-color)"/>
+                <!-- Scarf -->
+                <path d="M160 180 C180 200 200 180 210 220" stroke="var(--accent-color)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                
+                <!-- Head -->
+                <circle cx="180" cy="130" r="35" fill="var(--primary-color)"/>
+                <!-- Beret/Director Hat -->
+                <path d="M140 120 C140 100 220 100 220 120 Z" fill="var(--charcoal)"/>
+                <path d="M140 120 H250" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+                
+                <!-- Prop: Megaphone -->
+                <g class="anim-float" style="transform-origin: 260px 180px;">
+                    <path d="M220 180 L280 150 V210 Z" fill="var(--primary-color)" stroke="var(--charcoal)" stroke-width="4"/>
+                    <path class="anim-pulse" d="M220 180 H200" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round"/>
+                    <!-- Sound Waves -->
+                    <path class="anim-glow" d="M290 160 Q300 180 290 200 M300 150 Q320 180 300 210" stroke="var(--accent-color)" stroke-width="4" fill="none" stroke-linecap="round"/>
+                </g>
+            </g>
+          </svg>

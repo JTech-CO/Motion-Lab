@@ -1,0 +1,33 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Open Envelope Back -->
+                <path d="M120 120 L200 180 L280 120 V220 H120 Z" fill="var(--primary-color)"/>
+                <!-- Envelope Flap Open -->
+                <path d="M120 120 L200 40 L280 120 Z" fill="var(--secondary-color)" opacity="0.8"/>
+                
+                <!-- Document / Letter coming out -->
+                <g class="anim-bounce">
+                    <rect x="140" y="60" width="120" height="100" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="2"/>
+                    <path class="anim-draw" d="M150 80 H250 M150 100 H230 M150 120 H250 M150 140 H190" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+                </g>
+                
+                <!-- Envelope Front -->
+                <path d="M120 220 L200 160 L280 220 Z" fill="var(--accent-color)"/>
+                <path d="M120 120 L200 160 L120 220 Z" fill="var(--primary-color)" opacity="0.9"/>
+                <path d="M280 120 L200 160 L280 220 Z" fill="var(--primary-color)" opacity="0.9"/>
+            </g>
+            
+            <!-- Paper planes flying out (emails being sent) -->
+            <g class="anim-float" style="animation-direction: normal;">
+                <!-- Plane 1 -->
+                <path d="M300 100 L340 80 L320 120 Z" fill="var(--secondary-color)"/>
+                <path d="M300 100 L340 80 L310 105 Z" fill="var(--charcoal)" opacity="0.2"/>
+                <path class="anim-draw" d="M270 120 C280 110 290 110 300 100" stroke="var(--charcoal)" stroke-width="2" stroke-dasharray="4 2" fill="none"/>
+            </g>
+            <g class="anim-float" style="animation-delay: 0.5s; animation-direction: normal;">
+                <!-- Plane 2 -->
+                <path d="M80 80 L60 40 L100 50 Z" fill="var(--accent-color)"/>
+                <path d="M80 80 L60 40 L85 60 Z" fill="var(--charcoal)" opacity="0.2"/>
+                <path class="anim-draw" d="M120 100 C110 90 90 90 80 80" stroke="var(--charcoal)" stroke-width="2" stroke-dasharray="4 2" fill="none"/>
+            </g>
+          </svg>

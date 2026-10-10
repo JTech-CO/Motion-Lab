@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-bounce">
+                <!-- Horns -->
+                <path d="M130 80 Q140 20 180 50 Z" fill="var(--secondary-color)"/>
+                <path d="M270 80 Q260 20 220 50 Z" fill="var(--secondary-color)"/>
+                
+                <circle cx="200" cy="150" r="100" fill="var(--primary-color)"/>
+                
+                <!-- Angry Eyes -->
+                <path d="M130 110 L180 130 H140 Z" fill="var(--bg-surface)"/>
+                <path d="M270 110 L220 130 H260 Z" fill="var(--bg-surface)"/>
+                
+                <!-- Smirk -->
+                <path d="M150 190 Q200 170 250 190" stroke="var(--bg-surface)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                <!-- Fang -->
+                <path d="M230 185 L235 205 L245 185 Z" fill="var(--bg-surface)"/>
+            </g>
+          </svg>

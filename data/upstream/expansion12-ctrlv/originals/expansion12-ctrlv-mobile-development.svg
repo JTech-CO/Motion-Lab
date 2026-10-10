@@ -1,0 +1,11 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="130" y="40" width="140" height="240" rx="20" fill="var(--charcoal)"/>
+        <rect x="145" y="60" width="110" height="200" rx="8" fill="var(--bg-surface)"/>
+        <g class="anim-float">
+            <rect x="160" y="80" width="80" height="40" rx="4" fill="var(--primary-color)" opacity="0.6"/>
+            <circle cx="200" cy="160" r="30" stroke="var(--accent-color)" stroke-width="4" fill="none"/>
+        </g>
+        <g class="anim-draw">
+            <rect x="160" y="210" width="80" height="15" rx="4" fill="var(--secondary-color)" opacity="0.4"/>
+        </g>
+    </svg>

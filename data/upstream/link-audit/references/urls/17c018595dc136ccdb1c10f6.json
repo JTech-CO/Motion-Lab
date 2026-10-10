@@ -1,0 +1,56 @@
+{
+  "url": "https://www.asquareportal.com/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://www.asquareportal.com/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://www.asquareportal.com/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://www.asquareportal.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://www.asquareportal.com/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:59.304930+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://www.asquareportal.com/",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 220322,
+      "capturedSha256": "6576248c8c8ee4a94343a69db769df9ce298b2e31a72f852233379f92d69367e",
+      "responseBodySha256": "6576248c8c8ee4a94343a69db769df9ce298b2e31a72f852233379f92d69367e",
+      "title": "Asquareportal | Motion Design & Creative Studio, Berlin",
+      "textCharacters": 8422,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.54,
+      "captureCachePath": "exa-results/link-audit/references/captures/88d97fd1212f418c1b610430.json",
+      "captureCacheSha256": "f202c17f0549db1d508121fc38af62ba20747d04208053dcd87c080d8455cdb1"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-asquareportal",
+      "canonicalId": "ref-asquareportal",
+      "title": "Asquareportal",
+      "role": "canonical",
+      "sourceSha256": "d8ab17391fe6c1e6ca8a8a452f0eed502d15de60ca1a5b9a8277878a9efb8ae4"
+    }
+  ]
+}

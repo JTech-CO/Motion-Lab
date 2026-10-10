@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://www.rocketstock.com/",
+    "method": "Exa-public-webpage-fetch",
+    "status": "fetch-failed",
+    "observedContent": "CRAWL_LIVECRAWL_TIMEOUT",
+    "batch": "stock-home1"
+  },
+  {
+    "url": "https://jitter.video/file/?id=h-KMaM5JwJas2ClP7zZeD&bucket=snackthis-userdata",
+    "method": "Exa-public-webpage-fetch",
+    "status": "fetch-failed",
+    "observedContent": "CRAWL_EMPTY_CONTENT",
+    "batch": "stock-assets-batch4"
+  },
+  {
+    "url": "https://www.rocketstock.com/video-packs/lucent-ultra-vivid-lens-flares/",
+    "method": "Exa-public-webpage-fetch",
+    "status": "fetch-failed",
+    "observedContent": "CRAWL_LIVECRAWL_TIMEOUT",
+    "batch": "stock-extras-batch0"
+  }
+]

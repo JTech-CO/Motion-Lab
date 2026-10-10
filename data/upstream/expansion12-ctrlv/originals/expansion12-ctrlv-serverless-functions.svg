@@ -1,0 +1,7 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <path d="M140 160 C140 80 260 80 260 160 C260 240 140 240 140 160 Z" fill="var(--primary-color)" opacity="0.8"/>
+                <path class="anim-pulse" d="M170 140 Q160 150 170 160 Q180 170 170 180 M230 140 Q240 150 230 160 Q220 170 230 180" stroke="var(--bg-surface)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                <circle class="anim-glow" cx="200" cy="160" r="10" fill="var(--accent-color)"/>
+            </g>
+          </svg>

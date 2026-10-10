@@ -1,0 +1,38 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Racks / Shelving -->
+                <g stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round">
+                    <line x1="100" y1="50" x2="100" y2="250"/>
+                    <line x1="200" y1="50" x2="200" y2="250"/>
+                    <line x1="300" y1="50" x2="300" y2="250"/>
+                    
+                    <line x1="80" y1="120" x2="320" y2="120"/>
+                    <line x1="80" y1="180" x2="320" y2="180"/>
+                    <line x1="80" y1="240" x2="320" y2="240"/>
+                </g>
+                
+                <!-- Boxes on Shelves -->
+                <!-- Top Shelf -->
+                <rect class="anim-pulse" x="120" y="80" width="40" height="40" rx="2" fill="var(--primary-color)"/>
+                <line x1="125" y1="100" x2="155" y2="100" stroke="var(--bg-surface)" stroke-width="4"/>
+                
+                <!-- Middle Shelf -->
+                <rect class="anim-pulse" style="animation-delay: 0.2s;" x="140" y="140" width="40" height="40" rx="2" fill="var(--secondary-color)"/>
+                <rect class="anim-pulse" style="animation-delay: 0.3s;" x="220" y="140" width="60" height="40" rx="2" fill="var(--accent-color)"/>
+                <path d="M240 150 V170 M250 150 V170 M260 150 V170 M265 150 V170" stroke="var(--bg-surface)" stroke-width="3"/>
+                
+                <!-- Bottom Shelf -->
+                <rect class="anim-pulse" style="animation-delay: 0.4s;" x="110" y="200" width="50" height="40" rx="2" fill="var(--primary-color)"/>
+                <rect class="anim-pulse" style="animation-delay: 0.5s;" x="240" y="200" width="40" height="40" rx="2" fill="var(--secondary-color)"/>
+                
+                <!-- Scanner / Drone hovering -->
+                <g transform="translate(60, 60)">
+                    <g class="anim-bounce">
+                    <rect x="0" y="0" width="30" height="15" rx="4" fill="var(--accent-color)"/>
+                    <circle cx="15" cy="-5" r="8" fill="var(--charcoal)"/>
+                    <!-- Laser Scan -->
+                    <path class="anim-draw" d="M30 15 L80 60 L100 80" stroke="var(--accent-color)" stroke-width="3" stroke-dasharray="4 4" fill="none"/>
+                </g>
+                </g>
+            </g>
+          </svg>

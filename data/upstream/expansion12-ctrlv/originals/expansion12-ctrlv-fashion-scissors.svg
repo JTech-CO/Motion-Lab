@@ -1,0 +1,15 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <g class="anim-rotate" >
+                    <!-- Blade 1 -->
+                    <path d="M200 150 L100 120 L100 110 Z" fill="var(--charcoal)"/>
+                    <!-- Handle 1 -->
+                    <circle cx="240" cy="170" r="30" stroke="var(--primary-color)" stroke-width="15" fill="none"/>
+                    <!-- Blade 2 -->
+                    <path d="M200 150 L100 180 L100 190 Z" fill="var(--secondary-color)"/>
+                    <!-- Handle 2 -->
+                    <circle cx="260" cy="120" r="25" stroke="var(--primary-color)" stroke-width="15" fill="none"/>
+                    <circle cx="200" cy="150" r="8" fill="var(--accent-color)"/>
+                </g>
+            </g>
+          </svg>

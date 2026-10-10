@@ -1,0 +1,603 @@
+[
+  {
+    "id": "expansion12-shaderforge-2026-03-27_liquid-chrome-morphing-abstract-sculpture-glsl",
+    "title": "Curl-Warped Chrome Field",
+    "description": "Four successive curl-noise coordinate warps form folded reflective bands across a metallic field. This is a procedural coordinate field rather than a raymarched sculpture. AI-generated in the upstream Shader Forge project; the local host displays source time 0 to 1 second per progress cycle.",
+    "sourceName": "Shader Forge",
+    "sourceAuthor": "wrennly / upstream AI generation pipeline",
+    "sourceRepo": "https://github.com/wrennly/shader-forge",
+    "sourceUrl": "https://github.com/wrennly/shader-forge/blob/549f0fda617b2081dd5c50ab57defa1a95e0f341/gallery/2026-03-27_liquid-chrome-morphing-abstract-sculpture/shader.frag",
+    "category": "shader",
+    "domain": "motion",
+    "kind": "code",
+    "language": "glsl",
+    "access": "public",
+    "tags": [
+      "shader",
+      "procedural",
+      "ai-generated",
+      "shader-forge",
+      "curl-noise",
+      "coordinate-warp",
+      "chrome",
+      "reflective-field"
+    ],
+    "colors": [],
+    "code": "/*\nShader Forge / wrennly. Official commit 549f0fda617b2081dd5c50ab57defa1a95e0f341. AI-generated upstream using the local Qwen3-Coder-Next pipeline described in the official README. Source: https://github.com/wrennly/shader-forge/blob/549f0fda617b2081dd5c50ab57defa1a95e0f341/gallery/2026-03-27_liquid-chrome-morphing-abstract-sculpture/shader.frag. Original fragment arithmetic, functions, loops and output body preserved. Host declaration/entry-point adapter only; source time 0 to 1 second follows progress and resolution remains a 320x200 uniform. Full individual metadata including generation/reference disclosures is retained in the source evidence.\n\nMIT License\n\nCopyright (c) 2026 wrennly\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n*/\n#define uTime progress\n#define gl_FragColor mlColor\nvec2 vUv;\nvec4 mlColor;\n\nuniform vec2 uResolution; // = vec2(320.0, 200.0)\n\n\nfloat hash(vec2 p) {\n    p = fract(p * vec2(123.34, 456.21));\n    p += dot(p, p + 45.32);\n    return fract(p.x * p.y);\n}\n\nfloat noise(vec2 p) {\n    vec2 i = floor(p);\n    vec2 f = fract(p);\n    vec2 u = f * f * (3.0 - 2.0 * f);\n    float a = hash(i);\n    float b = hash(i + vec2(1.0, 0.0));\n    float c = hash(i + vec2(0.0, 1.0));\n    float d = hash(i + vec2(1.0, 1.0));\n    return mix(mix(a, b, u.x), mix(c, d, u.x), u.y);\n}\n\nfloat gradNoise(vec2 p) {\n    vec2 i = floor(p);\n    vec2 f = fract(p);\n    float a = hash(i);\n    float b = hash(i + vec2(1.0, 0.0));\n    float c = hash(i + vec2(0.0, 1.0));\n    float d = hash(i + vec2(1.0, 1.0));\n    vec2 u = f * f * (3.0 - 2.0 * f);\n    float v = mix(a, b, u.x);\n    float w = mix(c, d, u.x);\n    float gradX = (b - a) * (6.0 * f.x * (1.0 - f.x)) * (v - w) + (w - v);\n    float gradY = (c - a) * (6.0 * f.y * (1.0 - f.y)) * (w - v) + (w - v);\n    return gradX + gradY;\n}\n\nvec3 curlNoise(vec2 uv, float t) {\n    float eps = 0.001;\n    float nx0 = gradNoise(uv - vec2(eps, 0.0));\n    float nx1 = gradNoise(uv + vec2(eps, 0.0));\n    float ny0 = gradNoise(uv - vec2(0.0, eps));\n    float ny1 = gradNoise(uv + vec2(0.0, eps));\n    float nz = (nx1 - nx0 - ny1 + ny0) / (4.0 * eps);\n    vec2 curlXY = vec2(ny1 - ny0, -(nx1 - nx0)) / (2.0 * eps);\n    return vec3(curlXY, nz * 0.5 + 0.5);\n}\n\nvec3 warp(vec3 p, float t) {\n    vec3 curl = curlNoise(p.xy * 0.5 + t * 0.3, t);\n    p.xy += curl.xy * 0.35;\n    p.z += curl.z * 0.2;\n    return p;\n}\n\nvec3 chromeColor(vec3 p, float t) {\n    vec3 base = vec3(0.06, 0.06, 0.08);\n    vec3 mid = mix(vec3(0.35, 0.38, 0.42), vec3(0.85, 0.88, 0.92), \n                   0.5 + 0.5 * sin(t * 0.8 + p.x * 3.0));\n    float spec = pow(1.0 - dot(normalize(vec3(p.xy, 1.0)), vec3(0.0, 0.0, 1.0)), 5.0);\n    vec3 highlight = vec3(1.0) * spec * 0.7;\n    float irid = 0.5 + 0.5 * sin(p.x * 6.0 + t * 2.0 + p.z * 4.0);\n    return mix(base, mid, smoothstep(0.0, 1.0, length(p.xy) * 0.6)) + highlight + vec3(irid) * 0.15;\n}\n\nvoid mlOriginalMain() {\n    vec2 uv = vUv * 2.0 - 1.0;\n    uv.x *= uResolution.x / uResolution.y;\n    vec3 pos = vec3(uv, 0.0);\n    float t = uTime * 0.4;\n    \n    for (int i = 0; i < 4; i++) {\n        pos = warp(pos, t + float(i) * 0.15);\n    }\n    \n    float dist = length(pos.xy);\n    float density = smoothstep(0.8, 0.2, dist);\n    density = smoothstep(0.0, 1.0, density * 1.2);\n    \n    vec3 color = chromeColor(pos, t);\n    color = mix(color * 0.9, vec3(0.98), density * 0.6);\n    \n    gl_FragColor = vec4(color, 1.0);\n}\n#undef gl_FragColor\nvec4 transition(vec2 uv) { vUv = uv; mlColor = vec4(0.0); mlOriginalMain(); return mlColor; }\n",
+    "license": "MIT",
+    "licenseText": "MIT License\n\nCopyright (c) 2026 wrennly\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+    "verifiedAt": "2026-10-10",
+    "verification": "held-original-undefined-GLSL-arithmetic-not-adopted",
+    "upstreamSha256": "176934243942ebc6df1b902515054149f3ebd18da0035dc1148afb4496650d79",
+    "preview": {
+      "type": "reference",
+      "variant": "shaderforge",
+      "scene": "procedural",
+      "adapted": true
+    },
+    "evidence": {
+      "scope": "individual-independent-procedural-motion-construction",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-27_liquid-chrome-morphing-abstract-sculpture/shader.frag",
+      "artifactSha256": "176934243942ebc6df1b902515054149f3ebd18da0035dc1148afb4496650d79",
+      "gitBlobSha": "b59d7e949fc423091fe0526b5bb1788e037d9be4",
+      "sourceCommit": "549f0fda617b2081dd5c50ab57defa1a95e0f341",
+      "storedCodeSha256": "ce9b6d63512609eb0fb98aa427f673a11af37d135db3dabc0f6bd953251311df",
+      "adapterSha256": "ed8855d38f21334eced28f2c590088860dbb96330306c43ff064b8d0d8cbb968",
+      "attribution": "Shader Forge / wrennly. Official commit 549f0fda617b2081dd5c50ab57defa1a95e0f341. AI-generated upstream using the local Qwen3-Coder-Next pipeline described in the official README. Source: https://github.com/wrennly/shader-forge/blob/549f0fda617b2081dd5c50ab57defa1a95e0f341/gallery/2026-03-27_liquid-chrome-morphing-abstract-sculpture/shader.frag. Original fragment arithmetic, functions, loops and output body preserved. Host declaration/entry-point adapter only; source time 0 to 1 second follows progress and resolution remains a 320x200 uniform. Full individual metadata including generation/reference disclosures is retained in the source evidence.",
+      "adaptations": "Only remove the time uniform and varying declarations, rename main to mlOriginalMain, alias uTime directly to the progress uniform, retain uResolution as a uniform with explicit320x200 default, bind vUv=inputUV, and redirect original gl_FragColor through mlColor, then restore its built-in host meaning. No new scaled arithmetic or literal-folded resolution. Original arithmetic/body preserved; source time0..1seconds follows the host progress cycle.",
+      "sourceJavaScriptExecuted": false,
+      "externalResources": false,
+      "sourceTimeSeconds": [
+        0,
+        1
+      ],
+      "resolution": [
+        320,
+        200
+      ],
+      "generationDisclosure": {
+        "AIgenerated": true,
+        "pipeline": "Official README declares local Qwen3-Coder-Next 80B, retrieval-assisted autonomous shader generation. Individual metadata preserved; success is not a human-approval claim.",
+        "publicationMetadataPath": "data/upstream/expansion12-motion-reserve/shader-forge/publication/gallery/2026-03-27_liquid-chrome-morphing-abstract-sculpture/metadata.json",
+        "publicationMetadataSha256": "93d571312adc7eeda252387761f4a6f1e6d2c38c4d218d03ce12e945831ba0a9",
+        "publicationMetadataGitBlobSha": "3fa080f466a90de2aac409bfe75d0b5a2cb516ce",
+        "publisherMetadata": {
+          "theme": "liquid chrome morphing abstract sculpture",
+          "style_hints": "",
+          "references": [
+            "community/open-shaders/Engines_playcanvas_reflDirAniso.frag [reflection]",
+            "community/lygia/color_layer_reflectSourceOver.glsl [reflection]",
+            "community/lygia/color_layer_phoenixSourceOver.glsl []",
+            "community/lygia/color_layer_hardMixSourceOver.glsl []",
+            "community/lygia/color_layer_reflectSourceOver.wgsl [reflection]"
+          ],
+          "attempts": 2,
+          "created_at": "2026-03-27T18:37:50.528160+00:00",
+          "glsl_lines": 83,
+          "success": true,
+          "design_brief": "**Implementation Guide: Liquid Chrome Morphing Abstract Sculpture**  \n\n1. **Architecture**: `main()` → `vec3 pos = uv.xy * 2.0 - 1.0;` → `float t = uTime * 0.5;` → loop 3–5 times: `pos = warp(pos, t)` (using curl noise) → `float density = smoothstep(0.3, 0.0, length(pos))` → `color = mix(0.9, 0.95, density) * chromeColor(pos, t)` → `gl_FragColor = vec4(color, 1.0)`.  \n\n2. **Key functions**:  \n   - `vec3 curlNoise(vec2 uv, float t)` — returns divergence-free flow (use ref #2’s `gradNoise` + curl formula)  \n   - `vec3 warp(vec3 p, float t)` — iteratively applies curl noise: `p += curl * 0.25`  \n   - `vec3 chromeColor(vec3 p, float t)` — returns iridescent metallic hue via `sin(p.xy * 5.0 + t)` + `mix(0.5, 1.0, dot(p, p))`  \n\n3. **Reuse patterns**:  \n   - Use ref #2’s `gradNoise` (from *lygia*) for stable, smooth curl noise — *avoid* Perlin noise (too aliased).  \n   - Adopt `layerReflectSourceOver`’s structure for layering: first base, then iridescence, then highlight.  \n\n4. **Color & brightness**:  \n   - Base: `vec3(0.05, 0.05, 0.08)` (dark chrome), mid: `mix(vec3(0.4), vec3(0.9), sin(uTime*0.8))`, highlight: `vec3(1.0)`.  \n   - Always use `smoothstep(0.0, 1.0, density)` to avoid dark voids — fill 100% of screen.  \n\n5. **Animation**:  \n   - Drive with `uTime * 0.3` (0.25–0.5 range) — slow, looping morph.  \n   - Add subtle `uTime * 2.0` for high-frequency ripple (curl amplitude).  \n\n6. **Pitfalls**:  \n   - NO `dFdx/dFdy` — compute derivatives manually (e.g., finite diff over `0.001`).  \n   - Avoid loops > 5 iterations (WebGL1 perf).  \n   - Use `fract()` for tiling — no modulo on floats.  \n   - All `varying` vars must be declared *before* `main()` — no inline `vec2 uv = vUv;`.",
+          "review": {
+            "visual_complexity": 4,
+            "code_quality": 4,
+            "theme_match": 3,
+            "animation": 4,
+            "originality": 4,
+            "total": 19,
+            "verdict": "pass",
+            "feedback": "Solid implementation of liquid chrome morphing with layered warping, curl noise, and iridescent chrome coloring; improve brightness by ensuring the core shape occupies more of the canvas (currently density falloff may leave large areas dim)."
+          }
+        },
+        "referenceBoundary": "Reference paths are generation provenance, not additional license grants. No referenced corpus files or external programs are included. License is the official repository MIT declaration."
+      },
+      "rendererValidation": {
+        "rendererSha256": "f96d0d7078ffe6aa189fce72723a1ee8dd2e8b2c475b628eb1f80bc2336b7151",
+        "progress": [
+          0.05,
+          0.25,
+          0.5,
+          0.75,
+          0.95
+        ],
+        "sourceSeconds": [
+          0.05,
+          0.25,
+          0.5,
+          0.75,
+          0.95
+        ],
+        "resolution": [
+          320,
+          200
+        ],
+        "changedPixels": 0,
+        "maximumChannelError": 0,
+        "meanAbsoluteRGBAError": 0,
+        "originalAdapterProof": "data/upstream/expansion12-motion-reserve/shaderforge-render.json",
+        "storedCodeProof": "data/upstream/expansion12-motion-reserve/shaderforge-final-stored-render.json"
+      },
+      "semanticReview": "Actual complete source construction, all five frames and nearest existing motion frames reviewed. Independent mechanism/layout; no palette, orientation, version or basic plasma/caustic inflation.",
+      "boundedLoops": [
+        {
+          "header": "for (int i = 0; i < 4; i++)",
+          "maximumIterations": 4,
+          "boundResolved": 4.0
+        }
+      ],
+      "thirdPartyRightsReview": {
+        "reportPath": "data/upstream/expansion12-motion-reserve/shaderforge-rights-review.json",
+        "reportSha256": "52e20a6a11e9d0aa9b6c28d3c47db6f5b5ef0b56219ad968af3fd3c3e21aead1",
+        "decision": "eligible",
+        "basis": "All five declared references mapped to bounded primary comparisons: three LYGIA Porter-Duff source-over blend functions plus corresponding WGSL and canonical PlayCanvas anisotropic getReflDir. Actual source contains none of those functions, blend/composite calls, anisotropic directions/tangent/normal machinery, alpha compositing or their implementation structure. Actual curl-gradient field, four coordinate warps and chromeColor composition differ. General GLSL interpolation, dot/normalize/pow and noise arithmetic are not treated as substantive copying by themselves. Repository MIT declaration accepted for this independently different program; AI provenance remains explicit."
+      },
+      "adoptionDecision": "held",
+      "adoptionHoldReason": "Actual original uses smoothstep(0.8, 0.2, dist), with edge0 > edge1. Primary Khronos specification defines this result as undefined. All original/stored five-frame pixels agree on the inspected Chrome driver, but that does not resolve original undefined arithmetic or portability. Original body is retained without a mathematical rewrite; non-adopted.",
+      "sourceMathReview": {
+        "reportPath": "data/upstream/expansion12-motion-reserve/shaderforge-source-math-review.json",
+        "reportSha256": "94ce759d1efa87d0484c67a82c126c10781357b82892437b583f53ee53bbffcd",
+        "originalUndefinedExpression": "smoothstep(0.8, 0.2, dist)"
+      }
+    },
+    "collectionEvidence": {
+      "version": 1,
+      "original": {
+        "path": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-27_liquid-chrome-morphing-abstract-sculpture/shader.frag",
+        "sha256": "176934243942ebc6df1b902515054149f3ebd18da0035dc1148afb4496650d79"
+      },
+      "notice": {
+        "path": "data/upstream/expansion12-motion-reserve/shader-forge/LICENSE",
+        "sha256": "876c040e45ea0f5db8c98d375c947a055c8f359a0605a2f64bc75e083343298e"
+      },
+      "storedSha256": "ce9b6d63512609eb0fb98aa427f673a11af37d135db3dabc0f6bd953251311df"
+    }
+  },
+  {
+    "id": "expansion12-shaderforge-2026-03-28_abstract-voronoi-crystal-growth-animation-glsl",
+    "title": "Voronoi Contour Waves",
+    "description": "Moving Voronoi sites divide the field into cells with traveling concentric distance contours and shifting cell colors. The internal contour waves form the visible motion; physical crystal growth is not simulated. AI-generated in the upstream Shader Forge project; the local host displays source time 0 to 1 second per progress cycle.",
+    "sourceName": "Shader Forge",
+    "sourceAuthor": "wrennly / upstream AI generation pipeline",
+    "sourceRepo": "https://github.com/wrennly/shader-forge",
+    "sourceUrl": "https://github.com/wrennly/shader-forge/blob/549f0fda617b2081dd5c50ab57defa1a95e0f341/gallery/2026-03-28_abstract-voronoi-crystal-growth-animation/shader.frag",
+    "category": "shader",
+    "domain": "motion",
+    "kind": "code",
+    "language": "glsl",
+    "access": "public",
+    "tags": [
+      "shader",
+      "procedural",
+      "ai-generated",
+      "shader-forge",
+      "voronoi",
+      "contour-waves",
+      "cellular",
+      "distance-field"
+    ],
+    "colors": [],
+    "code": "/*\nShader Forge / wrennly. Official commit 549f0fda617b2081dd5c50ab57defa1a95e0f341. AI-generated upstream using the local Qwen3-Coder-Next pipeline described in the official README. Source: https://github.com/wrennly/shader-forge/blob/549f0fda617b2081dd5c50ab57defa1a95e0f341/gallery/2026-03-28_abstract-voronoi-crystal-growth-animation/shader.frag. Original fragment arithmetic, functions, loops and output body preserved. Host declaration/entry-point adapter only; source time 0 to 1 second follows progress and resolution remains a 320x200 uniform. Full individual metadata including generation/reference disclosures is retained in the source evidence.\n\nMIT License\n\nCopyright (c) 2026 wrennly\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n*/\n#define uTime progress\n#define gl_FragColor mlColor\nvec2 vUv;\nvec4 mlColor;\n\nuniform vec2 uResolution; // = vec2(320.0, 200.0)\n\n\nvec2 random2(vec2 p) {\n    return fract(sin(vec2(dot(p, vec2(127.1, 311.7)), dot(p, vec2(269.5, 183.3)))) * 43758.5453);\n}\n\nvec3 voronoi(vec2 uv, float time) {\n    vec2 i_uv = floor(uv);\n    vec2 f_uv = fract(uv);\n    vec3 rta = vec3(0.0, 0.0, 10.0);\n    \n    for (float j = -1.0; j <= 1.0; j += 1.0) {\n        for (float i = -1.0; i <= 1.0; i += 1.0) {\n            vec2 neighbor = vec2(i, j);\n            vec2 point = random2(i_uv + neighbor);\n            point = 0.5 + 0.5 * sin(time + 6.2831853 * point);\n            vec2 diff = neighbor + point - f_uv;\n            float dist = length(diff);\n            \n            if (dist < rta.z) {\n                rta.xy = point;\n                rta.z = dist;\n            }\n        }\n    }\n    return rta;\n}\n\nvec3 colorFromVoronoi(vec3 v) {\n    float d = v.z;\n    vec2 p = v.xy;\n    \n    // Base color from cell position\n    vec3 col = 0.5 + 0.5 * sin(6.2831853 * (p.xyx + vec3(0.0, 0.3, 0.6)) + uTime * 0.5);\n    \n    // Add crystalline rings\n    float rings = 0.5 + 0.5 * sin(40.0 * d - uTime);\n    col += vec3(rings) * 0.3;\n    \n    // Edge glow\n    float edge = smoothstep(0.02, 0.0, d);\n    col += vec3(1.0) * edge * 0.4;\n    \n    // Soft contrast boost\n    col = pow(col, vec3(0.85)) * 1.2;\n    \n    return col;\n}\n\nvoid mlOriginalMain() {\n    vec2 uv = vUv;\n    uv = uv * 2.0 - 1.0;\n    uv.x *= uResolution.x / uResolution.y;\n    \n    vec3 v = voronoi(uv * 2.0, uTime);\n    vec3 col = colorFromVoronoi(v);\n    \n    gl_FragColor = vec4(col, 1.0);\n}\n#undef gl_FragColor\nvec4 transition(vec2 uv) { vUv = uv; mlColor = vec4(0.0); mlOriginalMain(); return mlColor; }\n",
+    "license": "MIT (upstream declaration; third-party rights unresolved)",
+    "licenseText": "MIT License\n\nCopyright (c) 2026 wrennly\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+    "verifiedAt": "2026-10-10",
+    "verification": "held-third-party-rights-unresolved-not-adopted",
+    "upstreamSha256": "65dcdd958035a5d47cdd30856ef3319fe49c01bf147b443b6e7bd00e7327f426",
+    "preview": {
+      "type": "reference",
+      "variant": "shaderforge",
+      "scene": "procedural",
+      "adapted": true
+    },
+    "evidence": {
+      "scope": "individual-independent-procedural-motion-construction",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-28_abstract-voronoi-crystal-growth-animation/shader.frag",
+      "artifactSha256": "65dcdd958035a5d47cdd30856ef3319fe49c01bf147b443b6e7bd00e7327f426",
+      "gitBlobSha": "ada793fdfe14b60eaf4696878614aaee578807a0",
+      "sourceCommit": "549f0fda617b2081dd5c50ab57defa1a95e0f341",
+      "storedCodeSha256": "0c2ab64f55432e853986ca4c5bda5890f95d407f64e8e46319c47ad08d4642b6",
+      "adapterSha256": "a776a1e8f68faf9d3cfc61000c9212642d27703a8f1d6cddb799e1544562f974",
+      "attribution": "Shader Forge / wrennly. Official commit 549f0fda617b2081dd5c50ab57defa1a95e0f341. AI-generated upstream using the local Qwen3-Coder-Next pipeline described in the official README. Source: https://github.com/wrennly/shader-forge/blob/549f0fda617b2081dd5c50ab57defa1a95e0f341/gallery/2026-03-28_abstract-voronoi-crystal-growth-animation/shader.frag. Original fragment arithmetic, functions, loops and output body preserved. Host declaration/entry-point adapter only; source time 0 to 1 second follows progress and resolution remains a 320x200 uniform. Full individual metadata including generation/reference disclosures is retained in the source evidence.",
+      "adaptations": "Only remove the time uniform and varying declarations, rename main to mlOriginalMain, alias uTime directly to the progress uniform, retain uResolution as a uniform with explicit320x200 default, bind vUv=inputUV, and redirect original gl_FragColor through mlColor, then restore its built-in host meaning. No new scaled arithmetic or literal-folded resolution. Original arithmetic/body preserved; source time0..1seconds follows the host progress cycle.",
+      "sourceJavaScriptExecuted": false,
+      "externalResources": false,
+      "sourceTimeSeconds": [
+        0,
+        1
+      ],
+      "resolution": [
+        320,
+        200
+      ],
+      "generationDisclosure": {
+        "AIgenerated": true,
+        "pipeline": "Official README declares local Qwen3-Coder-Next 80B, retrieval-assisted autonomous shader generation. Individual metadata preserved; success is not a human-approval claim.",
+        "publicationMetadataPath": "data/upstream/expansion12-motion-reserve/shader-forge/publication/gallery/2026-03-28_abstract-voronoi-crystal-growth-animation/metadata.json",
+        "publicationMetadataSha256": "7761b993b169f69e0b73fc673dabbda55bc233ec67879659d6b986468842c260",
+        "publicationMetadataGitBlobSha": "1c825b180d1ddba0d9291cdee8174f9bae455708",
+        "publisherMetadata": {
+          "theme": "abstract voronoi crystal growth animation",
+          "style_hints": "",
+          "references": [
+            "community/lygia/generative_voronoi.glsl [grid]",
+            "community/procedural-tileable-shaders/voronoi.glsl [color_palette,grid]",
+            "community/glsl-shaders/borders_resources_voronoi.glsl [grid,matrix]",
+            "community/thebookofshaders/12_vorono-01.frag [grid]",
+            "community/lygia/generative_voronoi.wgsl [grid]"
+          ],
+          "attempts": 1,
+          "created_at": "2026-03-28T01:54:08.926449+00:00",
+          "glsl_lines": 61,
+          "success": true,
+          "design_brief": "### Implementation Guide: Abstract Voronoi Crystal Growth  \n\n1. **Architecture**  \n   ```glsl\n   void main() {\n     vec2 uv = gl_FragCoord.xy / uResolution.xy;\n     uv = uv * 2.0 - 1.0; uv.x *= uResolution.x/uResolution.y;\n     vec3 col = voronoiCrystal(uv, uTime);\n     gl_FragColor = vec4(col, 1.0);\n   }\n   ```\n\n2. **Key functions**  \n   - `vec3 voronoiCrystal(vec2 uv, float t)` — main entry; returns RGB  \n   - `vec3 voronoi(vec2 p, float t)` — reuse **ref #1’s `voronoi()`**, but replace `time` with `uTime` in `VORONOI_RANDOM_FNC`  \n   - `vec3 colorFromVoronoi(vec3 v)` — maps distance/phase to vibrant palette (see §4)  \n   - `float growthField(vec2 p, float t)` — optional: smooth domain-warping using `sin(uTime + ...)`\n\n3. **Reference reuse**  \n   - Copy **ref #1’s `voronoi()` loop structure** (3×3 neighbor search) — it’s clean, WebGL1-safe, and uses `floor/fract`.  \n   - Use `random2()` from same file (or define inline: `sin(dot(uv, vec2(12.9898,78.233))*43758.5453)`).  \n   - *Do not* use ref #2’s `multiHash2D` — it’s overkill and may use forbidden ops.\n\n4. **Color & brightness**  \n   - Use `vec3(0.5 + 0.5*sin(vec3(1.0, 0.6, 0.3)*t + TAU*d))` for hue cycling (like ref #1’s `VORONOI_RANDOM_FNC`).  \n   - Boost contrast: `col = pow(col, vec3(0.8)) * 1.2`.  \n   - Fill screen: ensure `uv` is aspect-corrected and no clamping to [0,1] early.\n\n5. **Animation**  \n   - Drive all time-varying parts with `uTime`.  \n   - Use `uTime * 0.5` for slow growth, `uTime * 2.0` for jitter.  \n   - Loop implicitly via `sin(uTime)` — no need for modulo.\n\n6. **Pitfalls**  \n   - ❌ No `layout()`/`out` — use `gl_FragColor`.  \n   - ❌ No `dFdx`/`fwidth` — avoid edge anti-aliasing; use `smoothstep(0.02, 0.0, d)` for soft Voronoi borders.  \n   - ✅ Use `float` loops (no `int` loop vars in some WebGL1 drivers — use `for (float i=-1.0; i<=1.0; i+=1.0)`).  \n   - ✅ Avoid bitwise ops — `floor/mod` only.",
+          "review": {
+            "visual_complexity": 4,
+            "code_quality": 4,
+            "theme_match": 4,
+            "animation": 5,
+            "originality": 4,
+            "total": 21,
+            "verdict": "pass",
+            "feedback": "Excellent implementation of abstract voronoi crystal growth with dynamic animation, rich color mixing, and high visual complexity; the full-canvas coverage and balanced brightness make it ideal for social media."
+          }
+        },
+        "referenceBoundary": "Reference paths are generation provenance, not additional license grants. No referenced corpus files or external programs are included. License is the official repository MIT declaration."
+      },
+      "rendererValidation": {
+        "rendererSha256": "f96d0d7078ffe6aa189fce72723a1ee8dd2e8b2c475b628eb1f80bc2336b7151",
+        "progress": [
+          0.05,
+          0.25,
+          0.5,
+          0.75,
+          0.95
+        ],
+        "sourceSeconds": [
+          0.05,
+          0.25,
+          0.5,
+          0.75,
+          0.95
+        ],
+        "resolution": [
+          320,
+          200
+        ],
+        "changedPixels": 0,
+        "maximumChannelError": 0,
+        "meanAbsoluteRGBAError": 0,
+        "originalAdapterProof": "data/upstream/expansion12-motion-reserve/shaderforge-render.json",
+        "storedCodeProof": null
+      },
+      "semanticReview": "Actual complete source construction, all five frames and nearest existing motion frames reviewed. Independent mechanism/layout; no palette, orientation, version or basic plasma/caustic inflation.",
+      "boundedLoops": [
+        {
+          "header": "for (float j = -1.0; j <= 1.0; j += 1.0)",
+          "maximumIterations": 3,
+          "boundResolved": 1.0
+        },
+        {
+          "header": "for (float i = -1.0; i <= 1.0; i += 1.0)",
+          "maximumIterations": 3,
+          "boundResolved": 1.0
+        }
+      ],
+      "thirdPartyRightsReview": {
+        "reportPath": "data/upstream/expansion12-motion-reserve/shaderforge-rights-review.json",
+        "reportSha256": "52e20a6a11e9d0aa9b6c28d3c47db6f5b5ef0b56219ad968af3fd3c3e21aead1",
+        "decision": "held",
+        "basis": "Metadata explicitly instructs Copy ref1 voronoi loop structure. Actual source preserves the LYGIA function signature, i_uv/f_uv/rta variable names and initialization, nested neighbor loop, nearest-site distance and rta.xy/rta.z return arrangement, with adjusted float loop variables and TAU literal. This is substantive implementation reuse, not merely the abstract Voronoi algorithm. Canonical LYGIA body carries Prosperity/Patron licensing. The independently read Book of Shaders example also shares exact random2 implementation and similar isoline/nearest-point structure; its current root LICENSE says all rights reserved. No additional grant/patron license exists here. Upstream MIT does not establish permission to relicense those portions."
+      },
+      "adoptionDecision": "held",
+      "adoptionHoldReason": "Metadata explicitly instructs Copy ref1 voronoi loop structure. Actual source preserves the LYGIA function signature, i_uv/f_uv/rta variable names and initialization, nested neighbor loop, nearest-site distance and rta.xy/rta.z return arrangement, with adjusted float loop variables and TAU literal. This is substantive implementation reuse, not merely the abstract Voronoi algorithm. Canonical LYGIA body carries Prosperity/Patron licensing. The independently read Book of Shaders example also shares exact random2 implementation and similar isoline/nearest-point structure; its current root LICENSE says all rights reserved. No additional grant/patron license exists here. Upstream MIT does not establish permission to relicense those portions."
+    },
+    "collectionEvidence": {
+      "version": 1,
+      "original": {
+        "path": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-28_abstract-voronoi-crystal-growth-animation/shader.frag",
+        "sha256": "65dcdd958035a5d47cdd30856ef3319fe49c01bf147b443b6e7bd00e7327f426"
+      },
+      "notice": {
+        "path": "data/upstream/expansion12-motion-reserve/shader-forge/LICENSE",
+        "sha256": "876c040e45ea0f5db8c98d375c947a055c8f359a0605a2f64bc75e083343298e"
+      },
+      "storedSha256": "0c2ab64f55432e853986ca4c5bda5890f95d407f64e8e46319c47ad08d4642b6"
+    }
+  },
+  {
+    "id": "expansion12-shaderforge-2026-03-28_iridescent-soap-bubble-close-up-with-thin-film-interference-glsl",
+    "title": "Thin-Film Iridescent Sphere",
+    "description": "A raymarched spherical shell combines variable film thickness, thin-film color interference, Fresnel rim lighting and an internal reflected sample. Slow coordinate rotation moves the iridescent surface over a dark gradient. AI-generated in the upstream Shader Forge project; the local host displays source time 0 to 1 second per progress cycle.",
+    "sourceName": "Shader Forge",
+    "sourceAuthor": "wrennly / upstream AI generation pipeline",
+    "sourceRepo": "https://github.com/wrennly/shader-forge",
+    "sourceUrl": "https://github.com/wrennly/shader-forge/blob/549f0fda617b2081dd5c50ab57defa1a95e0f341/gallery/2026-03-28_iridescent-soap-bubble-close-up-with-thin-film-interference/shader.frag",
+    "category": "shader",
+    "domain": "motion",
+    "kind": "code",
+    "language": "glsl",
+    "access": "public",
+    "tags": [
+      "shader",
+      "procedural",
+      "ai-generated",
+      "shader-forge",
+      "thin-film",
+      "iridescence",
+      "sphere",
+      "raymarch",
+      "fresnel"
+    ],
+    "colors": [],
+    "code": "/*\nShader Forge / wrennly. Official commit 549f0fda617b2081dd5c50ab57defa1a95e0f341. AI-generated upstream using the local Qwen3-Coder-Next pipeline described in the official README. Source: https://github.com/wrennly/shader-forge/blob/549f0fda617b2081dd5c50ab57defa1a95e0f341/gallery/2026-03-28_iridescent-soap-bubble-close-up-with-thin-film-interference/shader.frag. Original fragment arithmetic, functions, loops and output body preserved. Host declaration/entry-point adapter only; source time 0 to 1 second follows progress and resolution remains a 320x200 uniform. Full individual metadata including generation/reference disclosures is retained in the source evidence.\n\nMIT License\n\nCopyright (c) 2026 wrennly\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n*/\n#define uTime progress\n#define gl_FragColor mlColor\nvec2 vUv;\nvec4 mlColor;\n\nuniform vec2 uResolution; // = vec2(320.0, 200.0)\n\n\n// Simplex-style 3D noise (based on IQ's value noise)\nfloat hash(vec2 p) {\n    p = fract(p * vec2(123.34, 456.21));\n    p += dot(p, p + 45.32);\n    return fract(p.x * p.y);\n}\n\nfloat noise(vec3 p) {\n    vec3 i = floor(p);\n    vec3 f = fract(p);\n    f = f * f * (3.0 - 2.0 * f);\n    \n    float n = i.x + i.y * 57.0 + 113.0 * i.z;\n    return mix(mix(mix(hash(vec2(n + 0.0, n + 1.0)), \n                      hash(vec2(n + 2.0, n + 3.0)), f.x),\n                   mix(hash(vec2(n + 4.0, n + 5.0)), \n                      hash(vec2(n + 6.0, n + 7.0)), f.x), f.y),\n               mix(mix(hash(vec2(n + 8.0, n + 9.0)), \n                      hash(vec2(n + 10.0, n + 11.0)), f.x),\n                   mix(hash(vec2(n + 12.0, n + 13.0)), \n                      hash(vec2(n + 14.0, n + 15.0)), f.x), f.y), f.z);\n}\n\nfloat fbm(vec3 p) {\n    float f = 0.0;\n    float a = 0.5;\n    for (int i = 0; i < 4; i++) {\n        f += a * noise(p);\n        p *= 2.02;\n        a *= 0.5;\n    }\n    return f;\n}\n\n// Iridescence calculation based on thin-film interference\nvec3 getIridescence(vec3 normal, vec3 view, float thickness) {\n    float cosTheta = clamp(-dot(view, normal), 0.0, 1.0);\n    float phase = (cosTheta + 1.0) * 0.5;\n    \n    // IOR values for air-soap-water interface\n    vec3 ior1 = vec3(1.0);\n    vec3 ior2 = vec3(1.33);\n    vec3 ior3 = vec3(1.5);\n    \n    // Film thickness scaled for visible interference\n    float t = thickness * 100.0 + 0.1;\n    \n    // Simplified iridescence model\n    vec3 baseColor = vec3(0.9, 0.95, 1.0);\n    vec3 ratio = ior2 / ior3;\n    float cosThetaSq = cosTheta * cosTheta;\n    float term = max(0.0, 1.0 - ratio.x * ratio.x * (1.0 - cosThetaSq));\n    vec3 shift = 4.0 * 3.14159 * t * ior2 * sqrt(vec3(term));\n    vec3 irid = baseColor * (0.5 + 0.5 * cos(shift + vec3(0.0, 2.0, 4.0)));\n    \n    return clamp(irid, 0.0, 1.0);\n}\n\n// Get film thickness based on surface position (curvature-based)\nfloat getFilmThickness(vec3 p) {\n    // Bubble radius\n    float r = length(p);\n    // Thickness varies with curvature: thinner at poles, thicker at equator\n    float thickness = 0.3 + 0.2 * sin(p.y * 3.14159) * cos(p.x * 3.14159);\n    // Add subtle variation\n    thickness += 0.05 * fbm(p * 2.0);\n    return clamp(thickness, 0.05, 0.6);\n}\n\n// Raymarch soap bubble\nfloat raymarch(vec3 ro, vec3 rd) {\n    float t = 0.0;\n    for (int i = 0; i < 32; i++) {\n        vec3 p = ro + rd * t;\n        float r = length(p);\n        float thickness = getFilmThickness(p);\n        \n        // SDF for soap bubble: sphere with varying thickness\n        float d = abs(r - 1.0) - thickness * 0.3;\n        \n        if (d < 0.001) return t;\n        t += max(0.01, d * 0.5);\n        if (t > 10.0) return -1.0;\n    }\n    return -1.0;\n}\n\n// Calculate normal from SDF\nvec3 calcNormal(vec3 p) {\n    vec2 e = vec2(0.001, 0.0);\n    float d = abs(length(p) - 1.0) - getFilmThickness(p) * 0.3;\n    return normalize(vec3(\n        abs(length(p + e.xyy) - 1.0) - getFilmThickness(p + e.xyy) * 0.3 - d,\n        abs(length(p + e.yxy) - 1.0) - getFilmThickness(p + e.yxy) * 0.3 - d,\n        abs(length(p + e.yyx) - 1.0) - getFilmThickness(p + e.yyx) * 0.3 - d\n    ));\n}\n\nvec3 soapBubble(vec2 uv, float t) {\n    // Rotate UV for animation\n    float angle = t * 0.3;\n    mat2 rot = mat2(cos(angle), -sin(angle), sin(angle), cos(angle));\n    uv *= rot;\n    \n    // Camera setup\n    vec3 ro = vec3(0.0, 0.0, -2.5);\n    vec3 rd = normalize(vec3(uv, 1.0));\n    \n    // Raymarch bubble\n    float d = raymarch(ro, rd);\n    \n    if (d < 0.0) {\n        // Background with subtle gradient\n        return vec3(0.05, 0.05, 0.1) + 0.05 * uv.y;\n    }\n    \n    vec3 p = ro + rd * d;\n    vec3 normal = calcNormal(p);\n    vec3 view = -rd;\n    \n    // Get iridescence\n    float thickness = getFilmThickness(p);\n    vec3 irid = getIridescence(normal, view, thickness);\n    \n    // Fresnel rim lighting\n    float fresnel = pow(1.0 - dot(view, normal), 3.0);\n    vec3 rim = vec3(0.8, 0.9, 1.0) * fresnel * 0.3;\n    \n    // Specular highlight\n    vec3 lightDir = normalize(vec3(0.5, 0.3, 1.0));\n    vec3 reflectDir = reflect(-lightDir, normal);\n    float spec = pow(max(dot(reflectDir, view), 0.0), 32.0) * 0.4;\n    \n    // Combine\n    vec3 col = irid + rim + vec3(0.9) * spec;\n    \n    // Add subtle internal reflection\n    vec3 bounce = reflect(view, normal);\n    float bounceDist = raymarch(p + bounce * 0.01, bounce);\n    if (bounceDist > 0.0) {\n        vec3 bounceP = p + bounce * bounceDist;\n        col += getIridescence(calcNormal(bounceP), bounce, getFilmThickness(bounceP)) * 0.1;\n    }\n    \n    return clamp(col, 0.01, 1.0);\n}\n\nvoid mlOriginalMain() {\n    vec2 uv = vUv * 2.0 - 1.0;\n    uv.x *= uResolution.x / uResolution.y;\n    \n    vec3 col = soapBubble(uv, uTime);\n    \n    // Tone mapping and bloom\n    col = mix(vec3(0.02), col, 1.2);\n    col = pow(clamp(col, 0.0, 1.0), vec3(0.9));\n    col += vec3(0.1) * smoothstep(0.8, 1.0, length(uv));\n    \n    gl_FragColor = vec4(col, 1.0);\n}\n#undef gl_FragColor\nvec4 transition(vec2 uv) { vUv = uv; mlColor = vec4(0.0); mlOriginalMain(); return mlColor; }\n",
+    "license": "MIT (upstream declaration; third-party rights unresolved)",
+    "licenseText": "MIT License\n\nCopyright (c) 2026 wrennly\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+    "verifiedAt": "2026-10-10",
+    "verification": "held-third-party-rights-unresolved-not-adopted",
+    "upstreamSha256": "d23baea9e808cf8ee68025058ce2e2eda99ce79a95bcbb1f2ad93fab1f3a61e0",
+    "preview": {
+      "type": "reference",
+      "variant": "shaderforge",
+      "scene": "procedural",
+      "adapted": true
+    },
+    "evidence": {
+      "scope": "individual-independent-procedural-motion-construction",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-28_iridescent-soap-bubble-close-up-with-thin-film-interference/shader.frag",
+      "artifactSha256": "d23baea9e808cf8ee68025058ce2e2eda99ce79a95bcbb1f2ad93fab1f3a61e0",
+      "gitBlobSha": "3be73aad1adeb8bb4b327333cb4561efac3a1ea1",
+      "sourceCommit": "549f0fda617b2081dd5c50ab57defa1a95e0f341",
+      "storedCodeSha256": "57fcc3f30100bc39403747015ddfcd153ad77fad48043a76d998b6ed1809480d",
+      "adapterSha256": "0f0630ea231c0b0485e84ba93e9f13784a9e3547ec72e355819ec38d9ed692fb",
+      "attribution": "Shader Forge / wrennly. Official commit 549f0fda617b2081dd5c50ab57defa1a95e0f341. AI-generated upstream using the local Qwen3-Coder-Next pipeline described in the official README. Source: https://github.com/wrennly/shader-forge/blob/549f0fda617b2081dd5c50ab57defa1a95e0f341/gallery/2026-03-28_iridescent-soap-bubble-close-up-with-thin-film-interference/shader.frag. Original fragment arithmetic, functions, loops and output body preserved. Host declaration/entry-point adapter only; source time 0 to 1 second follows progress and resolution remains a 320x200 uniform. Full individual metadata including generation/reference disclosures is retained in the source evidence.",
+      "adaptations": "Only remove the time uniform and varying declarations, rename main to mlOriginalMain, alias uTime directly to the progress uniform, retain uResolution as a uniform with explicit320x200 default, bind vUv=inputUV, and redirect original gl_FragColor through mlColor, then restore its built-in host meaning. No new scaled arithmetic or literal-folded resolution. Original arithmetic/body preserved; source time0..1seconds follows the host progress cycle.",
+      "sourceJavaScriptExecuted": false,
+      "externalResources": false,
+      "sourceTimeSeconds": [
+        0,
+        1
+      ],
+      "resolution": [
+        320,
+        200
+      ],
+      "generationDisclosure": {
+        "AIgenerated": true,
+        "pipeline": "Official README declares local Qwen3-Coder-Next 80B, retrieval-assisted autonomous shader generation. Individual metadata preserved; success is not a human-approval claim.",
+        "publicationMetadataPath": "data/upstream/expansion12-motion-reserve/shader-forge/publication/gallery/2026-03-28_iridescent-soap-bubble-close-up-with-thin-film-interference/metadata.json",
+        "publicationMetadataSha256": "77d6847ac0eab645c492ff094f03e23277c8636844610d9882735546359c790a",
+        "publicationMetadataGitBlobSha": "6f59d3af0bd5959deb601d0a45af39567c248e97",
+        "publisherMetadata": {
+          "theme": "iridescent soap bubble close-up with thin film interference",
+          "style_hints": "",
+          "references": [
+            "community/lygia/lighting_fresnelReflection.glsl [lighting,reflection]",
+            "community/SHADER/shadertoy_volcanic.glsl [lighting,matrix,noise,postprocess,raymarching,reflection,volumetric]",
+            "community/open-shaders/Others_ray_tracing_renderer_three_chunks_sampleGlassSpecular.glsl [grid,lighting,reflection]",
+            "community/lygia/lighting_iridescence.glsl [color_palette,lighting,postprocess,reflection]",
+            "community/lygia/lighting_fresnelReflection.wgsl [lighting,reflection]"
+          ],
+          "attempts": 3,
+          "created_at": "2026-03-28T00:15:15.429154+00:00",
+          "glsl_lines": 164,
+          "success": true,
+          "design_brief": "1. **Architecture**:  \n   `main()` → `vec2 uv = gl_FragCoord.xy / uResolution; uv = uv * 2.0 - 1.0; uv.x *= uResolution.x / uResolution.y;`  \n   Then: `vec3 col = soapBubble(uv, uTime); gl_FragColor = vec4(col, 1.0);`  \n   Structure: `main → soapBubble() → raymarch() → getIridescence() → noise3D()`\n\n2. **Key functions**:  \n   `float soapBubble(vec2 uv, float t)` — returns RGB;  \n   `float getFilmThickness(vec3 p)` — encodes bubble rim curvature;  \n   `vec3 getIridescence(vec3 normal, vec3 view, float thickness)` — uses thin-film interference formula;  \n   `float noise(vec3 p)` — use **Ref #2**’s `noise()` (with `tex` as noise texture) for speed/stability.\n\n3. **Reuse patterns**:  \n   - **Ref #2**’s `noise()` for cheap, tileable 3D noise (critical for domain-warping bubble surface);  \n   - **Ref #1**’s iridescence math: `vec3 ior1 = vec3(1.0), ior2 = vec3(1.33), ior3 = vec3(1.5); thickness *= 100.0;` — scale to visible range;  \n   - **Ref #3**’s Fresnel logic (simplified Schlick) for rim lighting.\n\n4. **Color & brightness**:  \n   Bias output: `col = mix(vec3(0.02), col, 1.2); col = pow(col, vec3(0.9));`  \n   Add subtle bloom-ish glow: `col += vec3(0.1) * smoothstep(0.8, 1.0, length(uv));`  \n   Ensure `gl_FragColor` is never black — clamp min to `0.01`.\n\n5. **Animation**:  \n   `uTime` drives:  \n   - Surface noise offset: `noise(p + uTime * 0.3)`;  \n   - Bubble rotation: `uv *= mat2(cos(uTime*0.5), -sin(uTime*0.5), sin(uTime*0.5), cos(uTime*0.5));`  \n   Speed: `0.2–0.8` rad/frame — slow, meditative drift.\n\n6. **Pitfalls**:  \n   ❌ No `dFdx/dFdy` → avoid screen-space derivatives;  \n   ❌ No bitwise ops → use `fract()`/`mod()` for hashing;  \n   ✅ Use `texture2D()` with `uv * 0.5 + 0.5` for noise tex;  \n   ✅ Avoid `pow(x, y)` for large `y` — clamp `x` to `[0.001, 1.0]`.",
+          "review": {
+            "visual_complexity": 4,
+            "code_quality": 3,
+            "theme_match": 5,
+            "animation": 4,
+            "originality": 4,
+            "total": 20,
+            "verdict": "pass",
+            "feedback": "Strong iridescent soap bubble implementation with thin-film interference, raymarching, and layered lighting effects; however, brightness could be improved by enhancing background contrast and ensuring the bubble occupies more of the canvas."
+          }
+        },
+        "referenceBoundary": "Reference paths are generation provenance, not additional license grants. No referenced corpus files or external programs are included. License is the official repository MIT declaration."
+      },
+      "rendererValidation": {
+        "rendererSha256": "f96d0d7078ffe6aa189fce72723a1ee8dd2e8b2c475b628eb1f80bc2336b7151",
+        "progress": [
+          0.05,
+          0.25,
+          0.5,
+          0.75,
+          0.95
+        ],
+        "sourceSeconds": [
+          0.05,
+          0.25,
+          0.5,
+          0.75,
+          0.95
+        ],
+        "resolution": [
+          320,
+          200
+        ],
+        "changedPixels": 0,
+        "maximumChannelError": 0,
+        "meanAbsoluteRGBAError": 0,
+        "originalAdapterProof": "data/upstream/expansion12-motion-reserve/shaderforge-render.json",
+        "storedCodeProof": null
+      },
+      "semanticReview": "Actual complete source construction, all five frames and nearest existing motion frames reviewed. Independent mechanism/layout; no palette, orientation, version or basic plasma/caustic inflation.",
+      "boundedLoops": [
+        {
+          "header": "for (int i = 0; i < 4; i++)",
+          "maximumIterations": 4,
+          "boundResolved": 4.0
+        },
+        {
+          "header": "for (int i = 0; i < 32; i++)",
+          "maximumIterations": 32,
+          "boundResolved": 32.0
+        }
+      ],
+      "thirdPartyRightsReview": {
+        "reportPath": "data/upstream/expansion12-motion-reserve/shaderforge-rights-review.json",
+        "reportSha256": "52e20a6a11e9d0aa9b6c28d3c47db6f5b5ef0b56219ad968af3fd3c3e21aead1",
+        "decision": "held",
+        "basis": "Compared LYGIA iridescence and Fresnel primary bodies. Source optical cosine/IOR terms differ substantially and generic thin-film/Fresnel formulas alone do not establish code copying. However original explicitly says based on IQ value noise, metadata references community/SHADER/shadertoy_volcanic.glsl and an extracted three.js sampleGlassSpecular. Exact historical reference bodies, original per-file author/license and degree of substantive noise reuse are not supplied. Those unresolved third-party rights prevent adoption; no claim of proven infringement."
+      },
+      "adoptionDecision": "held",
+      "adoptionHoldReason": "Compared LYGIA iridescence and Fresnel primary bodies. Source optical cosine/IOR terms differ substantially and generic thin-film/Fresnel formulas alone do not establish code copying. However original explicitly says based on IQ value noise, metadata references community/SHADER/shadertoy_volcanic.glsl and an extracted three.js sampleGlassSpecular. Exact historical reference bodies, original per-file author/license and degree of substantive noise reuse are not supplied. Those unresolved third-party rights prevent adoption; no claim of proven infringement."
+    },
+    "collectionEvidence": {
+      "version": 1,
+      "original": {
+        "path": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-28_iridescent-soap-bubble-close-up-with-thin-film-interference/shader.frag",
+        "sha256": "d23baea9e808cf8ee68025058ce2e2eda99ce79a95bcbb1f2ad93fab1f3a61e0"
+      },
+      "notice": {
+        "path": "data/upstream/expansion12-motion-reserve/shader-forge/LICENSE",
+        "sha256": "876c040e45ea0f5db8c98d375c947a055c8f359a0605a2f64bc75e083343298e"
+      },
+      "storedSha256": "57fcc3f30100bc39403747015ddfcd153ad77fad48043a76d998b6ed1809480d"
+    }
+  },
+  {
+    "id": "expansion12-shaderforge-2026-03-29_fractal-mandelbrot-deep-zoom-with-electric-colors-glsl",
+    "title": "Mandelbrot Escape-Time Zoom",
+    "description": "A bounded 100-iteration Mandelbrot calculation reveals the dark set interior and colored escape-time contours while a time-driven affine window gently zooms and shifts. AI-generated in the upstream Shader Forge project; the local host displays source time 0 to 1 second per progress cycle.",
+    "sourceName": "Shader Forge",
+    "sourceAuthor": "wrennly / upstream AI generation pipeline",
+    "sourceRepo": "https://github.com/wrennly/shader-forge",
+    "sourceUrl": "https://github.com/wrennly/shader-forge/blob/549f0fda617b2081dd5c50ab57defa1a95e0f341/gallery/2026-03-29_fractal-mandelbrot-deep-zoom-with-electric-colors/shader.frag",
+    "category": "shader",
+    "domain": "motion",
+    "kind": "code",
+    "language": "glsl",
+    "access": "public",
+    "tags": [
+      "shader",
+      "procedural",
+      "ai-generated",
+      "shader-forge",
+      "mandelbrot",
+      "escape-time",
+      "fractal",
+      "zoom"
+    ],
+    "colors": [],
+    "code": "/*\nShader Forge / wrennly. Official commit 549f0fda617b2081dd5c50ab57defa1a95e0f341. AI-generated upstream using the local Qwen3-Coder-Next pipeline described in the official README. Source: https://github.com/wrennly/shader-forge/blob/549f0fda617b2081dd5c50ab57defa1a95e0f341/gallery/2026-03-29_fractal-mandelbrot-deep-zoom-with-electric-colors/shader.frag. Original fragment arithmetic, functions, loops and output body preserved. Host declaration/entry-point adapter only; source time 0 to 1 second follows progress and resolution remains a 320x200 uniform. Full individual metadata including generation/reference disclosures is retained in the source evidence.\n\nMIT License\n\nCopyright (c) 2026 wrennly\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n*/\n#define uTime progress\n#define gl_FragColor mlColor\nvec2 vUv;\nvec4 mlColor;\n\nuniform vec2 uResolution; // = vec2(320.0, 200.0)\n\n\nfloat hash(vec2 p) {\n    return fract(sin(dot(p, vec2(12.9898, 78.233))) * 43758.5453);\n}\n\nfloat mandelbrot(vec2 c) {\n    vec2 z = vec2(0.0);\n    float iter = 0.0;\n    const float B = 4.0;\n    const float maxIter = 100.0;\n    \n    for (int i = 0; i < 100; i++) {\n        if (i >= int(maxIter)) break;\n        z = vec2(z.x * z.x - z.y * z.y, 2.0 * z.x * z.y) + c;\n        if (dot(z, z) > B) break;\n        iter += 1.0;\n    }\n    \n    if (iter >= maxIter) return 0.0;\n    \n    float sn = iter - log2(log2(dot(z, z))) + 4.0;\n    return sn;\n}\n\nvec3 getPalette(float t) {\n    vec3 a = vec3(0.5, 0.5, 0.5);\n    vec3 b = vec3(0.5, 0.5, 0.5);\n    vec3 c = vec3(1.0, 1.0, 1.0);\n    vec3 d = vec3(0.263, 0.416, 0.557);\n    \n    return a + b * cos(6.28318 * (c * t + d + uTime * 0.1));\n}\n\nvoid mlOriginalMain() {\n    vec2 uv = vUv * 2.0 - 1.0;\n    uv.x *= uResolution.x / uResolution.y;\n    \n    float zoom = 0.6 + 0.4 * sin(uTime * 0.2);\n    vec2 offset = vec2(sin(uTime * 0.15) * 0.7, cos(uTime * 0.1) * 0.5);\n    \n    vec2 c = uv * zoom + offset;\n    float iter = mandelbrot(c);\n    \n    vec3 color = vec3(0.0);\n    if (iter > 0.0) {\n        float t = iter * 0.08;\n        color = getPalette(t);\n        \n        float glow = pow(smoothstep(0.0, 1.0, iter * 0.1), 3.0);\n        color += vec3(0.8, 0.4, 1.0) * glow * 0.6;\n        \n        color *= 1.2;\n        color = clamp(color, 0.0, 1.0);\n    }\n    \n    gl_FragColor = vec4(color, 1.0);\n}\n#undef gl_FragColor\nvec4 transition(vec2 uv) { vUv = uv; mlColor = vec4(0.0); mlOriginalMain(); return mlColor; }\n",
+    "license": "MIT (upstream declaration; third-party rights unresolved)",
+    "licenseText": "MIT License\n\nCopyright (c) 2026 wrennly\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
+    "verifiedAt": "2026-10-10",
+    "verification": "held-third-party-rights-unresolved-not-adopted",
+    "upstreamSha256": "62dfcefb38745fc99bb044dce137be4acef6e8cd9a75340dc672d3944271e7ef",
+    "preview": {
+      "type": "reference",
+      "variant": "shaderforge",
+      "scene": "procedural",
+      "adapted": true
+    },
+    "evidence": {
+      "scope": "individual-independent-procedural-motion-construction",
+      "artifactPath": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-29_fractal-mandelbrot-deep-zoom-with-electric-colors/shader.frag",
+      "artifactSha256": "62dfcefb38745fc99bb044dce137be4acef6e8cd9a75340dc672d3944271e7ef",
+      "gitBlobSha": "d8c7a4a2beaf0c756cf5b92cc623b70265d469ac",
+      "sourceCommit": "549f0fda617b2081dd5c50ab57defa1a95e0f341",
+      "storedCodeSha256": "a94bb7d7f219e43e92bfe3a1bda11f44a673de1ad4ecaf45f9b22a8a4d38d71c",
+      "adapterSha256": "31e4839e180fc8035f2d3df934a982b44be393553a08c4dc493496597e1cae9d",
+      "attribution": "Shader Forge / wrennly. Official commit 549f0fda617b2081dd5c50ab57defa1a95e0f341. AI-generated upstream using the local Qwen3-Coder-Next pipeline described in the official README. Source: https://github.com/wrennly/shader-forge/blob/549f0fda617b2081dd5c50ab57defa1a95e0f341/gallery/2026-03-29_fractal-mandelbrot-deep-zoom-with-electric-colors/shader.frag. Original fragment arithmetic, functions, loops and output body preserved. Host declaration/entry-point adapter only; source time 0 to 1 second follows progress and resolution remains a 320x200 uniform. Full individual metadata including generation/reference disclosures is retained in the source evidence.",
+      "adaptations": "Only remove the time uniform and varying declarations, rename main to mlOriginalMain, alias uTime directly to the progress uniform, retain uResolution as a uniform with explicit320x200 default, bind vUv=inputUV, and redirect original gl_FragColor through mlColor, then restore its built-in host meaning. No new scaled arithmetic or literal-folded resolution. Original arithmetic/body preserved; source time0..1seconds follows the host progress cycle.",
+      "sourceJavaScriptExecuted": false,
+      "externalResources": false,
+      "sourceTimeSeconds": [
+        0,
+        1
+      ],
+      "resolution": [
+        320,
+        200
+      ],
+      "generationDisclosure": {
+        "AIgenerated": true,
+        "pipeline": "Official README declares local Qwen3-Coder-Next 80B, retrieval-assisted autonomous shader generation. Individual metadata preserved; success is not a human-approval claim.",
+        "publicationMetadataPath": "data/upstream/expansion12-motion-reserve/shader-forge/publication/gallery/2026-03-29_fractal-mandelbrot-deep-zoom-with-electric-colors/metadata.json",
+        "publicationMetadataSha256": "18e0196414033b8c25943a2fd2e63bba190191928c87c10eefb562a5b1083cf9",
+        "publicationMetadataGitBlobSha": "53a700631944a5436fabc724ea0232ff4af6e0f6",
+        "publisherMetadata": {
+          "theme": "fractal mandelbrot deep zoom with electric colors",
+          "style_hints": "",
+          "references": [
+            "glsl-art/shadertoy-top/XlBXWw.glsl/XlBXWw.glsl [color_palette,fractal,grid,lighting,matrix,noise,reflection,sdf]",
+            "glsl-art/shadertoy-top/ldB3Rz.glsl/ldB3Rz.glsl [fractal,lighting,matrix,raymarching,reflection,sdf]",
+            "glsl-art/shadertoy-top/4df3Rn.glsl/4df3Rn.glsl [fractal]",
+            "glsl-art/shadertoy-top/XsKXzc.glsl/XsKXzc.glsl [color_palette,fractal,grid,lighting,matrix,noise,postprocess,raymarching,reflection,volumetric]",
+            "glsl-art/shadertoy-top/MltXz2.glsl/MltXz2.glsl [fractal]"
+          ],
+          "attempts": 1,
+          "created_at": "2026-03-29T11:16:00.372052+00:00",
+          "glsl_lines": 60,
+          "success": true,
+          "target": "glsl",
+          "design_brief": "1. **Architecture**: `main()` → compute `uv = gl_FragCoord.xy / uResolution`, then `uv = uv * 2.0 - 1.0; uv.x *= uResolution.x / uResolution.y;` → scale & offset `c = uv * zoom + offset` (driven by `uTime`) → call `mandelbrot(c)` → map result to color via `getPalette()` → `gl_FragColor = vec4(color, 1.0)`.  \n2. **Key functions**: `float mandelbrot(vec2 c)` returns smooth iteration count; `vec3 getPalette(float t)` for vibrant colors (e.g., sine-based palette like ref #3); `vec2 zoomOffset(float t)` for smooth zoom/pan (e.g., ref #1’s infinite zoom pattern).  \n3. **Reuse patterns**: Use ref #3’s `mandelbrot()` with smooth iteration (line 24–30) for accuracy; adopt ref #1’s `GetColor(vec3 p)` → `vec3` palette logic (line 100+) for electric hues; borrow ref #2’s `vGlowColour`/`vEnvColour` blending for neon glow.  \n4. **Color & brightness**: Use `vec3 color = mix(vec3(0.0), vec3(1.0, 0.8, 0.4), pow(smoothstep(0.0, 1.0, iter), 2.0))` + additive blending of multiple passes (e.g., `color += 0.3 * sin(uTime + iter * 0.5)`); clamp to `[0.0, 1.0]` and apply slight exposure boost (`* 1.2`).  \n5. **Animation**: Drive zoom with `uTime * 0.3` (safe speed), offset via `vec2(sin(uTime * 0.2), cos(uTime * 0.3)) * 0.8`. Loop subtly via `mod(uTime, T)`, but avoid hard resets—use continuous fractal flow.  \n6. **Pitfalls**: No `dFdx`/`fwidth` → use fixed `maxIter = 100` (no adaptive); no bitwise ops → avoid `int` bit-twiddling in noise; always normalize `uv` aspect; test on mobile (no highp floats? use `mediump` with clamped `maxIter`).",
+          "review": {
+            "visual_complexity": 4,
+            "code_quality": 4,
+            "theme_match": 5,
+            "animation": 4,
+            "originality": 4,
+            "total": 21,
+            "verdict": "pass",
+            "feedback": "The shader implements a high-quality animated Mandelbrot deep zoom with smooth coloring and electric palette animation, but brightness could be improved by reducing the zoom range or adjusting the palette to ensure more pixels are colored rather than falling into the black interior."
+          }
+        },
+        "referenceBoundary": "Reference paths are generation provenance, not additional license grants. No referenced corpus files or external programs are included. License is the official repository MIT declaration."
+      },
+      "rendererValidation": {
+        "rendererSha256": "f96d0d7078ffe6aa189fce72723a1ee8dd2e8b2c475b628eb1f80bc2336b7151",
+        "progress": [
+          0.05,
+          0.25,
+          0.5,
+          0.75,
+          0.95
+        ],
+        "sourceSeconds": [
+          0.05,
+          0.25,
+          0.5,
+          0.75,
+          0.95
+        ],
+        "resolution": [
+          320,
+          200
+        ],
+        "changedPixels": 0,
+        "maximumChannelError": 0,
+        "meanAbsoluteRGBAError": 0,
+        "originalAdapterProof": "data/upstream/expansion12-motion-reserve/shaderforge-render.json",
+        "storedCodeProof": null
+      },
+      "semanticReview": "Actual complete source construction, all five frames and nearest existing motion frames reviewed. Independent mechanism/layout; no palette, orientation, version or basic plasma/caustic inflation.",
+      "boundedLoops": [
+        {
+          "header": "for (int i = 0; i < 100; i++)",
+          "maximumIterations": 100,
+          "boundResolved": 100.0
+        }
+      ],
+      "thirdPartyRightsReview": {
+        "reportPath": "data/upstream/expansion12-motion-reserve/shaderforge-rights-review.json",
+        "reportSha256": "52e20a6a11e9d0aa9b6c28d3c47db6f5b5ef0b56219ad968af3fd3c3e21aead1",
+        "decision": "held",
+        "basis": "Mandelbrot z=z*z+c and escape-time logarithms are common mathematical operations and do not prove copying. Metadata nevertheless explicitly instructs reuse of ref3 mandelbrot and other references, naming five Shadertoy IDs without per-output licenses or historical bodies. Primary Shadertoy access via web failed and independent browser entry failed; exact referenced programs and rights remain unverified. Repository MIT alone is insufficient to resolve that explicit provenance gap."
+      },
+      "adoptionDecision": "held",
+      "adoptionHoldReason": "Mandelbrot z=z*z+c and escape-time logarithms are common mathematical operations and do not prove copying. Metadata nevertheless explicitly instructs reuse of ref3 mandelbrot and other references, naming five Shadertoy IDs without per-output licenses or historical bodies. Primary Shadertoy access via web failed and independent browser entry failed; exact referenced programs and rights remain unverified. Repository MIT alone is insufficient to resolve that explicit provenance gap."
+    },
+    "collectionEvidence": {
+      "version": 1,
+      "original": {
+        "path": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-29_fractal-mandelbrot-deep-zoom-with-electric-colors/shader.frag",
+        "sha256": "62dfcefb38745fc99bb044dce137be4acef6e8cd9a75340dc672d3944271e7ef"
+      },
+      "notice": {
+        "path": "data/upstream/expansion12-motion-reserve/shader-forge/LICENSE",
+        "sha256": "876c040e45ea0f5db8c98d375c947a055c8f359a0605a2f64bc75e083343298e"
+      },
+      "storedSha256": "a94bb7d7f219e43e92bfe3a1bda11f44a673de1ad4ecaf45f9b22a8a4d38d71c"
+    }
+  }
+]

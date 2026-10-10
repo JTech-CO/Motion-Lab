@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            
+            <path d="M0 250 Q100 200 200 250 T400 230 V300 H0 Z" fill="#f43f5e" opacity="0.3" />
+            <path d="M0 270 Q100 230 200 280 T400 260 V300 H0 Z" fill="#334155" opacity="0.2" />
+            
+            <ellipse cx="100" cy="270" rx="30" ry="10" fill="#334155" opacity="0.3" />
+            <ellipse cx="320" cy="250" rx="40" ry="12" fill="#334155" opacity="0.3" />
+            
+            
+            <circle cx="80" cy="80" r="40" fill="#6366f1" />
+            <path d="M60 60 Q80 50 100 70 Q110 90 90 100 Q70 110 50 90 Z" fill="#DFD116" opacity="0.8" />
+            <circle cx="80" cy="80" r="40" fill="none" stroke="#6366f1" stroke-width="4" opacity="0.5" />
+            
+            <circle cx="200" cy="50" r="2" fill="white" />
+            <circle cx="300" cy="90" r="3" fill="white" />
+            <circle cx="150" cy="120" r="2" fill="white" />
+
+            <g>
+                
+                <path d="M180 240 L160 280 H140 M220 240 L240 280 H260" stroke="#334155" stroke-width="6" stroke-linecap="round" />
+                
+                <ellipse cx="140" cy="280" rx="15" ry="5" fill="#f43f5e" />
+                <ellipse cx="260" cy="280" rx="15" ry="5" fill="#f43f5e" />
+                
+                
+                <polygon points="170,200 230,200 250,240 150,240" fill="#6366f1" />
+                
+                <path d="M160 200 C160 140 240 140 240 200 Z" fill="#FFF" />
+                <path d="M160 200 C160 140 200 140 200 200 Z" fill="#ffffff" />
+                
+                
+                <polygon points="190,240 210,240 220,260 180,260" fill="#334155" />
+                
+                <circle cx="200" cy="170" r="10" fill="#334155" />
+                <rect x="185" y="185" width="30" height="15" fill="#f43f5e" />
+                
+                <path d="M200 140 V100 M180 110 L220 90 M180 100 L220 120" stroke="#334155" stroke-width="2" />
+            </g>
+            
+            
+            <g>
+                <line x1="280" y1="250" x2="280" y2="150" stroke="#6366f1" stroke-width="4" stroke-linecap="round" />
+                <path d="M280 150 H330 V180 H280 Z" fill="#DFD116" />
+            </g>
+          </svg>

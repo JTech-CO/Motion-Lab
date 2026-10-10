@@ -1,0 +1,34 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Starry Background -->
+            <circle class="anim-glow" cx="80" cy="50" r="2" fill="white"/>
+            <circle class="anim-glow" cx="300" cy="40" r="3" fill="var(--secondary-color)" opacity="0.6"/>
+            <circle class="anim-glow" cx="350" cy="200" r="2" fill="white"/>
+            
+            <!-- Warping Spacetime Grid (Event Horizon funnel effect) -->
+            <g class="anim-float" style="animation-duration: 6s;">
+                <path d="M50 150 Q200 250 350 150" stroke="var(--primary-color)" stroke-width="2" fill="none" opacity="0.3"/>
+                <path d="M70 180 Q200 280 330 180" stroke="var(--primary-color)" stroke-width="2" fill="none" opacity="0.5"/>
+                
+                <path d="M100 80 Q150 250 180 260" stroke="var(--primary-color)" stroke-width="2" fill="none" opacity="0.3"/>
+                <path d="M300 80 Q250 250 220 260" stroke="var(--primary-color)" stroke-width="2" fill="none" opacity="0.3"/>
+                <path d="M150 60 Q200 250 200 260" stroke="var(--primary-color)" stroke-width="2" fill="none" opacity="0.6"/>
+            </g>
+
+            <!-- Black Hole -->
+            <g class="anim-pulse" style="animation-duration: 2s;">
+                <!-- Accretion Disk (Back) -->
+                <ellipse cx="200" cy="150" rx="90" ry="25" fill="var(--accent-color)" transform="rotate(-10 200 150)" opacity="0.4"/>
+                <ellipse cx="200" cy="150" rx="70" ry="15" fill="white" transform="rotate(-10 200 150)" opacity="0.8"/>
+                
+                <!-- The Singularity / Event Horizon -->
+                <circle cx="200" cy="150" r="35" fill="var(--charcoal)"/>
+                <circle cx="200" cy="150" r="33" fill="#111827"/>
+                
+                <!-- Accretion Disk (Front perspective) -->
+                <path d="M110 165 C150 185 250 185 290 135" stroke="var(--secondary-color)" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.9"/>
+                <path d="M115 165 C150 185 250 185 285 135" stroke="var(--primary-color)" stroke-width="6" stroke-linecap="round" fill="none"/>
+            </g>
+            
+            <!-- Hawking Radiation (Particles escaping) -->
+            <path class="anim-draw" d="M190 110 V50 M210 110 V60" stroke="var(--accent-color)" stroke-width="3" stroke-dasharray="4 6" fill="none"/>
+          </svg>

@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/Siroko/kansei",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/Siroko/kansei",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/Siroko/kansei",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/Siroko/kansei",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:55.009537+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/Siroko/kansei",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "c41c36f9b913ea0ef48916e0addb73e9da1095c78a3821847b7b26aa0747e70e",
+      "responseBodySha256": "c41c36f9b913ea0ef48916e0addb73e9da1095c78a3821847b7b26aa0747e70e",
+      "title": "GitHub - Siroko/kansei: A WebGPU engine for creative coding · GitHub",
+      "textCharacters": 2133,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.805,
+      "captureCachePath": "exa-results/link-audit/references/captures/c08ad932510a425e7781256d.json",
+      "captureCacheSha256": "a8892ac7be76657d8ec0c939a97ceee89eed8cc3048411581bf7db9a60ccd2e9"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-kansei",
+      "canonicalId": "ref-kansei",
+      "title": "Kansei",
+      "role": "canonical",
+      "sourceSha256": "1841f81403dd9ff5e9194c2e34ff441972a7479c456e790d9f073ec66a77c931"
+    }
+  ]
+}

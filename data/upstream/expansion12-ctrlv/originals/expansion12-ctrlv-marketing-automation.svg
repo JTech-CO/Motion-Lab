@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <rect x="120" y="140" width="160" height="100" rx="5" fill="var(--secondary-color)"/>
+                <path d="M120 140 L200 200 L280 140" stroke="var(--bg-surface)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                <g class="anim-rotate" >
+                    <circle cx="170" cy="100" r="30" fill="var(--primary-color)"/>
+                    <circle cx="170" cy="100" r="10" fill="var(--bg-surface)"/>
+                    <path d="M170 60 V70 M170 130 V140 M130 100 H140 M200 100 H210 M145 75 L155 85 M185 115 L195 125 M195 75 L185 85 M155 115 L145 125" stroke="var(--primary-color)" stroke-width="8" stroke-linecap="round"/>
+                </g>
+                <g class="anim-rotate" >
+                    <circle cx="230" cy="120" r="20" fill="var(--accent-color)"/>
+                    <circle cx="230" cy="120" r="8" fill="var(--bg-surface)"/>
+                    <path d="M230 90 V100 M230 140 V150 M200 120 H210 M250 120 H260 M210 100 L215 105 M245 135 L250 140 M250 100 L245 105 M215 135 L210 140" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round"/>
+                </g>
+            </g>
+          </svg>

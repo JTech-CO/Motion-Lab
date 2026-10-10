@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Chat Bubble Base -->
+                <path d="M200 240 C140 240 100 200 100 140 C100 80 140 40 200 40 C260 40 300 80 300 140 C300 180 280 210 250 225 L200 240 Z" fill="var(--secondary-color)"/>
+                <circle cx="200" cy="140" r="90" fill="var(--primary-color)"/>
+                
+                <!-- Smiley Face -->
+                <circle class="anim-pulse" cx="165" cy="115" r="15" fill="white"/>
+                <circle class="anim-pulse" style="animation-delay: 0.2s;" cx="235" cy="115" r="15" fill="white"/>
+                <path d="M150 160 Q200 210 250 160" stroke="white" stroke-width="12" stroke-linecap="round" fill="none"/>
+                
+                <!-- Thumb Up / Badge -->
+                <circle class="anim-glow" cx="280" cy="200" r="30" fill="var(--accent-color)"/>
+                <path class="anim-bounce"  d="M265 200 H275 V185 A 5 5 0 0 1 285 185 V195 H295 A 5 5 0 0 1 295 205 H280 V210 C280 215 275 215 270 210 V205 H265 Z" fill="white"/>
+            </g>
+          </svg>

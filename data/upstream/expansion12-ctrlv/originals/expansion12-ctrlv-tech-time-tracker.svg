@@ -1,0 +1,33 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Clock Face -->
+                <circle cx="200" cy="150" r="100" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="8"/>
+                
+                <!-- Progress Fill (Pomodoro Style) -->
+                <path class="anim-draw" d="M200 150 L200 50 A 100 100 0 0 1 300 150 Z" fill="var(--primary-color)" opacity="0.2"/>
+                
+                <!-- Clock Hands -->
+                <g class="anim-rotate" >
+                    <rect x="195" y="60" width="10" height="90" rx="5" fill="var(--charcoal)"/>
+                </g>
+                <g class="anim-rotate" >
+                    <rect x="198" y="50" width="4" height="100" rx="2" fill="var(--accent-color)"/>
+                </g>
+                
+                <!-- Tick Marks -->
+                <g stroke="var(--charcoal)" stroke-width="4" opacity="0.2">
+                    <line x1="200" y1="50" x2="200" y2="70"/>
+                    <line x1="300" y1="150" x2="280" y2="150"/>
+                    <line x1="200" y1="250" x2="200" y2="230"/>
+                    <line x1="100" y1="150" x2="120" y2="150"/>
+                </g>
+                
+                <!-- Digital Readout -->
+                <g transform="translate(200, 220)">
+                    <g class="anim-pulse" >
+                    <rect x="-40" y="-15" width="80" height="30" rx="4" fill="var(--charcoal)" opacity="0.1"/>
+                    <text x="0" y="8" font-family="monospace" font-weight="bold" font-size="16" fill="var(--primary-color)" text-anchor="middle">25:00</text>
+                </g>
+                </g>
+            </g>
+          </svg>

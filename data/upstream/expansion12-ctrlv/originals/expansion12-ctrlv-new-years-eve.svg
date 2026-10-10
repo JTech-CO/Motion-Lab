@@ -1,0 +1,10 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="anim-draw" d="M50 100 Q100 0 150 100 M250 100 Q300 0 350 100" stroke="var(--charcoal)" stroke-width="2" stroke-dasharray="10 10" opacity="0.3"/>
+            <path d="M180 260 C180 210 210 190 240 190 H260 C290 190 320 210 320 260 V270 H180 V260 Z" fill="var(--primary-color)"/>
+            <circle cx="250" cy="150" r="30" fill="var(--primary-color)"/>
+            <g class="anim-float">
+                <text x="50" y="80" fill="var(--charcoal)" font-weight="bold" font-size="60" font-family="Arial">2026</text>
+                <circle class="anim-glow" cx="130" cy="65" r="8" fill="var(--secondary-color)"/>
+            </g>
+            <path class="anim-data" d="M280 180 L350 120" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round"/>
+          </svg>

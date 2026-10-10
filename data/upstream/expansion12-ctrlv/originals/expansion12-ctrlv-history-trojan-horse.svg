@@ -1,0 +1,36 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Wheeled Base -->
+                <rect x="120" y="240" width="160" height="15" fill="var(--primary-color)"/>
+                <circle cx="140" cy="255" r="15" fill="var(--charcoal)"/>
+                <circle cx="140" cy="255" r="5" fill="var(--secondary-color)"/>
+                <circle cx="260" cy="255" r="15" fill="var(--charcoal)"/>
+                <circle cx="260" cy="255" r="5" fill="var(--secondary-color)"/>
+                
+                <!-- Legs -->
+                <rect x="150" y="200" width="20" height="40" fill="var(--primary-color)"/>
+                <rect x="230" y="200" width="20" height="40" fill="var(--primary-color)"/>
+                
+                <!-- Body -->
+                <rect x="130" y="100" width="140" height="100" rx="10" fill="var(--primary-color)"/>
+                
+                <!-- Neck and Head -->
+                <path d="M250 100 L300 40 L340 60 L320 80 L340 100 L300 120 Z" fill="var(--primary-color)"/>
+                <!-- Eye and Mane -->
+                <circle cx="290" cy="65" r="4" fill="var(--charcoal)"/>
+                <path d="M260 80 L250 60 L280 60 L270 40 L300 40 Z" fill="var(--accent-color)"/>
+                
+                <!-- Tail -->
+                <path d="M130 110 L90 140 L130 160 Z" fill="var(--primary-color)"/>
+                
+                <!-- Wooden plank textures -->
+                <path class="anim-draw" d="M130 120 H270 M130 140 H270 M130 160 H270 M130 180 H270" stroke="var(--bg-surface)" stroke-width="2" opacity="0.5"/>
+                <line x1="160" y1="200" x2="160" y2="240" stroke="var(--bg-surface)" stroke-width="2" opacity="0.5"/>
+                <line x1="240" y1="200" x2="240" y2="240" stroke="var(--bg-surface)" stroke-width="2" opacity="0.5"/>
+                
+                <!-- Hidden door / hatch -->
+                <rect x="180" y="130" width="40" height="40" stroke="var(--charcoal)" stroke-width="3" fill="none"/>
+                <!-- Eye peeking out of a crack -->
+                <path class="anim-pulse" d="M190 150 H210 M195 145 H205" stroke="var(--charcoal)" stroke-width="2"/>
+            </g>
+          </svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <ellipse cx="200" cy="270" rx="130" ry="10" fill="#E2E8F0" opacity="0.6" />
+            
+            <g>
+                
+                <rect x="90" y="40" width="220" height="220" rx="10" fill="#ffffff" stroke="#DFD116" stroke-width="6" />
+                <rect x="95" y="45" width="210" height="210" rx="5" fill="#DFD116" opacity="0.1" />
+                
+                
+                <rect x="130" y="30" width="20" height="15" rx="2" fill="#334155" />
+                <rect x="250" y="30" width="20" height="15" rx="2" fill="#334155" />
+                
+                
+                <rect x="110" y="60" width="180" height="180" rx="5" fill="#334155" />
+                <rect x="115" y="65" width="170" height="170" rx="2" fill="#6366f1" opacity="0.2" />
+                
+                
+                <g stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+                    
+                    <path d="M200 80 V220" stroke-width="8" />
+                    
+                    <path d="M190 100 Q140 100 130 140" fill="none" stroke-width="6" />
+                    <path d="M190 130 Q140 130 130 170" fill="none" stroke-width="6" />
+                    <path d="M190 160 Q145 160 140 190" fill="none" stroke-width="6" />
+                    
+                    <path d="M210 100 Q260 100 270 140" fill="none" stroke-width="6" />
+                    <path d="M210 130 Q260 130 270 170" fill="none" stroke-width="6" />
+                    <path d="M210 160 Q255 160 260 190" fill="none" stroke-width="6" />
+                    
+                    
+                    <path d="M190 85 Q150 75 140 90" fill="none" stroke-width="8" />
+                    <path d="M210 85 Q250 75 260 90" fill="none" stroke-width="8" />
+                </g>
+                
+                
+                <rect style="transform-origin:top" x="110" y="60" width="180" height="5" fill="#DFD116" opacity="0.8" />
+            </g>
+          </svg>

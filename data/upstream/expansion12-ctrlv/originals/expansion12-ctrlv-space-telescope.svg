@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Observatory Dome -->
+            <path d="M120 250 V180 H280 V250 Z" fill="var(--primary-color)"/>
+            <path class="anim-float" d="M120 180 A80 80 0 0 1 280 180 Z" fill="var(--primary-color)"/>
+            
+            <!-- Opening -->
+            <path class="anim-float" d="M200 180 L230 110 A80 80 0 0 0 200 100 Z" fill="var(--charcoal)" opacity="0.8"/>
+            
+            <!-- Telescope sticking out -->
+            <g transform="rotate(30 200 140)">
+                <rect class="anim-bounce" x="180" y="80" width="30" height="90" rx="4" fill="var(--secondary-color)" />
+            </g>
+            <g transform="rotate(30 220 50)">
+                <rect class="anim-bounce" x="220" y="50" width="40" height="15" rx="4" fill="var(--charcoal)" />
+            </g>
+            
+            <!-- Beam of light/sight -->
+            <path class="anim-glow" d="M280 60 L360 20 L380 70 Z" fill="var(--accent-color)" opacity="0.2"/>
+            <circle class="anim-glow" cx="350" cy="40" r="5" fill="var(--accent-color)"/>
+            <circle class="anim-glow" cx="370" cy="25" r="3" fill="var(--accent-color)"/>
+          </svg>

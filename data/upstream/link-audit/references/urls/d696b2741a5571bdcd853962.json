@@ -1,0 +1,90 @@
+{
+  "url": "https://www.shadergradient.co/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://shadergradient.co/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://www.shadergradient.co/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://www.shadergradient.co/robots.txt",
+      "robotsStatus": 200
+    },
+    {
+      "url": "https://shadergradient.co/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://shadergradient.co/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://www.shadergradient.co/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:03.714086+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 308,
+      "finalUrl": "https://www.shadergradient.co/",
+      "contentType": "text/html; charset=utf-8",
+      "location": "https://shadergradient.co/",
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 62,
+      "capturedSha256": "6ee8e0f843216f9ffcdda39211eb94958faa10cdea84838996ce208baf849ca2",
+      "responseBodySha256": "6ee8e0f843216f9ffcdda39211eb94958faa10cdea84838996ce208baf849ca2",
+      "title": "",
+      "textCharacters": 20,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.117,
+      "captureCachePath": "exa-results/link-audit/references/captures/84f3503c7df9f6e3bf69bfa8.json",
+      "captureCacheSha256": "5024897adf2be94632c35be25ebd67f7ff6370b9fb0729f4ac85b36314db320c"
+    },
+    {
+      "url": "https://shadergradient.co/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:04.851715+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://shadergradient.co/",
+      "contentType": "text/html",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 156824,
+      "capturedSha256": "c5b13a97a3f31cdc05d65f1c5ee705c761688a982ef12b3a6a513eeed0b1fdcd",
+      "responseBodySha256": "c5b13a97a3f31cdc05d65f1c5ee705c761688a982ef12b3a6a513eeed0b1fdcd",
+      "title": "Shader Gradient",
+      "textCharacters": 15,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.088,
+      "captureCachePath": "exa-results/link-audit/references/captures/b01bc1050533f4766e645194.json",
+      "captureCacheSha256": "a15376e2ba47b83b299ba214e25519a4e7105a196fe37821fdd6a5e0ee50eef0"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-shader-gradient",
+      "canonicalId": "ref-shader-gradient",
+      "title": "Shader Gradient",
+      "role": "canonical",
+      "sourceSha256": "0be7bf072585935047983dfb018490c05bec94c2df0b1dd115bba9dc5d8d456e"
+    }
+  ]
+}

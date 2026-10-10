@@ -1,0 +1,9 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="150" ry="12" fill="#E2E8F0"/>
+            <path class="anim-float" d="M110 130 C110 50 170 30 230 30 C290 30 350 70 350 150 C350 230 290 250 210 250 C130 250 110 190 110 130Z" fill="var(--charcoal)" opacity="0.1"/>
+            <text class="anim-float" x="240" y="110" fill="var(--charcoal)" font-family="Arial" font-weight="900" font-size="70" opacity="0.2">404</text>
+            <circle class="anim-data" cx="280" cy="180" r="10" fill="var(--secondary-color)" opacity="0.4"/>
+            <path class="anim-float" d="M120 260 C120 210 150 190 180 190 C210 190 230 210 230 260" stroke="var(--primary-color)" stroke-width="32" stroke-linecap="round" fill="none"/>
+            <circle class="anim-float" cx="175" cy="140" r="28" fill="var(--primary-color)"/>
+            <path class="anim-typing" d="M140 200 L100 180" stroke="var(--primary-color)" stroke-width="12" stroke-linecap="round"/>
+          </svg>

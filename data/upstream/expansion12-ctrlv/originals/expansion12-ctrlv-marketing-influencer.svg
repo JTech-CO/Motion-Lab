@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <circle class="anim-pulse" cx="200" cy="140" r="40" fill="var(--primary-color)"/>
+                <path d="M170 200 C170 160 230 160 230 200" fill="var(--primary-color)"/>
+                <circle class="anim-pulse" cx="200" cy="120" r="20" fill="white"/>
+                
+                <circle cx="120" cy="180" r="25" fill="var(--secondary-color)"/>
+                <path d="M100 240 C100 200 140 200 140 240" fill="var(--secondary-color)"/>
+                <circle cx="120" cy="170" r="12" fill="white"/>
+                
+                <circle cx="280" cy="180" r="25" fill="var(--secondary-color)"/>
+                <path d="M260 240 C260 200 300 200 300 240" fill="var(--secondary-color)"/>
+                <circle cx="280" cy="170" r="12" fill="white"/>
+
+                <path class="anim-draw" d="M160 160 L140 170 M240 160 L260 170" stroke="var(--charcoal)" stroke-width="4" stroke-dasharray="4 4"/>
+                <path class="anim-bounce" d="M200 70 L210 90 L230 95 L215 110 L220 130 L200 120 L180 130 L185 110 L170 95 L190 90 Z" fill="var(--accent-color)"/>
+            </g>
+          </svg>

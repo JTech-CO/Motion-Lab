@@ -1,0 +1,11 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="80" y="60" width="240" height="180" rx="10" fill="white" stroke="var(--border-color)" stroke-width="4"/>
+        <rect x="80" y="60" width="240" height="25" fill="var(--border-color)"/>
+        <g class="anim-float">
+            <rect x="120" y="110" width="60" height="40" rx="4" fill="var(--primary-color)" opacity="0.5"/>
+            <path class="anim-bounce" d="M220 150 L200 170 L230 190" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round"/>
+        </g>
+        <g class="anim-draw">
+            <circle cx="250" cy="120" r="20" stroke="var(--secondary-color)" stroke-width="3" fill="none"/>
+        </g>
+    </svg>

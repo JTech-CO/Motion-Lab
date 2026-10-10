@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            
+            
+            <rect x="120" y="60" width="160" height="100" rx="10" fill="#f43f5e" opacity="0.1" />
+            <path d="M140 120 L160 100 L180 130 L200 90 L220 110 L240 80 L260 120" stroke="#f43f5e" stroke-width="3" stroke-linecap="round" fill="none" />
+            <circle cx="240" cy="80" r="5" fill="#DFD116" />
+
+            <g>
+                
+                <path d="M70 240 Q100 200 140 220 L160 260 Z" fill="#6366f1" opacity="0.5" />
+                
+                
+                <path d="M140 220 L200 180 L220 210 L160 260 Z" fill="#334155" />
+                
+                <path d="M145 225 L195 190 M155 240 L205 205" stroke="#6366f1" stroke-width="6" stroke-linecap="round" />
+                
+                
+                <circle cx="210" cy="195" r="15" fill="#ffffff" stroke="#6366f1" stroke-width="4" />
+                <circle cx="210" cy="195" r="6" fill="#DFD116" />
+                
+                
+                <path d="M210 195 L280 160 L295 185 L220 215 Z" fill="#334155" />
+                <path d="M225 190 L275 165 M235 205 L285 180" stroke="white" stroke-width="4" stroke-linecap="round" />
+                
+                
+                <path d="M280 160 L310 145 L325 165 L295 185 Z" fill="#6366f1" />
+                
+                <path d="M310 145 L340 130 M315 155 L350 140 M320 165 L345 155" stroke="#334155" stroke-width="6" stroke-linecap="round" />
+            </g>
+            
+            
+            <path d="M350 140 Q370 120 360 90" stroke="#DFD116" stroke-width="3" stroke-dasharray="4 4" fill="none" />
+            <circle cx="360" cy="90" r="8" fill="#DFD116" />
+          </svg>

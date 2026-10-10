@@ -1,0 +1,90 @@
+{
+  "url": "https://fwdtools.com/gsap-playground/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://webdevpuneet.com/gsap-playground/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://fwdtools.com/gsap-playground/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://fwdtools.com/robots.txt",
+      "robotsStatus": 200
+    },
+    {
+      "url": "https://webdevpuneet.com/gsap-playground/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://webdevpuneet.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://fwdtools.com/gsap-playground/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:30.702556+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 301,
+      "finalUrl": "https://fwdtools.com/gsap-playground/",
+      "contentType": "text/html",
+      "location": "https://webdevpuneet.com/gsap-playground/",
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 795,
+      "capturedSha256": "e8b101a7c7f64aad528cc734513cbeb02243c0af37930dc0f3239749cff184b6",
+      "responseBodySha256": "e8b101a7c7f64aad528cc734513cbeb02243c0af37930dc0f3239749cff184b6",
+      "title": " 301 Moved Permanently\r\n",
+      "textCharacters": 84,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.875,
+      "captureCachePath": "exa-results/link-audit/references/captures/977e783b23d29ee54a054e76.json",
+      "captureCacheSha256": "271a96311bcb99f33078504765cda2d23f60b46fe15971fcabd6c153cd2bef6d"
+    },
+    {
+      "url": "https://webdevpuneet.com/gsap-playground/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:32.606843+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://webdevpuneet.com/gsap-playground/",
+      "contentType": "text/html",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 117183,
+      "capturedSha256": "f69c5de0270f48e1c21c0c9c5f3f7120d5bdefc2c14cdd2a173e85e8e8016d80",
+      "responseBodySha256": "f69c5de0270f48e1c21c0c9c5f3f7120d5bdefc2c14cdd2a173e85e8e8016d80",
+      "title": "GSAP Playground — Learn GSAP Visually, 55 Lessons Free | webdevpuneet.com",
+      "textCharacters": 13833,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.775,
+      "captureCachePath": "exa-results/link-audit/references/captures/6100160751d471ab5feda46f.json",
+      "captureCacheSha256": "d9eaa13e4e8dbefaa17ec03606ac1f1a9e840818707c169e93b213609d576afe"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-fwd-tools-gsap-playground",
+      "canonicalId": "ref-fwd-tools-gsap-playground",
+      "title": "FWD Tools GSAP Playground",
+      "role": "canonical",
+      "sourceSha256": "3e95865448bf4942f51ffb3a290d0b9ebb09761acd0df29064f3a3d646cba02d"
+    }
+  ]
+}

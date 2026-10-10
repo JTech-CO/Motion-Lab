@@ -1,4 +1,5 @@
 import copy
+import hashlib
 import unittest
 
 from scripts.duplicate_audit_svg import audit
@@ -38,6 +39,58 @@ class SVGDuplicateAuditTests(unittest.TestCase):
         a = item("a", '<circle id="a" r="1"><animate attributeName="r" begin="a.end" dur="1s" values="1;2"/></circle>')
         b = item("b", '<circle id="a" r="1"><animate attributeName="r" begin="aa.end" dur="1s" values="1;2"/></circle>')
         self.assertFalse(audit([a, b])["exactGroups"])
+
+    def test_unreferenced_duplicate_ids_only_remove_labels_without_mutation(self):
+        a = item("a", '<path id="label" d="M1 2L3 4"/><circle id="label" cx="6" cy="7" r="2"/>')
+        b = item("b", '<path d="M1 2L3 4"/><circle cx="6" cy="7" r="2"/>')
+        before = copy.deepcopy([a, b])
+        report = audit([a, b])
+        self.assertEqual(report["coverage"]["parsedItems"], 2)
+        self.assertEqual(len(report["exactGroups"]), 1)
+        self.assertEqual([a, b], before)
+        self.assertEqual(report["inspectionManifest"][0]["ignoredUnreferencedDuplicateIds"], ["label"])
+        self.assertEqual(report["input"]["itemCodeSha256"]["a"], hashlib.sha256(a["code"].encode()).hexdigest())
+
+    def test_referenced_duplicate_ids_stay_errors_including_event_and_token_refs(self):
+        body = '<path id="same" d="M1 2L3 4"/><circle id="same" r="2"/>'
+        references = ['<use href="#same"/>', '<use href="#%73ame"/>', '<g mask="url(#same)"/>',
+                      '<g clip-path="url(\' #same \')"/>', '<g aria-labelledby="other same"/>',
+                      '<animate attributeName="opacity" begin="same.end+1s" values="0;1"/>',
+                      '<animate attributeName="opacity" begin="same.click+1s" values="0;1"/>',
+                      '<animate attributeName="opacity" begin="same.repeat(2)" values="0;1"/>']
+        for reference in references:
+            with self.subTest(reference=reference):
+                report = audit([item("a", body + reference)])
+                self.assertEqual(report["coverage"]["parsedItems"], 0)
+                self.assertIn("duplicate element IDs", report["errors"][0]["error"])
+
+    def test_duplicate_label_normalization_preserves_geometry_and_paint_tampering(self):
+        a = item("a", '<path id="same" d="M1 2L3 4" fill="red"/><circle id="same" r="2"/>')
+        for body in ['<path d="M1 2L5 4" fill="red"/><circle r="2"/>',
+                     '<path d="M1 2L3 4" fill="blue"/><circle r="2"/>']:
+            report = audit([a, item("b", body)])
+            self.assertEqual(report["coverage"]["parsedItems"], 2)
+            self.assertFalse(report["exactGroups"])
+            self.assertFalse(report["nearGroups"])
+
+    def test_reference_to_longer_id_does_not_reference_duplicate_prefix(self):
+        a = item("a", '<path id="same" d="M1 2L3 4"/><circle id="same" r="2"/><circle id="same-long" r="3"/><use href="#same-long"/>')
+        report = audit([a])
+        self.assertEqual(report["coverage"]["parsedItems"], 1)
+        self.assertEqual(report["inspectionManifest"][0]["ignoredUnreferencedDuplicateIds"], ["same"])
+
+    def test_duplicate_labels_do_not_relax_active_or_external_guards(self):
+        body = '<path id="same" d="M1 2L3 4"/><circle id="same" r="2"/>'
+        for suffix in ['<path onclick="alert(1)"/>', '<foreignObject/>', '<use href="https://example.com/a.svg#same"/>']:
+            report = audit([item("a", body + suffix)])
+            self.assertEqual(report["coverage"]["parsedItems"], 0)
+            self.assertEqual(len(report["errors"]), 1)
+
+    def test_escaped_reference_with_duplicate_ids_is_conservatively_rejected(self):
+        body = '<path id="same" d="M1 2L3 4"/><circle id="same" r="2"/><g style="fill:url(#sa\\6De)"/>'
+        report = audit([item("a", body)])
+        self.assertEqual(report["coverage"]["parsedItems"], 0)
+        self.assertIn("escaped references", report["errors"][0]["error"])
 
     def test_redundant_linear_samples_have_exact_rational_proof(self):
         report = audit([item("a", motion("0;5;10")), item("b", motion("0;10"))])

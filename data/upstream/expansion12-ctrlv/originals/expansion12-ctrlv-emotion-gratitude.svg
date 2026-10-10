@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="130" ry="10" fill="#E2E8F0"/>
+            <g class="anim-float">
+              <circle cx="200" cy="145" r="88" fill="var(--primary-color)"/>
+              <!-- Closed grateful eyes -->
+              <path d="M160 128 Q172 136 184 128 M216 128 Q228 136 240 128" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round" fill="none"/>
+              <!-- Warm open smile -->
+              <path d="M158 162 Q200 200 242 162" stroke="var(--bg-surface)" stroke-width="8" stroke-linecap="round" fill="none"/>
+              <!-- Hands in prayer/clasped under chin -->
+              <path d="M170 220 Q185 205 200 210 Q215 205 230 220" stroke="var(--bg-surface)" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.7"/>
+              <!-- Cheek blush -->
+              <circle cx="148" cy="162" r="14" fill="var(--secondary-color)" opacity="0.35"/>
+              <circle cx="252" cy="162" r="14" fill="var(--secondary-color)" opacity="0.35"/>
+            </g>
+            <!-- Warm glow / halo -->
+            <circle class="anim-pulse" style="animation-duration: 3s;" cx="200" cy="115" r="30" fill="none" stroke="var(--accent-color)" stroke-width="4" opacity="0.4"/>
+            <circle class="anim-pulse" style="animation-duration: 3s; animation-delay:-1s;" cx="200" cy="115" r="40" fill="none" stroke="var(--accent-color)" stroke-width="2" opacity="0.2"/>
+          </svg>

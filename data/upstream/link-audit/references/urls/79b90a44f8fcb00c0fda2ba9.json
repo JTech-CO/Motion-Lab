@@ -1,0 +1,56 @@
+{
+  "url": "https://coolors.co/",
+  "status": "access-blocked-normal-browser-required",
+  "httpStatus": 200,
+  "finalUrl": "https://coolors.co/",
+  "reason": "access-blocked-normal-browser-required",
+  "invalidConfirmed": false,
+  "inconclusive": true,
+  "robotsChecks": [
+    {
+      "url": "https://coolors.co/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://coolors.co/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://coolors.co/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:04.511390+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://coolors.co/",
+      "contentType": "text/html; charset=UTF-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "5bf10e3b54d7332fae7b4d95dcd8c5a208aea8b602d181f250aa91a7519fc3eb",
+      "responseBodySha256": "5bf10e3b54d7332fae7b4d95dcd8c5a208aea8b602d181f250aa91a7519fc3eb",
+      "title": "Coolors - The super fast color palettes generator!",
+      "textCharacters": 12473,
+      "challenge": true,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.307,
+      "captureCachePath": "exa-results/link-audit/references/captures/e38aa9f4141df5a86a83619d.json",
+      "captureCacheSha256": "7c860a72aafc5d5b5df6f0e176df1ceab0058d159425f516cbf19b78f6b62ccd"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-coolors",
+      "canonicalId": "ref-coolors",
+      "title": "Coolors",
+      "role": "canonical",
+      "sourceSha256": "1771a244c0481a30aeb6d6653c0091144ea4705c2b6d035b1558729d223220a9"
+    }
+  ]
+}

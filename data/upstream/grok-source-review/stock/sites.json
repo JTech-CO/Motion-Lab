@@ -1,0 +1,2558 @@
+[
+  {
+    "id": "motionelements",
+    "name": "MotionElements",
+    "sector": 1,
+    "officialUrl": "https://www.motionelements.com/",
+    "accessAttempts": [
+      {
+        "url": "https://www.motionelements.com/after-effects-template-55836161-abstract-tech-typographic-intro-ae",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/motionelements-asset-browser.json",
+        "finalUrl": "https://www.motionelements.com/after-effects-template-55836161-abstract-tech-typographic-intro-ae",
+        "evidenceSha256": "1b2894a9c1312ee4aaeb0bab0faa1182c0b5508dba81fc250015e975eb31e664"
+      },
+      {
+        "url": "https://www.motionelements.com/after-effects-template-55836161-abstract-tech-typographic-intro-ae",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/motionelements-asset-http.json",
+        "finalUrl": "https://www.motionelements.com/after-effects-template-55836161-abstract-tech-typographic-intro-ae",
+        "evidenceSha256": "e897ba94675249652bdf74345e9bc7824d92b9dbc0289d5ed950fc9a2d5c8f5e"
+      },
+      {
+        "url": "https://www.motionelements.com/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/motionelements-home-http.json",
+        "finalUrl": "https://www.motionelements.com/",
+        "evidenceSha256": "93886faab5eb61c1b6cf334ab8950b1402987f7764ce204253c9c8952e44e2a0"
+      },
+      {
+        "url": "https://www.motionelements.com/robots.txt",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/motionelements-robots-http.json",
+        "finalUrl": "https://www.motionelements.com/robots.txt",
+        "evidenceSha256": "e1a96887cdc68802408d7abb05c58c110d1e5457c77bdaa65e90a03808b6e21e"
+      },
+      {
+        "url": "https://www.motionelements.com/legal/license",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/motionelements-terms-http.json",
+        "finalUrl": "https://www.motionelements.com/legal/license",
+        "evidenceSha256": "236c4329528b939a9648294298391765f526b92324001b0cf9b4d05539a81b31"
+      },
+      {
+        "url": "https://www.motionelements.com/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-000.json",
+        "evidenceSha256": "162a30724e8cb8303372daa75b29afef3a7395e710eb439ad998cdcb2f82979c"
+      },
+      {
+        "url": "https://www.motionelements.com/legal/license",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-017.json",
+        "evidenceSha256": "f3b1b4a2bdad858a9046ddde2e89c9173d0d6113f356800ea31674e5bb7870cb"
+      },
+      {
+        "url": "https://www.motionelements.com/after-effects-template-55836161-abstract-tech-typographic-intro-ae",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-036.json",
+        "evidenceSha256": "2a906b369d2b6324cdffe09c97a30cda1ad5261a2f86fc00bf0d5732ee266d4c"
+      }
+    ],
+    "representativeAsset": {
+      "url": "https://www.motionelements.com/after-effects-template-55836161-abstract-tech-typographic-intro-ae",
+      "formats": [
+        "After Effects template (editing project; exact archive extensions not acquired)"
+      ],
+      "downloadGate": "Paid per-item or subscription license; no purchase or original download performed.",
+      "rights": "Royalty-free end-production use; stock/archive/source redistribution prohibited, including substantially altered content."
+    },
+    "termsEvidence": [
+      {
+        "url": "https://www.motionelements.com/legal/license",
+        "claim": "원본과 파생물이 배포·재판매용 stock library에 들어갈 수 없습니다.",
+        "quote": "may not, in whole or in part, be included in any other clip media/stock product, library, collection",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-017.json",
+        "evidenceSha256": "f3b1b4a2bdad858a9046ddde2e89c9173d0d6113f356800ea31674e5bb7870cb"
+      }
+    ],
+    "storageVerdict": "no-public-redistribution",
+    "reasonKO": "일반 royalty-free 라이선스는 완성작의 상업사용을 허용하지만 원본·파생물의 stock library, 다운로드 파일, 템플릿 재배포를 금지합니다. AE 프로젝트를 공개 코드로 바꿔 저장할 권한도 확인되지 않았습니다.",
+    "currentRendererFit": "AE editing project is outside the current CSS/SVG/GLSL/image source renderer; licensed still/vector content would also need original redistribution permission.",
+    "api": {
+      "verified": false,
+      "status": "not-verified",
+      "publicOriginalRedistributionGranted": false,
+      "note": "No public original-asset redistribution API grant was verified. This does not assert that no API exists."
+    },
+    "advertisedInventory": {
+      "count": 26000000,
+      "unit": "mixed media items in subscription catalog",
+      "qualified": false
+    },
+    "qualifiedSupply": {
+      "verifiedNetNew": 0,
+      "unverifiedPotential": null
+    },
+    "existingCatalog": {
+      "sourceMatchCount": 0,
+      "ids": []
+    },
+    "nextStep": "원본 공개 데이터 확장에서는 제외하고 필요한 경우 출처 링크를 통한 참고용으로만 검토합니다.",
+    "robotsReview": {
+      "id": "motionelements",
+      "url": "https://www.motionelements.com/after-effects-template-55836161-abstract-tech-typographic-intro-ae",
+      "allowedForReviewAgent": true,
+      "crawlDelay": 1,
+      "allowedForGPTBot": true
+    }
+  },
+  {
+    "id": "productioncrate",
+    "name": "ProductionCrate",
+    "sector": 1,
+    "officialUrl": "https://www.productioncrate.com/",
+    "accessAttempts": [
+      {
+        "url": "https://www.productioncrate.com/assets/vfx/fc_effects/footagecrate-4k-mograph-pulse-triangle",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/productioncrate-asset-http.json",
+        "finalUrl": "https://www.productioncrate.com/assets/vfx/fc_effects/footagecrate-4k-mograph-pulse-triangle",
+        "evidenceSha256": "6faceff3b1d0dda30bed44f640b0501e1bec055a1e0dc3c8aa29911eefd7e1e1"
+      },
+      {
+        "url": "https://www.productioncrate.com/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/productioncrate-home-http.json",
+        "finalUrl": "https://www.productioncrate.com/",
+        "evidenceSha256": "af1ac4b5597b63767fe111a0edd03179e824369fb0d4fb52d7ad433564f1d855"
+      },
+      {
+        "url": "https://www.productioncrate.com/robots.txt",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/productioncrate-robots-http.json",
+        "finalUrl": "https://www.productioncrate.com/robots.txt",
+        "evidenceSha256": "1906ad47bd2d47b5ba9d567f1454f150044a46897acb2697829a586ebbb459dd"
+      },
+      {
+        "url": "https://www.productioncrate.com/terms.html",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/productioncrate-terms-http.json",
+        "finalUrl": "https://www.productioncrate.com/terms.html",
+        "evidenceSha256": "0ec83a5b659dd04b60f604956307ef827c6d71b275b2d267d5cc37b762cf23af"
+      },
+      {
+        "url": "https://www.productioncrate.com/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-001.json",
+        "evidenceSha256": "4c671860a4bcc90ba7fd93fa7464e106fdee6126c8dfa07d9627305187702c5f"
+      },
+      {
+        "url": "https://www.productioncrate.com/terms.html",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-018.json",
+        "evidenceSha256": "fee08b6889ac86c8c3b2a610173dc11c5afa8868ae1d045554738eaacd757a0d"
+      },
+      {
+        "url": "https://www.productioncrate.com/assets/vfx/fc_effects/footagecrate-4k-mograph-pulse-triangle",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-037.json",
+        "evidenceSha256": "6bb7172fb12b0708be7d2ba43b76cd4c8b6e111ec6b5b89511c285233e07ac74"
+      }
+    ],
+    "representativeAsset": {
+      "url": "https://www.productioncrate.com/assets/vfx/fc_effects/footagecrate-4k-mograph-pulse-triangle",
+      "formats": [
+        "PNG sequence",
+        "PNG codec video",
+        "ProRes/MOV",
+        "MP4"
+      ],
+      "downloadGate": "Account/plan download workflow; original download not performed.",
+      "rights": "Commercial productions allowed; downloadable stock elements and raw media mirroring/archiving require prior written consent."
+    },
+    "termsEvidence": [
+      {
+        "url": "https://www.productioncrate.com/terms.html",
+        "claim": "완성작 사용권과 별개로 원본 archiving 및 stock 재배포를 금지합니다.",
+        "quote": "may not be uploaded, archived, mirrored, shared, or redistributed by any means without prior written consent.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-018.json",
+        "evidenceSha256": "fee08b6889ac86c8c3b2a610173dc11c5afa8868ae1d045554738eaacd757a0d"
+      }
+    ],
+    "storageVerdict": "no-public-redistribution",
+    "reasonKO": "PNG sequence 포맷은 있으나 각 프레임을 별개 자료로 세면 같은 모션의 프레임 중복입니다. 라이선스가 원본의 재배포·archiving·mirroring과 타 사이트 다운로드 에셋 제공을 명시적으로 금지합니다.",
+    "currentRendererFit": "Static PNG frames technically fit image storage, but a sequence is one motion family and raw redistribution is prohibited. Video formats are outside this collection.",
+    "api": {
+      "verified": false,
+      "status": "not-verified",
+      "publicOriginalRedistributionGranted": false,
+      "note": "No public original-asset redistribution API grant was verified. This does not assert that no API exists."
+    },
+    "advertisedInventory": {
+      "count": 10000,
+      "unit": "VFX/FootageCrate assets (advertised lower bound)",
+      "qualified": false
+    },
+    "qualifiedSupply": {
+      "verifiedNetNew": 0,
+      "unverifiedPotential": null
+    },
+    "existingCatalog": {
+      "sourceMatchCount": 0,
+      "ids": []
+    },
+    "nextStep": "기존 이용권으로 수집하지 않습니다. 공개 원본 배포를 포함한 별도 서면 허가가 있을 때만 재검토합니다.",
+    "robotsReview": {
+      "id": "productioncrate",
+      "url": "https://www.productioncrate.com/assets/vfx/fc_effects/footagecrate-4k-mograph-pulse-triangle",
+      "allowedForReviewAgent": true,
+      "crawlDelay": null,
+      "allowedForGPTBot": true
+    }
+  },
+  {
+    "id": "rocketstock",
+    "name": "RocketStock",
+    "sector": 1,
+    "officialUrl": "https://www.rocketstock.com/",
+    "accessAttempts": [
+      {
+        "url": "https://www.rocketstock.com/video-packs/lucent-ultra-vivid-lens-flares/",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/rocketstock-asset-browser.json",
+        "finalUrl": "https://www.shutterstock.com/video/elements/lucent-ultra-vivid-lens-flares",
+        "evidenceSha256": "0acf578a3f5f23b1103534824a45f7a04904e830efa3869e3c7f9cd3af5af8b3"
+      },
+      {
+        "url": "https://www.rocketstock.com/video-packs/lucent-ultra-vivid-lens-flares/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/rocketstock-asset-http.json",
+        "finalUrl": "https://www.shutterstock.com/video/elements/lucent-ultra-vivid-lens-flares",
+        "evidenceSha256": "eb151c13264d0c677a8a6197d3f1790bc7f64decb25271b7e7e3db83c5748993"
+      },
+      {
+        "url": "https://www.rocketstock.com/",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/rocketstock-home-browser.json",
+        "finalUrl": "https://www.shutterstock.com/video/elements",
+        "evidenceSha256": "6ee70b11c3b80ad0c0056645b252f1161a9ef568b51ffa2bc51bab539de0aea4"
+      },
+      {
+        "url": "https://www.rocketstock.com/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/rocketstock-home-http.json",
+        "finalUrl": "https://www.shutterstock.com/video/elements",
+        "evidenceSha256": "e815539cadf4ef7959c73c80978a21685aa206bcada0e76d5b49cb56ea30f049"
+      },
+      {
+        "url": "https://www.rocketstock.com/robots.txt",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/rocketstock-robots-browser.json",
+        "finalUrl": "https://www.shutterstock.com/video/elements",
+        "evidenceSha256": "2c1a71dcfc82aa7d924c8d379fadd0e778d66be801838ad4e9b561398f686170"
+      },
+      {
+        "url": "https://www.rocketstock.com/robots.txt",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/rocketstock-robots-http.json",
+        "finalUrl": "https://www.shutterstock.com/video/elements",
+        "evidenceSha256": "02723e15f2334db7a6e26855f8ad02192ce95872c3490590602c4c879bb82eca"
+      },
+      {
+        "url": "https://www.shutterstock.com/license",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/rocketstock-terms-browser.json",
+        "finalUrl": "https://www.shutterstock.com/license",
+        "evidenceSha256": "1029757a8954044ea769d750a5640dea65147ddb142cf3a948656eb10fdfdb3c"
+      },
+      {
+        "url": "https://www.shutterstock.com/license",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/rocketstock-terms-http.json",
+        "finalUrl": "https://www.shutterstock.com/license",
+        "evidenceSha256": "3c67e6bba5e2940bb2f0fce9217228e5b09a8a32c5192e251b2c50e3b5bd993e"
+      },
+      {
+        "url": "https://www.shutterstock.com/license",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-019.json",
+        "evidenceSha256": "6afc3b30a5a22cc3a30fb45e24620903a3fd7b2def0e7739f238d42e4ae6ddd7"
+      }
+    ],
+    "representativeAsset": {
+      "url": "https://www.rocketstock.com/video-packs/lucent-ultra-vivid-lens-flares/",
+      "formats": [],
+      "downloadGate": "Legacy item redirects to Shutterstock Elements and returns HTTP403 in ordinary Chrome; no original acquired.",
+      "rights": "Current original-file redistribution rights unverified; historical unlimited-project marketing does not grant an open source warehouse license."
+    },
+    "termsEvidence": [
+      {
+        "url": "https://www.shutterstock.com/license",
+        "claim": "현행 공식 license 주소 접근을 시도했으나 브라우저403과 Exa의 API 소개만 반환되어 본문 권한 확인이 보류되었습니다.",
+        "quote": "",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-019.json",
+        "evidenceSha256": "6afc3b30a5a22cc3a30fb45e24620903a3fd7b2def0e7739f238d42e4ae6ddd7"
+      }
+    ],
+    "storageVerdict": "blocked-unverified",
+    "reasonKO": "홈·robots·과거 Lucent Ultra 상세가 모두 Shutterstock Elements로 리디렉션됩니다. 일반 Chrome에서도 HTTP403이어서 현행 원본 포맷·재배포 조건을 완전히 검증하지 못했습니다. 과거 Unlimited license 소개는 완성 프로젝트 이용 설명이며 원본 창고 권한 증거가 아닙니다.",
+    "currentRendererFit": "Legacy lens-flare packs were editing media; current formats are unverified and no supported original acquired.",
+    "api": {
+      "verified": false,
+      "status": "not-verified",
+      "publicOriginalRedistributionGranted": false,
+      "note": "No public original-asset redistribution API grant was verified. This does not assert that no API exists."
+    },
+    "advertisedInventory": {
+      "count": null,
+      "unit": "current independently verified original items",
+      "qualified": false
+    },
+    "qualifiedSupply": {
+      "verifiedNetNew": 0,
+      "unverifiedPotential": null
+    },
+    "existingCatalog": {
+      "sourceMatchCount": 0,
+      "ids": []
+    },
+    "nextStep": "Shutterstock 행과 동일 서비스로 다루며 공급량을 이중 계산하지 않습니다. 공식 공개 원본권을 검증하기 전에는 수집하지 않습니다.",
+    "robotsReview": {
+      "policyVerified": false
+    },
+    "identityReview": {
+      "observedHomeRedirect": "https://www.shutterstock.com/video/elements",
+      "observedLegacyAssetRedirect": "https://www.shutterstock.com/video/elements/lucent-ultra-vivid-lens-flares",
+      "sameCurrentSupplyGroupAs": "Shutterstock",
+      "currentItemAndLicenseBlocked": true
+    }
+  },
+  {
+    "id": "motionvfx",
+    "name": "MotionVFX",
+    "sector": 1,
+    "officialUrl": "https://www.motionvfx.com/",
+    "accessAttempts": [
+      {
+        "url": "https://www.motionvfx.com/collections/mtransition-wipe",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/motionvfx-asset-browser.json",
+        "finalUrl": "https://www.motionvfx.com/collections/mtransition-wipe",
+        "evidenceSha256": "c617bf3005545b4062b177d0aa3df228d165f668df4923e6e3ec5d2fd7fc31b0"
+      },
+      {
+        "url": "https://www.motionvfx.com/collections/mtransition-wipe",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/motionvfx-asset-http.json",
+        "finalUrl": "https://www.motionvfx.com/collections/mtransition-wipe",
+        "evidenceSha256": "76f727a19e49f4377acc0c53386de5367420956fefe2bdb86a6212d516dc81c7"
+      },
+      {
+        "url": "https://www.motionvfx.com/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/motionvfx-home-http.json",
+        "finalUrl": "https://www.motionvfx.com/",
+        "evidenceSha256": "aaaec41096b684d6132fe4812e098ba29ba347d2d95e4a5d96814c4b138116bb"
+      },
+      {
+        "url": "https://www.motionvfx.com/robots.txt",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/motionvfx-robots-http.json",
+        "finalUrl": "https://www.motionvfx.com/robots.txt",
+        "evidenceSha256": "34fbd836c5c93aecb6db94dbcee978e1418404628a91b9faa93b3ea19ea5e71b"
+      },
+      {
+        "url": "https://www.motionvfx.com/conditions",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/motionvfx-terms-browser.json",
+        "finalUrl": "https://www.motionvfx.com/conditions",
+        "evidenceSha256": "405e2a2a887e056b575fc40bf41344191fb96df85537381b3f75fd0d24224c26"
+      },
+      {
+        "url": "https://www.motionvfx.com/conditions",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/motionvfx-terms-http.json",
+        "finalUrl": "https://www.motionvfx.com/conditions",
+        "evidenceSha256": "cee9a62e8c32d6f488ee44e88590ffd59959838e9c58677d2026c830dbe9e321"
+      },
+      {
+        "url": "https://www.motionvfx.com/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-002.json",
+        "evidenceSha256": "38bcc7cf2a15d2f025c3dc3e99fd14be155d358b5956429c5b43d9cc662ee722"
+      },
+      {
+        "url": "https://www.motionvfx.com/conditions",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-020.json",
+        "evidenceSha256": "c16c33abd719be0c9d4f86dff1d72bd6476b3e90c31b792301176e5fcc9fe8b4"
+      },
+      {
+        "url": "https://www.motionvfx.com/collections/mtransition-wipe",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-038.json",
+        "evidenceSha256": "04ef7cbc1caf8fe75518532535d16ac3a8bb5f85bcba9f16c8272579bd20f404"
+      }
+    ],
+    "representativeAsset": {
+      "url": "https://www.motionvfx.com/collections/mtransition-wipe",
+      "formats": [
+        "Final Cut Pro / mExtension motion elements (proprietary editing format; archive not acquired)"
+      ],
+      "downloadGate": "mExtension/mInstaller and account/license/trial required; nothing installed.",
+      "rights": "Limited non-transferable device license; no product sharing, sublicensing, or competing stock/template assets."
+    },
+    "termsEvidence": [
+      {
+        "url": "https://www.motionvfx.com/conditions",
+        "claim": "Appendix A는 MotionVFX 제품을 제3자에게 공유하거나 이전하지 못하도록 합니다.",
+        "quote": "share, sell, rent, sublicense, or transfer the MotionVFX Products to any third party",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-020.json",
+        "evidenceSha256": "c16c33abd719be0c9d4f86dff1d72bd6476b3e90c31b792301176e5fcc9fe8b4"
+      }
+    ],
+    "storageVerdict": "no-public-redistribution",
+    "reasonKO": "mExtension/FCP 중심 모션 컬렉션입니다. Appendix A가 제품의 공유·판매·서브라이선스·전송 및 경쟁 stock/template 제품 제작을 제한합니다. robots 자동 접근 금지는 정상 Chrome의 공개 상세·약관 읽기로 확인했습니다.",
+    "currentRendererFit": "FCP/plugin project needs a proprietary host and is not a local CSS/SVG/GLSL source. Component images are covered by the same restricted product license.",
+    "api": {
+      "verified": false,
+      "status": "not-verified",
+      "publicOriginalRedistributionGranted": false,
+      "note": "No public original-asset redistribution API grant was verified. This does not assert that no API exists."
+    },
+    "advertisedInventory": {
+      "count": null,
+      "unit": "motion elements; trial download limit is not inventory",
+      "qualified": false
+    },
+    "qualifiedSupply": {
+      "verifiedNetNew": 0,
+      "unverifiedPotential": null
+    },
+    "existingCatalog": {
+      "sourceMatchCount": 0,
+      "ids": []
+    },
+    "nextStep": "자동 수집 및 공개 원본 재배포 대상에서 제외합니다. 디자인 동작의 참고 링크로만 검토 가능합니다.",
+    "robotsReview": {
+      "id": "motionvfx",
+      "url": "https://www.motionvfx.com/collections/mtransition-wipe",
+      "allowedForReviewAgent": false,
+      "crawlDelay": null,
+      "allowedForGPTBot": false
+    }
+  },
+  {
+    "id": "pixelfilmstudios",
+    "name": "Pixel Film Studios",
+    "sector": 1,
+    "officialUrl": "https://pixelfilmstudios.com/",
+    "accessAttempts": [
+      {
+        "url": "https://pixelfilmstudios.com/plugins/proslice-volume-1/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/pixelfilmstudios-asset-http.json",
+        "finalUrl": "https://pixelfilmstudios.com/plugins/proslice-volume-1/",
+        "evidenceSha256": "655c4c8d5dcf5613ded0ecb5ad6b2175a54adca274343162a862d351af0f57c8"
+      },
+      {
+        "url": "https://pixelfilmstudios.com/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/pixelfilmstudios-home-http.json",
+        "finalUrl": "https://pixelfilmstudios.com/",
+        "evidenceSha256": "d3109e3f104dc1120f99cbf640d1f1cf344133662ec93b873bb74a42c6999f2b"
+      },
+      {
+        "url": "https://pixelfilmstudios.com/robots.txt",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/pixelfilmstudios-robots-http.json",
+        "finalUrl": "https://pixelfilmstudios.com/robots.txt",
+        "evidenceSha256": "2fc0efeec8d3875fcc5772fb3c18906e65042d83135db65806b1fdf8b323ef3f"
+      },
+      {
+        "url": "https://pixelfilmstudios.com/license-info/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/pixelfilmstudios-terms-http.json",
+        "finalUrl": "https://pixelfilmstudios.com/license-info/",
+        "evidenceSha256": "3ea177b5560f94ec62c462bd62dba90eabf1fd9063064ddaa7375d89c3274b21"
+      },
+      {
+        "url": "https://pixelfilmstudios.com/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-003.json",
+        "evidenceSha256": "f9da32147ca50e75e0517aedf5b3ecf48da66be29035f56cfcd90a787bc418ae"
+      },
+      {
+        "url": "https://pixelfilmstudios.com/license-info/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-021.json",
+        "evidenceSha256": "596b398f102cff1318e2f4132a4783ee928a2ccf81b4e502c42a09170b87d08b"
+      },
+      {
+        "url": "https://pixelfilmstudios.com/plugins/proslice-volume-1/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-039.json",
+        "evidenceSha256": "b09735b419d494f1f0dad30c70dca3edd615961af77599a75ab58fe5b6eccb67"
+      }
+    ],
+    "representativeAsset": {
+      "url": "https://pixelfilmstudios.com/plugins/proslice-volume-1/",
+      "formats": [
+        "Final Cut Pro effect/plugin (exact project extensions not obtained)"
+      ],
+      "downloadGate": "Purchase or Members Club account; installer or direct Mac download.",
+      "rights": "Commercial edited work allowed for licensed user; plugin files cannot be resold or redistributed."
+    },
+    "termsEvidence": [
+      {
+        "url": "https://pixelfilmstudios.com/license-info/",
+        "claim": "플러그인 자체 재배포는 금지됩니다.",
+        "quote": "Resell or redistribute the plugin files themselves",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-021.json",
+        "evidenceSha256": "596b398f102cff1318e2f4132a4783ee928a2ccf81b4e502c42a09170b87d08b"
+      }
+    ],
+    "storageVerdict": "no-public-redistribution",
+    "reasonKO": "2,000+ FCP plugins의 상업 사용권은 있어도 원본 plugin files 재판매·재배포는 금지됩니다. 영상 편집 효과를 지원 코드로 저장할 원본권도 확인되지 않았습니다.",
+    "currentRendererFit": "Native Final Cut Pro plugin is outside current browser code/image rendering.",
+    "api": {
+      "verified": false,
+      "status": "not-verified",
+      "publicOriginalRedistributionGranted": false,
+      "note": "No public original-asset redistribution API grant was verified. This does not assert that no API exists."
+    },
+    "advertisedInventory": {
+      "count": 2000,
+      "unit": "Final Cut Pro plugins (advertised lower bound)",
+      "qualified": false
+    },
+    "qualifiedSupply": {
+      "verifiedNetNew": 0,
+      "unverifiedPotential": null
+    },
+    "existingCatalog": {
+      "sourceMatchCount": 0,
+      "ids": []
+    },
+    "nextStep": "배포 가능한 원본 데이터 공급량에서는 제외하고 참고 출처로만 사용합니다.",
+    "robotsReview": {
+      "id": "pixelfilmstudios",
+      "url": "https://pixelfilmstudios.com/plugins/proslice-volume-1/",
+      "allowedForReviewAgent": true,
+      "crawlDelay": null,
+      "allowedForGPTBot": true
+    }
+  },
+  {
+    "id": "cinepacks",
+    "name": "CinePacks",
+    "sector": 1,
+    "officialUrl": "https://cinepacks.store/",
+    "accessAttempts": [
+      {
+        "url": "https://cinepacks.store/products/master-pack-bundle",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/cinepacks-asset-http.json",
+        "finalUrl": "https://cinepacks.store/products/master-pack-bundle",
+        "evidenceSha256": "270d7778088cd2b4da58bcffc7323ed6ed5ba4b0128cd63d86939967ac254994"
+      },
+      {
+        "url": "https://cinepacks.store/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/cinepacks-home-http.json",
+        "finalUrl": "https://cinepacks.store/",
+        "evidenceSha256": "8e3acf1cf995a8389a2bc0feb44a19a3513cf4a1714e3d8f10432979ba7ea2f1"
+      },
+      {
+        "url": "https://cinepacks.store/robots.txt",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/cinepacks-robots-http.json",
+        "finalUrl": "https://cinepacks.store/robots.txt",
+        "evidenceSha256": "f84de5d89d56c6d7729ee4af18f1fc4abd55346b0a989446ab4e4f130faaa0dc"
+      },
+      {
+        "url": "https://cinepacks.store/pages/faqs",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/cinepacks-terms-http.json",
+        "finalUrl": "https://cinepacks.store/pages/faqs",
+        "evidenceSha256": "6b9b7ec89f18976c6c3d87204871a206714f49595386a958411e11631261ad76"
+      },
+      {
+        "url": "https://cinepacks.store/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-004.json",
+        "evidenceSha256": "e45aa104ae6123e0163ce8549b849f97c7dfa710b7007a6e0e8d19342df7e9eb"
+      },
+      {
+        "url": "https://cinepacks.store/pages/faqs",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-022.json",
+        "evidenceSha256": "2bb6b55907eb1706b958c636ace2b9f8e4a1d6269afff143ad67e6b23eee9d7d"
+      },
+      {
+        "url": "https://cinepacks.store/products/master-pack-bundle",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-040.json",
+        "evidenceSha256": "acf1e420479596f7444c27ef5b1eae24af5a83e7a29adbdc2589a8a820da9215"
+      }
+    ],
+    "representativeAsset": {
+      "url": "https://cinepacks.store/products/master-pack-bundle",
+      "formats": [
+        "ProRes/MOV",
+        "MP4",
+        "WAV",
+        "software-specific presets"
+      ],
+      "downloadGate": "Purchase followed by account/download portal or emailed links; no purchase/download.",
+      "rights": "Lifetime commercial end-project use; raw asset resale or redistribution forbidden, including free effects."
+    },
+    "termsEvidence": [
+      {
+        "url": "https://cinepacks.store/pages/faqs",
+        "claim": "무료와 유료 효과 모두 호스팅·배포가 금지됩니다.",
+        "quote": "you CANNOT sell, rent, lease, distribute, trade, host, or otherwise exploit our products in any commercial or non-commercial manner.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-022.json",
+        "evidenceSha256": "2bb6b55907eb1706b958c636ace2b9f8e4a1d6269afff143ad67e6b23eee9d7d"
+      }
+    ],
+    "storageVerdict": "no-public-redistribution",
+    "reasonKO": "무료 effects와 유료 packs 모두 최종 상업작품에서 사용할 수 있지만 raw assets를 판매·배포·host하는 것은 금지됩니다. 대표 Master Bundle은 주로 영상·음원·편집 preset이라 현재 원본 포맷 범위에도 맞지 않습니다.",
+    "currentRendererFit": "Main assets are video/audio, which are excluded. Proprietary presets/LUTs need separate format support and are not publicly redistributable.",
+    "api": {
+      "verified": false,
+      "status": "not-verified",
+      "publicOriginalRedistributionGranted": false,
+      "note": "No public original-asset redistribution API grant was verified. This does not assert that no API exists."
+    },
+    "advertisedInventory": {
+      "count": null,
+      "unit": "digital effect packs; no whole-library count verified",
+      "qualified": false
+    },
+    "qualifiedSupply": {
+      "verifiedNetNew": 0,
+      "unverifiedPotential": null
+    },
+    "existingCatalog": {
+      "sourceMatchCount": 0,
+      "ids": []
+    },
+    "nextStep": "원본 수집 대상으로 삼지 않습니다. 무료 샘플도 같은 재배포 금지를 적용합니다.",
+    "robotsReview": {
+      "id": "cinepacks",
+      "url": "https://cinepacks.store/products/master-pack-bundle",
+      "allowedForReviewAgent": true,
+      "crawlDelay": null,
+      "allowedForGPTBot": true
+    }
+  },
+  {
+    "id": "videobolt",
+    "name": "Videobolt",
+    "sector": 1,
+    "officialUrl": "https://videobolt.net/",
+    "accessAttempts": [
+      {
+        "url": "https://videobolt.net/author/vladoskin/simple-logo",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/videobolt-asset-http.json",
+        "finalUrl": "https://videobolt.net/author/vladoskin/simple-logo",
+        "evidenceSha256": "bfeb5bc387dd73d899141340c7958a70d7b6edaa7f9509636b56812ad727487b"
+      },
+      {
+        "url": "https://videobolt.net/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/videobolt-home-http.json",
+        "finalUrl": "https://videobolt.net/",
+        "evidenceSha256": "f0a4e1713aa1d2cd92b810333ef129e66ee6fb8978be786d2ebe5627f9ad187a"
+      },
+      {
+        "url": "https://videobolt.net/robots.txt",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/videobolt-robots-http.json",
+        "finalUrl": "https://videobolt.net/robots.txt",
+        "evidenceSha256": "80d6897310f1f04faf29f53d9846c5d1a8c86dc74f721fb89897945aa978869e"
+      },
+      {
+        "url": "https://videobolt.net/terms",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/videobolt-terms-http.json",
+        "finalUrl": "https://videobolt.net/terms",
+        "evidenceSha256": "613c88f178f5b1a0ee022eaa5dde4c9d9e3861a87f82f9f89eaf0e3e358966ae"
+      },
+      {
+        "url": "https://videobolt.net/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-005.json",
+        "evidenceSha256": "41bfb46319c35d6769c5d5501995bcf90dcfdbd4e81ba59f8785c30413e2313f"
+      },
+      {
+        "url": "https://videobolt.net/terms",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-023.json",
+        "evidenceSha256": "c2c62b9a475d4c4898c28a4f81abd42c3ff5c1484a7437bc9d5ff1a59a70dc3a"
+      },
+      {
+        "url": "https://videobolt.net/author/vladoskin/simple-logo",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-041.json",
+        "evidenceSha256": "7a19965fe473b92f1794fe6d266048065fe5901a3d851fd5168b6cb8bd41d84d"
+      }
+    ],
+    "representativeAsset": {
+      "url": "https://videobolt.net/author/vladoskin/simple-logo",
+      "formats": [
+        "Rendered video exports",
+        "poster image (exported end-product)",
+        "AEP remains in service; no bare source delivery"
+      ],
+      "downloadGate": "Account required; high-quality export requires a subscription, business resale applies to finished videos.",
+      "rights": "Commercial and optional reseller license concern final rendered videos; no verified original-template redistribution grant."
+    },
+    "termsEvidence": [
+      {
+        "url": "https://videobolt.net/terms",
+        "claim": "약관은 AEP 원본을 판매하지 않고 디자인을 서비스 안에서 렌더링한다고 설명합니다.",
+        "quote": "being able to sell your designs without selling your bare AEP files",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-023.json",
+        "evidenceSha256": "c2c62b9a475d4c4898c28a4f81abd42c3ff5c1484a7437bc9d5ff1a59a70dc3a"
+      }
+    ],
+    "storageVerdict": "reference-only",
+    "reasonKO": "20,600+ 템플릿을 클라우드에서 렌더링하며 제작자의 bare AEP files를 판매하지 않는 서비스입니다. 상업·reseller license는 생성한 완성 영상용이고 원본 AEP를 공개 저장하는 허가가 아닙니다.",
+    "currentRendererFit": "Final video is excluded; an exported poster is not the original motion source. No local source template obtained.",
+    "api": {
+      "verified": false,
+      "status": "not-verified",
+      "publicOriginalRedistributionGranted": false,
+      "note": "No public original-asset redistribution API grant was verified. This does not assert that no API exists."
+    },
+    "advertisedInventory": {
+      "count": 20600,
+      "unit": "cloud video templates (advertised lower bound)",
+      "qualified": false
+    },
+    "qualifiedSupply": {
+      "verifiedNetNew": 0,
+      "unverifiedPotential": null
+    },
+    "existingCatalog": {
+      "sourceMatchCount": 0,
+      "ids": []
+    },
+    "nextStep": "참고 동작 탐색 도구로 다루고 실제 재배포 가능한 코드·이미지 원본 공급량에는 포함하지 않습니다.",
+    "robotsReview": {
+      "id": "videobolt",
+      "url": "https://videobolt.net/author/vladoskin/simple-logo",
+      "allowedForReviewAgent": true,
+      "crawlDelay": null,
+      "allowedForGPTBot": true
+    }
+  },
+  {
+    "id": "jitter",
+    "name": "Jitter",
+    "sector": 1,
+    "officialUrl": "https://jitter.video/",
+    "accessAttempts": [
+      {
+        "url": "https://jitter.video/file/?id=h-KMaM5JwJas2ClP7zZeD&bucket=snackthis-userdata",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/jitter-asset-browser.json",
+        "finalUrl": "https://jitter.video/file/?id=h-KMaM5JwJas2ClP7zZeD&bucket=snackthis-userdata",
+        "evidenceSha256": "3d86983ab2967a0cc9b79ef13c8f111bb6f859a8d6977b24e7b2af9bff0ea94f"
+      },
+      {
+        "url": "https://jitter.video/file/?id=h-KMaM5JwJas2ClP7zZeD&bucket=snackthis-userdata",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/jitter-asset-http.json",
+        "finalUrl": "https://jitter.video/file/?id=h-KMaM5JwJas2ClP7zZeD&bucket=snackthis-userdata",
+        "evidenceSha256": "94480665624ebd2a5fc649f9c5e0ee1553382078ef58284f6c07c1c40aa43480"
+      },
+      {
+        "url": "https://jitter.video/file/?id=h-KMaM5JwJas2ClP7zZeD&bucket=snackthis-userdata",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/jitter-asset-js-browser.json",
+        "finalUrl": "https://jitter.video/file/?id=h-KMaM5JwJas2ClP7zZeD&bucket=snackthis-userdata",
+        "evidenceSha256": "f54eb5b9c9ae967e6b8332865600947b36e3053a0490cf2fddbe85431895335b"
+      },
+      {
+        "url": "https://help.jitter.video/en/articles/16599058-templates-ownership-and-licensing",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/jitter-help-http.json",
+        "finalUrl": "https://help.jitter.video/en/articles/16599058-templates-ownership-and-licensing",
+        "evidenceSha256": "741485549aa98fb5dbecf36c08286d2ed51c24c774339d437e68069d2d9e7b39"
+      },
+      {
+        "url": "https://jitter.video/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/jitter-home-http.json",
+        "finalUrl": "https://jitter.video/",
+        "evidenceSha256": "87b4bf894eb7dcec95ab1871d0e42722ed54955b564be794a2eed40a18f1e652"
+      },
+      {
+        "url": "https://jitter.video/product/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/jitter-product-http.json",
+        "finalUrl": "https://jitter.video/product/",
+        "evidenceSha256": "e78cac0952d517045d17ca9539a7ce7caaba5b8b4ddaa878af1c1fc97094144a"
+      },
+      {
+        "url": "https://jitter.video/robots.txt",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/jitter-robots-http.json",
+        "finalUrl": "https://jitter.video/robots.txt",
+        "evidenceSha256": "71b99d861081f1f271ff960e49b1cc6975213240b2aad5e7f9f47404bcd26bdf"
+      },
+      {
+        "url": "https://jitter.video/terms/",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/jitter-terms-browser.json",
+        "finalUrl": "https://jitter.video/terms/",
+        "evidenceSha256": "1c79c91238ddad288b191497c056fef369136de8ed41701a6369f1260ca6375d"
+      },
+      {
+        "url": "https://jitter.video/terms/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/jitter-terms-http.json",
+        "finalUrl": "https://jitter.video/terms/",
+        "evidenceSha256": "979d4535f3db630c70e40a488e23bd2575dcdcd6ec345f219b7dc6d441709e3b"
+      },
+      {
+        "url": "https://jitter.video/terms/",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/jitter-terms-js-browser.json",
+        "finalUrl": "https://jitter.notion.site/Jitter-Terms-Conditions-5e527387aaf94c748df1cb828dfe3546",
+        "evidenceSha256": "646cfc710b8e7c124e5da328913e0aa2aaf76572975efdd4fd3c93e05fc00553"
+      },
+      {
+        "url": "https://jitter.video/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-006.json",
+        "evidenceSha256": "94df22468a1f20c9eae6c176fefb23e7d54f5a295799a03a0acaf479e5f6e125"
+      },
+      {
+        "url": "https://jitter.video/terms/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-024.json",
+        "evidenceSha256": "e68e171fcab585fd0c4716325bad0937b84942470e87d3db7e72b0d3bfc533e0"
+      },
+      {
+        "url": "https://help.jitter.video/en/articles/16599058-templates-ownership-and-licensing",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-025.json",
+        "evidenceSha256": "ff99c93720747770bbb8bd0b9a6275f678bcf5a619d2b3fac66c87613d04d53a"
+      },
+      {
+        "url": "https://jitter.video/product/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-053.json",
+        "evidenceSha256": "d9ddc49b09031b9ea4fab8c5a073803d11055418adf6ec3a600974c9e3413fb5"
+      },
+      {
+        "url": "https://jitter.notion.site/Jitter-Terms-Conditions-5e527387aaf94c748df1cb828dfe3546",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-060.json",
+        "evidenceSha256": "c200d3d0b96a4c4e3b782eb65a29868af7faace269e3d24a0027361e72f2b7a7"
+      }
+    ],
+    "representativeAsset": {
+      "url": "https://jitter.video/file/?id=h-KMaM5JwJas2ClP7zZeD&bucket=snackthis-userdata",
+      "formats": [
+        "Hosted editable Jitter project",
+        "Lottie export",
+        "GIF export",
+        "MP4/MOV/WebM export"
+      ],
+      "downloadGate": "Public project view verified; exporting depends on account/plan. No account created or export performed.",
+      "rights": "Official templates may be remixed and resulting final animations distributed; community resources require creator-specific terms. Raw template mirroring unverified."
+    },
+    "termsEvidence": [
+      {
+        "url": "https://help.jitter.video/en/articles/16599058-templates-ownership-and-licensing",
+        "claim": "공식 도움말은 템플릿을 기반으로 만든 최종 애니메이션의 배포를 허용합니다.",
+        "quote": "Publish, sell, or distribute the final animations you create with them",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-025.json",
+        "evidenceSha256": "ff99c93720747770bbb8bd0b9a6275f678bcf5a619d2b3fac66c87613d04d53a"
+      },
+      {
+        "url": "https://jitter.notion.site/Jitter-Terms-Conditions-5e527387aaf94c748df1cb828dfe3546",
+        "claim": "Community Resources는 Jitter 자체 템플릿과 구분하며 제작자별 계약이 적용됩니다.",
+        "quote": "your license is subject to the terms entered into between you and the Community Creator",
+        "evidencePath": "data/upstream/grok-source-review/stock/jitter-terms-js-browser.json",
+        "evidenceSha256": "646cfc710b8e7c124e5da328913e0aa2aaf76572975efdd4fd3c93e05fc00553"
+      }
+    ],
+    "storageVerdict": "reference-only",
+    "reasonKO": "공식 템플릿 remix와 만든 최종 애니메이션의 상업 배포는 허용됩니다. 정상 JS 브라우저에서 Ripple Effect 프로젝트도 열렸습니다. 그러나 원본 Jitter 템플릿의 외부 공개 mirror 권한·원본 코드 export 계약은 확인되지 않았고 커뮤니티 자료는 제작자별 조건입니다.",
+    "currentRendererFit": "Lottie is machine-readable exported motion, but a dedicated safe importer/renderer and output licensing review are needed; hosted editable files are not CSS/SVG/GLSL originals.",
+    "api": {
+      "verified": false,
+      "status": "not-verified",
+      "publicOriginalRedistributionGranted": false,
+      "note": "No public original-asset redistribution API grant was verified. This does not assert that no API exists."
+    },
+    "advertisedInventory": {
+      "count": 300,
+      "unit": "animation templates (advertised lower bound)",
+      "qualified": false
+    },
+    "qualifiedSupply": {
+      "verifiedNetNew": 0,
+      "unverifiedPotential": null
+    },
+    "existingCatalog": {
+      "sourceMatchCount": 0,
+      "ids": []
+    },
+    "nextStep": "공식 템플릿의 원본 mirror 또는 Lottie 출력 재배포 범위를 별도 확인한 뒤 소수 표본으로 검증합니다. 현재 순공급은 0입니다.",
+    "robotsReview": {
+      "id": "jitter",
+      "url": "https://jitter.video/file/?id=h-KMaM5JwJas2ClP7zZeD&bucket=snackthis-userdata",
+      "allowedForReviewAgent": true,
+      "crawlDelay": null,
+      "allowedForGPTBot": true
+    },
+    "subsets": [
+      {
+        "name": "Official Jitter template collection",
+        "rights": "Remix and final-animation distribution stated by official help; external original-template mirror permission not independently established.",
+        "advertisedCount": 300,
+        "verifiedSupportedOriginals": 0,
+        "remainingSupply": null
+      },
+      {
+        "name": "Community Resources",
+        "rights": "Creator-specific license, not a site-wide license.",
+        "verifiedSupportedOriginals": 0,
+        "remainingSupply": null
+      }
+    ]
+  },
+  {
+    "id": "filtergrade",
+    "name": "FilterGrade",
+    "sector": 1,
+    "officialUrl": "https://filtergrade.com/",
+    "accessAttempts": [
+      {
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/cc-by-3-http.json",
+        "finalUrl": "https://creativecommons.org/licenses/by/3.0/",
+        "evidenceSha256": "06bfd88c182ed6a288de7d53392c95d81f275fb12b00d1d8e0d61505709fd294"
+      },
+      {
+        "url": "https://filtergrade.com/free-16mm-film-texture-downloads/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/filtergrade-asset-http.json",
+        "finalUrl": "https://filtergrade.com/free-16mm-film-texture-downloads/",
+        "evidenceSha256": "3572c98e767a50cdf72d02fbcee49338c61916895b5106deffb638242759ed5b"
+      },
+      {
+        "url": "https://filtergrade.com/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/filtergrade-home-http.json",
+        "finalUrl": "https://filtergrade.com/",
+        "evidenceSha256": "dcfbfdda57b4f3c910134d5808db0c3363d17e91c6e853d3fc89b067a323c483"
+      },
+      {
+        "url": "https://filtergrade.com/file-licenses/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/filtergrade-license-http.json",
+        "finalUrl": "https://filtergrade.com/file-licenses/",
+        "evidenceSha256": "961bc2017f4bb1911355499ea54f7b185a9d70d12d8132f3112418fe0b7155bb"
+      },
+      {
+        "url": "https://filtergrade.com/robots.txt",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/filtergrade-robots-http.json",
+        "finalUrl": "https://filtergrade.com/robots.txt",
+        "evidenceSha256": "cbe4beab7683a00505f15ed1e7873cb26ab79b91c2aa25d9d28c9964793f2ed8"
+      },
+      {
+        "url": "https://filtergrade.com/end-user-license-agreement/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/filtergrade-terms-http.json",
+        "finalUrl": "https://filtergrade.com/end-user-license-agreement/",
+        "evidenceSha256": "215fb619ae2708bff82845e6659b4436296739bbb75147ec04adf20ca8610d79"
+      },
+      {
+        "url": "https://filtergrade.com/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-007.json",
+        "evidenceSha256": "9347bafca40d24326142f6c72ccf3ae3a05c067838417333ee8face109852a20"
+      },
+      {
+        "url": "https://filtergrade.com/end-user-license-agreement/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-026.json",
+        "evidenceSha256": "5f4987a592c89f8d3ff3dfaae33c457535fcbd24407930fedf9dcf6f3dd79eda"
+      },
+      {
+        "url": "https://filtergrade.com/file-licenses/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-027.json",
+        "evidenceSha256": "1143be010dcc591a08abeaade713eaaff6b74293006330829a58145707f4b892"
+      },
+      {
+        "url": "https://filtergrade.com/free-16mm-film-texture-downloads/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-042.json",
+        "evidenceSha256": "1b5c96b34b8f8ddfc3d0d446edc6744fc8fa1901339fafb584bf3ad2a49e87e2"
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-052.json",
+        "evidenceSha256": "c5f586ba5a5fddb77d8bc84ce242adfe71f1977d5371e07a64a0ea66235acf0e"
+      }
+    ],
+    "representativeAsset": {
+      "url": "https://filtergrade.com/free-16mm-film-texture-downloads/",
+      "formats": [
+        "PNG (author-linked free 16mm scans)"
+      ],
+      "downloadGate": "Public image anchor links; no login indicated for the representative free scan pack. Original bytes not fetched.",
+      "rights": "Specific free scan pack explicitly links CC BY 3.0; attribution/title/license/derivative notice obligations apply. Commercial/extended marketplace licenses prohibit raw redistribution."
+    },
+    "termsEvidence": [
+      {
+        "url": "https://filtergrade.com/free-16mm-film-texture-downloads/",
+        "claim": "개별 무료 scan 페이지가 CC3.0 선언을 CC-BY-3.0 공식 주소에 연결합니다.",
+        "quote": "All freebies on FilterGrade are available under the Creative Commons 3.0 License unless stated otherwise on the download page.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-042.json",
+        "evidenceSha256": "1b5c96b34b8f8ddfc3d0d446edc6744fc8fa1901339fafb584bf3ad2a49e87e2"
+      },
+      {
+        "url": "https://creativecommons.org/licenses/by/3.0/",
+        "claim": "이 연결된 CC-BY-3.0은 출처 표기 등의 조건으로 원본 재배포를 허용합니다.",
+        "quote": "Share — copy and redistribute the material in any medium or format for any purpose, even commercially.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-052.json",
+        "evidenceSha256": "c5f586ba5a5fddb77d8bc84ce242adfe71f1977d5371e07a64a0ea66235acf0e"
+      },
+      {
+        "url": "https://filtergrade.com/file-licenses/",
+        "claim": "유료 원본 재배포 금지와 무료 Creative Commons 예외가 별도입니다.",
+        "quote": "You can’t re-distribute our filters",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-027.json",
+        "evidenceSha256": "1143be010dcc591a08abeaade713eaaff6b74293006330829a58145707f4b892"
+      },
+      {
+        "url": "https://filtergrade.com/end-user-license-agreement/",
+        "claim": "일반 상품 EULA는 원본을 제3자에게 제공하는 것을 제한합니다.",
+        "quote": "make the Application available to any third party.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-026.json",
+        "evidenceSha256": "5f4987a592c89f8d3ff3dfaae33c457535fcbd24407930fedf9dcf6f3dd79eda"
+      }
+    ],
+    "storageVerdict": "eligible-candidate",
+    "reasonKO": "일반 유료 preset·LUT·template 원본은 재배포 금지입니다. 예외로 16mm Film Texture 무료 상세가 CC-BY-3.0에 직접 연결하고 PNG 원본 링크를 제공합니다. 8장 pack은 후보 수량일 뿐 원본 미수집·색/프레임/표면 유사성 검증 전에는 순증으로 세지 않습니다.",
+    "currentRendererFit": "Free PNG textures fit the current image renderer, after bounded original acquisition, rights notice preservation and old/new visual deduplication.",
+    "api": {
+      "verified": false,
+      "status": "not-verified",
+      "publicOriginalRedistributionGranted": false,
+      "note": "No public original-asset redistribution API grant was verified. This does not assert that no API exists."
+    },
+    "advertisedInventory": {
+      "count": 8,
+      "unit": "16mm film scans in the representative free pack",
+      "qualified": false
+    },
+    "qualifiedSupply": {
+      "verifiedNetNew": 0,
+      "unverifiedPotential": null
+    },
+    "existingCatalog": {
+      "sourceMatchCount": 0,
+      "ids": []
+    },
+    "nextStep": "CC-BY 무료 하위집합만 작가·라이선스·원본 SHA를 보존해 표본 검증합니다. 유료 라이선스를 무료 subset에 혼동하지 않습니다.",
+    "robotsReview": {
+      "id": "filtergrade",
+      "url": "https://filtergrade.com/free-16mm-film-texture-downloads/",
+      "allowedForReviewAgent": true,
+      "crawlDelay": 10,
+      "allowedForGPTBot": true
+    },
+    "standardLicense": {
+      "storageVerdict": "no-public-redistribution",
+      "scope": "Paid/Commercial/Extended marketplace products; no raw file sharing."
+    },
+    "subsets": [
+      {
+        "name": "Author free 16mm film scans",
+        "sourceUrl": "https://filtergrade.com/free-16mm-film-texture-downloads/",
+        "license": "CC-BY-3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+        "packAdvertisedCount": 8,
+        "observedLinkedPngUrls": [
+          "https://cdn.filtergrade.com/wp-content/uploads/2024/08/Screenshot-2024-08-04-at-11.31.58 AM.png",
+          "https://cdn.filtergrade.com/wp-content/uploads/2024/08/Screenshot-2024-08-04-at-11.32.52 AM.png",
+          "https://cdn.filtergrade.com/wp-content/uploads/2024/08/Screenshot-2024-08-04-at-11.33.47 AM.png",
+          "https://cdn.filtergrade.com/wp-content/uploads/2024/08/Screenshot-2024-08-05-at-2.44.37 PM-2.png",
+          "https://cdn.filtergrade.com/wp-content/uploads/2024/08/Screenshot-2024-08-05-at-2.44.54 PM-2.png",
+          "https://cdn.filtergrade.com/wp-content/uploads/2024/08/Screenshot-2024-08-05-at-2.45.46 PM-2.png",
+          "https://cdn.filtergrade.com/wp-content/uploads/2024/08/Screenshot-2024-08-05-at-2.45.46 PM-4.png",
+          "https://cdn.filtergrade.com/wp-content/uploads/2024/08/Screenshot-2024-08-05-at-2.46.55 PM-2.png",
+          "https://cdn.filtergrade.com/wp-content/uploads/2024/08/Screenshot-2024-08-05-at-2.47.31 PM.png",
+          "https://cdn.filtergrade.com/wp-content/uploads/2024/08/Screenshot-2024-08-05-at-2.47.47 PM-5.png"
+        ],
+        "observedUniqueLinkCount": 10,
+        "originalsAcquired": 0,
+        "verifiedNetNew": 0,
+        "remainingSupply": null,
+        "limitations": "Linked images may include samples, repeated links or related scans; no image byte, visual-family or prior-catalog duplicate test was performed. Do not equate URL count or advertised pack size with eligible independent assets."
+      }
+    ]
+  },
+  {
+    "id": "mixkit",
+    "name": "Mixkit",
+    "sector": 2,
+    "officialUrl": "https://mixkit.co/",
+    "accessAttempts": [
+      {
+        "url": "https://mixkit.co/free-after-effects-templates/broken-frame-glitch-title-750/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/mixkit-asset-http.json",
+        "finalUrl": "https://mixkit.co/free-after-effects-templates/broken-frame-glitch-title-750/",
+        "evidenceSha256": "4bfa00a4953806b7eec9ac6d2ee082d9597da4aabb91cc34120631b646bf768e"
+      },
+      {
+        "url": "https://mixkit.co/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/mixkit-home-http.json",
+        "finalUrl": "https://mixkit.co/",
+        "evidenceSha256": "ed2a526f4e6698c45c6416fad8a73d47f66517d6b46f59b07548304cc8ffc98c"
+      },
+      {
+        "url": "https://mixkit.co/robots.txt",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/mixkit-robots-http.json",
+        "finalUrl": "https://mixkit.co/robots.txt",
+        "evidenceSha256": "db620c613c6237ce86e018d55ad5662d77c8f9afcd1933e6f5f330f744fd45b7"
+      },
+      {
+        "url": "https://mixkit.co/terms/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/mixkit-terms-http.json",
+        "finalUrl": "https://mixkit.co/terms/",
+        "evidenceSha256": "8ceba633c9f18b203277e4ad804baca489150c209b63fa64a56d185749ec3e85"
+      },
+      {
+        "url": "https://mixkit.co/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-008.json",
+        "evidenceSha256": "74c2ce00df9b25753d6d5af2ac3ec92a72a89cba02ac7400bab4379700b15f1d"
+      },
+      {
+        "url": "https://mixkit.co/terms/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-028.json",
+        "evidenceSha256": "91d353f6c03be500c055c40c9d82f4df3fa184dd37383273a0f4fbfa4d82963a"
+      },
+      {
+        "url": "https://mixkit.co/free-after-effects-templates/broken-frame-glitch-title-750/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-043.json",
+        "evidenceSha256": "49db7b24a7f021164b9319ad1a2215db7e5e71706d7a91c4a0322193d1222476"
+      }
+    ],
+    "representativeAsset": {
+      "url": "https://mixkit.co/free-after-effects-templates/broken-frame-glitch-title-750/",
+      "formats": [
+        "After Effects project/template"
+      ],
+      "downloadGate": "Representative template is a free download; no original archive acquired.",
+      "rights": "Free end-project license; aggregating/collating items for stock/inventory and mass library downloads prohibited."
+    },
+    "termsEvidence": [
+      {
+        "url": "https://mixkit.co/terms/",
+        "claim": "Terms §9(d)는 item을 집합해 stock/inventory로 제공하는 것을 금지합니다.",
+        "quote": "including aggregate or collate an Item(s) and make available on a stock or inventory basis",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-028.json",
+        "evidenceSha256": "91d353f6c03be500c055c40c9d82f4df3fa184dd37383273a0f4fbfa4d82963a"
+      }
+    ],
+    "storageVerdict": "no-public-redistribution",
+    "reasonKO": "무료 프로젝트 다운로드·상업작품 이용은 가능하지만 Terms §9는 items를 모아 stock/inventory로 제공하거나 경쟁 서비스로 쓰는 것과 scripts/bots의 전량 다운로드를 금지합니다. AE/FCP/Resolve 프로젝트 자체도 현재 렌더러에 맞지 않습니다.",
+    "currentRendererFit": "Proprietary editing project is outside current local browser code/image renderer; thumbnails cannot substitute for licensed originals.",
+    "api": {
+      "verified": false,
+      "status": "not-verified",
+      "publicOriginalRedistributionGranted": false,
+      "note": "No public original-asset redistribution API grant was verified. This does not assert that no API exists."
+    },
+    "advertisedInventory": {
+      "count": null,
+      "unit": "templates/videos; whole-library count not independently verified",
+      "qualified": false
+    },
+    "qualifiedSupply": {
+      "verifiedNetNew": 0,
+      "unverifiedPotential": null
+    },
+    "existingCatalog": {
+      "sourceMatchCount": 0,
+      "ids": []
+    },
+    "nextStep": "무료 항목을 원본 창고로 복제하지 않습니다. 필요한 참고 링크로만 검토합니다.",
+    "robotsReview": {
+      "id": "mixkit",
+      "url": "https://mixkit.co/free-after-effects-templates/broken-frame-glitch-title-750/",
+      "allowedForReviewAgent": true,
+      "crawlDelay": null,
+      "allowedForGPTBot": true
+    }
+  },
+  {
+    "id": "pexels",
+    "name": "Pexels Videos",
+    "sector": 2,
+    "officialUrl": "https://www.pexels.com/videos/",
+    "accessAttempts": [
+      {
+        "url": "https://www.pexels.com/api/documentation/",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/pexels-api-browser.json",
+        "finalUrl": "https://www.pexels.com/api/documentation/",
+        "evidenceSha256": "751b512d0009dced310f84303d3c7c8161f293c2592e652beff20ea34307abdf"
+      },
+      {
+        "url": "https://www.pexels.com/api/documentation/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/pexels-api-http.json",
+        "finalUrl": "https://www.pexels.com/api/documentation/",
+        "evidenceSha256": "22b7ad92c9c3bbaa448c55d868c5f718f1dacbd276053d28626224bf3dc1a54c"
+      },
+      {
+        "url": "https://www.pexels.com/video/vibrant-abstract-particle-animation-35288383/",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/pexels-asset-browser.json",
+        "finalUrl": "https://www.pexels.com/video/vibrant-abstract-particle-animation-35288383/",
+        "evidenceSha256": "7106ffb940d8c6590a339dbc27150ee0dc53388b8a4f983d423b6317eaff1bea"
+      },
+      {
+        "url": "https://www.pexels.com/video/vibrant-abstract-particle-animation-35288383/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/pexels-asset-http.json",
+        "finalUrl": "https://www.pexels.com/video/vibrant-abstract-particle-animation-35288383/",
+        "evidenceSha256": "1ebb9dda9a23c3fa76e8f1d161beae9b5bc93c9a04e916a518d9c23148582dde"
+      },
+      {
+        "url": "https://www.pexels.com/videos/",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/pexels-home-browser.json",
+        "finalUrl": "https://www.pexels.com/videos/",
+        "evidenceSha256": "1090b65d7e26bd1e2f7ff1ce2e1d9ef33f346889bc5cc966c880e71a0ae504e5"
+      },
+      {
+        "url": "https://www.pexels.com/videos/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/pexels-home-http.json",
+        "finalUrl": "https://www.pexels.com/videos/",
+        "evidenceSha256": "04d0ae00735a4a28a46995aa632a1ccaefeb0bda63b2a4e6193228da197d6d7b"
+      },
+      {
+        "url": "https://www.pexels.com/robots.txt",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/pexels-robots-http.json",
+        "finalUrl": "https://www.pexels.com/robots.txt",
+        "evidenceSha256": "f7e50ca54a9b5de5ed62af3b774e265fa721e04020d566fabeb56c42b7f66387"
+      },
+      {
+        "url": "https://www.pexels.com/terms-of-service/",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/pexels-terms-browser.json",
+        "finalUrl": "https://www.pexels.com/terms-of-service/",
+        "evidenceSha256": "8bf8d430661eac006977c365e9d2883195f8281a6b7f591acf1ec8c9fc6fa899"
+      },
+      {
+        "url": "https://www.pexels.com/terms-of-service/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/pexels-terms-http.json",
+        "finalUrl": "https://www.pexels.com/terms-of-service/",
+        "evidenceSha256": "47f1be800f98e5ede67cfbfe8a21005d68d188322cf5a53d00ba6a5de116e847"
+      },
+      {
+        "url": "https://www.pexels.com/videos/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-009.json",
+        "evidenceSha256": "9004c5dd8a79303287a736a50d25eb1d195bdee985c2f70993080a8891033f35"
+      },
+      {
+        "url": "https://www.pexels.com/terms-of-service/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-029.json",
+        "evidenceSha256": "37f4a2b0b5ed8e99a8c73e20be2ab8fb6b05e5d888e3fd5f76d72286875a6624"
+      },
+      {
+        "url": "https://www.pexels.com/video/vibrant-abstract-particle-animation-35288383/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-044.json",
+        "evidenceSha256": "c7eae6f824520d3fe3600cdb53d2233ecde327b4beb217b9f26cf7753b3a8bf2"
+      },
+      {
+        "url": "https://www.pexels.com/api/documentation/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-054.json",
+        "evidenceSha256": "2646312ba5a4d6c178bb91597814cf6e261b3d78961a86514c38f508bc654959"
+      }
+    ],
+    "representativeAsset": {
+      "url": "https://www.pexels.com/video/vibrant-abstract-particle-animation-35288383/",
+      "formats": [
+        "Stock video (no image/code original verified for representative clip)"
+      ],
+      "downloadGate": "Exa official detail content returned; direct HTTP and ordinary Chrome HTTP403. API needs account/key.",
+      "rights": "Pexels License prohibits standalone/stock redistribution; separately marked CC0 content may be an exception, but no such supported original was verified here."
+    },
+    "termsEvidence": [
+      {
+        "url": "https://www.pexels.com/terms-of-service/",
+        "claim": "기본 Pexels License는 standalone 원본 배포를 금지합니다.",
+        "quote": "You cannot sell or distribute the Content (either in digital or physical form) on a Standalone basis.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-029.json",
+        "evidenceSha256": "37f4a2b0b5ed8e99a8c73e20be2ab8fb6b05e5d888e3fd5f76d72286875a6624"
+      }
+    ],
+    "storageVerdict": "no-public-redistribution",
+    "reasonKO": "현재 Pexels License는 완성작 상업사용을 허용하지만 standalone 배포·유사 stock 서비스·무단 systematic extraction을 제한합니다. 대표 애니메이션은 영상이고 원본 MP4를 수집하지 않습니다. Terms의 개별 ‘CCO’ 표시 예외는 확인된 대표 영상에 없으며 날짜만으로 CC0를 추정하지 않았습니다.",
+    "currentRendererFit": "Video-only representative item is outside the collection. A thumbnail or extracted video frame is not a verified original code/image asset.",
+    "api": {
+      "verified": true,
+      "url": "https://www.pexels.com/api/documentation/",
+      "scope": "REST photo/video metadata and content; API key required.",
+      "limits": "200 requests/hour and 20,000/month by default; attribution and service license still apply.",
+      "publicOriginalRedistributionGranted": false
+    },
+    "advertisedInventory": {
+      "count": null,
+      "unit": "licensed videos; no current count verified",
+      "qualified": false
+    },
+    "qualifiedSupply": {
+      "verifiedNetNew": 0,
+      "unverifiedPotential": null
+    },
+    "existingCatalog": {
+      "sourceMatchCount": 0,
+      "ids": []
+    },
+    "nextStep": "현재 영상 라이선스로 대량 수집하지 않습니다. 개별 CC0 표시와 지원 이미지 원본이 동시에 확인될 때만 별도 예외 검토합니다.",
+    "robotsReview": {
+      "id": "pexels",
+      "url": "https://www.pexels.com/video/vibrant-abstract-particle-animation-35288383/",
+      "allowedForReviewAgent": true,
+      "crawlDelay": null,
+      "allowedForGPTBot": false
+    },
+    "subsets": [
+      {
+        "name": "Explicitly marked CC0 exception in Terms",
+        "requiredMark": "CCO on the photo page, as written by the official Terms",
+        "representativeMarkedCC0": false,
+        "verifiedSupportedOriginals": 0,
+        "remainingSupply": null,
+        "limitations": "Pexels does not state Pixabay’s pre-2019 date rule. No publication-date proxy or CC0 inference was used for the selected video."
+      }
+    ]
+  },
+  {
+    "id": "pixabay",
+    "name": "Pixabay",
+    "sector": 2,
+    "officialUrl": "https://pixabay.com/",
+    "accessAttempts": [
+      {
+        "url": "https://pixabay.com/api/docs/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/pixabay-api-http.json",
+        "finalUrl": "https://pixabay.com/api/docs/",
+        "evidenceSha256": "9b20e2256d16ae45db509b9949f1a7137e2f59b778fa4ec039508a46f865babc"
+      },
+      {
+        "url": "https://pixabay.com/photos/tree-sunset-clouds-sky-silhouette-736885/",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/pixabay-asset-browser.json",
+        "finalUrl": "https://pixabay.com/photos/tree-sunset-clouds-sky-silhouette-736885/",
+        "evidenceSha256": "1dee9bd32dad989a588f1fd4647105a248f54ef95ed642dea24d1d0582a1e48e"
+      },
+      {
+        "url": "https://pixabay.com/photos/tree-sunset-clouds-sky-silhouette-736885/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/pixabay-asset-http.json",
+        "finalUrl": "https://pixabay.com/photos/tree-sunset-clouds-sky-silhouette-736885/",
+        "evidenceSha256": "3f8faed9fcfdb5bf3b382a027e59163909ccc39af4001f386b1d51a2b2b4a8ec"
+      },
+      {
+        "url": "https://pixabay.com/",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/pixabay-home-browser.json",
+        "finalUrl": "https://pixabay.com/",
+        "evidenceSha256": "bdb8388bd8245d2de67333ad17dcf6d6bbebec954631bd90537bf7f9833a7cb1"
+      },
+      {
+        "url": "https://pixabay.com/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/pixabay-home-http.json",
+        "finalUrl": "https://pixabay.com/",
+        "evidenceSha256": "809cade3bce7fb4d9156dc36508d067676f5738348a5e3d02b16ed7d4497e286"
+      },
+      {
+        "url": "https://pixabay.com/robots.txt",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/pixabay-robots-http.json",
+        "finalUrl": "https://pixabay.com/robots.txt",
+        "evidenceSha256": "e3cb235efafd1d6cf08f4708610984ff6b847a86722102a4cc6be5190b9db238"
+      },
+      {
+        "url": "https://pixabay.com/service/terms/",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/pixabay-terms-browser.json",
+        "finalUrl": "https://pixabay.com/service/terms/",
+        "evidenceSha256": "c1a444a382bad874b9f0b3e8c916c74b4b2cfd16140eeb74e1466442ccb81dd0"
+      },
+      {
+        "url": "https://pixabay.com/service/terms/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/pixabay-terms-http.json",
+        "finalUrl": "https://pixabay.com/service/terms/",
+        "evidenceSha256": "1bec973d4fc80b8b2f667a2b973e502d735a7c9b01c11f712afcac14ce786642"
+      },
+      {
+        "url": "https://pixabay.com/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-010.json",
+        "evidenceSha256": "cbe8b726c0e41ac1617de11d7bf85d3087a6bacde70e02afeaf7c3cf5e669860"
+      },
+      {
+        "url": "https://pixabay.com/service/terms/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-030.json",
+        "evidenceSha256": "a5707f74bf3d8c1f8287236ae16036b9a4d6d924e80d93877a094355d03fe571"
+      },
+      {
+        "url": "https://pixabay.com/photos/tree-sunset-clouds-sky-silhouette-736885/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-045.json",
+        "evidenceSha256": "00e8dd6620bd8650911816fdef2193db480d85e1f73030d6bab98a87688b0b1e"
+      },
+      {
+        "url": "https://pixabay.com/api/docs/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-055.json",
+        "evidenceSha256": "931f205eba3e336fbd04f964e8685ca22bbbe79513757148c4cdd2ac4f772f60"
+      }
+    ],
+    "representativeAsset": {
+      "url": "https://pixabay.com/photos/tree-sunset-clouds-sky-silhouette-736885/",
+      "formats": [
+        "JPG (legacy individual photo; original not acquired)"
+      ],
+      "downloadGate": "Exa official photo detail returned; direct HTTP and ordinary Chrome HTTP403. No key, account, or original acquisition.",
+      "rights": "Official Terms §4 explicitly identifies pre-2019-01-09 content as CC0; §5 standalone restriction applies to non-CC0 content. Selected detail currently also displays Content License."
+    },
+    "termsEvidence": [
+      {
+        "url": "https://pixabay.com/service/terms/",
+        "claim": "§4의 날짜 기준 CC0 예외와 §5 기본 라이선스 금지를 구분합니다.",
+        "quote": "any content which lists a \"Published date\" prior to January 9, 2019",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-030.json",
+        "evidenceSha256": "a5707f74bf3d8c1f8287236ae16036b9a4d6d924e80d93877a094355d03fe571"
+      },
+      {
+        "url": "https://pixabay.com/service/terms/",
+        "claim": "일반 non-CC0 Content License 원본에는 standalone 배포 금지가 적용됩니다.",
+        "quote": "You cannot sell or distribute the Content",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-030.json",
+        "evidenceSha256": "a5707f74bf3d8c1f8287236ae16036b9a4d6d924e80d93877a094355d03fe571"
+      },
+      {
+        "url": "https://pixabay.com/api/docs/",
+        "claim": "API의 이미지 검색 접근권은 전량 수집 권한이 아닙니다.",
+        "quote": "Systematic mass downloads are not allowed.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-055.json",
+        "evidenceSha256": "931f205eba3e336fbd04f964e8685ca22bbbe79513757148c4cdd2ac4f772f60"
+      }
+    ],
+    "storageVerdict": "eligible-candidate",
+    "reasonKO": "기본 Content License는 standalone 원본 배포를 금지합니다. 공식 Terms §4는 Published date가 2019-01-09 이전인 자료를 CC0로 따로 정의하며 대표 JPG #736885는 2015-04-24입니다. 현재 상세의 Content License 표시도 함께 기록했고 CC0 귀속·원본·독립성은 후속 검증 대상입니다. API는 systematic mass downloads를 금지합니다.",
+    "currentRendererFit": "A verified legacy CC0 JPEG would fit image rendering; ordinary post-2019 Content License stock does not permit the warehouse. A broad photo pool is not necessarily relevant motion/design supply.",
+    "api": {
+      "verified": true,
+      "url": "https://pixabay.com/api/docs/",
+      "scope": "REST image/video search; key required.",
+      "limits": "100 requests/60 seconds; cache requests for 24h; systematic mass downloads prohibited.",
+      "publicOriginalRedistributionGranted": false
+    },
+    "advertisedInventory": {
+      "count": 6300000,
+      "unit": "all current stock assets (advertised; legacy CC0 subset size unknown)",
+      "qualified": false
+    },
+    "qualifiedSupply": {
+      "verifiedNetNew": 0,
+      "unverifiedPotential": null
+    },
+    "existingCatalog": {
+      "sourceMatchCount": 0,
+      "ids": []
+    },
+    "nextStep": "공식 날짜·CC0 귀속과 관련 디자인성을 개별 확인하고 정상 원본 접근 허가 범위 내 표본을 검증합니다. API 전량 다운로드나 광고 수량을 잔여 공급으로 쓰지 않습니다.",
+    "robotsReview": {
+      "id": "pixabay",
+      "url": "https://pixabay.com/photos/tree-sunset-clouds-sky-silhouette-736885/",
+      "allowedForReviewAgent": true,
+      "crawlDelay": null,
+      "allowedForGPTBot": false
+    },
+    "standardLicense": {
+      "storageVerdict": "no-public-redistribution",
+      "scope": "Non-CC0 Content License; standalone distribution prohibited."
+    },
+    "subsets": [
+      {
+        "name": "Official legacy CC0 date subset",
+        "license": "CC0",
+        "cutoffExclusive": "2019-01-09",
+        "representativeUrl": "https://pixabay.com/photos/tree-sunset-clouds-sky-silhouette-736885/",
+        "representativePublishedAt": "2015-04-24",
+        "representativeMediaType": "JPG",
+        "representativeCurrentLabel": "Pixabay Content License",
+        "scope": "Terms define pre-cutoff Content as CC0, including images and video; only the supported JPG exception was examined here. MP4/video excluded.",
+        "originalsAcquired": 0,
+        "verifiedNetNew": 0,
+        "remainingSupply": null,
+        "limitations": "Source-date/CC0 attribution must be preserved alongside current generic label. Ordinary original access is blocked here; API bans systematic mass downloads. Broad stock photos are not automatically relevant or visually independent design assets."
+      }
+    ]
+  },
+  {
+    "id": "coverr",
+    "name": "Coverr",
+    "sector": 2,
+    "officialUrl": "https://coverr.co/",
+    "accessAttempts": [
+      {
+        "url": "https://coverr.co/developers",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/coverr-api-http.json",
+        "finalUrl": "https://coverr.co/developers",
+        "evidenceSha256": "c49b78701b91a414e30c36b98024c2fe8777de3741dbdd3f51b1d476e1605f1e"
+      },
+      {
+        "url": "https://coverr.co/videos/fiery-glance-intense-red-portrait",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/coverr-asset-http.json",
+        "finalUrl": "https://coverr.co/videos/fiery-glance-intense-red-portrait",
+        "evidenceSha256": "37e1fb73384dba4d147dc810a666fdd1ccaa93c358cc179d67f98ac645f42a80"
+      },
+      {
+        "url": "https://coverr.co/stock-video-footage/abstract",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/coverr-collection-http.json",
+        "finalUrl": "https://coverr.co/stock-video-footage/abstract",
+        "evidenceSha256": "e8952bc6a341c7e21619f1f9e40344629eeacf85aadc43a1bc16b291f11b07e0"
+      },
+      {
+        "url": "https://coverr.co/stock-video-footage/abstract",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/coverr-collection-js-browser.json",
+        "finalUrl": "https://coverr.co/stock-video-footage/abstract",
+        "evidenceSha256": "0845a6bbfd6c31cdc9c34fe1d945823ccaaaac4460bbc009ccb2b53065aef2fd"
+      },
+      {
+        "url": "https://coverr.co/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/coverr-home-http.json",
+        "finalUrl": "https://coverr.co/",
+        "evidenceSha256": "f54e13c5aeee0b361220966816044557aa9e63545b4ade538575d2d58f491d4b"
+      },
+      {
+        "url": "https://coverr.co/robots.txt",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/coverr-robots-http.json",
+        "finalUrl": "https://coverr.co/robots.txt",
+        "evidenceSha256": "7b37ba5ada090900bd44d8938cc6d34d6f3b816e1fb0347b851eee6a9220dc8a"
+      },
+      {
+        "url": "https://coverr.co/terms",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/coverr-terms-full-http.json",
+        "finalUrl": "https://coverr.co/terms",
+        "evidenceSha256": "db5ae7906152c259cdf75c347a3279192978549a3fa1b78653aad74c177575fb"
+      },
+      {
+        "url": "https://coverr.co/license",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/coverr-terms-http.json",
+        "finalUrl": "https://coverr.co/license",
+        "evidenceSha256": "14d713cd2ecf3a3de48b68e7f77302ad9674e3b01b4f5ad342872408fdeaeecb"
+      },
+      {
+        "url": "https://coverr.co/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-011.json",
+        "evidenceSha256": "ad218e0da48a912edc520feff394fc5c3749090d762c4b4b95aa4e2b8570ff54"
+      },
+      {
+        "url": "https://coverr.co/license",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-031.json",
+        "evidenceSha256": "e7dc41b760d0a429cbf14db2cbe2c1a5edc7718e65c11672df5fe5aae42602eb"
+      },
+      {
+        "url": "https://coverr.co/stock-video-footage/abstract",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-051.json",
+        "evidenceSha256": "44b96c9222227e6c181bdaa3675921a6332b551135e539e8f1e8f73b2e0d4624"
+      },
+      {
+        "url": "https://coverr.co/developers",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-056.json",
+        "evidenceSha256": "e6b5e05a400dd9d96d825d30edc26e2f6118b4735ea1179074fd903c86369c8e"
+      },
+      {
+        "url": "https://coverr.co/videos/fiery-glance-intense-red-portrait",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-059.json",
+        "evidenceSha256": "c233d3d159431e79a2be9ea92652c31d85ddce84a4708e1372843ffd691c5907"
+      },
+      {
+        "url": "https://coverr.co/terms",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-061.json",
+        "evidenceSha256": "08cc3ba8954ecf299ee93f33bd87ef55669be610bc5678cddd94e52bfa2ac899"
+      }
+    ],
+    "representativeAsset": {
+      "url": "https://coverr.co/videos/fiery-glance-intense-red-portrait",
+      "formats": [
+        "Stock video (no supported original code/image format verified for selected clip)"
+      ],
+      "downloadGate": "Public detail and license returned HTTP200; no video download performed.",
+      "rights": "Current royalty-free final-work use; resale or raw stock redistribution prohibited. Historic CC0 cannot be inferred for a current item."
+    },
+    "termsEvidence": [
+      {
+        "url": "https://coverr.co/license",
+        "claim": "영상 자체를 stock site나 영상 제공 서비스로 판매·재배포할 수 없습니다.",
+        "quote": "Coverr videos can’t be resold or offered as part of services to which providing videos can help.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-031.json",
+        "evidenceSha256": "e7dc41b760d0a429cbf14db2cbe2c1a5edc7718e65c11672df5fe5aae42602eb"
+      }
+    ],
+    "storageVerdict": "no-public-redistribution",
+    "reasonKO": "현재 영상 라이선스는 상업작품 사용과 원본 재배포를 구분하여 stock/video-service 제공을 금지합니다. 공식 FAQ가 초기 CC0 시기와 현행 독점 제공 정책을 직접 구분합니다. API/MCP가 있어도 공개 raw warehouse 권한이 생기지 않으며 대표 원본은 영상입니다.",
+    "currentRendererFit": "Representative item is video, outside collection scope. Preview/poster frames do not create original asset rights.",
+    "api": {
+      "verified": true,
+      "url": "https://coverr.co/developers",
+      "scope": "REST and MCP media search/delivery integration.",
+      "limits": "Demo 50 calls/hour; Production 2,000/hour; videos require attribution; commercial API access is not an open stock-archive license.",
+      "publicOriginalRedistributionGranted": false
+    },
+    "advertisedInventory": {
+      "count": null,
+      "unit": "stock videos; verified whole-library count unavailable",
+      "qualified": false
+    },
+    "qualifiedSupply": {
+      "verifiedNetNew": 0,
+      "unverifiedPotential": null
+    },
+    "existingCatalog": {
+      "sourceMatchCount": 0,
+      "ids": []
+    },
+    "nextStep": "현행 영상 원본 수집에서 제외합니다. 역사적 CC0는 개별 원본·당시 고지와 지원 포맷이 확인되는 경우만 별도 검토합니다.",
+    "robotsReview": {
+      "policyVerified": false
+    },
+    "subsets": [
+      {
+        "name": "Historic CC0 acknowledged by official FAQ",
+        "verifiedItemSpecificHistoricOriginals": 0,
+        "remainingSupply": null,
+        "limitations": "Historical CC0 existence does not license every current clip; no corresponding supported code/image original or dated notice was obtained."
+      }
+    ]
+  },
+  {
+    "id": "freepik",
+    "name": "Freepik Video / former Videvo",
+    "sector": 2,
+    "officialUrl": "https://www.freepik.com/videos",
+    "accessAttempts": [
+      {
+        "url": "https://docs.freepik.com/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/freepik-api-http.json",
+        "finalUrl": "https://docs.magnific.com/introduction",
+        "evidenceSha256": "a81b0b98dde821366dc30ae4ce5deb1e69bf514deb21510033754683a02c383c"
+      },
+      {
+        "url": "https://www.freepik.com/premium-video/abstract-geometric-shapes-soft-gradient-background_6230783",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/freepik-asset-browser.json",
+        "finalUrl": "https://www.freepik.com/premium-video/abstract-geometric-shapes-soft-gradient-background_6230783",
+        "evidenceSha256": "9f25281ea689a00d36364d5fc439958a59894968341b9ec8abc2aba65633156b"
+      },
+      {
+        "url": "https://www.freepik.com/premium-video/abstract-geometric-shapes-soft-gradient-background_6230783",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/freepik-asset-http.json",
+        "finalUrl": "https://www.freepik.com/premium-video/abstract-geometric-shapes-soft-gradient-background_6230783",
+        "evidenceSha256": "b1d38d41a0bec232cefe811d9a5f6317d4d2d40a68cf78f35b1f9b3e731d740f"
+      },
+      {
+        "url": "https://www.freepik.com/videos",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/freepik-home-browser.json",
+        "finalUrl": "https://www.freepik.com/videos",
+        "evidenceSha256": "d4355b0286a6d213f52e97139fccb0f71a2b4e77c9651fd475b06df5f6950615"
+      },
+      {
+        "url": "https://www.freepik.com/videos",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/freepik-home-http.json",
+        "finalUrl": "https://www.freepik.com/videos",
+        "evidenceSha256": "c0cf03d749220f59d22b02b584b4aa4c9cf6748af0c4d4ebd9d3bcc08076d234"
+      },
+      {
+        "url": "https://www.freepik.com/robots.txt",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/freepik-robots-http.json",
+        "finalUrl": "https://www.magnific.com/robots.txt",
+        "evidenceSha256": "2d4fc048136ad0d706c6a9e425651dbc047fb229d87d77bbe6df4666495f7a7b"
+      },
+      {
+        "url": "https://www.freepik.com/legal/terms-of-use",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/freepik-terms-http.json",
+        "finalUrl": "https://www.magnific.com/legal/terms-of-use",
+        "evidenceSha256": "a001a57eb7ac368c2e89bbbd60d88ea1013df935114bd7003ad69fd51a5ba0ce"
+      },
+      {
+        "url": "https://www.videvo.net/",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/videvo-home-browser.json",
+        "finalUrl": "https://www.freepik.com/videos",
+        "evidenceSha256": "541000f820698837ebaf52c638fca8098ddec1e1c5e6b956089745f86fd93bbc"
+      },
+      {
+        "url": "https://www.videvo.net/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/videvo-home-http.json",
+        "finalUrl": "https://www.freepik.com/videos",
+        "evidenceSha256": "041d01620abbf6fc0398a60840fca5a5511fb7862ae9829a7c23f9bfa4513d10"
+      },
+      {
+        "url": "https://www.videvo.net/robots.txt",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/videvo-robots-http.json",
+        "finalUrl": "https://www.magnific.com/robots.txt",
+        "evidenceSha256": "fd141312e89df30736393387c22c2ee3f57a51643e5eb6208be1635af373c8af"
+      },
+      {
+        "url": "https://www.freepik.com/videos",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-012.json",
+        "evidenceSha256": "bcd8b86bf54211829b29b2d98b841d55334c40de66a4a053b63ad19d63d49054"
+      },
+      {
+        "url": "https://www.videvo.net/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-013.json",
+        "evidenceSha256": "522d4413674e3dc9732007c63f75a7dd8448ed849b503d429ff4dc9228bc4c7d"
+      },
+      {
+        "url": "https://www.freepik.com/legal/terms-of-use",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-032.json",
+        "evidenceSha256": "bfd5e66dee2ab90fdb78bb445ba4c87581b13a90a64c2406541950b886027779"
+      },
+      {
+        "url": "https://www.freepik.com/premium-video/abstract-geometric-shapes-soft-gradient-background_6230783",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-046.json",
+        "evidenceSha256": "0c44e48d8ba314dc21b8182cb4f4a10a04431720011bcf3730974fdf0cc5d681"
+      },
+      {
+        "url": "https://docs.freepik.com/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-057.json",
+        "evidenceSha256": "663de9591e14c298a9d66c1bc7d833884cef641de6836f7bdf405ae8684196af"
+      }
+    ],
+    "representativeAsset": {
+      "url": "https://www.freepik.com/premium-video/abstract-geometric-shapes-soft-gradient-background_6230783",
+      "formats": [
+        "MP4",
+        "MOV"
+      ],
+      "downloadGate": "Premium representative video; account/subscription. Ordinary Chrome returns HTTP403 on home and detail; legal page HTTP200 redirects to Magnific.",
+      "rights": "Current stock terms prohibit using original or derivative assets in databases, archives or stock libraries for distribution/resale. Historic Videvo licenses not applied to current redirected content."
+    },
+    "termsEvidence": [
+      {
+        "url": "https://www.freepik.com/legal/terms-of-use",
+        "claim": "원본과 파생물을 배포·재판매용 database/archive/stock library로 제공하는 것을 금지합니다.",
+        "quote": "not used or included (in whole or in part) in a database, archive or in any other media/stock product",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-032.json",
+        "evidenceSha256": "bfd5e66dee2ab90fdb78bb445ba4c87581b13a90a64c2406541950b886027779"
+      }
+    ],
+    "storageVerdict": "no-public-redistribution",
+    "reasonKO": "옛 videvo.net 홈이 Freepik Videos로 리디렉션되며 현재 일부 공식 법무·robots·API는 Magnific 브랜드로 연결됩니다. 같은 서비스의 공급을 중복 계산하지 않았습니다. 현행 Terms §8.1은 원본·파생물의 database/archive/stock-library 배포를 금지하고 대표 영상은 MP4/MOV입니다.",
+    "currentRendererFit": "Video is excluded; current Freepik/Magnific vectors/images would still be subject to stock database redistribution restrictions.",
+    "api": {
+      "verified": true,
+      "url": "https://docs.freepik.com/",
+      "scope": "Redirects to Magnific API documentation for generative tools and creations; stock-original redistribution grant not verified.",
+      "publicOriginalRedistributionGranted": false
+    },
+    "advertisedInventory": {
+      "count": null,
+      "unit": "current stock video library; no independently verified count",
+      "qualified": false
+    },
+    "qualifiedSupply": {
+      "verifiedNetNew": 0,
+      "unverifiedPotential": null
+    },
+    "existingCatalog": {
+      "sourceMatchCount": 0,
+      "ids": []
+    },
+    "nextStep": "Freepik·Videvo를 한 행으로 관리합니다. 예전 개별 CC-BY 자료는 원본·당시 권리 고지가 실제 확인되는 경우만 별도 예외 검토합니다.",
+    "robotsReview": {
+      "id": "freepik",
+      "url": "https://www.freepik.com/premium-video/abstract-geometric-shapes-soft-gradient-background_6230783",
+      "allowedForReviewAgent": true,
+      "crawlDelay": null,
+      "allowedForGPTBot": true
+    },
+    "identityReview": {
+      "legacyUrl": "https://www.videvo.net/",
+      "observedHomeRedirect": "https://www.freepik.com/videos",
+      "observedLegalRedirect": "https://www.magnific.com/legal/terms-of-use",
+      "observedRobotsRedirect": "https://www.magnific.com/robots.txt",
+      "sameCurrentSupplyGroup": true,
+      "historicVidevoLicense": "No item-specific historical CC-BY/other license notice or original file was verified. Do not treat old marketing as current warehouse permission."
+    }
+  },
+  {
+    "id": "vecteezy",
+    "name": "Vecteezy",
+    "sector": 2,
+    "officialUrl": "https://www.vecteezy.com/",
+    "accessAttempts": [
+      {
+        "url": "https://www.vecteezy.com/developers",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/vecteezy-api-http.json",
+        "finalUrl": "https://www.vecteezy.com/developers",
+        "evidenceSha256": "b98e42a82a261ab0735f3ccdbd18c256d8b3503a4cc8a823dad4d3a3feaa87f5"
+      },
+      {
+        "url": "https://www.vecteezy.com/vector-art/22901109-mid-century-trendy-neo-geometric-bauhaus-style-mosaic-memphis-contemporary-repeatable-seamless-pattern-with-bold-simple-shapes-neo-geo-abstract-geometrical-vector-illustration",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/vecteezy-asset-http.json",
+        "finalUrl": "https://www.vecteezy.com/vector-art/22901109-mid-century-trendy-neo-geometric-bauhaus-style-mosaic-memphis-contemporary-repeatable-seamless-pattern-with-bold-simple-shapes-neo-geo-abstract-geometrical-vector-illustration",
+        "evidenceSha256": "407ab90c2d4ffcf9a4feba549024da6ab1cbf0cd5502d3c0009d8d7d904ef28a"
+      },
+      {
+        "url": "https://www.vecteezy.com/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/vecteezy-home-http.json",
+        "finalUrl": "https://www.vecteezy.com/",
+        "evidenceSha256": "3d76f57807f326bc2347c13ff64587f752e5881e9302ba49b3fd3464c7fc3ddb"
+      },
+      {
+        "url": "https://www.vecteezy.com/robots.txt",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/vecteezy-robots-http.json",
+        "finalUrl": "https://www.vecteezy.com/robots.txt",
+        "evidenceSha256": "bc5f165bae5000032df8399f9cd3005d170304ca8b05f4b5b1f07be5bb97a865"
+      },
+      {
+        "url": "https://www.vecteezy.com/licensing-agreement",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/vecteezy-terms-http.json",
+        "finalUrl": "https://www.vecteezy.com/licensing-agreement",
+        "evidenceSha256": "0289ae7c7edfabec990b18d2eeaff17e53284d6de662a9c3510a4992b83445cd"
+      },
+      {
+        "url": "https://www.vecteezy.com/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-014.json",
+        "evidenceSha256": "44a2e88202378928f7e75ae72e63345f42a37638058ff8e55719771d477128b5"
+      },
+      {
+        "url": "https://www.vecteezy.com/licensing-agreement",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-033.json",
+        "evidenceSha256": "9252421d0091769680b1fe4e659e9562df5c2735f28401961ae8b6ef71dd11a4"
+      },
+      {
+        "url": "https://www.vecteezy.com/vector-art/22901109-mid-century-trendy-neo-geometric-bauhaus-style-mosaic-memphis-contemporary-repeatable-seamless-pattern-with-bold-simple-shapes-neo-geo-abstract-geometrical-vector-illustration",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-047.json",
+        "evidenceSha256": "4e28597dc571c096fe4dee8fdf2674ba10cf90291bb43b13c4c34d38ed86c31d"
+      },
+      {
+        "url": "https://www.vecteezy.com/developers",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-058.json",
+        "evidenceSha256": "b0037bd5830b55679555518e4df30c0d8c64726220859a035b79047b9e9a1a61"
+      }
+    ],
+    "representativeAsset": {
+      "url": "https://www.vecteezy.com/vector-art/22901109-mid-century-trendy-neo-geometric-bauhaus-style-mosaic-memphis-contemporary-repeatable-seamless-pattern-with-bold-simple-shapes-neo-geo-abstract-geometrical-vector-illustration",
+      "formats": [
+        "Vector asset (exact representative archive format not acquired)",
+        "API library includes SVG/PNG (not individually acquired)"
+      ],
+      "downloadGate": "Representative is Pro Vector; license/account/subscription needed.",
+      "rights": "Free/Pro content cannot be sublicensed, shared or redistributed as stock, tools, templates or source files, even free."
+    },
+    "termsEvidence": [
+      {
+        "url": "https://www.vecteezy.com/licensing-agreement",
+        "claim": "소스 파일·stock·tool·template 재배포를 무료로도 금지합니다.",
+        "quote": "You may not sublicense, resell, share, transfer, or otherwise redistribute the Content",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-033.json",
+        "evidenceSha256": "9252421d0091769680b1fe4e659e9562df5c2735f28401961ae8b6ef71dd11a4"
+      }
+    ],
+    "storageVerdict": "no-public-redistribution",
+    "reasonKO": "vectors·SVG·PNG 등 지원 가능한 포맷과 API는 있지만 Free/Pro license가 stock/tool/template/source files 재배포를 무료로도 금지합니다. 일반 상업 사용권·대량 API 플랜은 공개 원본 배포 허가와 다릅니다.",
+    "currentRendererFit": "SVG/PNG technically fit after safe original validation, but standard license fails public original redistribution requirements.",
+    "api": {
+      "verified": true,
+      "url": "https://www.vecteezy.com/developers",
+      "scope": "REST search/download for photos, videos, SVG and PNG.",
+      "limits": "Paid/enterprise options exist; custom license terms require review, no default public raw archive grant.",
+      "publicOriginalRedistributionGranted": false
+    },
+    "advertisedInventory": {
+      "count": null,
+      "unit": "current vectors/photos/videos; total independently verified inventory not obtained",
+      "qualified": false
+    },
+    "qualifiedSupply": {
+      "verifiedNetNew": 0,
+      "unverifiedPotential": null
+    },
+    "existingCatalog": {
+      "sourceMatchCount": 0,
+      "ids": []
+    },
+    "nextStep": "표준 라이선스로 원본을 수집하지 않습니다. raw redistribution·public archive를 명시한 별도 계약이 확인될 때 재검토합니다.",
+    "robotsReview": {
+      "id": "vecteezy",
+      "url": "https://www.vecteezy.com/vector-art/22901109-mid-century-trendy-neo-geometric-bauhaus-style-mosaic-memphis-contemporary-repeatable-seamless-pattern-with-bold-simple-shapes-neo-geo-abstract-geometrical-vector-illustration",
+      "allowedForReviewAgent": true,
+      "crawlDelay": null,
+      "allowedForGPTBot": true
+    }
+  },
+  {
+    "id": "creativemarket",
+    "name": "Creative Market",
+    "sector": 2,
+    "officialUrl": "https://creativemarket.com/",
+    "accessAttempts": [
+      {
+        "url": "https://support.creativemarket.com/hc/en-us/articles/360021205213-General-Overview-for-Licensing",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/creative-support-browser.json",
+        "finalUrl": "https://support.creativemarket.com/hc/en-us/articles/360021205213-General-Overview-for-Licensing",
+        "evidenceSha256": "54676756ff0cc5560c720980c6271e9350eee4d510ac6741db5e0ca2496c639a"
+      },
+      {
+        "url": "https://support.creativemarket.com/hc/en-us/articles/360021205213-General-Overview-for-Licensing",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/creative-support-http.json",
+        "finalUrl": "https://support.creativemarket.com/hc/en-us/articles/360021205213-General-Overview-for-Licensing",
+        "evidenceSha256": "79a78223f9adf74dd2d37cbbb3f2db35451f84d26a42dea261ccd6a72f34b79c"
+      },
+      {
+        "url": "https://creativemarket.com/digitalstudio05/7164317-Geometric-Seamless-Digital-Paper",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/creativemarket-asset-browser.json",
+        "finalUrl": "https://creativemarket.com/digitalstudio05/7164317-Geometric-Seamless-Digital-Paper",
+        "evidenceSha256": "54ef1b24ab80b8d0a2addc7db9fa0e5c99f2699febd45243b1424fbdce7e9d6f"
+      },
+      {
+        "url": "https://creativemarket.com/digitalstudio05/7164317-Geometric-Seamless-Digital-Paper",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/creativemarket-asset-http.json",
+        "finalUrl": "https://creativemarket.com/digitalstudio05/7164317-Geometric-Seamless-Digital-Paper",
+        "evidenceSha256": "4d60979be68bc5a304339278442ef0da77cdea37eaabfc303cc84556ee94d492"
+      },
+      {
+        "url": "https://creativemarket.com/",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/creativemarket-home-browser.json",
+        "finalUrl": "https://creativemarket.com/",
+        "evidenceSha256": "d9d832f595e0e8947dc596a7f283f3dfb65329397eaf0e96cc78f598b0f0e87c"
+      },
+      {
+        "url": "https://creativemarket.com/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/creativemarket-home-http.json",
+        "finalUrl": "https://creativemarket.com/",
+        "evidenceSha256": "63f55cf96754d944a438a3745f1ef01b3755b16c65f2b434c0dc5eefe364c366"
+      },
+      {
+        "url": "https://creativemarket.com/robots.txt",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/creativemarket-robots-browser.json",
+        "finalUrl": "https://creativemarket.com/robots.txt",
+        "evidenceSha256": "567501596356ebe7e75604d72ba8a8e332948c2dceb088377674ebf1cd4e793c"
+      },
+      {
+        "url": "https://creativemarket.com/robots.txt",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/creativemarket-robots-http.json",
+        "finalUrl": "https://creativemarket.com/robots.txt",
+        "evidenceSha256": "ab899d8e17bfeeb31dc7111dd16587ce69afe2261088c3bc08237c8500abc865"
+      },
+      {
+        "url": "https://creativemarket.com/licenses/terms/general",
+        "method": "ordinary-isolated-Chrome-navigation",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/creativemarket-terms-browser.json",
+        "finalUrl": "https://creativemarket.com/licenses/terms/general",
+        "evidenceSha256": "0970f31d95220686dd9fbfabd513f8b75b72f725fe2823a00d1f9d12b8e6b05a"
+      },
+      {
+        "url": "https://creativemarket.com/licenses/terms/general",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 403,
+        "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+        "evidencePath": "data/upstream/grok-source-review/stock/creativemarket-terms-http.json",
+        "finalUrl": "https://creativemarket.com/licenses/terms/general",
+        "evidenceSha256": "f91708e382f1ae52a8a2e40c5788776dae307e2a9920f8c43b1286ed7ae0ff66"
+      },
+      {
+        "url": "https://creativemarket.com/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-015.json",
+        "evidenceSha256": "541f47f28073866146a1ea66d9541a9286f2049d06232246152c3862b921e6df"
+      },
+      {
+        "url": "https://creativemarket.com/licenses/terms/general",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-034.json",
+        "evidenceSha256": "36f46a90805609922a91dd899bed191cbc2fe9b88b693985f3964325e4380c47"
+      },
+      {
+        "url": "https://creativemarket.com/digitalstudio05/7164317-Geometric-Seamless-Digital-Paper",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-048.json",
+        "evidenceSha256": "4569d39caa0a873e0b8ec360d20ea81773e9a23cbeba774c61e40f43c5d7fbc5"
+      },
+      {
+        "url": "https://support.creativemarket.com/hc/en-us/articles/360021205213-General-Overview-for-Licensing",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-050.json",
+        "evidenceSha256": "bcd3f148dfb474240bdefdbf3b6dc362543898fdbbdd462c800b156c05fea21e"
+      }
+    ],
+    "representativeAsset": {
+      "url": "https://creativemarket.com/digitalstudio05/7164317-Geometric-Seamless-Digital-Paper",
+      "formats": [
+        "JPEG (24 files in ZIP; 3600×3600px)"
+      ],
+      "downloadGate": "Paid pack with personal/commercial/extended licensing; no purchase/download. Ordinary Chrome HTTP403.",
+      "rights": "Commercial end-products must not expose original assets; official licensing help states originals may not be made public or shared."
+    },
+    "termsEvidence": [
+      {
+        "url": "https://support.creativemarket.com/hc/en-us/articles/360021205213-General-Overview-for-Licensing",
+        "claim": "현재 공식 license overview는 원본 자산의 공개·공유를 금지합니다.",
+        "quote": "Make the asset public or share the asset in any way.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-050.json",
+        "evidenceSha256": "bcd3f148dfb474240bdefdbf3b6dc362543898fdbbdd462c800b156c05fea21e"
+      }
+    ],
+    "storageVerdict": "no-public-redistribution",
+    "reasonKO": "대표 pattern pack은 24 JPEG를 제공하여 이미지 형식은 맞지만 일반/extended commercial end-product license도 원본의 추출 가능한 배포와 공개 공유를 금지합니다. 공식 support 원문은 Exa로 확인했으며 홈·직접 약관·상세의 일반 Chrome 접근은403입니다.",
+    "currentRendererFit": "JPEG textures technically fit but raw pack redistribution fails current license requirements.",
+    "api": {
+      "verified": false,
+      "status": "not-verified",
+      "publicOriginalRedistributionGranted": false,
+      "note": "No public original-asset redistribution API grant was verified. This does not assert that no API exists."
+    },
+    "advertisedInventory": {
+      "count": null,
+      "unit": "whole marketplace inventory not verified",
+      "qualified": false
+    },
+    "qualifiedSupply": {
+      "verifiedNetNew": 0,
+      "unverifiedPotential": null
+    },
+    "existingCatalog": {
+      "sourceMatchCount": 0,
+      "ids": []
+    },
+    "nextStep": "제품 내 최종 디자인 이용과 공개 원본 창고를 구분하며 표준·extended 상품을 수집하지 않습니다.",
+    "robotsReview": {
+      "id": "creativemarket",
+      "url": "https://creativemarket.com/digitalstudio05/7164317-Geometric-Seamless-Digital-Paper",
+      "allowedForReviewAgent": null
+    }
+  },
+  {
+    "id": "istock",
+    "name": "iStock",
+    "sector": 2,
+    "officialUrl": "https://www.istockphoto.com/",
+    "accessAttempts": [
+      {
+        "url": "https://www.istockphoto.com/vector/vector-seamless-geometric-pattern-gm1024182806-274833622",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/istock-asset-http.json",
+        "finalUrl": "https://www.istockphoto.com/kr/%EB%B2%A1%ED%84%B0/%EB%B2%A1%ED%84%B0-%EB%A7%A4%EB%81%84%EB%9F%AC%EC%9A%B4-%EA%B8%B0%ED%95%98%ED%95%99%EC%A0%81-%ED%8C%A8%ED%84%B4-gm1024182806-274833622",
+        "evidenceSha256": "9cf6b45bd436c00958378a77bb5710b3ac22764ad020bfad5167fa19e5b7bada"
+      },
+      {
+        "url": "https://www.istockphoto.com/",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/istock-home-http.json",
+        "finalUrl": "https://www.istockphoto.com/kr",
+        "evidenceSha256": "b9f12e9064337bdccdd26b3b5dfca2e2fbb627c29741467a7c717a55aebeb046"
+      },
+      {
+        "url": "https://www.istockphoto.com/robots.txt",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/istock-robots-http.json",
+        "finalUrl": "https://www.istockphoto.com/robots.txt",
+        "evidenceSha256": "701bf6ef3e017ba504f2679457997707226074c76b616be595f94e14872b3327"
+      },
+      {
+        "url": "https://www.istockphoto.com/legal/license-agreement",
+        "method": "bounded-standard-HTTP-GET",
+        "status": 200,
+        "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+        "evidencePath": "data/upstream/grok-source-review/stock/istock-terms-http.json",
+        "finalUrl": "https://www.istockphoto.com/kr/legal/license-agreement",
+        "evidenceSha256": "66b2824a9c2bd596622b7a2abd613e88a891568f9bfec1fe4f7b827161a146e6"
+      },
+      {
+        "url": "https://www.istockphoto.com/",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-016.json",
+        "evidenceSha256": "bfb8532e0618cc710b5eaaefb9a3c8bc9c9ba1c2fce0a2e74e89e6a733ca94a8"
+      },
+      {
+        "url": "https://www.istockphoto.com/legal/license-agreement",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-035.json",
+        "evidenceSha256": "7419532c4e0dfa9ec4a69857b66a08291e5e323de57e44049bfc3d5c09356dda"
+      },
+      {
+        "url": "https://www.istockphoto.com/vector/vector-seamless-geometric-pattern-gm1024182806-274833622",
+        "method": "Exa-public-webpage-fetch",
+        "status": "content-returned",
+        "observedContent": "Official public text returned; clean content hash preserved. HTTP status was not exposed by the connector.",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-049.json",
+        "evidenceSha256": "7b8eebaf378be1802078cbbe26320cb9b33f5b14d8c77a10b15f4fcd8703ba9b"
+      }
+    ],
+    "representativeAsset": {
+      "url": "https://www.istockphoto.com/vector/vector-seamless-geometric-pattern-gm1024182806-274833622",
+      "formats": [
+        "EPS vector (licensed source not acquired)"
+      ],
+      "downloadGate": "Paid credit/subscription license; extended options file-by-file; no purchase.",
+      "rights": "Standard and extended options are subject to no standalone download/extraction/redistribution rule."
+    },
+    "termsEvidence": [
+      {
+        "url": "https://www.istockphoto.com/legal/license-agreement",
+        "claim": "No Standalone File Use가 원본 파일의 download·추출·재배포를 허용하는 사용을 금지합니다.",
+        "quote": "You may not use content in any way that allows others to download, extract, or redistribute content as a standalone file",
+        "evidencePath": "data/upstream/grok-source-review/stock/exa-page-035.json",
+        "evidenceSha256": "7419532c4e0dfa9ec4a69857b66a08291e5e323de57e44049bfc3d5c09356dda"
+      }
+    ],
+    "storageVerdict": "no-public-redistribution",
+    "reasonKO": "Royalty-free 및 extended license가 최종 상업작품 사용을 허용하더라도 ‘No Standalone File Use’는 다른 사람이 원본을 download/extract/redistribute하게 하는 사용을 금지합니다. 대표 원본은 EPS vector로 현행 안전 SVG 렌더러에 바로 맞지 않습니다.",
+    "currentRendererFit": "EPS needs a trusted conversion pipeline; preview JPEG is not an original licensed file. Original redistribution is prohibited regardless.",
+    "api": {
+      "verified": false,
+      "status": "not-verified",
+      "publicOriginalRedistributionGranted": false,
+      "note": "No public original-asset redistribution API grant was verified. This does not assert that no API exists."
+    },
+    "advertisedInventory": {
+      "count": null,
+      "unit": "stock illustrations/photos/videos; whole current count not verified",
+      "qualified": false
+    },
+    "qualifiedSupply": {
+      "verifiedNetNew": 0,
+      "unverifiedPotential": null
+    },
+    "existingCatalog": {
+      "sourceMatchCount": 0,
+      "ids": []
+    },
+    "nextStep": "공개 코드·이미지 원본 확장 공급에서는 제외합니다. 구매·extended 권한을 재배포 권한으로 해석하지 않습니다.",
+    "robotsReview": {
+      "id": "istock",
+      "url": "https://www.istockphoto.com/vector/vector-seamless-geometric-pattern-gm1024182806-274833622",
+      "allowedForReviewAgent": true,
+      "crawlDelay": null,
+      "allowedForGPTBot": true
+    }
+  }
+]

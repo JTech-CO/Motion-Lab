@@ -1,0 +1,97 @@
+{
+  "reviewedAt": "2026-10-10",
+  "scope": "17 assigned stock/effect/editor sources: sector1 nine + sector2 eight; old Videvo is an additional identity endpoint within Freepik row. Review only; no MP4/audio/original asset acquisition, additions, commits or pushes.",
+  "sources_reviewed": 155,
+  "sources_reviewedDefinition": "Sum of requested Exa numResults across all searches, including unsuccessful/irrelevant results; not unique sites or qualified assets.",
+  "exaSearchRequests": 31,
+  "sitesReviewed": 17,
+  "verdictCounts": {
+    "no-public-redistribution": 12,
+    "blocked-unverified": 1,
+    "reference-only": 2,
+    "eligible-candidate": 2
+  },
+  "qualifiedSupply": {
+    "verifiedNetNew": 0,
+    "unverifiedPotential": null
+  },
+  "eligibleCandidateSubsets": [
+    "FilterGrade author free PNG film scans explicitly linked to CC-BY-3.0",
+    "Pixabay individual legacy pre-2019-01-09 JPG under Terms §4 CC0 definition; access, relevance and independent-asset verification outstanding"
+  ],
+  "notCountedAsSupply": [
+    "26m MotionElements mixed licensed inventory",
+    "10,000+ ProductionCrate VFX assets / PNG sequence frames",
+    "2,000+ PFS plugins",
+    "20,600+ Videobolt cloud templates",
+    "300+ Jitter templates / final render licenses",
+    "6.3m Pixabay current library or unenumerated historical subset",
+    "FilterGrade eight advertised scans or twelve unique related PNG links before file/visual deduplication",
+    "RocketStock->Shutterstock and Videvo->Freepik/Magnific identity redirects"
+  ],
+  "accessSummary": {
+    "httpAndOrdinaryChromeRecords": 109,
+    "statusCounts": {
+      "200": 69,
+      "403": 40
+    },
+    "exaOfficialPageReceipts": 62,
+    "normalBrowserFallbackUsed": true,
+    "browserMediaOrAudioDownloaded": false,
+    "credentialsOrChallengeBypassUsed": false,
+    "javaScriptOnlyForInitially200ShellPages": [
+      "Jitter official terms redirects to public Notion",
+      "Jitter public Ripple Effect project",
+      "Coverr abstract collection to discover actual asset URL"
+    ],
+    "cuaFailure": "CUA getState initialization failed with windows sandbox helper_unknown_error; Computer Use skill read and parent-provided standard isolated Chrome fallback used."
+  },
+  "existingCatalogScope": {
+    "catalogItems": 11827,
+    "recordsIncludingVariantsAndRepairs": 11936,
+    "catalogSha256": "643300e8581b957345acc4d636a13b30bf52c5b24cf3714b10341a53c4032c97",
+    "componentRepairsSha256": "551514787dca702f927c6c670340c59e69b5bfb5e2f0ede62c1bc8f981199302",
+    "note": "Canonical items plus recursive variants, consolidation and repair originals; code/comment mentions alone do not count as source matches."
+  },
+  "existingSourceMatchCounts": {
+    "motionelements": 0,
+    "productioncrate": 0,
+    "rocketstock": 0,
+    "motionvfx": 0,
+    "pixelfilmstudios": 0,
+    "cinepacks": 0,
+    "videobolt": 0,
+    "jitter": 0,
+    "filtergrade": 0,
+    "mixkit": 0,
+    "pexels": 0,
+    "pixabay": 0,
+    "coverr": 0,
+    "freepik": 0,
+    "vecteezy": 0,
+    "creativemarket": 0,
+    "istock": 0
+  },
+  "quotePolicy": {
+    "maximumWordsPerOfficialPage": 25,
+    "observedMaximumCombinedWords": 21,
+    "fullPageTextInDurableOutput": false,
+    "boundedRobotPoliciesCacheOnly": true
+  },
+  "limitations": [
+    "No original code/image bytes were acquired; zero net-new supply is not a claim that no future lawful image subset exists.",
+    "End-product commercial usage, free downloads, subscriptions, APIs and creator ownership are not blanket permission to mirror third-party original assets.",
+    "Original image hash, visual family, variant, frame, color and prior-catalog duplicate review remains mandatory before any future candidate adoption.",
+    "403/challenge pages were not bypassed; Exa content-returned statuses do not assert live origin HTTP200.",
+    "Robot policy and API/contract restrictions may constrain collection even where individual legacy copyright permissions exist.",
+    "Counts advertised by providers have qualified:false and are never used as verified residual stock."
+  ],
+  "files": {
+    "sites": "data/upstream/grok-source-review/stock/sites.json",
+    "sitesSha256": "0c519c7fbb4f2ff018d968673ca013c9aeca30668165338c84c1ff7fa02579a7",
+    "searchLog": "data/upstream/grok-source-review/stock/exa-search-log.json",
+    "searchLogSha256": "58b9b863ff54d3b518043b66769517f6fb12215ed1aff2053f57b3f799a20a5c",
+    "existingMatches": "data/upstream/grok-source-review/stock/existing-source-matches.json",
+    "existingMatchesSha256": "8097337df696e32c8d8f4ad48622d68401e58409fede55a023dfe46578366a66"
+  }
+}

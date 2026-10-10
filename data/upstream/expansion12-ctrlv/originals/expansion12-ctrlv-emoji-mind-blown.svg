@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-bounce">
+                <!-- Face (bottom half) -->
+                <path d="M100 150 A 100 100 0 0 0 300 150 Z" fill="var(--primary-color)"/>
+                <!-- Mouth open in shock -->
+                <ellipse cx="200" cy="200" rx="15" ry="25" fill="var(--bg-surface)"/>
+                <!-- Explosions at top -->
+                <g class="anim-pulse" >
+                    <path d="M120 120 Q150 60 180 100 Q200 40 220 100 Q250 60 280 120 Q240 140 200 150 Q160 140 120 120 Z" fill="var(--accent-color)"/>
+                    <circle cx="150" cy="60" r="10" fill="var(--secondary-color)"/>
+                    <circle cx="210" cy="30" r="15" fill="var(--secondary-color)"/>
+                    <circle cx="270" cy="60" r="12" fill="var(--secondary-color)"/>
+                    <circle cx="180" cy="40" r="8" fill="var(--bg-surface)"/>
+                    <circle cx="240" cy="50" r="6" fill="var(--bg-surface)"/>
+                </g>
+                <rect x="100" y="145" width="200" height="5" fill="var(--charcoal)" opacity="0.2"/>
+            </g>
+          </svg>

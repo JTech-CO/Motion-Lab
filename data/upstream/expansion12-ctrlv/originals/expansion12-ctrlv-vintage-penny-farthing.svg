@@ -1,0 +1,38 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Dust/Motion trails behind -->
+            <path class="anim-draw" d="M300 260 H360 M320 250 H350 M310 270 H340" stroke="var(--secondary-color)" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+            
+            <g class="anim-float">
+                <!-- Large Front Wheel -->
+                <circle class="anim-rotate"  cx="160" cy="150" r="100" fill="none" stroke="var(--charcoal)" stroke-width="4"/>
+                <circle cx="160" cy="150" r="95" fill="none" stroke="var(--accent-color)" stroke-width="2" opacity="0.5"/>
+                <!-- Spokes Front -->
+                <path class="anim-rotate"  d="M160 50 V250 M60 150 H260 M89 79 L231 221 M231 79 L89 221" stroke="var(--charcoal)" stroke-width="1" opacity="0.5"/>
+                <!-- Pedals -->
+                <circle class="anim-rotate"  cx="160" cy="150" r="15" fill="var(--bg-surface)" stroke="var(--primary-color)" stroke-width="4"/>
+                <g class="anim-rotate" >
+                    <line x1="160" y1="150" x2="160" y2="180" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+                    <rect x="150" y="180" width="20" height="6" rx="2" fill="var(--primary-color)"/>
+                    <line x1="160" y1="150" x2="160" y2="120" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+                    <rect x="150" y="114" width="20" height="6" rx="2" fill="var(--primary-color)"/>
+                </g>
+                
+                <!-- Small Rear Wheel -->
+                <circle class="anim-rotate"  cx="300" cy="220" r="30" fill="none" stroke="var(--charcoal)" stroke-width="4"/>
+                <!-- Spokes Rear -->
+                <path class="anim-rotate"  d="M300 190 V250 M270 220 H330 M279 199 L321 241 M321 199 L279 241" stroke="var(--charcoal)" stroke-width="1" opacity="0.5"/>
+                
+                <!-- Frame/Backbone -->
+                <path d="M160 50 Q260 50 300 220" fill="none" stroke="var(--primary-color)" stroke-width="8" stroke-linecap="round"/>
+                
+                <!-- Seat -->
+                <path d="M200 80 Q220 70 240 80 L230 90 H210 Z" fill="var(--charcoal)"/>
+                <line x1="220" y1="80" x2="220" y2="60" stroke="var(--charcoal)" stroke-width="6"/>
+                
+                <!-- Handlebars -->
+                <path d="M160 50 V20 M140 30 Q160 10 180 30" fill="none" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                <circle cx="140" cy="30" r="4" fill="var(--primary-color)"/>
+                <circle cx="180" cy="30" r="4" fill="var(--primary-color)"/>
+                <line x1="160" y1="50" x2="160" y2="150" stroke="var(--primary-color)" stroke-width="8"/>
+            </g>
+          </svg>

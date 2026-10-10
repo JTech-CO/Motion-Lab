@@ -1,0 +1,120 @@
+<div align="center">
+
+# 🧪 creative-lab
+
+**Daily creative coding demos — canvas, WebGL, CSS, generative art.**
+
+[![Live Gallery](https://img.shields.io/badge/🌐_gallery-cl.yuzhes.com-5865F2?style=for-the-badge)](https://cl.yuzhes.com)
+[![GitHub stars](https://img.shields.io/github/stars/bkmashiro/creative-lab?style=for-the-badge&logo=github&color=FFD700)](https://github.com/bkmashiro/creative-lab)
+[![MIT License](https://img.shields.io/badge/license-MIT-22c55e?style=for-the-badge)](LICENSE)
+
+**English** | [中文](README.zh.md)
+
+> One new demo every 2 days. Each is a single self-contained HTML file — no build step, no dependencies.
+
+**[→ Open Gallery](https://cl.yuzhes.com)**
+
+</div>
+
+---
+
+## 📦 Demos
+
+| # | Name | Technique |
+|:--|:-----|:----------|
+| [001](demos/001-particles.html) | Particle Gravity Field | Canvas 2D, physics |
+| [002](demos/002-fluid.html) | Fluid Particles | Canvas 2D, SPH-lite |
+| [003](demos/003-raymarching.html) | SDF Raymarching | WebGL, GLSL |
+| [004](demos/004-fractal.html) | Fractal Explorer | Canvas 2D, Mandelbrot/Julia |
+| [005](demos/005-audio-visualizer.html) | Audio Visualizer | Web Audio API, FFT |
+| [006](demos/006-voronoi.html) | Voronoi Diagram | Canvas 2D, Fortune's algorithm |
+| [007](demos/007-noise-terrain.html) | Noise Terrain | Perlin noise, isometric |
+| [008](demos/008-lsystem-tree.html) | L-System Tree | Canvas 2D, parametric branching |
+| [009](demos/009-matrix-rain.html) | Matrix Rain | Canvas 2D, katakana/ASCII |
+| [010](demos/010-physics-balls.html) | Physics Bouncing Balls | Canvas 2D, Verlet integration |
+| [011](demos/011-card-flip-gallery.html) | CSS 3D Card Flip | CSS 3D transforms |
+| [012](demos/012-generative-typography.html) | Generative Typography | Canvas 2D, text as particles |
+| [013](demos/013-game-of-life.html) | Game of Life | Canvas 2D, cellular automata |
+| [014](demos/014-maze-generator.html) | Maze Generator | Canvas 2D, recursive backtracking |
+| [015](demos/015-water-ripple.html) | Water Ripple | Canvas 2D, wave simulation |
+| [016](demos/016-star-field.html) | Star Field | Canvas 2D, parallax depth |
+| [017](demos/017-neural-network.html) | Neural Network | Canvas 2D, activation visualizer |
+| [018](demos/018-cloth-simulation.html) | Cloth Simulation | Canvas 2D, Verlet constraints |
+| [019](demos/019-svg-clock.html) | Artistic SVG Clock | SVG, generative modes |
+| [020](demos/020-smoke-simulation.html) | Smoke Simulation | Canvas 2D, advection diffusion |
+| [021](demos/021-fourier-epicycles.html) | Fourier Epicycles | Canvas 2D, DFT reconstruction |
+| [022](demos/022-reaction-diffusion.html) | Reaction Diffusion | Canvas 2D, Gray-Scott model |
+| [023](demos/023-boids-flocking.html) | Boids Flocking | Canvas 2D, emergent behavior |
+| [024](demos/024-lorenz-attractor.html) | Lorenz Attractor | Canvas 2D, 3D chaos projection |
+| [025](demos/025-spring-network.html) | Spring Network | Canvas 2D, elastic mesh |
+| [026](demos/026-brownian-motion.html) | Brownian Motion | Canvas 2D, random walk heat map |
+| [027](demos/027-bezier-curve-editor.html) | Bezier Curve Editor | Canvas 2D, de Casteljau |
+| [028](demos/028-sand-simulation.html) | Sand Simulation | Canvas 2D, falling sand |
+| [029](demos/029-metaballs.html) | Metaballs | WebGL, implicit surfaces |
+| [030](demos/030-fireworks.html) | Fireworks | Canvas 2D, particle physics |
+| [031](demos/031-lightning.html) | Lightning Generator | Canvas 2D, recursive branching, glow |
+| [032](demos/032-kaleidoscope.html) | Kaleidoscope | Canvas 2D, radial symmetry, webcam |
+| [033](demos/033-pendulum-wave.html) | Pendulum Wave | Canvas 2D, phase synchronization |
+| [034](demos/034-double-pendulum.html) | Double Pendulum | Canvas 2D, RK4 chaos, trail rendering |
+| [035](demos/035-wave-interference.html) | Wave Interference | Canvas 2D, superposition, double-slit |
+| [036](demos/036-plasma-effect.html) | Plasma Effect | WebGL, GLSL, demoscene, color cycling |
+| [037](demos/037-galaxy-spiral.html) | Galaxy Spiral | Canvas 2D, logarithmic spiral, rotation curves |
+| [038](demos/038-magnetic-field-lines.html) | Magnetic Field Lines | Canvas 2D, RK4 field line tracing, vector field |
+| [039](demos/039-crystal-growth.html) | Crystal Growth | Canvas 2D, DLA diffusion-limited aggregation |
+| [040](demos/040-fluid-dynamics.html) | Fluid Dynamics | WebGL2, Navier-Stokes, vorticity confinement |
+| [041](demos/041-rope-physics.html) | Rope Physics | Canvas 2D, Verlet integration, distance constraints, mouse drag |
+| [042](demos/042-soft-body.html) | Soft Body | Canvas 2D, pressure-based deformable blobs, spring constraints, Verlet |
+| [043](demos/043-wave-equation.html) | Wave Equation | WebGL2, 2D membrane PDE, finite differences, interference patterns |
+| [044](demos/044-gravity-lensing.html) | Gravity Lensing | WebGL, GLSL, Einstein ring, point-mass lens equation, magnification |
+| [045](demos/045-nbody-gravity.html) | N-Body Gravity | Barnes-Hut tree |
+| [046](demos/046-terrain-erosion.html) | Terrain Erosion | Canvas 2D, hydraulic erosion, droplet simulation, hillshading |
+| [047](demos/047-smoke-wind.html) | Smoke + Wind | Canvas 2D, semi-Lagrangian advection, curl noise turbulence, velocity field |
+| [048](demos/048-elastic-collisions.html) | Elastic Collisions | Canvas 2D, 2D rigid-body physics, angle-based collision resolution, spatial grid broadphase |
+| [049](demos/049-flow-field.html) | Flow Field | Canvas 2D, curl noise, particle advection, trails |
+| [050](demos/050-isosurface.html) | Isosurface | WebGL, marching cubes, 3D implicit surfaces, Phong shading |
+| [051](demos/051-cellular-noise.html) | Cellular Noise | WebGL, Worley/F1 noise, Voronoi, multiple distance metrics, animated feature points |
+| [052](demos/052-strange-attractors.html) | Strange Attractors | Canvas 2D, Halvorsen/Aizawa/Thomas systems, 3D projection, particle trails, depth cueing |
+| [053](demos/053-spirograph.html) | Spirograph | Canvas 2D, hypotrochoid/epitrochoid parametric curves, animated gear simulation, interactive R/r/d controls |
+| [054](demos/054-turtle-graphics.html) | Turtle Graphics | Canvas 2D, recursive L-system expansion (Dragon Curve, Hilbert, Gosper, Sierpiński, Koch, Fractal Plant), animated drawing with color cycling |
+| [055](demos/055-mandelbulb.html) | Mandelbulb | WebGL raymarching with sphere tracing, Mandelbulb distance estimator, orbit-trap coloring, soft shadows & AO |
+| [056](demos/056-voronoi-3d.html) | Voronoi 3D | WebGL volume raymarching, 3D Voronoi cells, edge proximity glow, animated seed drift, orbit camera |
+| [057](demos/057-wave-function-collapse.html) | Wave Function Collapse | Canvas 2D, constraint propagation, entropy-guided tile collapse, circuit board tileset |
+| [058](demos/058-space-filling-curves.html) | Space Filling Curves | Canvas 2D, Hilbert/Peano/Moore/Gosper curves, animated unfolding, position-based color gradients |
+| [059](demos/059-slime-mold.html) | Slime Mold | WebGL2, Physarum polycephalum multi-agent trail diffusion, 262K GPU agents, ping-pong textures, 4 color palettes |
+| [060](demos/060-ant-colony.html) | Ant Colony | Canvas 2D, dual pheromone trails (to-home/to-food), emergent path optimization, interactive food placement |
+| [061](demos/061-genetic-algorithm.html) | Genetic Algorithm | Canvas 2D, (1+1)-ES evolution, 80 semi-transparent triangles per genome, 4 target images, real-time fitness graph + diff heatmap |
+| [062](demos/062-flocking-3d.html) | Flocking 3D | WebGL2, instanced sphere rendering, 3D Boids (separation/alignment/cohesion), velocity-hue colouring, spatial hash grid, orbit camera |
+| [063](demos/063-fireflies.html) | Fireflies | Canvas 2D, Kuramoto phase-coupled oscillators, spatial coupling, order parameter R, additive glow blending, forest night scene |
+| [064](demos/064-predator-prey.html) | Predator-Prey | Canvas 2D, Lotka-Volterra reaction-diffusion on spatial grid, HSL color mapping, population time-series graph, mouse painting |
+| [065](demos/065-voronoi-stippling.html) | Voronoi Stippling | Canvas 2D, Lloyd's relaxation on weighted Voronoi cells, importance-sampled initial placement, adaptive dot sizing, 4 procedural presets + custom image upload |
+| [066](demos/066-wireworld.html) | Wireworld | Canvas 2D, Turing-complete cellular automaton, electron head/tail/conductor rules, loop oscillators, OR gate, NOT gate, signal splitter, interactive drawing tools |
+| [067](demos/067-sound-visualizer-shader.html) | Sound Visualizer Shader | WebGL, Web Audio API, real-time FFT → 1D texture uniform, three GLSL fragment shader modes (radial spectrum, bar chart, tunnel), mic input + demo synth, bass-reactive glow |
+| [068](demos/068-fluid-color-mixing.html) | Fluid Color Mixing | Navier-Stokes WebGL fluid sim with 9-colour dye palette, complementary-colour collision auto-mode, separable Gaussian bloom, and multi-touch support |
+| [069](demos/069-rubiks-cube.html) | 3D Rubik's Cube | WebGL, 27 cubies with per-face sticker colors, mouse-drag orbit, eased layer-rotation animations, scramble + reverse-solve, keyboard move shortcuts |
+| [070](demos/070-sand-water.html) | Sand + Water | Canvas 2D pixel sim — sand, water, oil, fire, acid, steam + wood; density-based fluid separation, fire ignition chain, acid dissolution, randomised column updates |
+
+*More coming every 2 days →*
+
+---
+
+## 📁 Format
+
+Each demo is a **single `.html` file** with:
+- Zero external dependencies
+- Inline CSS + JavaScript
+- Interactive controls where applicable
+- A footer linking back to this repo
+
+---
+
+## 🤖 How it works
+
+New demos are generated automatically every 2 days by a Claude AI agent.  
+It picks the next item from a todo list, writes the code, and commits directly to this repo.  
+The gallery updates automatically via CloudFlare Pages.
+
+---
+
+## 📄 License
+
+MIT © [bkmashiro](https://github.com/bkmashiro)

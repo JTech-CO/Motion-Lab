@@ -1,0 +1,47 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Earth Curvature -->
+            <path class="anim-float" d="M40 270 Q200 180 360 270 Z" fill="var(--secondary-color)" opacity="0.1"/>
+            
+            <!-- Signal Web -->
+            <path class="anim-draw" d="M100 120 L200 160 L300 100" stroke="var(--charcoal)" stroke-width="2" stroke-dasharray="4 4" fill="none" opacity="0.4"/>
+            <path class="anim-draw" d="M150 70 L200 160 L240 60" stroke="var(--charcoal)" stroke-width="2" stroke-dasharray="4 4" fill="none" opacity="0.4"/>
+
+            <!-- Satellite 1 -->
+            <g class="anim-bounce">
+                <rect x="70" y="110" width="40" height="15" fill="var(--secondary-color)" opacity="0.8" transform="rotate(-20 90 117)"/>
+                <rect x="85" y="115" width="20" height="8" rx="2" fill="var(--primary-color)" transform="rotate(-20 90 117)"/>
+                <circle cx="95" cy="119" r="2" fill="white"/>
+            </g>
+            <path class="anim-data" d="M100 125 L120 180" stroke="var(--accent-color)" stroke-width="2" stroke-dasharray="4 4"/>
+
+            <!-- Satellite 2 (Center Low) -->
+            <g class="anim-bounce" style="animation-delay: -0.5s">
+                <rect x="180" y="150" width="50" height="18" fill="var(--secondary-color)" opacity="0.8"/>
+                <rect x="195" y="155" width="20" height="8" rx="2" fill="var(--primary-color)"/>
+                <circle cx="205" cy="159" r="2" fill="white"/>
+            </g>
+            <path class="anim-data" d="M205 165 V220" stroke="var(--accent-color)" stroke-width="3" stroke-dasharray="6 6"/>
+
+            <!-- Satellite 3 (Right High) -->
+            <g class="anim-bounce" style="animation-delay: -1s">
+                <rect x="280" y="90" width="40" height="15" fill="var(--secondary-color)" opacity="0.8" transform="rotate(20 300 97)"/>
+                <rect x="295" y="95" width="20" height="8" rx="2" fill="var(--primary-color)" transform="rotate(20 300 97)"/>
+                <circle cx="305" cy="99" r="2" fill="white"/>
+            </g>
+            <path class="anim-data" d="M300 105 L280 180" stroke="var(--accent-color)" stroke-width="2" stroke-dasharray="4 4"/>
+
+            <!-- Satellite 4 (Top Center) -->
+            <g class="anim-float" style="animation-delay: -1.5s">
+                <rect x="130" y="60" width="30" height="12" fill="var(--secondary-color)" opacity="0.6"/>
+                <rect x="140" y="62" width="10" height="6" rx="2" fill="var(--primary-color)"/>
+            </g>
+            <g class="anim-float" style="animation-delay: -0.8s">
+                <rect x="230" y="50" width="30" height="12" fill="var(--secondary-color)" opacity="0.6"/>
+                <rect x="240" y="52" width="10" height="6" rx="2" fill="var(--primary-color)"/>
+            </g>
+
+            <!-- Connections to Earth -->
+            <circle class="anim-glow" cx="120" cy="180" r="4" fill="var(--accent-color)"/>
+            <circle class="anim-glow" cx="205" cy="220" r="5" fill="var(--accent-color)"/>
+            <circle class="anim-glow" cx="280" cy="180" r="4" fill="var(--accent-color)"/>
+          </svg>

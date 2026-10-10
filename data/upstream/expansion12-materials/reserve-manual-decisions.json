@@ -1,0 +1,2139 @@
+{
+  "reviewedCount": 1405,
+  "method": "Frozen1405 official-public-post reserve census, separate from fixed first100 pilot. All1350 actual acquired original color maps were directly reviewed, with fixed baseline494 original-image canonical/variant/repair records, main123 material input, new119 pattern tiles, byte hashes, grayscale/color/contrast/D4/arbitrary-periodic-shift screening and targeted original crop comparisons. Source titles/material names alone do not determine duplication; common primitive grid/running-bond/stripe and low-information omitted-channel families are conservatively grouped. No resolutions, PBR channels, crops, colors or frame variants inflate count. Acquisition failures/non-material posts stay excluded in the census. All167 recovered legacy COLOR originals received the same direct-image and numerical review; original filenames, public folder/download provenance and full CC0 notice remain attached. This is not exhaustive pixel rendering of every pre-existing code item.",
+  "exclude": {
+    "stylized-card-001": {
+      "reason": "Logo-like decorated game-card face held out: author CC0 declaration alone does not establish the independent identity of the central game-style emblem"
+    },
+    "brick-wall-022": {
+      "reason": "Common running-bond brick layout already represented; color and weathering variation does not supply a new composition",
+      "canonicalId": "phase2-material-ambientcg-bricks002"
+    },
+    "brick-wall-023": {
+      "reason": "Common running-bond brick layout already represented; color and weathering variation does not supply a new composition",
+      "canonicalId": "phase2-material-ambientcg-bricks002"
+    },
+    "brick-wall-024": {
+      "reason": "Common running-bond brick layout already represented; color and weathering variation does not supply a new composition",
+      "canonicalId": "phase2-material-ambientcg-bricks002"
+    },
+    "brick-wall-025": {
+      "reason": "Common running-bond brick layout already represented; color and weathering variation does not supply a new composition",
+      "canonicalId": "phase2-material-ambientcg-bricks002"
+    },
+    "tiles-ceramic-001": {
+      "reason": "White running-bond brick layout already represented; enamel/color/surface styling retained as a family rather than new composition",
+      "canonicalId": "phase2-material-polyhaven-white-bricks"
+    },
+    "sci-fi-panel-001": {
+      "reason": "Almost uniform blue BaseColor with thin regular grid lines; structural panel differentiation is principally in omitted PBR channels"
+    },
+    "sci-fi-metal-plate-004": {
+      "reason": "Plain square slab grid with brown coloration; basic grid family already represented",
+      "canonicalId": "phase2-material-polyhaven-square-tiles"
+    },
+    "glass-pattern-003": {
+      "reason": "Rounded square bump grid; conservative family exclusion with retained padded square motifs"
+    },
+    "tiles-064": {
+      "reason": "Plain regular square tile grid; color/grain style changes already represented",
+      "canonicalId": "phase2-material-polyhaven-square-tiles"
+    },
+    "tiles-058": {
+      "reason": "Existing checkerboard material family; direct preview comparison and normalized D4/periodic score .962445",
+      "canonicalId": "phase2-material-polyhaven-square-tiles"
+    },
+    "chocolate-002": {
+      "reason": "Chocolate coloration of a simple rounded square grid; no independent pattern geometry beyond retained padded squares"
+    },
+    "fabric-padded-009": {
+      "reason": "Hollow triangle scatter family; regular spacing, colors and normal-map padding are variants of an existing triangle confetti motif",
+      "canonicalId": "design-exp12-monster-doodle-1"
+    },
+    "fabric-seersucker-001": {
+      "reason": "Plain repeated stripe fabric family; weave/noise and color variation do not add a new pattern",
+      "canonicalId": "design-exp12-inkjet-mattress-stripe"
+    },
+    "fabric-jute-001": {
+      "reason": "Low-contrast fine weave BaseColor; common woven-fiber surface family already represented in existing fabric originals"
+    },
+    "tiles-054": {
+      "reason": "Low-contrast thin running-bond brick grid already represented; color/surface variation alone"
+    },
+    "leather-padded-004": {
+      "reason": "Simple diamond padding lattice; repeated primitive geometry and color/shading variant of existing diamond grid families"
+    },
+    "brick-wall-021": {
+      "reason": "Common running-bond brick/block layout already represented; painted colors and stylized weathering are a finish family rather than independent composition"
+    },
+    "stylized-bricks-004": {
+      "reason": "Common running-bond brick/block layout already represented; painted colors and stylized weathering are a finish family rather than independent composition"
+    },
+    "stylized-bricks-005": {
+      "reason": "Common running-bond brick/block layout already represented; painted colors and stylized weathering are a finish family rather than independent composition"
+    },
+    "stylized-bricks-002": {
+      "reason": "Common running-bond brick/block layout already represented; painted colors and stylized weathering are a finish family rather than independent composition"
+    },
+    "stone-floor-007": {
+      "reason": "Common running-bond brick/block layout already represented; painted colors and stylized weathering are a finish family rather than independent composition"
+    },
+    "stone-floor-006": {
+      "reason": "Common running-bond brick/block layout already represented; painted colors and stylized weathering are a finish family rather than independent composition"
+    },
+    "wall-stone-022": {
+      "reason": "Common running-bond brick/block layout already represented; painted colors and stylized weathering are a finish family rather than independent composition"
+    },
+    "fabric-padded-008": {
+      "reason": "Simple regular square/diamond/hexagon padding or tile grid already represented; color and normal-map relief changes do not supply new geometry"
+    },
+    "leather-padded-002": {
+      "reason": "Simple regular square/diamond/hexagon padding or tile grid already represented; color and normal-map relief changes do not supply new geometry"
+    },
+    "leather-padded-003": {
+      "reason": "Simple regular square/diamond/hexagon padding or tile grid already represented; color and normal-map relief changes do not supply new geometry"
+    },
+    "stylized-metal-pattern-001": {
+      "reason": "Simple regular square/diamond/hexagon padding or tile grid already represented; color and normal-map relief changes do not supply new geometry"
+    },
+    "concrete-blocks-013": {
+      "reason": "Simple regular square/diamond/hexagon padding or tile grid already represented; color and normal-map relief changes do not supply new geometry"
+    },
+    "fabric-padded-wall-001": {
+      "reason": "Simple regular square/diamond/hexagon padding or tile grid already represented; color and normal-map relief changes do not supply new geometry"
+    },
+    "tiles-051": {
+      "reason": "Simple regular square/diamond/hexagon padding or tile grid already represented; color and normal-map relief changes do not supply new geometry"
+    },
+    "metal-pattern-007c": {
+      "reason": "Repeated simple circle/quatrefoil lattice family; union/cutout density and diagonal clipping are conservative motif-family variants"
+    },
+    "metal-pattern-007d": {
+      "reason": "Repeated simple circle/quatrefoil lattice family; union/cutout density and diagonal clipping are conservative motif-family variants"
+    },
+    "metalpattern007a": {
+      "reason": "Repeated simple circle/quatrefoil lattice family; union/cutout density and diagonal clipping are conservative motif-family variants"
+    },
+    "metal-pattern-007b": {
+      "reason": "Repeated simple circle/quatrefoil lattice family; union/cutout density and diagonal clipping are conservative motif-family variants"
+    },
+    "stylized-stone-floor-001b": {
+      "reason": "Stylized irregular polygon stone floor family; cell-seed/layout and coloration changes held as Voronoi-family variations rather than extra compositions"
+    },
+    "stylized-stone-floor-005": {
+      "reason": "Stylized irregular polygon stone floor family; cell-seed/layout and coloration changes held as Voronoi-family variations rather than extra compositions"
+    },
+    "stylized-stone-floor-006": {
+      "reason": "Stylized irregular polygon stone floor family; cell-seed/layout and coloration changes held as Voronoi-family variations rather than extra compositions"
+    },
+    "stylized-stone-floor-007": {
+      "reason": "Stylized irregular polygon stone floor family; cell-seed/layout and coloration changes held as Voronoi-family variations rather than extra compositions"
+    },
+    "stylized-stone-floor-009": {
+      "reason": "Stylized irregular polygon stone floor family; cell-seed/layout and coloration changes held as Voronoi-family variations rather than extra compositions"
+    },
+    "stylized-roof-tiles-001": {
+      "reason": "Existing generic layered shingle/scallop family; color, relief and outline aspect are shape/style variants"
+    },
+    "stylized-roof-tiles-002": {
+      "reason": "Existing generic layered shingle/scallop family; color, relief and outline aspect are shape/style variants"
+    },
+    "stylized-scales-003": {
+      "reason": "Existing generic layered shingle/scallop family; color, relief and outline aspect are shape/style variants"
+    },
+    "stylized-wood-tiles-002": {
+      "reason": "Existing generic layered shingle/scallop family; color, relief and outline aspect are shape/style variants"
+    },
+    "warning-sign-biohazard-001": {
+      "reason": "Standard warning glyph/triangle composition already represented by existing icon families; grunge and orange background alone are finish variations"
+    },
+    "warning-sign-poison-001": {
+      "reason": "Standard warning glyph/triangle composition already represented by existing icon families; grunge and orange background alone are finish variations"
+    },
+    "warning-sign-high-voltage-001": {
+      "reason": "Standard warning glyph/triangle composition already represented by existing icon families; grunge and orange background alone are finish variations"
+    },
+    "cactus-001": {
+      "reason": "Same ribbed cactus surface family as Cactus002; larger-scale shading and green color variation are conservatively grouped",
+      "canonicalId": "expansion12-material-3dtextures-cactus-002"
+    },
+    "stylized-sand-002": {
+      "reason": "Same smooth cellular ripple/Voronoi sand surface family as Sand008; color and ripple aspect changes are grouped",
+      "canonicalId": "expansion12-material-3dtextures-sand-008"
+    },
+    "metal-chain-link-004": {
+      "reason": "Plain repeated diamond chain-link grid; common primitive mesh already represented by existing mesh and diamond pattern families"
+    },
+    "fabric-padded-007": {
+      "reason": "Repeated blue ribs/stripes; normal-map padding finish variation of the existing blue grill/rib family",
+      "canonicalId": "expansion12-material-3dtextures-metal-grill-027"
+    },
+    "stylized-roof-thatched-002": {
+      "reason": "Same regular layered thatch bundle rows as ThatchedRoof001; height/aspect/color variant",
+      "canonicalId": "expansion12-material-3dtextures-stylized-roof-thatched-001"
+    },
+    "stylized-thatched-roof-003": {
+      "reason": "Same regular layered thatch bundle rows as ThatchedRoof001; aspect and backing color/style variant",
+      "canonicalId": "expansion12-material-3dtextures-stylized-roof-thatched-001"
+    },
+    "sci-fi-metal-panel-008": {
+      "reason": "Plain gray rectangular slab grid; standard tile geometry already represented"
+    },
+    "tiles-065": {
+      "reason": "Plain staggered rectangular tile grid with green finish; shared running-bond/subway geometry"
+    },
+    "tiles-062": {
+      "reason": "Almost uniform green BaseColor with thin regular grid seams; PBR surface variation is not represented in this color map"
+    },
+    "stylized-wood-planks-003": {
+      "reason": "Uniform running-bond rectangular panel layout already represented; wood coloring/grain stylization is held as a finish-family variation"
+    },
+    "fabric-seam-001": {
+      "reason": "Simple parallel dashed seam lines on plain black BaseColor; primitive stitch/line composition with texture relief in omitted maps"
+    },
+    "fabric-lace-035": {
+      "reason": "Repeated chevron/wave stripe family already represented by FabricLace052; red color and wave density/curvature are stylistic variants",
+      "canonicalId": "expansion12-material-3dtextures-fabric-lace-052"
+    },
+    "fabric-lace-045": {
+      "reason": "Repeated fan/fringe wave rows share FabricLace049 motif family; density/radius and color variations are not extra compositions",
+      "canonicalId": "expansion12-material-3dtextures-fabric-lace-049-free-seamless-pbr-texture"
+    },
+    "plastic-005": {
+      "reason": "Plain regular polka dot/circular stud mesh; common dot family with shading/color style variation"
+    },
+    "leather-weave-006": {
+      "reason": "Simple repeating oval-link mesh; existing common chain/loop pattern family with leather coloration"
+    },
+    "metal-plate-sci-fi-002-2": {
+      "reason": "Common regular square/rectangular/hexagon lattice family; material color, relief and seam thickness changes are held as variants"
+    },
+    "concrete-ceiling-002": {
+      "reason": "Common regular square/rectangular/hexagon lattice family; material color, relief and seam thickness changes are held as variants"
+    },
+    "waffle-001": {
+      "reason": "Common regular square/rectangular/hexagon lattice family; material color, relief and seam thickness changes are held as variants"
+    },
+    "wood-window-001": {
+      "reason": "Common regular square/rectangular/hexagon lattice family; material color, relief and seam thickness changes are held as variants"
+    },
+    "concrete-blocks-008": {
+      "reason": "Common regular square/rectangular/hexagon lattice family; material color, relief and seam thickness changes are held as variants"
+    },
+    "fabric-padded-polyester-003": {
+      "reason": "Common regular square/rectangular/hexagon lattice family; material color, relief and seam thickness changes are held as variants"
+    },
+    "fabric-rug-008": {
+      "reason": "Common regular square/rectangular/hexagon lattice family; material color, relief and seam thickness changes are held as variants"
+    },
+    "leather-011": {
+      "reason": "Common regular square/rectangular/hexagon lattice family; material color, relief and seam thickness changes are held as variants"
+    },
+    "leather-diamond-patches-002": {
+      "reason": "Common regular square/rectangular/hexagon lattice family; material color, relief and seam thickness changes are held as variants"
+    },
+    "fabric-padded-005": {
+      "reason": "Plain polka/stud lattice or simple repeated dot mesh, already represented by existing dot pattern families"
+    },
+    "leather-perforated-001": {
+      "reason": "Plain polka/stud lattice or simple repeated dot mesh, already represented by existing dot pattern families"
+    },
+    "metal-grill-021": {
+      "reason": "Plain polka/stud lattice or simple repeated dot mesh, already represented by existing dot pattern families"
+    },
+    "metal-guard-roses-001": {
+      "reason": "Plain polka/stud lattice or simple repeated dot mesh, already represented by existing dot pattern families"
+    },
+    "metal-corrugated-011": {
+      "reason": "Parallel corrugation/rib lines; width, orientation and corrosion/color finishing are common stripe-family variations"
+    },
+    "metal-corrugated-012": {
+      "reason": "Parallel corrugation/rib lines; width, orientation and corrosion/color finishing are common stripe-family variations"
+    },
+    "metal-corrugated-013": {
+      "reason": "Parallel corrugation/rib lines; width, orientation and corrosion/color finishing are common stripe-family variations"
+    },
+    "metal-corrugated-014": {
+      "reason": "Parallel corrugation/rib lines; width, orientation and corrosion/color finishing are common stripe-family variations"
+    },
+    "metal-corrugated-galvanized-001": {
+      "reason": "Parallel corrugation/rib lines; width, orientation and corrosion/color finishing are common stripe-family variations"
+    },
+    "fabric-padded-006": {
+      "reason": "Parallel corrugation/rib lines; width, orientation and corrosion/color finishing are common stripe-family variations"
+    },
+    "metal-tube-001": {
+      "reason": "Parallel corrugation/rib lines; width, orientation and corrosion/color finishing are common stripe-family variations"
+    },
+    "wood-floor-010": {
+      "reason": "Generic regular running-bond block panel family; coloration or wood/plaster finish variation alone"
+    },
+    "metal-panels-009": {
+      "reason": "Generic regular running-bond block panel family; coloration or wood/plaster finish variation alone"
+    },
+    "stone-floor-005": {
+      "reason": "Generic regular running-bond block panel family; coloration or wood/plaster finish variation alone"
+    },
+    "wall-stone-019": {
+      "reason": "Generic regular running-bond block panel family; coloration or wood/plaster finish variation alone"
+    },
+    "stylized-bricks-001": {
+      "reason": "Generic regular running-bond block panel family; coloration or wood/plaster finish variation alone"
+    },
+    "wood-wall-003": {
+      "reason": "Generic regular running-bond block panel family; coloration or wood/plaster finish variation alone"
+    },
+    "stylized-stone-floor-004": {
+      "reason": "Already represented generic polygon-cell/scallop floor family; procedural cell layout and style/finish variation are grouped"
+    },
+    "stylized-stone-floor-003": {
+      "reason": "Already represented generic polygon-cell/scallop floor family; procedural cell layout and style/finish variation are grouped"
+    },
+    "stylized-tiles-002": {
+      "reason": "Already represented generic polygon-cell/scallop floor family; procedural cell layout and style/finish variation are grouped"
+    },
+    "metal-mesh-006-2": {
+      "reason": "Existing simple chain/padding mesh families; blur, density or color/material finish changes alone"
+    },
+    "leather-weave-005": {
+      "reason": "Existing simple chain/padding mesh families; blur, density or color/material finish changes alone"
+    },
+    "wood-pattern-coffers-004": {
+      "reason": "Nested square coffer frame family already represented by WoodCeilingCoffers004; finish and frame proportions grouped",
+      "canonicalId": "expansion12-material-3dtextures-wood-ceiling-coffers-004"
+    },
+    "wood-ceiling-001": {
+      "reason": "Alternating square basketweave/parquet family already represented by StylizedWoodFloor001; grain finish and plank density grouped",
+      "canonicalId": "expansion12-material-3dtextures-stylized-wood-floor-001"
+    },
+    "wood-planks-013": {
+      "reason": "Simple bolted plank lattice family already represented by WoodPlanks014; wood finish, bolt style and orientation variation",
+      "canonicalId": "expansion12-material-3dtextures-wood-planks-014"
+    },
+    "road-001": {
+      "reason": "Plain black strip with parallel lane lines/dashes; primitive road marking/stripe family without distinctive visible asphalt structure"
+    },
+    "ceiling-open-cell-001": {
+      "reason": "Almost uniform pale grid BaseColor; the three-dimensional open ceiling distinction resides in omitted PBR channels"
+    },
+    "leather-010": {
+      "reason": "Very low-contrast diamond seam BaseColor; existing primitive diamond padding family"
+    },
+    "sci-fi-padded-fabric-004": {
+      "reason": "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone"
+    },
+    "nylon-weave-001": {
+      "reason": "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone"
+    },
+    "metal-pattern-diamond-001": {
+      "reason": "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone"
+    },
+    "tiles-terracotta-004": {
+      "reason": "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone"
+    },
+    "wood-tiles-003": {
+      "reason": "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone"
+    },
+    "sci-fi-wall-005": {
+      "reason": "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone"
+    },
+    "bamboo-lattice-001": {
+      "reason": "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone"
+    },
+    "window-001": {
+      "reason": "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone"
+    },
+    "plastic-tubes-001": {
+      "reason": "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone"
+    },
+    "plastic-safety-fence-001": {
+      "reason": "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone"
+    },
+    "concrete-ceiling-001": {
+      "reason": "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone"
+    },
+    "tiles-040": {
+      "reason": "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone"
+    },
+    "concrete-wall-007": {
+      "reason": "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone"
+    },
+    "metal-mesh-002": {
+      "reason": "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone"
+    },
+    "sci-fi-wall-007": {
+      "reason": "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone"
+    },
+    "sci-fi-floor-002": {
+      "reason": "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone"
+    },
+    "metal-tiles-003": {
+      "reason": "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone"
+    },
+    "metal-grill-015": {
+      "reason": "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone"
+    },
+    "metal-plate-sci-fi-002": {
+      "reason": "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone"
+    },
+    "metal-weave-009": {
+      "reason": "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone"
+    },
+    "glass-window-002": {
+      "reason": "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone"
+    },
+    "fabric-vinyl-001": {
+      "reason": "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone"
+    },
+    "metal-grill-016": {
+      "reason": "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone"
+    },
+    "sci-fi-wall-004": {
+      "reason": "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone"
+    },
+    "sci-fi-metal-panel-001": {
+      "reason": "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone"
+    },
+    "metal-grill-013": {
+      "reason": "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone"
+    },
+    "concrete-blocks-006": {
+      "reason": "Generic running-bond brick/block layout already represented; material finish or weathering alone"
+    },
+    "brick-wall-019": {
+      "reason": "Generic running-bond brick/block layout already represented; material finish or weathering alone"
+    },
+    "concrete-blocks-005": {
+      "reason": "Generic running-bond brick/block layout already represented; material finish or weathering alone"
+    },
+    "brick-wall-018": {
+      "reason": "Generic running-bond brick/block layout already represented; material finish or weathering alone"
+    },
+    "terracotta-bricks-002": {
+      "reason": "Generic running-bond brick/block layout already represented; material finish or weathering alone"
+    },
+    "stone-wall-015": {
+      "reason": "Generic running-bond brick/block layout already represented; material finish or weathering alone"
+    },
+    "stylized-stone-wall-001": {
+      "reason": "Generic running-bond brick/block layout already represented; material finish or weathering alone"
+    },
+    "roof-tiles-schist-001": {
+      "reason": "Existing generic layered shingle/scallop family; color, relief and outline aspect are shape/style variants"
+    },
+    "stylized-wood-shingles-001": {
+      "reason": "Existing generic layered shingle/scallop family; color, relief and outline aspect are shape/style variants"
+    },
+    "roof-tiles-terracotta-006": {
+      "reason": "Existing generic layered shingle/scallop family; color, relief and outline aspect are shape/style variants"
+    },
+    "roof-tiles-stone-001": {
+      "reason": "Existing generic layered shingle/scallop family; color, relief and outline aspect are shape/style variants"
+    },
+    "shell-wall-001": {
+      "reason": "Existing generic layered shingle/scallop family; color, relief and outline aspect are shape/style variants"
+    },
+    "metal-grill-017": {
+      "reason": "Existing generic layered shingle/scallop family; color, relief and outline aspect are shape/style variants"
+    },
+    "metal-pattern-003": {
+      "reason": "Existing generic layered shingle/scallop family; color, relief and outline aspect are shape/style variants"
+    },
+    "tiles-moroccan-002": {
+      "reason": "Existing generic layered shingle/scallop family; color, relief and outline aspect are shape/style variants"
+    },
+    "wood-floor-009": {
+      "reason": "Parallel corrugation/rib/seam/plank lines; width, orientation, noise and color finishing are common stripe-family variations"
+    },
+    "rope-001": {
+      "reason": "Parallel corrugation/rib/seam/plank lines; width, orientation, noise and color finishing are common stripe-family variations"
+    },
+    "metal-corrugated-010": {
+      "reason": "Parallel corrugation/rib/seam/plank lines; width, orientation, noise and color finishing are common stripe-family variations"
+    },
+    "phone-cord-001": {
+      "reason": "Parallel corrugation/rib/seam/plank lines; width, orientation, noise and color finishing are common stripe-family variations"
+    },
+    "metal-plate-043": {
+      "reason": "Parallel corrugation/rib/seam/plank lines; width, orientation, noise and color finishing are common stripe-family variations"
+    },
+    "stylized-sand-001": {
+      "reason": "Parallel corrugation/rib/seam/plank lines; width, orientation, noise and color finishing are common stripe-family variations"
+    },
+    "stylized-scales-001": {
+      "reason": "Parallel corrugation/rib/seam/plank lines; width, orientation, noise and color finishing are common stripe-family variations"
+    },
+    "stylized-wood-planks-001": {
+      "reason": "Parallel corrugation/rib/seam/plank lines; width, orientation, noise and color finishing are common stripe-family variations"
+    },
+    "alpha-brush-stitches-001": {
+      "reason": "Parallel corrugation/rib/seam/plank lines; width, orientation, noise and color finishing are common stripe-family variations"
+    },
+    "wood-herringbone-tiles-002": {
+      "reason": "Same basic herringbone/basketweave or nested diamond assembly; density, color and material finish are grouped"
+    },
+    "wood-herringbone-tiles-003": {
+      "reason": "Same basic herringbone/basketweave or nested diamond assembly; density, color and material finish are grouped"
+    },
+    "wood-herringbone-tiles-001": {
+      "reason": "Same basic herringbone/basketweave or nested diamond assembly; density, color and material finish are grouped"
+    },
+    "wood-acoustic-panels-001": {
+      "reason": "Same basic herringbone/basketweave or nested diamond assembly; density, color and material finish are grouped"
+    },
+    "leather-weave-002": {
+      "reason": "Same basic herringbone/basketweave or nested diamond assembly; density, color and material finish are grouped"
+    },
+    "fabric-028": {
+      "reason": "Same basic herringbone/basketweave or nested diamond assembly; density, color and material finish are grouped"
+    },
+    "metal-floor-001": {
+      "reason": "Same basic herringbone/basketweave or nested diamond assembly; density, color and material finish are grouped"
+    },
+    "fabric-carpet-001": {
+      "reason": "Same basic herringbone/basketweave or nested diamond assembly; density, color and material finish are grouped"
+    },
+    "fabric-quilt-005": {
+      "reason": "Same basic herringbone/basketweave or nested diamond assembly; density, color and material finish are grouped"
+    },
+    "terracotta-tiles-004": {
+      "reason": "Same basic herringbone/basketweave or nested diamond assembly; density, color and material finish are grouped"
+    },
+    "stylized-tiles-001": {
+      "reason": "Already represented generic polygon-cell/scallop floor family; procedural cell layout and style/finish variation are grouped"
+    },
+    "stylized-stone-floor-002": {
+      "reason": "Already represented generic polygon-cell/scallop floor family; procedural cell layout and style/finish variation are grouped"
+    },
+    "stylized-stone-floor-001": {
+      "reason": "Already represented generic polygon-cell/scallop floor family; procedural cell layout and style/finish variation are grouped"
+    },
+    "stylized-rocks-002": {
+      "reason": "Already represented generic polygon-cell/scallop floor family; procedural cell layout and style/finish variation are grouped"
+    },
+    "stylized-rocks-001": {
+      "reason": "Already represented generic polygon-cell/scallop floor family; procedural cell layout and style/finish variation are grouped"
+    },
+    "rocks-hexagons-001": {
+      "reason": "Already represented generic polygon-cell/scallop floor family; procedural cell layout and style/finish variation are grouped"
+    },
+    "stylized-scales-002": {
+      "reason": "Plain regular dot/stud/checker mesh or oval-chain lattice already represented; color or noise finishing does not add independent motif geometry"
+    },
+    "fabric-030": {
+      "reason": "Plain regular dot/stud/checker mesh or oval-chain lattice already represented; color or noise finishing does not add independent motif geometry"
+    },
+    "tiles-039": {
+      "reason": "Plain regular dot/stud/checker mesh or oval-chain lattice already represented; color or noise finishing does not add independent motif geometry"
+    },
+    "metal-mesh-003": {
+      "reason": "Plain regular dot/stud/checker mesh or oval-chain lattice already represented; color or noise finishing does not add independent motif geometry"
+    },
+    "metal-grill-018": {
+      "reason": "Plain regular dot/stud/checker mesh or oval-chain lattice already represented; color or noise finishing does not add independent motif geometry"
+    },
+    "fabric-027": {
+      "reason": "Plain regular dot/stud/checker mesh or oval-chain lattice already represented; color or noise finishing does not add independent motif geometry"
+    },
+    "fabric-nylon-weave-001": {
+      "reason": "Plain regular dot/stud/checker mesh or oval-chain lattice already represented; color or noise finishing does not add independent motif geometry"
+    },
+    "fabric-mesh-001": {
+      "reason": "Plain regular dot/stud/checker mesh or oval-chain lattice already represented; color or noise finishing does not add independent motif geometry"
+    },
+    "leather-009": {
+      "reason": "Plain regular dot/stud/checker mesh or oval-chain lattice already represented; color or noise finishing does not add independent motif geometry"
+    },
+    "metal-grill-rusted-001": {
+      "reason": "Plain regular dot/stud/checker mesh or oval-chain lattice already represented; color or noise finishing does not add independent motif geometry"
+    },
+    "metal-mesh-004": {
+      "reason": "Plain regular dot/stud/checker mesh or oval-chain lattice already represented; color or noise finishing does not add independent motif geometry"
+    },
+    "metal-iron-guard-003": {
+      "reason": "Plain regular dot/stud/checker mesh or oval-chain lattice already represented; color or noise finishing does not add independent motif geometry"
+    },
+    "wood-ceiling-coffers-002": {
+      "reason": "Nested square coffer frame family already represented by WoodCeilingCoffers004; finish and frame proportions grouped"
+    },
+    "metal-ceiling-vintage-001": {
+      "reason": "Nested square coffer frame family already represented by WoodCeilingCoffers004; finish and frame proportions grouped"
+    },
+    "fabric-trap-001": {
+      "reason": "Low-contrast plain weave or fine grain BaseColor already represented; no distinctive structure at retained original resolution"
+    },
+    "grip-tape-001": {
+      "reason": "Low-contrast plain weave or fine grain BaseColor already represented; no distinctive structure at retained original resolution"
+    },
+    "fabric-wool-001": {
+      "reason": "Low-contrast plain weave or fine grain BaseColor already represented; no distinctive structure at retained original resolution"
+    },
+    "fabric-polyester-004": {
+      "reason": "Low-contrast plain weave or fine grain BaseColor already represented; no distinctive structure at retained original resolution"
+    },
+    "metal-pitted-001": {
+      "reason": "Low-contrast plain weave or fine grain BaseColor already represented; no distinctive structure at retained original resolution"
+    },
+    "fabric-mesh-002": {
+      "reason": "Low-contrast plain weave or fine grain BaseColor already represented; no distinctive structure at retained original resolution"
+    },
+    "fabric-026": {
+      "reason": "Low-contrast plain weave or fine grain BaseColor already represented; no distinctive structure at retained original resolution"
+    },
+    "fabric-burlap-004": {
+      "reason": "Low-contrast plain weave or fine grain BaseColor already represented; no distinctive structure at retained original resolution"
+    },
+    "stylized-grass-002": {
+      "reason": "Low-contrast plain weave or fine grain BaseColor already represented; no distinctive structure at retained original resolution"
+    },
+    "metal-pattern-004": {
+      "reason": "Low-contrast plain weave or fine grain BaseColor already represented; no distinctive structure at retained original resolution"
+    },
+    "fabric-tartan-001": {
+      "reason": "Basic stripe/plaid/argyle layout already represented; coloration or weave finishing alone"
+    },
+    "fabric-knitted-003": {
+      "reason": "Basic stripe/plaid/argyle layout already represented; coloration or weave finishing alone"
+    },
+    "tiles-terracotta-005": {
+      "reason": "Basic stripe/plaid/argyle layout already represented; coloration or weave finishing alone"
+    },
+    "fabric-argyle-001": {
+      "reason": "Basic stripe/plaid/argyle layout already represented; coloration or weave finishing alone"
+    },
+    "warning-plate-biohazard": {
+      "reason": "Standard warning glyph composition already represented by existing icon families; grunge and orange background alone are finish variations"
+    },
+    "railway-track-001": {
+      "reason": "Simple rail-and-tie ladder primitive already represented; object-color finishing is not an independent design composition"
+    },
+    "wall-interior-001": {
+      "reason": "Flat two-color interior wall BaseColor; no distinctive texture structure at retained resolution"
+    },
+    "concrete-blocks-003": {
+      "reason": "Simple repeated circle/quatrefoil lattice family; clipping, density and concrete finishing are grouped"
+    },
+    "metal-plate-rusted-001": {
+      "reason": "Same nested triangular hexagon motif as MetalPlate044; rust/color finish variant"
+    },
+    "tiles-terracotta-003": {
+      "reason": "Common colored diamond/square pixel mosaic geometry already represented; color distribution alone"
+    },
+    "wood-wall-002": {
+      "reason": "Generic regular square/diamond/triangle panel lattice already represented; finish and material color alone"
+    },
+    "glass-window-001": {
+      "reason": "Generic regular square/diamond/triangle panel lattice already represented; finish and material color alone"
+    },
+    "metal-plate-042": {
+      "reason": "Generic regular square/diamond/triangle panel lattice already represented; finish and material color alone"
+    },
+    "wood-gate-fortified-001": {
+      "reason": "Generic regular square/diamond/triangle panel lattice already represented; finish and material color alone"
+    },
+    "wood-gate-fortified-002": {
+      "reason": "Generic regular square/diamond/triangle panel lattice already represented; finish and material color alone"
+    },
+    "tiles-triangles-001": {
+      "reason": "Generic regular square/diamond/triangle panel lattice already represented; finish and material color alone"
+    },
+    "glass-blocks-001a": {
+      "reason": "Generic regular square/diamond/triangle panel lattice already represented; finish and material color alone"
+    },
+    "metal-plate-sci-fi-001": {
+      "reason": "Generic regular square/diamond/triangle panel lattice already represented; finish and material color alone"
+    },
+    "glass-blocks-001": {
+      "reason": "Generic regular square/diamond/triangle panel lattice already represented; finish and material color alone"
+    },
+    "fabric-padded-polyester-001": {
+      "reason": "Generic regular square/diamond/triangle panel lattice already represented; finish and material color alone"
+    },
+    "metal-tiles-002": {
+      "reason": "Generic regular square/diamond/triangle panel lattice already represented; finish and material color alone"
+    },
+    "stylized-blocks-001": {
+      "reason": "Generic regular square/diamond/triangle panel lattice already represented; finish and material color alone"
+    },
+    "stylized-feathers-001": {
+      "reason": "Existing generic layered shingle/scallop family; color, relief and outline aspect are shape/style variants"
+    },
+    "roof-tiles-japanese-001": {
+      "reason": "Existing generic layered shingle/scallop family; color, relief and outline aspect are shape/style variants"
+    },
+    "roof-tiles-japanese-002": {
+      "reason": "Existing generic layered shingle/scallop family; color, relief and outline aspect are shape/style variants"
+    },
+    "tiles-metal-001": {
+      "reason": "Existing generic layered shingle/scallop family; color, relief and outline aspect are shape/style variants"
+    },
+    "roof-tiles-terracotta-005": {
+      "reason": "Existing generic layered shingle/scallop family; color, relief and outline aspect are shape/style variants"
+    },
+    "roof-tiles-terracotta-004": {
+      "reason": "Existing generic layered shingle/scallop family; color, relief and outline aspect are shape/style variants"
+    },
+    "metal-rollup-door-001": {
+      "reason": "Parallel rib/stripe family already represented; seam, rust, fabric and material finishing changes alone"
+    },
+    "metal-corrugated-009": {
+      "reason": "Parallel rib/stripe family already represented; seam, rust, fabric and material finishing changes alone"
+    },
+    "sci-fi-padded-fabric-003": {
+      "reason": "Parallel rib/stripe family already represented; seam, rust, fabric and material finishing changes alone"
+    },
+    "sci-fi-padded-fabric-002": {
+      "reason": "Same regular running-bond/rectangular slab family already represented; finish or thin seam variation"
+    },
+    "tiles-035": {
+      "reason": "Same regular running-bond/rectangular slab family already represented; finish or thin seam variation"
+    },
+    "stone-tiles-004": {
+      "reason": "Same regular running-bond/rectangular slab family already represented; finish or thin seam variation"
+    },
+    "stone-column-001": {
+      "reason": "Same regular running-bond/rectangular slab family already represented; finish or thin seam variation"
+    },
+    "stone-wall-013": {
+      "reason": "Same regular running-bond/rectangular slab family already represented; finish or thin seam variation"
+    },
+    "wood-cabinet-001": {
+      "reason": "Nested frame/coffer or basketweave lattice family already represented; cross-rail or wood/leather finish variation"
+    },
+    "wood-wicker-005": {
+      "reason": "Nested frame/coffer or basketweave lattice family already represented; cross-rail or wood/leather finish variation"
+    },
+    "leather-weave-001": {
+      "reason": "Nested frame/coffer or basketweave lattice family already represented; cross-rail or wood/leather finish variation"
+    },
+    "metal-chain-link-003": {
+      "reason": "Nested frame/coffer or basketweave lattice family already represented; cross-rail or wood/leather finish variation"
+    },
+    "wood-door-002": {
+      "reason": "Nested frame/coffer or basketweave lattice family already represented; cross-rail or wood/leather finish variation"
+    },
+    "tiles-033": {
+      "reason": "Basic argyle lattice with small center studs/rosettes already represented; finish rather than independent motif structure"
+    },
+    "metal-sci-fi-002": {
+      "reason": "Existing simple quatrefoil/circle lattice family; color/wood frame finishing variation"
+    },
+    "wood-pattern-coffers-003": {
+      "reason": "Existing simple quatrefoil/circle lattice family; color/wood frame finishing variation"
+    },
+    "wood-pattern-coffers-002": {
+      "reason": "Existing simple quatrefoil/circle lattice family; color/wood frame finishing variation"
+    },
+    "tactile-ground-001": {
+      "reason": "Plain dot/stud or rectangular weave/mesh primitive already represented; metal/color finishing alone"
+    },
+    "metal-panel-007": {
+      "reason": "Plain dot/stud or rectangular weave/mesh primitive already represented; metal/color finishing alone"
+    },
+    "metal-weave-008a": {
+      "reason": "Plain dot/stud or rectangular weave/mesh primitive already represented; metal/color finishing alone"
+    },
+    "metal-weave-008": {
+      "reason": "Plain dot/stud or rectangular weave/mesh primitive already represented; metal/color finishing alone"
+    },
+    "fabric-burlap-003": {
+      "reason": "Low-contrast plain weave/mesh BaseColor already represented; no distinctive construction at original resolution"
+    },
+    "fabric-025": {
+      "reason": "Low-contrast plain weave/mesh BaseColor already represented; no distinctive construction at original resolution"
+    },
+    "tiles-hexagons-003": {
+      "reason": "Common isometric cube/hexagonal wire repeat already represented; face-stripe fill or color variation"
+    },
+    "metal-grill-012": {
+      "reason": "Common isometric cube/hexagonal wire repeat already represented; face-stripe fill or color variation"
+    },
+    "tiles-chaine-homme-001": {
+      "reason": "Common interlocking orthogonal meander motif family already represented; line thickness and tile coloring are parameters"
+    },
+    "metal-iron-guard-001": {
+      "reason": "Same actual looped iron-rail/wood geometry as WoodDoor003; direct view and original multi-scale crop/D4/phase score .9999975. JPEG encoding differs but content does not.",
+      "canonicalId": "expansion12-material-3dtextures-wood-door-003"
+    },
+    "tiles-057": {
+      "reason": "Original BaseColor is a regular half-offset running-bond rectangle field rotated vertically, with almost uniform gray finish. Orientation/finish changes do not add a material construction.",
+      "independentEvidence": "data/upstream/expansion12-materials/independent-review.json",
+      "canonicalId": "phase2-material-polyhaven-white-bricks"
+    },
+    "tiles-pyramids-001": {
+      "reason": "Regular elongated diamond cell grid; highlights and green finish describe simple padding relief. The selected color map supplies no additional compound texture beyond a basic diamond lattice.",
+      "independentEvidence": "data/upstream/expansion12-materials/independent-review.json"
+    },
+    "concrete-blocks-015": {
+      "reason": "Regular repeated rhombus/hexagon lattice with concrete shading. One primitive cell repeats; color/relief/scale are grid-family parameters.",
+      "independentEvidence": "data/upstream/expansion12-materials/independent-review.json"
+    },
+    "concrete-tiles-002": {
+      "reason": "Uniform equilateral triangle grid on a plain stone finish; primitive grid repetition already represented, with material grain/shading as the finish variation.",
+      "independentEvidence": "data/upstream/expansion12-materials/independent-review.json"
+    },
+    "paper-lantern-001": {
+      "reason": "Plain regular rectangular line grid with orange/red translucent finish; color, contrast and cell spacing describe the common grid family.",
+      "independentEvidence": "data/upstream/expansion12-materials/independent-review.json",
+      "canonicalId": "design-heropatterns-rails"
+    },
+    "sci-fi-wall-012": {
+      "reason": "Regular triangular embossed cell grid; gold color/highlights are a relief/finish variation of the simple triangle-grid construction.",
+      "independentEvidence": "data/upstream/expansion12-materials/independent-review.json",
+      "canonicalId": "expansion12-material-3dtextures-concrete-tiles-002"
+    },
+    "sci-fi-wall-013": {
+      "reason": "Regular square cells split by both diagonal lines into triangular spokes; plain blue/gold coloring and line width are variants of a primitive triangular-spoke grid.",
+      "independentEvidence": "data/upstream/expansion12-materials/independent-review.json",
+      "canonicalId": "expansion12-kenney-pattern-pack-lines-pattern-0013"
+    },
+    "metal-corrugated-016": {
+      "reason": "Source shows the same uniform broad blue corrugation/rib family as metal-grill-027. D4 orientation, rib frequency and corrosion/finish variation add no compound panel geometry.",
+      "independentEvidence": "data/upstream/expansion12-materials/independent-review.json",
+      "canonicalId": "expansion12-material-3dtextures-metal-grill-027"
+    },
+    "fabric-037": {
+      "reason": "Original is a uniform circular-dot weave field with two straight orange seam stripes. Dot pitch, stripe count and dark/orange color styling are primitive weave/stripe parameters.",
+      "independentEvidence": "data/upstream/expansion12-materials/independent-review.json"
+    },
+    "metal-weave-004": {
+      "reason": "Common small woven/checker/diamond mesh family already represented; density, orientation and finish parameters"
+    },
+    "metal-weave-005": {
+      "reason": "Common small woven/checker/diamond mesh family already represented; density, orientation and finish parameters"
+    },
+    "metal-plate-028": {
+      "reason": "Common small woven/checker/diamond mesh family already represented; density, orientation and finish parameters"
+    },
+    "metal-weave-003": {
+      "reason": "Common small woven/checker/diamond mesh family already represented; density, orientation and finish parameters"
+    },
+    "string-weave-001": {
+      "reason": "Common small woven/checker/diamond mesh family already represented; density, orientation and finish parameters"
+    },
+    "carbon-fiber-001": {
+      "reason": "Common small woven/checker/diamond mesh family already represented; density, orientation and finish parameters"
+    },
+    "metal-weave-006": {
+      "reason": "Common small woven/checker/diamond mesh family already represented; density, orientation and finish parameters"
+    },
+    "plastic-grill-001": {
+      "reason": "Common small woven/checker/diamond mesh family already represented; density, orientation and finish parameters"
+    },
+    "metal-fence-001": {
+      "reason": "Common small woven/checker/diamond mesh family already represented; density, orientation and finish parameters"
+    },
+    "metal-plate-031": {
+      "reason": "Regular square/triangle/hexagonal panel grid already represented; material coloration, rim thickness or relief finishing alone"
+    },
+    "metal-grill-010": {
+      "reason": "Regular square/triangle/hexagonal panel grid already represented; material coloration, rim thickness or relief finishing alone"
+    },
+    "tiles-028": {
+      "reason": "Regular square/triangle/hexagonal panel grid already represented; material coloration, rim thickness or relief finishing alone"
+    },
+    "solar-panel-001": {
+      "reason": "Regular square/triangle/hexagonal panel grid already represented; material coloration, rim thickness or relief finishing alone"
+    },
+    "sci-fi-wall-003": {
+      "reason": "Regular square/triangle/hexagonal panel grid already represented; material coloration, rim thickness or relief finishing alone"
+    },
+    "metal-plate-041": {
+      "reason": "Regular square/triangle/hexagonal panel grid already represented; material coloration, rim thickness or relief finishing alone"
+    },
+    "honeycomb-001": {
+      "reason": "Regular square/triangle/hexagonal panel grid already represented; material coloration, rim thickness or relief finishing alone"
+    },
+    "metal-plate-029": {
+      "reason": "Regular square/triangle/hexagonal panel grid already represented; material coloration, rim thickness or relief finishing alone"
+    },
+    "metal-grill-006a": {
+      "reason": "Existing generic layered shingle/scallop family; coloration, surface relief or row density change alone"
+    },
+    "roof-tiles-terracotta-002": {
+      "reason": "Existing generic layered shingle/scallop family; coloration, surface relief or row density change alone"
+    },
+    "roof-tiles-terracotta-003": {
+      "reason": "Existing generic layered shingle/scallop family; coloration, surface relief or row density change alone"
+    },
+    "dragon-scales-001": {
+      "reason": "Existing generic layered shingle/scallop family; coloration, surface relief or row density change alone"
+    },
+    "metal-plate-040": {
+      "reason": "Regular dot/stud or teardrop scatter family already represented; color and grid spacing parameters"
+    },
+    "metal-grill-011": {
+      "reason": "Regular dot/stud or teardrop scatter family already represented; color and grid spacing parameters"
+    },
+    "fabric-padded-004": {
+      "reason": "Regular dot/stud or teardrop scatter family already represented; color and grid spacing parameters"
+    },
+    "metal-grill-007": {
+      "reason": "Regular dot/stud or teardrop scatter family already represented; color and grid spacing parameters"
+    },
+    "coin-stack-002": {
+      "reason": "Parallel rib/stripe family already represented; material naming, seam/relief and color finishing alone"
+    },
+    "corrugated-metal-grill-001": {
+      "reason": "Parallel rib/stripe family already represented; material naming, seam/relief and color finishing alone"
+    },
+    "vent-002": {
+      "reason": "Parallel rib/stripe family already represented; material naming, seam/relief and color finishing alone"
+    },
+    "glass-pattern-002": {
+      "reason": "Same simple oval/lantern chain lattice family already represented; tiny junction studs and coloration are finish variations"
+    },
+    "tiles-lantern-001": {
+      "reason": "Same simple oval/lantern chain lattice family already represented; tiny junction studs and coloration are finish variations"
+    },
+    "brick-wall-017": {
+      "reason": "Common running-bond brick/block layout already represented; surface color/weathering variation alone"
+    },
+    "metal-weave-007": {
+      "reason": "Very low-information grain or fine weave BaseColor; structure is principally in omitted PBR channels"
+    },
+    "soundproof-wool-001": {
+      "reason": "Very low-information grain or fine weave BaseColor; structure is principally in omitted PBR channels"
+    },
+    "metal-grill-009": {
+      "reason": "Regular perforated hexagon assembly shares HexaGripBoard001 motif family; yellow coloring, dot density and relief are parameters"
+    },
+    "rug-003": {
+      "reason": "Common small woven/checker/diamond mesh family already represented; density, orientation and finish parameters"
+    },
+    "rug-004": {
+      "reason": "Common small woven/checker/diamond mesh family already represented; density, orientation and finish parameters"
+    },
+    "plastic-weave-001": {
+      "reason": "Common small woven/checker/diamond mesh family already represented; density, orientation and finish parameters"
+    },
+    "metal-pattern-002": {
+      "reason": "Regular square/triangle/hexagonal panel grid already represented; material coloration, rim thickness or relief finishing alone"
+    },
+    "tiles-030": {
+      "reason": "Regular square/triangle/hexagonal panel grid already represented; material coloration, rim thickness or relief finishing alone"
+    },
+    "tiles-031": {
+      "reason": "Regular square/triangle/hexagonal panel grid already represented; material coloration, rim thickness or relief finishing alone"
+    },
+    "tiles-032": {
+      "reason": "Regular square/triangle/hexagonal panel grid already represented; material coloration, rim thickness or relief finishing alone"
+    },
+    "metal-grill-006": {
+      "reason": "Existing generic layered shingle/scallop family; coloration, surface relief or row density change alone"
+    },
+    "metal-plate-027": {
+      "reason": "Regular dot/stud or teardrop scatter family already represented; color and grid spacing parameters"
+    },
+    "coral-001": {
+      "reason": "Regular dot/stud or teardrop scatter family already represented; color and grid spacing parameters"
+    },
+    "leather-diamond-patches-001": {
+      "reason": "Same basic padded diamond/cross or orthogonal meander/running-bond assembly already represented; material/color finishing parameters"
+    },
+    "concrete-bricks-001": {
+      "reason": "Same basic padded diamond/cross or orthogonal meander/running-bond assembly already represented; material/color finishing parameters"
+    },
+    "metal-plate-025": {
+      "reason": "Same basic padded diamond/cross or orthogonal meander/running-bond assembly already represented; material/color finishing parameters"
+    },
+    "fabric-020": {
+      "reason": "Common skull UI glyph scatter family already represented; background and skull-color changes are variants"
+    },
+    "fabric-020a": {
+      "reason": "Common skull UI glyph scatter family already represented; background and skull-color changes are variants"
+    },
+    "honeycomb-002": {
+      "reason": "Same regular honeycomb lattice; filling or coloring a few cells does not create a new geometry"
+    },
+    "metal-plate-026": {
+      "reason": "Basic hazard-stripe panel border already represented; metallic grain and yellow coloring are finishing variants"
+    },
+    "wood-wicker-004": {
+      "reason": "Common basketweave/coffer/grid texture already represented; weave-strip width and color/style finishing parameters"
+    },
+    "rug-005": {
+      "reason": "Common basketweave/coffer/grid texture already represented; weave-strip width and color/style finishing parameters"
+    },
+    "wood-acoustic-panel-001": {
+      "reason": "Common basketweave/coffer/grid texture already represented; weave-strip width and color/style finishing parameters"
+    },
+    "wood-wicker-002": {
+      "reason": "Common basketweave/coffer/grid texture already represented; weave-strip width and color/style finishing parameters"
+    },
+    "wood-tiles-002": {
+      "reason": "Common basketweave/coffer/grid texture already represented; weave-strip width and color/style finishing parameters"
+    },
+    "metal-plate-019": {
+      "reason": "Common basketweave/coffer/grid texture already represented; weave-strip width and color/style finishing parameters"
+    },
+    "metal-plate-019a": {
+      "reason": "Common basketweave/coffer/grid texture already represented; weave-strip width and color/style finishing parameters"
+    },
+    "corrugated-metal-grill-001a": {
+      "reason": "Common parallel corrugation or running-bond plank/slab family; rust and color/weathering variations"
+    },
+    "metal-corrugated-007a": {
+      "reason": "Common parallel corrugation or running-bond plank/slab family; rust and color/weathering variations"
+    },
+    "metal-corrugated-007b": {
+      "reason": "Common parallel corrugation or running-bond plank/slab family; rust and color/weathering variations"
+    },
+    "wood-planks-011": {
+      "reason": "Common parallel corrugation or running-bond plank/slab family; rust and color/weathering variations"
+    },
+    "wood-planks-012": {
+      "reason": "Common parallel corrugation or running-bond plank/slab family; rust and color/weathering variations"
+    },
+    "metal-plate-024": {
+      "reason": "Common parallel corrugation or running-bond plank/slab family; rust and color/weathering variations"
+    },
+    "concrete-column-001": {
+      "reason": "Common parallel corrugation or running-bond plank/slab family; rust and color/weathering variations"
+    },
+    "wall-stone-010": {
+      "reason": "Common parallel corrugation or running-bond plank/slab family; rust and color/weathering variations"
+    },
+    "sci-fi-wall-002": {
+      "reason": "Same elementary triangular/hexagonal/isometric-star-cell tessellation already represented; line/fill and material finishing variants"
+    },
+    "sci-fi-padded-fabric-001": {
+      "reason": "Same elementary triangular/hexagonal/isometric-star-cell tessellation already represented; line/fill and material finishing variants"
+    },
+    "tiles-stars-and-hexagons-001": {
+      "reason": "Same elementary triangular/hexagonal/isometric-star-cell tessellation already represented; line/fill and material finishing variants"
+    },
+    "tiles-020": {
+      "reason": "Same elementary triangular/hexagonal/isometric-star-cell tessellation already represented; line/fill and material finishing variants"
+    },
+    "concrete-blocks-002": {
+      "reason": "Same elementary triangular/hexagonal/isometric-star-cell tessellation already represented; line/fill and material finishing variants"
+    },
+    "wood-tiles-001": {
+      "reason": "Same elementary triangular/hexagonal/isometric-star-cell tessellation already represented; line/fill and material finishing variants"
+    },
+    "metal-plate-16a": {
+      "reason": "Same elementary triangular/hexagonal/isometric-star-cell tessellation already represented; line/fill and material finishing variants"
+    },
+    "tiles-025": {
+      "reason": "Existing ordinary scallop/ellipse-chain/quatrefoil lattice family; fill, shading and color changes are parameters"
+    },
+    "tiles-025a": {
+      "reason": "Existing ordinary scallop/ellipse-chain/quatrefoil lattice family; fill, shading and color changes are parameters"
+    },
+    "tiles-026": {
+      "reason": "Existing ordinary scallop/ellipse-chain/quatrefoil lattice family; fill, shading and color changes are parameters"
+    },
+    "metal-tiles-001": {
+      "reason": "Existing ordinary scallop/ellipse-chain/quatrefoil lattice family; fill, shading and color changes are parameters"
+    },
+    "tiles-022": {
+      "reason": "Existing ordinary scallop/ellipse-chain/quatrefoil lattice family; fill, shading and color changes are parameters"
+    },
+    "tiles-024": {
+      "reason": "Existing ordinary scallop/ellipse-chain/quatrefoil lattice family; fill, shading and color changes are parameters"
+    },
+    "fabric-quilt-002": {
+      "reason": "Existing ordinary scallop/ellipse-chain/quatrefoil lattice family; fill, shading and color changes are parameters"
+    },
+    "tiles-018": {
+      "reason": "Existing ordinary scallop/ellipse-chain/quatrefoil lattice family; fill, shading and color changes are parameters"
+    },
+    "marker-pens-001": {
+      "reason": "Regular colored concentric-circle cap lattice; ring spacing and colors are parameters of an existing basic ring/dot motif family"
+    },
+    "metal-grill-002": {
+      "reason": "Existing simple elongated-oval/stud lattice; density and material finish variations"
+    },
+    "abstract-008": {
+      "reason": "Existing generic cell/Voronoi network family; seed distribution and color/finish variations"
+    },
+    "metal-hammered-001": {
+      "reason": "Existing generic cell/Voronoi network family; seed distribution and color/finish variations"
+    },
+    "wood-wicker-001": {
+      "reason": "Very low-information nearly uniform BaseColor; fine weave/paint distinction is principally in omitted PBR channels"
+    },
+    "metal-painted-001a": {
+      "reason": "Very low-information nearly uniform BaseColor; fine weave/paint distinction is principally in omitted PBR channels"
+    },
+    "coin-stack-003a": {
+      "reason": "Same actual clustered coin original composition as CoinStack003; crop/replication or filled tile density variant"
+    },
+    "fabric-padded-003": {
+      "reason": "Same ornate leaf/medallion fabric design as Fabric016; red shading and quilt relief changes are finish variations"
+    },
+    "metal-plate-023": {
+      "reason": "Same elementary panel/coffer/triangle/diamond/hexagonal grid already represented; material coloration, cell density, bolts or relief finishing variants"
+    },
+    "metal-plate-022": {
+      "reason": "Same elementary panel/coffer/triangle/diamond/hexagonal grid already represented; material coloration, cell density, bolts or relief finishing variants"
+    },
+    "metal-plate-022a": {
+      "reason": "Same elementary panel/coffer/triangle/diamond/hexagonal grid already represented; material coloration, cell density, bolts or relief finishing variants"
+    },
+    "metal-plate-011": {
+      "reason": "Same elementary panel/coffer/triangle/diamond/hexagonal grid already represented; material coloration, cell density, bolts or relief finishing variants"
+    },
+    "concrete-blocks-001": {
+      "reason": "Same elementary panel/coffer/triangle/diamond/hexagonal grid already represented; material coloration, cell density, bolts or relief finishing variants"
+    },
+    "disco-ball-001": {
+      "reason": "Same elementary panel/coffer/triangle/diamond/hexagonal grid already represented; material coloration, cell density, bolts or relief finishing variants"
+    },
+    "wood-pattern-coffers-001": {
+      "reason": "Same elementary panel/coffer/triangle/diamond/hexagonal grid already represented; material coloration, cell density, bolts or relief finishing variants"
+    },
+    "tiles-027": {
+      "reason": "Same elementary panel/coffer/triangle/diamond/hexagonal grid already represented; material coloration, cell density, bolts or relief finishing variants"
+    },
+    "tiles-016": {
+      "reason": "Same elementary panel/coffer/triangle/diamond/hexagonal grid already represented; material coloration, cell density, bolts or relief finishing variants"
+    },
+    "tiles-023": {
+      "reason": "Same elementary panel/coffer/triangle/diamond/hexagonal grid already represented; material coloration, cell density, bolts or relief finishing variants"
+    },
+    "tiles-023a": {
+      "reason": "Same elementary panel/coffer/triangle/diamond/hexagonal grid already represented; material coloration, cell density, bolts or relief finishing variants"
+    },
+    "fabric-padded-002": {
+      "reason": "Same elementary panel/coffer/triangle/diamond/hexagonal grid already represented; material coloration, cell density, bolts or relief finishing variants"
+    },
+    "metal-corrugated-008": {
+      "reason": "Generic parallel rib/cable and circle/scallop/diamond chain patterns already represented; finish, weave density and coloring parameters"
+    },
+    "metal-corrugated-007": {
+      "reason": "Generic parallel rib/cable and circle/scallop/diamond chain patterns already represented; finish, weave density and coloring parameters"
+    },
+    "stainless-steel-cable-001": {
+      "reason": "Generic parallel rib/cable and circle/scallop/diamond chain patterns already represented; finish, weave density and coloring parameters"
+    },
+    "fabric-018": {
+      "reason": "Generic parallel rib/cable and circle/scallop/diamond chain patterns already represented; finish, weave density and coloring parameters"
+    },
+    "glass-pattern-001": {
+      "reason": "Generic parallel rib/cable and circle/scallop/diamond chain patterns already represented; finish, weave density and coloring parameters"
+    },
+    "fabric-013a": {
+      "reason": "Generic parallel rib/cable and circle/scallop/diamond chain patterns already represented; finish, weave density and coloring parameters"
+    },
+    "chain-link-002": {
+      "reason": "Generic parallel rib/cable and circle/scallop/diamond chain patterns already represented; finish, weave density and coloring parameters"
+    },
+    "asphalt-shingles-002": {
+      "reason": "Generic parallel rib/cable and circle/scallop/diamond chain patterns already represented; finish, weave density and coloring parameters"
+    },
+    "wood-shingles-001-stylized": {
+      "reason": "Generic parallel rib/cable and circle/scallop/diamond chain patterns already represented; finish, weave density and coloring parameters"
+    },
+    "fabric-quilt-003": {
+      "reason": "Existing common dot/stud/oval or linked-ring grid family; palette, row spacing and tiny junction decoration are parameters"
+    },
+    "colored-pencils-001": {
+      "reason": "Existing common dot/stud/oval or linked-ring grid family; palette, row spacing and tiny junction decoration are parameters"
+    },
+    "colored-pencils-002": {
+      "reason": "Existing common dot/stud/oval or linked-ring grid family; palette, row spacing and tiny junction decoration are parameters"
+    },
+    "metal-plate-015": {
+      "reason": "Existing common dot/stud/oval or linked-ring grid family; palette, row spacing and tiny junction decoration are parameters"
+    },
+    "tiles-019": {
+      "reason": "Existing common dot/stud/oval or linked-ring grid family; palette, row spacing and tiny junction decoration are parameters"
+    },
+    "fabric-017": {
+      "reason": "Existing common dot/stud/oval or linked-ring grid family; palette, row spacing and tiny junction decoration are parameters"
+    },
+    "tiles-021": {
+      "reason": "Common elementary checkerboard/hatch-fill or basketwork family; orientation, density and material-color finishing alone"
+    },
+    "wood-wicker-003": {
+      "reason": "Common elementary checkerboard/hatch-fill or basketwork family; orientation, density and material-color finishing alone"
+    },
+    "leather-005": {
+      "reason": "BaseColor contains almost flat color or regular pale ceiling grid; distinctive surface relief is in omitted PBR channels"
+    },
+    "ceiling-drop-tiles-001": {
+      "reason": "BaseColor contains almost flat color or regular pale ceiling grid; distinctive surface relief is in omitted PBR channels"
+    },
+    "ceiling-gypsum-001": {
+      "reason": "BaseColor contains almost flat color or regular pale ceiling grid; distinctive surface relief is in omitted PBR channels"
+    },
+    "ceiling-gypsum-001a": {
+      "reason": "BaseColor contains almost flat color or regular pale ceiling grid; distinctive surface relief is in omitted PBR channels"
+    },
+    "metal-plate-021": {
+      "reason": "Basic metal panel with two parallel border rails already represented; metallic grain, grip/handle or color changes alone"
+    },
+    "sci-fi-wall-001": {
+      "reason": "Basic metal panel with two parallel border rails already represented; metallic grain, grip/handle or color changes alone"
+    },
+    "metal-grill-005": {
+      "reason": "Regular coarse frame/mesh or nested-hexagonal lattice family already represented; panel count, noise/color and cell aspect parameters"
+    },
+    "metal-grill-005a": {
+      "reason": "Regular coarse frame/mesh or nested-hexagonal lattice family already represented; panel count, noise/color and cell aspect parameters"
+    },
+    "metal-plate-016": {
+      "reason": "Regular coarse frame/mesh or nested-hexagonal lattice family already represented; panel count, noise/color and cell aspect parameters"
+    },
+    "wood-012-tiles": {
+      "reason": "Simple regular hexagonal floor/cell grid; wood or terracotta finishing rather than independent geometry"
+    },
+    "terracotta-tiles-002": {
+      "reason": "Simple regular hexagonal floor/cell grid; wood or terracotta finishing rather than independent geometry"
+    },
+    "terracotta-tiles-002a": {
+      "reason": "Simple regular hexagonal floor/cell grid; wood or terracotta finishing rather than independent geometry"
+    },
+    "wood-floor-007": {
+      "reason": "Common parallel plank/rib or running-bond rectangle family already represented; material coloration, grain and weathering alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "wood-floor-008": {
+      "reason": "Common parallel plank/rib or running-bond rectangle family already represented; material coloration, grain and weathering alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "wood-plancks-005": {
+      "reason": "Common parallel plank/rib or running-bond rectangle family already represented; material coloration, grain and weathering alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "wood-floor-006": {
+      "reason": "Common parallel plank/rib or running-bond rectangle family already represented; material coloration, grain and weathering alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "wood-planks-006-handpainted": {
+      "reason": "Common parallel plank/rib or running-bond rectangle family already represented; material coloration, grain and weathering alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "wood-planks-007": {
+      "reason": "Common parallel plank/rib or running-bond rectangle family already represented; material coloration, grain and weathering alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "wood-floor-001": {
+      "reason": "Common parallel plank/rib or running-bond rectangle family already represented; material coloration, grain and weathering alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "wood-planks-004": {
+      "reason": "Common parallel plank/rib or running-bond rectangle family already represented; material coloration, grain and weathering alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "wood-floor-004": {
+      "reason": "Common parallel plank/rib or running-bond rectangle family already represented; material coloration, grain and weathering alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "wood-planks-003": {
+      "reason": "Common parallel plank/rib or running-bond rectangle family already represented; material coloration, grain and weathering alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "wood-floor-003": {
+      "reason": "Common parallel plank/rib or running-bond rectangle family already represented; material coloration, grain and weathering alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "stone-floor-001": {
+      "reason": "Common parallel plank/rib or running-bond rectangle family already represented; material coloration, grain and weathering alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "stone-brick-pavement-003": {
+      "reason": "Common parallel plank/rib or running-bond rectangle family already represented; material coloration, grain and weathering alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "stone-wall-003": {
+      "reason": "Common parallel plank/rib or running-bond rectangle family already represented; material coloration, grain and weathering alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "stone-wall-001": {
+      "reason": "Common parallel plank/rib or running-bond rectangle family already represented; material coloration, grain and weathering alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "brick-wall-002": {
+      "reason": "Common parallel plank/rib or running-bond rectangle family already represented; material coloration, grain and weathering alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "brick-wall-008": {
+      "reason": "Common parallel plank/rib or running-bond rectangle family already represented; material coloration, grain and weathering alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "brick-wall-006": {
+      "reason": "Common parallel plank/rib or running-bond rectangle family already represented; material coloration, grain and weathering alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "brick-wall-007": {
+      "reason": "Common parallel plank/rib or running-bond rectangle family already represented; material coloration, grain and weathering alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "basket-weave-001": {
+      "reason": "Common basketweave or herringbone arrangement already represented; width, orientation and material finish are parameters",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "terracota-floor-tiles-001": {
+      "reason": "Common basketweave or herringbone arrangement already represented; width, orientation and material finish are parameters",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "stone-tiles-002": {
+      "reason": "Common basketweave or herringbone arrangement already represented; width, orientation and material finish are parameters",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "metal-weave-002": {
+      "reason": "Common basketweave or herringbone arrangement already represented; width, orientation and material finish are parameters",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "stone-brick-pavement-004": {
+      "reason": "Common basketweave or herringbone arrangement already represented; width, orientation and material finish are parameters",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "wood-floor-002": {
+      "reason": "Common basketweave or herringbone arrangement already represented; width, orientation and material finish are parameters",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "bamboo-001": {
+      "reason": "Common basketweave or herringbone arrangement already represented; width, orientation and material finish are parameters",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "tiles-009": {
+      "reason": "Simple regular square/hexagonal or stud-panel grid already represented; color, bolt decoration and finish do not create compound geometry",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "tiles-011": {
+      "reason": "Simple regular square/hexagonal or stud-panel grid already represented; color, bolt decoration and finish do not create compound geometry",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "tiles-008": {
+      "reason": "Simple regular square/hexagonal or stud-panel grid already represented; color, bolt decoration and finish do not create compound geometry",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "tiles-010": {
+      "reason": "Simple regular square/hexagonal or stud-panel grid already represented; color, bolt decoration and finish do not create compound geometry",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "tiles-007": {
+      "reason": "Simple regular square/hexagonal or stud-panel grid already represented; color, bolt decoration and finish do not create compound geometry",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "tiles-004": {
+      "reason": "Simple regular square/hexagonal or stud-panel grid already represented; color, bolt decoration and finish do not create compound geometry",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "tiles-006": {
+      "reason": "Simple regular square/hexagonal or stud-panel grid already represented; color, bolt decoration and finish do not create compound geometry",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "tiles-003": {
+      "reason": "Simple regular square/hexagonal or stud-panel grid already represented; color, bolt decoration and finish do not create compound geometry",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "tiles-002": {
+      "reason": "Simple regular square/hexagonal or stud-panel grid already represented; color, bolt decoration and finish do not create compound geometry",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "metal-panel-001": {
+      "reason": "Simple regular square/hexagonal or stud-panel grid already represented; color, bolt decoration and finish do not create compound geometry",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "metal-panel-002": {
+      "reason": "Simple regular square/hexagonal or stud-panel grid already represented; color, bolt decoration and finish do not create compound geometry",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "metal-panel-003": {
+      "reason": "Simple regular square/hexagonal or stud-panel grid already represented; color, bolt decoration and finish do not create compound geometry",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "metal-panel-004": {
+      "reason": "Simple regular square/hexagonal or stud-panel grid already represented; color, bolt decoration and finish do not create compound geometry",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "metal-panel-005": {
+      "reason": "Simple regular square/hexagonal or stud-panel grid already represented; color, bolt decoration and finish do not create compound geometry",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "metal-plate-002": {
+      "reason": "Simple regular square/hexagonal or stud-panel grid already represented; color, bolt decoration and finish do not create compound geometry",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "metal-plate-003": {
+      "reason": "Simple regular square/hexagonal or stud-panel grid already represented; color, bolt decoration and finish do not create compound geometry",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "metal-plate-004": {
+      "reason": "Simple regular square/hexagonal or stud-panel grid already represented; color, bolt decoration and finish do not create compound geometry",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "metal-mesh-001": {
+      "reason": "Plain repeated stripe or lozenge mesh family already represented; coloring and fine surface weave are finish variants",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "striped-fabric-001": {
+      "reason": "Plain repeated stripe or lozenge mesh family already represented; coloring and fine surface weave are finish variants",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "slate-flooring-001": {
+      "reason": "Common running-bond or interlocking pavement geometry already represented by existing originals; material grain/color variation alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "pavement-brick-001": {
+      "reason": "Common running-bond or interlocking pavement geometry already represented by existing originals; material grain/color variation alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "portuguese-flooring-001": {
+      "reason": "Common running-bond or interlocking pavement geometry already represented by existing originals; material grain/color variation alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "stone-brick-pavement-002": {
+      "reason": "Common running-bond or interlocking pavement geometry already represented by existing originals; material grain/color variation alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "cereals-001": {
+      "reason": "Elementary circular ring, cap or blob scatter already represented; density, color and normal-map shading alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "coin-stack-001": {
+      "reason": "Elementary circular ring, cap or blob scatter already represented; density, color and normal-map shading alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "abstract-007": {
+      "reason": "Elementary circular ring, cap or blob scatter already represented; density, color and normal-map shading alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "abstract-004": {
+      "reason": "Elementary circular ring, cap or blob scatter already represented; density, color and normal-map shading alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "alien-flesh-001": {
+      "reason": "Elementary circular ring, cap or blob scatter already represented; density, color and normal-map shading alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "abstract-006": {
+      "reason": "Uniform nested diamond checkerboard tessellation already represented; cell count and metallic color are parameters",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "crystal-001": {
+      "reason": "Generic faceted polygon cell network already represented; color and cell-seed variation alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "abstract-002": {
+      "reason": "Generic faceted polygon cell network already represented; color and cell-seed variation alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "wood-roof-tiles-001": {
+      "reason": "Existing layered shingle/scallop family; metallic/wood finish and row density are parameters",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "metal-scales-001": {
+      "reason": "Existing layered shingle/scallop family; metallic/wood finish and row density are parameters",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "leather-001": {
+      "reason": "Simple diamond padding family already represented; color and relief highlights alone",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "brushed-steel-001": {
+      "reason": "Very low-information BaseColor; fine grain or omitted PBR relief does not provide an independent visible construction",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "snow-003": {
+      "reason": "Very low-information BaseColor; fine grain or omitted PBR relief does not provide an independent visible construction",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "ice-002": {
+      "reason": "Very low-information BaseColor; fine grain or omitted PBR relief does not provide an independent visible construction",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "snow-002": {
+      "reason": "Very low-information BaseColor; fine grain or omitted PBR relief does not provide an independent visible construction",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "gold-nugget-001": {
+      "reason": "Very low-information BaseColor; fine grain or omitted PBR relief does not provide an independent visible construction",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "stone-wall-006": {
+      "reason": "Very low-information BaseColor; fine grain or omitted PBR relief does not provide an independent visible construction",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "burnt-wood-001": {
+      "reason": "Very low-information BaseColor; fine grain or omitted PBR relief does not provide an independent visible construction",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "wallpaper-001": {
+      "reason": "Very low-information BaseColor; fine grain or omitted PBR relief does not provide an independent visible construction",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "rug-002": {
+      "reason": "Very low-information BaseColor; fine grain or omitted PBR relief does not provide an independent visible construction",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "leather-003": {
+      "reason": "Very low-information BaseColor; fine grain or omitted PBR relief does not provide an independent visible construction",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "fabric-denim-001": {
+      "reason": "Very low-information BaseColor; fine grain or omitted PBR relief does not provide an independent visible construction",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "metal-scratched-001": {
+      "reason": "Very low-information BaseColor; fine grain or omitted PBR relief does not provide an independent visible construction",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "metal-scratched-003": {
+      "reason": "Very low-information BaseColor; fine grain or omitted PBR relief does not provide an independent visible construction",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "c0ncrete-007-with-license-to-kill": {
+      "reason": "Very low-information BaseColor; fine grain or omitted PBR relief does not provide an independent visible construction",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "bronze-003": {
+      "reason": "Very low-information BaseColor; fine grain or omitted PBR relief does not provide an independent visible construction",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "leather-002": {
+      "reason": "Very low-information BaseColor; fine grain or omitted PBR relief does not provide an independent visible construction",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "rug-001": {
+      "reason": "Very low-information BaseColor; fine grain or omitted PBR relief does not provide an independent visible construction",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "metal-grunge-003": {
+      "reason": "Very low-information BaseColor; fine grain or omitted PBR relief does not provide an independent visible construction",
+      "evidence": "Direct view of frozen remaining-pre-color original-map contact sheets; compare actual geometry rather than source/material names"
+    },
+    "wood-011a": {
+      "reason": "Exclude the wood-011a finish variant: enlarged originals share the same grain locations and cross-cut bands. Brightness/color change preserves the actual wood grain; crop/phase normalized score .996985 confirms the matching field.",
+      "related": "wood-011",
+      "evidence": "data/upstream/expansion12-materials/final-alias-crop-recheck.json"
+    },
+    "dirt-005": {
+      "reason": "Exclude exact original-byte duplicate of dirt-005-2. Enlarged maps and original SHA match exactly.",
+      "related": "dirt-005-2",
+      "evidence": "data/upstream/expansion12-materials/final-alias-crop-recheck.json"
+    },
+    "roof-tiles-copper-001": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "concrete-wall-004": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "wood-014": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "brick-wall-014": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "brick-wall-015": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "wood-stripes-001": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "wood-008": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "corrugated-metal-006": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "concrete-015": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "wood-planks-010": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "asphalt-shingles-001": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "cobblestone-001": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "wood-planks-008": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "wood-wall-001": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "brick-wall-012": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "corrugated-metal-002": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "wall-siding-002": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "brick-wall-010": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "corrugated-metal-003": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "wood-planks-009": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "brick-wall-013": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "corrugated-metal-004": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "stone-wall-007": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "vent-001": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "brick-wall-011": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "brick-wall-009": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "stone-wall-005": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "wood-floor-005": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "subway-tiles-001": {
+      "reason": "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "fabric-rug-006": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "rock-031": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "blue-ice-001": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "watercolor-paper-001": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "concrete-012": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "leather-006": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "fabric-003": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "leather-007": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "skin-human-002": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "fabric-015": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "fabric-004": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "plaster-rough-001": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "lizard-skin-001": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "volcanic-ash-001": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "paper-recycled-001": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "water-002": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "fabric-001": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "concrete-014": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "fabric-011": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "snow-004": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "fabric-002": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "wood-003": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "gun-metal-scratched-001": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "rough-rock-022": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "concrete-011": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "wood-001": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "wall-siding-003": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "plastic-001-w-speckles-and-fingerprints": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "metal-diamond-001": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "concrete-010": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "concrete-009": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "metal-plate-006": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "engraved-metal-003": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "wood-002": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "rock-023": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "cracked-mud-001": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "asphalt-005": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "engraved-metal-001": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "wall-siding-001": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "lava-004-cooled": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "rough-painted-wall-001": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "metal-plate-005": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "slate-rock-001": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "sand-003": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "engraved-metal-002": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "grass-001-2": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "orange-001": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "abstract-003": {
+      "reason": "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "fabric-knitted-002": {
+      "reason": "Common small knitted/burlap/denim weave family; stitch density, color and noise variations are not extra material constructions",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "fabric-burlap-002": {
+      "reason": "Common small knitted/burlap/denim weave family; stitch density, color and noise variations are not extra material constructions",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "fabric-burlap-001": {
+      "reason": "Common small knitted/burlap/denim weave family; stitch density, color and noise variations are not extra material constructions",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "denim-002": {
+      "reason": "Common small knitted/burlap/denim weave family; stitch density, color and noise variations are not extra material constructions",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "knitted-fabric-001": {
+      "reason": "Common small knitted/burlap/denim weave family; stitch density, color and noise variations are not extra material constructions",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "fabric-005": {
+      "reason": "Basic argyle, houndstooth, diamond, checkerboard or chevron/plaid motif family already represented; colors and density are parameters",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "fabric-012": {
+      "reason": "Basic argyle, houndstooth, diamond, checkerboard or chevron/plaid motif family already represented; colors and density are parameters",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "fabric-010": {
+      "reason": "Basic argyle, houndstooth, diamond, checkerboard or chevron/plaid motif family already represented; colors and density are parameters",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "fabric-013": {
+      "reason": "Basic argyle, houndstooth, diamond, checkerboard or chevron/plaid motif family already represented; colors and density are parameters",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "fabric-008": {
+      "reason": "Basic argyle, houndstooth, diamond, checkerboard or chevron/plaid motif family already represented; colors and density are parameters",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "tweed-001": {
+      "reason": "Basic argyle, houndstooth, diamond, checkerboard or chevron/plaid motif family already represented; colors and density are parameters",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "tiles-014": {
+      "reason": "Basic argyle, houndstooth, diamond, checkerboard or chevron/plaid motif family already represented; colors and density are parameters",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "concrete-013": {
+      "reason": "Plain regular square/stud/perforated-dot panel grid already represented; density, panel count, tiny bolts, colors or relief finishing parameters",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "metal-panel-006": {
+      "reason": "Plain regular square/stud/perforated-dot panel grid already represented; density, panel count, tiny bolts, colors or relief finishing parameters",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "tiles-013": {
+      "reason": "Plain regular square/stud/perforated-dot panel grid already represented; density, panel count, tiny bolts, colors or relief finishing parameters",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "metal-pattern-001": {
+      "reason": "Plain regular square/stud/perforated-dot panel grid already represented; density, panel count, tiny bolts, colors or relief finishing parameters",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "metal-plate-009": {
+      "reason": "Plain regular square/stud/perforated-dot panel grid already represented; density, panel count, tiny bolts, colors or relief finishing parameters",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "metal-grill-001": {
+      "reason": "Plain regular square/stud/perforated-dot panel grid already represented; density, panel count, tiny bolts, colors or relief finishing parameters",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "metal-plate-008": {
+      "reason": "Plain regular square/stud/perforated-dot panel grid already represented; density, panel count, tiny bolts, colors or relief finishing parameters",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "tiles-azulejos-004a": {
+      "reason": "Same ornate tile motif as tiles-azulejos-004; red/white countercolor and finish variation preserves the actual ornament construction",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "sponge-001": {
+      "reason": "Basic pore/dot scatter on a uniform mineral or sponge COLOR map; density, pore size and color variations of an existing dot/grain family",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "quartz-002": {
+      "reason": "Basic pore/dot scatter on a uniform mineral or sponge COLOR map; density, pore size and color variations of an existing dot/grain family",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "quartz-001": {
+      "reason": "Basic pore/dot scatter on a uniform mineral or sponge COLOR map; density, pore size and color variations of an existing dot/grain family",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "gem-agate-003": {
+      "reason": "Regular parallel agate bands; band frequency, widths and cyan/brown colors vary the existing stripe field rather than add compound grain structure",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "agate-001": {
+      "reason": "Regular parallel agate bands; band frequency, widths and cyan/brown colors vary the existing stripe field rather than add compound grain structure",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "ground-dirt-006": {
+      "reason": "Generic cracked polygon or faceted-cell network already represented; randomized cell seeds, colors and shading are family parameters",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "asphalt-006": {
+      "reason": "Generic cracked polygon or faceted-cell network already represented; randomized cell seeds, colors and shading are family parameters",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "stone-tiles-003": {
+      "reason": "Generic cracked polygon or faceted-cell network already represented; randomized cell seeds, colors and shading are family parameters",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "crystal-002": {
+      "reason": "Generic cracked polygon or faceted-cell network already represented; randomized cell seeds, colors and shading are family parameters",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "crystal-003": {
+      "reason": "Generic cracked polygon or faceted-cell network already represented; randomized cell seeds, colors and shading are family parameters",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "metal-crystals-001": {
+      "reason": "Generic cracked polygon or faceted-cell network already represented; randomized cell seeds, colors and shading are family parameters",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "asphalt-004": {
+      "reason": "Generic cracked polygon or faceted-cell network already represented; randomized cell seeds, colors and shading are family parameters",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "hazard-paint-001": {
+      "reason": "Basic diagonal warning/hazard stripe field already represented; black/yellow coloring and distressed edges are finishing parameters",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "camouflage-fabric-002": {
+      "reason": "Generic camouflage blob field already represented by fabric-camo-001 and existing pattern families; recolor/density and random blob positions are variants",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "quilt-001": {
+      "reason": "Standard small flower glyph scatter already represented; glyph count, scale, rotation and pale/blue colors are parameters",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "lava-005": {
+      "reason": "Same generic glowing lava/cracked-cell family as lava-001; cell seed/scale and glow contrast are finish variations",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "bacteria-001": {
+      "reason": "Simple round-cell bubble field already represented; green rim lighting and blob density are parameters",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "alien-metal-001": {
+      "reason": "Same irregular organic loop contour family as abstract-005; loop density, number of small enclosed islands and black/white contrast are field parameters",
+      "evidence": "Direct review of actual author-linked COLOR original-map contact sheets; not rendered website thumbnails"
+    },
+    "wood-wicker-007": {
+      "reason": "Same ordinary basketweave as the retained AmbientCG Fabric010: D4 rotation, strip density and wood coloring change the finish, while alternating over-under strip topology remains the same.",
+      "related": "phase2-material-ambientcg-fabric010",
+      "evidence": "data/upstream/expansion12-materials/final-high-structure-pairs-0.jpg"
+    },
+    "sci-fi-wall-011": {
+      "reason": "Plain repeated square panel enclosing concentric-circle center glyphs; panel count, nested frame count and corner studs remain primitive grid/UI-face parameters.",
+      "related": "expansion12-material-3dtextures-plastic-004",
+      "evidence": "data/upstream/expansion12-materials/final-high-structure-pairs-0.jpg"
+    },
+    "fabric-alcantara-001": {
+      "reason": "Retained JPEG shows only low-contrast fine weave/cloud grain, without independent visible material construction; same coarse fine-weave finish family as other held fabrics.",
+      "related": "expansion12-material-3dtextures-fabric-035",
+      "evidence": "data/upstream/expansion12-materials/final-high-structure-pairs-1.jpg"
+    },
+    "metal-scratched-008": {
+      "reason": "Retained JPEG is a low-contrast gray fine brushed-grain field; auxiliary relief and material naming do not provide an independent visible construction.",
+      "related": "expansion12-material-3dtextures-metal-chain-link-004",
+      "evidence": "data/upstream/expansion12-materials/final-high-structure-pairs-1.jpg"
+    },
+    "paper-wrinkled-001": {
+      "reason": "Actual crease locations match FabricNylon001; ruled lines and paper/nylon coloring are finishing changes over the same fold field, not another independent wrinkle map.",
+      "related": "expansion12-material-3dtextures-fabric-nylon-001",
+      "evidence": "data/upstream/expansion12-materials/final-high-structure-pairs-2.jpg"
+    },
+    "surface-imperfection-001": {
+      "reason": "Same black-to-grunge ground fade construction as SurfaceImperfections002; fine versus coarse cloud/grain density is an effect parameter variation. Keep the more detailed002 map.",
+      "related": "expansion12-material-3dtextures-stylized-wall-002",
+      "evidence": "data/upstream/expansion12-materials/final-high-structure-pairs-3.jpg"
+    },
+    "metal-plate-044": {
+      "reason": "Ordinary repeated three-face isometric cube stencil; directional wood-like ribs and coloration are surface styling of an existing basic cube tessellation.",
+      "related": "expansion12-material-3dtextures-plastic-004",
+      "evidence": "data/upstream/expansion12-materials/final-high-structure-pairs-3.jpg"
+    },
+    "metal-painted-002": {
+      "reason": "Enlarged JPEG reuses MetalPitted001 grain/pit locations, with orange paint and contrast shifts. Matching pitted structure .978426 is confirmed by visible repeated pits.",
+      "related": "expansion12-material-3dtextures-metal-pitted-001",
+      "evidence": "data/upstream/expansion12-materials/final-high-structure-pairs-3.jpg"
+    },
+    "wood-ceiling-coffers-001": {
+      "reason": "Regular clipped-square/octagon coffer grid with small star glyphs at junctions; corner clipping, glyph decoration and wood finish are primitive coffer/grid parameters, already grouped with basic coffer families.",
+      "related": "expansion12-material-3dtextures-concrete-ceiling-001",
+      "evidence": "data/upstream/expansion12-materials/final-high-structure-pairs-4.jpg"
+    },
+    "metal-plate-030": {
+      "reason": "Ordinary outlined three-face isometric cube tessellation already represented; line styling and concrete grain are finishing parameters rather than a distinct mechanism.",
+      "related": "expansion12-material-3dtextures-plastic-004",
+      "evidence": "data/upstream/expansion12-materials/final-high-structure-pairs-4.jpg"
+    },
+    "tiles-stars-and-crosses-001": {
+      "reason": "Basic repeated eight-point star/cross tessellation already represented by existing geometric star/cross motif families; plain blue fill is a finish variation.",
+      "related": "expansion12-material-3dtextures-tiles-058",
+      "evidence": "data/upstream/expansion12-materials/final-high-structure-pairs-4.jpg"
+    },
+    "fabric-019a": {
+      "reason": "Plain regular red hexagonal cell grid; palette and textile grain do not add another independent hexagon construction.",
+      "related": "expansion12-material-3dtextures-metal-plate-040",
+      "evidence": "data/upstream/expansion12-materials/final-high-structure-pairs-4.jpg"
+    },
+    "terrazzo-001": {
+      "reason": "Same actual shard locations, contours and clusters as Terrazzo002; white/navy backing and shard recoloring preserve the original aggregate map.",
+      "related": "expansion12-material-3dtextures-terrazzo-002",
+      "evidence": "data/upstream/expansion12-materials/final-high-structure-pairs-5.jpg"
+    },
+    "vinyl-padded-001a": {
+      "reason": "Almost flat orange COLOR/BaseColor with low-contrast noise; padded construction resides in omitted PBR channels, not the actual local JPEG.",
+      "related": "expansion12-material-3dtextures-fabric-alcantara-001",
+      "evidence": "data/upstream/expansion12-materials/final-high-structure-pairs-5.jpg"
+    },
+    "vinyl-padded-001": {
+      "reason": "Almost flat blue COLOR/BaseColor with low-contrast noise; same held vinyl padding family, with structure principally in omitted PBR channels.",
+      "related": "expansion12-material-3dtextures-fabric-alcantara-001",
+      "evidence": "data/upstream/expansion12-materials/final-high-structure-pairs-6.jpg"
+    },
+    "painted-metal-001": {
+      "reason": "Same grain and chip locations as the held MetalPainted001a map, with red/green recolor. This low-information finish variation is excluded rather than re-counted.",
+      "related": "expansion12-material-3dtextures-metal-painted-001a",
+      "evidence": "data/upstream/expansion12-materials/final-high-structure-pairs-6.jpg"
+    },
+    "metal-scratched-002": {
+      "reason": "Same main gray grunge/patch field as MetalScratched006; scratch darkness and fine overlaid line changes preserve essentially the same material appearance (.978339).",
+      "related": "expansion12-material-3dtextures-metal-scratched-006",
+      "evidence": "data/upstream/expansion12-materials/final-high-structure-pairs-6.jpg"
+    },
+    "metal-scratched-004": {
+      "reason": "Same gray grunge/patch structure as MetalScratched006; lighter finish and fine line-density changes do not supply a distinct texture composition.",
+      "related": "expansion12-material-3dtextures-metal-scratched-006",
+      "evidence": "data/upstream/expansion12-materials/final-high-structure-pairs-6.jpg"
+    }
+  },
+  "actualSheetsReviewed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "additionalReview": "All794 original BaseColor maps within800 frozen posts inspected through snapshot671 plus123 restored originals; 6 acquisition failures remain in denominator. Rechecked five visually suspected crop pairs using originals at five crop scales, D4 and periodic shifts. Do not collapse different natural photos merely by category or low-resolution correlation.",
+  "snapshot671Evidence": [
+    "data/upstream/expansion12-materials/snapshot671-contact-sheet-0.jpg",
+    "data/upstream/expansion12-materials/snapshot671-contact-sheet-1.jpg",
+    "data/upstream/expansion12-materials/snapshot671-contact-sheet-2.jpg",
+    "data/upstream/expansion12-materials/snapshot671-contact-sheet-3.jpg",
+    "data/upstream/expansion12-materials/snapshot671-contact-sheet-4.jpg",
+    "data/upstream/expansion12-materials/snapshot671-contact-sheet-5.jpg",
+    "data/upstream/expansion12-materials/snapshot671-contact-sheet-6.jpg",
+    "data/upstream/expansion12-materials/snapshot671-contact-sheet-7.jpg",
+    "data/upstream/expansion12-materials/snapshot671-contact-sheet-8.jpg",
+    "data/upstream/expansion12-materials/snapshot671-contact-sheet-9.jpg",
+    "data/upstream/expansion12-materials/snapshot671-contact-sheet-10.jpg",
+    "data/upstream/expansion12-materials/snapshot671-contact-sheet-11.jpg",
+    "data/upstream/expansion12-materials/snapshot671-contact-sheet-12.jpg",
+    "data/upstream/expansion12-materials/snapshot671-contact-sheet-13.jpg",
+    "data/upstream/expansion12-materials/snapshot671-contact-sheet-14.jpg",
+    "data/upstream/expansion12-materials/snapshot671-contact-sheet-15.jpg",
+    "data/upstream/expansion12-materials/snapshot671-contact-sheet-16.jpg"
+  ],
+  "legacyEvidence": [
+    "data/upstream/expansion12-materials/legacy-contact-sheet-0.jpg",
+    "data/upstream/expansion12-materials/legacy-contact-sheet-1.jpg",
+    "data/upstream/expansion12-materials/legacy-contact-sheet-2.jpg",
+    "data/upstream/expansion12-materials/legacy-contact-sheet-3.jpg"
+  ],
+  "remainingEvidence": [
+    "data/upstream/expansion12-materials/remaining-pre-color-sheet-0.jpg",
+    "data/upstream/expansion12-materials/remaining-pre-color-sheet-1.jpg",
+    "data/upstream/expansion12-materials/remaining-pre-color-sheet-2.jpg",
+    "data/upstream/expansion12-materials/remaining-pre-color-sheet-3.jpg",
+    "data/upstream/expansion12-materials/remaining-pre-color-sheet-4.jpg",
+    "data/upstream/expansion12-materials/remaining-pre-color-sheet-5.jpg",
+    "data/upstream/expansion12-materials/remaining-pre-color-sheet-6.jpg",
+    "data/upstream/expansion12-materials/remaining-pre-color-sheet-7.jpg",
+    "data/upstream/expansion12-materials/remaining-pre-color-sheet-8.jpg",
+    "data/upstream/expansion12-materials/remaining-pre-color-sheet-9.jpg"
+  ],
+  "remainingOriginalsVisuallyInspected": 218,
+  "remainingOriginalsVisuallyInspectedBeforeColorRecovery": 389,
+  "lastNonRecoveryReviewScope": "All actual final605 non-recovery originals; acquisition census includes failed original access. Recovery originals remain a separately reviewed group.",
+  "legacyColorOriginalsVisuallyInspected": 167,
+  "legacyColorEvidence": [
+    "data/upstream/expansion12-materials/color-recovery-sheet-0.jpg",
+    "data/upstream/expansion12-materials/color-recovery-sheet-1.jpg",
+    "data/upstream/expansion12-materials/color-recovery-sheet-2.jpg",
+    "data/upstream/expansion12-materials/color-recovery-sheet-3.jpg",
+    "data/upstream/expansion12-materials/color-recovery-sheet-4.jpg"
+  ],
+  "reviewComplete": true,
+  "finalRetainedJpegStructureReview": {
+    "candidateFlags": 28,
+    "threshold": 0.9,
+    "excluded": 18,
+    "retained": 10,
+    "evidence": "data/upstream/expansion12-materials/final-high-structure-pair-index.json",
+    "basis": "Actual enlarged JPEG/geometry review; coarse similarity alone does not imply a duplicate. Preview contrast/color was not altered."
+  }
+}

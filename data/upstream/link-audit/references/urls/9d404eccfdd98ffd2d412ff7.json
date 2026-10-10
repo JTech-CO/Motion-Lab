@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/monoton-music/nibi",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/monoton-music/nibi",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/monoton-music/nibi",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/monoton-music/nibi",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:00.017779+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/monoton-music/nibi",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "28b9116f6196b0009a74f445bef756ac40f2185d9bc67380a30f698bc111180d",
+      "responseBodySha256": "28b9116f6196b0009a74f445bef756ac40f2185d9bc67380a30f698bc111180d",
+      "title": "GitHub - monoton-music/nibi: GPU particle MV engine — TSL compute shader flow patterns for Three.js WebGPU · GitHub",
+      "textCharacters": 4902,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.763,
+      "captureCachePath": "exa-results/link-audit/references/captures/d293a95a9a7c15dc4ce289f7.json",
+      "captureCacheSha256": "aab7bd6179fd475a8727f82df391f1a8c5369b4bc413a466c321b236c6ca7252"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-nibi",
+      "canonicalId": "ref-nibi",
+      "title": "Nibi",
+      "role": "canonical",
+      "sourceSha256": "cdeb19ff4bcde73450b9629994072c6a35d768c65b3c38d9097d545a0c67e390"
+    }
+  ]
+}

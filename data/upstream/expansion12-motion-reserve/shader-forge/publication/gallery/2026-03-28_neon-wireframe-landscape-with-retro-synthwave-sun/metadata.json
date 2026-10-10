@@ -1,0 +1,26 @@
+{
+  "theme": "neon wireframe landscape with retro synthwave sun",
+  "style_hints": "",
+  "references": [
+    "shabon-fx/NeonGrid.frag [grid,matrix,postprocess,volumetric,wave]",
+    "community/glsl-shaders/handheld_shaders_retro-v2.glsl [grid,matrix]",
+    "community/lygia/lighting_light_directional.glsl []",
+    "community/lygia/color_layer_linearLightSourceOver.glsl []",
+    "community/lygia/lighting_light_directional.wgsl []"
+  ],
+  "attempts": 1,
+  "created_at": "2026-03-28T00:19:53.750849+00:00",
+  "glsl_lines": 108,
+  "success": true,
+  "design_brief": "**IMPLEMENTATION GUIDE: Neon Wireframe Landscape + Synthwave Sun**  \n*(WebGL1 / GLSL ES 1.00 only)*  \n\n1. **Architecture**:  \n   ```glsl\n   void main() {\n     vec2 uv = vUv;\n     // 1. Aspect-correct & center UV (like Ref #1)\n     vec2 p = vec2((uv.x - 0.5) * aspect, uv.y - 0.5);\n     // 2. Compute grid + curl noise flow field → `wirePos`\n     // 3. Raymarch horizon sun (Ref #1 sky glow pattern)\n     // 4. Combine: `color = wireframe + sun + ground gradient`\n     gl_FragColor = vec4(color, 1.0);\n   }\n   ```\n\n2. **Key Functions**:  \n   - `vec3 curlNoise(vec2 p, float t)` — divergence-free flow (use Ref #2’s 2D curl variant or simple 3D noise derivative trick)  \n   - `float gridFn(vec2 p, float res, float t)` — animated grid via sin/cos warping (Ref #1’s `glow()` + `exp(-dist)` falloff)  \n   - `vec3 synthwaveSun(vec2 uv, float horizon)` — radial gradient + color bands (pink→orange→yellow)  \n\n3. **Reference Reuse**:  \n   - Steal **Ref #1’s sky/ground split logic** and `glow()` falloff (lines 20–25).  \n   - Use **Ref #2’s curl/noise structure** for organic grid movement (avoid fwidth/dFdx).  \n   - Adopt **Ref #3’s `LightDirectional` struct** *conceptually* (just extract sun color/intensity).  \n\n4. **Color & Brightness**:  \n   - **Background**: Deep `vec3(0.05, 0.0, 0.1)` (dark purple)  \n   - **Grid**: Cyan `vec3(0.0, 1.0, 1.0)` + pink `vec3(1.0, 0.0, 1.0)` accent — mix with `sin(uTime)`  \n   - **Sun**: Linear gradient from `vec3(1.0, 0.9, 0.0)` (top) to `vec3(1.0, 0.2, 0.0)` (bottom)  \n   - **Additive blending**: `color += wireframe * 0.8` for neon bloom.  \n\n5. **Animation**:  \n   - `uTime` drives *all* motion (grid warp, sun pulsation, flow field)  \n   - `uSpeed = 0.5` (safe range: 0.2–1.0)  \n   - Wrap with `mod(uTime, TWO_PI)` to avoid drift.  \n\n6. **Pitfalls to Avoid**:  \n   - ❌ No `fwidth()` → use `abs(dFdx())` *disabled*; approximate with `step()` or fixed falloff  \n   - ❌ No bitwise ops → use `fract()`/`mod()` for pattern repetition  \n   - ✅ Always normalize `uv` → prevent aspect-stretched grid  \n   - ✅ Clamp sun UV to avoid tiling artifacts (e.g., `uv.y > horizon ? sun : 0.0`)  \n\n**Final tip**: Start with Ref #1’s horizon split + `glow()` → inject curl-warped grid → layer sun on top. Keep contrast high — black void is forbidden! 🌅",
+  "review": {
+    "visual_complexity": 4,
+    "code_quality": 4,
+    "theme_match": 5,
+    "animation": 5,
+    "originality": 4,
+    "total": 22,
+    "verdict": "pass",
+    "feedback": "Excellent synthwave implementation with rich animation, clever curl-noise flow field for the grid, and strong visual cohesion; brightness is good with most canvas area utilized by the glowing grid and sun elements."
+  }
+}

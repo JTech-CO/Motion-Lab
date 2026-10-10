@@ -1,0 +1,14 @@
+{
+  "url": "https://www.brandsinmotion.xyz/information",
+  "method": "Exa public fetch",
+  "status": "Exa-content-read",
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공개 URL의 Exa 추출 내용을 읽었다. 직접 서버의 HTTP 200으로 간주하지 않았다. 공식 Information은 브랜드 모션을 소개하는 독립 리소스임을 명시한다. 개방 라이선스 문서는 아니다.",
+  "sector": 4,
+  "siteId": "brands-in-motion",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/brands-in-motion-terms-exa.json",
+  "rawCacheSha256": "434f6d687534286f7012213558ace613a10071f8f4a41150e9c4770c87ce6a41",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "1f313c7af3e887ae66aaeb249f3099237b555a8fd0cd6fc01fbcb253670bd0fd",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json."
+}

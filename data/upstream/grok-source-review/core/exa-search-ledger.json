@@ -1,0 +1,151 @@
+{
+  "workstream": "core-stock-and-layout",
+  "sources_reviewed": 120,
+  "definition": "24 Exa search calls × 5 requested results. Includes lost orchestration result and retry, not unique pages.",
+  "queries": [
+    {
+      "storeKey": "grok_search_0",
+      "numResults": 5,
+      "responseRetained": true,
+      "outcome": "Search result requested; individual supported official pages reviewed separately."
+    },
+    {
+      "storeKey": "grok_search_1",
+      "numResults": 5,
+      "responseRetained": true,
+      "outcome": "Search result requested; individual supported official pages reviewed separately."
+    },
+    {
+      "storeKey": "grok_search_2",
+      "numResults": 5,
+      "responseRetained": true,
+      "outcome": "Search result requested; individual supported official pages reviewed separately."
+    },
+    {
+      "storeKey": "grok_search_3",
+      "numResults": 5,
+      "responseRetained": true,
+      "outcome": "Search result requested; individual supported official pages reviewed separately."
+    },
+    {
+      "storeKey": "grok_search_next_0",
+      "numResults": 5,
+      "responseRetained": true,
+      "outcome": "Search result requested; individual supported official pages reviewed separately."
+    },
+    {
+      "storeKey": "grok_search_next_1",
+      "numResults": 5,
+      "responseRetained": true,
+      "outcome": "Search result requested; individual supported official pages reviewed separately."
+    },
+    {
+      "storeKey": "grok_search_next_2",
+      "numResults": 5,
+      "responseRetained": true,
+      "outcome": "Search result requested; individual supported official pages reviewed separately."
+    },
+    {
+      "storeKey": "grok_asset_search_0",
+      "numResults": 5,
+      "responseRetained": true,
+      "outcome": "Search result requested; individual supported official pages reviewed separately."
+    },
+    {
+      "storeKey": "grok_asset_search_1",
+      "numResults": 5,
+      "responseRetained": true,
+      "outcome": "Search result requested; individual supported official pages reviewed separately."
+    },
+    {
+      "storeKey": "grok_asset_search_2",
+      "numResults": 5,
+      "responseRetained": true,
+      "outcome": "Search result requested; individual supported official pages reviewed separately."
+    },
+    {
+      "storeKey": "grok_asset_search_3",
+      "numResults": 5,
+      "responseRetained": true,
+      "outcome": "Search result requested; individual supported official pages reviewed separately."
+    },
+    {
+      "storeKey": "grok_asset_search_4",
+      "numResults": 5,
+      "responseRetained": true,
+      "outcome": "Search result requested; individual supported official pages reviewed separately."
+    },
+    {
+      "storeKey": "grok_asset_search_5",
+      "numResults": 5,
+      "responseRetained": true,
+      "outcome": "Search result requested; individual supported official pages reviewed separately."
+    },
+    {
+      "storeKey": "grok_asset_second_0",
+      "numResults": 5,
+      "responseRetained": true,
+      "outcome": "Search result requested; individual supported official pages reviewed separately."
+    },
+    {
+      "storeKey": "grok_asset_second_1",
+      "numResults": 5,
+      "responseRetained": true,
+      "outcome": "Search result requested; individual supported official pages reviewed separately."
+    },
+    {
+      "storeKey": "grok_asset_second_2",
+      "numResults": 5,
+      "responseRetained": true,
+      "outcome": "Search result requested; individual supported official pages reviewed separately."
+    },
+    {
+      "storeKey": "grok_asset_second_3",
+      "numResults": 5,
+      "responseRetained": true,
+      "outcome": "Search result requested; individual supported official pages reviewed separately."
+    },
+    {
+      "storeKey": "grok_asset_second_4",
+      "numResults": 5,
+      "responseRetained": true,
+      "outcome": "Search result requested; individual supported official pages reviewed separately."
+    },
+    {
+      "storeKey": "grok_rights_followup_0",
+      "numResults": 5,
+      "responseRetained": true,
+      "outcome": "Search result requested; individual supported official pages reviewed separately."
+    },
+    {
+      "storeKey": "grok_rights_followup_lost_1",
+      "numResults": 5,
+      "responseRetained": false,
+      "outcome": "Tool finished; orchestration error prevented retaining response; request repeated."
+    },
+    {
+      "storeKey": "grok_rights_followup_retry_0",
+      "numResults": 5,
+      "responseRetained": true,
+      "outcome": "Search result requested; individual supported official pages reviewed separately."
+    },
+    {
+      "storeKey": "grok_canva_item_search",
+      "numResults": 5,
+      "responseRetained": true,
+      "outcome": "Search result requested; individual supported official pages reviewed separately."
+    },
+    {
+      "storeKey": "grok_final_gap_0",
+      "numResults": 5,
+      "responseRetained": true,
+      "outcome": "Search result requested; individual supported official pages reviewed separately."
+    },
+    {
+      "storeKey": "grok_final_gap_1",
+      "numResults": 5,
+      "responseRetained": true,
+      "outcome": "Search result requested; individual supported official pages reviewed separately."
+    }
+  ]
+}

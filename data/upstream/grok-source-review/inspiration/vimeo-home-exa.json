@@ -1,0 +1,14 @@
+{
+  "url": "https://vimeo.com/",
+  "method": "Exa public fetch",
+  "status": "Exa-content-read",
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공개 URL의 Exa 추출 내용을 읽었다. 직접 서버의 HTTP 200으로 간주하지 않았다. Vimeo: 실제 모션 영화 호스팅 플랫폼이지만 본 조사 작품에는 공개 재배포 라이선스가 확인되지 않았다.",
+  "sector": 4,
+  "siteId": "vimeo",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/vimeo-home-exa.json",
+  "rawCacheSha256": "cf212fd89f72bef704559f82637dbeaa2787ab6e24a369ca3f57c8eaa34e984a",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "7f87a9342164009aa0652f90626dcab70090adbf823f7a72a81a41102167113c",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json."
+}

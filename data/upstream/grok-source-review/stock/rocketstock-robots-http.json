@@ -1,0 +1,16 @@
+{
+  "id": "rocketstock",
+  "url": "https://www.rocketstock.com/robots.txt",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 403,
+  "finalUrl": "https://www.shutterstock.com/video/elements",
+  "contentType": "text/html;charset=utf-8",
+  "truncated": false,
+  "observedBytes": 784,
+  "observedContentSha256": "9ce0e108a5c23c58b853c3c96b76e63c881217bdfe376a0c8164770dbddb2c91",
+  "links": [],
+  "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+  "challengeOrDenial": true
+}

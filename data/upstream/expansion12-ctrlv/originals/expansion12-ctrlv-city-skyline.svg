@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="160" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <!-- Background Sun/Moon -->
+            <circle class="anim-float" cx="300" cy="80" r="40" fill="var(--secondary-color)" opacity="0.2"/>
+            
+            <!-- Skyscrapers (Primary Color Dominant) -->
+            <!-- Building 1 (Left) -->
+            <rect x="80" y="140" width="50" height="130" fill="var(--primary-color)"/>
+            <rect x="90" y="100" width="30" height="40" fill="var(--primary-color)"/>
+            <!-- Building 2 (Mid-Left) -->
+            <rect x="140" y="180" width="60" height="90" fill="var(--primary-color)"/>
+            <path d="M140 180 L170 140 L200 180 Z" fill="var(--primary-color)"/>
+            <!-- Building 3 (Center Tall) -->
+            <rect x="210" y="80" width="60" height="190" fill="var(--primary-color)"/>
+            <rect x="230" y="40" width="20" height="40" fill="var(--primary-color)"/>
+            <rect x="238" y="10" width="4" height="30" fill="var(--primary-color)"/>
+            <!-- Building 4 (Right) -->
+            <rect x="280" y="120" width="50" height="150" fill="var(--primary-color)"/>
+            
+            <!-- Window Accents (Glow / Charcoal) -->
+            <rect class="anim-glow" x="225" y="100" width="10" height="15" rx="2" fill="var(--accent-color)"/>
+            <rect class="anim-glow" x="245" y="130" width="10" height="15" rx="2" fill="var(--accent-color)" style="animation-delay: -1s"/>
+            <rect class="anim-glow" x="225" y="160" width="10" height="15" rx="2" fill="var(--accent-color)" style="animation-delay: -2s"/>
+            <rect x="100" y="160" width="10" height="10" fill="var(--charcoal)" opacity="0.3"/>
+            <rect x="100" y="180" width="10" height="10" fill="var(--charcoal)" opacity="0.3"/>
+            <rect x="300" y="150" width="10" height="80" fill="var(--charcoal)" opacity="0.3"/>
+          </svg>

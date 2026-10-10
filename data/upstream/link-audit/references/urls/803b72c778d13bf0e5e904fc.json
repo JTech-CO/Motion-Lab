@@ -1,0 +1,56 @@
+{
+  "url": "https://cubic-bezier.com/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://cubic-bezier.com/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://cubic-bezier.com/",
+      "allowedForAuditGet": true,
+      "reason": "robots-missing-not-a-license",
+      "robotsUrl": "https://cubic-bezier.com/robots.txt",
+      "robotsStatus": 404
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://cubic-bezier.com/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:06.199211+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://cubic-bezier.com/",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 3317,
+      "capturedSha256": "cf99ae7c7b0999e4789a530bfb5ab437b81c9ddc7ad1854341f6bdbfb43f2edc",
+      "responseBodySha256": "cf99ae7c7b0999e4789a530bfb5ab437b81c9ddc7ad1854341f6bdbfb43f2edc",
+      "title": "cubic-bezier.com",
+      "textCharacters": 470,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.274,
+      "captureCachePath": "exa-results/link-audit/references/captures/f5ded937ccc67073cf776be4.json",
+      "captureCacheSha256": "72b99c1bbf41e6933956fb862161b085ce5dee324ba54216552e6bd4a0f59822"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-cubic-bezier",
+      "canonicalId": "ref-cubic-bezier",
+      "title": "Cubic Bezier",
+      "role": "canonical",
+      "sourceSha256": "b0acdcaf719a600d29d46330db7c7bea471c6a8317cad79a41fc14c4c75bc237"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "url": "https://www.adobe.com/legal/terms.html",
+  "method": "bounded public HTTP GET",
+  "status": 403,
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공개 HTTP 요청의 거부 또는 빈 응답을 기록했다. 응답 제한을 우회하지 않았다.",
+  "sector": 4,
+  "siteId": "behance",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/adobe-terms-list-http.json",
+  "rawCacheSha256": "9f19d979f16f88c1b5026927a7b73e2075455fa4434ed84f1c1a6af32bd725dd",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "0c64123c07d483562b79f06a3b82d4fda5773e783b2d9e79f60d159e02766ed6",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "finalUrl": "https://www.adobe.com/legal/terms.html",
+  "byteCount": 391,
+  "boundedAt": 1048576,
+  "truncated": false,
+  "originalResponseSha256": "6e29b63dc7f8c183664a900b754199ff95b0e4e2d55690006117ecae9b88ec1a"
+}

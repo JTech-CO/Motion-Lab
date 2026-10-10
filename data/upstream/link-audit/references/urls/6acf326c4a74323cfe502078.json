@@ -1,0 +1,56 @@
+{
+  "url": "https://mafhper.github.io/nebula/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://mafhper.github.io/nebula/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://mafhper.github.io/nebula/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://mafhper.github.io/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://mafhper.github.io/nebula/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:30.767019+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://mafhper.github.io/nebula/",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 1934,
+      "capturedSha256": "6214fe6e33621daf7ad7d603de186944959b2ca6d0d9b7c850fec37052d65d4c",
+      "responseBodySha256": "6214fe6e33621daf7ad7d603de186944959b2ca6d0d9b7c850fec37052d65d4c",
+      "title": "Nebula — WebGL effects for React",
+      "textCharacters": 32,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.256,
+      "captureCachePath": "exa-results/link-audit/references/captures/3f44655d0f7c288543ad51dc.json",
+      "captureCacheSha256": "eb99c99b9ba7e912e5970b67065ba47e45c2958cd82e7b173b1dd86fbda1fd65"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-nebula",
+      "canonicalId": "ref-nebula",
+      "title": "Nebula",
+      "role": "canonical",
+      "sourceSha256": "fe6ab2ba98d65c3e930ee46c348be9fa65a669de00701a2c975a42e952b7f2f4"
+    }
+  ]
+}

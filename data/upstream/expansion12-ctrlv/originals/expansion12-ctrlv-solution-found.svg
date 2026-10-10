@@ -1,0 +1,11 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="anim-bounce">
+            <circle cx="200" cy="140" r="50" fill="var(--secondary-color)" opacity="0.2"/>
+            <!-- Key -->
+            <path d="M170 140 H230 M230 140 V150 M220 140 V150" stroke="var(--secondary-color)" stroke-width="6" stroke-linecap="round"/>
+            <circle cx="170" cy="140" r="15" stroke="var(--secondary-color)" stroke-width="6"/>
+        </g>
+        <g class="anim-pulse">
+            <path d="M200 90 L200 70 M250 140 L270 140 M150 140 L130 140" stroke="var(--secondary-color)" stroke-width="2" stroke-linecap="round"/>
+        </g>
+    </svg>

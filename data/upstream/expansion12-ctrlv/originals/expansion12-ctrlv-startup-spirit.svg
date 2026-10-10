@@ -1,0 +1,17 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="anim-float">
+            <rect x="120" y="160" width="160" height="100" rx="8" fill="var(--charcoal)"/>
+            <rect x="140" y="180" width="120" height="60" fill="white" opacity="0.1"/>
+        </g>
+        <g class="anim-draw">
+             <path d="M280 140 L340 40" stroke="var(--secondary-color)" stroke-width="3" stroke-dasharray="8 4"/>
+        </g>
+        <g transform="translate(320, 60)">
+        <g class="anim-bounce">
+        
+             <path d="M-15 20 L0 -20 L15 20 Z" fill="var(--primary-color)"/>
+             <path class="anim-pulse" d="M-10 20 L0 40 L10 20 Z" fill="#fbbf24"/>
+        
+        </g>
+    </g>
+    </svg>

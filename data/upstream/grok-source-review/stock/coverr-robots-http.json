@@ -1,0 +1,17 @@
+{
+  "id": "coverr",
+  "url": "https://coverr.co/robots.txt",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 200,
+  "finalUrl": "https://coverr.co/robots.txt",
+  "contentType": "text/plain",
+  "truncated": false,
+  "observedBytes": 79,
+  "observedContentSha256": "665325c98573a3ceb74d6ed6067ee3bfa137233a4ce4e3c16104d4594be99c28",
+  "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+  "challengeOrDenial": false,
+  "robotsPath": "exa-results/grok-source-review/stock/coverr-robots.txt",
+  "robotsContentSha256": "665325c98573a3ceb74d6ed6067ee3bfa137233a4ce4e3c16104d4594be99c28"
+}

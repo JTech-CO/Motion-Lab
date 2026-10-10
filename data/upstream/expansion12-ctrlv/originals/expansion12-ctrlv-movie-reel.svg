@@ -1,0 +1,34 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Flowing Film Strip -->
+            <path class="anim-draw" d="M50 250 Q100 150 200 150 T350 250" stroke="var(--charcoal)" stroke-width="30" fill="none" opacity="0.8"/>
+            <path class="anim-draw" d="M50 250 Q100 150 200 150 T350 250" stroke="white" stroke-width="26" stroke-dasharray="10 4" fill="none"/>
+            <path class="anim-draw" d="M50 250 Q100 150 200 150 T350 250" stroke="var(--primary-color)" stroke-width="20" fill="none"/>
+
+            <!-- Main Film Reel Body -->
+            <g class="anim-rotate" >
+                <circle cx="200" cy="140" r="90" fill="none" stroke="var(--primary-color)" stroke-width="12"/>
+                <circle cx="200" cy="140" r="80" fill="var(--charcoal)" opacity="0.1"/>
+                <circle cx="200" cy="140" r="20" fill="var(--primary-color)"/>
+                
+                <!-- Cutouts -->
+                <circle cx="200" cy="90" r="25" fill="var(--bg-surface)"/>
+                <circle cx="200" cy="190" r="25" fill="var(--bg-surface)"/>
+                <circle cx="150" cy="140" r="25" fill="var(--bg-surface)"/>
+                <circle cx="250" cy="140" r="25" fill="var(--bg-surface)"/>
+                
+                <circle cx="165" cy="105" r="15" fill="var(--bg-surface)"/>
+                <circle cx="235" cy="105" r="15" fill="var(--bg-surface)"/>
+                <circle cx="165" cy="175" r="15" fill="var(--bg-surface)"/>
+                <circle cx="235" cy="175" r="15" fill="var(--bg-surface)"/>
+                
+                <!-- Inner spokes lines -->
+                <path d="M200 120 V50 M200 160 V230 M180 140 H110 M220 140 H290" stroke="var(--primary-color)" stroke-width="6"/>
+                
+                <!-- Center spindle -->
+                <circle cx="200" cy="140" r="5" fill="var(--bg-surface)"/>
+            </g>
+            
+            <!-- Accents -->
+            <circle class="anim-float" cx="120" cy="80" r="10" fill="var(--accent-color)" opacity="0.6"/>
+            <circle class="anim-pulse" cx="280" cy="200" r="6" fill="var(--secondary-color)"/>
+          </svg>

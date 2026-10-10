@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Field Rows -->
+            <path d="M60 260 H340" stroke="#E2E8F0" stroke-width="2"/>
+            <path d="M80 230 H320" stroke="#E2E8F0" stroke-width="2"/>
+            <rect x="100" y="240" width="15" height="20" rx="4" fill="var(--charcoal)" opacity="0.4"/>
+            <rect x="140" y="240" width="15" height="20" rx="4" fill="var(--charcoal)" opacity="0.4"/>
+            <rect x="180" y="240" width="15" height="20" rx="4" fill="var(--charcoal)" opacity="0.6"/>
+            <rect x="220" y="240" width="15" height="20" rx="4" fill="var(--charcoal)" opacity="0.4"/>
+            
+            <!-- Drone -->
+            <g class="anim-float">
+                <rect x="160" y="80" width="80" height="20" rx="10" fill="var(--primary-color)"/>
+                <circle cx="175" cy="80" r="15" stroke="var(--primary-color)" stroke-width="3" fill="none"/>
+                <circle cx="225" cy="80" r="15" stroke="var(--primary-color)" stroke-width="3" fill="none"/>
+                <rect x="190" y="60" width="20" height="40" rx="4" fill="var(--primary-color)"/>
+                
+                <!-- Scanning Beam -->
+                <path class="anim-draw" d="M200 100 L110 240 M200 100 L290 240" stroke="var(--secondary-color)" stroke-width="2" stroke-dasharray="4 4" opacity="0.6"/>
+                <circle class="anim-glow" cx="200" cy="100" r="10" fill="var(--secondary-color)" opacity="0.3"/>
+            </g>
+            
+            <!-- Character Watching -->
+            <path d="M300 260 C300 220 320 200 350 200 H370 V270 H300 V260 Z" fill="var(--primary-color)"/>
+            <circle cx="335" cy="170" r="24" fill="#94A3B8"/>
+          </svg>

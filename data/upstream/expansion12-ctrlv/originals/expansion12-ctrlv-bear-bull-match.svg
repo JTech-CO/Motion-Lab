@@ -1,0 +1,9 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="anim-slide">
+            <text x="100" y="160" text-anchor="middle" font-family="Inter" font-weight="900" font-size="60" fill="#ef4444">BEAR</text>
+        </g>
+        <g class="anim-slide" style="animation-direction: reverse">
+            <text x="300" y="160" text-anchor="middle" font-family="Inter" font-weight="900" font-size="60" fill="#22c55e">BULL</text>
+        </g>
+        <text class="anim-pulse" x="200" y="160" text-anchor="middle" font-family="Inter" font-weight="900" font-size="40" fill="var(--charcoal)">VS</text>
+    </svg>

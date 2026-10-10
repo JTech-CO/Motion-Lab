@@ -1,0 +1,14 @@
+{
+  "url": "https://muz.li/terms/",
+  "method": "Exa public fetch",
+  "status": "Exa-content-read",
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공개 URL의 Exa 추출 내용을 읽었다. 직접 서버의 HTTP 200으로 간주하지 않았다.",
+  "sector": 4,
+  "siteId": "muzli",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/muzli-terms-exa.json",
+  "rawCacheSha256": "13902b50d74fe948e9c60d8a9e6fab86bffe9dd0cd5f4bd6cf0753bbb451d2d4",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "d1b208458642390a32dc9711a8ebcfa05c294c06781fde2e6bd19445ae3bd56e",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json."
+}

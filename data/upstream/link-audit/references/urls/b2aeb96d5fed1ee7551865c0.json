@@ -1,0 +1,56 @@
+{
+  "url": "https://colorhunt.co/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://colorhunt.co/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://colorhunt.co/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://colorhunt.co/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://colorhunt.co/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:04.660399+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://colorhunt.co/",
+      "contentType": "text/html; charset=UTF-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 28949,
+      "capturedSha256": "e80b07af2659c7e0d3a8037990766a6983b434d3bf22be5cd389cf005ffa70f3",
+      "responseBodySha256": "e80b07af2659c7e0d3a8037990766a6983b434d3bf22be5cd389cf005ffa70f3",
+      "title": "Color Hunt - Color Palettes for Designers and Artists",
+      "textCharacters": 962,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.706,
+      "captureCachePath": "exa-results/link-audit/references/captures/abdac1f4a6b03aaf03a28db1.json",
+      "captureCacheSha256": "85a257b6542f182b49700b6a7da12614244cefb6e15fe7998e4ca6911e03b3ff"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-color-hunt",
+      "canonicalId": "ref-color-hunt",
+      "title": "Color Hunt",
+      "role": "canonical",
+      "sourceSha256": "376310c80f4fcaf8fac22321e031aec57d204d7e23b5eae15c16ef8356e5d2a3"
+    }
+  ]
+}

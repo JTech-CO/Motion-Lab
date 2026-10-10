@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/OnWhyPut/pv-tool",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/OnWhyPut/pv-tool",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/OnWhyPut/pv-tool",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/OnWhyPut/pv-tool",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:57.012372+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/OnWhyPut/pv-tool",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "8efa55ce2835c5544f0b305045197aa0ac8678f6cb67b0773e3bf45a5afb3655",
+      "responseBodySha256": "8efa55ce2835c5544f0b305045197aa0ac8678f6cb67b0773e3bf45a5afb3655",
+      "title": "GitHub - OnWhyPut/pv-tool: Automaticly generate kinetic typography · GitHub",
+      "textCharacters": 3387,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.838,
+      "captureCachePath": "exa-results/link-audit/references/captures/265a705d073e06352e48a28a.json",
+      "captureCacheSha256": "279acfc8bc1da0eef667b3a83b92e0b872b24d943049ef5777e1fb020902dc7c"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-pv-tool",
+      "canonicalId": "ref-pv-tool",
+      "title": "PV Tool",
+      "role": "canonical",
+      "sourceSha256": "a84472bed62d3037b927f5531745b8f76da0e00b5116c0c497952cae415972ea"
+    }
+  ]
+}

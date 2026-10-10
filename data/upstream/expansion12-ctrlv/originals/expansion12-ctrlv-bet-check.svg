@@ -1,0 +1,7 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="anim-bounce">
+            <circle cx="200" cy="150" r="60" fill="var(--primary-color)" opacity="0.2"/>
+            <path class="anim-draw" d="M160 150 L190 180 L240 120" stroke="var(--primary-color)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        </g>
+        <text x="200" y="240" text-anchor="middle" font-family="Inter" font-weight="900" font-size="30" fill="var(--primary-color)">BET</text>
+    </svg>

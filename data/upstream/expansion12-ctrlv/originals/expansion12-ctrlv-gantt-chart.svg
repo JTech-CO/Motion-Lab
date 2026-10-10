@@ -1,0 +1,31 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <!-- Grid Lines -->
+            <g stroke="var(--charcoal)" stroke-width="2" opacity="0.1">
+                <line x1="100" y1="60" x2="100" y2="240"/>
+                <line x1="150" y1="60" x2="150" y2="240"/>
+                <line x1="200" y1="60" x2="200" y2="240"/>
+                <line x1="250" y1="60" x2="250" y2="240"/>
+                <line x1="300" y1="60" x2="300" y2="240"/>
+            </g>
+            <!-- Background Bars -->
+            <rect x="80" y="80" width="240" height="20" rx="4" fill="var(--charcoal)" opacity="0.05"/>
+            <rect x="80" y="120" width="240" height="20" rx="4" fill="var(--charcoal)" opacity="0.05"/>
+            <rect x="80" y="160" width="240" height="20" rx="4" fill="var(--charcoal)" opacity="0.05"/>
+            <rect x="80" y="200" width="240" height="20" rx="4" fill="var(--charcoal)" opacity="0.05"/>
+            
+            <g class="anim-data">
+                <!-- Active Project Bars -->
+                <rect class="anim-draw" x="100" y="80" width="80" height="20" rx="4" fill="var(--primary-color)"/>
+                <rect class="anim-draw" style="animation-delay: 0.5s;" x="160" y="120" width="100" height="20" rx="4" fill="var(--secondary-color)"/>
+                <rect class="anim-draw" style="animation-delay: 1s;" x="220" y="160" width="60" height="20" rx="4" fill="var(--accent-color)"/>
+                <rect class="anim-draw" style="animation-delay: 1.5s;" x="270" y="200" width="40" height="20" rx="4" fill="var(--primary-color)"/>
+                
+                <!-- Dependency Lines -->
+                <path class="anim-glow" d="M180 90 H195 V120" stroke="var(--charcoal)" stroke-width="2" fill="none" opacity="0.3"/>
+                <path class="anim-glow" style="animation-delay: 0.5s;" d="M260 130 H275 V160" stroke="var(--charcoal)" stroke-width="2" fill="none" opacity="0.3"/>
+            </g>
+            
+            <!-- Today Indicator -->
+            <line class="anim-pulse" x1="190" y1="50" x2="190" y2="250" stroke="var(--secondary-color)" stroke-width="4" stroke-dasharray="5 5"/>
+          </svg>

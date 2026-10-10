@@ -1,0 +1,10 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="200" cy="240" rx="100" ry="20" fill="var(--slate-400)" opacity="0.3"/>
+        <g class="anim-bounce">
+            <path d="M180 240 L220 220 M180 220 L220 240" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round"/>
+        </g>
+        <g class="anim-float">
+            <path d="M200 230 L170 160 L200 120 L230 160 Z" fill="var(--secondary-color)" opacity="0.9"/>
+            <path d="M200 220 L185 180 L200 160 L215 180 Z" fill="#fbbf24"/>
+        </g>
+    </svg>

@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="260" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <!-- Soil Layers -->
+            <rect x="80" y="220" width="240" height="40" rx="4" fill="#94A3B8" opacity="0.2"/>
+            <rect x="100" y="235" width="200" height="15" rx="2" fill="#64748B" opacity="0.1"/>
+            
+            <!-- Sensor Stake -->
+            <path d="M200 120 V240" stroke="var(--primary-color)" stroke-width="6" stroke-linecap="round"/>
+            <rect x="185" y="100" width="30" height="40" rx="4" fill="var(--primary-color)"/>
+            
+            <!-- Digital Pings -->
+            <circle class="anim-glow" cx="200" cy="120" r="30" stroke="var(--charcoal)" stroke-width="2" opacity="0.3"/>
+            <circle class="anim-glow" cx="200" cy="120" r="15" fill="var(--charcoal)" opacity="0.15"/>
+            <circle class="anim-data" cx="200" cy="120" r="4" fill="var(--charcoal)"/>
+            
+            <!-- Floating Data Leaves -->
+            <path class="anim-float" d="M140 160 Q120 120 160 140" stroke="var(--secondary-color)" stroke-width="3" stroke-linecap="round" fill="none"/>
+            <path class="anim-float" d="M260 150 Q280 110 240 130" stroke="var(--accent-color)" stroke-width="3" stroke-linecap="round" fill="none" style="animation-delay: -1s"/>
+          </svg>

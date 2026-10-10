@@ -1,0 +1,56 @@
+{
+  "url": "https://mycolor.space/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://mycolor.space/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://mycolor.space/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://mycolor.space/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://mycolor.space/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:05.427049+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://mycolor.space/",
+      "contentType": "text/html; charset=UTF-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 13867,
+      "capturedSha256": "70b094fad21e4bb4a67443c9278424ca09de81067699ad98115c015f8be10e2c",
+      "responseBodySha256": "70b094fad21e4bb4a67443c9278424ca09de81067699ad98115c015f8be10e2c",
+      "title": "ColorSpace - Color Palettes Generator and Color Gradient Tool",
+      "textCharacters": 374,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.086,
+      "captureCachePath": "exa-results/link-audit/references/captures/4b9bfbd2d0353fa48d6fa462.json",
+      "captureCacheSha256": "9b57d1ab38291163e6837713441ef78b240c74eafd0d2328800ec21bf61d0b6a"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-colorspace",
+      "canonicalId": "ref-colorspace",
+      "title": "ColorSpace",
+      "role": "canonical",
+      "sourceSha256": "307daa8826ffafbefcf7956449c4c19ae0419885c5d407b47e0350b2d6738b40"
+    }
+  ]
+}

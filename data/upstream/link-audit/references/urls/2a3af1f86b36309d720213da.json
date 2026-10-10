@@ -1,0 +1,90 @@
+{
+  "url": "https://github.com/Giacomo-Paolini/fluid",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/wag-me/fluid",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/Giacomo-Paolini/fluid",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    },
+    {
+      "url": "https://github.com/wag-me/fluid",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/Giacomo-Paolini/fluid",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:32.348458+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 301,
+      "finalUrl": "https://github.com/Giacomo-Paolini/fluid",
+      "contentType": "text/html; charset=utf-8",
+      "location": "https://github.com/wag-me/fluid",
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 0,
+      "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "responseBodySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "",
+      "textCharacters": 0,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.285,
+      "captureCachePath": "exa-results/link-audit/references/captures/90bd7145d847f8ddb70370a8.json",
+      "captureCacheSha256": "86daba40eb89e5533a328383cca5defbd11285377e6503af1452320a294e1b74"
+    },
+    {
+      "url": "https://github.com/wag-me/fluid",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:34.348544+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/wag-me/fluid",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "198f6811e93d242f2dd66b241480922f6df435b7274f3816fbbe497574d982f4",
+      "responseBodySha256": "198f6811e93d242f2dd66b241480922f6df435b7274f3816fbbe497574d982f4",
+      "title": "GitHub - wag-me/fluid: Dependency-free WebGL studio for generative backgrounds and live embeds. · GitHub",
+      "textCharacters": 3008,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.75,
+      "captureCachePath": "exa-results/link-audit/references/captures/a09598accda6f15f353345d0.json",
+      "captureCacheSha256": "71f49baf4c80216635092cedd513e2c1948773487945bbe1c85e4194541f9a51"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-fluid-studio",
+      "canonicalId": "ref-fluid-studio",
+      "title": "Fluid Studio",
+      "role": "canonical",
+      "sourceSha256": "59fda5df347c850c72fc565a353744f8b3272af61c92f60ed2931ccdea72aafb"
+    }
+  ]
+}

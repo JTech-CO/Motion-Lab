@@ -1,0 +1,37 @@
+{
+  "url": "https://www.allavio.com/product/minimal-titles-for-davinci-resolve/",
+  "site": "allavio",
+  "reviewedAt": "2026-10-10",
+  "captures": [
+    {
+      "method": "public-HTTP-GET",
+      "status": 200,
+      "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://www.allavio.com/product/minimal-titles-for-davinci-resolve/",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/allavio-representative-http.json",
+      "rawCacheSha256": "9f9e8fa6c67944925a44b50b8c73885dab4c3a71716dbdebcd5a27d91087020f",
+      "capturedTextSha256": "b763bcab635c8ab3158d6be0e6444b78f7bb5be37ff827dff9fe6d98c330f9fa",
+      "responseCapturedSha256": "699215fac5756890e0bd7288bd6d24a1b47b587571b0f03aee9210535836edd1",
+      "boundedAtBytes": 1048576,
+      "truncated": false
+    },
+    {
+      "method": "Exa-public-fetch",
+      "status": "content-returned-http-status-unavailable",
+      "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://www.allavio.com/product/minimal-titles-for-davinci-resolve/",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/exa-representatives-and-api-fetch.json",
+      "rawCacheSha256": "70ae2f8e179db0ce9b95aeb1b7c7639fb88cc4fe1a5086317d29008869b0ba4c",
+      "capturedTextSha256": "a05f610733dc2f321992e0a23a0a2e47bd899532e8ec8130ea89a90bbdb09fbd",
+      "responseCapturedSha256": null,
+      "boundedAtBytes": null,
+      "providerResponseCacheBytes": 59421,
+      "truncated": null
+    }
+  ],
+  "contentPolicy": "원문 전체는 ignored exa-results 캐시에만 보관합니다. 이 파일은 접근 상태와 SHA 및 자체 요약만 저장하며 페이지 인용은 sites.json termsEvidence에만 최대 25단어로 기록합니다."
+}

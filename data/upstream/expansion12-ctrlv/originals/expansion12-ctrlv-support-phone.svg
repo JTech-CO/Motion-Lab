@@ -1,0 +1,23 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Phone Base -->
+            <path d="M130 160 C130 140 270 140 270 160 V220 C270 230 130 230 130 220 Z" fill="var(--primary-color)"/>
+            <path d="M150 160 H250 V200 H150 Z" fill="var(--charcoal)" opacity="0.1"/>
+            
+            <!-- Dial/Keypad -->
+            <circle cx="170" cy="180" r="15" fill="var(--bg-surface)"/>
+            <circle cx="200" cy="180" r="15" fill="var(--bg-surface)"/>
+            <circle cx="230" cy="180" r="15" fill="var(--bg-surface)"/>
+            <circle cx="170" cy="210" r="10" fill="var(--bg-surface)"/>
+            <circle cx="200" cy="210" r="10" fill="var(--bg-surface)"/>
+            <circle cx="230" cy="210" r="10" fill="var(--bg-surface)"/>
+            
+            <!-- Receiver -->
+            <g class="anim-bounce" >
+                <path d="M100 120 C100 80 300 80 300 120" stroke="var(--secondary-color)" stroke-width="25" stroke-linecap="round" fill="none"/>
+                <ellipse cx="100" cy="120" rx="20" ry="10" fill="var(--accent-color)"/>
+                <ellipse cx="300" cy="120" rx="20" ry="10" fill="var(--accent-color)"/>
+                
+                <!-- Ringing lines -->
+                <path class="anim-pulse" d="M70 100 Q60 80 80 60 M50 120 Q30 90 60 40 M330 100 Q340 80 320 60 M350 120 Q370 90 340 40" stroke="var(--primary-color)" stroke-width="4" stroke-linecap="round" fill="none"/>
+            </g>
+          </svg>

@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/text-animate.tsx",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/text-animate.tsx",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/text-animate.tsx",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/text-animate.tsx",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:10.105237+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/text-animate.tsx",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "652aab1a6b8c06d05e1ccdc4d5543841b0caeef9188216eb5d6c67dad8ffd146",
+      "responseBodySha256": "652aab1a6b8c06d05e1ccdc4d5543841b0caeef9188216eb5d6c67dad8ffd146",
+      "title": "magicui/apps/www/registry/magicui/text-animate.tsx at cdb348cb4c72a9b54b554d8617801e479fbc8714 · magicuidesign/magicui · GitHub",
+      "textCharacters": 3718,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.727,
+      "captureCachePath": "exa-results/link-audit/references/captures/cce347fc4e5499e0aa6beafa.json",
+      "captureCacheSha256": "da1f7e6b8904fba58c2d15d14a22106d9c027bf4ada5f214e7f8201515e2f570"
+    }
+  ],
+  "items": [
+    {
+      "id": "asset-magicui-text-animate",
+      "canonicalId": "asset-magicui-text-animate",
+      "title": "Magic UI · Text Animate",
+      "role": "canonical",
+      "sourceSha256": "c1290150004b67af53284c1859da60506cfb43d8a92279f4d14932d23227b355"
+    }
+  ]
+}

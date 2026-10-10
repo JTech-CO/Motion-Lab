@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+              
+              <rect x="40" y="220" width="320" height="12" rx="4" fill="#334155" opacity="0.15" />
+
+              
+              <rect x="60" y="180" width="120" height="40" rx="4" fill="#334155" opacity="0.2" stroke="#334155" stroke-width="3" />
+
+              
+              <g transform="translate(85, 90)">
+                <path d="M0 0 V80 Q0 100 10 100 Q20 100 20 80 V0 Z" fill="#ffffff" stroke="#334155" stroke-width="3" />
+                <path d="M0 50 Q10 60 20 50 V80 Q20 100 10 100 Q0 100 0 80 Z" fill="#DFD116" opacity="0.5" />
+                <path d="M3 50 Q10 55 17 50" stroke="#DFD116" stroke-width="2" fill="none" />
+                <rect x="0" y="0" width="20" height="8" rx="2" fill="#334155" opacity="0.5" />
+                
+                <circle cx="10" cy="70" r="3" fill="#ffffff" opacity="0.7" />
+                <circle cx="7" cy="60" r="2" fill="#ffffff" opacity="0.5" />
+              </g>
+
+              
+              <g transform="translate(120, 80)">
+                <g>
+                  <path d="M0 0 V90 Q0 110 10 110 Q20 110 20 90 V0 Z" fill="#ffffff" stroke="#6366f1" stroke-width="3" />
+                  <path d="M0 50 Q10 65 20 50 V90 Q20 110 10 110 Q0 110 0 90 Z" fill="#6366f1" opacity="0.6" />
+                  <rect x="0" y="0" width="20" height="8" rx="2" fill="#6366f1" opacity="0.7" />
+                  
+                  <circle cx="10" cy="80" r="15" fill="#6366f1" opacity="0.1" />
+                </g>
+              </g>
+
+              
+              <g transform="translate(155, 95)">
+                <path d="M0 0 V75 Q0 95 10 95 Q20 95 20 75 V0 Z" fill="#ffffff" stroke="#334155" stroke-width="3" />
+                <path d="M0 78 Q10 85 20 78 V90 Q20 95 10 95 Q0 95 0 90 Z" fill="#E2E8F0" opacity="0.9" />
+                <rect x="0" y="0" width="20" height="8" rx="2" fill="#334155" opacity="0.3" />
+              </g>
+
+              
+              <g transform="translate(220, 80)">
+                <rect x="0" y="0" width="130" height="110" rx="4" fill="#ffffff" stroke="#334155" stroke-width="4" />
+                <text x="65" y="18" font-family="sans-serif" font-weight="bold" font-size="9" fill="#334155" text-anchor="middle" opacity="0.7">TRIAL RESULTS</text>
+                
+                <line x1="20" y1="30" x2="20" y2="95" stroke="#334155" stroke-width="2" opacity="0.5" />
+                <line x1="20" y1="95" x2="120" y2="95" stroke="#334155" stroke-width="2" opacity="0.5" />
+                
+                <rect x="35" y="45" width="25" height="50" fill="#6366f1" rx="2" opacity="0.8" />
+                
+                <rect x="75" y="70" width="25" height="25" fill="#334155" rx="2" opacity="0.3" />
+                
+                <text x="47" y="48" font-family="sans-serif" font-size="7" fill="#ffffff" text-anchor="middle" font-weight="bold">✓</text>
+              </g>
+
+              
+              <g transform="translate(48, 120)">
+        <g>
+        
+                <ellipse cx="0" cy="0" rx="18" ry="9" fill="#f43f5e" stroke="#334155" stroke-width="2" />
+                <line x1="-18" y1="0" x2="18" y2="0" stroke="#334155" stroke-width="2" />
+                <ellipse cx="0" cy="0" rx="18" ry="9" fill="#ffffff" opacity="0.3" clip-path="url(#pill-clip)" />
+              
+        </g>
+    </g>
+            </g>
+          </svg>

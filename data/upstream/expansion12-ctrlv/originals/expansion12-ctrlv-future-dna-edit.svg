@@ -1,0 +1,29 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            
+            <!--Floating background cells-->
+            <circle class="anim-float" cx="100" cy="80" r="30" fill="var(--secondary-color)" opacity="0.1"/>
+            <circle class="anim-float" cx="300" cy="200" r="40" fill="var(--primary-color)" opacity="0.05" style="animation-delay: -1s"/>
+
+            <g class="anim-bounce">
+                <!-- DNA Helix Left Strand -->
+                <path d="M160 50 C120 100 240 150 160 250" stroke="var(--primary-color)" stroke-width="6" stroke-linecap="round" fill="none"/>
+                <!-- DNA Helix Right Strand -->
+                <path d="M240 50 C280 100 160 150 240 250" stroke="var(--secondary-color)" stroke-width="6" stroke-linecap="round" fill="none"/>
+                
+                <!-- Base pairs (connections) -->
+                <line x1="170" y1="70" x2="230" y2="70" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+                <line x1="190" y1="100" x2="210" y2="100" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+                <line x1="190" y1="200" x2="210" y2="200" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+                <line x1="170" y1="230" x2="230" y2="230" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+                
+                <!-- The "Edit" / Missing Link glowing -->
+                <line class="anim-pulse" x1="150" y1="150" x2="250" y2="150" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 5"/>
+                <circle class="anim-glow" cx="200" cy="150" r="12" fill="var(--accent-color)"/>
+            </g>
+
+            <!--Holographic UI editing interface-->
+            <rect class="anim-float" x="260" y="100" width="80" height="60" rx="8" fill="var(--primary-color)" opacity="0.9"/>
+            <path class="anim-draw" d="M275 120 H325 M275 135 H310 M275 110 H290" stroke="var(--bg-surface)" stroke-width="3" stroke-linecap="round"/>
+            <!--Line connecting UI to the edit point-->
+  <path class="anim-draw" d="M260 130 L210 150" stroke="var(--primary-color)" stroke-width="2" stroke-dasharray="4 4" fill="none" />
+          </svg>

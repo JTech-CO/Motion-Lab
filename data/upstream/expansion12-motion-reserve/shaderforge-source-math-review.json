@@ -1,0 +1,10 @@
+{
+  "sourceURL": "https://registry.khronos.org/OpenGL-Refpages/gl4/html/smoothstep.xhtml",
+  "artifactPath": "exa-results/expansion12/shaderforge-smoothstep-primary.xhtml",
+  "sha256": "96bc8818e4e93250a4f7cd6a38a9f4f992f56d140ec98d131ebd4fe68b32711e",
+  "bytes": 13878,
+  "primarySourceStatement": "Results are undefined if edge0 >= edge1.",
+  "originalSourceExpression": "smoothstep(0.8, 0.2, dist)",
+  "decision": "held-original-undefined-GLSL-arithmetic",
+  "explanation": "Original literal edge0 > edge1 in density function; identical local driver pixels do not establish defined or portable GLSL behavior. Source body retained without algebraic rewrite."
+}

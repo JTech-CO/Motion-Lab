@@ -1,0 +1,27 @@
+{
+  "theme": "vibrant plasma energy field",
+  "style_hints": "",
+  "references": [
+    "shabon-fx/AuroraWaves.frag [color_palette,grid,noise,wave]",
+    "community/glsl-shaders/crt_shaders_smuberstep-glow.glsl [grid,lighting,matrix]",
+    "shabon-fx/Fireworks.frag [grid,noise,particles,postprocess]",
+    "community/glsl-shaders/crt_shaders_hyllian_crt-hyllian-glow_resolve2.glsl [grid,lighting,matrix,postprocess]",
+    "community/WebGPU-Lab/src_scripts_raytrace_cloud.wgsl [color_palette,grid,raymarching,volumetric]"
+  ],
+  "attempts": 3,
+  "created_at": "2026-03-28T05:08:28.944568+00:00",
+  "glsl_lines": 155,
+  "success": true,
+  "target": "wgsl",
+  "design_brief": "1. **Architecture**: `main()` → `vec2 uv = vUv; uv.x *= aspect;` → `vec3 color = vec3(0.0);` → *plasma loop* (3–5 layers of domain-warped noise) → `color += vibrantPalette();` → `gl_FragColor = vec4(color, 1.0);`.  \n2. **Key functions**: `hash(float)` (Ref #1), `noise(vec2)` (Ref #1’s smooth noise), `plasma(vec2 uv, float t)` (returns `vec3`), `vibrantPalette(vec3 base)` (adds hue cycling & intensity boost).  \n3. **Reuse**: Use Ref #1’s `noise()` for base domain warping; Ref #3’s `hash(vec2)` for high-contrast particle seeding if adding micro-structure; avoid CRT params (Ref #2) — too dark.  \n4. **Color & brightness**: Start with `vec3(0.0)` background, accumulate `abs(sin(uTime + noise(...))) * 1.5` per layer, clamp to `[0.0, 1.0]` *after* summing, then apply `pow(color, vec3(0.8))` for saturation lift.  \n5. **Animation**: `uTime` drives all: `float t = uTime * 0.8;` (slow, looping every ~8s), warp UVs with `uv * 1.5 + vec2(sin(t), cos(t))` per layer for fluid flow.  \n6. **Pitfalls**: NO fwidth/dFdx — avoid antialiasing; NO bitwise ops — hash with `sin(dot(...))`; always normalize UV aspect; avoid negative coordinates in `floor()` (use `floor(uv + 0.5)` for safety).",
+  "review": {
+    "visual_complexity": 4,
+    "code_quality": 3,
+    "theme_match": 5,
+    "animation": 5,
+    "originality": 4,
+    "total": 21,
+    "verdict": "pass",
+    "feedback": "Excellent plasma energy field implementation with layered domain-warping noise and vibrant animated colors; code could be cleaner with consistent naming and fewer redundant calculations, but the visual output is bright, full-canvas, and highly engaging."
+  }
+}

@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Store -->
+                <path d="M160 120 L200 90 L240 120 V170 H160 Z" fill="var(--primary-color)"/>
+                <rect x="190" y="140" width="20" height="30" fill="var(--bg-surface)"/>
+                <!-- Laptop -->
+                <rect x="80" y="180" width="60" height="40" rx="4" fill="var(--secondary-color)"/>
+                <path d="M70 220 H150" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                <!-- Phone -->
+                <rect x="260" y="160" width="40" height="70" rx="5" fill="var(--secondary-color)"/>
+                <!-- Connections -->
+                <path class="anim-pulse" d="M110 170 Q140 140 160 140" stroke="var(--accent-color)" stroke-width="4" stroke-dasharray="6 6" fill="none"/>
+                <path class="anim-pulse" style="animation-delay: 0.3s;" d="M280 150 Q260 120 230 140" stroke="var(--accent-color)" stroke-width="4" stroke-dasharray="6 6" fill="none"/>
+                <!-- Center circle -->
+                <circle cx="200" cy="190" r="15" fill="var(--accent-color)"/>
+                <circle class="anim-pulse" cx="200" cy="190" r="25" stroke="var(--accent-color)" stroke-width="2" fill="none"/>
+            </g>
+          </svg>

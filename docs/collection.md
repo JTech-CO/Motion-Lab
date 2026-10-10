@@ -8,13 +8,15 @@ Motion Lab은 공개 원본에서 확인한 코드·색상·이미지와 검토�
 
 ```sh
 python scripts/build.py
-python scripts/verify_catalog.py --minimum 10000 --minimum-stored 10000
+python scripts/verify_catalog.py
 python -m motionlab serve --port 8787
 ```
 
 홈은 `http://127.0.0.1:8787/`, 자료 탐색은 `http://127.0.0.1:8787/library.html`입니다. 서버는 루프백에만 바인딩합니다. CLI·HTTP·MCP 연결 방법과 조회 스키마는 [인터페이스](interfaces.md)에 있습니다.
 
 빌드는 저장된 입력만 읽으며 원격 요청이나 원본 코드 실행을 하지 않습니다. `data/catalog.json`, `data/motionlab.sqlite`와 `dist/`의 전체·경량 카탈로그, 별칭, 컬렉션, `llms.txt`를 다시 만듭니다. 생성된 카탈로그를 수집 입력으로 재사용하지 않습니다.
+
+전체 JSON 두 파일은 Git 추적에서 제외하고 클론 후 위 빌드로 생성합니다. 원본 입력, 고지, 검증 근거는 저장소에 보존하며 생성된 전체 JSON은 로컬 API, 정적 배포 및 휴대용 패키지에서 계속 사용할 수 있습니다.
 
 같은 빌드에서 `README.md`와 `README-KO.md`의 수량 요약 및 공통 원형 그래프 `docs/assets/catalog-composition.svg`도 갱신합니다. 그래프는 대표 탐색 항목의 모션·디자인·레퍼런스 수량을 사용하며 별칭과 보존 원본 변형을 추가로 계산하지 않습니다. README의 자동 생성 마커 밖 문장은 유지합니다. 현재 SQLite 통계로 문서와 그래프만 갱신하려면 `python scripts/readme_assets.py`를 실행합니다. 외부 차트 서비스나 추가 Python 패키지는 필요하지 않습니다.
 
@@ -25,14 +27,18 @@ python -m motionlab serve --port 8787
 | 초기 원본·레퍼런스·자체 예제 | `data/imported-items.json`, `research-sources.json`, `jtech-items.json`, `glsl-items.json`, `manual-items.json` |
 | CSS·SVG·색상 추가 입력 | `data/expanded-assets.json`, `css-wave-items.json`, `vector-wave-items.json`, `color-wave-items.json` |
 | 모션·디자인·소재·추가 형상 | `data/phase2-motion-items.json`, `phase2-design-items.json`, `phase2-material-items.json`, `phase2-game-design-items.json` |
+| 12,000개 확장 입력 | `data/expansion12-motion-items.json`, `expansion12-pattern-items.json`, `expansion12-vector-items.json`, `expansion12-material-items.json`, `expansion12-shape-items.json`, `expansion12-openmoji-items.json`, `expansion12-ctrlv-items.json`, `expansion12-motion-reserve-items.json` |
 | 원본 변형 병합 정책 | `data/consolidation-policy.json` |
 | 레퍼런스 분류·독립 미리보기 | `data/reference-review-cha.json`, `reference-review-sources.json` |
 | 접근 불가 레퍼런스 제외 정책 | `data/reference-removals.json` |
+| 전체 링크 점검과 정리 결과 | `data/link-audit-report.json` |
 | 고정 원본·라이선스·정책·해시·검토 근거 | `data/upstream/` |
 
 입력의 원본 ID·코드·색상·출처·고지를 유지합니다. JSON은 LF로 생성하며 `.gitattributes`는 upstream 원본에 줄바꿈 변환을 적용하지 않습니다. 원본·라이선스·근거 파일이 사라지거나 고정된 해시가 바뀌면 빌드 또는 검증이 실패합니다. 각 검증 JSON은 검사한 카탈로그와 입력 해시에 연결된 기록이므로 당시 범위와 날짜를 읽어야 합니다.
 
 `data/upstream/`의 README, LICENSE, 약관 및 스토리보드는 출처 근거입니다. 프로젝트 안내 문서와 달리 제거하거나 편집하면 원본 검증과 이용 조건 추적이 깨질 수 있습니다.
+
+전체 링크 점검 결과는 `data/link-audit-report.json`에 검사 날짜와 카탈로그 해시를 함께 기록합니다. 일반 브라우저에서도 확인할 수 없고 공개 원본 대체 경로가 없는 레퍼런스는 제외 정책으로 사이트·CLI·API·MCP에서 제거합니다. 자동 수집 차단이나 일시적인 요청 실패는 원본 삭제와 구분하며, 공개된 동일 원본이 확인되면 출처를 복구합니다. 삭제 결정과 당시 원본 기록은 감사 근거로 보존합니다.
 
 ## 자료 추가와 검증
 
@@ -40,18 +46,24 @@ python -m motionlab serve --port 8787
 
 ```sh
 python scripts/build.py
-python scripts/verify_catalog.py --minimum 10000 --minimum-stored 10000
+python scripts/verify_catalog.py
 python scripts/recheck_consolidation.py
 ```
 
 중복·유사성 재검사는 현재 대표 항목을 CSS·SVG·팔레트·GLSL·레퍼런스·이미지 기준으로 확인하고 `data/consolidation-recheck.json`을 생성합니다. 기존 판정은 원본과 문맥 해시가 일치할 때만 적용됩니다. 검사에서 발견된 미검토 후보를 판단한 뒤 정책을 갱신해야 합니다. 수치·구조 비교가 전 세계의 모든 모션이나 모든 프레임에 대한 유일성을 보장하지는 않습니다. 이미지 중복·유사성 재검사에만 선택 의존성을 사용합니다.
+
+저장량 목표는 무결성 검사와 별도로 `python scripts/verify_catalog.py --minimum-stored 12000`으로 확인합니다. 목표에 미달하면 실패합니다. 이번 확장의 표본 채택률, 실제 추가 수량, 부족분과 검토한 공급 범위는 `data/expansion12-report.json`에 기록하며, 접근 불가·권리 불명·미지원 후보를 잔여 채택 가능 자료로 계산하지 않습니다.
 
 ```sh
 python -m pip install -r scripts/phase2-requirements.txt
 python scripts/recheck_consolidation.py
 ```
 
-공개 원본을 확인할 때 robots.txt와 출처 약관을 따르고 접근 거부·호출 제한에서는 중단합니다. MP4/MOV/WebM이나 원본 실행 스크립트를 추가하지 않습니다. 갱신된 원본에는 기존 병합·레퍼런스 검토 정책의 해시가 맞지 않을 수 있으므로 해당 항목을 다시 검토합니다. 레퍼런스는 자동으로 최신 상태가 보장되지 않습니다.
+공개 원본을 확인할 때 robots.txt와 출처 약관을 따르고 접근 거부·호출 제한에서는 중단합니다. MP4/MOV/WebM은 저장하지 않으며 출처의 실행 스크립트를 사이트에서 실행하지 않습니다. 원본 HTML·JS·TS는 추출과 권리 확인의 근거로만 보존할 수 있습니다. 갱신된 원본에는 기존 병합·레퍼런스 검토 정책의 해시가 맞지 않을 수 있으므로 해당 항목을 다시 검토합니다. 레퍼런스는 자동으로 최신 상태가 보장되지 않습니다.
+
+이번 확장은 저장 에셋 12,000개를 목표로 하며 검토 레퍼런스는 별도로 집계합니다. 모션 100개, 패턴 120개, 소재 100개, 벡터 130개, 복합형상 50개를 먼저 고정해 원본·권리·미리보기·기존 변형·분야 간 유사를 검증합니다. 소재의 최신 100개 표본은 해당 목록의 전수 조사이며 전체 공급량으로 채택률을 외삽하지 않습니다. 결과와 개별 채택·제외 근거는 `data/upstream/expansion12-*/`에 보존합니다. 다음 15,000개와 20,000개 확장은 이번 실채택률과 아직 검증하지 않은 원본 공급량을 확인한 뒤 별도로 진행합니다.
+
+새 확장 입력의 `collectionEvidence`는 원본 파일·고지·저장 본문의 SHA256을 연결합니다. 빌드와 카탈로그 검증은 네트워크 접속 없이 이 증거를 검사하며, 해시 불일치·누락·프로젝트 밖 경로·파일 링크가 있으면 중단합니다. 절차형 GLSL은 원본 조각과 공개 초깃값을 보존한 로컬 시간 호스트 어댑터로 재생하고, SVG는 허용한 로컬 기하·필터·마스크만 렌더링합니다.
 
 과거 JSON 검토 기록은 당시 실행 결과·카탈로그·원문에 연결된 이력입니다. 그 안에 남은 당시 도구나 개발 문서 경로는 해당 파일이 현재도 존재한다는 보증이 아니며, 현재 재현 명령은 이 문서의 빌드·검증·재검사 명령입니다.
 

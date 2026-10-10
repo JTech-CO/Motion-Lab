@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/vagmi/radiant",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/vagmi/radiant",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/vagmi/radiant",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/vagmi/radiant",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:41.715880+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/vagmi/radiant",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "24b1123b5bb0de7812b7d8543ebd95a9a60ce1a01cc6230a8467b0a19ee8d8e9",
+      "responseBodySha256": "24b1123b5bb0de7812b7d8543ebd95a9a60ce1a01cc6230a8467b0a19ee8d8e9",
+      "title": "GitHub - vagmi/radiant: A curated collection of generative shader art · GitHub",
+      "textCharacters": 2929,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.753,
+      "captureCachePath": "exa-results/link-audit/references/captures/a64521d7f61293867af32e5b.json",
+      "captureCacheSha256": "825fe6964012337d705ffb5514eb497a4d630202d1276a9dd4447b81a5096129"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-radiant",
+      "canonicalId": "ref-radiant",
+      "title": "Radiant",
+      "role": "canonical",
+      "sourceSha256": "590bc979e3e8c21c03cd193568d6161045d4a6ddae937bd411380f35e56203c6"
+    }
+  ]
+}

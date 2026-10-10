@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Kites floating -->
+            <g class="anim-float" >
+                <path d="M200 40 L250 90 L200 160 L150 90 Z" fill="var(--primary-color)"/>
+                <path d="M150 90 L250 90" stroke="var(--charcoal)" stroke-width="2"/>
+                <path d="M200 40 L200 160" stroke="var(--charcoal)" stroke-width="2"/>
+                <!-- Tail -->
+                <path class="anim-draw" d="M200 160 Q180 190 220 220 T190 260" fill="none" stroke="var(--accent-color)" stroke-width="4"/>
+            </g>
+            <g class="anim-float" style="animation-delay: -2s; transform-origin: 100px 80px;">
+                <path d="M100 20 L130 60 L100 110 L70 60 Z" fill="var(--secondary-color)"/>
+                <path d="M70 60 L130 60 M100 20 L100 110" stroke="white" stroke-width="2"/>
+            </g>
+            <!-- Spool (Charkhi) -->
+            <rect x="280" y="210" width="30" height="60" fill="var(--charcoal)"/>
+            <path d="M260 220 H330 M260 260 H330" stroke="var(--primary-color)" stroke-width="8" stroke-linecap="round"/>
+            <path class="anim-draw" d="M295 210 L250 140 L200 110" fill="none" stroke="var(--charcoal)" stroke-width="2" stroke-dasharray="4 4"/>
+          </svg>

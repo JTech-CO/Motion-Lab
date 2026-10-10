@@ -1,0 +1,17 @@
+{
+  "id": "pixabay",
+  "url": "https://pixabay.com/robots.txt",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 200,
+  "finalUrl": "https://pixabay.com/robots.txt",
+  "contentType": "text/plain",
+  "truncated": false,
+  "observedBytes": 3248,
+  "observedContentSha256": "1b0d4f9b4b12b727626d632d774ce60a905c3f0c3ac73d58dbcc2f20d7d349cc",
+  "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+  "challengeOrDenial": false,
+  "robotsPath": "exa-results/grok-source-review/stock/pixabay-robots.txt",
+  "robotsContentSha256": "1b0d4f9b4b12b727626d632d774ce60a905c3f0c3ac73d58dbcc2f20d7d349cc"
+}

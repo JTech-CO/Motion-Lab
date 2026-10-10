@@ -1,0 +1,19 @@
+{
+  "url": "https://www.awwwards.com/robots.txt",
+  "method": "bounded public HTTP GET",
+  "status": 200,
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공식 공개 URL의 제한된 HTTP GET 응답을 읽었다. 원격 JavaScript·미디어 파일을 실행하거나 다운로드하지 않았다. 검색·일부 영감/요소 조회 경로를 제한한다. 검토한 공개 사이트 상세와 자산 권리는 별도다.",
+  "sector": 4,
+  "siteId": "awwwards",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/awwwards-robots-http.json",
+  "rawCacheSha256": "24bdfe95437262c32671801be83ac645d62637fe52782e6721b7919f88efc450",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "8624b634498f5cfb2485672b496b5b06cbfa9631848593dab20690925ee6214a",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "finalUrl": "https://www.awwwards.com/robots.txt",
+  "byteCount": 935,
+  "boundedAt": 1048576,
+  "truncated": false,
+  "originalResponseSha256": "8624b634498f5cfb2485672b496b5b06cbfa9631848593dab20690925ee6214a"
+}

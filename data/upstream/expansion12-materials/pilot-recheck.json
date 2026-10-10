@@ -1,0 +1,143 @@
+{
+  "previousAccepted": 91,
+  "accepted": 74,
+  "excludedTotal": 26,
+  "extraExcluded": [
+    {
+      "id": "expansion12-material-3dtextures-brick-wall-026",
+      "reason": "Common constant-height running-bond brick/block layout; color/weathering finish changes do not supply a distinct composition",
+      "canonicalId": "phase2-material-ambientcg-bricks002"
+    },
+    {
+      "id": "expansion12-material-3dtextures-fabric-padded-010-free-seamless-pbr-texture",
+      "reason": "Plain regular rectangular/square grid family already represented; material color, seam thickness and PBR shading variants are not independent compositions",
+      "canonicalId": "phase2-material-polyhaven-square-tiles"
+    },
+    {
+      "id": "expansion12-material-3dtextures-glass-window-005",
+      "reason": "Plain regular rectangular/square grid family already represented; material color, seam thickness and PBR shading variants are not independent compositions",
+      "canonicalId": "phase2-material-polyhaven-square-tiles"
+    },
+    {
+      "id": "expansion12-material-3dtextures-stone-tiles-006",
+      "reason": "Almost uniform light mineral BaseColor; no sufficiently distinct visible tile structure in the selected color map"
+    },
+    {
+      "id": "expansion12-material-3dtextures-tiles-066",
+      "reason": "Plain regular rectangular/square grid family already represented; material color, seam thickness and PBR shading variants are not independent compositions",
+      "canonicalId": "phase2-material-polyhaven-square-tiles"
+    },
+    {
+      "id": "expansion12-material-3dtextures-tiles-069",
+      "reason": "Plain regular rectangular/square grid family already represented; material color, seam thickness and PBR shading variants are not independent compositions",
+      "canonicalId": "phase2-material-polyhaven-square-tiles"
+    },
+    {
+      "id": "expansion12-material-3dtextures-tiles-matte-porcelain-mosaic-001",
+      "reason": "Plain regular rectangular/square grid family already represented; material color, seam thickness and PBR shading variants are not independent compositions",
+      "canonicalId": "phase2-material-polyhaven-square-tiles"
+    },
+    {
+      "id": "expansion12-material-3dtextures-tiles-stone-006",
+      "reason": "Almost uniform light mineral BaseColor; no sufficiently distinct visible tile structure in the selected color map"
+    },
+    {
+      "id": "expansion12-material-3dtextures-tiles-subway-wall-003",
+      "reason": "Plain regular rectangular/square grid family already represented; material color, seam thickness and PBR shading variants are not independent compositions",
+      "canonicalId": "phase2-material-polyhaven-square-tiles"
+    },
+    {
+      "id": "expansion12-material-3dtextures-tiles-subway-wall-004",
+      "reason": "Plain regular rectangular/square grid family already represented; material color, seam thickness and PBR shading variants are not independent compositions",
+      "canonicalId": "phase2-material-polyhaven-square-tiles"
+    },
+    {
+      "id": "expansion12-material-3dtextures-wall-brick-027-free-seamless-pbr-texture",
+      "reason": "Common constant-height running-bond brick/block layout; color/weathering finish changes do not supply a distinct composition",
+      "canonicalId": "phase2-material-ambientcg-bricks002"
+    },
+    {
+      "id": "expansion12-material-3dtextures-wall-brick-028-free-seamless-pbr-texture",
+      "reason": "Common constant-height running-bond brick/block layout; color/weathering finish changes do not supply a distinct composition",
+      "canonicalId": "phase2-material-ambientcg-bricks002"
+    },
+    {
+      "id": "expansion12-material-3dtextures-wall-brick-terracotta-001",
+      "reason": "Common constant-height running-bond brick/block layout; color/weathering finish changes do not supply a distinct composition",
+      "canonicalId": "phase2-material-ambientcg-bricks002"
+    },
+    {
+      "id": "expansion12-material-3dtextures-wall-brick-terracotta-002",
+      "reason": "Common constant-height running-bond brick/block layout; color/weathering finish changes do not supply a distinct composition",
+      "canonicalId": "phase2-material-ambientcg-bricks002"
+    },
+    {
+      "id": "expansion12-material-3dtextures-wall-stone-034",
+      "reason": "Common constant-height running-bond brick/block layout; color/weathering finish changes do not supply a distinct composition",
+      "canonicalId": "phase2-material-ambientcg-bricks002"
+    },
+    {
+      "id": "expansion12-material-3dtextures-wall-stone-036-free-seamless-pbr-texture",
+      "reason": "Common constant-height running-bond brick/block layout; color/weathering finish changes do not supply a distinct composition",
+      "canonicalId": "phase2-material-ambientcg-bricks002"
+    },
+    {
+      "id": "expansion12-material-3dtextures-wall-stone-037-free-seamless-pbr-texture",
+      "reason": "Common constant-height running-bond brick/block layout; color/weathering finish changes do not supply a distinct composition",
+      "canonicalId": "phase2-material-ambientcg-bricks002"
+    }
+  ],
+  "retainedGeometryComparisons": [
+    {
+      "id": "expansion12-material-3dtextures-concrete-blocks-016",
+      "candidatePath": "data/upstream/expansion12-materials/previews/expansion12-material-3dtextures-concrete-blocks-016.jpg",
+      "referenceId": "phase2-material-polyhaven-interlocking-concrete-pavers",
+      "referencePath": "dist/assets/materials/phase2-material-polyhaven-interlocking-concrete-pavers.jpg",
+      "geometryDifference": "Candidate has rounded four-lobe quatrefoil openings, concave corner arcs, diamond border and decorative small grooves. Baseline is straight-edge chamfered diamond interlocking pavers. The outline topology differs; brown color alone is not a duplicate.",
+      "multiscaleColorContrastD4PeriodicComparison": {
+        "score": 0.7970225811004639,
+        "transform": {
+          "candidateCropFraction": 1,
+          "baselineCropFraction": 0.75,
+          "quarterTurns": 0,
+          "reflection": true
+        }
+      }
+    },
+    {
+      "id": "expansion12-material-3dtextures-wall-stone-035",
+      "candidatePath": "data/upstream/expansion12-materials/previews/expansion12-material-3dtextures-wall-stone-035.jpg",
+      "referenceId": "phase2-material-polyhaven-concrete-panels",
+      "referencePath": "dist/assets/materials/phase2-material-polyhaven-concrete-panels.jpg",
+      "geometryDifference": "Candidate mixes horizontal and vertical slabs plus narrow connector rectangles at varying sizes and T-junctions. Baseline uses one running-bond rectangular slab aspect with dense corrugation. The contact graph and layout differ.",
+      "multiscaleColorContrastD4PeriodicComparison": {
+        "score": 0.41635146737098694,
+        "transform": {
+          "candidateCropFraction": 0.5,
+          "baselineCropFraction": 0.25,
+          "quarterTurns": 3,
+          "reflection": true
+        }
+      }
+    },
+    {
+      "id": "expansion12-material-3dtextures-wall-stone-033",
+      "candidatePath": "data/upstream/expansion12-materials/previews/expansion12-material-3dtextures-wall-stone-033.jpg",
+      "referenceId": "phase2-material-polyhaven-white-bricks",
+      "referencePath": "dist/assets/materials/phase2-material-polyhaven-white-bricks.jpg",
+      "geometryDifference": "Candidate is irregular ashlar: varied block heights/widths, vertical narrow blocks and irregular T-junctions. Baseline has constant-height running-bond bricks with chipped plaster. Same light color is not a shared geometry.",
+      "multiscaleColorContrastD4PeriodicComparison": {
+        "score": 0.2269180417060852,
+        "transform": {
+          "candidateCropFraction": 0.25,
+          "baselineCropFraction": 0.25,
+          "quarterTurns": 0,
+          "reflection": false
+        }
+      }
+    }
+  ],
+  "sameAutomaticThresholdAsReserve": 0.985,
+  "manualCriterionNowConsistent": true,
+  "frozenSelectionUnchanged": true
+}

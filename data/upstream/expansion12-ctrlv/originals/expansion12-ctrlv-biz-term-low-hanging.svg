@@ -1,0 +1,14 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <path d="M100 40 C100 40 100 120 200 120 C300 120 300 40 300 40" stroke="var(--charcoal)" stroke-width="12" fill="none" stroke-linecap="round"/>
+                <g class="anim-bounce">
+                    <circle cx="150" cy="180" r="20" fill="var(--accent-color)"/>
+                    <path d="M150 160 V150" stroke="var(--charcoal)" stroke-width="4"/>
+                </g>
+                <g class="anim-bounce" style="animation-delay: 0.5s;">
+                    <circle cx="250" cy="170" r="20" fill="var(--secondary-color)"/>
+                    <path d="M250 150 V140" stroke="var(--charcoal)" stroke-width="4"/>
+                </g>
+                <path class="anim-draw" d="M120 230 H280" stroke="var(--primary-color)" stroke-width="4" stroke-dasharray="10 10"/>
+            </g>
+          </svg>

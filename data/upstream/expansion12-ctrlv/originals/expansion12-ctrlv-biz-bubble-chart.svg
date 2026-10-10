@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <!-- Axes -->
+            <path d="M60 60 V240 H340" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+            
+            <g class="anim-float-slow">
+                <!-- Large Central Bubble -->
+                <circle class="anim-pulse" cx="200" cy="150" r="60" fill="var(--primary-color)" opacity="0.8"/>
+                <circle cx="180" cy="130" r="15" fill="var(--bg-surface)" opacity="0.4"/>
+                
+                <!-- Medium Secondary Bubble -->
+                <circle cx="110" cy="200" r="35" fill="var(--secondary-color)" opacity="0.9"/>
+                <circle cx="95" cy="190" r="8" fill="var(--bg-surface)" opacity="0.4"/>
+                
+                <!-- Medium Accent Bubble -->
+                <circle cx="290" cy="100" r="45" fill="var(--accent-color)" opacity="0.8"/>
+                <circle cx="275" cy="85" r="10" fill="var(--bg-surface)" opacity="0.4"/>
+                
+                <!-- Small Floating Bubbles -->
+                <g class="anim-bounce">
+                    <circle cx="140" cy="80" r="20" fill="var(--secondary-color)"/>
+                    <circle cx="260" cy="210" r="25" fill="var(--accent-color)" opacity="0.7"/>
+                    <circle cx="330" cy="180" r="15" fill="var(--primary-color)"/>
+                    <circle cx="80" cy="120" r="12" fill="var(--bg-surface)" stroke="var(--primary-color)" stroke-width="4"/>
+                </g>
+            </g>
+          </svg>

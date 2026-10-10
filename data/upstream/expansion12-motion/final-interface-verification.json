@@ -1,0 +1,113 @@
+{
+  "catalogSha256": "643300e8581b957345acc4d636a13b30bf52c5b24cf3714b10341a53c4032c97",
+  "targetStoredAssets": 12000,
+  "targetReached": false,
+  "missingStoredAssets": 458,
+  "expectedStats": {
+    "storedAssets": 11542,
+    "total": 11827,
+    "domains": {
+      "design": 8143,
+      "motion": 3399
+    }
+  },
+  "assertions": [
+    "CLI stats exactly match generated database",
+    "CLI original body expansion12-ctrlv-items",
+    "CLI original body expansion12-material-items",
+    "CLI original body expansion12-motion-items",
+    "CLI original body expansion12-openmoji-items",
+    "CLI original body expansion12-pattern-items",
+    "CLI original body expansion12-shape-items",
+    "CLI original body expansion12-vector-items",
+    "MCP stdout contains only expected JSON-RPC responses",
+    "MCP stats match database",
+    "MCP full notice expansion12-ctrlv-items",
+    "MCP full notice expansion12-material-items",
+    "MCP full notice expansion12-motion-items",
+    "MCP full notice expansion12-openmoji-items",
+    "MCP full notice expansion12-pattern-items",
+    "MCP full notice expansion12-shape-items",
+    "MCP full notice expansion12-vector-items",
+    "HTTP stats match database",
+    "HTTP original body expansion12-ctrlv-items",
+    "HTTP original body expansion12-material-items",
+    "HTTP original body expansion12-motion-items",
+    "HTTP original body expansion12-openmoji-items",
+    "HTTP original body expansion12-pattern-items",
+    "HTTP original body expansion12-shape-items",
+    "HTTP original body expansion12-vector-items",
+    "Library count motion",
+    "Library count design",
+    "Library count reference",
+    "Default page contains20 assets",
+    "Page size 50",
+    "Page size 100",
+    "Page size 20",
+    "Arrow-only gallery focus",
+    "Arrow-only next asset",
+    "Enter opens detail",
+    "Enter closes detail",
+    "KO/EN keyboard toggle",
+    "EN/KO keyboard toggle",
+    "Actual local preview expansion12-ctrlv-items",
+    "Actual local preview expansion12-material-items",
+    "Actual local preview expansion12-motion-items",
+    "GLSL varies across actual time samples",
+    "Actual local preview expansion12-openmoji-items",
+    "Actual local preview expansion12-pattern-items",
+    "Actual local preview expansion12-shape-items",
+    "Actual local preview expansion12-vector-items",
+    "No page JavaScript errors"
+  ],
+  "localSamples": [
+    {
+      "lane": "expansion12-ctrlv-items",
+      "id": "expansion12-ctrlv-fin-c18c5d48",
+      "renderer": "svg",
+      "screenshotSha256": "0dbcda948bfa61e71ad9268c528bc6c867c574f874e2235fdaf9402d27214fdd"
+    },
+    {
+      "lane": "expansion12-material-items",
+      "id": "expansion12-kenney-light-masks-cone-composed-b",
+      "renderer": "image",
+      "screenshotSha256": "7f53d9a25db1b7ae9aad06ad50180679307eb5b46d3db3b6c00acb3aa0db5bb1"
+    },
+    {
+      "lane": "expansion12-motion-items",
+      "id": "motion-exp12-radiant-fluid-amber",
+      "renderer": "glsl",
+      "screenshotSha256": "e5d34656e8310585a82facb5c60fa78c71170ad4120973f43f7623a52ffa9240",
+      "frameSha256": [
+        "da0c5e2371322000c6755e54d309e65faaf2113df65cbce71e897538d34f71a2",
+        "2a6c7b5811f811ca36a1d6a85681430e274980205d65ebeeb801828b41af3a5f",
+        "bc3c82c6fa3e533c88797c2eb780480f78bbe1b8b3ee19c6cec5d8ea7270640f"
+      ]
+    },
+    {
+      "lane": "expansion12-openmoji-items",
+      "id": "expansion12-openmoji-1f412",
+      "renderer": "svg",
+      "screenshotSha256": "fcf4b0a9839e585731aaa60037cf7780f2b77670d33b4c613af703422a7408fd"
+    },
+    {
+      "lane": "expansion12-pattern-items",
+      "id": "design-exp12-monster-flower-1",
+      "renderer": "svg",
+      "screenshotSha256": "f3bec9d00ad25257bbf96c1cd0f1a1ae85b0877a6b34650fcde70301fe9c6254"
+    },
+    {
+      "lane": "expansion12-shape-items",
+      "id": "expansion12-shape-delapouite-penguin",
+      "renderer": "svg",
+      "screenshotSha256": "349136194ee4a291d93aadd21bbef12ec7201fed72133d3e410de3080262082f"
+    },
+    {
+      "lane": "expansion12-vector-items",
+      "id": "expansion12-vector-barbieland-barbie-lantern",
+      "renderer": "svg",
+      "screenshotSha256": "25a523c0566f2005cdaf1b010153c81ae1ae17c410e6f8843947185554d2b983"
+    }
+  ],
+  "pageErrors": []
+}

@@ -1,0 +1,24 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="120" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <g class="anim-float" style="animation-duration:4s;">
+                <!-- Ropes connecting balloon to basket -->
+                <line x1="165" y1="200" x2="175" y2="240" stroke="var(--charcoal)" stroke-width="3"/>
+                <line x1="235" y1="200" x2="225" y2="240" stroke="var(--charcoal)" stroke-width="3"/>
+
+                <!-- Wicker Basket -->
+                <rect x="170" y="238" width="60" height="30" rx="5" fill="var(--secondary-color)"/>
+                <path d="M170 245 H230 M185 238 V268 M215 238 V268" stroke="var(--charcoal)" stroke-width="2" opacity="0.4"/>
+
+                <!-- Balloon body - panels -->
+                <path d="M200 40 C240 40 290 80 290 155 C290 200 250 205 200 205 C150 205 110 200 110 155 C110 80 160 40 200 40 Z" fill="var(--primary-color)"/>
+                <!-- Balloon stripe highlight -->
+                <path d="M200 40 C215 40 240 80 240 155 C240 200 225 205 210 205" fill="var(--accent-color)" opacity="0.4"/>
+                <path d="M200 40 C185 40 160 80 160 155 C160 200 175 205 190 205" fill="var(--secondary-color)" opacity="0.3"/>
+                <!-- Balloon envelope top tie -->
+                <ellipse cx="200" cy="40" rx="18" ry="8" fill="var(--charcoal)"/>
+
+                <!-- Burner flame glow -->
+                <circle class="anim-glow" cx="200" cy="192" r="12" fill="var(--accent-color)" opacity="0.8"/>
+                <circle class="anim-pulse" cx="200" cy="186" r="6" fill="var(--bg-surface)" opacity="0.6"/>
+            </g>
+          </svg>

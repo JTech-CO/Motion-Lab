@@ -1,0 +1,56 @@
+{
+  "url": "https://xd.adobe.com/ideas/wp-content/uploads/2021/06/Animation-in-Design-Systems.pdf",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://xd.adobe.com/ideas/wp-content/uploads/2021/06/Animation-in-Design-Systems.pdf",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://xd.adobe.com/ideas/wp-content/uploads/2021/06/Animation-in-Design-Systems.pdf",
+      "allowedForAuditGet": true,
+      "reason": "robots-missing-not-a-license",
+      "robotsUrl": "https://xd.adobe.com/robots.txt",
+      "robotsStatus": 404
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://xd.adobe.com/ideas/wp-content/uploads/2021/06/Animation-in-Design-Systems.pdf",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:47.910446+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://xd.adobe.com/ideas/wp-content/uploads/2021/06/Animation-in-Design-Systems.pdf",
+      "contentType": "application/pdf",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "c96a39dca6f3720709199043a099e9ed83d72819fbac9aca1d56dbc55e8356cf",
+      "responseBodySha256": "c96a39dca6f3720709199043a099e9ed83d72819fbac9aca1d56dbc55e8356cf",
+      "title": "",
+      "textCharacters": 0,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 2.062,
+      "captureCachePath": "exa-results/link-audit/references/captures/c5030df45cb61e4a57591963.json",
+      "captureCacheSha256": "d2b9273eb2b1001c9ff7b0c3de5c40f30e1647c12a9a82f36b136e90f9bda248"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-animation-in-design-systems",
+      "canonicalId": "ref-animation-in-design-systems",
+      "title": "Animation in Design Systems",
+      "role": "canonical",
+      "sourceSha256": "729a1618a78afe929bb5b1452217b063a76fd23f8fd81fa1da03357d6d80c725"
+    }
+  ]
+}

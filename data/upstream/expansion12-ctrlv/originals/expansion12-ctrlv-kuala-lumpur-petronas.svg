@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="120" ry="10" fill="#e2e8f0" opacity="0.6"/>
+            <!-- Left Tower -->
+            <path d="M150 270 V120 L160 100 V60 L165 20 L170 60 V100 L180 120 V270 Z" fill="var(--primary-color)"/>
+            <path d="M165 40 H175 M160 80 H180 M155 120 H185" stroke="white" stroke-width="4" opacity="0.3"/>
+            
+            <!-- Right Tower -->
+            <path d="M220 270 V120 L230 100 V60 L235 20 L240 60 V100 L250 120 V270 Z" fill="var(--primary-color)"/>
+            <path d="M225 40 H235 M220 80 H240 M215 120 H245" stroke="white" stroke-width="4" opacity="0.3"/>
+            
+            <!-- Skybridge connecting them -->
+            <path class="anim-glow" d="M175 160 H225 M175 170 H225" stroke="var(--secondary-color)" stroke-width="4"/>
+            <rect x="180" y="150" width="40" height="30" fill="var(--primary-color)"/>
+            
+            <!-- Data passing across skybridge -->
+            <circle class="anim-data" cx="190" cy="165" r="4" fill="var(--accent-color)"/>
+            <circle class="anim-data" cx="210" cy="165" r="4" fill="var(--accent-color)" style="animation-delay:-0.5s"/>
+          </svg>

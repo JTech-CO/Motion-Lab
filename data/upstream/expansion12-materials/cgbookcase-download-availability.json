@@ -1,0 +1,157 @@
+{
+  "detailControls": [
+    {
+      "tag": "BUTTON",
+      "text": "",
+      "attrs": {
+        "id": "open-nav-btn",
+        "class": "mobile-only svelte-e99rg0"
+      }
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "attrs": {
+        "type": "radio",
+        "name": "preview_image",
+        "value": "default",
+        "class": "svelte-p7ifts",
+        "checked": ""
+      }
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "attrs": {
+        "type": "radio",
+        "name": "preview_image",
+        "value": "shot1",
+        "class": "svelte-p7ifts"
+      }
+    },
+    {
+      "tag": "SELECT",
+      "text": "1K2K4K6K8K (max.)",
+      "attrs": {
+        "id": "resolution",
+        "name": "resolution",
+        "style": "min-width: 150px",
+        "class": "svelte-p7ifts"
+      }
+    },
+    {
+      "tag": "OPTION",
+      "text": "1K",
+      "attrs": {
+        "value": "1"
+      }
+    },
+    {
+      "tag": "OPTION",
+      "text": "2K",
+      "attrs": {
+        "value": "2"
+      }
+    },
+    {
+      "tag": "OPTION",
+      "text": "4K",
+      "attrs": {
+        "value": "4"
+      }
+    },
+    {
+      "tag": "OPTION",
+      "text": "6K",
+      "attrs": {
+        "value": "6"
+      }
+    },
+    {
+      "tag": "OPTION",
+      "text": "8K (max.)",
+      "attrs": {
+        "value": "8"
+      }
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "attrs": {
+        "type": "email",
+        "name": "email",
+        "id": "bd-email",
+        "placeholder": "name@example.com",
+        "class": "svelte-c5il9s",
+        "value": ""
+      }
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "attrs": {
+        "type": "hidden",
+        "value": "1",
+        "name": "embed",
+        "class": "svelte-c5il9s"
+      }
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Join",
+      "attrs": {
+        "disabled": "",
+        "type": "submit",
+        "class": "btn-red center svelte-c5il9s"
+      }
+    }
+  ],
+  "thanksUrl": "https://www.cgbookcase.com/textures/thanks?t=ManholeCover16_4K.zip&r=4&u=ManholeCover16",
+  "thanksLinks": [
+    {
+      "text": "",
+      "href": "https://www.cgbookcase.com/"
+    },
+    {
+      "text": "Textures",
+      "href": "https://www.cgbookcase.com/textures"
+    },
+    {
+      "text": "Tiling Tool",
+      "href": "https://www.cgbookcase.com/texture-tiling-tool"
+    },
+    {
+      "text": "Learn",
+      "href": "https://www.cgbookcase.com/learn"
+    },
+    {
+      "text": "Blog",
+      "href": "https://www.cgbookcase.com/blog"
+    },
+    {
+      "text": "Donate",
+      "href": "https://ko-fi.com/dorianzgraggen"
+    },
+    {
+      "text": "Privacy and Cookies",
+      "href": "https://www.cgbookcase.com/privacy-and-cookies"
+    },
+    {
+      "text": "",
+      "href": "https://obviously.ilovemy.computer/@cgbookcase"
+    },
+    {
+      "text": "",
+      "href": "https://www.instagram.com/cgbookcase"
+    },
+    {
+      "text": "",
+      "href": "https://www.youtube.com/channel/UC7VfyhAatTEuMYv7CTzS1Bw"
+    },
+    {
+      "text": "Patreon Benefits \u2197",
+      "href": "https://app.cgbookcase.com/patreon/your-settings"
+    }
+  ],
+  "downloadsCollected": 0
+}

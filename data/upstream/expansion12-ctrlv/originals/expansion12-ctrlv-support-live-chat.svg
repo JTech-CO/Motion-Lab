@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-bounce">
+                <!-- User Bubble -->
+                <path d="M100 130 C100 90 130 60 180 60 C230 60 260 90 260 130 C260 170 230 200 180 200 C160 200 140 190 120 210 L120 180 C110 170 100 150 100 130 Z" fill="var(--secondary-color)"/>
+                
+                <!-- Support Bubble -->
+                <path d="M150 180 C150 140 180 110 240 110 C300 110 330 140 330 180 C330 220 300 250 240 250 C220 250 200 260 180 280 L180 250 C165 240 150 210 150 180 Z" fill="var(--primary-color)"/>
+                
+                <!-- Support Text UI -->
+                <rect x="180" y="150" width="120" height="10" rx="5" fill="var(--bg-surface)"/>
+                <rect x="180" y="170" width="90" height="10" rx="5" fill="var(--bg-surface)"/>
+                <rect x="180" y="190" width="60" height="10" rx="5" fill="var(--bg-surface)"/>
+                
+                <!-- Typing Indicator in User Bubble -->
+                <circle class="anim-pulse" cx="140" cy="130" r="8" fill="var(--bg-surface)"/>
+                <circle class="anim-pulse" style="animation-delay: 0.2s;" cx="170" cy="130" r="8" fill="var(--bg-surface)"/>
+                <circle class="anim-pulse" style="animation-delay: 0.4s;" cx="200" cy="130" r="8" fill="var(--bg-surface)"/>
+            </g>
+          </svg>

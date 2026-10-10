@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Foil Wrap Outer -->
+                <path d="M120 100 H280 V240 C280 250 260 260 200 260 C140 260 120 250 120 240 V100 Z" fill="var(--secondary-color)" opacity="0.3"/>
+                
+                <!-- Burrito Body -->
+                <rect x="130" y="80" width="140" height="180" rx="20" fill="var(--bg-surface)" stroke="var(--primary-color)" stroke-width="4"/>
+                
+                <!-- Foil Detail -->
+                <path d="M130 180 Q200 190 270 180 L270 260 H130 Z" fill="var(--secondary-color)" opacity="0.5"/>
+                <path class="anim-draw" d="M130 180 Q200 190 270 180" stroke="var(--primary-color)" stroke-width="2"/>
+                
+                <!-- Open end with fillings -->
+                <g class="anim-bounce">
+                    <path d="M130 100 Q200 120 270 100" stroke="var(--primary-color)" stroke-width="4" fill="none"/>
+                    <!-- Rice/Beans/Meat -->
+                    <circle cx="160" cy="90" r="10" fill="var(--charcoal)" opacity="0.8"/>
+                    <circle cx="200" cy="95" r="12" fill="var(--charcoal)" opacity="0.8"/>
+                    <circle cx="240" cy="90" r="10" fill="var(--charcoal)" opacity="0.8"/>
+                    <!-- Salsa -->
+                    <circle cx="180" cy="85" r="6" fill="var(--accent-color)"/>
+                    <circle cx="220" cy="85" r="6" fill="var(--accent-color)"/>
+                </g>
+                
+                <!-- Steam -->
+                <path class="anim-float" d="M190 60 Q200 40 190 20 M210 60 Q220 40 210 20" stroke="var(--primary-color)" stroke-width="3" opacity="0.4"/>
+            </g>
+          </svg>

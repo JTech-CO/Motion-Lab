@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <polygon points="120,250 280,250 250,150 150,150" fill="#6366f1" />
+                <rect x="130" y="140" width="140" height="15" fill="#f43f5e" />
+                
+                
+                <path d="M190 140 L180 100" stroke="#334155" stroke-width="4" fill="none" />
+                <ellipse cx="180" cy="95" rx="8" ry="12" fill="#334155" />
+                
+                
+                <g>
+                    <path d="M210 80 Q240 50 280 60" stroke="#DFD116" stroke-width="6" stroke-linecap="round" fill="none" />
+                    <path d="M220 100 Q260 90 290 110" stroke="#DFD116" stroke-width="6" stroke-linecap="round" fill="none" />
+                    <circle cx="285" cy="65" r="4" fill="#DFD116" />
+                    <circle cx="295" cy="115" r="4" fill="#DFD116" />
+                </g>
+            </g>
+          </svg>

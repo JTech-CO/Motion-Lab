@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Market Grid / Nodes -->
+                <g fill="var(--charcoal)" opacity="0.3">
+                    <circle cx="120" cy="80" r="8"/> <circle cx="200" cy="80" r="8"/> <circle cx="280" cy="80" r="8"/>
+                    <circle cx="120" cy="140" r="8"/> <circle cx="200" cy="140" r="8"/> <circle cx="280" cy="140" r="8"/>
+                    <circle cx="120" cy="200" r="8"/> <circle cx="200" cy="200" r="8"/> <circle cx="280" cy="200" r="8"/>
+                </g>
+                <!-- Central Product / Entry Point -->
+                <circle class="anim-pulse" cx="200" cy="140" r="16" fill="var(--primary-color)"/>
+                <!-- Penetration / Spreading lines -->
+                <g stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 6">
+                    <path class="anim-draw" d="M180 140 L135 140"/>
+                    <path class="anim-draw" d="M220 140 L265 140"/>
+                    <path class="anim-draw" d="M200 120 L200 95"/>
+                    <path class="anim-draw" d="M200 160 L200 185"/>
+                    <path class="anim-draw" d="M185 125 L135 95"/>
+                    <path class="anim-draw" d="M215 155 L265 185"/>
+                </g>
+                <!-- Captured nodes lighting up -->
+                <g class="anim-bounce">
+                    <circle cx="120" cy="140" r="10" fill="var(--accent-color)"/>
+                    <circle cx="280" cy="140" r="10" fill="var(--accent-color)"/>
+                    <circle cx="200" cy="80" r="10" fill="var(--accent-color)"/>
+                    <circle cx="280" cy="200" r="10" fill="var(--accent-color)"/>
+                </g>
+            </g>
+          </svg>

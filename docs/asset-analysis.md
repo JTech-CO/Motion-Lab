@@ -16,6 +16,7 @@ CSS analysis reads declarations, selectors, keyframes, timing and supplied DOM. 
 | --- | --- | --- |
 | CSS | Original supported keyframes and declarations | Supplied component DOM or a visible target for standalone keyframes |
 | GLSL | Original transition shader between two generated test textures | Transition algorithm; source imagery is not included |
+| Procedural GLSL | Original fragment adapted to the local time host at published defaults | Ambient shader; pointer and parameter input are fixed, without source JavaScript or external textures |
 | SVG | Supported original vector geometry and SMIL animation | Independently sanitized markup |
 | Palette / gradient | Exact stored colors and authored gradient stops | Static output |
 | Image | Actual local 1K Color/Diffuse JPEG | Material color map; auxiliary PBR channels are not included |
@@ -52,7 +53,7 @@ python -m motionlab get cha-bar-rise-reveal --json
 
 A `related-asset` preview names an existing stored asset through `assetId`; retrieve that asset for its original code and complete rights. An `illustration` preview is independently authored Motion Lab CSS/SVG with its own CC0 notice, code, optional DOM and limitations. Both modes are labeled in the UI. Neither is a capture or execution of the original reference website. The original `analysis.preview.renderer` remains `none`; the separate local preview is under `referenceReview.preview`.
 
-The current collection has 285 reviewed references: 284 concept illustrations and one related uiGradients Omolon preview. Illustration CC0 rights do not apply to the original reference or provider's code. Original reference rights and local preview rights are displayed separately. Imported React/TSX, site scripts and remote media are not executed or fetched for these previews.
+Reference totals and preview modes are recorded in `stats.referenceReview` in the generated catalog. References use independently authored concept illustrations or a related stored asset, including the uiGradients Omolon preview. Illustration CC0 rights do not apply to the original reference or provider's code. Original reference rights and local preview rights are displayed separately. Imported React/TSX, site scripts and remote media are not executed or fetched for these previews.
 
 Review inputs bind original record hashes and local source-evidence hashes. Missing, stale or duplicate evidence fails validation. Related assets resolve directly to stored canonical records without recursive reference links. Confirmed inaccessible references are removed through a separate hash-bound policy before catalog exports and search indexes are built. A platform's automated-access challenge alone does not establish that a source is deleted or private; access limitations remain recorded.
 

@@ -1,0 +1,16 @@
+{
+  "id": "pixabay",
+  "url": "https://pixabay.com/photos/tree-sunset-clouds-sky-silhouette-736885/",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 403,
+  "finalUrl": "https://pixabay.com/photos/tree-sunset-clouds-sky-silhouette-736885/",
+  "contentType": "text/html; charset=UTF-8",
+  "truncated": false,
+  "observedBytes": 5674,
+  "observedContentSha256": "6ecb377bc7fadce7bfc81e546b1c84beb792ba47c22ebac34d06dc2519d54c76",
+  "links": [],
+  "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+  "challengeOrDenial": true
+}

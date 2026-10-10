@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <g transform="translate(190, 80)">
+                    <g>
+                        
+                        <circle cx="0" cy="0" r="10" fill="none" stroke="#334155" stroke-width="4" />
+                        <circle cx="0" cy="20" r="10" fill="none" stroke="#334155" stroke-width="4" />
+                        
+                        <circle cx="0" cy="60" r="30" fill="none" stroke="#DFD116" stroke-width="8" />
+                        
+                        
+                        <path d="M-30 0 L0 -30 L30 0 V30 H-30 Z" fill="#6366f1" stroke="#334155" stroke-width="6" transform="translate(0, -50)" />
+                        <circle cx="0" cy="-40" r="5" fill="#ffffff" />
+                        
+                        
+                        <g transform="translate(-15, 80) rotate(15)">
+                            <g style="transform-origin:0px 0px">
+                                <circle cx="0" cy="0" r="15" fill="#f43f5e" stroke="#334155" stroke-width="4" />
+                                <rect x="-5" y="15" width="10" height="60" rx="2" fill="#f43f5e" stroke="#334155" stroke-width="4" />
+                                <rect x="5" y="55" width="15" height="8" rx="2" fill="#f43f5e" stroke="#334155" stroke-width="4" />
+                                <rect x="5" y="40" width="10" height="8" rx="2" fill="#f43f5e" stroke="#334155" stroke-width="4" />
+                            </g>
+                        </g>
+                        
+                        
+                        <g transform="translate(15, 80) rotate(-15)">
+                            <g style="transform-origin:0px 0px">
+                                <circle cx="0" cy="0" r="15" fill="#6366f1" stroke="#334155" stroke-width="4" />
+                                <rect x="-5" y="15" width="10" height="70" rx="2" fill="#6366f1" stroke="#334155" stroke-width="4" />
+                                <rect x="-20" y="65" width="15" height="10" rx="2" fill="#6366f1" stroke="#334155" stroke-width="4" />
+                                <rect x="-15" y="45" width="10" height="8" rx="2" fill="#6366f1" stroke="#334155" stroke-width="4" />
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                
+                
+                <path d="M60 260 Q200 180 340 260" stroke="#DFD116" stroke-width="12" stroke-linecap="round" opacity="0.5" />
+            </g>
+          </svg>

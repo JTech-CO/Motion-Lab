@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="130" ry="10" fill="#E2E8F0"/>
+            <g class="anim-bounce" style="animation-duration: 0.6s;">
+              <circle cx="200" cy="145" r="88" fill="var(--secondary-color)"/>
+              <!-- Star eyes -->
+              <g fill="var(--accent-color)">
+                <polygon points="172,118 175,128 185,128 177,134 180,144 172,138 164,144 167,134 159,128 169,128" transform="scale(0.8) translate(43,18)"/>
+                <polygon points="228,118 231,128 241,128 233,134 236,144 228,138 220,144 223,134 215,128 225,128" transform="scale(0.8) translate(-8,18)"/>
+              </g>
+              <!-- Big wide smile -->
+              <path d="M152 168 Q200 215 248 168" stroke="var(--bg-surface)" stroke-width="8" stroke-linecap="round" fill="none"/>
+              <path d="M158 170 Q200 210 242 170 Q242 185 200 190 Q158 185 158 170Z" fill="var(--bg-surface)" opacity="0.2"/>
+            </g>
+            <!-- Energy bursts -->
+            <g class="anim-pulse" stroke="var(--primary-color)" stroke-width="5" stroke-linecap="round">
+              <path d="M95 65 L80 48 M105 50 L95 32 M120 45 L115 25"/>
+              <path d="M305 65 L320 48 M295 50 L305 32 M280 45 L285 25"/>
+              <path d="M75 155 L55 148 M75 165 L55 172"/>
+              <path d="M325 155 L345 148 M325 165 L345 172"/>
+            </g>
+          </svg>

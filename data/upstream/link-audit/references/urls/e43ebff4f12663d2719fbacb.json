@@ -1,0 +1,56 @@
+{
+  "url": "https://tympanus.net/codrops/2026/04/10/the-exat-microsite-pushing-a-typography-showcase-to-new-creative-extremes/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://tympanus.net/codrops/2026/04/10/the-exat-microsite-pushing-a-typography-showcase-to-new-creative-extremes/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://tympanus.net/codrops/2026/04/10/the-exat-microsite-pushing-a-typography-showcase-to-new-creative-extremes/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://tympanus.net/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://tympanus.net/codrops/2026/04/10/the-exat-microsite-pushing-a-typography-showcase-to-new-creative-extremes/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:44.466133+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://tympanus.net/codrops/2026/04/10/the-exat-microsite-pushing-a-typography-showcase-to-new-creative-extremes/",
+      "contentType": "text/html; charset=UTF-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 89280,
+      "capturedSha256": "7063e1d33336867fd068ff7ef28493cc95f2ace00bc70c556f56e05dba73dab9",
+      "responseBodySha256": "7063e1d33336867fd068ff7ef28493cc95f2ace00bc70c556f56e05dba73dab9",
+      "title": "The Exat Microsite: Pushing a Typography Showcase to New Creative Extremes | CodropsCodropsWebzibition",
+      "textCharacters": 8821,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.785,
+      "captureCachePath": "exa-results/link-audit/references/captures/cca76b9610be140e4daff2bd.json",
+      "captureCacheSha256": "25ddeba074a19f03937987269160d692be4380180ff72c97bb9aaf7f8f8d9e96"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-codrops-exat-microsite",
+      "canonicalId": "ref-codrops-exat-microsite",
+      "title": "Codrops Exat Microsite",
+      "role": "canonical",
+      "sourceSha256": "d840988d2563ee456d36c802955c4ee53ce911e5bd851229e63aa377d0e7fdb8"
+    }
+  ]
+}

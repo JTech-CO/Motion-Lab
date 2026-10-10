@@ -1,0 +1,33 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="120" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <path class="anim-float" d="M150 100 Q200 40 250 100 T330 200 Q200 250 150 200 Z" fill="var(--secondary-color)" opacity="0.1"/>
+            
+            <g class="anim-bounce">
+                <!-- Bottle Body (Translucent) -->
+                <rect x="150" y="100" width="100" height="150" rx="10" fill="white" stroke="var(--charcoal)" stroke-width="4"/>
+                <rect x="150" y="100" width="100" height="150" rx="10" fill="var(--primary-color)" opacity="0.1"/>
+                
+                <!-- Liquid Inside (Primary Color) -->
+                <path d="M152 160 Q200 140 248 170 V240 C248 245 245 248 240 248 H160 C155 248 152 245 152 240 Z" fill="var(--primary-color)"/>
+                <path class="anim-float" d="M152 170 Q200 190 248 160 V240 C248 245 245 248 240 248 H160 C155 248 152 245 152 240 Z" fill="var(--primary-color)" opacity="0.7" style="animation-duration: 3s;"/>
+                
+                <!-- Measurements -->
+                <line x1="230" y1="130" x2="250" y2="130" stroke="var(--charcoal)" stroke-width="3" stroke-linecap="round"/>
+                <line x1="235" y1="160" x2="250" y2="160" stroke="var(--charcoal)" stroke-width="3" stroke-linecap="round"/>
+                <line x1="230" y1="190" x2="250" y2="190" stroke="var(--charcoal)" stroke-width="3" stroke-linecap="round"/>
+                <line x1="235" y1="220" x2="250" y2="220" stroke="var(--charcoal)" stroke-width="3" stroke-linecap="round"/>
+                
+                <!-- Lid/Cap -->
+                <path d="M140 100 H260 V70 C260 60 250 50 240 50 H160 C150 50 140 60 140 70 Z" fill="var(--charcoal)"/>
+                <rect x="180" y="30" width="40" height="20" rx="6" fill="var(--charcoal)"/>
+                <!-- Accent on lid -->
+                <rect x="140" y="85" width="120" height="6" fill="var(--accent-color)"/>
+            </g>
+            
+            <!-- Float bubbles -->
+            <g class="anim-float" style="animation-duration: 2s;">
+                <circle cx="120" cy="180" r="8" fill="var(--secondary-color)" opacity="0.6"/>
+                <circle cx="280" cy="130" r="12" fill="var(--secondary-color)" opacity="0.4"/>
+                <circle cx="270" cy="220" r="5" fill="var(--primary-color)"/>
+            </g>
+          </svg>

@@ -1,0 +1,19 @@
+{
+  "url": "https://muz.li/blog/",
+  "method": "bounded public HTTP GET",
+  "status": 200,
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공식 공개 URL의 제한된 HTTP GET 응답을 읽었다. 원격 JavaScript·미디어 파일을 실행하거나 다운로드하지 않았다.",
+  "sector": 4,
+  "siteId": "muzli",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/muzli-blog-http.json",
+  "rawCacheSha256": "805185ff4284d6f87542c0c6bdae4aaa6a60e74b53b91b75f4795a55a81b0675",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "f9230d38c83bc536f1ef6e9914ea50000056f72a9d98f8ba93eddd35797cb714",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "finalUrl": "https://muz.li/blog/",
+  "byteCount": 138622,
+  "boundedAt": 1048576,
+  "truncated": false,
+  "originalResponseSha256": "19634be26a6a3bc5acbf9131d3a8716e0c703e65a178a055a4bbbc94b10a74bc"
+}

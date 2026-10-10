@@ -1,0 +1,56 @@
+{
+  "url": "https://swup.js.org/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://swup.js.org/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://swup.js.org/",
+      "allowedForAuditGet": true,
+      "reason": "robots-missing-not-a-license",
+      "robotsUrl": "https://swup.js.org/robots.txt",
+      "robotsStatus": 404
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://swup.js.org/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:06.503101+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://swup.js.org/",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 24270,
+      "capturedSha256": "4d5f48ab6cb03a6fe6792cfa6b7e350adcefc7eb1e335ade28e4cdedbf202b1e",
+      "responseBodySha256": "4d5f48ab6cb03a6fe6792cfa6b7e350adcefc7eb1e335ade28e4cdedbf202b1e",
+      "title": "swup — Versatile and extensible page transition library for server-rendered websitesGitHubswup",
+      "textCharacters": 1064,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.542,
+      "captureCachePath": "exa-results/link-audit/references/captures/596e6d2bbca2ee39fd2e01e4.json",
+      "captureCacheSha256": "6e8d0184d688cbd80ece0303c906b0099c1a6cdac61e085a304fa5cdba47ec63"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-swup",
+      "canonicalId": "ref-swup",
+      "title": "Swup",
+      "role": "canonical",
+      "sourceSha256": "7066778db669376b17535074dd3b440820773f1e827becc97e1ea40689e257b8"
+    }
+  ]
+}

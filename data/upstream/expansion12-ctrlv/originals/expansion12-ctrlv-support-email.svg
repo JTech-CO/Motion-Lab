@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-bounce">
+                <!-- Back Env -->
+                <rect x="100" y="100" width="200" height="120" rx="5" fill="var(--primary-color)"/>
+                
+                <!-- Letter -->
+                <rect x="120" y="60" width="160" height="140" rx="4" fill="var(--bg-surface)"/>
+                <path class="anim-draw" d="M140 80 H220 M140 100 H260 M140 120 H260 M140 140 H200" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                
+                <!-- Front Env / Flaps -->
+                <path d="M100 220 L200 140 L300 220 Z" fill="var(--secondary-color)"/>
+                <path d="M100 100 L200 180 L300 100" stroke="var(--primary-color)" stroke-width="2" fill="none"/>
+                <path d="M100 100 L160 150 M300 100 L240 150" stroke="var(--secondary-color)" stroke-width="4" stroke-linecap="round"/>
+                
+                <!-- Send Arrow -->
+                <g class="anim-float">
+                    <circle cx="280" cy="80" r="30" fill="var(--accent-color)"/>
+                    <path d="M265 80 L280 65 L295 80 M280 65 V95" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                </g>
+            </g>
+          </svg>

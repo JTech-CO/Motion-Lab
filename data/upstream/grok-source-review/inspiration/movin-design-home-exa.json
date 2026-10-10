@@ -1,0 +1,14 @@
+{
+  "url": "https://movin.design/",
+  "method": "Exa public fetch",
+  "status": "Exa-content-read",
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공개 URL의 Exa 추출 내용을 읽었다. 직접 서버의 HTTP 200으로 간주하지 않았다. movin.design: X에 공개된 모션을 원저자 링크와 함께 모은 실제 갤러리다.",
+  "sector": 4,
+  "siteId": "movin-design",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/movin-design-home-exa.json",
+  "rawCacheSha256": "a95652e5476f3fb0ab7f78cce2d9998bcb1c4353528357b7596894d969e71b66",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "b43c885cc803665956c4820a46947fdb09889d6f0cee5e4aeca8ec583286c11c",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json."
+}

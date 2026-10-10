@@ -1,0 +1,44 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Ocean background -->
+            <rect x="0" y="150" width="400" height="150" fill="var(--secondary-color)" opacity="0.15" rx="0"/>
+
+            <!-- Sonar ping rings -->
+            <circle class="anim-pulse" cx="340" cy="175" r="30" fill="none" stroke="var(--accent-color)" stroke-width="3" opacity="0.5"/>
+            <circle class="anim-pulse" style="animation-delay:-.5s;" cx="340" cy="175" r="55" fill="none" stroke="var(--accent-color)" stroke-width="2" opacity="0.3"/>
+            <circle class="anim-pulse" style="animation-delay:-1s;" cx="340" cy="175" r="80" fill="none" stroke="var(--accent-color)" stroke-width="1.5" opacity="0.2"/>
+
+            <!-- Bubbles -->
+            <circle class="anim-data" cx="160" cy="120" r="5" fill="var(--bg-surface)" opacity="0.5"/>
+            <circle class="anim-data" style="animation-delay:-.7s;" cx="200" cy="100" r="3" fill="var(--bg-surface)" opacity="0.4"/>
+            <circle class="anim-data" style="animation-delay:-.3s;" cx="130" cy="110" r="4" fill="var(--bg-surface)" opacity="0.35"/>
+
+            <g class="anim-float" style="animation-duration:4s;">
+                <!-- Main hull -->
+                <path d="M60 160 H340 C370 160 390 172 390 180 C390 188 370 200 340 200 H60 C30 200 20 188 20 180 C20 172 30 160 60 160 Z" fill="var(--primary-color)"/>
+
+                <!-- Conning tower (sail) -->
+                <rect x="170" y="130" width="70" height="32" rx="8" fill="var(--primary-color)"/>
+                <!-- Periscope -->
+                <line x1="220" y1="130" x2="220" y2="100" stroke="var(--charcoal)" stroke-width="5" stroke-linecap="round"/>
+                <rect x="215" y="96" width="20" height="8" rx="3" fill="var(--charcoal)"/>
+
+                <!-- Portholes -->
+                <g fill="none" stroke="var(--secondary-color)" stroke-width="4" opacity="0.6">
+                    <circle cx="120" cy="180" r="12"/>
+                    <circle cx="165" cy="180" r="12"/>
+                    <circle cx="250" cy="180" r="12"/>
+                    <circle cx="295" cy="180" r="12"/>
+                </g>
+
+                <!-- Propeller -->
+                <g class="anim-rotate" >
+                    <ellipse cx="28" cy="162" rx="5" ry="14" fill="var(--charcoal)"/>
+                    <ellipse cx="28" cy="198" rx="5" ry="14" fill="var(--charcoal)"/>
+                </g>
+                <circle cx="28" cy="180" r="8" fill="var(--charcoal)"/>
+
+                <!-- Rudder fins -->
+                <path d="M40 192 L20 218 L50 210 Z" fill="var(--secondary-color)"/>
+                <path d="M40 168 L20 142 L50 150 Z" fill="var(--secondary-color)"/>
+            </g>
+          </svg>

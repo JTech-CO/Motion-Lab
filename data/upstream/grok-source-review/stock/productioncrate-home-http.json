@@ -1,0 +1,1247 @@
+{
+  "id": "productioncrate",
+  "url": "https://www.productioncrate.com/",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 200,
+  "finalUrl": "https://www.productioncrate.com/",
+  "contentType": "text/html; charset=utf-8",
+  "truncated": true,
+  "observedBytes": 262144,
+  "observedContentSha256": "207adfac9f0a8327c3dc823d774e9c98b159a08e4a34b5ff561e21e2e892b6ed",
+  "links": [
+    {
+      "url": "https://www.productioncrate.com"
+    },
+    {
+      "url": "https://www.productioncrate.com/"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics"
+    },
+    {
+      "url": "https://app.productioncrate.com/sfx/music"
+    },
+    {
+      "url": "https://app.productioncrate.com/sfx/sound-effects"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins"
+    },
+    {
+      "url": "https://www.productioncrate.com/account"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins"
+    },
+    {
+      "url": "https://www.productioncrate.com/portal"
+    },
+    {
+      "url": "https://www.productioncrate.com/laforge"
+    },
+    {
+      "url": "https://apps.apple.com/us/app/productioncrate-movie-fx-vfx/id1575694812"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins"
+    },
+    {
+      "url": "https://www.productioncrate.com/news/"
+    },
+    {
+      "url": "https://www.productioncrate.com/news/blog/"
+    },
+    {
+      "url": "https://www.productioncrate.com/search/vfx/new"
+    },
+    {
+      "url": "https://www.productioncrate.com/support/index.html"
+    },
+    {
+      "url": "https://www.productioncrate.com/questions-answers.html"
+    },
+    {
+      "url": "https://www.productioncrate.com/terms.html"
+    },
+    {
+      "url": "https://www.productioncrate.com/support/how-to/how-to-add-vfx-to-videos.html"
+    },
+    {
+      "url": "https://www.productioncrate.com/articles/free-software-for-vfx.html"
+    },
+    {
+      "url": "https://user.productioncrate.com/account"
+    },
+    {
+      "url": "mailto:support@productioncrate.com"
+    },
+    {
+      "url": "https://contests.productioncrate.com/"
+    },
+    {
+      "url": "https://contests.productioncrate.com/"
+    },
+    {
+      "url": "https://contests.productioncrate.com/hall-of-fame.html"
+    },
+    {
+      "url": "https://www.productioncrate.com/skills-tier"
+    },
+    {
+      "url": "https://www.productioncrate.com/skills/courses/intro-to-uv-mapping"
+    },
+    {
+      "url": "https://learn.productioncrate.com/after-effects-tutorials.html"
+    },
+    {
+      "url": "https://learn.productioncrate.com/adobe-premiere-tutorials.html"
+    },
+    {
+      "url": "https://learn.productioncrate.com/davinci-resolve-lite-tutorials.html"
+    },
+    {
+      "url": "https://learn.productioncrate.com/3d-general-tutorials.html"
+    },
+    {
+      "url": "https://learn.productioncrate.com/hitfilm-tutorials.html"
+    },
+    {
+      "url": "https://learn.productioncrate.com/final-cut-tutorials.html"
+    },
+    {
+      "url": "https://learn.productioncrate.com/sony-vegas-tutorials.html"
+    },
+    {
+      "url": "https://learn.productioncrate.com/cinema-4d-tutorials.html"
+    },
+    {
+      "url": "https://productioncrate.partnerstack.com/"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/explosions"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/explosions/ground-explosions"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/explosions/aerial-explosions"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/explosions/dust-and-debris-explosions"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/explosions/nuclear-bombs"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/fire-sparks"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/fire-sparks/burning-elements"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/fire-sparks/fire-bursts"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/fire-sparks/embers-screen-hits"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/fire-sparks"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/muzzle-flashes"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/dust-smoke"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/dust-smoke/dark-smoke-plumes"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/dust-smoke/debris-bursts"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/dust-smoke/shockwaves"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/debris"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/debris/object-destruction"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/debris/dirt-debris"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/debris/glass-elements"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/magic-powers"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/magic-powers/magic-circles"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/magic-powers/energy-balls"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/magic-powers/super-lightning"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/magic-powers/laser-eyes"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/magic-powers/front-facing-shockwaves"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/magic-powers/spells-beams"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/magic-powers/force-fields"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/sci-fi"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/sci-fi/holograms"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/sci-fi/future-hud"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/sci-fi/forcefields"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/sci-fi/spaceship"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/vehicles"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/vehicles/helicopters"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/vehicles/planes"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/vehicles/police-fx"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/vehicles/tank-fx"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/swat-henchmen"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/swat-henchmen/swat"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/swat-henchmen/hazmat-characters"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/zombies"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/blood"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/blood/wall-gore"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/blood/wounds-healing"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/natural-elements"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/natural-elements/rain"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/natural-elements/tornados"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/natural-elements/meteors"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/natural-elements/storm-clouds"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/natural-elements/lightning"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/natural-elements/oceans"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/natural-elements/sandstorms-avalanches"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/natural-elements/earthquake"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/animals-creatures"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/animals-creatures/birds"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/animals-creatures/dinosaurs"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/animals-creatures/fish"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/liquids-ice"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/liquids-ice/oceans"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/liquids-ice/clear-slime"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/liquids-ice/splashes-other"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/toon-anime-fx"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/toon-anime-fx/toon-anime-backgrounds"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/toon-anime-fx/toon-clouds-explosions"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/toon-anime-fx/toon-energy-electricity"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/toon-anime-fx/toon-accents-extras"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/toon-anime-fx/toon-fire-sparks"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/visual-graphics/toon-anime-fx/toon-text-elements"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/transitions"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/transitions/glitched"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/transitions/mograph-lines"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/transitions/matte"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/transitions/drippy"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/transitions/paint-ink"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/transitions/nature"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/transitions/sports"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/transitions/holiday"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/lens-flares-bokeh"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/lens-flares-bokeh/anamorphic-future"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/lens-flares-bokeh/bokeh-leaks"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/hand-gestures"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/sports"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/backgrounds"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/backgrounds/technology"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/backgrounds/particles"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/backgrounds/toon-anime"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/backgrounds/low-poly"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/backgrounds/neon-lights"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/backgrounds/holiday"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/backgrounds/flags"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/buttons-icons"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/buttons-icons/modern-social-media"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/buttons-icons/loading"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/buttons-icons/animated-emojis"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/lower-thirds"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/textures-overlay-filters"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/textures-overlay-filters/camcorder"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/textures-overlay-filters/leaks-flares"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/textures-overlay-filters/glitched-distorted"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/textures-overlay-filters/edgy-effects"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/textures-overlay-filters/aged-vintage"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/textures-overlay-filters/ink-paint"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/textures-overlay-filters/fluid-color"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/holiday"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/holiday/christmas"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/holiday/halloween"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/holiday/valentines-day"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/holiday/new-years"
+    },
+    {
+      "url": "https://vfx.productioncrate.com/vfx/motion-graphics/holiday/thanksgiving"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/music/epic"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/music/action"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/music/noir-mystery"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/music/thriller"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/music/dramatic"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/music/suspenseful"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/music/feel-good"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/music/fantasy"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/music/western"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/search/scifi+music?main_category=sfx"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/search/world+wide+music?main_category=sfx"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/music/atmospheric-experimental"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/music/corporate"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/music/hip-hop"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/music/dance-groove"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/music/world-folk"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/music/disco"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/music/electronic"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/search/lo-fi?main_category=sfx"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/search/jazz?main_category=sfx"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/music/rock"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/idents"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/idents/corporate"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/idents/holiday-idents"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/idents/logo-jingles"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/idents/news-jingles"
+    },
+    {
+      "url": "https://www.productioncrate.com/game-tracks.html"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-effects/movement"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-effects/fight"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-effects/guns"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-effects/explosions-bangs"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-effects/crashes-debris"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-effects/impacts"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-effects/blades-metal"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-effects/mechanical"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-effects/people"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-effects/ambient"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-effects/animals"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-effects/liquids"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-effects/organic"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-effects/natural-elements"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-effects/domestic"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-effects/vehicles"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-effects/magic-fantasy"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-effects/sci-fi/machinery"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-effects/sci-fi/weapons-firing"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-effects/sci-fi/glitches"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-effects/sci-fi/vehicles"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-design/funny"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-design/video-games"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-design/instruments"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-design/horror"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-design/horror/horror-build-ups"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-design/horror/horror-scene-setting"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-design/horror/horror-hits"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-design/bass-drops"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-design/classic-noir"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-design/epic-sounds"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-design/happy"
+    },
+    {
+      "url": "https://sfx.productioncrate.com/sfx/sound-design/dramatic"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/set-extensions"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/set-extensions/space"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/set-extensions/skies"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/set-extensions/buildings"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/set-extensions/vehicles"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/set-extensions/landscapes"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/set-extensions/plants"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/set-extensions/apocalypse"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/set-extensions/explosions"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/set-extensions/destruction"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/set-extensions/ancient"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/effects"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/effects/lens-grunge"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/effects/cracks"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/effects/bullet-holes"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/effects/scorch-marks"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/effects/smashed-glass"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/effects/blood"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/effects/fabric"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/film-and-video"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/film-and-video/gobos"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/film-and-video/compositional-grids"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/textures"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/textures/puddle-maps"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/textures/dirt-grunge/concrete"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/textures/dirt-grunge/rust"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/textures/dirt-grunge/rock"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/textures/dirt-grunge/dirt"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/textures/dirt-grunge/wood"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/search"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/search/illustrations?main_category=graphics"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/search/design+balloon+font?main_category=graphics"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/search/print+design+8bit+pixels?main_category=graphics"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/graphics/search"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/search/comic+halftone+backgrounds?main_category=graphics"
+    },
+    {
+      "url": "https://graphics.productioncrate.com/search/textures+clean+backdrops?main_category=graphics"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/environments"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/environments/skies"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/environments/space"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/environments/aerial"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/environments/studio"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/materials"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/materials/metal"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/materials/architecture"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/materials/fabric"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/materials/dirt"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/materials/sand"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/materials/terrain"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/plugin"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/plugin"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/models"
+    },
+    {
+      "url": "https://character.productioncrate.com"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/models/characters"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/models/vehicles"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/models/urban"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/models/domestic"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/models/weapons"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/models/space"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/models/tech"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/models/apocalypse"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/models/ancient"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/models/food"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/models/sports"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/models/money"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/models/gore"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/models/vdb"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/models/nature/vegetation-3d-models"
+    },
+    {
+      "url": "https://www.productioncrate.com/3d/models/nature/landscape-3d-models"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/perfect-screen"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/dither-works"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-hologram"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-easy-glow"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-object-glow"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-glass"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crt-factory"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-unmult"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-black-hole"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-hyperglitch"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-height-relight"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-vhs-master"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-camera-shake"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-rec-overlay"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-film-grade"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-final-grain"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-star-flare"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-chromatic-aberration"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-easy-godrays"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-light-wrap"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/rendercrate"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-halftone"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-doodle-outline"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-long-gradient"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-long-shadow"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/retro-film"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins"
+    },
+    {
+      "url": "https://www.productioncrate.com/#"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/visual-graphics"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/visual-graphics/magic-powers"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/visual-graphics/explosions"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/visual-graphics/dust-smoke"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/visual-graphics/fire-sparks"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/visual-graphics/debris"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/visual-graphics/muzzle-flashes"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/visual-graphics/toon-anime-fx"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/visual-graphics/action"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/motion-graphics/lens-flares-bokeh"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/visual-graphics/sci-fi"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/visual-graphics/vehicles"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/visual-graphics/natural-elements"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/visual-graphics/liquids-ice"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/visual-graphics"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins"
+    },
+    {
+      "url": "https://www.productioncrate.com/portal"
+    },
+    {
+      "url": "https://user.productioncrate.com/register/plugins-only?app_slug=crt-factory"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/perfect-screen"
+    },
+    {
+      "url": "https://user.productioncrate.com/register/plugins-only?app_slug=perfect-screen&utm_source=webflow&utm_medium=plugin-homepage"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crt-factory"
+    },
+    {
+      "url": "https://user.productioncrate.com/register/plugins-only?app_slug=crt-factory&utm_source=webflow&utm_medium=plugin-homepage"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-glass"
+    },
+    {
+      "url": "https://user.productioncrate.com/register/plugins-only?app_slug=crates-glass&utm_source=webflow&utm_medium=plugin-homepage"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-vhs-master"
+    },
+    {
+      "url": "https://user.productioncrate.com/register/plugins-only?app_slug=crates-vhs-master&utm_source=webflow&utm_medium=plugin-homepage"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-vibrance"
+    },
+    {
+      "url": "https://user.productioncrate.com/register/plugins-only?app_slug=crates-vibrance&utm_source=webflow&utm_medium=plugin-homepage"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-easy-glow"
+    },
+    {
+      "url": "https://user.productioncrate.com/register/plugins-only?app_slug=crates-easy-glow&utm_source=webflow&utm_medium=plugin-homepage"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-film-grade"
+    },
+    {
+      "url": "https://user.productioncrate.com/register/plugins-only?app_slug=crates-film-grade&utm_source=webflow&utm_medium=plugin-homepage"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-chromatic-aberration"
+    },
+    {
+      "url": "https://user.productioncrate.com/register/plugins-only?app_slug=crt-factory"
+    },
+    {
+      "url": "https://www.productioncrate.com/plugins/crates-hyperglitch"
+    },
+    {
+      "url": "https://user.productioncrate.com/register/plugins-only?app_slug=crates-hyperglitch&utm_source=webflow&utm_medium=plugin-homepage"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/motion-graphics/"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/motion-graphics/backgrounds"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/motion-graphics/lens-flares-bokeh"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/motion-graphics/textures-overlay-filters"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/motion-graphics/transitions"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/motion-graphics/elements-accents"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/motion-graphics/buttons-icons"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/motion-graphics/typography-kits"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/motion-graphics/youtube"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/motion-graphics/holiday"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/motion-graphics/fluid-color"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/motion-graphics/technology"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/motion-graphics/hand-gestures"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/motion-graphics/lower-thirds"
+    },
+    {
+      "url": "https://www.footagecrate.com/vfx/motion-graphics/"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/music/"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/music/action"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/music/rock"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/music/hip-hop"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/music/dance-groove"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/music/disco"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/music/electronic"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/music/feel-good"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/music/dramatic"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/music/fantasy"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/music/epic"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/music/atmospheric-experimental"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/music/children-animated"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/music/effects/corporate"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/music/"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/sound-effects/"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/music/effects/corporate"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/sound-effects/animals"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/sound-effects/explosions-bangs"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/sound-effects/crashes-debris"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/sound-effects/guns"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/sound-effects/magic-fantasy"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/sound-effects/sci-fi"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/sound-effects/natural-elements"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/sound-effects/liquids"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/sound-effects/vehicles"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/sound-effects/organic"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/sound-effects/domestic"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/sound-effects/lock-n-load"
+    },
+    {
+      "url": "https://www.soundscrate.com/sfx/sound-effects/"
+    },
+    {
+      "url": "https://www.rendercrate.com/3d/models/"
+    },
+    {
+      "url": "https://www.rendercrate.com/3d/models/vehicles"
+    },
+    {
+      "url": "https://www.rendercrate.com/3d/models/urban"
+    },
+    {
+      "url": "https://www.rendercrate.com/3d/models/characters"
+    },
+    {
+      "url": "https://www.rendercrate.com/3d/models/weapons"
+    },
+    {
+      "url": "https://www.rendercrate.com/3d/models/space"
+    },
+    {
+      "url": "https://www.rendercrate.com/3d/models/tech"
+    },
+    {
+      "url": "https://www.rendercrate.com/3d/models/ancient"
+    },
+    {
+      "url": "https://www.rendercrate.com/3d/models/food"
+    },
+    {
+      "url": "https://www.rendercrate.com/3d/models/money"
+    },
+    {
+      "url": "https://www.rendercrate.com/3d/models/apocalypse"
+    },
+    {
+      "url": "https://www.rendercrate.com/3d/models/debris"
+    },
+    {
+      "url": "https://www.rendercrate.com/3d/models/domestic"
+    },
+    {
+      "url": "https://www.rendercrate.com/3d/models/anatomical-medical"
+    },
+    {
+      "url": "https://www.rendercrate.com/3d/models/"
+    },
+    {
+      "url": "https://rendercrate.com/3d/environments"
+    },
+    {
+      "url": "https://www.rendercrate.com/3d/environments/skies"
+    },
+    {
+      "url": "https://www.rendercrate.com/3d/environments/space"
+    },
+    {
+      "url": "https://www.rendercrate.com/3d/environments/skies"
+    }
+  ],
+  "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+  "challengeOrDenial": false
+}

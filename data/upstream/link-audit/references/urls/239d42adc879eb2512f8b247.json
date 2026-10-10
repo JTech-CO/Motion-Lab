@@ -1,0 +1,56 @@
+{
+  "url": "https://motion.dev/docs/animate",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://motion.dev/docs/animate",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://motion.dev/docs/animate",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://motion.dev/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://motion.dev/docs/animate",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:29.306952+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://motion.dev/docs/animate",
+      "contentType": "text/html",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 195875,
+      "capturedSha256": "eeb8fe5294eedce39f7842a6ce52ec83ebe13ca5a56ad5d2ae075c9e5a0fc210",
+      "responseBodySha256": "eeb8fe5294eedce39f7842a6ce52ec83ebe13ca5a56ad5d2ae075c9e5a0fc210",
+      "title": "animate() | Create JavaScript, SVG animations | Motion",
+      "textCharacters": 20942,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.397,
+      "captureCachePath": "exa-results/link-audit/references/captures/85def8b7b9ede8274a9187f6.json",
+      "captureCacheSha256": "9d980743ac5c928df32c308d71543dcbf29ffbf392dfcb0019a7f8af3f84a908"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-motion-animate",
+      "canonicalId": "ref-motion-animate",
+      "title": "Motion animate",
+      "role": "canonical",
+      "sourceSha256": "b360976f9cff5f149ec19aa8314176e6674ded8dd9f7ec244ad01aa0dc905285"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Ground indicators -->
+            <ellipse cx="100" cy="270" rx="60" ry="10" fill="var(--primary-color)" opacity="0.2"/>
+            <ellipse cx="300" cy="270" rx="60" ry="10" fill="var(--secondary-color)" opacity="0.2"/>
+            
+            <!-- Measuring Line -->
+            <g class="anim-pulse">
+                <path d="M140 240 H260" stroke="var(--accent-color)" stroke-width="6" stroke-dasharray="10 10" stroke-linecap="round"/>
+                <path d="M140 230 L130 240 L140 250 M260 230 L270 240 L260 250" stroke="var(--accent-color)" stroke-width="6" fill="none" stroke-linecap="round"/>
+                <rect x="175" y="225" width="50" height="30" rx="5" fill="var(--bg-surface)" stroke="var(--accent-color)" stroke-width="4"/>
+                <path d="M190 240 H210 M195 235 V245 M205 235 V245" stroke="var(--accent-color)" stroke-width="3" stroke-linecap="round"/>
+            </g>
+            
+            <g class="anim-bounce">
+                <!-- Person 1 (Primary) -->
+                <circle cx="100" cy="110" r="30" fill="var(--primary-color)"/>
+                <path d="M60 260 C60 170 140 170 140 260 Z" fill="var(--primary-color)"/>
+                <!-- Shield Aura -->
+                <path class="anim-glow" d="M160 260 C160 120 40 120 40 260" stroke="var(--primary-color)" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.5"/>
+            </g>
+            
+            <g class="anim-float" style="animation-delay: 0.5s;">
+                <!-- Person 2 (Secondary) -->
+                <circle cx="300" cy="110" r="30" fill="var(--secondary-color)"/>
+                <path d="M260 260 C260 170 340 170 340 260 Z" fill="var(--secondary-color)"/>
+                <!-- Shield Aura -->
+                <path class="anim-glow" d="M360 260 C360 120 240 120 240 260" stroke="var(--secondary-color)" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.5"/>
+            </g>
+          </svg>

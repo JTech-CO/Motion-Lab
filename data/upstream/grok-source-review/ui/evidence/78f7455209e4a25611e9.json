@@ -1,0 +1,23 @@
+{
+  "url": "https://mosso.video/library/",
+  "site": "mosso",
+  "reviewedAt": "2026-10-10",
+  "captures": [
+    {
+      "method": "Exa-public-fetch",
+      "status": "content-returned-http-status-unavailable",
+      "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://mosso.video/library/",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/exa-mosso-fetch-1.json",
+      "rawCacheSha256": "7538c4f8c24ab09aa28b46bde16aa79bce38ccaf26847759f71e7e87d8ddbf2d",
+      "capturedTextSha256": "d28e552cbe563dd38e0d5dabda0eedfcf64f4ae5650d79632badef5f5fd3aec7",
+      "responseCapturedSha256": null,
+      "boundedAtBytes": null,
+      "providerResponseCacheBytes": 37453,
+      "truncated": null
+    }
+  ],
+  "contentPolicy": "원문 전체는 ignored exa-results 캐시에만 보관합니다. 이 파일은 접근 상태와 SHA 및 자체 요약만 저장하며 페이지 인용은 sites.json termsEvidence에만 최대 25단어로 기록합니다."
+}

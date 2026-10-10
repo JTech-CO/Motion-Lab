@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-bounce">
+                <!-- Chat Bubble Base -->
+                <path d="M100 160 C100 100 140 80 200 80 C260 80 300 100 300 160 C300 220 260 240 200 240 C170 240 140 230 120 250 L120 220 C105 205 100 185 100 160 Z" fill="var(--primary-color)"/>
+                
+                <!-- Robot Face / Screen -->
+                <rect x="140" y="120" width="120" height="70" rx="35" fill="var(--bg-surface)"/>
+                
+                <!-- Animated Eyes -->
+                <g class="anim-pulse">
+                    <circle cx="170" cy="155" r="12" fill="var(--accent-color)"/>
+                    <circle cx="230" cy="155" r="12" fill="var(--accent-color)"/>
+                </g>
+                <path d="M165 155 H175 M225 155 H235" stroke="var(--bg-surface)" stroke-width="4" stroke-linecap="round"/>
+                
+                <!-- Antenna -->
+                <path d="M200 80 V50" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                <circle class="anim-glow" cx="200" cy="50" r="8" fill="var(--accent-color)"/>
+            </g>
+            <g class="anim-float">
+                <circle cx="90" cy="110" r="15" fill="var(--secondary-color)"/>
+                <circle cx="320" cy="190" r="10" fill="var(--secondary-color)"/>
+                <circle cx="310" cy="80" r="8" fill="var(--accent-color)"/>
+            </g>
+          </svg>

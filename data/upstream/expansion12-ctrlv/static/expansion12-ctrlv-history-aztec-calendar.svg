@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            
+            <rect x="160" y="240" width="80" height="20" fill="#334155" opacity="0.8" />
+            
+            <g>
+                
+                <circle cx="200" cy="140" r="110" fill="#6366f1" />
+                <circle cx="200" cy="140" r="100" fill="none" stroke="#334155" stroke-width="2" opacity="0.5" />
+                <circle cx="200" cy="140" r="70" fill="none" stroke="#334155" stroke-width="2" opacity="0.5" />
+                <circle cx="200" cy="140" r="40" fill="none" stroke="#334155" stroke-width="2" opacity="0.5" />
+                
+                
+                <circle cx="200" cy="140" r="30" fill="#DFD116" />
+                <path d="M185 130 Q190 125 195 130 M205 130 Q210 125 215 130" stroke="#334155" stroke-width="2" fill="none" />
+                <path d="M200 145 L195 155 H205 Z" fill="#f43f5e" />
+                <circle cx="190" cy="145" r="4" fill="#f43f5e" />
+                <circle cx="210" cy="145" r="4" fill="#f43f5e" />
+                
+                
+                <path d="M200 100 L190 70 L210 70 Z M200 180 L190 210 L210 210 Z M160 140 L130 130 L130 150 Z M240 140 L270 130 L270 150 Z" fill="#f43f5e" />
+                
+                <path d="M172 112 L152 92 L142 102 Z M228 112 L248 92 L258 102 Z M172 168 L152 188 L142 178 Z M228 168 L248 188 L258 178 Z" fill="#f43f5e" />
+
+                
+                <g stroke="#ffffff" stroke-width="2" opacity="0.6">
+                    
+                    <rect x="195" y="45" width="10" height="15" />
+                    <rect x="195" y="220" width="10" height="15" />
+                    <rect x="45" y="135" width="15" height="10" />
+                    <rect x="220" y="135" width="15" height="10" transform="translate(100,0)" />
+                    
+                    <rect x="100" y="80" width="10" height="10" transform="rotate(45 105 85)" />
+                    <rect x="290" y="80" width="10" height="10" transform="rotate(45 295 85)" />
+                    <rect x="100" y="190" width="10" height="10" transform="rotate(45 105 195)" />
+                    <rect x="290" y="190" width="10" height="10" transform="rotate(45 295 195)" />
+                </g>
+                
+                <circle cx="200" cy="140" r="105" fill="none" stroke="#ffffff" stroke-width="6" stroke-dasharray="10 5" opacity="0.4" />
+            </g>
+          </svg>

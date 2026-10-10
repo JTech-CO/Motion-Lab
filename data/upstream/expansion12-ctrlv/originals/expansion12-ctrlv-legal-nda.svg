@@ -1,0 +1,20 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Folder Back -->
+                <path d="M80 100 H160 L180 120 H320 V240 H80 Z" fill="var(--primary-color)"/>
+                
+                <!-- Documents/Secret -->
+                <rect class="anim-bounce" x="110" y="90" width="160" height="140" fill="var(--bg-surface)"/>
+                <path class="anim-data" d="M130 110 H250 M130 130 H250" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                <rect class="anim-glow" x="130" y="150" width="60" height="20" rx="5" fill="var(--accent-color)"/>
+                
+                <!-- Folder Front -->
+                <path d="M80 120 H320 L300 240 H100 Z" fill="var(--secondary-color)"/>
+                
+                <!-- Padlock -->
+                <rect x="180" y="160" width="40" height="40" rx="5" fill="var(--primary-color)"/>
+                <path class="anim-pulse" d="M190 160 V140 C190 120 210 120 210 140 V160" stroke="var(--primary-color)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                <circle cx="200" cy="180" r="6" fill="var(--accent-color)"/>
+                <path d="M200 180 L195 195 H205 Z" fill="var(--accent-color)"/>
+            </g>
+          </svg>

@@ -1,0 +1,33 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <g class="anim-float">
+                <!-- Radar Web Background -->
+                <g stroke="var(--charcoal)" stroke-width="2" opacity="0.3" fill="none">
+                    <!-- Axes -->
+                    <line x1="200" y1="30" x2="200" y2="250"/>
+                    <line x1="105" y1="85" x2="295" y2="195"/>
+                    <line x1="105" y1="195" x2="295" y2="85"/>
+                    
+                    <!-- Hexagon rings -->
+                    <path d="M200 40 L286 90 L286 190 L200 240 L114 190 L114 90 Z"/>
+                    <path d="M200 80 L256 112 L256 168 L200 200 L144 168 L144 112 Z"/>
+                    <path d="M200 120 L228 136 L228 164 L200 180 L172 164 L172 136 Z"/>
+                </g>
+                
+                <!-- Data Polygon (Primary) -->
+                <path class="anim-pulse" style="transform-origin: 200px 140px; animation-duration: 4s;" d="M200 60 L240 100 L260 170 L200 210 L150 180 L130 90 Z" fill="var(--primary-color)" opacity="0.6" stroke="var(--primary-color)" stroke-width="6" stroke-linejoin="round"/>
+                
+                <!-- Data Polygon 2 (Accent) overlaid -->
+                <path class="anim-pulse" style="transform-origin: 200px 140px; animation-delay: 2s; animation-duration: 4s;" d="M200 100 L270 110 L220 190 L200 160 L140 160 L170 120 Z" fill="var(--accent-color)" opacity="0.5" stroke="var(--accent-color)" stroke-width="4" stroke-linejoin="round"/>
+                
+                <!-- Data Node Markers -->
+                <g fill="var(--bg-surface)" stroke="var(--primary-color)" stroke-width="3">
+                    <circle cx="200" cy="60" r="5"/>
+                    <circle cx="240" cy="100" r="5"/>
+                    <circle cx="260" cy="170" r="5"/>
+                    <circle cx="200" cy="210" r="5"/>
+                    <circle cx="150" cy="180" r="5"/>
+                    <circle cx="130" cy="90" r="5"/>
+                </g>
+            </g>
+          </svg>

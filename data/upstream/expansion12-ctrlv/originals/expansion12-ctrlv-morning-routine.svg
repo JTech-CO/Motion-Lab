@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Window silhouette -->
+        <rect x="120" y="40" width="160" height="180" rx="8" fill="var(--bg-surface)" stroke="var(--border-color)" stroke-width="2"/>
+        <line x1="200" y1="40" x2="200" y2="220" stroke="var(--border-color)" stroke-width="2"/>
+        <line x1="120" y1="110" x2="280" y2="110" stroke="var(--border-color)" stroke-width="2"/>
+        
+        <!-- Sunlight Stream -->
+        <path d="M120 40 L160 0 L320 0 L280 40 Z" fill="#fbbf24" opacity="0.1"/>
+        
+        <!-- Rising Sun -->
+        <g class="anim-float">
+            <circle cx="200" cy="80" r="30" fill="#facc15" opacity="0.4"/>
+            <path d="M200 50 V30 M230 80 H250 M170 80 H150 M220 60 L235 45" stroke="#facc15" stroke-width="2" stroke-linecap="round"/>
+        </g>
+        
+        <!-- Steaming Coffee -->
+        <g transform="translate(180, 180)">
+            <g class="anim-bounce">
+                <path d="M0 0 H40 V30 C40 45 0 45 0 30 Z" fill="var(--charcoal)"/>
+                <path d="M40 10 Q55 10 55 20 Q55 30 40 30" stroke="var(--charcoal)" stroke-width="4" fill="none"/>
+            </g>
+            <!-- Steam -->
+            <g class="anim-float">
+                <path d="M10 -15 Q15 -35 20 -15" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+                <path style="animation-delay: -1s" d="M25 -10 Q30 -30 35 -10" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+            </g>
+        </g>
+    </svg>

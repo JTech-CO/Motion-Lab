@@ -1,0 +1,56 @@
+{
+  "url": "https://brand.gocardless.com/motion",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://brand.gocardless.com/motion",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://brand.gocardless.com/motion",
+      "allowedForAuditGet": true,
+      "reason": "robots-missing-not-a-license",
+      "robotsUrl": "https://brand.gocardless.com/robots.txt",
+      "robotsStatus": 404
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://brand.gocardless.com/motion",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:48.880215+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://brand.gocardless.com/motion",
+      "contentType": "text/html; charset=UTF-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 218635,
+      "capturedSha256": "1f8db731a4e2551a9090b375348df69e5aaf89bf77ad65adffd0b15b21c43d54",
+      "responseBodySha256": "1f8db731a4e2551a9090b375348df69e5aaf89bf77ad65adffd0b15b21c43d54",
+      "title": "Motion - GoCardless Brand Guidelines",
+      "textCharacters": 11649,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.814,
+      "captureCachePath": "exa-results/link-audit/references/captures/bfc391e59f1e3ce84c88cb25.json",
+      "captureCacheSha256": "3e7cc58796e78060d0ac0a6dca8de7ca3a2c5369eec001325dd5319a010627b7"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-gocardless-motion",
+      "canonicalId": "ref-gocardless-motion",
+      "title": "GoCardless Motion",
+      "role": "canonical",
+      "sourceSha256": "c7cd98dbd6235f9176a36a1d40f8ac270611e67084896259c0c6516d7195d9ce"
+    }
+  ]
+}

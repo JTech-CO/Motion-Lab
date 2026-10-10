@@ -1,0 +1,53 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Lab coat figure -->
+            <g class="anim-float">
+              <!-- Shadow -->
+              <ellipse cx="200" cy="275" rx="60" ry="8" fill="var(--charcoal)" opacity="0.1"/>
+
+              <!-- Lab Coat Body -->
+              <path d="M160 160 Q155 200 150 260 H250 Q245 200 240 160 Z" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="5"/>
+              <path d="M160 160 L170 260 H183 L170 160 Z" fill="var(--primary-color)" opacity="0.1"/>
+              <path d="M240 160 L230 260 H217 L230 160 Z" fill="var(--primary-color)" opacity="0.1"/>
+
+              <!-- Arms holding flask -->
+              <path d="M160 165 Q130 185 125 220" stroke="var(--bg-surface)" stroke-width="18" stroke-linecap="round"/>
+              <path d="M240 165 Q270 185 273 215" stroke="var(--bg-surface)" stroke-width="18" stroke-linecap="round"/>
+
+              <!-- Flask in hand -->
+              <g transform="translate(115, 215)">
+                <g class="anim-pulse" style="animation-duration: 2s;">
+                  <path d="M0 0 L-5 30 Q-10 45 5 45 Q20 45 15 30 L10 0 Z" fill="var(--accent-color)" opacity="0.7" stroke="var(--charcoal)" stroke-width="3"/>
+                  <!-- Bubbles in flask -->
+                  <circle cx="2" cy="30" r="3" fill="var(--bg-surface)" opacity="0.7"/>
+                  <circle cx="10" cy="22" r="2" fill="var(--bg-surface)" opacity="0.6"/>
+                </g>
+              </g>
+
+              <!-- Neck & Head -->
+              <rect x="193" y="100" width="14" height="25" rx="7" fill="#F5CBA7"/>
+              <circle cx="200" cy="88" r="30" fill="#F5CBA7" stroke="var(--charcoal)" stroke-width="4"/>
+
+              <!-- Hair -->
+              <path d="M172 80 Q180 50 200 58 Q220 50 228 80" fill="var(--charcoal)" stroke="var(--charcoal)" stroke-width="2"/>
+              <!-- Wild scientist hair -->
+              <path class="anim-float" style="animation-duration: 3s;" d="M172 80 Q165 60 170 50 M228 80 Q235 60 230 50 M200 58 Q200 40 205 35" stroke="var(--charcoal)" stroke-width="3" stroke-linecap="round" fill="none"/>
+
+              <!-- Glasses -->
+              <circle cx="190" cy="88" r="10" fill="none" stroke="var(--primary-color)" stroke-width="3"/>
+              <circle cx="210" cy="88" r="10" fill="none" stroke="var(--primary-color)" stroke-width="3"/>
+              <line x1="200" y1="88" x2="200" y2="88" stroke="var(--primary-color)" stroke-width="3"/>
+              <line x1="180" y1="88" x2="175" y2="90" stroke="var(--primary-color)" stroke-width="3"/>
+              <line x1="220" y1="88" x2="225" y2="90" stroke="var(--primary-color)" stroke-width="3"/>
+
+              <!-- Eureka! bubble -->
+              <g transform="translate(250, 50)">
+        <g class="anim-bounce" style="animation-duration: 5s;">
+        
+                <rect x="-20" y="-15" width="60" height="25" rx="12" fill="var(--secondary-color)"/>
+                <path d="M-5 10 L0 22 L10 10 Z" fill="var(--secondary-color)"/>
+                <text x="10" y="3" font-family="sans-serif" font-weight="bold" font-size="11" fill="var(--bg-surface)" text-anchor="middle">Eureka!</text>
+              
+        </g>
+    </g>
+            </g>
+          </svg>

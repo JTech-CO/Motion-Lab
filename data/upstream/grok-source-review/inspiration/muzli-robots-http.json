@@ -1,0 +1,19 @@
+{
+  "url": "https://muz.li/robots.txt",
+  "method": "bounded public HTTP GET",
+  "status": 200,
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공식 공개 URL의 제한된 HTTP GET 응답을 읽었다. 원격 JavaScript·미디어 파일을 실행하거나 다운로드하지 않았다. 일부 AI 크롤러를 허용하지만 콘텐츠 재배포나 AI 학습에 대한 저작권 라이선스가 아니다.",
+  "sector": 4,
+  "siteId": "muzli",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/muzli-robots-http.json",
+  "rawCacheSha256": "b590f16d1d719acf919c0547f89022f29955f7480af717393da752e0b844a219",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "db2bcb8c589ae2096fe703159e774be69fbcdd728f1f4821fdaea36b9af2e8da",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "finalUrl": "https://muz.li/robots.txt",
+  "byteCount": 786,
+  "boundedAt": 1048576,
+  "truncated": false,
+  "originalResponseSha256": "db2bcb8c589ae2096fe703159e774be69fbcdd728f1f4821fdaea36b9af2e8da"
+}

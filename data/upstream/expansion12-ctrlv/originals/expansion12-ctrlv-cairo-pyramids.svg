@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Desert Base -->
+            <ellipse cx="200" cy="270" rx="160" ry="20" fill="#e2e8f0" opacity="0.6"/>
+            
+            <!-- Sun Back -->
+            <circle class="anim-float" cx="120" cy="100" r="40" fill="var(--accent-color)" opacity="0.4"/>
+            
+            <!-- Pyramid 1 (Background Right) -->
+            <path d="M220 260 L280 160 L350 260 Z" fill="var(--primary-color)" opacity="0.7"/>
+            <path d="M280 160 L250 260 H350 Z" fill="var(--charcoal)" opacity="0.2"/>
+            
+            <!-- Pyramid 2 (Middle Left) -->
+            <path d="M60 260 L130 140 L220 260 Z" fill="var(--primary-color)" opacity="0.85"/>
+            <path d="M130 140 L100 260 H220 Z" fill="var(--charcoal)" opacity="0.2"/>
+            
+            <!-- Pyramid 3 (Front Center Large) -->
+            <path d="M140 260 L210 80 L300 260 Z" fill="var(--primary-color)"/>
+            <path d="M210 80 L170 260 H300 Z" fill="var(--charcoal)" opacity="0.2"/>
+            
+            <!-- Glowing Peak -->
+            <path class="anim-glow" d="M195 120 L210 80 L225 120 Z" fill="var(--secondary-color)"/>
+          </svg>

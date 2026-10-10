@@ -1,0 +1,17 @@
+{
+  "id": "motionelements",
+  "url": "https://www.motionelements.com/robots.txt",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 200,
+  "finalUrl": "https://www.motionelements.com/robots.txt",
+  "contentType": "text/plain; charset=UTF-8",
+  "truncated": false,
+  "observedBytes": 510,
+  "observedContentSha256": "027b1485068d9256bfcab6faae53118c56abff1b6e700ed26220bbdac6415fd7",
+  "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+  "challengeOrDenial": false,
+  "robotsPath": "exa-results/grok-source-review/stock/motionelements-robots.txt",
+  "robotsContentSha256": "027b1485068d9256bfcab6faae53118c56abff1b6e700ed26220bbdac6415fd7"
+}

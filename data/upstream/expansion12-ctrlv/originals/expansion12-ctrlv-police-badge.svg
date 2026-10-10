@@ -1,0 +1,37 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            
+            <!-- Siren Light (Background) -->
+            <path class="anim-glow" d="M60 270 L140 100 H260 L340 270 Z" fill="var(--accent-color)" opacity="0.1"/>
+            <path d="M180 100 H220 V80 Q200 60 180 80 Z" fill="var(--secondary-color)"/>
+            <rect x="175" y="100" width="50" height="5" fill="var(--charcoal)"/>
+            <!-- Spinning Siren Beam -->
+            <g class="anim-rotate" style="transform-origin: 200px 85px; animation-duration: 2s;">
+                <path d="M200 85 L260 40 L280 90 Z" fill="var(--accent-color)" opacity="0.6"/>
+                <path d="M200 85 L140 130 L120 80 Z" fill="var(--accent-color)" opacity="0.4"/>
+            </g>
+            
+            <!-- Police Shield Badge -->
+            <path class="anim-bounce" d="M120 140 H280 V200 C280 240 200 280 200 280 C200 280 120 240 120 200 V140 Z" fill="var(--primary-color)"/>
+            <path class="anim-bounce" d="M135 155 H265 V195 C265 225 200 255 200 255 C200 255 135 225 135 195 V155 Z" fill="none" stroke="white" stroke-width="4"/>
+            
+            <!-- Star inside Badge -->
+            <polygon class="anim-float" points="200,165 210,185 235,185 215,200 220,225 200,210 180,225 185,200 165,185 190,185" fill="var(--accent-color)"/>
+            
+            <!-- Handcuffs -->
+            <g transform="translate(-20, 20)">
+        <g class="anim-float" style="animation-delay: -1s">
+        
+                <circle cx="100" cy="180" r="20" fill="none" stroke="var(--charcoal)" stroke-width="6"/>
+                <circle cx="100" cy="180" r="15" fill="none" stroke="var(--secondary-color)" stroke-width="2"/>
+                <rect x="120" y="175" width="10" height="10" fill="var(--charcoal)"/>
+                
+                <path d="M125 180 Q150 160 170 180" stroke="var(--charcoal)" stroke-width="4" fill="none"/>
+                
+                <circle cx="195" cy="180" r="20" fill="none" stroke="var(--charcoal)" stroke-width="6"/>
+                <circle cx="195" cy="180" r="15" fill="none" stroke="var(--secondary-color)" stroke-width="2"/>
+                <rect x="165" y="175" width="10" height="10" fill="var(--charcoal)"/>
+            
+        </g>
+    </g>
+          </svg>

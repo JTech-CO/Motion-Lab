@@ -1,0 +1,26 @@
+{
+  "theme": "iridescent soap bubble close-up with thin film interference",
+  "style_hints": "",
+  "references": [
+    "community/lygia/lighting_fresnelReflection.glsl [lighting,reflection]",
+    "community/SHADER/shadertoy_volcanic.glsl [lighting,matrix,noise,postprocess,raymarching,reflection,volumetric]",
+    "community/open-shaders/Others_ray_tracing_renderer_three_chunks_sampleGlassSpecular.glsl [grid,lighting,reflection]",
+    "community/lygia/lighting_iridescence.glsl [color_palette,lighting,postprocess,reflection]",
+    "community/lygia/lighting_fresnelReflection.wgsl [lighting,reflection]"
+  ],
+  "attempts": 3,
+  "created_at": "2026-03-28T00:15:15.429154+00:00",
+  "glsl_lines": 164,
+  "success": true,
+  "design_brief": "1. **Architecture**:  \n   `main()` → `vec2 uv = gl_FragCoord.xy / uResolution; uv = uv * 2.0 - 1.0; uv.x *= uResolution.x / uResolution.y;`  \n   Then: `vec3 col = soapBubble(uv, uTime); gl_FragColor = vec4(col, 1.0);`  \n   Structure: `main → soapBubble() → raymarch() → getIridescence() → noise3D()`\n\n2. **Key functions**:  \n   `float soapBubble(vec2 uv, float t)` — returns RGB;  \n   `float getFilmThickness(vec3 p)` — encodes bubble rim curvature;  \n   `vec3 getIridescence(vec3 normal, vec3 view, float thickness)` — uses thin-film interference formula;  \n   `float noise(vec3 p)` — use **Ref #2**’s `noise()` (with `tex` as noise texture) for speed/stability.\n\n3. **Reuse patterns**:  \n   - **Ref #2**’s `noise()` for cheap, tileable 3D noise (critical for domain-warping bubble surface);  \n   - **Ref #1**’s iridescence math: `vec3 ior1 = vec3(1.0), ior2 = vec3(1.33), ior3 = vec3(1.5); thickness *= 100.0;` — scale to visible range;  \n   - **Ref #3**’s Fresnel logic (simplified Schlick) for rim lighting.\n\n4. **Color & brightness**:  \n   Bias output: `col = mix(vec3(0.02), col, 1.2); col = pow(col, vec3(0.9));`  \n   Add subtle bloom-ish glow: `col += vec3(0.1) * smoothstep(0.8, 1.0, length(uv));`  \n   Ensure `gl_FragColor` is never black — clamp min to `0.01`.\n\n5. **Animation**:  \n   `uTime` drives:  \n   - Surface noise offset: `noise(p + uTime * 0.3)`;  \n   - Bubble rotation: `uv *= mat2(cos(uTime*0.5), -sin(uTime*0.5), sin(uTime*0.5), cos(uTime*0.5));`  \n   Speed: `0.2–0.8` rad/frame — slow, meditative drift.\n\n6. **Pitfalls**:  \n   ❌ No `dFdx/dFdy` → avoid screen-space derivatives;  \n   ❌ No bitwise ops → use `fract()`/`mod()` for hashing;  \n   ✅ Use `texture2D()` with `uv * 0.5 + 0.5` for noise tex;  \n   ✅ Avoid `pow(x, y)` for large `y` — clamp `x` to `[0.001, 1.0]`.",
+  "review": {
+    "visual_complexity": 4,
+    "code_quality": 3,
+    "theme_match": 5,
+    "animation": 4,
+    "originality": 4,
+    "total": 20,
+    "verdict": "pass",
+    "feedback": "Strong iridescent soap bubble implementation with thin-film interference, raymarching, and layered lighting effects; however, brightness could be improved by enhancing background contrast and ensuring the bubble occupies more of the canvas."
+  }
+}

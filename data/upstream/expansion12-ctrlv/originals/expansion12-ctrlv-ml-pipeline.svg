@@ -1,0 +1,42 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="150" ry="12" fill="#e2e8f0" opacity="0.6"/>
+            
+            <!-- Raw Data Input -->
+            <g class="anim-data">
+                <rect x="50" y="80" width="15" height="15" rx="2" fill="var(--charcoal)" opacity="0.5"/>
+                <rect x="70" y="60" width="15" height="15" rx="2" fill="var(--charcoal)" opacity="0.5"/>
+                <rect x="40" y="110" width="15" height="15" rx="2" fill="var(--charcoal)" opacity="0.5"/>
+            </g>
+            <path class="anim-draw" d="M80 100 Q120 100 140 140" stroke="var(--charcoal)" stroke-width="4" stroke-dasharray="6 4" fill="none" opacity="0.4"/>
+            
+            <!-- Processing Model / Engine -->
+            <rect class="anim-float" x="140" y="120" width="120" height="100" rx="16" fill="var(--primary-color)"/>
+            <path class="anim-float" d="M180 120 V220" stroke="var(--charcoal)" stroke-width="2" opacity="0.2"/>
+            <path class="anim-float" d="M220 120 V220" stroke="var(--charcoal)" stroke-width="2" opacity="0.2"/>
+            <path class="anim-float" d="M140 170 H260" stroke="var(--charcoal)" stroke-width="2" opacity="0.2"/>
+            
+            <!-- Nodes inside the model (Layers) -->
+            <g class="anim-pulse">
+                <circle cx="160" cy="145" r="5" fill="var(--secondary-color)"/>
+                <circle cx="160" cy="195" r="5" fill="var(--secondary-color)"/>
+                <circle cx="200" cy="170" r="6" fill="var(--accent-color)"/>
+                <circle cx="240" cy="145" r="5" fill="white"/>
+                <circle cx="240" cy="195" r="5" fill="white"/>
+                <path d="M165 145 L195 170 M165 195 L195 170 M205 170 L235 145 M205 170 L235 195" stroke="white" stroke-width="2" opacity="0.8"/>
+            </g>
+
+            <!-- Output Pipeline -->
+            <path class="anim-draw" d="M260 170 Q300 170 320 220" stroke="var(--secondary-color)" stroke-width="4" stroke-dasharray="8 6" fill="none"/>
+            <path class="anim-draw" d="M260 140 Q300 140 320 100" stroke="var(--accent-color)" stroke-width="4" stroke-dasharray="8 6" fill="none"/>
+            
+            <!-- Sorted/Processed Data Output -->
+            <g class="anim-bounce">
+                <!-- Cluster 1 (Organized, colored) -->
+                <rect x="315" y="225" width="20" height="20" rx="4" fill="var(--secondary-color)"/>
+                <rect x="340" y="225" width="20" height="20" rx="4" fill="var(--secondary-color)"/>
+                
+                <!-- Cluster 2 (Organized, colored) -->
+                <circle cx="330" cy="90" r="10" fill="var(--accent-color)"/>
+                <circle cx="355" cy="80" r="10" fill="var(--accent-color)"/>
+            </g>
+          </svg>

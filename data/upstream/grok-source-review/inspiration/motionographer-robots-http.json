@@ -1,0 +1,19 @@
+{
+  "url": "https://motionographer.com/robots.txt",
+  "method": "bounded public HTTP GET",
+  "status": 200,
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공식 공개 URL의 제한된 HTTP GET 응답을 읽었다. 원격 JavaScript·미디어 파일을 실행하거나 다운로드하지 않았다. robots는 wp-admin을 제한하고 공개 페이지의 전면 접근 금지는 보이지 않았다.",
+  "sector": 4,
+  "siteId": "motionographer",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/motionographer-robots-http.json",
+  "rawCacheSha256": "b0dd5cf1636d07bb0d64b01d56b98c6a9aa03ea943ba3153e63794755020973d",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "6491d47f8ec5f504db273f278784656f1a1e880187c9a7593df81774d0d4584b",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "finalUrl": "https://motionographer.com/robots.txt",
+  "byteCount": 168,
+  "boundedAt": 1048576,
+  "truncated": false,
+  "originalResponseSha256": "6491d47f8ec5f504db273f278784656f1a1e880187c9a7593df81774d0d4584b"
+}

@@ -1,0 +1,10 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="160" ry="12" fill="#E2E8F0"/>
+            <path class="anim-float" d="M100 240 L300 240 L320 250 L80 250 Z" fill="var(--charcoal)"/>
+            <rect class="anim-float" x="120" y="100" width="160" height="135" rx="10" fill="var(--primary-color)"/>
+            <rect class="anim-float" x="130" y="110" width="140" height="115" rx="5" fill="var(--bg-surface)"/>
+            <!-- code/ui on screen -->
+            <path class="anim-draw" d="M140 130 H200 M140 150 H240 M140 170 H180" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round"/>
+            <path d="M140 200 H260" stroke="var(--secondary-color)" stroke-width="4" stroke-opacity="0.3"/>
+            <circle class="anim-glow" cx="200" cy="160" r="20" fill="var(--secondary-color)" opacity="0.2"/>
+          </svg>

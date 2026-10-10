@@ -1,0 +1,56 @@
+{
+  "url": "https://kaleidoscope.qwilr.com/design/guides/motion/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://kaleidoscope.qwilr.com/design/guides/motion/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://kaleidoscope.qwilr.com/design/guides/motion/",
+      "allowedForAuditGet": true,
+      "reason": "robots-missing-not-a-license",
+      "robotsUrl": "https://kaleidoscope.qwilr.com/robots.txt",
+      "robotsStatus": 404
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://kaleidoscope.qwilr.com/design/guides/motion/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:48.851923+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://kaleidoscope.qwilr.com/design/guides/motion/",
+      "contentType": "text/html",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "4c3c764b32936d691ea688c7e1f88e3182a9d9ea6972dd955016f033616761e7",
+      "responseBodySha256": "4c3c764b32936d691ea688c7e1f88e3182a9d9ea6972dd955016f033616761e7",
+      "title": "Kaleidoscope | Motion",
+      "textCharacters": 7060,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.03,
+      "captureCachePath": "exa-results/link-audit/references/captures/eace9045cc49065b4049dfaa.json",
+      "captureCacheSha256": "d6d9696a4a1be9a702a91f8558ff0754aae1846b2558f3dfa6085bab78ca7265"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-qwilr-kaleidoscope",
+      "canonicalId": "ref-qwilr-kaleidoscope",
+      "title": "Qwilr Kaleidoscope",
+      "role": "canonical",
+      "sourceSha256": "a1619e0a8c86655abdaf00e3f6e1664e3be4e42fe5aa830577d25e1da6ed60b3"
+    }
+  ]
+}

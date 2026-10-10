@@ -1,0 +1,56 @@
+{
+  "url": "https://aicanvas.me/components/playful",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://aicanvas.me/components/playful",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://aicanvas.me/components/playful",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://aicanvas.me/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://aicanvas.me/components/playful",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:46.102621+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://aicanvas.me/components/playful",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 139140,
+      "capturedSha256": "d32a511ba4253303e49c4508bf7e0f62bff3f3b72ec9a7686c455b7892e3ce6b",
+      "responseBodySha256": "d32a511ba4253303e49c4508bf7e0f62bff3f3b72ec9a7686c455b7892e3ce6b",
+      "title": "Playful - Animated Text React Component | AI Canvas",
+      "textCharacters": 9513,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.818,
+      "captureCachePath": "exa-results/link-audit/references/captures/38403ed5a0bfd5f12ff04a50.json",
+      "captureCacheSha256": "80d7e44b41dc062eefe1b13322a938fa051d5ae96c9d8e835e4732fe5474539f"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-ai-canvas-playful",
+      "canonicalId": "ref-ai-canvas-playful",
+      "title": "AI Canvas Playful",
+      "role": "canonical",
+      "sourceSha256": "72e1785329f90d1829fb81aea5a77d5d6fd1decebdd9a9e364ce72c857d5c708"
+    }
+  ]
+}

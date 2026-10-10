@@ -1,0 +1,39 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="160" ry="12" fill="#E2E8F0"/>
+            <g class="anim-float">
+                <!-- Storefront Window -->
+                <rect x="60" y="60" width="220" height="180" rx="8" fill="var(--bg-surface)" stroke="var(--primary-color)" stroke-width="4"/>
+                <path d="M60 100 H280" stroke="var(--primary-color)" stroke-width="4"/>
+                
+                <!-- UI Header elements -->
+                <rect x="80" y="75" width="40" height="10" rx="5" fill="var(--primary-color)"/>
+                <circle cx="250" cy="80" r="6" fill="var(--charcoal)"/> <!-- Cart icon abstract -->
+                
+                <!-- Product Grid -->
+                <!-- Product 1 -->
+                <rect x="80" y="120" width="50" height="50" rx="4" fill="var(--secondary-color)" opacity="0.2"/>
+                <rect x="90" y="130" width="30" height="30" rx="4" fill="var(--secondary-color)"/>
+                <path d="M80 180 H110 M80 190 H100" stroke="var(--charcoal)" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+                <rect x="115" y="185" width="15" height="6" rx="2" fill="var(--accent-color)"/> <!-- Buy button -->
+
+                <!-- Product 2 -->
+                <rect x="145" y="120" width="50" height="50" rx="4" fill="var(--accent-color)" opacity="0.2"/>
+                <circle cx="170" cy="145" r="15" fill="var(--accent-color)"/>
+                <path d="M145 180 H175 M145 190 H165" stroke="var(--charcoal)" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+                <rect x="180" y="185" width="15" height="6" rx="2" fill="var(--primary-color)"/>
+
+                <!-- Product 3 -->
+                <rect x="210" y="120" width="50" height="50" rx="4" fill="var(--primary-color)" opacity="0.2"/>
+                <path d="M225 155 L235 135 L245 155 Z" fill="var(--primary-color)"/>
+                <path d="M210 180 H240 M210 190 H230" stroke="var(--charcoal)" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+                <rect x="245" y="185" width="15" height="6" rx="2" fill="var(--secondary-color)"/>
+            </g>
+            
+            <!-- Shopping Bag Floating -->
+            <g class="anim-bounce">
+                <rect x="270" y="150" width="70" height="80" rx="4" fill="var(--secondary-color)"/>
+                <path d="M290 150 C290 130 320 130 320 150" fill="none" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+                <!-- Logo on bag -->
+                <circle cx="305" cy="190" r="10" fill="var(--bg-surface)" opacity="0.5"/>
+            </g>
+          </svg>

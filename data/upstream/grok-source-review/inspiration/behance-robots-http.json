@@ -1,0 +1,19 @@
+{
+  "url": "https://www.behance.net/robots.txt",
+  "method": "bounded public HTTP GET",
+  "status": 200,
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공식 공개 URL의 제한된 HTTP GET 응답을 읽었다. 원격 JavaScript·미디어 파일을 실행하거나 다운로드하지 않았다. GPTBot 등 AI 수집 봇 그룹은 / 전체를 제한하고 기본 그룹에는 내부·쿼리 경로 제한이 있다.",
+  "sector": 4,
+  "siteId": "behance",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/behance-robots-http.json",
+  "rawCacheSha256": "c8bd28c113febea36e8e78cd05de358d8da34913bb84dde3053ee2b22f37b4c2",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "1a55abe2475b1430444111a3ffceedde40c2782e40c2fda4a42ca95e2e02ba2b",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "finalUrl": "https://www.behance.net/robots.txt",
+  "byteCount": 1317,
+  "boundedAt": 1048576,
+  "truncated": false,
+  "originalResponseSha256": "1a55abe2475b1430444111a3ffceedde40c2782e40c2fda4a42ca95e2e02ba2b"
+}

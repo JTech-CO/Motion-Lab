@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/Live2D/CubismWebFramework/blob/develop/README.ja.md",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/Live2D/CubismWebFramework/blob/develop/README.ja.md",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/Live2D/CubismWebFramework/blob/develop/README.ja.md",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/Live2D/CubismWebFramework/blob/develop/README.ja.md",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:01.029815+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/Live2D/CubismWebFramework/blob/develop/README.ja.md",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "de3f368269871b6e72573d60a0c28c60600d69bd54573b7c7fc96e540092103c",
+      "responseBodySha256": "de3f368269871b6e72573d60a0c28c60600d69bd54573b7c7fc96e540092103c",
+      "title": "CubismWebFramework/README.ja.md at develop · Live2D/CubismWebFramework · GitHub",
+      "textCharacters": 3334,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.057,
+      "captureCachePath": "exa-results/link-audit/references/captures/c94ecb603f600c0ea9753129.json",
+      "captureCacheSha256": "56cb72665dedc8f6c2213bc479ebd6e784590a44d449f3007aca39bb9c499a7b"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-live2d-cubism-web",
+      "canonicalId": "ref-live2d-cubism-web",
+      "title": "Live2D Cubism Web",
+      "role": "canonical",
+      "sourceSha256": "c326a9760cca65169bdb89158ad65f1914aad85702c4a9dd0838559d1a09e8dc"
+    }
+  ]
+}

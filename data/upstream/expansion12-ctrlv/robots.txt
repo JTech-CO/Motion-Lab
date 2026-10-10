@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Allow essential assets for rendering
+Allow: /js/
+Allow: /css/
+Allow: /assets/
+
+# Block non-essential files from crawlers
+Disallow: /node_modules/
+Disallow: /*.py$
+Disallow: /LICENSE
+Disallow: /README.md
+
+# Sitemaps
+Sitemap: https://ctrlv.design/sitemap.xml

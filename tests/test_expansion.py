@@ -1,8 +1,14 @@
 """Content and provenance regressions for the source expansion merge."""
 
+import hashlib
+import io
+from pathlib import Path
+import tempfile
 import unittest
+from unittest.mock import patch
 
-from scripts.expansion import asset_fingerprint, merge_expansion
+from scripts.expansion import asset_fingerprint, merge_expansion, verify_collection_evidence
+from scripts.build import MAX_INPUT_JSON_BYTES, MAX_GENERATED_CATALOG_BYTES, read_json
 
 
 def code(identifier, body, language="css"):
@@ -11,6 +17,55 @@ def code(identifier, body, language="css"):
 
 
 class ExpansionTest(unittest.TestCase):
+    def test_json_byte_budget_preserves_source_default_and_bounds_actual_read(self):
+        self.assertEqual(MAX_INPUT_JSON_BYTES, 100 * 1024 * 1024)
+        self.assertEqual(MAX_GENERATED_CATALOG_BYTES, 128 * 1024 * 1024)
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "input.json"
+            path.write_bytes(b'\xef\xbb\xbf{"ok":true}')
+            self.assertEqual(read_json(path, {}, maximum_bytes=32), {"ok": True})
+            # The file can grow after stat; bound the bytes actually consumed.
+            with patch.object(Path, "open", return_value=io.BytesIO(b" " * 33)):
+                with self.assertRaisesRegex(ValueError, "byte limit"):
+                    read_json(path, {}, maximum_bytes=32)
+            path.write_bytes(b" " * 33)
+            with self.assertRaisesRegex(ValueError, "byte limit"):
+                read_json(path, {}, maximum_bytes=32)
+            for invalid in (True, 0, -1, MAX_GENERATED_CATALOG_BYTES + 1):
+                with self.assertRaisesRegex(ValueError, "Invalid JSON byte limit"):
+                    read_json(path, {}, maximum_bytes=invalid)
+
+    def test_collection_receipt_binds_original_notice_and_stored_body(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            path = root / "data/upstream/expansion12-test/original.svg"
+            path.parent.mkdir(parents=True)
+            path.write_bytes(b"<svg/>")
+            notice = path.with_name("LICENSE")
+            notice.write_bytes(b"Complete source notice")
+            entry = code("new", "<svg/>", "svg")
+            entry["licenseText"] = "Complete source notice"
+            entry["collectionEvidence"] = {"version":1,"original":{"path":path.relative_to(root).as_posix(),"sha256":hashlib.sha256(path.read_bytes()).hexdigest()},"notice":{"path":notice.relative_to(root).as_posix(),"sha256":hashlib.sha256(notice.read_bytes()).hexdigest()},"storedSha256":hashlib.sha256(entry["code"].encode()).hexdigest()}
+            self.assertTrue(verify_collection_evidence(entry, root))
+            result, _ = merge_expansion([], [("expansion12-test-items.json", [entry])], lambda v:v, root=root)
+            self.assertEqual(len(result), 1)
+            entry["code"] = "<svg><path/></svg>"
+            with self.assertRaisesRegex(ValueError, "Stored collection body"):
+                verify_collection_evidence(entry, root)
+            entry["code"] = "<svg/>"
+            path.write_bytes(b"<svg>changed</svg>")
+            with self.assertRaisesRegex(ValueError, "file digest"):
+                verify_collection_evidence(entry, root)
+            entry["collectionEvidence"]["original"]["path"] = "data/upstream/expansion12-test/../../../../outside.svg"
+            with self.assertRaisesRegex(ValueError, "Invalid collection path"):
+                verify_collection_evidence(entry, root)
+
+    def test_new_collection_batch_requires_receipt(self):
+        with self.assertRaisesRegex(ValueError, "workspace root"):
+            merge_expansion([], [("expansion12-test-items.json", [code("new", "<svg/>", "svg")])], lambda v:v)
+        with tempfile.TemporaryDirectory() as directory:
+            with self.assertRaisesRegex(ValueError, "Missing collection receipt"):
+                merge_expansion([], [("expansion12-test-items.json", [code("new", "<svg/>", "svg")])], lambda v:v, root=directory)
     def test_palette_identity_keeps_order_and_normalizes_hex(self):
         def palette(colors):
             return {"kind": "palette", "language": "json", "colors": colors}

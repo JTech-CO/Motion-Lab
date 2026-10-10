@@ -1,0 +1,27 @@
+{
+  "theme": "vibrant plasma energy vortex",
+  "style_hints": "",
+  "references": [
+    "shabon-fx/AuroraWaves.frag [color_palette,grid,noise,wave]",
+    "shabon-fx/NeonGrid.frag [grid,matrix,postprocess,volumetric,wave]",
+    "shabon-fx/Fireworks.frag [grid,noise,particles,postprocess]",
+    "shabon-fx/LiquidMetalBlob.frag [lighting,postprocess,raymarching,reflection]",
+    "wgsl-art/public-shaders/shaders/1825.wgsl/1825.wgsl [grid,noise]"
+  ],
+  "attempts": 2,
+  "created_at": "2026-03-28T12:13:51.223869+00:00",
+  "glsl_lines": 175,
+  "success": true,
+  "target": "wgsl",
+  "design_brief": "1. **Architecture**: `main()` → normalize UVs (aspect-correct, centered), compute `p = uv * 2.0 - 1.0`, scale by `uTime` for radial flow, sample curl noise field → integrate flow to get displacement, evaluate color via 3-layer sine palette with `exp()` falloff, add radial bloom via `1.0 / (1.0 + length(p))^2`, write `gl_FragColor = vec4(color, 1.0)`.\n\n2. **Key functions**:  \n   - `vec2 curlNoise(vec2 p, float t)` — returns 2D curl of 3D noise (like ref #1’s `noise()` + `vec3(n, n+1.0, n+2.0)` + `sin/cos` cross)  \n   - `vec3 plasmaColor(vec2 p, float t)` — 3-layer `sin(p * freq + t * speed)` with `mix(uColorA, uColorB, ...)`, then `pow(..., 0.7)` for punch  \n   - `float bloom(vec2 p)` — `exp(-length(p) * 3.0)` (ref #2’s glow pattern)\n\n3. **Reuse**:  \n   - Use **ref #1’s `noise()`** for base scalar noise (hash + smoothstep)  \n   - Build curl from **ref #1’s hash + `sin/cos`** to avoid dFdx (no derivatives!)  \n   - Adopt **ref #2’s aspect remapping + horizon-centric glow** for screen-filling radiance\n\n4. **Color & brightness**:  \n   - `uColorA = vec3(0.1,0.0,0.6)`, `uColorB = vec3(0.9,0.1,0.1)`, `uColorC = vec3(0.0,0.9,0.9)`  \n   - Stack 3 sine layers, sum, clamp `[0.0,1.0]`, then boost via `pow(color * 1.2, 1.1)`  \n   - Add bloom *before* final gamma to avoid clipping\n\n5. **Animation**:  \n   - `float t = uTime * 0.8;` — speed `0.5–1.2` avoids aliasing  \n   - Curl noise uses `t` in *phase* (`p.x * cos(t) + p.y * sin(t)`) for vortex rotation  \n   - No explicit looping — `sin(uTime)` & `mod(uTime, TAU)` give natural periodicity\n\n6. **Pitfalls**:  \n   - ❌ No `fract()` on negative values → use `x - floor(x)`  \n   - ❌ Avoid `pow(x, y)` with `x < 0` → clamp `max(x, 1e-6)`  \n   - ❌ No `dFdx/dFdy` → curl noise must use finite-diff-free construction (ref #1 style)  \n   - ✅ Always `aspect-correct UVs` early to prevent stretching  \n   - ✅ Use `exp()` instead of `1.0/(x*x)` to avoid NaN",
+  "review": {
+    "visual_complexity": 5,
+    "code_quality": 4,
+    "theme_match": 5,
+    "animation": 5,
+    "originality": 5,
+    "total": 24,
+    "verdict": "pass",
+    "feedback": "Excellent vibrant plasma vortex implementation with curl noise, multi-layered plasma coloring, bloom, and rich time-based animation; minor code quality improvement could be using more descriptive variable names in the noise functions."
+  }
+}

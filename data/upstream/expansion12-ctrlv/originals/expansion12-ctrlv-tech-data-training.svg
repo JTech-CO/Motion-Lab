@@ -1,0 +1,30 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Large Funnel -->
+                <path d="M100 60 H300 L220 180 V240 L180 260 V180 L100 60 Z" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="8" stroke-linejoin="round"/>
+                
+                <!-- Raw Data (Incoming) -->
+                <g class="anim-bounce" >
+                    <circle cx="150" cy="40" r="8" fill="var(--primary-color)"/>
+                    <rect x="220" y="30" width="12" height="12" fill="var(--secondary-color)"/>
+                    <path d="M200 20 L210 40 L190 40 Z" fill="var(--accent-color)"/>
+                </g>
+                
+                <!-- Inside Funnel (Processing) -->
+                <g class="anim-pulse"  opacity="0.4">
+                    <circle cx="200" cy="100" r="10" fill="var(--primary-color)"/>
+                    <circle cx="170" cy="130" r="6" fill="var(--secondary-color)"/>
+                    <circle cx="230" cy="130" r="6" fill="var(--accent-color)"/>
+                </g>
+                
+                <!-- Structured Data (Outgoing) -->
+                <g transform="translate(200, 275)">
+<g class="anim-draw" >
+                    <rect class="anim-bounce" x="-15" y="0" width="30" height="10" rx="2" fill="var(--accent-color)"/>
+                </g>
+</g>
+                
+                <!-- Analysis Waves -->
+                <path class="anim-draw" d="M140 120 Q200 150 260 120" stroke="var(--primary-color)" stroke-width="2" stroke-dasharray="4 4"/>
+            </g>
+          </svg>

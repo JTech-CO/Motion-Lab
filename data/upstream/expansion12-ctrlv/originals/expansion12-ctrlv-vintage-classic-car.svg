@@ -1,0 +1,45 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="150" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <!-- Motion lines -->
+            <path class="anim-draw" d="M40 220 H80 M20 200 H60 M50 240 H90" stroke="var(--secondary-color)" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.5"/>
+            <!-- Exhaust bubbles -->
+            <circle class="anim-float" cx="70" cy="250" r="10" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="2"/>
+            <circle class="anim-float" style="animation-delay: -1s;" cx="40" cy="240" r="15" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="2"/>
+            <circle class="anim-float" style="animation-delay: -2s;" cx="90" cy="260" r="5" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="2"/>
+            
+            <g class="anim-bounce">
+                <!-- Wheels (Back) -->
+                <circle class="anim-rotate"  cx="140" cy="240" r="25" fill="var(--charcoal)"/>
+                <circle class="anim-rotate"  cx="140" cy="240" r="15" fill="white"/>
+                <circle class="anim-rotate"  cx="140" cy="240" r="5" fill="var(--secondary-color)"/>
+                <!-- Wheels (Front) -->
+                <circle class="anim-rotate"  cx="290" cy="240" r="25" fill="var(--charcoal)"/>
+                <circle class="anim-rotate"  cx="290" cy="240" r="15" fill="white"/>
+                <circle class="anim-rotate"  cx="290" cy="240" r="5" fill="var(--secondary-color)"/>
+                
+                <!-- Car Body Core -->
+                <path d="M100 200 C80 200 90 220 90 240 H340 C350 240 350 210 330 200 C310 190 290 190 200 190 H100 Z" fill="var(--primary-color)"/>
+                
+                <!-- Tailfin -->
+                <path d="M90 240 V180 C90 170 120 180 130 190 Z" fill="var(--primary-color)"/>
+                <path d="M95 185 L120 195" stroke="white" stroke-width="4" stroke-linecap="round"/>
+                
+                <!-- Roof / Cabin -->
+                <path d="M150 190 C160 140 180 130 220 130 C260 130 270 140 280 190 Z" fill="var(--accent-color)"/>
+                <!-- Windows -->
+                <path d="M165 190 C170 150 185 145 210 145 V190 Z" fill="white" opacity="0.9"/>
+                <path d="M220 145 C245 145 260 150 265 190 H220 Z" fill="white" opacity="0.9"/>
+                
+                <!-- Side Trim Flash -->
+                <path d="M110 215 Q220 215 320 205" fill="none" stroke="white" stroke-width="6" stroke-linecap="round"/>
+                
+                <!-- Headlight -->
+                <circle class="anim-glow" cx="340" cy="215" r="8" fill="var(--secondary-color)"/>
+                <!-- Taillight -->
+                <ellipse cx="90" cy="200" rx="5" ry="10" fill="var(--accent-color)"/>
+                
+                <!-- Chrome Bumpers -->
+                <path d="M85 240 C80 230 80 220 95 220" fill="none" stroke="var(--bg-surface)" stroke-width="8" stroke-linecap="round"/>
+                <path d="M345 240 C355 240 355 220 340 215" fill="none" stroke="var(--bg-surface)" stroke-width="8" stroke-linecap="round"/>
+            </g>
+          </svg>

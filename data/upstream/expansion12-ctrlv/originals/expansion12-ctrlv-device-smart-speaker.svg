@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="120" ry="10" fill="#E2E8F0"/>
+            <!-- Sound Waves (AI thinking) -->
+            <path class="anim-pulse" d="M140 100 A60 60 0 0 1 260 100" fill="none" stroke="var(--secondary-color)" stroke-width="6" stroke-linecap="round"/>
+            <path class="anim-pulse" d="M160 80 A40 40 0 0 1 240 80" fill="none" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round" style="animation-delay:-0.3s"/>
+            <g class="anim-float">
+              <!-- Speaker Body -->
+              <path d="M150 140 H250 V260 C250 270 150 270 150 260 Z" fill="var(--primary-color)"/>
+              <ellipse cx="200" cy="140" rx="50" ry="15" fill="var(--charcoal)" opacity="0.9"/>
+              <!-- Glowing Ring Status -->
+              <ellipse class="anim-glow" cx="200" cy="140" rx="40" ry="10" fill="none" stroke="var(--accent-color)" stroke-width="4"/>
+              <!-- Mesh Texture Details -->
+              <circle cx="180" cy="180" r="3" fill="var(--charcoal)" opacity="0.2"/>
+              <circle cx="200" cy="180" r="3" fill="var(--charcoal)" opacity="0.2"/>
+              <circle cx="220" cy="180" r="3" fill="var(--charcoal)" opacity="0.2"/>
+              <circle cx="190" cy="200" r="3" fill="var(--charcoal)" opacity="0.2"/>
+              <circle cx="210" cy="200" r="3" fill="var(--charcoal)" opacity="0.2"/>
+              <circle cx="180" cy="220" r="3" fill="var(--charcoal)" opacity="0.2"/>
+              <circle cx="200" cy="220" r="3" fill="var(--charcoal)" opacity="0.2"/>
+              <circle cx="220" cy="220" r="3" fill="var(--charcoal)" opacity="0.2"/>
+            </g>
+          </svg>

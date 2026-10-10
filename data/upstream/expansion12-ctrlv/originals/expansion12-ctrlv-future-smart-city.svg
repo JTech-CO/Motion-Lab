@@ -1,0 +1,32 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="160" ry="12" fill="#E2E8F0"/>
+            
+            <!--Network Grid underneath city-->
+            <path class="anim-pulse" d="M80 260 L320 260 M100 240 L300 240 M200 240 L160 270 M200 240 L240 270" stroke="var(--secondary-color)" stroke-width="2" opacity="0.5" fill="none"/>
+
+            <!--Background Buildings-->
+            <path class="anim-float" d="M120 260 V120 H180 V260 Z" fill="var(--secondary-color)" opacity="0.2"/>
+            <path class="anim-float" d="M240 260 V80 H300 V260 Z" fill="var(--secondary-color)" opacity="0.3" style="animation-delay:-0.5s"/>
+
+            <!--Main Buildings-->
+            <path d="M160 260 V100 L200 60 L240 100 V260 Z" fill="var(--primary-color)"/>
+            <!--Glowing Windows / Data Streams-->
+            <rect class="anim-data" x="180" y="120" width="10" height="20" rx="2" fill="var(--accent-color)"/>
+            <rect class="anim-data" x="210" y="150" width="10" height="20" rx="2" fill="var(--accent-color)" style="animation-delay:-0.3s"/>
+            <rect class="anim-data" x="180" y="180" width="10" height="20" rx="2" fill="var(--bg-surface)"/>
+            <rect class="anim-data" x="210" y="210" width="10" height="20" rx="2" fill="var(--accent-color)" style="animation-delay:-0.6s"/>
+            <rect class="anim-data" x="180" y="240" width="10" height="20" rx="2" fill="var(--bg-surface)"/>
+
+            <!--Smaller Fore - building-->
+            <rect x="100" y="180" width="50" height="80" fill="var(--charcoal)" opacity="0.8"/>
+            <circle cx="125" cy="200" r="10" fill="var(--secondary-color)"/>
+            
+            <!--Floating Information Nodes / Drones-->
+            <circle class="anim-bounce" cx="140" cy="100" r="8" fill="var(--accent-color)"/>
+            <circle class="anim-bounce" cx="280" cy="140" r="12" fill="var(--secondary-color)" style="animation-delay:-0.4s"/>
+            <circle class="anim-bounce" cx="320" cy="90" r="6" fill="var(--primary-color)" style="animation-delay:-0.8s"/>
+            
+            <!--Connection Arcs between buildings and nodes-->
+            <path class="anim-draw" d="M200 60 Q240 40 280 130" stroke="var(--primary-color)" stroke-width="2" stroke-dasharray="5 5" fill="none"/>
+            <path class="anim-draw" d="M125 190 Q120 120 140 100" stroke="var(--charcoal)" stroke-width="2" stroke-dasharray="5 5" fill="none"/>
+          </svg>

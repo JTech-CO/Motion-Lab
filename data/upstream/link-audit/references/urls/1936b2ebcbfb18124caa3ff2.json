@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/Klaudioz/gradients",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/Klaudioz/gradients",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/Klaudioz/gradients",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/Klaudioz/gradients",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:37.710111+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/Klaudioz/gradients",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "16c5751ed20a43ae285c37b52585af4b8f4e222df344f5608059c73a2681dec5",
+      "responseBodySha256": "16c5751ed20a43ae285c37b52585af4b8f4e222df344f5608059c73a2681dec5",
+      "title": "GitHub - Klaudioz/gradients: A WebGL-powered gradient generator inspired by craft-gradients.artcreativecode.com](https://craft-gradients.artcreativecode.com, deployed on Cloudflare Workers. · GitHub",
+      "textCharacters": 3090,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.909,
+      "captureCachePath": "exa-results/link-audit/references/captures/0c7e8116895d8939da35926f.json",
+      "captureCacheSha256": "78975742f6532803881322a4d87193e360cdf60d1066f3340f5116229417f59e"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-klaudioz-gradients",
+      "canonicalId": "ref-klaudioz-gradients",
+      "title": "Klaudioz Gradients",
+      "role": "canonical",
+      "sourceSha256": "d80084639dbcd93e43c3fc3b71c919312374fac13d1e86426303bc0513a83201"
+    }
+  ]
+}

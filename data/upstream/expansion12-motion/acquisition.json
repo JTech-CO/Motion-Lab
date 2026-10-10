@@ -1,0 +1,927 @@
+[
+  {
+    "repo": "pbakaus/radiant",
+    "commit": "59e9f48c0ad9a3db2fbeb8898b4390d5a1eabb40",
+    "archiveUrl": "https://codeload.github.com/pbakaus/radiant/zip/59e9f48c0ad9a3db2fbeb8898b4390d5a1eabb40",
+    "archiveSha256": "04ccc55201c689f07053c7a9767fdadc0fd85123beb6882297094746d2188fae",
+    "selectedFiles": [
+      {
+        "path": "LICENSE",
+        "sha256": "d4a7cc1cd9f4b1644c54cba3d29c0f4031a05ae1c0eda3ef74eaebfd3452de24",
+        "bytes": 1068
+      },
+      {
+        "path": "README.md",
+        "sha256": "ff12703d9fb5ffad600e26ba0007e31ea752ea5db8b91f7a0321096b146b31a0",
+        "bytes": 3904
+      },
+      {
+        "path": "src/lib/shaders.ts",
+        "sha256": "d0a5177206e5313a724439dfe1dacd9fe7808cc0777eab2651f677174561086f",
+        "bytes": 48738
+      },
+      {
+        "path": "static/analog-drift.html",
+        "sha256": "685aa834afbf093cdb648a6a28b25daa84fcd964510723b41adcb1998e877c91",
+        "bytes": 13871
+      },
+      {
+        "path": "static/artpop-iridescence.html",
+        "sha256": "9d981413be481def56a382d02f20e2f2f95045b21efb15e1b624d786f0493df7",
+        "bytes": 15314
+      },
+      {
+        "path": "static/aurora-curtain.html",
+        "sha256": "96d0c174a036ca61d712e17f1e3dc121582039f36c6be2e94aff652bb8dbefc7",
+        "bytes": 9620
+      },
+      {
+        "path": "static/aurora-veil.html",
+        "sha256": "59ac137ebf40cb6225843012afdf26c40e67afe7bcd4cb4df92cddacd4d25acf",
+        "bytes": 17976
+      },
+      {
+        "path": "static/bass-ripple.html",
+        "sha256": "7812edf0c399f004d87044b045cedf7597e2dae0bcae13cd92bdc0357a24354c",
+        "bytes": 22055
+      },
+      {
+        "path": "static/bioluminescence.html",
+        "sha256": "934fe9a40aa2c16b50de6064a5f545564108e9a52dc2ed0f7ba1323d29b22aeb",
+        "bytes": 16624
+      },
+      {
+        "path": "static/burning-film.html",
+        "sha256": "1c3585670b8e3863071a17e9e5309e04377e4795b83a7bef48f4c5f24234c1bc",
+        "bytes": 16554
+      },
+      {
+        "path": "static/champagne-fizz.html",
+        "sha256": "f64e819d652547d341de843d1e013801960f6f8692c49a204a26a9e46b8c6e33",
+        "bytes": 15174
+      },
+      {
+        "path": "static/chladni-resonance.html",
+        "sha256": "d5b09cd04109404be7f052a5473898082b998307489b6e6e098e2a239c118b4d",
+        "bytes": 8387
+      },
+      {
+        "path": "static/chromatic-bloom.html",
+        "sha256": "bf0f2f2581b449b1b8b7bce975a3a7960837955469100d5e9610db652a128721",
+        "bytes": 13193
+      },
+      {
+        "path": "static/clockwork-mind.html",
+        "sha256": "20cdfacff212b2a9efd2136925aed7bba0ddb1dc5398783086c56bc9eca74499",
+        "bytes": 34368
+      },
+      {
+        "path": "static/crystal-lattice.html",
+        "sha256": "0df8af54c304c64a33075c4a3d6828a4616efe3260c79c4a91180f2c528f612b",
+        "bytes": 27448
+      },
+      {
+        "path": "static/diamond-caustics.html",
+        "sha256": "f34d906646c9ee0441d3f7afc02f739afcfcfc610aacaf3ba15b496529350517",
+        "bytes": 22937
+      },
+      {
+        "path": "static/digital-rain.html",
+        "sha256": "b9c7cc25840171ae506811ba72f87375fc8f4b9d2d27a4f53c5f34d7ac222673",
+        "bytes": 18057
+      },
+      {
+        "path": "static/dither-gradient.html",
+        "sha256": "79661354b980ec4c19013260ed48adfce5e20a5692a0f2caaf2c613979d6015c",
+        "bytes": 20150
+      },
+      {
+        "path": "static/eclipse-glow.html",
+        "sha256": "355aa5bab1b6b225e35c1ec8042104be3df196aa7339c1f7c4b38e28a99d034b",
+        "bytes": 15126
+      },
+      {
+        "path": "static/edge-of-chaos.html",
+        "sha256": "8c77d672483c58cfb72aea57c85ccd05d08b383a5b23a75857f63f4c77f1b640",
+        "bytes": 32907
+      },
+      {
+        "path": "static/event-horizon.html",
+        "sha256": "6eb05925d6297cbcb51629b3068b25f7b5d3ad798666b498b53c7c4ba7b43c20",
+        "bytes": 21954
+      },
+      {
+        "path": "static/feedback-loop.html",
+        "sha256": "05c1dcc8e050f6aef7e6784eb49ef493d14f3e3f0c07cdfec6864cc8430a867d",
+        "bytes": 22802
+      },
+      {
+        "path": "static/flow-field.html",
+        "sha256": "00f057ed9b4dc425218a17405543b821836ee49a02cf0f78769564a2a24a3bdd",
+        "bytes": 10086
+      },
+      {
+        "path": "static/fluid-amber.html",
+        "sha256": "c0f376497e67b7fb4845eb87592d465771f746ee647787723ed0896839814f46",
+        "bytes": 7784
+      },
+      {
+        "path": "static/generative-tree.html",
+        "sha256": "d8d512f3b5674581d101dd36f309d4bb562c70deddee952786344f9b3a8eded7",
+        "bytes": 19743
+      },
+      {
+        "path": "static/gilded-fracture.html",
+        "sha256": "6734be61fb3c9963cdf1e063034c29881b53d82fcb66feb6e4748d5408a9c89c",
+        "bytes": 35071
+      },
+      {
+        "path": "static/gilt-mosaic.html",
+        "sha256": "ecca9fbde028e3e60e7c49dd3aee073f1d681bab9f77dc55e51fbec9a2f2133d",
+        "bytes": 21120
+      },
+      {
+        "path": "static/gilt-thread.html",
+        "sha256": "73d26b215703e537985d9990a501e76cd30fc069a5d422ce5f27f6c8d9626f71",
+        "bytes": 13739
+      },
+      {
+        "path": "static/glitter-storm.html",
+        "sha256": "dc8ca37d38da71f57baf21184f62a2a54153382f8ed87091450ef6de104947fc",
+        "bytes": 13844
+      },
+      {
+        "path": "static/golden-throne.html",
+        "sha256": "5527403cd06e3e3fee7607ce63f8cce2a307f92af56fb499c04bfe839d35cc76",
+        "bytes": 15581
+      },
+      {
+        "path": "static/gothic-filigree.html",
+        "sha256": "25ed22c6dafec6502e5ecc4ff1fc6382231e8d2dccd972cc65fd655bba874223",
+        "bytes": 17676
+      },
+      {
+        "path": "static/hologram-glitch.html",
+        "sha256": "766b673252d1468e0dd9f3e25bb69fe9a088498297d47c4a381ef4cfe073c3f5",
+        "bytes": 18938
+      },
+      {
+        "path": "static/ink-calligraphy.html",
+        "sha256": "115d4a51e2d03212ad131ee191aa8aaf3c1ebde33a2dbdb73101db0f5082e8ef",
+        "bytes": 21398
+      },
+      {
+        "path": "static/ink-dissolve.html",
+        "sha256": "f75aab9cc745d44d59c44674017c54e0809ff54109307af54a1cc182634cb517",
+        "bytes": 13626
+      },
+      {
+        "path": "static/jazz-chaos.html",
+        "sha256": "8a5262a72cb61663edf85c6c0999d03524b8ff2777340c0f5ed5255ff0c5ab27",
+        "bytes": 23219
+      },
+      {
+        "path": "static/kaleidoscope-runway.html",
+        "sha256": "97b102a36109fcc1be92bb58315f2fe726af8d80a2869d1f48c5f2b819296507",
+        "bytes": 14652
+      },
+      {
+        "path": "static/kinetic-grid.html",
+        "sha256": "04bb95487a10b1a4d0a2d2aa6fbc92ce951621d45cf2d3f70c376e509b57109f",
+        "bytes": 19056
+      },
+      {
+        "path": "static/laser-labyrinth.html",
+        "sha256": "237bd4a42afa0e267b1155f070fad17b3eef1191067c1184ce478de69bc6b402",
+        "bytes": 17067
+      },
+      {
+        "path": "static/laser-precision.html",
+        "sha256": "03e7b4b08d70fbd538809039b1956216239461212f6afbbbe9a7da110128cf42",
+        "bytes": 28397
+      },
+      {
+        "path": "static/learn/analog-drift/01-phosphor-trail.html",
+        "sha256": "82489a16450c8b1294d2b12ab63cb7c5bce7a47047a49fbedd35353b891070ab",
+        "bytes": 3662
+      },
+      {
+        "path": "static/learn/analog-drift/02-velocity-thickness.html",
+        "sha256": "babc3fb75fc5a8bbf70839995f12beaafb89b5e4d6fc81a75c81becb2cc78dcb",
+        "bytes": 4681
+      },
+      {
+        "path": "static/learn/analog-drift/03-drift.html",
+        "sha256": "edd15bc68851d2de50e7ef699afb396e2831de0a58c332738d2ef528c6ab7186",
+        "bytes": 5183
+      },
+      {
+        "path": "static/learn/analog-drift/04-harmonics.html",
+        "sha256": "7b962dc6f790facabc8022bf1be44acf387b91d5bb6adbbcb7c882fdf2bb0ac2",
+        "bytes": 4162
+      },
+      {
+        "path": "static/learn/analog-drift/05-final.html",
+        "sha256": "c3bc0e79429d062d54dc732d965b570e91079ccd5700f2d1851b1bca141233cb",
+        "bytes": 8477
+      },
+      {
+        "path": "static/learn/event-horizon/01-rays.html",
+        "sha256": "8b382a3ce41f3a3fb2c3fa95bf954d93455b51981ca137abd0f80e03473ee812",
+        "bytes": 9458
+      },
+      {
+        "path": "static/learn/event-horizon/02-bending.html",
+        "sha256": "01637d10bfc77d27c75300258296d0ced32dcf97097930b094412dac6529038d",
+        "bytes": 8818
+      },
+      {
+        "path": "static/learn/event-horizon/03-disk-flat.html",
+        "sha256": "cef412f26c0044b3ee260c2d65e67d95baf48bcd5509eca7d5f4c93d68653b25",
+        "bytes": 7432
+      },
+      {
+        "path": "static/learn/event-horizon/04-disk-lensed.html",
+        "sha256": "515f9e549c6803a79c4c75af9a5c25d3b1e9c1b915db8c11b5bba9de80af34d6",
+        "bytes": 10232
+      },
+      {
+        "path": "static/learn/event-horizon/05-doppler.html",
+        "sha256": "45fb9ef1bbe040f63ce7af1e481b548cdde5b7e4a1cb1477faf2fc5c19b48185",
+        "bytes": 10444
+      },
+      {
+        "path": "static/learn/event-horizon/geodesic-2d.html",
+        "sha256": "672a8ff153821e12c46d9416b90daeda493dd4b3712962b0b76cae17aa239c4c",
+        "bytes": 10875
+      },
+      {
+        "path": "static/learn/rain-on-glass/01-single-drop.html",
+        "sha256": "3541bde543bdb3a4e1f57d34d7a716eb10ea7d0b19a9cc7834b3d6bd594a0ad1",
+        "bytes": 11393
+      },
+      {
+        "path": "static/learn/rain-on-glass/02-normal-map.html",
+        "sha256": "70ea5e8dab85bc108ad993d0750a71d71172405d470a2b8be9ba8ce07132c2ed",
+        "bytes": 5769
+      },
+      {
+        "path": "static/learn/rain-on-glass/03-static-field.html",
+        "sha256": "19da2d135d0995b07185a7f69af07fd1e3f39a171fefcb75ab06cceeb1ad4c64",
+        "bytes": 9479
+      },
+      {
+        "path": "static/learn/rain-on-glass/04-rolling-drop.html",
+        "sha256": "398f03291db9eff017e28ccb672868f04b5f2ddf59c6516a04928cdc24f2fd89",
+        "bytes": 12304
+      },
+      {
+        "path": "static/learn/rain-on-glass/05-merging-field.html",
+        "sha256": "193133587a5b44be9bc9952b717f82344800ee019dbdb0b41c53f107a0a17c5e",
+        "bytes": 12807
+      },
+      {
+        "path": "static/learn/rain-on-glass/06-wet-glass.html",
+        "sha256": "c408cfc35cedb370825d454dbc1fc105812b6110e6f9f7dc6021a0d65b641a4c",
+        "bytes": 29418
+      },
+      {
+        "path": "static/lens-whisper.html",
+        "sha256": "b4643b7226de18fdbe45b426ffbbba1d022cb239a93018b16ff470a3238c5cd7",
+        "bytes": 14510
+      },
+      {
+        "path": "static/lipstick-smear.html",
+        "sha256": "bcff8c9dde210b4305bc59f3f5b322a36bdd17a82bd34074a58f17b12a734df0",
+        "bytes": 26788
+      },
+      {
+        "path": "static/liquid-gold.html",
+        "sha256": "69f4cf062ccfb3817357cc0f90f8e273460bae50c4343773f469622ebdbaf62f",
+        "bytes": 14084
+      },
+      {
+        "path": "static/luminous-silt.html",
+        "sha256": "5cf56e23a23d10cdb458d71751c96b8b768ccd7649df54c7e830df251af3bb8f",
+        "bytes": 12607
+      },
+      {
+        "path": "static/magma-core.html",
+        "sha256": "6a014e01ada784ef37359f908b3d86069928517e4e2c25e844a02634c9cf339e",
+        "bytes": 16973
+      },
+      {
+        "path": "static/magnetic-field.html",
+        "sha256": "55a84513c16946633cd775d94bf307f105a12e879f06141a357f1c4da7209ada",
+        "bytes": 9747
+      },
+      {
+        "path": "static/magnetic-sand.html",
+        "sha256": "b3914fd1ce10b94461c1983f1f9d3cbf35a12f3c20f8e9c85144c60d0083c685",
+        "bytes": 14511
+      },
+      {
+        "path": "static/metamorphosis.html",
+        "sha256": "e2deec14cf011271b97c6a0f1cd1d7478a3c80b18e39b207876195c3c5f00f04",
+        "bytes": 15692
+      },
+      {
+        "path": "static/moire-interference.html",
+        "sha256": "7fb51eccbdaa27738972966586468f91380994c98d17d55a37372d9c81765d69",
+        "bytes": 10458
+      },
+      {
+        "path": "static/moonlit-ripple.html",
+        "sha256": "5bb56ae846518e3065aa42ce33b9e9117d081b41cbc485284fd52172444ccbf3",
+        "bytes": 11875
+      },
+      {
+        "path": "static/murmuration.html",
+        "sha256": "bba38f9b71e9c5a4da0e56b9131e1febd35a742e62f52c419289429e7b96d1e9",
+        "bytes": 21823
+      },
+      {
+        "path": "static/navier-stokes.html",
+        "sha256": "642fb11f1dbc37a7c2c4c2b9ffe8e2356d830d4d0b08cf79955b9a1be928bf7a",
+        "bytes": 17363
+      },
+      {
+        "path": "static/neon-drip.html",
+        "sha256": "1693f25c7f0873a53a5360f6fdcb52fb89d28b4a9203e1e42ca8f52cd0927ebe",
+        "bytes": 14627
+      },
+      {
+        "path": "static/neon-drive.html",
+        "sha256": "bf78a33854d012b7dfc888f0eef1282181307f61e879814e21d7e5c9f7211840",
+        "bytes": 19503
+      },
+      {
+        "path": "static/neon-revival.html",
+        "sha256": "9a02b5fd939361badf8718e9faf5be0398b803b9807e73df2b24cae37b958bbf",
+        "bytes": 36106
+      },
+      {
+        "path": "static/painted-strata.html",
+        "sha256": "e7e59dd5ad8c2be3de1ad5d843e894a55bda08efc347f27492cb044ad9dd243a",
+        "bytes": 16981
+      },
+      {
+        "path": "static/pendulum-wave.html",
+        "sha256": "877eb88b1b97234a15823b47953c158e769e51c6b7ffbf04d01eb03ba389212c",
+        "bytes": 11141
+      },
+      {
+        "path": "static/phase-transition.html",
+        "sha256": "415ff8af7304663e3a93384d7ca6c05372c6a15e4604fc53a3f781fc7fc29563",
+        "bytes": 23021
+      },
+      {
+        "path": "static/phyllotaxis.html",
+        "sha256": "1f89946473e38b56c423843601f864e07ebf6842930bf993ea47174e4b5141b0",
+        "bytes": 10672
+      },
+      {
+        "path": "static/polaroid-burn.html",
+        "sha256": "f7ca76481de24781a2c3bde6f33ffbaefbb62b1fac7e131e1d65cd26d78034ce",
+        "bytes": 15707
+      },
+      {
+        "path": "static/radiant-geometry.html",
+        "sha256": "dc9c1a5768a830dddc4a5fa48f80348f7e333383ef30e2bd92f760d562ce993e",
+        "bytes": 25212
+      },
+      {
+        "path": "static/rain-on-glass.html",
+        "sha256": "e52a5da24beed56c8485af730b63c763c44601831786e4fcb8f58d25aa37f3a2",
+        "bytes": 37654
+      },
+      {
+        "path": "static/rain-umbrella.html",
+        "sha256": "19ce91d33face6fd9651ba50b1d473cfcb3a5b1d91a9983983a7570ad5ec4d87",
+        "bytes": 45796
+      },
+      {
+        "path": "static/resonant-strings.html",
+        "sha256": "3ef28ab268589dff561ad8e53d2848433e3a8c949f2f4a03d9ed6365cf269797",
+        "bytes": 11402
+      },
+      {
+        "path": "static/rubber-reality.html",
+        "sha256": "35e20db2095af249f42c5bd32469ad2e4c29b1b99a5d0bf4a4458cdac80564f3",
+        "bytes": 12886
+      },
+      {
+        "path": "static/sacred-strange.html",
+        "sha256": "f783892e6acee8f80de6f3d02d07afd58d5d4149355e59390ee7c911f9e9a36a",
+        "bytes": 26296
+      },
+      {
+        "path": "static/scream-wave.html",
+        "sha256": "a4aa483ff18f9ea143ebbc3ac59cf9e5ba319a901c1e17cffdf44c06eedf6381",
+        "bytes": 19340
+      },
+      {
+        "path": "static/sequin-wave.html",
+        "sha256": "058060120b0fb89ebaa66787cae4bb584c0a52628e436fcc683088cae7dd88af",
+        "bytes": 14638
+      },
+      {
+        "path": "static/shattered-plains.html",
+        "sha256": "b8764fc7cfabec2557dc46ccc55f1116f57a9ccf193537beb4ef0c7bf3b2c34c",
+        "bytes": 14262
+      },
+      {
+        "path": "static/shifting-veils.html",
+        "sha256": "8f8a64699c87f2454ac68b3120b347765383d3b76da8bf66ddcb5eb70d2ca5ca",
+        "bytes": 12493
+      },
+      {
+        "path": "static/signal-decay.html",
+        "sha256": "50e6681c25a438edf3056f0b384cdaf3dd1303adaee5e2b6577cd054ab7f6481",
+        "bytes": 16702
+      },
+      {
+        "path": "static/silk-cascade.html",
+        "sha256": "9d0c7d5a37dbd7a948f933347dac5f5e5f91a0e4f7b05113990ce92b4bd08fea",
+        "bytes": 14292
+      },
+      {
+        "path": "static/silk-groove.html",
+        "sha256": "f1de8e39254ea5011a3033eaf2522265bf2c2b877da229f68cc8f981b0dbc957",
+        "bytes": 13431
+      },
+      {
+        "path": "static/smolder.html",
+        "sha256": "eb2e6c91117a23d2572f6967169e41bc13bb6a101e0b276a2818f8c75183e603",
+        "bytes": 21597
+      },
+      {
+        "path": "static/spark-chamber.html",
+        "sha256": "d9fd7129e772ec3bd45ede6fdc51a2e3e33e163478c9c002e6a624f25e691c9b",
+        "bytes": 15714
+      },
+      {
+        "path": "static/stardust-veil.html",
+        "sha256": "50496737eaa1cd1d938bcafeb0897cfaaa2d12448dad3d3886ded5e24f92011c",
+        "bytes": 22307
+      },
+      {
+        "path": "static/strange-attractor.html",
+        "sha256": "3c0dab92d29a57b6818dac2591bb922e760e790503182de38b68fd269fcb726b",
+        "bytes": 8693
+      },
+      {
+        "path": "static/strobe-geometry.html",
+        "sha256": "7090af381d14730f7ae6bbf7119944a1aebafadf739d41f2c1052d1a735281e3",
+        "bytes": 21323
+      },
+      {
+        "path": "static/sugar-glass.html",
+        "sha256": "d15bdbda17d9c78ee295929d1cd7f2c5756bc2e00a03c16d499182db3ae9e02b",
+        "bytes": 19634
+      },
+      {
+        "path": "static/synth-ribbon.html",
+        "sha256": "869f84ccfe5ad9014c6fee68cd37d1d20dbf149e3081f07dda6506fd60830741",
+        "bytes": 15405
+      },
+      {
+        "path": "static/tesseract-shadow.html",
+        "sha256": "ed055e94447e01e7a94733e6fd533ac5174a618ebd5f8f6c49a02dbbbf477641",
+        "bytes": 21537
+      },
+      {
+        "path": "static/thunder-sermon.html",
+        "sha256": "f1e816ccad17a88a2837a9166dd198805ea972a1610966bf7b95d1db85c53b1f",
+        "bytes": 17893
+      },
+      {
+        "path": "static/topographic.html",
+        "sha256": "666a68c4e70b57125bd7a73b7b9ae8ef3158f628662c6041fb79e57589bddada",
+        "bytes": 16179
+      },
+      {
+        "path": "static/torn-paper.html",
+        "sha256": "23dadd59cafdead7c79b4fbfca23ebce15c9cf8e29a93913c9d09a386048e215",
+        "bytes": 23899
+      },
+      {
+        "path": "static/tropical-heat.html",
+        "sha256": "a45768eb7a038acb93e4e12cabc71b48007bd2307c7c6f7bf28b484988acb04e",
+        "bytes": 15167
+      },
+      {
+        "path": "static/velvet-spotlight.html",
+        "sha256": "dd82118c9cb1f5e340fc560df26f054e964224a46a93d2aca3bca41ba5430356",
+        "bytes": 20666
+      },
+      {
+        "path": "static/vertigo.html",
+        "sha256": "24037378248afc77aaec979556829887ba58596ea05770272825a7bd18fba45d",
+        "bytes": 12354
+      },
+      {
+        "path": "static/video-outro.html",
+        "sha256": "a99680a2c58c7e9a9fe6e7d2bb976f125ee922837075952da66a8c7008d02388",
+        "bytes": 4483
+      },
+      {
+        "path": "static/vintage-static.html",
+        "sha256": "f4d27a4996e0f97a7039f210c6edacd0afc332f9582716aa2883a3a2850556b4",
+        "bytes": 16470
+      },
+      {
+        "path": "static/vinyl-grooves.html",
+        "sha256": "8262c7f5d081de16f806bb17e2778b9b55b9adb74cb4b05517d2005b6015ef28",
+        "bytes": 19435
+      },
+      {
+        "path": "static/voltage-arc.html",
+        "sha256": "c0c9f1673d0c9cbfb804e6dcd9f04593caa695a01e4217da7128e54356f0fd6b",
+        "bytes": 17578
+      },
+      {
+        "path": "static/vortex.html",
+        "sha256": "46e3799aae4b18183bfecb17ea714b5ce659520c75e3042dbb0f908fd53b1e24",
+        "bytes": 8999
+      },
+      {
+        "path": "static/woven-radiance.html",
+        "sha256": "b91fe15990691e11e3c3213778b72c4402a8dc5ea1ed314c9138b4c9058d2222",
+        "bytes": 17526
+      }
+    ],
+    "downloadedBytes": 24773257,
+    "sourceExecuted": false
+  },
+  {
+    "repo": "bkmashiro/creative-lab",
+    "commit": "acfab0338d23508e24a11e2fe5d8ae543f5467a0",
+    "archiveUrl": "https://codeload.github.com/bkmashiro/creative-lab/zip/acfab0338d23508e24a11e2fe5d8ae543f5467a0",
+    "archiveSha256": "7d98ecc58e8dc093c67510459cb10c46bfb732d347f8917a22d1dc19845dd5ae",
+    "selectedFiles": [
+      {
+        "path": "LICENSE",
+        "sha256": "280e2ae68f3c5c97a6a7f9b8586e7abd728e7b71fa42f008142ccad20b5ae62e",
+        "bytes": 1066
+      },
+      {
+        "path": "README.md",
+        "sha256": "1c78c6bee56c8a3eaf14e3964654c99ee736a900a5e624f475c63136965779fb",
+        "bytes": 9852
+      },
+      {
+        "path": "demos/001-particles.html",
+        "sha256": "ad618a3143916c01fb25b8ba91ea3e52cd6c888afbb769653028093852bd195d",
+        "bytes": 3625
+      },
+      {
+        "path": "demos/002-fluid.html",
+        "sha256": "a01313c8558800a3f6139aae8f7e31a660f2a4874f516981645000c9dd548e9d",
+        "bytes": 5537
+      },
+      {
+        "path": "demos/003-raymarching.html",
+        "sha256": "63c95e13bb2e644b7ecf1f694fef6487780d49685d066a8bc3a3bb215207d9aa",
+        "bytes": 9636
+      },
+      {
+        "path": "demos/004-fractal.html",
+        "sha256": "cfe9f38ee45359c6f290376b0113a2e7b103244ab70c5d0d5b86959530158124",
+        "bytes": 9787
+      },
+      {
+        "path": "demos/005-audio-visualizer.html",
+        "sha256": "8ca03aab17616bafb5e4c046129b9591eb1e71d75d65f3aea8b594c4a996e8a8",
+        "bytes": 10167
+      },
+      {
+        "path": "demos/006-voronoi.html",
+        "sha256": "18abb1b3028dd97a30951b5077ed228379659dd8ceafe2314924ca97b489868d",
+        "bytes": 10122
+      },
+      {
+        "path": "demos/007-noise-terrain.html",
+        "sha256": "611a5d13ed81727afffefeb57d1a9427ebba861f8a6c52299dc376268ea9fb65",
+        "bytes": 9269
+      },
+      {
+        "path": "demos/008-lsystem-tree.html",
+        "sha256": "9e6eaaefcb4e6d3be8f651aace80d6360a25b725938f03040ddab94cc8f82ca9",
+        "bytes": 12012
+      },
+      {
+        "path": "demos/009-matrix-rain.html",
+        "sha256": "8aaeb98036efcd8ba11bedf63e7ab9f8d1ad634d49168f22a3ad8521ff1bbe8f",
+        "bytes": 8618
+      },
+      {
+        "path": "demos/010-physics-balls.html",
+        "sha256": "68e346bc20a2dfbe3cf6130823a64cc46967ae8f1c405e8b711938897ecc245b",
+        "bytes": 10409
+      },
+      {
+        "path": "demos/011-card-flip-gallery.html",
+        "sha256": "44472cf3b7d4faef2650d049838f631d7d5a765fd24898d8ce14c34da83b0d77",
+        "bytes": 10956
+      },
+      {
+        "path": "demos/012-generative-typography.html",
+        "sha256": "0195b869efb93465129ffaca3e108ab3a05f1b511a0d539faf430a0a752ed8a3",
+        "bytes": 9994
+      },
+      {
+        "path": "demos/013-game-of-life.html",
+        "sha256": "61e8d51e1ed62923c464f4a572b82ffb5c6ab7d4bcb236aef9e43a2bc8e576c3",
+        "bytes": 12446
+      },
+      {
+        "path": "demos/014-maze-generator.html",
+        "sha256": "d2daa519c26b29c7417222d6902ea47a90188be972d2eef3918f84c673b86402",
+        "bytes": 11885
+      },
+      {
+        "path": "demos/015-water-ripple.html",
+        "sha256": "37644ae8b6c7d3fcd6379845db76b5add24132769ffd9a4e076ad0c54e9f490e",
+        "bytes": 9843
+      },
+      {
+        "path": "demos/016-star-field.html",
+        "sha256": "1f06b4f92a3825d95797a461c46edc6cfa9df9115317b35ae67a3297bf200aaf",
+        "bytes": 8256
+      },
+      {
+        "path": "demos/017-neural-network.html",
+        "sha256": "0e690ddc45512d59a0ec7292f835911b712ecae2518b11de648d2d905dc2e03a",
+        "bytes": 12910
+      },
+      {
+        "path": "demos/018-cloth-simulation.html",
+        "sha256": "7532611c3406b791a3774295ee3a89e6375637326ff4b85d312bc0134f77923d",
+        "bytes": 11196
+      },
+      {
+        "path": "demos/019-svg-clock.html",
+        "sha256": "41e147ecd0f56804617f8a50ba118201a832633462077f57a76490b90481fd2f",
+        "bytes": 19813
+      },
+      {
+        "path": "demos/020-smoke-simulation.html",
+        "sha256": "ecf490964f86558cc4db14dd0f0472c5195629273be4659c26c8a9a03bba2323",
+        "bytes": 16219
+      },
+      {
+        "path": "demos/021-fourier-epicycles.html",
+        "sha256": "9fd4a301749394a651eae397b32c0d4bef3a8a2b12271d05642ad39b56cb97b8",
+        "bytes": 12163
+      },
+      {
+        "path": "demos/022-reaction-diffusion.html",
+        "sha256": "b51505a6b36d95cdbe41be155d2d7df873e89e711995732309253c314e3eda95",
+        "bytes": 10358
+      },
+      {
+        "path": "demos/023-boids-flocking.html",
+        "sha256": "accc6f35ef7be7c5ee737ec12e7a70938c0318927b2ac86fc8f8a0437ccf085d",
+        "bytes": 10901
+      },
+      {
+        "path": "demos/024-lorenz-attractor.html",
+        "sha256": "3e3593550047982933e261105f5b265e42acf7154bd4a0d876373916fe521837",
+        "bytes": 7780
+      },
+      {
+        "path": "demos/025-spring-network.html",
+        "sha256": "f508c6dbf19e3a7ca93cd143374a4283fed6eb98a60c7e0badfbf79501742726",
+        "bytes": 11322
+      },
+      {
+        "path": "demos/026-brownian-motion.html",
+        "sha256": "d6a2fd3ccc1c39fd3fa658976a32d6ba1b937b8fc31ae7b18903c2b09d39606e",
+        "bytes": 9452
+      },
+      {
+        "path": "demos/027-bezier-curve-editor.html",
+        "sha256": "b0e18bb3ab3f00694a0e6006b9da0831ff5f7e4d2c2d23f210d80af7779e7e88",
+        "bytes": 10867
+      },
+      {
+        "path": "demos/028-sand-simulation.html",
+        "sha256": "93d523911601fdc2fb2c9df5df926bdad17cac7378a4ebe4b958436da01a4054",
+        "bytes": 12105
+      },
+      {
+        "path": "demos/029-metaballs.html",
+        "sha256": "95a24fb90a3757f5b567ec032f9105a4543061fc9f1407888d1afb0d3b4f8e73",
+        "bytes": 16166
+      },
+      {
+        "path": "demos/030-fireworks.html",
+        "sha256": "b396f9d66f5aee837ca3fd2f9589dc5da02233afc6262798eb8e8e73e685b9c7",
+        "bytes": 13508
+      },
+      {
+        "path": "demos/031-lightning.html",
+        "sha256": "f80abf7937294dc9f9f3f06c18afc603745d0c743148abb1494410ff664b6528",
+        "bytes": 12695
+      },
+      {
+        "path": "demos/032-kaleidoscope.html",
+        "sha256": "6b3d124725ad4aed2359292a59fd4e12dea9cfd42ca2a5d1f0d86b9a9374b479",
+        "bytes": 17468
+      },
+      {
+        "path": "demos/033-pendulum-wave.html",
+        "sha256": "253c865be6d283ecb9b74f8c40290d6a6c4548e483eb353d46092f81277405fd",
+        "bytes": 13141
+      },
+      {
+        "path": "demos/034-double-pendulum.html",
+        "sha256": "d839995a37e67683aada6a8903483b1a9e766b00f3dc0926c72d454e7b6c5428",
+        "bytes": 14531
+      },
+      {
+        "path": "demos/035-wave-interference.html",
+        "sha256": "ee5cd38411cece5c742aa1ac1b836ceda98bdd9789c049b8334979811f527fba",
+        "bytes": 15494
+      },
+      {
+        "path": "demos/036-plasma-effect.html",
+        "sha256": "11a24cdf5a76a155c6bec5fe96bbac880ac8d2d56a73fa12f86a7c0d4100dead",
+        "bytes": 13588
+      },
+      {
+        "path": "demos/037-galaxy-spiral.html",
+        "sha256": "6a1ef1736038b6f5cc5b7a49509e867425789e1188c32a3ee4fd2e6c186801d1",
+        "bytes": 20483
+      },
+      {
+        "path": "demos/038-magnetic-field-lines.html",
+        "sha256": "29feb6456573e6391d6039a17561df222719fa5d68be5af69a1b8f409c9afe9b",
+        "bytes": 19324
+      },
+      {
+        "path": "demos/039-crystal-growth.html",
+        "sha256": "06236909d1af107fe24051fcc7d3ce019b59a604ad108ecef2507f704055a930",
+        "bytes": 11793
+      },
+      {
+        "path": "demos/040-fluid-dynamics.html",
+        "sha256": "dcde30473011c091253ef365583315b3ef77b9d29a540da9804654957f94ea9b",
+        "bytes": 20120
+      },
+      {
+        "path": "demos/041-rope-physics.html",
+        "sha256": "d052278b72dd0ec135a16fff2d17f694ed5793864956427c583ee22e4e92a91d",
+        "bytes": 15032
+      },
+      {
+        "path": "demos/042-soft-body.html",
+        "sha256": "0f243bd34c418142d0b182a5e469f24c77bcd877de0b9ae39a01dcfc978c6e11",
+        "bytes": 15903
+      },
+      {
+        "path": "demos/043-wave-equation.html",
+        "sha256": "68b53b8aac21d852b0dfba4a68f85930cd27b702c8b3fcd91824574d5f7fab40",
+        "bytes": 19549
+      },
+      {
+        "path": "demos/044-gravity-lensing.html",
+        "sha256": "f121459f1e25f4a5c3d2b6faa6ff2027f2c008ff6ff37d21a02842e0e214d757",
+        "bytes": 15496
+      },
+      {
+        "path": "demos/045-nbody-gravity.html",
+        "sha256": "7c3a0aa39ddb2db179c49025c580cabfe78f201c818c6749a4552431a72495d8",
+        "bytes": 21863
+      },
+      {
+        "path": "demos/046-terrain-erosion.html",
+        "sha256": "4533c08674819fb85b2c70f3cb930b4fac48e7b1164a4f89c922dbf152ba0e83",
+        "bytes": 22683
+      },
+      {
+        "path": "demos/047-smoke-wind.html",
+        "sha256": "d6fbfff93cde7ff04037d5c7557bdc8c8a4cf6b6c28c157454f7a40cea2cbc6c",
+        "bytes": 15921
+      },
+      {
+        "path": "demos/048-elastic-collisions.html",
+        "sha256": "b10a025cf5cd0b5a7e181db17451579d3e3b5d5f57e5db444b5fc1fe82f253dc",
+        "bytes": 19573
+      },
+      {
+        "path": "demos/049-flow-field.html",
+        "sha256": "5746cf5446829157ebf6b080f6c29cdd56b0b33f745cadf98e65fdb01032262b",
+        "bytes": 17646
+      },
+      {
+        "path": "demos/050-isosurface.html",
+        "sha256": "849b36e2643b7d35b15a5b00c6f5f28c877e117af0bf03bd5dd58a4e0ed949f5",
+        "bytes": 28839
+      },
+      {
+        "path": "demos/051-cellular-noise.html",
+        "sha256": "a65080443f700ac66fe36609fb8024b5c6e9b3d73367fc48837b6eac31ab2ddd",
+        "bytes": 15852
+      },
+      {
+        "path": "demos/052-strange-attractors.html",
+        "sha256": "ddd56cc29b07c886b2e80aad08e3eb21fd66f27b0548c96bb5bb2c1e3605dab8",
+        "bytes": 18135
+      },
+      {
+        "path": "demos/053-spirograph.html",
+        "sha256": "6d9646b3604bd7db4d48d27d2feb2701d5b28f9b7b040057f4609f8f1af4e41e",
+        "bytes": 19239
+      },
+      {
+        "path": "demos/054-turtle-graphics.html",
+        "sha256": "a82afe47b2db8e135afdcc228d338866274cde8ff535ac59883cb9942090d9b8",
+        "bytes": 17844
+      },
+      {
+        "path": "demos/055-mandelbulb.html",
+        "sha256": "0ee60d59513c88111d282683b1cf9538f366e802548221ae8feb3ea28c0b8cd5",
+        "bytes": 22155
+      },
+      {
+        "path": "demos/056-voronoi-3d.html",
+        "sha256": "2253ec3f0a280aa1322e73e98da6bb733fe6e6a1bc1bd40c4d0b03d767e93cbe",
+        "bytes": 22778
+      },
+      {
+        "path": "demos/057-wave-function-collapse.html",
+        "sha256": "a3edde162cbc8bca453d2a2f93d1ad603bf5f584c0e5e993238f0ab4ea2c308b",
+        "bytes": 19197
+      },
+      {
+        "path": "demos/058-space-filling-curves.html",
+        "sha256": "3090307642f498be214241ab2404d7e22de40877768c29e5b81050a49c522409",
+        "bytes": 18967
+      },
+      {
+        "path": "demos/059-slime-mold.html",
+        "sha256": "fcd4e9bd103fc10e98de6e0018bd82ee1fd8f3b7b20c7b5d66e4a7e62e666c15",
+        "bytes": 22576
+      },
+      {
+        "path": "demos/060-ant-colony.html",
+        "sha256": "8ede584b70c420a6f74dbb0a838f0e159a586077603199f15c307824062f00d2",
+        "bytes": 18927
+      },
+      {
+        "path": "demos/061-genetic-algorithm.html",
+        "sha256": "b7c24a5b0e8e7c6b9d07af5a474af0eb4c84d0af8705ad0bc9ec08b9c222bf31",
+        "bytes": 24709
+      },
+      {
+        "path": "demos/062-flocking-3d.html",
+        "sha256": "2e161596a7475e4a187b60a2562672a01f193c23b015e4eb73fae956c764f189",
+        "bytes": 24854
+      },
+      {
+        "path": "demos/063-fireflies.html",
+        "sha256": "bc27431521f4744b8cd025d86c7fc986359bfbb8c0c9017bb860e535f2ae223b",
+        "bytes": 17365
+      },
+      {
+        "path": "demos/064-predator-prey.html",
+        "sha256": "532bd959e63fc3e7de7d87dadf7800a2713e2cf99040413f97fc6ea97d7d2d49",
+        "bytes": 19710
+      },
+      {
+        "path": "demos/065-voronoi-stippling.html",
+        "sha256": "0525c07ef5ca1125e757760b8f20551ae4746e2ba4f0c88b3a8e952cec9b9a37",
+        "bytes": 19371
+      },
+      {
+        "path": "demos/066-wireworld.html",
+        "sha256": "52dc87140e4384194459bf6c81a1626a433a13d1c4f4fa048983f04174727aff",
+        "bytes": 26396
+      },
+      {
+        "path": "demos/067-sound-visualizer-shader.html",
+        "sha256": "5982228cd0c828028de60c794bb66b06c1ed6278a3c888be7ddc804afd55a9e9",
+        "bytes": 21643
+      },
+      {
+        "path": "demos/068-fluid-color-mixing.html",
+        "sha256": "24ef0a88a8c0c6e64aaf1ba2caaef8370715dab2169c55123bd59254ca672f7b",
+        "bytes": 24818
+      },
+      {
+        "path": "demos/069-rubiks-cube.html",
+        "sha256": "95ec043324fc4a9a6f7c8bf2d5b9122975cc3af4a82a924dcd71699cb1c769f5",
+        "bytes": 16902
+      },
+      {
+        "path": "demos/070-sand-water.html",
+        "sha256": "694c199be2a7174c4992627eca0034c2d9491253da8c2a4fd0ab9eac4d1f889d",
+        "bytes": 17100
+      }
+    ],
+    "downloadedBytes": 369751,
+    "sourceExecuted": false
+  }
+]

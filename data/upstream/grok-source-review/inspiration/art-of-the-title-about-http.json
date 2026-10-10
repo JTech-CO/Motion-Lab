@@ -1,0 +1,19 @@
+{
+  "url": "https://www.artofthetitle.com/about/",
+  "method": "bounded public HTTP GET",
+  "status": 200,
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공식 공개 URL의 제한된 HTTP GET 응답을 읽었다. 원격 JavaScript·미디어 파일을 실행하거나 다운로드하지 않았다.",
+  "sector": 4,
+  "siteId": "art-of-the-title",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/art-of-the-title-about-http.json",
+  "rawCacheSha256": "c1ed801b11a478936a65e056e0035a580b23d6f62cc73e6b0b56976e9ecc6c94",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "26bf3fe0108dfad2ec17458fb321a3448eb2e4b07d496cd718e716f630c9730b",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "finalUrl": "https://www.artofthetitle.com/about/",
+  "byteCount": 19976,
+  "boundedAt": 1048576,
+  "truncated": false,
+  "originalResponseSha256": "05fac16add1cb11ccde36c6b67f489915244432347d8e38275e275d2f376cfb5"
+}

@@ -1,0 +1,56 @@
+{
+  "url": "https://ggfx.com.br/en/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://ggfx.com.br/en/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://ggfx.com.br/en/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://ggfx.com.br/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://ggfx.com.br/en/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:01.029655+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://ggfx.com.br/en/",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 48360,
+      "capturedSha256": "13d83ec837980fdfad9385e87d38449313f78b0acaa85e051b0074ab8ffde64b",
+      "responseBodySha256": "13d83ec837980fdfad9385e87d38449313f78b0acaa85e051b0074ab8ffde64b",
+      "title": "GGfx — 3D Animation, VFX and AI Imagery · Studio in São Paulo",
+      "textCharacters": 2469,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.582,
+      "captureCachePath": "exa-results/link-audit/references/captures/c49fdd20c69af9b8e0792f5d.json",
+      "captureCacheSha256": "926182964ad787c781a942e677304cce2302d9a5649ee2965d46a055c8f26b22"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-ggfx",
+      "canonicalId": "ref-ggfx",
+      "title": "GGfx",
+      "role": "canonical",
+      "sourceSha256": "505fb201332283da960fc2e088b9a1d3270e42dce69b35dc46835f2de70dd8a6"
+    }
+  ]
+}

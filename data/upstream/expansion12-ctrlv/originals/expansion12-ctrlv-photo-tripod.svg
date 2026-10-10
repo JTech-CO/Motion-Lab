@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="280" rx="140" ry="15" fill="var(--primary-color)" opacity="0.1"/>
+            
+            <path d="M200 120 L120 280" stroke="var(--primary-color)" stroke-width="12" stroke-linecap="round"/>
+            <path d="M200 120 L280 280" stroke="var(--primary-color)" stroke-width="12" stroke-linecap="round"/>
+            <path d="M200 120 L200 280" stroke="var(--secondary-color)" stroke-width="12" stroke-linecap="round"/>
+            
+            <rect x="145" y="180" width="16" height="20" rx="3" fill="var(--accent-color)" transform="rotate(27 153 190)"/>
+            <rect x="239" y="180" width="16" height="20" rx="3" fill="var(--accent-color)" transform="rotate(-27 247 190)"/>
+            <rect x="192" y="180" width="16" height="20" rx="3" fill="var(--accent-color)"/>
+            
+            <g class="anim-bounce">
+                <rect x="190" y="80" width="20" height="50" fill="var(--secondary-color)"/>
+                <rect x="180" y="70" width="40" height="15" rx="4" fill="var(--primary-color)"/>
+                <circle cx="200" cy="60" r="15" fill="var(--accent-color)"/>
+                
+                <path d="M170 45 H230 V50 H170 Z" fill="var(--secondary-color)"/>
+                
+                <rect x="160" y="15" width="80" height="30" rx="5" fill="var(--primary-color)"/>
+                <circle cx="200" cy="30" r="12" fill="var(--bg-surface)"/>
+            </g>
+          </svg>

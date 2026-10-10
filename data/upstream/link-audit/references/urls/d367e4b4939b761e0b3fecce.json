@@ -1,0 +1,56 @@
+{
+  "url": "https://magicui.design/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://magicui.design/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://magicui.design/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://magicui.design/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://magicui.design/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:06.938084+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://magicui.design/",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "b126d2f8a0f6dec283f050140f85cc329330e4d45370426080764d246fa2a5a0",
+      "responseBodySha256": "b126d2f8a0f6dec283f050140f85cc329330e4d45370426080764d246fa2a5a0",
+      "title": "Magic UIReactTailwind CSSMotion",
+      "textCharacters": 812,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.415,
+      "captureCachePath": "exa-results/link-audit/references/captures/f165e4f234307fcf94483d58.json",
+      "captureCacheSha256": "f4f83da6261ef5e9bef0193e9f7e3c5e4ef37125a190ace1c48de44abb7b5451"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-magic-ui",
+      "canonicalId": "ref-magic-ui",
+      "title": "Magic UI",
+      "role": "canonical",
+      "sourceSha256": "af604944454f347b8e312eebfc8596fdaba7b2569304da48b4069b8ec35950d6"
+    }
+  ]
+}

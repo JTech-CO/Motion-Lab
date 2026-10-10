@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <ellipse cx="200" cy="270" rx="150" ry="10" fill="#E2E8F0" opacity="0.6" />
+            
+            <path d="M40 220 H80 M20 200 H60 M50 240 H90" stroke="#f43f5e" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.5" />
+            
+            <circle cx="70" cy="250" r="10" fill="#ffffff" stroke="#334155" stroke-width="2" />
+            <circle cx="40" cy="240" r="15" fill="#ffffff" stroke="#334155" stroke-width="2" />
+            <circle cx="90" cy="260" r="5" fill="#ffffff" stroke="#334155" stroke-width="2" />
+            
+            <g>
+                
+                <circle cx="140" cy="240" r="25" fill="#334155" />
+                <circle cx="140" cy="240" r="15" fill="white" />
+                <circle cx="140" cy="240" r="5" fill="#f43f5e" />
+                
+                <circle cx="290" cy="240" r="25" fill="#334155" />
+                <circle cx="290" cy="240" r="15" fill="white" />
+                <circle cx="290" cy="240" r="5" fill="#f43f5e" />
+                
+                
+                <path d="M100 200 C80 200 90 220 90 240 H340 C350 240 350 210 330 200 C310 190 290 190 200 190 H100 Z" fill="#6366f1" />
+                
+                
+                <path d="M90 240 V180 C90 170 120 180 130 190 Z" fill="#6366f1" />
+                <path d="M95 185 L120 195" stroke="white" stroke-width="4" stroke-linecap="round" />
+                
+                
+                <path d="M150 190 C160 140 180 130 220 130 C260 130 270 140 280 190 Z" fill="#DFD116" />
+                
+                <path d="M165 190 C170 150 185 145 210 145 V190 Z" fill="white" opacity="0.9" />
+                <path d="M220 145 C245 145 260 150 265 190 H220 Z" fill="white" opacity="0.9" />
+                
+                
+                <path d="M110 215 Q220 215 320 205" fill="none" stroke="white" stroke-width="6" stroke-linecap="round" />
+                
+                
+                <circle cx="340" cy="215" r="8" fill="#f43f5e" />
+                
+                <ellipse cx="90" cy="200" rx="5" ry="10" fill="#DFD116" />
+                
+                
+                <path d="M85 240 C80 230 80 220 95 220" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" />
+                <path d="M345 240 C355 240 355 220 340 215" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" />
+            </g>
+          </svg>

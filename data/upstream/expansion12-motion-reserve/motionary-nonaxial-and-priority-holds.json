@@ -1,0 +1,1025 @@
+{
+  "version": 1,
+  "reviewComplete": true,
+  "reviewCompleteMeans": "Bounded standalone CSS inventory and representative inert source-content gate, plus prior-research capability holds. It does not mean the unrendered React/Canvas/GSAP/Lottie sources were fully frame-audited.",
+  "sourceJavaScriptExecuted": false,
+  "rendererModified": false,
+  "qualifiedNet": 0,
+  "eligibleItems": [],
+  "inventories": [
+    {
+      "name": "motionary",
+      "repository": "aimkick/motionary",
+      "commit": "7790f7108bc2b86ebf60825c853f1129eaa37055",
+      "treeSha256": "12827615d0564bb7c736ab19d3a3b4963d124df28b83ff4272b69986a4677ae0",
+      "treeTruncated": false,
+      "allFilePaths": 66,
+      "extensions": {
+        ".md": 7,
+        ".yml": 2,
+        "(none)": 2,
+        ".ts": 7,
+        ".mjs": 2,
+        ".json": 3,
+        ".svg": 7,
+        ".js": 1,
+        ".ico": 1,
+        ".css": 1,
+        ".tsx": 33
+      },
+      "standaloneCssFiles": [
+        "src/app/globals.css"
+      ],
+      "cssReadCompletely": {
+        "repository": "aimkick/motionary",
+        "commit": "7790f7108bc2b86ebf60825c853f1129eaa37055",
+        "sourcePath": "src/app/globals.css",
+        "artifactPath": "data/upstream/expansion12-motion-reserve/motionary/src/app/globals.css",
+        "sourceUrl": "https://raw.githubusercontent.com/aimkick/motionary/7790f7108bc2b86ebf60825c853f1129eaa37055/src/app/globals.css",
+        "finalUrl": "https://raw.githubusercontent.com/aimkick/motionary/7790f7108bc2b86ebf60825c853f1129eaa37055/src/app/globals.css",
+        "status": 200,
+        "bytes": 1074,
+        "sha256": "a95cec00defa85bd9a66ee2269f3166f8ab3f1e8a5476f635c6ad8fc3f6354d8",
+        "gitBlobSha1": "b12fa587d02a0cfd9cd67fc4e9d537f3111b2856",
+        "treeBlobShaMatches": true,
+        "sourceExecuted": false
+      },
+      "cssKeyframeDefinitions": [],
+      "cssGate": "No authored @keyframes or complete motion composition. Motionary defines only Tailwind spin/pulse speed variables, already-common parameter variants; Nonaxial contains theme, light-mode inversion and scrollbar styles. Neither file is an independently renderable effect.",
+      "license": "MIT",
+      "licensePath": "data/upstream/expansion12-motion-reserve/motionary/LICENSE",
+      "licenseSha256": "5834f82cd4abed0dfc3d3912411de82ab02974d745c5674e99ccfcecdf2021d7",
+      "licenseMatchesPinnedGitBlob": true,
+      "representativeComponentContentReviewed": 4,
+      "representativeComponentEvidence": [
+        {
+          "sourcePath": "src/components/motionary/advanced/ParticleCanvas.tsx",
+          "artifactPath": "data/upstream/expansion12-motion-reserve/motionary/src/components/motionary/advanced/ParticleCanvas.tsx",
+          "sha256": "58c0ba461613dd7e66e9aaf9c3c905f9e6ccece4d55bb19ae964fc60c6ca56e9",
+          "importDependencies": [
+            "react",
+            "@react-three/fiber",
+            "@react-three/drei"
+          ],
+          "dynamicHostTokens": {
+            "useState": 2,
+            "useEffect": 2,
+            "useMotionValue": 0,
+            "useTransform": 0,
+            "motion.": 0,
+            "requestAnimationFrame": 0,
+            "getContext": 0,
+            "AnimatePresence": 0
+          },
+          "literalKeyframes": [],
+          "sourceGateEvidence": [
+            {
+              "line": 4,
+              "excerpt": "import { Canvas, useFrame } from '@react-three/fiber';"
+            },
+            {
+              "line": 5,
+              "excerpt": "import { Points, PointMaterial, OrbitControls } from '@react-three/drei';"
+            },
+            {
+              "line": 32,
+              "excerpt": "useFrame((state, delta) => {"
+            }
+          ],
+          "status": "hold-unsupported-source-composition",
+          "qualifiedNet": 0
+        },
+        {
+          "sourcePath": "src/components/motionary/atomic/BackgroundVariants.tsx",
+          "artifactPath": "data/upstream/expansion12-motion-reserve/motionary/src/components/motionary/atomic/BackgroundVariants.tsx",
+          "sha256": "82739ffca35d42f03d6b322bcf7e002067745919da3c43b2c7deefc067371c90",
+          "importDependencies": [
+            "react",
+            "framer-motion"
+          ],
+          "dynamicHostTokens": {
+            "useState": 0,
+            "useEffect": 0,
+            "useMotionValue": 0,
+            "useTransform": 0,
+            "motion.": 15,
+            "requestAnimationFrame": 0,
+            "getContext": 0,
+            "AnimatePresence": 0
+          },
+          "literalKeyframes": [],
+          "sourceGateEvidence": [
+            {
+              "line": 4,
+              "excerpt": "import { motion } from 'framer-motion';"
+            },
+            {
+              "line": 19,
+              "excerpt": "animate={{ backgroundPosition: [\"0px 0px\", \"40px 40px\"] }}"
+            },
+            {
+              "line": 35,
+              "excerpt": "<motion.div className=\"absolute top-0 left-0 w-full h-1/2 bg-green-500/30\" animate={{ x: [-50, 50, -50], skewX: [-10, 10, -10] }} transition={{ duration: 10, repeat: Infinity }} />"
+            },
+            {
+              "line": 36,
+              "excerpt": "<motion.div className=\"absolute bottom-0 right-0 w-full h-1/2 bg-purple-500/30\" animate={{ x: [50, -50, 50], skewX: [10, -10, 10] }} transition={{ duration: 10, repeat: Infinity }}"
+            },
+            {
+              "line": 48,
+              "excerpt": "animate={{ opacity: [0.2, 1, 0.2], scaleX: [0.8, 1.2, 0.8] }}"
+            },
+            {
+              "line": 63,
+              "excerpt": "animate={{ opacity: [0, 1, 0] }}"
+            },
+            {
+              "line": 75,
+              "excerpt": "animate={{ opacity: [0.8, 0.6, 0.8] }}"
+            },
+            {
+              "line": 95,
+              "excerpt": "initial={{ width: 0, height: 0, opacity: 1 }}"
+            },
+            {
+              "line": 96,
+              "excerpt": "animate={{ width: \"150%\", height: \"150%\", opacity: 0 }}"
+            },
+            {
+              "line": 129,
+              "excerpt": "animate={{ x: [\"-100%\", \"100%\"] }}"
+            },
+            {
+              "line": 150,
+              "excerpt": "animate={{ top: \"100%\" }}"
+            },
+            {
+              "line": 165,
+              "excerpt": "animate={{ bottom: \"100%\", opacity: 0, x: Math.random()*20 - 10 }}"
+            },
+            {
+              "line": 185,
+              "excerpt": "animate={{ scale: [1, 1.2, 1], opacity: [0.3, 0.6, 0.3] }}"
+            },
+            {
+              "line": 198,
+              "excerpt": "animate={{ backgroundPositionY: [\"0px\", \"40px\"] }}"
+            },
+            {
+              "line": 220,
+              "excerpt": "animate={{ opacity: [0.5, 0.8, 0.5] }}"
+            },
+            {
+              "line": 231,
+              "excerpt": "animate={{ top: [\"0%\", \"100%\"] }}"
+            }
+          ],
+          "status": "hold-unsupported-source-composition",
+          "qualifiedNet": 0
+        },
+        {
+          "sourcePath": "src/components/motionary/atomic/KineticText.tsx",
+          "artifactPath": "data/upstream/expansion12-motion-reserve/motionary/src/components/motionary/atomic/KineticText.tsx",
+          "sha256": "38aac3e8b84caa991c4db6a7a4e4ef136e9355ba08d1a29726aefed700996e2a",
+          "importDependencies": [
+            "react",
+            "framer-motion"
+          ],
+          "dynamicHostTokens": {
+            "useState": 0,
+            "useEffect": 0,
+            "useMotionValue": 0,
+            "useTransform": 0,
+            "motion.": 2,
+            "requestAnimationFrame": 0,
+            "getContext": 0,
+            "AnimatePresence": 0
+          },
+          "literalKeyframes": [],
+          "sourceGateEvidence": [
+            {
+              "line": 4,
+              "excerpt": "import { motion } from 'framer-motion';"
+            },
+            {
+              "line": 15,
+              "excerpt": "initial={{ y: 0 }}"
+            },
+            {
+              "line": 16,
+              "excerpt": "whileHover={{"
+            }
+          ],
+          "status": "hold-unsupported-source-composition",
+          "qualifiedNet": 0
+        },
+        {
+          "sourcePath": "src/components/motionary/atomic/TransitionVariants.tsx",
+          "artifactPath": "data/upstream/expansion12-motion-reserve/motionary/src/components/motionary/atomic/TransitionVariants.tsx",
+          "sha256": "f7a5e895dd8a180a48484593b3813dbe5dd7f8a85907e05d648225b3b6eeb77b",
+          "importDependencies": [
+            "react",
+            "framer-motion"
+          ],
+          "dynamicHostTokens": {
+            "useState": 21,
+            "useEffect": 0,
+            "useMotionValue": 0,
+            "useTransform": 0,
+            "motion.": 37,
+            "requestAnimationFrame": 0,
+            "getContext": 0,
+            "AnimatePresence": 33
+          },
+          "literalKeyframes": [],
+          "sourceGateEvidence": [
+            {
+              "line": 4,
+              "excerpt": "import { motion, AnimatePresence } from 'framer-motion';"
+            },
+            {
+              "line": 14,
+              "excerpt": "initial={{ opacity: 0 }}"
+            },
+            {
+              "line": 15,
+              "excerpt": "animate={{ opacity: 1 }}"
+            },
+            {
+              "line": 34,
+              "excerpt": "initial={{ x: \"100%\" }}"
+            },
+            {
+              "line": 35,
+              "excerpt": "animate={{ x: 0 }}"
+            },
+            {
+              "line": 55,
+              "excerpt": "initial={{ scale: 0.8, opacity: 0 }}"
+            },
+            {
+              "line": 56,
+              "excerpt": "animate={{ scale: 1, opacity: 1 }}"
+            },
+            {
+              "line": 75,
+              "excerpt": "initial={{ clipPath: \"inset(0 100% 0 0)\" }}"
+            },
+            {
+              "line": 76,
+              "excerpt": "animate={{ clipPath: \"inset(0 0 0 0)\" }}"
+            },
+            {
+              "line": 96,
+              "excerpt": "initial={{ rotateX: 90, opacity: 0 }}"
+            },
+            {
+              "line": 97,
+              "excerpt": "animate={{ rotateX: 0, opacity: 1 }}"
+            },
+            {
+              "line": 117,
+              "excerpt": "initial={{ clipPath: \"circle(0% at 50% 50%)\" }}"
+            },
+            {
+              "line": 118,
+              "excerpt": "animate={{ clipPath: \"circle(100% at 50% 50%)\" }}"
+            },
+            {
+              "line": 139,
+              "excerpt": "initial={{ scaleY: 0 }}"
+            },
+            {
+              "line": 140,
+              "excerpt": "animate={{ scaleY: 1 }}"
+            },
+            {
+              "line": 158,
+              "excerpt": "initial={{ opacity: 0, filter: \"blur(10px)\" }}"
+            }
+          ],
+          "status": "hold-unsupported-source-composition",
+          "qualifiedNet": 0
+        }
+      ],
+      "qualifiedNet": 0,
+      "status": "no-qualified-standalone-source-in-reviewed-scope",
+      "contentScopeLimit": "The complete pinned file inventory and global CSS were reviewed. Representative TSX is inspected as inert text. Remaining TSX content has not been fully rendered or uniqueness-adjudicated; those entries are unsupported/hold, not verified duplicates or future qualified supply."
+    },
+    {
+      "name": "nonaxial",
+      "repository": "AnukarOP/nonaxial",
+      "commit": "d22eef38d49a4b08ebcaba7fc9604ae0b475814a",
+      "treeSha256": "9145f8efe87e9e36f7433f9f7b79779d5f97010f59b7154d50c61d5387287948",
+      "treeTruncated": false,
+      "allFilePaths": 204,
+      "extensions": {
+        "(none)": 2,
+        ".md": 1,
+        ".mjs": 2,
+        ".ts": 8,
+        ".json": 4,
+        ".svg": 5,
+        ".png": 2,
+        ".tsx": 178,
+        ".ico": 1,
+        ".css": 1
+      },
+      "standaloneCssFiles": [
+        "src/app/globals.css"
+      ],
+      "cssReadCompletely": {
+        "repository": "AnukarOP/nonaxial",
+        "commit": "d22eef38d49a4b08ebcaba7fc9604ae0b475814a",
+        "sourcePath": "src/app/globals.css",
+        "artifactPath": "data/upstream/expansion12-motion-reserve/nonaxial/src/app/globals.css",
+        "sourceUrl": "https://raw.githubusercontent.com/AnukarOP/nonaxial/d22eef38d49a4b08ebcaba7fc9604ae0b475814a/src/app/globals.css",
+        "finalUrl": "https://raw.githubusercontent.com/AnukarOP/nonaxial/d22eef38d49a4b08ebcaba7fc9604ae0b475814a/src/app/globals.css",
+        "status": 200,
+        "bytes": 4022,
+        "sha256": "1c76ffd92bda088e6784e74c84205fd4f75c9389c7d128cac47f22e1672751a6",
+        "gitBlobSha1": "fa3e61910401d7b33d81328942fa543e20548061",
+        "treeBlobShaMatches": true,
+        "sourceExecuted": false
+      },
+      "cssKeyframeDefinitions": [],
+      "cssGate": "No authored @keyframes or complete motion composition. Motionary defines only Tailwind spin/pulse speed variables, already-common parameter variants; Nonaxial contains theme, light-mode inversion and scrollbar styles. Neither file is an independently renderable effect.",
+      "license": "MIT",
+      "licensePath": "data/upstream/expansion12-motion-reserve/nonaxial/LICENSE",
+      "licenseSha256": "7ec14b3be15f567b47dde92b648c54e7b33d75210321fad7201b525bc3844110",
+      "licenseMatchesPinnedGitBlob": true,
+      "representativeComponentContentReviewed": 5,
+      "representativeComponentEvidence": [
+        {
+          "sourcePath": "src/registry/animations.tsx",
+          "artifactPath": "data/upstream/expansion12-motion-reserve/nonaxial/src/registry/animations.tsx",
+          "sha256": "e26078338d56d6513f0196c38d1f2320845841197a511aaf74043d648aff916e",
+          "importDependencies": [
+            "react",
+            "framer-motion",
+            "@/lib/utils"
+          ],
+          "dynamicHostTokens": {
+            "useState": 4,
+            "useEffect": 5,
+            "useMotionValue": 0,
+            "useTransform": 0,
+            "motion.": 6,
+            "requestAnimationFrame": 3,
+            "getContext": 2,
+            "AnimatePresence": 3
+          },
+          "literalKeyframes": [],
+          "sourceGateEvidence": [
+            {
+              "line": 4,
+              "excerpt": "import { motion, AnimatePresence } from \"framer-motion\";"
+            },
+            {
+              "line": 19,
+              "excerpt": "const ctx = canvas.getContext(\"2d\");"
+            },
+            {
+              "line": 76,
+              "excerpt": "animationId = requestAnimationFrame(animate);"
+            },
+            {
+              "line": 110,
+              "excerpt": "const ctx = canvas.getContext(\"2d\");"
+            },
+            {
+              "line": 145,
+              "excerpt": "animationId = requestAnimationFrame(animate);"
+            },
+            {
+              "line": 224,
+              "excerpt": "animationId = requestAnimationFrame(animate);"
+            },
+            {
+              "line": 291,
+              "excerpt": "initial={{ opacity: 1, x: 0, y: 0 }}"
+            },
+            {
+              "line": 292,
+              "excerpt": "animate={{ opacity: 0, x: 200, y: 200 }}"
+            },
+            {
+              "line": 314,
+              "excerpt": "initial={{ scale: 0, opacity: 1 }}"
+            },
+            {
+              "line": 315,
+              "excerpt": "animate={{ scale: 3, opacity: 0 }}"
+            },
+            {
+              "line": 345,
+              "excerpt": "animate={{"
+            },
+            {
+              "line": 410,
+              "excerpt": "animate={{ scale, opacity }}"
+            }
+          ],
+          "status": "hold-unsupported-source-composition",
+          "qualifiedNet": 0
+        },
+        {
+          "sourcePath": "src/registry/aurora-bg.tsx",
+          "artifactPath": "data/upstream/expansion12-motion-reserve/nonaxial/src/registry/aurora-bg.tsx",
+          "sha256": "f2a5304ac93d686de6b5454f0f12dccc60c07b2cb08f02b70597bf057c89da76",
+          "importDependencies": [
+            "react",
+            "framer-motion",
+            "@/lib/utils"
+          ],
+          "dynamicHostTokens": {
+            "useState": 4,
+            "useEffect": 2,
+            "useMotionValue": 0,
+            "useTransform": 0,
+            "motion.": 4,
+            "requestAnimationFrame": 0,
+            "getContext": 0,
+            "AnimatePresence": 0
+          },
+          "literalKeyframes": [],
+          "sourceGateEvidence": [
+            {
+              "line": 4,
+              "excerpt": "import { motion, useAnimationFrame } from \"framer-motion\";"
+            },
+            {
+              "line": 89,
+              "excerpt": "useAnimationFrame((t) => {"
+            },
+            {
+              "line": 134,
+              "excerpt": "animate={{"
+            },
+            {
+              "line": 196,
+              "excerpt": "animate={{"
+            },
+            {
+              "line": 209,
+              "excerpt": "animate={{"
+            },
+            {
+              "line": 237,
+              "excerpt": "animate={{"
+            }
+          ],
+          "status": "hold-unsupported-source-composition",
+          "qualifiedNet": 0
+        },
+        {
+          "sourcePath": "src/registry/fold-card.tsx",
+          "artifactPath": "data/upstream/expansion12-motion-reserve/nonaxial/src/registry/fold-card.tsx",
+          "sha256": "31fc5ec506223d6a12743800f4aae1b106de9365090b25425a613292361e4222",
+          "importDependencies": [
+            "react",
+            "framer-motion",
+            "@/lib/utils"
+          ],
+          "dynamicHostTokens": {
+            "useState": 3,
+            "useEffect": 2,
+            "useMotionValue": 0,
+            "useTransform": 6,
+            "motion.": 14,
+            "requestAnimationFrame": 0,
+            "getContext": 0,
+            "AnimatePresence": 0
+          },
+          "literalKeyframes": [],
+          "sourceGateEvidence": [
+            {
+              "line": 4,
+              "excerpt": "import { motion, useSpring, useTransform } from \"framer-motion\";"
+            },
+            {
+              "line": 26,
+              "excerpt": "const foldAngle = useSpring(0, { stiffness: 60, damping: 12, mass: 1.2 });"
+            },
+            {
+              "line": 27,
+              "excerpt": "const shadowIntensity = useSpring(0, { stiffness: 100, damping: 20 });"
+            },
+            {
+              "line": 59,
+              "excerpt": "const creaseDepth = useTransform(foldAngle, [-160, 0], [1, 0]);"
+            },
+            {
+              "line": 60,
+              "excerpt": "const flapShadow = useTransform(shadowIntensity, [0, 1], [0, 30]);"
+            },
+            {
+              "line": 180,
+              "excerpt": "opacity: useTransform(foldAngle, [-160, -80, 0], [0.3, 1, 0]),"
+            },
+            {
+              "line": 217,
+              "excerpt": "opacity: useTransform(foldAngle, [-160, -60, 0], [0.8, 0.4, 0]),"
+            },
+            {
+              "line": 218,
+              "excerpt": "filter: `blur(${useTransform(foldAngle, [-160, 0], [8, 0]).get()}px)`,"
+            }
+          ],
+          "status": "hold-unsupported-source-composition",
+          "qualifiedNet": 0
+        },
+        {
+          "sourcePath": "src/registry/glitch-text.tsx",
+          "artifactPath": "data/upstream/expansion12-motion-reserve/nonaxial/src/registry/glitch-text.tsx",
+          "sha256": "d86f39a8b47d5a2312681541e86f2509fc167b6be8724a02484946800ce47ff6",
+          "importDependencies": [
+            "react",
+            "framer-motion",
+            "@/lib/utils"
+          ],
+          "dynamicHostTokens": {
+            "useState": 5,
+            "useEffect": 2,
+            "useMotionValue": 0,
+            "useTransform": 0,
+            "motion.": 13,
+            "requestAnimationFrame": 0,
+            "getContext": 0,
+            "AnimatePresence": 0
+          },
+          "literalKeyframes": [],
+          "sourceGateEvidence": [
+            {
+              "line": 4,
+              "excerpt": "import { motion, useAnimationControls } from \"framer-motion\";"
+            },
+            {
+              "line": 150,
+              "excerpt": "initial={{ opacity: 0, scaleX: 0 }}"
+            },
+            {
+              "line": 151,
+              "excerpt": "animate={{ opacity: [0, 1, 0], scaleX: [0, 1, 0] }}"
+            },
+            {
+              "line": 166,
+              "excerpt": "initial={{ opacity: 0 }}"
+            },
+            {
+              "line": 167,
+              "excerpt": "animate={{ opacity: [0, 1, 0] }}"
+            },
+            {
+              "line": 173,
+              "excerpt": "animate={redControls}"
+            },
+            {
+              "line": 182,
+              "excerpt": "animate={greenControls}"
+            },
+            {
+              "line": 191,
+              "excerpt": "animate={blueControls}"
+            },
+            {
+              "line": 204,
+              "excerpt": "initial={{ x: 0 }}"
+            },
+            {
+              "line": 205,
+              "excerpt": "animate={{ x: [0, slice.translateX, 0] }}"
+            },
+            {
+              "line": 212,
+              "excerpt": "<motion.span className=\"relative z-10\" animate={mainControls}>"
+            },
+            {
+              "line": 217,
+              "excerpt": "animate={{"
+            }
+          ],
+          "status": "hold-unsupported-source-composition",
+          "qualifiedNet": 0
+        },
+        {
+          "sourcePath": "src/registry/morph-loader.tsx",
+          "artifactPath": "data/upstream/expansion12-motion-reserve/nonaxial/src/registry/morph-loader.tsx",
+          "sha256": "c690ebbbc0edf84c951786478ee2d61f56177da206e448d44e2c6c64809175e9",
+          "importDependencies": [
+            "framer-motion",
+            "@/lib/utils",
+            "react"
+          ],
+          "dynamicHostTokens": {
+            "useState": 0,
+            "useEffect": 0,
+            "useMotionValue": 0,
+            "useTransform": 0,
+            "motion.": 9,
+            "requestAnimationFrame": 0,
+            "getContext": 0,
+            "AnimatePresence": 0
+          },
+          "literalKeyframes": [],
+          "sourceGateEvidence": [
+            {
+              "line": 3,
+              "excerpt": "import { motion } from \"framer-motion\";"
+            },
+            {
+              "line": 57,
+              "excerpt": "animate={{"
+            },
+            {
+              "line": 79,
+              "excerpt": "animate={{"
+            },
+            {
+              "line": 117,
+              "excerpt": "animate={{"
+            },
+            {
+              "line": 139,
+              "excerpt": "animate={{"
+            },
+            {
+              "line": 157,
+              "excerpt": "animate={{"
+            },
+            {
+              "line": 176,
+              "excerpt": "animate={{"
+            },
+            {
+              "line": 191,
+              "excerpt": "animate={{"
+            },
+            {
+              "line": 213,
+              "excerpt": "animate={{"
+            }
+          ],
+          "status": "hold-unsupported-source-composition",
+          "qualifiedNet": 0
+        }
+      ],
+      "qualifiedNet": 0,
+      "status": "no-qualified-standalone-source-in-reviewed-scope",
+      "contentScopeLimit": "The complete pinned file inventory and global CSS were reviewed. Representative TSX is inspected as inert text. Remaining TSX content has not been fully rendered or uniqueness-adjudicated; those entries are unsupported/hold, not verified duplicates or future qualified supply."
+    }
+  ],
+  "priorityHolds": [
+    {
+      "name": "MicroKit",
+      "advertisedOrGrossCandidateCount": 49,
+      "countBasis": "Counted complete registry49; four language/style ports count once",
+      "sourceUrls": [
+        "https://github.com/henriquegpb/microkit",
+        "https://raw.githubusercontent.com/henriquegpb/microkit/main/registry.json"
+      ],
+      "licenseClaim": "MIT; adapted originals need per-file provenance",
+      "licenseUrl": "https://raw.githubusercontent.com/henriquegpb/microkit/main/LICENSE",
+      "status": "hold",
+      "qualifiedNet": 0,
+      "reason": "React/TypeScript DOM/CSS requires faithful per-file extraction. Repository MIT does not clear credited/adapted Webflow/public-example originals; pinned per-file provenance and full notices remain necessary. Generic arrow/fill/hover swaps may already be common families.",
+      "priorResearchEvidence": {
+        "researchFile": "motion-research.json",
+        "name": "MicroKit",
+        "urls": [
+          "https://github.com/henriquegpb/microkit",
+          "https://raw.githubusercontent.com/henriquegpb/microkit/main/registry.json"
+        ],
+        "licenseUrl": "https://raw.githubusercontent.com/henriquegpb/microkit/main/LICENSE",
+        "license": "MIT; adapted originals need per-file provenance",
+        "availableCount": 49,
+        "countBasis": "Counted complete registry49; four language/style ports count once",
+        "existingOverlap": "No sourceName match; generic hover/fill/swap behaviors overlap Hover.css/MagicUI",
+        "renderPath": "React/TS DOM/CSS; reviewed blur-glide-menu.tsx, compile adapter or faithfully extract isolated animation",
+        "acquisition": {
+          "method": "Exa search and read-only page/raw-file fetch; no bulk crawl, clone or source execution",
+          "robots": "Not yet adjudicated; recheck robots/host terms at pinned file URLs before actual ingestion",
+          "gates": [
+            "Pinned commit/file hashes",
+            "Per-file provenance and full licenses/notices",
+            "Structural normalization and time-sampled visual dedup",
+            "Safe local code/image preview without remote media or whole gallery execution"
+          ]
+        },
+        "netPotentialRange": null,
+        "confidence": "high count/license, medium diversity",
+        "status": "priority-sample",
+        "risks": [
+          "README credits public examples/Webflow exports; MIT alone cannot prove rights in all adapted originals",
+          "Many arrow/text/fill buttons will merge into families",
+          "Gallery analytics/UI not ingested"
+        ]
+      },
+      "contentScope": "Existing source/registry research is carried forward. No new original JS or Lottie is executed, and no current preview or complete originality review is claimed for this reserve."
+    },
+    {
+      "name": "Klick",
+      "advertisedOrGrossCandidateCount": 52,
+      "countBasis": "Counted complete registry52; README48 is stale",
+      "sourceUrls": [
+        "https://github.com/devsterxyz/Klick",
+        "https://raw.githubusercontent.com/devsterxyz/Klick/main/registry.json"
+      ],
+      "licenseClaim": "MIT",
+      "licenseUrl": "https://raw.githubusercontent.com/devsterxyz/Klick/main/LICENSE",
+      "status": "hold",
+      "qualifiedNet": 0,
+      "reason": "React portal plus Canvas2D/requestAnimationFrame composition is outside the current isolated CSS/SVG/GLSL host. Seeded burst/ripple families require deterministic original-frame review and merging, rather than counting spark/color/duration variants.",
+      "priorResearchEvidence": {
+        "researchFile": "motion-research.json",
+        "name": "Klick",
+        "urls": [
+          "https://github.com/devsterxyz/Klick",
+          "https://raw.githubusercontent.com/devsterxyz/Klick/main/registry.json"
+        ],
+        "licenseUrl": "https://raw.githubusercontent.com/devsterxyz/Klick/main/LICENSE",
+        "license": "MIT",
+        "availableCount": 52,
+        "countBasis": "Counted complete registry52; README48 is stale",
+        "existingOverlap": "No sourceName match; generic bursts/ripples may overlap",
+        "renderPath": "React Canvas2D/rAF; reviewed ClickTesseract.tsx; scope portaled canvas to isolated local preview",
+        "acquisition": {
+          "method": "Exa search and read-only page/raw-file fetch; no bulk crawl, clone or source execution",
+          "robots": "Not yet adjudicated; recheck robots/host terms at pinned file URLs before actual ingestion",
+          "gates": [
+            "Pinned commit/file hashes",
+            "Per-file provenance and full licenses/notices",
+            "Structural normalization and time-sampled visual dedup",
+            "Safe local code/image preview without remote media or whole gallery execution"
+          ]
+        },
+        "netPotentialRange": null,
+        "confidence": "high count/license, medium diversity",
+        "status": "priority-sample",
+        "risks": [
+          "spark/spark2/sparkle and sonar/ripple families need merging",
+          "Seed random capture",
+          "Never count duration/speed/color choices"
+        ]
+      },
+      "contentScope": "Existing source/registry research is carried forward. No new original JS or Lottie is executed, and no current preview or complete originality review is claimed for this reserve."
+    },
+    {
+      "name": "AnimBits",
+      "advertisedOrGrossCandidateCount": 76,
+      "countBasis": "Registry99=15 hooks+82 components+2UI support. Excluding6 component demos and hooks/support gives76 candidate components",
+      "sourceUrls": [
+        "https://github.com/Garvit1000/AnimBits",
+        "https://raw.githubusercontent.com/Garvit1000/AnimBits/main/registry.json"
+      ],
+      "licenseClaim": "MIT",
+      "licenseUrl": "https://raw.githubusercontent.com/Garvit1000/AnimBits/main/LICENSE",
+      "status": "hold",
+      "qualifiedNet": 0,
+      "reason": "React Motion plus Tailwind and local component utilities require a faithful isolated host. Hook/support/demo records do not count as effects; fade/slide/pulse/spinner/direction variants require family deduplication.",
+      "priorResearchEvidence": {
+        "researchFile": "motion-research.json",
+        "name": "AnimBits",
+        "urls": [
+          "https://github.com/Garvit1000/AnimBits",
+          "https://raw.githubusercontent.com/Garvit1000/AnimBits/main/registry.json"
+        ],
+        "licenseUrl": "https://raw.githubusercontent.com/Garvit1000/AnimBits/main/LICENSE",
+        "license": "MIT",
+        "availableCount": 76,
+        "countBasis": "Registry99=15 hooks+82 components+2UI support. Excluding6 component demos and hooks/support gives76 candidate components",
+        "existingOverlap": "No sourceName match; fade/slide/spinner/pulse overlap current3345 motion assets",
+        "renderPath": "React Motion/Tailwind registry/new-york/animations; local compiled adapter required",
+        "acquisition": {
+          "method": "Exa search and read-only page/raw-file fetch; no bulk crawl, clone or source execution",
+          "robots": "Not yet adjudicated; recheck robots/host terms at pinned file URLs before actual ingestion",
+          "gates": [
+            "Pinned commit/file hashes",
+            "Per-file provenance and full licenses/notices",
+            "Structural normalization and time-sampled visual dedup",
+            "Safe local code/image preview without remote media or whole gallery execution"
+          ]
+        },
+        "netPotentialRange": null,
+        "confidence": "high manifest/license, medium diversity",
+        "status": "priority-sample",
+        "risks": [
+          "Theme slide directions and generic wrappers collapse",
+          "Some candidates static/support despite component tag",
+          "Images/fonts not covered by code license"
+        ]
+      },
+      "contentScope": "Existing source/registry research is carried forward. No new original JS or Lottie is executed, and no current preview or complete originality review is claimed for this reserve."
+    },
+    {
+      "name": "Codrops OnScrollTypographyAnimations",
+      "advertisedOrGrossCandidateCount": 29,
+      "countBasis": "Implementation selector/fx groups1-15+16-29 read in two complete JS files",
+      "sourceUrls": [
+        "https://github.com/codrops/OnScrollTypographyAnimations",
+        "https://raw.githubusercontent.com/codrops/OnScrollTypographyAnimations/main/src/js/index.js",
+        "https://raw.githubusercontent.com/codrops/OnScrollTypographyAnimations/main/src/js/index2.js"
+      ],
+      "licenseClaim": "MIT code only",
+      "licenseUrl": "https://raw.githubusercontent.com/codrops/OnScrollTypographyAnimations/main/LICENSE",
+      "status": "hold",
+      "qualifiedNet": 0,
+      "reason": "GSAP ScrollTrigger with Splitting/Lenis depends on JS-driven DOM/scroll composition. System-text preview, pinned dependency rights and time-sampled family review are required; 29 groups are gross selectors, not demonstrated unique net assets.",
+      "priorResearchEvidence": {
+        "researchFile": "motion-research.json",
+        "name": "Codrops OnScrollTypographyAnimations",
+        "urls": [
+          "https://github.com/codrops/OnScrollTypographyAnimations",
+          "https://raw.githubusercontent.com/codrops/OnScrollTypographyAnimations/main/src/js/index.js",
+          "https://raw.githubusercontent.com/codrops/OnScrollTypographyAnimations/main/src/js/index2.js"
+        ],
+        "licenseUrl": "https://raw.githubusercontent.com/codrops/OnScrollTypographyAnimations/main/LICENSE",
+        "license": "MIT code only",
+        "availableCount": 29,
+        "countBasis": "Implementation selector/fx groups1-15+16-29 read in two complete JS files",
+        "existingOverlap": "No direct match; reveal/flip glyph families overlap existing typography",
+        "renderPath": "GSAP ScrollTrigger+Splitting/Lenis DOM; one effect with synthetic text/system fonts per local preview",
+        "acquisition": {
+          "method": "Exa search and read-only page/raw-file fetch; no bulk crawl, clone or source execution",
+          "robots": "Not yet adjudicated; recheck robots/host terms at pinned file URLs before actual ingestion",
+          "gates": [
+            "Pinned commit/file hashes",
+            "Per-file provenance and full licenses/notices",
+            "Structural normalization and time-sampled visual dedup",
+            "Safe local code/image preview without remote media or whole gallery execution"
+          ]
+        },
+        "netPotentialRange": null,
+        "confidence": "high implementation/license evidence",
+        "status": "priority-sample",
+        "risks": [
+          "29 gross groups not29 visually unique net",
+          "Adobe font preload/Unsplash assets removed or individually cleared",
+          "Verify pinned dependency terms"
+        ]
+      },
+      "contentScope": "Existing source/registry research is carried forward. No new original JS or Lottie is executed, and no current preview or complete originality review is claimed for this reserve."
+    },
+    {
+      "name": "Codrops TextClipScroll",
+      "advertisedOrGrossCandidateCount": 9,
+      "countBasis": "Nine applyCustomEffect_1..9 functions read",
+      "sourceUrls": [
+        "https://github.com/codrops/TextClipScroll",
+        "https://raw.githubusercontent.com/codrops/TextClipScroll/main/js/index.js"
+      ],
+      "licenseClaim": "MIT code only",
+      "licenseUrl": "https://raw.githubusercontent.com/codrops/TextClipScroll/main/LICENSE",
+      "status": "hold",
+      "qualifiedNet": 0,
+      "reason": "GSAP plus SVG clip-path and scroll requires a faithful timeline host. Original dragon.mp4 is outside this no-video collection scope; the clip mechanism cannot be advertised as a validated source effect without approved local content and actual frame review.",
+      "priorResearchEvidence": {
+        "researchFile": "motion-research.json",
+        "name": "Codrops TextClipScroll",
+        "urls": [
+          "https://github.com/codrops/TextClipScroll",
+          "https://raw.githubusercontent.com/codrops/TextClipScroll/main/js/index.js"
+        ],
+        "licenseUrl": "https://raw.githubusercontent.com/codrops/TextClipScroll/main/LICENSE",
+        "license": "MIT code only",
+        "availableCount": 9,
+        "countBasis": "Nine applyCustomEffect_1..9 functions read",
+        "existingOverlap": "No direct match; existing mask/clip typography families may overlap",
+        "renderPath": "GSAP+SVG clip-path; source dragon.mp4 replaced with independently licensed local static image",
+        "acquisition": {
+          "method": "Exa search and read-only page/raw-file fetch; no bulk crawl, clone or source execution",
+          "robots": "Not yet adjudicated; recheck robots/host terms at pinned file URLs before actual ingestion",
+          "gates": [
+            "Pinned commit/file hashes",
+            "Per-file provenance and full licenses/notices",
+            "Structural normalization and time-sampled visual dedup",
+            "Safe local code/image preview without remote media or whole gallery execution"
+          ]
+        },
+        "netPotentialRange": null,
+        "confidence": "high implementation/license evidence",
+        "status": "priority-sample",
+        "risks": [
+          "Only clip motion qualifies; source video/artwork not ingested",
+          "Some nine functions may share base behavior"
+        ]
+      },
+      "contentScope": "Existing source/registry research is carried forward. No new original JS or Lottie is executed, and no current preview or complete originality review is claimed for this reserve."
+    },
+    {
+      "name": "David Faure 3D Text Scroll",
+      "advertisedOrGrossCandidateCount": 3,
+      "countBasis": "Author README explicitly names Cylinder,Double Circle,Tube rotation",
+      "sourceUrls": [
+        "https://github.com/davidfaure/3d-text-animation-codrops"
+      ],
+      "licenseClaim": "MIT code",
+      "licenseUrl": "https://raw.githubusercontent.com/davidfaure/3d-text-animation-codrops/master/LICENSE",
+      "status": "hold",
+      "qualifiedNet": 0,
+      "reason": "CSS3D arrangements use JS scroll state. Cylinder/Double Circle/Tube author examples have not been proved separate rotation constructions through current-host frame review.",
+      "priorResearchEvidence": {
+        "researchFile": "motion-research.json",
+        "name": "David Faure 3D Text Scroll",
+        "urls": [
+          "https://github.com/davidfaure/3d-text-animation-codrops"
+        ],
+        "licenseUrl": "https://raw.githubusercontent.com/davidfaure/3d-text-animation-codrops/master/LICENSE",
+        "license": "MIT code",
+        "availableCount": 3,
+        "countBasis": "Author README explicitly names Cylinder,Double Circle,Tube rotation",
+        "existingOverlap": "No direct sourceName match",
+        "renderPath": "CSS3D+JS scroll composition with system font",
+        "acquisition": {
+          "method": "Exa search and read-only page/raw-file fetch; no bulk crawl, clone or source execution",
+          "robots": "Not yet adjudicated; recheck robots/host terms at pinned file URLs before actual ingestion",
+          "gates": [
+            "Pinned commit/file hashes",
+            "Per-file provenance and full licenses/notices",
+            "Structural normalization and time-sampled visual dedup",
+            "Safe local code/image preview without remote media or whole gallery execution"
+          ]
+        },
+        "netPotentialRange": null,
+        "confidence": "high author/license evidence",
+        "status": "priority-sample",
+        "risks": [
+          "Different arrangements may be one rotation family",
+          "No external fonts/images assumed licensed"
+        ]
+      },
+      "contentScope": "Existing source/registry research is carried forward. No new original JS or Lottie is executed, and no current preview or complete originality review is claimed for this reserve."
+    },
+    {
+      "name": "Spemer original Lottie UI",
+      "advertisedOrGrossCandidateCount": 4,
+      "countBasis": "Four real folders: animate_tab,floating_action_button,ic_fav,pagination_indicator",
+      "sourceUrls": [
+        "https://github.com/spemer/lottie-animations-json",
+        "https://github.com/spemer/lottie-animations-json/tree/master"
+      ],
+      "licenseClaim": "MIT",
+      "licenseUrl": "https://raw.githubusercontent.com/spemer/lottie-animations-json/master/LICENSE",
+      "status": "hold",
+      "qualifiedNet": 0,
+      "reason": "Lottie JSON rendering and external-asset/expression auditing are not supported by the current host. Four real UI folders are gross origins; generic star/FAB/tab/page states may collapse into existing basic families.",
+      "priorResearchEvidence": {
+        "researchFile": "motion-research.json",
+        "name": "Spemer original Lottie UI",
+        "urls": [
+          "https://github.com/spemer/lottie-animations-json",
+          "https://github.com/spemer/lottie-animations-json/tree/master"
+        ],
+        "licenseUrl": "https://raw.githubusercontent.com/spemer/lottie-animations-json/master/LICENSE",
+        "license": "MIT",
+        "availableCount": 4,
+        "countBasis": "Four real folders: animate_tab,floating_action_button,ic_fav,pagination_indicator",
+        "existingOverlap": "No direct sourceName match; generic star/FAB/tab may overlap",
+        "renderPath": "Local Lottie JSON->audited SVG/Canvas renderer or faithful extraction; inspect external assets/expressions first",
+        "acquisition": {
+          "method": "Exa search and read-only page/raw-file fetch; no bulk crawl, clone or source execution",
+          "robots": "Not yet adjudicated; recheck robots/host terms at pinned file URLs before actual ingestion",
+          "gates": [
+            "Pinned commit/file hashes",
+            "Per-file provenance and full licenses/notices",
+            "Structural normalization and time-sampled visual dedup",
+            "Safe local code/image preview without remote media or whole gallery execution"
+          ]
+        },
+        "netPotentialRange": null,
+        "confidence": "high folder/license evidence",
+        "status": "priority-sample",
+        "risks": [
+          "Lottie preview capability still needs verification",
+          "AEP files unused; frames not assets"
+        ]
+      },
+      "contentScope": "Existing source/registry research is carried forward. No new original JS or Lottie is executed, and no current preview or complete originality review is claimed for this reserve."
+    }
+  ],
+  "priorityGrossCandidateCount": 222,
+  "grossCountsCountAsQualified": false,
+  "existingMotionCanonicalCount": 3345,
+  "newVerifiedGLSLMotionCount": 54,
+  "currentPolicy": "Accept only complete independently constructed original effect, existing-family deduplication and supported faithful local preview. Color/count/speed/pose/basic UI variants do not add records. No generic square replacement and no speculative host adapter are authored.",
+  "researchSourcePath": "exa-results/expansion-20000-2026-10-10/candidates.json",
+  "researchSourceSha256": "8f29ffbf52245ddfd211d10359a354145175f5b959c63c04f71243efa4167d5d",
+  "bindings": [
+    {
+      "path": "data/upstream/expansion12-motion-reserve/inventory-report.json",
+      "sha256": "2f073918925eae5f531c263168a66854d52be8e1c8b5ac5496a71f555ea8fb81"
+    },
+    {
+      "path": "data/upstream/expansion12-motion-reserve/motionary-nonaxial-css-acquisition.json",
+      "sha256": "bfe1b7752fe0be9146b470a82d612b23cc39d17f43e0a161c277fe43ebbfcdfb"
+    },
+    {
+      "path": "data/upstream/expansion12-motion-reserve/motionary-nonaxial-component-acquisition.json",
+      "sha256": "936c3f8c3692183e09fd2830e2202c39c67cb53cedb3ff95714c5d9e0601aa68"
+    },
+    {
+      "path": "dist/preview.js",
+      "sha256": "f96d0d7078ffe6aa189fce72723a1ee8dd2e8b2c475b628eb1f80bc2336b7151"
+    }
+  ]
+}

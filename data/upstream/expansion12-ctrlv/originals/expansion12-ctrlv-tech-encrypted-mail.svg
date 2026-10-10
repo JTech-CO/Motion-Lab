@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Envelope -->
+                <rect x="80" y="80" width="240" height="140" rx="4" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="8"/>
+                <path d="M80 80 L200 160 L320 80" stroke="var(--charcoal)" stroke-width="8" stroke-linejoin="round" fill="none"/>
+                
+                <!-- Security Shield Overlay -->
+                <g transform="translate(200, 180)">
+                    <g class="anim-bounce" >
+                    <path d="M0 -30 L25 -15 V20 Q0 35 -25 20 V-15 Z" fill="var(--accent-color)" stroke="var(--charcoal)" stroke-width="4"/>
+                    <rect x="-8" y="-5" width="16" height="15" fill="var(--bg-surface)" opacity="0.3"/>
+                </g>
+                </g>
+                
+                <!-- Floating Lock Bits -->
+                <circle class="anim-pulse" cx="120" cy="110" r="6" fill="var(--secondary-color)"/>
+                <circle class="anim-pulse" style="animation-delay: 0.3s;" cx="280" cy="110" r="4" fill="var(--primary-color)"/>
+                
+                <!-- Data Stream -->
+                <path class="anim-draw" d="M100 200 H140 M260 200 H300" stroke="var(--charcoal)" stroke-width="2" opacity="0.2"/>
+            </g>
+          </svg>

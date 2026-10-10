@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="160" ry="12" fill="#E2E8F0" opacity="0.6"/>
+            
+            <!-- Presentation Board -->
+            <rect class="anim-float" x="120" y="60" width="160" height="100" rx="8" fill="var(--charcoal)" opacity="0.1"/>
+            <rect class="anim-float" x="140" y="80" width="60" height="60" rx="4" fill="var(--charcoal)"/>
+            <circle class="anim-float" cx="240" cy="110" r="20" fill="var(--secondary-color)" style="animation-delay: -1s"/>
+            <path class="anim-draw" d="M200 110 Q220 90 240 110" stroke="var(--primary-color)" stroke-width="2" stroke-dasharray="4 4" fill="none"/>
+            
+            <!-- Character 1 (Left) -->
+            <path d="M80 260 C80 220 100 200 120 200 H140 C160 200 180 220 180 260 V270 H80 V260 Z" fill="var(--primary-color)"/>
+            <circle cx="130" cy="170" r="24" fill="#94A3B8"/>
+            <path class="anim-typing" d="M145 210 L190 180" stroke="var(--primary-color)" stroke-width="10" stroke-linecap="round"/>
+            
+            <!-- Character 2 (Right) -->
+            <path d="M220 260 C220 220 240 200 260 200 H280 C300 200 320 220 320 260 V270 H220 V260 Z" fill="var(--secondary-color)"/>
+            <circle cx="270" cy="170" r="24" fill="#94A3B8"/>
+            <path class="anim-typing" d="M255 210 L210 180" stroke="var(--secondary-color)" stroke-width="10" stroke-linecap="round" style="animation-delay: -0.5s"/>
+            
+            <circle class="anim-glow" cx="200" cy="180" r="10" fill="var(--accent-color)" opacity="0.8"/>
+          </svg>

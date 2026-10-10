@@ -1,0 +1,14 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Huge Mobile Base -->
+            <path class="anim-float" d="M120 280 L200 120 L300 160 L220 320 Z" fill="var(--primary-color)"/>
+            <path class="anim-float" d="M130 270 L200 130 L290 165 L220 305 Z" fill="var(--charcoal)" opacity="0.2"/>
+            <!-- Floating UI Panels Exploding Outwards -->
+            <g class="anim-bounce">
+                <rect x="80" y="80" width="80" height="60" rx="8" fill="var(--secondary-color)" transform="rotate(-15 80 80)"/>
+                <rect x="240" y="40" width="60" height="80" rx="8" fill="var(--accent-color)" transform="rotate(15 240 40)"/>
+                <circle cx="120" cy="180" r="25" fill="var(--charcoal)"/>
+                <rect x="280" y="160" width="70" height="20" rx="10" fill="var(--charcoal)"/>
+            </g>
+            <!-- Holographic Connections -->
+            <path class="anim-draw" d="M200 160 L140 100 M240 180 L270 120 M180 200 L130 180 M260 240 L300 170" stroke="var(--primary-color)" stroke-width="2" stroke-dasharray="6 6" opacity="0.5"/>
+          </svg>

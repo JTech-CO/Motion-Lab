@@ -1,0 +1,27 @@
+{
+  "theme": "colorful gradient waves",
+  "style_hints": "",
+  "references": [
+    "shabon-fx/AuroraWaves.frag [color_palette,grid,noise,wave]",
+    "shabon-fx/NeonGrid.frag [grid,matrix,postprocess,volumetric,wave]",
+    "shabon-fx/WaterCaustics.frag [grid,matrix,noise,postprocess,wave]",
+    "shabon-fx/LivingShabon.frag [color_palette,grid,lighting,noise,postprocess,raymarching,reflection,wave]",
+    "wgsl-art/public-shaders/shaders/1318.wgsl/1318.wgsl [color_palette,noise,postprocess,raymarching,reflection,wave]"
+  ],
+  "attempts": 1,
+  "created_at": "2026-03-28T13:21:00.645518+00:00",
+  "glsl_lines": 97,
+  "success": true,
+  "target": "wgsl",
+  "design_brief": "**Implementation Guide: Colorful Gradient Waves**  \n\n1. **Architecture** (`main()` order):  \n   ```glsl\n   // 1. Normalize UVs (aspect-correct, centered)  \n   vec2 uv = vUv; uv.x *= uResolution.x/uResolution.y; uv = (uv - 0.5) * 2.0;  \n   // 2. Compute base wave pattern (FBM + domain-warp)  \n   // 3. Map to palette (e.g., via `cosPalette`)  \n   // 4. Add subtle glow/fade at edges for brightness  \n   gl_FragColor = vec4(color, 1.0);\n   ```  \n\n2. **Key functions**:  \n   - `noise(vec2)` — use **Ref #1’s hash-noise** (simple, no derivatives)  \n   - `fbm(vec2, int)` — 3–4 octaves, `0.5^i` amplitude decay  \n   - `domainWarp(vec2, float)` — `p + noise(p*2.0)*0.3` (Ref #1 pattern)  \n   - `cosPalette(float t)` — `0.5 + 0.5*cos(t + vec3(0,2,4))` (vivid, no `fract` needed)  \n\n3. **Reuse patterns**:  \n   - **Ref #1** for *noise + FBM + domain warping* (perfect for smooth, organic waves)  \n   - **Ref #2** for *aspect correction + centering UVs*  \n   - **Ref #3** for *animated Voronoi phase* → repurpose its `speed` logic for wave motion (`uTime * speed`)  \n\n4. **Color & brightness**:  \n   - Use `cosPalette` with `t = fbm(domainWarp(uv, uTime)) * 10.0`  \n   - Boost midtones: `color *= 1.3;`  \n   - Add soft radial vignette: `color *= 1.0 + 0.3 * (1.0 - length(uv));`  \n\n5. **Animation**:  \n   - Drive waves with `float t = uTime * 0.4;` (safe: `0.3–0.6` avoids aliasing)  \n   - Loop naturally via periodic noise (no modulo needed — noise is already periodic)  \n\n6. **Pitfalls**:  \n   - ❌ No `dFdx/dFdy`, so avoid sharp edges (use `smoothstep`, not `step`)  \n   - ❌ No bitwise ops — hash only via `sin()`/`fract()`  \n   - ✅ Always `varying vec2 vUv` — never `gl_FragCoord.xy/uResolution` for UVs  \n   - ✅ Keep `uIntensity`/`uScale` uniform to let artists tweak brightness/zoom  \n\n**Final tip**: Start with 2 FBM layers + 1 domain-warp pass — if too dark, increase `uIntensity` *before* changing palette.",
+  "review": {
+    "visual_complexity": 4,
+    "code_quality": 4,
+    "theme_match": 5,
+    "animation": 5,
+    "originality": 4,
+    "total": 22,
+    "verdict": "pass",
+    "feedback": "Excellent colorful gradient waves implementation with layered FBM, domain warping, and cosine palette; well-structured and animated, with good brightness coverage—minor improvement could be reducing the edge fade to avoid unnecessary darkening at screen edges."
+  }
+}

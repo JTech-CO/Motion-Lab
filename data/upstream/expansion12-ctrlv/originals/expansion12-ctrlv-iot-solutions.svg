@@ -1,0 +1,17 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Orbital Rings -->
+            <ellipse cx="200" cy="160" rx="120" ry="60" stroke="var(--charcoal)" stroke-width="2" stroke-dasharray="10 5" fill="none" opacity="0.2"/>
+            <ellipse class="anim-glow" cx="200" cy="160" rx="160" ry="80" stroke="var(--charcoal)" stroke-width="1" stroke-dasharray="4 8" fill="none" opacity="0.4"/>
+            <!-- Central Planet Hub -->
+            <circle class="anim-float" cx="200" cy="160" r="50" fill="var(--primary-color)"/>
+            <circle class="anim-float" cx="200" cy="160" r="20" fill="white" opacity="0.2"/>
+            <path class="anim-draw" d="M200 110 L200 60" stroke="var(--primary-color)" stroke-width="4" stroke-linecap="round"/>
+            <circle cx="200" cy="50" r="8" fill="var(--accent-color)"/>
+            <!-- Orbiting Nodes -->
+            <g class="anim-bounce">
+                <circle cx="80" cy="160" r="15" fill="var(--secondary-color)"/>
+                <circle cx="320" cy="160" r="15" fill="var(--secondary-color)"/>
+                <circle cx="120" cy="220" r="12" fill="var(--accent-color)"/>
+                <circle cx="280" cy="100" r="12" fill="var(--charcoal)"/>
+            </g>
+          </svg>

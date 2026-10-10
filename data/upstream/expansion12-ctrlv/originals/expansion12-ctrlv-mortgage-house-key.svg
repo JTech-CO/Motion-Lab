@@ -1,0 +1,11 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="anim-float">
+            <path d="M120 220 V150 L200 80 L280 150 V220 H120 Z" fill="var(--bg-surface)" stroke="var(--primary-color)" stroke-width="4"/>
+            <rect x="180" y="170" width="40" height="50" fill="var(--primary-color)" opacity="0.2"/>
+        </g>
+        <g class="anim-bounce">
+            <path d="M100 240 L300 240" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round"/>
+            <path d="M220 50 L180 90 M200 70 L240 30" stroke="var(--secondary-color)" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+        </g>
+        <text x="200" y="270" text-anchor="middle" font-family="Inter" font-weight="900" font-size="20" fill="var(--primary-color)">MORTGAGE</text>
+    </svg>

@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Phone -->
+                <rect x="160" y="100" width="80" height="140" rx="10" fill="var(--primary-color)"/>
+                <rect x="170" y="110" width="60" height="100" rx="4" fill="var(--bg-surface)"/>
+                <circle cx="200" cy="225" r="6" fill="var(--bg-surface)"/>
+                
+                <!-- Code -->
+                <rect x="180" y="140" width="40" height="15" rx="4" fill="var(--secondary-color)"/>
+                <circle cx="185" cy="147.5" r="3" fill="var(--bg-surface)"/>
+                <circle cx="195" cy="147.5" r="3" fill="var(--bg-surface)"/>
+                <circle cx="205" cy="147.5" r="3" fill="var(--bg-surface)"/>
+                <circle cx="215" cy="147.5" r="3" fill="var(--bg-surface)"/>
+                
+                <!-- Shield Auth -->
+                <g class="anim-bounce">
+                    <path d="M260 80 L230 90 V130 C230 160 260 180 260 180 C260 180 290 160 290 130 V90 L260 80 Z" fill="var(--accent-color)"/>
+                    <path class="anim-draw" d="M245 130 L255 140 L275 110" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                </g>
+            </g>
+          </svg>

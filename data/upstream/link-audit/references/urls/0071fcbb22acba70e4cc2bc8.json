@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/torifo/animation-blob-morph",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/torifo/animation-blob-morph",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/torifo/animation-blob-morph",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/torifo/animation-blob-morph",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:53.006333+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/torifo/animation-blob-morph",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "cce7434462c226edd5e992a34ccea2bfd6d1f236a29a0e69e51cb79a04566f49",
+      "responseBodySha256": "cce7434462c226edd5e992a34ccea2bfd6d1f236a29a0e69e51cb79a04566f49",
+      "title": "GitHub - torifo/animation-blob-morph: アニメーションスタディ — ノイズと呼吸・カーソル近接で揺らぐ有機ブロブ。架空の対話AI SYNCH のヒーローに組み込み。純HTML/CSS/JS・WebGL不使用。 · GitHub",
+      "textCharacters": 2950,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.772,
+      "captureCachePath": "exa-results/link-audit/references/captures/56c970816295d5ba12ea0115.json",
+      "captureCacheSha256": "db023f479bad85b56168a08fbb663b47021e833fa7203e3340ccbfa696563cd7"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-blob-morph-study",
+      "canonicalId": "ref-blob-morph-study",
+      "title": "Blob Morph Study",
+      "role": "canonical",
+      "sourceSha256": "690a4ac2fbf4bf9e7120e16394de123159cce9d46fa996cfe3edc5db04ea87dc"
+    }
+  ]
+}

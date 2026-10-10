@@ -1,0 +1,29 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="160" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <!-- Motion blur lines -->
+            <g class="anim-draw" stroke="var(--secondary-color)" stroke-width="5" stroke-linecap="round" opacity="0.4">
+                <path d="M20 200 H80 M10 215 H60 M30 230 H75"/>
+            </g>
+
+            <g class="anim-float">
+                <!-- Rear Wheels -->
+                <circle class="anim-rotate"  cx="110" cy="240" r="28" fill="var(--charcoal)"/>
+                <circle cx="110" cy="240" r="12" fill="var(--bg-surface)"/>
+                <!-- Front Wheels -->
+                <circle class="anim-rotate"  cx="290" cy="240" r="20" fill="var(--charcoal)"/>
+                <circle cx="290" cy="240" r="8" fill="var(--bg-surface)"/>
+
+                <!-- Chassis -->
+                <path d="M80 230 L100 190 H300 L340 230 Z" fill="var(--primary-color)"/>
+                <!-- Cockpit -->
+                <path d="M170 190 L185 165 H240 L255 190 Z" fill="var(--charcoal)" opacity="0.85"/>
+                <path d="M190 185 L200 168 H235 L245 185 Z" fill="var(--secondary-color)" opacity="0.5"/>
+                <!-- Front Wing -->
+                <path d="M300 230 L360 235 L355 225 L300 220 Z" fill="var(--accent-color)"/>
+                <!-- Rear Wing -->
+                <path d="M80 200 H105 V175 H80 Z" fill="var(--accent-color)"/>
+                <path d="M80 175 H105 V170 H80 Z" fill="var(--charcoal)"/>
+                <!-- Racing stripe -->
+                <path d="M100 195 H300" stroke="var(--bg-surface)" stroke-width="5" opacity="0.4"/>
+            </g>
+          </svg>

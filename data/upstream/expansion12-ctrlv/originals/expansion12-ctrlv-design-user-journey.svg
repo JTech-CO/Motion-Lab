@@ -1,0 +1,43 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Winding Path -->
+                <path class="anim-draw" d="M60 220 C60 220 120 250 160 180 S240 120 280 180 S340 180 340 100" stroke="var(--charcoal)" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.2"/>
+                <path class="anim-draw" d="M60 220 C60 220 120 250 160 180 S240 120 280 180 S340 180 340 100" stroke="var(--primary-color)" stroke-width="4" stroke-linecap="round" stroke-dasharray="12 8" fill="none"/>
+                
+                <!-- Touchpoint Nodes -->
+                <!-- Start -->
+                <g transform="translate(60, 220)">
+                    <g class="anim-bounce" >
+                    <circle cx="0" cy="0" r="15" fill="var(--accent-color)"/>
+                    <path d="M-5 -5 L5 5 M-5 5 L5 -5" stroke="var(--bg-surface)" stroke-width="4" stroke-linecap="round"/>
+                </g>
+                </g>
+                
+                <!-- Node 1 -->
+                <g transform="translate(160, 180)">
+                    <g class="anim-pulse" >
+                    <circle cx="0" cy="0" r="12" fill="var(--secondary-color)"/>
+                    <circle cx="0" cy="0" r="6" fill="var(--bg-surface)"/>
+                </g>
+                </g>
+                
+                <!-- Node 2 -->
+                <g transform="translate(280, 180)">
+                    <g class="anim-pulse"  style="animation-delay: 0.3s;">
+                    <circle cx="0" cy="0" r="12" fill="var(--primary-color)"/>
+                    <circle cx="0" cy="0" r="6" fill="var(--bg-surface)"/>
+                </g>
+                </g>
+                
+                <!-- Goal -->
+                <g transform="translate(340, 100)">
+                    <g class="anim-bounce"  style="animation-delay: 0.6s;">
+                    <path d="M-15 15 L0 -15 L15 15 Z" fill="var(--accent-color)"/>
+                    <circle cx="0" cy="-20" r="8" fill="var(--accent-color)"/>
+                </g>
+                </g>
+                
+                <!-- User Icon moving? (Simplified) -->
+                <circle class="anim-draw" cx="220" cy="150" r="10" fill="var(--charcoal)"/>
+            </g>
+          </svg>

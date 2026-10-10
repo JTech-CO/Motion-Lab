@@ -1,0 +1,115 @@
+{
+  "version": 1,
+  "commit": "549f0fda617b2081dd5c50ab57defa1a95e0f341",
+  "rendererSha256": "f96d0d7078ffe6aa189fce72723a1ee8dd2e8b2c475b628eb1f80bc2336b7151",
+  "originalFilesRechecked": 54,
+  "publicationFilesRechecked": 54,
+  "eligibleItems": [],
+  "heldItems": [
+    {
+      "id": "expansion12-shaderforge-2026-03-27_liquid-chrome-morphing-abstract-sculpture-glsl",
+      "rightsDecision": "eligible",
+      "adoptionDecision": "held",
+      "source": {
+        "path": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-27_liquid-chrome-morphing-abstract-sculpture/shader.frag",
+        "sha256": "176934243942ebc6df1b902515054149f3ebd18da0035dc1148afb4496650d79",
+        "gitBlobSha": "b59d7e949fc423091fe0526b5bb1788e037d9be4"
+      },
+      "notice": {
+        "path": "data/upstream/expansion12-motion-reserve/shader-forge/LICENSE",
+        "sha256": "876c040e45ea0f5db8c98d375c947a055c8f359a0605a2f64bc75e083343298e",
+        "bytes": 1064
+      },
+      "metadata": {
+        "path": "data/upstream/expansion12-motion-reserve/shader-forge/publication/gallery/2026-03-27_liquid-chrome-morphing-abstract-sculpture/metadata.json",
+        "sha256": "93d571312adc7eeda252387761f4a6f1e6d2c38c4d218d03ce12e945831ba0a9",
+        "gitBlobSha": "3fa080f466a90de2aac409bfe75d0b5a2cb516ce",
+        "bytes": 2775
+      },
+      "storedCodeSha256": "ce9b6d63512609eb0fb98aa427f673a11af37d135db3dabc0f6bd953251311df",
+      "adapterCodeSha256": "ed8855d38f21334eced28f2c590088860dbb96330306c43ff064b8d0d8cbb968",
+      "sourceAdapterAllFiveFramesExact": true,
+      "fullNoticeInCodeAndLicenseText": true,
+      "schemaAndCollectionEvidencePassed": true
+    },
+    {
+      "id": "expansion12-shaderforge-2026-03-28_abstract-voronoi-crystal-growth-animation-glsl",
+      "rightsDecision": "held",
+      "adoptionDecision": "held",
+      "source": {
+        "path": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-28_abstract-voronoi-crystal-growth-animation/shader.frag",
+        "sha256": "65dcdd958035a5d47cdd30856ef3319fe49c01bf147b443b6e7bd00e7327f426",
+        "gitBlobSha": "ada793fdfe14b60eaf4696878614aaee578807a0"
+      },
+      "notice": {
+        "path": "data/upstream/expansion12-motion-reserve/shader-forge/LICENSE",
+        "sha256": "876c040e45ea0f5db8c98d375c947a055c8f359a0605a2f64bc75e083343298e",
+        "bytes": 1064
+      },
+      "metadata": {
+        "path": "data/upstream/expansion12-motion-reserve/shader-forge/publication/gallery/2026-03-28_abstract-voronoi-crystal-growth-animation/metadata.json",
+        "sha256": "7761b993b169f69e0b73fc673dabbda55bc233ec67879659d6b986468842c260",
+        "gitBlobSha": "1c825b180d1ddba0d9291cdee8174f9bae455708",
+        "bytes": 2936
+      },
+      "storedCodeSha256": "0c2ab64f55432e853986ca4c5bda5890f95d407f64e8e46319c47ad08d4642b6",
+      "adapterCodeSha256": "a776a1e8f68faf9d3cfc61000c9212642d27703a8f1d6cddb799e1544562f974",
+      "sourceAdapterAllFiveFramesExact": true,
+      "fullNoticeInCodeAndLicenseText": true,
+      "schemaAndCollectionEvidencePassed": true
+    },
+    {
+      "id": "expansion12-shaderforge-2026-03-28_iridescent-soap-bubble-close-up-with-thin-film-interference-glsl",
+      "rightsDecision": "held",
+      "adoptionDecision": "held",
+      "source": {
+        "path": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-28_iridescent-soap-bubble-close-up-with-thin-film-interference/shader.frag",
+        "sha256": "d23baea9e808cf8ee68025058ce2e2eda99ce79a95bcbb1f2ad93fab1f3a61e0",
+        "gitBlobSha": "3be73aad1adeb8bb4b327333cb4561efac3a1ea1"
+      },
+      "notice": {
+        "path": "data/upstream/expansion12-motion-reserve/shader-forge/LICENSE",
+        "sha256": "876c040e45ea0f5db8c98d375c947a055c8f359a0605a2f64bc75e083343298e",
+        "bytes": 1064
+      },
+      "metadata": {
+        "path": "data/upstream/expansion12-motion-reserve/shader-forge/publication/gallery/2026-03-28_iridescent-soap-bubble-close-up-with-thin-film-interference/metadata.json",
+        "sha256": "77d6847ac0eab645c492ff094f03e23277c8636844610d9882735546359c790a",
+        "gitBlobSha": "6f59d3af0bd5959deb601d0a45af39567c248e97",
+        "bytes": 3046
+      },
+      "storedCodeSha256": "57fcc3f30100bc39403747015ddfcd153ad77fad48043a76d998b6ed1809480d",
+      "adapterCodeSha256": "0f0630ea231c0b0485e84ba93e9f13784a9e3547ec72e355819ec38d9ed692fb",
+      "sourceAdapterAllFiveFramesExact": true,
+      "fullNoticeInCodeAndLicenseText": true,
+      "schemaAndCollectionEvidencePassed": true
+    },
+    {
+      "id": "expansion12-shaderforge-2026-03-29_fractal-mandelbrot-deep-zoom-with-electric-colors-glsl",
+      "rightsDecision": "held",
+      "adoptionDecision": "held",
+      "source": {
+        "path": "data/upstream/expansion12-motion-reserve/shader-forge/originals/gallery/2026-03-29_fractal-mandelbrot-deep-zoom-with-electric-colors/shader.frag",
+        "sha256": "62dfcefb38745fc99bb044dce137be4acef6e8cd9a75340dc672d3944271e7ef",
+        "gitBlobSha": "d8c7a4a2beaf0c756cf5b92cc623b70265d469ac"
+      },
+      "notice": {
+        "path": "data/upstream/expansion12-motion-reserve/shader-forge/LICENSE",
+        "sha256": "876c040e45ea0f5db8c98d375c947a055c8f359a0605a2f64bc75e083343298e",
+        "bytes": 1064
+      },
+      "metadata": {
+        "path": "data/upstream/expansion12-motion-reserve/shader-forge/publication/gallery/2026-03-29_fractal-mandelbrot-deep-zoom-with-electric-colors/metadata.json",
+        "sha256": "18e0196414033b8c25943a2fd2e63bba190191928c87c10eefb562a5b1083cf9",
+        "gitBlobSha": "53a700631944a5436fabc724ea0232ff4af6e0f6",
+        "bytes": 2815
+      },
+      "storedCodeSha256": "a94bb7d7f219e43e92bfe3a1bda11f44a673de1ad4ecaf45f9b22a8a4d38d71c",
+      "adapterCodeSha256": "31e4839e180fc8035f2d3df934a982b44be393553a08c4dc493496597e1cae9d",
+      "sourceAdapterAllFiveFramesExact": true,
+      "fullNoticeInCodeAndLicenseText": true,
+      "schemaAndCollectionEvidencePassed": true
+    }
+  ],
+  "eligibleInputSha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+}

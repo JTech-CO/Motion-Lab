@@ -1,0 +1,26 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            
+            <!-- Main Building Block -->
+            <rect x="120" y="160" width="160" height="110" fill="var(--primary-color)"/>
+            <path d="M160 160 V270 M240 160 V270" stroke="white" stroke-width="4" opacity="0.2"/>
+            <path d="M180 270 V220 C180 210 220 210 220 220 V270 " fill="white" opacity="0.3"/>
+            
+            <!-- Center Tall Onion Dome -->
+            <rect x="180" y="80" width="40" height="80" fill="var(--primary-color)"/>
+            <path d="M175 80 C175 40 200 10 200 10 C200 10 225 40 225 80 Z" fill="var(--primary-color)"/>
+            <path d="M200 10 V30" stroke="white" stroke-width="4"/>
+            
+            <!-- Left Medium Dome -->
+            <rect x="130" y="110" width="30" height="50" fill="var(--primary-color)"/>
+            <path d="M125 110 C125 80 145 50 145 50 C145 50 165 80 165 110 Z" fill="var(--primary-color)"/>
+            
+            <!-- Right Medium Dome -->
+            <rect x="240" y="110" width="30" height="50" fill="var(--primary-color)"/>
+            <path d="M235 110 C235 80 255 50 255 50 C255 50 275 80 275 110 Z" fill="var(--primary-color)"/>
+            
+            <!-- Falling Snow Pattern -->
+            <circle class="anim-data" cx="100" cy="100" r="3" fill="var(--accent-color)"/>
+            <circle class="anim-data" cx="300" cy="60" r="3" fill="var(--accent-color)" style="animation-delay: -0.3s"/>
+            <circle class="anim-data" cx="280" cy="180" r="4" fill="var(--secondary-color)" style="animation-delay: -0.7s"/>
+            <circle class="anim-data" cx="80" cy="220" r="3" fill="var(--secondary-color)" style="animation-delay: -1s"/>
+          </svg>

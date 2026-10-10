@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            
+            
+            <g>
+                <polygon points="200,100 240,180 160,180" fill="#f43f5e" opacity="0.2" />
+                <polygon points="200,100 240,180 160,180" stroke="#334155" stroke-width="4" stroke-linejoin="round" />
+                
+                
+                <path d="M100 150 L180 150" stroke="white" stroke-width="6" stroke-linecap="round" />
+                
+                
+                <path d="M220 150 L300 130" stroke="#6366f1" stroke-width="4" stroke-linecap="round" />
+                <path d="M220 150 L310 150" stroke="#DFD116" stroke-width="4" stroke-linecap="round" />
+                <path d="M220 150 L300 170" stroke="#f43f5e" stroke-width="4" stroke-linecap="round" />
+            </g>
+            
+            
+            <g>
+                
+                <ellipse cx="100" cy="250" rx="20" ry="5" fill="#334155" opacity="0.1" />
+                
+                <path d="M100 210 C120 210 130 240 100 240 C70 240 80 210 100 210 Z" fill="#6366f1" />
+                
+                <path d="M100 215 C105 205 110 200 115 200" stroke="#334155" stroke-width="3" stroke-linecap="round" fill="none" />
+                
+                <path d="M110 210 C120 200 130 210 120 220 Z" fill="#f43f5e" />
+                
+                
+                <path d="M100 80 L100 180" stroke="#334155" stroke-width="2" stroke-dasharray="4 8" stroke-linecap="round" opacity="0.5" />
+            </g>
+            
+            <path d="M75 140 H90 M75 150 H85 M75 160 H95" stroke="#f43f5e" stroke-width="3" stroke-linecap="round" />
+          </svg>

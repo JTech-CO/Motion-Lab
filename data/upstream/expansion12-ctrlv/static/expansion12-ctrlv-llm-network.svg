@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            
+            <path d="M260 60 L320 100 L300 160 L240 180 L200 120 Z" stroke="#6366f1" stroke-width="2" fill="none" opacity="0.4" />
+            <path d="M320 100 L360 80 M300 160 L340 200 M240 180 L220 240 M200 120 L160 80" stroke="#6366f1" stroke-width="2" fill="none" opacity="0.4" />
+            <g fill="#f43f5e" opacity="0.6">
+                <circle cx="260" cy="60" r="4" /><circle cx="320" cy="100" r="4" /><circle cx="300" cy="160" r="4" />
+                <circle cx="240" cy="180" r="4" /><circle cx="200" cy="120" r="4" /><circle cx="360" cy="80" r="4" />
+                <circle cx="340" cy="200" r="4" /><circle cx="220" cy="240" r="4" /><circle cx="160" cy="80" r="4" />
+            </g>
+            
+            
+            <rect x="60" y="100" width="160" height="120" rx="12" fill="#6366f1" />
+            <rect x="70" y="110" width="140" height="80" rx="6" fill="#F8FAFC" opacity="0.95" />
+            
+            
+            <path d="M200 120 L180 150" stroke="#DFD116" stroke-width="2" stroke-linecap="round" />
+
+            
+            <g>
+                <rect x="80" y="125" width="80" height="6" rx="3" fill="#334155" />
+                <rect x="80" y="145" width="110" height="6" rx="3" fill="#334155" opacity="0.6" />
+                <rect x="80" y="165" width="60" height="6" rx="3" fill="#334155" opacity="0.6" />
+            </g>
+            
+            <circle cx="80" cy="205" r="5" fill="#DFD116" />
+            <rect x="90" y="202" width="40" height="6" rx="3" fill="#f43f5e" />
+          </svg>

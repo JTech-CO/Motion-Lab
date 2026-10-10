@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- The Board -->
+        <rect x="80" y="60" width="240" height="180" rx="8" fill="white" stroke="var(--border-color)" stroke-width="2"/>
+        <line x1="160" y1="60" x2="160" y2="240" stroke="var(--border-color)" stroke-width="1"/>
+        <line x1="240" y1="60" x2="240" y2="240" stroke="var(--border-color)" stroke-width="1"/>
+        
+        <!-- Sticky Notes -->
+        <g class="anim-float">
+            <rect x="95" y="80" width="40" height="30" rx="2" fill="var(--primary-color)" opacity="0.8"/>
+            <rect x="95" y="120" width="40" height="30" rx="2" fill="var(--secondary-color)" opacity="0.8"/>
+        </g>
+        <g class="anim-bounce">
+            <rect x="175" y="90" width="40" height="30" rx="2" fill="var(--accent-color)" opacity="0.8"/>
+        </g>
+        <g class="anim-pulse">
+            <rect x="255" y="150" width="40" height="30" rx="2" fill="#166534" opacity="0.8"/>
+        </g>
+        
+        <!-- Team Interaction -->
+        <circle cx="120" cy="270" r="15" fill="var(--charcoal)"/>
+        <circle cx="280" cy="270" r="15" fill="var(--charcoal)"/>
+    </svg>

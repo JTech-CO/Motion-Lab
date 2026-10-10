@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Calendar Frame -->
+                <rect x="70" y="40" width="260" height="220" rx="8" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="8"/>
+                <rect x="70" y="40" width="260" height="50" fill="var(--primary-color)"/>
+                <!-- Rings -->
+                <rect x="100" y="30" width="10" height="25" rx="5" fill="var(--charcoal)"/>
+                <rect x="290" y="30" width="10" height="25" rx="5" fill="var(--charcoal)"/>
+                
+                <!-- Grid -->
+                <g stroke="var(--charcoal)" stroke-width="2" opacity="0.2">
+                    <line x1="70" y1="130" x2="330" y2="130"/>
+                    <line x1="70" y1="175" x2="330" y2="175"/>
+                    <line x1="70" y1="220" x2="330" y2="220"/>
+                    <line x1="135" y1="90" x2="135" y2="260"/>
+                    <line x1="200" y1="90" x2="200" y2="260"/>
+                    <line x1="265" y1="90" x2="265" y2="260"/>
+                </g>
+                
+                <!-- Scheduled Content Blocks -->
+                <rect class="anim-pulse" x="145" y="100" width="45" height="20" rx="4" fill="var(--accent-color)"/>
+                <rect class="anim-pulse" style="animation-delay: 0.2s;" x="210" y="140" width="45" height="25" rx="4" fill="var(--secondary-color)"/>
+                <rect class="anim-pulse" style="animation-delay: 0.4s;" x="80" y="185" width="45" height="25" rx="4" fill="var(--primary-color)"/>
+                <rect class="anim-pulse" style="animation-delay: 0.6s;" x="275" y="230" width="45" height="20" rx="4" fill="var(--accent-color)"/>
+                
+                <text x="200" y="73" font-family="monospace" font-weight="bold" font-size="24" fill="var(--bg-surface)" text-anchor="middle">MARCH</text>
+            </g>
+          </svg>

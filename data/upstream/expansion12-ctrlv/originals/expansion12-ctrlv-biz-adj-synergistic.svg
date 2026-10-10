@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Large Top Gear -->
+                <g class="anim-rotate" >
+                    <circle cx="200" cy="100" r="45" fill="var(--primary-color)"/>
+                    <path d="M190 40 H210 V160 H190 Z M140 90 H260 V110 H140 Z" fill="var(--primary-color)"/>
+                    <circle cx="200" cy="100" r="15" fill="var(--bg-surface)"/>
+                </g>
+                <!-- Small Left Gear -->
+                <g class="anim-rotate" >
+                    <circle cx="150" cy="180" r="30" fill="var(--secondary-color)"/>
+                    <path d="M140 140 H160 V220 H140 Z M110 170 H190 V190 H110 Z" fill="var(--secondary-color)"/>
+                    <circle cx="150" cy="180" r="10" fill="var(--bg-surface)"/>
+                </g>
+                <!-- Small Right Gear -->
+                <g class="anim-rotate" >
+                    <circle cx="250" cy="180" r="30" fill="var(--accent-color)"/>
+                    <path d="M240 140 H260 V220 H240 Z M210 170 H290 V190 H210 Z" fill="var(--accent-color)"/>
+                    <circle cx="250" cy="180" r="10" fill="var(--bg-surface)"/>
+                </g>
+                <!-- Connection Sparks -->
+                <circle class="anim-pulse" cx="170" cy="140" r="6" fill="var(--accent-color)"/>
+                <circle class="anim-pulse" style="animation-delay: 0.5s;" cx="230" cy="140" r="6" fill="var(--secondary-color)"/>
+            </g>
+          </svg>

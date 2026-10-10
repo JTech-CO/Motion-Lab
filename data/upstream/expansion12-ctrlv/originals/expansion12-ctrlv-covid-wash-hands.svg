@@ -1,0 +1,31 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Water Droplets -->
+                <path class="anim-bounce" d="M120 70 Q130 90 120 100 Q110 90 120 70 Z" fill="var(--primary-color)"/>
+                <path class="anim-bounce" style="animation-delay: -0.5s;" d="M280 90 Q290 110 280 120 Q270 110 280 90 Z" fill="var(--primary-color)"/>
+                
+                <!-- Hand Profiles -->
+                <!-- Left Hand -->
+                <path d="M170 150 C120 150 90 200 70 240 H160 L180 180 C190 160 180 150 170 150 Z" fill="var(--secondary-color)"/>
+                <path d="M130 180 C160 160 180 180 180 200 L160 240 H110 Z" fill="var(--charcoal)" opacity="0.1"/>
+                
+                <!-- Right Hand -->
+                <path d="M230 150 C280 150 310 200 330 240 H240 L220 180 C210 160 220 150 230 150 Z" fill="var(--accent-color)"/>
+                <path d="M270 180 C240 160 220 180 220 200 L240 240 H290 Z" fill="var(--charcoal)" opacity="0.1"/>
+                
+                <!-- Soap Bubbles -->
+                <g class="anim-pulse" fill="var(--bg-surface)" stroke="var(--primary-color)" stroke-width="3">
+                    <circle cx="200" cy="180" r="25" opacity="0.8"/>
+                    <circle cx="170" cy="210" r="15" opacity="0.7"/>
+                    <circle cx="230" cy="210" r="18" opacity="0.9"/>
+                    <circle cx="250" cy="170" r="10" opacity="0.6"/>
+                    <circle cx="150" cy="170" r="12" opacity="0.8"/>
+                    <circle cx="190" cy="230" r="20" opacity="0.7"/>
+                </g>
+                
+                <!-- Bubble reflections -->
+                <circle cx="195" cy="170" r="6" fill="var(--primary-color)" opacity="0.5"/>
+                <circle cx="225" cy="205" r="4" fill="var(--primary-color)" opacity="0.5"/>
+                <circle cx="185" cy="225" r="5" fill="var(--primary-color)" opacity="0.5"/>
+            </g>
+          </svg>

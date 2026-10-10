@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="anim-float">
+            <!-- Plug side 1 -->
+            <rect x="100" y="130" width="60" height="40" rx="4" fill="var(--charcoal)"/>
+            <rect x="160" y="140" width="20" height="5" rx="2" fill="var(--slate-400)"/>
+            <rect x="160" y="155" width="20" height="5" rx="2" fill="var(--slate-400)"/>
+        </g>
+        <g class="anim-float" style="animation-delay: -1s">
+            <!-- Plug side 2 -->
+            <rect x="240" y="130" width="60" height="40" rx="4" fill="var(--charcoal)"/>
+            <circle cx="220" cy="150" r="15" fill="none" stroke="#ef4444" stroke-width="3"/>
+            <line x1="210" y1="140" x2="230" y2="160" stroke="#ef4444" stroke-width="3" stroke-linecap="round"/>
+        </g>
+        <path class="anim-draw" d="M190 100 V130" stroke="#ef4444" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+        <text x="190" y="80" text-anchor="middle" font-family="Inter" font-weight="900" font-size="24" fill="#ef4444">!</text>
+    </svg>

@@ -1,0 +1,11 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="anim-float">
+            <rect x="100" y="100" width="120" height="80" rx="10" fill="var(--primary-color)" opacity="0.1" stroke="var(--primary-color)" stroke-width="2"/>
+            <text x="160" y="150" text-anchor="middle" font-family="Inter" font-weight="900" font-size="40" fill="var(--primary-color)">?</text>
+        </g>
+        <g class="anim-float" style="animation-delay: -1s">
+            <rect x="180" y="150" width="120" height="80" rx="10" fill="var(--secondary-color)" opacity="0.1" stroke="var(--secondary-color)" stroke-width="2"/>
+            <text x="240" y="200" text-anchor="middle" font-family="Inter" font-weight="900" font-size="40" fill="var(--secondary-color)">!</text>
+        </g>
+        <text x="200" y="70" text-anchor="middle" font-family="Inter" font-weight="900" font-size="30" fill="var(--charcoal)">FAQ</text>
+    </svg>

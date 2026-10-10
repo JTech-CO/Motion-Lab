@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="130" ry="10" fill="#E2E8F0"/>
+            <g class="anim-float">
+              <!-- Camera Body -->
+              <rect x="110" y="110" width="180" height="120" rx="15" fill="var(--primary-color)"/>
+              <rect x="110" y="110" width="180" height="40" rx="15" fill="var(--charcoal)" opacity="0.9"/>
+              <!-- Flash/Viewfinder -->
+              <rect x="180" y="90" width="40" height="20" rx="4" fill="var(--charcoal)" opacity="0.8"/>
+              <rect x="140" y="120" width="20" height="10" rx="2" fill="var(--bg-surface)"/>
+              <!-- Lens -->
+              <circle cx="200" cy="170" r="50" fill="var(--bg-surface)"/>
+              <circle cx="200" cy="170" r="35" fill="var(--charcoal)" opacity="0.9"/>
+              <circle cx="200" cy="170" r="20" fill="var(--secondary-color)"/>
+              <circle cx="205" cy="165" r="5" fill="white"/>
+              <!-- Button -->
+              <rect class="anim-bounce" x="120" y="100" width="20" height="10" rx="3" fill="var(--accent-color)"/>
+            </g>
+            <!-- Photo printing out -->
+            <rect class="anim-draw" x="150" y="230" width="100" height="40" fill="white" stroke="var(--secondary-color)" stroke-width="2"/>
+            <path class="anim-draw" d="M160 250 H240 M160 260 H220" stroke="var(--accent-color)" stroke-width="3" stroke-linecap="round"/>
+          </svg>

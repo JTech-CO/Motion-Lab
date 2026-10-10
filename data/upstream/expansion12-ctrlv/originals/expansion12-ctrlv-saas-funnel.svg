@@ -1,0 +1,31 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Funnel Top Stage -->
+                <path d="M100 60 H300 L260 120 H140 Z" fill="var(--primary-color)" opacity="0.4"/>
+                <ellipse cx="200" cy="60" rx="100" ry="15" fill="var(--primary-color)" opacity="0.6"/>
+                <ellipse cx="200" cy="120" rx="60" ry="10" fill="var(--primary-color)"/>
+                
+                <!-- Funnel Middle Stage -->
+                <path d="M140 130 H260 L230 190 H170 Z" fill="var(--secondary-color)" opacity="0.6"/>
+                <ellipse cx="200" cy="130" rx="60" ry="10" fill="var(--secondary-color)" opacity="0.8"/>
+                <ellipse cx="200" cy="190" rx="30" ry="5" fill="var(--secondary-color)"/>
+                
+                <!-- Funnel Bottom Tube -->
+                <path d="M170 200 H230 V250 H170 Z" fill="var(--accent-color)" opacity="0.8"/>
+                <ellipse cx="200" cy="200" rx="30" ry="5" fill="var(--accent-color)"/>
+                <ellipse cx="200" cy="250" rx="30" ry="5" fill="var(--accent-color)"/>
+                
+            </g>
+            
+            <!-- Users dropping into funnel -->
+            <g class="anim-data" fill="var(--charcoal)">
+                <circle cx="160" cy="20" r="8"/>
+                <circle cx="200" cy="10" r="8"/>
+                <circle cx="240" cy="30" r="8"/>
+            </g>
+            <!-- Users filtering down -->
+            <circle class="anim-data" style="animation-delay: -1s;" cx="200" cy="160" r="8" fill="var(--bg-surface)"/>
+            
+                <path d="M195 265 L200 270 L208 260" stroke="#FFF" stroke-width="2" stroke-linecap="round" fill="none"/>
+            </g>
+          </svg>

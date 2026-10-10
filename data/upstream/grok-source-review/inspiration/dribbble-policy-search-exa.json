@@ -1,0 +1,22 @@
+{
+  "url": "https://dribbble.com/terms",
+  "method": "Exa public search",
+  "status": "Exa-search-result",
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공식 정체·작품·권리 문서 탐색용 검색 결과. URL은 발견 후보이며 검색 요약만으로 권리 허가를 판정하지 않았다.",
+  "sector": 4,
+  "siteId": "dribbble",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/dribbble-policy-search-exa.json",
+  "rawCacheSha256": "5a9352f2a2c82e906bcf7176c03d020e469eae62717dab5f7d26d205584dadb0",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "1ec76a6b8cd493a65b9c4b2a281f716e83985b9e3d72a6231a9f1654db7ac094",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "requestedNumResults": 5,
+  "searchResultUrls": [
+    "https://dribbble.com/terms",
+    "https://developer.dribbble.com/terms/",
+    "https://support.dribbble.com/hc/en-us/articles/360056066854-Can-I-use-work-that-I-find-on-Dribbble",
+    "https://dribbble.com/guidelines",
+    "https://tostracker.app/document/dribbble/clause/ip-license-grant"
+  ]
+}

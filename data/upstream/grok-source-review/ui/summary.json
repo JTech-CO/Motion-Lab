@@ -1,0 +1,108 @@
+{
+  "reviewedAt": "2026-10-10",
+  "scope": "UI animation sources and additional Resolve resources from docs/motiongraphic-assets-by-grok.md; review only",
+  "sitesReviewed": 7,
+  "siteIds": [
+    "lottiefiles",
+    "iconscout",
+    "lottielab",
+    "lordicon",
+    "mosso",
+    "allavio",
+    "mralextech"
+  ],
+  "sources_reviewed": 80,
+  "sources_reviewedDefinition": "Exa search call numResults 합계입니다. 고유 공식 페이지 수, 실제 다운로드 수, 신규 적합 원본 수가 아닙니다.",
+  "exaSearchCalls": 16,
+  "searchLedgerPath": "data/upstream/grok-source-review/ui/exa-search-ledger.json",
+  "distinctOfficialUrlsCaptured": 48,
+  "verdictCounts": {
+    "no-public-redistribution": 4,
+    "reference-only": 3
+  },
+  "qualifiedSupply": {
+    "verifiedNetNew": 0,
+    "unverifiedPotential": null
+  },
+  "assetsAdded": 0,
+  "assetPayloadDownloads": 0,
+  "accountCreation": false,
+  "purchasesOrCartActions": false,
+  "apiAssetCalls": false,
+  "credentialsUsed": false,
+  "authenticationOrChallengeBypass": false,
+  "sourcePackagesInstalledOrExecuted": false,
+  "ordinaryPublicPageJavaScript": "일반 Chrome 페이지 표시만 수행했습니다. 다운로드한 원본 코드·패키지·플러그인을 설치하거나 실행하지 않았습니다.",
+  "rightsScope": "사이트·대표 상세·공식 약관·robots 접근 결과만 검토했습니다. 원본 파일과 개별 다운로드 고지·전체 공급 구성·자산 수준 중복은 검증하지 않았습니다.",
+  "catalogReview": {
+    "path": "data/upstream/grok-source-review/ui/existing-catalog-review.json",
+    "catalogSha256": "643300e8581b957345acc4d636a13b30bf52c5b24cf3714b10341a53c4032c97",
+    "canonicalItemsAtReview": 11827,
+    "originalsIncludingVariantsAndRepair": 11884,
+    "allSevenSourceMatchCounts": 0
+  },
+  "rendererReview": {
+    "path": "dist/preview.js",
+    "sha256": "f96d0d7078ffe6aa189fce72723a1ee8dd2e8b2c475b628eb1f80bc2336b7151",
+    "currentFormatFit": "SVG with strict sanitizer, CSS built-in previews, bounded single-pass GLSL transitions, local raster images. No Lottie JSON/dotLottie runtime host; export to SVG/image is a separate derivative format and does not grant source redistribution."
+  },
+  "importantDistinctions": [
+    "Lottie Simple License의 조건부 일반 배포 및 동일 조건 적용과, 유사·경쟁 서비스용 수집 제한을 함께 기록했습니다.",
+    "IconScout의 HTTP/Chrome 403 challenge, Lottielab robots 404와 개별 상세 navigation timeout, MrAlexTech 과거 상세 URL의 200 홈페이지 fallback을 실제 성공 페이지와 구분했습니다.",
+    "Mosso는 공식 mosso.video로 확인했습니다. 50/day download quota, API·MCP 기능, 무료 가격, marketing inventory는 원본 재배포 권리 또는 순신규 공급량이 아닙니다.",
+    "사이트별 무료·유료·preset·state·부품 수치는 서로 단위가 다르며 기존 asset 수에 더하지 않습니다.",
+    "Lottie JSON/dotLottie는 현재 renderer 미지원입니다. SVG/CSS/GLSL/image는 실제 파일의 안전성·render·라이선스 검증이 따로 필요합니다."
+  ],
+  "evidencePolicy": {
+    "fullPageTextLocation": "ignored exa-results/grok-source-review-ui/cache",
+    "durableFullPageText": false,
+    "quotedWordsPerOfficialUrl": {
+      "https://lottiefiles.com/page/license": 13,
+      "https://help.lottiefiles.com/animation-licensing-basics-": 6,
+      "https://help.iconscout.com/iconscout-digital-physical-license-policy": 6,
+      "https://iconscout.com/licenses": 0,
+      "https://www.lottielab.com/terms": 14,
+      "https://lordicon.com/licenses": 9,
+      "https://lordicon.com/docs/license/free": 3,
+      "https://mosso.video/legal/terms/": 19,
+      "https://www.allavio.com/licensing-service-agreement/": 10,
+      "https://www.mralextech.com/terms": 9,
+      "https://www.mralextech.com/licenses": 0
+    },
+    "maxQuotedWordsPerPage": 25,
+    "quotesStoredOnlyIn": "sites.json termsEvidence"
+  },
+  "browserIsolationCleanup": [
+    {
+      "site": "iconscout",
+      "independentFreshProfile": true,
+      "normalBrowserClose": true,
+      "profileRemoved": true
+    },
+    {
+      "site": "lordicon",
+      "independentFreshProfile": true,
+      "normalBrowserClose": true,
+      "profileRemoved": true
+    },
+    {
+      "site": "lordicon-detail",
+      "independentFreshProfile": true,
+      "normalBrowserClose": true,
+      "profileRemoved": true
+    },
+    {
+      "site": "lottielab",
+      "independentFreshProfile": true,
+      "normalBrowserClose": true,
+      "profileRemoved": true
+    },
+    {
+      "site": "lottielab-detail",
+      "independentFreshProfile": true,
+      "normalBrowserClose": true,
+      "profileRemoved": true
+    }
+  ],
+  "nextStep": "현재 7개 사이트에서 공개 원본 창고에 곧바로 넣을 적합 자료는 0개입니다. 참고 출처 유지 여부를 별도로 결정하고, 원본 수집은 명시적 재배포 계약·개별 고지·지원 형식이 확인될 때 검토합니다."
+}

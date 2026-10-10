@@ -1,0 +1,40 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="150" ry="12" fill="#E2E8F0"/>
+            <g class="anim-float">
+                <!-- Browser/App Window -->
+                <rect x="40" y="40" width="320" height="200" rx="8" fill="var(--bg-surface)" stroke="var(--primary-color)" stroke-width="4"/>
+                <path d="M40 80 H360" stroke="var(--primary-color)" stroke-width="4"/>
+                
+                <!-- Window controls -->
+                <circle cx="60" cy="60" r="5" fill="var(--secondary-color)"/>
+                <circle cx="80" cy="60" r="5" fill="var(--accent-color)"/>
+                <circle cx="100" cy="60" r="5" fill="var(--primary-color)"/>
+                
+                <!-- Sidebar -->
+                <path d="M110 80 V240" stroke="var(--primary-color)" stroke-width="4" opacity="0.2"/>
+                <!-- Sidebar items -->
+                <rect x="60" y="100" width="30" height="30" rx="4" fill="var(--primary-color)" opacity="0.2"/>
+                <circle cx="75" cy="115" r="8" fill="var(--primary-color)"/>
+                <rect x="65" y="145" width="20" height="20" rx="4" fill="var(--charcoal)" opacity="0.2"/>
+                <rect x="65" y="180" width="20" height="20" rx="4" fill="var(--charcoal)" opacity="0.2"/>
+                <rect x="65" y="215" width="20" height="20" rx="4" fill="var(--charcoal)" opacity="0.2"/>
+                
+                <!-- Main Header area -->
+                <path class="anim-draw" d="M140 110 H220 M140 120 H180" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+                <rect x="310" y="100" width="30" height="30" rx="15" fill="var(--secondary-color)"/>
+                
+                <!-- KPI Cards -->
+                <rect class="anim-bounce" style="animation-duration: 2s;" x="140" y="140" width="60" height="40" rx="4" fill="var(--primary-color)" opacity="0.1"/>
+                <rect class="anim-bounce" style="animation-duration: 2.2s;" x="210" y="140" width="60" height="40" rx="4" fill="var(--secondary-color)" opacity="0.1"/>
+                <rect class="anim-bounce" style="animation-duration: 2.4s;" x="280" y="140" width="60" height="40" rx="4" fill="var(--accent-color)" opacity="0.1"/>
+                
+                <path d="M150 155 H170 M150 165 H160" stroke="var(--primary-color)" stroke-width="3" stroke-linecap="round"/>
+                <path d="M220 155 H240 M220 165 H230" stroke="var(--secondary-color)" stroke-width="3" stroke-linecap="round"/>
+                <path d="M290 155 H310 M290 165 H300" stroke="var(--accent-color)" stroke-width="3" stroke-linecap="round"/>
+
+                <!-- Main Chart -->
+                <rect x="140" y="190" width="200" height="40" rx="4" fill="var(--charcoal)" opacity="0.05"/>
+                <path class="anim-draw" d="M150 220 Q180 190 210 210 T270 190 T330 200" fill="none" stroke="var(--accent-color)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path class="anim-float" d="M150 220 Q180 190 210 210 T270 190 T330 200 V230 H150 Z" fill="var(--accent-color)" opacity="0.2"/>
+            </g>
+          </svg>

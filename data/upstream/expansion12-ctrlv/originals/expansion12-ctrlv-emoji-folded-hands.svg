@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Aura -->
+                <polygon class="anim-pulse" points="200,40 220,80 270,100 220,120 200,160 180,120 130,100 180,80" fill="var(--accent-color)" opacity="0.2"/>
+                
+                <!-- Sleeves -->
+                <path d="M80 260 L160 180 V260 Z" fill="var(--primary-color)"/>
+                <path d="M320 260 L240 180 V260 Z" fill="var(--secondary-color)"/>
+                
+                <!-- Hands -->
+                <path d="M150 200 L180 80 A 20 20 0 0 1 220 80 L250 200 Z" fill="var(--bg-surface)"/>
+                <path d="M200 80 V200" stroke="var(--charcoal)" stroke-width="4" opacity="0.3"/>
+                
+                <!-- Fingers detail -->
+                <line x1="190" y1="100" x2="210" y2="100" stroke="var(--charcoal)" stroke-width="4" opacity="0.3"/>
+                <line x1="185" y1="130" x2="215" y2="130" stroke="var(--charcoal)" stroke-width="4" opacity="0.3"/>
+                <line x1="180" y1="160" x2="220" y2="160" stroke="var(--charcoal)" stroke-width="4" opacity="0.3"/>
+            </g>
+          </svg>

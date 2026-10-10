@@ -1,0 +1,41 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <g class="anim-float">
+                <!-- Base Donut Track -->
+                <circle cx="200" cy="140" r="80" stroke="var(--charcoal)" stroke-width="40" opacity="0.2" fill="none"/>
+                
+                <g class="anim-rotate" style="transform-origin: 200px 140px; animation-duration: 4s;">
+                    <!-- Donut Segments -->
+                    <!-- Largest Segment (Primary) -->
+                    <circle cx="200" cy="140" r="80" stroke="var(--primary-color)" stroke-width="40" stroke-dasharray="280 500" fill="none"/>
+                    
+                    <!-- Medium Segment (Secondary) -->
+                    <circle cx="200" cy="140" r="80" stroke="var(--secondary-color)" stroke-width="40" stroke-dasharray="120 500" stroke-dashoffset="-285" fill="none"/>
+                    
+                    <!-- Smallest Segment (Accent) -->
+                    <circle cx="200" cy="140" r="80" stroke="var(--accent-color)" stroke-width="40" stroke-dasharray="90 500" stroke-dashoffset="-410" fill="none"/>
+                </g>
+                
+                <!-- Center Info Graphic -->
+                <circle cx="200" cy="140" r="60" fill="var(--bg-surface)"/>
+                <path d="M185 140 H215 M200 125 V155" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                
+                <!-- Outlying Data Tags -->
+                <g class="anim-bounce">
+                    <!-- Top Right -->
+                    <path class="anim-draw" d="M260 80 L290 50 H320" stroke="var(--primary-color)" stroke-width="4" stroke-linecap="round" fill="none"/>
+                    <rect x="330" y="40" width="40" height="20" rx="5" fill="var(--primary-color)"/>
+                    <rect x="340" y="48" width="20" height="4" rx="2" fill="var(--bg-surface)"/>
+                    
+                    <!-- Bottom -->
+                    <path class="anim-draw" style="animation-delay: 0.3s;" d="M220 220 L240 250 H270" stroke="var(--secondary-color)" stroke-width="4" stroke-linecap="round" fill="none"/>
+                    <rect x="280" y="240" width="40" height="20" rx="5" fill="var(--secondary-color)"/>
+                    <rect x="290" y="248" width="20" height="4" rx="2" fill="var(--bg-surface)"/>
+                    
+                    <!-- Left -->
+                    <path class="anim-draw" style="animation-delay: 0.6s;" d="M120 140 L90 140 L70 120 H40" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round" fill="none"/>
+                    <rect x="20" y="110" width="40" height="20" rx="5" fill="var(--accent-color)"/>
+                    <rect x="30" y="118" width="20" height="4" rx="2" fill="var(--bg-surface)"/>
+                </g>
+            </g>
+          </svg>

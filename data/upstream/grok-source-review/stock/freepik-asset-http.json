@@ -1,0 +1,23 @@
+{
+  "id": "freepik",
+  "url": "https://www.freepik.com/premium-video/abstract-geometric-shapes-soft-gradient-background_6230783",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 403,
+  "finalUrl": "https://www.freepik.com/premium-video/abstract-geometric-shapes-soft-gradient-background_6230783",
+  "contentType": "text/html",
+  "truncated": false,
+  "observedBytes": 7530,
+  "observedContentSha256": "b17c2791067d7ab16521aeb30d995e1a76d1499711fe6ba3f5555f462fabf63a",
+  "links": [
+    {
+      "url": "https://www.magnific.com"
+    },
+    {
+      "url": "mailto:support@magnific.com?subject=Access%20denied&body=Hi%2C%0A%0APlease%20provide%20the%20following%20information%20so%20we%20can%20assist%20you%3A%0A%0A-%20Error%20reference%20you%20see%3A%0A%0A-%20The%20IP%20address%20of%20your%20WiFi%20connection%20(you%20can%20get%20it%20here%3A%20https%3A%2F%2Fwhatismyipaddress.com)%0A%0A-%20Confirm%20if%20you%27re%20using%20a%20VPN.%0A%0A-%20Screenshots%20of%20your%20screen%20and%20of%20the%20console%20information.%0A%0AThank%20you.%0A"
+    }
+  ],
+  "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+  "challengeOrDenial": true
+}

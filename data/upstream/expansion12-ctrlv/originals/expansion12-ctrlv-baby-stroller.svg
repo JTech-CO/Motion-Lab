@@ -1,0 +1,32 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Background atmosphere -->
+            <path class="anim-float" d="M100 130 Q150 30 250 80 T300 180 Q200 260 100 180 Z" fill="var(--secondary-color)" opacity="0.1"/>
+            
+            <!-- Stroller Frame -->
+            <g class="anim-bounce">
+                <path d="M250 230 L220 150 L280 80" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                <path d="M150 230 L180 170 H220" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                
+                <!-- Main Carriage -->
+                <path d="M120 170 H260 C260 210 220 220 190 220 C160 220 120 200 120 170 Z" fill="var(--primary-color)"/>
+                
+                <!-- Hood/Canopy -->
+                <path d="M120 170 C120 110 180 110 190 170 Z" fill="var(--primary-color)" opacity="0.8"/>
+                <path d="M185 170 C185 120 240 130 255 170 Z" fill="var(--primary-color)" opacity="0.4"/>
+            </g>
+
+            <!-- Wheels (animating separately from carriage but not bouncing violently to mess up colors) -->
+            <circle cx="150" cy="230" r="24" stroke="var(--charcoal)" stroke-width="6" fill="white"/>
+            <circle cx="150" cy="230" r="6" fill="var(--charcoal)"/>
+            <path class="anim-draw" d="M150 206 V254 M126 230 H174" stroke="var(--charcoal)" stroke-width="2"/>
+            
+            <circle cx="250" cy="230" r="24" stroke="var(--charcoal)" stroke-width="6" fill="white"/>
+            <circle cx="250" cy="230" r="6" fill="var(--charcoal)"/>
+            <path class="anim-draw" d="M250 206 V254 M226 230 H274" stroke="var(--charcoal)" stroke-width="2"/>
+
+            <!-- Bouncing Toy attached to handle -->
+            <circle class="anim-float" cx="240" cy="120" r="8" fill="var(--accent-color)" opacity="0.9" style="animation-delay: -0.5s"/>
+            <path class="anim-draw" d="M245 110 L260 95" stroke="var(--charcoal)" stroke-width="2" stroke-linecap="round"/>
+
+            <path class="anim-glow" d="M140 80 L145 90 L155 90 L148 97 L150 107 L140 100 L130 107 L132 97 L125 90 L135 90 Z" fill="var(--accent-color)"/>
+          </svg>

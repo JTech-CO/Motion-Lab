@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            
+            <path d="M0 250 L400 250 M0 280 L400 280 M100 200 V300 M200 200 V300 M300 200 V300" stroke="#334155" stroke-width="2" opacity="0.1" />
+            
+            
+            <path d="M180 210 A20 20 0 1 1 220 210 L240 230 L280 240 L260 260 L230 250 V280 L250 310 L220 310 L200 280 L180 310 L150 310 L170 280 V250 L140 260 L120 240 L160 230 Z" stroke="white" stroke-width="4" stroke-dasharray="8 4" fill="#334155" opacity="0.4" />
+            
+            
+            <g>
+                <path d="M-20 180 L420 80" stroke="#DFD116" stroke-width="25" />
+                <path d="M0 175 L400 75" stroke="#334155" stroke-width="25" stroke-dasharray="40 40" opacity="0.9" />
+                <text x="180" y="130" fill="#ffffff" font-family="sans-serif" font-weight="bold" font-size="14" transform="rotate(-14 200 130)">DO NOT CROSS</text>
+            </g>
+            
+            
+            <g transform="translate(100, 230)">
+                <g>
+                    <path d="M10 0 L0 30 H20 Z" fill="#DFD116" />
+                    <path d="M10 0 L20 30" stroke="#334155" stroke-width="2" />
+                    <text x="6" y="25" fill="#334155" font-family="sans-serif" font-weight="bold" font-size="12">1</text>
+                </g>
+            </g>
+            
+            
+            <circle cx="300" cy="120" r="40" fill="white" opacity="0.6" />
+            <path d="M290 110 H310 L315 130 H285 Z" fill="#334155" />
+            <circle cx="300" cy="120" r="5" fill="#f43f5e" />
+            <path d="M300 120 L240 210" stroke="white" stroke-width="2" opacity="0.5" />
+          </svg>

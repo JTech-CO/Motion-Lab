@@ -1,0 +1,27 @@
+{
+  "url": "https://www.shadertoy.com/",
+  "status": "browser-check-required",
+  "finalUrl": "https://www.shadertoy.com/",
+  "reason": "robots-policy-unverified-normal-browser-needed",
+  "invalidConfirmed": false,
+  "inconclusive": true,
+  "robotsChecks": [
+    {
+      "url": "https://www.shadertoy.com/",
+      "allowedForAuditGet": false,
+      "reason": "robots-policy-unverified-normal-browser-needed",
+      "robotsUrl": "https://www.shadertoy.com/robots.txt",
+      "robotsStatus": 403
+    }
+  ],
+  "accessEvidence": [],
+  "items": [
+    {
+      "id": "ref-shadertoy",
+      "canonicalId": "ref-shadertoy",
+      "title": "Shadertoy",
+      "role": "canonical",
+      "sourceSha256": "c17c7e91c22e1e628903d8c6f4f9fbffb32120ec5548b7caaf3581699e30d145"
+    }
+  ]
+}

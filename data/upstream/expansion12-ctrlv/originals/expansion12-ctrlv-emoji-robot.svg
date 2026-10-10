@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-bounce">
+                <!-- Antenna -->
+                <path d="M200 80 V40" stroke="var(--secondary-color)" stroke-width="8"/>
+                <circle class="anim-glow" cx="200" cy="40" r="10" fill="var(--accent-color)"/>
+                
+                <!-- Ears -->
+                <rect x="70" y="130" width="30" height="40" rx="5" fill="var(--secondary-color)"/>
+                <rect x="300" y="130" width="30" height="40" rx="5" fill="var(--secondary-color)"/>
+                
+                <!-- Head -->
+                <rect x="100" y="80" width="200" height="160" rx="20" fill="var(--primary-color)"/>
+                
+                <!-- Screen/Eyes area -->
+                <rect x="120" y="110" width="160" height="60" rx="10" fill="var(--bg-surface)"/>
+                <circle cx="160" cy="140" r="15" fill="var(--charcoal)"/>
+                <circle cx="240" cy="140" r="15" fill="var(--charcoal)"/>
+                <circle class="anim-pulse" cx="160" cy="140" r="6" fill="var(--accent-color)"/>
+                <circle class="anim-pulse" cx="240" cy="140" r="6" fill="var(--accent-color)"/>
+                
+                <!-- Grill Mouth -->
+                <path d="M150 190 H250 M150 200 H250 M150 210 H250" stroke="var(--bg-surface)" stroke-width="4" stroke-linecap="round"/>
+                <rect x="140" y="180" width="120" height="40" rx="5" stroke="var(--bg-surface)" stroke-width="4" fill="none"/>
+            </g>
+          </svg>

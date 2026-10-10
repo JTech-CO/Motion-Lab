@@ -1,0 +1,408 @@
+{
+  "version": 1,
+  "status": "complete",
+  "sourceCommit": "549f0fda617b2081dd5c50ab57defa1a95e0f341",
+  "referenceManifestPath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/manifest.json",
+  "referenceManifestSha256": "c57df0ea073973916b310111caf8ed24892e34470c2c0994143938790ef67bbb",
+  "candidateDecisions": [
+    {
+      "index": 27,
+      "id": "expansion12-shaderforge-2026-03-27_liquid-chrome-morphing-abstract-sculpture-glsl",
+      "decision": "eligible",
+      "basis": "All five declared references mapped to bounded primary comparisons: three LYGIA Porter-Duff source-over blend functions plus corresponding WGSL and canonical PlayCanvas anisotropic getReflDir. Actual source contains none of those functions, blend/composite calls, anisotropic directions/tangent/normal machinery, alpha compositing or their implementation structure. Actual curl-gradient field, four coordinate warps and chromeColor composition differ. General GLSL interpolation, dot/normalize/pow and noise arithmetic are not treated as substantive copying by themselves. Repository MIT declaration accepted for this independently different program; AI provenance remains explicit.",
+      "declaredReferenceHistoricalPinsAvailable": false,
+      "thirdPartySubstantiveCopyDetected": false,
+      "proofScope": "Current independently pinned primary bodies and full notices; original RAG input commits are not published. No third-party corpus imported. This is a bounded code provenance review, not a universal warranty."
+    },
+    {
+      "index": 33,
+      "id": "expansion12-shaderforge-2026-03-28_abstract-voronoi-crystal-growth-animation-glsl",
+      "decision": "held",
+      "basis": "Metadata explicitly instructs Copy ref1 voronoi loop structure. Actual source preserves the LYGIA function signature, i_uv/f_uv/rta variable names and initialization, nested neighbor loop, nearest-site distance and rta.xy/rta.z return arrangement, with adjusted float loop variables and TAU literal. This is substantive implementation reuse, not merely the abstract Voronoi algorithm. Canonical LYGIA body carries Prosperity/Patron licensing. The independently read Book of Shaders example also shares exact random2 implementation and similar isoline/nearest-point structure; its current root LICENSE says all rights reserved. No additional grant/patron license exists here. Upstream MIT does not establish permission to relicense those portions.",
+      "thirdPartySubstantiveCopyDetected": true
+    },
+    {
+      "index": 40,
+      "id": "expansion12-shaderforge-2026-03-28_iridescent-soap-bubble-close-up-with-thin-film-interference-glsl",
+      "decision": "held",
+      "basis": "Compared LYGIA iridescence and Fresnel primary bodies. Source optical cosine/IOR terms differ substantially and generic thin-film/Fresnel formulas alone do not establish code copying. However original explicitly says based on IQ value noise, metadata references community/SHADER/shadertoy_volcanic.glsl and an extracted three.js sampleGlassSpecular. Exact historical reference bodies, original per-file author/license and degree of substantive noise reuse are not supplied. Those unresolved third-party rights prevent adoption; no claim of proven infringement.",
+      "thirdPartySubstantiveCopyDetected": "unresolved"
+    },
+    {
+      "index": 50,
+      "id": "expansion12-shaderforge-2026-03-29_fractal-mandelbrot-deep-zoom-with-electric-colors-glsl",
+      "decision": "held",
+      "basis": "Mandelbrot z=z*z+c and escape-time logarithms are common mathematical operations and do not prove copying. Metadata nevertheless explicitly instructs reuse of ref3 mandelbrot and other references, naming five Shadertoy IDs without per-output licenses or historical bodies. Primary Shadertoy access via web failed and independent browser entry failed; exact referenced programs and rights remain unverified. Repository MIT alone is insufficient to resolve that explicit provenance gap.",
+      "thirdPartySubstantiveCopyDetected": "unresolved"
+    }
+  ],
+  "referenceStaticChecks": [
+    {
+      "index": 27,
+      "id": "expansion12-shaderforge-2026-03-27_liquid-chrome-morphing-abstract-sculpture-glsl",
+      "originalSha256": "176934243942ebc6df1b902515054149f3ebd18da0035dc1148afb4496650d79",
+      "metadataSha256": "93d571312adc7eeda252387761f4a6f1e6d2c38c4d218d03ce12e945831ba0a9",
+      "importIncludeExternalFunctions": false,
+      "actualSourceFunctionNames": [
+        "hash",
+        "noise",
+        "gradNoise",
+        "curlNoise",
+        "warp",
+        "chromeColor",
+        "main"
+      ],
+      "matches": [
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--thebookofshaders--12_vorono-01.frag",
+          "referenceSha256": "acd0ca5c831de5f467b249315d5ff67bd254c1acf3864ee723fb89b7c90ef788",
+          "exactLongestContiguousTokenRun": 12,
+          "sourceFractionOfRun": 0.013621,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--generative_voronoi.glsl",
+          "referenceSha256": "e4c1f8f8894c0c878e61930907639b72dffeb8e3b15939ea9e203b4904eb9645",
+          "exactLongestContiguousTokenRun": 7,
+          "sourceFractionOfRun": 0.007946,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/playcanvas--engine--src_scene_shader-lib_glsl_chunks_lit_frag_reflDirAniso.js",
+          "referenceSha256": "eccefe7685e30854b704e3cbaa749cb3d33a159d3d53ee3a266a3af4a9cb7808",
+          "exactLongestContiguousTokenRun": 6,
+          "sourceFractionOfRun": 0.00681,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--color_layer_reflectSourceOver.glsl",
+          "referenceSha256": "f2951bf75ad4796e7725f55d7d224eeac16f7f018e20a5487dbceb6412b8e2f1",
+          "exactLongestContiguousTokenRun": 5,
+          "sourceFractionOfRun": 0.005675,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--color_layer_phoenixSourceOver.glsl",
+          "referenceSha256": "be99164c715d9a3f0754af837521ae7bad4c15885bfdfe31b4fd4ccfa036d7b9",
+          "exactLongestContiguousTokenRun": 5,
+          "sourceFractionOfRun": 0.005675,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--color_layer_hardMixSourceOver.glsl",
+          "referenceSha256": "755af11293d07c79843b8758b7558afcc4d5b951d03ea89622ddbbabfb349c20",
+          "exactLongestContiguousTokenRun": 5,
+          "sourceFractionOfRun": 0.005675,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/tuxalin--procedural-tileable-shaders--voronoi.glsl",
+          "referenceSha256": "430dbbb157c58b32dc9081c5946a13210c38c50263c4e22dbf0059fd42963eab",
+          "exactLongestContiguousTokenRun": 5,
+          "sourceFractionOfRun": 0.005675,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--color_layer_reflectSourceOver.wgsl",
+          "referenceSha256": "5f68b0aa606ae410247b715c4553dce8a8db98fc6310dfd18f92584b52a30621",
+          "exactLongestContiguousTokenRun": 5,
+          "sourceFractionOfRun": 0.005675,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--lighting_iridescence.glsl",
+          "referenceSha256": "532631123ae843e1e54b30590575a2c68698d4900417f7a4007968a85b041793",
+          "exactLongestContiguousTokenRun": 4,
+          "sourceFractionOfRun": 0.00454,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--lighting_fresnelReflection.glsl",
+          "referenceSha256": "8fd5e9bd3030e919de2960060fe98291359ac1955cd1f1a65e19ea225136705b",
+          "exactLongestContiguousTokenRun": 4,
+          "sourceFractionOfRun": 0.00454,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        }
+      ]
+    },
+    {
+      "index": 33,
+      "id": "expansion12-shaderforge-2026-03-28_abstract-voronoi-crystal-growth-animation-glsl",
+      "originalSha256": "65dcdd958035a5d47cdd30856ef3319fe49c01bf147b443b6e7bd00e7327f426",
+      "metadataSha256": "7761b993b169f69e0b73fc673dabbda55bc233ec67879659d6b986468842c260",
+      "importIncludeExternalFunctions": false,
+      "actualSourceFunctionNames": [
+        "random2",
+        "voronoi",
+        "colorFromVoronoi",
+        "main"
+      ],
+      "matches": [
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--generative_voronoi.glsl",
+          "referenceSha256": "e4c1f8f8894c0c878e61930907639b72dffeb8e3b15939ea9e203b4904eb9645",
+          "exactLongestContiguousTokenRun": 50,
+          "sourceFractionOfRun": 0.127877,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--thebookofshaders--12_vorono-01.frag",
+          "referenceSha256": "acd0ca5c831de5f467b249315d5ff67bd254c1acf3864ee723fb89b7c90ef788",
+          "exactLongestContiguousTokenRun": 45,
+          "sourceFractionOfRun": 0.11509,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/tuxalin--procedural-tileable-shaders--voronoi.glsl",
+          "referenceSha256": "430dbbb157c58b32dc9081c5946a13210c38c50263c4e22dbf0059fd42963eab",
+          "exactLongestContiguousTokenRun": 6,
+          "sourceFractionOfRun": 0.015345,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--color_layer_reflectSourceOver.glsl",
+          "referenceSha256": "f2951bf75ad4796e7725f55d7d224eeac16f7f018e20a5487dbceb6412b8e2f1",
+          "exactLongestContiguousTokenRun": 5,
+          "sourceFractionOfRun": 0.012788,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--color_layer_phoenixSourceOver.glsl",
+          "referenceSha256": "be99164c715d9a3f0754af837521ae7bad4c15885bfdfe31b4fd4ccfa036d7b9",
+          "exactLongestContiguousTokenRun": 5,
+          "sourceFractionOfRun": 0.012788,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--color_layer_hardMixSourceOver.glsl",
+          "referenceSha256": "755af11293d07c79843b8758b7558afcc4d5b951d03ea89622ddbbabfb349c20",
+          "exactLongestContiguousTokenRun": 5,
+          "sourceFractionOfRun": 0.012788,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--color_layer_reflectSourceOver.wgsl",
+          "referenceSha256": "5f68b0aa606ae410247b715c4553dce8a8db98fc6310dfd18f92584b52a30621",
+          "exactLongestContiguousTokenRun": 5,
+          "sourceFractionOfRun": 0.012788,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--lighting_fresnelReflection.glsl",
+          "referenceSha256": "8fd5e9bd3030e919de2960060fe98291359ac1955cd1f1a65e19ea225136705b",
+          "exactLongestContiguousTokenRun": 4,
+          "sourceFractionOfRun": 0.01023,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--lighting_iridescence.glsl",
+          "referenceSha256": "532631123ae843e1e54b30590575a2c68698d4900417f7a4007968a85b041793",
+          "exactLongestContiguousTokenRun": 3,
+          "sourceFractionOfRun": 0.007673,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/playcanvas--engine--src_scene_shader-lib_glsl_chunks_lit_frag_reflDirAniso.js",
+          "referenceSha256": "eccefe7685e30854b704e3cbaa749cb3d33a159d3d53ee3a266a3af4a9cb7808",
+          "exactLongestContiguousTokenRun": 3,
+          "sourceFractionOfRun": 0.007673,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        }
+      ]
+    },
+    {
+      "index": 40,
+      "id": "expansion12-shaderforge-2026-03-28_iridescent-soap-bubble-close-up-with-thin-film-interference-glsl",
+      "originalSha256": "d23baea9e808cf8ee68025058ce2e2eda99ce79a95bcbb1f2ad93fab1f3a61e0",
+      "metadataSha256": "77d6847ac0eab645c492ff094f03e23277c8636844610d9882735546359c790a",
+      "importIncludeExternalFunctions": false,
+      "actualSourceFunctionNames": [
+        "hash",
+        "noise",
+        "fbm",
+        "getIridescence",
+        "getFilmThickness",
+        "raymarch",
+        "calcNormal",
+        "soapBubble",
+        "main"
+      ],
+      "matches": [
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--thebookofshaders--12_vorono-01.frag",
+          "referenceSha256": "acd0ca5c831de5f467b249315d5ff67bd254c1acf3864ee723fb89b7c90ef788",
+          "exactLongestContiguousTokenRun": 9,
+          "sourceFractionOfRun": 0.007329,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--lighting_fresnelReflection.glsl",
+          "referenceSha256": "8fd5e9bd3030e919de2960060fe98291359ac1955cd1f1a65e19ea225136705b",
+          "exactLongestContiguousTokenRun": 8,
+          "sourceFractionOfRun": 0.006515,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--generative_voronoi.glsl",
+          "referenceSha256": "e4c1f8f8894c0c878e61930907639b72dffeb8e3b15939ea9e203b4904eb9645",
+          "exactLongestContiguousTokenRun": 7,
+          "sourceFractionOfRun": 0.0057,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--lighting_iridescence.glsl",
+          "referenceSha256": "532631123ae843e1e54b30590575a2c68698d4900417f7a4007968a85b041793",
+          "exactLongestContiguousTokenRun": 7,
+          "sourceFractionOfRun": 0.0057,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/tuxalin--procedural-tileable-shaders--voronoi.glsl",
+          "referenceSha256": "430dbbb157c58b32dc9081c5946a13210c38c50263c4e22dbf0059fd42963eab",
+          "exactLongestContiguousTokenRun": 6,
+          "sourceFractionOfRun": 0.004886,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--color_layer_reflectSourceOver.glsl",
+          "referenceSha256": "f2951bf75ad4796e7725f55d7d224eeac16f7f018e20a5487dbceb6412b8e2f1",
+          "exactLongestContiguousTokenRun": 5,
+          "sourceFractionOfRun": 0.004072,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--color_layer_phoenixSourceOver.glsl",
+          "referenceSha256": "be99164c715d9a3f0754af837521ae7bad4c15885bfdfe31b4fd4ccfa036d7b9",
+          "exactLongestContiguousTokenRun": 5,
+          "sourceFractionOfRun": 0.004072,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--color_layer_hardMixSourceOver.glsl",
+          "referenceSha256": "755af11293d07c79843b8758b7558afcc4d5b951d03ea89622ddbbabfb349c20",
+          "exactLongestContiguousTokenRun": 5,
+          "sourceFractionOfRun": 0.004072,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/playcanvas--engine--src_scene_shader-lib_glsl_chunks_lit_frag_reflDirAniso.js",
+          "referenceSha256": "eccefe7685e30854b704e3cbaa749cb3d33a159d3d53ee3a266a3af4a9cb7808",
+          "exactLongestContiguousTokenRun": 5,
+          "sourceFractionOfRun": 0.004072,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--color_layer_reflectSourceOver.wgsl",
+          "referenceSha256": "5f68b0aa606ae410247b715c4553dce8a8db98fc6310dfd18f92584b52a30621",
+          "exactLongestContiguousTokenRun": 5,
+          "sourceFractionOfRun": 0.004072,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        }
+      ]
+    },
+    {
+      "index": 50,
+      "id": "expansion12-shaderforge-2026-03-29_fractal-mandelbrot-deep-zoom-with-electric-colors-glsl",
+      "originalSha256": "62dfcefb38745fc99bb044dce137be4acef6e8cd9a75340dc672d3944271e7ef",
+      "metadataSha256": "18e0196414033b8c25943a2fd2e63bba190191928c87c10eefb562a5b1083cf9",
+      "importIncludeExternalFunctions": false,
+      "actualSourceFunctionNames": [
+        "hash",
+        "mandelbrot",
+        "getPalette",
+        "main"
+      ],
+      "matches": [
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--thebookofshaders--12_vorono-01.frag",
+          "referenceSha256": "acd0ca5c831de5f467b249315d5ff67bd254c1acf3864ee723fb89b7c90ef788",
+          "exactLongestContiguousTokenRun": 10,
+          "sourceFractionOfRun": 0.022989,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--generative_voronoi.glsl",
+          "referenceSha256": "e4c1f8f8894c0c878e61930907639b72dffeb8e3b15939ea9e203b4904eb9645",
+          "exactLongestContiguousTokenRun": 6,
+          "sourceFractionOfRun": 0.013793,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--lighting_fresnelReflection.glsl",
+          "referenceSha256": "8fd5e9bd3030e919de2960060fe98291359ac1955cd1f1a65e19ea225136705b",
+          "exactLongestContiguousTokenRun": 6,
+          "sourceFractionOfRun": 0.013793,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/tuxalin--procedural-tileable-shaders--voronoi.glsl",
+          "referenceSha256": "430dbbb157c58b32dc9081c5946a13210c38c50263c4e22dbf0059fd42963eab",
+          "exactLongestContiguousTokenRun": 4,
+          "sourceFractionOfRun": 0.009195,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--lighting_iridescence.glsl",
+          "referenceSha256": "532631123ae843e1e54b30590575a2c68698d4900417f7a4007968a85b041793",
+          "exactLongestContiguousTokenRun": 3,
+          "sourceFractionOfRun": 0.006897,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--color_layer_reflectSourceOver.glsl",
+          "referenceSha256": "f2951bf75ad4796e7725f55d7d224eeac16f7f018e20a5487dbceb6412b8e2f1",
+          "exactLongestContiguousTokenRun": 3,
+          "sourceFractionOfRun": 0.006897,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--color_layer_phoenixSourceOver.glsl",
+          "referenceSha256": "be99164c715d9a3f0754af837521ae7bad4c15885bfdfe31b4fd4ccfa036d7b9",
+          "exactLongestContiguousTokenRun": 3,
+          "sourceFractionOfRun": 0.006897,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--color_layer_hardMixSourceOver.glsl",
+          "referenceSha256": "755af11293d07c79843b8758b7558afcc4d5b951d03ea89622ddbbabfb349c20",
+          "exactLongestContiguousTokenRun": 3,
+          "sourceFractionOfRun": 0.006897,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/playcanvas--engine--src_scene_shader-lib_glsl_chunks_lit_frag_reflDirAniso.js",
+          "referenceSha256": "eccefe7685e30854b704e3cbaa749cb3d33a159d3d53ee3a266a3af4a9cb7808",
+          "exactLongestContiguousTokenRun": 3,
+          "sourceFractionOfRun": 0.006897,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        },
+        {
+          "referencePath": "data/upstream/expansion12-motion-reserve/shader-forge/rights-review/patriciogonzalezvivo--lygia--color_layer_reflectSourceOver.wgsl",
+          "referenceSha256": "5f68b0aa606ae410247b715c4553dce8a8db98fc6310dfd18f92584b52a30621",
+          "exactLongestContiguousTokenRun": 3,
+          "sourceFractionOfRun": 0.006897,
+          "note": "Matching numeric syntax or small common expressions is a prompt, not a copyright/copying conclusion."
+        }
+      ]
+    }
+  ],
+  "referenceAcquisition": {
+    "individualFilesIncludingMetadataAndNotices": 20,
+    "allFilesSha256Rechecked": true,
+    "bytes": 119449,
+    "historicalInputCommitsNotPublished": true,
+    "upstreamProgramsExecuted": false,
+    "noReferenceFilesAdoptedAsAssets": true,
+    "failedPrimaryShadertoyURLs": [
+      {
+        "url": "https://www.shadertoy.com/view/4df3Rn",
+        "webResult": "402 Payment Required; no body obtained"
+      },
+      {
+        "url": "https://www.shadertoy.com/view/XlBXWw",
+        "webResult": "402 Payment Required; no body obtained"
+      }
+    ],
+    "independentBrowserAttempt": "cua.createBrowserTab(iab,4df3Rn,visible:false) returned trusted Node process exited unexpectedly; kernel reset. No source body was obtained and no account/key workarounds were attempted."
+  }
+}

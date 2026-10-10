@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <g class="anim-float">
+              <path d="M120 200 Q140 80 200 120 Q260 160 280 80" stroke="var(--primary-color)" stroke-width="6" stroke-linecap="round" fill="none"/>
+              <circle class="anim-pulse" cx="200" cy="120" r="15" fill="var(--accent-color)"/>
+              <g class="anim-draw">
+                <path d="M80 150 L120 150" stroke="var(--secondary-color)" stroke-width="4" stroke-dasharray="6 4" stroke-linecap="round"/>
+                <path d="M280 100 L340 100" stroke="var(--secondary-color)" stroke-width="4" stroke-dasharray="6 4" stroke-linecap="round"/>
+              </g>
+              <rect x="50" y="135" width="42" height="30" rx="6" fill="var(--charcoal)" opacity="0.5"/>
+              <path d="M58 148 H84 M58 157 H78" stroke="var(--accent-color)" stroke-width="3" stroke-linecap="round"/>
+              <rect x="306" y="85" width="46" height="30" rx="6" fill="var(--charcoal)" opacity="0.5"/>
+              <circle class="anim-glow" cx="329" cy="100" r="8" fill="var(--accent-color)"/>
+              <path class="anim-pulse" d="M180 200 H220" stroke="var(--bg-surface)" stroke-width="3" stroke-linecap="round" stroke-dasharray="4 4"/>
+            </g>
+          </svg>

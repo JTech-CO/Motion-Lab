@@ -1,0 +1,14 @@
+{
+  "url": "https://motionographer.com/",
+  "method": "Exa public fetch",
+  "status": "Exa-content-read",
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공개 URL의 Exa 추출 내용을 읽었다. 직접 서버의 HTTP 200으로 간주하지 않았다. Motionographer: 실제 모션 제작 인터뷰·작품을 소개하는 편집 매체다.",
+  "sector": 4,
+  "siteId": "motionographer",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/motionographer-home-exa.json",
+  "rawCacheSha256": "3df0103678acfdd5b38270aaea741a2c2ae36f394dc2b8bd910166ade8a0e29a",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "b2a3d09465be666ec3a355829cc9af3b9d0c1556686ad0ab4f54b5ba1dbc41fe",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json."
+}

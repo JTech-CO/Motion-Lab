@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-bounce">
+                <!-- Solar Panels -->
+                <rect x="80" y="130" width="80" height="40" rx="4" fill="var(--secondary-color)" transform="rotate(-15 120 150)"/>
+                <rect x="240" y="130" width="80" height="40" rx="4" fill="var(--secondary-color)" transform="rotate(-15 280 150)"/>
+                
+                <!-- Panel Grids -->
+                <path d="M100 120 L140 170 M120 115 L160 165" stroke="white" stroke-width="2" opacity="0.5"/>
+                <path d="M260 120 L300 170 M280 115 L320 165" stroke="white" stroke-width="2" opacity="0.5"/>
+                
+                <!-- Satellite Body -->
+                <rect x="170" y="120" width="60" height="60" rx="8" fill="var(--primary-color)" transform="rotate(-15 200 150)"/>
+                <circle cx="200" cy="150" r="15" fill="var(--charcoal)" opacity="0.8"/>
+                
+                <!-- Antenna -->
+                <path d="M190 120 L160 60" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+                <path d="M140 60 Q160 40 180 60" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round" fill="none"/>
+            </g>
+            <!-- Signal Pulses -->
+            <path class="anim-data" d="M160 40 A30 30 0 0 1 180 30" stroke="var(--accent-color)" stroke-width="3" stroke-linecap="round" fill="none"/>
+            <path class="anim-data" d="M150 20 A50 50 0 0 1 190 10" stroke="var(--accent-color)" stroke-width="3" stroke-linecap="round" fill="none" style="animation-delay: -0.5s"/>
+          </svg>

@@ -1,0 +1,56 @@
+{
+  "url": "https://cssgradient.io/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://cssgradient.io/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://cssgradient.io/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://cssgradient.io/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://cssgradient.io/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:05.027164+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://cssgradient.io/",
+      "contentType": "text/html",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 134253,
+      "capturedSha256": "a2fd722c200a7b0cc4d0ec1e8756d709777b20871f9ad8f95607b92c53b2399f",
+      "responseBodySha256": "a2fd722c200a7b0cc4d0ec1e8756d709777b20871f9ad8f95607b92c53b2399f",
+      "title": "CSS Gradient – Generator, Maker, and Background",
+      "textCharacters": 7303,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.382,
+      "captureCachePath": "exa-results/link-audit/references/captures/9e954b0c41a39e89df57f0e4.json",
+      "captureCacheSha256": "b5ee8ea1bb315fef3595c5cd91f8d84e3587c673909ad70100bfca4543c22e94"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-css-gradient",
+      "canonicalId": "ref-css-gradient",
+      "title": "CSS Gradient",
+      "role": "canonical",
+      "sourceSha256": "a454cb807948f97d08a504d1a9d9ac89b12c1f1d09c82012743de5e1b6391bfe"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "url": "https://gradient.shapefactory.co/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://gradient.shapefactory.co/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://gradient.shapefactory.co/",
+      "allowedForAuditGet": true,
+      "reason": "robots-missing-not-a-license",
+      "robotsUrl": "https://gradient.shapefactory.co/robots.txt",
+      "robotsStatus": 404
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://gradient.shapefactory.co/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:05.842001+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://gradient.shapefactory.co/",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "017ba23bcbfe6c3245aa6c948ce663b1fda1c9f3ff2b38489fc2f1d5ccb1e038",
+      "responseBodySha256": "017ba23bcbfe6c3245aa6c948ce663b1fda1c9f3ff2b38489fc2f1d5ccb1e038",
+      "title": "Gradient by ShapeFactory | Chromatic Gradient Generator",
+      "textCharacters": 1721,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.492,
+      "captureCachePath": "exa-results/link-audit/references/captures/005ae05aff3df8255494f3c9.json",
+      "captureCacheSha256": "babf545102e20ac551bee08e764a8b628b3ba96abfff2a7fb15edc1d9a98b664"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-shapefactory-gradient",
+      "canonicalId": "ref-shapefactory-gradient",
+      "title": "ShapeFactory Gradient",
+      "role": "canonical",
+      "sourceSha256": "82c18859cc0c2933ad0c5b3ef7cf4eb5b3f2641e774d792b030b55df8c1fd942"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "pixelfilmstudios",
+  "url": "https://pixelfilmstudios.com/robots.txt",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 200,
+  "finalUrl": "https://pixelfilmstudios.com/robots.txt",
+  "contentType": "text/plain; charset=utf-8",
+  "truncated": false,
+  "observedBytes": 169,
+  "observedContentSha256": "1182b8aeca8b1fb12062902859137d3c9e3c2a619502ee201e879c7e03732153",
+  "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+  "challengeOrDenial": false,
+  "robotsPath": "exa-results/grok-source-review/stock/pixelfilmstudios-robots.txt",
+  "robotsContentSha256": "1182b8aeca8b1fb12062902859137d3c9e3c2a619502ee201e879c7e03732153"
+}

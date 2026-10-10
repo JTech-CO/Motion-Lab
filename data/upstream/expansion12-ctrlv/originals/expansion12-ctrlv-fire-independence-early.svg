@@ -1,0 +1,14 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="anim-pulse">
+            <path d="M200 150 C200 150 240 100 200 50 C160 100 200 150 200 150 Z" fill="#f97316" opacity="0.6"/>
+            <path style="animation-delay: -0.5s" d="M200 150 C200 150 220 120 200 90 C180 120 200 150 200 150 Z" fill="#fbbf24" opacity="0.8"/>
+        </g>
+        <g class="anim-float">
+            <path d="M120 250 L180 250 M220 250 L280 250" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+            <text x="200" y="220" text-anchor="middle" font-family="Inter" font-weight="900" font-size="40" fill="var(--primary-color)">F.I.R.E</text>
+        </g>
+        <g class="anim-bounce">
+            <circle cx="320" cy="180" r="30" fill="var(--accent-color)" opacity="0.2"/>
+            <path d="M305 180 L320 195 L340 165" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        </g>
+    </svg>

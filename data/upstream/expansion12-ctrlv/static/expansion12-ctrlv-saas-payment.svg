@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <rect x="130" y="60" width="140" height="200" rx="10" fill="#ffffff" stroke="#334155" stroke-width="4" />
+                <path d="M130 100 H270" stroke="#334155" stroke-width="4" />
+                
+                <rect x="150" y="210" width="100" height="30" rx="15" fill="#6366f1" />
+                
+                <path d="M150 120 H250 M150 135 H220 M150 150 H240 M150 180 H200" stroke="#334155" stroke-width="3" stroke-linecap="round" opacity="0.6" />
+            </g>
+            
+            <g>
+                
+                <rect x="60" y="100" width="120" height="75" rx="8" fill="#f43f5e" transform="rotate(-15 120 137.5)" />
+                <rect x="60" y="115" width="120" height="15" fill="#334155" opacity="0.9" transform="rotate(-15 120 137.5)" />
+                <rect x="75" y="145" width="20" height="15" rx="2" fill="#DFD116" transform="rotate(-15 120 137.5)" />
+                <path d="M105 155 H145 M105 163 H135" stroke="white" stroke-width="2" transform="rotate(-15 120 137.5)" opacity="0.8" />
+            </g>
+            
+            <g>
+                
+                <path d="M280 120 C280 120 310 110 340 120 C340 170 310 200 310 200 C310 200 280 170 280 120 Z" fill="#DFD116" />
+                <path d="M300 140 H320 V160 H300 Z" fill="#ffffff" />
+                <path d="M305 140 V130 C305 120 315 120 315 130 V140" stroke="#ffffff" stroke-width="3" fill="none" />
+            </g>
+          </svg>

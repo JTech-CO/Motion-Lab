@@ -1,0 +1,36 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <!-- Background: Ancient Pyramids -->
+            <g class="anim-float-slow" opacity="0.2" fill="var(--primary-color)">
+                <path d="M80 200 L140 100 L200 200 Z"/>
+                <path d="M180 220 L260 80 L340 220 Z"/>
+                <!-- Pyramid Steps Detail -->
+                <path d="M180 220 L260 80" stroke="var(--charcoal)" stroke-width="2" stroke-dasharray="4 4" fill="none"/>
+            </g>
+            
+            <g class="anim-bounce">
+                <!-- Character Body -->
+                <path d="M120 260 C120 160 220 160 220 260 Z" fill="var(--secondary-color)"/>
+                <!-- Satchel Strap -->
+                <path d="M140 180 L220 240" stroke="var(--charcoal)" stroke-width="8"/>
+                <rect x="200" y="230" width="30" height="25" rx="3" fill="var(--charcoal)"/>
+                
+                <!-- Head -->
+                <circle cx="170" cy="130" r="35" fill="var(--primary-color)"/>
+                <!-- Safari Hat -->
+                <path d="M140 100 C140 60 200 60 200 100 Z" fill="var(--accent-color)"/>
+                <path d="M120 100 H220" stroke="var(--accent-color)" stroke-width="8" stroke-linecap="round"/>
+                <path d="M140 90 H200" stroke="var(--charcoal)" stroke-width="3"/>
+                
+                <!-- Prop: Map & Whip -->
+                <g class="anim-float" style="transform-origin: 250px 180px;">
+                    <!-- Map -->
+                    <path class="anim-pulse" d="M220 160 H270 V210 L220 200 Z" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="4"/>
+                    <path d="M230 170 L250 190 M230 190 H250" stroke="var(--accent-color)" stroke-width="3" stroke-linecap="round"/>
+                    <circle cx="250" cy="190" r="3" fill="var(--accent-color)"/>
+                    
+                    <!-- Whip (Coiled) -->
+                    <path class="anim-draw" d="M120 240 C90 240 90 200 120 200 C140 200 140 220 120 220 C110 220 110 230 120 230" stroke="var(--charcoal)" stroke-width="4" fill="none"/>
+                </g>
+            </g>
+          </svg>

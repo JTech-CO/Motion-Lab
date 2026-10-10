@@ -1,0 +1,32 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            
+            <!-- Podium / Base -->
+            <path d="M150 250 L250 250 L260 270 L140 270 Z" fill="var(--charcoal)" opacity="0.9"/>
+            <path d="M160 220 L240 220 L250 250 L150 250 Z" fill="var(--charcoal)" opacity="0.7"/>
+            <rect x="180" y="230" width="40" height="10" fill="white" opacity="0.8"/>
+            
+            <g class="anim-float">
+                <!-- Trophy Base details -->
+                <rect x="185" y="190" width="30" height="30" fill="var(--secondary-color)"/>
+                
+                <!-- Stylized Statue Body -->
+                <path d="M190 190 L180 120 H220 L210 190 Z" fill="var(--primary-color)"/>
+                <!-- Chest/Shoulders -->
+                <path d="M170 80 Q200 140 230 80 Z" fill="var(--primary-color)"/>
+                <!-- Head -->
+                <circle cx="200" cy="65" r="15" fill="var(--primary-color)"/>
+                <!-- Shiny highlights -->
+                <path d="M195 60 A 15 15 0 0 0 190 70" stroke="white" stroke-width="2" fill="none"/>
+                <path d="M190 90 L185 180" stroke="white" stroke-width="3" fill="none" opacity="0.5"/>
+                
+                <!-- Holding a sword or reel -->
+                <path d="M200 80 V210" stroke="var(--secondary-color)" stroke-width="4"/>
+            </g>
+            
+            <!-- Flash photography / Glitz -->
+            <g class="anim-glow">
+                <path d="M100 120 L110 100 L120 120 L140 130 L120 140 L110 160 L100 140 L80 130 Z" fill="var(--accent-color)"/>
+                <path d="M300 80 L305 70 L310 80 L320 85 L310 90 L305 100 L300 90 L290 85 Z" fill="var(--secondary-color)"/>
+            </g>
+            <circle class="anim-pulse" cx="120" cy="200" r="4" fill="var(--accent-color)"/>
+          </svg>

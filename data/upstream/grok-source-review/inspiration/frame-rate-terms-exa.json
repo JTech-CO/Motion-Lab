@@ -1,0 +1,14 @@
+{
+  "url": "https://framerate.tv/terms",
+  "method": "Exa public fetch",
+  "status": "Exa-content-read",
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공개 URL의 Exa 추출 내용을 읽었다. 직접 서버의 HTTP 200으로 간주하지 않았다. 2026-09-09 약관은 다른 서버의 미러와 자료 양도를 제한한다.",
+  "sector": 4,
+  "siteId": "frame-rate",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/frame-rate-terms-exa.json",
+  "rawCacheSha256": "02158f7f614d8c4ba7c6b0f2ec95ba68fd999be251d7b4e48b2937f533a6b3c0",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "8f0fa6922ffeea87bfb85c7f34a45387262d90b0e6a5db9cae557cfb762fa78f",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json."
+}

@@ -1,0 +1,35 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            
+            <!-- Tripod -->
+            <path d="M200 180 L200 280 M190 180 L150 280 M210 180 L250 280" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round"/>
+            <path d="M180 230 H220" stroke="var(--charcoal)" stroke-width="4"/>
+            <rect x="180" y="160" width="40" height="20" rx="4" fill="var(--secondary-color)"/>
+            
+            <g class="anim-float">
+                <!-- Camera Body -->
+                <rect x="140" y="80" width="100" height="80" rx="8" fill="var(--primary-color)"/>
+                <!-- Design Lines -->
+                <rect x="140" y="100" width="100" height="10" fill="white" opacity="0.2"/>
+                <rect x="140" y="120" width="100" height="10" fill="white" opacity="0.2"/>
+                <rect x="140" y="140" width="100" height="10" fill="white" opacity="0.2"/>
+                
+                <!-- Lens -->
+                <path d="M240 100 L280 90 V150 L240 140 Z" fill="var(--charcoal)"/>
+                <path d="M280 80 L310 70 V170 L280 160 Z" fill="var(--primary-color)"/>
+                <ellipse cx="310" cy="120" rx="10" ry="50" fill="var(--secondary-color)"/>
+                <circle class="anim-pulse" cx="312" cy="120" r="4" fill="var(--accent-color)"/>
+                
+                <!-- Film Magazines (Mickey Mouse ears) -->
+                <circle cx="160" cy="60" r="30" fill="none" stroke="var(--primary-color)" stroke-width="12"/>
+                <circle cx="160" cy="60" r="20" fill="var(--bg-surface)"/>
+                <circle cx="220" cy="60" r="30" fill="none" stroke="var(--primary-color)" stroke-width="12"/>
+                <circle cx="220" cy="60" r="20" fill="var(--bg-surface)"/>
+                
+                <!-- Viewfinder -->
+                <rect x="110" y="90" width="30" height="20" rx="2" fill="var(--charcoal)"/>
+                <rect x="100" y="95" width="10" height="10" fill="var(--secondary-color)"/>
+            </g>
+            
+            <!-- Rec light / action lines -->
+            <path class="anim-draw" d="M330 90 L380 70 M340 120 L390 120 M330 150 L380 170" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 6" fill="none"/>
+          </svg>

@@ -1,0 +1,16 @@
+{
+  "id": "videobolt",
+  "url": "https://videobolt.net/",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 200,
+  "finalUrl": "https://videobolt.net/",
+  "contentType": "text/html; charset=UTF-8",
+  "truncated": true,
+  "observedBytes": 262144,
+  "observedContentSha256": "3d3294cf9ef409cececa748e986f27ad37e8a22e1edf82ff1b608c391b6a5c26",
+  "links": [],
+  "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+  "challengeOrDenial": false
+}

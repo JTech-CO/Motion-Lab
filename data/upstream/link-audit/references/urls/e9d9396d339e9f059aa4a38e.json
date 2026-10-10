@@ -1,0 +1,56 @@
+{
+  "url": "https://www.motion-svg.com/docs",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://www.motion-svg.com/docs",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://www.motion-svg.com/docs",
+      "allowedForAuditGet": true,
+      "reason": "robots-missing-not-a-license",
+      "robotsUrl": "https://www.motion-svg.com/robots.txt",
+      "robotsStatus": 404
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://www.motion-svg.com/docs",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:29.305208+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://www.motion-svg.com/docs",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 119257,
+      "capturedSha256": "b988c38118507d37ae730f23a6d2709918be91cc4491d93e0b748f4c874d53e0",
+      "responseBodySha256": "b988c38118507d37ae730f23a6d2709918be91cc4491d93e0b748f4c874d53e0",
+      "title": "VectorMotion — SVG Animation Editor",
+      "textCharacters": 24992,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.997,
+      "captureCachePath": "exa-results/link-audit/references/captures/78ee172d86b0b9467d3d6288.json",
+      "captureCacheSha256": "5b9a253266271cfc49c17da22af2e65207ce57ae4960f29b453d3a405445a90f"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-vectormotion",
+      "canonicalId": "ref-vectormotion",
+      "title": "VectorMotion",
+      "role": "canonical",
+      "sourceSha256": "9280b33263e6bab0f9d41989aa80146a40ffc2f1646d764908a98f1d7c30d4cb"
+    }
+  ]
+}

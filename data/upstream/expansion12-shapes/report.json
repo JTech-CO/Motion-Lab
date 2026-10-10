@@ -1,0 +1,183 @@
+{
+  "date": "2026-10-10",
+  "population": 4048,
+  "priorInspectedSeparate": 191,
+  "structuralProvisional": 1938,
+  "independentVisualExclusions": 1571,
+  "accepted": 367,
+  "pilot": {
+    "count": 50,
+    "accepted": 7,
+    "adoptionRate": 0.14,
+    "selectionBeforeFiltering": true,
+    "selectionSha256": "aa086a2f2955dfab1832f84747904ba9eb607c348c56094e547f0d4f378ff35b"
+  },
+  "baseline": {
+    "baselineSha256": "a50812c61e93d655ca725b219a393aad7574036708d7917ad19ae3be32511487",
+    "baselineStored": 10001,
+    "baselineComparisonRecords": 10343,
+    "baselineSvgParsed": 4652,
+    "baselineParseExclusions": [],
+    "candidateCount": 4048,
+    "provisional": 1938,
+    "reasons": {
+      "simple-silhouette-or-basic-glyph": 463,
+      "pending-rendered-comparison": 1938,
+      "existing-basic-object-family": 988,
+      "existing-construction-concept": 397,
+      "number-symbol-or-status-variant": 80,
+      "direction-pose-state-or-number-variant": 168,
+      "same-construction-concept": 14
+    },
+    "sourceExecuted": false,
+    "baselineSvgIdentitySignatures": 6087,
+    "baselineSvgRenderSubset": 4451
+  },
+  "render": {
+    "newOriginals": 1938,
+    "pilotOriginals": 50,
+    "allSelectedGeometryPreserved": true,
+    "crossContour": {
+      "baselineRendered": 4286,
+      "newRendered": 1938,
+      "eligible": 1938,
+      "excluded": [],
+      "closeCandidates": [
+        {
+          "id": "expansion12-shape-delapouite-dead-head",
+          "existingId": "design-tabler-oval",
+          "d4ContourJaccard64": 0.910935
+        },
+        {
+          "id": "expansion12-shape-delapouite-dead-head",
+          "existingId": "design-tabler-oval",
+          "d4ContourJaccard64": 0.910935
+        },
+        {
+          "id": "expansion12-shape-delapouite-dead-head",
+          "existingId": "design-tabler-brand-toyota",
+          "d4ContourJaccard64": 0.879179
+        },
+        {
+          "id": "expansion12-shape-delapouite-dead-head",
+          "existingId": "design-tabler-brand-toyota",
+          "d4ContourJaccard64": 0.879179
+        },
+        {
+          "id": "expansion12-shape-delapouite-dead-head",
+          "existingId": "design-tabler-oval",
+          "d4ContourJaccard64": 0.910935
+        },
+        {
+          "id": "expansion12-shape-delapouite-dead-head",
+          "existingId": "design-tabler-oval",
+          "d4ContourJaccard64": 0.910935
+        },
+        {
+          "id": "expansion12-shape-delapouite-dead-head",
+          "existingId": "design-tabler-brand-toyota",
+          "d4ContourJaccard64": 0.879179
+        },
+        {
+          "id": "expansion12-shape-delapouite-dead-head",
+          "existingId": "design-tabler-brand-toyota",
+          "d4ContourJaccard64": 0.879179
+        },
+        {
+          "id": "expansion12-shape-delapouite-tangerine",
+          "existingId": "design-tabler-brand-kakao-talk",
+          "d4ContourJaccard64": 0.872576
+        },
+        {
+          "id": "expansion12-shape-delapouite-tangerine",
+          "existingId": "design-tabler-brand-tether",
+          "d4ContourJaccard64": 0.879984
+        },
+        {
+          "id": "expansion12-shape-delapouite-tangerine",
+          "existingId": "design-tabler-brand-kakao-talk",
+          "d4ContourJaccard64": 0.872576
+        },
+        {
+          "id": "expansion12-shape-delapouite-tangerine",
+          "existingId": "design-tabler-brand-tether",
+          "d4ContourJaccard64": 0.879984
+        },
+        {
+          "id": "expansion12-shape-delapouite-potato",
+          "existingId": "design-tabler-bandage",
+          "d4ContourJaccard64": 0.873319
+        },
+        {
+          "id": "expansion12-shape-delapouite-potato",
+          "existingId": "design-tabler-pill",
+          "d4ContourJaccard64": 0.873319
+        },
+        {
+          "id": "expansion12-shape-delapouite-potato",
+          "existingId": "design-tabler-bandage",
+          "d4ContourJaccard64": 0.873319
+        },
+        {
+          "id": "expansion12-shape-delapouite-potato",
+          "existingId": "design-tabler-pill",
+          "d4ContourJaccard64": 0.873319
+        },
+        {
+          "id": "expansion12-shape-delapouite-potato",
+          "existingId": "design-tabler-bandage",
+          "d4ContourJaccard64": 0.873319
+        },
+        {
+          "id": "expansion12-shape-delapouite-potato",
+          "existingId": "design-tabler-pill",
+          "d4ContourJaccard64": 0.873319
+        },
+        {
+          "id": "expansion12-shape-delapouite-potato",
+          "existingId": "design-tabler-bandage",
+          "d4ContourJaccard64": 0.873319
+        },
+        {
+          "id": "expansion12-shape-delapouite-potato",
+          "existingId": "design-tabler-pill",
+          "d4ContourJaccard64": 0.873319
+        },
+        {
+          "id": "expansion12-shape-lorc-apple-seeds",
+          "existingId": "design-tabler-power",
+          "d4ContourJaccard64": 0.873783
+        },
+        {
+          "id": "expansion12-shape-lorc-apple-seeds",
+          "existingId": "design-tabler-power",
+          "d4ContourJaccard64": 0.874485
+        }
+      ],
+      "highResolutionPairChecks": 23,
+      "normalization": "Source frame removed for comparison only; paint/scale/translation and D4 direction excluded; original published SVG unchanged. Thin outline-versus-fill cases are also covered by the construction concept gate.",
+      "limitations": [
+        "Static contour and construction checks do not establish universal perceptual uniqueness.",
+        "A single silhouette frame does not compare all motion timelines."
+      ]
+    }
+  },
+  "reasons": {
+    "simple-silhouette-or-basic-glyph": 463,
+    "independent-rendered-construction-review": 1571,
+    "existing-basic-object-family": 988,
+    "existing-construction-concept": 397,
+    "accepted": 367,
+    "number-symbol-or-status-variant": 80,
+    "direction-pose-state-or-number-variant": 168,
+    "same-construction-concept": 14
+  },
+  "input": "data/expansion12-shape-items.json",
+  "inputSha256": "33a8da8ae8a25332da1b595691861c4aa179871e2715a66f8222de1c4f6f9cc1",
+  "receiptCount": 367,
+  "sourceJavaScriptExecuted": false,
+  "limitations": [
+    "Rendered geometry comparison and manual construction review do not prove universal perceptual uniqueness.",
+    "D4/scale/paint invariant comparison uses drawable geometry without the common 512x512 backdrop; stored originals remain unchanged."
+  ]
+}

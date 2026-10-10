@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="130" ry="10" fill="#E2E8F0"/>
+            <g class="anim-float">
+              <circle cx="200" cy="145" r="88" fill="var(--primary-color)"/>
+              <!-- Scrunched nose / brow -->
+              <path d="M156 112 Q175 104 190 115 M210 115 Q225 104 244 112" stroke="var(--charcoal)" stroke-width="7" stroke-linecap="round" fill="none"/>
+              <!-- Half-closed eyes with disgust -->
+              <path d="M160 130 H185 M215 130 H240" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round"/>
+              <path d="M160 135 Q172 140 185 135 M215 135 Q227 140 240 135" stroke="var(--bg-surface)" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.5"/>
+              <!-- Curled lip sneer -->
+              <path d="M158 170 Q185 185 200 175 Q215 185 242 170" stroke="var(--bg-surface)" stroke-width="7" stroke-linecap="round" fill="none"/>
+              <!-- Tongue sticking out -->
+              <path d="M192 175 Q200 200 208 175" fill="var(--secondary-color)"/>
+              <!-- Nose scrunch lines -->
+              <path d="M190 150 Q195 145 200 150 Q205 145 210 150" stroke="var(--charcoal)" stroke-width="3" fill="none" opacity="0.4"/>
+            </g>
+            <!-- Wavy lines (stink/gross) -->
+            <g class="anim-float" style="animation-delay:-0.7s;" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.5">
+              <path d="M305 100 Q315 85 305 70 Q315 55 305 40"/>
+              <path d="M325 110 Q335 95 325 80 Q335 65 325 50"/>
+            </g>
+          </svg>

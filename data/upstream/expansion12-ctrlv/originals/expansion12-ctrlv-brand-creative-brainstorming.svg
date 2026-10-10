@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Lightbulb -->
+                <g class="anim-pulse">
+                    <path d="M200 60 C160 60 150 110 170 140 L180 160 H220 L230 140 C250 110 240 60 200 60 Z" fill="var(--accent-color)" opacity="0.3"/>
+                    <circle cx="200" cy="100" r="40" fill="none" stroke="var(--accent-color)" stroke-width="8"/>
+                    <path d="M185 170 H215 M185 180 H215 M190 190 H210" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                </g>
+                
+                <!-- Rotating Gears (Brainstorming mechanics) -->
+                <g transform="translate(120, 180)">
+                    <g class="anim-rotate" >
+                    <circle cx="0" cy="0" r="30" fill="none" stroke="var(--secondary-color)" stroke-width="8" stroke-dasharray="10 10"/>
+                    <circle cx="0" cy="0" r="10" fill="var(--secondary-color)"/>
+                </g>
+                </g>
+                <g transform="translate(280, 180)">
+                    <g class="anim-rotate"  style="animation-direction: reverse; animation-duration: 4s;">
+                    <circle cx="0" cy="0" r="25" fill="none" stroke="var(--primary-color)" stroke-width="8" stroke-dasharray="10 10"/>
+                    <circle cx="0" cy="0" r="8" fill="var(--primary-color)"/>
+                </g>
+                </g>
+                
+                <!-- Idea Sparks -->
+                <path class="anim-draw" style="animation-delay: 0.5s;" d="M200 40 V20 M250 80 L270 60 M150 80 L130 60" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round"/>
+            </g>
+          </svg>

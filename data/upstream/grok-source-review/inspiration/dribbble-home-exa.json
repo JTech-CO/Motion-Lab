@@ -1,0 +1,14 @@
+{
+  "url": "https://dribbble.com/",
+  "method": "Exa public fetch",
+  "status": "Exa-content-read",
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공개 URL의 Exa 추출 내용을 읽었다. 직접 서버의 HTTP 200으로 간주하지 않았다. Dribbble: 포트폴리오 작품의 권리는 디자이너에게 있다.",
+  "sector": 4,
+  "siteId": "dribbble",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/dribbble-home-exa.json",
+  "rawCacheSha256": "c7212f71af631e20ae0a82ddd2256135b12d2d1cdde7e164f08e87d68639692d",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "7121e20116dcf680637b01d6bc77c98b86eb08bde5929dba23bb087891730386",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json."
+}

@@ -1,0 +1,37 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="120" ry="10" fill="#E2E8F0"/>
+            <g class="anim-float">
+                <!-- Stand / Armor display -->
+                <rect x="190" y="240" width="20" height="30" fill="var(--charcoal)"/>
+                <!-- Body Armor (Do) -->
+                <path d="M150 140 H250 L240 240 H160 Z" fill="var(--primary-color)"/>
+                <path d="M150 140 H250 L240 240 H160 Z" fill="var(--charcoal)" opacity="0.2"/>
+                <!-- Armor Plates / Lacing -->
+                <path d="M155 160 H245 M157 180 H243 M159 200 H241 M161 220 H239" stroke="var(--secondary-color)" stroke-width="6" stroke-dasharray="6 4"/>
+                
+                <!-- Shoulders (Sode) -->
+                <path d="M150 140 L120 160 V200 L160 180 Z" fill="var(--primary-color)"/>
+                <path d="M250 140 L280 160 V200 L240 180 Z" fill="var(--primary-color)"/>
+                <path d="M125 170 H150 M127 185 H155 M250 170 H275 M245 185 H273" stroke="var(--secondary-color)" stroke-width="4" stroke-dasharray="4 2"/>
+
+                <!-- Helmet (Kabuto) -->
+                <path d="M150 130 C150 70 250 70 250 130 Z" fill="var(--charcoal)"/>
+                <path d="M150 130 C150 70 200 70 200 130 Z" fill="var(--bg-surface)" opacity="0.2"/>
+                <!-- Neck Guard (Shikoro) -->
+                <path d="M140 110 Q100 130 130 160 Q150 140 150 130 Z" fill="var(--primary-color)"/>
+                <path d="M260 110 Q300 130 270 160 Q250 140 250 130 Z" fill="var(--primary-color)"/>
+                <!-- Crest (Maedate) -->
+                <path class="anim-pulse" d="M180 80 Q200 50 220 80 Q200 110 180 80 Z" fill="var(--accent-color)"/>
+                <path class="anim-pulse" d="M180 80 L160 60 M220 80 L240 60" stroke="var(--accent-color)" stroke-width="8" stroke-linecap="round"/>
+                
+                <!-- Face Guard (Menpo) Abstract -->
+                <path d="M170 130 H230 L210 150 H190 Z" fill="var(--secondary-color)"/>
+                <path d="M180 140 H220" stroke="white" stroke-width="2"/>
+            </g>
+            
+            <!-- Katana on Display -->
+            <path class="anim-draw" d="M120 280 Q200 240 280 280" stroke="var(--charcoal)" stroke-width="12" stroke-linecap="round" fill="none"/>
+            <path class="anim-draw" d="M120 280 Q200 240 280 280" stroke="var(--bg-surface)" stroke-width="4" stroke-linecap="round" fill="none"/>
+            <!-- Tsuba (Hand guard) -->
+            <rect x="155" y="255" width="8" height="20" fill="var(--accent-color)" transform="rotate(-25 155 255)"/>
+          </svg>

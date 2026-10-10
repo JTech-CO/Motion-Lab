@@ -1,0 +1,41 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Charging Station -->
+            <rect x="280" y="120" width="30" height="140" rx="4" fill="var(--charcoal)"/>
+            <rect x="285" y="130" width="20" height="30" rx="2" fill="#F8FAFC" opacity="0.9"/>
+            <circle class="anim-pulse" cx="295" cy="145" r="6" fill="var(--accent-color)"/>
+            <path d="M295 170 V240" stroke="var(--secondary-color)" stroke-width="4" stroke-linecap="round"/>
+            
+            <!-- Cable -->
+            <path d="M280 160 Q260 260 190 200" stroke="var(--charcoal)" stroke-width="4" fill="none" stroke-linecap="round"/>
+            
+            <!-- The Car (Modern sleek EV silhouette) -->
+            <g class="anim-float">
+                <!-- Shadow/Underbody -->
+                <rect x="65" y="210" width="160" height="15" rx="5" fill="var(--charcoal)" opacity="0.2"/>
+                <!-- Main Body -->
+                <path d="M60 210 L50 170 Q50 140 100 130 L160 130 Q220 140 230 180 L235 210 Z" fill="var(--primary-color)"/>
+                <!-- Windows/Roof -->
+                <path d="M90 135 L105 105 Q125 90 160 95 L200 135 Z" fill="#F8FAFC" opacity="0.8"/>
+                <path d="M145 100 V135" stroke="var(--primary-color)" stroke-width="4"/>
+                <!-- Lights -->
+                <path class="anim-glow" d="M60 175 C55 175 50 180 50 185" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round"/>
+                <path d="M230 180 C235 180 235 190 235 195" stroke="#EF4444" stroke-width="6" stroke-linecap="round"/>
+                <!-- Door Lines -->
+                <path d="M145 140 V200 M100 145 V200" stroke="var(--charcoal)" stroke-width="2" opacity="0.2"/>
+                <!-- Charging Port Glow -->
+                <circle class="anim-glow" cx="190" cy="195" r="8" fill="var(--accent-color)" opacity="0.6"/>
+                <circle cx="190" cy="195" r="4" fill="white"/>
+            </g>
+
+            <!-- Wheels -->
+            <g class="anim-bounce">
+                <circle cx="95" cy="215" r="22" fill="var(--charcoal)"/>
+                <circle cx="95" cy="215" r="12" fill="#E2E8F0" stroke="var(--secondary-color)" stroke-width="4"/>
+                
+                <circle cx="195" cy="215" r="22" fill="var(--charcoal)"/>
+                <circle cx="195" cy="215" r="12" fill="#E2E8F0" stroke="var(--secondary-color)" stroke-width="4"/>
+            </g>
+            
+            <!-- Energy Particles flowing from station to car -->
+            <path class="anim-draw" d="M280 160 Q260 260 190 200" stroke="var(--accent-color)" stroke-width="2" stroke-dasharray="4 8" fill="none"/>
+          </svg>

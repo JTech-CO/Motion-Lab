@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/shimmer-button.tsx",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/shimmer-button.tsx",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/shimmer-button.tsx",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/shimmer-button.tsx",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:14.106543+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/shimmer-button.tsx",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "edbcb1fcb43b59aa2765fccacc2d6853b391d9dcceaaf53bd367312501c0a982",
+      "responseBodySha256": "edbcb1fcb43b59aa2765fccacc2d6853b391d9dcceaaf53bd367312501c0a982",
+      "title": "magicui/apps/www/registry/magicui/shimmer-button.tsx at cdb348cb4c72a9b54b554d8617801e479fbc8714 · magicuidesign/magicui · GitHub",
+      "textCharacters": 5270,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.659,
+      "captureCachePath": "exa-results/link-audit/references/captures/8452b7908d8971526b666ae1.json",
+      "captureCacheSha256": "7589185a3b9c55fe85cb0ae4914e94874f6e16dca8d0042685a6537a9534dd98"
+    }
+  ],
+  "items": [
+    {
+      "id": "asset-magicui-shimmer-button",
+      "canonicalId": "asset-magicui-shimmer-button",
+      "title": "Magic UI · Shimmer Button",
+      "role": "canonical",
+      "sourceSha256": "c6912c78cd183fb061657be0ee57683c6d29a2e41075e66b948b610d2b5b3e3a"
+    }
+  ]
+}

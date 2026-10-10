@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <g>
+                    <rect x="80" y="100" width="240" height="120" rx="4" fill="#DFD116" stroke="#334155" stroke-width="8" />
+                    
+                    <circle cx="80" cy="160" r="20" fill="#ffffff" stroke="#334155" stroke-width="8" />
+                    <circle cx="320" cy="160" r="20" fill="#ffffff" stroke="#334155" stroke-width="8" />
+                    
+                    
+                    <line x1="140" y1="100" x2="140" y2="220" stroke="#ffffff" stroke-width="4" stroke-dasharray="8 8" />
+                    
+                    
+                    <text x="230" y="150" font-family="monospace" font-weight="bold" font-size="40" fill="#ffffff" text-anchor="middle">50%</text>
+                    <text x="230" y="185" font-family="monospace" font-weight="bold" font-size="14" fill="#ffffff" text-anchor="middle">OFF TODAY</text>
+                    
+                    <circle cx="110" cy="160" r="15" fill="#ffffff" />
+                    <path d="M100 160 L120 160 M110 150 V170" stroke="#DFD116" stroke-width="4" stroke-linecap="round" />
+                </g>
+                
+                
+                <path d="M100 60 L105 75 L120 75 L110 85 L115 100 L100 90 L85 100 L90 85 L80 75 L95 75 Z" fill="#f43f5e" />
+                <path d="M300 240 L305 255 L320 255 L310 265 L315 280 L300 270 L285 280 L290 265 L280 255 L295 255 Z" fill="#6366f1" />
+            </g>
+          </svg>

@@ -1,0 +1,15 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="anim-float">
+            <path d="M120 180 Q100 100 200 80 Q300 100 280 200 Q250 240 150 220 Z" fill="#E2E8F0"/>
+            <circle cx="160" cy="120" r="12" fill="var(--primary-color)"/>
+            <circle cx="210" cy="110" r="12" fill="var(--secondary-color)"/>
+            <circle cx="250" cy="150" r="12" fill="var(--accent-color)"/>
+            <circle cx="150" cy="180" r="12" fill="var(--charcoal)"/>
+        </g>
+        <g transform="translate(260, 240) rotate(-45)">
+            <g class="anim-bounce">
+                <rect x="-5" y="-60" width="10" height="60" fill="var(--charcoal)"/>
+                <path d="M-8 -60 L0 -80 L8 -60 Z" fill="var(--primary-color)"/>
+            </g>
+        </g>
+    </svg>

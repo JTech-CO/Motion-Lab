@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <path d="M60 220 C60 220 120 250 160 180 S240 120 280 180 S340 180 340 100" stroke="#334155" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.2" />
+                <path d="M60 220 C60 220 120 250 160 180 S240 120 280 180 S340 180 340 100" stroke="#6366f1" stroke-width="4" stroke-linecap="round" stroke-dasharray="12 8" fill="none" />
+                
+                
+                
+                <g transform="translate(60, 220)">
+                    <g>
+                    <circle cx="0" cy="0" r="15" fill="#DFD116" />
+                    <path d="M-5 -5 L5 5 M-5 5 L5 -5" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+                </g>
+                </g>
+                
+                
+                <g transform="translate(160, 180)">
+                    <g>
+                    <circle cx="0" cy="0" r="12" fill="#f43f5e" />
+                    <circle cx="0" cy="0" r="6" fill="#ffffff" />
+                </g>
+                </g>
+                
+                
+                <g transform="translate(280, 180)">
+                    <g>
+                    <circle cx="0" cy="0" r="12" fill="#6366f1" />
+                    <circle cx="0" cy="0" r="6" fill="#ffffff" />
+                </g>
+                </g>
+                
+                
+                <g transform="translate(340, 100)">
+                    <g>
+                    <path d="M-15 15 L0 -15 L15 15 Z" fill="#DFD116" />
+                    <circle cx="0" cy="-20" r="8" fill="#DFD116" />
+                </g>
+                </g>
+                
+                
+                <circle cx="220" cy="150" r="10" fill="#334155" />
+            </g>
+          </svg>

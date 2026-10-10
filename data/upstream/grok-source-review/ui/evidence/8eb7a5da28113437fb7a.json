@@ -1,0 +1,37 @@
+{
+  "url": "https://www.allavio.com/licensing-service-agreement/",
+  "site": "allavio",
+  "reviewedAt": "2026-10-10",
+  "captures": [
+    {
+      "method": "public-HTTP-GET",
+      "status": 200,
+      "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://www.allavio.com/licensing-service-agreement/",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/allavio-terms-http.json",
+      "rawCacheSha256": "dd5c9af53b6081018ad0d82958b28ffaabb023cb880f20590f7390960ce1be07",
+      "capturedTextSha256": "0bdeafd67c5a3fe7b78f0493a4530d39e799a33dc440872ff8817d8bc3a35fd9",
+      "responseCapturedSha256": "04ebe1c75cb61d9a2af19b6d5e63237aa23c686038543623a3154209344d5d1f",
+      "boundedAtBytes": 1048576,
+      "truncated": false
+    },
+    {
+      "method": "Exa-public-fetch",
+      "status": "content-returned-http-status-unavailable",
+      "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://www.allavio.com/licensing-service-agreement/",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/exa-allavio-fetch-1.json",
+      "rawCacheSha256": "3821ec97aeb2d768f55fe1973bd9b6c93289c685e2b793559388d69f46f37284",
+      "capturedTextSha256": "58435d784d3b187fe8949fbe3d72e15b7e3a9bcc3f8e1d4a96480bbd4a027e34",
+      "responseCapturedSha256": null,
+      "boundedAtBytes": null,
+      "providerResponseCacheBytes": 8811,
+      "truncated": null
+    }
+  ],
+  "contentPolicy": "원문 전체는 ignored exa-results 캐시에만 보관합니다. 이 파일은 접근 상태와 SHA 및 자체 요약만 저장하며 페이지 인용은 sites.json termsEvidence에만 최대 25단어로 기록합니다."
+}

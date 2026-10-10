@@ -1,0 +1,30 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Checklist Board -->
+                <rect x="130" y="60" width="140" height="200" rx="10" fill="var(--bg-surface)" stroke="var(--primary-color)" stroke-width="4"/>
+                <path d="M150 90 H250 M150 100 H210" stroke="var(--charcoal)" stroke-width="3" stroke-linecap="round"/>
+                
+                <!-- Checklist Items -->
+                <g transform="translate(150, 130)">
+                    <rect x="0" y="0" width="20" height="20" rx="4" fill="var(--secondary-color)" opacity="0.2"/>
+                    <path class="anim-draw" d="M4 10 L8 14 L16 6" stroke="var(--secondary-color)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    <path d="M30 10 H90" stroke="var(--charcoal)" stroke-width="3" stroke-linecap="round"/>
+                </g>
+                <g transform="translate(150, 170)">
+                    <rect x="0" y="0" width="20" height="20" rx="4" fill="var(--secondary-color)" opacity="0.2"/>
+                    <path class="anim-draw" style="animation-delay: 0.5s;" d="M4 10 L8 14 L16 6" stroke="var(--secondary-color)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    <path d="M30 10 H80" stroke="var(--charcoal)" stroke-width="3" stroke-linecap="round"/>
+                </g>
+                <g transform="translate(150, 210)">
+                    <rect x="0" y="0" width="20" height="20" rx="4" fill="var(--charcoal)" opacity="0.1"/>
+                    <path d="M30 10 H70" stroke="var(--charcoal)" stroke-width="3" stroke-linecap="round"/>
+                </g>
+                
+                <!-- Confetti/Celebration elements -->
+                <circle class="anim-bounce" cx="100" cy="100" r="5" fill="var(--accent-color)"/>
+                <path class="anim-bounce" style="animation-delay: -0.2s;" d="M90 130 L110 120" stroke="var(--primary-color)" stroke-width="4" stroke-linecap="round"/>
+                <circle class="anim-bounce" style="animation-delay: -0.4s;" cx="300" cy="180" r="6" fill="var(--secondary-color)"/>
+                <path class="anim-bounce" style="animation-delay: -0.6s;" d="M280 140 L290 150" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round"/>
+                <path class="anim-bounce" style="animation-delay: -0.8s;" d="M290 90 Q300 70 310 90" stroke="var(--primary-color)" stroke-width="4" stroke-linecap="round" fill="none"/>
+            </g>
+          </svg>

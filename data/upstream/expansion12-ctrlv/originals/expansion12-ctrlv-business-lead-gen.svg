@@ -1,0 +1,37 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Magnet -->
+                <path d="M110 240 U 110 120 A 90 90 0 0 1 290 120 U 290 240 H230 U 230 120 A 30 30 0 0 0 170 120 U 170 240 Z" fill="var(--primary-color)"/>
+                <rect x="110" y="240" width="60" height="30" fill="var(--secondary-color)"/>
+                <rect x="230" y="240" width="60" height="30" fill="var(--bg-surface)" stroke="var(--secondary-color)" stroke-width="6"/>
+                
+                <!-- Magnetic Waves -->
+                <path class="anim-pulse" d="M140 290 V320 M260 290 V320 M120 280 L100 310 M280 280 L300 310" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round"/>
+                
+                <!-- Leads being pulled in -->
+                <g transform="translate(200, 40)">
+                    <g class="anim-bounce">
+                    <circle cx="0" cy="0" r="15" fill="var(--accent-color)"/>
+                    <path d="M-15 25 A 15 15 0 0 1 15 25" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round"/>
+                </g>
+                </g>
+                <g transform="translate(140, 60)">
+                    <g class="anim-bounce" style="animation-delay: 0.2s;">
+                    <circle cx="0" cy="0" r="15" fill="var(--charcoal)"/>
+                    <path d="M-15 25 A 15 15 0 0 1 15 25" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                </g>
+                </g>
+                <g transform="translate(260, 60)">
+                    <g class="anim-bounce" style="animation-delay: 0.4s;">
+                    <circle cx="0" cy="0" r="15" fill="var(--secondary-color)"/>
+                    <path d="M-15 25 A 15 15 0 0 1 15 25" stroke="var(--secondary-color)" stroke-width="6" stroke-linecap="round"/>
+                </g>
+                </g>
+                <g transform="translate(200, 90)">
+                    <g class="anim-bounce" style="animation-delay: 0.6s;">
+                    <circle cx="0" cy="0" r="15" fill="var(--primary-color)"/>
+                    <path d="M-15 25 A 15 15 0 0 1 15 25" stroke="var(--primary-color)" stroke-width="6" stroke-linecap="round"/>
+                </g>
+                </g>
+            </g>
+          </svg>

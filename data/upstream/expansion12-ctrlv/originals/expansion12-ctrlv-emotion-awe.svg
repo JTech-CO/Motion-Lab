@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="130" ry="10" fill="#E2E8F0"/>
+            <g class="anim-float">
+              <circle cx="200" cy="148" r="88" fill="var(--accent-color)" opacity="0.7"/>
+              <!-- Wide eyes gazing up in wonder -->
+              <circle cx="172" cy="135" r="22" fill="var(--bg-surface)"/>
+              <circle cx="228" cy="135" r="22" fill="var(--bg-surface)"/>
+              <circle cx="172" cy="132" r="13" fill="var(--charcoal)"/>
+              <circle cx="228" cy="132" r="13" fill="var(--charcoal)"/>
+              <!-- Iris gleams -->
+              <circle cx="167" cy="128" r="5" fill="var(--bg-surface)"/>
+              <circle cx="223" cy="128" r="5" fill="var(--bg-surface)"/>
+              <!-- Small open O mouth -->
+              <ellipse cx="200" cy="178" rx="14" ry="11" fill="var(--charcoal)"/>
+            </g>
+            <!-- Galaxy spiral / awe-inspiring swirl above -->
+            <g class="anim-rotate" >
+              <path d="M200 45 C200 25 225 25 225 45 C225 65 195 65 195 45 C195 30 215 30 215 45" fill="none" stroke="var(--primary-color)" stroke-width="4" opacity="0.6"/>
+            </g>
+            <g class="anim-pulse" style="animation-duration: 2s;" fill="var(--secondary-color)">
+              <circle cx="200" cy="45" r="6"/>
+              <circle cx="175" cy="35" r="3"/>
+              <circle cx="225" cy="35" r="3"/>
+              <circle cx="165" cy="55" r="2"/>
+              <circle cx="235" cy="55" r="2"/>
+            </g>
+          </svg>

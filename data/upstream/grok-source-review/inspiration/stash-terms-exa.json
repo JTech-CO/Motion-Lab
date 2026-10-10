@@ -1,0 +1,14 @@
+{
+  "url": "https://store.stashmedia.tv/policies/terms-of-service",
+  "method": "Exa public fetch",
+  "status": "Exa-content-read",
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공개 URL의 Exa 추출 내용을 읽었다. 직접 서버의 HTTP 200으로 간주하지 않았다.",
+  "sector": 4,
+  "siteId": "stash",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/stash-terms-exa.json",
+  "rawCacheSha256": "4c9fb8dc859fb6eb48f365144400116d3edec33953aace1d4fd7cd40292f3c0a",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "4094c4a722f82f85cee744cda6bfee4c84f0ee41e94c10f140e0fbc98fabf521",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json."
+}

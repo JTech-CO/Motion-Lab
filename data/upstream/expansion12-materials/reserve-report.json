@@ -1,0 +1,1543 @@
+{
+  "scope": "Separate supply reserve; not part of fixed first 100 pilot, not automatically added to database",
+  "metadataCandidates": 1405,
+  "originalsAcquired": 1350,
+  "manuallyReviewed": 1405,
+  "acceptedReady": 661,
+  "excluded": 744,
+  "pendingReview": 0,
+  "pendingAcquisition": 0,
+  "attemptedCandidates": 1405,
+  "acquisitionFailures": {
+    "Image size (16777216 pixels) exceeds limit of 8388608 pixels, could be decompression bomb DOS attack.": 2,
+    "expected one public original base-color image, found 0": 9,
+    "The read operation timed out": 8,
+    "no officially linked free original folder": 12,
+    "declared response size exceeded": 5,
+    "expected one public original base-color image, found 3": 1,
+    "invalid upstream slug": 1,
+    "ambiguous original folders": 1,
+    "Image size (16793604 pixels) exceeds limit of 8388608 pixels, could be decompression bomb DOS attack.": 2,
+    "expected one public original base-color image, found 2": 1,
+    "response size exceeded": 12,
+    "expected one public original base-color image, found 6": 1
+  },
+  "firstReserve100Adopted": 69,
+  "remainingAdvertisedUninspectedPosts": 0,
+  "siteWideNetEstimate": null,
+  "exclusionSummary": {
+    "BaseColor lacks visible structural information; material differentiation resides in omitted PBR channels": 85,
+    "accepted": 661,
+    "Common running-bond brick layout already represented; color and weathering variation does not supply a new composition": 4,
+    "Logo-like decorated game-card face held out: author CC0 declaration alone does not establish the independent identity of the central game-style emblem": 1,
+    "Repeated fan/fringe wave rows share FabricLace049 motif family; density/radius and color variations are not extra compositions": 1,
+    "Almost uniform blue BaseColor with thin regular grid lines; structural panel differentiation is principally in omitted PBR channels": 1,
+    "Original BaseColor is a regular half-offset running-bond rectangle field rotated vertically, with almost uniform gray finish. Orientation/finish changes do not add a material construction.": 1,
+    "Plain square slab grid with brown coloration; basic grid family already represented": 1,
+    "Regular elongated diamond cell grid; highlights and green finish describe simple padding relief. The selected color map supplies no additional compound texture beyond a basic diamond lattice.": 1,
+    "Rounded square bump grid; conservative family exclusion with retained padded square motifs": 1,
+    "Plain repeated stripe fabric family; weave/noise and color variation do not add a new pattern": 1,
+    "Plain regular square tile grid; color/grain style changes already represented": 1,
+    "Regular repeated rhombus/hexagon lattice with concrete shading. One primitive cell repeats; color/relief/scale are grid-family parameters.": 1,
+    "Low-contrast thin running-bond brick grid already represented; color/surface variation alone": 1,
+    "Exact original-byte duplicate of existing or retained asset": 4,
+    "Color/contrast/D4/periodic-shift invariant near-duplicate material": 24,
+    "Existing checkerboard material family; direct preview comparison and normalized D4/periodic score .962445": 1,
+    "Low-contrast fine weave BaseColor; common woven-fiber surface family already represented in existing fabric originals": 1,
+    "Simple regular square/diamond/hexagon padding or tile grid already represented; color and normal-map relief changes do not supply new geometry": 7,
+    "Hollow triangle scatter family; regular spacing, colors and normal-map padding are variants of an existing triangle confetti motif": 1,
+    "Uniform equilateral triangle grid on a plain stone finish; primitive grid repetition already represented, with material grain/shading as the finish variation.": 1,
+    "Chocolate coloration of a simple rounded square grid; no independent pattern geometry beyond retained padded squares": 1,
+    "Plain gray rectangular slab grid; standard tile geometry already represented": 1,
+    "Plain staggered rectangular tile grid with green finish; shared running-bond/subway geometry": 1,
+    "Uniform running-bond rectangular panel layout already represented; wood coloring/grain stylization is held as a finish-family variation": 1,
+    "Almost uniform green BaseColor with thin regular grid seams; PBR surface variation is not represented in this color map": 1,
+    "White running-bond brick layout already represented; enamel/color/surface styling retained as a family rather than new composition": 1,
+    "Simple diamond padding lattice; repeated primitive geometry and color/shading variant of existing diamond grid families": 1,
+    "Stylized irregular polygon stone floor family; cell-seed/layout and coloration changes held as Voronoi-family variations rather than extra compositions": 5,
+    "Repeated chevron/wave stripe family already represented by FabricLace052; red color and wave density/curvature are stylistic variants": 1,
+    "Existing generic layered shingle/scallop family; color, relief and outline aspect are shape/style variants": 18,
+    "Same ribbed cactus surface family as Cactus002; larger-scale shading and green color variation are conservatively grouped": 1,
+    "Plain repeated diamond chain-link grid; common primitive mesh already represented by existing mesh and diamond pattern families": 1,
+    "Common running-bond brick/block layout already represented; painted colors and stylized weathering are a finish family rather than independent composition": 7,
+    "Official linked original filename numbering conflicts with the source post; excluded pending identity repair": 18,
+    "Repeated simple circle/quatrefoil lattice family; union/cutout density and diagonal clipping are conservative motif-family variants": 3,
+    "Same smooth cellular ripple/Voronoi sand surface family as Sand008; color and ripple aspect changes are grouped": 1,
+    "Same regular layered thatch bundle rows as ThatchedRoof001; aspect and backing color/style variant": 1,
+    "Standard warning glyph/triangle composition already represented by existing icon families; grunge and orange background alone are finish variations": 3,
+    "Image size (16777216 pixels) exceeds limit of 8388608 pixels, could be decompression bomb DOS attack.": 2,
+    "Source shows the same uniform broad blue corrugation/rib family as metal-grill-027. D4 orientation, rib frequency and corrosion/finish variation add no compound panel geometry.": 1,
+    "Regular square cells split by both diagonal lines into triangular spokes; plain blue/gold coloring and line width are variants of a primitive triangular-spoke grid.": 1,
+    "Simple repeating oval-link mesh; existing common chain/loop pattern family with leather coloration": 1,
+    "Original is a uniform circular-dot weave field with two straight orange seam stripes. Dot pitch, stripe count and dark/orange color styling are primitive weave/stripe parameters.": 1,
+    "Repeated blue ribs/stripes; normal-map padding finish variation of the existing blue grill/rib family": 1,
+    "Plain regular rectangular line grid with orange/red translucent finish; color, contrast and cell spacing describe the common grid family.": 1,
+    "Simple parallel dashed seam lines on plain black BaseColor; primitive stitch/line composition with texture relief in omitted maps": 1,
+    "Regular triangular embossed cell grid; gold color/highlights are a relief/finish variation of the simple triangle-grid construction.": 1,
+    "Plain regular polka dot/circular stud mesh; common dot family with shading/color style variation": 1,
+    "Same regular layered thatch bundle rows as ThatchedRoof001; height/aspect/color variant": 1,
+    "Very low-contrast diamond seam BaseColor; existing primitive diamond padding family": 1,
+    "Same ordinary basketweave as the retained AmbientCG Fabric010: D4 rotation, strip density and wood coloring change the finish, while alternating over-under strip topology remains the same.": 1,
+    "Alternating square basketweave/parquet family already represented by StylizedWoodFloor001; grain finish and plank density grouped": 1,
+    "Almost uniform pale grid BaseColor; the three-dimensional open ceiling distinction resides in omitted PBR channels": 1,
+    "Simple bolted plank lattice family already represented by WoodPlanks014; wood finish, bolt style and orientation variation": 1,
+    "Plain repeated square panel enclosing concentric-circle center glyphs; panel count, nested frame count and corner studs remain primitive grid/UI-face parameters.": 1,
+    "Generic regular running-bond block panel family; coloration or wood/plaster finish variation alone": 6,
+    "Nested square coffer frame family already represented by WoodCeilingCoffers004; finish and frame proportions grouped": 3,
+    "Retained JPEG shows only low-contrast fine weave/cloud grain, without independent visible material construction; same coarse fine-weave finish family as other held fabrics.": 1,
+    "Parallel corrugation/rib lines; width, orientation and corrosion/color finishing are common stripe-family variations": 7,
+    "Common regular square/rectangular/hexagon lattice family; material color, relief and seam thickness changes are held as variants": 9,
+    "Plain polka/stud lattice or simple repeated dot mesh, already represented by existing dot pattern families": 4,
+    "Retained JPEG is a low-contrast gray fine brushed-grain field; auxiliary relief and material naming do not provide an independent visible construction.": 1,
+    "Existing simple chain/padding mesh families; blur, density or color/material finish changes alone": 2,
+    "Already represented generic polygon-cell/scallop floor family; procedural cell layout and style/finish variation are grouped": 9,
+    "Plain black strip with parallel lane lines/dashes; primitive road marking/stripe family without distinctive visible asphalt structure": 1,
+    "Plain regular dot/stud/checker mesh or oval-chain lattice already represented; color or noise finishing does not add independent motif geometry": 11,
+    "Common square/diamond/hexagon/triangle lattice already represented; BaseColor color, relief and seam changes alone": 26,
+    "Actual crease locations match FabricNylon001; ruled lines and paper/nylon coloring are finishing changes over the same fold field, not another independent wrinkle map.": 1,
+    "Parallel corrugation/rib/seam/plank lines; width, orientation, noise and color finishing are common stripe-family variations": 9,
+    "Same basic herringbone/basketweave or nested diamond assembly; density, color and material finish are grouped": 10,
+    "Generic running-bond brick/block layout already represented; material finish or weathering alone": 7,
+    "Low-contrast plain weave or fine grain BaseColor already represented; no distinctive structure at retained original resolution": 6,
+    "Flat two-color interior wall BaseColor; no distinctive texture structure at retained resolution": 1,
+    "Basic stripe/plaid/argyle layout already represented; coloration or weave finishing alone": 4,
+    "Existing regular shingle/running-bond brick or parallel plank/rib family; material coloration and fine grain do not provide an independent compound layout": 27,
+    "Parallel rib/stripe family already represented; seam, rust, fabric and material finishing changes alone": 3,
+    "Same black-to-grunge ground fade construction as SurfaceImperfections002; fine versus coarse cloud/grain density is an effect parameter variation. Keep the more detailed002 map.": 1,
+    "Ordinary repeated three-face isometric cube stencil; directional wood-like ribs and coloration are surface styling of an existing basic cube tessellation.": 1,
+    "Generic regular square/diamond/triangle panel lattice already represented; finish and material color alone": 10,
+    "Nested frame/coffer or basketweave lattice family already represented; cross-rail or wood/leather finish variation": 5,
+    "Simple rail-and-tie ladder primitive already represented; object-color finishing is not an independent design composition": 1,
+    "Existing simple quatrefoil/circle lattice family; color/wood frame finishing variation": 2,
+    "Same regular running-bond/rectangular slab family already represented; finish or thin seam variation": 5,
+    "Common colored diamond/square pixel mosaic geometry already represented; color distribution alone": 1,
+    "Simple repeated circle/quatrefoil lattice family; clipping, density and concrete finishing are grouped": 1,
+    "Enlarged JPEG reuses MetalPitted001 grain/pit locations, with orange paint and contrast shifts. Matching pitted structure .978426 is confirmed by visible repeated pits.": 1,
+    "Standard warning glyph composition already represented by existing icon families; grunge and orange background alone are finish variations": 1,
+    "Same nested triangular hexagon motif as MetalPlate044; rust/color finish variant": 1,
+    "Basic argyle lattice with small center studs/rosettes already represented; finish rather than independent motif structure": 1,
+    "Regular clipped-square/octagon coffer grid with small star glyphs at junctions; corner clipping, glyph decoration and wood finish are primitive coffer/grid parameters, already grouped with basic coffer families.": 1,
+    "Low-contrast plain weave/mesh BaseColor already represented; no distinctive construction at original resolution": 2,
+    "Very low-information or almost flat COLOR channel; identifying pore/weave/relief details reside principally in omitted PBR maps": 40,
+    "Plain dot/stud or rectangular weave/mesh primitive already represented; metal/color finishing alone": 4,
+    "Common small knitted/burlap/denim weave family; stitch density, color and noise variations are not extra material constructions": 5,
+    "Common isometric cube/hexagonal wire repeat already represented; face-stripe fill or color variation": 2,
+    "expected one public original base-color image, found 0": 9,
+    "Common interlocking orthogonal meander motif family already represented; line thickness and tile coloring are parameters": 1,
+    "Common small woven/checker/diamond mesh family already represented; density, orientation and finish parameters": 11,
+    "Regular dot/stud or teardrop scatter family already represented; color and grid spacing parameters": 6,
+    "Existing generic layered shingle/scallop family; coloration, surface relief or row density change alone": 4,
+    "Regular square/triangle/hexagonal panel grid already represented; material coloration, rim thickness or relief finishing alone": 11,
+    "Parallel rib/stripe family already represented; material naming, seam/relief and color finishing alone": 3,
+    "Very low-information grain or fine weave BaseColor; structure is principally in omitted PBR channels": 2,
+    "Common running-bond brick/block layout already represented; surface color/weathering variation alone": 1,
+    "Same simple oval/lantern chain lattice family already represented; tiny junction studs and coloration are finish variations": 2,
+    "Ordinary outlined three-face isometric cube tessellation already represented; line styling and concrete grain are finishing parameters rather than a distinct mechanism.": 1,
+    "Basic repeated eight-point star/cross tessellation already represented by existing geometric star/cross motif families; plain blue fill is a finish variation.": 1,
+    "Regular perforated hexagon assembly shares HexaGripBoard001 motif family; yellow coloring, dot density and relief are parameters": 1,
+    "Common skull UI glyph scatter family already represented; background and skull-color changes are variants": 1,
+    "Same basic padded diamond/cross or orthogonal meander/running-bond assembly already represented; material/color finishing parameters": 3,
+    "Same regular honeycomb lattice; filling or coloring a few cells does not create a new geometry": 1,
+    "Basic hazard-stripe panel border already represented; metallic grain and yellow coloring are finishing variants": 1,
+    "The read operation timed out": 8,
+    "Common parallel corrugation or running-bond plank/slab family; rust and color/weathering variations": 7,
+    "Same elementary triangular/hexagonal/isometric-star-cell tessellation already represented; line/fill and material finishing variants": 7,
+    "Regular colored concentric-circle cap lattice; ring spacing and colors are parameters of an existing basic ring/dot motif family": 1,
+    "Common basketweave/coffer/grid texture already represented; weave-strip width and color/style finishing parameters": 7,
+    "Same actual clustered coin original composition as CoinStack003; crop/replication or filled tile density variant": 1,
+    "Very low-information nearly uniform BaseColor; fine weave/paint distinction is principally in omitted PBR channels": 2,
+    "Plain regular red hexagonal cell grid; palette and textile grain do not add another independent hexagon construction.": 1,
+    "Existing ordinary scallop/ellipse-chain/quatrefoil lattice family; fill, shading and color changes are parameters": 7,
+    "Existing simple elongated-oval/stud lattice; density and material finish variations": 1,
+    "Existing generic cell/Voronoi network family; seed distribution and color/finish variations": 2,
+    "no officially linked free original folder": 12,
+    "Same actual shard locations, contours and clusters as Terrazzo002; white/navy backing and shard recoloring preserve the original aggregate map.": 1,
+    "Generic parallel rib/cable and circle/scallop/diamond chain patterns already represented; finish, weave density and coloring parameters": 9,
+    "Common elementary checkerboard/hatch-fill or basketwork family; orientation, density and material-color finishing alone": 2,
+    "Almost flat orange COLOR/BaseColor with low-contrast noise; padded construction resides in omitted PBR channels, not the actual local JPEG.": 1,
+    "Same elementary panel/coffer/triangle/diamond/hexagonal grid already represented; material coloration, cell density, bolts or relief finishing variants": 12,
+    "Regular coarse frame/mesh or nested-hexagonal lattice family already represented; panel count, noise/color and cell aspect parameters": 3,
+    "Existing common dot/stud/oval or linked-ring grid family; palette, row spacing and tiny junction decoration are parameters": 5,
+    "Basic metal panel with two parallel border rails already represented; metallic grain, grip/handle or color changes alone": 2,
+    "Generic cracked polygon or faceted-cell network already represented; randomized cell seeds, colors and shading are family parameters": 6,
+    "Almost flat blue COLOR/BaseColor with low-contrast noise; same held vinyl padding family, with structure principally in omitted PBR channels.": 1,
+    "Basic argyle, houndstooth, diamond, checkerboard or chevron/plaid motif family already represented; colors and density are parameters": 7,
+    "declared response size exceeded": 5,
+    "Plain regular square/stud/perforated-dot panel grid already represented; density, panel count, tiny bolts, colors or relief finishing parameters": 7,
+    "expected one public original base-color image, found 3": 1,
+    "Simple regular hexagonal floor/cell grid; wood or terracotta finishing rather than independent geometry": 3,
+    "Same ornate tile motif as tiles-azulejos-004; red/white countercolor and finish variation preserves the actual ornament construction": 1,
+    "Basic pore/dot scatter on a uniform mineral or sponge COLOR map; density, pore size and color variations of an existing dot/grain family": 3,
+    "invalid upstream slug": 1,
+    "Regular parallel agate bands; band frequency, widths and cyan/brown colors vary the existing stripe field rather than add compound grain structure": 2,
+    "BaseColor contains almost flat color or regular pale ceiling grid; distinctive surface relief is in omitted PBR channels": 3,
+    "ambiguous original folders": 1,
+    "Basic diagonal warning/hazard stripe field already represented; black/yellow coloring and distressed edges are finishing parameters": 1,
+    "Same generic glowing lava/cracked-cell family as lava-001; cell seed/scale and glow contrast are finish variations": 1,
+    "Image size (16793604 pixels) exceeds limit of 8388608 pixels, could be decompression bomb DOS attack.": 2,
+    "expected one public original base-color image, found 2": 1,
+    "Generic camouflage blob field already represented by fabric-camo-001 and existing pattern families; recolor/density and random blob positions are variants": 1,
+    "Same grain and chip locations as the held MetalPainted001a map, with red/green recolor. This low-information finish variation is excluded rather than re-counted.": 1,
+    "Standard small flower glyph scatter already represented; glyph count, scale, rotation and pale/blue colors are parameters": 1,
+    "Simple round-cell bubble field already represented; green rim lighting and blob density are parameters": 1,
+    "Same irregular organic loop contour family as abstract-005; loop density, number of small enclosed islands and black/white contrast are field parameters": 1,
+    "Common parallel plank/rib or running-bond rectangle family already represented; material coloration, grain and weathering alone": 18,
+    "Very low-information BaseColor; fine grain or omitted PBR relief does not provide an independent visible construction": 15,
+    "Common basketweave or herringbone arrangement already represented; width, orientation and material finish are parameters": 7,
+    "response size exceeded": 12,
+    "Plain repeated stripe or lozenge mesh family already represented; coloring and fine surface weave are finish variants": 1,
+    "Simple regular square/hexagonal or stud-panel grid already represented; color, bolt decoration and finish do not create compound geometry": 17,
+    "Elementary circular ring, cap or blob scatter already represented; density, color and normal-map shading alone": 5,
+    "Common running-bond or interlocking pavement geometry already represented by existing originals; material grain/color variation alone": 3,
+    "Uniform nested diamond checkerboard tessellation already represented; cell count and metallic color are parameters": 1,
+    "Generic faceted polygon cell network already represented; color and cell-seed variation alone": 2,
+    "Existing layered shingle/scallop family; metallic/wood finish and row density are parameters": 2,
+    "Simple diamond padding family already represented; color and relief highlights alone": 1,
+    "Same main gray grunge/patch field as MetalScratched006; scratch darkness and fine overlaid line changes preserve essentially the same material appearance (.978339).": 1,
+    "Same gray grunge/patch structure as MetalScratched006; lighter finish and fine line-density changes do not supply a distinct texture composition.": 1,
+    "expected one public original base-color image, found 6": 1
+  },
+  "input": "data/upstream/expansion12-materials/reserve-items.json",
+  "inputSha256": "e9f35ec5afc53b14e62b9fea73b9e2d852be5bc98b31d742d69a10ffe15e2ba1",
+  "copyContract": "For each selected image descriptor assets/materials/<id>.jpg, copy only its matching data/upstream/expansion12-materials/previews/<id>.jpg",
+  "validation": {
+    "originalAndJpegHashes": 661,
+    "fullPlainNoticePreserved": true,
+    "uniqueIds": true,
+    "uniqueOriginalBytes": true,
+    "actualBuildSchemaAndCollectionGate": "PASS",
+    "actualJpegBytesAndDimensions": 661,
+    "postArchiveReceiptGate": "PASS"
+  },
+  "initialPilotUnchanged": true,
+  "mainInputUnchangedDuringReserve": true,
+  "mainInputCount": 123,
+  "sourceAccess": "Normal public API and author-linked public originals; no authentication, headers to bypass access denial, or proxies. Source-host >=6s; Drive >=1s; any429/403 stops acquisition.",
+  "reviewComplete": true,
+  "officialSitePostCensus": 1505,
+  "censusUnit": "Official public posts; news/non-material posts, unavailable originals and oversized maps remain in the attempted denominator and are not counted as assets",
+  "visuallyReviewedOriginals": 1350,
+  "manualReviewPath": "data/upstream/expansion12-materials/reserve-manual-decisions.json",
+  "manualReviewSha256": "39b3347e11cc25befe1340759f64d83056fb38aaa0e98fc7ea6d5fb1712c94c9",
+  "originalSizeBoundBytes": 8388608,
+  "originalMaximumDimension": 2048,
+  "originalMaximumPixels": 4194304,
+  "previewMaximumDimension": 1024,
+  "fixedReserve800Snapshot": "data/upstream/expansion12-materials/reserve-report800.json",
+  "originalChannelPolicy": "One actual author-linked BaseColor/Diffuse/Albedo map per independent material; observed legacy *_COLOR maps are accepted only with companion PBR channel names proving the color-map identity. Other channels/resolutions/crops/frames do not add assets.",
+  "legacyColorRecovery": [
+    {
+      "slug": "roof-tiles-copper-001",
+      "row": 582,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Roof_Tiles_Copper_001_basecolor.jpg Image"
+    },
+    {
+      "slug": "fabric-rug-006",
+      "row": 744,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Fabric_Rug_006_COLOR.jpg Image"
+    },
+    {
+      "slug": "concrete-wall-004",
+      "row": 753,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Concrete_Wall_004_COLOR.jpg Image"
+    },
+    {
+      "slug": "fabric-knitted-002",
+      "row": 769,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Fabric_Knitted_002_COLOR.jpg Image"
+    },
+    {
+      "slug": "mud-rocks-001",
+      "row": 779,
+      "status": "rejected-acquisition",
+      "reason": "expected one public original base-color image, found 0",
+      "originalName": null
+    },
+    {
+      "slug": "rock-030",
+      "row": 911,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Rock_030_COLOR.jpg Image"
+    },
+    {
+      "slug": "ground-dirt-006",
+      "row": 971,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Ground_Dirt_006_COLOR.jpg Image"
+    },
+    {
+      "slug": "wood-014",
+      "row": 973,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Wood_014_COLOR.jpg Image"
+    },
+    {
+      "slug": "rock-031",
+      "row": 993,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Rock_031_COLOR.jpg Image"
+    },
+    {
+      "slug": "marble-blue-003",
+      "row": 994,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Marble_Blue_003_COLOR.jpg Image"
+    },
+    {
+      "slug": "abstract-organic-002",
+      "row": 997,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Abstract_Organic_002_COLOR.jpg Image"
+    },
+    {
+      "slug": "blue-ice-001",
+      "row": 1001,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Blue_Ice_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "fabric-burlap-002",
+      "row": 1003,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Fabric_Burlap_002_COLOR.jpg Image"
+    },
+    {
+      "slug": "red-marble-003",
+      "row": 1004,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Marble_Red_003_COLOR.jpg Image"
+    },
+    {
+      "slug": "watercolor-paper-001",
+      "row": 1005,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Watercolor_Paper_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "pebbles-007",
+      "row": 1006,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Pebbles_007_COLOR.jpg Image"
+    },
+    {
+      "slug": "concrete-012",
+      "row": 1007,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Concrete_012_COLOR.jpg Image"
+    },
+    {
+      "slug": "leather-006",
+      "row": 1008,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Leather_006_COLOR.jpg Image"
+    },
+    {
+      "slug": "brick-wall-014",
+      "row": 1009,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Brick_Wall_014_COLOR.jpg Image"
+    },
+    {
+      "slug": "fabric-003",
+      "row": 1010,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Fabric_003_COLOR.jpg Image"
+    },
+    {
+      "slug": "leather-007",
+      "row": 1011,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Leather_007_COLOR.jpg Image"
+    },
+    {
+      "slug": "fabric-005",
+      "row": 1012,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Fabric_005_COLOR.jpg Image"
+    },
+    {
+      "slug": "wood-010-cutting-board",
+      "row": 1014,
+      "status": "rejected-acquisition",
+      "reason": "declared response size exceeded",
+      "originalName": null
+    },
+    {
+      "slug": "skin-human-002",
+      "row": 1015,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Skin_Human_002_COLOR.png Image"
+    },
+    {
+      "slug": "fabric-015",
+      "row": 1016,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Fabric_015_COLOR.jpg Image"
+    },
+    {
+      "slug": "pebbles-006",
+      "row": 1019,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Pebbles_006_COLOR.jpg Image"
+    },
+    {
+      "slug": "carrara-marble-003",
+      "row": 1020,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Marble_Carrara_003_COLOR.jpg Image"
+    },
+    {
+      "slug": "fabric-004",
+      "row": 1021,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Fabric_004_COLOR.jpg Image"
+    },
+    {
+      "slug": "concrete-013",
+      "row": 1023,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Concrete_013_COLOR.jpg Image"
+    },
+    {
+      "slug": "tiles-azulejos-004",
+      "row": 1024,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Tiles_Azulejos_004_COLOR.jpg Image"
+    },
+    {
+      "slug": "rock-027",
+      "row": 1029,
+      "status": "rejected-acquisition",
+      "reason": "declared response size exceeded",
+      "originalName": null
+    },
+    {
+      "slug": "brick-wall-015",
+      "row": 1030,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Brick_Wall_015_COLOR.jpg Image"
+    },
+    {
+      "slug": "fabric-012",
+      "row": 1031,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Fabric_012_COLOR.jpg Image"
+    },
+    {
+      "slug": "wood-013",
+      "row": 1034,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Wood_013_COLOR.jpg Image"
+    },
+    {
+      "slug": "metal-panel-006",
+      "row": 1036,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Metal_Panel_006_COLOR.jpg Image"
+    },
+    {
+      "slug": "carrara-marble-002",
+      "row": 1038,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Marble_Carrara_002_COLOR.jpg Image"
+    },
+    {
+      "slug": "tiles-azulejos-004a",
+      "row": 1040,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Tiles_Azulejos_004a_COLOR.jpg Image"
+    },
+    {
+      "slug": "sponge-001",
+      "row": 1041,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Sponge_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "wood-009-mahogany",
+      "row": 1042,
+      "status": "rejected-acquisition",
+      "reason": "declared response size exceeded",
+      "originalName": null
+    },
+    {
+      "slug": "wood-stripes-001",
+      "row": 1046,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Wood_Stripes_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "ground-forest-001",
+      "row": 1047,
+      "status": "rejected-acquisition",
+      "reason": "declared response size exceeded",
+      "originalName": null
+    },
+    {
+      "slug": "cork-002",
+      "row": 1049,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Cork_002_COLOR.jpg Image"
+    },
+    {
+      "slug": "plaster-rough-001",
+      "row": 1050,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Plaster_Rough_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "rock-025",
+      "row": 1051,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Rock_025_COLOR.jpg Image"
+    },
+    {
+      "slug": "rock-029",
+      "row": 1052,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Rock_030_COLOR.jpg Image"
+    },
+    {
+      "slug": "wood-007",
+      "row": 1053,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Wood_007_COLOR.jpg Image"
+    },
+    {
+      "slug": "lizard-skin-001",
+      "row": 1054,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Skin_Lizard_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "bark-003",
+      "row": 1055,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Bark_003_COLOR.jpg Image"
+    },
+    {
+      "slug": "volcanic-ash-001",
+      "row": 1056,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Volcanic_Ash_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "wood-008",
+      "row": 1057,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Wood_008_COLOR.jpg Image"
+    },
+    {
+      "slug": "weapon-grip-001",
+      "row": 1058,
+      "status": "rejected-acquisition",
+      "reason": "expected one public original base-color image, found 0",
+      "originalName": null
+    },
+    {
+      "slug": "fabric-010",
+      "row": 1059,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Fabric_010_COLOR.jpg Image"
+    },
+    {
+      "slug": "paper-recycled-001",
+      "row": 1060,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Paper_Recycled_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "water-002",
+      "row": 1061,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Water_002_COLOR.jpg Image"
+    },
+    {
+      "slug": "rock-028",
+      "row": 1062,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Rock_028_COLOR.jpg Image"
+    },
+    {
+      "slug": "ground-grass-001",
+      "row": 1063,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Ground_Grass_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "fabric-014",
+      "row": 1064,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Fabric_014_COLOR.jpg Image"
+    },
+    {
+      "slug": "asphalt-006",
+      "row": 1065,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Asphalt_006_COLOR.jpg Image"
+    },
+    {
+      "slug": "pebbles-005",
+      "row": 1067,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Pebbles_005_COLOR.jpg Image"
+    },
+    {
+      "slug": "fabric-001",
+      "row": 1068,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Fabric_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "fabric-007",
+      "row": 1069,
+      "status": "rejected-acquisition",
+      "reason": "The read operation timed out",
+      "originalName": null
+    },
+    {
+      "slug": "concrete-014",
+      "row": 1071,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Concrete_014_4K_COLOR.jpg Image"
+    },
+    {
+      "slug": "gem-agate-003",
+      "row": 1072,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Gem_Agate_003_COLOR.jpg Image"
+    },
+    {
+      "slug": "corrugated-metal-006",
+      "row": 1073,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Metal_Corrugated_006_COLOR.jpg Image"
+    },
+    {
+      "slug": "pebbles-008",
+      "row": 1074,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Pebbles_008_COLOR.jpg Image"
+    },
+    {
+      "slug": "concrete-015",
+      "row": 1075,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Concrete_004_COLOR.jpg Image"
+    },
+    {
+      "slug": "fingerprint-001-generator-4k",
+      "row": 1076,
+      "status": "rejected-acquisition",
+      "reason": "expected one public original base-color image, found 0",
+      "originalName": null
+    },
+    {
+      "slug": "wood-planks-010",
+      "row": 1078,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Wood_Planks_010_COLOR.jpg Image"
+    },
+    {
+      "slug": "sand-004",
+      "row": 1080,
+      "status": "rejected-acquisition",
+      "reason": "declared response size exceeded",
+      "originalName": null
+    },
+    {
+      "slug": "rock-026",
+      "row": 1083,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Rock_026_COLOR.jpg Image"
+    },
+    {
+      "slug": "tiles-015",
+      "row": 1087,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Tiles_015_COLOR.jpg Image"
+    },
+    {
+      "slug": "fabric-011",
+      "row": 1088,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Fabric_011_COLOR.jpg Image"
+    },
+    {
+      "slug": "fabric-burlap-001",
+      "row": 1089,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Fabric_Burlap_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "snow-004",
+      "row": 1090,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Snow_004_COLOR.jpg Image"
+    },
+    {
+      "slug": "marble-gray-001",
+      "row": 1091,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Marble_Gray_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "denim-002",
+      "row": 1093,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Fabric_Denim_002_COLOR.jpg Image"
+    },
+    {
+      "slug": "fabric-013",
+      "row": 1095,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Fabric_013_COLOR.jpg Image"
+    },
+    {
+      "slug": "bark-pine-001",
+      "row": 1096,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Bark_Pine_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "organic-matter-002",
+      "row": 1097,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Organic_Matter_002_COLOR.jpg Image"
+    },
+    {
+      "slug": "fabric-008",
+      "row": 1099,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Fabric_008_COLOR.jpg Image"
+    },
+    {
+      "slug": "fabric-002",
+      "row": 1100,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Fabric_002_COLOR.jpg Image"
+    },
+    {
+      "slug": "knitted-fabric-001",
+      "row": 1101,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Knited_Fabric_001_COLOR.JPG Image"
+    },
+    {
+      "slug": "asphalt-shingles-001",
+      "row": 1103,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Shingles_Asphalt_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "hazard-paint-001",
+      "row": 1104,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Hazard_Paint_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "wood-003",
+      "row": 1105,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Wood_003_COLOR.jpg Image"
+    },
+    {
+      "slug": "stone-tiles-003",
+      "row": 1106,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Stone_Tiles_003_COLOR.jpg Image"
+    },
+    {
+      "slug": "gun-metal-scratched-001",
+      "row": 1107,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Gun_Metal_Scratched_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "wood-004",
+      "row": 1109,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Wood_004_COLOR.jpg Image"
+    },
+    {
+      "slug": "lapis-lazuli-001",
+      "row": 1110,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Lapis_Lazuli_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "rough-rock-022",
+      "row": 1111,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Rough_Rock_022_COLOR.jpg Image"
+    },
+    {
+      "slug": "damaged-concrete-001",
+      "row": 1112,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Concrete_Damaged_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "rough-rock-023",
+      "row": 1113,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Rough_Rock_023_COLOR.jpg Image"
+    },
+    {
+      "slug": "concrete-011",
+      "row": 1114,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Concrete_011_COLOR.jpg Image"
+    },
+    {
+      "slug": "tiles-013",
+      "row": 1115,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Tiles_013_COLOR.jpg Image"
+    },
+    {
+      "slug": "lava-005",
+      "row": 1117,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Lava_005_COLOR.jpg Image"
+    },
+    {
+      "slug": "quartz-002",
+      "row": 1118,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Quartz_002_COLOR.jpg Image"
+    },
+    {
+      "slug": "azulejos-tiles-002",
+      "row": 1119,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Azulejos_002_COLOR.jpg Image"
+    },
+    {
+      "slug": "agate-001",
+      "row": 1120,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Agate_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "azulejos-tiles-001",
+      "row": 1121,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Azulejos_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "wood-001",
+      "row": 1122,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Wood_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "cobblestone-001",
+      "row": 1123,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Cobblestone_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "granite-002",
+      "row": 1124,
+      "status": "rejected-acquisition",
+      "reason": "Image size (16793604 pixels) exceeds limit of 8388608 pixels, could be decompression bomb DOS attack.",
+      "originalName": null
+    },
+    {
+      "slug": "wood-006",
+      "row": 1125,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Wood_006_COLOR.jpg Image"
+    },
+    {
+      "slug": "white-marble-005",
+      "row": 1126,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "White_Marble_005_COLOR.jpg Image"
+    },
+    {
+      "slug": "tweed-001",
+      "row": 1127,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Tweed_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "wall-siding-003",
+      "row": 1128,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Wall_Siding_003_COLOR.jpg Image"
+    },
+    {
+      "slug": "concrete-panels-001",
+      "row": 1129,
+      "status": "rejected-acquisition",
+      "reason": "Image size (16777216 pixels) exceeds limit of 8388608 pixels, could be decompression bomb DOS attack.",
+      "originalName": null
+    },
+    {
+      "slug": "plastic-001-w-speckles-and-fingerprints",
+      "row": 1131,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Plastic_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "tiles-014",
+      "row": 1132,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Tiles_014_COLOR.jpg Image"
+    },
+    {
+      "slug": "crystal-002",
+      "row": 1133,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Crystal_002_COLOR.jpg Image"
+    },
+    {
+      "slug": "blocks-001",
+      "row": 1134,
+      "status": "rejected-acquisition",
+      "reason": "expected one public original base-color image, found 0",
+      "originalName": null
+    },
+    {
+      "slug": "metal-diamond-001",
+      "row": 1135,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Metal_Diamond_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "blue-marble-002",
+      "row": 1136,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Blue_Marble_002_COLOR.jpg Image"
+    },
+    {
+      "slug": "quartz-001",
+      "row": 1137,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Quartz_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "concrete-010",
+      "row": 1138,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Concrete_010_COLOR.jpg Image"
+    },
+    {
+      "slug": "camouflage-fabric-002",
+      "row": 1139,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Camouflage_fabric_002_COLOR.jpg Image"
+    },
+    {
+      "slug": "grass-003-with-flowers",
+      "row": 1140,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Grass_003_COLOR.jpg Image"
+    },
+    {
+      "slug": "stone-wall-009",
+      "row": 1141,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Stone_Wall_009_COLOR.jpg Image"
+    },
+    {
+      "slug": "brick-wall-012",
+      "row": 1142,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Brick_Wall_012_COLOR.jpg Image"
+    },
+    {
+      "slug": "wall-siding-004",
+      "row": 1143,
+      "status": "rejected-acquisition",
+      "reason": "expected one public original base-color image, found 0",
+      "originalName": null
+    },
+    {
+      "slug": "metal-plate-007",
+      "row": 1145,
+      "status": "rejected-acquisition",
+      "reason": "expected one public original base-color image, found 0",
+      "originalName": null
+    },
+    {
+      "slug": "concrete-009",
+      "row": 1146,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Concrete_009_COLOR.jpg Image"
+    },
+    {
+      "slug": "wood-planks-008",
+      "row": 1147,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Wood_Planks_008_COLOR.jpg Image"
+    },
+    {
+      "slug": "wood-wall-001",
+      "row": 1148,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Wood_Wall_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "wood-005",
+      "row": 1149,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Wood_005_COLOR.jpg Image"
+    },
+    {
+      "slug": "wall-siding-005",
+      "row": 1150,
+      "status": "rejected-acquisition",
+      "reason": "expected one public original base-color image, found 0",
+      "originalName": null
+    },
+    {
+      "slug": "old-graffiti-wall-001",
+      "row": 1151,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Old_Graffiti_Wall_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "stone-wall-008",
+      "row": 1152,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Stone_Wall_008_COLOR.jpg Image"
+    },
+    {
+      "slug": "agate-002",
+      "row": 1153,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Agate_002_COLOR.jpg Image"
+    },
+    {
+      "slug": "white-marble-004",
+      "row": 1154,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "White_Marble_004_COLOR.jpg Image"
+    },
+    {
+      "slug": "metal-plate-006",
+      "row": 1155,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Metal_plate_006_COLOR.jpg Image"
+    },
+    {
+      "slug": "engraved-metal-003",
+      "row": 1156,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Engraved_Metal_003_COLOR.jpg Image"
+    },
+    {
+      "slug": "sapphire-001",
+      "row": 1157,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Sapphire_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "wood-002",
+      "row": 1158,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Wood_002_COLOR.jpg Image"
+    },
+    {
+      "slug": "rock-023",
+      "row": 1159,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Rock_023_COLOR.jpg Image"
+    },
+    {
+      "slug": "metal-pattern-001",
+      "row": 1160,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Metal_Pattern_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "corrugated-metal-001",
+      "row": 1162,
+      "status": "rejected-acquisition",
+      "reason": "Image size (16793604 pixels) exceeds limit of 8388608 pixels, could be decompression bomb DOS attack.",
+      "originalName": null
+    },
+    {
+      "slug": "azulejos-tiles-003",
+      "row": 1163,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Azulejos_003_COLOR.jpg Image"
+    },
+    {
+      "slug": "corrugated-metal-002",
+      "row": 1164,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Corrugated_Metal_002_COLOR.jpg Image"
+    },
+    {
+      "slug": "canyon-rock-001",
+      "row": 1165,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Canyon_Rock_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "crystal-metal-001",
+      "row": 1166,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Crystal_Metal_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "encrusted-gems-002",
+      "row": 1167,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Encrusted_Gems_002_COLOR.jpg Image"
+    },
+    {
+      "slug": "dust-fibers-001",
+      "row": 1168,
+      "status": "rejected-acquisition",
+      "reason": "expected one public original base-color image, found 0",
+      "originalName": null
+    },
+    {
+      "slug": "cracked-mud-001",
+      "row": 1169,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Cracked_Mud_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "old-wood-001",
+      "row": 1170,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Old_Wood_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "wall-siding-006",
+      "row": 1171,
+      "status": "rejected-acquisition",
+      "reason": "expected one public original base-color image, found 0",
+      "originalName": null
+    },
+    {
+      "slug": "organic-abstract-001",
+      "row": 1172,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Organic_abstract_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "wall-siding-002",
+      "row": 1173,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Wall_Siding_002_COLOR.jpg Image"
+    },
+    {
+      "slug": "metal-grunge-004",
+      "row": 1174,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Metal_Grunge_004_COLOR.jpg Image"
+    },
+    {
+      "slug": "brick-wall-010",
+      "row": 1175,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Brick_Wall_010_COLOR.jpg Image"
+    },
+    {
+      "slug": "asphalt-005",
+      "row": 1176,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Asphalt_005_COLOR.jpg Image"
+    },
+    {
+      "slug": "quilt-001",
+      "row": 1177,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Quilt_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "corrugated-metal-003",
+      "row": 1178,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Corrugated_Metal_003_COLOR.jpg Image"
+    },
+    {
+      "slug": "wood-planks-009",
+      "row": 1179,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Wood_Planks_009_COLOR.jpg Image"
+    },
+    {
+      "slug": "engraved-metal-001",
+      "row": 1180,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Engraved_Metal_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "wall-siding-001",
+      "row": 1182,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Wall_Siding_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "asphalt-004",
+      "row": 1183,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Asphalt_004_COLOR.jpg Image"
+    },
+    {
+      "slug": "lava-004-cooled",
+      "row": 1184,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Lava_004_COLOR.jpg Image"
+    },
+    {
+      "slug": "brick-wall-013",
+      "row": 1185,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Brick_Wall_013_COLOR.jpg Image"
+    },
+    {
+      "slug": "metal-plate-009",
+      "row": 1186,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Metal_Plate_009_COLOR.jpg Image"
+    },
+    {
+      "slug": "rough-painted-wall-001",
+      "row": 1187,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Rough_Painted_Wall_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "metal-plate-005",
+      "row": 1188,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Metal_plate_005_COLOR.jpg Image"
+    },
+    {
+      "slug": "metal-grill-001",
+      "row": 1189,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Metal_Grill_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "crystal-003",
+      "row": 1190,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Crystal_003_COLOR.jpg Image"
+    },
+    {
+      "slug": "slate-rock-001",
+      "row": 1191,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Slate_Rock_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "corrugated-metal-004",
+      "row": 1192,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Corrugated_Metal_004_COLOR.jpg Image"
+    },
+    {
+      "slug": "stone-wall-007",
+      "row": 1193,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Stone_Wall_007_COLOR.jpg Image"
+    },
+    {
+      "slug": "vent-001",
+      "row": 1195,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Vent_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "sand-003",
+      "row": 1196,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Sand_003_COLOR.jpg Image"
+    },
+    {
+      "slug": "grass-004",
+      "row": 1197,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Grass_004_COLOR.jpg Image"
+    },
+    {
+      "slug": "metal-plate-008",
+      "row": 1198,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Metal_Plate_008_COLOR.jpg Image"
+    },
+    {
+      "slug": "brick-wall-011",
+      "row": 1199,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Brick_Wall_011_COLOR.jpg Image"
+    },
+    {
+      "slug": "engraved-metal-002",
+      "row": 1200,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Engraved_Metal_002_COLOR.jpg Image"
+    },
+    {
+      "slug": "grass-001-2",
+      "row": 1201,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Grass_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "brick-wall-009",
+      "row": 1202,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Brick_Wall_009_COLOR.jpg Image"
+    },
+    {
+      "slug": "alien-muscle-001",
+      "row": 1203,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Alien_Muscle_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "stone-wall-005",
+      "row": 1204,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Stone_wall_005_COLOR.jpg Image"
+    },
+    {
+      "slug": "metal-crystals-001",
+      "row": 1205,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Metal_Crystals_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "orange-001",
+      "row": 1206,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Orange_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "wood-floor-005",
+      "row": 1207,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Wood_Floor_005_COLOR.jpg Image"
+    },
+    {
+      "slug": "abstract-003",
+      "row": 1209,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Abstract_003_COLOR.jpg Image"
+    },
+    {
+      "slug": "bacteria-001",
+      "row": 1210,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Bacteria_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "subway-tiles-001",
+      "row": 1211,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Subway_tiles_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "alien-metal-001",
+      "row": 1212,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Metal_Alien_001_COLOR.jpg Image"
+    },
+    {
+      "slug": "pebbles-004",
+      "row": 1213,
+      "status": "original-acquired-awaiting-similarity-review",
+      "reason": null,
+      "originalName": "Pebbles_004_COLOR.jpg Image"
+    }
+  ],
+  "limitations": "The first100 pilot and first reserve100 are frozen recent-public-post subsets, not randomized site-wide samples. No site-wide rate projection. Numerical/hash/D4/phase/crop checks cover the frozen494 existing original image population, current material input and119 new pattern previews; direct-image family review supplements these checks and does not assert exhaustive pixel rendering of all existing code-based items.",
+  "finalRetainedJpegStructureReview": {
+    "candidateFlags": 28,
+    "threshold": 0.9,
+    "excluded": 18,
+    "retained": 10,
+    "evidence": "data/upstream/expansion12-materials/final-high-structure-pair-index.json",
+    "basis": "Actual enlarged JPEG/geometry review; coarse similarity alone does not imply a duplicate. Preview contrast/color was not altered."
+  },
+  "unavailableOriginalLinkReview": "data/upstream/expansion12-materials/unavailable-original-link-review.json",
+  "mainInputSource": "data/upstream/expansion12-materials/main-eligible-items.json",
+  "qaEvidenceArchive": {
+    "mapping": "data/upstream/expansion12-materials/cleanup-archive-map.json",
+    "sha256": "dc5775ce56a53de55b7120f127f511258a19bc35e640cf7c2571a199ffcc3c9f",
+    "files": 913,
+    "productAndReceiptPathsUnchanged": true,
+    "historicalEvidenceReferences": "Original QA paths in immutable independent/source reports resolve through the mapping to ignored investigation artifacts; original byte hashes remain unchanged."
+  }
+}

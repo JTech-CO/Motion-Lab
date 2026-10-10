@@ -1,0 +1,56 @@
+{
+  "url": "https://threejs.org/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://threejs.org/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://threejs.org/",
+      "allowedForAuditGet": true,
+      "reason": "robots-missing-not-a-license",
+      "robotsUrl": "https://threejs.org/robots.txt",
+      "robotsStatus": 404
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://threejs.org/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:03.201972+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://threejs.org/",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 62836,
+      "capturedSha256": "22214c639b8c2eb91770f43a649eed84e52e17f916028d1fdcb625a4fdddd0e9",
+      "responseBodySha256": "22214c639b8c2eb91770f43a649eed84e52e17f916028d1fdcb625a4fdddd0e9",
+      "title": "Three.js – JavaScript 3D Library",
+      "textCharacters": 302,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.292,
+      "captureCachePath": "exa-results/link-audit/references/captures/acc4767529a5d780a9df58d1.json",
+      "captureCacheSha256": "960eed0784b40f270ad8c1aa0a2fabd7b484a91d7d5060efcbb55b6abf2c4bcc"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-three-js",
+      "canonicalId": "ref-three-js",
+      "title": "Three.js",
+      "role": "canonical",
+      "sourceSha256": "b38b27ab461760bd8d1efd70b9f142d9193c1f141a22e943fef2121f6bb29284"
+    }
+  ]
+}

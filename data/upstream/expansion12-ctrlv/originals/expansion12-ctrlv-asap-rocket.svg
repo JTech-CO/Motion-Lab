@@ -1,0 +1,7 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="anim-float">
+            <path d="M200 60 L240 180 H160 L200 60 Z" fill="var(--primary-color)" opacity="0.2" stroke="var(--primary-color)" stroke-width="4"/>
+            <path class="anim-pulse" d="M180 200 L200 240 L220 200" fill="#facc15"/>
+        </g>
+        <text x="50%" y="150" text-anchor="middle" font-family="Inter" font-weight="900" font-size="40" fill="var(--charcoal)">ASAP</text>
+    </svg>

@@ -1,0 +1,56 @@
+{
+  "url": "https://voidenergy.dev/kinetic-text",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://voidenergy.dev/kinetic-text",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://voidenergy.dev/kinetic-text",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://voidenergy.dev/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://voidenergy.dev/kinetic-text",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:46.451727+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://voidenergy.dev/kinetic-text",
+      "contentType": "text/html",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 150763,
+      "capturedSha256": "ed0db1b6e6c7a02b8c4f94295e0e4930a2e4be53c970e0f239e22401be2165eb",
+      "responseBodySha256": "ed0db1b6e6c7a02b8c4f94295e0e4930a2e4be53c970e0f239e22401be2165eb",
+      "title": "Void Energy UI",
+      "textCharacters": 12769,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.441,
+      "captureCachePath": "exa-results/link-audit/references/captures/eecc00115228b96614073569.json",
+      "captureCacheSha256": "6be1d86d1bf44c4d253ccf7bc08287887bbe5949caa22e48b7203ba3d87ee955"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-void-energy-kinetic-text",
+      "canonicalId": "ref-void-energy-kinetic-text",
+      "title": "Void Energy Kinetic Text",
+      "role": "canonical",
+      "sourceSha256": "808dea2fe9807d51abf04e4f93a500cab1d6878d715fdd7a55fee5341ed2e11d"
+    }
+  ]
+}

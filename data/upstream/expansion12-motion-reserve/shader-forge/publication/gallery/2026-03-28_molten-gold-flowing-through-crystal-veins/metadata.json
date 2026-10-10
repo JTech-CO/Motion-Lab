@@ -1,0 +1,17 @@
+{
+  "theme": "molten gold flowing through crystal veins",
+  "style_hints": "",
+  "references": [
+    "community/open-shaders/Others_wisdom_libs_materials.glsl []",
+    "community/lygia/draw_hex.glsl [raymarching]",
+    "shabon-fx/LiquidMetalBlob.frag [lighting,postprocess,raymarching,reflection]",
+    "community/lygia/sdf_icosahedronSDF.glsl [raymarching]",
+    "community/lygia/sdf_icosahedronSDF.wgsl [raymarching]"
+  ],
+  "attempts": 3,
+  "created_at": "2026-03-28T00:22:01.911815+00:00",
+  "glsl_lines": 153,
+  "success": false,
+  "design_brief": "1. **Architecture**: `main()` → normalize `vUv` to `[-0.5,0.5]×[0.5,-0.5]`, compute `uv *= uResolution.x/uResolution.y`, then `vec3 color = renderScene(uv)`, finally `gl_FragColor = vec4(color, 1.0)`.  \n2. **Key functions**: `float curlNoise(vec2 uv)` (returns 2D curl of 3D noise for flow), `float fluidSDF(vec3 p, float t)` (warped SDF for gold veins), `vec3 litGold(vec3 pos, vec3 normal, vec3 view)` (uses Ref #1’s gold `N,K` for Fresnel + diffuse), `vec2 raymarch(vec2 uv)` (returns hit `uv` and depth).  \n3. **Reuse patterns**: curl noise from Ref #1’s noise foundation (or use standard 3D noise + `curl` per Shabon’s `LiquidMetalBlob`), gold IOR from Ref #1’s `N,K` arrays, hex-based structuring from Ref #2 (use hex grid for *vein* pattern), and `smin()` blending from Ref #3 for organic blob merging.  \n4. **Color & brightness**: Use additive blending: `vec3 gold = vec3(1.0, 0.8, 0.2)` + `vec3(0.95, 0.7, 0.1)` for highlights; avoid dark backgrounds — clear with `vec3(0.05, 0.03, 0.01)` and overlay bright specular via `pow(dot(halfDir, normal), 60.0) * 1.5`.  \n5. **Animation**: Drive everything with `uTime * 0.4` (safe speed range 0.2–0.6); loop via `fract(uTime)` for cyclic flow; animate `curlNoise` offset + SDF warping (`sin(uTime*0.7)`, `cos(uTime*0.5)`).  \n6. **Pitfalls**: No `fwidth`/derivatives → avoid anti-aliasing relying on `smoothstep`; no bitwise ops → use `mod()` instead of `%`; always normalize `vUv` to avoid aspect distortion; clamp all `t` in `raymarch` to `[0.0, 3.0]` to prevent NaN.",
+  "last_error": "<shader>\nERROR: 0:11: '=' :  cannot convert from ' temp mediump float' to ' temp mediump 3-component vector of float'\nERROR: 0:11: '' : compilation terminated \nERROR: 2 compilation errors.  No code generated."
+}

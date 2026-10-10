@@ -1,0 +1,118 @@
+{
+  "rendererSha256": "f96d0d7078ffe6aa189fce72723a1ee8dd2e8b2c475b628eb1f80bc2336b7151",
+  "eligibleInputSha256": "2986e45c7048e4310c2a3a8e864bcb73e2044b545e87e2b7867a5d6cca3c658b",
+  "records": [
+    {
+      "id": "expansion12-shaderforge-2026-03-27_liquid-chrome-morphing-abstract-sculpture-glsl",
+      "frames": [
+        {
+          "progress": 0.05,
+          "sourceSeconds": 0.05,
+          "drawMilliseconds": 27.900000005960464,
+          "changedPixels": 0,
+          "meanAbsoluteRGBAError": 0,
+          "maximumChannelError": 0,
+          "pngPath": "exa-results/expansion12/shaderforge-previews/expansion12-shaderforge-2026-03-27_liquid-chrome-morphing-abstract-sculpture-glsl-stored-0.png",
+          "pngSha256": "0807a5b38d2f778632db34818006b76449f04e533a58f96fafb1768d94127623",
+          "originalPngPath": "exa-results/expansion12/shaderforge-previews/expansion12-shaderforge-2026-03-27_liquid-chrome-morphing-abstract-sculpture-glsl-stored-0-original.png",
+          "originalPngSha256": "0807a5b38d2f778632db34818006b76449f04e533a58f96fafb1768d94127623"
+        },
+        {
+          "progress": 0.25,
+          "sourceSeconds": 0.25,
+          "drawMilliseconds": 2.5999999940395355,
+          "changedPixels": 0,
+          "meanAbsoluteRGBAError": 0,
+          "maximumChannelError": 0,
+          "pngPath": "exa-results/expansion12/shaderforge-previews/expansion12-shaderforge-2026-03-27_liquid-chrome-morphing-abstract-sculpture-glsl-stored-1.png",
+          "pngSha256": "721347620817e69a70fd2281e51ec8895f1fb99ef83099da8205b3b668d4b135",
+          "originalPngPath": "exa-results/expansion12/shaderforge-previews/expansion12-shaderforge-2026-03-27_liquid-chrome-morphing-abstract-sculpture-glsl-stored-1-original.png",
+          "originalPngSha256": "721347620817e69a70fd2281e51ec8895f1fb99ef83099da8205b3b668d4b135"
+        },
+        {
+          "progress": 0.5,
+          "sourceSeconds": 0.5,
+          "drawMilliseconds": 3.4000000059604645,
+          "changedPixels": 0,
+          "meanAbsoluteRGBAError": 0,
+          "maximumChannelError": 0,
+          "pngPath": "exa-results/expansion12/shaderforge-previews/expansion12-shaderforge-2026-03-27_liquid-chrome-morphing-abstract-sculpture-glsl-stored-2.png",
+          "pngSha256": "a8ce7e269b58803cf21ba424f33557ffbd46c05c19204fd02b58272fa6ba6fc7",
+          "originalPngPath": "exa-results/expansion12/shaderforge-previews/expansion12-shaderforge-2026-03-27_liquid-chrome-morphing-abstract-sculpture-glsl-stored-2-original.png",
+          "originalPngSha256": "a8ce7e269b58803cf21ba424f33557ffbd46c05c19204fd02b58272fa6ba6fc7"
+        },
+        {
+          "progress": 0.75,
+          "sourceSeconds": 0.75,
+          "drawMilliseconds": 3.5,
+          "changedPixels": 0,
+          "meanAbsoluteRGBAError": 0,
+          "maximumChannelError": 0,
+          "pngPath": "exa-results/expansion12/shaderforge-previews/expansion12-shaderforge-2026-03-27_liquid-chrome-morphing-abstract-sculpture-glsl-stored-3.png",
+          "pngSha256": "8b89ed4de6ef3db7c6f07b630b3853c567696e7024f94e3dee23f98a60d05610",
+          "originalPngPath": "exa-results/expansion12/shaderforge-previews/expansion12-shaderforge-2026-03-27_liquid-chrome-morphing-abstract-sculpture-glsl-stored-3-original.png",
+          "originalPngSha256": "8b89ed4de6ef3db7c6f07b630b3853c567696e7024f94e3dee23f98a60d05610"
+        },
+        {
+          "progress": 0.95,
+          "sourceSeconds": 0.95,
+          "drawMilliseconds": 3.0999999940395355,
+          "changedPixels": 0,
+          "meanAbsoluteRGBAError": 0,
+          "maximumChannelError": 0,
+          "pngPath": "exa-results/expansion12/shaderforge-previews/expansion12-shaderforge-2026-03-27_liquid-chrome-morphing-abstract-sculpture-glsl-stored-4.png",
+          "pngSha256": "a2248282ae862da68d6ed677d4f06e7e02dd583242323cbc6ce5b366784a52f1",
+          "originalPngPath": "exa-results/expansion12/shaderforge-previews/expansion12-shaderforge-2026-03-27_liquid-chrome-morphing-abstract-sculpture-glsl-stored-4-original.png",
+          "originalPngSha256": "a2248282ae862da68d6ed677d4f06e7e02dd583242323cbc6ce5b366784a52f1"
+        }
+      ],
+      "errors": [],
+      "renderer": "production-MotionPreview",
+      "resolution": [
+        320,
+        200
+      ],
+      "renderedFiveFrames": true,
+      "codeSha256": "ce9b6d63512609eb0fb98aa427f673a11af37d135db3dabc0f6bd953251311df",
+      "allOriginalAdapterFramesExact": true,
+      "actualTimeChanges": true
+    }
+  ],
+  "progress": [
+    0.05,
+    0.25,
+    0.5,
+    0.75,
+    0.95
+  ],
+  "sourceTimeSeconds": [
+    0.05,
+    0.25,
+    0.5,
+    0.75,
+    0.95
+  ],
+  "resolution": [
+    320,
+    200
+  ],
+  "profilePath": "exa-results/expansion12/shaderforge-final-profile",
+  "independentFreshProfile": true,
+  "browserNormalClose": true,
+  "explicitIndependentProfileRemoved": true,
+  "browserNetworkBlocked": true,
+  "sourceJavaScriptExecuted": false,
+  "diagnosticsAfterRelease": {
+    "instances": 0,
+    "gpuContexts": 1,
+    "shaderPrograms": 1,
+    "activeShaders": 0
+  },
+  "outerSubprocessTimeoutSeconds": 30,
+  "outerSubprocessElapsedSeconds": 3.965,
+  "outerSubprocessExitCode": 0,
+  "profileRemovalVerified": true,
+  "inputArtifactPath": "data/upstream/expansion12-motion-reserve/shaderforge-rendered-pre-hold-items.json",
+  "inputArtifactStatus": "historical one rendered program, subsequently held for original undefined math; not final eligible input",
+  "adoptedCount": 0
+}

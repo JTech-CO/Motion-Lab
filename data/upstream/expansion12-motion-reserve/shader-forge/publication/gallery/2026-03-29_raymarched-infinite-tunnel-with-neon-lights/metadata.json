@@ -1,0 +1,27 @@
+{
+  "theme": "raymarched infinite tunnel with neon lights",
+  "style_hints": "",
+  "references": [
+    "glsl-art/shadertoy-top/XlXXWj.glsl/XlXXWj.glsl [grid,lighting,particles,raymarching,reflection]",
+    "glsl-art/shadertoy-top/MlXSWX.glsl/MlXSWX.glsl [grid,lighting,matrix,particles,postprocess,raymarching,reflection]",
+    "glsl-art/shadertoy-top/4lSXzh.glsl/4lSXzh.glsl [color_palette,grid,lighting,matrix,noise,postprocess,raymarching,reflection]",
+    "glsl-art/shadertoy-top/WtfXzB.glsl/WtfXzB.glsl [fractal,lighting,matrix,reflection,volumetric]",
+    "glsl-art/shadertoy-top/4ttSRj.glsl/4ttSRj.glsl [color_palette,grid,lighting,matrix,postprocess,raymarching,reflection]"
+  ],
+  "attempts": 1,
+  "created_at": "2026-03-29T11:14:35.898682+00:00",
+  "glsl_lines": 66,
+  "success": true,
+  "target": "glsl",
+  "design_brief": "**Implementation Guide: Raymarched Infinite Neon Tunnel**  \n\n1. **Architecture**:  \n   - `main()` maps UV to ray origin `ro = vec3(0., 0., uTime)` (moving camera along +Z), ray dir `rd = normalize(vec3(vUv * 2. - 1., 1.))`.  \n   - Loop `for(int i=0; i<64; i++)` to march along `ro += rd * step`, evaluating SDF and lighting per step.  \n   - Exit on `dist < 0.001` or max steps; composite final `gl_FragColor = mix(col, neon, 1. - exp(-density*step))`.  \n\n2. **Key Functions**:  \n   - `float sdTunnel(vec3 p)` → returns distance to tunnel wall (use `length(p.xy) - radius` + domain warping via hash noise).  \n   - `vec3 hash33(vec3 p)` (Ref #2) → pseudo-random for procedural neon texture.  \n   - `vec3 getNeonColor(vec3 p, float t)` → palette cycling via `sin(uTime + p*PI)` (Ref #3’s hue shift).  \n\n3. **References**:  \n   - Use Ref #2’s `hash33()` for domain warping (Ref #2 line ~40–45).  \n   - Adopt Ref #3’s tunnel intersection: `ro = vec3(0., 0., uTime); rd = normalize(vec3(vUv*2.-1., 1.)); dist = 1./length(rd.xy);` (Ref #3 line ~70–75).  \n   - Copy Ref #1’s lighting: `normal = normalize(p - p*0.999); light = dot(n, vec3(0,0,1));` (Ref #1 line ~120+).  \n\n4. **Color & Brightness**:  \n   - Base `vec3 neon = vec3(1., 0.2, 0.8) * pow(light, 8.);` + `vec3 neon2 = vec3(0.2, 0.9, 1.) * pow(1.-light, 6.);` → mix for dual-tone glow.  \n   - Clamp `gl_FragColor = vec4(neon + neon2, 1.);` → always full-screen bright (no black void).  \n\n5. **Animation**:  \n   - `uTime` drives: camera speed (`uTime * 2.0`), noise warp (`p * (1. + sin(uTime*0.5))`), and palette rotation (`sin(uTime + ...) * 0.5 + 0.5`).  \n   - Loop naturally (no manual wrap needed).  \n\n6. **Pitfalls**:  \n   - ✘ No `dFdx/dFdy`, ✘ no `#version`, ✘ no bitwise ops — use `fract()` for hash.  \n   - Use `texture2D()` if sampling (but avoid textures for WebGL1 compatibility; procedural only).  \n   - Clamp `uTime` if needed, but `sin(uTime)` handles infinite looping.",
+  "review": {
+    "visual_complexity": 4,
+    "code_quality": 4,
+    "theme_match": 5,
+    "animation": 4,
+    "originality": 4,
+    "total": 21,
+    "verdict": "pass",
+    "feedback": "Strong neon tunnel implementation with clever SDF warping and animated colors; brightness could be improved by adding more frequent lighting hits or ambient glow to avoid black void."
+  }
+}

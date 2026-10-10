@@ -1,0 +1,17 @@
+{
+  "id": "jitter",
+  "url": "https://jitter.video/robots.txt",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 200,
+  "finalUrl": "https://jitter.video/robots.txt",
+  "contentType": "text/plain",
+  "truncated": false,
+  "observedBytes": 1320,
+  "observedContentSha256": "f31df5f626fe5c03d7df6219f16987dbf01ff333cf4fc8ea008dd0f5afde5b3b",
+  "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+  "challengeOrDenial": false,
+  "robotsPath": "exa-results/grok-source-review/stock/jitter-robots.txt",
+  "robotsContentSha256": "f31df5f626fe5c03d7df6219f16987dbf01ff333cf4fc8ea008dd0f5afde5b3b"
+}

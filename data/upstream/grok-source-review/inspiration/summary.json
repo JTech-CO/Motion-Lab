@@ -1,0 +1,486 @@
+{
+  "sector": 4,
+  "scope": "inspiration/editorial/portfolio/video curation",
+  "reviewedAt": "2026-10-10",
+  "reviewComplete": true,
+  "sitesReviewed": 11,
+  "storageVerdictCounts": {
+    "reference-only": 4,
+    "no-public-redistribution": 7
+  },
+  "sources_reviewed": 70,
+  "sourcesReviewedMetric": "Exa Search requested numResults sum across 14 calls, including one call without a serialized result. Not unique pages, not licensed assets.",
+  "exa": {
+    "searchCalls": 14,
+    "successfulSerializedSearchCalls": 13,
+    "callsWithoutSerializedResult": 1,
+    "requestedNumResultsTotal": 70,
+    "uniqueResultUrls": 64
+  },
+  "qualifiedSupply": {
+    "verifiedNetNew": 0,
+    "unverifiedPotential": null
+  },
+  "assetsAdded": 0,
+  "mediaDownloads": 0,
+  "sourceCodeExecution": false,
+  "catalogBinding": {
+    "path": "data/catalog.json",
+    "sha256": "643300e8581b957345acc4d636a13b30bf52c5b24cf3714b10341a53c4032c97",
+    "canonicalCount": 11827,
+    "aliasesCount": 34,
+    "matchedSources": {
+      "motionographer": 0,
+      "stash": 0,
+      "art-of-the-title": 0,
+      "behance": 2,
+      "dribbble": 0,
+      "vimeo": 0,
+      "muzli": 0,
+      "movin-design": 0,
+      "awwwards": 0,
+      "frame-rate": 0,
+      "brands-in-motion": 0
+    }
+  },
+  "rightsConclusionKO": "11개는 실제 모션·디자인 레퍼런스와 관련 있다. 이번 대표작과 공식 문서에서 Motion Lab의 원본 코드·이미지 저장 및 재배포를 함께 충족하는 무중복 자산은 확인하지 못했다. 관람·출판·API·robots 허가와 자산 저작권은 각각 별도이며 AI 학습도 자동 허가가 아니다.",
+  "scopeLimitations": [
+    "작품 전체의 라이선스 전수 조사 아님. 대표작 1건과 사이트 공식 정책의 적합성을 확인했다.",
+    "reference-only는 모든 메타데이터를 일괄 복제할 수 있다는 승인이 아니다. 큐레이션·태그·설명·썸네일의 권리와 약관은 별도다.",
+    "미디어 권리 불확실성을 일반 사각형 모션이나 생성 이미지로 대체하여 원작 자산 수에 포함하지 않았다.",
+    "Behance/Dribbble 일부 페이지의 403 또는 로봇 확인, FrameRate의 JavaScript 비활성 본문 제한, Adobe 최신 약관 목록 403은 각 row에 명시했다.",
+    "공식 문서 직접 HTTP 상태와 Exa 색인 추출을 구분했다. 로그인·challenge 처리·쿠키 이전·인증 우회는 하지 않았다."
+  ],
+  "crossSourceDuplicates": [
+    {
+      "sites": [
+        "stash",
+        "vimeo"
+      ],
+      "work": "Aether Scent - Pleid St.",
+      "vimeoVideoId": "1234020373",
+      "decision": "same underlying work; not additional supply"
+    }
+  ],
+  "evidencePolicy": {
+    "fullBodies": "Only in ignored local exa-results cache; excluded from product and Git. Durable records retain method/status/SHA/own paraphrase and per-page total ≤25-word quotes.",
+    "quotedWordsByUrl": {
+      "https://motionographer.com/release-and-agreement-for-publication/": 15,
+      "https://store.stashmedia.tv/policies/terms-of-service": 6,
+      "https://www.artofthetitle.com/about/FAQ/": 18,
+      "https://help.behance.net/hc/en-us/articles/204485044-Guide-Copyright-And-Posting-Content-On-Behance": 9,
+      "https://wwwimages2.adobe.com/content/dam/cc/en/legal/servicetou/Behance-Product-Specific-Terms-en_US-20240618.pdf": 9,
+      "https://support.dribbble.com/hc/en-us/articles/360056066854-Can-I-use-work-that-I-find-on-Dribbble": 19,
+      "https://developer.dribbble.com/terms/": 10,
+      "https://vimeo.com/terms": 13,
+      "https://vimeo.com/legal/service-terms/api": 12,
+      "https://muz.li/terms/": 4,
+      "https://movin.design/terms/": 19,
+      "https://www.awwwards.com/terms/": 13,
+      "https://framerate.tv/terms": 14,
+      "https://www.brandsinmotion.xyz/information": 15,
+      "https://www.brandsinmotion.xyz/s/BIM010_BIM_SubmissionGuidelines_2026-xsx8.pdf": 10
+    },
+    "cacheRoot": "exa-results/grok-source-review/inspiration/raw",
+    "cacheExcludedByGit": true,
+    "directHttpBodyBoundBytes": 1048576
+  },
+  "evidenceIndex": [
+    {
+      "path": "data/upstream/grok-source-review/inspiration/adobe-terms-list-chrome.json",
+      "sha256": "64bac348b3cf0876984d132520400efd32722b4bd676bed5834b091290792eda"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/adobe-terms-list-http.json",
+      "sha256": "1242f88357bf520f82605e29848d4244c0602527cc2c70aac10c42cd82bba494"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/art-of-the-title-about-http.json",
+      "sha256": "011d43484776b34904e1fd61fe669aaa5d961a62bda403d4861f4ae7f6b5072b"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/art-of-the-title-faq-detail-exa.json",
+      "sha256": "cd6c5916a89724b8db8a7616a69e8c593f7afa9358bd559c6e81a2cb3cdbfc81"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/art-of-the-title-faq-http.json",
+      "sha256": "8ad77b2e9ad199a71d9f318dbec879577ef7b69a8b72548ef83e26ca6300f135"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/art-of-the-title-home-exa.json",
+      "sha256": "af6dafa9ac8610aaa82f4f12c64cdf835442b06d623b15ccd8ecb85c8e67882d"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/art-of-the-title-home-http.json",
+      "sha256": "c0db15b98c8feb88f7130db6606e71fb87357318b30ddfb837b37d169868bb6c"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/art-of-the-title-robots-http.json",
+      "sha256": "a64fd4bedc2d8bf1b93f6334d92acabdf77e011a274321aa0e7def1fcc0978a4"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/art-of-the-title-terms-exa.json",
+      "sha256": "d80196392f5c901b7b605540a3955fc0e4ea547658d3e26f728eb9b06342a856"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/art-of-the-title-work-http.json",
+      "sha256": "0d294a1adb2506c933bfb319f4d898c8ae625f422af83ee3a67d2fed68b9cd04"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/awwwards-home-exa.json",
+      "sha256": "7ece0841a11d8356b0671652cf32a8e0e24a4f11798d24aaaa534faa16264295"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/awwwards-home-http.json",
+      "sha256": "95a42fde8757cebd31b2c081b2aa9b0e20c91a4af226ec0d4d3ca6395deae02a"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/awwwards-policy-search-exa.json",
+      "sha256": "d8d9b7a58f9296e288896b9acce5ce4a7e668caffb4d5c79bdd325746810a851"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/awwwards-robots-http.json",
+      "sha256": "fd0f9c1a29ab5232abb5f8215626f6e63f317e0a70b4c31e051b0539d06d8077"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/awwwards-terms-exa.json",
+      "sha256": "3a7f917e81cbca691b472894fbbe7292b8bfc1a53c85d6db9d3e2d06cfc2ff56"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/awwwards-terms-http.json",
+      "sha256": "a7a8826025ebb644708cbffd0444c8c62d5eaab4f27821d3ec77e17c8fe11fcc"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/awwwards-work-http.json",
+      "sha256": "a0bc4a7b5827c8ab9c39dfcd2df297ade6e9018f4f6504da61d233371c2d3a17"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/behance-copyright-http.json",
+      "sha256": "17880f472b24948b8a2d7dbf1452d38612cfdba29ea8fa5b61aa483d9a131fa0"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/behance-home-chrome.json",
+      "sha256": "b061d91d4c6b6675f7871e91caaf623c45c9fa72bdda523639a62d5ad23a08ba"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/behance-home-exa.json",
+      "sha256": "53c1ec56b866b379a4b275db4863495098c91d079b7d9f115b9dd609ee5f404f"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/behance-home-http.json",
+      "sha256": "fcb4f52e796c36fd1b9356f7b49939905ae0c8d28e76033d40d671e43a6b8f5c"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/behance-policy-search-exa.json",
+      "sha256": "06017c3d00cd70d3d42c9facc27f273757178268214c44b2e15e7a2c21711695"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/behance-robots-http.json",
+      "sha256": "1ff83a5b24f9528e8fecc6b8d955af2a336034dabeb4c23c72d10f49d7c85bd1"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/behance-terms-exa.json",
+      "sha256": "f15f67db1870e43d7ccc7c3f4e3acad5a2c2f062ed0ef1de6bb3d300834b334f"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/behance-work-chrome.json",
+      "sha256": "7b223ab14e79268bc834143aef53c43523580b41b8384660c283111d8ed16386"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/behance-work-detail-exa.json",
+      "sha256": "3773ff9be1557d99d82d3e9e77b0562d52f85d3c504876436cb9f4697faec977"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/behance-work-search-exa.json",
+      "sha256": "da1def364f155656461e829d5e30025d0c020fe985c6b9762223a884b89b914b"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/brands-in-motion-guidelines-detail-exa.json",
+      "sha256": "231a891f49699c3049f590d5b5bc5cdbf80115661efc8294d6fe2544fbba72e9"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/brands-in-motion-home-exa.json",
+      "sha256": "29e182d8e9699f380e8f50f80c25db42664b873bb730f799170a7e59fbf4d86d"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/brands-in-motion-home-http.json",
+      "sha256": "3ffc6eb9be74ded48d4e0d6120f6169d29dc316c5ced4d6eba480daad932fb64"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/brands-in-motion-information-http.json",
+      "sha256": "4f5df7907c9c327b22b8b4bc0440cae0a52f7da522a9792df077c83697b66334"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/brands-in-motion-robots-http.json",
+      "sha256": "527cfb9aae1988d936e37616955e840b77f6f54513b1462121d0a9ea5af22ff9"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/brands-in-motion-search-exa.json",
+      "sha256": "eda633a6824744efbf60c69315d67e25adef25617363d7652ba58570019cc1fa"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/brands-in-motion-terms-exa.json",
+      "sha256": "21e719e1787ea4102d421fb59cf9ec762b7599e6278d54ac9f16662192a25373"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/brands-in-motion-work-http.json",
+      "sha256": "53cd094449cb23d70198c54d4e870c099eda1cc0732458ca5922c77ee34d8ee6"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/dribbble-api-terms-http.json",
+      "sha256": "c667b34a4bf21a9a6bd49616783420dd57e9a70c30f1fef058ea3edaa6e85b52"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/dribbble-home-chrome.json",
+      "sha256": "95ddb850034009f23dcf7d80e8cd5cdedbf736dedc058acdfe7596e4c5888b9f"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/dribbble-home-exa.json",
+      "sha256": "d313876434ca43eda31bb16f4371c198f9ecfb7050f5cfaf87a81dd77fbda84c"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/dribbble-home-http.json",
+      "sha256": "4195774d4ddef87ceeebd0b66a4244fabcf06e608121dcc042878480c3819caf"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/dribbble-policy-search-exa.json",
+      "sha256": "19898e78b5195de5d4fd4cb8c26c4879d92da8df747daa6bc766ad4ec882214f"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/dribbble-robots-http.json",
+      "sha256": "3649f75e86b3284d7cb3793e948cbb50db73c5a9120adebf176cd5653d70dd21"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/dribbble-terms-chrome.json",
+      "sha256": "41d004d78c056ebf2e64850f86d9ee23cb03d235978acc13b456acaab2b4e47c"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/dribbble-terms-exa.json",
+      "sha256": "8605e388e952ed4ed2bfbe50c4abf5cd6288ad53f9cc49b64ebc4f4e63cc1e4e"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/dribbble-use-work-http.json",
+      "sha256": "e6c98f5aef0ebe47c6b49afb5b4456dc96cbeb1827464d5ccd823e1a3d3a2fc0"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/dribbble-work-chrome.json",
+      "sha256": "7dbc90f3e067de171e0201ce71dc069e371ee71db081f5527a962c079013c285"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/dribbble-work-detail-exa.json",
+      "sha256": "fb7a77046b731b60d72ce07c4471a4355929c9ac01f683964e2fb34aa7c5045f"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/dribbble-work-search-exa.json",
+      "sha256": "cbd4951625e496846f035fd4448b61125371f3132c3a729c77c4a0bfce33d492"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/frame-rate-home-exa.json",
+      "sha256": "940581277d71aefcfdaf2e907ace0da9ed67f2c872b2c72a11c80b300fc94d38"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/frame-rate-home-http.json",
+      "sha256": "4bc3ca424689e9bbd7603cf45bf6ad6c08ad676a561498e6948bd421f605f310"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/frame-rate-identity-search-exa.json",
+      "sha256": "f9f2401020b188696161f8bf7ad73bcad6c1a83c4e68c04ac97855fbeb44890a"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/frame-rate-robots-http.json",
+      "sha256": "c6bf25f8d617458d96514ccf5af00a0de617b73b454a6617bef1f9332bc636d3"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/frame-rate-search-exa.json",
+      "sha256": "947a93f544dd12dd67463e78c3073d96d163fece353a196fc36f8601b534d41d"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/frame-rate-terms-chrome.json",
+      "sha256": "4530f99e86494bcec5e83af237b43b0c3d0ea2c6f5ccaf6202cfc002ed2e610f"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/frame-rate-terms-exa.json",
+      "sha256": "4a66df1acd64bfe1f623724f9df33375538b830871e1e0c65c284e56516e1b5b"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/frame-rate-work-chrome.json",
+      "sha256": "4473020a5df77d007d86f03e9f4cf867a7b493c76bd51551e73a024b6c430ddc"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/motionographer-home-exa.json",
+      "sha256": "8a11a697980038e1a50333a996abe53ede1ea8bc9c5729a60a43e3e2a1629b81"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/motionographer-home-http.json",
+      "sha256": "7fdf2bf9c1bd18921fb8bb974f23577635dfa470657efffae7100e91720616df"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/motionographer-policy-search-exa.json",
+      "sha256": "f52f469373b5cb7cf19fa9042a9f7d36597e6c4ec0bff9706c70596ced6b4221"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/motionographer-release-http.json",
+      "sha256": "11b3d6048f92b92c823fd3998d056f6ea11e6959f35053914bba5cfdea2ce3dc"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/motionographer-robots-http.json",
+      "sha256": "524c0db8ce55b9f088b81cbeaef7a29d3b03cb555a854c8189354a10884263ba"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/motionographer-terms-exa.json",
+      "sha256": "3ec3e9c7da5b4f41f5806bfdd2a4b3ad9f4a6613865285e185d6aca5c14c6737"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/motionographer-work-http.json",
+      "sha256": "7e7b9f424d0bd8f830b041d59ea8e3b7e21ef9814a7f69ece8bcc1c798390e34"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/movin-design-about-http.json",
+      "sha256": "21657ac25cfcb3d7bd286600370097005dde8cc660ee7d44b3483de66720f5cd"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/movin-design-home-exa.json",
+      "sha256": "62c3a4014b884e70d61a9b806e65879580b2988d08d9ed905976186159065416"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/movin-design-home-http.json",
+      "sha256": "640cf207021a9ad78d7ce5d7781de5bf30c5a1beb39e8cc9baf5b5bd87c0c423"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/movin-design-robots-http.json",
+      "sha256": "94dff1443f3556502f1a39f405cfe19721d347757e891868c18a0857e4a5292a"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/movin-design-search-exa.json",
+      "sha256": "88b2bc8a1bacc15ec00421ea799f06a2b2c6005492c5b45577cb142bc45b1ff4"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/movin-design-terms-exa.json",
+      "sha256": "a56485d502e12169ad401c13cbe71c4ecb97fceb94d2f27e174be4c082177f58"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/movin-design-terms-http.json",
+      "sha256": "b34dad01f8c36c8ad384b5f467032322afae69b23dc15d8ca08606e963b0fa9e"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/movin-design-work-http.json",
+      "sha256": "bc4849ee28f900803a2b09bccf87119586f314a1c0e8053a43fb0938c03e2bd8"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/movin-work-search-exa.json",
+      "sha256": "2f7c2baf6b15806136d7b1f66a30665482e92ad964e8adf9ced24c94f149e504"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/muzli-blog-http.json",
+      "sha256": "2abdd7a3545629f6c8e3476bebea51e8c50b3157b026f09596d0e3aaa07deae4"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/muzli-home-exa.json",
+      "sha256": "1e4ff8c62e0166c118d6d7fa4d3576a302a53b8b421d8d8e51f27ec02d09a698"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/muzli-home-http.json",
+      "sha256": "75795d073eed97eb8fa26cd833fd415f2452a312227a194444094163e4fade29"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/muzli-robots-http.json",
+      "sha256": "ee9759a9e55920266ab7241eb24ef56a49786374bb5cba5bffbef1c92e5b0ce5"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/muzli-search-exa.json",
+      "sha256": "d0da1b3ced468f8a3c08bffc077c9a8c1343870225be0e842a8698c18d2f8558"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/muzli-terms-exa.json",
+      "sha256": "a8a3871df603ff1782f5ab71c68bc445458816347a5ef950722d55640c02d029"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/muzli-terms-http.json",
+      "sha256": "235ca93755bd34a74df3b216d7f5d9779987ec04d1e886a0c21384db9f4f10a3"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/muzli-work-detail-exa.json",
+      "sha256": "55ce1b3bba3fee59d59032b161951f45ee2c7dd03d375c93326e6a7951ea1d89"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/muzli-work-http.json",
+      "sha256": "db5acd1fc2f99a410c410a3cb40ef262ef710596b77090158cb4d0a13095373d"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/stash-about-http.json",
+      "sha256": "307867ed39cf8466d3a03344de61458347ef7920c169a921afea5334a49a6d31"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/stash-home-exa.json",
+      "sha256": "e9a3d66ca3b35742ee570a317707aec534e99d7a52230183be41907068d6d491"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/stash-home-http.json",
+      "sha256": "723301063006c7f589713c9743c8810af5442ae5375a37ca08654dbd936ebe2a"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/stash-policy-search-exa.json",
+      "sha256": "aefde8164319eb2c33dfd8928621d9f0a471281e4deb8477ce7c87705195bd76"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/stash-robots-http.json",
+      "sha256": "ce98d1b1d898214592163fe079770bf71c37fa33fad972ff0fc6939bd41c23e4"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/stash-terms-exa.json",
+      "sha256": "e5415fdc881d574fa581d7159fda91408af2b1bde7ed99e4d03d8e730a773492"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/stash-terms-http.json",
+      "sha256": "992413ffdfea1bc11e204c5dc6f81022f82d176f99eecf670735beaff5aac005"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/stash-work-http.json",
+      "sha256": "2cc62a888dbc8602f4dadf31571275e4a2f8cf1bc7b7377a9328f52f0da034aa"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/vimeo-api-exa.json",
+      "sha256": "f877bd4e5857ab4c6226a9ac18208947c295c9e9a0f996c5a0e6c437d7c1c8bb"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/vimeo-developer-addendum-exa.json",
+      "sha256": "0fb0b9fe050daf73b37dc598dcc04c90d91a7d5718fb1b471333c915711ded8e"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/vimeo-home-exa.json",
+      "sha256": "3c7fc8c769dc6724a6b515f32927971f3bfcbab991913cfe3f4379a01ed8038c"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/vimeo-home-http.json",
+      "sha256": "4a13e06d0c82ad5804e4a66c6c8931b65cf90e06ca23c247cb3f789b3ae44a28"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/vimeo-robots-http.json",
+      "sha256": "a98662cde373020992f999a3f2760e193c4c105f86cd9f71daee2583a05983e4"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/vimeo-terms-exa.json",
+      "sha256": "0222ed510cd508cd39ca67a213874a88a492c1b5769550517385da263f470961"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/vimeo-terms-http.json",
+      "sha256": "4f6e25c0e3c002fc1be3dfa3327ead69fea4fdc5dd503c6b7f711c5404d2ed69"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/vimeo-work-chrome.json",
+      "sha256": "f5f25182dbfe3dd096441cd911bee56ea127ffc8e8ec6309c10d9f9a3f2c8923"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/vimeo-work-detail-exa.json",
+      "sha256": "f685513e7339d09ff8d2c2ab5486448445eaeec696501fdfcf52da9469c55063"
+    },
+    {
+      "path": "data/upstream/grok-source-review/inspiration/vimeo-work-search-exa.json",
+      "sha256": "93ac2c9b91907ccd884ee2f0e5712f3f8b03ca51dd3efee252a69c4580cefc54"
+    }
+  ],
+  "sitesFile": {
+    "path": "data/upstream/grok-source-review/inspiration/sites.json",
+    "sha256": "e4d71af94b2e3c7ef66afbe009028495493ee72cc44e81c8c0a77731dbae559b"
+  }
+}

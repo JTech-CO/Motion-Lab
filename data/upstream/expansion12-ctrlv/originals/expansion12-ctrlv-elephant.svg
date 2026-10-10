@@ -1,0 +1,11 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="anim-float">
+            <path d="M120 240 C120 160 160 120 200 120 C240 120 280 160 280 240 Z" fill="#94a3b8"/>
+            <path d="M150 240 L140 270 M250 240 L260 270" stroke="#94a3b8" stroke-width="15" stroke-linecap="round"/>
+            <path d="M160 140 C110 120 110 200 160 220 Z" fill="#64748b"/>
+            <path d="M240 140 C290 120 290 200 240 220 Z" fill="#64748b"/>
+            <path d="M200 160 Q200 240 160 240" stroke="#94a3b8" stroke-width="12" stroke-linecap="round" fill="none"/>
+            <circle cx="180" cy="150" r="4" fill="var(--charcoal)"/>
+            <circle cx="220" cy="150" r="4" fill="var(--charcoal)"/>
+        </g>
+    </svg>

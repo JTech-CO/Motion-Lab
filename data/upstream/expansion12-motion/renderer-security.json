@@ -1,0 +1,42 @@
+{
+  "total": 0,
+  "ready": 0,
+  "byRenderer": {},
+  "failures": [],
+  "shaderEndpointChecks": 0,
+  "shaderEndpointDifferent": 0,
+  "shaderDifferentFrames": 0,
+  "shaderDiscreteFrames": [],
+  "security": {
+    "cssExternalUrlBlocked": true,
+    "cssVariableShorthandPreserved": true,
+    "cssPartiallyOverriddenShorthandsPreserved": true,
+    "cssQuotedDeclarationAndCommentTextPreserved": true,
+    "cssAuthoredCascadeOrderPreserved": true,
+    "cssEmptySerializedValidShorthandPreserved": true,
+    "cssDeclarationBoundsAndCssomValidationPreserved": true,
+    "cssMalformedSourceRejected": true,
+    "cssStandaloneVisibleTarget": true,
+    "svgActiveContentBlocked": true,
+    "svgEntitiesBlocked": true,
+    "svgQuotedAndUnquotedLocalFragmentsPreserved": true,
+    "svgQuotedAndUnquotedExternalFragmentsBlocked": true,
+    "svgLocalClockAndMetadataPreserved": true,
+    "svgSetAndSafeOriginPreserved": true,
+    "cssSourceVariablesPreserved": true,
+    "svgLocalFiltersPreserved": true,
+    "svgFiltersBounded": true,
+    "svgAuthoredShadowChainPreserved": true,
+    "svgShadowResourcesBounded": true,
+    "svgStaticMaskGeometryPreserved": true,
+    "cssReadonlyInputAndFocusPreserved": true,
+    "paletteAlphaValuesAndContrastPreserved": true
+  },
+  "diagnostics": {
+    "instances": 0,
+    "gpuContexts": 0,
+    "shaderPrograms": 0,
+    "activeShaders": 0
+  },
+  "complete": true
+}

@@ -1,0 +1,45 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Background Connections -->
+                <path class="anim-draw" d="M100 100 L200 150 L300 100 M100 200 L200 150 L300 200 M200 50 V250" stroke="var(--charcoal)" stroke-width="2" opacity="0.2"/>
+                
+                <!-- Main Node Center -->
+                <g transform="translate(200, 150)">
+                    <g class="anim-pulse" >
+                    <circle cx="0" cy="0" r="40" fill="var(--primary-color)" opacity="0.2"/>
+                    <circle cx="0" cy="0" r="25" fill="var(--primary-color)"/>
+                    <path d="M-10 0 C-10 -10 10 -10 10 0 V10 H-10 Z" fill="var(--bg-surface)"/>
+                </g>
+                </g>
+                
+                <!-- Satellite Nodes -->
+                <g transform="translate(100, 100)">
+                    <g class="anim-bounce" >
+                    <circle cx="0" cy="0" r="20" fill="var(--secondary-color)"/>
+                    <circle cx="0" cy="-5" r="6" fill="var(--bg-surface)"/>
+                    <path d="M-8 8 Q0 2 8 8" stroke="var(--bg-surface)" stroke-width="2" fill="none"/>
+                </g>
+                </g>
+                <g transform="translate(300, 100)">
+                    <g transform="translate(180, 10)">
+                    <g class="anim-bounce">
+                        <circle cx="0" cy="0" r="10" fill="var(--accent-color)"/>
+                        <circle cx="0" cy="0" r="4" fill="var(--bg-surface)"/>
+                    </g>
+                </g>
+                </g>
+                <g transform="translate(100, 200)">
+                    <g class="anim-bounce"  style="animation-delay: 0.4s;">
+                    <circle cx="0" cy="0" r="20" fill="var(--primary-color)" opacity="0.7"/>
+                </g>
+                </g>
+                <g transform="translate(300, 200)">
+                    <g class="anim-bounce"  style="animation-delay: 0.6s;">
+                    <circle cx="0" cy="0" r="20" fill="var(--secondary-color)" opacity="0.7"/>
+                </g>
+                </g>
+                
+                <!-- Interaction Arcs -->
+                <path class="anim-draw" style="animation-delay: 0.8s;" d="M120 100 Q200 80 280 100" stroke="var(--accent-color)" stroke-width="4" stroke-dasharray="4 4" fill="none"/>
+            </g>
+          </svg>

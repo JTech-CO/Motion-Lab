@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="160" ry="12" fill="#E2E8F0" opacity="0.6"/>
+            
+            <!-- Wind Turbines -->
+            <g class="anim-float">
+                <path d="M120 260 L120 100" stroke="var(--primary-color)" stroke-width="4"/>
+                <g class="anim-rotate" >
+                    <path d="M120 100 L120 40 M120 100 L172 130 M120 100 L68 130" stroke="var(--primary-color)" stroke-width="4" stroke-linecap="round"/>
+                </g>
+            </g>
+            
+            <g class="anim-float" style="animation-delay: -1.5s">
+                <path d="M280 260 L280 140" stroke="var(--primary-color)" stroke-width="3"/>
+                <g class="anim-rotate" >
+                    <path d="M280 140 L280 90 M280 140 L323 165 M280 140 L237 165" stroke="var(--primary-color)" stroke-width="3" stroke-linecap="round"/>
+                </g>
+            </g>
+            
+            <!-- Wheat Fields -->
+            <path class="anim-float" d="M60 260 V220 M100 260 V230 M140 260 V210 M180 260 V240 M220 260 V220 M260 260 V235 M300 260 V215 M340 260 V240" stroke="var(--charcoal)" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+            <circle class="anim-glow" cx="60" cy="60" r="30" fill="var(--accent-color)" opacity="0.1"/>
+          </svg>

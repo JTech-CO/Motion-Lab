@@ -1,0 +1,32 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Tracks -->
+            <path class="anim-draw" d="M60 250 H340 M80 260 H320" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.3"/>
+            <g class="anim-bounce">
+                <!-- Train Body -->
+                <rect x="140" y="100" width="160" height="120" rx="10" fill="var(--secondary-color)"/>
+                <path d="M140 120 C80 120 80 180 80 220 H300 V100 H140 Z" fill="var(--primary-color)"/>
+                
+                <!-- Windows -->
+                <rect x="160" y="120" width="40" height="40" rx="5" fill="white"/>
+                <rect x="220" y="120" width="60" height="40" rx="5" fill="white"/>
+                
+                <!-- Front Window & Grill -->
+                <path d="M80 140 C100 120 120 120 140 120 V160 H80 Z" fill="white"/>
+                <rect x="80" y="180" width="40" height="30" rx="5" fill="var(--charcoal)"/>
+                
+                <!-- Detail strip -->
+                <path d="M80 170 H300" stroke="var(--accent-color)" stroke-width="8"/>
+                
+                <!-- Wheels -->
+                <circle cx="120" cy="230" r="20" fill="var(--charcoal)"/>
+                <circle cx="200" cy="230" r="20" fill="var(--charcoal)"/>
+                <circle cx="260" cy="230" r="20" fill="var(--charcoal)"/>
+                <path class="anim-pulse" d="M120 230 H260" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round"/>
+            </g>
+            <!-- Smoke -->
+            <g class="anim-float">
+                <circle cx="140" cy="60" r="15" fill="var(--bg-surface)" opacity="0.8"/>
+                <circle cx="110" cy="40" r="20" fill="var(--bg-surface)" opacity="0.6"/>
+                <circle cx="70" cy="30" r="25" fill="var(--bg-surface)" opacity="0.4"/>
+            </g>
+          </svg>

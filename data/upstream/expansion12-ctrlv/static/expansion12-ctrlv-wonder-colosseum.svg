@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <ellipse cx="200" cy="270" rx="160" ry="12" fill="#E2E8F0" opacity="0.6" />
+            
+            <ellipse cx="200" cy="260" rx="120" ry="10" fill="#6366f1" />
+            <rect x="80" y="160" width="240" height="100" fill="#6366f1" />
+            
+            <path d="M80 160 V120 H120 V140 H160 V100 H200 V120 H240 V160 Z" fill="#f43f5e" opacity="0.9" />
+            
+            <g fill="#334155" opacity="0.8">
+                <rect x="100" y="210" width="20" height="40" rx="10" />
+                <rect x="140" y="210" width="20" height="40" rx="10" />
+                <rect x="180" y="210" width="40" height="50" rx="20" />
+                <rect x="240" y="210" width="20" height="40" rx="10" />
+                <rect x="280" y="210" width="20" height="40" rx="10" />
+            </g>
+            
+            <g fill="#334155" opacity="0.6">
+                <rect x="100" y="160" width="20" height="30" rx="10" />
+                <rect x="140" y="160" width="20" height="30" rx="10" />
+                <rect x="240" y="160" width="20" height="30" rx="10" />
+                <rect x="280" y="160" width="20" height="30" rx="10" />
+            </g>
+            <path d="M80 160 H320 M80 210 H320" stroke="white" stroke-width="2" stroke-linecap="round" />
+            <circle cx="200" cy="180" r="10" fill="#DFD116" opacity="0.8" />
+          </svg>

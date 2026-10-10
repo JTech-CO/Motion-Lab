@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <ellipse cx="200" cy="270" rx="150" ry="12" fill="#E2E8F0" />
+            
+            <rect x="120" y="210" width="160" height="50" rx="5" fill="#f43f5e" opacity="0.5" />
+            
+            <g>
+              <ellipse cx="200" cy="155" rx="45" ry="55" fill="#ffffff" stroke="#6366f1" stroke-width="4" />
+              
+              <path d="M160 185 H240 V195 C240 210 220 215 200 215 C180 215 160 210 160 195 V185Z" fill="#ffffff" stroke="#6366f1" stroke-width="4" />
+              
+              <circle cx="178" cy="148" r="18" fill="#6366f1" opacity="0.15" />
+              <circle cx="222" cy="148" r="18" fill="#DFD116" opacity="0.15" />
+              <circle cx="178" cy="148" r="10" fill="#6366f1" />
+              <circle cx="222" cy="148" r="10" fill="#DFD116" />
+              <circle cx="178" cy="148" r="4" fill="#334155" />
+              <circle cx="222" cy="148" r="4" fill="#334155" />
+              
+              <path d="M200 168 L205 174 L200 180 L195 174 Z" fill="#f43f5e" />
+              
+              <path d="M178 195 H185 M192 195 H199 M206 195 H213 M220 195 H227" stroke="#6366f1" stroke-width="3" stroke-linecap="round" />
+              
+              <path d="M200 100 V120 M188 110 H212" stroke="#DFD116" stroke-width="4" stroke-linecap="round" />
+            </g>
+            
+            <g>
+              <circle cx="120" cy="200" r="20" fill="#6366f1" opacity="0.8" />
+              <circle cx="120" cy="200" r="10" fill="#DFD116" />
+              <circle cx="280" cy="200" r="20" fill="#6366f1" opacity="0.8" />
+              <circle cx="280" cy="200" r="10" fill="#DFD116" />
+            </g>
+            
+            <g fill="#DFD116">
+              <rect x="148" y="215" width="10" height="30" rx="3" fill="#ffffff" stroke="#334155" stroke-width="1" />
+              <path d="M153 215 Q150 205 153 195 Q156 205 153 215Z" />
+              <rect x="242" y="215" width="10" height="30" rx="3" fill="#ffffff" stroke="#334155" stroke-width="1" />
+              <path d="M247 215 Q244 205 247 195 Q250 205 247 215Z" />
+            </g>
+          </svg>

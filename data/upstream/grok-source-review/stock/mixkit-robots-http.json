@@ -1,0 +1,17 @@
+{
+  "id": "mixkit",
+  "url": "https://mixkit.co/robots.txt",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 200,
+  "finalUrl": "https://mixkit.co/robots.txt",
+  "contentType": "text/plain",
+  "truncated": false,
+  "observedBytes": 337,
+  "observedContentSha256": "753349a2d441105bbf70d2e39c33e7fb4905d31c075b4a943d2c3a7367bda899",
+  "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+  "challengeOrDenial": false,
+  "robotsPath": "exa-results/grok-source-review/stock/mixkit-robots.txt",
+  "robotsContentSha256": "753349a2d441105bbf70d2e39c33e7fb4905d31c075b4a943d2c3a7367bda899"
+}

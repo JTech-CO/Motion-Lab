@@ -1,0 +1,29 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Mobile Phone Base -->
+                <rect x="130" y="60" width="140" height="200" rx="16" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="8"/>
+                <rect x="140" y="80" width="120" height="140" rx="4" fill="var(--primary-color)" opacity="0.1"/>
+                <circle cx="200" cy="240" r="10" fill="var(--charcoal)" opacity="0.3"/>
+    
+                <!-- Growing Plant from Screen -->
+                <g transform="translate(200, 180)">
+                    <g class="anim-bounce" >
+                    <path class="anim-draw" d="M0 0 V-80" stroke="var(--primary-color)" stroke-width="6" stroke-linecap="round"/>
+                    <!-- Leaves -->
+                    <path class="anim-draw" style="animation-delay: 0.2s;" d="M0 -40 Q-30 -40 -30 -70 Q0 -70 0 -40" fill="var(--secondary-color)"/>
+                    <path class="anim-draw" style="animation-delay: 0.4s;" d="M0 -60 Q30 -60 30 -90 Q0 -90 0 -60" fill="var(--accent-color)"/>
+                    <!-- Flower / Star at top -->
+                    <g transform="translate(0, -90)">
+                        <g class="anim-pulse" >
+                        <circle cx="0" cy="0" r="15" fill="var(--accent-color)" opacity="0.3"/>
+                        <circle cx="0" cy="0" r="8" fill="var(--accent-color)"/>
+                    </g>
+                    </g>
+                </g>
+                </g>
+                
+                <!-- Floating Icons -->
+                <circle class="anim-pulse" cx="100" cy="100" r="6" fill="var(--secondary-color)"/>
+                <circle class="anim-pulse" style="animation-delay: 0.3s;" cx="300" cy="150" r="8" fill="var(--primary-color)"/>
+            </g>
+          </svg>

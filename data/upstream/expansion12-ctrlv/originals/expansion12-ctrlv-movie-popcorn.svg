@@ -1,0 +1,34 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            
+            <!-- Drink Cup -->
+            <g class="anim-float" style="animation-delay:-1s">
+                <path d="M240 250 L230 140 H300 L290 250 Z" fill="var(--secondary-color)"/>
+                <path d="M230 140 H300 L295 190 H235 Z" fill="var(--charcoal)" opacity="0.1"/>
+                <path d="M225 140 H305 V130 H225 Z" fill="white" opacity="0.9"/>
+                <path class="anim-draw" d="M265 130 L280 80" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round"/>
+                <ellipse cx="265" cy="200" rx="15" ry="15" fill="white" opacity="0.2"/>
+            </g>
+
+            <g class="anim-bounce">
+                <!-- Popcorn Bucket -->
+                <path d="M120 260 L100 130 H200 L180 260 Z" fill="white"/>
+                <!-- Red Stripes (using primary color) -->
+                <path d="M115 130 L130 260 M145 130 L155 260 M175 130 L180 260" stroke="var(--primary-color)" stroke-width="12"/>
+                <path d="M100 130 L120 260 M180 260 L200 130" stroke="var(--primary-color)" stroke-width="4"/>
+                
+                <!-- Central Label -->
+                <circle cx="150" cy="190" r="20" fill="var(--primary-color)"/>
+                <path d="M145 185 L155 185 M145 195 L155 195" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            </g>
+
+            <!-- Popcorn Kernels erupting -->
+            <g class="anim-float">
+                <path d="M120 130 C110 110 130 90 140 100 C150 80 170 90 170 110 C190 100 200 120 180 130 Z" fill="var(--accent-color)" opacity="0.9"/>
+                <path d="M100 140 C90 120 110 100 120 110 C130 90 150 100 150 120 Z" fill="var(--secondary-color)" opacity="0.9"/>
+                <path d="M160 140 C150 120 170 100 180 110 C190 90 210 100 210 120 Z" fill="var(--primary-color)" opacity="0.9"/>
+                
+                <!-- Flying Kernels -->
+                <path d="M100 90 C90 80 100 70 110 80 C120 70 130 80 120 90 Z" fill="var(--accent-color)"/>
+                <path d="M160 70 C150 60 160 50 170 60 C180 50 190 60 180 70 Z" fill="var(--secondary-color)"/>
+            </g>
+          </svg>

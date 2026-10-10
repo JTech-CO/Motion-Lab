@@ -1,0 +1,47 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- House Silhouette -->
+                <path d="M200 70 L90 160 H120 V240 H280 V160 H310 Z" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="8" stroke-linejoin="round"/>
+                
+                <!-- Router / Hub in Center -->
+                <circle class="anim-pulse" cx="200" cy="180" r="20" fill="var(--primary-color)"/>
+                <path class="anim-pulse" d="M190 180 A 10 10 0 0 1 210 180 M185 170 A 20 20 0 0 1 215 170" stroke="var(--bg-surface)" stroke-width="3" stroke-linecap="round" fill="none"/>
+                
+                <!-- Signals -->
+                <path class="anim-draw" d="M200 160 L140 120 M200 160 L260 120 M180 200 L140 220 M220 200 L260 220" stroke="var(--accent-color)" stroke-width="4" stroke-dasharray="6 6" stroke-linecap="round"/>
+                
+                <!-- Smart Bulb (Top Left) -->
+                <g transform="translate(140, 120)">
+                    <g class="anim-bounce">
+                    <circle cx="0" cy="-10" r="10" fill="var(--secondary-color)"/>
+                    <rect x="-5" y="0" width="10" height="10" fill="var(--charcoal)"/>
+                </g>
+                </g>
+                
+                <!-- Smart Lock (Top Right) -->
+                <g transform="translate(260, 120)">
+                    <g class="anim-bounce" style="animation-delay: 0.2s;">
+                    <rect x="-10" y="-10" width="20" height="20" rx="3" fill="var(--accent-color)"/>
+                    <circle cx="0" cy="0" r="4" fill="var(--bg-surface)"/>
+                    <path d="M-6 -10 V-15 A 6 6 0 0 1 6 -15 V-10" stroke="var(--charcoal)" stroke-width="3" fill="none"/>
+                </g>
+                </g>
+                
+                <!-- Smart Thermostat (Bottom Left) -->
+                <g transform="translate(140, 220)">
+                    <g class="anim-bounce" style="animation-delay: 0.4s;">
+                    <circle cx="0" cy="0" r="15" fill="var(--primary-color)"/>
+                    <text x="0" y="4" font-family="monospace" font-weight="bold" font-size="10" fill="var(--bg-surface)" text-anchor="middle">72</text>
+                </g>
+                </g>
+                
+                <!-- Smart Speaker (Bottom Right) -->
+                <g transform="translate(260, 220)">
+                    <g class="anim-bounce" style="animation-delay: 0.6s;">
+                    <rect x="-10" y="-15" width="20" height="30" rx="10" fill="var(--secondary-color)"/>
+                    <circle cx="0" cy="-5" r="2" fill="var(--bg-surface)"/>
+                    <circle cx="0" cy="5" r="2" fill="var(--bg-surface)"/>
+                </g>
+                </g>
+            </g>
+          </svg>

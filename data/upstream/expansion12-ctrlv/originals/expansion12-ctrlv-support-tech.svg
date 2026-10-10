@@ -1,0 +1,26 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Large Gear -->
+            <g class="anim-rotate" >
+                <circle cx="160" cy="140" r="60" stroke="var(--primary-color)" stroke-width="20" stroke-dasharray="30 20" fill="none"/>
+                <circle cx="160" cy="140" r="40" fill="var(--secondary-color)"/>
+                <circle cx="160" cy="140" r="15" fill="var(--bg-surface)"/>
+            </g>
+            <!-- Small Gear -->
+            <g class="anim-rotate" >
+                <circle cx="260" cy="100" r="35" stroke="var(--accent-color)" stroke-width="15" stroke-dasharray="15 15" fill="none"/>
+                <circle cx="260" cy="100" r="25" fill="var(--primary-color)"/>
+                <circle cx="260" cy="100" r="10" fill="var(--bg-surface)"/>
+            </g>
+            
+            <!-- Wrench crossing -->
+            <g class="anim-float">
+                <path d="M100 260 L280 80" stroke="var(--charcoal)" stroke-width="25" stroke-linecap="round"/>
+                <path d="M100 260 L280 80" stroke="var(--bg-surface)" stroke-width="10" stroke-linecap="round"/>
+                
+                <ellipse transform="rotate(-45 280 80)" cx="280" cy="80" rx="30" ry="20" fill="var(--charcoal)"/>
+                <circle cx="280" cy="80" r="10" fill="var(--bg-surface)"/>
+                
+                <ellipse transform="rotate(-45 100 260)" cx="100" cy="260" rx="20" ry="15" fill="var(--charcoal)"/>
+                <circle class="anim-glow" cx="100" cy="260" r="5" fill="var(--accent-color)"/>
+            </g>
+          </svg>

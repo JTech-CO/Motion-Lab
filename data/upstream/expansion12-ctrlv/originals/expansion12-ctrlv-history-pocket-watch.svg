@@ -1,0 +1,41 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="100" ry="10" fill="#E2E8F0"/>
+            <g class="anim-float">
+                <!-- Chain -->
+                <path class="anim-draw" d="M200 50 Q280 20 320 100 T260 250" stroke="var(--accent-color)" stroke-width="6" stroke-dasharray="10 4" stroke-linecap="round" fill="none"/>
+                
+                <!-- Watch Ring / Crown -->
+                <circle cx="200" cy="65" r="15" fill="none" stroke="var(--accent-color)" stroke-width="6"/>
+                <rect x="190" y="80" width="20" height="15" fill="var(--primary-color)"/>
+                
+                <!-- Main Case -->
+                <circle cx="200" cy="180" r="80" fill="var(--accent-color)"/>
+                <circle cx="200" cy="180" r="70" fill="var(--bg-surface)"/>
+                <circle cx="200" cy="180" r="60" fill="none" stroke="var(--primary-color)" stroke-width="2" opacity="0.3"/>
+                
+                <!-- Numerals (Abstract marks) -->
+                <line x1="200" y1="120" x2="200" y2="130" stroke="var(--charcoal)" stroke-width="4"/>
+                <line x1="200" y1="230" x2="200" y2="240" stroke="var(--charcoal)" stroke-width="4"/>
+                <line x1="140" y1="180" x2="150" y2="180" stroke="var(--charcoal)" stroke-width="4"/>
+                <line x1="250" y1="180" x2="260" y2="180" stroke="var(--charcoal)" stroke-width="4"/>
+                <circle cx="230" cy="150" r="2" fill="var(--charcoal)"/>
+                <circle cx="230" cy="210" r="2" fill="var(--charcoal)"/>
+                <circle cx="170" cy="150" r="2" fill="var(--charcoal)"/>
+                <circle cx="170" cy="210" r="2" fill="var(--charcoal)"/>
+                
+                <!-- Hands -->
+                <g class="anim-rotate" >
+                    <!-- Minute Hand -->
+                    <line x1="200" y1="180" x2="200" y2="135" stroke="var(--primary-color)" stroke-width="4" stroke-linecap="round"/>
+                </g>
+                <g class="anim-rotate" >
+                    <!-- Hour Hand (static in animation but angled) -->
+                    <line x1="200" y1="180" x2="230" y2="180" stroke="var(--primary-color)" stroke-width="6" stroke-linecap="round"/>
+                </g>
+                <circle cx="200" cy="180" r="6" fill="var(--secondary-color)"/>
+                
+                <!-- Exposed small gear (complication) -->
+                <circle class="anim-rotate"  cx="200" cy="210" r="15" fill="none" stroke="var(--accent-color)" stroke-width="4" stroke-dasharray="4 4"/>
+                <line x1="200" y1="210" x2="200" y2="200" stroke="var(--charcoal)" stroke-width="2"/>
+            </g>
+          </svg>

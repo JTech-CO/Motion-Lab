@@ -1,0 +1,16 @@
+{
+  "id": "creativemarket",
+  "url": "https://creativemarket.com/licenses/terms/general",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 403,
+  "finalUrl": "https://creativemarket.com/licenses/terms/general",
+  "contentType": "text/html; charset=UTF-8",
+  "truncated": false,
+  "observedBytes": 5581,
+  "observedContentSha256": "ab31e544eb4ea90b37c4b8e5204a887420b5100022fb1e210c07a8c257ca8ca4",
+  "links": [],
+  "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+  "challengeOrDenial": true
+}

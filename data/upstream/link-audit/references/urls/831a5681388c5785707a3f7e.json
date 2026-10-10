@@ -1,0 +1,56 @@
+{
+  "url": "https://pekingpeking.de/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://pekingpeking.de/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://pekingpeking.de/",
+      "allowedForAuditGet": true,
+      "reason": "robots-missing-not-a-license",
+      "robotsUrl": "https://pekingpeking.de/robots.txt",
+      "robotsStatus": 404
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://pekingpeking.de/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:59.863850+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://pekingpeking.de/",
+      "contentType": "text/html",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 37624,
+      "capturedSha256": "797afcebdbdff3485586670f12236a3052472dc4b482bd6c846da77e0f1190bd",
+      "responseBodySha256": "797afcebdbdff3485586670f12236a3052472dc4b482bd6c846da77e0f1190bd",
+      "title": "PEKINGPEKING — Motion Design · VFX · 3D · Unreal Engine",
+      "textCharacters": 3443,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.124,
+      "captureCachePath": "exa-results/link-audit/references/captures/a91ed50a5c7cb64faeb145fa.json",
+      "captureCacheSha256": "9538b23b87802d0632d91416d3f4f9440b25bf3d955ea3e3e4ae0c11e6f59c29"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-pekingpeking",
+      "canonicalId": "ref-pekingpeking",
+      "title": "PEKINGPEKING",
+      "role": "canonical",
+      "sourceSha256": "d389bc2fb7f92d294152ae7a3e891c5268f1945a000a45ff7b31687b4d82c8e2"
+    }
+  ]
+}

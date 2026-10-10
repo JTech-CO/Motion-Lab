@@ -1,0 +1,18 @@
+{
+  "theme": "volcanic eruption with flowing lava and smoke",
+  "style_hints": "SDF terrain with noise displacement, glowing lava rivers using fbm, volumetric smoke with density marching, ember particles, heat distortion, orange-red lava against dark rock, ambient occlusion",
+  "references": [
+    "community/SHADER/Noise_Lava.glsl",
+    "community/SHADER/shadertoy_volcanic.glsl",
+    "community/lygia/color_palette_heatmap.glsl",
+    "community/WebGPU-Lab/src_scripts_raytrace_cloud.wgsl",
+    "community/lygia/color_palette_fire.glsl"
+  ],
+  "attempts": 1,
+  "created_at": "2026-03-25T13:47:07.930720+00:00",
+  "glsl_lines": 125,
+  "success": true,
+  "status": "rejected",
+  "rejected_at": "2026-03-28T13:32:44.118330+00:00",
+  "rejected_comment": ""
+}

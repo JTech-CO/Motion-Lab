@@ -1,0 +1,26 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Sleeping Person -->
+                <ellipse cx="140" cy="230" rx="40" ry="20" fill="var(--secondary-color)" opacity="0.4"/>
+                <circle cx="120" cy="220" r="18" fill="var(--primary-color)"/>
+                <path d="M110 215 Q120 225 130 215" stroke="white" stroke-width="2" stroke-linecap="round" fill="none"/>
+                
+                <!-- Dream Threads -->
+                <path class="anim-draw" d="M120 200 C100 120 160 80 200 120 C240 160 300 120 280 60" stroke="var(--accent-color)" stroke-width="3" stroke-dasharray="8 6" fill="none"/>
+                
+                <!-- Dream Images Forming -->
+                <g class="anim-pulse" style="animation-duration: 4s;">
+                    <!-- Star -->
+                    <path d="M200 100 L205 115 L220 115 L208 125 L212 140 L200 130 L188 140 L192 125 L180 115 L195 115 Z" fill="var(--secondary-color)"/>
+                </g>
+                <g class="anim-bounce" style="animation-duration: 5s;">
+                    <!-- Moon -->
+                    <path d="M280 50 A 20 20 0 1 0 310 80 A 25 25 0 1 1 280 50 Z" fill="var(--primary-color)"/>
+                </g>
+                <g class="anim-pulse" style="animation-delay: 1s;">
+                    <circle cx="160" cy="140" r="5" fill="var(--accent-color)"/>
+                    <circle cx="250" cy="90" r="4" fill="var(--secondary-color)"/>
+                    <circle cx="200" cy="60" r="6" fill="var(--primary-color)"/>
+                </g>
+            </g>
+          </svg>

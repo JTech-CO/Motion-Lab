@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="200" cy="150" r="100" fill="var(--secondary-color)" opacity="0.05"/>
+            <g class="anim-float">
+                <!-- Suit Body -->
+                <rect x="170" y="110" width="60" height="70" rx="15" fill="var(--primary-color)"/>
+                <!-- Helmet -->
+                <circle cx="200" cy="80" r="30" fill="var(--primary-color)"/>
+                <rect x="180" y="70" width="40" height="25" rx="10" fill="var(--charcoal)" opacity="0.9"/>
+                <!-- Arms/Legs -->
+                <path d="M170 120 Q140 100 130 130" stroke="var(--primary-color)" stroke-width="15" stroke-linecap="round" fill="none"/>
+                <path d="M230 120 Q260 100 270 130" stroke="var(--primary-color)" stroke-width="15" stroke-linecap="round" fill="none"/>
+                <path d="M185 180 Q170 220 180 240" stroke="var(--primary-color)" stroke-width="15" stroke-linecap="round" fill="none"/>
+                <path d="M215 180 Q230 220 220 240" stroke="var(--primary-color)" stroke-width="15" stroke-linecap="round" fill="none"/>
+                <!-- Backpack -->
+                <rect x="155" y="120" width="15" height="50" rx="5" fill="var(--charcoal)" opacity="0.2"/>
+            </g>
+            <path class="anim-draw" d="M130 130 Q100 200 50 150" stroke="var(--charcoal)" stroke-width="3" stroke-dasharray="6 6" fill="none" opacity="0.4"/>
+          </svg>

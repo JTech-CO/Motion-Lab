@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <ellipse cx="200" cy="270" rx="120" ry="10" fill="#e2e8f0" opacity="0.6" />
+            
+            
+            <path d="M110 280 Q200 230 290 280" stroke="#6366f1" stroke-width="45" stroke-linecap="round" fill="none" />
+            <path d="M160 280 L200 235 L240 280" fill="white" />
+            
+            <g>
+                
+                <rect x="145" y="110" width="110" height="120" rx="45" fill="#ffffff" stroke="#6366f1" stroke-width="6" />
+                
+                
+                <path d="M155 135 Q175 125 190 140" stroke="white" stroke-width="8" stroke-linecap="round" fill="none" />
+                <path d="M245 135 Q225 125 210 140" stroke="white" stroke-width="8" stroke-linecap="round" fill="none" />
+                
+                
+                <path d="M165 150 Q175 145 185 150" stroke="#334155" stroke-width="3" stroke-linecap="round" fill="none" />
+                <path d="M235 150 Q225 145 215 150" stroke="#334155" stroke-width="3" stroke-linecap="round" fill="none" />
+                <circle cx="175" cy="152" r="3" fill="#334155" />
+                <circle cx="225" cy="152" r="3" fill="#334155" />
+                
+                
+                <path d="M200 150 L195 180 H205" stroke="#6366f1" stroke-width="3" stroke-linecap="round" fill="none" />
+
+                
+                <path d="M150 190 Q200 170 250 190 C240 210 160 210 150 190 Z" fill="white" stroke="#334155" stroke-width="2" />
+                <path d="M160 195 Q200 185 240 195" stroke="#334155" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.3" />
+            </g>
+
+            
+            <g>
+                
+                <path d="M150 130 C110 110 80 160 110 210 C130 240 150 200 153 190 Z" fill="white" stroke="#334155" stroke-width="4" stroke-linejoin="round" />
+                <path d="M130 110 C90 90 90 140 100 160" fill="none" stroke="#f43f5e" stroke-width="4" stroke-linecap="round" />
+                
+                
+                <path d="M250 130 C290 110 320 160 290 210 C270 240 250 200 247 190 Z" fill="white" stroke="#334155" stroke-width="4" stroke-linejoin="round" />
+                <path d="M270 110 C310 90 310 140 300 160" fill="none" stroke="#DFD116" stroke-width="4" stroke-linecap="round" />
+                
+                
+                <path d="M130 130 C130 60 200 40 270 130 C230 70 170 80 130 130 Z" fill="white" stroke="#334155" stroke-width="4" stroke-linejoin="round" />
+            </g>
+            
+            
+            <path d="M260 60 Q290 30 320 50" stroke="#6366f1" stroke-width="3" stroke-dasharray="4 4" fill="none" />
+            <path d="M90 70 L110 60 L100 90 Z" fill="#DFD116" />
+          </svg>

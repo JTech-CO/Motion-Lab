@@ -1,0 +1,29 @@
+{
+  "theme": "digital rain matrix with glowing kanji",
+  "style_hints": "",
+  "references": [
+    "community/glsl-shaders/deblur_shaders_deblur.glsl [matrix]",
+    "community/lygia/color_brightnessMatrix.glsl [matrix]",
+    "community/glsl-shaders/misc_shaders_deposterize-pass1.glsl [matrix]",
+    "community/glsl-shaders/misc_shaders_deposterize-pass0.glsl [matrix]",
+    "community/lygia/color_contrastMatrix.glsl [matrix]"
+  ],
+  "attempts": 1,
+  "created_at": "2026-03-28T01:52:50.369043+00:00",
+  "glsl_lines": 54,
+  "success": true,
+  "design_brief": "**Implementation Guide: Digital Rain Matrix with Glowing Kanji**  \n*(WebGL1 / GLSL ES 1.00 only)*  \n\n1. **Architecture**:  \n   ```glsl\n   void main() {\n     vec2 uv = vUv * uResolution / min(uResolution.x, uResolution.y); // square UV\n     vec3 col = vec3(0.); col = rain(uv, uTime); // main render loop\n     col = glow(col); // additive bloom-like enhancement\n     gl_FragColor = vec4(col, 1.0);\n   }\n   ```  \n\n2. **Key functions**:  \n   - `float kanjiNoise(vec2 p)` — deterministic pseudo-random Kanji index (use hash from `mod(floor(p), 256.)` + `fract(sin(p)*43758.5453)`, per ref #2’s matrix pattern for stability).  \n   - `vec3 rain(vec2 uv, float t)` — vertical falling columns: `y -= t * speed`, `x` quantized to ~10–20px columns; sample `kanjiNoise()` to pick glyph shape via `step()`.  \n   - `vec3 glow(vec3 c)` — `c += pow(c, vec3(2.)) * 0.3` for soft bloom (no `fwidth`, so use power-based falloff).  \n\n3. **Reuse patterns**:  \n   - Use `kanjiNoise()` structure from ref #2’s `brightnessMatrix()` — pure math, no `layout()` or `out` needed.  \n   - Adopt ref #1’s `#pragma parameter` style for tuning (if building in a tool like Shadertoy), but omit for raw WebGL.  \n\n4. **Color & brightness**:  \n   - Base: `vec3(0.05, 0.2, 0.05)` (dark green) + `vec3(0.9, 1.0, 0.8)` for head (white-green).  \n   - Additive glow: `col += col * 0.2` per trail pixel (simulates phosphor persistence).  \n   - Full-screen fill: ensure `uv` covers [0,1]² with aspect fix, and always return `gl_FragColor.a = 1.0`.  \n\n5. **Animation**:  \n   - `uTime` drives falling speed: `vec2 uv = vUv; uv.y += uTime * 0.5;`.  \n   - Speed: `0.3–0.8` (too fast → blur; too slow → static).  \n   - Loop: use `mod(uTime, 10.0)` for subtle pattern resets (no seamless loop needed—Matrix style is infinite).  \n\n6. **Pitfalls to avoid**:  \n   - ❌ No `texture2D()` for font atlas (WebGL1 requires pre-baked glyph map if used; better to synthesize kanji via math: see ref #2’s hash trick).  \n   - ❌ No `fract()` on large `uTime` → use `mod(uTime, 1.0)` or `uTime * 0.1` to avoid precision loss.  \n   - ✅ Always use `vec3` for color (no `vec4` outputs), and avoid bitwise ops.  \n   - ✅ Use `sin(uTime * 0.5)` for subtle flicker (no noise texture needed).",
+  "review": {
+    "visual_complexity": 3,
+    "code_quality": 4,
+    "theme_match": 4,
+    "animation": 4,
+    "originality": 3,
+    "total": 18,
+    "verdict": "pass",
+    "feedback": "Good implementation of digital rain with smooth animation and clean code, but brightness is low due to heavy use of low-alpha blending and dark base colors—consider increasing base intensity or reducing alpha decay to improve visibility on social media."
+  },
+  "status": "rejected",
+  "rejected_at": "2026-03-28T03:16:33.451596+00:00",
+  "rejected_comment": ""
+}

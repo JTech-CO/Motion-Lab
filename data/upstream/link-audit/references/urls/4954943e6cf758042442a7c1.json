@@ -1,0 +1,56 @@
+{
+  "url": "https://reactbits.dev/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://reactbits.dev/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://reactbits.dev/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://reactbits.dev/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://reactbits.dev/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:06.584311+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://reactbits.dev/",
+      "contentType": "text/html",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 9136,
+      "capturedSha256": "069d4de836f06f60df6d47b4b441c67cc29a17769dfa23f91bd0510b5a7b66dd",
+      "responseBodySha256": "069d4de836f06f60df6d47b4b441c67cc29a17769dfa23f91bd0510b5a7b66dd",
+      "title": "React Bits — Free Animated React Components",
+      "textCharacters": 864,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.649,
+      "captureCachePath": "exa-results/link-audit/references/captures/bdcd025e12d23f9b5f00e632.json",
+      "captureCacheSha256": "04d9f7c092611af12ce1e19fef969f69077c40ab9017c7600bf2bf786bfc6b06"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-react-bits",
+      "canonicalId": "ref-react-bits",
+      "title": "React Bits",
+      "role": "canonical",
+      "sourceSha256": "02499735fedb990ccfedf4dd77db413a2000c3d2a6df554d250a9133305f7a23"
+    }
+  ]
+}

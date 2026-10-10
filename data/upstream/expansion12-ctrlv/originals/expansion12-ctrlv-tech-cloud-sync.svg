@@ -1,0 +1,23 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Large Cloud -->
+                <path d="M100 200 C100 160 140 140 160 140 C160 100 240 100 240 140 C280 140 300 160 300 200 C300 240 260 260 240 260 H160 C140 260 100 240 100 200 Z" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="8"/>
+                
+                <!-- Sync Arrows -->
+                <g transform="translate(200, 190)">
+                    <g class="anim-rotate" >
+                    <path class="anim-draw" d="M-30 0 A 30 30 0 0 1 30 0" stroke="var(--primary-color)" stroke-width="6" stroke-linecap="round" fill="none"/>
+                    <path d="M30 0 L40 -10 L20 -10 Z" fill="var(--primary-color)"/>
+                    
+                    <g transform="rotate(180)">
+                <path class="anim-draw" style="animation-delay: 0.5s;" d="M30 0 A 30 30 0 0 1 -30 0" stroke="var(--secondary-color)" stroke-width="6" stroke-linecap="round" fill="none" />
+            </g>
+                    <path d="M-30 0 L-40 10 L-20 10 Z" fill="var(--secondary-color)"/>
+                </g>
+                </g>
+                
+                <!-- Transfer Nodes -->
+                <circle class="anim-pulse" cx="150" cy="140" r="8" fill="var(--accent-color)"/>
+                <circle class="anim-pulse" style="animation-delay: 0.4s;" cx="250" cy="140" r="6" fill="var(--primary-color)"/>
+            </g>
+          </svg>

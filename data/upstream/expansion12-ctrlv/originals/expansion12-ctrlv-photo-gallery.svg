@@ -1,0 +1,30 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="15" fill="var(--primary-color)" opacity="0.1"/>
+            
+            <g transform="rotate(-15 150 150)">
+        <g class="anim-float" style="animation-delay: 1s;">
+        
+                <rect x="80" y="60" width="140" height="180" rx="5" fill="var(--bg-surface)" stroke="var(--secondary-color)" stroke-width="4"/>
+                <rect x="90" y="70" width="120" height="120" fill="var(--secondary-color)"/>
+                <circle cx="150" cy="130" r="30" fill="var(--bg-surface)" opacity="0.5"/>
+            
+        </g>
+    </g>
+            
+            <g transform="rotate(10 250 160)">
+        <g class="anim-float" style="animation-delay: 0.5s;">
+        
+                <rect x="180" y="70" width="140" height="180" rx="5" fill="var(--bg-surface)" stroke="var(--primary-color)" stroke-width="4"/>
+                <rect x="190" y="80" width="120" height="120" fill="var(--primary-color)"/>
+                <path d="M190 170 Q230 130 250 150 T310 130 V200 H190 Z" fill="var(--bg-surface)" opacity="0.5"/>
+            
+        </g>
+    </g>
+            
+            <g class="anim-float">
+                <rect x="130" y="90" width="140" height="180" rx="5" fill="var(--bg-surface)" stroke="var(--primary-color)" stroke-width="6"/>
+                <rect x="140" y="100" width="120" height="120" fill="var(--accent-color)"/>
+                <circle cx="200" cy="160" r="40" fill="var(--bg-surface)" opacity="0.3"/>
+                <path class="anim-pulse" d="M185 160 V145 L200 160 L215 145 V160 L200 175 Z" fill="var(--bg-surface)"/>
+            </g>
+          </svg>

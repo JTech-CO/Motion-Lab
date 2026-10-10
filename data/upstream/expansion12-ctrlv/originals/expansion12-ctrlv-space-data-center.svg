@@ -1,0 +1,35 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Curvature of Earth/Planet -->
+            <path class="anim-float" d="M60 270 Q200 220 340 270 V290 H60 Z" fill="var(--secondary-color)" opacity="0.2"/>
+            
+            <!-- Orbital Station / Data Center -->
+            <g class="anim-bounce">
+                <!-- Massive Solar Arrays -->
+                <path d="M70 140 L160 100 V120 L70 160 Z" fill="var(--secondary-color)" opacity="0.8"/>
+                <path d="M330 140 L240 100 V120 L330 160 Z" fill="var(--secondary-color)" opacity="0.8"/>
+                <!-- Grid on Solars -->
+                <path d="M100 130 L130 115 M100 145 L130 130 M270 130 L300 115 M270 145 L300 130" stroke="white" stroke-width="2" opacity="0.5"/>
+                
+                <!-- Central Core Hub -->
+                <circle cx="200" cy="130" r="40" fill="var(--primary-color)"/>
+                <ellipse cx="200" cy="130" rx="40" ry="15" fill="var(--charcoal)" opacity="0.1"/>
+                
+                <!-- Server Racks inside Dome/Ring (Abstracted as lines) -->
+                <rect x="180" y="110" width="8" height="20" fill="var(--charcoal)" opacity="0.8"/>
+                <rect x="196" y="110" width="8" height="20" fill="var(--charcoal)" opacity="0.8"/>
+                <rect x="212" y="110" width="8" height="20" fill="var(--charcoal)" opacity="0.8"/>
+                <circle class="anim-pulse" cx="184" cy="115" r="2" fill="var(--accent-color)"/>
+                <circle class="anim-pulse" cx="200" cy="120" r="2" fill="var(--secondary-color)"/>
+                <circle class="anim-pulse" cx="216" cy="115" r="2" fill="var(--accent-color)"/>
+                
+                <!-- Comms Dish -->
+                <path d="M180 90 Q200 70 220 90 Z" fill="var(--primary-color)"/>
+            </g>
+            
+            <!-- Data Beaming to Planet -->
+            <path class="anim-draw" d="M190 170 L170 240 M210 170 L230 240" stroke="var(--secondary-color)" stroke-width="3" stroke-dasharray="8 6" fill="none" opacity="0.6"/>
+            <path class="anim-glow" d="M200 170 V240" stroke="var(--accent-color)" stroke-width="4" stroke-dasharray="10 10" fill="none"/>
+            
+            <circle class="anim-glow" cx="100" cy="60" r="3" fill="var(--accent-color)"/>
+            <circle class="anim-glow" cx="300" cy="70" r="4" fill="var(--secondary-color)" style="animation-delay:-0.5s"/>
+          </svg>

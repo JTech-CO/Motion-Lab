@@ -1,0 +1,56 @@
+{
+  "url": "https://www.carbondesignsystem.com/building-blocks/foundations/motion/overview",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://www.carbondesignsystem.com/building-blocks/foundations/motion/overview",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://www.carbondesignsystem.com/building-blocks/foundations/motion/overview",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://www.carbondesignsystem.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://www.carbondesignsystem.com/building-blocks/foundations/motion/overview",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:49.127363+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://www.carbondesignsystem.com/building-blocks/foundations/motion/overview",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "7e353222ef06738e28c86b59d8644127be32e8991e670274bd6ea0d271d33def",
+      "responseBodySha256": "7e353222ef06738e28c86b59d8644127be32e8991e670274bd6ea0d271d33def",
+      "title": "Motion | Carbon Design SystemIBM logo",
+      "textCharacters": 9899,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.05,
+      "captureCachePath": "exa-results/link-audit/references/captures/69c4a4d121250e6f3343bc5c.json",
+      "captureCacheSha256": "339aa99ca5165c7208b772d3173b8fe9e75d052d1374465ad443412a273d83f8"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-carbon-motion",
+      "canonicalId": "ref-carbon-motion",
+      "title": "Carbon Motion",
+      "role": "canonical",
+      "sourceSha256": "0371aa81b8d2dedd971c9e111b5ba071c9fc4605fd787927bc8afb27f5846f43"
+    }
+  ]
+}

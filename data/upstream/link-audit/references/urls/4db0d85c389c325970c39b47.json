@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/KaranChandekar/webgl-shader-gallery",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/KaranChandekar/webgl-shader-gallery",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/KaranChandekar/webgl-shader-gallery",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/KaranChandekar/webgl-shader-gallery",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:46.720261+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/KaranChandekar/webgl-shader-gallery",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "83bdad82e95b5f08ab8879b70de315a7e4121ec50930064630dcb804ff7b6dcb",
+      "responseBodySha256": "83bdad82e95b5f08ab8879b70de315a7e4121ec50930064630dcb804ff7b6dcb",
+      "title": "GitHub - KaranChandekar/webgl-shader-gallery: An immersive virtual art gallery showcasing 8 real-time WebGL shader effects — liquid distortions, ray marching, fractals, noise landscapes — with mouse-reactive interactions and scroll-snap navigation. · GitHub",
+      "textCharacters": 3552,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.72,
+      "captureCachePath": "exa-results/link-audit/references/captures/8bd0459a963078f373832ffd.json",
+      "captureCacheSha256": "6e49415f6b85ffb897d13ddf369008fc6052c1a0c011c74c0e427227a2358d34"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-webgl-shader-gallery",
+      "canonicalId": "ref-webgl-shader-gallery",
+      "title": "WebGL Shader Gallery",
+      "role": "canonical",
+      "sourceSha256": "29beff2a780c47310c1b8b9d78574fc879b10702b4d597b11858777c377d8285"
+    }
+  ]
+}

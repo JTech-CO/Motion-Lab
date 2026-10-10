@@ -1,0 +1,29 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Giant Hashtag -->
+                <g class="anim-pulse" stroke="var(--primary-color)" stroke-width="12" stroke-linecap="round">
+                    <line x1="140" y1="80" x2="110" y2="220"/>
+                    <line x1="200" y1="80" x2="170" y2="220"/>
+                    <line x1="90" y1="130" x2="230" y2="130"/>
+                    <line x1="80" y1="180" x2="220" y2="180"/>
+                </g>
+                
+                <!-- Floating Chat Bubbles -->
+                <g transform="translate(280, 100)">
+                    <g class="anim-bounce" >
+                    <rect x="0" y="0" width="60" height="40" rx="10" fill="var(--secondary-color)"/>
+                    <path d="M10 40 L0 50 L10 45 Z" fill="var(--secondary-color)"/>
+                    <line x1="15" y1="20" x2="45" y2="20" stroke="var(--bg-surface)" stroke-width="4" stroke-linecap="round"/>
+                </g>
+                </g>
+                <g transform="translate(250, 180)">
+                    <g class="anim-bounce"  style="animation-delay: 0.4s;">
+                    <rect x="0" y="0" width="80" height="40" rx="10" fill="var(--accent-color)"/>
+                    <path d="M60 40 L70 50 L60 45 Z" fill="var(--accent-color)"/>
+                    <circle cx="20" cy="20" r="4" fill="var(--bg-surface)"/>
+                    <circle cx="40" cy="20" r="4" fill="var(--bg-surface)"/>
+                    <circle cx="60" cy="20" r="4" fill="var(--bg-surface)"/>
+                </g>
+                </g>
+            </g>
+          </svg>

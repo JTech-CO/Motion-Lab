@@ -1,0 +1,29 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Clapperboard Base -->
+                <rect x="100" y="100" width="200" height="140" fill="var(--charcoal)"/>
+                <rect x="100" y="100" width="200" height="40" fill="var(--primary-color)"/>
+                
+                <!-- Clapper Top -->
+                <g class="anim-rotate" >
+                    <rect x="100" y="70" width="200" height="30" fill="var(--charcoal)"/>
+                    <!-- Stripes -->
+                    <path d="M120 70 L140 100 M160 70 L180 100 M200 70 L220 100 M240 70 L260 100" stroke="var(--bg-surface)" stroke-width="8"/>
+                </g>
+                
+                <!-- Stripes on base top part -->
+                <path d="M110 100 L130 140 M150 100 L170 140 M190 100 L210 140 M230 100 L250 140" stroke="var(--bg-surface)" stroke-width="8"/>
+                
+                <!-- Action / Play Icon -->
+                <g class="anim-pulse" >
+                    <circle cx="200" cy="180" r="30" fill="var(--accent-color)"/>
+                    <path d="M190 165 L220 180 L190 195 Z" fill="var(--bg-surface)"/>
+                </g>
+                
+                <!-- Film Reel (Left Focus) -->
+                <g class="anim-rotate" >
+                    <circle cx="80" cy="220" r="40" fill="none" stroke="var(--secondary-color)" stroke-width="12" stroke-dasharray="20 40"/>
+                    <circle cx="80" cy="220" r="10" fill="var(--charcoal)"/>
+                </g>
+            </g>
+          </svg>

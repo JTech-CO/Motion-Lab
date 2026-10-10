@@ -1,0 +1,132 @@
+{
+  "verifiedAt": "2026-10-10",
+  "reason": "The retired site requires login (HTTP 401). The public original JSON matches all 24 local records' code and complete MIT notices.",
+  "evidence": {
+    "path": "data/upstream/link-audit/originals/github-manual-verification.json",
+    "sha256": "acbfc66ddc70951568158be8d78ed523def6a4f4d32f0f7ba48eb72e3cfd4f4d"
+  },
+  "beforeInputSha256": "b63ed8bcb9882d6dbc21f958c6f2b180d6d0393b788e0026e742fa115caafb55",
+  "afterInputSha256": "4f69c3017359986a9bac02b8e7d6d3a1f321fae217d91a543f42a556bf12378a",
+  "changes": [
+    {
+      "id": "ml-original-wipe-reveal",
+      "before": "https://motion-lab-archive.bryan131.chatgpt.site/",
+      "after": "https://github.com/JTech-CO/Motion-Lab/blob/main/data/manual-items.json#L3"
+    },
+    {
+      "id": "ml-original-iris-reveal",
+      "before": "https://motion-lab-archive.bryan131.chatgpt.site/",
+      "after": "https://github.com/JTech-CO/Motion-Lab/blob/main/data/manual-items.json#L42"
+    },
+    {
+      "id": "ml-original-diagonal-cut",
+      "before": "https://motion-lab-archive.bryan131.chatgpt.site/",
+      "after": "https://github.com/JTech-CO/Motion-Lab/blob/main/data/manual-items.json#L82"
+    },
+    {
+      "id": "ml-original-perspective-flip",
+      "before": "https://motion-lab-archive.bryan131.chatgpt.site/",
+      "after": "https://github.com/JTech-CO/Motion-Lab/blob/main/data/manual-items.json#L122"
+    },
+    {
+      "id": "ml-original-focus-reveal",
+      "before": "https://motion-lab-archive.bryan131.chatgpt.site/",
+      "after": "https://github.com/JTech-CO/Motion-Lab/blob/main/data/manual-items.json#L162"
+    },
+    {
+      "id": "ml-original-kinetic-tracking",
+      "before": "https://motion-lab-archive.bryan131.chatgpt.site/",
+      "after": "https://github.com/JTech-CO/Motion-Lab/blob/main/data/manual-items.json#L202"
+    },
+    {
+      "id": "ml-original-stepped-typewriter",
+      "before": "https://motion-lab-archive.bryan131.chatgpt.site/",
+      "after": "https://github.com/JTech-CO/Motion-Lab/blob/main/data/manual-items.json#L242"
+    },
+    {
+      "id": "ml-original-text-fill-sweep",
+      "before": "https://motion-lab-archive.bryan131.chatgpt.site/",
+      "after": "https://github.com/JTech-CO/Motion-Lab/blob/main/data/manual-items.json#L282"
+    },
+    {
+      "id": "ml-original-rgb-ghost",
+      "before": "https://motion-lab-archive.bryan131.chatgpt.site/",
+      "after": "https://github.com/JTech-CO/Motion-Lab/blob/main/data/manual-items.json#L322"
+    },
+    {
+      "id": "ml-original-neon-breathe",
+      "before": "https://motion-lab-archive.bryan131.chatgpt.site/",
+      "after": "https://github.com/JTech-CO/Motion-Lab/blob/main/data/manual-items.json#L362"
+    },
+    {
+      "id": "ml-original-stagger-bars",
+      "before": "https://motion-lab-archive.bryan131.chatgpt.site/",
+      "after": "https://github.com/JTech-CO/Motion-Lab/blob/main/data/manual-items.json#L402"
+    },
+    {
+      "id": "ml-original-squish-spring",
+      "before": "https://motion-lab-archive.bryan131.chatgpt.site/",
+      "after": "https://github.com/JTech-CO/Motion-Lab/blob/main/data/manual-items.json#L442"
+    },
+    {
+      "id": "ml-original-overshoot-arrival",
+      "before": "https://motion-lab-archive.bryan131.chatgpt.site/",
+      "after": "https://github.com/JTech-CO/Motion-Lab/blob/main/data/manual-items.json#L482"
+    },
+    {
+      "id": "ml-original-upright-orbit",
+      "before": "https://motion-lab-archive.bryan131.chatgpt.site/",
+      "after": "https://github.com/JTech-CO/Motion-Lab/blob/main/data/manual-items.json#L522"
+    },
+    {
+      "id": "ml-original-stepped-ticker",
+      "before": "https://motion-lab-archive.bryan131.chatgpt.site/",
+      "after": "https://github.com/JTech-CO/Motion-Lab/blob/main/data/manual-items.json#L562"
+    },
+    {
+      "id": "ml-original-gradient-flow",
+      "before": "https://motion-lab-archive.bryan131.chatgpt.site/",
+      "after": "https://github.com/JTech-CO/Motion-Lab/blob/main/data/manual-items.json#L602"
+    },
+    {
+      "id": "ml-original-checker-drift",
+      "before": "https://motion-lab-archive.bryan131.chatgpt.site/",
+      "after": "https://github.com/JTech-CO/Motion-Lab/blob/main/data/manual-items.json#L642"
+    },
+    {
+      "id": "ml-original-halftone-breathe",
+      "before": "https://motion-lab-archive.bryan131.chatgpt.site/",
+      "after": "https://github.com/JTech-CO/Motion-Lab/blob/main/data/manual-items.json#L682"
+    },
+    {
+      "id": "ml-original-scanline-sweep",
+      "before": "https://motion-lab-archive.bryan131.chatgpt.site/",
+      "after": "https://github.com/JTech-CO/Motion-Lab/blob/main/data/manual-items.json#L722"
+    },
+    {
+      "id": "ml-original-border-draw",
+      "before": "https://motion-lab-archive.bryan131.chatgpt.site/",
+      "after": "https://github.com/JTech-CO/Motion-Lab/blob/main/data/manual-items.json#L762"
+    },
+    {
+      "id": "ml-original-sheen-pass",
+      "before": "https://motion-lab-archive.bryan131.chatgpt.site/",
+      "after": "https://github.com/JTech-CO/Motion-Lab/blob/main/data/manual-items.json#L802"
+    },
+    {
+      "id": "ml-original-hover-elevation",
+      "before": "https://motion-lab-archive.bryan131.chatgpt.site/",
+      "after": "https://github.com/JTech-CO/Motion-Lab/blob/main/data/manual-items.json#L842"
+    },
+    {
+      "id": "ml-original-press-feedback",
+      "before": "https://motion-lab-archive.bryan131.chatgpt.site/",
+      "after": "https://github.com/JTech-CO/Motion-Lab/blob/main/data/manual-items.json#L882"
+    },
+    {
+      "id": "ml-original-confirmation-halo",
+      "before": "https://motion-lab-archive.bryan131.chatgpt.site/",
+      "after": "https://github.com/JTech-CO/Motion-Lab/blob/main/data/manual-items.json#L922"
+    }
+  ]
+}

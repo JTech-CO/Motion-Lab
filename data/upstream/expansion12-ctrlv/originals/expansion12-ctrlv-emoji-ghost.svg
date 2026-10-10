@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Body -->
+                <path d="M120 220 A 80 80 0 0 1 280 220 V250 Q265 230 250 250 T220 250 T190 250 T160 250 T130 250 Z" fill="var(--bg-surface)"/>
+                
+                <!-- Face -->
+                <ellipse cx="165" cy="170" rx="10" ry="15" fill="var(--charcoal)"/>
+                <ellipse cx="235" cy="170" rx="10" ry="15" fill="var(--charcoal)"/>
+                <circle class="anim-pulse" cx="165" cy="165" r="3" fill="white"/>
+                <circle class="anim-pulse" cx="235" cy="165" r="3" fill="white"/>
+                
+                <!-- Mouth -->
+                <circle cx="200" cy="200" r="15" fill="var(--charcoal)"/>
+                
+                <!-- Arms -->
+                <path class="anim-wave" d="M130 190 Q100 180 80 200" stroke="var(--bg-surface)" stroke-width="20" stroke-linecap="round" fill="none"/>
+                <path class="anim-wave" style="animation-delay: 0.5s;" d="M270 190 Q300 180 320 200" stroke="var(--bg-surface)" stroke-width="20" stroke-linecap="round" fill="none"/>
+            </g>
+            <style>
+                .anim-wave {
+                    animation: ghostWave 2s infinite ease-in-out alternate;
+                }
+                @keyframes ghostWave {
+                    0% { transform: rotate(0deg); }
+                    100% { transform: translateY(-10px) rotate(5deg); }
+                }
+            </style>
+          </svg>

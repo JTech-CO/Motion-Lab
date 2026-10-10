@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="150" ry="12" fill="#E2E8F0"/>
+            <path d="M60 50 Q130 60 200 70 Q270 60 340 50" stroke="var(--charcoal)" stroke-width="2" fill="none" opacity="0.4"/>
+            <g class="anim-float">
+              <path d="M120 70 V80" stroke="var(--charcoal)" stroke-width="2"/>
+              <path d="M100 100 L140 100 L145 155 L95 155 Z" fill="var(--primary-color)"/>
+              <ellipse cx="120" cy="155" rx="25" ry="8" fill="var(--primary-color)"/>
+              <path d="M115 155 Q120 175 125 155" stroke="var(--accent-color)" stroke-width="3" fill="none"/>
+              <circle class="anim-glow" cx="120" cy="125" r="10" fill="var(--accent-color)" opacity="0.5"/>
+            </g>
+            <g class="anim-float" style="animation-delay:-0.7s;">
+              <path d="M200 60 V75" stroke="var(--charcoal)" stroke-width="2"/>
+              <path d="M172 100 L228 100 L235 170 L165 170 Z" fill="var(--secondary-color)"/>
+              <ellipse cx="200" cy="170" rx="35" ry="10" fill="var(--secondary-color)"/>
+              <path d="M192 170 Q200 195 208 170" stroke="var(--accent-color)" stroke-width="4" fill="none"/>
+              <circle class="anim-glow" style="animation-delay:-0.3s;" cx="200" cy="133" r="15" fill="var(--accent-color)" opacity="0.5"/>
+            </g>
+            <g class="anim-float" style="animation-delay:-1.2s;">
+              <path d="M290 70 V80" stroke="var(--charcoal)" stroke-width="2"/>
+              <path d="M268 100 L308 100 L313 155 L263 155 Z" fill="var(--accent-color)"/>
+              <ellipse cx="288" cy="155" rx="25" ry="8" fill="var(--accent-color)"/>
+              <path d="M282 155 Q288 175 294 155" stroke="var(--primary-color)" stroke-width="3" fill="none"/>
+              <circle class="anim-glow" style="animation-delay:-0.6s;" cx="288" cy="125" r="10" fill="var(--primary-color)" opacity="0.5"/>
+            </g>
+          </svg>

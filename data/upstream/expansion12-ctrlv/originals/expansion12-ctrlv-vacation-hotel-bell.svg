@@ -1,0 +1,17 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Base -->
+                <path d="M120 220 H280 A 10 10 0 0 1 290 230 V240 H110 V230 A 10 10 0 0 1 120 220 Z" fill="var(--charcoal)"/>
+                
+                <!-- Dome -->
+                <path d="M130 220 C130 150 270 150 270 220 Z" fill="var(--primary-color)"/>
+                <path class="anim-glow" d="M150 200 C150 160 210 160 210 200" stroke="white" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.4"/>
+                
+                <!-- Button -->
+                <rect x="195" y="130" width="10" height="20" fill="var(--charcoal)"/>
+                <path class="anim-bounce" d="M180 130 H220 A 5 5 0 0 1 225 135 V140 H175 V135 A 5 5 0 0 1 180 130 Z" fill="var(--secondary-color)"/>
+                
+                <!-- Sound waves -->
+                <path class="anim-pulse" d="M120 160 Q100 140 120 120 M100 170 Q70 140 100 110 M280 160 Q300 140 280 120 M300 170 Q330 140 300 110" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round" fill="none"/>
+            </g>
+          </svg>

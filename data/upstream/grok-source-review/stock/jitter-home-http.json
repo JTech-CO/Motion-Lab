@@ -1,0 +1,662 @@
+{
+  "id": "jitter",
+  "url": "https://jitter.video/",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 200,
+  "finalUrl": "https://jitter.video/",
+  "contentType": "text/html",
+  "truncated": true,
+  "observedBytes": 262144,
+  "observedContentSha256": "7441dab2068d227111a861e9fc3e85aa66a5345525f56eda47e8bf9f6c08160a",
+  "links": [
+    {
+      "url": "https://jitter.video/#main-content"
+    },
+    {
+      "url": "https://jitter.video/"
+    },
+    {
+      "url": "https://jitter.video/product/"
+    },
+    {
+      "url": "https://jitter.video/product/#figma-plugin"
+    },
+    {
+      "url": "https://jitter.video/product/#design"
+    },
+    {
+      "url": "https://jitter.video/product/#figma-plugin"
+    },
+    {
+      "url": "https://jitter.video/product/#design"
+    },
+    {
+      "url": "https://jitter.video/product/#collaborate"
+    },
+    {
+      "url": "https://jitter.video/product/#export"
+    },
+    {
+      "url": "https://jitter.video/changelog/2026-10-01-jitter-ai-opus-5-5"
+    },
+    {
+      "url": "https://jitter.video/changelog/2026-08-18-component-overrides"
+    },
+    {
+      "url": "https://jitter.video/changelog/2026-08-11-the-track-sport-templates"
+    },
+    {
+      "url": "https://jitter.video/changelog/"
+    },
+    {
+      "url": "https://jitter.video/customers/"
+    },
+    {
+      "url": "https://jitter.video/customers/perplexity/"
+    },
+    {
+      "url": "https://jitter.video/customers/27b/"
+    },
+    {
+      "url": "https://jitter.video/customers/deliveroo/"
+    },
+    {
+      "url": "https://jitter.video/customers/27b/"
+    },
+    {
+      "url": "https://jitter.video/customers/deliveroo/"
+    },
+    {
+      "url": "https://jitter.video/customers/#creative"
+    },
+    {
+      "url": "https://jitter.video/customers/#agencies"
+    },
+    {
+      "url": "https://jitter.video/customers/#studios"
+    },
+    {
+      "url": "https://jitter.video/customers/#customers"
+    },
+    {
+      "url": "https://jitter.video/templates/"
+    },
+    {
+      "url": "https://jitter.video/pricing/"
+    },
+    {
+      "url": "https://jitter.video/login/"
+    },
+    {
+      "url": "https://jitter.video/contact-sales/"
+    },
+    {
+      "url": "https://jitter.video/join/"
+    },
+    {
+      "url": "https://jitter.video/changelog/2026-07-09-ai-agents/"
+    },
+    {
+      "url": "https://jitter.video/join/"
+    },
+    {
+      "url": "https://jitter.video/file/?id=mwq_fULsuMUf41zwX1dm4&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=mwq_fULsuMUf41zwX1dm4&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=k4MSXKkgOyiicYpp7YVPL&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=k4MSXKkgOyiicYpp7YVPL&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=PjYF-gvfYdhIUfj3ro0tV&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=PjYF-gvfYdhIUfj3ro0tV&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=0JZ1LrMbzTgu28Fm0CNqs&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=0JZ1LrMbzTgu28Fm0CNqs&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=z86hdANnRIV1fCLdtn_m9&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=z86hdANnRIV1fCLdtn_m9&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=h-KMaM5JwJas2ClP7zZeD&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=h-KMaM5JwJas2ClP7zZeD&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=FdzU6chg3JGxr6o1XGZUIVCW&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=FdzU6chg3JGxr6o1XGZUIVCW&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=vwnGG7_Iy8W1GpNMCxr8t&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=vwnGG7_Iy8W1GpNMCxr8t&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=-uys2dLqepPDD2tmcfWKe&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=-uys2dLqepPDD2tmcfWKe&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=ozGDLA1J47A7c5lW4cV1FFz5&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=ozGDLA1J47A7c5lW4cV1FFz5&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=4b9gpf7TK32MpX0IeL69npLU&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=4b9gpf7TK32MpX0IeL69npLU&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=uGUKYBEQdZRAvZKQMiNLT&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=uGUKYBEQdZRAvZKQMiNLT&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=xeWGdf4rKSPVnIuOn5mmPeOP&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=xeWGdf4rKSPVnIuOn5mmPeOP&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=Ar7fhxw3Gk35Buq29s2o05TM&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=Ar7fhxw3Gk35Buq29s2o05TM&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=0vfhsd6SBd11XYkI6qX_7&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=0vfhsd6SBd11XYkI6qX_7&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=5XhR7vhC03PfHuqUzkAT6&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=5XhR7vhC03PfHuqUzkAT6&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=9_pMt_NsEOiFhDT2txomP&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=9_pMt_NsEOiFhDT2txomP&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=kZJ-I5G3QgLBQMZFTQ4FG&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=kZJ-I5G3QgLBQMZFTQ4FG&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=iDQCJVGldVGOWz73eNR1BVfC&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=iDQCJVGldVGOWz73eNR1BVfC&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=mwq_fULsuMUf41zwX1dm4&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=mwq_fULsuMUf41zwX1dm4&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=k4MSXKkgOyiicYpp7YVPL&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=k4MSXKkgOyiicYpp7YVPL&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=PjYF-gvfYdhIUfj3ro0tV&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=PjYF-gvfYdhIUfj3ro0tV&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=0JZ1LrMbzTgu28Fm0CNqs&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=0JZ1LrMbzTgu28Fm0CNqs&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=z86hdANnRIV1fCLdtn_m9&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=z86hdANnRIV1fCLdtn_m9&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=h-KMaM5JwJas2ClP7zZeD&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=h-KMaM5JwJas2ClP7zZeD&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=FdzU6chg3JGxr6o1XGZUIVCW&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=FdzU6chg3JGxr6o1XGZUIVCW&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=vwnGG7_Iy8W1GpNMCxr8t&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=vwnGG7_Iy8W1GpNMCxr8t&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=-uys2dLqepPDD2tmcfWKe&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=-uys2dLqepPDD2tmcfWKe&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=ozGDLA1J47A7c5lW4cV1FFz5&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=ozGDLA1J47A7c5lW4cV1FFz5&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=4b9gpf7TK32MpX0IeL69npLU&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=4b9gpf7TK32MpX0IeL69npLU&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=uGUKYBEQdZRAvZKQMiNLT&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=uGUKYBEQdZRAvZKQMiNLT&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=xeWGdf4rKSPVnIuOn5mmPeOP&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=xeWGdf4rKSPVnIuOn5mmPeOP&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=Ar7fhxw3Gk35Buq29s2o05TM&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=Ar7fhxw3Gk35Buq29s2o05TM&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=0vfhsd6SBd11XYkI6qX_7&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=0vfhsd6SBd11XYkI6qX_7&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=5XhR7vhC03PfHuqUzkAT6&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=5XhR7vhC03PfHuqUzkAT6&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=9_pMt_NsEOiFhDT2txomP&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=9_pMt_NsEOiFhDT2txomP&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=kZJ-I5G3QgLBQMZFTQ4FG&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=kZJ-I5G3QgLBQMZFTQ4FG&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=iDQCJVGldVGOWz73eNR1BVfC&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=iDQCJVGldVGOWz73eNR1BVfC&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=mwq_fULsuMUf41zwX1dm4&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=mwq_fULsuMUf41zwX1dm4&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=k4MSXKkgOyiicYpp7YVPL&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=k4MSXKkgOyiicYpp7YVPL&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=PjYF-gvfYdhIUfj3ro0tV&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=PjYF-gvfYdhIUfj3ro0tV&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=0JZ1LrMbzTgu28Fm0CNqs&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=0JZ1LrMbzTgu28Fm0CNqs&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=z86hdANnRIV1fCLdtn_m9&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=z86hdANnRIV1fCLdtn_m9&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=h-KMaM5JwJas2ClP7zZeD&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=h-KMaM5JwJas2ClP7zZeD&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=FdzU6chg3JGxr6o1XGZUIVCW&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=FdzU6chg3JGxr6o1XGZUIVCW&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=vwnGG7_Iy8W1GpNMCxr8t&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=vwnGG7_Iy8W1GpNMCxr8t&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=-uys2dLqepPDD2tmcfWKe&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=-uys2dLqepPDD2tmcfWKe&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=ozGDLA1J47A7c5lW4cV1FFz5&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=ozGDLA1J47A7c5lW4cV1FFz5&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=4b9gpf7TK32MpX0IeL69npLU&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=4b9gpf7TK32MpX0IeL69npLU&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=uGUKYBEQdZRAvZKQMiNLT&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=uGUKYBEQdZRAvZKQMiNLT&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=xeWGdf4rKSPVnIuOn5mmPeOP&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=xeWGdf4rKSPVnIuOn5mmPeOP&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=Ar7fhxw3Gk35Buq29s2o05TM&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=Ar7fhxw3Gk35Buq29s2o05TM&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=0vfhsd6SBd11XYkI6qX_7&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=0vfhsd6SBd11XYkI6qX_7&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=5XhR7vhC03PfHuqUzkAT6&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=5XhR7vhC03PfHuqUzkAT6&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=9_pMt_NsEOiFhDT2txomP&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=9_pMt_NsEOiFhDT2txomP&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=kZJ-I5G3QgLBQMZFTQ4FG&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=kZJ-I5G3QgLBQMZFTQ4FG&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=iDQCJVGldVGOWz73eNR1BVfC&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=iDQCJVGldVGOWz73eNR1BVfC&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/product/"
+    },
+    {
+      "url": "https://jitter.video/product/"
+    },
+    {
+      "url": "https://jitter.video/join/"
+    },
+    {
+      "url": "https://jitter.video/file/?id=mwq_fULsuMUf41zwX1dm4&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=mwq_fULsuMUf41zwX1dm4&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=k4MSXKkgOyiicYpp7YVPL&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=k4MSXKkgOyiicYpp7YVPL&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=PjYF-gvfYdhIUfj3ro0tV&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=PjYF-gvfYdhIUfj3ro0tV&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=0JZ1LrMbzTgu28Fm0CNqs&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=0JZ1LrMbzTgu28Fm0CNqs&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=z86hdANnRIV1fCLdtn_m9&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=z86hdANnRIV1fCLdtn_m9&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=h-KMaM5JwJas2ClP7zZeD&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=h-KMaM5JwJas2ClP7zZeD&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=FdzU6chg3JGxr6o1XGZUIVCW&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=FdzU6chg3JGxr6o1XGZUIVCW&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=vwnGG7_Iy8W1GpNMCxr8t&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=vwnGG7_Iy8W1GpNMCxr8t&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=-uys2dLqepPDD2tmcfWKe&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=-uys2dLqepPDD2tmcfWKe&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=ozGDLA1J47A7c5lW4cV1FFz5&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=ozGDLA1J47A7c5lW4cV1FFz5&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=4b9gpf7TK32MpX0IeL69npLU&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=4b9gpf7TK32MpX0IeL69npLU&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=uGUKYBEQdZRAvZKQMiNLT&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=uGUKYBEQdZRAvZKQMiNLT&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=xeWGdf4rKSPVnIuOn5mmPeOP&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=xeWGdf4rKSPVnIuOn5mmPeOP&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=Ar7fhxw3Gk35Buq29s2o05TM&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=Ar7fhxw3Gk35Buq29s2o05TM&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=0vfhsd6SBd11XYkI6qX_7&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=0vfhsd6SBd11XYkI6qX_7&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=5XhR7vhC03PfHuqUzkAT6&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=5XhR7vhC03PfHuqUzkAT6&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=9_pMt_NsEOiFhDT2txomP&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=9_pMt_NsEOiFhDT2txomP&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=kZJ-I5G3QgLBQMZFTQ4FG&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=kZJ-I5G3QgLBQMZFTQ4FG&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=iDQCJVGldVGOWz73eNR1BVfC&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=iDQCJVGldVGOWz73eNR1BVfC&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=mwq_fULsuMUf41zwX1dm4&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=mwq_fULsuMUf41zwX1dm4&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=k4MSXKkgOyiicYpp7YVPL&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=k4MSXKkgOyiicYpp7YVPL&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=PjYF-gvfYdhIUfj3ro0tV&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=PjYF-gvfYdhIUfj3ro0tV&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=0JZ1LrMbzTgu28Fm0CNqs&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=0JZ1LrMbzTgu28Fm0CNqs&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=z86hdANnRIV1fCLdtn_m9&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=z86hdANnRIV1fCLdtn_m9&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=h-KMaM5JwJas2ClP7zZeD&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=h-KMaM5JwJas2ClP7zZeD&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=FdzU6chg3JGxr6o1XGZUIVCW&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=FdzU6chg3JGxr6o1XGZUIVCW&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=vwnGG7_Iy8W1GpNMCxr8t&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=vwnGG7_Iy8W1GpNMCxr8t&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=-uys2dLqepPDD2tmcfWKe&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=-uys2dLqepPDD2tmcfWKe&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=ozGDLA1J47A7c5lW4cV1FFz5&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=ozGDLA1J47A7c5lW4cV1FFz5&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=4b9gpf7TK32MpX0IeL69npLU&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=4b9gpf7TK32MpX0IeL69npLU&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=uGUKYBEQdZRAvZKQMiNLT&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=uGUKYBEQdZRAvZKQMiNLT&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=xeWGdf4rKSPVnIuOn5mmPeOP&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=xeWGdf4rKSPVnIuOn5mmPeOP&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=Ar7fhxw3Gk35Buq29s2o05TM&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=Ar7fhxw3Gk35Buq29s2o05TM&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=0vfhsd6SBd11XYkI6qX_7&bucket=snackthis-userdata"
+    },
+    {
+      "url": "https://jitter.video/file/?id=0vfhsd6SBd11XYkI6qX_7&bucket=snackthis-userdata"
+    }
+  ],
+  "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+  "challengeOrDenial": false
+}

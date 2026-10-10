@@ -1,0 +1,471 @@
+{
+  "version": 1,
+  "completedAt": "2026-10-10T12:11:17.054866+00:00",
+  "scope": "All published representatives, preserved original variants and structured source/license/original/evidence links; no collected code execution or media download.",
+  "before": {
+    "catalogSha256": "643300e8581b957345acc4d636a13b30bf52c5b24cf3714b10341a53c4032c97",
+    "total": 11827,
+    "storedAssets": 11542,
+    "references": 285,
+    "sources": 172
+  },
+  "after": {
+    "catalogSha256": "f3f125c7f7e43ad061d137fc20ee013f2f320c31f5a2fd0e9e7902e03c823b13",
+    "total": 11825,
+    "storedAssets": 11542,
+    "references": 283,
+    "sources": 170,
+    "domains": {
+      "motion": 3399,
+      "design": 8143
+    }
+  },
+  "changes": {
+    "removedReferences": [
+      {
+        "id": "ref-kinetic-type-07",
+        "sourceSha256": "8751b5b87ffd83bd76d906f4e4d00be68e70292c9a833b1f0af1c3de2dd7e582",
+        "reason": "원본 GET과 정상 격리 Chrome이 HTTP 403으로 작품 내용을 열지 못했습니다. 공식 동일 작품 검색 기록은 있으나 현재 접근을 증명하지 못하며, 작가 공식 도메인은 인증서 이름 오류, 동일 작품 ID embed는 브라우저 탐색 오류 및 웹 도구 접근 실패로 접근 가능한 복구 경로를 확인하지 못했습니다. 삭제·비공개 자체가 확정된 것은 아닙니다.",
+        "status": "unavailable",
+        "verifiedAt": "2026-10-10",
+        "evidence": [
+          {
+            "path": "data/upstream/link-audit/references/results.json",
+            "sha256": "fef6f4be6c5971e5fd61efcacc047a2c005e1770b1d733ef005c7897d383abd0"
+          },
+          {
+            "path": "data/upstream/link-audit/references/browser-crosschecks.json",
+            "sha256": "af11b547d970d94fb3ddb620d57193d927364f607172649c7a3fbf1b4ab2437e"
+          },
+          {
+            "path": "data/upstream/link-audit/references/web-crosschecks.json",
+            "sha256": "5913919f14c5c2a49e3c10907b26a730f6668e627f4ebdd635243c15b79bd4e9"
+          }
+        ]
+      },
+      {
+        "id": "ref-shadertoy",
+        "sourceSha256": "c17c7e91c22e1e628903d8c6f4f9fbffb32120ec5548b7caaf3581699e30d145",
+        "reason": "정상 격리 Chrome에서도 403과 Cloudflare 확인 화면으로 컬렉션 원본을 읽을 수 없었습니다. 우회하지 않았으며 웹 도구도 현재 홈을 확인하지 못했습니다. 과거 공식 검색 색인은 현재 접근 근거가 아니고 이 참조에는 개별 shader ID가 없어 다른 작품 embed로 대체하지 않았습니다. 사이트 삭제·비공개 확정과 구분한 검토 중 접근 불가 판정입니다.",
+        "status": "unavailable",
+        "verifiedAt": "2026-10-10",
+        "evidence": [
+          {
+            "path": "data/upstream/link-audit/references/results.json",
+            "sha256": "fef6f4be6c5971e5fd61efcacc047a2c005e1770b1d733ef005c7897d383abd0"
+          },
+          {
+            "path": "data/upstream/link-audit/references/browser-crosschecks.json",
+            "sha256": "af11b547d970d94fb3ddb620d57193d927364f607172649c7a3fbf1b4ab2437e"
+          },
+          {
+            "path": "data/upstream/link-audit/references/web-crosschecks.json",
+            "sha256": "5913919f14c5c2a49e3c10907b26a730f6668e627f4ebdd635243c15b79bd4e9"
+          }
+        ]
+      }
+    ],
+    "newlyRemovedStoredAssets": 0,
+    "cumulativeReferenceTombstones": 6,
+    "publicOriginalSourceReplacements": 24,
+    "referenceCurrentUrlUpdates": 5,
+    "localOriginalCodePathsRepaired": 1666,
+    "metadataPolicyRecordHashesReviewed": 28,
+    "metadataPolicyGroupsReviewed": 12,
+    "originalCodeColorsPreviewsAndFullLicenseNoticesPreserved": true
+  },
+  "referenceReview": {
+    "before": 285,
+    "currentPublicContentVerified": 283,
+    "excludedAsUnavailableInReview": 2,
+    "unresolved": 0,
+    "uniqueOriginalUrls": 125,
+    "CHAOriginalCardsFound": 160,
+    "zeDoMotionCurrentProjectsConfirmed": 8,
+    "registryLicenseLinksConfirmed": 2,
+    "sitesConfirmedDeletedOrPrivate": 0
+  },
+  "storedAssetReview": {
+    "checkedAt": "2026-10-10T12:00:35.480682+00:00",
+    "catalogSha256": "643300e8581b957345acc4d636a13b30bf52c5b24cf3714b10341a53c4032c97",
+    "scope": {
+      "representatives": 11542,
+      "recordViews": 11579,
+      "uniqueUrls": 13694,
+      "uniqueEffectiveUrls": 13195,
+      "mandatoryRoles": [
+        "primary-source",
+        "license",
+        "original-asset",
+        "source-evidence"
+      ],
+      "contextUrls": 13
+    },
+    "urlStates": {
+      "http-success": 1698,
+      "official-api-archive-listed-delivery-unverified": 342,
+      "browser-http-success": 14,
+      "official-api-original-present": 304,
+      "robots-deferred-canonical-folder-verified": 155,
+      "robots-disallowed": 735,
+      "pinned-file-present": 10445,
+      "retired-private-origin-verified-public-replacement": 1
+    },
+    "assetStates": {
+      "source-and-required-links-verified": 10502,
+      "source-verified-supplementary-links-unverified": 1077
+    },
+    "hosts": {
+      "3dtextures.me": {
+        "http-success": 751
+      },
+      "ambientcg.com": {
+        "http-success": 343,
+        "official-api-archive-listed-delivery-unverified": 342
+      },
+      "cdn.prod.website-files.com": {
+        "browser-http-success": 2
+      },
+      "creativecommons.org": {
+        "browser-http-success": 5
+      },
+      "ctrlv.design": {
+        "http-success": 2
+      },
+      "delapouite.com": {
+        "http-success": 1
+      },
+      "dl.polyhaven.org": {
+        "official-api-original-present": 152
+      },
+      "drive.google.com": {
+        "http-success": 580,
+        "robots-deferred-canonical-folder-verified": 155,
+        "robots-disallowed": 735
+      },
+      "github.com": {
+        "pinned-file-present": 6172,
+        "browser-http-success": 5
+      },
+      "heropatterns.com": {
+        "http-success": 2
+      },
+      "kenney.nl": {
+        "http-success": 13
+      },
+      "lorcblog.blogspot.com": {
+        "http-success": 1
+      },
+      "motion-lab-archive.bryan131.chatgpt.site": {
+        "retired-private-origin-verified-public-replacement": 1
+      },
+      "opendoodles.s3-us-west-1.amazonaws.com": {
+        "browser-http-success": 1
+      },
+      "openpeeps.com": {
+        "http-success": 1
+      },
+      "polyhaven.com": {
+        "official-api-original-present": 152,
+        "browser-http-success": 1
+      },
+      "raw.githubusercontent.com": {
+        "pinned-file-present": 4273
+      },
+      "www.opendoodles.com": {
+        "http-success": 2
+      },
+      "www.transhumans.xyz": {
+        "http-success": 2
+      }
+    },
+    "roleStates": {
+      "context": {
+        "http-success": 9,
+        "browser-http-success": 6
+      },
+      "license": {
+        "http-success": 5,
+        "browser-http-success": 4,
+        "pinned-file-present": 167
+      },
+      "original-asset": {
+        "official-api-archive-listed-delivery-unverified": 342,
+        "official-api-original-present": 152,
+        "robots-disallowed": 735,
+        "http-success": 7,
+        "pinned-file-present": 4273
+      },
+      "primary-source": {
+        "http-success": 1085,
+        "browser-http-success": 3,
+        "pinned-file-present": 6123,
+        "retired-private-origin-verified-public-replacement": 1,
+        "official-api-original-present": 152
+      },
+      "source-evidence": {
+        "http-success": 595,
+        "browser-http-success": 2,
+        "robots-deferred-canonical-folder-verified": 155,
+        "pinned-file-present": 4905
+      }
+    },
+    "github": {
+      "groups": 46,
+      "fixedCommitUrls": 10445,
+      "uniquePaths": 5673,
+      "allPresent": true,
+      "mainTreeApiRequests": 46,
+      "supplementaryTreeApiRequests": 2
+    },
+    "drive": {
+      "publicFolderUrls": 580,
+      "publicFolderHttpSuccess": 580,
+      "historicalOpenUrlsRobotsDeferred": 155,
+      "canonicalFolderViewsVerified": 155,
+      "allCurrentFolderViews": 735,
+      "allNamedFolderViews": 735,
+      "originalFileIdsInBoundedHTML": 0,
+      "downloadUrlsRobotsDeferred": 735,
+      "minHostIntervalSeconds": 1,
+      "originalFilesRemainPreserved": true,
+      "folderListingLimitation": "folder page reachable, original direct download availability not rechecked; generic login/access shells are not classified as verified files"
+    },
+    "polyhaven": {
+      "assets": 152,
+      "officialOriginalUrlAndProviderMd5Matches": 152
+    },
+    "ambientCG": {
+      "assets": 342,
+      "officialArchiveUrlsStillListed": 342,
+      "matchingRetainedArchiveSizes": 342,
+      "directArchiveDelivery": "unverified after HTTP403; no continued automated ZIP requests"
+    },
+    "localIntegrity": {
+      "rootVerifyCatalog": "PASS per root: local/full web catalog, SQLite, 1254 image hashes, original SHA and full source notices",
+      "pinnedOriginalByteComparison": {
+        "pinned-original-bytes-match-relocated": 1669,
+        "pinned-original-bytes-match": 6355
+      }
+    },
+    "definitelyInvalidStoredAssets": 0,
+    "confirmedDeletedSources": 0,
+    "unknownLinks": 1077,
+    "replacementHandling": {
+      "manualOriginalCount": 24,
+      "oldUrl": "https://motion-lab-archive.bryan131.chatgpt.site/",
+      "oldBrowserStatus": 401,
+      "publicOriginalCodeAndFullMITNoticeMatch": true,
+      "replacementEvidencePath": "data/upstream/link-audit/originals/source-replacements.json",
+      "rootInputSourceUrlReplaced": true
+    },
+    "limitations": [
+      "Robots exclusions, access challenges, rate limits and transient errors are not proof of deletion.",
+      "Bounded successful HTML GET proves current page availability, not renewed license review. Retained original hashes and source license notices remain intact.",
+      "Drive /uc download is explicitly disallowed by robots; no bypass or large original binary downloads.",
+      "Audit URL identities are from the frozen baseline catalog; root source replacements are reconciled separately."
+    ],
+    "catalogOrSourceFilesChangedByThisLane": false,
+    "codePathRepair": {
+      "historicalVendorPaths": 9,
+      "inputRecords": 1666,
+      "additionalRepairedOriginalViews": 3,
+      "originalBytesAndRemoteGitBlobUnchanged": true,
+      "rootMetadataChangesEvidence": "data/upstream/link-audit/applied-metadata-changes.json",
+      "recordFingerprintDependency": "Root reviewed and updated consolidation expectedRecordSha256 for 28 records in 12 groups. Code/source/notice hashes are unchanged."
+    },
+    "inventoryCompression": {
+      "formatVersion": 3,
+      "expandedBytes": 14078134,
+      "indexedBytes": 2797527,
+      "exactMappingRoundTrip": true,
+      "urlsPreserved": 13694,
+      "recordViewsPreserved": 11579
+    },
+    "processesCompleted": {
+      "primaryHttpSweep": true,
+      "normalChromeCrosscheck": true,
+      "polyhavenBrowserAPI": true,
+      "ambientBrowserAPI": true,
+      "gitTree": true,
+      "localGitObjectChecks": true,
+      "driveCanonicalFolderViews": true,
+      "remainingAssetAuditProcesses": 0,
+      "verifiedAt": "2026-10-10T12:02:59.904038+00:00"
+    }
+  },
+  "developmentCleanup": {
+    "distinctRemovedPaths": 377,
+    "deletionEvents": 418,
+    "removedBytesAcrossBothStages": 51206022,
+    "completedResearchMdRemoved": 2,
+    "currentDocsRetained": 4,
+    "currentScriptsRetained": 15,
+    "currentTestsRetained": 21,
+    "initialStage": {
+      "path": "exa-results/cleanup-review/deletion-result.json",
+      "sha256": "860035b78f4d4f8b57bb056f0cb3b6befa5d6b264a1ac2bbe0453c1fec905ce1"
+    },
+    "postVerificationStage": {
+      "path": "exa-results/cleanup-review/post-verification-cleanup.json",
+      "sha256": "95d0d265f907ff0f77ebf80b21d125024bb8777c5eb318d52559e79b735a10a6"
+    },
+    "note": "Bytecode generated by final checks was removed again. Source/license/provenance files and current regression tests remain intact."
+  },
+  "validation": {
+    "catalog": {
+      "status": "passed",
+      "checks": [
+        "minimum",
+        "stored-minimum-and-domain-counts",
+        "schema",
+        "unique-ids",
+        "full-source-fields-and-notices",
+        "palette-code-equals-colors",
+        "all-original-input-identities",
+        "reviewed-consolidation-policy",
+        "pinned-source-component-repairs",
+        "full-web-json",
+        "compact-index",
+        "static-alias-map",
+        "all-category-collections",
+        "domain-collections",
+        "image-files-and-digests",
+        "read-only-sqlite-records",
+        "sqlite-aliases",
+        "legacy-get-preserves-original-source",
+        "sqlite-integrity",
+        "search-last-page",
+        "domain-search"
+      ]
+    },
+    "pythonRegression": {
+      "command": "python -m unittest discover -s tests -p test_*.py",
+      "status": "passed",
+      "run": 162,
+      "passed": 161,
+      "skipped": 1
+    },
+    "referenceUi": {
+      "command": "node tests/reference-ui-check.js",
+      "status": "passed",
+      "actualReviewedReferences": 283,
+      "mode": "DOM model"
+    },
+    "variantUi": {
+      "command": "node tests/variant-ui-check.js",
+      "status": "passed",
+      "canonicalRecords": 11825,
+      "mode": "DOM model"
+    },
+    "removedIdsAcrossCliHttpMcpAndStaticExports": {
+      "ref-kinetic-type-07": {
+        "catalog": "not-found",
+        "cliExit": 1,
+        "apiStatus": 404,
+        "mcp": "Item not found"
+      },
+      "ref-shadertoy": {
+        "catalog": "not-found",
+        "cliExit": 1,
+        "apiStatus": 404,
+        "mcp": "Item not found"
+      }
+    },
+    "manualOriginalsPreserved": 24,
+    "temporaryHttpServerClosed": true,
+    "auditEvidenceChecksums": {
+      "assetManifestFiles": 19,
+      "referenceManifestFiles": 143,
+      "status": "passed"
+    },
+    "READMEAndCompositionChartRegenerated": true
+  },
+  "limitations": [
+    "Two references are excluded because current public content could not be viewed even in normal unauthenticated Chrome; this does not prove either website was deleted or made private.",
+    "Drive direct downloads (735) were not requested because robots disallows /uc. All 735 named folder views are reachable, but file-level download availability was not rechecked.",
+    "ambientCG original archives (342) remain listed in the official API with matching retained archive sizes; direct delivery was not verified after HTTP 403.",
+    "These 1077 supplementary download links are not classified as deleted assets: primary origins and preserved local originals/notices are verifiable.",
+    "Original excluded reference input records and historical audit hashes are retained for hash-bound tombstone validation; published JSON/search/CLI/API/MCP exclude their IDs.",
+    "Existing duplicate-audit reports remain historical snapshots; source contents, geometry and palettes were not changed by this cleanup."
+  ],
+  "evidence": [
+    {
+      "path": "data/upstream/link-audit/assets/summary.json",
+      "sha256": "9b51fdf1214ff1e7c3b80364fd5b64a06a15570d697e4ec70c6bde9eae85865e"
+    },
+    {
+      "path": "data/upstream/link-audit/assets/files-sha256.json",
+      "sha256": "c28c3eaa03b14be8b3a3463218b5e2f734549f80558edf62cde75f18591c4df6"
+    },
+    {
+      "path": "data/upstream/link-audit/references/results.json",
+      "sha256": "fef6f4be6c5971e5fd61efcacc047a2c005e1770b1d733ef005c7897d383abd0"
+    },
+    {
+      "path": "data/upstream/link-audit/references/summary.json",
+      "sha256": "4e912bb1cdf5453a2208a2a6216758c885dbfb8e7d0abad5b46153b40a9cf84e"
+    },
+    {
+      "path": "data/upstream/link-audit/references/evidence-manifest.json",
+      "sha256": "e1fe8d02eeb35a8d11f7d7686839a50939ae310856a8ecbe071890062df03365"
+    },
+    {
+      "path": "data/upstream/link-audit/references/ze-profile-followup.json",
+      "sha256": "56e003675bb99645109d35d8e5e560756a1d3164e775ef4fba53ff0631385d90"
+    },
+    {
+      "path": "data/upstream/link-audit/references/registry-license-check.json",
+      "sha256": "22ac256990b07822f8d559979b7c035680b9c0cdee400f9b9874188cefd3f914"
+    },
+    {
+      "path": "data/upstream/link-audit/applied-metadata-changes.json",
+      "sha256": "8680ad736d64791479f0c90aeeef62009d5410ccc4f72cc802fd93cc7b0f1c9b"
+    },
+    {
+      "path": "data/upstream/link-audit/originals/github-manual-verification.json",
+      "sha256": "acbfc66ddc70951568158be8d78ed523def6a4f4d32f0f7ba48eb72e3cfd4f4d"
+    },
+    {
+      "path": "data/upstream/link-audit/originals/source-replacements.json",
+      "sha256": "ee5ee25c0c84ebb360409a38fd13f4c1ca3b427761129a542a569b3b3bce662e"
+    },
+    {
+      "path": "data/upstream/link-audit/published-output-check.json",
+      "sha256": "53ed9b2fdacd1585b343013de89e8eb9b0802bc68a998f22e51840a896a17caa"
+    },
+    {
+      "path": "data/reference-removals.json",
+      "sha256": "eed533552ab7cc356abefb59a6544bc5949274dbb4daaba416e85616e9e100fb"
+    },
+    {
+      "path": "data/verification-report.json",
+      "sha256": "0911b2d5de94bf181006524cdaae2c19f2585180cbcd86b91739d181907d5b4e"
+    },
+    {
+      "path": "README.md",
+      "sha256": "9ad23d69cbb16a658ac316166e04e24f39c5cbef4f6a6e93328602e1a86d5bdc"
+    },
+    {
+      "path": "README-KO.md",
+      "sha256": "d3c21e6cf63436e6d97f59032d09c9e70f9410d423eb71fbcda7deb267721100"
+    },
+    {
+      "path": "docs/assets/catalog-composition.svg",
+      "sha256": "97c35043b0f87f5d768d15cb18c82465791ee7e6a56ff86fad58ddaf6a528e90"
+    },
+    {
+      "path": "exa-results/cleanup-review/deletion-result.json",
+      "sha256": "860035b78f4d4f8b57bb056f0cb3b6befa5d6b264a1ac2bbe0453c1fec905ce1"
+    },
+    {
+      "path": "exa-results/cleanup-review/post-verification-cleanup.json",
+      "sha256": "95d0d265f907ff0f77ebf80b21d125024bb8777c5eb318d52559e79b735a10a6"
+    }
+  ],
+  "execution": {
+    "allAuditProcessesStopped": true,
+    "newRuntimeCodeAdded": false,
+    "commitOrPush": false
+  }
+}

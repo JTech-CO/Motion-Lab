@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Acropolis Hill Base -->
+            <path d="M40 270 Q200 220 360 270 Z" fill="#e2e8f0" opacity="0.8"/>
+            
+            <!-- Temple Steps -->
+            <rect x="80" y="210" width="240" height="10" fill="var(--primary-color)"/>
+            <rect x="90" y="200" width="220" height="10" fill="var(--primary-color)"/>
+            <rect x="100" y="190" width="200" height="10" fill="var(--primary-color)"/>
+            
+            <!-- Temple Roof -->
+            <path d="M100 130 L200 90 L300 130 Z" fill="var(--primary-color)"/>
+            <rect x="100" y="130" width="200" height="10" fill="var(--primary-color)"/>
+            
+            <!-- Broken and intact Columns -->
+            <rect x="110" y="140" width="15" height="50" fill="var(--primary-color)"/>
+            <rect x="140" y="140" width="15" height="40" fill="var(--primary-color)"/> <!-- broken -->
+            <rect x="170" y="140" width="15" height="50" fill="var(--primary-color)"/>
+            <rect x="200" y="140" width="15" height="20" fill="var(--primary-color)"/> <!-- broken -->
+            <rect x="230" y="140" width="15" height="50" fill="var(--primary-color)"/>
+            <rect x="260" y="140" width="15" height="30" fill="var(--primary-color)"/> <!-- broken -->
+            <rect x="280" y="140" width="15" height="50" fill="var(--primary-color)"/>
+            
+            <circle class="anim-glow" cx="200" cy="180" r="15" fill="var(--accent-color)" opacity="0.6"/>
+            <!-- Floating olive leaves -->
+            <path class="anim-data" d="M140 100 L160 110" stroke="var(--secondary-color)" stroke-width="4" stroke-linecap="round"/>
+            <path class="anim-data" d="M260 80 L250 90" stroke="var(--secondary-color)" stroke-width="4" stroke-linecap="round" style="animation-delay: -1s"/>
+          </svg>

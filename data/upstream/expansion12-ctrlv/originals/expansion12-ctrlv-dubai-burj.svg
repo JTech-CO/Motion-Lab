@@ -1,0 +1,20 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="280" rx="140" ry="10" fill="#e2e8f0" opacity="0.6"/>
+            <!-- Surrounding smaller buildings -->
+            <rect x="100" y="240" width="40" height="40" fill="var(--primary-color)" opacity="0.5"/>
+            <rect x="260" y="220" width="50" height="60" fill="var(--primary-color)" opacity="0.5"/>
+            <!-- Burj Khalifa Base/Tier 1 -->
+            <path d="M160 280 L180 200 H220 L240 280 Z" fill="var(--primary-color)"/>
+            <!-- Tier 2 -->
+            <path d="M175 200 L185 120 H215 L225 200 Z" fill="var(--primary-color)"/>
+            <!-- Tier 3 -->
+            <path d="M185 120 L192 50 H208 L215 120 Z" fill="var(--primary-color)"/>
+            <!-- Spire -->
+            <rect x="198" y="10" width="4" height="40" fill="var(--primary-color)"/>
+            
+            <!-- Warning Light at very top -->
+            <circle class="anim-glow" cx="200" cy="10" r="4" fill="#EF4444"/>
+            <!-- Passing clouds -->
+            <path class="anim-float" d="M140 100 H260 C260 80 220 80 220 100 H140 Z" fill="#F8FAFC" opacity="0.4"/>
+            <path class="anim-float" d="M80 180 H320" stroke="#F8FAFC" stroke-width="4" opacity="0.2" style="animation-delay: -1s"/>
+          </svg>

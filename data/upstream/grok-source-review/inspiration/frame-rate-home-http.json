@@ -1,0 +1,19 @@
+{
+  "url": "https://framerate.tv/",
+  "method": "bounded public HTTP GET",
+  "status": 200,
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공식 공개 URL의 제한된 HTTP GET 응답을 읽었다. 원격 JavaScript·미디어 파일을 실행하거나 다운로드하지 않았다. FrameRate: 검색과 공식 홈·약관·대표작 서버 메타데이터로 framerate.tv의 FrameRate임을 확인했다.",
+  "sector": 4,
+  "siteId": "frame-rate",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/frame-rate-home-http.json",
+  "rawCacheSha256": "cc787fbc0f8260e88a31138b6f52d97fb55b6df40dbb4b4864befb24e13f63ef",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "e69117cee27c30e1affe352a6fe10e84ef686b242b0557ffb3d3d24095be4e4b",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "finalUrl": "https://framerate.tv/",
+  "byteCount": 23586,
+  "boundedAt": 1048576,
+  "truncated": false,
+  "originalResponseSha256": "708beab09418f431b8b0d520f02d988a9c985550d6d0c9e924a4cc3cbe39a5ed"
+}

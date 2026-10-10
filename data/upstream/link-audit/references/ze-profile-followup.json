@@ -1,0 +1,162 @@
+{
+  "checkedAt": "2026-10-10T11:45:25.531305+00:00",
+  "id": "ref-ze-do-motion",
+  "sourceSha256": "a49194ac82427b6dd728fb22f0ac1426ee9ee4af385a8401177f6e8805fedd4f",
+  "sourceUrl": "https://www.behance.net/zeofmotion",
+  "status": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "userScopeDeletionCandidate": false,
+  "recommendedAction": "retain",
+  "reasonKO": "1 MiB 한도로 받은 현재 공개 프로필의 전체 HTML 804,433바이트가 HTTP 200으로 열립니다. 프로필 소개와 실제 작품 8개의 제목·갤러리 링크가 본문에 있고, application/json 상태에도 작품 ID·소유자·커버 메타데이터 8개가 일치합니다. 로그인 메뉴는 일반 탐색 항목이며 목록 열람을 막지 않습니다. 앞선 Chrome HTTP 400만으로 접근 불가로 판정하지 않습니다.",
+  "accessEvidence": {
+    "url": "https://www.behance.net/zeofmotion",
+    "method": "public-HTTP-GET-static-HTML-no-execution",
+    "checkedAt": "2026-10-10T11:44:03.390540+00:00",
+    "timeoutSeconds": 12,
+    "byteLimit": 1048576,
+    "authenticated": false,
+    "challengeBypass": false,
+    "robotsDecision": "Current audit robots.txt snapshot allows this profile path; no auth/challenge bypass.",
+    "mediaDownloaded": false,
+    "sourceJSExecuted": false,
+    "httpStatus": 200,
+    "finalUrl": "https://www.behance.net/zeofmotion",
+    "contentType": "text/html; charset=utf-8",
+    "declaredContentLength": "804433",
+    "truncated": false,
+    "capturedBytes": 804433,
+    "capturedSha256": "56e46a9486272786272db1d45097714fe4f19a4c7b9492f828a2298cb10b1a97",
+    "rawCachePath": "exa-results/link-audit/references/ze-profile-followup.body",
+    "bodyStartByte": 88955,
+    "bodyCharacters": 3939,
+    "bodySha256": "d2ca8677cd72e0f28bd51cf1d672cb348da8a06ef5bcf3070445477897e32e09",
+    "projectLinkIds": [
+      "201157781",
+      "201161993",
+      "216252621",
+      "236392809",
+      "238693397",
+      "79403071",
+      "90371961",
+      "94034325"
+    ],
+    "rawCacheSha256": "7c7c6e8483eca23f9c5386bb157934570cfc0fe83cbccf6b04d7dc609881704f",
+    "rawStructuredCachePath": "exa-results/link-audit/references/ze-profile-followup-raw.json"
+  },
+  "currentProjectCount": 8,
+  "projectIds": [
+    "201157781",
+    "201161993",
+    "216252621",
+    "236392809",
+    "238693397",
+    "79403071",
+    "90371961",
+    "94034325"
+  ],
+  "bodyProjectListPresent": true,
+  "profileBiographyPresent": true,
+  "structuredState": {
+    "scriptId": "beconfig-store_state",
+    "type": "application/json",
+    "parsedAsDataOnly": true,
+    "sourceJSExecuted": false,
+    "literalSha256": "f3e6d04e064cd8a840ac2652d222273b20268601c6f16c76ff70c9477b18daf9",
+    "uniqueMatchingProjectRecords": 8,
+    "projects": [
+      {
+        "id": "201157781",
+        "jsonPath": "/profile/activeSection/work/user/profileProjects/nodes/2",
+        "nameSha256": "f6fe7cd2e654b10ac29f31f5982c952d28ccbadff456be88a586b034b29618f3",
+        "hasTitle": true,
+        "hasOwners": true,
+        "profileListedAsOwner": true,
+        "hasCoverMetadata": true,
+        "currentProjectUrl": "https://www.behance.net/gallery/201157781/Blink"
+      },
+      {
+        "id": "201161993",
+        "jsonPath": "/profile/activeSection/work/user/profileProjects/nodes/4",
+        "nameSha256": "e443caf946006da6b8b843b4f619090728793e8b5e99daa099ae404ae21cce83",
+        "hasTitle": true,
+        "hasOwners": true,
+        "profileListedAsOwner": true,
+        "hasCoverMetadata": true,
+        "currentProjectUrl": "https://www.behance.net/gallery/201161993/Solix-Digital-Bank"
+      },
+      {
+        "id": "216252621",
+        "jsonPath": "/profile/activeSection/work/user/profileProjects/nodes/3",
+        "nameSha256": "7ddb6740a585471e75ebc303a08d780fe227aa860951991c7a6507ae31db2ead",
+        "hasTitle": true,
+        "hasOwners": true,
+        "profileListedAsOwner": true,
+        "hasCoverMetadata": true,
+        "currentProjectUrl": "https://www.behance.net/gallery/216252621/Icaria-Health-Food"
+      },
+      {
+        "id": "236392809",
+        "jsonPath": "/profile/activeSection/work/user/profileProjects/nodes/0",
+        "nameSha256": "12e564fb0c3901a27d95307d686b3b4676423be9c22bdaab75cce3a0d91afd16",
+        "hasTitle": true,
+        "hasOwners": true,
+        "profileListedAsOwner": true,
+        "hasCoverMetadata": true,
+        "currentProjectUrl": "https://www.behance.net/gallery/236392809/Ampere"
+      },
+      {
+        "id": "238693397",
+        "jsonPath": "/profile/activeSection/work/user/profileProjects/nodes/1",
+        "nameSha256": "a94eb23f93ec44366cc528a3ba09c42d6017846e9f7398863cd85fde54f7bd2f",
+        "hasTitle": true,
+        "hasOwners": true,
+        "profileListedAsOwner": true,
+        "hasCoverMetadata": true,
+        "currentProjectUrl": "https://www.behance.net/gallery/238693397/LemonAds"
+      },
+      {
+        "id": "79403071",
+        "jsonPath": "/profile/activeSection/work/user/profileProjects/nodes/5",
+        "nameSha256": "a6511c7c231726eef638b869cab16a91cad495eefd77a954aae2a9c347f878de",
+        "hasTitle": true,
+        "hasOwners": true,
+        "profileListedAsOwner": true,
+        "hasCoverMetadata": true,
+        "currentProjectUrl": "https://www.behance.net/gallery/79403071/ESCRITORIOS-BRISANET"
+      },
+      {
+        "id": "90371961",
+        "jsonPath": "/profile/activeSection/work/user/profileProjects/nodes/7",
+        "nameSha256": "3c75669c4f37489df56faac11117f5697f880c243e5529538edb680bcac3d02e",
+        "hasTitle": true,
+        "hasOwners": true,
+        "profileListedAsOwner": true,
+        "hasCoverMetadata": true,
+        "currentProjectUrl": "https://www.behance.net/gallery/90371961/Logo-Reveal-Vol-1"
+      },
+      {
+        "id": "94034325",
+        "jsonPath": "/profile/activeSection/work/user/profileProjects/nodes/6",
+        "nameSha256": "426570d9df2a2b1567a052da749479fc5bd8a1ca9b1168fc9deab12e02b5ca1e",
+        "hasTitle": true,
+        "hasOwners": true,
+        "profileListedAsOwner": true,
+        "hasCoverMetadata": true,
+        "currentProjectUrl": "https://www.behance.net/gallery/94034325/Victor-Weiss-Studio-Visual-Brand"
+      }
+    ]
+  },
+  "mediaDownloaded": false,
+  "worksPlayed": false,
+  "authUsed": false,
+  "challengeBypass": false,
+  "sourceQuotes": "No additional body text quotation; original raw HTML is only in the ignored audit cache.",
+  "supersedesOnly": "inconclusive status for ref-ze-do-motion in the frozen original audit",
+  "frozenOriginalEvidenceModified": false,
+  "frozenReport": {
+    "path": "data/upstream/link-audit/references/results.json",
+    "sha256": "fef6f4be6c5971e5fd61efcacc047a2c005e1770b1d733ef005c7897d383abd0"
+  },
+  "scope": "Current public profile project inventory only; individual linked work playback and reuse licenses were not re-reviewed."
+}

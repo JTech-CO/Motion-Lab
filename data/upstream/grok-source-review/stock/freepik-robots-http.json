@@ -1,0 +1,17 @@
+{
+  "id": "freepik",
+  "url": "https://www.freepik.com/robots.txt",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 200,
+  "finalUrl": "https://www.magnific.com/robots.txt",
+  "contentType": "text/plain; charset=UTF-8",
+  "truncated": false,
+  "observedBytes": 5416,
+  "observedContentSha256": "6e86f04a1ec7e394aaeacef4053c5144bb84085ed5565d62d7023852dead4215",
+  "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+  "challengeOrDenial": false,
+  "robotsPath": "exa-results/grok-source-review/stock/freepik-robots.txt",
+  "robotsContentSha256": "6e86f04a1ec7e394aaeacef4053c5144bb84085ed5565d62d7023852dead4215"
+}

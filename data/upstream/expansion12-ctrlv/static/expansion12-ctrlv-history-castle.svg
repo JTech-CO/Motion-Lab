@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <ellipse cx="200" cy="270" rx="160" ry="12" fill="#E2E8F0" />
+            <g>
+                
+                <rect x="130" y="160" width="140" height="100" fill="#6366f1" />
+                
+                <path d="M130 160 H150 V150 H170 V160 H190 V150 H210 V160 H230 V150 H250 V160 H270 V170 H130 Z" fill="#6366f1" />
+                
+                
+                <path d="M170 260 V220 A30 30 0 0 1 230 220 V260 Z" fill="#334155" />
+                <path d="M175 220 V260 M185 210 V260 M195 205 V260 M205 205 V260 M215 210 V260 M225 220 V260" stroke="#ffffff" stroke-width="3" />
+                <line x1="170" y1="230" x2="230" y2="230" stroke="#ffffff" stroke-width="3" />
+                <line x1="170" y1="250" x2="230" y2="250" stroke="#ffffff" stroke-width="3" />
+
+                
+                <rect x="90" y="120" width="40" height="140" fill="#6366f1" />
+                <rect x="95" y="140" width="10" height="20" rx="5" fill="#334155" opacity="0.8" />
+                
+                <path d="M85 120 H100 V110 H115 V120 H130 V130 H85 Z" fill="#6366f1" />
+                
+                <path d="M80 110 L107 50 L135 110 Z" fill="#f43f5e" />
+
+                
+                <rect x="270" y="120" width="40" height="140" fill="#6366f1" />
+                <rect x="295" y="140" width="10" height="20" rx="5" fill="#334155" opacity="0.8" />
+                
+                <path d="M265 120 H280 V110 H295 V120 H310 V130 H265 Z" fill="#6366f1" />
+                
+                <path d="M260 110 L287 50 L315 110 Z" fill="#f43f5e" />
+            </g>
+            
+            
+            <path d="M107 50 V20 L130 35 L107 50 Z" fill="#DFD116" />
+            <path d="M287 50 V20 L310 35 L287 50 Z" fill="#DFD116" />
+            
+            
+            <path d="M300 80 Q310 70 320 80 Q330 70 340 80" stroke="#334155" stroke-width="2" fill="none" opacity="0.6" />
+            <path d="M320 60 Q325 55 330 60 Q335 55 340 60" stroke="#334155" stroke-width="2" fill="none" opacity="0.6" />
+          </svg>

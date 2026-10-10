@@ -1,0 +1,36 @@
+{
+  "url": "https://iconscout.com/robots.txt",
+  "site": "iconscout",
+  "reviewedAt": "2026-10-10",
+  "captures": [
+    {
+      "method": "normal-isolated-Chrome-public-navigation",
+      "status": 403,
+      "observedContent": "Cloudflare 보안 확인 화면 또는 접근 거부가 표시되어 실제 페이지 본문을 확인하지 못했습니다. 일반 공개 브라우저에서도 우회하지 않았습니다.",
+      "challengeObserved": true,
+      "semanticFallback": false,
+      "finalUrl": "https://iconscout.com/robots.txt",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/iconscout-robots-chrome.json",
+      "rawCacheSha256": "9a3292acbc796d84f9b69adc42d87b8ec998e1fa554f049be200d55c00c43deb",
+      "capturedTextSha256": "615ebc9df2e6eae43ad4f84931abd01fdfc818205a3f9935775bd36e27b3c47a",
+      "responseCapturedSha256": null,
+      "boundedAtBytes": null,
+      "truncated": false
+    },
+    {
+      "method": "public-HTTP-GET",
+      "status": 403,
+      "observedContent": "Cloudflare 보안 확인 화면 또는 접근 거부가 표시되어 실제 페이지 본문을 확인하지 못했습니다. 일반 공개 브라우저에서도 우회하지 않았습니다.",
+      "challengeObserved": true,
+      "semanticFallback": false,
+      "finalUrl": "https://iconscout.com/robots.txt",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/iconscout-robots-http.json",
+      "rawCacheSha256": "db9a05c11912109ec677a9bb02c09c6ce965d2a3cec82a3f08215525fa33e42a",
+      "capturedTextSha256": "460254c5ce7fdad9b0066912b61d54710fd911fa063f23c3632d9cad632c117f",
+      "responseCapturedSha256": "460254c5ce7fdad9b0066912b61d54710fd911fa063f23c3632d9cad632c117f",
+      "boundedAtBytes": null,
+      "truncated": false
+    }
+  ],
+  "contentPolicy": "원문 전체는 ignored exa-results 캐시에만 보관합니다. 이 파일은 접근 상태와 SHA 및 자체 요약만 저장하며 페이지 인용은 sites.json termsEvidence에만 최대 25단어로 기록합니다."
+}

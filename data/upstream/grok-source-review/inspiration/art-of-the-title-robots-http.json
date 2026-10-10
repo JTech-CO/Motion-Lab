@@ -1,0 +1,19 @@
+{
+  "url": "https://www.artofthetitle.com/robots.txt",
+  "method": "bounded public HTTP GET",
+  "status": 404,
+  "fetchedAt": "2026-10-10",
+  "observedContent": "직접 HTTP 404 응답이었다. robots 부재를 허가나 전면 차단으로 해석하지 않았다.",
+  "sector": 4,
+  "siteId": "art-of-the-title",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/art-of-the-title-robots-http.json",
+  "rawCacheSha256": "5f9a26628b99309e921f06d6ac57e481e952c7d7d400fae2c2f90574b3f18667",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "797eacebd6afd02841ad7eac86ceb2964398dd33290ab003e7bbe15930b01c7d",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "finalUrl": "https://www.artofthetitle.com/robots.txt",
+  "byteCount": 5884,
+  "boundedAt": 1048576,
+  "truncated": false,
+  "originalResponseSha256": "797eacebd6afd02841ad7eac86ceb2964398dd33290ab003e7bbe15930b01c7d"
+}

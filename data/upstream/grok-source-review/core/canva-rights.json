@@ -1,0 +1,30 @@
+{
+  "id": "canva",
+  "checkedAt": "2026-10-10",
+  "method": "official-Exa-extraction-and-public-web-connector-read",
+  "rightsObservations": [
+    {
+      "url": "https://www.canva.com/policies/content-license-agreement/",
+      "claim": "Free Content 6항은 본인용 단독 다운로드 등 일부 사용을 허용하지만 9항의 경쟁 콘텐츠 갤러리·재배포·추출 가능한 공유 금지는 별개다. 명시된 CC0/Public Domain 원 자료에는 개별 예외가 적용된다.",
+      "section": "2, 6, 9.8, 9.10, 9.14",
+      "quote": "",
+      "method": "official-page-read-via-Exa-and-public-web-connector",
+      "checkedAt": "2026-10-10",
+      "permissionObtained": false
+    }
+  ],
+  "representativeObservation": {
+    "url": "https://www.canva.com/templates/s/animated/",
+    "name": "Animated templates",
+    "formats": [
+      "Canva editor design"
+    ],
+    "downloadGate": "에디터·계정 및 포함 콘텐츠의 Free/Pro 조건",
+    "rights": "Canva Content License Agreement와 구성 요소 원 출처 조건",
+    "individualDetailRead": false,
+    "categoryOnly": true,
+    "limitation": "공식 카테고리의 템플릿 명칭만 확인. 개별 ID·구성 요소·원본 다운로드는 확인하지 못함."
+  },
+  "interpretation": "무료 템플릿 및 개인용 단독 다운로드가 공개 원본 창고의 재배포 권리를 뜻하지 않습니다. CC0/Public Domain 구성 요소는 원 출처에서 별도 검증해야 합니다.",
+  "mediaOrOriginalDownloaded": false
+}

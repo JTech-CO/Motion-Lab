@@ -1,0 +1,24 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Background Grid -->
+                <path d="M50 240 H350 M50 190 H350 M50 140 H350" stroke="var(--charcoal)" stroke-width="2" opacity="0.1"/>
+                
+                <!-- Exponential Curve -->
+                <path class="anim-draw" d="M50 250 Q150 240 220 180 T300 40" stroke="var(--primary-color)" stroke-width="12" stroke-linecap="round" fill="none"/>
+                <path class="anim-draw" d="M50 250 Q150 240 220 180 T300 40" stroke="var(--bg-surface)" stroke-width="4" stroke-dasharray="4 8" fill="none"/>
+                
+                <!-- Flame at the top of trend -->
+                <g transform="translate(300, 40)">
+                    <g class="anim-pulse" >
+                    <path d="M0 30 C-30 30 -40 -10 -15 -30 C-20 -15 -10 -5 0 -20 C10 -5 20 -15 15 -30 C40 -10 30 30 0 30 Z" fill="var(--accent-color)"/>
+                    <path d="M0 30 C-15 30 -20 -5 -5 -15 C-10 -5 -5 0 0 -10 C5 0 10 -5 5 -15 C20 -5 15 30 0 30 Z" fill="var(--secondary-color)"/>
+                </g>
+                </g>
+                
+                <!-- Sharing Nodes -->
+                <circle class="anim-bounce" cx="100" cy="230" r="10" fill="var(--primary-color)"/>
+                <path class="anim-draw" d="M110 230 L140 210" stroke="var(--charcoal)" stroke-width="2" opacity="0.4"/>
+                <circle class="anim-bounce" style="animation-delay: 0.2s;" cx="150" cy="200" r="8" fill="var(--secondary-color)"/>
+                <circle class="anim-bounce" style="animation-delay: 0.4s;" cx="220" cy="180" r="12" fill="var(--accent-color)"/>
+            </g>
+          </svg>

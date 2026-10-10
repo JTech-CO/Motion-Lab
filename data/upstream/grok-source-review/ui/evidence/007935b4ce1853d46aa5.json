@@ -1,0 +1,37 @@
+{
+  "url": "https://iconscout.com/",
+  "site": "iconscout",
+  "reviewedAt": "2026-10-10",
+  "captures": [
+    {
+      "method": "Exa-public-fetch",
+      "status": "content-returned-http-status-unavailable",
+      "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://iconscout.com/",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/exa-iconscout-fetch-1.json",
+      "rawCacheSha256": "1e4e05cce6a82ffdef45495dce793813660d910927ac6a1a3a55b2709aa6793f",
+      "capturedTextSha256": "e78178b4de8e3972d6b003ca3b527df08b5a354b2d8cadc559a77b22a3c88dfe",
+      "responseCapturedSha256": null,
+      "boundedAtBytes": null,
+      "providerResponseCacheBytes": 41060,
+      "truncated": null
+    },
+    {
+      "method": "normal-isolated-Chrome-public-navigation",
+      "status": 403,
+      "observedContent": "Cloudflare 보안 확인 화면 또는 접근 거부가 표시되어 실제 페이지 본문을 확인하지 못했습니다. 일반 공개 브라우저에서도 우회하지 않았습니다.",
+      "challengeObserved": true,
+      "semanticFallback": false,
+      "finalUrl": "https://iconscout.com/",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/iconscout-home-chrome.json",
+      "rawCacheSha256": "aed9ea406de25772684b50e87668f69cb7cd96eb2f1403a9862aefb58747e1e6",
+      "capturedTextSha256": "a6176ff116edfddaeab0ace6df5159253956d9f0457791e398c90ac5462568f5",
+      "responseCapturedSha256": null,
+      "boundedAtBytes": null,
+      "truncated": false
+    }
+  ],
+  "contentPolicy": "원문 전체는 ignored exa-results 캐시에만 보관합니다. 이 파일은 접근 상태와 SHA 및 자체 요약만 저장하며 페이지 인용은 sites.json termsEvidence에만 최대 25단어로 기록합니다."
+}

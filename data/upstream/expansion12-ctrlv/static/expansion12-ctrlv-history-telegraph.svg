@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            
+            <path d="M300 170 Q350 150 400 160" stroke="#334155" stroke-width="3" fill="none" opacity="0.5" />
+            
+            <g>
+                
+                <rect x="100" y="220" width="200" height="30" rx="5" fill="#6366f1" />
+                
+                <rect x="130" y="210" width="40" height="10" fill="#ffffff" />
+                <circle cx="150" cy="215" r="3" fill="#334155" />
+                
+                
+                <rect x="230" y="150" width="20" height="70" rx="4" fill="#334155" />
+                <rect x="260" y="150" width="20" height="70" rx="4" fill="#334155" />
+                <path d="M230 160 H250 M230 170 H250 M230 180 H250 M230 190 H250 M230 200 H250 M230 210 H250" stroke="#DFD116" stroke-width="4" />
+                <path d="M260 160 H280 M260 170 H280 M260 180 H280 M260 190 H280 M260 200 H280 M260 210 H280" stroke="#DFD116" stroke-width="4" />
+                
+                <rect x="225" y="220" width="60" height="10" fill="#f43f5e" />
+                <rect x="225" y="140" width="60" height="10" fill="#f43f5e" />
+
+                
+                <g>
+                    
+                    <rect x="110" y="170" width="130" height="10" rx="5" fill="#f43f5e" />
+                    
+                    <ellipse cx="120" cy="160" rx="15" ry="10" fill="#334155" />
+                    <rect x="115" y="170" width="10" height="40" fill="#f43f5e" />
+                    
+                    <rect x="230" y="180" width="10" height="20" fill="#334155" />
+                </g>
+
+                
+                <rect x="190" y="180" width="20" height="40" fill="#ffffff" />
+                <circle cx="200" cy="175" r="5" fill="#334155" />
+            </g>
+
+            
+            <g fill="#DFD116">
+                
+                <circle cx="100" cy="100" r="5" />
+                <rect x="115" y="95" width="20" height="10" rx="5" />
+                <circle cx="145" cy="100" r="5" />
+                
+                <rect x="160" y="95" width="20" height="10" rx="5" />
+                <rect x="190" y="95" width="20" height="10" rx="5" />
+                
+                <circle cx="225" cy="100" r="5" />
+                <circle cx="240" cy="100" r="5" />
+            </g>
+          </svg>

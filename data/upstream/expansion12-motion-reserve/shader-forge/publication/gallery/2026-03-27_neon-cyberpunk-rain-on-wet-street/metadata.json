@@ -1,0 +1,25 @@
+{
+  "theme": "neon cyberpunk rain on wet street",
+  "style_hints": "",
+  "references": [
+    "community/three-js-chunks/fog_fragment.glsl",
+    "community/three-js-chunks/fog_pars_fragment.glsl",
+    "community/open-shaders/Engines_playcanvas_fogExp2.frag",
+    "community/open-shaders/Engines_playcanvas_fogExp.frag",
+    "community/open-shaders/Engines_playcanvas_fogLinear.frag"
+  ],
+  "attempts": 1,
+  "created_at": "2026-03-27T04:05:25.135473+00:00",
+  "glsl_lines": 88,
+  "success": true,
+  "review": {
+    "visual_complexity": 4,
+    "code_quality": 4,
+    "theme_match": 5,
+    "animation": 4,
+    "originality": 4,
+    "total": 21,
+    "verdict": "pass",
+    "feedback": "Excellent cyberpunk rain implementation with layered noise, animated streaks, neon grid, and sky-to-ground gradient; minor improvements could include adding more depth cues or reducing over-saturation in highlights."
+  }
+}

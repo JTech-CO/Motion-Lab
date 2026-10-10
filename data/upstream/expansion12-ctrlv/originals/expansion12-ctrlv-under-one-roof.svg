@@ -1,0 +1,17 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="150" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <!-- Main building -->
+            <path d="M80 150 L200 60 L320 150 V260 H80 V150Z" fill="var(--primary-color)"/>
+            <path d="M70 160 L200 50 L330 160" stroke="var(--primary-color)" stroke-width="16" stroke-linecap="round"/>
+            <!-- Chimney -->
+            <rect x="250" y="70" width="30" height="60" fill="var(--primary-color)"/>
+            <circle class="anim-float" cx="265" cy="50" r="15" fill="var(--secondary-color)"/>
+            <circle class="anim-float" cx="270" cy="20" r="20" fill="var(--secondary-color)" style="animation-delay:-1s"/>
+            <circle class="anim-float" cx="260" cy="-10" r="25" fill="var(--secondary-color)" style="animation-delay:-2s"/>
+            <!-- Glow windows -->
+            <rect class="anim-glow" x="120" y="160" width="40" height="40" rx="4" fill="var(--accent-color)"/>
+            <rect class="anim-glow" x="240" y="160" width="40" height="40" rx="4" fill="var(--accent-color)" style="animation-delay:-0.5s"/>
+            <!-- Door -->
+            <rect x="180" y="200" width="40" height="60" fill="white"/>
+            <circle cx="210" cy="230" r="3" fill="var(--charcoal)"/>
+          </svg>

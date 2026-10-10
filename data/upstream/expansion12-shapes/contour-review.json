@@ -1,0 +1,124 @@
+{
+  "baselineRendered": 4286,
+  "newRendered": 1938,
+  "eligible": 1938,
+  "excluded": [],
+  "closeCandidates": [
+    {
+      "id": "expansion12-shape-delapouite-dead-head",
+      "existingId": "design-tabler-oval",
+      "d4ContourJaccard64": 0.910935
+    },
+    {
+      "id": "expansion12-shape-delapouite-dead-head",
+      "existingId": "design-tabler-oval",
+      "d4ContourJaccard64": 0.910935
+    },
+    {
+      "id": "expansion12-shape-delapouite-dead-head",
+      "existingId": "design-tabler-brand-toyota",
+      "d4ContourJaccard64": 0.879179
+    },
+    {
+      "id": "expansion12-shape-delapouite-dead-head",
+      "existingId": "design-tabler-brand-toyota",
+      "d4ContourJaccard64": 0.879179
+    },
+    {
+      "id": "expansion12-shape-delapouite-dead-head",
+      "existingId": "design-tabler-oval",
+      "d4ContourJaccard64": 0.910935
+    },
+    {
+      "id": "expansion12-shape-delapouite-dead-head",
+      "existingId": "design-tabler-oval",
+      "d4ContourJaccard64": 0.910935
+    },
+    {
+      "id": "expansion12-shape-delapouite-dead-head",
+      "existingId": "design-tabler-brand-toyota",
+      "d4ContourJaccard64": 0.879179
+    },
+    {
+      "id": "expansion12-shape-delapouite-dead-head",
+      "existingId": "design-tabler-brand-toyota",
+      "d4ContourJaccard64": 0.879179
+    },
+    {
+      "id": "expansion12-shape-delapouite-tangerine",
+      "existingId": "design-tabler-brand-kakao-talk",
+      "d4ContourJaccard64": 0.872576
+    },
+    {
+      "id": "expansion12-shape-delapouite-tangerine",
+      "existingId": "design-tabler-brand-tether",
+      "d4ContourJaccard64": 0.879984
+    },
+    {
+      "id": "expansion12-shape-delapouite-tangerine",
+      "existingId": "design-tabler-brand-kakao-talk",
+      "d4ContourJaccard64": 0.872576
+    },
+    {
+      "id": "expansion12-shape-delapouite-tangerine",
+      "existingId": "design-tabler-brand-tether",
+      "d4ContourJaccard64": 0.879984
+    },
+    {
+      "id": "expansion12-shape-delapouite-potato",
+      "existingId": "design-tabler-bandage",
+      "d4ContourJaccard64": 0.873319
+    },
+    {
+      "id": "expansion12-shape-delapouite-potato",
+      "existingId": "design-tabler-pill",
+      "d4ContourJaccard64": 0.873319
+    },
+    {
+      "id": "expansion12-shape-delapouite-potato",
+      "existingId": "design-tabler-bandage",
+      "d4ContourJaccard64": 0.873319
+    },
+    {
+      "id": "expansion12-shape-delapouite-potato",
+      "existingId": "design-tabler-pill",
+      "d4ContourJaccard64": 0.873319
+    },
+    {
+      "id": "expansion12-shape-delapouite-potato",
+      "existingId": "design-tabler-bandage",
+      "d4ContourJaccard64": 0.873319
+    },
+    {
+      "id": "expansion12-shape-delapouite-potato",
+      "existingId": "design-tabler-pill",
+      "d4ContourJaccard64": 0.873319
+    },
+    {
+      "id": "expansion12-shape-delapouite-potato",
+      "existingId": "design-tabler-bandage",
+      "d4ContourJaccard64": 0.873319
+    },
+    {
+      "id": "expansion12-shape-delapouite-potato",
+      "existingId": "design-tabler-pill",
+      "d4ContourJaccard64": 0.873319
+    },
+    {
+      "id": "expansion12-shape-lorc-apple-seeds",
+      "existingId": "design-tabler-power",
+      "d4ContourJaccard64": 0.873783
+    },
+    {
+      "id": "expansion12-shape-lorc-apple-seeds",
+      "existingId": "design-tabler-power",
+      "d4ContourJaccard64": 0.874485
+    }
+  ],
+  "highResolutionPairChecks": 23,
+  "normalization": "Source frame removed for comparison only; paint/scale/translation and D4 direction excluded; original published SVG unchanged. Thin outline-versus-fill cases are also covered by the construction concept gate.",
+  "limitations": [
+    "Static contour and construction checks do not establish universal perceptual uniqueness.",
+    "A single silhouette frame does not compare all motion timelines."
+  ]
+}

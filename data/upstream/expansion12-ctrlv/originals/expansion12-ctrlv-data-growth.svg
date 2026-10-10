@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Glowing network base -->
+            <path class="anim-float" d="M200 60 L120 160 L160 260 H240 L280 160 Z" fill="var(--secondary-color)" opacity="0.1"/>
+            <!-- Trunk / Bar chart -->
+            <rect class="anim-bounce" x="180" y="140" width="40" height="120" fill="var(--primary-color)"/>
+            <rect class="anim-bounce" x="120" y="180" width="40" height="80" fill="var(--primary-color)" style="animation-delay: -0.2s"/>
+            <rect class="anim-bounce" x="240" y="80" width="40" height="180" fill="var(--primary-color)" style="animation-delay: -0.4s"/>
+            <!-- Nodes & Lines -->
+            <path class="anim-draw" d="M140 180 L200 140 L260 80" stroke="var(--charcoal)" stroke-width="4" fill="none"/>
+            <circle class="anim-glow" cx="140" cy="180" r="10" fill="var(--accent-color)"/>
+            <circle class="anim-glow" cx="200" cy="140" r="12" fill="var(--secondary-color)"/>
+            <circle class="anim-glow" cx="260" cy="80" r="14" fill="var(--accent-color)"/>
+            <!-- Leaves / Data points -->
+            <circle class="anim-float" cx="200" cy="90" r="6" fill="var(--charcoal)" opacity="0.4"/>
+            <circle class="anim-float" cx="280" cy="50" r="8" fill="var(--charcoal)" opacity="0.4" style="animation-delay: -1s"/>
+          </svg>

@@ -1,0 +1,24 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Review Panel -->
+            <rect class="anim-float" x="80" y="80" width="240" height="120" rx="15" fill="var(--primary-color)"/>
+            <rect class="anim-float" x="140" y="160" width="120" height="10" rx="5" fill="var(--bg-surface)"/>
+            
+            <!-- Stars -->
+            <!-- Helper string to reuse star shape: L 0 -15 L 4 -5 L 14 -5 L 6 1 L 9 11 L 0 5 L -9 11 L -6 1 L -14 -5 L -4 -5 Z -->
+            <g transform="translate(100, 130)">
+                <path class="anim-bounce" style="animation-delay: 0.0s;" d="M0 -20 L6 -6 L20 -6 L9 3 L13 18 L0 9 L-13 18 L-9 3 L-20 -6 L-6 -6 Z" fill="var(--accent-color)"/>
+            </g>
+            <g transform="translate(150, 130)">
+                <path class="anim-bounce" style="animation-delay: 0.2s;" d="M0 -20 L6 -6 L20 -6 L9 3 L13 18 L0 9 L-13 18 L-9 3 L-20 -6 L-6 -6 Z" fill="var(--secondary-color)"/>
+            </g>
+            <g transform="translate(200, 130)">
+                <path class="anim-bounce" style="animation-delay: 0.4s;" d="M0 -20 L6 -6 L20 -6 L9 3 L13 18 L0 9 L-13 18 L-9 3 L-20 -6 L-6 -6 Z" fill="var(--accent-color)"/>
+            </g>
+            <g transform="translate(250, 130)">
+                <path class="anim-bounce" style="animation-delay: 0.6s;" d="M0 -20 L6 -6 L20 -6 L9 3 L13 18 L0 9 L-13 18 L-9 3 L-20 -6 L-6 -6 Z" fill="var(--secondary-color)"/>
+            </g>
+            <g transform="translate(300, 130)">
+                <path class="anim-bounce" style="animation-delay: 0.8s;" d="M0 -20 L6 -6 L20 -6 L9 3 L13 18 L0 9 L-13 18 L-9 3 L-20 -6 L-6 -6 Z" fill="var(--bg-surface)"/>
+                <path class="anim-pulse" d="M0 -20 L6 -6 L20 -6 L9 3 L13 18 L0 9 L-13 18 L-9 3 L-20 -6 L-6 -6 Z" stroke="var(--bg-surface)" stroke-width="2" fill="none"/>
+            </g>
+          </svg>

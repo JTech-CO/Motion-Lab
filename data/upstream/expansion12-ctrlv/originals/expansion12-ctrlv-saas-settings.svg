@@ -1,0 +1,35 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Settings Panel -->
+                <rect x="80" y="60" width="240" height="180" rx="10" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="4"/>
+                
+                <!-- Header -->
+                <path class="anim-draw" d="M110 90 H180" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+                
+                <!-- Toggles -->
+                <g transform="translate(110, 120)">
+                    <rect x="0" y="0" width="40" height="20" rx="10" fill="var(--primary-color)"/>
+                    <circle cx="28" cy="10" r="6" fill="#FFF"/>
+                    <path d="M60 10 H140" stroke="var(--charcoal)" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+                </g>
+                <g transform="translate(110, 160)">
+                    <rect x="0" y="0" width="40" height="20" rx="10" fill="var(--charcoal)" opacity="0.2"/>
+                    <circle cx="12" cy="10" r="6" fill="#FFF"/>
+                    <path d="M60 10 H160" stroke="var(--charcoal)" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+                </g>
+                <g transform="translate(110, 200)">
+                    <rect x="0" y="0" width="40" height="20" rx="10" fill="var(--secondary-color)"/>
+                    <circle cx="28" cy="10" r="6" fill="#FFF"/>
+                    <path d="M60 10 H120" stroke="var(--charcoal)" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+                </g>
+            </g>
+            
+            <!-- Large Gear in Background -->
+            <g class="anim-rotate" >
+                <circle cx="300" cy="80" r="40" fill="var(--accent-color)" opacity="0.3"/>
+                <circle cx="300" cy="80" r="20" fill="var(--bg-surface)"/>
+                <!-- Teeth -->
+                <path d="M290 30 H310 V40 H290 Z M290 120 H310 V130 H290 Z M250 70 H260 V90 H250 Z M340 70 H350 V90 H340 Z" fill="var(--accent-color)" opacity="0.3"/>
+                <path d="M265 45 L275 35 L285 45 Z M335 115 L325 125 L315 115 Z M265 115 L275 125 L285 115 Z M335 45 L325 35 L315 45 Z" fill="var(--accent-color)" opacity="0.3"/>
+            </g>
+          </svg>

@@ -1,0 +1,23 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="130" ry="10" fill="#E2E8F0"/>
+            <g class="anim-pulse" style="animation-duration: 0.8s;">
+              <circle cx="200" cy="145" r="88" fill="var(--primary-color)"/>
+              <!-- Furrowed worried brows -->
+              <path d="M156 108 L183 118 M217 118 L244 108" stroke="var(--charcoal)" stroke-width="7" stroke-linecap="round"/>
+              <!-- Darting eyes (looking sideways) -->
+              <circle cx="172" cy="135" r="16" fill="var(--bg-surface)"/>
+              <circle cx="228" cy="135" r="16" fill="var(--bg-surface)"/>
+              <circle cx="178" cy="135" r="8" fill="var(--charcoal)"/>
+              <circle cx="234" cy="135" r="8" fill="var(--charcoal)"/>
+              <!-- Wavy anxious mouth -->
+              <path d="M162 172 Q175 165 188 172 Q201 179 214 172 Q227 165 240 172" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round" fill="none"/>
+            </g>
+            <!-- Spiral thought bubble -->
+            <g class="anim-rotate" >
+              <path d="M300 80 C300 60 320 60 320 80 C320 100 295 100 295 80 C295 65 312 65 312 80" fill="none" stroke="var(--accent-color)" stroke-width="3" opacity="0.6"/>
+            </g>
+            <!-- Sweat -->
+            <g class="anim-data" fill="var(--accent-color)">
+              <ellipse cx="285" cy="115" rx="4" ry="7"/>
+            </g>
+          </svg>

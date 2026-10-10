@@ -1,0 +1,33 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <!-- Background: Stone Castle Battlements -->
+            <g class="anim-float-slow" opacity="0.1" fill="var(--charcoal)">
+                <path d="M60 100 V160 H80 V120 H100 V160 H120 V120 H140 V160 H160 V100 Z"/>
+                <path d="M260 80 V160 H280 V100 H300 V160 H320 V100 H340 V160 H360 V80 Z"/>
+            </g>
+            
+            <g class="anim-bounce">
+                <!-- Character Body (Armor) -->
+                <path d="M140 260 L150 160 H250 L260 260 Z" fill="var(--charcoal)"/>
+                <path d="M150 180 H250 M145 210 H255 M140 240 H260" stroke="var(--bg-surface)" stroke-width="4"/>
+                
+                <!-- Head (Helmet) -->
+                <path d="M160 160 V110 C160 80 240 80 240 110 V160 Z" fill="var(--secondary-color)"/>
+                <!-- Visor Slit -->
+                <rect class="anim-glow" x="180" y="115" width="40" height="10" rx="3" fill="var(--bg-surface)"/>
+                <path d="M200 80 V100" stroke="var(--charcoal)" stroke-width="6"/>
+                
+                <!-- Prop: Sword & Shield -->
+                <g class="anim-float">
+                    <!-- Sword -->
+                    <path d="M120 250 L120 120" stroke="var(--bg-surface)" stroke-width="8" stroke-linecap="round"/>
+                    <path d="M100 130 H140" stroke="var(--primary-color)" stroke-width="6" stroke-linecap="round"/>
+                    <circle cx="120" cy="130" r="5" fill="var(--accent-color)"/>
+                    
+                    <!-- Shield -->
+                    <path d="M240 160 H300 V200 C300 240 270 260 270 260 C270 260 240 240 240 200 Z" fill="var(--primary-color)" stroke="var(--charcoal)" stroke-width="6"/>
+                    <path d="M270 160 V260" stroke="var(--charcoal)" stroke-width="4"/>
+                    <path d="M240 190 H300" stroke="var(--charcoal)" stroke-width="4"/>
+                </g>
+            </g>
+          </svg>

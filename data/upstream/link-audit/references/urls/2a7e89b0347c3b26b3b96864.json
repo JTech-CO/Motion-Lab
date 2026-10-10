@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/happy-token/remotion-style-kit",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/happy-token/remotion-style-kit",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/happy-token/remotion-style-kit",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/happy-token/remotion-style-kit",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:50.000598+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/happy-token/remotion-style-kit",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "60a0fb18d00ff486a496a835adb2d2b0cfb2f8e0085633018bd6915fcafb1129",
+      "responseBodySha256": "60a0fb18d00ff486a496a835adb2d2b0cfb2f8e0085633018bd6915fcafb1129",
+      "title": "GitHub - happy-token/remotion-style-kit · GitHub",
+      "textCharacters": 2353,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.828,
+      "captureCachePath": "exa-results/link-audit/references/captures/6fbf78e3ca281efc0ca082de.json",
+      "captureCacheSha256": "38106aea9090635c0f86e9337b430ad250141e2ecc63cc70e5a07d885ef57ddb"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-remotion-style-kit",
+      "canonicalId": "ref-remotion-style-kit",
+      "title": "Remotion Style Kit",
+      "role": "canonical",
+      "sourceSha256": "a06f96d94073e65db46e576c66c604f5fb92f89dea8e7522572be3567db06e8e"
+    }
+  ]
+}

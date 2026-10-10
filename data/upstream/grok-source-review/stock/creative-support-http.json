@@ -1,0 +1,16 @@
+{
+  "id": "creative-support",
+  "url": "https://support.creativemarket.com/hc/en-us/articles/360021205213-General-Overview-for-Licensing",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 403,
+  "finalUrl": "https://support.creativemarket.com/hc/en-us/articles/360021205213-General-Overview-for-Licensing",
+  "contentType": "text/html; charset=UTF-8",
+  "truncated": false,
+  "observedBytes": 5813,
+  "observedContentSha256": "efe575137db08141ed77f31acc70db15efa32c9d652edc9909c63420ae911ee0",
+  "links": [],
+  "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+  "challengeOrDenial": true
+}

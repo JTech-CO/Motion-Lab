@@ -1,0 +1,6 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path class="anim-draw" d="M50 150 L80 50 L110 250 L140 100 L170 200 L200 50 L230 250 L260 100 L290 200 L350 150" stroke="var(--primary-color)" stroke-width="4" stroke-linecap="round" fill="none"/>
+        <g class="anim-pulse">
+            <text x="200" y="280" text-anchor="middle" font-family="Inter" font-weight="900" font-size="14" fill="#ef4444">HIGH VIX</text>
+        </g>
+    </svg>

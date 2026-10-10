@@ -1,0 +1,16 @@
+{
+  "id": "pexels",
+  "url": "https://www.pexels.com/videos/",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 403,
+  "finalUrl": "https://www.pexels.com/videos/",
+  "contentType": "text/html; charset=UTF-8",
+  "truncated": false,
+  "observedBytes": 5554,
+  "observedContentSha256": "2e43ab5c5522682d4ecee6c4c93aa18094b496cee1f91d68f36ee77c7c4c6837",
+  "links": [],
+  "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+  "challengeOrDenial": true
+}

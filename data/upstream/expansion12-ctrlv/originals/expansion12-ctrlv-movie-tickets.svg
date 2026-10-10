@@ -1,0 +1,26 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="anim-float" d="M100 150 Q150 50 200 120 T300 200 Q200 280 150 200 T100 150 Z" fill="var(--secondary-color)" opacity="0.1"/>
+            
+            <!-- Ticket 1 (Back) -->
+            <g class="anim-bounce" style="animation-delay: -0.5s;">
+                <path d="M120 120 L260 80 C265 85 265 95 260 100 L280 160 C275 165 275 175 280 180 L140 220 C135 215 135 205 140 200 L120 140 C125 135 125 125 120 120 Z" fill="var(--secondary-color)"/>
+                <path d="M160 110 L240 85 M150 210 L170 150" stroke="white" stroke-width="2" stroke-dasharray="4 4"/>
+            </g>
+            
+            <!-- Ticket 2 (Front) -->
+            <g class="anim-bounce">
+                <!-- Base shape with perforated edges -->
+                <path d="M150 180 L290 140 C295 145 295 155 290 160 L310 220 C305 225 305 235 310 240 L170 280 C165 275 165 265 170 260 L150 200 C155 195 155 185 150 180 Z" fill="var(--primary-color)"/>
+                <!-- Inner Border -->
+                <path d="M170 185 L270 155 L285 205 L185 235 Z" stroke="white" stroke-width="2" fill="none"/>
+                <!-- Text / Barcode -->
+                <rect x="200" y="195" width="40" height="10" fill="white" transform="rotate(-15 200 195)"/>
+                <circle cx="250" cy="180" r="8" fill="white"/>
+                
+                <!-- Tear line -->
+                <path d="M260 150 L280 210" stroke="var(--charcoal)" stroke-width="2" stroke-dasharray="4 4"/>
+            </g>
+            
+            <!-- Stars -->
+            <path class="anim-glow" d="M100 100 L105 85 L110 100 L125 105 L110 110 L105 125 L100 110 L85 105 Z" fill="var(--accent-color)"/>
+          </svg>

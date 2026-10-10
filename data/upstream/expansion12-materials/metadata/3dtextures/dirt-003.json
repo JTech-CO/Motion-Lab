@@ -1,0 +1,51 @@
+{
+  "id": "expansion12-material-3dtextures-dirt-003",
+  "provider": "3dtextures.me",
+  "upstream": {
+    "id": 806,
+    "date": "2016-08-28T13:31:28",
+    "slug": "dirt-003",
+    "link": "https://3dtextures.me/2016/08/28/dirt-003/",
+    "title": {
+      "rendered": "Dirt 003"
+    },
+    "content": {
+      "rendered": "<p>Dirt 003 &#8211; Free seamless texture, 1024 x 1024, with the following maps:</p>\n<ul>\n<li>Diffuse</li>\n<li>Normal</li>\n<li>Displacement</li>\n<li>Specularity</li>\n<li>Ambient Occlusion</li>\n</ul>\n<p><!--more--></p>\n<p><a href=\"https://drive.google.com/drive/folders/1R0B8nQ7m2Wi5bGJbSfGAnArnFb_cPDM4?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">DOWNLOAD ALL THE MAPS</a></p>\n<p>As always it’s a free texture, you can do whatever you want with it. Just don’t be a prick a tell it’s yours.</p>\n<p>If you like my work and you find it good enough to use on your work, consider giving me a small tip using the right menu and in return I’ll provide you a link to the folder where I have all my textures and you can download them all with a single click.</p>\n<p>Take care and be around, I’ll be posting more soon.</p>\n<h2><a href=\"https://3dtextures.me/texture-pack-volume-1/\">Checkout my pack with 100 seamless textures + maps!</a></h2>\n",
+      "protected": false
+    },
+    "categories": [],
+    "tags": [
+      99011,
+      140141,
+      434,
+      555228,
+      1130131,
+      84203
+    ],
+    "_officialApiUrl": "https://3dtextures.me/wp-json/wp/v2/posts?per_page=100&page=15&_fields=id,date,slug,link,title,categories,tags,content"
+  },
+  "originalName": "Dirt_003_COLOR.png Image",
+  "originalPath": "data/upstream/expansion12-materials/originals/3dtextures/dirt-003.png",
+  "previewPath": "data/upstream/expansion12-materials/previews/expansion12-material-3dtextures-dirt-003.jpg",
+  "folderUrl": "https://drive.google.com/drive/folders/1R0B8nQ7m2Wi5bGJbSfGAnArnFb_cPDM4?usp=sharing",
+  "downloadUrl": "https://drive.google.com/uc?export=download&id=1O4QuzlFFeZYLE-q-8bMxIE3EPyR8rnbl",
+  "finalUrl": "https://drive.usercontent.google.com/download?id=1O4QuzlFFeZYLE-q-8bMxIE3EPyR8rnbl&export=download",
+  "originalWidth": 1024,
+  "originalHeight": 1024,
+  "sourceSha256": "eaa71e97692db1a65597cd72e0e54c8e68739808c5ed2d6b19a6d75d1e6be3ab",
+  "sourceBytes": 2744707,
+  "previewSha256": "9efd157107d64f3705f109acbf2466d97bba547c56fbe09a9b14ec7901d2ecdd",
+  "previewBytes": 547330,
+  "width": 1024,
+  "height": 1024,
+  "pageSha256": "a75e4dd2cbc72d17f9cc6676fd705b7e0cae6b49bdaa20e1b7e57a758e351df7",
+  "folderSha256": "a9daf1754d78058921ecc8246e2c7bfb8a3f1d0ce127455923650c706ccc59b5",
+  "channel": "BaseColor/Diffuse",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://3dtextures.me/about/",
+  "acquiredAt": "2026-10-10",
+  "remoteCodeExecuted": false,
+  "pageEvidenceKind": "official-wordpress-api-post-content",
+  "officialApiUrl": "https://3dtextures.me/wp-json/wp/v2/posts?per_page=100&page=15&_fields=id,date,slug,link,title,categories,tags,content",
+  "legacyColorFilenameEvidence": "Author *_COLOR original accompanied by separate NORM/DISP/OCC/ROUGH maps; normal public folder inspection saved in old-folder-filename-inspection.json"
+}

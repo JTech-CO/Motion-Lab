@@ -1,0 +1,27 @@
+{
+  "theme": "seascape ocean waves with foam and sun reflection",
+  "style_hints": "",
+  "references": [
+    "glsl-art/shadertoy-top/ttSGRc.glsl/ttSGRc.glsl [reflection,wave]",
+    "glsl-art/shadertoy-top/lsBBRR.glsl/lsBBRR.glsl [color_palette,fractal,grid,lighting,noise,wave]",
+    "glsl-art/shadertoy-top/Ms2SD1.glsl/Ms2SD1.glsl [fractal,grid,lighting,matrix,noise,reflection]",
+    "glsl-art/shadertoy-top/mlBSWc.glsl/mlBSWc.glsl [grid,noise,raymarching]",
+    "glsl-art/shadertoy-top/XsBXDc.glsl/XsBXDc.glsl [matrix,noise,reflection,volumetric]"
+  ],
+  "attempts": 1,
+  "created_at": "2026-03-29T11:11:32.769085+00:00",
+  "glsl_lines": 121,
+  "success": true,
+  "target": "glsl",
+  "design_brief": "1. **Architecture**: `main()` → compute `uv` centered & aspect-corrected → `pos = uv * 2.0` → compute `z = seaHeight(pos.xy)` (domain-warped FBM) → ray-march from camera (eye at `vec3(0, 2.0, 0)` looking at `vec3(0, 0, -1)`) toward `dir = normalize(vec3(pos, -1.5))` → for each step: sample `seaHeight(uv + dir.xy * t)`, compute `depth = t * dir.z`, evaluate foam (gradient of height), sun reflection (Fresnel + sky color), blend sea layers → `gl_FragColor = vec4(seaColor + foam + sunReflection, 1.0)`.\n\n2. **Key functions**:  \n   - `hash1/pseudoRandom()` (ref #2) for noise seeding  \n   - `noise(vec2)` (ref #2’s `hash1` + `smoothstep` interpolation → cheap Perlin-like)  \n   - `fbm(vec2)` (2–4 octaves, `octave_m` scale, ref #3)  \n   - `seaHeight(vec2 p)` (domain-warp `p += noise(p)*choppy`, then `fbm(p) * height`)  \n   - `getSky(vec3 dir)` (linear blend of `skyCol1`, `skyCol2` by `dir.y`)  \n   - `getSun(vec3 dir)` (spotlight: `pow(dot(dir, sunDir), 200.0) * sunCol`)\n\n3. **Reuse patterns**:  \n   - Use **ref #2’s `hash1` + `smoothstep` interpolation** for the noise function (WebGL1-friendly, no `fract(sin(...))` bias artifacts)  \n   - Borrow **ref #3’s `octave_m` matrix for FBM scaling** (efficient, stable)  \n   - Adopt **ref #1’s gravity/capillary wave dispersion** for *local* wave phase (optional, but `sin(p.y*k + w*uTime)` is ideal for 2D wave height)\n\n4. **Color & brightness**:  \n   - Always output full-screen: `uv = (gl_FragCoord.xy * 2.0 - uResolution.xy) / min(uResolution.x, uResolution.y)`  \n   - Base sea: `SEA_BASE + SEA_WATER_COLOR * (1.0 - smoothstep(0.0, 0.5, depth))`  \n   - Add **sun reflection** as `getSun(dir) * fresnel * 2.0`  \n   - Foam: `smoothstep(0.95, 1.0, heightGradient)` → multiply by `vec3(1.0, 0.95, 0.9)`  \n   - *No black voids* — sky + sea fill 0–1 luminance range\n\n5. **Animation**:  \n   - `uTime` drives: wave phase (`w*uTime`), domain warping offset (`noise(p + uTime*0.1)`), and camera drift (`pos.x += uTime*0.05`)  \n   - Speed: `uTime * 0.3` for gentle motion (never >1.0 per sec for smoothness)  \n   - Looping: not needed — use continuous motion (no modulo)\n\n6. **Pitfalls**:  \n   - ✘ No `dFdx/dFdy` → avoid gradient-based foam (use finite diff: `(h(p+eps) - h(p-eps))/eps`)  \n   - ✘ No `fwidth` → use fixed `eps = 0.002` for height gradient  \n   - ✘ No bitwise ops → avoid hash bit-twiddling; use `sin(dot(p, vec2(127.1,311.7))) * 43758.5453` (ref #2)  \n   - ✔️ Always normalize `dir` and clamp `t` to `[0.1, 15.0]`  \n   - ✔️ Use `texture2D` only if you *must* sample noise texture — prefer procedural for WebGL1 portability",
+  "review": {
+    "visual_complexity": 4,
+    "code_quality": 4,
+    "theme_match": 5,
+    "animation": 4,
+    "originality": 4,
+    "total": 21,
+    "verdict": "pass",
+    "feedback": "Strong seascape implementation with layered wave animation, Fresnel reflection, foam, and depth-based water coloring; brightness could be improved by ensuring the sea surface fills more of the canvas or adjusting exposure to avoid dark voids in distant regions."
+  }
+}

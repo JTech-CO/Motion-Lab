@@ -1,0 +1,66 @@
+{
+  "checkedAt": "2026-10-10T11:42:06.525168+00:00",
+  "method": "public-web-tool-open-and-official-search",
+  "authUsed": false,
+  "challengeBypass": false,
+  "rawResults": [
+    {
+      "ignoredCachePath": "exa-results/link-audit/references/web-crosschecks-full.json",
+      "ignoredCacheSha256": "409cc2b2db3d42f8ad8cc0bdbd7dccde9cbd318e4ed8a9b97fe7c121e0d9b504"
+    },
+    {
+      "ignoredCachePath": "exa-results/link-audit/references/web-alternative-search-full.json",
+      "ignoredCacheSha256": "4443b323579e7f4994ab5ac9d0cadbc0f1130e9c75b4e6959cd0cfe13516ebfb"
+    },
+    {
+      "ignoredCachePath": "exa-results/link-audit/references/web-last-paths-full.json",
+      "ignoredCacheSha256": "e43156e182cedfdb10e33727be0d5ba2c2b53333286db4f1282f1bf54a3ced66"
+    },
+    {
+      "ignoredCachePath": "exa-results/link-audit/references/web-embed-full.json",
+      "ignoredCacheSha256": "445bd7600c4604d7fd34ccf99af53f98f845636dbc2577d52c88587338ddd131"
+    },
+    {
+      "ignoredCachePath": "exa-results/link-audit/references/web-identity-full.json",
+      "ignoredCacheSha256": "0aa10f25ef4909587a8afe8ebfc77e651b3ce98c377f4b30ede0878c8a438b20"
+    }
+  ],
+  "findings": [
+    {
+      "url": "https://www.behance.net/gallery/254081025/Kinetic-Type-07",
+      "observation": "exact-official-project-index-found",
+      "limitation": "Indexed search content is historical and does not establish current live accessibility."
+    },
+    {
+      "url": "https://www.behance.net/brandonfretwell",
+      "observation": "official-indexed-creator-profile-links-brandonfretwell.com",
+      "limitation": "No accessible live copy of the exact project was verified."
+    },
+    {
+      "url": "https://help.behance.net/hc/en-us/articles/19288565618971-Guide-Sharing-and-Embedding-Behance-Content",
+      "observation": "official-public-project-embed-function-documented",
+      "quote": "All public Behance projects are embeddable to 3rd party services.",
+      "limitation": "The particular project embed was not confirmed accessible."
+    },
+    {
+      "url": "https://www.behance.net/embed/project/254081025?ilo0=1",
+      "observation": "web-tool-inaccessible",
+      "limitation": "Tool accessibility failure alone is not a site deletion verdict."
+    },
+    {
+      "url": "https://www.shadertoy.com/",
+      "observation": "web-tool-inaccessible",
+      "limitation": "Historical browse indexes cannot prove present public access. This catalog entry identifies the collection home, not a shader ID; an unrelated shader embed is not a replacement."
+    },
+    {
+      "url": "https://github.com/ruucm/shadergradient",
+      "observation": "official-home-linked-public-repository-and-README-opened",
+      "limitation": "No code, packages or media from the repository were executed/downloaded."
+    },
+    {
+      "url": "https://www.behance.net/zeofmotion",
+      "observation": "official-profile-index-found",
+      "limitation": "The web result reports a 1.3-year-old crawl and is not used to confirm current project contents."
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "version": 1,
+  "date": "2026-10-10",
+  "targetStoredAssets": 12000,
+  "baselineStoredAssets": 10001,
+  "baselineCatalogSha256": "a50812c61e93d655ca725b219a393aad7574036708d7917ad19ae3be32511487",
+  "addedStoredAssets": 1541,
+  "referencesAdded": 0,
+  "pilot": {
+    "sampleSize": 500,
+    "accepted": 160,
+    "strata": [
+      {
+        "lane": "motion",
+        "sampleSize": 100,
+        "accepted": 53,
+        "adoptionRate": 0.53
+      },
+      {
+        "lane": "patterns",
+        "sampleSize": 120,
+        "accepted": 15,
+        "adoptionRate": 0.125
+      },
+      {
+        "lane": "materials",
+        "sampleSize": 100,
+        "accepted": 74,
+        "adoptionRate": 0.74
+      },
+      {
+        "lane": "vectors",
+        "sampleSize": 130,
+        "accepted": 11,
+        "adoptionRate": 0.08461538461538462
+      },
+      {
+        "lane": "shapes",
+        "sampleSize": 50,
+        "accepted": 7,
+        "adoptionRate": 0.14
+      }
+    ],
+    "selectionBeforeOutcomeFiltering": true,
+    "limitations": [
+      "Strata have different population and selection bases; this observed cohort rate is not a world-wide or provider-wide yield estimate.",
+      "The material stratum is a census of the saved latest100 official posts, not a random sample of all1505.",
+      "Later material, OpenMoji and ctrlv reserve candidates are separately reviewed and never inserted into this500-record pilot."
+    ],
+    "adoptionRate": 0.32
+  },
+  "addedByInput": {
+    "motion": 54,
+    "pattern": 119,
+    "vector": 82,
+    "material": 784,
+    "shape": 367,
+    "openmoji": 116,
+    "ctrlv": 19,
+    "motion-reserve": 0
+  },
+  "addedBySource": {
+    "Radiant / Paul Bakaus": 53,
+    "creative-lab / bkmashiro": 1,
+    "Pattern Monster": 51,
+    "Inkjet / 0xDragoon": 68,
+    "Kitbitz": 79,
+    "Open Doodles": 1,
+    "Transhumans": 1,
+    "Open Peeps": 1,
+    "Kenney": 49,
+    "3dtextures.me": 735,
+    "Game Icons": 367,
+    "OpenMoji": 116,
+    "ctrlv.design": 19
+  },
+  "addedByDomain": {
+    "motion": 54,
+    "design": 1487
+  },
+  "inputFiles": [
+    {
+      "path": "data/expansion12-motion-items.json",
+      "count": 54,
+      "sha256": "6f22c21d786693525beda39f79a788bc65b4a431a5950dca1544f844514ae165"
+    },
+    {
+      "path": "data/expansion12-pattern-items.json",
+      "count": 119,
+      "sha256": "c52b3569980b57bb66f777f7598c6f7521d0cddfe95bd50dd0ae1378ace14ed5"
+    },
+    {
+      "path": "data/expansion12-vector-items.json",
+      "count": 82,
+      "sha256": "23e170f920a9575645e0ba0356fe2ab1cbcd2ff75282ebe78698b3685fbdc444"
+    },
+    {
+      "path": "data/expansion12-material-items.json",
+      "count": 784,
+      "sha256": "aa8b8bf4a6d37f3d17454ae0fa8e93adb5c9fc14350bb1711d668435664595d3"
+    },
+    {
+      "path": "data/expansion12-shape-items.json",
+      "count": 367,
+      "sha256": "a1e2232f3fc476e712195a41f4b0a08d16cbf4b2da29e601f5deb3026acbd21f"
+    },
+    {
+      "path": "data/expansion12-openmoji-items.json",
+      "count": 116,
+      "sha256": "7b81d55cff0c8b47f608619973e9eb7c2246c487b0bdf4c4f003923646320875"
+    },
+    {
+      "path": "data/expansion12-ctrlv-items.json",
+      "count": 19,
+      "sha256": "5c5cac02eca2a3b1b40ae76118c082247c4229bc04d34be129719c6c5c292e09"
+    },
+    {
+      "path": "data/expansion12-motion-reserve-items.json",
+      "count": 0,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    }
+  ],
+  "materialReserve": {
+    "qualified": 661,
+    "selected": 661,
+    "unusedQualified": 0,
+    "reportPath": "data/upstream/expansion12-materials/reserve-report.json",
+    "reportSha256": "e74184282d74aba00b848073a922221401d012c5626a036916fd18742bd917f3",
+    "unusedIds": []
+  },
+  "supplyReview": {
+    "qualifiedUnusedInReviewedPools": 0,
+    "unverifiedCandidatePoolsAreNotQualifiedSupply": true,
+    "accessAndSupportEvidence": [
+      {
+        "path": "data/upstream/expansion12-materials/cgbookcase-original-browser-access.json",
+        "sha256": "2efc30f0138f096255509211722fb4ef2b615be2817359c42371486a2b5c1e63"
+      },
+      {
+        "path": "data/upstream/expansion12-shapes/openclipart-browser-access.json",
+        "sha256": "3fa5d0c71cf902f273bfd61e754e00e38ccac77876bb31dfeae117aa0d326895"
+      },
+      {
+        "path": "data/upstream/expansion12-shapes/openclipart-primary-access.json",
+        "sha256": "b79ad639152ff723076c3afd39a2f7462dd35bdf11a2619a83fe6ab8cf83293b"
+      },
+      {
+        "path": "data/upstream/expansion12-motion-reserve/motionary-nonaxial-and-priority-holds.json",
+        "sha256": "d9ee200c650fcdbd831eb4ddb50bc0f7a72407d6c5230676bc08786588eb6e24"
+      }
+    ],
+    "scope": "Inspected, rights-checked and locally rendered source cohorts only. Other advertised libraries, unsupported compositions and inaccessible originals remain unqualified; this is not an exhausted worldwide market."
+  },
+  "crossBodyExclusions": [],
+  "evidence": {
+    "sourceReports": [
+      {
+        "path": "data/upstream/expansion12-motion/report.json",
+        "sha256": "415886a695f7b0e1b8e7013beaef9dd749a5f884e0c2c1e8ffe2f9db833c254d"
+      },
+      {
+        "path": "data/upstream/expansion12-patterns/report.json",
+        "sha256": "72ec76b8ef925392daf67ca63053d9bd2d9231aa6d5eb772b36293ed8a45ad3e"
+      },
+      {
+        "path": "data/upstream/expansion12-materials/report.json",
+        "sha256": "b32e110709d5a748b9acd9d31de468053775b14055f13f2787a4a1757b9b22d0"
+      },
+      {
+        "path": "data/upstream/expansion12-vectors/report.json",
+        "sha256": "10fa4d48715e67d94ea7eb0e1f55251031f13dc9fcd3821792f5e910856d8414"
+      },
+      {
+        "path": "data/upstream/expansion12-shapes/report.json",
+        "sha256": "bf95314a7707fcd41bc143a7e2c5d40a0d334ae996e3eb59c1d75eac229066fd"
+      },
+      {
+        "path": "data/upstream/expansion12-openmoji/report.json",
+        "sha256": "edfa577bab56c15358ae520b661c6c4736b096e155df919644a42e68a6188d90"
+      },
+      {
+        "path": "data/upstream/expansion12-ctrlv/report.json",
+        "sha256": "8730dc8c9a18ef234ab6611c623d5dc3715f1ef9f55f11cb7b65e0e7ff184b64"
+      },
+      {
+        "path": "data/upstream/expansion12-motion-reserve/report.json",
+        "sha256": "8262d8ee7c920a9d6636cf62866609f08513d49f73d0acf28f960e0527cf5197"
+      }
+    ],
+    "receiptsVerified": 1541,
+    "sourceJavaScriptExecuted": false,
+    "videoAudioAdded": false,
+    "originalImagesCollected": true
+  },
+  "countPolicy": "Canonical stored assets only; preserved variants and reference links are counted separately. One material, oneBaseColor; no channels/resolutions/frame/color/direction padding.",
+  "achievedStoredAssets": 11542,
+  "targetReached": false,
+  "missingStoredAssets": 458,
+  "nextMilestones": {
+    "12000": {
+      "requiredNetNew": 458,
+      "status": "requires-additional-verified-supply"
+    },
+    "15000": {
+      "requiredNetNew": 3458,
+      "status": "requires-additional-verified-supply"
+    },
+    "20000": {
+      "requiredNetNew": 8458,
+      "status": "requires-additional-verified-supply"
+    }
+  },
+  "limitations": [
+    "Bounded structural/numeric/rendered and independent visual review cannot establish universal uniqueness against all works online.",
+    "Denied originals and unsupported complete compositions are excluded; advertised provider totals are not qualified residual supply."
+  ],
+  "commit": false,
+  "push": false,
+  "publication": {
+    "catalog": {
+      "path": "data/catalog.json",
+      "sha256": "643300e8581b957345acc4d636a13b30bf52c5b24cf3714b10341a53c4032c97",
+      "bytes": 111072600
+    },
+    "sqlite": {
+      "path": "data/motionlab.sqlite",
+      "sha256": "504a2e9cd8f2d862e303b3158444b5a66fc59e72173810781d65cb9623632f44",
+      "bytes": 81018880
+    },
+    "staticFullCatalog": {
+      "path": "dist/catalog.json",
+      "sha256": "643300e8581b957345acc4d636a13b30bf52c5b24cf3714b10341a53c4032c97",
+      "bytes": 111072600
+    },
+    "staticIndex": {
+      "path": "dist/catalog-index.json",
+      "sha256": "6d7fb0216d51c1c17e839919cae73194296b29a6ae4ff3d0d172814bbda88a78",
+      "bytes": 5546764
+    },
+    "stats": {
+      "storedAssets": 11542,
+      "totalIncludingReferences": 11827,
+      "motion": 3399,
+      "design": 8143,
+      "references": 285
+    },
+    "newPublishedRecordsMatchedToInputs": 1541,
+    "generatedFullCatalogsKeptLocallyAndExcludedFromGit": true,
+    "rebuildCommand": "python scripts/build.py",
+    "licenseAndOriginalInputsRemainInSourceTree": true
+  },
+  "validation": {
+    "integrity": {
+      "path": "data/verification-report.json",
+      "sha256": "3bbdaac79212ea8faa7a426b95500bc55ab2e4e5385f67498490e23ff4e7dff1",
+      "bytes": 1813
+    },
+    "consolidation": {
+      "path": "data/consolidation-recheck.json",
+      "sha256": "5b893e570741cf775a5ba9dd8d2e1a7461d37a5d4549b63176ef20bcaf252d18",
+      "bytes": 20916264
+    },
+    "realInterfacesAndBrowser": {
+      "path": "data/upstream/expansion12-motion/final-interface-verification.json",
+      "sha256": "04b9f7e35909d5b1194d5a3e76c07a65f538f99fae0a9e539f5aab39ea227bfc",
+      "bytes": 4364
+    },
+    "rendererSecurity": {
+      "path": "data/upstream/expansion12-motion/renderer-security.json",
+      "sha256": "6e36de95b5361c4ecd8962091b82792af0c792ecb51a0f1f0430e4e76cc96e85",
+      "bytes": 1428
+    },
+    "targetCheck": {
+      "path": "data/upstream/expansion12-motion/target-verification.json",
+      "sha256": "47a7a11d2b93ec99a9fcbf311fad4079406dec83ad8810e70c87ebdd2bebd09a",
+      "bytes": 279
+    },
+    "counts": {
+      "exactGroupCount": 0,
+      "nearGroupCount": 0,
+      "candidatePairCount": 33,
+      "unreviewedCandidatePairCount": 0,
+      "errorItemCount": 0,
+      "statisticalAlertCount": 8879
+    },
+    "interfaceAssertions": 47,
+    "actualLocalPreviewSamples": 7,
+    "rendererSecurityAssertions": 23,
+    "previewJavaScript": {
+      "path": "dist/preview.js",
+      "sha256": "f96d0d7078ffe6aa189fce72723a1ee8dd2e8b2c475b628eb1f80bc2336b7151",
+      "bytes": 44629
+    },
+    "imageAuditImplementation": {
+      "path": "scripts/duplicate_audit_image.py",
+      "sha256": "6beb3236221559e828fd9006a8933c0737c8bd07871e4af511a5003be6beca7c",
+      "bytes": 16926
+    },
+    "regressionTests": {
+      "command": "python -m unittest discover -s tests -p \"test_*.py\"",
+      "testsRun": 162,
+      "skipped": 1,
+      "passed": true
+    },
+    "existingReferenceAndVariantUITests": {
+      "passed": true,
+      "scope": "Trusted UI DOM model, no source code execution"
+    },
+    "limits": [
+      "Confirmed duplicate and near-duplicate counts are relative to the documented bounded methods; universal perceptual uniqueness is not claimed.",
+      "8879 coarse image statistical alerts remain in the audit. Actual128px position comparison did not confirm these as close geometry; discarded metrics were not silently removed.",
+      "Integrity and interface success do not imply the12000 target was reached. The separate stored-quantity check fails by458 records."
+    ]
+  }
+}

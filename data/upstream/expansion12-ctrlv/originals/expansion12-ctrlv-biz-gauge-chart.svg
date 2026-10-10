@@ -1,0 +1,33 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            
+            <g class="anim-float">
+                <!-- Gauge Outer Rim -->
+                <path d="M80 220 A 120 120 0 0 1 320 220" stroke="var(--charcoal)" stroke-width="40" fill="none" stroke-linecap="round"/>
+                
+                <!-- Gauge Inner Colored Tracks -->
+                <!-- Red/Low Zone -->
+                <path d="M80 220 A 120 120 0 0 1 140 115" stroke="var(--accent-color)" stroke-width="38" fill="none" stroke-linecap="round"/>
+                <!-- Yellow/Mid Zone -->
+                <path d="M140 115 A 120 120 0 0 1 260 115" stroke="var(--secondary-color)" stroke-width="38" fill="none"/>
+                <!-- Green/High Zone -->
+                <path d="M260 115 A 120 120 0 0 1 320 220" stroke="var(--primary-color)" stroke-width="38" fill="none" stroke-linecap="round"/>
+                
+                <!-- Tick Marks Matrix -->
+                <path d="M85 220 H65 M315 220 H335 M200 105 V85 M120 135 L105 120 M280 135 L295 120" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                
+                <g class="anim-bounce">
+                    <!-- Gauge Needle (Animated to High Zone) -->
+                    <g class="anim-rotate" style="transform-origin: 200px 220px; animation-duration: 3s;">
+                        <!-- Pointing to top right -->
+                        <path d="M185 220 L280 140 L215 220 Z" fill="var(--charcoal)"/>
+                        <circle cx="200" cy="220" r="30" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="8"/>
+                        <circle cx="200" cy="220" r="10" fill="var(--accent-color)"/>
+                    </g>
+                </g>
+                
+                <!-- Score / Digital Display -->
+                <rect class="anim-pulse" x="160" y="250" width="80" height="30" rx="5" fill="var(--charcoal)"/>
+                <path d="M185 265 H215 M185 270 H205" stroke="var(--bg-surface)" stroke-width="3" stroke-linecap="round"/>
+            </g>
+          </svg>

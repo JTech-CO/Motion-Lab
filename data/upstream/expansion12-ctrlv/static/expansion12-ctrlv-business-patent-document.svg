@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <rect x="100" y="40" width="200" height="240" fill="#ffffff" stroke="#334155" stroke-width="8" />
+                <rect x="110" y="50" width="180" height="220" fill="none" stroke="#6366f1" stroke-width="4" />
+                
+                
+                <line x1="140" y1="80" x2="260" y2="80" stroke="#334155" stroke-width="6" stroke-linecap="round" />
+                <line x1="140" y1="100" x2="220" y2="100" stroke="#334155" stroke-width="4" stroke-linecap="round" />
+                <line x1="140" y1="120" x2="260" y2="120" stroke="#334155" stroke-width="4" stroke-linecap="round" />
+                
+                
+                <g transform="translate(200, 180)">
+                    <g>
+                    <circle cx="0" cy="-10" r="25" fill="#DFD116" />
+                    <path d="M-15 0 L-10 20 H10 L15 0 Z" fill="#334155" />
+                    <path d="M-10 25 H10 M-8 30 H8 M-5 35 H5" stroke="#ffffff" stroke-width="3" />
+                    <path d="M0 -15 V-5" stroke="#ffffff" stroke-width="4" stroke-linecap="round" />
+                </g>
+                </g>
+                
+                
+                <g transform="translate(130, 240)">
+                    <g>
+                    <circle cx="0" cy="0" r="20" fill="#f43f5e" />
+                    <circle cx="0" cy="0" r="15" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="2 2" />
+                    <path d="M-10 20 L-15 40 L-5 35 L5 40 L0 20 Z" fill="#f43f5e" />
+                    <path d="M0 20 L5 40 L15 35 L10 20 Z" fill="#6366f1" />
+                </g>
+                </g>
+            </g>
+          </svg>

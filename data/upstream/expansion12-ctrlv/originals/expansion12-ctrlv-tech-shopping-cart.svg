@@ -1,0 +1,35 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Cart Frame -->
+                <path class="anim-draw" d="M80 60 H120 L150 220 H280 L310 100 H130" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                
+                <!-- Basket Mesh -->
+                <path d="M150 220 H280 M140 180 H290 M130 140 H300 M180 220 V100 M215 220 V100 M250 220 V100" stroke="var(--charcoal)" stroke-width="2" opacity="0.3"/>
+                
+                <!-- Wheels -->
+                <g transform="translate(160, 245)">
+                    <g class="anim-rotate"  style="animation-duration: 1s;">
+                    <circle cx="0" cy="0" r="15" fill="var(--primary-color)" stroke="var(--charcoal)" stroke-width="4"/>
+                    <path d="M-10 0 H10 M0 -10 V10" stroke="var(--bg-surface)" stroke-width="2"/>
+                </g>
+                </g>
+                <g transform="translate(270, 245)">
+                    <g class="anim-rotate"  style="animation-duration: 1s;">
+                    <circle cx="0" cy="0" r="15" fill="var(--primary-color)" stroke="var(--charcoal)" stroke-width="4"/>
+                    <path d="M-10 0 H10 M0 -10 V10" stroke="var(--bg-surface)" stroke-width="2"/>
+                </g>
+                </g>
+                
+                <!-- Items in Cart -->
+                <rect class="anim-bounce" x="160" y="140" width="40" height="40" rx="4" fill="var(--accent-color)"/>
+                <rect class="anim-bounce" style="animation-delay: 0.2s;" x="210" y="120" width="50" height="50" rx="4" fill="var(--secondary-color)"/>
+                
+                <!-- "Add" Notification -->
+                <g transform="translate(320, 80)">
+                    <g class="anim-pulse" >
+                    <circle cx="0" cy="0" r="20" fill="var(--primary-color)"/>
+                    <path d="M-8 0 H8 M0 -8 V8" stroke="var(--bg-surface)" stroke-width="4" stroke-linecap="round"/>
+                </g>
+                </g>
+            </g>
+          </svg>

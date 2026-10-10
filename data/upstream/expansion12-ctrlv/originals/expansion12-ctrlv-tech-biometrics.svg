@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Fingerprint Scannner Base -->
+                <rect x="120" y="60" width="160" height="200" rx="16" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="8"/>
+                
+                <!-- Fingerprint Arcs -->
+                <g stroke="var(--primary-color)" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.4">
+                    <path d="M160 210 Q200 170 240 210"/>
+                    <path d="M150 190 Q200 140 250 190"/>
+                    <path d="M170 160 Q200 130 230 160"/>
+                    <circle cx="200" cy="190" r="10" stroke-width="4"/>
+                </g>
+                
+                <!-- Scanning Laser Bar -->
+                <g class="anim-draw" style="animation-duration: 2s; animation-iteration-count: infinite;">
+                    <line x1="130" y1="100" x2="270" y2="100" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round"/>
+                    <rect x="130" y="100" width="140" height="10" fill="var(--accent-color)" opacity="0.2"/>
+                </g>
+                
+                <!-- Status Icons -->
+                <g transform="translate(200, 230)">
+                    <g class="anim-pulse" >
+                    <circle r="15" fill="var(--secondary-color)" opacity="0.2"/>
+                    <path d="M-6 0 L-2 4 L6 -4" stroke="var(--secondary-color)" stroke-width="3" fill="none"/>
+                </g>
+                </g>
+            </g>
+          </svg>

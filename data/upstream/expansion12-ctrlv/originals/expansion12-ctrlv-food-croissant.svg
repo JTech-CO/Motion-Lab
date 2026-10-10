@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Croissant Body (Laminated layers) -->
+                <path d="M120 200 C120 150 280 150 280 200 C280 230 250 240 200 240 C150 240 120 230 120 200 Z" fill="var(--primary-color)"/>
+                
+                <!-- Layers/Ridges -->
+                <path class="anim-draw" d="M160 160 Q200 150 240 160" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+                <path class="anim-draw" d="M140 180 Q200 170 260 180" stroke="var(--bg-surface)" stroke-width="8" stroke-linecap="round" opacity="0.6"/>
+                <path class="anim-draw" d="M130 200 Q200 190 270 200" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round" opacity="0.5"/>
+                
+                <!-- Tips -->
+                <path d="M120 200 Q80 190 60 210 Q90 220 120 200" fill="var(--primary-color)"/>
+                <path d="M280 200 Q320 190 340 210 Q310 220 280 200" fill="var(--primary-color)"/>
+                
+                <!-- Steam/Freshness -->
+                <path class="anim-pulse" d="M180 130 L190 120 M210 130 L220 120" stroke="var(--secondary-color)" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+            </g>
+          </svg>

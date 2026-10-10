@@ -1,0 +1,17 @@
+{
+  "id": "vecteezy",
+  "url": "https://www.vecteezy.com/robots.txt",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 200,
+  "finalUrl": "https://www.vecteezy.com/robots.txt",
+  "contentType": "text/plain; charset=utf-8",
+  "truncated": false,
+  "observedBytes": 2676,
+  "observedContentSha256": "0a7c01d9bef4c2677998bdab5d8fec587fc2116a6ed78dff181d1f3418a5fca5",
+  "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+  "challengeOrDenial": false,
+  "robotsPath": "exa-results/grok-source-review/stock/vecteezy-robots.txt",
+  "robotsContentSha256": "0a7c01d9bef4c2677998bdab5d8fec587fc2116a6ed78dff181d1f3418a5fca5"
+}

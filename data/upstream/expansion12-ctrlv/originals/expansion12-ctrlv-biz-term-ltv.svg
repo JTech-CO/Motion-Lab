@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Customer Icon -->
+                <circle cx="100" cy="110" r="25" fill="var(--primary-color)"/>
+                <path d="M60 200 C60 160 140 160 140 200" stroke="var(--primary-color)" stroke-width="30" stroke-linecap="round" fill="none"/>
+                
+                <!-- Lifetime Value Bars -->
+                <path class="anim-draw" d="M160 220 H340" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+                
+                <rect class="anim-pulse" x="180" y="160" width="30" height="60" rx="4" fill="var(--secondary-color)"/>
+                <rect class="anim-pulse" style="animation-delay: 0.2s" x="230" y="120" width="30" height="100" rx="4" fill="var(--secondary-color)"/>
+                <rect class="anim-pulse" style="animation-delay: 0.4s" x="280" y="70" width="30" height="150" rx="4" fill="var(--accent-color)"/>
+                
+                <!-- Heart / Value symbol -->
+                <g class="anim-bounce">
+                    <path d="M305 50 C305 40 295 30 285 40 C275 30 265 40 265 50 C265 60 285 70 285 70 C285 70 305 60 305 50 Z" fill="var(--accent-color)"/>
+                </g>
+            </g>
+          </svg>

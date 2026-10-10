@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Left Cuff -->
+                <circle cx="130" cy="150" r="50" stroke="var(--primary-color)" stroke-width="15" fill="none"/>
+                <circle cx="130" cy="150" r="40" stroke="var(--bg-surface)" stroke-width="4" stroke-dasharray="10 10" fill="none"/>
+                <rect x="180" y="140" width="20" height="20" fill="var(--primary-color)"/>
+                <circle cx="190" cy="150" r="4" fill="var(--bg-surface)"/>
+                
+                <!-- Right Cuff -->
+                <circle cx="270" cy="150" r="50" stroke="var(--secondary-color)" stroke-width="15" fill="none"/>
+                <circle cx="270" cy="150" r="40" stroke="var(--bg-surface)" stroke-width="4" stroke-dasharray="10 10" fill="none"/>
+                <rect x="200" y="140" width="20" height="20" fill="var(--secondary-color)"/>
+                <circle cx="210" cy="150" r="4" fill="var(--bg-surface)"/>
+                
+                <!-- Chain -->
+                <path class="anim-pulse" d="M190 150 Q200 130 210 150" stroke="var(--accent-color)" stroke-width="6" fill="none" stroke-linecap="round"/>
+            </g>
+          </svg>

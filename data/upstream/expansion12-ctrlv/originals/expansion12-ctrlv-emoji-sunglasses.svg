@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <circle cx="200" cy="150" r="100" fill="var(--primary-color)"/>
+                
+                <!-- Sunglasses -->
+                <path d="M120 120 H280" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round"/>
+                <path class="anim-glow" d="M120 120 V140 Q130 160 150 160 Q170 160 180 140 V120 H120 Z" fill="var(--charcoal)"/>
+                <path class="anim-glow" d="M220 120 V140 Q230 160 250 160 Q270 160 280 140 V120 H220 Z" fill="var(--charcoal)"/>
+                
+                <!-- Reflections -->
+                <path d="M130 130 L150 120 M140 140 L160 130" stroke="var(--bg-surface)" stroke-width="3" opacity="0.4"/>
+                <path d="M230 130 L250 120 M240 140 L260 130" stroke="var(--bg-surface)" stroke-width="3" opacity="0.4"/>
+                
+                <path d="M150 190 Q200 210 250 190" stroke="var(--bg-surface)" stroke-width="10" stroke-linecap="round" fill="none"/>
+            </g>
+          </svg>

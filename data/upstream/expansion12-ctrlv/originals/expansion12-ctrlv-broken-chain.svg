@@ -1,0 +1,13 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g transform="translate(150, 150) rotate(-30)">
+            <g class="anim-bounce">
+                <rect x="-40" y="-10" width="40" height="20" rx="10" stroke="var(--charcoal)" stroke-width="6" fill="none"/>
+            </g>
+        </g>
+        <g transform="translate(250, 150) rotate(30)">
+            <g class="anim-bounce" style="animation-delay: -0.5s">
+                <rect x="0" y="-10" width="40" height="20" rx="10" stroke="var(--charcoal)" stroke-width="6" fill="none"/>
+            </g>
+        </g>
+        <path class="anim-pulse" d="M180 150 L220 150" stroke="var(--secondary-color)" stroke-width="4" stroke-dasharray="4 4"/>
+    </svg>

@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Central Database -->
+            <rect class="anim-float" x="150" y="140" width="100" height="100" rx="12" fill="var(--charcoal)"/>
+            <rect class="anim-float" x="170" y="160" width="60" height="10" rx="2" fill="var(--secondary-color)"/>
+            <rect class="anim-float" x="170" y="180" width="60" height="10" rx="2" fill="var(--secondary-color)" style="animation-delay: -0.5s"/>
+            <!-- Huge Energy Deflector Shield -->
+            <path class="anim-glow" d="M100 260 Q50 140 200 50 Q350 140 300 260" stroke="var(--primary-color)" stroke-width="16" stroke-linecap="round" fill="none" opacity="0.9"/>
+            <path d="M100 260 Q50 140 200 50 Q350 140 300 260" stroke="white" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.3"/>
+            <!-- Attacking Bug/Viruses deflecting away -->
+            <g class="anim-bounce">
+                <path d="M60 80 L80 100 L50 110 Z" fill="var(--accent-color)"/>
+                <path d="M340 80 L320 100 L350 110 Z" fill="var(--accent-color)"/>
+                <path d="M180 30 L200 10 L220 30 Z" fill="#EF4444"/>
+            </g>
+            <path class="anim-data" d="M80 100 L110 130 M320 100 L290 130" stroke="var(--primary-color)" stroke-width="3" stroke-dasharray="4 4" stroke-linecap="round"/>
+          </svg>

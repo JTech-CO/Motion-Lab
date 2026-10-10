@@ -1,0 +1,23 @@
+{
+  "url": "https://developers.lottiefiles.com/",
+  "site": "lottiefiles",
+  "reviewedAt": "2026-10-10",
+  "captures": [
+    {
+      "method": "Exa-public-fetch",
+      "status": "content-returned-http-status-unavailable",
+      "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://developers.lottiefiles.com/",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/exa-representatives-and-api-fetch.json",
+      "rawCacheSha256": "70ae2f8e179db0ce9b95aeb1b7c7639fb88cc4fe1a5086317d29008869b0ba4c",
+      "capturedTextSha256": "0ff7d2057e5bfbd83f69465053078f9b2a8d76411807d90cd57ad141c4b26bce",
+      "responseCapturedSha256": null,
+      "boundedAtBytes": null,
+      "providerResponseCacheBytes": 59421,
+      "truncated": null
+    }
+  ],
+  "contentPolicy": "원문 전체는 ignored exa-results 캐시에만 보관합니다. 이 파일은 접근 상태와 SHA 및 자체 요약만 저장하며 페이지 인용은 sites.json termsEvidence에만 최대 25단어로 기록합니다."
+}

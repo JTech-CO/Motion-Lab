@@ -1,0 +1,16 @@
+{
+  "id": "jitter",
+  "url": "https://jitter.video/file/?id=h-KMaM5JwJas2ClP7zZeD&bucket=snackthis-userdata",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 200,
+  "finalUrl": "https://jitter.video/file/?id=h-KMaM5JwJas2ClP7zZeD&bucket=snackthis-userdata",
+  "contentType": "text/html",
+  "truncated": false,
+  "observedBytes": 33298,
+  "observedContentSha256": "e63437f4a45f3fc5d9def86b9485555949394af93a3af9aa3cd132cf287c35b0",
+  "links": [],
+  "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+  "challengeOrDenial": false
+}

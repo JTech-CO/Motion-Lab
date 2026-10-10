@@ -1,0 +1,2282 @@
+{
+  "rendererSha256": "1671760522537fef58e1c530c4a85eb23f3cbca163bc14a95e11e943aa2b1930",
+  "inventoryCount": 164,
+  "renderedEquivalent": 68,
+  "unsupported": {
+    "attributes-or-pixels-changed": 90,
+    "original-over-production-160000-code-bound": 6
+  },
+  "method": "Original image/svg+xml and production sanitized SVG compared at256x256 on a blank canvas; every supported visible element/attribute matched after local ID prefix normalization; all external browser requests blocked. No source JS executed.",
+  "results": [
+    {
+      "id": "expansion12-vector-open-doodles-doggie",
+      "sourceSha256": "902bc544f1edb1131c9a56dcbdb07a6a8c30427c70e3243a49164adf592c3f7b",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 106,
+      "sanitizedElements": 106,
+      "meanAbsoluteRGBAError": 5.905986785888672,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1157379150390625,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-ballet",
+      "sourceSha256": "9e9446cdad7b39b76dff2111a9b7352c8cb432b96ef93e92798902bcf0091d2d",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 78,
+      "sanitizedElements": 78,
+      "meanAbsoluteRGBAError": 3.8611526489257812,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.076568603515625,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-bikini",
+      "sourceSha256": "c47f102612bcb3c8bd52f6e663457faab522a3acabf52fd937ec06b5414967a9",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 8,
+      "sanitizedElements": 8,
+      "meanAbsoluteRGBAError": 6.8912353515625,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1235809326171875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-chilling",
+      "sourceSha256": "bd2d45ec903eb4ed3eb87109098a079ec63d021ed8ff8a3e9d057307e4ed5e04",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 3,
+      "sanitizedElements": 3,
+      "meanAbsoluteRGBAError": 12.495746612548828,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1818695068359375,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-clumsy",
+      "sourceSha256": "75ce995657fdd723be79059e129e05093d2b4cb537f4a817da301b034a870c70",
+      "supported": false,
+      "reason": "original-over-production-160000-code-bound"
+    },
+    {
+      "id": "expansion12-vector-open-doodles-coffee",
+      "sourceSha256": "b3d514f21436095dcb0a82673f43d347b428515c141acbaf47f98d2142ad69d6",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 59,
+      "sanitizedElements": 59,
+      "meanAbsoluteRGBAError": 9.835758209228516,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1668853759765625,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-dancing",
+      "sourceSha256": "595e589dfd0927cb3cf71174543c05a940ca3743dd99a3dcdd1f3cb757168edf",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 23,
+      "sanitizedElements": 23,
+      "meanAbsoluteRGBAError": 6.436592102050781,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.107818603515625,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-dog-jump",
+      "sourceSha256": "e523b5af8328bc18e9ca6216ab0102b115bd955c3f46527da61428a0cdf6158d",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 75,
+      "sanitizedElements": 75,
+      "meanAbsoluteRGBAError": 5.635780334472656,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.0962982177734375,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-float",
+      "sourceSha256": "e4d4f06ffc6b2795a69f2e5b1e12cd9425f517705ba29c053999829b9897d587",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 78,
+      "sanitizedElements": 78,
+      "meanAbsoluteRGBAError": 5.71942138671875,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.113128662109375,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-groovy",
+      "sourceSha256": "12c591694ce270e464ebe99b61b5d0a638326b13c47876aba39eeb716258792d",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 3,
+      "sanitizedElements": 3,
+      "meanAbsoluteRGBAError": 4.3529205322265625,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.084381103515625,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-ice-cream",
+      "sourceSha256": "3a0d637d9e17b8e7d212f6d0c4586d0b62da5cd90610f598bee39967866f2820",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 16,
+      "sanitizedElements": 16,
+      "meanAbsoluteRGBAError": 3.4290084838867188,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.0634307861328125,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-jumping",
+      "sourceSha256": "3e92d083e118f3ea00c852a0e718a0549708685da44dabf2472a9411013c9a39",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 3,
+      "sanitizedElements": 3,
+      "meanAbsoluteRGBAError": 7.082332611083984,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1155242919921875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-laying",
+      "sourceSha256": "1d6d130d58a185b55adbe6464fc926cf3ebe60375b3d0ff37059f8a14eae53fc",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 3,
+      "sanitizedElements": 3,
+      "meanAbsoluteRGBAError": 7.892475128173828,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.127655029296875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-levitate",
+      "sourceSha256": "c5f7a30e08fa3bde8c8d346ef3e957cc0d7f9f2f9541cbfa5ff8011941fc78d6",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 22,
+      "sanitizedElements": 22,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-doodles-loving",
+      "sourceSha256": "ec2530045eace13aa9d9f10ffc091cab561233ec57564f04f045e6ec53bbd62a",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 7,
+      "sanitizedElements": 7,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-doodles-meditating",
+      "sourceSha256": "fbd94062293864a062428c2d7ba1fb5eb4c6b01681c27ff5e27220368a1ea74d",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 22,
+      "sanitizedElements": 22,
+      "meanAbsoluteRGBAError": 10.482990264892578,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.156646728515625,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-moshing",
+      "sourceSha256": "d391bbe1c7499fa8a5b31d6d18f6b5d66ce8a9560c344bac9533ca76dac33179",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 9,
+      "sanitizedElements": 9,
+      "meanAbsoluteRGBAError": 6.477996826171875,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1006317138671875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-petting",
+      "sourceSha256": "39fa8760f02e5db4858d2daff5ee09ba2a39b4e6804b8c829c8cd3525b1ddb83",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 18,
+      "sanitizedElements": 18,
+      "meanAbsoluteRGBAError": 6.677890777587891,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1214141845703125,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-plant",
+      "sourceSha256": "9ba5faae5233f4fac4e9dc120b68ee4855a49757180910729ccb5227961aa91b",
+      "supported": false,
+      "reason": "original-over-production-160000-code-bound"
+    },
+    {
+      "id": "expansion12-vector-open-doodles-reading-side",
+      "sourceSha256": "bc98d93429c03fe206050649841d0cecab51c928fcb6f7e842ff4af6a5585593",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 165,
+      "sanitizedElements": 165,
+      "meanAbsoluteRGBAError": 6.196277618408203,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.117889404296875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-reading",
+      "sourceSha256": "902934889ec6599d4820d3ff7d47f7a6a1d0cbe01362f60f6548c2d1b1894550",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 21,
+      "sanitizedElements": 21,
+      "meanAbsoluteRGBAError": 6.306343078613281,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1153411865234375,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-roller-skating",
+      "sourceSha256": "0aa5aae7151041845d881e91770dfa677474749d10324f596b245f785919e8ed",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 17,
+      "sanitizedElements": 17,
+      "meanAbsoluteRGBAError": 3.783771514892578,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.0739898681640625,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-rolling",
+      "sourceSha256": "b72df1f609039586c5c2490de3deae24d09533cc1cb53c222f38cb6f9d0156bd",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 10,
+      "sanitizedElements": 10,
+      "meanAbsoluteRGBAError": 6.013378143310547,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.109832763671875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-running",
+      "sourceSha256": "316d030f281cfd434ddcf115bea04ec3a9f176298f6e8f488307d6c40d02c3e7",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 3,
+      "sanitizedElements": 3,
+      "meanAbsoluteRGBAError": 12.158000946044922,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1964111328125,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-selfie",
+      "sourceSha256": "54865e02673b21f88e4ff1ad60d3eeb4e67c137ec586ee57d02bb7b0ce94ddc9",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 16,
+      "sanitizedElements": 16,
+      "meanAbsoluteRGBAError": 5.406761169433594,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.0891571044921875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-sitting-reading",
+      "sourceSha256": "957f2c9047d12fed332378f307609990934403b4e2421f49d027d6793faa81d5",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 156,
+      "sanitizedElements": 156,
+      "meanAbsoluteRGBAError": 6.3223114013671875,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1125335693359375,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-sitting",
+      "sourceSha256": "6245f1c3b2b2a9ce37ec7a6e58c8e3ccd0d2dc3445116a9329c3fdd47062d062",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 8,
+      "sanitizedElements": 8,
+      "meanAbsoluteRGBAError": 7.904262542724609,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.126190185546875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-sleek",
+      "sourceSha256": "d0cf2e8b1319e1621ea10c68869cebc2db8b089355b72478ea7f8345b7f0dc5a",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 91,
+      "sanitizedElements": 91,
+      "meanAbsoluteRGBAError": 5.7386322021484375,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1020965576171875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-sprinting",
+      "sourceSha256": "de4c130718c40ec50599361df3ba3db12e1d199dc8d26302f95c8b2cf03e5af0",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 3,
+      "sanitizedElements": 3,
+      "meanAbsoluteRGBAError": 9.308837890625,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.153961181640625,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-strolling",
+      "sourceSha256": "b8e031d834dc3106969d8a6dbf74e47c487bab39e97c4ff600d270c98230909e",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 9,
+      "sanitizedElements": 9,
+      "meanAbsoluteRGBAError": 5.855033874511719,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.092254638671875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-swinging",
+      "sourceSha256": "adf4d5a57b937d61ba7b31e16d8a88984abee2a8ba9e4b47613d34c879932303",
+      "supported": false,
+      "reason": "original-over-production-160000-code-bound"
+    },
+    {
+      "id": "expansion12-vector-open-doodles-unboxing",
+      "sourceSha256": "2baafd8c17ef5046318397bb5f08f25f6e613e7e56553c5741362cca87d33586",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 20,
+      "sanitizedElements": 20,
+      "meanAbsoluteRGBAError": 10.90561294555664,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1716766357421875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-doodles-zombieing",
+      "sourceSha256": "d2c516a46dacba43900f7a2ea027001dcca5da7b6030ee048f1e93cb175cad15",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 12,
+      "sanitizedElements": 12,
+      "meanAbsoluteRGBAError": 4.929893493652344,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.0844879150390625,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-pacheco",
+      "sourceSha256": "fc579489fb235067b9d9e4dd9d25f9e46a3bc9ecb2aa7afcc3330fdf04be144f",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 115,
+      "sanitizedElements": 115,
+      "meanAbsoluteRGBAError": 11.792068481445312,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.094818115234375,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-pondering",
+      "sourceSha256": "5f18da2aca3c05a6a121e606ab5d0fe39b9389445be7eb38f3370e83e3cf8915",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 51,
+      "sanitizedElements": 51,
+      "meanAbsoluteRGBAError": 13.267227172851562,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.10107421875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-kiddo",
+      "sourceSha256": "fc1cedf4b893757697ce5defce9b12d5c83bfe3dd81e9f5313eff13000dce6c7",
+      "supported": false,
+      "reason": "original-over-production-160000-code-bound"
+    },
+    {
+      "id": "expansion12-vector-transhumans-astro",
+      "sourceSha256": "416787d5bf7cf96e3a1e7b3ef3cea2e419d5d1a827261a9430bc6d82342e7575",
+      "supported": false,
+      "reason": "original-over-production-160000-code-bound"
+    },
+    {
+      "id": "expansion12-vector-transhumans-rogue",
+      "sourceSha256": "686d4210d02be13bd912847e93b8b7ad9efe4664997d1740b17206910e0bfce2",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 156,
+      "sanitizedElements": 156,
+      "meanAbsoluteRGBAError": 26.097274780273438,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.17205810546875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-pilot",
+      "sourceSha256": "be176996992039f52079d65f6fe1d9fd60dad26bd50f66cc76acb7a214768bc3",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 202,
+      "sanitizedElements": 202,
+      "meanAbsoluteRGBAError": 18.117633819580078,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.12860107421875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-plants",
+      "sourceSha256": "bc9c2d8f764626dfd07186d2e8d8fdcb696aacdcda4eebfd46e06ab9b317cf32",
+      "supported": false,
+      "reason": "original-over-production-160000-code-bound"
+    },
+    {
+      "id": "expansion12-vector-transhumans-runner",
+      "sourceSha256": "d59f91dcf309f0bd3ead6613e96e6916e14e77c6c922e2ef04edeaccfa681e18",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 65,
+      "sanitizedElements": 65,
+      "meanAbsoluteRGBAError": 22.226638793945312,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1428070068359375,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-reflecting",
+      "sourceSha256": "c7ab3821f1aa48c152a64154662d456a04f7ac55bb2bfed041e3d64dde863b11",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 58,
+      "sanitizedElements": 58,
+      "meanAbsoluteRGBAError": 27.913368225097656,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.2602996826171875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-groceries",
+      "sourceSha256": "4880bf785b11c24b369b3f5b2da9d10e5044b2efe84e33e81045d0d29254e983",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 44,
+      "sanitizedElements": 44,
+      "meanAbsoluteRGBAError": 13.554885864257812,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.12591552734375,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-fling",
+      "sourceSha256": "5f58cd7e8f4521bfb80235bca4f601b1fd84ebb7111379d95f48b41aa7562da5",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 2,
+      "originalElements": 59,
+      "sanitizedElements": 59,
+      "meanAbsoluteRGBAError": 16.806392669677734,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1591339111328125,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-coffee",
+      "sourceSha256": "5b9741d9295aa84480366a2e459171ce3acfbca73f96c4c195b2968ef38fd470",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 70,
+      "sanitizedElements": 70,
+      "meanAbsoluteRGBAError": 13.932365417480469,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1096954345703125,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-meela-pantalones",
+      "sourceSha256": "b603c8ecab6dde31d6438c395b1e98f2a7af821e002c30ac4d49bae97f1febdc",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 41,
+      "sanitizedElements": 41,
+      "meanAbsoluteRGBAError": 17.550525665283203,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.109405517578125,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-jumping",
+      "sourceSha256": "6f8f3918e630d2fddec649c68c64f075af2d0bb705654ebf2fa49f0130353346",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 51,
+      "sanitizedElements": 51,
+      "meanAbsoluteRGBAError": 17.514671325683594,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1199493408203125,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-whoa",
+      "sourceSha256": "27222bbd4bf3d237b5f5714e4c4234682ba4719bd9b9631ab2a2bdcc580b8220",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 16,
+      "sanitizedElements": 16,
+      "meanAbsoluteRGBAError": 17.934986114501953,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.117279052734375,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-experiments",
+      "sourceSha256": "308d887c608b3c9da2c6eba98b3e12cb0437b28c6d0e2b4efaec99be95fae4f7",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 63,
+      "sanitizedElements": 63,
+      "meanAbsoluteRGBAError": 31.835750579833984,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.266143798828125,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-consumer",
+      "sourceSha256": "db994cb673272dbc8e5c7853a7fab71b34262452db40273446e546cc07784b71",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 31,
+      "sanitizedElements": 31,
+      "meanAbsoluteRGBAError": 13.29787826538086,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.09783935546875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-late-for-class",
+      "sourceSha256": "9eb9f2e119364edb2e4b1b0c0717f773cb427a934e525194df3e1c8ffb773c96",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 31,
+      "sanitizedElements": 31,
+      "meanAbsoluteRGBAError": 11.938312530517578,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1078643798828125,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-chaotic-good",
+      "sourceSha256": "5a86e7c5a7b1c96eeb547ad584f9a1c9c0e1ffb8dee4f0c170093574855be169",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 36,
+      "sanitizedElements": 36,
+      "meanAbsoluteRGBAError": 13.27789306640625,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.102783203125,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-chilly",
+      "sourceSha256": "630e42c762375c0950ea13a4ac5a4f8d565140f33dd1d91a81cc4ab8986948d6",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 44,
+      "sanitizedElements": 44,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-transhumans-polka-pup",
+      "sourceSha256": "2dea7e84c5f23e776443f2834bd78e4eed0d55a0179dc93a7a55df873249208f",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 38,
+      "sanitizedElements": 38,
+      "meanAbsoluteRGBAError": 13.882057189941406,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1242523193359375,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-new-beginnings",
+      "sourceSha256": "c1037e3bf08037fc31e60e4fcd35cce980c7703fbab2e51218f66a2173f25fc5",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 76,
+      "sanitizedElements": 76,
+      "meanAbsoluteRGBAError": 15.076141357421875,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1024932861328125,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-feliz",
+      "sourceSha256": "ade7e55f57a834de509ef32763be53b9e6ff95dc21bc7cfbfca856dc303a7f32",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 37,
+      "sanitizedElements": 37,
+      "meanAbsoluteRGBAError": 2.705841064453125,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.0226287841796875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-puppy",
+      "sourceSha256": "1c8e7d1c506593239f4af033f44babdcd9b5db6af2cc5e6fb50a4243a04b35c9",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 19,
+      "sanitizedElements": 19,
+      "meanAbsoluteRGBAError": 30.75933837890625,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.19146728515625,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-bueno",
+      "sourceSha256": "1aaee238316d02c71f2a9e00a1433378e6c70321836a8c3d51e7e19725902c36",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 31,
+      "sanitizedElements": 31,
+      "meanAbsoluteRGBAError": 23.255165100097656,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1522674560546875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-growth",
+      "sourceSha256": "9a4328bf643bab2477a9c3c1ad12076ed384b2065b4999ee71b69db9b6641442",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 2,
+      "originalElements": 68,
+      "sanitizedElements": 68,
+      "meanAbsoluteRGBAError": 29.11899185180664,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.2191619873046875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-entertainment",
+      "sourceSha256": "027c524136ac31d2bcfcf319d4361ac08b3b9e285f1502b2e6a8da4a53b53889",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 17,
+      "sanitizedElements": 17,
+      "meanAbsoluteRGBAError": 18.169815063476562,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1303558349609375,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-mechanical-love",
+      "sourceSha256": "e4c5717386d321ef1faa10af2cbac3aaf25f864276bd405872d114b8a341ebc5",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 24,
+      "sanitizedElements": 24,
+      "meanAbsoluteRGBAError": 32.169166564941406,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.214080810546875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-gamestation",
+      "sourceSha256": "f1b721d0eec5185088d40cbe7854d1835d8e87fd56619ef4e5758c7ce2632b84",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 33,
+      "sanitizedElements": 33,
+      "meanAbsoluteRGBAError": 9.94342041015625,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1043853759765625,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-ecto-plasma",
+      "sourceSha256": "e94d2880f6b019205331c98e72c4c00ed6096a77c4422e725a7f92b88ca4a9c5",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 31,
+      "sanitizedElements": 31,
+      "meanAbsoluteRGBAError": 11.972808837890625,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.118011474609375,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-waiting",
+      "sourceSha256": "294bb352235efaa37d3e4d86b872b55537cb4fb61b5cff4917820f7a1a2e51f5",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 51,
+      "sanitizedElements": 51,
+      "meanAbsoluteRGBAError": 22.331588745117188,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1441650390625,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-wont-stop",
+      "sourceSha256": "ba08da70674fe7f528b1685eaefeb6e6300f6e4cd30e76fd891d6ef809ce223b",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 46,
+      "sanitizedElements": 46,
+      "meanAbsoluteRGBAError": 17.80765151977539,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.146514892578125,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-chillin",
+      "sourceSha256": "a5ac97a71f375d14b22c15504673920d19f0c7f89de0ca7a42e4a341f5d6b6a1",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 35,
+      "sanitizedElements": 35,
+      "meanAbsoluteRGBAError": 16.13555908203125,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.110992431640625,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-walking-contradiction",
+      "sourceSha256": "10b590fc0f6299f4c3d74231f9507a2de037ab9d76909fdae59e2d2460ef893d",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 46,
+      "sanitizedElements": 46,
+      "meanAbsoluteRGBAError": 18.605140686035156,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1218414306640625,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-cube-leg",
+      "sourceSha256": "47f90923fa4974095b96bc01a31193fe607e5dfabed8bd0c1675f8f9363fb8d7",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 42,
+      "sanitizedElements": 42,
+      "meanAbsoluteRGBAError": 16.907272338867188,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.116607666015625,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-roboto",
+      "sourceSha256": "d2dfc061867e96bc04bb3b81b3a8d77e486c334a63605a704d2977502fd6b8bd",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 47,
+      "sanitizedElements": 47,
+      "meanAbsoluteRGBAError": 16.647289276123047,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.117706298828125,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-mask",
+      "sourceSha256": "a9d78cafeb2557132e1c53ed9913e1cb73ef10faba9022b1624d56e0caf1e1c6",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 36,
+      "sanitizedElements": 36,
+      "meanAbsoluteRGBAError": 18.925220489501953,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.12310791015625,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-transhumans-looking-ahead",
+      "sourceSha256": "74c639de1c20c56ee16ea9e8ae4d83954359ce9236c304fab5a5684177087edd",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 22,
+      "sanitizedElements": 22,
+      "meanAbsoluteRGBAError": 34.3973503112793,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.242706298828125,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-1",
+      "sourceSha256": "e13aab7eadf45db5feb55d50f1812baf7de88f34b34580ed47055185a3d12f39",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-3",
+      "sourceSha256": "5f0d8a1ea9ae2728db50768b3e51cbf7a3d4f2e68c4591f765fbe2cc47fe8dc9",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-sitting-1",
+      "sourceSha256": "50dee3a8f1a82d2b7d4fc0fc8a6325b5432e08f9256cdd3eb5921390eaa41fac",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-5",
+      "sourceSha256": "faefcf18701164e09c98a4c69e39a890c61bb72050c79e5a6d6173384f31612e",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-6",
+      "sourceSha256": "d8fc09b02400946a0b764d2fe77f02c0e8c2c422cabde8f558913e544a1b82c5",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-7",
+      "sourceSha256": "78085be066372871820677b3b8cd0c02d5593a7ba7b0eb3862c6bf3cae21ca8f",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 16,
+      "sanitizedElements": 16,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-9",
+      "sourceSha256": "480ea502ee15b5520e039934a519a5b23fe4f791f7a9fe491265c1e9eed83b75",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-12",
+      "sourceSha256": "aec461d88d45338a178f1df67f8739f16a9a6ab0fe342d2240de3fbcfc92e74c",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-13",
+      "sourceSha256": "829e09851dee7485d0e77dea6c3f2487ecf87b64dd76ff2609d2f7738e805d8c",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-15",
+      "sourceSha256": "3c23f9a330824091b3f315ef770f2063d1e7d0976fa4ca09a0f92ac494d200fb",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 16,
+      "sanitizedElements": 16,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-16",
+      "sourceSha256": "113957380b624e1fef9006247bea7afdfaa57753b4c8f5a10b231533ded58953",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-18",
+      "sourceSha256": "ecec146f973847117ef332b24639d58421ba7015ef3f363cc96a92f1b5af4b45",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 17,
+      "sanitizedElements": 17,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-20",
+      "sourceSha256": "5cd5841f9012e412bdbbd12fcb60274c78631e29184da53da505f31cdad39e18",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 4.835994720458984,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.0406646728515625,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-22",
+      "sourceSha256": "06088b7debd06d68237ac90888454c7aaa7a7786fefa2435f22862b33068eaa2",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-23",
+      "sourceSha256": "402738df3c7912e517186f89f498e8f976de6df8270558581ea05f9071c8c856",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 13,
+      "sanitizedElements": 13,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-25",
+      "sourceSha256": "076176d83b23a9004f8727f7b0d491a66c504c6038c2af514c98fd0ff188f42e",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 4.139308929443359,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.03436279296875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-28",
+      "sourceSha256": "8278a7e9a26424c68941db99971e4691277f4cf32338a3b4c1e6201b3516fba3",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-29",
+      "sourceSha256": "441d6da7429b0f1176402cb69c197db589e3e14ee9f78b5086d1f5a55d8c1829",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-31",
+      "sourceSha256": "928827406eda27580031406b2b2f9e1c3ef6b8ed67dcdbb551ad35eed285a503",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 6.944427490234375,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.044342041015625,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-32",
+      "sourceSha256": "6e2564d398f3639d429df04eb210576e7e53e38b8060e9abd7b3505845d33e7d",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 16,
+      "sanitizedElements": 16,
+      "meanAbsoluteRGBAError": 26.40372085571289,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1483917236328125,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-33",
+      "sourceSha256": "a6ec88a762fa7a0331ac178503d9eb88518820726babda074cc06fcc8db5071c",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-35",
+      "sourceSha256": "29cb60cb74484833d78767c58372ee07a86980b968ee7d0134f90f0927eb915e",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 4.92706298828125,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.0410003662109375,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-36",
+      "sourceSha256": "c25021e8df1dd54d385964a7a5bf10df25ff1a4bc6174bd5e204499dd58bc66d",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-37",
+      "sourceSha256": "b0043fdd7c6d83d0b01399b5557a16cf34efb6f9ebc85ddc2f153e6e28c6bee3",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-41",
+      "sourceSha256": "13808830a6e5f5d6d2acb5c21e320d5b6bde5c4e24916aba548f1f20c6051fc9",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-42",
+      "sourceSha256": "8a961220600e92b875fb32b8b6322b233fa8fa328e25d5c73e555ed36c69d9b8",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 16,
+      "sanitizedElements": 16,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-47",
+      "sourceSha256": "53ecf33b3e91d99b11b75ce0d9aa0f39376e8760c03bdea0c5ce9bb75f6ad571",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 13,
+      "sanitizedElements": 13,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-49",
+      "sourceSha256": "c8698bec327c31fe4bcdefa5012e4dfc551b6121c1053ad4cad9686183ae228b",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 16,
+      "sanitizedElements": 16,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-50",
+      "sourceSha256": "a0336b039561c8895e5a7489e6163dc6c8ea9ceab68054253228c1a6cedace35",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 17,
+      "sanitizedElements": 17,
+      "meanAbsoluteRGBAError": 7.1619415283203125,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.0535125732421875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-51",
+      "sourceSha256": "63dc0870b362b0f66616f5f667d8faf3818007cc87f257e76c7de099a2e92088",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-53",
+      "sourceSha256": "b946abb33162591bd9efe343b14c8354d35fc35b5093d58790876f22c4773d35",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-55",
+      "sourceSha256": "ffc2582700f5eff3be855a41dfbb04be22d2a51b8fd09cb33e7c112f49a3d4a2",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-56",
+      "sourceSha256": "f605485ec7b6891492be15da33ceb7943ae5b47fdb154e2dd9b84b0e61eafe50",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-62",
+      "sourceSha256": "2a799636dfc685d0fe9f51fd69c95467d5ecdf21c3c366523d5082c12c597cc0",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 7.0120391845703125,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.052459716796875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-66",
+      "sourceSha256": "36db1f3cfe411bbcd429d87fd182623dd8ede51139dcaa01cb2387e1d1dafbda",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 3.0322265625,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.0367431640625,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-67",
+      "sourceSha256": "1a8cbbebf4b1a796a7e67e66798cabc50c020a2fdefc165fcd167b24042248bb",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 26.42995834350586,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.14849853515625,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-71",
+      "sourceSha256": "d0c703cafd22f2ffb016e30153090743608bce81a3c790ea1ba813fc9ed42d42",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 6.881137847900391,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.0436859130859375,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-72",
+      "sourceSha256": "bc8e60b3677a9d53701415c08ca6d55e4186be56f58c36ee2ed10597f6862a62",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-75",
+      "sourceSha256": "813c9a0692f3e8c19436a31adf2e50d842642d60e3c1f90497e0035f3047d87e",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-78",
+      "sourceSha256": "42793dce2038fc955974cb33fb75369531213f121274eba7aad620292dcf49c0",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 5.032855987548828,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.040618896484375,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-81",
+      "sourceSha256": "e08e20cffa3a6a453ca15c5e080bbf7b63e82812a37b9ea4ac77307d1409cfa2",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-82",
+      "sourceSha256": "0a9f2278f00b08b2477303689ce24916d8cfada7e7ae4f16edec9b4f66a1bb06",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-83",
+      "sourceSha256": "bfb840d675d998a92cf28515362877e973e10ebbb2d58f9e0e88af13471add3c",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 7.146678924560547,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.0533599853515625,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-85",
+      "sourceSha256": "aac1d6ed140ad2e1839f86d2e41c56a176de84d266bb6fe81d6ccc0146a9573a",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 16,
+      "sanitizedElements": 16,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-87",
+      "sourceSha256": "0275f189003fdfc1a7e4e14020dbd3d59e093f36eafefdca36704713d4d99205",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-94",
+      "sourceSha256": "3ee088be91b48f210d84935f7519e3008e5f50eee1ff8428ae4cd291f16a077e",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 16,
+      "sanitizedElements": 16,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-95",
+      "sourceSha256": "340a2af2d0a30a0a308cffde3d7f2a89455be1e08b833f983c762a6829d2990b",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-98",
+      "sourceSha256": "59ea109be235d403a5665c80384c4fa315a1297f414a7faba2c5b26f6cbb6bb2",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-101",
+      "sourceSha256": "74834e65b7f19779bb13bd8de53c31e45d5548ecab47d1c7a9eff65b11a30fbd",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 12,
+      "sanitizedElements": 12,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-103",
+      "sourceSha256": "1f14867b16215336c7679d19a39b031400400d598dc71e24091e0f4956a63eae",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 17,
+      "sanitizedElements": 17,
+      "meanAbsoluteRGBAError": 4.165534973144531,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.0345611572265625,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-sitting-2",
+      "sourceSha256": "c247b61de194ffad2b14cd7256c724480995a16b95c2a31540d1958e49bea8b8",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-sitting-4",
+      "sourceSha256": "923eec36d10fc37583a8e6c934eb43b7b31368552668bf9c87ad3f2cbabcabc2",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-sitting-5",
+      "sourceSha256": "9eed8e2fbe71e1351bd203e4b3fe292df1e4d4efa551b973128ec37ef99c1a5f",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-sitting-6",
+      "sourceSha256": "a0e20fa8e8c6afac16466a432315a46f14816e7db9d886cfc340157f621f8e65",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-sitting-7",
+      "sourceSha256": "ab23b97b0ec13ea7a1bca9f04492b862fd1676eb3562818b65fa69628a88a116",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-sitting-9",
+      "sourceSha256": "3f9c4836141437ba9dcceb8e90b09a9bf7cc9e36900170af27c457a52768457f",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 26.18417739868164,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1487274169921875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-sitting-10",
+      "sourceSha256": "af8d7e0044c1fe1608bfa2754d0aaedbe812b5b9fe2ac74655242bf1b9d6f871",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 25.266735076904297,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.146759033203125,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-sitting-11",
+      "sourceSha256": "08417fc682525035adc2c3a06929aa297149a446d779e88e2d3c46fc192e6ccf",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 19,
+      "sanitizedElements": 19,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-sitting-12",
+      "sourceSha256": "1ec3e10269037194259dc76a43aca43e5f41129702b7ad0a1e2cabe6a0c36b5f",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-sitting-14",
+      "sourceSha256": "32d3b9a600c33f1666541dcd96ce90563d1188b6e8c82638655b3f6a071a761b",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 23.777050018310547,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.157470703125,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-sitting-15",
+      "sourceSha256": "a63c4b9b071ad62a75cf841224c3ea38617bb4eabbfbcdaaed4988237b466964",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 22.056838989257812,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.14801025390625,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-sitting-17",
+      "sourceSha256": "2070e61ed1381d132709429127a866d8bff509c4a480d8f0770c2b1e936815f3",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-sitting-18",
+      "sourceSha256": "fdd2238d466b12e13c391eff502f6131a08e45a428a8e9864a0c3239b8cd79b3",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-1",
+      "sourceSha256": "e1407cb746080b97d0e8b73bd2919979148ac13e5312b446b22d669b8013e449",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 16,
+      "sanitizedElements": 16,
+      "meanAbsoluteRGBAError": 8.785037994384766,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.060272216796875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-2",
+      "sourceSha256": "8829176407a2667abe2973fdd8cc12f1edb0b166d35642c1aaa84b5fbca5a276",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-3",
+      "sourceSha256": "eeecd4f64dc85e88072f9533073da90df4b17683875e7a26a988fd23264d050f",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-4",
+      "sourceSha256": "43be974ee3561925b6e7f669bc29fb2744edb605db797b476e6b3ff9173f730f",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-5",
+      "sourceSha256": "48ee978f47511ff66a373dd527072f02da57232edffceb37d0d108bbdc007c8a",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-6",
+      "sourceSha256": "8f779463fb2f05b1cc1f54859d53d3fe2d81c636f55092fc34d540e415124ad1",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-7",
+      "sourceSha256": "5c2bca5a4b7f0a196fc5bc22d9fd4a60f113d35489a6b22246c4ad62ec022b30",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 2,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 8.395004272460938,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.0677490234375,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-8",
+      "sourceSha256": "5eec9e6928e6357e266439e081413e792a0458189364c0fba078067d98d3c049",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 11.899127960205078,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.0792083740234375,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-10",
+      "sourceSha256": "dbb5094014315744cca7e73d3387722df73bdb1a5be8007a9c208b9710042b28",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-9",
+      "sourceSha256": "604e17c6380d4b2de328ff1d325ae9ae588f59ea8a62fcce567bc195e793a973",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-11",
+      "sourceSha256": "ae98aefaf10d95878bfeed159173064b276aa3746e40f3cae62125cd305ddfff",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-12",
+      "sourceSha256": "8a9529aaf258ad2ace3adf3625b2a6b9ddf8bcdc6a8d8313aea0bcb90193fc21",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 1.3554344177246094,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.011962890625,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-13",
+      "sourceSha256": "a8a87c1247b6b54d7319cba4f95c83a46385d1b0f9250054960719941989146b",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 16.313720703125,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.102752685546875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-14",
+      "sourceSha256": "36f34dd417a5a839102e983396872459fc46abc77428f3470eac02c0048ec781",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 8.824180603027344,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.0647430419921875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-15",
+      "sourceSha256": "887a47e61a3be67ad9fac118d8d78469300258bcc01003de378643318332c060",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 16.23212432861328,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.1015777587890625,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-16",
+      "sourceSha256": "4776a6f7d5eeda7bbe5282f87cd3f1a3eb0f3853755d3562ce871c9ff1e1d9cc",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-17",
+      "sourceSha256": "7025ce2684ffcfff2f2017ffc332ae807e95d3b8befa266ebe66a186d3c03414",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-18",
+      "sourceSha256": "319de94001c0d9293e1697428a35baad5f8c2f8189ebbb21e6de3777eccb24a6",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-19",
+      "sourceSha256": "3757c5e903835bba718d27f4606ca186f33c5b1b0ed1c40c3d98bca6cf8e9cef",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 16,
+      "sanitizedElements": 16,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-20",
+      "sourceSha256": "ba347f6a55ae2a4bf3e9e0b61d6e1aadfa250037396d1b6f844dc0d92dc75c19",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-21",
+      "sourceSha256": "5f3b379be2cf13fbcb7d0be93c86c7e6b69e7618c29dc5f4f2d3b4fe754e4b53",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-22",
+      "sourceSha256": "f1a8454d3348651609893139485cddd3f9f7a784e9c144393e3079ca819a3664",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 18.424545288085938,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.109344482421875,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-23",
+      "sourceSha256": "b25c09bd3f2c2f5538f490bffce60f22caa954acd0da4cd010b3872c83c719fe",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 5.397491455078125,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.0469512939453125,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-24",
+      "sourceSha256": "bf37099a78c2831bea2b775d7f432ea97fb8504a9e56c6c4f18caccd9f0ff878",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 13.873687744140625,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.0878753662109375,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-25",
+      "sourceSha256": "0c33051d7b39f72328403bd39159a82e44aaef45520f28178914caf0fd3d176d",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-26",
+      "sourceSha256": "b501d2c2552b3a7d461402788892318f55cedfce9881c6ce8cb1246acc17ca01",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 14,
+      "sanitizedElements": 14,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-27",
+      "sourceSha256": "d7ac4962484f1d73708e4f69260e8f60f97decf37e1513d17a534cf8faa45a6c",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-28",
+      "sourceSha256": "ee8c08ca99ecdea7775b9fb27e4ff87bf556088fd1ba3ad6c98311ff4afb576d",
+      "supported": true,
+      "lostAttributes": [
+        "path/@d"
+      ],
+      "lostCount": 1,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 9.288131713867188,
+      "maxChannelDelta": 255,
+      "changedPixelFraction": 0.063262939453125,
+      "rendererEquivalent": false
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-29",
+      "sourceSha256": "4d5802ad15444ee86652be7cefa08a917932019a0e0a6c512682d14bf153bada",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 15,
+      "sanitizedElements": 15,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    },
+    {
+      "id": "expansion12-vector-open-peeps-peep-standing-30",
+      "sourceSha256": "e0308b16a69b44afc97bb89cd8b24cdc6101e4e3bd3068d53aaf53d84000639d",
+      "supported": true,
+      "lostAttributes": [],
+      "lostCount": 0,
+      "originalElements": 17,
+      "sanitizedElements": 17,
+      "meanAbsoluteRGBAError": 0,
+      "maxChannelDelta": 0,
+      "changedPixelFraction": 0,
+      "rendererEquivalent": true
+    }
+  ]
+}

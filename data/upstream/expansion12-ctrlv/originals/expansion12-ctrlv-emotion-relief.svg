@@ -1,0 +1,23 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="130" ry="10" fill="#E2E8F0"/>
+            <g class="anim-float" style="animation-duration: 4s;">
+              <circle cx="200" cy="145" r="88" fill="var(--primary-color)"/>
+              <!-- Eyes closing in relief -->
+              <path d="M160 130 Q172 140 184 130 M216 130 Q228 140 240 130" stroke="var(--bg-surface)" stroke-width="7" stroke-linecap="round" fill="none"/>
+              <!-- Long exhale smile -->
+              <path d="M165 168 Q200 188 235 168" stroke="var(--bg-surface)" stroke-width="7" stroke-linecap="round" fill="none"/>
+              <!-- Drop of sweat / burden leaving -->
+              <ellipse class="anim-data" cx="255" cy="110" rx="5" ry="8" fill="var(--accent-color)" opacity="0.6"/>
+            </g>
+            <!-- Burden rising off / weight being shed -->
+            <g class="anim-float" style="animation-direction: reverse; animation-duration: 3s;" fill="var(--charcoal)" opacity="0.15">
+              <rect x="155" y="40" width="90" height="40" rx="8"/>
+              <!-- Chain links -->
+              <line x1="200" y1="80" x2="200" y2="55" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round" opacity="0.3"/>
+            </g>
+            <!-- Breath / exhale air puffs -->
+            <g class="anim-draw" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.4">
+              <path d="M235 200 Q260 195 280 200 Q300 205 315 198"/>
+              <path d="M240 212 Q260 207 278 212 Q295 217 308 210"/>
+            </g>
+          </svg>

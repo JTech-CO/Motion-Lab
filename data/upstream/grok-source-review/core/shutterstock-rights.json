@@ -1,0 +1,26 @@
+{
+  "id": "shutterstock",
+  "checkedAt": "2026-10-10",
+  "method": "official-Exa-extraction-and-public-web-connector-read",
+  "rightsObservations": [
+    {
+      "url": "https://www.shutterstock.com/license",
+      "claim": "Part I section 2.6은 별도 허가 없는 재판매·재배포·원본 공유·양도와 제3자가 선택하는 콘텐츠 갤러리를 금지한다. 팀·공유 DAM 권리도 공개 무제한 배포권이 아니다.",
+      "section": "Part I 2.6, single-seat and team restrictions",
+      "quote": "",
+      "method": "official-page-read-via-Exa-and-public-web-connector",
+      "checkedAt": "2026-10-10",
+      "permissionObtained": false
+    }
+  ],
+  "representativeObservation": {
+    "url": null,
+    "formats": [],
+    "downloadGate": "상품·API 플랜별 라이선스 계정",
+    "rights": "Shutterstock Terms of Service and License Agreement",
+    "individualDetailRead": false,
+    "limitation": "일반 Chrome 홈·라이선스는 403. Exa의 일부 URL이 API 홍보문으로 반환됐으며 개별 상품 URL을 확정하지 못함. 공식 라이선스 전문은 공개 웹 커넥터로 별도 확인."
+  },
+  "interpretation": "표준·확장 라이선스와 API 제공을 공개 원본 배포 허가로 사용할 수 없습니다.",
+  "mediaOrOriginalDownloaded": false
+}

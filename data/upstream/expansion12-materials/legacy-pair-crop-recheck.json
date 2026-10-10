@@ -1,0 +1,127 @@
+[
+  {
+    "left": "rock-036",
+    "right": "rock-038",
+    "maxSimilarity": 0.5210369825363159,
+    "best": {
+      "leftCrop": [
+        0,
+        768,
+        256,
+        1024
+      ],
+      "rightCrop": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "d4Index": 7,
+      "periodicShift": [
+        29,
+        18
+      ]
+    },
+    "method": "Full original and .75/.5/.375/.25 square crops at9 positions; grayscale/contrast normalized32px; all D4 and32x32 periodic shifts. Exact equality is not inferred from the score alone."
+  },
+  {
+    "left": "sand-005",
+    "right": "sand-007",
+    "maxSimilarity": 0.5371461510658264,
+    "best": {
+      "leftCrop": [
+        384,
+        384,
+        640,
+        640
+      ],
+      "rightCrop": [
+        0,
+        384,
+        256,
+        640
+      ],
+      "d4Index": 2,
+      "periodicShift": [
+        17,
+        7
+      ]
+    },
+    "method": "Full original and .75/.5/.375/.25 square crops at9 positions; grayscale/contrast normalized32px; all D4 and32x32 periodic shifts. Exact equality is not inferred from the score alone."
+  },
+  {
+    "left": "sand-005",
+    "right": "sand-006",
+    "maxSimilarity": 0.5114641785621643,
+    "best": {
+      "leftCrop": [
+        384,
+        768,
+        640,
+        1024
+      ],
+      "rightCrop": [
+        0,
+        640,
+        384,
+        1024
+      ],
+      "d4Index": 3,
+      "periodicShift": [
+        0,
+        21
+      ]
+    },
+    "method": "Full original and .75/.5/.375/.25 square crops at9 positions; grayscale/contrast normalized32px; all D4 and32x32 periodic shifts. Exact equality is not inferred from the score alone."
+  },
+  {
+    "left": "wood-door-003",
+    "right": "metal-iron-guard-001",
+    "maxSimilarity": 0.9999974966049194,
+    "best": {
+      "leftCrop": [
+        384,
+        0,
+        640,
+        256
+      ],
+      "rightCrop": [
+        384,
+        0,
+        640,
+        256
+      ],
+      "d4Index": 0,
+      "periodicShift": [
+        0,
+        0
+      ]
+    },
+    "method": "Full original and .75/.5/.375/.25 square crops at9 positions; grayscale/contrast normalized32px; all D4 and32x32 periodic shifts. Exact equality is not inferred from the score alone."
+  },
+  {
+    "left": "pebbles-020",
+    "right": "pebbles-021",
+    "maxSimilarity": 0.37428539991378784,
+    "best": {
+      "leftCrop": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "rightCrop": [
+        0,
+        768,
+        256,
+        1024
+      ],
+      "d4Index": 0,
+      "periodicShift": [
+        30,
+        1
+      ]
+    },
+    "method": "Full original and .75/.5/.375/.25 square crops at9 positions; grayscale/contrast normalized32px; all D4 and32x32 periodic shifts. Exact equality is not inferred from the score alone."
+  }
+]

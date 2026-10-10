@@ -1,0 +1,16 @@
+{
+  "url": "https://www.behance.net/embed/project/254081025?ilo0=1",
+  "method": "normal-isolated-Chrome-public-navigation",
+  "attemptedAt": "2026-10-10T11:37:07+00:00",
+  "timestampPrecision": "approximately-one-second",
+  "authenticated": false,
+  "challengeBypass": false,
+  "status": "browser-context-navigation-error",
+  "httpStatus": null,
+  "reason": "Page.title execution context destroyed during navigation; browser context closed in finally.",
+  "sourceAvailabilityConclusion": "unknown",
+  "auditScript": {
+    "path": "exa-results/link-audit/references/final_browser_check.py",
+    "sha256": "2859ba42abb1c7f09acc99f43de92a7a9fd57837dda9539a5d6cd63407a748fb"
+  }
+}

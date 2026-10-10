@@ -1,0 +1,56 @@
+{
+  "url": "https://sordello.net/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://sordello.net/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://sordello.net/",
+      "allowedForAuditGet": true,
+      "reason": "robots-missing-not-a-license",
+      "robotsUrl": "https://sordello.net/robots.txt",
+      "robotsStatus": 404
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://sordello.net/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:00.192573+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://sordello.net/",
+      "contentType": "text/html",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 25230,
+      "capturedSha256": "95e9aa9c75665c26e1b2d9e2c58282934321c9d31da221973d00d87db3f151e2",
+      "responseBodySha256": "95e9aa9c75665c26e1b2d9e2c58282934321c9d31da221973d00d87db3f151e2",
+      "title": "Nicolas Sordello",
+      "textCharacters": 5574,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.156,
+      "captureCachePath": "exa-results/link-audit/references/captures/e6c8123e27e0f976d0450a3c.json",
+      "captureCacheSha256": "517d2ad3b6f8f2886d64d38cef1b2317776ad928fcbedc060e16ec6666f50f79"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-nicolas-sordello",
+      "canonicalId": "ref-nicolas-sordello",
+      "title": "Nicolas Sordello",
+      "role": "canonical",
+      "sourceSha256": "8b71d8cda2cc4b30a1c214ee6243c761285cf791b3f6fe2d223256e8cea25a26"
+    }
+  ]
+}

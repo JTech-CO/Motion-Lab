@@ -1,0 +1,13 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <ellipse cx="200" cy="220" rx="100" ry="20" fill="var(--primary-color)"/>
+                <circle cx="120" cy="150" r="25" fill="var(--charcoal)"/>
+                <path d="M90 220 C90 180 150 180 150 220" fill="var(--charcoal)"/>
+                <circle cx="280" cy="150" r="25" fill="var(--secondary-color)"/>
+                <path d="M250 220 C250 180 310 180 310 220" fill="var(--secondary-color)"/>
+                <path class="anim-bounce" d="M200 60 H260 V120 H220 L200 140 L200 120 H180 V60 H200 Z" fill="var(--accent-color)"/>
+                <circle cx="200" cy="90" r="4" fill="white"/>
+                <circle cx="220" cy="90" r="4" fill="white"/>
+                <circle cx="240" cy="90" r="4" fill="white"/>
+            </g>
+          </svg>

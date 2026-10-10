@@ -1,0 +1,56 @@
+{
+  "url": "https://animista.net/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://animista.net/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://animista.net/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://animista.net/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://animista.net/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:04.021944+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://animista.net/",
+      "contentType": "text/html",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 70194,
+      "capturedSha256": "8b4204be5628bbbf6ac1f43b569fc86f0e6de9e719af6849dd4c00d4d1ad96f9",
+      "responseBodySha256": "8b4204be5628bbbf6ac1f43b569fc86f0e6de9e719af6849dd4c00d4d1ad96f9",
+      "title": "Animista - On-Demand CSS Animations Library",
+      "textCharacters": 20627,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.051,
+      "captureCachePath": "exa-results/link-audit/references/captures/c7942b76982b3f1c239b8aed.json",
+      "captureCacheSha256": "35a14323001e306e490aa562013c74d34e3342dc9a70b3ca391cb506d32cf6dc"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-animista",
+      "canonicalId": "ref-animista",
+      "title": "Animista",
+      "role": "canonical",
+      "sourceSha256": "4a490e80a35675596fdcd56a1149738b43b36dad96527e6412954ce94d692950"
+    }
+  ]
+}

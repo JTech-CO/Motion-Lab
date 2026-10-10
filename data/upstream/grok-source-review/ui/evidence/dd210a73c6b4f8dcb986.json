@@ -1,0 +1,22 @@
+{
+  "url": "https://mosso.video/robots.txt",
+  "site": "mosso",
+  "reviewedAt": "2026-10-10",
+  "captures": [
+    {
+      "method": "public-HTTP-GET",
+      "status": 200,
+      "observedContent": "공식 robots.txt 공개 응답을 읽고 수집 전에 홈 경로 조건을 확인했습니다. robots 규칙은 재배포 라이선스와 별개입니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://mosso.video/robots.txt",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/mosso-robots-http.json",
+      "rawCacheSha256": "974eb44851ed46a79182cb409b05b5ac19a4df3f7ed21c9bd79c52f6577c0fb1",
+      "capturedTextSha256": "684631b82da3101bf835cdd28a6302139f6df99caa4ecfe1ff3164dd18ac8cae",
+      "responseCapturedSha256": "684631b82da3101bf835cdd28a6302139f6df99caa4ecfe1ff3164dd18ac8cae",
+      "boundedAtBytes": 1048576,
+      "truncated": false
+    }
+  ],
+  "contentPolicy": "원문 전체는 ignored exa-results 캐시에만 보관합니다. 이 파일은 접근 상태와 SHA 및 자체 요약만 저장하며 페이지 인용은 sites.json termsEvidence에만 최대 25단어로 기록합니다."
+}

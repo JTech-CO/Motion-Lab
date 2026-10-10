@@ -1,0 +1,37 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <!-- Candlestick Chart Background -->
+            <g class="anim-pulse" opacity="0.5">
+                <!-- Candle 1 -->
+                <line x1="100" y1="180" x2="100" y2="240" stroke="var(--secondary-color)" stroke-width="4" stroke-linecap="round"/>
+                <rect x="90" y="200" width="20" height="30" rx="2" fill="var(--secondary-color)"/>
+                
+                <!-- Candle 2 -->
+                <line x1="160" y1="120" x2="160" y2="190" stroke="var(--primary-color)" stroke-width="4" stroke-linecap="round"/>
+                <rect x="150" y="130" width="20" height="40" rx="2" fill="var(--primary-color)"/>
+                
+                <!-- Candle 3 -->
+                <line x1="220" y1="140" x2="220" y2="200" stroke="var(--secondary-color)" stroke-width="4" stroke-linecap="round"/>
+                <rect x="210" y="160" width="20" height="20" rx="2" fill="var(--secondary-color)"/>
+                
+                <!-- Candle 4 -->
+                <line x1="280" y1="70" x2="280" y2="150" stroke="var(--primary-color)" stroke-width="4" stroke-linecap="round"/>
+                <rect x="270" y="90" width="20" height="40" rx="2" fill="var(--primary-color)"/>
+            </g>
+            
+            <g class="anim-float">
+                <!-- Abstract Eye for "Analysis/Sight" -->
+                <path d="M120 100 Q200 40 280 100 Q200 160 120 100 Z" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="8" stroke-linejoin="round"/>
+                
+                <!-- Iris -->
+                <circle cx="200" cy="100" r="30" fill="var(--accent-color)"/>
+                <circle cx="200" cy="100" r="15" fill="var(--charcoal)"/>
+                <!-- Eye Highlight -->
+                <circle class="anim-glow" cx="190" cy="90" r="8" fill="var(--bg-surface)"/>
+                
+                <!-- Scanning Lasers / Focus Lines -->
+                <path class="anim-draw" d="M200 130 V220" stroke="var(--accent-color)" stroke-width="4" stroke-dasharray="8 8" fill="none"/>
+                <path class="anim-draw" style="animation-delay: 0.5s;" d="M160 115 L100 150" stroke="var(--accent-color)" stroke-width="4" stroke-dasharray="8 8" fill="none"/>
+                <path class="anim-draw" style="animation-delay: 0.5s;" d="M240 115 L300 150" stroke="var(--accent-color)" stroke-width="4" stroke-dasharray="8 8" fill="none"/>
+            </g>
+          </svg>

@@ -1,0 +1,30 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="160" ry="12" fill="#E2E8F0"/>
+            <g class="anim-float">
+                <!-- Poles -->
+                <line x1="180" y1="40" x2="260" y2="260" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+                <line x1="220" y1="40" x2="140" y2="260" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+                <line x1="200" y1="30" x2="200" y2="260" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+                <line x1="190" y1="35" x2="180" y2="260" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+                <line x1="210" y1="35" x2="220" y2="260" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+                
+                <!-- Tipi Canvas -->
+                <path d="M200 80 L140 260 H260 Z" fill="var(--primary-color)"/>
+                <path d="M200 80 L200 260 H260 Z" fill="var(--bg-surface)" opacity="0.1"/>
+                
+                <!-- Flaps -->
+                <path d="M200 80 L180 140 L200 130 Z" fill="var(--secondary-color)"/>
+                <path d="M200 80 L220 140 L200 130 Z" fill="var(--secondary-color)"/>
+                
+                <!-- Entrance -->
+                <path d="M200 200 L185 260 H215 Z" fill="var(--charcoal)"/>
+                
+                <!-- Primitive decoration markings on canvas -->
+                <path class="anim-draw" d="M165 180 H235 M155 210 H245" stroke="var(--accent-color)" stroke-width="4" stroke-dasharray="8 8"/>
+                <path class="anim-draw" d="M175 150 L185 140 L195 150 M205 150 L215 140 L225 150" stroke="var(--secondary-color)" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </g>
+            
+            <!-- Campfire smoke -->
+            <path class="anim-float" d="M200 50 Q180 30 200 10 Q220 -10 200 -30" fill="none" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round" opacity="0.2"/>
+            <path class="anim-float" style="animation-delay: -1s;" d="M210 60 Q230 40 210 20 Q190 0 210 -20" fill="none" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round" opacity="0.2"/>
+          </svg>

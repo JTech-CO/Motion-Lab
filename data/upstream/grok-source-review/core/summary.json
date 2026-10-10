@@ -1,0 +1,15 @@
+{
+  "checkedAt": "2026-10-10",
+  "siteCount": 11,
+  "exaSearchCalls": 24,
+  "sources_reviewed": 120,
+  "sourcesReviewedDefinition": "Sum of requested numResults across all Exa searches, including one result lost after orchestration error and its retry; not unique websites.",
+  "liveAccessAttempts": 55,
+  "verifiedNetNew": 0,
+  "unverifiedPotential": null,
+  "originalOrMediaDownloads": 0,
+  "apiCalls": 0,
+  "catalogSha256": "643300e8581b957345acc4d636a13b30bf52c5b24cf3714b10341a53c4032c97",
+  "inputDocumentSha256": "0f24811d881afcef367c27a6a350f5a21b71e4487e93ff35ec936722c5b73d5a",
+  "robotsPolicy": "Review only. No bulk asset crawler. A robots allowance does not grant redistribution rights; direct denials were not bypassed."
+}

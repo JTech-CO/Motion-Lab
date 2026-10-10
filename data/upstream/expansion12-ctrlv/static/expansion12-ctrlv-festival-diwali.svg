@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            
+            <circle cx="200" cy="180" r="100" fill="#DFD116" opacity="0.15" />
+            <circle cx="200" cy="180" r="60" fill="#DFD116" opacity="0.25" />
+            <g>
+                
+                <path d="M130 200 Q200 250 270 200 C270 200 200 210 130 200 Z" fill="#6366f1" />
+                <path d="M140 190 Q200 220 260 190 C260 210 200 220 140 190 Z" fill="#334155" />
+                <path d="M200 195 L195 180 L205 180 Z" fill="#f43f5e" />
+                
+                <path d="M200 140 Q180 170 200 185 Q220 170 200 140 Z" fill="#DFD116" />
+                <path d="M200 150 Q190 170 200 180 Q210 170 200 150 Z" fill="white" />
+            </g>
+            <g>
+                <path d="M70 230 Q100 255 130 230 C130 230 100 240 70 230 Z" fill="#f43f5e" />
+                <path d="M100 190 Q90 210 100 220 Q110 210 100 190 Z" fill="#DFD116" />
+            </g>
+            <g>
+                <path d="M270 230 Q300 255 330 230 C330 230 300 240 270 230 Z" fill="#f43f5e" />
+                <path d="M300 190 Q290 210 300 220 Q310 210 300 190 Z" fill="#DFD116" />
+            </g>
+          </svg>

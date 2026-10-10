@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-wave">
+                <!-- Surfboard -->
+                <ellipse cx="200" cy="150" rx="40" ry="120" transform="rotate(45 200 150)" fill="var(--primary-color)"/>
+                
+                <path d="M120 230 L280 70" stroke="var(--secondary-color)" stroke-width="20" stroke-linecap="round"/>
+                <path d="M100 210 L260 50" stroke="var(--accent-color)" stroke-width="10" stroke-linecap="round"/>
+                
+                <ellipse cx="140" cy="210" rx="10" ry="20" transform="rotate(45 140 210)" fill="var(--charcoal)"/> <!-- Fin -->
+            </g>
+            <style>
+                .anim-wave {
+                    animation: surfWave 4s infinite ease-in-out alternate;
+                    transform-origin: 200px 150px;
+                }
+                @keyframes surfWave {
+                    0% { transform: translate(-20px, 10px) rotate(-5deg); }
+                    100% { transform: translate(20px, -10px) rotate(5deg); }
+                }
+            </style>
+          </svg>

@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Person 1 (Left) -->
+                <path class="anim-bounce" d="M110 240 C110 200 130 180 160 180 H170 C190 180 190 200 190 240 Z" fill="var(--primary-color)"/>
+                <circle class="anim-bounce" cx="150" cy="140" r="25" fill="var(--primary-color)"/>
+                
+                <!-- Person 2 (Right) -->
+                <path class="anim-bounce" style="animation-delay: 0.2s;" d="M290 240 C290 200 270 180 240 180 H230 C210 180 210 200 210 240 Z" fill="var(--secondary-color)"/>
+                <circle class="anim-bounce" style="animation-delay: 0.2s;" cx="250" cy="140" r="25" fill="var(--secondary-color)"/>
+                
+                <!-- Huge Magnet Field pulling them together -->
+                <path d="M120 100 C150 50 250 50 280 100" stroke="var(--accent-color)" stroke-width="12" stroke-linecap="round" fill="none" opacity="0.2"/>
+                <path class="anim-draw" d="M140 120 C170 80 230 80 260 120" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 5" fill="none"/>
+                
+                <!-- Attraction Sparks/Hearts -->
+                <g class="anim-pulse">
+                    <path d="M200 150 C200 150 190 140 190 135 C190 130 200 130 200 135 C200 130 210 130 210 135 C210 140 200 150 200 150 Z" fill="var(--accent-color)"/>
+                    <path style="animation-delay: 0.4s;" d="M200 180 C200 180 195 175 195 170 C195 165 200 165 200 170 C200 165 205 165 205 170 C205 175 200 180 200 180 Z" fill="var(--accent-color)"/>
+                </g>
+            </g>
+          </svg>

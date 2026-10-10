@@ -1,0 +1,27 @@
+{
+  "url": "https://design.gitlab.com/brand-design/motion",
+  "status": "browser-check-required",
+  "finalUrl": "https://design.gitlab.com/brand-design/motion",
+  "reason": "robots-policy-unverified-normal-browser-needed",
+  "invalidConfirmed": false,
+  "inconclusive": true,
+  "robotsChecks": [
+    {
+      "url": "https://design.gitlab.com/brand-design/motion",
+      "allowedForAuditGet": false,
+      "reason": "robots-policy-unverified-normal-browser-needed",
+      "robotsUrl": "https://design.gitlab.com/robots.txt",
+      "robotsStatus": 403
+    }
+  ],
+  "accessEvidence": [],
+  "items": [
+    {
+      "id": "ref-gitlab-pajamas-motion",
+      "canonicalId": "ref-gitlab-pajamas-motion",
+      "title": "GitLab Pajamas Motion",
+      "role": "canonical",
+      "sourceSha256": "43f11123e6c6b2b501da710d3811ade6e56b1c6b81fd61fe5373361ba11f3322"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Wooden Board -->
+                <rect x="80" y="180" width="240" height="50" rx="10" fill="var(--secondary-color)" opacity="0.8"/>
+                
+                <!-- Large Steak Cut -->
+                <g class="anim-bounce">
+                    <path d="M120 170 C120 140 160 130 200 130 C240 130 300 140 300 170 C300 200 260 210 200 210 C140 210 120 200 120 170 Z" fill="var(--primary-color)"/>
+                    <!-- Bone shape -->
+                    <circle cx="160" cy="160" r="15" fill="var(--bg-surface)" opacity="0.9"/>
+                    <rect x="155" y="160" width="20" height="30" rx="5" fill="var(--bg-surface)" opacity="0.9"/>
+                    
+                    <!-- Grill Marks -->
+                    <g stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round" opacity="0.5">
+                        <line x1="180" y1="140" x2="280" y2="180"/>
+                        <line x1="200" y1="135" x2="290" y2="170"/>
+                        <line x1="160" y1="150" x2="260" y2="190"/>
+                    </g>
+                </g>
+                
+                <!-- Sizzling Steam bubbles -->
+                <circle class="anim-glow" cx="240" cy="140" r="5" fill="var(--accent-color)" opacity="0.6"/>
+                <path class="anim-float" d="M220 120 Q230 100 220 80 M250 120 Q260 100 250 80" stroke="var(--primary-color)" stroke-width="3" opacity="0.4"/>
+            </g>
+          </svg>

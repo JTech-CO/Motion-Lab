@@ -1,0 +1,56 @@
+{
+  "url": "https://uigradients.com/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://uigradients.com/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://uigradients.com/",
+      "allowedForAuditGet": true,
+      "reason": "robots-missing-not-a-license",
+      "robotsUrl": "https://uigradients.com/robots.txt",
+      "robotsStatus": 404
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://uigradients.com/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:05.091111+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://uigradients.com/",
+      "contentType": "text/html",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 2342,
+      "capturedSha256": "13dd960d678f370ac6942140c8184f34fb46454d8f4cd9a37593afbab9c010f3",
+      "responseBodySha256": "13dd960d678f370ac6942140c8184f34fb46454d8f4cd9a37593afbab9c010f3",
+      "title": "uiGradients - Beautiful colored gradients",
+      "textCharacters": 41,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.447,
+      "captureCachePath": "exa-results/link-audit/references/captures/170def5e87ff0df2745717bd.json",
+      "captureCacheSha256": "519b0f7fff681d752e0e2422e51aad8fc22e79ebe9d61e13ed7000b31c21393c"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-uigradients",
+      "canonicalId": "ref-uigradients",
+      "title": "uiGradients",
+      "role": "canonical",
+      "sourceSha256": "17fbfdd34d96b9a04ec69e1dc70b0d06e1a6e28853d10baabdc0a7f860ca798a"
+    }
+  ]
+}

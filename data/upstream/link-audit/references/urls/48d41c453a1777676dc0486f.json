@@ -1,0 +1,56 @@
+{
+  "url": "https://www.designsystems.com/5-steps-for-including-motion-design-in-your-system/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://www.designsystems.com/5-steps-for-including-motion-design-in-your-system/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://www.designsystems.com/5-steps-for-including-motion-design-in-your-system/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://www.designsystems.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://www.designsystems.com/5-steps-for-including-motion-design-in-your-system/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:49.995843+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://www.designsystems.com/5-steps-for-including-motion-design-in-your-system/",
+      "contentType": "text/html; charset=UTF-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 123749,
+      "capturedSha256": "7365c2e2443863d0c87a2be25844299bc39bf4fd01c8b3f522b1e5d552115946",
+      "responseBodySha256": "7365c2e2443863d0c87a2be25844299bc39bf4fd01c8b3f522b1e5d552115946",
+      "title": "5 steps for systematizing motion design",
+      "textCharacters": 14099,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.815,
+      "captureCachePath": "exa-results/link-audit/references/captures/f84987962ca4c9c15297e4e6.json",
+      "captureCacheSha256": "88717949fa1333721c4033f83500c20790d4aab6969adb682e401b0cedce0e98"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-designsystems-com",
+      "canonicalId": "ref-designsystems-com",
+      "title": "Designsystems.com",
+      "role": "canonical",
+      "sourceSha256": "f835d6f81ace68620a0bede7932b16bbcecba493feced593d7a447c9b42eef47"
+    }
+  ]
+}

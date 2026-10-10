@@ -1,0 +1,17 @@
+
+      <svg viewBox="0 0 512 384" xmlns="http://www.w3.org/2000/svg">
+        <rect x="180" y="60" width="152" height="264" rx="20" fill="var(--illu-primary)" fill-opacity="0.1" stroke="var(--illu-primary)" stroke-width="8"/>
+        <rect x="200" y="100" width="112" height="112" rx="8" fill="none" stroke="var(--illu-primary)" stroke-width="6" stroke-dasharray="10 10"/>
+        
+        <!-- QR Elements -->
+        <rect x="215" y="115" width="25" height="25" fill="var(--illu-primary)" />
+        <rect x="272" y="115" width="25" height="25" fill="var(--illu-primary)" />
+        <rect x="215" y="172" width="25" height="25" fill="var(--illu-primary)" />
+        <rect x="250" y="145" width="12" height="12" fill="var(--illu-secondary)" />
+        
+        <!-- Successful Checkmark -->
+        <path class="anim-draw" d="M220 270 L250 300 L300 240" fill="none" stroke="var(--illu-accent)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+        
+        <circle cx="256" cy="305" r="4" fill="var(--illu-primary)"/>
+      </svg>
+    

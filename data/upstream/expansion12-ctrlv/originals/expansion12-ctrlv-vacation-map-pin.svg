@@ -1,0 +1,13 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <path d="M100 120 L160 100 L240 130 L300 100 V220 L240 250 L160 220 L100 240 Z" fill="var(--primary-color)"/>
+                <path d="M160 100 V220 M240 130 V250" stroke="white" stroke-width="4" opacity="0.5"/>
+                
+                <path class="anim-draw" d="M140 150 L180 180 L220 140 L260 190" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                
+                <g class="anim-bounce">
+                    <path d="M220 140 C220 100 260 100 260 140 C260 170 240 200 240 200 C240 200 220 170 220 140 Z" fill="var(--accent-color)"/>
+                    <circle cx="240" cy="135" r="8" fill="white"/>
+                </g>
+            </g>
+          </svg>

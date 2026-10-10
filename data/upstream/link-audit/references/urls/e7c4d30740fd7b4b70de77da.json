@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/particles.tsx",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/particles.tsx",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/particles.tsx",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/particles.tsx",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:12.106260+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/particles.tsx",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "05e4bb8643af91a4f947aac89f2ac706395e6f7bf7c7629328266d0c3de04d83",
+      "responseBodySha256": "05e4bb8643af91a4f947aac89f2ac706395e6f7bf7c7629328266d0c3de04d83",
+      "title": "magicui/apps/www/registry/magicui/particles.tsx at cdb348cb4c72a9b54b554d8617801e479fbc8714 · magicuidesign/magicui · GitHub",
+      "textCharacters": 3749,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.586,
+      "captureCachePath": "exa-results/link-audit/references/captures/14b3b424fdf6536bd1cbe3ae.json",
+      "captureCacheSha256": "c316f9817fb0b164e5aadb01aa3440caa1999f542225d62bcd9e827f9c787dee"
+    }
+  ],
+  "items": [
+    {
+      "id": "asset-magicui-particles",
+      "canonicalId": "asset-magicui-particles",
+      "title": "Magic UI · Particles",
+      "role": "canonical",
+      "sourceSha256": "33082ad25c6e4cc6cf25e52f77a13d7e6681e3c48406182b703269b7c33738dc"
+    }
+  ]
+}

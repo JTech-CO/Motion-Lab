@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <ellipse cx="200" cy="270" rx="130" ry="10" fill="#e2e8f0" opacity="0.6" />
+            
+            <path d="M120 180 Q80 140 140 80 T260 80 Q320 140 280 180 Z" fill="#f43f5e" opacity="0.1" />
+            
+            <g>
+                
+                <rect x="120" y="140" width="160" height="110" rx="8" fill="#6366f1" />
+                
+                
+                <rect x="130" y="150" width="140" height="4" fill="white" opacity="0.8" />
+                <rect x="130" y="170" width="40" height="4" fill="white" opacity="0.8" />
+                <rect x="180" y="170" width="100" height="4" fill="white" opacity="0.8" />
+                <rect x="130" y="190" width="80" height="4" fill="white" opacity="0.8" />
+                <rect x="220" y="190" width="60" height="4" fill="white" opacity="0.8" />
+                <rect x="130" y="210" width="140" height="4" fill="white" opacity="0.8" />
+                <rect x="130" y="230" width="100" height="4" fill="white" opacity="0.8" />
+                
+                
+                <rect x="120" y="110" width="160" height="25" rx="4" fill="#334155" />
+                
+                <path d="M130 110 L145 135 M160 110 L175 135 M190 110 L205 135 M220 110 L235 135 M250 110 L265 135" stroke="white" stroke-width="4" />
+                
+                
+                <g>
+                    <rect x="120" y="80" width="160" height="25" rx="4" fill="#334155" transform="rotate(-20 120 105)" />
+                    <path d="M130 80 L145 105 M160 80 L175 105 M190 80 L205 105 M220 80 L235 105 M250 80 L265 105" stroke="white" stroke-width="4" transform="rotate(-20 120 105)" />
+                </g>
+                
+                
+                <circle cx="128" cy="122" r="6" fill="#DFD116" />
+            </g>
+            
+            
+            <path d="M260 60 L270 50 M280 80 L295 75 M290 100 L305 105" stroke="#f43f5e" stroke-width="3" stroke-linecap="round" />
+          </svg>

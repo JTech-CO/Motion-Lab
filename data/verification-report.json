@@ -1,18 +1,18 @@
 {
   "verifiedAt": "2026-10-10",
-  "total": 10286,
-  "storedAssets": 10001,
+  "total": 11825,
+  "storedAssets": 11542,
   "domains": {
-    "motion": 3345,
-    "design": 6656
+    "motion": 3399,
+    "design": 8143
   },
-  "minimumStored": 10000,
-  "originalIdentities": 10320,
+  "minimumStored": 0,
+  "originalIdentities": 11859,
   "mergedGroups": 20,
   "aliases": 34,
   "variantRecords": 54,
   "repairedCompositions": 3,
-  "added": 8170,
+  "added": 9711,
   "inputCounts": {
     "css-wave-items.json": 644,
     "vector-wave-items.json": 1857,
@@ -20,19 +20,27 @@
     "phase2-motion-items.json": 510,
     "phase2-design-items.json": 3157,
     "phase2-material-items.json": 494,
-    "phase2-game-design-items.json": 54
+    "phase2-game-design-items.json": 54,
+    "expansion12-motion-items.json": 54,
+    "expansion12-pattern-items.json": 119,
+    "expansion12-vector-items.json": 82,
+    "expansion12-material-items.json": 784,
+    "expansion12-shape-items.json": 367,
+    "expansion12-openmoji-items.json": 116,
+    "expansion12-ctrlv-items.json": 19,
+    "expansion12-motion-reserve-items.json": 0
   },
   "excluded": 0,
   "kinds": {
-    "code": 7078,
-    "image": 494,
+    "code": 7859,
+    "image": 1254,
     "palette": 2429,
-    "reference": 285
+    "reference": 283
   },
   "codeLanguages": {
     "css": 2307,
-    "glsl": 123,
-    "svg": 4648
+    "glsl": 177,
+    "svg": 5375
   },
   "checks": [
     "minimum",
@@ -57,5 +65,5 @@
     "search-last-page",
     "domain-search"
   ],
-  "catalogSha256": "a50812c61e93d655ca725b219a393aad7574036708d7917ad19ae3be32511487"
+  "catalogSha256": "f3f125c7f7e43ad061d137fc20ee013f2f320c31f5a2fd0e9e7902e03c823b13"
 }

@@ -1,0 +1,14 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <g class="anim-bounce">
+              <rect x="80" y="130" width="240" height="100" rx="8" fill="var(--primary-color)"/>
+              <rect x="88" y="138" width="50" height="40" rx="4" fill="var(--secondary-color)"/>
+              <rect x="148" y="138" width="50" height="40" rx="4" fill="var(--secondary-color)"/>
+              <rect x="208" y="138" width="50" height="40" rx="4" fill="var(--secondary-color)"/>
+              <rect x="88" y="185" width="170" height="10" rx="3" fill="var(--bg-surface)" opacity="0.4"/>
+              <path d="M192 130 V85" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+              <path class="anim-float" d="M150 85 Q192 55 234 85" stroke="var(--accent-color)" stroke-width="10" stroke-linecap="round" fill="none"/>
+              <circle class="anim-glow" cx="192" cy="85" r="8" fill="var(--accent-color)"/>
+              <path d="M90 108 H130 M90 118 H120" stroke="var(--primary-color)" stroke-width="4" stroke-linecap="round"/>
+            </g>
+          </svg>

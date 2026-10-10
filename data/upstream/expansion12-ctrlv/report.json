@@ -1,0 +1,177 @@
+{
+  "version": 1,
+  "reviewComplete": true,
+  "source": "ctrlv.design",
+  "reviewedAt": "2026-10-10",
+  "rights": "CC0-1.0, complete 6,953-byte publisher notice preserved and independently opened with browser JavaScript disabled.",
+  "aiGenerated": true,
+  "aiDisclosure": "Publisher explicitly says the SVG illustrations are fully AI-generated with Antigravity; this disclosure is carried in every adopted record.",
+  "sourceJavaScriptExecuted": false,
+  "sourceCount": 1020,
+  "uniqueSourceIds": 1019,
+  "literalSvgParsed": 1014,
+  "potentiallyHostSupported": 908,
+  "hostSupportedAndRendererEquivalent": 907,
+  "malformedXML": 6,
+  "containsUnsupportedVisibleText": 104,
+  "undefinedOfficialDefaultVariables": 4,
+  "unsupportedOrVisibleAttributeLossUnique": 113,
+  "accepted": 19,
+  "excluded": 1001,
+  "adoptionRate": 0.018627450980392157,
+  "decisionGateCounts": {
+    "common-primitive-or-glyph-family": 888,
+    "independent-compound-composition": 19,
+    "renderer-visible-attribute-loss": 1,
+    "unsupported-source-presentation": 112
+  },
+  "fixed500PilotChanged": false,
+  "allContactSheetsVisuallyReviewed": 11,
+  "contactSheetRanges": "0..1019, original literal order; no novelty-based sample selection.",
+  "expandedCompoundCandidatesReviewed": 63,
+  "expandedCompoundContactSheets": 3,
+  "comparisonScope": {
+    "baselineOriginalRecords": 10343,
+    "baselineSVG": 4652,
+    "newRecords": 1344,
+    "comparisonSVG": 5360,
+    "candidateSVG": 1014,
+    "rasterCandidates": 1014,
+    "rasterComparisonRecords": 5816,
+    "crossRasterPairs": 5897424,
+    "intraRasterPairs": 513591,
+    "orientationsPerPair": 8,
+    "allCrossNearPairs": 16639,
+    "allIntraNearPairs": 1154,
+    "savedNearPairCapPerCandidate": 10
+  },
+  "duplicateMethod": "Full safe SVG tree canonicalization ignores paint/timing. Raster D4 IoU nominates visual review only; bounding circles/rectangles and the same subject label never establish identity. Existing catalogue variants and retained original records are included. Full OpenMoji originals are comparison context pending its final adoption review.",
+  "exactOrSmallCoordinateStructuralPairs": 0,
+  "sourceIdCollision": "under-construction appears at indices 126 and 913 with different artwork; both are excluded as basic glyph constructions and IDs are disambiguated by ordinal.",
+  "staticAdaptation": "Only official first :root default light-theme palette. Source CSS animation is frozen; no animation or motion asset is inferred from static SVG classes.",
+  "limits": "This is a bounded source/construction audit against the recorded Motion Lab input snapshots. It does not claim uniqueness against all world artwork. Exterior-circle/rectangle raster IoU is a nomination, not proof of duplication. Palette, quantity, state, pose and common generic UI compositions are excluded without claiming byte identity.",
+  "remainingQualifiedSupplyFromReviewedSource": 0,
+  "projectedSupplyNote": "The full source inventory was reviewed. No further qualified items remain under this construction and host-preservation gate; 1,020 source listings are not 1,020 independent adoptable assets.",
+  "bindings": [
+    {
+      "path": "data/upstream/expansion12-ctrlv/robots.txt",
+      "bytes": 283,
+      "sha256": "0daac9f996479757dad735ddc604c6ef14a770403606e78bf4e71e55a148fd21"
+    },
+    {
+      "path": "data/upstream/expansion12-ctrlv/disclaimer.html",
+      "bytes": 17774,
+      "sha256": "4ae24993e7d7664c83d03716a1676a41d94ddcf1d185b4877b16025edd445779"
+    },
+    {
+      "path": "data/upstream/expansion12-ctrlv/LICENSE",
+      "bytes": 6953,
+      "sha256": "2d2fc56f266bc2cbe360969e8b5c27565f3cc324bc7f690f7c66f9e0469a54d1"
+    },
+    {
+      "path": "data/upstream/expansion12-ctrlv/illustrations-data.js",
+      "bytes": 1944786,
+      "sha256": "aed04eb87a907c67e8583205d683f6eb34640e7df336b09b943b9697d9c422cc"
+    },
+    {
+      "path": "data/upstream/expansion12-ctrlv/index.html",
+      "bytes": 66743,
+      "sha256": "d8b4338a28b374a7c9dca79ed823344ab8a5f101fb9da43b9355408ba57fb847"
+    },
+    {
+      "path": "data/upstream/expansion12-ctrlv/style.css",
+      "bytes": 51561,
+      "sha256": "84d2ccbdfbdd46d4732d9975f2a8cecbd273cd7241d194c7b54934efd12fea66"
+    },
+    {
+      "path": "data/upstream/expansion12-ctrlv/access.json",
+      "bytes": 1697,
+      "sha256": "15fddd637df376c1dd791f423c4f3cf5b8298a04dc74ca2f1f9ea89602af59d0"
+    },
+    {
+      "path": "data/upstream/expansion12-ctrlv/license-browser-review.json",
+      "bytes": 438,
+      "sha256": "bff63f8955bfb848c968fbef3da36701b960ff08d4d5685c9abb13852fa71853"
+    },
+    {
+      "path": "data/upstream/expansion12-ctrlv/manifest.json",
+      "bytes": 1013087,
+      "sha256": "7c2005cd4177ef2fde6c5ab7e5106d6a46c118c37089dcf272ac356dff6d438e"
+    },
+    {
+      "path": "data/upstream/expansion12-ctrlv/render.json",
+      "bytes": 6047230,
+      "sha256": "d0833949eb7d5a9e9a3652260c9ff9b2894154bed3154852ee5f3cdad5a94464"
+    },
+    {
+      "path": "data/upstream/expansion12-ctrlv/duplicate-screen.json",
+      "bytes": 4537697,
+      "sha256": "e2acd8f449a3c62497095de430bfb77e0a5d3af036f11df949724b845214a91b"
+    },
+    {
+      "path": "data/upstream/expansion12-ctrlv/interior-screen.json",
+      "bytes": 3173068,
+      "sha256": "72e3decbc6c0b9968d5b189338fd0ac35bc91b041b7744e723f173ac1682992c"
+    },
+    {
+      "path": "data/upstream/expansion12-ctrlv/decisions.json",
+      "bytes": 2314365,
+      "sha256": "5e28fffa78c97653010ccc8426474f6d8ea2d22eb7c8b1a5696a65dbf1f2b29d"
+    },
+    {
+      "path": "data/upstream/expansion12-ctrlv/eligible-items.json",
+      "bytes": 291839,
+      "sha256": "bca93b5015b4a80c556253ba35419f923f2f4634d687817cb0e696d80f16eb22"
+    }
+  ],
+  "eligibleIds": [
+    "expansion12-ctrlv-fin-c18c5d48",
+    "expansion12-ctrlv-fin-c31691d4",
+    "expansion12-ctrlv-fin-25a49bc7",
+    "expansion12-ctrlv-scientist-hawking",
+    "expansion12-ctrlv-scientist-pasteur",
+    "expansion12-ctrlv-portrait-einstein",
+    "expansion12-ctrlv-portrait-newton",
+    "expansion12-ctrlv-future-cybernetic-arm",
+    "expansion12-ctrlv-history-dinosaur-fossil",
+    "expansion12-ctrlv-history-printing-press",
+    "expansion12-ctrlv-history-steam-engine",
+    "expansion12-ctrlv-history-wright-flyer",
+    "expansion12-ctrlv-history-moon-landing",
+    "expansion12-ctrlv-history-trojan-horse",
+    "expansion12-ctrlv-history-cave-painting",
+    "expansion12-ctrlv-history-telegraph",
+    "expansion12-ctrlv-const-hand-saw",
+    "expansion12-ctrlv-shakespeare-literature",
+    "expansion12-ctrlv-science-lab-rat"
+  ],
+  "individualCollectionEvidenceValidated": 19,
+  "rendererValidatedEligible": 19,
+  "qaReproduction": {
+    "qaRastersAreProductAssets": false,
+    "qaRoot": "exa-results/expansion12/ctrlv-previews",
+    "pngHashesRemainUnchanged": true,
+    "safeRendererPath": "dist/preview.js",
+    "safeRendererSha256": "f96d0d7078ffe6aa189fce72723a1ee8dd2e8b2c475b628eb1f80bc2336b7151",
+    "sourceJavaScriptExecuted": false,
+    "collectors": [
+      {
+        "path": "exa-results/expansion12/ctrlv-collectors/compare_ctrlv.py",
+        "sha256": "f5c83746a1367d4afe8a99f1ac651ec901d333330c326b26bb13de2b500f012d"
+      },
+      {
+        "path": "exa-results/expansion12/ctrlv-collectors/detail_ctrlv.py",
+        "sha256": "bc72adbff5ec896298f75706bd4fb3fad0bdf78b105c47babb48d3c8a877675b"
+      },
+      {
+        "path": "exa-results/expansion12/ctrlv-collectors/finalize_ctrlv.py",
+        "sha256": "2e04264dd8fe42ababf34ebf481d063f6bcfd2543262cc9831e31ea5a5a70c93"
+      },
+      {
+        "path": "exa-results/expansion12/ctrlv-collectors/review_ctrlv.py",
+        "sha256": "751f90c5924e7525007c6b86e011da5c0f016eefccafd521d6c471d371b6dd08"
+      }
+    ],
+    "reproduction": "From the repository root, run the preserved offline collector with --prepare --render. It parses source literals; all browser network requests are blocked and only the trusted MotionPreview host is loaded. Compare rendererEquivalent, changedRGBAChannels=0, visible attributes and original/source SHA receipts."
+  }
+}

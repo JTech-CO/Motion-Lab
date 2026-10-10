@@ -1,0 +1,26 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Device Frame -->
+                <rect x="120" y="40" width="160" height="240" rx="15" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="8"/>
+                <line x1="180" y1="55" x2="220" y2="55" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+                
+                <!-- Screen Content -->
+                <!-- Header Image/Hero -->
+                <rect class="anim-pulse" style="animation-delay: 0.1s;" x="135" y="70" width="130" height="60" rx="5" fill="var(--primary-color)"/>
+                <path d="M135 130 L165 90 L195 130 L215 110 L265 130 Z" fill="var(--bg-surface)" opacity="0.5"/>
+                
+                <!-- Avatar and Profile -->
+                <circle class="anim-pulse" style="animation-delay: 0.3s;" cx="155" cy="155" r="15" fill="var(--secondary-color)"/>
+                <rect x="180" y="145" width="70" height="8" rx="4" fill="var(--charcoal)" opacity="0.3"/>
+                <rect x="180" y="160" width="40" height="6" rx="3" fill="var(--charcoal)" opacity="0.2"/>
+                
+                <!-- List Items -->
+                <rect class="anim-bounce" x="135" y="185" width="130" height="20" rx="5" fill="var(--accent-color)"/>
+                <rect class="anim-bounce" style="animation-delay: 0.1s;" x="135" y="215" width="130" height="20" rx="5" fill="var(--secondary-color)"/>
+                <rect class="anim-bounce" style="animation-delay: 0.2s;" x="135" y="245" width="130" height="20" rx="5" fill="var(--primary-color)"/>
+                
+                <!-- Floating Action Button -->
+                <circle class="anim-pulse" style="animation-delay: 0.5s;" cx="260" cy="260" r="15" fill="var(--accent-color)"/>
+                <path d="M252 260 H268 M260 252 V268" stroke="var(--bg-surface)" stroke-width="4" stroke-linecap="round"/>
+            </g>
+          </svg>

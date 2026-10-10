@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="130" ry="10" fill="#E2E8F0"/>
+            <g class="anim-pulse" style="animation-duration: 2s;">
+              <circle cx="200" cy="145" r="88" fill="var(--primary-color)"/>
+              <!-- Side-eye suspicious look -->
+              <circle cx="172" cy="135" r="18" fill="var(--bg-surface)"/>
+              <circle cx="228" cy="135" r="18" fill="var(--bg-surface)"/>
+              <circle cx="182" cy="135" r="9" fill="var(--charcoal)"/>
+              <circle cx="238" cy="135" r="9" fill="var(--charcoal)"/>
+              <!-- Scowling brow -->
+              <path d="M155 112 Q172 104 188 115 M212 115 Q228 104 245 112" stroke="var(--charcoal)" stroke-width="7" stroke-linecap="round"/>
+              <!-- Tight frown -->
+              <path d="M168 172 Q200 160 232 172" stroke="var(--bg-surface)" stroke-width="7" stroke-linecap="round" fill="none"/>
+            </g>
+            <!-- Green dollar/star symbol floating -->
+            <g class="anim-float" style="animation-delay:-0.5s;" fill="var(--accent-color)" opacity="0.8">
+              <path d="M305 80 C305 68 317 68 317 78 C317 68 329 68 329 80 Q329 92 317 100 Q305 92 305 80Z"/>
+            </g>
+            <g class="anim-float" fill="var(--secondary-color)" opacity="0.6">
+              <path d="M75 90 C75 78 87 78 87 88 C87 78 99 78 99 90 Q99 102 87 108 Q75 102 75 90Z"/>
+            </g>
+          </svg>

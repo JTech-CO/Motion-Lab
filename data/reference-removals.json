@@ -72,6 +72,48 @@
           "sourceUrl": "https://popmotion.io/api/timeline/"
         }
       ]
+    },
+    {
+      "id": "ref-kinetic-type-07",
+      "sourceSha256": "8751b5b87ffd83bd76d906f4e4d00be68e70292c9a833b1f0af1c3de2dd7e582",
+      "reason": "원본 GET과 정상 격리 Chrome이 HTTP 403으로 작품 내용을 열지 못했습니다. 공식 동일 작품 검색 기록은 있으나 현재 접근을 증명하지 못하며, 작가 공식 도메인은 인증서 이름 오류, 동일 작품 ID embed는 브라우저 탐색 오류 및 웹 도구 접근 실패로 접근 가능한 복구 경로를 확인하지 못했습니다. 삭제·비공개 자체가 확정된 것은 아닙니다.",
+      "status": "unavailable",
+      "verifiedAt": "2026-10-10",
+      "evidence": [
+        {
+          "path": "data/upstream/link-audit/references/results.json",
+          "sha256": "fef6f4be6c5971e5fd61efcacc047a2c005e1770b1d733ef005c7897d383abd0"
+        },
+        {
+          "path": "data/upstream/link-audit/references/browser-crosschecks.json",
+          "sha256": "af11b547d970d94fb3ddb620d57193d927364f607172649c7a3fbf1b4ab2437e"
+        },
+        {
+          "path": "data/upstream/link-audit/references/web-crosschecks.json",
+          "sha256": "5913919f14c5c2a49e3c10907b26a730f6668e627f4ebdd635243c15b79bd4e9"
+        }
+      ]
+    },
+    {
+      "id": "ref-shadertoy",
+      "sourceSha256": "c17c7e91c22e1e628903d8c6f4f9fbffb32120ec5548b7caaf3581699e30d145",
+      "reason": "정상 격리 Chrome에서도 403과 Cloudflare 확인 화면으로 컬렉션 원본을 읽을 수 없었습니다. 우회하지 않았으며 웹 도구도 현재 홈을 확인하지 못했습니다. 과거 공식 검색 색인은 현재 접근 근거가 아니고 이 참조에는 개별 shader ID가 없어 다른 작품 embed로 대체하지 않았습니다. 사이트 삭제·비공개 확정과 구분한 검토 중 접근 불가 판정입니다.",
+      "status": "unavailable",
+      "verifiedAt": "2026-10-10",
+      "evidence": [
+        {
+          "path": "data/upstream/link-audit/references/results.json",
+          "sha256": "fef6f4be6c5971e5fd61efcacc047a2c005e1770b1d733ef005c7897d383abd0"
+        },
+        {
+          "path": "data/upstream/link-audit/references/browser-crosschecks.json",
+          "sha256": "af11b547d970d94fb3ddb620d57193d927364f607172649c7a3fbf1b4ab2437e"
+        },
+        {
+          "path": "data/upstream/link-audit/references/web-crosschecks.json",
+          "sha256": "5913919f14c5c2a49e3c10907b26a730f6668e627f4ebdd635243c15b79bd4e9"
+        }
+      ]
     }
   ]
 }

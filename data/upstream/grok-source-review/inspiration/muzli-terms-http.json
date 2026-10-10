@@ -1,0 +1,19 @@
+{
+  "url": "https://muz.li/terms/",
+  "method": "bounded public HTTP GET",
+  "status": 200,
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공식 공개 URL의 제한된 HTTP GET 응답을 읽었다. 원격 JavaScript·미디어 파일을 실행하거나 다운로드하지 않았다. 개인 용도 허가와 콘텐츠 재배포 제한을 명시한다.",
+  "sector": 4,
+  "siteId": "muzli",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/muzli-terms-http.json",
+  "rawCacheSha256": "c6be885f9b31e7a3c70420682b9008e660d60a21325f8b158ab1c309a6a01380",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "5dd2cebed1f86288a58f8b4779c0d03009de3642a8b4afe8f6ee20dcf5b0d380",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "finalUrl": "https://muz.li/terms/",
+  "byteCount": 92192,
+  "boundedAt": 1048576,
+  "truncated": false,
+  "originalResponseSha256": "f55104e471cc0a743e65354db2c45bd3ef65c0fedbb02f7a04e5fb76cca40351"
+}

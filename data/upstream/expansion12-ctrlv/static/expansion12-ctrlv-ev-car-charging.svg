@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            
+            <rect x="280" y="120" width="30" height="140" rx="4" fill="#334155" />
+            <rect x="285" y="130" width="20" height="30" rx="2" fill="#F8FAFC" opacity="0.9" />
+            <circle cx="295" cy="145" r="6" fill="#DFD116" />
+            <path d="M295 170 V240" stroke="#f43f5e" stroke-width="4" stroke-linecap="round" />
+            
+            
+            <path d="M280 160 Q260 260 190 200" stroke="#334155" stroke-width="4" fill="none" stroke-linecap="round" />
+            
+            
+            <g>
+                
+                <rect x="65" y="210" width="160" height="15" rx="5" fill="#334155" opacity="0.2" />
+                
+                <path d="M60 210 L50 170 Q50 140 100 130 L160 130 Q220 140 230 180 L235 210 Z" fill="#6366f1" />
+                
+                <path d="M90 135 L105 105 Q125 90 160 95 L200 135 Z" fill="#F8FAFC" opacity="0.8" />
+                <path d="M145 100 V135" stroke="#6366f1" stroke-width="4" />
+                
+                <path d="M60 175 C55 175 50 180 50 185" stroke="#DFD116" stroke-width="4" stroke-linecap="round" />
+                <path d="M230 180 C235 180 235 190 235 195" stroke="#EF4444" stroke-width="6" stroke-linecap="round" />
+                
+                <path d="M145 140 V200 M100 145 V200" stroke="#334155" stroke-width="2" opacity="0.2" />
+                
+                <circle cx="190" cy="195" r="8" fill="#DFD116" opacity="0.6" />
+                <circle cx="190" cy="195" r="4" fill="white" />
+            </g>
+
+            
+            <g>
+                <circle cx="95" cy="215" r="22" fill="#334155" />
+                <circle cx="95" cy="215" r="12" fill="#E2E8F0" stroke="#f43f5e" stroke-width="4" />
+                
+                <circle cx="195" cy="215" r="22" fill="#334155" />
+                <circle cx="195" cy="215" r="12" fill="#E2E8F0" stroke="#f43f5e" stroke-width="4" />
+            </g>
+            
+            
+            <path d="M280 160 Q260 260 190 200" stroke="#DFD116" stroke-width="2" stroke-dasharray="4 8" fill="none" />
+          </svg>

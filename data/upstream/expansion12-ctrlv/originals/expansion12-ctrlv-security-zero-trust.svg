@@ -1,0 +1,14 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <path d="M80 220 V120 H140 V220 M260 220 V120 H320 V220" fill="var(--secondary-color)"/>
+                <path d="M140 140 H260" stroke="var(--charcoal)" stroke-width="12" stroke-dasharray="20 20"/>
+                
+                <g class="anim-glow">
+                    <path d="M160 80 Q200 40 240 80 Q200 120 160 80 Z" fill="var(--primary-color)"/>
+                    <circle cx="200" cy="80" r="10" fill="var(--accent-color)"/>
+                </g>
+                
+                <path class="anim-pulse" d="M200 150 V200" stroke="var(--accent-color)" stroke-width="6" fill="none"/>
+                <path class="anim-pulse" d="M180 180 L200 200 L220 180" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round" fill="none"/>
+            </g>
+          </svg>

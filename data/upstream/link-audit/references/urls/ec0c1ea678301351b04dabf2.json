@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/lennystepn-hue/textalive",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/lennystepn-hue/textalive",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/lennystepn-hue/textalive",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/lennystepn-hue/textalive",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:48.799167+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/lennystepn-hue/textalive",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "6cde1314fbb6c390b0c466fb5b661e3b8fa47bc5633ac9373292156d70bd9231",
+      "responseBodySha256": "6cde1314fbb6c390b0c466fb5b661e3b8fa47bc5633ac9373292156d70bd9231",
+      "title": "GitHub - lennystepn-hue/textalive: Interactive Text Experiences for the Web — After Effects for text. Built on Pretext by @chenglou. Real-time text reflow around moving objects at 60fps. · GitHub",
+      "textCharacters": 3119,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.916,
+      "captureCachePath": "exa-results/link-audit/references/captures/0a0c90b6e4fc387ae94b35d5.json",
+      "captureCacheSha256": "78b4bb52e7e77346439dbd29ad9a55c3f8fef7d05de310eeb14a1bdd1237e648"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-textalive",
+      "canonicalId": "ref-textalive",
+      "title": "TextAlive",
+      "role": "canonical",
+      "sourceSha256": "4cb3caeec9c2f8d9429c69b11b4a7ef56930bc0d54f176ce2d71f29365fc2dd9"
+    }
+  ]
+}

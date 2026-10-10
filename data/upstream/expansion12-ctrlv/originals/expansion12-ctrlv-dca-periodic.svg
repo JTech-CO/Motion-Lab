@@ -1,0 +1,12 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="anim-rotate">
+            <circle cx="200" cy="150" r="100" stroke="var(--border-color)" stroke-width="2" stroke-dasharray="10 20"/>
+        </g>
+        <g class="anim-bounce">
+            <circle cx="200" cy="50" r="15" fill="var(--primary-color)"/>
+            <circle style="animation-delay: -1s" cx="200" cy="250" r="15" fill="var(--primary-color)"/>
+            <circle style="animation-delay: -0.5s" cx="100" cy="150" r="15" fill="var(--primary-color)"/>
+            <circle style="animation-delay: -1.5s" cx="300" cy="150" r="15" fill="var(--primary-color)"/>
+        </g>
+        <text x="200" y="160" text-anchor="middle" font-family="Inter" font-weight="900" font-size="24" fill="var(--charcoal)">MONTHLY</text>
+    </svg>

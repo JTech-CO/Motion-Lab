@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Base/Cliff -->
+            <path d="M60 270 L160 160 H200 V270 H60 Z" fill="var(--charcoal)" opacity="0.1"/>
+            <path d="M150 160 H220" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+            <!-- Character 1 (Helping) -->
+            <path d="M110 160 C110 120 130 100 160 100 H180 C210 100 210 130 210 160 H110 Z" fill="var(--primary-color)"/>
+            <circle cx="160" cy="70" r="22" fill="#94A3B8"/>
+            <path class="anim-typing" d="M190 120 L240 160" stroke="var(--primary-color)" stroke-width="12" stroke-linecap="round"/>
+            <!-- Character 2 (Being helped) -->
+            <g class="anim-bounce">
+                <path d="M260 260 C260 220 280 200 300 200 H320 C340 200 340 230 340 260 H260 Z" fill="var(--primary-color)"/>
+                <circle cx="300" cy="170" r="22" fill="#94A3B8"/>
+                <path d="M280 210 L240 160" stroke="var(--primary-color)" stroke-width="12" stroke-linecap="round"/>
+            </g>
+            <circle class="anim-glow" cx="240" cy="160" r="8" fill="var(--accent-color)"/>
+          </svg>

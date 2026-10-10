@@ -1,0 +1,56 @@
+{
+  "url": "https://www.framer.com/marketplace/plugins/text-effects-kit/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://www.framer.com/marketplace/plugins/text-effects-kit/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://www.framer.com/marketplace/plugins/text-effects-kit/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://www.framer.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://www.framer.com/marketplace/plugins/text-effects-kit/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:44.479348+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://www.framer.com/marketplace/plugins/text-effects-kit/",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 170932,
+      "capturedSha256": "e0b57d256227633756f2c00dff8f12ce6567db9b1157c777d9d777a16e431960",
+      "responseBodySha256": "e0b57d256227633756f2c00dff8f12ce6567db9b1157c777d9d777a16e431960",
+      "title": "Text Effects Kit — Plugin for Framer",
+      "textCharacters": 2654,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.884,
+      "captureCachePath": "exa-results/link-audit/references/captures/067a0e09efea11d9167fecb9.json",
+      "captureCacheSha256": "43c70fbea94e41cc44815d22537444145d0f4023fed5024aa4f141c03cd79ff5"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-text-effects-kit",
+      "canonicalId": "ref-text-effects-kit",
+      "title": "Text Effects Kit",
+      "role": "canonical",
+      "sourceSha256": "64ce0fef9e5f51f84240d7f0cd6d94072ba7dfeb638a240061d4675bb1e14bba"
+    }
+  ]
+}

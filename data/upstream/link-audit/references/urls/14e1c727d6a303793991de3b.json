@@ -1,0 +1,56 @@
+{
+  "url": "https://geronimo-paris.fr/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://geronimo-paris.fr/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://geronimo-paris.fr/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://geronimo-paris.fr/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://geronimo-paris.fr/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:01.624399+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://geronimo-paris.fr/",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 253209,
+      "capturedSha256": "97ed63893b58fe4e40a9f0d86937a999380664320dd12a2060e6d2fae723f8a5",
+      "responseBodySha256": "97ed63893b58fe4e40a9f0d86937a999380664320dd12a2060e6d2fae723f8a5",
+      "title": "GERONIMO - Motion Designer & Director Paris | Film & Television",
+      "textCharacters": 15216,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.98,
+      "captureCachePath": "exa-results/link-audit/references/captures/d2ac7ae419fae65bc63796f6.json",
+      "captureCacheSha256": "6b5bf664233207ef8823af55764ac6d5b0b956f25d4694b34cbb026889459629"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-geronimo",
+      "canonicalId": "ref-geronimo",
+      "title": "GERONIMO",
+      "role": "canonical",
+      "sourceSha256": "974d62d1c4736aa39cc5ec922e4e8e96e30370a44bcc1c413e2ca8bfee2b0756"
+    }
+  ]
+}

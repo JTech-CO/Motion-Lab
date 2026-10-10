@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/Jannchie/shader-gradient",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/Jannchie/shader-gradient",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/Jannchie/shader-gradient",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/Jannchie/shader-gradient",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:35.352008+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/Jannchie/shader-gradient",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "4908f85069555bd3d6f9a2e0e91ed504181a120a50e168a28943b533eec7c61e",
+      "responseBodySha256": "4908f85069555bd3d6f9a2e0e91ed504181a120a50e168a28943b533eec7c61e",
+      "title": "GitHub - Jannchie/shader-gradient: Animated shader gradients inspired by ruucm/shadergradient, rebuilt around a framework-agnostic core. · GitHub",
+      "textCharacters": 2880,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.107,
+      "captureCachePath": "exa-results/link-audit/references/captures/b78eabbe6625514c8a66cfda.json",
+      "captureCacheSha256": "92a30456d8d2be9489ac7facef14971d33c8d1e3a1787cde7154c19a6bf2c1fd"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-shader-gradient-core",
+      "canonicalId": "ref-shader-gradient-core",
+      "title": "Shader Gradient Core",
+      "role": "canonical",
+      "sourceSha256": "f47e7d6dd615da9d46e94ca42c13f31d08ba7ca2cb3d9499cf93207d9e2b21ab"
+    }
+  ]
+}

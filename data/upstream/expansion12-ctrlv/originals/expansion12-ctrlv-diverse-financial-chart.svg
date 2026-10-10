@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Axes -->
+                <path d="M60 60 V240 H340" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round"/>
+                
+                <!-- Bar Chart -->
+                <rect class="anim-bounce" x="90" y="160" width="40" height="76" rx="4" fill="var(--secondary-color)"/>
+                <rect class="anim-bounce" style="animation-delay: 0.1s;" x="150" y="120" width="40" height="116" rx="4" fill="var(--primary-color)"/>
+                <rect class="anim-bounce" style="animation-delay: 0.2s;" x="210" y="180" width="40" height="56" rx="4" fill="var(--secondary-color)"/>
+                <rect class="anim-bounce" style="animation-delay: 0.3s;" x="270" y="80" width="40" height="156" rx="4" fill="var(--primary-color)"/>
+                
+                <!-- Line Chart -->
+                <path class="anim-draw" d="M110 140 L170 80 L230 150 L290 40" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                
+                <!-- Data Points -->
+                <circle class="anim-pulse" cx="110" cy="140" r="8" fill="var(--bg-surface)" stroke="var(--accent-color)" stroke-width="4"/>
+                <circle class="anim-pulse" style="animation-delay: 0.2s;" cx="170" cy="80" r="8" fill="var(--bg-surface)" stroke="var(--accent-color)" stroke-width="4"/>
+                <circle class="anim-pulse" style="animation-delay: 0.4s;" cx="230" cy="150" r="8" fill="var(--bg-surface)" stroke="var(--accent-color)" stroke-width="4"/>
+                <circle class="anim-pulse" style="animation-delay: 0.6s;" cx="290" cy="40" r="8" fill="var(--bg-surface)" stroke="var(--accent-color)" stroke-width="4"/>
+            </g>
+          </svg>

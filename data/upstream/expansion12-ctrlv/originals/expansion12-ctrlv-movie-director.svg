@@ -1,0 +1,29 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Director's Chair -->
+            <g class="anim-float" style="animation-duration: 4s;">
+                <!-- Wood frame -->
+                <path d="M120 250 L140 160 M200 250 L180 160" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                <path d="M120 160 L140 250 M200 160 L180 250" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                <path d="M110 180 V100 M210 180 V100" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                <!-- Canvas -->
+                <rect x="110" y="100" width="100" height="30" fill="var(--primary-color)"/>
+                <path d="M120 160 C140 170 180 170 200 160" fill="none" stroke="var(--primary-color)" stroke-width="20" stroke-linecap="round"/>
+                <!-- Star on backrest -->
+                <polygon points="160,105 165,115 175,115 167,120 170,128 160,123 150,128 153,120 145,115 155,115" fill="white"/>
+            </g>
+
+            <!-- Megaphone -->
+            <g class="anim-bounce" style="animation-delay: -1s;">
+                <!-- Cone -->
+                <path d="M220 150 L320 110 V190 L220 150 Z" fill="var(--secondary-color)"/>
+                <path d="M220 150 L320 120 V180 L220 150 Z" fill="white" opacity="0.2"/>
+                <!-- Mouthpiece -->
+                <rect x="205" y="140" width="15" height="20" fill="var(--charcoal)"/>
+                <!-- Handle -->
+                <rect x="250" y="150" width="10" height="30" rx="4" fill="var(--primary-color)" transform="rotate(-20 250 150)"/>
+            </g>
+            
+            <!-- Sound waves from megaphone -->
+            <path class="anim-pulse" d="M340 110 C360 130 360 170 340 190" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round" fill="none"/>
+            <path class="anim-pulse" d="M360 90 C390 120 390 180 360 210" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round" fill="none" style="animation-delay: 0.2s;"/>
+          </svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+        <g>
+            <rect x="100" y="100" width="120" height="80" rx="10" fill="#6366f1" opacity="0.1" stroke="#6366f1" stroke-width="2" />
+            <text x="160" y="150" text-anchor="middle" font-family="Inter" font-weight="900" font-size="40" fill="#6366f1">?</text>
+        </g>
+        <g>
+            <rect x="180" y="150" width="120" height="80" rx="10" fill="#f43f5e" opacity="0.1" stroke="#f43f5e" stroke-width="2" />
+            <text x="240" y="200" text-anchor="middle" font-family="Inter" font-weight="900" font-size="40" fill="#f43f5e">!</text>
+        </g>
+        <text x="200" y="70" text-anchor="middle" font-family="Inter" font-weight="900" font-size="30" fill="#334155">FAQ</text>
+    </svg>

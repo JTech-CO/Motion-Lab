@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="anim-float" d="M60 200 Q200 50 340 200 Z" fill="var(--secondary-color)" opacity="0.1"/>
+            <!-- Chariot Base Platform -->
+            <path d="M100 240 L120 200 H280 L300 240 Z" fill="var(--primary-color)"/>
+            <rect x="130" y="240" width="140" height="15" fill="var(--charcoal)" opacity="0.2"/>
+            <!-- Wheels -->
+            <circle class="anim-rotate"  cx="150" cy="240" r="25" fill="var(--charcoal)" stroke="var(--primary-color)" stroke-width="4"/>
+            <circle class="anim-rotate"  cx="250" cy="240" r="25" fill="var(--charcoal)" stroke="var(--primary-color)" stroke-width="4"/>
+            <circle cx="150" cy="240" r="5" fill="white"/>
+            <circle cx="250" cy="240" r="5" fill="white"/>
+            <!-- Chariot Structure -->
+            <path class="anim-bounce" d="M140 200 L160 120 H240 L260 200 Z" fill="var(--primary-color)"/>
+            <rect class="anim-bounce" x="180" y="140" width="40" height="60" fill="white" opacity="0.2"/>
+            <!-- Top Dome -->
+            <path class="anim-float" d="M150 120 C150 60 250 60 250 120 Z" fill="var(--primary-color)" opacity="0.9"/>
+            <rect class="anim-float" x="195" y="40" width="10" height="30" fill="var(--accent-color)"/>
+            <circle class="anim-glow" cx="200" cy="35" r="5" fill="var(--accent-color)"/>
+            <path class="anim-draw" d="M160 160 H240 M170 180 H230" stroke="white" stroke-width="2" stroke-dasharray="4 4"/>
+          </svg>

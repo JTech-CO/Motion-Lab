@@ -12,7 +12,8 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from motionlab.catalog import Catalog  # noqa: E402
 from motionlab.payload_codec import decode_payload  # noqa: E402
-from scripts.build import WAVE_INPUTS, compact_catalog_index, deduplicate_items, read_json, validate_item  # noqa: E402
+from scripts.build import (WAVE_INPUTS, MAX_GENERATED_CATALOG_BYTES, compact_catalog_index,
+                           deduplicate_items, read_json, validate_item)  # noqa: E402
 from scripts.expansion import merge_expansion  # noqa: E402
 from motionlab.reference_review import REVIEW_INPUTS, REMOVAL_INPUT, apply_reference_reviews, apply_reference_removals  # noqa: E402
 
@@ -95,7 +96,7 @@ def reconstruct_inputs(root):
     removal_path = root / "data" / REMOVAL_INPUT
     baseline = apply_reference_removals(baseline, read_json(removal_path, {}) if removal_path.is_file() else None, root=root)
     waves = [(name, read_json(root / "data" / name, [])) for name in WAVE_INPUTS]
-    additions, report = merge_expansion(baseline, waves, validate_item)
+    additions, report = merge_expansion(baseline, waves, validate_item, root=root)
     return baseline, additions, waves, report
 
 
@@ -105,8 +106,8 @@ def verify(root=ROOT, minimum=5000, minimum_stored=0):
     if not isinstance(minimum_stored, int) or not 0 <= minimum_stored <= 100_000:
         raise ValueError("Stored minimum must be between 0 and 100000")
     root = Path(root).resolve()
-    full = read_json(root / "data/catalog.json", {})
-    published = read_json(root / "dist/catalog.json", {})
+    full = read_json(root / "data/catalog.json", {}, maximum_bytes=MAX_GENERATED_CATALOG_BYTES)
+    published = read_json(root / "dist/catalog.json", {}, maximum_bytes=MAX_GENERATED_CATALOG_BYTES)
     if full != published:
         raise ValueError("Local and web full catalogs differ")
     entries = full["items"]

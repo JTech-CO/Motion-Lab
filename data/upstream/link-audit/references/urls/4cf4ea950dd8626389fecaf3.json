@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/JTech-CO/Motiongraphic",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/JTech-CO/Motiongraphic",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/JTech-CO/Motiongraphic",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/JTech-CO/Motiongraphic",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:02.417514+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/JTech-CO/Motiongraphic",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "1ed8e288a1761e69e273b676691cf09799c1c03b622a4783efd1fe1d51166f4f",
+      "responseBodySha256": "1ed8e288a1761e69e273b676691cf09799c1c03b622a4783efd1fe1d51166f4f",
+      "title": "GitHub - JTech-CO/Motiongraphic · GitHub",
+      "textCharacters": 4374,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.038,
+      "captureCachePath": "exa-results/link-audit/references/captures/ba9a77e4ba85e43c44ec89eb.json",
+      "captureCacheSha256": "6c4f0d4c65eb9fba2ccea5f5dd8332d96520cf488ab12c8814f9b31556e17f71"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-jtech-co-motiongraphic",
+      "canonicalId": "ref-jtech-co-motiongraphic",
+      "title": "JTech-CO Motiongraphic",
+      "role": "canonical",
+      "sourceSha256": "39eb1cc65af06b2946104eb064dbcef4e23c6b1d34497ee36f179bb9af1da353"
+    }
+  ]
+}

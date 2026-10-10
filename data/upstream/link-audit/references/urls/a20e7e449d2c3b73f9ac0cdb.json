@@ -1,0 +1,90 @@
+{
+  "url": "https://000h.cojeev.com/docs/falling-text/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://cojeev.com/ui/docs/falling-text/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://000h.cojeev.com/docs/falling-text/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://000h.cojeev.com/robots.txt",
+      "robotsStatus": 200
+    },
+    {
+      "url": "https://cojeev.com/ui/docs/falling-text/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://cojeev.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://000h.cojeev.com/docs/falling-text/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:47.461604+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 301,
+      "finalUrl": "https://000h.cojeev.com/docs/falling-text/",
+      "contentType": "",
+      "location": "https://cojeev.com/ui/docs/falling-text/",
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 0,
+      "capturedSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "responseBodySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "title": "",
+      "textCharacters": 0,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.436,
+      "captureCachePath": "exa-results/link-audit/references/captures/4b9399a69b5d52f881bdb3aa.json",
+      "captureCacheSha256": "f7b581cf00e0490d95466c41f024372ffb317a097550e88956d9dc45cc3b5a53"
+    },
+    {
+      "url": "https://cojeev.com/ui/docs/falling-text/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:48.910330+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://cojeev.com/ui/docs/falling-text/",
+      "contentType": "text/html",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "310b054086553247395f1f207e244c12865c7be96791271298576f778a411df0",
+      "responseBodySha256": "310b054086553247395f1f207e244c12865c7be96791271298576f778a411df0",
+      "title": "Falling Text · 000h by Cojeev",
+      "textCharacters": 7133,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.058,
+      "captureCachePath": "exa-results/link-audit/references/captures/7d1328c5cac2809c087165b5.json",
+      "captureCacheSha256": "b61b7892cd66371cc7eccced780da072ad20913a9372ea815ac872665e5583f1"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-falling-text",
+      "canonicalId": "ref-falling-text",
+      "title": "Falling Text",
+      "role": "canonical",
+      "sourceSha256": "12dbdcde1d9c179c3ca9581e333a297e24dc85fe79d8fca7c1a19b4582bf4b27"
+    }
+  ]
+}

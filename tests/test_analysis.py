@@ -129,6 +129,17 @@ class AnalysisTest(unittest.TestCase):
         self.assertIn("status", result["useCases"])
         self.assertIn("svg-animation", result["techniques"])
 
+    def test_procedural_fragment_is_ambient_shader_without_transition_images(self):
+        code = 'vec4 transition(vec2 uv){return vec4(sin(progress+uv.x),0.,0.,1.);}'
+        result = analyze_item(asset(code, "glsl", "shader", preview={"type":"reference","variant":"procedural-glsl","scene":"procedural"}))
+        self.assertEqual(result["assetType"], "shader")
+        self.assertEqual(result["useCases"], ["ambient"])
+        self.assertIn("color", result["components"])
+        self.assertEqual(result["preview"]["scene"], "procedural")
+        self.assertNotIn("two input images", result["preview"]["limitations"][0])
+        textured = analyze_item(asset('vec4 transition(vec2 uv){return getFromColor(uv);}', "glsl", "transition", preview={"type":"reference","variant":"procedural-glsl","scene":"procedural"}))
+        self.assertEqual(textured["assetType"], "transition")
+
     def test_untrusted_xml_and_unbalanced_css_do_not_supply_code_evidence(self):
         for code, language in [("<!DOCTYPE svg [<!ENTITY x 'value'>]><svg>&x;</svg>", "svg"),
                                (".part {animation:x 1s;", "css"), ("/*never closed", "css")]:

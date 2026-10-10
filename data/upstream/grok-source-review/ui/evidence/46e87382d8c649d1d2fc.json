@@ -1,0 +1,37 @@
+{
+  "url": "https://www.lottielab.com/terms",
+  "site": "lottielab",
+  "reviewedAt": "2026-10-10",
+  "captures": [
+    {
+      "method": "Exa-public-fetch",
+      "status": "content-returned-http-status-unavailable",
+      "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://www.lottielab.com/terms",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/exa-lottielab-fetch-1.json",
+      "rawCacheSha256": "5c371cc3d98299aa35f446aa1b139cb00ca3737b8920472a84d4d114e3ce44c7",
+      "capturedTextSha256": "ff6e4daa8e16164c6d7ed0d826400688fa1f81e3b8f8b3b1a19c0aebc5e26dcf",
+      "responseCapturedSha256": null,
+      "boundedAtBytes": null,
+      "providerResponseCacheBytes": 11536,
+      "truncated": null
+    },
+    {
+      "method": "normal-isolated-Chrome-public-navigation",
+      "status": 200,
+      "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://www.lottielab.com/terms",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/lottielab-terms-chrome.json",
+      "rawCacheSha256": "f89ef466cb1b01c3ec3aec70cc90620f9083cc4cdf0318cee2739b7e7c2ddf7a",
+      "capturedTextSha256": "519a43f68de64900da5be896f0570837f8937553e678a2435e36a2511375d0f4",
+      "responseCapturedSha256": null,
+      "boundedAtBytes": null,
+      "truncated": false
+    }
+  ],
+  "contentPolicy": "원문 전체는 ignored exa-results 캐시에만 보관합니다. 이 파일은 접근 상태와 SHA 및 자체 요약만 저장하며 페이지 인용은 sites.json termsEvidence에만 최대 25단어로 기록합니다."
+}

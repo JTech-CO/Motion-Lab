@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <rect x="130" y="40" width="140" height="220" rx="16" fill="#ffffff" stroke="#334155" stroke-width="8" />
+                <rect x="180" y="55" width="40" height="6" rx="3" fill="#334155" opacity="0.2" />
+                
+                
+                <mask id="receipt-mask">
+                    <rect x="140" y="70" width="120" height="180" rx="4" fill="white" />
+                </mask>
+                <g mask="url(#receipt-mask)">
+                    <g>
+                        <text x="200" y="100" font-family="monospace" font-weight="bold" font-size="14" fill="#6366f1" text-anchor="middle">RECEIPT</text>
+                        <line x1="150" y1="120" x2="250" y2="120" stroke="#334155" stroke-width="2" stroke-dasharray="2 2" />
+                        
+                        <rect x="150" y="140" width="60" height="10" rx="2" fill="#334155" opacity="0.2" />
+                        <text x="250" y="150" font-family="monospace" font-weight="bold" font-size="12" fill="#334155" text-anchor="end">$45.00</text>
+                        
+                        <rect x="150" y="170" width="80" height="10" rx="2" fill="#334155" opacity="0.2" />
+                        <text x="250" y="180" font-family="monospace" font-weight="bold" font-size="12" fill="#334155" text-anchor="end">$12.50</text>
+                        
+                        <line x1="150" y1="210" x2="250" y2="210" stroke="#334155" stroke-width="4" />
+                        <text x="200" y="240" font-family="monospace" font-weight="bold" font-size="18" fill="#DFD116" text-anchor="middle">TOTAL: $57.50</text>
+                        
+                        <circle cx="200" cy="270" r="15" fill="#f43f5e" />
+                        <path d="M190 270 L197 277 L210 263" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                    </g>
+                </g>
+            </g>
+          </svg>

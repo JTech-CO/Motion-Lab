@@ -1,0 +1,23 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="160" ry="10" fill="#e2e8f0" opacity="0.6"/>
+            <!-- Rippling water -->
+            <path class="anim-draw" d="M80 280 Q120 290 160 280 T240 280 T320 280" stroke="var(--secondary-color)" stroke-width="2" fill="none" opacity="0.5"/>
+            
+            <!-- Three Towers -->
+            <path d="M120 260 V140 C110 180 140 180 140 260 Z" fill="var(--primary-color)"/>
+            <path d="M140 260 V140 C150 180 120 180 120 260 Z" fill="var(--primary-color)" opacity="0.8"/>
+            
+            <path d="M190 260 V140 C180 180 210 180 210 260 Z" fill="var(--primary-color)"/>
+            <path d="M210 260 V140 C220 180 190 180 190 260 Z" fill="var(--primary-color)" opacity="0.8"/>
+            
+            <path d="M260 260 V140 C250 180 280 180 280 260 Z" fill="var(--primary-color)"/>
+            <path d="M280 260 V140 C290 180 260 180 260 260 Z" fill="var(--primary-color)" opacity="0.8"/>
+            
+            <!-- Boat/Ship Roof -->
+            <path d="M90 140 C90 120 310 110 330 140 Z" fill="var(--primary-color)"/>
+            <rect x="100" y="125" width="220" height="5" fill="var(--charcoal)" opacity="0.4"/>
+            
+            <!-- Laser Spotlight scanning the sky -->
+            <path class="anim-float" d="M210 125 L320 20 L350 20 Z" fill="var(--accent-color)" opacity="0.2"/>
+            <circle class="anim-glow" cx="210" cy="125" r="4" fill="var(--accent-color)"/>
+          </svg>

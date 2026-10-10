@@ -1,0 +1,22 @@
+{
+  "url": "https://lordicon.com/icons/wired/outline",
+  "site": "lordicon",
+  "reviewedAt": "2026-10-10",
+  "captures": [
+    {
+      "method": "normal-isolated-Chrome-public-navigation",
+      "status": 200,
+      "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://lordicon.com/icons/wired/outline",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/lordicon-library-chrome.json",
+      "rawCacheSha256": "5637430b6ca4cb5616aba9685d1b1972d06366b5d8f5aaa3f9df7764ce6f44a3",
+      "capturedTextSha256": "07b277a6525649d2a2c08b6de764903d8a5fc70c4c00e2e0c6bd0fa57552f898",
+      "responseCapturedSha256": null,
+      "boundedAtBytes": null,
+      "truncated": false
+    }
+  ],
+  "contentPolicy": "원문 전체는 ignored exa-results 캐시에만 보관합니다. 이 파일은 접근 상태와 SHA 및 자체 요약만 저장하며 페이지 인용은 sites.json termsEvidence에만 최대 25단어로 기록합니다."
+}

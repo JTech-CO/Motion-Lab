@@ -1,0 +1,53 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="120" ry="10" fill="#e2e8f0" opacity="0.6"/>
+            
+            <g class="anim-float">
+                <!-- 17th Century Coat -->
+                <path d="M130 280 C130 230 160 220 200 220 C240 220 270 230 270 280" fill="var(--primary-color)"/>
+                
+                <!-- Elaborate Cravat / Lace -->
+                <path d="M180 220 H220 L230 260 L200 250 L170 260 Z" fill="white" stroke="var(--charcoal)" stroke-width="2" stroke-linejoin="round"/>
+                <path class="anim-draw" d="M185 230 H215 M180 240 H220 M185 250 H215" stroke="var(--charcoal)" stroke-width="2" stroke-linecap="round"/>
+
+                <!-- Face Base -->
+                <rect x="160" y="110" width="80" height="110" rx="30" fill="var(--bg-surface)" stroke="var(--primary-color)" stroke-width="8"/>
+                
+                <!-- Facial Features -->
+                <!-- Long serious nose -->
+                <path d="M200 140 L190 170 H205" stroke="var(--primary-color)" stroke-width="3" stroke-linecap="round" fill="none"/>
+                <!-- Stern mouth -->
+                <line x1="185" y1="190" x2="215" y2="190" stroke="var(--charcoal)" stroke-width="3" stroke-linecap="round"/>
+                <line x1="185" y1="193" x2="215" y2="193" stroke="var(--charcoal)" stroke-width="1" stroke-linecap="round"/>
+                <!-- Eyes -->
+                <circle cx="180" cy="140" r="4" fill="var(--charcoal)"/>
+                <circle cx="220" cy="140" r="4" fill="var(--charcoal)"/>
+                <path d="M170 130 Q180 125 190 135" stroke="var(--charcoal)" stroke-width="2" stroke-linecap="round" fill="none"/>
+                <path d="M210 135 Q220 125 230 130" stroke="var(--charcoal)" stroke-width="2" stroke-linecap="round" fill="none"/>
+            </g>
+
+            <!-- Massive Curly Wig -->
+            <g class="anim-bounce">
+                <!-- Left wig curls -->
+                <path d="M165 110 C140 100 120 140 140 180 C120 200 120 240 150 240 C140 220 170 200 160 170 Z" fill="white" stroke="var(--charcoal)" stroke-width="4" stroke-linejoin="round"/>
+                <path d="M140 140 Q130 160 150 170 M140 190 Q130 210 150 220" stroke="var(--secondary-color)" stroke-width="3" stroke-linecap="round" fill="none"/>
+                
+                <!-- Right wig curls -->
+                <path d="M235 110 C260 100 280 140 260 180 C280 200 280 240 250 240 C260 220 230 200 240 170 Z" fill="white" stroke="var(--charcoal)" stroke-width="4" stroke-linejoin="round"/>
+                <path d="M260 140 Q270 160 250 170 M260 190 Q270 210 250 220" stroke="var(--secondary-color)" stroke-width="3" stroke-linecap="round" fill="none"/>
+                
+                <!-- Top wig -->
+                <path d="M150 120 C150 70 250 70 250 120" fill="white" stroke="var(--charcoal)" stroke-width="4"/>
+                <path d="M180 90 Q200 80 220 90 M170 100 Q200 90 230 100" stroke="var(--secondary-color)" stroke-width="3" stroke-linecap="round" fill="none"/>
+            </g>
+            
+            <!-- Falling Apple & Gravity -->
+            <path class="anim-data" d="M90 60 L90 220" stroke="var(--charcoal)" stroke-width="2" stroke-dasharray="4 8" fill="none" opacity="0.3"/>
+            <g class="anim-bounce">
+                <!-- Apple -->
+                <path d="M90 150 C110 150 120 180 90 180 C60 180 70 150 90 150 Z" fill="var(--accent-color)"/>
+                <!-- Stem & Leaf -->
+                <path d="M90 155 Q95 145 100 145" stroke="var(--charcoal)" stroke-width="2" fill="none"/>
+                <path d="M95 150 Q105 150 100 160 Z" fill="var(--secondary-color)"/>
+            </g>
+            <path class="anim-pulse" d="M70 190 Q90 185 110 190" stroke="var(--primary-color)" stroke-width="2" fill="none" opacity="0.6"/>
+          </svg>

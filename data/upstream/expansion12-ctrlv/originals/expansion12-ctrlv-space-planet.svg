@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle class="anim-float" cx="200" cy="140" r="50" fill="var(--primary-color)"/>
+            <!-- Craters -->
+            <circle class="anim-float" cx="180" cy="120" r="8" fill="var(--charcoal)" opacity="0.2"/>
+            <circle class="anim-float" cx="220" cy="150" r="12" fill="var(--charcoal)" opacity="0.2"/>
+            <circle class="anim-float" cx="190" cy="160" r="6" fill="var(--charcoal)" opacity="0.2"/>
+            <!-- Rings -->
+            <g transform="rotate(-15 200 140)">
+                <ellipse class="anim-float" style="animation-delay: -1s;" cx="200" cy="140" rx="90" ry="25" fill="none" stroke="var(--secondary-color)" stroke-width="8" />
+            </g>
+            <g transform="rotate(-15 200 140)">
+                <ellipse class="anim-float" style="animation-delay: -1s;" cx="200" cy="140" rx="100" ry="30" fill="none" stroke="var(--charcoal)" stroke-width="2"  opacity="0.5"/>
+            </g>
+            <!-- Background stars -->
+            <path class="anim-glow" d="M80 60 L85 70 L95 70 L88 77 L90 87 L80 80 L70 87 L72 77 L65 70 L75 70 Z" fill="var(--accent-color)"/>
+          </svg>

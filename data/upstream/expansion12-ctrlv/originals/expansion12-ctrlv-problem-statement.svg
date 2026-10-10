@@ -1,0 +1,7 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="anim-float">
+            <circle cx="200" cy="150" r="80" stroke="var(--primary-color)" stroke-width="4" stroke-dasharray="10 10" fill="var(--bg-surface)"/>
+            <text x="50%" y="175" font-family="Inter" font-weight="900" font-size="80" fill="var(--primary-color)" text-anchor="middle">?</text>
+        </g>
+        <path class="anim-draw" d="M100 80 Q150 60 200 80 T300 80" stroke="var(--border-color)" stroke-width="2" opacity="0.4"/>
+    </svg>

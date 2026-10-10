@@ -1,0 +1,16 @@
+{
+  "id": "vecteezy",
+  "url": "https://www.vecteezy.com/",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 200,
+  "finalUrl": "https://www.vecteezy.com/",
+  "contentType": "text/html; charset=utf-8",
+  "truncated": true,
+  "observedBytes": 262144,
+  "observedContentSha256": "f59df27a45d8cb6cf8773753fa4d2d2b364437fea5b8976a3f679554881a7d6f",
+  "links": [],
+  "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+  "challengeOrDenial": false
+}

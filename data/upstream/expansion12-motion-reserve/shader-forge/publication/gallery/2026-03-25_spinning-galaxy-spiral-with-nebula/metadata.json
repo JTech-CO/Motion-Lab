@@ -1,0 +1,28 @@
+{
+  "theme": "spinning galaxy spiral with nebula",
+  "style_hints": "logarithmic spiral arms, star particles, volumetric dust, rotation, blue-purple-gold",
+  "references": [
+    "community/lygia/sdf_spiralSDF.glsl",
+    "community/lygia/sdf_starSDF.glsl",
+    "community/lygia/lighting_atmosphere.glsl",
+    "community/lygia/sdf_spiralSDF.wgsl",
+    "community/lygia/sdf_starSDF.wgsl"
+  ],
+  "attempts": 1,
+  "created_at": "2026-03-25T14:03:27.637937+00:00",
+  "glsl_lines": 101,
+  "success": true,
+  "review": {
+    "visual_complexity": 4,
+    "code_quality": 4,
+    "theme_match": 5,
+    "animation": 5,
+    "originality": 4,
+    "total": 22,
+    "verdict": "pass",
+    "feedback": "Excellent implementation of a spinning spiral galaxy with layered nebulae, procedural stars, and smooth animations—only minor improvements could be made to the star generation (e.g., using a deterministic hash over the full UV space for more natural distribution)."
+  },
+  "status": "rejected",
+  "rejected_at": "2026-03-28T13:32:27.125021+00:00",
+  "rejected_comment": ""
+}

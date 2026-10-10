@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/4.%20Loopfield-Studio%20Motion/index.html",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/4.%20Loopfield-Studio%20Motion/index.html",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/4.%20Loopfield-Studio%20Motion/index.html",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/4.%20Loopfield-Studio%20Motion/index.html",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:09.084924+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/JTech-CO/Motiongraphic/blob/77fd0fadb3142c80038942802fcac71caeeba3d8/4.%20Loopfield-Studio%20Motion/index.html",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 243045,
+      "capturedSha256": "bc5e7e76d1084b073465e81388e6b50a3f729ef7a39229efae0e6c1c3270b7b7",
+      "responseBodySha256": "bc5e7e76d1084b073465e81388e6b50a3f729ef7a39229efae0e6c1c3270b7b7",
+      "title": "Motiongraphic/4. Loopfield-Studio Motion/index.html at 77fd0fadb3142c80038942802fcac71caeeba3d8 · JTech-CO/Motiongraphic · GitHub",
+      "textCharacters": 5159,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.608,
+      "captureCachePath": "exa-results/link-audit/references/captures/8b3a554452413cf53e57c485.json",
+      "captureCacheSha256": "bf1bb5c96e89dac02e0703133a428bd02dcdde677fe1eb6441a1ba62c5ec6393"
+    }
+  ],
+  "items": [
+    {
+      "id": "jtech-loopfield",
+      "canonicalId": "jtech-loopfield",
+      "title": "Loopfield Studio",
+      "role": "canonical",
+      "sourceSha256": "af02205a28b68ef5dcef65ca73246b249221a9fdd59e506c90159a6b398555fd"
+    }
+  ]
+}

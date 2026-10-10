@@ -181,9 +181,10 @@ def recheck(root=ROOT, progress=print):
         report["domains"][domain] = {
             "coverage": result["coverage"],
             "methodology": {key: value for key, value in result["methodology"].items()
-                            if key in ("version", "exact", "near", "metric", "nearThresholds", "nearMatching", "pairCoverage", "candidate", "candidates", "limitations")},
+                            if key in ("version", "exact", "near", "metric", "nearThresholds", "nearMatching", "pairCoverage", "candidate", "candidates", "limitations", "spatialVerification", "coarseFiltering")},
             "exactGroups": result.get("exactGroups", []), "nearGroups": result.get("nearGroups", []),
             "candidatePairs": candidates, "familyGroupCount": len(result.get("familyGroups", [])), "errors": errors,
+            "statisticalAlerts": result.get("statisticalAlerts", []),
         }
         progress(f"{domain}: {len(result.get('exactGroups', []))} exact, {len(result.get('nearGroups', []))} near, {len(candidates)} candidates")
     report["summary"] = {
@@ -193,6 +194,7 @@ def recheck(root=ROOT, progress=print):
         "unreviewedCandidatePairCount": sum(candidate["review"]["status"] == "requires-current-source-review"
                                             for value in report["domains"].values() for candidate in value["candidatePairs"]),
         "errorItemCount": sum(len(value["errors"]) for value in report["domains"].values()),
+        "statisticalAlertCount": sum(len(value["statisticalAlerts"]) for value in report["domains"].values()),
     }
     report["passed"] = not any(report["summary"][key] for key in (
         "exactGroupCount", "nearGroupCount", "unreviewedCandidatePairCount", "errorItemCount"))

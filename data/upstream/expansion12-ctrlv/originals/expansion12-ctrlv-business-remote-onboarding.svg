@@ -1,0 +1,30 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Laptop -->
+                <rect x="80" y="80" width="240" height="150" rx="10" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="8"/>
+                <path d="M50 230 L350 230 L340 250 H60 Z" fill="var(--charcoal)"/>
+                
+                <!-- Screen UI -->
+                <rect x="90" y="90" width="220" height="130" rx="4" fill="var(--primary-color)" opacity="0.1"/>
+                
+                <!-- Welcome Banner -->
+                <rect class="anim-pulse" x="110" y="100" width="180" height="30" rx="4" fill="var(--accent-color)"/>
+                <text x="200" y="120" font-family="monospace" font-weight="bold" font-size="14" fill="var(--bg-surface)" text-anchor="middle">WELCOME!</text>
+                
+                <!-- Employee Profile on Screen -->
+                <circle cx="140" cy="170" r="25" fill="var(--secondary-color)"/>
+                <path d="M115 215 Q140 180 165 215 Z" fill="var(--secondary-color)"/>
+                
+                <!-- Tasks/Checklist -->
+                <rect x="180" y="150" width="80" height="10" rx="2" fill="var(--charcoal)" opacity="0.3"/>
+                <rect x="180" y="170" width="100" height="10" rx="2" fill="var(--charcoal)" opacity="0.3"/>
+                <rect x="180" y="190" width="60" height="10" rx="2" fill="var(--charcoal)" opacity="0.3"/>
+                
+                <!-- Confetti -->
+                <circle class="anim-bounce" cx="100" cy="60" r="5" fill="var(--primary-color)"/>
+                <g transform="rotate(20 280 50)">
+                <rect class="anim-bounce" style="animation-delay: 0.2s;" x="280" y="50" width="8" height="8" fill="var(--secondary-color)" />
+            </g>
+                <path class="anim-bounce" style="animation-delay: 0.4s;" d="M200 40 L205 50 L195 50 Z" fill="var(--accent-color)"/>
+            </g>
+          </svg>

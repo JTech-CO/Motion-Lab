@@ -1,0 +1,1224 @@
+[
+  {
+    "id": "lottiefiles",
+    "name": "LottieFiles",
+    "sector": 3,
+    "officialUrl": "https://lottiefiles.com/",
+    "representativeAsset": {
+      "url": "https://lottiefiles.com/free-animation/loading-animation-RCrj2DRXyi",
+      "formats": [
+        "Lottie JSON",
+        "optimized JSON",
+        "dotLottie",
+        "optimized dotLottie",
+        "GIF/MP4 export advertised"
+      ],
+      "downloadGate": "공개 상세와 다운로드 선택지는 확인했으나 다운로드 버튼·가입 흐름에는 진입하지 않았습니다.",
+      "rights": "Faysal Ahmed의 무료 Loading Animation 상세에 Lottie Simple License가 표시됩니다. 실제 파일과 개별 고지는 다운로드하지 않았습니다.",
+      "payloadDownloaded": false,
+      "actualPayloadFormatsVerified": false,
+      "evidencePath": "data/upstream/grok-source-review/ui/evidence/ade4da11faf82c3f50c7.json"
+    },
+    "termsEvidence": [
+      {
+        "url": "https://lottiefiles.com/page/license",
+        "claim": "공개 Files의 일반 복제·수정·배포·상업 사용을 조건부 허용합니다. 배포 및 파생물에는 같은 라이선스 조건이 적용되며 수집·편집하여 유사·경쟁 서비스를 만드는 것은 별도 금지합니다.",
+        "quote": "download, reproduce, modify, publish, distribute",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/7f79ebd1b2945d328593.json"
+      },
+      {
+        "url": "https://lottiefiles.com/page/license",
+        "claim": "Motion Lab 같은 소스 창고에 모아 배포하는 이용은 경쟁·유사 서비스용 수집 제한을 통과하지 못합니다. 무료 파일의 모든 일반 배포가 금지된다고 판단하지 않습니다.",
+        "quote": "replicate or develop a similar or competing service",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/7f79ebd1b2945d328593.json"
+      },
+      {
+        "url": "https://help.lottiefiles.com/animation-licensing-basics-",
+        "claim": "2026년 공식 도움말은 단독 원본 파일 재배포·재판매와 경쟁 서비스 수집을 허용하지 않는다고 안내합니다. 계약 본문의 조건부 일반 배포 조항과 함께 읽습니다.",
+        "quote": "Cannot redistribute as standalone animation files",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/f4d83c09bcaa465d3d19.json"
+      }
+    ],
+    "storageVerdict": "no-public-redistribution",
+    "reasonKO": "무료 공개 파일의 일반 배포는 동일 라이선스 등 조건 아래 허용되지만, Motion Lab용 대량 수집·소스 라이브러리 재배포는 유사·경쟁 서비스 제한에 해당하므로 채택하지 않습니다.",
+    "currentRendererFit": "대표 원본 JSON/dotLottie는 현재 미지원입니다. SVG나 이미지 export는 별도 파생 형식으로 파일 적합성과 개별 권리를 새로 검증해야 합니다.",
+    "api": {
+      "url": "https://developers.lottiefiles.com/",
+      "observed": true,
+      "claim": "런타임과 개발자 도구의 공식 포털을 확인했습니다. 전체 라이브러리 원본을 재배포할 수 있는 공개 수집 API나 계약은 검증하지 않았습니다.",
+      "authenticationOrCommercialGate": "미검증",
+      "bulkAssetApiVerified": false,
+      "called": false,
+      "evidencePath": "data/upstream/grok-source-review/ui/evidence/62afa0ed6ab1eef4c2a7.json"
+    },
+    "advertisedInventory": {
+      "count": 800000,
+      "unit": "무료·유료 ready-to-use animations, 홈페이지의 800,000+ 광고 수치",
+      "qualified": false
+    },
+    "nextStep": "원본 창고 채택은 중단하고 참고 링크만 검토합니다. 필요하면 경쟁 라이브러리 목적의 별도 서면 허가와 Lottie renderer 적합성을 먼저 확인합니다.",
+    "accessAttempts": [
+      {
+        "url": "https://developers.lottiefiles.com/",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/62afa0ed6ab1eef4c2a7.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://help.lottiefiles.com/animation-licensing-basics-",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/f4d83c09bcaa465d3d19.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://lottiefiles.com/",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/c1ca07c6f0261f389bb6.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://lottiefiles.com/",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/c1ca07c6f0261f389bb6.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://lottiefiles.com/free-animation/loading-animation-RCrj2DRXyi",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/ade4da11faf82c3f50c7.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://lottiefiles.com/free-animation/loading-animation-RCrj2DRXyi",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/ade4da11faf82c3f50c7.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://lottiefiles.com/page/license",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/7f79ebd1b2945d328593.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://lottiefiles.com/page/license",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/7f79ebd1b2945d328593.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://lottiefiles.com/robots.txt",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "공식 robots.txt 공개 응답을 읽고 수집 전에 홈 경로 조건을 확인했습니다. robots 규칙은 재배포 라이선스와 별개입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/ca10cbfe0471070af536.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      }
+    ],
+    "qualifiedSupply": {
+      "verifiedNetNew": 0,
+      "unverifiedPotential": null
+    },
+    "existingCatalog": {
+      "sourceMatchCount": 0,
+      "ids": [],
+      "catalogPath": "data/catalog.json",
+      "catalogSha256": "643300e8581b957345acc4d636a13b30bf52c5b24cf3714b10341a53c4032c97",
+      "canonicalItemsAtReview": 11827,
+      "originalsIncludingVariantsAndRepair": 11884,
+      "scope": "Source name/author normalized or exact official sourceUrl/sourceRepo host, including nested variants and repair originals. No geometry uniqueness or rights inferred.",
+      "assetLevelDeduplicationPerformed": false
+    }
+  },
+  {
+    "id": "iconscout",
+    "name": "IconScout",
+    "sector": 3,
+    "officialUrl": "https://iconscout.com/",
+    "representativeAsset": {
+      "url": "https://iconscout.com/free-lottie-animation/online-shopping-app-11179737",
+      "formats": [
+        "Lottie JSON",
+        "dotLottie",
+        "ZIP/export GIF/MP4 advertised"
+      ],
+      "downloadGate": "Exa 공개 상세에는 다운로드 선택지가 있지만 직접 HTTP/일반 Chrome은 403 Cloudflare였습니다. 실제 다운로드·가입 여부는 확인하지 않았습니다.",
+      "rights": "무료 Online Shopping App, Venus 제작, Digital License 표시는 공식 공개 상세의 Exa 본문에서 확인했습니다. 개별 원본 고지는 미검증입니다.",
+      "payloadDownloaded": false,
+      "actualPayloadFormatsVerified": false,
+      "evidencePath": "data/upstream/grok-source-review/ui/evidence/cb5b50a2257132c5f242.json"
+    },
+    "termsEvidence": [
+      {
+        "url": "https://help.iconscout.com/iconscout-digital-physical-license-policy",
+        "claim": "공식 Digital/Physical License 안내는 원형·수정본을 stock content, tools/templates 또는 source files 형태로 재배포하는 것을 금지합니다.",
+        "quote": "You may not redistribute IconScout assets",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/4e07e01e64794098ab9c.json"
+      },
+      {
+        "url": "https://iconscout.com/licenses",
+        "claim": "공식 라이선스 URL을 요청했지만 일반 브라우저는 403 challenge였고 Exa 응답은 서비스 마케팅 중심이어서 계약 본문 검증으로 삼지 않았습니다.",
+        "quote": "",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/da2d7f3b57cad877bbbd.json"
+      }
+    ],
+    "storageVerdict": "no-public-redistribution",
+    "reasonKO": "공식 도움말에서 stock/source 재배포 금지를 확인했으므로 무료·API 제공 여부와 관계없이 Motion Lab 원본 창고에는 저장·재배포하지 않습니다. 본사이트 직접 접근은 별도로 차단된 상태입니다.",
+    "currentRendererFit": "대표 JSON/dotLottie는 현재 미지원입니다. 다른 SVG/이미지 상품이 있어도 파일·개별 라이선스는 별도 검증이 필요합니다.",
+    "api": {
+      "url": "https://iconscout.com/api",
+      "observed": true,
+      "claim": "공식 URL은 Exa가 마케팅 본문을 반환했습니다. 실제 API 계약·엔드포인트·인증 범위와 재배포 권한은 확인하지 않았습니다.",
+      "authenticationOrCommercialGate": "미검증",
+      "bulkAssetApiVerified": false,
+      "called": false,
+      "evidencePath": "data/upstream/grok-source-review/ui/evidence/01b382d951bc715e71c7.json"
+    },
+    "advertisedInventory": {
+      "count": 968000,
+      "unit": "무료·유료 Lottie animations, 공식 홈페이지 Exa 본문 968K+",
+      "qualified": false,
+      "otherAdvertisedMetrics": [
+        {
+          "count": 14000000,
+          "unit": "전체 design assets",
+          "qualified": false
+        }
+      ],
+      "conflictingSearchSnapshot": "다른 검색 스냅샷에 577K 수치도 있어 단일 현재 순공급량으로 해석하지 않습니다."
+    },
+    "nextStep": "접근 제한을 우회하지 않습니다. 원본 수집 없이 참고 링크만 검토하고, 필요할 때 명시적인 stock/source 재배포 계약을 문의합니다.",
+    "accessAttempts": [
+      {
+        "url": "https://help.iconscout.com/iconscout-digital-physical-license-policy",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/4e07e01e64794098ab9c.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://help.iconscout.com/iconscout-digital-physical-license-policy",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/4e07e01e64794098ab9c.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://iconscout.com/",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/007935b4ce1853d46aa5.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://iconscout.com/",
+        "method": "normal-isolated-Chrome-public-navigation",
+        "status": 403,
+        "observedContent": "Cloudflare 보안 확인 화면 또는 접근 거부가 표시되어 실제 페이지 본문을 확인하지 못했습니다. 일반 공개 브라우저에서도 우회하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/007935b4ce1853d46aa5.json",
+        "challengeObserved": true,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://iconscout.com/api",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/01b382d951bc715e71c7.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://iconscout.com/free-lottie-animation/online-shopping-app-11179737",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/cb5b50a2257132c5f242.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://iconscout.com/free-lottie-animation/online-shopping-app-11179737",
+        "method": "normal-isolated-Chrome-public-navigation",
+        "status": 403,
+        "observedContent": "Cloudflare 보안 확인 화면 또는 접근 거부가 표시되어 실제 페이지 본문을 확인하지 못했습니다. 일반 공개 브라우저에서도 우회하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/cb5b50a2257132c5f242.json",
+        "challengeObserved": true,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://iconscout.com/licenses",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/da2d7f3b57cad877bbbd.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://iconscout.com/licenses",
+        "method": "normal-isolated-Chrome-public-navigation",
+        "status": 403,
+        "observedContent": "Cloudflare 보안 확인 화면 또는 접근 거부가 표시되어 실제 페이지 본문을 확인하지 못했습니다. 일반 공개 브라우저에서도 우회하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/da2d7f3b57cad877bbbd.json",
+        "challengeObserved": true,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://iconscout.com/robots.txt",
+        "method": "normal-isolated-Chrome-public-navigation",
+        "status": 403,
+        "observedContent": "Cloudflare 보안 확인 화면 또는 접근 거부가 표시되어 실제 페이지 본문을 확인하지 못했습니다. 일반 공개 브라우저에서도 우회하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/afe47e08903dce909c12.json",
+        "challengeObserved": true,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://iconscout.com/robots.txt",
+        "method": "public-HTTP-GET",
+        "status": 403,
+        "observedContent": "Cloudflare 보안 확인 화면 또는 접근 거부가 표시되어 실제 페이지 본문을 확인하지 못했습니다. 일반 공개 브라우저에서도 우회하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/afe47e08903dce909c12.json",
+        "challengeObserved": true,
+        "semanticFallback": false
+      }
+    ],
+    "qualifiedSupply": {
+      "verifiedNetNew": 0,
+      "unverifiedPotential": null
+    },
+    "existingCatalog": {
+      "sourceMatchCount": 0,
+      "ids": [],
+      "catalogPath": "data/catalog.json",
+      "catalogSha256": "643300e8581b957345acc4d636a13b30bf52c5b24cf3714b10341a53c4032c97",
+      "canonicalItemsAtReview": 11827,
+      "originalsIncludingVariantsAndRepair": 11884,
+      "scope": "Source name/author normalized or exact official sourceUrl/sourceRepo host, including nested variants and repair originals. No geometry uniqueness or rights inferred.",
+      "assetLevelDeduplicationPerformed": false
+    }
+  },
+  {
+    "id": "lottielab",
+    "name": "Lottielab",
+    "sector": 3,
+    "officialUrl": "https://www.lottielab.com/",
+    "representativeAsset": {
+      "url": "https://www.lottielab.com/template/bento-blocks-search-card",
+      "formats": [
+        "Lottie export advertised",
+        "GIF export advertised",
+        "MP4 export advertised"
+      ],
+      "downloadGate": "Edit template 선택지가 표시되며 실제 편집기·가입·export 흐름에는 진입하지 않았습니다. 상세 Chrome navigation은 timeout이지만 화면 본문과 Exa가 동일 템플릿을 확인합니다.",
+      "rights": "공식 상세에는 자체 템플릿의 외부 stock/source 재배포 허가가 명시되지 않았습니다. 이용자 창작물 소유권 조항은 공개 템플릿 전체에 대한 라이선스가 아닙니다.",
+      "payloadDownloaded": false,
+      "actualPayloadFormatsVerified": false,
+      "evidencePath": "data/upstream/grok-source-review/ui/evidence/1eb4171b28af1aaba68e.json"
+    },
+    "termsEvidence": [
+      {
+        "url": "https://www.lottielab.com/terms",
+        "claim": "2024-04-23 효력의 웹사이트 약관은 자료 양도·다른 서버 mirror를 제한합니다. 사용자 제출 콘텐츠의 소유권은 사용자에게 남고 플랫폼에만 이용권을 부여하므로 제3자의 원본 창고 허가로 읽을 수 없습니다.",
+        "quote": "transfer the materials to another person or \"mirror\" the materials on any other server",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/46e87382d8c649d1d2fc.json"
+      }
+    ],
+    "storageVerdict": "reference-only",
+    "reasonKO": "템플릿 편집과 export 기능은 확인했지만 원본을 공개 stock 창고로 재배포할 개별 허가가 확인되지 않았습니다. 약관의 양도·mirror 제한 때문에 현재는 참고 출처로만 검토합니다.",
+    "currentRendererFit": "Lottie export는 미지원이며 MP4는 수집 범위 밖입니다. GIF 이미지 등은 권리와 실제 export 파일이 확인된 경우에만 별도 검토할 수 있습니다.",
+    "api": {
+      "url": null,
+      "observed": false,
+      "claim": "공개 대량 source asset API와 재배포 계약은 검증하지 않았습니다.",
+      "bulkAssetApiVerified": false,
+      "called": false
+    },
+    "advertisedInventory": {
+      "count": null,
+      "unit": "공식 전체 템플릿 수 미확인",
+      "qualified": false,
+      "otherAdvertisedMetrics": [
+        {
+          "count": 500000,
+          "unit": "designers/users, 에셋 수가 아님",
+          "qualified": false
+        }
+      ]
+    },
+    "nextStep": "공개 템플릿 원본을 추가하지 않습니다. 개별 템플릿 재배포 허가와 지원 형식이 확보될 때 다시 검토합니다.",
+    "accessAttempts": [
+      {
+        "url": "https://www.lottielab.com/",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/d9cf5436ba30050bcbd1.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.lottielab.com/",
+        "method": "normal-isolated-Chrome-public-navigation",
+        "status": 200,
+        "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/d9cf5436ba30050bcbd1.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.lottielab.com/robots.txt",
+        "method": "normal-isolated-Chrome-public-navigation",
+        "status": 404,
+        "observedContent": "요청한 robots.txt가 HTTP 404로 반환되었습니다. 누락 상태를 접근 허가나 크롤링 거부로 해석하지 않습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/ab0fcc9b4fdce45bb060.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.lottielab.com/robots.txt",
+        "method": "public-HTTP-GET",
+        "status": 404,
+        "observedContent": "요청한 robots.txt가 HTTP 404로 반환되었습니다. 누락 상태를 접근 허가나 크롤링 거부로 해석하지 않습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/ab0fcc9b4fdce45bb060.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.lottielab.com/template/bento-blocks-search-card",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/1eb4171b28af1aaba68e.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.lottielab.com/template/bento-blocks-search-card",
+        "method": "normal-isolated-Chrome-public-navigation",
+        "status": "browser-navigation-error",
+        "observedContent": "5초 navigation timeout이 발생했습니다. 이후 화면 본문에는 실제 Search Card 템플릿과 export 형식이 표시됐으나 HTTP 200 성공으로 기록하지 않습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/1eb4171b28af1aaba68e.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.lottielab.com/templates",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/577151113fae856ce50e.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.lottielab.com/templates/illustrations",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/fb43c95128e2d29ee6ff.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.lottielab.com/templates/illustrations",
+        "method": "normal-isolated-Chrome-public-navigation",
+        "status": 200,
+        "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/fb43c95128e2d29ee6ff.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.lottielab.com/terms",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/46e87382d8c649d1d2fc.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.lottielab.com/terms",
+        "method": "normal-isolated-Chrome-public-navigation",
+        "status": 200,
+        "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/46e87382d8c649d1d2fc.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      }
+    ],
+    "qualifiedSupply": {
+      "verifiedNetNew": 0,
+      "unverifiedPotential": null
+    },
+    "existingCatalog": {
+      "sourceMatchCount": 0,
+      "ids": [],
+      "catalogPath": "data/catalog.json",
+      "catalogSha256": "643300e8581b957345acc4d636a13b30bf52c5b24cf3714b10341a53c4032c97",
+      "canonicalItemsAtReview": 11827,
+      "originalsIncludingVariantsAndRepair": 11884,
+      "scope": "Source name/author normalized or exact official sourceUrl/sourceRepo host, including nested variants and repair originals. No geometry uniqueness or rights inferred.",
+      "assetLevelDeduplicationPerformed": false
+    }
+  },
+  {
+    "id": "lordicon",
+    "name": "Lordicon",
+    "sector": 3,
+    "officialUrl": "https://lordicon.com/",
+    "representativeAsset": {
+      "url": "https://lordicon.com/icons/wired/outline/63-home",
+      "formats": [
+        "Lottie",
+        "GIF",
+        "SVG",
+        "PNG",
+        "MOGRT",
+        "AEP"
+      ],
+      "downloadGate": "FREE Home 상세와 Edit and download 버튼을 일반 Chrome 200에서 확인했습니다. 다운로드나 가입은 하지 않았습니다.",
+      "rights": "무료 아이콘 라이선스는 attribution 및 별도 제한이 적용됩니다. 표시된 여러 animation state는 독립 에셋 공급으로 계산하지 않습니다.",
+      "payloadDownloaded": false,
+      "actualPayloadFormatsVerified": false,
+      "evidencePath": "data/upstream/grok-source-review/ui/evidence/fb6bbfb594a297876f71.json"
+    },
+    "termsEvidence": [
+      {
+        "url": "https://lordicon.com/licenses",
+        "claim": "원형·수정본의 standalone 배포와 아이콘 라이브러리/팩을 핵심 기능으로 제공하는 것을 제한합니다.",
+        "quote": "as standalone files, whether for free or for profit",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/0685e66913655d2459e7.json"
+      },
+      {
+        "url": "https://lordicon.com/docs/license/free",
+        "claim": "무료 아이콘도 Lordicon attribution을 요구하며 아이콘 라이브러리/팩·전달 전용 플러그인에서 핵심 콘텐츠로 제공하거나 무료로 양도·배포하는 것을 제한합니다.",
+        "quote": "even for free",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/615d6cdeefe714940d12.json"
+      }
+    ],
+    "storageVerdict": "no-public-redistribution",
+    "reasonKO": "무료 라이선스에도 원본·수정본의 소스 배포 및 아이콘 창고 제공 제한이 명시되어 Motion Lab의 공개 원본 데이터로 채택하지 않습니다.",
+    "currentRendererFit": "SVG/PNG 표시는 확인했지만 다운로드한 파일을 sanitizer에 통과시키지는 않았습니다. Lottie는 미지원, MOGRT/AEP는 해당 애플리케이션 전용입니다.",
+    "api": {
+      "url": "https://lordicon.com/docs/api/documentation",
+      "observed": true,
+      "claim": "공식 API 문서는 demo 토큰과 프로젝트를 통한 테스트, 상용 production 라이선스를 구분합니다. API 접근이 무료 아이콘의 stock/source 재배포 권한을 만들지는 않습니다.",
+      "authenticationOrCommercialGate": "회원가입·로그인·프로젝트·demo token, production 별도 계약",
+      "bulkAssetApiVerified": false,
+      "called": false,
+      "evidencePath": "data/upstream/grok-source-review/ui/evidence/cb69e28f82fc859736c2.json"
+    },
+    "advertisedInventory": {
+      "count": 48100,
+      "unit": "전체 icons 광고 수치 48,100+",
+      "qualified": false,
+      "freeAdvertisedCount": 9700,
+      "unitNote": "무료 9,700+ 및 스타일·state는 중복 제거 전 광고 수치"
+    },
+    "nextStep": "API/demo 등록이나 다운로드는 진행하지 않습니다. 창고 재배포를 명시적으로 허가하는 별도 계약이 있을 때만 재검토합니다.",
+    "accessAttempts": [
+      {
+        "url": "https://lordicon.com/",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/86edf25c6ded463d6212.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://lordicon.com/",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/86edf25c6ded463d6212.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://lordicon.com/api-developers",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/b6f4b5fad07da6eb5033.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://lordicon.com/docs/api/documentation",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/cb69e28f82fc859736c2.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://lordicon.com/docs/api/documentation",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/cb69e28f82fc859736c2.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://lordicon.com/docs/customization-formats",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/1b98913b392fb259585b.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://lordicon.com/docs/license/free",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/615d6cdeefe714940d12.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://lordicon.com/icons/wired/outline",
+        "method": "normal-isolated-Chrome-public-navigation",
+        "status": 200,
+        "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/2ee8d4819f85d1eb9a4e.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://lordicon.com/icons/wired/outline/63-home",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/fb6bbfb594a297876f71.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://lordicon.com/icons/wired/outline/63-home",
+        "method": "normal-isolated-Chrome-public-navigation",
+        "status": 200,
+        "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/fb6bbfb594a297876f71.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://lordicon.com/icons/wired/outline/63-home",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/fb6bbfb594a297876f71.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://lordicon.com/licenses",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/0685e66913655d2459e7.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://lordicon.com/licenses",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/0685e66913655d2459e7.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://lordicon.com/robots.txt",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "공식 robots.txt 공개 응답을 읽고 수집 전에 홈 경로 조건을 확인했습니다. robots 규칙은 재배포 라이선스와 별개입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/dce444066ff07322d072.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://lordicon.com/terms-of-service",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/13a2cab5091bbcee4139.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://lordicon.com/terms-of-service",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/13a2cab5091bbcee4139.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      }
+    ],
+    "qualifiedSupply": {
+      "verifiedNetNew": 0,
+      "unverifiedPotential": null
+    },
+    "existingCatalog": {
+      "sourceMatchCount": 0,
+      "ids": [],
+      "catalogPath": "data/catalog.json",
+      "catalogSha256": "643300e8581b957345acc4d636a13b30bf52c5b24cf3714b10341a53c4032c97",
+      "canonicalItemsAtReview": 11827,
+      "originalsIncludingVariantsAndRepair": 11884,
+      "scope": "Source name/author normalized or exact official sourceUrl/sourceRepo host, including nested variants and repair originals. No geometry uniqueness or rights inferred.",
+      "assetLevelDeduplicationPerformed": false
+    }
+  },
+  {
+    "id": "mosso",
+    "name": "Mosso",
+    "sector": 3,
+    "officialUrl": "https://mosso.video/",
+    "identityVerification": "공식 검색 결과와 홈페이지의 Lottie editor 및 animation library 내용을 서로 확인해 mosso.video로 특정했습니다. 유사 명칭의 다른 서비스를 임의 대입하지 않았습니다.",
+    "representativeAsset": {
+      "url": "https://mosso.video/library/chasing-arc-spinner/",
+      "formats": [
+        "Lottie JSON",
+        "dotLottie",
+        "editor exports GIF/MP4/WebM/PNG frames advertised"
+      ],
+      "downloadGate": "무료 계정의 일일 50 library downloads quota가 표시됩니다. 가입·다운로드는 하지 않았으며 quota는 에셋 보유량이 아닙니다.",
+      "rights": "4초 Chasing Arc Spinner는 400x400, Arc/Track 두 layer의 공식 상세입니다. 라이브러리 원본의 stock 배포 제한이 적용되며 개별 다운로드 내부 notice는 미검증입니다.",
+      "payloadDownloaded": false,
+      "actualPayloadFormatsVerified": false,
+      "evidencePath": "data/upstream/grok-source-review/ui/evidence/c2db3aac390f3b6c94a1.json"
+    },
+    "termsEvidence": [
+      {
+        "url": "https://mosso.video/legal/terms/",
+        "claim": "개인·상업 프로젝트 이용은 허용하지만 Mosso 라이브러리 원본을 standalone stock/templates/packs로 판매·무료 제공하거나 경쟁 stock collection을 구축하는 것은 금지합니다. 소량 수정도 예외가 아니며 제3자 구성요소의 별도 고지는 계속 적용됩니다.",
+        "quote": "resell or give away Mosso library items as standalone stock files, templates or packs",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/d0315068a8ad72ee8252.json"
+      },
+      {
+        "url": "https://mosso.video/legal/terms/",
+        "claim": "별도 오픈소스 부품의 라이선스가 전체 Mosso 구성의 창고 재배포 허가가 되지는 않습니다.",
+        "quote": "build a competing stock collection",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/d0315068a8ad72ee8252.json"
+      }
+    ],
+    "storageVerdict": "no-public-redistribution",
+    "reasonKO": "정체가 확인된 모션 라이브러리지만 약관이 무료 배포를 포함한 stock 원본 재배포와 경쟁 컬렉션 구축을 금지하므로 저장·배포 대상에서 제외합니다.",
+    "currentRendererFit": "대표 JSON/dotLottie 원본은 미지원입니다. 편집기 animated SVG/이미지 export 가능성이 있어도 실제 파일·고지·sanitizer 적합성을 검증하지 않았습니다.",
+    "api": {
+      "url": "https://mosso.video/docs/connect-your-own-ai/",
+      "observed": true,
+      "claim": "mosso-mcp@0.1.0 로컬 Node 20+ 연결은 AI를 통한 창작·편집·export 도구입니다. 라이브러리 대량 재배포 API 허가로 해석하지 않으며 설치·연결하지 않았습니다.",
+      "authenticationOrCommercialGate": "로컬 Node 및 사용자 AI 계정 연결, 실제 연결 미실행",
+      "bulkAssetApiVerified": false,
+      "called": false,
+      "evidencePath": "data/upstream/grok-source-review/ui/evidence/9feb682917855b447b28.json"
+    },
+    "advertisedInventory": {
+      "count": null,
+      "unit": "전체 라이브러리 공식 수량 미확인",
+      "qualified": false,
+      "downloadQuota": {
+        "count": 50,
+        "unit": "free account library downloads/day, UTC reset",
+        "inventory": false
+      }
+    },
+    "nextStep": "원본 라이브러리 수집은 하지 않습니다. 별도 공개 원작 부품은 원저작자의 공식 출처에서 라이선스·구성 중복을 새로 검증할 수 있습니다.",
+    "accessAttempts": [
+      {
+        "url": "https://mosso.video/",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/bb02590669df0edac343.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://mosso.video/",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/bb02590669df0edac343.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://mosso.video/docs/connect-your-own-ai/",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/9feb682917855b447b28.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://mosso.video/docs/connect-your-own-ai/",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/9feb682917855b447b28.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://mosso.video/legal/terms/",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/d0315068a8ad72ee8252.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://mosso.video/legal/terms/",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/d0315068a8ad72ee8252.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://mosso.video/library/",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/78f7455209e4a25611e9.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://mosso.video/library/chasing-arc-spinner/",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/c2db3aac390f3b6c94a1.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://mosso.video/library/chasing-arc-spinner/",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/c2db3aac390f3b6c94a1.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://mosso.video/library/ui-animations/",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/973e15509b420da48057.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://mosso.video/robots.txt",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "공식 robots.txt 공개 응답을 읽고 수집 전에 홈 경로 조건을 확인했습니다. robots 규칙은 재배포 라이선스와 별개입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/dd210a73c6b4f8dcb986.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      }
+    ],
+    "qualifiedSupply": {
+      "verifiedNetNew": 0,
+      "unverifiedPotential": null
+    },
+    "existingCatalog": {
+      "sourceMatchCount": 0,
+      "ids": [],
+      "catalogPath": "data/catalog.json",
+      "catalogSha256": "643300e8581b957345acc4d636a13b30bf52c5b24cf3714b10341a53c4032c97",
+      "canonicalItemsAtReview": 11827,
+      "originalsIncludingVariantsAndRepair": 11884,
+      "scope": "Source name/author normalized or exact official sourceUrl/sourceRepo host, including nested variants and repair originals. No geometry uniqueness or rights inferred.",
+      "assetLevelDeduplicationPerformed": false
+    }
+  },
+  {
+    "id": "allavio",
+    "name": "Allavio",
+    "sector": "additional",
+    "officialUrl": "https://www.allavio.com/",
+    "representativeAsset": {
+      "url": "https://www.allavio.com/product/free-titles/",
+      "formats": [
+        "DaVinci Resolve/Fusion title templates",
+        "DRFX used by site products; actual free archive uninspected"
+      ],
+      "downloadGate": "0.00 Free Titles Sample의 Add to Cart 후 다운로드 흐름과 10 titles 표시는 확인했습니다. cart·checkout·가입·다운로드는 하지 않았습니다.",
+      "rights": "무료 샘플 상세에는 원본을 제3자 stock 창고로 배포할 독립 라이선스가 확인되지 않았습니다. Standard 약관의 purchased products 제한을 무료 샘플에 대한 허가로 대체하지 않습니다.",
+      "payloadDownloaded": false,
+      "actualPayloadFormatsVerified": false,
+      "evidencePath": "data/upstream/grok-source-review/ui/evidence/599612771ed4c4a83ed3.json"
+    },
+    "termsEvidence": [
+      {
+        "url": "https://www.allavio.com/licensing-service-agreement/",
+        "claim": "2025-07-21 Standard 라이선스는 purchased Product의 최종 개인·상업 렌더링 이용과 수정을 허용하되 raw 제품 원본의 공개 업로드·무료 공유·재포장을 제한합니다. 무료 샘플의 별도 공개 재배포 권리는 미검증입니다.",
+        "quote": "You may not make the raw Product files publicly available",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/8eb7a5da28113437fb7a.json"
+      }
+    ],
+    "storageVerdict": "reference-only",
+    "reasonKO": "유료 원본의 stock/source 배포 금지를 확인했고, 무료 샘플도 공개 원본 창고 허가가 확인되지 않았습니다. Resolve 전용 템플릿이므로 현재는 참고 출처로만 검토합니다.",
+    "currentRendererFit": "DaVinci Resolve/Fusion/DRFX는 현재 미지원입니다. 최종 영상은 MP4 수집 범위 밖이며 이미지 렌더도 원본 source stock 라이선스와 별개입니다.",
+    "api": {
+      "url": null,
+      "observed": false,
+      "claim": "공개 asset bulk API나 원본 warehouse 재배포 계약을 확인하지 못했습니다.",
+      "bulkAssetApiVerified": false,
+      "called": false
+    },
+    "advertisedInventory": {
+      "count": 10,
+      "unit": "검토한 단일 무료 pack의 motion graphic titles, 전체 사이트 수량 아님",
+      "qualified": false,
+      "paidPackVariants": "별도 유료 Minimal Titles는 10 titles × 6 variations이며 60 독립 신규 원본으로 계산하지 않습니다."
+    },
+    "nextStep": "무료라는 가격 표시만으로 원본을 추가하지 않습니다. 무료 샘플의 공개 재배포 허가와 실제 지원 파일이 확인되어야 합니다.",
+    "accessAttempts": [
+      {
+        "url": "https://www.allavio.com/",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/6e5e164a7d90bfe2843d.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.allavio.com/",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/6e5e164a7d90bfe2843d.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.allavio.com/licensing-service-agreement/",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/8eb7a5da28113437fb7a.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.allavio.com/licensing-service-agreement/",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/8eb7a5da28113437fb7a.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.allavio.com/product/free-titles/",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/599612771ed4c4a83ed3.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.allavio.com/product/free-titles/",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/599612771ed4c4a83ed3.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.allavio.com/product/minimal-titles-for-davinci-resolve/",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/69d25438a203d8a05586.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.allavio.com/product/minimal-titles-for-davinci-resolve/",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/69d25438a203d8a05586.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.allavio.com/robots.txt",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "공식 robots.txt 공개 응답을 읽고 수집 전에 홈 경로 조건을 확인했습니다. robots 규칙은 재배포 라이선스와 별개입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/97957536d65b7b260e16.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.allavio.com/shop/free/",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/7b0863da260f05572729.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.allavio.com/shop/free/",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/7b0863da260f05572729.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      }
+    ],
+    "qualifiedSupply": {
+      "verifiedNetNew": 0,
+      "unverifiedPotential": null
+    },
+    "existingCatalog": {
+      "sourceMatchCount": 0,
+      "ids": [],
+      "catalogPath": "data/catalog.json",
+      "catalogSha256": "643300e8581b957345acc4d636a13b30bf52c5b24cf3714b10341a53c4032c97",
+      "canonicalItemsAtReview": 11827,
+      "originalsIncludingVariantsAndRepair": 11884,
+      "scope": "Source name/author normalized or exact official sourceUrl/sourceRepo host, including nested variants and repair originals. No geometry uniqueness or rights inferred.",
+      "assetLevelDeduplicationPerformed": false
+    }
+  },
+  {
+    "id": "mralextech",
+    "name": "MrAlexTech",
+    "sector": "additional",
+    "officialUrl": "https://www.mralextech.com/",
+    "representativeAsset": {
+      "url": "https://www.mralextech.com/magicanimate",
+      "formats": [
+        "OFX plugin for DaVinci Resolve 21+ Windows/macOS"
+      ],
+      "downloadGate": "현재 free variant와 full product/trial 선택지를 확인했습니다. 무료 기능에는 계정·라이선스키·기간 제한이 없다고 광고하지만 파일 다운로드는 하지 않았습니다.",
+      "rights": "무료 variant의 no licence 표시는 키 활성화 조건 안내이며 저작권 포기·공개 stock 재배포 허가로 보지 않습니다. dependency MIT notice는 전체 plugin 원본의 MIT 허가가 아닙니다.",
+      "payloadDownloaded": false,
+      "actualPayloadFormatsVerified": false,
+      "evidencePath": "data/upstream/grok-source-review/ui/evidence/e2056ac2a2959bf7ab21.json"
+    },
+    "termsEvidence": [
+      {
+        "url": "https://www.mralextech.com/terms",
+        "claim": "2026년 4월 약관의 유료 MagicAnimate는 개인용 비양도 설치·사용 라이선스입니다. 무료 variant의 별도 source warehouse 재배포 허가는 검증하지 않았습니다.",
+        "quote": "personal, non-transferable licence to install and use the plugin",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/427df1f10474fcc02429.json"
+      },
+      {
+        "url": "https://www.mralextech.com/licenses",
+        "claim": "공식 오픈소스 고지는 Tetrahedral Interpolation ColorWarper 등 구성요소의 MIT 라이선스입니다. 이 notice를 MagicAnimate 전체 파일의 재배포 허가로 확장하지 않습니다.",
+        "quote": "",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/7dbdff3ca59334377a21.json"
+      }
+    ],
+    "storageVerdict": "reference-only",
+    "reasonKO": "현재 서비스는 Resolve 전용 plugin이며 무료 변형도 공개 source stock 창고 재배포권이 확인되지 않았습니다. 예전 MagicZoomFree URL의 HTTP 200 응답은 현재 홈페이지로 바뀌어 과거 다운로드를 현재 공급으로 보지 않습니다.",
+    "currentRendererFit": "OFX 바이너리와 DaVinci Resolve host는 현재 renderer 미지원입니다. 현재 페이지의 preset 수는 웹에서 재생 가능한 개별 원본 파일 수가 아닙니다.",
+    "api": {
+      "url": null,
+      "observed": false,
+      "claim": "공개 bulk asset API는 미검증이며 plugin 활성화·계정 서비스는 asset 재배포 API와 별개입니다.",
+      "bulkAssetApiVerified": false,
+      "called": false
+    },
+    "advertisedInventory": {
+      "count": 159,
+      "unit": "상용 plugin의 advertised presets, 독립 asset·전체 사이트 수량 아님",
+      "qualified": false,
+      "details": "80 In/Out + 40 Mid advertised 동작 구분을 공급 원본으로 계산하지 않습니다."
+    },
+    "nextStep": "현재 plugin 파일을 추가하지 않습니다. 출처 링크만 검토하고, 무료 소스의 명시적 재배포 허가 및 웹 코드 형식이 공개될 때 다시 확인합니다.",
+    "accessAttempts": [
+      {
+        "url": "https://mralextech.com/magicanimate",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/c181460ee7ea03775c94.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.mralextech.com/",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/e7ead6a3bb76fd9b8d01.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.mralextech.com/",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/e7ead6a3bb76fd9b8d01.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.mralextech.com/licenses",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/7dbdff3ca59334377a21.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.mralextech.com/licenses",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/7dbdff3ca59334377a21.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.mralextech.com/magicanimate",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/e2056ac2a2959bf7ab21.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.mralextech.com/magicanimate",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/e2056ac2a2959bf7ab21.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.mralextech.com/magicanimate",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/e2056ac2a2959bf7ab21.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.mralextech.com/magiczoomfree",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/f619144fdc68683acc91.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.mralextech.com/magiczoomfree",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "HTTP 200이지만 요청한 예전 제품 상세가 아닌 현재 홈페이지 내용이 반환됐습니다. 해당 과거 다운로드 페이지를 유효한 상세로 계산하지 않습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/f619144fdc68683acc91.json",
+        "challengeObserved": false,
+        "semanticFallback": true
+      },
+      {
+        "url": "https://www.mralextech.com/robots.txt",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "공식 robots.txt 공개 응답을 읽고 수집 전에 홈 경로 조건을 확인했습니다. robots 규칙은 재배포 라이선스와 별개입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/3f8c63826a656ad2ed45.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.mralextech.com/terms",
+        "method": "Exa-public-fetch",
+        "status": "content-returned-http-status-unavailable",
+        "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/427df1f10474fcc02429.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      },
+      {
+        "url": "https://www.mralextech.com/terms",
+        "method": "public-HTTP-GET",
+        "status": 200,
+        "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+        "evidencePath": "data/upstream/grok-source-review/ui/evidence/427df1f10474fcc02429.json",
+        "challengeObserved": false,
+        "semanticFallback": false
+      }
+    ],
+    "qualifiedSupply": {
+      "verifiedNetNew": 0,
+      "unverifiedPotential": null
+    },
+    "existingCatalog": {
+      "sourceMatchCount": 0,
+      "ids": [],
+      "catalogPath": "data/catalog.json",
+      "catalogSha256": "643300e8581b957345acc4d636a13b30bf52c5b24cf3714b10341a53c4032c97",
+      "canonicalItemsAtReview": 11827,
+      "originalsIncludingVariantsAndRepair": 11884,
+      "scope": "Source name/author normalized or exact official sourceUrl/sourceRepo host, including nested variants and repair originals. No geometry uniqueness or rights inferred.",
+      "assetLevelDeduplicationPerformed": false
+    }
+  }
+]

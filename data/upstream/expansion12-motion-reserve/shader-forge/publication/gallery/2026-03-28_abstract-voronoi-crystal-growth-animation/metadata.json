@@ -1,0 +1,26 @@
+{
+  "theme": "abstract voronoi crystal growth animation",
+  "style_hints": "",
+  "references": [
+    "community/lygia/generative_voronoi.glsl [grid]",
+    "community/procedural-tileable-shaders/voronoi.glsl [color_palette,grid]",
+    "community/glsl-shaders/borders_resources_voronoi.glsl [grid,matrix]",
+    "community/thebookofshaders/12_vorono-01.frag [grid]",
+    "community/lygia/generative_voronoi.wgsl [grid]"
+  ],
+  "attempts": 1,
+  "created_at": "2026-03-28T01:54:08.926449+00:00",
+  "glsl_lines": 61,
+  "success": true,
+  "design_brief": "### Implementation Guide: Abstract Voronoi Crystal Growth  \n\n1. **Architecture**  \n   ```glsl\n   void main() {\n     vec2 uv = gl_FragCoord.xy / uResolution.xy;\n     uv = uv * 2.0 - 1.0; uv.x *= uResolution.x/uResolution.y;\n     vec3 col = voronoiCrystal(uv, uTime);\n     gl_FragColor = vec4(col, 1.0);\n   }\n   ```\n\n2. **Key functions**  \n   - `vec3 voronoiCrystal(vec2 uv, float t)` — main entry; returns RGB  \n   - `vec3 voronoi(vec2 p, float t)` — reuse **ref #1’s `voronoi()`**, but replace `time` with `uTime` in `VORONOI_RANDOM_FNC`  \n   - `vec3 colorFromVoronoi(vec3 v)` — maps distance/phase to vibrant palette (see §4)  \n   - `float growthField(vec2 p, float t)` — optional: smooth domain-warping using `sin(uTime + ...)`\n\n3. **Reference reuse**  \n   - Copy **ref #1’s `voronoi()` loop structure** (3×3 neighbor search) — it’s clean, WebGL1-safe, and uses `floor/fract`.  \n   - Use `random2()` from same file (or define inline: `sin(dot(uv, vec2(12.9898,78.233))*43758.5453)`).  \n   - *Do not* use ref #2’s `multiHash2D` — it’s overkill and may use forbidden ops.\n\n4. **Color & brightness**  \n   - Use `vec3(0.5 + 0.5*sin(vec3(1.0, 0.6, 0.3)*t + TAU*d))` for hue cycling (like ref #1’s `VORONOI_RANDOM_FNC`).  \n   - Boost contrast: `col = pow(col, vec3(0.8)) * 1.2`.  \n   - Fill screen: ensure `uv` is aspect-corrected and no clamping to [0,1] early.\n\n5. **Animation**  \n   - Drive all time-varying parts with `uTime`.  \n   - Use `uTime * 0.5` for slow growth, `uTime * 2.0` for jitter.  \n   - Loop implicitly via `sin(uTime)` — no need for modulo.\n\n6. **Pitfalls**  \n   - ❌ No `layout()`/`out` — use `gl_FragColor`.  \n   - ❌ No `dFdx`/`fwidth` — avoid edge anti-aliasing; use `smoothstep(0.02, 0.0, d)` for soft Voronoi borders.  \n   - ✅ Use `float` loops (no `int` loop vars in some WebGL1 drivers — use `for (float i=-1.0; i<=1.0; i+=1.0)`).  \n   - ✅ Avoid bitwise ops — `floor/mod` only.",
+  "review": {
+    "visual_complexity": 4,
+    "code_quality": 4,
+    "theme_match": 4,
+    "animation": 5,
+    "originality": 4,
+    "total": 21,
+    "verdict": "pass",
+    "feedback": "Excellent implementation of abstract voronoi crystal growth with dynamic animation, rich color mixing, and high visual complexity; the full-canvas coverage and balanced brightness make it ideal for social media."
+  }
+}

@@ -1,0 +1,44 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Background Elements -->
+            <path class="anim-float" d="M100 80 Q130 60 160 80 T220 70" stroke="var(--secondary-color)" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.4"/>
+            <path class="anim-float" d="M280 120 Q310 100 340 120" stroke="var(--accent-color)" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.5" style="animation-delay: -2s;"/>
+
+            <!-- Distant Buildings -->
+            <rect x="80" y="180" width="30" height="90" fill="var(--slate-400)" opacity="0.4"/>
+            <rect x="290" y="160" width="40" height="110" fill="var(--slate-400)" opacity="0.4"/>
+            <rect x="115" y="150" width="35" height="120" fill="var(--primary-color)" opacity="0.6"/>
+            
+            <!-- Empire State Building -->
+            <rect x="180" y="100" width="40" height="170" fill="var(--primary-color)"/>
+            <path d="M185 100 L195 60 H205 L215 100 Z" fill="var(--primary-color)"/>
+            <path class="anim-glow" d="M200 60 V20" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round"/>
+            <circle class="anim-glow" cx="200" cy="20" r="4" fill="var(--accent-color)"/>
+
+            <!-- Chrysler Building inspired -->
+            <rect x="235" y="140" width="30" height="130" fill="var(--primary-color)"/>
+            <path d="M235 140 Q250 110 265 140 Z" fill="var(--primary-color)"/>
+            <path d="M250 110 V80" stroke="var(--primary-color)" stroke-width="2"/>
+            <circle class="anim-glow" cx="250" cy="80" r="3" fill="var(--accent-color)" style="animation-delay: 1s;"/>
+
+            <!-- Windows (Blinking) -->
+            <g class="anim-pulse" fill="var(--bg-surface)" style="animation-duration: 3s">
+                <rect x="190" y="120" width="6" height="10" rx="1"/>
+                <rect x="204" y="120" width="6" height="10" rx="1"/>
+                <rect x="190" y="150" width="6" height="10" rx="1"/>
+                <rect x="204" y="150" width="6" height="10" rx="1"/>
+                <rect x="190" y="180" width="6" height="10" rx="1"/>
+                <rect x="204" y="180" width="6" height="10" rx="1"/>
+                <rect x="190" y="210" width="6" height="10" rx="1"/>
+                <rect x="204" y="210" width="6" height="10" rx="1"/>
+            </g>
+            <g class="anim-pulse" fill="var(--bg-surface)" style="animation-duration: 4s; animation-delay: 1s;">
+                <rect x="242" y="160" width="6" height="10" rx="1"/>
+                <rect x="252" y="160" width="6" height="10" rx="1"/>
+                <rect x="242" y="190" width="6" height="10" rx="1"/>
+                <rect x="252" y="190" width="6" height="10" rx="1"/>
+            </g>
+            
+            <!-- Foreground Bridge / Silhouette elements -->
+            <path class="anim-draw" d="M40 250 Q120 200 200 250 T360 250" fill="none" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+            <path d="M80 230 V270 M320 230 V270" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+          </svg>

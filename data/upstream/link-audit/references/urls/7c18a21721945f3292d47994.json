@@ -1,0 +1,56 @@
+{
+  "url": "https://crucibleui.com/components/text/recast",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://crucibleui.com/components/text/recast",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://crucibleui.com/components/text/recast",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://crucibleui.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://crucibleui.com/components/text/recast",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:46.943186+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://crucibleui.com/components/text/recast",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "1c85b5cc88492ed0c62cbf6e8de989777801b0350b004312556614d9e916f87c",
+      "responseBodySha256": "1c85b5cc88492ed0c62cbf6e8de989777801b0350b004312556614d9e916f87c",
+      "title": "Recast — Crucible",
+      "textCharacters": 12493,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.593,
+      "captureCachePath": "exa-results/link-audit/references/captures/edb235d5c4e0f8e5a12032ab.json",
+      "captureCacheSha256": "46976aeb083068b08a449c80a7ad8ab985d78baac3a07b3b86592b3a3b3a3ac8"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-crucible-recast",
+      "canonicalId": "ref-crucible-recast",
+      "title": "Crucible Recast",
+      "role": "canonical",
+      "sourceSha256": "62a96484429955c4aae8826e43a1c661baaa18fb3a35b7ccfb1132106e721235"
+    }
+  ]
+}

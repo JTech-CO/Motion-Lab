@@ -1,0 +1,13 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Brim -->
+                <ellipse cx="200" cy="200" rx="120" ry="30" fill="var(--primary-color)"/>
+                <ellipse cx="200" cy="195" rx="120" ry="30" fill="none" stroke="var(--charcoal)" stroke-width="2"/>
+                <!-- Crown -->
+                <path class="anim-bounce" d="M120 190 C120 90 150 60 200 60 C250 60 280 90 280 190 Z" fill="var(--primary-color)"/>
+                <path d="M130 100 C160 120 240 120 270 100" stroke="var(--charcoal)" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.2"/>
+                <!-- Hatband -->
+                <path d="M121 170 C121 190 279 190 279 170 V190 C279 210 121 210 121 190 Z" fill="var(--accent-color)"/>
+                <path class="anim-glow" d="M220 165 L240 150 L260 170" fill="var(--secondary-color)"/> <!-- Feather/Accent -->
+            </g>
+          </svg>

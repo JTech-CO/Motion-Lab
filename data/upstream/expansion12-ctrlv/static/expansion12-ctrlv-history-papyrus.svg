@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <path d="M130 80 Q200 90 270 80 V240 Q200 250 130 240 Z" fill="#6366f1" />
+                <path d="M130 80 Q200 90 270 80 V240 Q200 250 130 240 Z" fill="#f43f5e" opacity="0.2" />
+                
+                
+                <rect x="110" y="60" width="20" height="200" rx="10" fill="#334155" />
+                <ellipse cx="120" cy="60" rx="15" ry="5" fill="#f43f5e" />
+                <ellipse cx="120" cy="260" rx="15" ry="5" fill="#f43f5e" />
+                <rect x="115" y="45" width="10" height="15" fill="#DFD116" />
+                <rect x="115" y="260" width="10" height="15" fill="#DFD116" />
+                <path d="M130 80 C110 80 110 240 130 240" fill="#334155" opacity="0.6" />
+
+                
+                <rect x="270" y="60" width="20" height="200" rx="10" fill="#334155" />
+                <ellipse cx="280" cy="60" rx="15" ry="5" fill="#f43f5e" />
+                <ellipse cx="280" cy="260" rx="15" ry="5" fill="#f43f5e" />
+                <rect x="275" y="45" width="10" height="15" fill="#DFD116" />
+                <rect x="275" y="260" width="10" height="15" fill="#DFD116" />
+                <path d="M270 80 C290 80 290 240 270 240" fill="#334155" opacity="0.6" />
+
+                
+                <path d="M150 120 Q180 125 210 120 M230 118 H250 M150 140 Q200 145 250 140 M150 160 Q170 165 190 160 M210 159 H250 M150 180 Q200 185 250 180 M150 200 Q190 205 220 200" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" />
+                
+                <circle cx="230" cy="210" r="15" fill="#DFD116" />
+                <circle cx="230" cy="210" r="8" fill="#ffffff" opacity="0.5" />
+            </g>
+          </svg>

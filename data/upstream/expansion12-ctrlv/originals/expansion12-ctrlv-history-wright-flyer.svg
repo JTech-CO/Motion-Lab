@@ -1,0 +1,40 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-bounce">
+                <!-- Bottom Wing -->
+                <path d="M80 200 Q200 220 320 200 L300 220 Q200 240 100 220 Z" fill="var(--secondary-color)"/>
+                
+                <!-- Top Wing -->
+                <path d="M80 120 Q200 140 320 120 L300 140 Q200 160 100 140 Z" fill="var(--primary-color)"/>
+                
+                <!-- Struts between wings -->
+                <line x1="100" y1="135" x2="100" y2="215" stroke="var(--charcoal)" stroke-width="4"/>
+                <line x1="150" y1="145" x2="150" y2="225" stroke="var(--charcoal)" stroke-width="4"/>
+                <line x1="200" y1="150" x2="200" y2="230" stroke="var(--charcoal)" stroke-width="4"/>
+                <line x1="250" y1="145" x2="250" y2="225" stroke="var(--charcoal)" stroke-width="4"/>
+                <line x1="300" y1="135" x2="300" y2="215" stroke="var(--charcoal)" stroke-width="4"/>
+                
+                <!-- Cross bracing -->
+                <path d="M100 135 L150 225 M150 145 L100 215 M150 145 L200 230 M200 150 L150 225 M200 150 L250 225 M250 145 L200 230 M250 145 L300 215 M300 135 L250 225" stroke="var(--bg-surface)" stroke-width="2" opacity="0.6"/>
+                
+                <!-- Front Elevator (Canard) -->
+                <path d="M160 80 Q200 90 240 80 L230 90 Q200 100 170 90 Z" fill="var(--accent-color)"/>
+                <line x1="200" y1="95" x2="200" y2="150" stroke="var(--charcoal)" stroke-width="4"/>
+                <line x1="170" y1="90" x2="150" y2="145" stroke="var(--charcoal)" stroke-width="2"/>
+                <line x1="230" y1="90" x2="250" y2="145" stroke="var(--charcoal)" stroke-width="2"/>
+                
+                <!-- Rear Rudders -->
+                <rect x="180" y="240" width="10" height="40" fill="var(--primary-color)"/>
+                <rect x="210" y="240" width="10" height="40" fill="var(--primary-color)"/>
+                <line x1="185" y1="240" x2="200" y2="230" stroke="var(--charcoal)" stroke-width="4"/>
+                <line x1="215" y1="240" x2="200" y2="230" stroke="var(--charcoal)" stroke-width="4"/>
+                
+                <!-- Propellers (Spinning) -->
+                <g class="anim-pulse">
+                    <ellipse cx="125" cy="180" rx="5" ry="30" fill="var(--charcoal)" opacity="0.3"/>
+                    <ellipse cx="275" cy="180" rx="5" ry="30" fill="var(--charcoal)" opacity="0.3"/>
+                </g>
+            </g>
+            
+            <!-- Wind / Speed lines -->
+            <path class="anim-float" d="M60 160 H120 M40 100 H80 M320 180 H360" stroke="var(--secondary-color)" stroke-width="3" stroke-linecap="round" opacity="0.5"/>
+          </svg>

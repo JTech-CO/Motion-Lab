@@ -1,0 +1,56 @@
+{
+  "url": "https://designbetter.style/motion",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://designbetter.style/motion",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://designbetter.style/motion",
+      "allowedForAuditGet": true,
+      "reason": "robots-missing-not-a-license",
+      "robotsUrl": "https://designbetter.style/robots.txt",
+      "robotsStatus": 404
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://designbetter.style/motion",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:49.903406+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://designbetter.style/motion",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 64236,
+      "capturedSha256": "9867b97fe69496181065370cd4c18ff9bf64a725307cdad8a82ec7c6bc757849",
+      "responseBodySha256": "9867b97fe69496181065370cd4c18ff9bf64a725307cdad8a82ec7c6bc757849",
+      "title": "The Design System",
+      "textCharacters": 3755,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.574,
+      "captureCachePath": "exa-results/link-audit/references/captures/abc8b581e267ddc7bbb711c9.json",
+      "captureCacheSha256": "3d598501fe57754ea83d93b226c6dd17e52b82b221fb6c6e909527d4efa40645"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-designbetter-motion",
+      "canonicalId": "ref-designbetter-motion",
+      "title": "Designbetter Motion",
+      "role": "canonical",
+      "sourceSha256": "182bc9f9a2129d98628109164718c855f639ea1cbcc812285b37f771333c2f2b"
+    }
+  ]
+}

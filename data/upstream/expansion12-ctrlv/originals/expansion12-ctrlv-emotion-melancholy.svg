@@ -1,0 +1,23 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="130" ry="10" fill="#E2E8F0"/>
+            <g class="anim-float" style="animation-duration: 5s;">
+              <circle cx="200" cy="148" r="88" fill="var(--primary-color)" opacity="0.6"/>
+              <!-- Downcast heavy-lidded eyes -->
+              <ellipse cx="172" cy="135" rx="16" ry="12" fill="var(--bg-surface)"/>
+              <ellipse cx="228" cy="135" rx="16" ry="12" fill="var(--bg-surface)"/>
+              <ellipse cx="172" cy="138" rx="10" ry="8" fill="var(--charcoal)"/>
+              <ellipse cx="228" cy="138" rx="10" ry="8" fill="var(--charcoal)"/>
+              <!-- Gentle frown -->
+              <path d="M165 175 Q200 162 235 175" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round" fill="none"/>
+            </g>
+            <!-- Falling leaves / petals -->
+            <g class="anim-data" fill="var(--secondary-color)" opacity="0.6">
+              <ellipse cx="100" cy="120" rx="8" ry="4" transform="rotate(30 100 120)"/>
+              <ellipse cx="310" cy="150" rx="8" ry="4" transform="rotate(-20 310 150)"/>
+              <ellipse cx="80" cy="200" rx="6" ry="3" transform="rotate(15 80 200)"/>
+            </g>
+            <!-- Rain diagonal -->
+            <g class="anim-draw" stroke="var(--accent-color)" stroke-width="2" stroke-linecap="round" opacity="0.25">
+              <path d="M60 40 L80 100 M90 20 L110 80 M330 30 L350 90 M310 50 L330 110"/>
+            </g>
+          </svg>

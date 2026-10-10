@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <path d="M60 150 H340" stroke="#334155" stroke-width="12" stroke-linecap="round" opacity="0.1" />
+                <path d="M60 150 H340" stroke="#334155" stroke-width="4" stroke-dasharray="12 12" fill="none" />
+                
+                
+                <g transform="translate(100, 150)">
+                    <g>
+                    <circle r="25" fill="#ffffff" stroke="#334155" stroke-width="4" />
+                    <path d="M-10 0 L-2 8 L10 -8" stroke="#f43f5e" stroke-width="4" stroke-linecap="round" fill="none" />
+                </g>
+                </g>
+                <g transform="translate(200, 150)">
+                    <g>
+                    <circle r="25" fill="#ffffff" stroke="#334155" stroke-width="4" />
+                    <rect x="-10" y="-10" width="20" height="20" fill="#6366f1" opacity="0.4" />
+                </g>
+                </g>
+                <g transform="translate(300, 150)">
+                    <g>
+                    <circle r="25" fill="#ffffff" stroke="#334155" stroke-width="4" />
+                </g>
+                </g>
+                
+                
+                <g transform="translate(200, 100)">
+                    <g>
+                    <path d="M0 -30 Q15 0 15 20 H-15 Q-15 0 0 -30 Z" fill="#DFD116" />
+                    <path d="M-15 20 L-25 30 V10 Z M15 20 L25 30 V10 Z" fill="#334155" />
+                    <circle cx="0" cy="0" r="6" fill="#ffffff" />
+                    
+                    <path d="M-10 25 Q0 50 10 25" fill="#6366f1" opacity="0.6" />
+                </g>
+                </g>
+            </g>
+          </svg>

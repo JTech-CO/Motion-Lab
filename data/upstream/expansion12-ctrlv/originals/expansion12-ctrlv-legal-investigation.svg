@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Document -->
+            <rect x="120" y="80" width="140" height="160" fill="var(--secondary-color)"/>
+            <path d="M140 110 H240 M140 140 H240 M140 170 H220 M140 200 H190" stroke="var(--bg-surface)" stroke-width="8" stroke-linecap="round"/>
+            
+            <!-- Highlight/Evidence -->
+            <rect class="anim-pulse" x="140" y="166" width="60" height="12" fill="var(--accent-color)" opacity="0.5"/>
+            
+            <!-- Magnifying Glass -->
+            <g class="anim-float" >
+                <path d="M230 190 L280 240" stroke="var(--charcoal)" stroke-width="20" stroke-linecap="round"/>
+                <path d="M240 200 L270 230" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round"/>
+                
+                <circle cx="200" cy="160" r="50" stroke="var(--primary-color)" stroke-width="12" fill="#fff" fill-opacity="0.8"/>
+                <circle class="anim-glow" cx="200" cy="160" r="50" stroke="var(--accent-color)" stroke-width="4" stroke-dasharray="20 10" fill="none"/>
+                <!-- Enlarged text -->
+                <path d="M170 170 H220" stroke="var(--primary-color)" stroke-width="12" stroke-linecap="round"/>
+            </g>
+          </svg>

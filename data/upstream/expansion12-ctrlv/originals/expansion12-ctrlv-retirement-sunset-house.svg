@@ -1,0 +1,9 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="anim-float">
+            <path d="M100 240 A100 100 0 0 1 300 240" fill="#f59e0b" opacity="0.2"/>
+            <rect x="180" y="180" width="40" height="40" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="2"/>
+            <path d="M170 180 L200 150 L230 180 Z" fill="var(--primary-color)" opacity="0.6"/>
+        </g>
+        <path class="anim-draw" d="M50 240 H350" stroke="var(--charcoal)" stroke-width="2"/>
+        <text x="200" y="270" text-anchor="middle" font-family="Inter" font-weight="700" font-size="12" fill="var(--charcoal)">LONG TERM GOAL</text>
+    </svg>

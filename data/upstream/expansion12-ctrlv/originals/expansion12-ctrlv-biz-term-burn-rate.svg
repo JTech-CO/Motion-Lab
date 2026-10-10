@@ -1,0 +1,20 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Stack of Cash -->
+                <rect x="110" y="180" width="120" height="40" rx="5" fill="var(--primary-color)" opacity="0.6"/>
+                <rect x="110" y="160" width="120" height="40" rx="5" fill="var(--primary-color)" opacity="0.8"/>
+                <rect x="110" y="140" width="120" height="40" rx="5" fill="var(--primary-color)"/>
+                <circle cx="170" cy="160" r="10" fill="var(--bg-surface)" opacity="0.5"/>
+                
+                <!-- Flames consuming the money -->
+                <g class="anim-bounce" fill="var(--accent-color)">
+                    <path d="M220 180 Q210 140 230 100 Q250 140 240 180 Z"/>
+                    <path style="animation-delay: 0.3s" d="M190 180 Q170 120 200 70 Q230 110 210 180 Z"/>
+                    <path style="animation-delay: 0.6s" d="M160 180 Q140 130 170 90 Q190 140 180 180 Z" opacity="0.8"/>
+                </g>
+                <g class="anim-pulse" fill="var(--secondary-color)">
+                    <circle cx="210" cy="80" r="4"/>
+                    <circle cx="175" cy="50" r="6"/>
+                    <circle cx="240" cy="90" r="5"/>
+    </g>
+          </svg>

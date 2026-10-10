@@ -1,0 +1,16 @@
+{
+  "id": "jitter",
+  "url": "https://jitter.video/terms/",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 200,
+  "finalUrl": "https://jitter.video/terms/",
+  "contentType": "text/html",
+  "truncated": false,
+  "observedBytes": 27414,
+  "observedContentSha256": "df66faa595170e122c22de1cc9be98e96f6749cfa7f3c4d9241afce3f4ccdff1",
+  "links": [],
+  "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+  "challengeOrDenial": false
+}

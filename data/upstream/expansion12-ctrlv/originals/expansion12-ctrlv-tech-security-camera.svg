@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Mount -->
+                <path d="M100 100 H150" stroke="var(--charcoal)" stroke-width="12" stroke-linecap="round"/>
+                
+                <!-- Camera Body -->
+                <g class="anim-rotate" >
+                    <rect x="150" y="70" width="140" height="60" rx="8" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="8"/>
+                    <!-- Lens -->
+                    <rect x="290" y="85" width="20" height="30" rx="2" fill="var(--charcoal)"/>
+                    <circle cx="220" cy="100" r="15" fill="var(--primary-color)" opacity="0.1"/>
+                    
+                    <!-- "REC" Blinking Light -->
+                    <g class="anim-pulse" >
+                        <circle cx="170" cy="85" r="5" fill="var(--accent-color)"/>
+                    </g>
+                </g>
+                
+                <!-- Surveillance Area -->
+                <path class="anim-pulse" d="M300 80 L380 40 M300 120 L380 160" stroke="var(--accent-color)" stroke-width="2" stroke-dasharray="4 4" opacity="0.2"/>
+            </g>
+          </svg>

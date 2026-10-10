@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-bounce">
+                <circle cx="200" cy="150" r="100" fill="var(--primary-color)"/>
+                
+                <g transform="translate(150, 110)">
+                    <g class="anim-pulse">
+                    <path d="M0 -30 L10 -10 L30 0 L10 10 L0 30 L-10 10 L-30 0 L-10 -10 Z" fill="var(--accent-color)"/>
+                </g>
+                </g>
+                <g transform="translate(250, 110)">
+                    <g class="anim-pulse" style="animation-delay: 0.2s;">
+                    <path d="M0 -30 L10 -10 L30 0 L10 10 L0 30 L-10 10 L-30 0 L-10 -10 Z" fill="var(--accent-color)"/>
+                </g>
+                </g>
+                
+                <path d="M140 170 Q200 240 260 170 C260 170 200 170 140 170 Z" fill="var(--bg-surface)"/>
+            </g>
+          </svg>

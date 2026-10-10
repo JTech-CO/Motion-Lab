@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g style="animation-duration: 6s;" class="anim-float">
+                <!-- Tower Mast -->
+                <rect x="180" y="100" width="40" height="200" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="8"/>
+                <path d="M180 140 L220 120 M180 180 L220 160 M180 220 L220 200 M180 260 L220 240 M220 140 L180 120 M220 180 L180 160 M220 220 L180 200 M220 260 L180 240" stroke="var(--charcoal)" stroke-width="4"/>
+                
+                <!-- Operator Cabin and Base -->
+                <rect x="170" y="80" width="60" height="30" fill="var(--secondary-color)"/>
+                <rect style="animation-duration: 4s;" class="anim-pulse" x="185" y="85" width="10" height="20" fill="var(--accent-color)" opacity="0.6"/>
+                <path d="M160 50 L200 30 L240 50 Z" fill="var(--primary-color)"/>
+                
+                <!-- Jib (Main Arm) -->
+                <rect x="200" y="50" width="160" height="20" fill="var(--secondary-color)"/>
+                <path d="M200 50 L360 50 L360 70 L200 70" stroke="var(--charcoal)" stroke-width="4" fill="none"/>
+                <!-- Counter-Jib -->
+                <rect x="80" y="50" width="120" height="20" fill="var(--secondary-color)"/>
+                <rect x="60" y="40" width="40" height="40" fill="var(--charcoal)"/>
+                
+                <!-- Hoist Line and Payload -->
+                <g transform="translate(320, 70)">
+<g class="anim-bounce" style="animation-duration: 10s;" >
+                    <line style="animation-duration: 4s;" class="anim-draw" x1="0" y1="0" x2="0" y2="100" stroke="var(--charcoal)" stroke-width="4"/>
+                    <path d="M-5 100 L5 100 L0 110 Z" fill="var(--charcoal)"/>
+                    <rect x="-30" y="110" width="60" height="15" fill="var(--primary-color)"/>
+                </g>
+</g>
+            </g>
+          </svg>

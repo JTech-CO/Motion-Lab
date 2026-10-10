@@ -1,0 +1,19 @@
+{
+  "mainCount": 123,
+  "reserveCount": 661,
+  "totalQualified": 784,
+  "actualBuildSchemaAndCollectionGate": "PASS",
+  "originalAndPlainNoticeSha256": "PASS",
+  "actualJpegBytesAndDimensions": 760,
+  "uniqueIds": 784,
+  "uniqueOriginalByteHashes": 784,
+  "mainInputSha256": "b0e4abc47f4eb22d41fdeaf0e7918d523a329d62e3811db0d781b7918f55c250",
+  "reserveInputSha256": "e9f35ec5afc53b14e62b9fea73b9e2d852be5bc98b31d742d69a10ffe15e2ba1",
+  "mainInput": "data/upstream/expansion12-materials/main-eligible-items.json",
+  "postArchiveReceiptGate": "PASS",
+  "stableInputBytesUnchanged": true,
+  "preservedReferencedQaRasters": 49,
+  "archivedArtifactHashesVerified": 913,
+  "archiveMapping": "data/upstream/expansion12-materials/cleanup-archive-map.json",
+  "archiveMappingSha256": "dc5775ce56a53de55b7120f127f511258a19bc35e640cf7c2571a199ffcc3c9f"
+}

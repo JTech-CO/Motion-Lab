@@ -1,0 +1,41 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g style="animation-duration: 6s;" class="anim-float">
+                <!-- House Keychain Ornament -->
+                <g transform="translate(190, 80)">
+                    <g class="anim-bounce" style="animation-duration: 8s;">
+                        <!-- Chain Link -->
+                        <circle cx="0" cy="0" r="10" fill="none" stroke="var(--charcoal)" stroke-width="4"/>
+                        <circle cx="0" cy="20" r="10" fill="none" stroke="var(--charcoal)" stroke-width="4"/>
+                        <!-- Keyring -->
+                        <circle cx="0" cy="60" r="30" fill="none" stroke="var(--accent-color)" stroke-width="8"/>
+                        
+                        <!-- House Charm -->
+                        <path d="M-30 0 L0 -30 L30 0 V30 H-30 Z" fill="var(--primary-color)" stroke="var(--charcoal)" stroke-width="6" transform="translate(0, -50)"/>
+                        <circle cx="0" cy="-40" r="5" fill="var(--bg-surface)"/>
+                        
+                        <!-- Key 1 (Silver/Secondary) -->
+                        <g transform="translate(-15, 80) rotate(15)">
+                            <g class="anim-rotate" style="transform-origin: 0px 0px; animation-duration: 6s; animation-direction: alternate;">
+                                <circle cx="0" cy="0" r="15" fill="var(--secondary-color)" stroke="var(--charcoal)" stroke-width="4"/>
+                                <rect x="-5" y="15" width="10" height="60" rx="2" fill="var(--secondary-color)" stroke="var(--charcoal)" stroke-width="4"/>
+                                <rect x="5" y="55" width="15" height="8" rx="2" fill="var(--secondary-color)" stroke="var(--charcoal)" stroke-width="4"/>
+                                <rect x="5" y="40" width="10" height="8" rx="2" fill="var(--secondary-color)" stroke="var(--charcoal)" stroke-width="4"/>
+                            </g>
+                        </g>
+                        
+                        <!-- Key 2 (Gold/Primary) -->
+                        <g transform="translate(15, 80) rotate(-15)">
+                            <g class="anim-rotate" style="transform-origin: 0px 0px; animation-duration: 8s; animation-direction: alternate-reverse;">
+                                <circle cx="0" cy="0" r="15" fill="var(--primary-color)" stroke="var(--charcoal)" stroke-width="4"/>
+                                <rect x="-5" y="15" width="10" height="70" rx="2" fill="var(--primary-color)" stroke="var(--charcoal)" stroke-width="4"/>
+                                <rect x="-20" y="65" width="15" height="10" rx="2" fill="var(--primary-color)" stroke="var(--charcoal)" stroke-width="4"/>
+                                <rect x="-15" y="45" width="10" height="8" rx="2" fill="var(--primary-color)" stroke="var(--charcoal)" stroke-width="4"/>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                
+                <!-- Ribbon (Grand Opening) -->
+                <path style="animation-duration: 4s;" class="anim-draw" d="M60 260 Q200 180 340 260" stroke="var(--accent-color)" stroke-width="12" stroke-linecap="round" opacity="0.5"/>
+            </g>
+          </svg>

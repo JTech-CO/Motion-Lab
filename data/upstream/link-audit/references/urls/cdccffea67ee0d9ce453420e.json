@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/pablostanley/typexperiments",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/pablostanley/typexperiments",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/pablostanley/typexperiments",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/pablostanley/typexperiments",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:43.716540+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/pablostanley/typexperiments",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "53dbd95fd0d194cb3605920b3bd32c3f4123714ce1783957979057c2acb78636",
+      "responseBodySha256": "53dbd95fd0d194cb3605920b3bd32c3f4123714ce1783957979057c2acb78636",
+      "title": "GitHub - pablostanley/typexperiments: Kinetic typography engine powered by Pretext. Smooth per-character text animations on Canvas. · GitHub",
+      "textCharacters": 5184,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.734,
+      "captureCachePath": "exa-results/link-audit/references/captures/455745a4079a4be2d07fe042.json",
+      "captureCacheSha256": "e250711e0a60cc84e8552a617715b80167b157fc4b6405c8b26554351195070f"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-typexperiments",
+      "canonicalId": "ref-typexperiments",
+      "title": "Typexperiments",
+      "role": "canonical",
+      "sourceSha256": "fbe978e0e635677e53b59fc3f185cec73ce199ec190b01a592f5a8b5f6fd582d"
+    }
+  ]
+}

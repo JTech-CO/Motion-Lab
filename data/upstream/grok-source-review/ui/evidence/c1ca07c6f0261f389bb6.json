@@ -1,0 +1,37 @@
+{
+  "url": "https://lottiefiles.com/",
+  "site": "lottiefiles",
+  "reviewedAt": "2026-10-10",
+  "captures": [
+    {
+      "method": "Exa-public-fetch",
+      "status": "content-returned-http-status-unavailable",
+      "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://lottiefiles.com/",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/exa-lottiefiles-fetch-1.json",
+      "rawCacheSha256": "3f4cb7d22dfa12c8cdc6e1081f8202f72c0cd33e65e679bb7d8fc0c34c3cfd61",
+      "capturedTextSha256": "108f7b70352198f9e56d5a8b5f477039c7a790e8cb39974aa5ccb034771193dd",
+      "responseCapturedSha256": null,
+      "boundedAtBytes": null,
+      "providerResponseCacheBytes": 20065,
+      "truncated": null
+    },
+    {
+      "method": "public-HTTP-GET",
+      "status": 200,
+      "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://lottiefiles.com/",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/lottiefiles-home-http.json",
+      "rawCacheSha256": "1567efbfe5946ace9e8a4fb3634afaa54af83ee22839917395ccb7e644e6f5bb",
+      "capturedTextSha256": "8aed1937224aba7cab9a36a955d9daba906594672a80bb17961ef18c1ff6d756",
+      "responseCapturedSha256": "fdbd5cdaad397742a04e854925641985745393da15b89245393e8552b8cc6ed2",
+      "boundedAtBytes": 1048576,
+      "truncated": false
+    }
+  ],
+  "contentPolicy": "원문 전체는 ignored exa-results 캐시에만 보관합니다. 이 파일은 접근 상태와 SHA 및 자체 요약만 저장하며 페이지 인용은 sites.json termsEvidence에만 최대 25단어로 기록합니다."
+}

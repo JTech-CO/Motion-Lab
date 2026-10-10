@@ -1,0 +1,56 @@
+{
+  "url": "https://paletton.com/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://paletton.com/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://paletton.com/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://paletton.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://paletton.com/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:05.554658+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://paletton.com/",
+      "contentType": "text/html",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 25065,
+      "capturedSha256": "ee945f8bf6d183a4e974218c3ea8e4616d17029aa353d378cb597675203c5d5b",
+      "responseBodySha256": "ee945f8bf6d183a4e974218c3ea8e4616d17029aa353d378cb597675203c5d5b",
+      "title": "Paletton - The Color Scheme Designer",
+      "textCharacters": 8471,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.632,
+      "captureCachePath": "exa-results/link-audit/references/captures/35c355a023249981207c8e56.json",
+      "captureCacheSha256": "eaf3c81c46ea14118d2ac21a7e7653c902e8e746318261b68d4760c31bc8ebf6"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-paletton",
+      "canonicalId": "ref-paletton",
+      "title": "Paletton",
+      "role": "canonical",
+      "sourceSha256": "fb542d99b9bc414653a7f67f58e3c3760ff56129ec458bfd93ffe706584cda51"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "url": "https://developer.vimeo.com/",
+  "method": "Exa public fetch",
+  "status": "Exa-fetch-failed-or-partial",
+  "fetchedAt": "2026-10-10",
+  "observedContent": "Exa가 URL 추출 실패를 반환했다. 다른 공식 경로·직접 접속 결과와 구분한다.",
+  "sector": 4,
+  "siteId": "vimeo",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/vimeo-api-exa.json",
+  "rawCacheSha256": "b39e61e20b6815de7cdecdec48f28e420f2aae1d7fdb795296b6323643b3090a",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "bcaadb63e98acc2bc5e4922732b2edf5d263810ffd6ce3af5595fcecf50b0c5b",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json."
+}

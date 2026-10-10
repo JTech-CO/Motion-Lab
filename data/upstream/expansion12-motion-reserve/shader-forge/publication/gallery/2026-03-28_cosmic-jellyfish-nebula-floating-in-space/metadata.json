@@ -1,0 +1,26 @@
+{
+  "theme": "cosmic jellyfish nebula floating in space",
+  "style_hints": "",
+  "references": [
+    "shabon-fx/LivingShabon.frag [color_palette,grid,lighting,noise,postprocess,raymarching,reflection,wave]",
+    "shabon-fx/LiquidMetalBlob.frag [lighting,postprocess,raymarching,reflection]",
+    "community/thebookofshaders/src_moon_moon.frag [grid,lighting]",
+    "community/lygia/sdf_starSDF.glsl [raymarching]",
+    "community/lygia/sdf_starSDF.wgsl [raymarching]"
+  ],
+  "attempts": 2,
+  "created_at": "2026-03-28T01:50:19.007968+00:00",
+  "glsl_lines": 134,
+  "success": true,
+  "design_brief": "1. **Architecture**: `main()` → `vec3 color = nebulaJellyfish(uv, uTime)` → `gl_FragColor = vec4(color, 1.0)`. Compute ray direction from UV (centered, aspect-corrected), then raymarch a signed distance field of a *warping tentacle sphere* (jellyfish body + orbiting tendrils) using 8–12 steps. Evaluate lighting + fog + color palette per hit.\n\n2. **Key functions**:  \n   - `float snoise(vec3)` — reuse *Ref #1*’s simplex noise (3D, no dFdx)  \n   - `float map(vec3 p)` — SDF: main sphere + `smin`-blended orbiting blobs (Ref #2 pattern)  \n   - `vec3 warp(vec3 p, float t)` — domain-warp `p` with `snoise(p*freq)*amp` (3 octaves, `freq *= 2.0`)  \n   - `vec3 palette(float t)` — cosine-based vibrant palette (Ref #1: `0.5 + 0.5*cos(...)`)\n\n3. **Reuse**:  \n   - Noise & permute helpers from **Ref #1** (no extensions needed)  \n   - `smin()` and sphere SDF from **Ref #2** for jellyfish “blobby” tentacles  \n   - Palette structure from **Ref #1** (avoid `fract()` in palette—use `mod`)\n\n4. **Color & brightness**:  \n   - Use additive blending: `color += density * intensity * palette(phase)`  \n   - Clamp to `[0.0, 1.0]` *after* accumulation  \n   - Background: deep violet (`vec3(0.1, 0.05, 0.2)`) + fog to avoid black void\n\n5. **Animation**:  \n   - Drive with `uTime * 0.8` (safe range: 0.5–1.2)  \n   - Tentacle orbits: `angle = uTime * (0.3 + i*0.15)`  \n   - Warp amplitude: `sin(uTime*0.4)*0.3` → smooth looping\n\n6. **Pitfalls**:  \n   - NO `fwidth`/`dFdx`/bitwise ops — simplex is safe, Perlin needs workarounds  \n   - Use `highp` for all floats (WebGL1 precision matters)  \n   - Aspect ratio: `uv = (gl_FragCoord.xy * 2.0 - uResolution) / min(uResolution.x, uResolution.y)`  \n   - Ray steps: fixed count only (no early `break`) — 12 steps max for mobile",
+  "review": {
+    "visual_complexity": 4,
+    "code_quality": 4,
+    "theme_match": 3,
+    "animation": 4,
+    "originality": 4,
+    "total": 19,
+    "verdict": "pass",
+    "feedback": "Strong use of SDFs, noise, and animation creates a visually engaging cosmic jellyfish effect, but the nebula shapes are too small and centered, leaving much of the canvas dark; consider scaling up shapes and expanding the nebula's reach to improve brightness and theme immersion."
+  }
+}

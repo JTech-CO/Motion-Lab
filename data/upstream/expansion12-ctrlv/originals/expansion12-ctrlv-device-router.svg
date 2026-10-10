@@ -1,0 +1,20 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+              <!-- Antennas -->
+              <rect x="130" y="100" width="10" height="80" rx="5" fill="var(--charcoal)" opacity="0.8"/>
+              <rect x="200" y="80" width="10" height="100" rx="5" fill="var(--charcoal)" opacity="0.8"/>
+              <rect x="270" y="110" width="10" height="70" rx="5" fill="var(--charcoal)" opacity="0.8"/>
+              <!-- Router Body -->
+              <path d="M100 200 L140 170 H280 L320 200 V230 C320 240 100 240 100 230 Z" fill="var(--primary-color)"/>
+              <path d="M100 200 L140 170 H280 L320 200 Z" fill="var(--bg-surface)" opacity="0.2"/>
+              <!-- Status Lights -->
+              <circle class="anim-pulse" cx="150" cy="215" r="4" fill="var(--accent-color)"/>
+              <circle class="anim-pulse" cx="170" cy="215" r="4" fill="var(--secondary-color)" style="animation-delay:-0.2s"/>
+              <circle class="anim-pulse" cx="190" cy="215" r="4" fill="var(--secondary-color)" style="animation-delay:-0.4s"/>
+              <circle class="anim-pulse" cx="210" cy="215" r="4" fill="var(--accent-color)" style="animation-delay:-0.6s"/>
+            </g>
+            <!-- Wi-Fi Waves -->
+            <path class="anim-data" d="M180 50 A30 30 0 0 1 240 50" fill="none" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round"/>
+            <path class="anim-data" d="M190 65 A15 15 0 0 1 220 65" fill="none" stroke="var(--secondary-color)" stroke-width="4" stroke-linecap="round" style="animation-delay:-0.3s"/>
+            <circle class="anim-glow" cx="205" cy="80" r="5" fill="var(--accent-color)"/>
+          </svg>

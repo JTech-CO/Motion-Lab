@@ -1,0 +1,19 @@
+{
+  "url": "https://www.stashmedia.tv/about/",
+  "method": "bounded public HTTP GET",
+  "status": 200,
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공식 공개 URL의 제한된 HTTP GET 응답을 읽었다. 원격 JavaScript·미디어 파일을 실행하거나 다운로드하지 않았다.",
+  "sector": 4,
+  "siteId": "stash",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/stash-about-http.json",
+  "rawCacheSha256": "6591bea550286e9d5f12a72dc7a685b6bc7a44fbf5c7731a4f36b05f37e826c4",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "f7ea4a3f2375d62157ae8f10ab9566c1256e87f46058dd9a8b4d945a596bcdd1",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "finalUrl": "https://www.stashmedia.tv/about/",
+  "byteCount": 166816,
+  "boundedAt": 1048576,
+  "truncated": false,
+  "originalResponseSha256": "0d78527666ab19955980fb2de9c98ae103f417b74abb8c895f416d7d8ee93b9b"
+}

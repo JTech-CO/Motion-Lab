@@ -1,0 +1,27 @@
+{
+  "theme": "neon synthwave grid with glowing sun",
+  "style_hints": "",
+  "references": [
+    "glsl-art/shadertoy-top/4scGDH.glsl/4scGDH.glsl [grid,lighting,matrix,postprocess,volumetric,wave]",
+    "shabon-fx/NeonGrid.frag [grid,matrix,postprocess,volumetric,wave]",
+    "glsl-art/shadertoy-top/7dyyRy.glsl/7dyyRy.glsl [color_palette,grid,noise,postprocess,raymarching,sdf,wave]",
+    "glsl-art/shadertoy-top/lsf3zr.glsl/lsf3zr.glsl [grid,lighting,raymarching,wave]",
+    "glsl-art/shadertoy-top/ltXczj.glsl/ltXczj.glsl [grid,matrix,wave]"
+  ],
+  "attempts": 1,
+  "created_at": "2026-03-28T16:20:00.895574+00:00",
+  "glsl_lines": 117,
+  "success": true,
+  "target": "glsl",
+  "design_brief": "1. **Architecture**:  \n   ```glsl\n   main() { \n     // 1. Normalize UVs (aspect-correct, center origin)  \n     // 2. Compute `horizon` offset for 2.5D grid  \n     // 3. Compute sky (sun + gradient) → ground (fading grid)  \n     // 4. Combine with glow falloff → output `gl_FragColor`  \n   }\n   ```\n\n2. **Key functions**:  \n   - `noise(vec2)` — simple pseudo-random noise (use `ref #2`’s `fract(sin(dot(...)) * 43758.5453)` for speed)  \n   - `grid(vec2 p, float t)` — returns grid distance + fade (see `ref #2`’s `mod(p, 1.0)` + `smoothstep`)  \n   - `sun(vec2 uv)` — radial gradient + color palette (reuse `ref #3`’s `hsv2rgb` for neon hues)  \n   - `glow(float d, float strength)` — exponential falloff (copy `ref #2`’s `exp(-d * 8.0/strength)`)\n\n3. **Reuse patterns**:  \n   - `ref #2`’s `main()` structure (UV remapping, horizon logic, ground/sky split)  \n   - `ref #3`’s `hsv2rgb` + `hsv2rgb_K` for vibrant neon palettes  \n   - `ref #1`’s `ZOOM_FACTOR` and `SCROLL_SPEED` for time-based grid motion\n\n4. **Color & brightness**:  \n   - Sky: dark `vec3(0.02, 0.01, 0.05)` → sun: `vec3(1.0, 0.4, 0.0)` + warm pink (`vec3(1.0, 0.2, 0.8)`)  \n   - Grid: neon cyan (`vec3(0.0, 1.0, 1.0)`) + magenta accent (`vec3(1.0, 0.0, 1.0)`)  \n   - Always `max(color, 0.01)` to avoid black void — fill screen with ambient + glow\n\n5. **Animation**:  \n   - `uTime` drives grid scroll (`t = uTime * uSpeed`), sun pulse (`sin(uTime * 0.5)`), and sky shift  \n   - `uSpeed = 0.3` (safe WebGL1 range — no overflow)  \n   - Loop via `mod(t, TAU)` for smooth cycles (no `fract` overflow on mobile)\n\n6. **Pitfalls**:  \n   - ❌ No `dFdx/dFdy` — avoid gradient-based AA; use `smoothstep` instead  \n   - ❌ No bitwise ops — no `&`, `|`, `^` — use `mod`, `fract`, `sin` for hashing  \n   - ✅ Always `vec2 p = (uv - 0.5) * aspect;` — prevents oval distortion on mobile  \n   - ✅ Keep `gl_FragColor = vec4(clamp(color, 0.0, 1.0), 1.0)` — avoid NaNs from overflows",
+  "review": {
+    "visual_complexity": 4,
+    "code_quality": 5,
+    "theme_match": 5,
+    "animation": 5,
+    "originality": 4,
+    "total": 23,
+    "verdict": "pass",
+    "feedback": "Excellent synthwave implementation with well-structured code, rich animated elements (sun pulsing, grid scrolling, horizon glow), and full-canvas brightness — only minor room for more advanced techniques like SDF or raymarching to push visual complexity higher."
+  }
+}

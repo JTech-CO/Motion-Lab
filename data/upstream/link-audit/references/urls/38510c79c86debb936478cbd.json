@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/border-beam.tsx",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/border-beam.tsx",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/border-beam.tsx",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/border-beam.tsx",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:13.106421+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/border-beam.tsx",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "96f16ac932733ca735cda0bc68a67515fd6b56cc04feda5f19a0ab203eac14ec",
+      "responseBodySha256": "96f16ac932733ca735cda0bc68a67515fd6b56cc04feda5f19a0ab203eac14ec",
+      "title": "magicui/apps/www/registry/magicui/border-beam.tsx at cdb348cb4c72a9b54b554d8617801e479fbc8714 · magicuidesign/magicui · GitHub",
+      "textCharacters": 5021,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.528,
+      "captureCachePath": "exa-results/link-audit/references/captures/5684fc7a10479c33f1d84307.json",
+      "captureCacheSha256": "252376d3b3583b61cb01fd200c6276eb507b9fbdcaef21945a3fe9b44cdb79ff"
+    }
+  ],
+  "items": [
+    {
+      "id": "asset-magicui-border-beam",
+      "canonicalId": "asset-magicui-border-beam",
+      "title": "Magic UI · Border Beam",
+      "role": "canonical",
+      "sourceSha256": "2ae9126739b992d5d37898262b24b0a421dec174442d72fabbb8337b762012e7"
+    }
+  ]
+}

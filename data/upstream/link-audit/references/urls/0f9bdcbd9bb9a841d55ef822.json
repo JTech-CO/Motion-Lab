@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/dragoon0x/typo",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/dragoon0x/typo",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/dragoon0x/typo",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/dragoon0x/typo",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:42.716087+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/dragoon0x/typo",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "76b03fe19f266e9f2caed644c2fedddba64d7a4d60e4095494921113723f1b59",
+      "responseBodySha256": "76b03fe19f266e9f2caed644c2fedddba64d7a4d60e4095494921113723f1b59",
+      "title": "GitHub - Dragoon0x/typo: 76 physics-driven creative text effects. One component. Cursor-reactive. Loop-ready. Zero dependencies. · GitHub",
+      "textCharacters": 3027,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.786,
+      "captureCachePath": "exa-results/link-audit/references/captures/68498adc61130ef72ee372e8.json",
+      "captureCacheSha256": "eacf4676599f9ffb874ec0487e826d7e4d1d019a26cdf21557708b03b9bc0c2d"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-typo",
+      "canonicalId": "ref-typo",
+      "title": "Typo",
+      "role": "canonical",
+      "sourceSha256": "a1b40d5a5021b362860a2035451fe814863bd8b2183eac0d89c4777219a04d9d"
+    }
+  ]
+}

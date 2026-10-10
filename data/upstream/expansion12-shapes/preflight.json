@@ -1,0 +1,21 @@
+{
+  "baselineSha256": "a50812c61e93d655ca725b219a393aad7574036708d7917ad19ae3be32511487",
+  "baselineStored": 10001,
+  "baselineComparisonRecords": 10343,
+  "baselineSvgParsed": 4652,
+  "baselineParseExclusions": [],
+  "candidateCount": 4048,
+  "provisional": 1938,
+  "reasons": {
+    "simple-silhouette-or-basic-glyph": 463,
+    "pending-rendered-comparison": 1938,
+    "existing-basic-object-family": 988,
+    "existing-construction-concept": 397,
+    "number-symbol-or-status-variant": 80,
+    "direction-pose-state-or-number-variant": 168,
+    "same-construction-concept": 14
+  },
+  "sourceExecuted": false,
+  "baselineSvgIdentitySignatures": 6087,
+  "baselineSvgRenderSubset": 4451
+}

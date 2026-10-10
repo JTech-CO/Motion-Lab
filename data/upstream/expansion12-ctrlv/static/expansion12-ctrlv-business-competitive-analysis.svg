@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <rect x="60" y="50" width="280" height="200" rx="8" fill="#ffffff" stroke="#334155" stroke-width="8" />
+                <line x1="200" y1="50" x2="200" y2="250" stroke="#334155" stroke-width="4" stroke-dasharray="10 10" />
+                <line x1="60" y1="90" x2="340" y2="90" stroke="#334155" stroke-width="4" />
+                
+                
+                <text x="130" y="78" font-family="monospace" font-weight="bold" font-size="16" fill="#6366f1" text-anchor="middle">OURS</text>
+                <text x="270" y="78" font-family="monospace" font-weight="bold" font-size="16" fill="#f43f5e" text-anchor="middle">THEIRS</text>
+                
+                
+                
+                <circle cx="90" cy="130" r="8" fill="#6366f1" />
+                <rect x="110" y="120" width="60" height="20" rx="4" fill="#6366f1" />
+                <rect x="230" y="120" width="40" height="20" rx="4" fill="#334155" opacity="0.3" />
+                
+                
+                <circle cx="90" cy="170" r="8" fill="#DFD116" />
+                <rect x="110" y="160" width="80" height="20" rx="4" fill="#DFD116" />
+                <rect x="230" y="160" width="70" height="20" rx="4" fill="#f43f5e" />
+                
+                
+                <circle cx="90" cy="210" r="8" fill="#6366f1" />
+                <rect x="110" y="200" width="50" height="20" rx="4" fill="#6366f1" />
+                <rect x="230" y="200" width="90" height="20" rx="4" fill="#f43f5e" />
+                
+                
+                <g transform="translate(130, 30)">
+                    <g>
+                    <path d="M-15 10 L-20 -10 L-5 0 L0 -15 L5 0 L20 -10 L15 10 Z" fill="#DFD116" />
+                </g>
+                </g>
+            </g>
+          </svg>

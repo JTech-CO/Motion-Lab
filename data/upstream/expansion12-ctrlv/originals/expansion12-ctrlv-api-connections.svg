@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Left Large Gear -->
+            <g class="anim-rotate" >
+                <circle cx="150" cy="150" r="80" fill="var(--primary-color)"/>
+                <path d="M130 50 H170 V250 H130 Z M50 130 H250 V170 H50 Z" fill="var(--primary-color)"/>
+                <path d="M80 80 L220 220 M80 220 L220 80" stroke="var(--primary-color)" stroke-width="40"/>
+                <circle cx="150" cy="150" r="40" fill="white"/>
+                <circle cx="150" cy="150" r="20" fill="var(--charcoal)" opacity="0.2"/>
+            </g>
+            <!-- Right Interlocking Gear (Spinning opposite way natively handled via svg if possible, but here static rotated look is fine) -->
+            <g class="anim-rotate" >
+                <circle cx="270" cy="150" r="50" fill="var(--primary-color)" opacity="0.9"/>
+                <path d="M260 80 H280 V220 H260 Z M200 140 H340 V160 H200 Z" fill="var(--primary-color)" opacity="0.9"/>
+                <path d="M220 100 L320 200 M220 200 L320 100" stroke="var(--primary-color)" stroke-width="20" opacity="0.9"/>
+                <circle cx="270" cy="150" r="20" fill="white"/>
+                <circle cx="270" cy="150" r="10" fill="var(--secondary-color)"/>
+            </g>
+            <!-- API Data Transfer Arc -->
+            <path class="anim-draw" d="M150 150 Q210 50 270 150" stroke="var(--accent-color)" stroke-width="6" stroke-dasharray="12 12" fill="none" stroke-linecap="round"/>
+            <circle class="anim-glow" cx="210" cy="100" r="8" fill="var(--accent-color)"/>
+          </svg>

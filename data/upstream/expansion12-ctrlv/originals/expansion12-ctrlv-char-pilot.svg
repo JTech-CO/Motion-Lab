@@ -1,0 +1,32 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <!-- Background: Runway & Clouds -->
+            <g class="anim-float-slow" opacity="0.15">
+                <!-- Runway -->
+                <path d="M60 250 L160 150 H240 L340 250" fill="var(--charcoal)"/>
+                <path class="anim-pulse" d="M190 240 H210 M195 210 H205 M198 180 H202" stroke="var(--bg-surface)" stroke-width="4"/>
+                <!-- Clouds -->
+                <path class="anim-float" d="M80 100 Q100 60 140 80 Q160 60 180 90 Q160 120 120 110 Q80 130 80 100 Z" fill="var(--primary-color)"/>
+                <path class="anim-float" style="animation-delay: 1s;" d="M260 80 Q280 40 320 60 Q340 40 360 70 Q340 100 300 90 Q260 110 260 80 Z" fill="var(--primary-color)"/>
+            </g>
+            
+            <g class="anim-bounce">
+                <!-- Character Body -->
+                <path d="M120 260 C120 160 220 160 220 260 Z" fill="var(--primary-color)"/>
+                <!-- Tie/Uniform Details -->
+                <path d="M160 180 L170 220 L180 180 Z" fill="var(--charcoal)"/>
+                <path d="M140 200 H200" stroke="var(--accent-color)" stroke-width="4"/>
+                
+                <!-- Head -->
+                <circle cx="170" cy="120" r="35" fill="var(--secondary-color)"/>
+                
+                <!-- Pilot Cap & Goggles -->
+                <path d="M130 100 C130 70 210 70 210 100 Z" fill="var(--charcoal)"/>
+                <path class="anim-glow" d="M120 100 H220" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                <circle cx="170" cy="85" r="5" fill="var(--accent-color)"/>
+                <!-- Goggles (Prop resting on head) -->
+                <rect x="145" y="95" width="20" height="15" rx="4" fill="var(--bg-surface)" stroke="var(--accent-color)" stroke-width="3"/>
+                <rect x="175" y="95" width="20" height="15" rx="4" fill="var(--bg-surface)" stroke="var(--accent-color)" stroke-width="3"/>
+                <line x1="165" y1="102" x2="175" y2="102" stroke="var(--accent-color)" stroke-width="3"/>
+            </g>
+          </svg>

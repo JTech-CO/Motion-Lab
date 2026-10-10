@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="130" ry="10" fill="#E2E8F0"/>
+            <g class="anim-float" style="animation-duration: 5s;">
+              <circle cx="200" cy="150" r="85" fill="var(--primary-color)" opacity="0.5"/>
+              <!-- Forlorn downcast eyes -->
+              <path d="M162 132 Q172 138 182 132 M218 132 Q228 138 238 132" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round" fill="none"/>
+              <!-- Sad mouth -->
+              <path d="M168 172 Q200 160 232 172" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round" fill="none"/>
+            </g>
+            <!-- Wide empty space rings suggesting emptiness -->
+            <g stroke="var(--charcoal)" fill="none" opacity="0.08">
+              <circle cx="200" cy="150" r="110"/>
+              <circle cx="200" cy="150" r="130"/>
+              <circle cx="200" cy="150" r="150"/>
+            </g>
+            <!-- One small disconnected figure far away -->
+            <g fill="var(--charcoal)" opacity="0.2">
+              <circle cx="340" cy="220" r="8"/>
+              <path d="M335 228 Q333 248 338 255 H342 Q347 248 345 228Z"/>
+            </g>
+          </svg>

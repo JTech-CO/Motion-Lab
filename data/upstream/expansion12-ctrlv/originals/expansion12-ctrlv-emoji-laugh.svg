@@ -1,0 +1,11 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-bounce">
+                <circle cx="200" cy="150" r="100" fill="var(--primary-color)"/>
+                <path d="M130 130 Q160 110 180 130" stroke="var(--bg-surface)" stroke-width="10" stroke-linecap="round" fill="none"/>
+                <path d="M220 130 Q240 110 270 130" stroke="var(--bg-surface)" stroke-width="10" stroke-linecap="round" fill="none"/>
+                <path d="M130 170 Q200 250 270 170 C270 170 200 170 130 170 Z" fill="var(--bg-surface)"/>
+                <path d="M150 170 Q200 220 250 170 C250 170 200 170 150 170 Z" fill="var(--accent-color)"/> <!-- teeth/tongue area -->
+                <path class="anim-pulse" d="M115 150 Q105 170 120 185 Q135 170 115 150 Z" fill="var(--secondary-color)"/> <!-- Tear 1 -->
+                <path class="anim-pulse" style="animation-delay: 0.2s;" d="M285 150 Q295 170 280 185 Q265 170 285 150 Z" fill="var(--secondary-color)"/> <!-- Tear 2 -->
+            </g>
+          </svg>

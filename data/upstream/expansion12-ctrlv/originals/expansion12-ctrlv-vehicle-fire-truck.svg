@@ -1,0 +1,47 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="165" ry="10" fill="#E2E8F0" opacity="0.6"/>
+
+            <g class="anim-float">
+                <!-- Wheels -->
+                <circle class="anim-rotate"  cx="100" cy="245" r="28" fill="var(--charcoal)"/>
+                <circle cx="100" cy="245" r="11" fill="var(--bg-surface)"/>
+                <circle class="anim-rotate"  cx="180" cy="245" r="28" fill="var(--charcoal)"/>
+                <circle cx="180" cy="245" r="11" fill="var(--bg-surface)"/>
+                <circle class="anim-rotate"  cx="300" cy="245" r="24" fill="var(--charcoal)"/>
+                <circle cx="300" cy="245" r="10" fill="var(--bg-surface)"/>
+
+                <!-- Main Body -->
+                <rect x="60" y="150" width="280" height="95" rx="8" fill="var(--primary-color)"/>
+                <!-- Cab -->
+                <path d="M300 150 H360 C375 150 385 162 385 175 V245 H300 V150 Z" fill="var(--primary-color)"/>
+                <!-- Cab windshield -->
+                <path d="M308 158 H355 C365 158 375 168 375 178 V205 H308 V158 Z" fill="var(--secondary-color)" opacity="0.5"/>
+                <!-- Headlight -->
+                <rect x="376" y="210" width="14" height="10" rx="3" fill="var(--accent-color)"/>
+                <path class="anim-glow" d="M385 215 L395 208 M395 215 L385 215 M385 215 L395 222" stroke="var(--accent-color)" stroke-width="2" stroke-linecap="round"/>
+
+                <!-- Equipment panels -->
+                <g fill="var(--charcoal)" opacity="0.2">
+                    <rect x="75" y="165" width="50" height="30" rx="4"/>
+                    <rect x="135" y="165" width="50" height="30" rx="4"/>
+                    <rect x="195" y="165" width="50" height="30" rx="4"/>
+                    <rect x="75" y="205" width="50" height="30" rx="4"/>
+                    <rect x="135" y="205" width="50" height="30" rx="4"/>
+                </g>
+
+                <!-- Ladder on top -->
+                <rect x="65" y="140" width="270" height="12" rx="4" fill="var(--secondary-color)" opacity="0.7"/>
+                <g stroke="var(--charcoal)" stroke-width="2" opacity="0.4">
+                    <line x1="100" y1="140" x2="100" y2="152"/>
+                    <line x1="140" y1="140" x2="140" y2="152"/>
+                    <line x1="180" y1="140" x2="180" y2="152"/>
+                    <line x1="220" y1="140" x2="220" y2="152"/>
+                    <line x1="260" y1="140" x2="260" y2="152"/>
+                    <line x1="300" y1="140" x2="300" y2="152"/>
+                </g>
+
+                <!-- Siren lights on top -->
+                <rect x="90" y="128" width="30" height="14" rx="5" fill="var(--charcoal)"/>
+                <circle class="anim-glow" cx="105" cy="135" r="6" fill="var(--accent-color)"/>
+            </g>
+          </svg>

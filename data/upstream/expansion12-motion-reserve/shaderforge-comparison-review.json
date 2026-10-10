@@ -1,0 +1,1632 @@
+{
+  "rendererSha256": "f96d0d7078ffe6aa189fce72723a1ee8dd2e8b2c475b628eb1f80bc2336b7151",
+  "sourceRenderSha256": "e6441ebcde12d26d7ca28789362ee7c809544942421b5c3bfefa2b81539fc04b",
+  "baselineOriginals": 123,
+  "newMotionOriginals": 54,
+  "shaderForgeQualityAndStaticCandidates": 17,
+  "candidateFiveFrameRendered": 16,
+  "sourceAdapterExact": 16,
+  "crossMotionVisualPairs": 2832,
+  "intraSourceVisualPairs": 120,
+  "allPairFrameComparisons": 25,
+  "crossThreshold": 0.93,
+  "intraPromptThreshold": 0.85,
+  "codeAudit": "data/upstream/expansion12-motion-reserve/shaderforge-code-audit.json",
+  "crossCandidates": [],
+  "intraCandidates": [
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-28_cosmic-jellyfish-nebula-floating-in-space-glsl",
+        "expansion12-shaderforge-2026-03-28_ethereal-aurora-borealis-with-raymarched-mountains-glsl"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 1.0,
+      "bestSingleSimilarity": 1.0,
+      "bestFrameIndices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "nearestPrompts": [
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-25_synthwave-horizon-glsl",
+        "gl-transitions-crazyparametricfun"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.420861,
+      "bestSingleSimilarity": 0.422158,
+      "bestFrameIndices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-25_synthwave-horizon-glsl",
+        "gl-transitions-wipedown"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.362329,
+      "bestSingleSimilarity": 0.362573,
+      "bestFrameIndices": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-25_synthwave-horizon-glsl",
+        "gl-transitions-rotatetransition"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.338212,
+      "bestSingleSimilarity": 0.340032,
+      "bestFrameIndices": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-27_liquid-chrome-morphing-abstract-sculpture-glsl",
+        "motion-exp12-radiant-silk-cascade"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.227586,
+      "bestSingleSimilarity": 0.237138,
+      "bestFrameIndices": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-27_liquid-chrome-morphing-abstract-sculpture-glsl",
+        "gl-transitions-rotate-scale-fade"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.223209,
+      "bestSingleSimilarity": 0.256022,
+      "bestFrameIndices": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-27_liquid-chrome-morphing-abstract-sculpture-glsl",
+        "motion-exp12-radiant-dither-gradient"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.187083,
+      "bestSingleSimilarity": 0.192222,
+      "bestFrameIndices": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-27_neon-cyberpunk-rain-on-wet-street-glsl",
+        "motion-exp12-radiant-hologram-glitch"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.456209,
+      "bestSingleSimilarity": 0.470722,
+      "bestFrameIndices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-27_neon-cyberpunk-rain-on-wet-street-glsl",
+        "gl-transitions-squeeze"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.358742,
+      "bestSingleSimilarity": 0.35949,
+      "bestFrameIndices": [
+        3,
+        3,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-27_neon-cyberpunk-rain-on-wet-street-glsl",
+        "motion-exp12-radiant-neon-revival"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.353155,
+      "bestSingleSimilarity": 0.355079,
+      "bestFrameIndices": [
+        3,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-27_neon-fluid-fractals-glsl",
+        "motion-exp12-radiant-voltage-arc"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.397477,
+      "bestSingleSimilarity": 0.418181,
+      "bestFrameIndices": [
+        3,
+        3,
+        3,
+        3,
+        1
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-27_neon-fluid-fractals-glsl",
+        "gl-transitions-rectanglecrop"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.379894,
+      "bestSingleSimilarity": 0.39369,
+      "bestFrameIndices": [
+        1,
+        1,
+        1,
+        1,
+        3
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-27_neon-fluid-fractals-glsl",
+        "gl-transitions-simpleflip"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.377146,
+      "bestSingleSimilarity": 0.415405,
+      "bestFrameIndices": [
+        1,
+        1,
+        1,
+        3,
+        3
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-27_simple-plasma-wave-glsl",
+        "gl-transitions-leftright"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.403443,
+      "bestSingleSimilarity": 0.450241,
+      "bestFrameIndices": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-27_simple-plasma-wave-glsl",
+        "gl-transitions-x-axis-translation"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.382539,
+      "bestSingleSimilarity": 0.445955,
+      "bestFrameIndices": [
+        2,
+        2,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-27_simple-plasma-wave-glsl",
+        "motion-exp12-radiant-dither-gradient"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.367752,
+      "bestSingleSimilarity": 0.413082,
+      "bestFrameIndices": [
+        2,
+        2,
+        1,
+        4,
+        4
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-27_vibrant-plasma-energy-field-with-electric-arcs-glsl",
+        "motion-exp12-radiant-aurora-veil"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.533054,
+      "bestSingleSimilarity": 0.550593,
+      "bestFrameIndices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-27_vibrant-plasma-energy-field-with-electric-arcs-glsl",
+        "gl-transitions-x-axis-translation"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.513499,
+      "bestSingleSimilarity": 0.537344,
+      "bestFrameIndices": [
+        4,
+        4,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-27_vibrant-plasma-energy-field-with-electric-arcs-glsl",
+        "gl-transitions-leftright"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.51062,
+      "bestSingleSimilarity": 0.535343,
+      "bestFrameIndices": [
+        3,
+        0,
+        1,
+        1,
+        2
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-28_abstract-voronoi-crystal-growth-animation-glsl",
+        "motion-exp12-radiant-silk-cascade"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.203082,
+      "bestSingleSimilarity": 0.236097,
+      "bestFrameIndices": [
+        0,
+        0,
+        1,
+        4,
+        3
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-28_abstract-voronoi-crystal-growth-animation-glsl",
+        "gl-transitions-topbottom"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.196858,
+      "bestSingleSimilarity": 0.21709,
+      "bestFrameIndices": [
+        1,
+        1,
+        1,
+        3,
+        3
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-28_abstract-voronoi-crystal-growth-animation-glsl",
+        "motion-exp12-radiant-lens-whisper"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.185908,
+      "bestSingleSimilarity": 0.195938,
+      "bestFrameIndices": [
+        4,
+        4,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-28_cosmic-jellyfish-nebula-floating-in-space-glsl",
+        "gl-transitions-angular"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.461413,
+      "bestSingleSimilarity": 0.472854,
+      "bestFrameIndices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-28_cosmic-jellyfish-nebula-floating-in-space-glsl",
+        "gl-transitions-wipedown"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.413692,
+      "bestSingleSimilarity": 0.417357,
+      "bestFrameIndices": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-28_cosmic-jellyfish-nebula-floating-in-space-glsl",
+        "motion-exp12-radiant-signal-decay"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.409903,
+      "bestSingleSimilarity": 0.423471,
+      "bestFrameIndices": [
+        4,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-28_electric-storm-with-branching-lightning-glsl",
+        "motion-exp12-radiant-magnetic-field"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.557777,
+      "bestSingleSimilarity": 0.57096,
+      "bestFrameIndices": [
+        1,
+        1,
+        1,
+        1,
+        3
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-28_electric-storm-with-branching-lightning-glsl",
+        "motion-exp12-radiant-event-horizon"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.535417,
+      "bestSingleSimilarity": 0.555747,
+      "bestFrameIndices": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-28_electric-storm-with-branching-lightning-glsl",
+        "gl-transitions-rotate-scale-fade"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.524162,
+      "bestSingleSimilarity": 0.535562,
+      "bestFrameIndices": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-28_ethereal-aurora-borealis-with-raymarched-mountains-glsl",
+        "gl-transitions-angular"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.461413,
+      "bestSingleSimilarity": 0.472854,
+      "bestFrameIndices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-28_ethereal-aurora-borealis-with-raymarched-mountains-glsl",
+        "gl-transitions-wipedown"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.413692,
+      "bestSingleSimilarity": 0.417357,
+      "bestFrameIndices": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-28_ethereal-aurora-borealis-with-raymarched-mountains-glsl",
+        "motion-exp12-radiant-signal-decay"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.409903,
+      "bestSingleSimilarity": 0.423471,
+      "bestFrameIndices": [
+        4,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-28_iridescent-soap-bubble-close-up-with-thin-film-interference-glsl",
+        "motion-exp12-radiant-crystal-lattice"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.622489,
+      "bestSingleSimilarity": 0.62371,
+      "bestFrameIndices": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-28_iridescent-soap-bubble-close-up-with-thin-film-interference-glsl",
+        "gl-transitions-circlecrop"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.616373,
+      "bestSingleSimilarity": 0.619002,
+      "bestFrameIndices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-28_iridescent-soap-bubble-close-up-with-thin-film-interference-glsl",
+        "gl-transitions-doorway"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.536558,
+      "bestSingleSimilarity": 0.539867,
+      "bestFrameIndices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-28_neon-synthwave-grid-with-glowing-sun-glsl",
+        "motion-exp12-radiant-neon-revival"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.438931,
+      "bestSingleSimilarity": 0.441837,
+      "bestFrameIndices": [
+        3,
+        3,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-28_neon-synthwave-grid-with-glowing-sun-glsl",
+        "motion-exp12-radiant-eclipse-glow"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.437198,
+      "bestSingleSimilarity": 0.441227,
+      "bestFrameIndices": [
+        0,
+        3,
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-28_neon-synthwave-grid-with-glowing-sun-glsl",
+        "motion-exp12-creative-lab-003-raymarching"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.417547,
+      "bestSingleSimilarity": 0.445791,
+      "bestFrameIndices": [
+        2,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-28_neon-wireframe-landscape-with-retro-synthwave-sun-glsl",
+        "motion-exp12-radiant-crystal-lattice"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.547561,
+      "bestSingleSimilarity": 0.558249,
+      "bestFrameIndices": [
+        3,
+        4,
+        4,
+        3,
+        3
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-28_neon-wireframe-landscape-with-retro-synthwave-sun-glsl",
+        "motion-exp12-radiant-neon-revival"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.542161,
+      "bestSingleSimilarity": 0.565147,
+      "bestFrameIndices": [
+        1,
+        1,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-28_neon-wireframe-landscape-with-retro-synthwave-sun-glsl",
+        "motion-exp12-creative-lab-003-raymarching"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.47918,
+      "bestSingleSimilarity": 0.480921,
+      "bestFrameIndices": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-29_fractal-mandelbrot-deep-zoom-with-electric-colors-glsl",
+        "motion-exp12-radiant-neon-drip"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.444303,
+      "bestSingleSimilarity": 0.456577,
+      "bestFrameIndices": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-29_fractal-mandelbrot-deep-zoom-with-electric-colors-glsl",
+        "gl-transitions-bounce"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.420602,
+      "bestSingleSimilarity": 0.449413,
+      "bestFrameIndices": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-29_fractal-mandelbrot-deep-zoom-with-electric-colors-glsl",
+        "gl-transitions-directional"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.41622,
+      "bestSingleSimilarity": 0.430291,
+      "bestFrameIndices": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-29_raymarched-infinite-tunnel-with-neon-lights-glsl",
+        "motion-exp12-radiant-gothic-filigree"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.8155,
+      "bestSingleSimilarity": 0.860646,
+      "bestFrameIndices": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-29_raymarched-infinite-tunnel-with-neon-lights-glsl",
+        "gl-transitions-circlecrop"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.751611,
+      "bestSingleSimilarity": 0.779629,
+      "bestFrameIndices": [
+        1,
+        1,
+        3,
+        3,
+        3
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-29_raymarched-infinite-tunnel-with-neon-lights-glsl",
+        "motion-exp12-radiant-golden-throne"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.715735,
+      "bestSingleSimilarity": 0.747669,
+      "bestFrameIndices": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-29_seascape-ocean-waves-with-foam-and-sun-reflection-glsl",
+        "motion-exp12-radiant-thunder-sermon"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.521329,
+      "bestSingleSimilarity": 0.521358,
+      "bestFrameIndices": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-29_seascape-ocean-waves-with-foam-and-sun-reflection-glsl",
+        "motion-exp12-radiant-neon-drip"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.503798,
+      "bestSingleSimilarity": 0.503941,
+      "bestFrameIndices": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    },
+    {
+      "ids": [
+        "expansion12-shaderforge-2026-03-29_seascape-ocean-waves-with-foam-and-sun-reflection-glsl",
+        "motion-exp12-radiant-lens-whisper"
+      ],
+      "meanBestThreeFrameGrayEdgeSimilarity": 0.474617,
+      "bestSingleSimilarity": 0.474701,
+      "bestFrameIndices": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "candidate-filmstrip",
+      "path": "exa-results/expansion12/shaderforge-previews/candidate-filmstrip-0.png",
+      "sha256": "e6d45b3d1db5fe47947c157c626115e76a6c4e1ffcb627025290d0e8e351588d",
+      "ids": [
+        "expansion12-shaderforge-2026-03-25_synthwave-horizon-glsl",
+        "expansion12-shaderforge-2026-03-27_liquid-chrome-morphing-abstract-sculpture-glsl",
+        "expansion12-shaderforge-2026-03-27_neon-cyberpunk-rain-on-wet-street-glsl",
+        "expansion12-shaderforge-2026-03-27_neon-fluid-fractals-glsl",
+        "expansion12-shaderforge-2026-03-27_simple-plasma-wave-glsl",
+        "expansion12-shaderforge-2026-03-27_vibrant-plasma-energy-field-with-electric-arcs-glsl",
+        "expansion12-shaderforge-2026-03-28_abstract-voronoi-crystal-growth-animation-glsl",
+        "expansion12-shaderforge-2026-03-28_cosmic-jellyfish-nebula-floating-in-space-glsl",
+        "expansion12-shaderforge-2026-03-28_electric-storm-with-branching-lightning-glsl",
+        "expansion12-shaderforge-2026-03-28_ethereal-aurora-borealis-with-raymarched-mountains-glsl"
+      ]
+    },
+    {
+      "name": "candidate-filmstrip",
+      "path": "exa-results/expansion12/shaderforge-previews/candidate-filmstrip-1.png",
+      "sha256": "b1b10adf0b6aef62c1626f1721421b155f6ff637aec4e7a03ade5a38e9915e86",
+      "ids": [
+        "expansion12-shaderforge-2026-03-28_iridescent-soap-bubble-close-up-with-thin-film-interference-glsl",
+        "expansion12-shaderforge-2026-03-28_neon-synthwave-grid-with-glowing-sun-glsl",
+        "expansion12-shaderforge-2026-03-28_neon-wireframe-landscape-with-retro-synthwave-sun-glsl",
+        "expansion12-shaderforge-2026-03-29_fractal-mandelbrot-deep-zoom-with-electric-colors-glsl",
+        "expansion12-shaderforge-2026-03-29_raymarched-infinite-tunnel-with-neon-lights-glsl",
+        "expansion12-shaderforge-2026-03-29_seascape-ocean-waves-with-foam-and-sun-reflection-glsl"
+      ]
+    },
+    {
+      "name": "new-motion-filmstrip",
+      "path": "exa-results/expansion12/shaderforge-previews/new-motion-filmstrip-0.png",
+      "sha256": "7dacf4300ac5dab9faef58d5e22f8c3ea99a5f2969586bf74c7eaaf5c1da5131",
+      "ids": [
+        "motion-exp12-radiant-fluid-amber",
+        "motion-exp12-radiant-sugar-glass",
+        "motion-exp12-radiant-chladni-resonance",
+        "motion-exp12-radiant-strobe-geometry",
+        "motion-exp12-radiant-laser-labyrinth",
+        "motion-exp12-radiant-bass-ripple",
+        "motion-exp12-radiant-ink-dissolve",
+        "motion-exp12-radiant-sequin-wave",
+        "motion-exp12-radiant-gilt-mosaic",
+        "motion-exp12-radiant-gilded-fracture"
+      ]
+    },
+    {
+      "name": "new-motion-filmstrip",
+      "path": "exa-results/expansion12/shaderforge-previews/new-motion-filmstrip-1.png",
+      "sha256": "405e78c21656433a9a4f332f1f2eaa7d8cc71815979d9598d7d79ea5e41a5452",
+      "ids": [
+        "motion-exp12-radiant-radiant-geometry",
+        "motion-exp12-radiant-golden-throne",
+        "motion-exp12-radiant-sacred-strange",
+        "motion-exp12-radiant-tropical-heat",
+        "motion-exp12-radiant-neon-drip",
+        "motion-exp12-radiant-voltage-arc",
+        "motion-exp12-radiant-moonlit-ripple",
+        "motion-exp12-radiant-eclipse-glow",
+        "motion-exp12-radiant-diamond-caustics",
+        "motion-exp12-radiant-metamorphosis"
+      ]
+    },
+    {
+      "name": "new-motion-filmstrip",
+      "path": "exa-results/expansion12/shaderforge-previews/new-motion-filmstrip-2.png",
+      "sha256": "cf920963f8d0d591c8d0f4e97f500f3d082905b3cb477be58ed7161c7c70bcba",
+      "ids": [
+        "motion-exp12-radiant-artpop-iridescence",
+        "motion-exp12-radiant-silk-groove",
+        "motion-exp12-radiant-event-horizon",
+        "motion-exp12-radiant-burning-film",
+        "motion-exp12-radiant-vertigo",
+        "motion-exp12-radiant-stardust-veil",
+        "motion-exp12-radiant-silk-cascade",
+        "motion-exp12-radiant-smolder",
+        "motion-exp12-radiant-signal-decay",
+        "motion-exp12-radiant-neon-revival"
+      ]
+    },
+    {
+      "name": "new-motion-filmstrip",
+      "path": "exa-results/expansion12/shaderforge-previews/new-motion-filmstrip-3.png",
+      "sha256": "a69f827f32384f875ed0e0c91baa207828a37ad2105e17a456198c8095b23432",
+      "ids": [
+        "motion-exp12-radiant-magma-core",
+        "motion-exp12-radiant-shifting-veils",
+        "motion-exp12-radiant-crystal-lattice",
+        "motion-exp12-radiant-kaleidoscope-runway",
+        "motion-exp12-radiant-neon-drive",
+        "motion-exp12-radiant-liquid-gold",
+        "motion-exp12-radiant-aurora-veil",
+        "motion-exp12-radiant-bioluminescence",
+        "motion-exp12-radiant-gothic-filigree",
+        "motion-exp12-radiant-thunder-sermon"
+      ]
+    },
+    {
+      "name": "new-motion-filmstrip",
+      "path": "exa-results/expansion12/shaderforge-previews/new-motion-filmstrip-4.png",
+      "sha256": "0fc80b56d64fed7fc707a0e1a573e958e01e792d577bedf8170da6d398671fae",
+      "ids": [
+        "motion-exp12-radiant-vinyl-grooves",
+        "motion-exp12-radiant-torn-paper",
+        "motion-exp12-radiant-polaroid-burn",
+        "motion-exp12-radiant-scream-wave",
+        "motion-exp12-radiant-moire-interference",
+        "motion-exp12-radiant-magnetic-field",
+        "motion-exp12-radiant-aurora-curtain",
+        "motion-exp12-radiant-vortex",
+        "motion-exp12-radiant-chromatic-bloom",
+        "motion-exp12-radiant-lens-whisper"
+      ]
+    },
+    {
+      "name": "new-motion-filmstrip",
+      "path": "exa-results/expansion12/shaderforge-previews/new-motion-filmstrip-5.png",
+      "sha256": "5bce8bc55c652c89ce08836467898510744cf2155a0a61559e8033cf68d9117e",
+      "ids": [
+        "motion-exp12-radiant-hologram-glitch",
+        "motion-exp12-radiant-painted-strata",
+        "motion-exp12-radiant-dither-gradient",
+        "motion-exp12-creative-lab-003-raymarching"
+      ]
+    },
+    {
+      "name": "nearest-pairs",
+      "path": "exa-results/expansion12/shaderforge-previews/nearest-pairs-0.png",
+      "sha256": "79c367748e9aca6ee9719622b4d3b5f0d266bb889e7f72852f5728a5e8acef0b",
+      "pairs": [
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-25_synthwave-horizon-glsl",
+            "gl-transitions-crazyparametricfun"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.420861,
+          "bestSingleSimilarity": 0.422158,
+          "bestFrameIndices": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-25_synthwave-horizon-glsl",
+            "gl-transitions-wipedown"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.362329,
+          "bestSingleSimilarity": 0.362573,
+          "bestFrameIndices": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-25_synthwave-horizon-glsl",
+            "gl-transitions-rotatetransition"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.338212,
+          "bestSingleSimilarity": 0.340032,
+          "bestFrameIndices": [
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-27_liquid-chrome-morphing-abstract-sculpture-glsl",
+            "motion-exp12-radiant-silk-cascade"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.227586,
+          "bestSingleSimilarity": 0.237138,
+          "bestFrameIndices": [
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-27_liquid-chrome-morphing-abstract-sculpture-glsl",
+            "gl-transitions-rotate-scale-fade"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.223209,
+          "bestSingleSimilarity": 0.256022,
+          "bestFrameIndices": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-27_liquid-chrome-morphing-abstract-sculpture-glsl",
+            "motion-exp12-radiant-dither-gradient"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.187083,
+          "bestSingleSimilarity": 0.192222,
+          "bestFrameIndices": [
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-27_neon-cyberpunk-rain-on-wet-street-glsl",
+            "motion-exp12-radiant-hologram-glitch"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.456209,
+          "bestSingleSimilarity": 0.470722,
+          "bestFrameIndices": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-27_neon-cyberpunk-rain-on-wet-street-glsl",
+            "gl-transitions-squeeze"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.358742,
+          "bestSingleSimilarity": 0.35949,
+          "bestFrameIndices": [
+            3,
+            3,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-27_neon-cyberpunk-rain-on-wet-street-glsl",
+            "motion-exp12-radiant-neon-revival"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.353155,
+          "bestSingleSimilarity": 0.355079,
+          "bestFrameIndices": [
+            3,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-27_neon-fluid-fractals-glsl",
+            "motion-exp12-radiant-voltage-arc"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.397477,
+          "bestSingleSimilarity": 0.418181,
+          "bestFrameIndices": [
+            3,
+            3,
+            3,
+            3,
+            1
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-27_neon-fluid-fractals-glsl",
+            "gl-transitions-rectanglecrop"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.379894,
+          "bestSingleSimilarity": 0.39369,
+          "bestFrameIndices": [
+            1,
+            1,
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-27_neon-fluid-fractals-glsl",
+            "gl-transitions-simpleflip"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.377146,
+          "bestSingleSimilarity": 0.415405,
+          "bestFrameIndices": [
+            1,
+            1,
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-27_simple-plasma-wave-glsl",
+            "gl-transitions-leftright"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.403443,
+          "bestSingleSimilarity": 0.450241,
+          "bestFrameIndices": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-27_simple-plasma-wave-glsl",
+            "gl-transitions-x-axis-translation"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.382539,
+          "bestSingleSimilarity": 0.445955,
+          "bestFrameIndices": [
+            2,
+            2,
+            2,
+            3,
+            3
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-27_simple-plasma-wave-glsl",
+            "motion-exp12-radiant-dither-gradient"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.367752,
+          "bestSingleSimilarity": 0.413082,
+          "bestFrameIndices": [
+            2,
+            2,
+            1,
+            4,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "name": "nearest-pairs",
+      "path": "exa-results/expansion12/shaderforge-previews/nearest-pairs-1.png",
+      "sha256": "12d4db8b450cf1fec091a9289858cddd131caf5dbd602d00ed843c30cac64054",
+      "pairs": [
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-27_vibrant-plasma-energy-field-with-electric-arcs-glsl",
+            "motion-exp12-radiant-aurora-veil"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.533054,
+          "bestSingleSimilarity": 0.550593,
+          "bestFrameIndices": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-27_vibrant-plasma-energy-field-with-electric-arcs-glsl",
+            "gl-transitions-x-axis-translation"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.513499,
+          "bestSingleSimilarity": 0.537344,
+          "bestFrameIndices": [
+            4,
+            4,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-27_vibrant-plasma-energy-field-with-electric-arcs-glsl",
+            "gl-transitions-leftright"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.51062,
+          "bestSingleSimilarity": 0.535343,
+          "bestFrameIndices": [
+            3,
+            0,
+            1,
+            1,
+            2
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-28_abstract-voronoi-crystal-growth-animation-glsl",
+            "motion-exp12-radiant-silk-cascade"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.203082,
+          "bestSingleSimilarity": 0.236097,
+          "bestFrameIndices": [
+            0,
+            0,
+            1,
+            4,
+            3
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-28_abstract-voronoi-crystal-growth-animation-glsl",
+            "gl-transitions-topbottom"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.196858,
+          "bestSingleSimilarity": 0.21709,
+          "bestFrameIndices": [
+            1,
+            1,
+            1,
+            3,
+            3
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-28_abstract-voronoi-crystal-growth-animation-glsl",
+            "motion-exp12-radiant-lens-whisper"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.185908,
+          "bestSingleSimilarity": 0.195938,
+          "bestFrameIndices": [
+            4,
+            4,
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-28_cosmic-jellyfish-nebula-floating-in-space-glsl",
+            "gl-transitions-angular"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.461413,
+          "bestSingleSimilarity": 0.472854,
+          "bestFrameIndices": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-28_cosmic-jellyfish-nebula-floating-in-space-glsl",
+            "gl-transitions-wipedown"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.413692,
+          "bestSingleSimilarity": 0.417357,
+          "bestFrameIndices": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-28_cosmic-jellyfish-nebula-floating-in-space-glsl",
+            "motion-exp12-radiant-signal-decay"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.409903,
+          "bestSingleSimilarity": 0.423471,
+          "bestFrameIndices": [
+            4,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-28_electric-storm-with-branching-lightning-glsl",
+            "motion-exp12-radiant-magnetic-field"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.557777,
+          "bestSingleSimilarity": 0.57096,
+          "bestFrameIndices": [
+            1,
+            1,
+            1,
+            1,
+            3
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-28_electric-storm-with-branching-lightning-glsl",
+            "motion-exp12-radiant-event-horizon"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.535417,
+          "bestSingleSimilarity": 0.555747,
+          "bestFrameIndices": [
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-28_electric-storm-with-branching-lightning-glsl",
+            "gl-transitions-rotate-scale-fade"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.524162,
+          "bestSingleSimilarity": 0.535562,
+          "bestFrameIndices": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-28_ethereal-aurora-borealis-with-raymarched-mountains-glsl",
+            "gl-transitions-angular"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.461413,
+          "bestSingleSimilarity": 0.472854,
+          "bestFrameIndices": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-28_ethereal-aurora-borealis-with-raymarched-mountains-glsl",
+            "gl-transitions-wipedown"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.413692,
+          "bestSingleSimilarity": 0.417357,
+          "bestFrameIndices": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-28_ethereal-aurora-borealis-with-raymarched-mountains-glsl",
+            "motion-exp12-radiant-signal-decay"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.409903,
+          "bestSingleSimilarity": 0.423471,
+          "bestFrameIndices": [
+            4,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "nearest-pairs",
+      "path": "exa-results/expansion12/shaderforge-previews/nearest-pairs-2.png",
+      "sha256": "bed9fc33edaa55fe96f0a363cca3b42ba054d6763acb41ee9ec21ea32a19d5e8",
+      "pairs": [
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-28_iridescent-soap-bubble-close-up-with-thin-film-interference-glsl",
+            "motion-exp12-radiant-crystal-lattice"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.622489,
+          "bestSingleSimilarity": 0.62371,
+          "bestFrameIndices": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-28_iridescent-soap-bubble-close-up-with-thin-film-interference-glsl",
+            "gl-transitions-circlecrop"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.616373,
+          "bestSingleSimilarity": 0.619002,
+          "bestFrameIndices": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-28_iridescent-soap-bubble-close-up-with-thin-film-interference-glsl",
+            "gl-transitions-doorway"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.536558,
+          "bestSingleSimilarity": 0.539867,
+          "bestFrameIndices": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-28_neon-synthwave-grid-with-glowing-sun-glsl",
+            "motion-exp12-radiant-neon-revival"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.438931,
+          "bestSingleSimilarity": 0.441837,
+          "bestFrameIndices": [
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-28_neon-synthwave-grid-with-glowing-sun-glsl",
+            "motion-exp12-radiant-eclipse-glow"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.437198,
+          "bestSingleSimilarity": 0.441227,
+          "bestFrameIndices": [
+            0,
+            3,
+            2,
+            0,
+            0
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-28_neon-synthwave-grid-with-glowing-sun-glsl",
+            "motion-exp12-creative-lab-003-raymarching"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.417547,
+          "bestSingleSimilarity": 0.445791,
+          "bestFrameIndices": [
+            2,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-28_neon-wireframe-landscape-with-retro-synthwave-sun-glsl",
+            "motion-exp12-radiant-crystal-lattice"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.547561,
+          "bestSingleSimilarity": 0.558249,
+          "bestFrameIndices": [
+            3,
+            4,
+            4,
+            3,
+            3
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-28_neon-wireframe-landscape-with-retro-synthwave-sun-glsl",
+            "motion-exp12-radiant-neon-revival"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.542161,
+          "bestSingleSimilarity": 0.565147,
+          "bestFrameIndices": [
+            1,
+            1,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-28_neon-wireframe-landscape-with-retro-synthwave-sun-glsl",
+            "motion-exp12-creative-lab-003-raymarching"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.47918,
+          "bestSingleSimilarity": 0.480921,
+          "bestFrameIndices": [
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-29_fractal-mandelbrot-deep-zoom-with-electric-colors-glsl",
+            "motion-exp12-radiant-neon-drip"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.444303,
+          "bestSingleSimilarity": 0.456577,
+          "bestFrameIndices": [
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-29_fractal-mandelbrot-deep-zoom-with-electric-colors-glsl",
+            "gl-transitions-bounce"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.420602,
+          "bestSingleSimilarity": 0.449413,
+          "bestFrameIndices": [
+            1,
+            1,
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-29_fractal-mandelbrot-deep-zoom-with-electric-colors-glsl",
+            "gl-transitions-directional"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.41622,
+          "bestSingleSimilarity": 0.430291,
+          "bestFrameIndices": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-29_raymarched-infinite-tunnel-with-neon-lights-glsl",
+            "motion-exp12-radiant-gothic-filigree"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.8155,
+          "bestSingleSimilarity": 0.860646,
+          "bestFrameIndices": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-29_raymarched-infinite-tunnel-with-neon-lights-glsl",
+            "gl-transitions-circlecrop"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.751611,
+          "bestSingleSimilarity": 0.779629,
+          "bestFrameIndices": [
+            1,
+            1,
+            3,
+            3,
+            3
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-29_raymarched-infinite-tunnel-with-neon-lights-glsl",
+            "motion-exp12-radiant-golden-throne"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.715735,
+          "bestSingleSimilarity": 0.747669,
+          "bestFrameIndices": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "nearest-pairs",
+      "path": "exa-results/expansion12/shaderforge-previews/nearest-pairs-3.png",
+      "sha256": "7a5487f93325c55b0107733436edd5754410d7e1f4b471c26a0f054716130b8c",
+      "pairs": [
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-29_seascape-ocean-waves-with-foam-and-sun-reflection-glsl",
+            "motion-exp12-radiant-thunder-sermon"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.521329,
+          "bestSingleSimilarity": 0.521358,
+          "bestFrameIndices": [
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-29_seascape-ocean-waves-with-foam-and-sun-reflection-glsl",
+            "motion-exp12-radiant-neon-drip"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.503798,
+          "bestSingleSimilarity": 0.503941,
+          "bestFrameIndices": [
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        },
+        {
+          "ids": [
+            "expansion12-shaderforge-2026-03-29_seascape-ocean-waves-with-foam-and-sun-reflection-glsl",
+            "motion-exp12-radiant-lens-whisper"
+          ],
+          "meanBestThreeFrameGrayEdgeSimilarity": 0.474617,
+          "bestSingleSimilarity": 0.474701,
+          "bestFrameIndices": [
+            4,
+            4,
+            4,
+            4,
+            4
+          ]
+        }
+      ]
+    }
+  ],
+  "method": "All five-frame pairs compare standardized luminance and gradient geometry with5x5 time-alignment prompts, preserving original320x200 and derivative thumbnails32x20. Numeric matches nominate original visual review; they do not prove identity. Code audit preserves actual operators/coordinates with identifier and numeric-family normalization."
+}

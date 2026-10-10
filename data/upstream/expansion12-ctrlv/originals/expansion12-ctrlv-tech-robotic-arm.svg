@@ -1,0 +1,29 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Arm Base -->
+                <rect x="180" y="240" width="40" height="20" fill="var(--charcoal)"/>
+                
+                <!-- Main Arm Segments -->
+                <g class="anim-rotate" >
+                    <rect x="190" y="140" width="20" height="100" rx="10" fill="var(--primary-color)" stroke="var(--charcoal)" stroke-width="4"/>
+                    
+                    <g class="anim-rotate" >
+                        <rect x="190" y="60" width="20" height="80" rx="10" fill="var(--secondary-color)" stroke="var(--charcoal)" stroke-width="4"/>
+                        
+                        <!-- Claw / Gripper -->
+                        <g transform="translate(200, 60)">
+                            <path class="anim-pulse" d="M-15 0 Q-15 -20 0 -20 Q15 -20 15 0" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round" fill="none"/>
+                            <!-- Item being held -->
+                            <rect class="anim-bounce" x="-10" y="-35" width="20" height="20" rx="2" fill="var(--accent-color)"/>
+                        </g>
+                    </g>
+                </g>
+                
+                <!-- Joints -->
+                <circle cx="200" cy="240" r="8" fill="var(--charcoal)"/>
+                <circle cx="200" cy="140" r="8" fill="var(--charcoal)"/>
+                
+                <!-- Energy Spark -->
+                <circle class="anim-pulse" cx="200" cy="140" r="15" fill="var(--accent-color)" opacity="0.2"/>
+            </g>
+          </svg>

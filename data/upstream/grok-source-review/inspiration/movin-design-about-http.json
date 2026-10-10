@@ -1,0 +1,19 @@
+{
+  "url": "https://movin.design/about/",
+  "method": "bounded public HTTP GET",
+  "status": 200,
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공식 공개 URL의 제한된 HTTP GET 응답을 읽었다. 원격 JavaScript·미디어 파일을 실행하거나 다운로드하지 않았다.",
+  "sector": 4,
+  "siteId": "movin-design",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/movin-design-about-http.json",
+  "rawCacheSha256": "2f655988fd8a8f9c6deb3c755482cc5efb83c9640f8dff7f471c71ae202f8bfc",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "ec6a767657037028386ec605ab180bd4bf3359efd7983ca5a2cf901a9a471a81",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "finalUrl": "https://movin.design/about/",
+  "byteCount": 48089,
+  "boundedAt": 1048576,
+  "truncated": false,
+  "originalResponseSha256": "d845dff4ed8d70e3b06309e002e0dfeaa321f9005a3ca8dc51f20e380762e9e2"
+}

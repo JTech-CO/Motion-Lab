@@ -12,14 +12,14 @@
 A library of motion code, design assets and reviewed references for people and AI tools. Compare local previews, search by effect and component, then retrieve the original code or image with its source and license. The collection stores code, colors and images rather than MP4 files.
 
 <!-- motionlab:catalog-summary:start -->
-**10,001 stored assets + 285 reviewed references**, across 160 registered sources.
+**11,542 stored assets + 283 reviewed references**, across 170 registered sources.
 Counts below reflect the catalog on 2026-10-10; run `python -m motionlab stats` for the current totals.
 
 | Collection | Entries | Contents |
 | --- | ---: | --- |
-| Motion | 3,345 | Animation, transitions, typography, loaders and interaction effects |
-| Design | 6,656 | Patterns, shapes, palettes, gradients and material images |
-| References | 285 | Reviewed examples, libraries, tools, case studies and learning resources |
+| Motion | 3,399 | Animation, transitions, typography, loaders and interaction effects |
+| Design | 8,143 | Patterns, shapes, palettes, gradients and material images |
+| References | 283 | Reviewed examples, libraries, tools, case studies and learning resources |
 <!-- motionlab:catalog-summary:end -->
 
 [GitHub repository](https://github.com/JTech-CO/Motion-Lab) · [AI SKILL](skills/motion-lab/SKILL.md) · [CLI, HTTP & MCP](docs/interfaces.md)
@@ -34,6 +34,8 @@ cd Motion-Lab
 python scripts/build.py
 python -m motionlab serve --port 8787
 ```
+
+Run the build after cloning. The full `data/catalog.json` and `dist/catalog.json` are generated locally from the tracked inputs and notices, and are included in static exports and portable packages.
 
 Open [the introduction](http://127.0.0.1:8787/) or [the library](http://127.0.0.1:8787/library.html). The Korean/English interface supports mouse and arrow-key/Enter navigation, effect/component filters, 20/50/100 entries per page, motion pause and reduced-motion preferences. The local server binds to loopback only.
 

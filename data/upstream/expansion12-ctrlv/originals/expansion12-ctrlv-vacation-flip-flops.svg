@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Left Flip Flop -->
+                <g transform="translate(130, 160) rotate(-15)">
+                    <ellipse cx="0" cy="0" rx="40" ry="90" fill="var(--primary-color)"/>
+                    <path d="M-30 -10 Q0 -60 30 -10 M0 -60 V0" stroke="var(--accent-color)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                    <circle cx="0" cy="-60" r="6" fill="var(--bg-surface)"/>
+                </g>
+                <!-- Right Flip Flop -->
+                <g transform="translate(260, 160) rotate(15)">
+                    <ellipse cx="0" cy="0" rx="40" ry="90" fill="var(--secondary-color)"/>
+                    <path d="M-30 -10 Q0 -60 30 -10 M0 -60 V0" stroke="var(--accent-color)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                    <circle cx="0" cy="-60" r="6" fill="var(--bg-surface)"/>
+                </g>
+            </g>
+          </svg>

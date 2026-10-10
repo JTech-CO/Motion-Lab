@@ -1,0 +1,71 @@
+{
+  "checkedAt": "2026-10-10T11:42:06.525168+00:00",
+  "count": 5,
+  "candidates": [
+    {
+      "ids": [
+        "ref-falling-text"
+      ],
+      "oldUrl": "https://000h.cojeev.com/docs/falling-text/",
+      "verifiedCurrentUrl": "https://cojeev.com/ui/docs/falling-text/",
+      "identityEvidence": "Current HTTP redirect chain and matching public destination contents; exact resource identity preserved.",
+      "recommendedAction": "optional-canonical-URL-update-not-deletion",
+      "initialEvidence": {
+        "path": "data/upstream/link-audit/references/initial-results.json",
+        "sha256": "e4c1e95c52ab832e575937d7696f97cca1cc40dfc04af9295ef3a2e11889fcfc"
+      }
+    },
+    {
+      "ids": [
+        "ref-fwd-tools-gsap-playground"
+      ],
+      "oldUrl": "https://fwdtools.com/gsap-playground/",
+      "verifiedCurrentUrl": "https://webdevpuneet.com/gsap-playground/",
+      "identityEvidence": "Current HTTP redirect chain and matching public destination contents; exact resource identity preserved.",
+      "recommendedAction": "optional-canonical-URL-update-not-deletion",
+      "initialEvidence": {
+        "path": "data/upstream/link-audit/references/initial-results.json",
+        "sha256": "e4c1e95c52ab832e575937d7696f97cca1cc40dfc04af9295ef3a2e11889fcfc"
+      }
+    },
+    {
+      "ids": [
+        "ref-fluid-studio"
+      ],
+      "oldUrl": "https://github.com/Giacomo-Paolini/fluid",
+      "verifiedCurrentUrl": "https://github.com/wag-me/fluid",
+      "identityEvidence": "Current HTTP redirect chain and matching public destination contents; exact resource identity preserved.",
+      "recommendedAction": "optional-canonical-URL-update-not-deletion",
+      "initialEvidence": {
+        "path": "data/upstream/link-audit/references/initial-results.json",
+        "sha256": "e4c1e95c52ab832e575937d7696f97cca1cc40dfc04af9295ef3a2e11889fcfc"
+      }
+    },
+    {
+      "ids": [
+        "ref-gitframes"
+      ],
+      "oldUrl": "https://github.com/gatewai-dev/gitframes",
+      "verifiedCurrentUrl": "https://github.com/gatewai-dev/framefields",
+      "identityEvidence": "Current HTTP redirect chain and matching public destination contents; exact resource identity preserved.",
+      "recommendedAction": "optional-canonical-URL-update-not-deletion",
+      "initialEvidence": {
+        "path": "data/upstream/link-audit/references/initial-results.json",
+        "sha256": "e4c1e95c52ab832e575937d7696f97cca1cc40dfc04af9295ef3a2e11889fcfc"
+      }
+    },
+    {
+      "ids": [
+        "ref-mesh-gradients"
+      ],
+      "oldUrl": "https://www.meshgradients.com/",
+      "verifiedCurrentUrl": "https://oodesign.github.io/mesh-gradients/",
+      "identityEvidence": "Exact current origin-server redirect/link plus public destination UI.",
+      "recommendedAction": "optional-canonical-URL-update-not-deletion",
+      "evidence": {
+        "path": "data/upstream/link-audit/references/mesh-alternative-check.json",
+        "sha256": "dfce545e0fba2f420aeb8f0779a4d6051e34bc80fab293389e7d9295abb2191c"
+      }
+    }
+  ]
+}

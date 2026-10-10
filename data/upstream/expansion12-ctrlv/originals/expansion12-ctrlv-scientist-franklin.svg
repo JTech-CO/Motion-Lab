@@ -1,0 +1,33 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            
+            <!-- Photo 51 X-ray Diffraction Background -->
+            <g class="anim-pulse" style="animation-duration: 4s;">
+                <circle cx="200" cy="150" r="80" fill="var(--charcoal)" opacity="0.1"/>
+                <path d="M150 100 L250 200 M250 100 L150 200" stroke="var(--secondary-color)" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 10" opacity="0.4"/>
+                <path d="M165 90 L235 210 M235 90 L165 210" stroke="var(--secondary-color)" stroke-width="4" stroke-linecap="round" stroke-dasharray="5 15" opacity="0.2"/>
+            </g>
+            
+            <!-- DNA Helix Front -->
+            <g class="anim-float">
+                <!-- Left Backbone -->
+                <path class="anim-draw" style="animation-duration: 3s;" d="M140 250 C140 200 260 180 260 120 C260 60 140 40 140 -10" stroke="var(--primary-color)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                <!-- Right Backbone -->
+                <path class="anim-draw" style="animation-duration: 3s; animation-delay: 0.2s;" d="M260 250 C260 200 140 180 140 120 C140 60 260 40 260 -10" stroke="var(--accent-color)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                
+                <!-- Base pairs (Rungs) -->
+                <!-- Bottom pair -->
+                <line x1="155" y1="215" x2="245" y2="215" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+                <!-- Mid-bottom intersection -->
+                <circle cx="200" cy="187" r="5" fill="var(--secondary-color)"/>
+                <!-- Mid pair -->
+                <line x1="145" y1="150" x2="255" y2="150" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+                <line x1="150" y1="120" x2="250" y2="120" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+                <line x1="170" y1="90" x2="230" y2="90" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+                <!-- Mid-top intersection -->
+                <circle cx="200" cy="55" r="5" fill="var(--secondary-color)"/>
+            </g>
+
+            <!-- Biochemical Data Orbs -->
+            <circle class="anim-pulse" cx="120" cy="80" r="10" fill="var(--primary-color)" opacity="0.5"/>
+            <circle class="anim-pulse" cx="280" cy="200" r="8" fill="var(--accent-color)" opacity="0.5" style="animation-delay: 1s;"/>
+          </svg>

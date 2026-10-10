@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/meteors.tsx",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/meteors.tsx",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/meteors.tsx",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/meteors.tsx",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:17.118453+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/meteors.tsx",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 257399,
+      "capturedSha256": "750738ab4162f86b46e1cd0de9965b6b7ddd79be4066f958ca07387ede7a35b3",
+      "responseBodySha256": "750738ab4162f86b46e1cd0de9965b6b7ddd79be4066f958ca07387ede7a35b3",
+      "title": "magicui/apps/www/registry/magicui/meteors.tsx at cdb348cb4c72a9b54b554d8617801e479fbc8714 · magicuidesign/magicui · GitHub",
+      "textCharacters": 4437,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.535,
+      "captureCachePath": "exa-results/link-audit/references/captures/83bda8e509b1363f44e474d4.json",
+      "captureCacheSha256": "d1a04a4cfaf81062bb15daf957a369cd2c68b99cfab51367fb6e87b3c9e5558b"
+    }
+  ],
+  "items": [
+    {
+      "id": "asset-magicui-meteors",
+      "canonicalId": "asset-magicui-meteors",
+      "title": "Magic UI · Meteors",
+      "role": "canonical",
+      "sourceSha256": "0ef9e0542f9aa1fd11ae1b0d09f057ba44ff1230b6b2396dc8ce9416dc8e2b68"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "url": "https://ksawerykarczewski.com/rakuten-font-family",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://ksawerykarczewski.com/rakuten-font-family",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://ksawerykarczewski.com/rakuten-font-family",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://ksawerykarczewski.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://ksawerykarczewski.com/rakuten-font-family",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:44.056900+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://ksawerykarczewski.com/rakuten-font-family",
+      "contentType": "text/html",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "7859de9872d7181b7f2f121a262f029b1b29e585c6830ef7e739437bdbe596d1",
+      "responseBodySha256": "7859de9872d7181b7f2f121a262f029b1b29e585c6830ef7e739437bdbe596d1",
+      "title": "Ksawery Karczewski - Projects",
+      "textCharacters": 2616,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.13,
+      "captureCachePath": "exa-results/link-audit/references/captures/2588b36b1cecccf1c64b0b5b.json",
+      "captureCacheSha256": "9add29cb6cf623a5efbedc8ee152636dc2e93bdbdec8d1d0eda94487201238d9"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-rakuten-variable-font",
+      "canonicalId": "ref-rakuten-variable-font",
+      "title": "Rakuten Variable Font",
+      "role": "canonical",
+      "sourceSha256": "b80b8bd12fa839d3d6faf79468d3d0852a1f4b0968f58bf5d285a87751a4c3f5"
+    }
+  ]
+}

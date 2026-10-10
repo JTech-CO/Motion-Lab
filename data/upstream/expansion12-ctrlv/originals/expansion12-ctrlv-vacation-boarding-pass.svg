@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-bounce">
+                <!-- Main Ticket -->
+                <path d="M80 100 H320 V200 H80 Z" fill="var(--primary-color)"/>
+                <path d="M260 100 V200" stroke="var(--bg-surface)" stroke-width="4" stroke-dasharray="8 8"/>
+                
+                <!-- White inner area -->
+                <rect x="90" y="110" width="160" height="80" rx="5" fill="var(--bg-surface)"/>
+                <rect x="270" y="110" width="40" height="80" rx="5" fill="var(--secondary-color)"/>
+                
+                <!-- Details -->
+                <rect x="100" y="120" width="60" height="10" rx="2" fill="var(--charcoal)"/>
+                <rect class="anim-pulse" x="100" y="140" width="100" height="8" rx="2" fill="var(--secondary-color)"/>
+                <rect x="100" y="155" width="80" height="8" rx="2" fill="var(--secondary-color)"/>
+                
+                <!-- Plane icon -->
+                <path class="anim-fly" d="M220 150 L200 140 L200 160 Z" fill="var(--accent-color)"/>
+                <path class="anim-draw" d="M180 150 H210" stroke="var(--accent-color)" stroke-width="4" stroke-dasharray="4 4" stroke-linecap="round"/>
+                
+                <!-- Barcode -->
+                <rect x="275" y="120" width="4" height="60" fill="white"/>
+                <rect x="283" y="120" width="8" height="60" fill="white"/>
+                <rect x="295" y="120" width="6" height="60" fill="white"/>
+            </g>
+          </svg>

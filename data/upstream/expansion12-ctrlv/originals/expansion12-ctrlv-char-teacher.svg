@@ -1,0 +1,33 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <!-- Background: Chalkboard -->
+            <g class="anim-float-slow" opacity="0.15">
+                <rect x="80" y="60" width="240" height="120" rx="5" fill="var(--charcoal)" stroke="var(--primary-color)" stroke-width="8"/>
+                <path class="anim-draw" d="M100 100 H200 M100 130 H160" stroke="var(--bg-surface)" stroke-width="4" stroke-linecap="round"/>
+                <circle cx="260" cy="120" r="15" stroke="var(--bg-surface)" stroke-width="4" fill="none"/>
+            </g>
+            
+            <g class="anim-bounce">
+                <!-- Character Body -->
+                <path d="M130 260 C130 160 230 160 230 260 Z" fill="var(--secondary-color)"/>
+                <path d="M150 180 V260" stroke="var(--primary-color)" stroke-width="6"/>
+                <path d="M210 180 V260" stroke="var(--primary-color)" stroke-width="6"/>
+                
+                <!-- Head -->
+                <circle cx="180" cy="130" r="35" fill="var(--primary-color)"/>
+                <!-- Glasses -->
+                <path class="anim-glow" d="M165 125 H195" stroke="var(--bg-surface)" stroke-width="4"/>
+                <circle cx="160" cy="125" r="10" stroke="var(--charcoal)" stroke-width="4" fill="none"/>
+                <circle cx="200" cy="125" r="10" stroke="var(--charcoal)" stroke-width="4" fill="none"/>
+                
+                <!-- Prop: Pointer & Apple -->
+                <g class="anim-float">
+                    <path d="M220 220 L290 80" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                    <circle cx="290" cy="80" r="4" fill="var(--accent-color)"/>
+                    
+                    <!-- Apple -->
+                    <path class="anim-pulse" d="M250 250 C230 250 230 220 250 220 C270 220 270 250 250 250 Z" fill="var(--accent-color)"/>
+                    <path d="M250 220 Q260 210 265 215" stroke="var(--primary-color)" stroke-width="3" stroke-linecap="round" fill="none"/>
+                </g>
+            </g>
+          </svg>

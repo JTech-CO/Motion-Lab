@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/zoxilsi/studio",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/zoxilsi/studio",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/zoxilsi/studio",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/zoxilsi/studio",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:39.711952+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/zoxilsi/studio",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "29fd82a434fea39097b1435f5ec99c77c408cc01f77211e1a35fa682b4950c6d",
+      "responseBodySha256": "29fd82a434fea39097b1435f5ec99c77c408cc01f77211e1a35fa682b4950c6d",
+      "title": "GitHub - zoxilsi/studio: A browser-based mesh gradient editor built with next-gen web technologies. Design organic, flowing gradients by sculpting a bezier-patched lattice in real-time WebGL. Export to images, video, code, or as editable project files. · GitHub",
+      "textCharacters": 2932,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.71,
+      "captureCachePath": "exa-results/link-audit/references/captures/364f6469e3d448a630288156.json",
+      "captureCacheSha256": "84b575d626d729bbd566724b5af9cd2512f887664083bf4652034a685163fea5"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-zoxilsi-studio",
+      "canonicalId": "ref-zoxilsi-studio",
+      "title": "Zoxilsi Studio",
+      "role": "canonical",
+      "sourceSha256": "9caf9b831d3441f8dd8099d1554f6667e698a2a77aac46353cbab73ba443a319"
+    }
+  ]
+}

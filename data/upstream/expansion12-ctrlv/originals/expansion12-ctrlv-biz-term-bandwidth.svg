@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Outer Pipe Constriction -->
+                <path d="M60 80 H140 C170 80 170 110 200 110 C230 110 230 80 260 80 H340 V220 H260 C230 220 230 190 200 190 C170 190 170 220 140 220 H60 Z" fill="var(--primary-color)" opacity="0.1" stroke="var(--primary-color)" stroke-width="4"/>
+                
+                <!-- Flowing Signals -->
+                <g class="anim-draw">
+                    <path d="M60 100 H140 C160 100 170 120 200 120 C230 120 240 100 340 100" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round" fill="none"/>
+                    <path d="M60 150 H340" stroke="var(--secondary-color)" stroke-width="6" stroke-linecap="round" fill="none"/>
+                    <path d="M60 200 H140 C160 200 170 180 200 180 C230 180 240 200 340 200" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round" fill="none"/>
+                </g>
+                
+                <!-- Data packets flowing -->
+                <circle class="anim-pulse" cx="200" cy="120" r="6" fill="var(--accent-color)"/>
+                <circle class="anim-pulse" style="animation-delay: -0.3s" cx="200" cy="150" r="6" fill="var(--secondary-color)"/>
+                <circle class="anim-pulse" style="animation-delay: -0.6s" cx="200" cy="180" r="6" fill="var(--accent-color)"/>
+            </g>
+          </svg>

@@ -1,0 +1,29 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Traced Circle (Background) -->
+                <circle style="animation-duration: 4s;" class="anim-pulse" cx="200" cy="200" r="80" fill="none" stroke="var(--secondary-color)" stroke-width="4" stroke-dasharray="10 10" opacity="0.4"/>
+                
+                <!-- Compass Top Hinge -->
+                <circle cx="200" cy="80" r="15" fill="var(--primary-color)" stroke="var(--charcoal)" stroke-width="6"/>
+                <rect x="195" y="50" width="10" height="30" fill="var(--primary-color)" stroke="var(--charcoal)" stroke-width="4"/>
+                
+                <!-- Main Body Holder -->
+                <g class="anim-rotate" style="transform-origin: 200px 200px; animation-duration: 10s;">
+                    <!-- Fixed Leg (Point) -->
+                    <path d="M200 90 L180 200" stroke="var(--charcoal)" stroke-width="10" stroke-linecap="round"/>
+                    <path d="M180 200 L178 215 L175 200 Z" fill="var(--charcoal)"/>
+                    
+                    <!-- Drawing Leg (Pencil) -->
+                    <g class="anim-rotate" style="transform-origin: 200px 90px; animation-duration: 4s; animation-direction: alternate; transform: rotate(30deg);">
+                        <path d="M200 90 L220 200" stroke="var(--charcoal)" stroke-width="10" stroke-linecap="round"/>
+                        <!-- Pencil -->
+                        <rect x="210" y="200" width="20" height="15" rx="2" fill="var(--primary-color)" stroke="var(--charcoal)" stroke-width="2"/>
+                        <path d="M220 215 L215 240 L225 240 Z" fill="var(--accent-color)" stroke="var(--charcoal)" stroke-width="2"/>
+                        <circle cx="220" cy="240" r="2" fill="var(--charcoal)"/>
+                        
+                        <!-- Drawing path arc -->
+                        <path class="anim-draw" d="M220 240 A 100 100 0 0 1 120 240" stroke="var(--accent-color)" stroke-width="2" stroke-dasharray="4 4" fill="none" opacity="0.6"/>
+                    </g>
+                </g>
+            </g>
+          </svg>

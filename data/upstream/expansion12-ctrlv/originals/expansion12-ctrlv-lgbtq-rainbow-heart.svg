@@ -1,0 +1,36 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+              <!-- Glow behind heart -->
+              <g class="anim-pulse" style="animation-duration: 2.5s;" opacity="0.2">
+                <ellipse cx="200" cy="155" rx="110" ry="90" fill="#FF0018"/>
+              </g>
+
+              <!-- Rainbow heart layers (filled, stacked) -->
+              <!-- Red (outermost) -->
+              <path d="M200 250 C100 180 60 130 60 100 C60 60 90 40 130 60 C155 72 175 88 200 110 C225 88 245 72 270 60 C310 40 340 60 340 100 C340 130 300 180 200 250 Z" fill="#FF0018"/>
+              <!-- Orange -->
+              <path d="M200 235 C108 170 75 125 75 98 C75 63 102 46 137 64 C159 74 178 89 200 110 C222 89 241 74 263 64 C298 46 325 63 325 98 C325 125 292 170 200 235 Z" fill="#FFA52C"/>
+              <!-- Yellow -->
+              <path d="M200 218 C117 158 91 118 91 96 C91 66 115 51 145 67 C164 77 181 91 200 110 C219 91 236 77 255 67 C285 51 309 66 309 96 C309 118 283 158 200 218 Z" fill="#FFFF41"/>
+              <!-- Green -->
+              <path d="M200 200 C126 147 108 110 108 93 C108 68 128 57 153 71 C170 80 184 93 200 110 C216 93 230 80 247 71 C272 57 292 68 292 93 C292 110 274 147 200 200 Z" fill="#008018"/>
+              <!-- Blue -->
+              <path d="M200 180 C136 135 125 103 125 91 C125 71 141 62 161 74 C175 83 187 95 200 110 C213 95 225 83 239 74 C259 62 275 71 275 91 C275 103 264 135 200 180 Z" fill="#0000F9"/>
+              <!-- Violet (innermost) -->
+              <path d="M200 158 C148 122 142 96 142 89 C142 74 154 68 170 78 C181 85 190 96 200 110 C210 96 219 85 230 78 C246 68 258 74 258 89 C258 96 252 122 200 158 Z" fill="#86007D"/>
+
+              <!-- White core shine -->
+              <path d="M200 130 C185 115 176 106 176 100 C176 91 182 88 190 93 C194 96 197 102 200 110 C203 102 206 96 210 93 C218 88 224 91 224 100 C224 106 215 115 200 130 Z" fill="white" opacity="0.4"/>
+
+              <!-- Sparkles around heart -->
+              <g class="anim-pulse" style="animation-duration: 1.5s; animation-delay: -0.5s;">
+                <path d="M80 80 L83 90 L93 90 L85 96 L88 106 L80 100 L72 106 L75 96 L67 90 L77 90 Z" fill="#FFFF41" opacity="0.8" transform="scale(0.6) translate(60, 20)"/>
+                <path d="M320 70 L323 80 L333 80 L325 86 L328 96 L320 90 L312 96 L315 86 L307 80 L317 80 Z" fill="#FF0018" opacity="0.8" transform="scale(0.5) translate(320, 60)"/>
+              </g>
+
+              <!-- Text: LOVE IS LOVE -->
+              <g transform="translate(200, 275)">
+                <text x="0" y="0" font-family="sans-serif" font-weight="bold" font-size="13" fill="var(--charcoal)" text-anchor="middle" opacity="0.6" letter-spacing="2">LOVE IS LOVE</text>
+              </g>
+            </g>
+          </svg>

@@ -1,0 +1,35 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="170" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <!-- Motion lines -->
+            <g class="anim-draw" stroke="var(--secondary-color)" stroke-width="4" stroke-linecap="round" opacity="0.4">
+                <path d="M10 210 H50 M5 225 H40 M15 240 H45"/>
+            </g>
+
+            <g class="anim-float">
+                <!-- Trailer -->
+                <rect x="50" y="140" width="220" height="100" rx="6" fill="var(--secondary-color)" opacity="0.7"/>
+                <rect x="50" y="140" width="220" height="100" rx="6" stroke="var(--charcoal)" stroke-width="3" fill="none" opacity="0.3"/>
+                <!-- Trailer stripes -->
+                <path d="M60 150 H260 M60 170 H260 M60 190 H260 M60 210 H260" stroke="var(--charcoal)" stroke-width="1.5" opacity="0.2"/>
+
+                <!-- Cab -->
+                <path d="M250 140 H330 C345 140 360 155 360 170 V240 H250 V140 Z" fill="var(--primary-color)"/>
+                <!-- Cab windshield -->
+                <path d="M260 145 H325 C335 145 350 158 350 168 V190 H260 V145 Z" fill="var(--secondary-color)" opacity="0.5"/>
+                <!-- Grille -->
+                <rect x="345" y="195" width="20" height="35" rx="4" fill="var(--charcoal)" opacity="0.6"/>
+                <!-- Headlight -->
+                <circle class="anim-glow" cx="355" cy="220" r="8" fill="var(--accent-color)"/>
+
+                <!-- Wheels (Trailer) -->
+                <circle class="anim-rotate"  cx="90" cy="248" r="20" fill="var(--charcoal)"/>
+                <circle cx="90" cy="248" r="8" fill="var(--bg-surface)"/>
+                <circle class="anim-rotate"  cx="135" cy="248" r="20" fill="var(--charcoal)"/>
+                <circle cx="135" cy="248" r="8" fill="var(--bg-surface)"/>
+                <!-- Wheels (Cab) -->
+                <circle class="anim-rotate"  cx="290" cy="248" r="22" fill="var(--charcoal)"/>
+                <circle cx="290" cy="248" r="9" fill="var(--bg-surface)"/>
+                <circle class="anim-rotate"  cx="340" cy="248" r="22" fill="var(--charcoal)"/>
+                <circle cx="340" cy="248" r="9" fill="var(--bg-surface)"/>
+            </g>
+          </svg>

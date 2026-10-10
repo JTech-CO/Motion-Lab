@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <circle cx="200" cy="150" r="100" fill="var(--primary-color)"/>
+                
+                <!-- Eyes (one open, one closed/winking) -->
+                <ellipse cx="160" cy="120" rx="12" ry="20" fill="var(--bg-surface)"/>
+                <path d="M220 125 Q240 110 260 125" stroke="var(--bg-surface)" stroke-width="10" stroke-linecap="round" fill="none"/>
+                
+                <!-- Mouth -->
+                <path d="M130 170 H270" stroke="var(--bg-surface)" stroke-width="8" stroke-linecap="round"/>
+                
+                <!-- Tongue -->
+                <path class="anim-draw" d="M170 170 V210 C170 230 230 230 230 210 V170 Z" fill="var(--accent-color)"/>
+                <path d="M200 170 V210" stroke="var(--bg-surface)" stroke-width="4" opacity="0.5"/>
+            </g>
+          </svg>

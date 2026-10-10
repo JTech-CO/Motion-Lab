@@ -1,0 +1,29 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Market / Base -->
+            <path d="M50 240 Q200 280 350 240" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round" fill="none"/>
+            <path d="M100 220 A 40 20 0 1 0 180 220" fill="var(--primary-color)" opacity="0.3"/>
+            <path d="M220 230 A 60 30 0 1 0 340 230" fill="var(--secondary-color)" opacity="0.3"/>
+            
+            <g class="anim-float">
+                <!-- Rocket Launching -->
+                <g transform="translate(200, 120)">
+                    <!-- Exhaust -->
+                    <path class="anim-pulse" d="M-20 50 L-40 120 C-20 120 -10 100 0 120 C10 100 20 120 40 120 L20 50 Z" fill="var(--accent-color)"/>
+                    <path class="anim-pulse" style="animation-delay: 0.1s;" d="M-10 50 L-15 90 C-5 90 0 80 15 90 L10 50 Z" fill="var(--secondary-color)"/>
+                    
+                    <!-- Fins -->
+                    <path d="M-20 20 L-40 60 H-20 Z" fill="var(--primary-color)"/>
+                    <path d="M20 20 L40 60 H20 Z" fill="var(--primary-color)"/>
+                    <path d="M-5 40 L0 70 L5 40 Z" fill="var(--charcoal)"/>
+                    
+                    <!-- Body -->
+                    <path d="M-20 50 V0 C-20 -40 0 -80 0 -80 C0 -80 20 -40 20 0 V50 Z" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="6"/>
+                    <path d="M-20 0 C-20 -40 0 -80 0 -80 C0 -80 20 -40 20 0 Z" fill="var(--primary-color)"/>
+                    
+                    <!-- Window -->
+                    <circle cx="0" cy="-10" r="10" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="4"/>
+                </g>
+                <!-- Launch Trajectory -->
+                <path class="anim-draw" d="M200 240 Q200 180 200 120" stroke="var(--charcoal)" stroke-width="4" stroke-dasharray="6 6" fill="none"/>
+            </g>
+          </svg>

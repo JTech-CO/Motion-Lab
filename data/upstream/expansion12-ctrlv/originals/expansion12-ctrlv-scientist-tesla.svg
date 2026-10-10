@@ -1,0 +1,37 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            
+            <!-- Surrounding electric field aura -->
+            <circle class="anim-pulse" cx="200" cy="80" r="70" fill="var(--secondary-color)" opacity="0.1"/>
+            
+            <g class="anim-bounce">
+                <!-- Tesla Coil Base -->
+                <path d="M150 250 L160 160 H240 L250 250 Z" fill="var(--primary-color)"/>
+                <rect x="140" y="240" width="120" height="20" rx="4" fill="var(--charcoal)"/>
+                
+                <!-- Coil Windings (Primary & Secondary) -->
+                <rect x="180" y="100" width="40" height="60" fill="var(--secondary-color)"/>
+                <path d="M180 110 H220 M180 120 H220 M180 130 H220 M180 140 H220 M180 150 H220" stroke="white" stroke-width="3" opacity="0.8"/>
+                
+                <!-- Toroid (Top Doughnut) -->
+                <ellipse cx="200" cy="90" rx="50" ry="15" fill="var(--charcoal)"/>
+                <ellipse cx="200" cy="85" rx="40" ry="8" fill="var(--primary-color)"/>
+            </g>
+
+            <!-- Electrical Arcs / Lightning -->
+            <g class="anim-float" style="animation-duration: 0.5s;">
+                <!-- Left Arc -->
+                <path d="M160 85 L140 60 L100 80 L80 40" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                <!-- Right Arc -->
+                <path d="M240 85 L260 70 L280 100 L320 50" stroke="var(--secondary-color)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                <!-- Top Arc -->
+                <path d="M190 70 L200 40 L180 20 L210 10" stroke="var(--accent-color)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            </g>
+            
+            <!-- Sparkles -->
+            <circle cx="80" cy="40" r="4" fill="white"/>
+            <circle cx="320" cy="50" r="4" fill="white"/>
+            <circle cx="210" cy="10" r="3" fill="var(--accent-color)"/>
+            
+            <!-- Ground wiring -->
+            <path class="anim-data" d="M180 250 V280 H140 V290 M220 250 V270 H260 V280" stroke="var(--charcoal)" stroke-width="2" fill="none"/>
+          </svg>

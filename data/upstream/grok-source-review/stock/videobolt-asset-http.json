@@ -1,0 +1,16 @@
+{
+  "id": "videobolt",
+  "url": "https://videobolt.net/author/vladoskin/simple-logo",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 200,
+  "finalUrl": "https://videobolt.net/author/vladoskin/simple-logo",
+  "contentType": "text/html; charset=UTF-8",
+  "truncated": true,
+  "observedBytes": 262144,
+  "observedContentSha256": "9d8b62dbc4d2e29382b1685cd881e8c8392046748960af7797315a9f87a57e3f",
+  "links": [],
+  "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+  "challengeOrDenial": false
+}

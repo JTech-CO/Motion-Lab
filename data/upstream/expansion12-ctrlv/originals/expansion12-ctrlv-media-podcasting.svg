@@ -1,0 +1,26 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Microphone Stand -->
+                <rect x="190" y="240" width="20" height="40" rx="4" fill="var(--charcoal)"/>
+                <path d="M150 240 H250" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round"/>
+                
+                <!-- Microphone Body -->
+                <g class="anim-bounce">
+                    <rect x="180" y="80" width="40" height="120" rx="20" fill="var(--primary-color)" stroke="var(--charcoal)" stroke-width="6"/>
+                    <line x1="180" y1="120" x2="220" y2="120" stroke="var(--charcoal)" stroke-width="4"/>
+                    <line x1="180" y1="140" x2="220" y2="140" stroke="var(--charcoal)" stroke-width="4"/>
+                    <path d="M180 160 C180 180 200 200 220 180 V160" fill="none" stroke="var(--charcoal)" stroke-width="6"/>
+                    <path d="M190 200 V240" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round"/>
+                </g>
+                
+                <!-- Sound Waves -->
+                <g class="anim-pulse">
+                    <path d="M240 120 C270 110 270 170 240 160" stroke="var(--secondary-color)" stroke-width="10" stroke-linecap="round" fill="none"/>
+                    <path d="M280 100 C320 80 320 200 280 180" stroke="var(--accent-color)" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.6"/>
+                </g>
+                <g class="anim-pulse" style="animation-delay: 0.2s;">
+                    <path d="M160 120 C130 110 130 170 160 160" stroke="var(--secondary-color)" stroke-width="10" stroke-linecap="round" fill="none"/>
+                    <path d="M120 100 C80 80 80 200 120 180" stroke="var(--accent-color)" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.6"/>
+                </g>
+            </g>
+          </svg>

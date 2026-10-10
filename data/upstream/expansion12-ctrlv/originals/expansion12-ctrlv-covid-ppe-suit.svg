@@ -1,0 +1,32 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="120" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <g class="anim-bounce">
+                <!-- Torso Suit -->
+                <path d="M120 150 C120 110 280 110 280 150 V260 C280 270 120 270 120 260 Z" fill="var(--primary-color)"/>
+                
+                <!-- Chest details -->
+                <line x1="200" y1="120" x2="200" y2="260" stroke="var(--charcoal)" stroke-width="6" opacity="0.4"/>
+                <rect x="140" y="160" width="40" height="50" rx="5" fill="var(--secondary-color)" opacity="0.6"/>
+                <rect x="220" y="160" width="40" height="50" rx="5" fill="var(--secondary-color)" opacity="0.6"/>
+                
+                <!-- Biohazard Symbol / Medical Cross on chest -->
+                <circle cx="160" cy="185" r="10" fill="var(--bg-surface)"/>
+                <path d="M150 185 H170 M160 175 V195" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round"/>
+                
+                <!-- Helmet base -->
+                <circle cx="200" cy="90" r="50" fill="var(--primary-color)"/>
+                <path d="M150 110 Q200 130 250 110 L260 140 H140 Z" fill="var(--secondary-color)"/>
+                
+                <!-- Face Shield -->
+                <path class="anim-pulse" d="M160 70 C160 50 240 50 240 70 V110 C240 130 160 130 160 110 Z" fill="var(--bg-surface)" stroke="var(--accent-color)" stroke-width="6"/>
+                
+                <!-- Face underneath -->
+                <circle cx="185" cy="85" r="4" fill="var(--charcoal)"/>
+                <circle cx="215" cy="85" r="4" fill="var(--charcoal)"/>
+                <path d="M190 100 Q200 105 210 100" stroke="var(--charcoal)" stroke-width="3" fill="none" stroke-linecap="round"/>
+                
+                <!-- Respirator -->
+                <rect x="185" y="110" width="30" height="20" rx="10" fill="var(--charcoal)"/>
+                <circle cx="190" cy="120" r="4" fill="var(--bg-surface)"/>
+            </g>
+          </svg>

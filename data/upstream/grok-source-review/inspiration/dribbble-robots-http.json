@@ -1,0 +1,19 @@
+{
+  "url": "https://dribbble.com/robots.txt",
+  "method": "bounded public HTTP GET",
+  "status": 200,
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공식 공개 URL의 제한된 HTTP GET 응답을 읽었다. 원격 JavaScript·미디어 파일을 실행하거나 다운로드하지 않았다. 내부·검색·계정 등의 경로를 제한한다. 공개 shots 관람과 작품 재배포 권리는 별도다.",
+  "sector": 4,
+  "siteId": "dribbble",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/dribbble-robots-http.json",
+  "rawCacheSha256": "7f04a55aa41621bd9b5cc00445ea90402d498b192fd018903e9ee266d931afc8",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "a1a6a1e8019095c68d4289e4daea63c55f62c6923c644623149f0484bdf8ca50",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "finalUrl": "https://dribbble.com/robots.txt",
+  "byteCount": 998,
+  "boundedAt": 1048576,
+  "truncated": false,
+  "originalResponseSha256": "a1a6a1e8019095c68d4289e4daea63c55f62c6923c644623149f0484bdf8ca50"
+}

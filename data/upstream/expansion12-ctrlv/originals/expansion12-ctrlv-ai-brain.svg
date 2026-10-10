@@ -1,0 +1,30 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="anim-float" d="M100 150 C100 80 140 40 200 40 C260 40 300 80 300 150 C300 220 260 260 200 260 C140 260 100 220 100 150Z" fill="var(--secondary-color)" opacity="0.05"/>
+            
+            <g class="anim-float">
+                <!-- Left Hemisphere -->
+                <path d="M195 220 C140 220 120 180 120 140 C120 90 150 60 195 60 V220 Z" fill="var(--primary-color)"/>
+                <!-- Right Hemisphere (Separated) -->
+                <path d="M205 220 C260 220 280 180 280 140 C280 90 250 60 205 60 V220 Z" fill="var(--primary-color)"/>
+                
+                <!-- Circuit / Sulci cuts -->
+                <path d="M120 140 C150 140 160 110 195 110" stroke="#F8FAFC" stroke-width="4" fill="none" stroke-linecap="round"/>
+                <path d="M130 180 C150 170 170 180 195 160" stroke="#F8FAFC" stroke-width="4" fill="none" stroke-linecap="round"/>
+                <path d="M280 140 C250 140 240 110 205 110" stroke="#F8FAFC" stroke-width="4" fill="none" stroke-linecap="round"/>
+                <path d="M270 180 C250 170 230 180 205 160" stroke="#F8FAFC" stroke-width="4" fill="none" stroke-linecap="round"/>
+                
+                <!-- Glowing Synapse Nodes -->
+                <circle class="anim-glow" cx="160" cy="110" r="5" fill="var(--accent-color)"/>
+                <circle class="anim-glow" cx="240" cy="110" r="5" fill="var(--secondary-color)"/>
+                <circle class="anim-glow" cx="170" cy="170" r="5" fill="var(--secondary-color)"/>
+                <circle class="anim-glow" cx="230" cy="170" r="5" fill="var(--accent-color)"/>
+            </g>
+
+            <!-- Data entering / exiting -->
+            <path class="anim-draw" d="M200 220 V270" stroke="var(--charcoal)" stroke-width="4" stroke-dasharray="6 4" fill="none"/>
+            <path class="anim-draw" d="M150 240 L180 220" stroke="var(--charcoal)" stroke-width="3" stroke-dasharray="4 4" fill="none" stroke-linecap="round"/>
+            <path class="anim-draw" d="M250 240 L220 220" stroke="var(--charcoal)" stroke-width="3" stroke-dasharray="4 4" fill="none" stroke-linecap="round"/>
+            
+            <circle class="anim-data" cx="90" cy="140" r="4" fill="var(--charcoal)"/>
+            <circle class="anim-data" cx="310" cy="180" r="4" fill="var(--charcoal)" style="animation-delay: -1s"/>
+          </svg>

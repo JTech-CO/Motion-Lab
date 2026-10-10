@@ -1,0 +1,34 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g style="animation-duration: 6s;" class="anim-float">
+                <!-- Monitor Base -->
+                <path d="M200 240 L160 280 H240 Z" fill="var(--charcoal)"/>
+                <rect x="140" y="280" width="120" height="10" rx="4" fill="var(--secondary-color)"/>
+                
+                <!-- Screen -->
+                <rect x="60" y="40" width="280" height="200" rx="8" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="12"/>
+                <path d="M60 200 H340" stroke="var(--charcoal)" stroke-width="4"/>
+                <circle cx="200" cy="220" r="5" fill="var(--accent-color)"/>
+                
+                <!-- 3D Wireframe Box -->
+                <g transform="translate(140, 80)">
+                    <g style="animation-duration: 4s;" class="anim-pulse">
+                        <!-- Back Face -->
+                        <polygon points="40,20 120,20 120,80 40,80" fill="none" stroke="var(--primary-color)" stroke-width="4" stroke-dasharray="4 4"/>
+                        <!-- Connecting Lines -->
+                        <line x1="0" y1="40" x2="40" y2="20" stroke="var(--primary-color)" stroke-width="4"/>
+                        <line x1="80" y1="40" x2="120" y2="20" stroke="var(--primary-color)" stroke-width="4"/>
+                        <line x1="0" y1="100" x2="40" y2="80" stroke="var(--primary-color)" stroke-width="4" stroke-dasharray="4 4"/>
+                        <line style="animation-duration: 4s;" class="anim-draw" x1="80" y1="100" x2="120" y2="80" stroke="var(--primary-color)" stroke-width="4"/>
+                        <!-- Front Face -->
+                        <polygon points="0,40 80,40 80,100 0,100" fill="var(--bg-surface)" stroke="var(--primary-color)" stroke-width="6"/>
+                    </g>
+                </g>
+                
+                <!-- Cursor/Arrow -->
+                <g transform="translate(240, 160)">
+<g style="animation-duration: 5s;" class="anim-bounce" >
+                    <path d="M0 0 L15 25 L5 25 L10 40 L0 45 L-5 30 L-10 32 Z" fill="var(--accent-color)"/>
+                </g>
+</g>
+            </g>
+          </svg>

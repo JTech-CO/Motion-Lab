@@ -1,0 +1,18 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="150" ry="12" fill="#E2E8F0"/>
+            <path class="anim-draw" d="M40 200 Q80 190 120 200 Q160 210 200 200 Q240 190 280 200 Q320 210 360 200" stroke="var(--accent-color)" stroke-width="30" stroke-linecap="round" fill="none" opacity="0.4"/>
+            <g class="anim-float">
+              <path d="M80 185 Q200 165 320 185 Q310 200 200 205 Q90 200 80 185Z" fill="var(--primary-color)"/>
+              <path d="M320 185 Q350 175 360 185 Q350 200 320 195Z" fill="var(--secondary-color)"/>
+              <circle cx="348" cy="185" r="4" fill="var(--accent-color)"/>
+              <g fill="var(--charcoal)" opacity="0.6">
+                <circle cx="130" cy="178" r="6"/>
+                <circle cx="160" cy="175" r="6"/>
+                <circle cx="190" cy="173" r="6"/>
+                <circle cx="220" cy="175" r="6"/>
+                <circle cx="250" cy="178" r="6"/>
+                <circle cx="280" cy="180" r="6"/>
+              </g>
+              <circle cx="110" cy="180" r="12" fill="var(--accent-color)" stroke="var(--charcoal)" stroke-width="2"/>
+            </g>
+          </svg>

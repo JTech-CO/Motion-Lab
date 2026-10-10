@@ -1,0 +1,26 @@
+{
+  "theme": "fractal mandelbrot zoom with electric color palette",
+  "style_hints": "",
+  "references": [
+    "community/SHADER/2D_Mandelbrot.glsl [color_palette,fractal]",
+    "community/SHADER/shadertoy_Fractal_Land.glsl [color_palette,fractal,lighting,matrix,postprocess,raymarching,wave]",
+    "community/SHADER/distanceFields2D_Mandelbrot.glsl [color_palette,fractal]",
+    "community/glsl-shaders/procedural_shane-quasi-infinite-zoom-voronoi.glsl [color_palette,fractal,grid,lighting,matrix,noise,reflection,sdf]",
+    "community/procedural-tileable-shaders/warp.glsl [color_palette,fractal,grid,matrix,noise]"
+  ],
+  "attempts": 3,
+  "created_at": "2026-03-27T08:41:42.304960+00:00",
+  "glsl_lines": 1,
+  "success": false,
+  "review": {
+    "visual_complexity": 4,
+    "code_quality": 4,
+    "theme_match": 2,
+    "animation": 4,
+    "originality": 3,
+    "total": 17,
+    "verdict": "fail",
+    "feedback": "The shader implements high-quality raymarching with SDFs, noise-based animation, and lighting effects, but completely ignores the requested Mandelbrot fractal theme—rendering rotating waves and a sphere instead—and has low brightness due to a dark sky color and small illuminated object."
+  },
+  "last_error": "LLM response did not contain a GLSL code block."
+}

@@ -1,0 +1,14 @@
+{
+  "url": "https://www.stashmedia.tv/",
+  "method": "Exa public fetch",
+  "status": "Exa-content-read",
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공개 URL의 Exa 추출 내용을 읽었다. 직접 서버의 HTTP 200으로 간주하지 않았다. STASH: 모션·VFX·애니메이션의 유료 스트리밍 아카이브다.",
+  "sector": 4,
+  "siteId": "stash",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/stash-home-exa.json",
+  "rawCacheSha256": "1299bf15b0ce01a415dac2941a098d4c3a77271cfc2c86bb4a13e59eb5950b8f",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "6918ad28f1c961e7097d8351694a4ce55c22775a242cc4d5d84b82905318fcb4",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json."
+}

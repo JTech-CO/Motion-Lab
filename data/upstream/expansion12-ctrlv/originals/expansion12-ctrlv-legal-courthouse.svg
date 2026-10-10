@@ -1,0 +1,20 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Base Steps -->
+                <rect x="80" y="240" width="240" height="10" fill="var(--secondary-color)"/>
+                <rect x="100" y="230" width="200" height="10" fill="var(--primary-color)"/>
+                
+                <!-- Pillars -->
+                <rect x="110" y="130" width="15" height="100" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="2"/>
+                <rect x="160" y="130" width="15" height="100" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="2"/>
+                <rect x="225" y="130" width="15" height="100" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="2"/>
+                <rect x="275" y="130" width="15" height="100" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="2"/>
+                
+                <!-- Pediment (Roof) -->
+                <path d="M80 130 L200 60 L320 130 Z" fill="var(--primary-color)"/>
+                
+                <!-- Seal -->
+                <circle class="anim-pulse" cx="200" cy="100" r="12" fill="var(--accent-color)"/>
+                <circle cx="200" cy="100" r="6" fill="var(--bg-surface)"/>
+            </g>
+          </svg>

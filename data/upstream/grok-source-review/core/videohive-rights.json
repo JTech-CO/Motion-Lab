@@ -1,0 +1,38 @@
+{
+  "id": "videohive",
+  "checkedAt": "2026-10-10",
+  "method": "official-Exa-extraction-and-public-web-connector-read",
+  "rightsObservations": [
+    {
+      "url": "https://videohive.net/licenses/terms/regular",
+      "claim": "8항은 stock·tool·template·source-file 재배포를 수정·무료 여부와 무관하게 금지한다.",
+      "section": "8",
+      "quote": "",
+      "method": "official-page-read-via-Exa-and-public-web-connector",
+      "checkedAt": "2026-10-10",
+      "permissionObtained": false
+    },
+    {
+      "url": "https://videohive.net/licenses/faq",
+      "claim": "확장 라이선스도 원본 재배포 권리가 아니다. 다른 stock item 안의 활용 예외에는 저작자의 추가 허가 등 별도 조건이 필요하다.",
+      "section": "redistribution and stock-item exceptions",
+      "quote": "",
+      "method": "official-page-read-via-Exa-and-public-web-connector",
+      "checkedAt": "2026-10-10",
+      "permissionObtained": false
+    }
+  ],
+  "representativeObservation": {
+    "url": "https://videohive.net/item/seamless-loop-kinetic-posters/24684532",
+    "name": "Seamless Loop Kinetic Posters",
+    "formats": [
+      "After Effects project"
+    ],
+    "downloadGate": "상품별 구매 및 Envato 계정",
+    "rights": "Envato Market Regular/Extended License",
+    "individualDetailRead": false,
+    "limitation": "Exa 본문은 탐색 메뉴에서 잘렸고 일반 Chrome 상세는 403. 개별 내부 파일은 확인하지 못함."
+  },
+  "interpretation": "개별 구매만으로 원본 프로젝트를 공개 재배포할 수 없습니다.",
+  "mediaOrOriginalDownloaded": false
+}

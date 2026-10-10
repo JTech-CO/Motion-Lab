@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <rect x="100" y="200" width="200" height="40" rx="4" fill="#ffffff" stroke="#334155" stroke-width="8" />
+                <path d="M120 200 V240 M160 200 V240 M240 200 V240 M280 200 V240" stroke="#334155" stroke-width="4" opacity="0.3" />
+                <circle cx="140" cy="220" r="10" stroke="#334155" stroke-width="2" opacity="0.4" />
+                
+                
+                <path d="M180 200 V220" stroke="#f43f5e" stroke-width="6" />
+                <rect x="170" y="195" width="20" height="5" fill="#334155" />
+                
+                
+                <g transform="translate(240, 160)">
+                    <g>
+                        <path d="M0 0 V40" stroke="#f43f5e" stroke-width="6" />
+                        <rect x="-10" y="-5" width="20" height="5" fill="#334155" />
+                    </g>
+                </g>
+                
+                
+                <g transform="translate(240, 150)">
+                    <g style="transform-origin:60px -80px">
+                        
+                        <rect x="10" y="-120" width="20" height="100" rx="10" fill="#f43f5e" transform="rotate(25, 20, -70)" />
+                        <rect x="10" y="-50" width="20" height="30" rx="4" fill="#334155" transform="rotate(25, 20, -70)" />
+                        
+                        <g transform="translate(-10, -50) rotate(-15)">
+                            <path d="M-40 -10 H20 V10 H-40 Z" fill="#6366f1" stroke="#334155" stroke-width="4" />
+                            
+                            <path d="M20 -10 Q50 -10 60 10 Q30 0 20 10 Z" fill="#6366f1" stroke="#334155" stroke-width="4" />
+                        </g>
+                        
+                        <g transform="translate(-20, 0)">
+<g opacity="0.6">
+                            <line x1="-15" y1="-15" x2="-30" y2="-30" stroke="#DFD116" stroke-width="4" stroke-linecap="round" />
+                            <line x1="15" y1="-15" x2="30" y2="-30" stroke="#DFD116" stroke-width="4" stroke-linecap="round" />
+                        </g>
+</g>
+                    </g>
+                </g>
+            </g>
+          </svg>

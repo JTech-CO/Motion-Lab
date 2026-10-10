@@ -1,0 +1,46 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Connections -->
+                <path class="anim-draw" d="M200 150 L100 80 M200 150 L300 80 M200 150 L100 220 M200 150 L300 220" stroke="var(--charcoal)" stroke-width="4" stroke-dasharray="8 8"/>
+                
+                <!-- Center Hub -->
+                <circle class="anim-pulse" cx="200" cy="150" r="30" fill="var(--accent-color)"/>
+                <circle cx="200" cy="150" r="15" fill="var(--bg-surface)"/>
+                
+                <!-- Team Member 1 (Top Left) -->
+                <g transform="translate(100, 80)">
+                    <g class="anim-bounce">
+                    <circle cx="0" cy="0" r="25" fill="var(--primary-color)"/>
+                    <circle cx="0" cy="-5" r="10" fill="var(--bg-surface)"/>
+                    <path d="M-15 15 A 15 10 0 0 1 15 15" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round"/>
+                </g>
+                </g>
+                
+                <!-- Team Member 2 (Top Right) -->
+                <g transform="translate(300, 80)">
+                    <g class="anim-bounce" style="animation-delay: 0.2s;">
+                    <circle cx="0" cy="0" r="25" fill="var(--secondary-color)"/>
+                    <circle cx="0" cy="-5" r="10" fill="var(--bg-surface)"/>
+                    <path d="M-15 15 A 15 10 0 0 1 15 15" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round"/>
+                </g>
+                </g>
+                
+                <!-- Team Member 3 (Bottom Left) -->
+                <g transform="translate(100, 220)">
+                    <g class="anim-bounce" style="animation-delay: 0.4s;">
+                    <circle cx="0" cy="0" r="25" fill="var(--secondary-color)"/>
+                    <circle cx="0" cy="-5" r="10" fill="var(--bg-surface)"/>
+                    <path d="M-15 15 A 15 10 0 0 1 15 15" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round"/>
+                </g>
+                </g>
+                
+                <!-- Team Member 4 (Bottom Right) -->
+                <g transform="translate(300, 220)">
+                    <g class="anim-bounce" style="animation-delay: 0.6s;">
+                    <circle cx="0" cy="0" r="25" fill="var(--primary-color)"/>
+                    <circle cx="0" cy="-5" r="10" fill="var(--bg-surface)"/>
+                    <path d="M-15 15 A 15 10 0 0 1 15 15" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round"/>
+                </g>
+                </g>
+            </g>
+          </svg>

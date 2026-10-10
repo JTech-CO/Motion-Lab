@@ -1,0 +1,60 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+              <!-- Ground shadow -->
+              <ellipse cx="200" cy="278" rx="100" ry="8" fill="var(--charcoal)" opacity="0.07"/>
+
+              <!-- === MOTHER === -->
+              <!-- Dress / body -->
+              <path d="M145 130 Q135 175 130 270 H195 Q195 220 190 170 Z" fill="var(--primary-color)" opacity="0.8" stroke="var(--charcoal)" stroke-width="4"/>
+              <!-- Mother neck -->
+              <rect x="164" y="92" width="13" height="20" rx="6" fill="#F5CBA7"/>
+              <!-- Mother head -->
+              <circle cx="170" cy="80" r="26" fill="#F5CBA7" stroke="var(--charcoal)" stroke-width="4"/>
+              <!-- Mother hair (bun) -->
+              <path d="M146 72 Q154 48 170 52 Q186 48 194 72" fill="var(--charcoal)"/>
+              <circle cx="170" cy="54" r="10" fill="var(--charcoal)" stroke="var(--charcoal)" stroke-width="2"/>
+              <!-- Mother face -->
+              <path d="M162 84 Q170 92 178 84" stroke="var(--charcoal)" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+              <circle cx="163" cy="78" r="2" fill="var(--charcoal)"/>
+              <circle cx="177" cy="78" r="2" fill="var(--charcoal)"/>
+              <!-- Mother arm around child -->
+              <path d="M190 140 Q230 160 240 200" stroke="var(--primary-color)" stroke-width="18" stroke-linecap="round"/>
+
+              <!-- Heart between them -->
+              <g class="anim-pulse" style="animation-duration: 1.5s;" transform="translate(215, 145)">
+                <path d="M0 10 C-4 5 -18 5 -18 -5 C-18 -14 -9 -14 0 -5 C9 -14 18 -14 18 -5 C18 5 4 5 0 10 Z" fill="var(--secondary-color)" opacity="0.8"/>
+              </g>
+
+              <!-- === CHILD === -->
+              <!-- Child body -->
+              <path d="M215 195 Q210 230 208 270 H250 Q248 230 243 195 Z" fill="var(--secondary-color)" opacity="0.7" stroke="var(--charcoal)" stroke-width="3"/>
+              <!-- Child neck -->
+              <rect x="224" y="172" width="10" height="15" rx="5" fill="#F5CBA7"/>
+              <!-- Child head -->
+              <circle cx="229" cy="160" r="20" fill="#F5CBA7" stroke="var(--charcoal)" stroke-width="3"/>
+              <!-- Child hair -->
+              <path d="M211 152 Q217 135 229 138 Q241 135 247 152" fill="var(--charcoal)"/>
+              <!-- Child face - happy -->
+              <path d="M222 165 Q229 172 236 165" stroke="var(--charcoal)" stroke-width="2" stroke-linecap="round" fill="none"/>
+              <circle cx="223" cy="160" r="1.5" fill="var(--charcoal)"/>
+              <circle cx="235" cy="160" r="1.5" fill="var(--charcoal)"/>
+              <!-- Child arm raised up toward mom -->
+              <path d="M215 200 Q200 180 192 160" stroke="#F5CBA7" stroke-width="10" stroke-linecap="round"/>
+
+              <!-- Floating hearts / stars -->
+              <g transform="translate(100, 100)">
+        <g class="anim-bounce" style="animation-duration: 5s;">
+        
+                <path d="M0 6 C-3 3 -12 3 -12 -3 C-12 -9 -6 -9 0 -3 C6 -9 12 -9 12 -3 C12 3 3 3 0 6 Z" fill="var(--secondary-color)" opacity="0.4"/>
+              
+        </g>
+    </g>
+              <g transform="translate(300, 80)">
+        <g class="anim-bounce" style="animation-duration: 7s; animation-delay: -2s;">
+        
+                <path d="M0 8 C-4 4 -15 4 -15 -4 C-15 -12 -8 -12 0 -4 C8 -12 15 -12 15 -4 C15 4 4 4 0 8 Z" fill="var(--primary-color)" opacity="0.3"/>
+              
+        </g>
+    </g>
+            </g>
+          </svg>

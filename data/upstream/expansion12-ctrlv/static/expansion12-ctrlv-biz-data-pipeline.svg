@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6" />
+            
+            <path d="M80 120 L160 160 V240" stroke="#334155" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+            <path d="M320 120 L240 160 V240" stroke="#334155" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+            <rect x="160" y="220" width="80" height="30" rx="5" fill="#334155" />
+            
+            <g>
+                
+                <g transform="rotate(30 95 75)"><rect x="80" y="60" width="30" height="30" rx="4" fill="#6366f1" /></g>
+                <g transform="rotate(-15 130 50)"><rect x="120" y="40" width="20" height="20" rx="4" fill="#f43f5e" /></g>
+                <g transform="rotate(-45 302 82)"><rect x="290" y="70" width="25" height="25" rx="4" fill="#6366f1" /></g>
+                <g transform="rotate(20 267 37)"><rect x="260" y="30" width="15" height="15" rx="3" fill="#DFD116" /></g>
+            </g>
+            
+            <g stroke="#DFD116" stroke-width="6" stroke-linecap="round">
+                
+                <line x1="200" y1="260" x2="200" y2="280" />
+                <circle cx="200" cy="285" r="5" fill="#DFD116" />
+            </g>
+            
+            
+            <circle cx="200" cy="180" r="30" fill="#ffffff" stroke="#DFD116" stroke-width="6" />
+            <path style="transform-origin:200px 180px" d="M200 160 V200 M180 180 H220" stroke="#DFD116" stroke-width="6" stroke-linecap="round" />
+          </svg>

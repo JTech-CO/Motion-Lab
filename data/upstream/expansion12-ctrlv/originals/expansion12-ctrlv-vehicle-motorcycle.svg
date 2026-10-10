@@ -1,0 +1,35 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Motion blur -->
+            <g class="anim-draw" stroke="var(--secondary-color)" stroke-width="4" stroke-linecap="round" opacity="0.4">
+                <path d="M20 210 H65 M10 225 H50 M30 240 H65"/>
+            </g>
+
+            <g class="anim-bounce">
+                <!-- Rear Wheel -->
+                <circle class="anim-rotate"  cx="130" cy="235" r="45" fill="var(--charcoal)"/>
+                <circle cx="130" cy="235" r="20" fill="var(--bg-surface)"/>
+                <circle cx="130" cy="235" r="8" fill="var(--charcoal)"/>
+
+                <!-- Front Wheel -->
+                <circle class="anim-rotate"  cx="300" cy="235" r="38" fill="var(--charcoal)"/>
+                <circle cx="300" cy="235" r="16" fill="var(--bg-surface)"/>
+                <circle cx="300" cy="235" r="6" fill="var(--charcoal)"/>
+
+                <!-- Frame / engine block -->
+                <path d="M155 230 L175 170 L240 165 L270 195 L270 230 Z" fill="var(--primary-color)"/>
+                <!-- Tank -->
+                <path d="M175 170 L240 165 L240 195 L175 195 Z" fill="var(--primary-color)"/>
+                <!-- Fairing / front body -->
+                <path d="M240 165 L270 140 L305 155 L300 195 L265 195 Z" fill="var(--secondary-color)"/>
+                <!-- Seat -->
+                <path d="M155 170 L175 165 L220 165 L220 175 L155 178 Z" fill="var(--charcoal)" opacity="0.7"/>
+                <!-- Front fork -->
+                <path d="M270 195 L300 235" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round"/>
+                <!-- Handlebars -->
+                <path d="M265 145 L300 140 L300 150" stroke="var(--charcoal)" stroke-width="7" stroke-linecap="round" fill="none"/>
+                <!-- Headlight -->
+                <circle class="anim-glow" cx="305" cy="160" r="10" fill="var(--accent-color)"/>
+                <!-- Exhaust -->
+                <path d="M160 230 L130 240 L120 250" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round" fill="none"/>
+            </g>
+          </svg>

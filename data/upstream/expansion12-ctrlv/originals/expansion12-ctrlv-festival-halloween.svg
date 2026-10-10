@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="150" ry="12" fill="#E2E8F0"/>
+            <g class="anim-float">
+              <path d="M200 90 V100" stroke="var(--secondary-color)" stroke-width="6" stroke-linecap="round"/>
+              <ellipse cx="200" cy="165" rx="35" ry="60" fill="var(--primary-color)"/>
+              <ellipse cx="168" cy="165" rx="28" ry="55" fill="var(--primary-color)"/>
+              <ellipse cx="232" cy="165" rx="28" ry="55" fill="var(--primary-color)"/>
+              <path d="M178 148 L185 158 L172 158 Z" fill="var(--charcoal)"/>
+              <path d="M222 148 L229 158 L215 158 Z" fill="var(--charcoal)"/>
+              <path d="M178 175 Q200 198 222 175 Q200 185 178 175Z" fill="var(--charcoal)"/>
+            </g>
+            <g class="anim-bounce" style="animation-delay:-0.5s;">
+              <path d="M300 80 C300 55 340 55 340 80 V130 L330 120 L320 130 L310 120 L300 130 Z" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="3"/>
+              <circle cx="318" cy="95" r="5" fill="var(--charcoal)"/>
+              <circle cx="332" cy="95" r="5" fill="var(--charcoal)"/>
+            </g>
+            <g class="anim-float" style="animation-delay:-1s;">
+              <path d="M80 80 Q100 60 120 80 Q100 90 80 80Z" fill="var(--charcoal)"/>
+              <path d="M120 80 Q140 60 160 80 Q140 90 120 80Z" fill="var(--charcoal)"/>
+              <circle cx="120" cy="83" r="8" fill="var(--charcoal)"/>
+            </g>
+            <g class="anim-pulse" fill="var(--accent-color)">
+              <circle cx="60" cy="50" r="3"/>
+              <circle cx="350" cy="70" r="3"/>
+              <circle cx="200" cy="30" r="3"/>
+            </g>
+          </svg>

@@ -1,0 +1,37 @@
+{
+  "url": "https://lordicon.com/docs/api/documentation",
+  "site": "lordicon",
+  "reviewedAt": "2026-10-10",
+  "captures": [
+    {
+      "method": "Exa-public-fetch",
+      "status": "content-returned-http-status-unavailable",
+      "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://lordicon.com/docs/api/documentation",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/exa-representatives-and-api-fetch.json",
+      "rawCacheSha256": "70ae2f8e179db0ce9b95aeb1b7c7639fb88cc4fe1a5086317d29008869b0ba4c",
+      "capturedTextSha256": "b42b473077ede782b720e07bf80f73c5722ce2bace19fd99bdd4e2f786776822",
+      "responseCapturedSha256": null,
+      "boundedAtBytes": null,
+      "providerResponseCacheBytes": 59421,
+      "truncated": null
+    },
+    {
+      "method": "public-HTTP-GET",
+      "status": 200,
+      "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://lordicon.com/docs/api/documentation",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/lordicon-api-docs-http.json",
+      "rawCacheSha256": "39eb5f7e1008d505cd29b2ab4bda32d498b4a8cdd560c4f3d5a4478917d1bfa2",
+      "capturedTextSha256": "8939780b65805a692ffca10d298fb5042055f02a0fdbc3d44b5ba2f8e1620145",
+      "responseCapturedSha256": "c690035e317241cc8a993aaba0b4f0970fd5db69dfb908afcc5e576c0945238a",
+      "boundedAtBytes": 1048576,
+      "truncated": false
+    }
+  ],
+  "contentPolicy": "원문 전체는 ignored exa-results 캐시에만 보관합니다. 이 파일은 접근 상태와 SHA 및 자체 요약만 저장하며 페이지 인용은 sites.json termsEvidence에만 최대 25단어로 기록합니다."
+}

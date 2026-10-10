@@ -1,0 +1,30 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <g class="anim-float">
+                <!-- Folder Back -->
+                <path d="M90 100 L140 100 L160 120 L310 120 V250 H90 Z" fill="var(--primary-color)"/>
+                
+                <g class="anim-bounce" style="transform-origin: 200px 250px;">
+                    <!-- Report Paper -->
+                    <rect x="110" y="60" width="160" height="190" rx="4" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="4"/>
+                    <!-- Data on Paper -->
+                    <rect x="130" y="80" width="60" height="8" rx="2" fill="var(--charcoal)"/>
+                    <rect x="130" y="100" width="120" height="4" rx="2" fill="var(--charcoal)" opacity="0.3"/>
+                    
+                    <!-- Chart on report -->
+                    <rect class="anim-pulse" x="140" y="150" width="20" height="40" rx="2" fill="var(--secondary-color)"/>
+                    <rect class="anim-pulse" style="animation-delay: 0.2s;" x="170" y="130" width="20" height="60" rx="2" fill="var(--primary-color)"/>
+                    <rect class="anim-pulse" style="animation-delay: 0.4s;" x="200" y="160" width="20" height="30" rx="2" fill="var(--accent-color)"/>
+                    <path class="anim-draw" d="M120 200 H240" stroke="var(--charcoal)" stroke-width="2" stroke-linecap="round"/>
+                </g>
+                
+                <!-- Folder Front -->
+                <path d="M70 140 L330 140 L310 250 H90 Z" fill="var(--secondary-color)"/>
+            </g>
+            
+            <g class="anim-float" style="animation-delay: 0.5s;">
+                <!-- Growth Arrow escaping folder -->
+                <path class="anim-draw" d="M220 180 L260 140 L280 150 L340 60" stroke="var(--accent-color)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                <path d="M310 60 L340 60 L340 90" stroke="var(--accent-color)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            </g>
+          </svg>

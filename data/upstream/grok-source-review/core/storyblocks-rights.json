@@ -1,0 +1,37 @@
+{
+  "id": "storyblocks",
+  "checkedAt": "2026-10-10",
+  "method": "official-Exa-extraction-and-public-web-connector-read",
+  "rightsObservations": [
+    {
+      "url": "https://www.storyblocks.com/license/business-license",
+      "claim": "2026-09-28 공개 Business sample은 raw-file 공유·stockpiling·경쟁 라이브러리 배포를 금지한다. 2.8의 AI 보조 선택·MCP 연동 허용은 같은 라이선스 범위 내부에 한정된다. 실제 체결 계약이 우선한다.",
+      "section": "2.1, 2.6, 2.8",
+      "quote": "",
+      "method": "official-page-read-via-Exa-and-public-web-connector",
+      "checkedAt": "2026-10-10",
+      "permissionObtained": false
+    },
+    {
+      "url": "https://help.storyblocks.com/en/articles/3622257-are-there-any-limitations-to-the-storyblocks-licenses",
+      "claim": "공식 안내는 콘텐츠 자체의 재판매·재라이선스 및 구독 플랫폼 형태 제공을 금지한다.",
+      "section": "license limitations",
+      "quote": "",
+      "method": "official-page-read-via-Exa-and-public-web-connector",
+      "checkedAt": "2026-10-10",
+      "permissionObtained": false
+    }
+  ],
+  "representativeObservation": {
+    "url": "https://www.storyblocks.com/video/stock/dynamic-motion-typography-pack-with-bold-modern-text-animations-for-social-media-354665802",
+    "name": "Dynamic Motion Typography Pack",
+    "formats": [
+      "After Effects template"
+    ],
+    "downloadGate": "구독 계정",
+    "rights": "실제 플랜에 적용되는 Storyblocks 라이선스",
+    "individualDetailRead": true
+  },
+  "interpretation": "MCP 연동 가능성과 원본 공개 재배포 권리는 다릅니다. 현재 확인한 라이선스는 공개 stock 창고를 허용하지 않습니다.",
+  "mediaOrOriginalDownloaded": false
+}

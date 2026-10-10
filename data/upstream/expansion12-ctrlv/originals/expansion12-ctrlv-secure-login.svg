@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="150" ry="12" fill="#E2E8F0"/>
+            <path class="anim-float" d="M100 100 Q200 50 300 100 V260 Q200 280 100 260 Z" fill="var(--secondary-color)" opacity="0.1"/>
+            <!-- Vault Door -->
+            <circle cx="200" cy="160" r="90" fill="var(--primary-color)"/>
+            <circle cx="200" cy="160" r="70" fill="white" opacity="0.1"/>
+            <!-- Handle Hub -->
+            <circle class="anim-bounce" cx="200" cy="160" r="20" fill="var(--charcoal)"/>
+            <!-- Handle Bars -->
+            <g class="anim-rotate" >
+              <path d="M200 100 V220 M140 160 H260 M155 115 L245 205 M155 205 L245 115" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round"/>
+            </g>
+            <!-- Security Scan -->
+            <path class="anim-pulse" d="M130 160 Q200 200 270 160" stroke="var(--accent-color)" stroke-width="4" fill="none"/>
+            <circle class="anim-glow" cx="200" cy="180" r="6" fill="var(--accent-color)"/>
+            <!-- Floating Lock -->
+            <rect class="anim-float" x="280" y="80" width="30" height="25" rx="4" fill="var(--secondary-color)"/>
+            <path class="anim-float" d="M285 80 V70 A10 10 0 0 1 305 70 V80" stroke="var(--secondary-color)" stroke-width="4" fill="none"/>
+          </svg>

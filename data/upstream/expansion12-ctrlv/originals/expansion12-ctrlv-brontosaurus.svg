@@ -1,0 +1,7 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="anim-float">
+            <path d="M100 240 Q150 180 250 180 Q320 180 320 100 Q320 60 290 60" stroke="var(--accent-color)" stroke-width="25" stroke-linecap="round" fill="none"/>
+            <path d="M100 240 L80 270 M150 230 L140 270 M220 230 L230 270 M280 240 L300 270" stroke="var(--accent-color)" stroke-width="15" stroke-linecap="round"/>
+            <circle cx="295" cy="65" r="4" fill="white"/>
+        </g>
+    </svg>

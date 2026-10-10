@@ -1,0 +1,56 @@
+{
+  "url": "https://studiocarlos.fr/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://studiocarlos.fr/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://studiocarlos.fr/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://studiocarlos.fr/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://studiocarlos.fr/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:59.869685+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://studiocarlos.fr/",
+      "contentType": "text/html",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 77042,
+      "capturedSha256": "6261fc38b33f8b7e932af907a5aba1becbf964d2041980ad562dd7f9072d327a",
+      "responseBodySha256": "6261fc38b33f8b7e932af907a5aba1becbf964d2041980ad562dd7f9072d327a",
+      "title": "Studio Carlos | Création d’Expériences Interactives & Immersives",
+      "textCharacters": 4120,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.543,
+      "captureCachePath": "exa-results/link-audit/references/captures/0796dcb31eeebd4d6b82ac3c.json",
+      "captureCacheSha256": "8de0efffef119afc2023b817ba92a3e6443939cbf6ee44c636112f6492033464"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-studio-carlos",
+      "canonicalId": "ref-studio-carlos",
+      "title": "Studio Carlos",
+      "role": "canonical",
+      "sourceSha256": "dc80d2d991ff4df4c62f58f0c7248f9fd77bd8bf1382973f816318742f01624e"
+    }
+  ]
+}

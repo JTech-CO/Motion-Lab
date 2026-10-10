@@ -1,0 +1,14 @@
+{
+  "url": "https://dribbble.com/terms",
+  "method": "Exa public fetch",
+  "status": "Exa-content-read",
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공개 URL의 Exa 추출 내용을 읽었다. 직접 서버의 HTTP 200으로 간주하지 않았다.",
+  "sector": 4,
+  "siteId": "dribbble",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/dribbble-terms-exa.json",
+  "rawCacheSha256": "99829c5186dea2eb2b4042accf11c75970aa98d3951bf64aac7764a33fd78a48",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "c0489ab3588c334a688fd15cc39b38bfcd9341711bce46916b86b422e1bef9d8",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json."
+}

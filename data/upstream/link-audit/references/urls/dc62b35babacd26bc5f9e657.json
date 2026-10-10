@@ -1,0 +1,56 @@
+{
+  "url": "https://www.howardyam.design/projects/bounshy",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://www.howardyam.design/projects/bounshy",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://www.howardyam.design/projects/bounshy",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://www.howardyam.design/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://www.howardyam.design/projects/bounshy",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:43.526214+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://www.howardyam.design/projects/bounshy",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 58386,
+      "capturedSha256": "8d417fa7a2ee52e31b4eb44225f21161d8507ad7dc3cac0ab2c0d99b05e5c4c0",
+      "responseBodySha256": "8d417fa7a2ee52e31b4eb44225f21161d8507ad7dc3cac0ab2c0d99b05e5c4c0",
+      "title": "Bounshy Kinetic Typography & Physics | Howard Yam",
+      "textCharacters": 2893,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.511,
+      "captureCachePath": "exa-results/link-audit/references/captures/d318cc5e9668e713917b8be0.json",
+      "captureCacheSha256": "f4b4408e7004713dc672b49c9426e2fdeea88fc63d5f47d85e64552d8125cb90"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-bounshy",
+      "canonicalId": "ref-bounshy",
+      "title": "Bounshy",
+      "role": "canonical",
+      "sourceSha256": "74045fd99fb65ff247cfa5fc2d79d0abf41c8b671064bdfe3e345e1bf7bd051a"
+    }
+  ]
+}

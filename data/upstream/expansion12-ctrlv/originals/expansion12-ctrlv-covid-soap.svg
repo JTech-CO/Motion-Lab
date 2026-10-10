@@ -1,0 +1,26 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <!-- Floating bubbles -->
+            <g class="anim-float-slow" fill="var(--accent-color)" stroke="var(--bg-surface)" stroke-width="2">
+                <circle cx="100" cy="140" r="15"/>
+                <circle cx="80" cy="180" r="10"/>
+                <circle cx="300" cy="100" r="25"/>
+                <circle cx="340" cy="140" r="12"/>
+                <circle cx="280" cy="160" r="18"/>
+                <path d="M95 135 A 5 5 0 0 1 105 135" stroke="var(--bg-surface)" stroke-width="2" fill="none"/>
+                <path d="M290 90 A 10 10 0 0 1 310 90" stroke="var(--bg-surface)" stroke-width="3" fill="none"/>
+            </g>
+            
+            <g class="anim-bounce">
+                <!-- Soap Bar -->
+                <g class="anim-float" style="transform: rotate(-10deg) translate(-20px, 40px);">
+                    <rect x="140" y="100" width="120" height="70" rx="20" fill="var(--secondary-color)"/>
+                    <rect x="155" y="115" width="90" height="40" rx="10" fill="var(--bg-surface)" opacity="0.3"/>
+                    <path d="M170 135 H230" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round"/>
+                </g>
+                
+                <!-- Abstract Hands (overlapping shapes) -->
+                <path class="anim-pulse" d="M160 260 C160 200 130 180 180 180 C210 180 200 230 200 260" fill="var(--primary-color)" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round"/>
+                <path d="M220 260 C220 180 280 160 250 160 C200 160 240 260 240 260" fill="var(--primary-color)" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round"/>
+            </g>
+          </svg>

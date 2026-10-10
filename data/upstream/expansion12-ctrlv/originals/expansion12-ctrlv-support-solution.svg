@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Bulb base/socket -->
+                <path d="M170 190 H230 V220 H170 Z" fill="var(--charcoal)"/>
+                <path d="M180 220 L190 250 H210 L220 220" fill="var(--primary-color)"/>
+                <path d="M170 195 H230 M170 205 H230 M170 215 H230" stroke="var(--bg-surface)" stroke-width="4"/>
+                
+                <!-- Bulb glass -->
+                <path class="anim-glow" d="M130 110 C130 60 270 60 270 110 C270 150 240 160 230 190 H170 C160 160 130 150 130 110 Z" fill="var(--accent-color)" opacity="0.9"/>
+                
+                <!-- Filament -->
+                <g class="anim-pulse" style="animation-duration: 0.5s;">
+                    <path d="M180 190 V130 L190 110 L200 130 L210 110 L220 130 V190" stroke="var(--bg-surface)" stroke-width="6" stroke-linejoin="round" fill="none"/>
+                </g>
+                
+                <!-- Shine rays -->
+                <g class="anim-rotate" >
+                    <path d="M200 40 V20 M120 110 H100 M280 110 H300 M140 50 L125 35 M260 50 L275 35" stroke="var(--accent-color)" stroke-width="8" stroke-linecap="round"/>
+                </g>
+            </g>
+          </svg>

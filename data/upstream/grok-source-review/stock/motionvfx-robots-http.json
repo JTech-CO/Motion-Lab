@@ -1,0 +1,17 @@
+{
+  "id": "motionvfx",
+  "url": "https://www.motionvfx.com/robots.txt",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 200,
+  "finalUrl": "https://www.motionvfx.com/robots.txt",
+  "contentType": "text/plain",
+  "truncated": false,
+  "observedBytes": 2268,
+  "observedContentSha256": "bf4a06cf562cc004b12c236ad18735089fb85688fcdc6b16a52cab2e0846f445",
+  "observedContent": "Public page text or HTML returned; bounded content SHA and response metadata preserved.",
+  "challengeOrDenial": false,
+  "robotsPath": "exa-results/grok-source-review/stock/motionvfx-robots.txt",
+  "robotsContentSha256": "bf4a06cf562cc004b12c236ad18735089fb85688fcdc6b16a52cab2e0846f445"
+}

@@ -1,0 +1,28 @@
+{
+  "theme": "bioluminescent deep sea creature with pulsing glow",
+  "style_hints": "",
+  "references": [
+    "community/lygia/lighting_blackbody.glsl [wave]",
+    "shabon-fx/LivingShabon.frag [color_palette,grid,lighting,noise,postprocess,raymarching,reflection,wave]",
+    "community/lygia/color_layer_glowSourceOver.glsl []",
+    "community/glsl-shaders/crt_shaders_hyllian_crt-hyllian-curvature-glow.glsl [matrix,postprocess]",
+    "community/lygia/lighting_blackbody.wgsl [wave]"
+  ],
+  "attempts": 2,
+  "created_at": "2026-03-27T08:37:02.989679+00:00",
+  "glsl_lines": 102,
+  "success": true,
+  "review": {
+    "visual_complexity": 4,
+    "code_quality": 4,
+    "theme_match": 3,
+    "animation": 4,
+    "originality": 4,
+    "total": 19,
+    "verdict": "pass",
+    "feedback": "Good use of SDFs, fractal noise, and pulsing glow effects for the bioluminescent theme, but the scene is too dark and sparse—most of the canvas remains black void; increase particle count, boost glow intensity, and ensure the main elements occupy more screen space for better social media visibility."
+  },
+  "status": "rejected",
+  "rejected_at": "2026-03-28T13:32:52.295064+00:00",
+  "rejected_comment": ""
+}

@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="150" ry="10" fill="#E2E8F0" opacity="0.4"/>
+            <!-- Background Window/Moon -->
+            <rect x="250" y="50" width="100" height="120" rx="8" fill="#1E293B" opacity="0.8"/>
+            <circle cx="310" cy="80" r="15" fill="#FDE047" opacity="0.8"/>
+            <circle class="anim-glow" cx="310" cy="80" r="25" fill="#FDE047" opacity="0.2"/>
+            
+            <!-- Desk -->
+            <path d="M80 250 H280 V260 H80 Z" fill="var(--primary-color)"/>
+            
+            <!-- Character Reading -->
+            <path d="M120 250 C120 210 140 190 160 190 H180 C200 190 220 210 220 250 V260 H120 V250 Z" fill="var(--charcoal)"/>
+            <circle cx="170" cy="160" r="25" fill="#94A3B8"/>
+            <path class="anim-typing" d="M185 200 L240 230" stroke="var(--charcoal)" stroke-width="12" stroke-linecap="round"/>
+            <rect x="220" y="240" width="40" height="10" rx="2" fill="var(--secondary-color)"/>
+            
+            <!-- Lamp -->
+            <path d="M100 250 V150 Q100 120 140 120" stroke="var(--primary-color)" stroke-width="6" fill="none"/>
+            <path d="M130 110 L160 100 L170 130 L140 140 Z" fill="var(--primary-color)"/>
+            <path class="anim-glow" d="M150 140 L120 250 H200 Z" fill="var(--accent-color)" opacity="0.15"/>
+          </svg>

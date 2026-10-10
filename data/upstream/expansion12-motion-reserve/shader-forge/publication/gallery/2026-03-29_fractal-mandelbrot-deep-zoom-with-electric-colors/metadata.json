@@ -1,0 +1,27 @@
+{
+  "theme": "fractal mandelbrot deep zoom with electric colors",
+  "style_hints": "",
+  "references": [
+    "glsl-art/shadertoy-top/XlBXWw.glsl/XlBXWw.glsl [color_palette,fractal,grid,lighting,matrix,noise,reflection,sdf]",
+    "glsl-art/shadertoy-top/ldB3Rz.glsl/ldB3Rz.glsl [fractal,lighting,matrix,raymarching,reflection,sdf]",
+    "glsl-art/shadertoy-top/4df3Rn.glsl/4df3Rn.glsl [fractal]",
+    "glsl-art/shadertoy-top/XsKXzc.glsl/XsKXzc.glsl [color_palette,fractal,grid,lighting,matrix,noise,postprocess,raymarching,reflection,volumetric]",
+    "glsl-art/shadertoy-top/MltXz2.glsl/MltXz2.glsl [fractal]"
+  ],
+  "attempts": 1,
+  "created_at": "2026-03-29T11:16:00.372052+00:00",
+  "glsl_lines": 60,
+  "success": true,
+  "target": "glsl",
+  "design_brief": "1. **Architecture**: `main()` → compute `uv = gl_FragCoord.xy / uResolution`, then `uv = uv * 2.0 - 1.0; uv.x *= uResolution.x / uResolution.y;` → scale & offset `c = uv * zoom + offset` (driven by `uTime`) → call `mandelbrot(c)` → map result to color via `getPalette()` → `gl_FragColor = vec4(color, 1.0)`.  \n2. **Key functions**: `float mandelbrot(vec2 c)` returns smooth iteration count; `vec3 getPalette(float t)` for vibrant colors (e.g., sine-based palette like ref #3); `vec2 zoomOffset(float t)` for smooth zoom/pan (e.g., ref #1’s infinite zoom pattern).  \n3. **Reuse patterns**: Use ref #3’s `mandelbrot()` with smooth iteration (line 24–30) for accuracy; adopt ref #1’s `GetColor(vec3 p)` → `vec3` palette logic (line 100+) for electric hues; borrow ref #2’s `vGlowColour`/`vEnvColour` blending for neon glow.  \n4. **Color & brightness**: Use `vec3 color = mix(vec3(0.0), vec3(1.0, 0.8, 0.4), pow(smoothstep(0.0, 1.0, iter), 2.0))` + additive blending of multiple passes (e.g., `color += 0.3 * sin(uTime + iter * 0.5)`); clamp to `[0.0, 1.0]` and apply slight exposure boost (`* 1.2`).  \n5. **Animation**: Drive zoom with `uTime * 0.3` (safe speed), offset via `vec2(sin(uTime * 0.2), cos(uTime * 0.3)) * 0.8`. Loop subtly via `mod(uTime, T)`, but avoid hard resets—use continuous fractal flow.  \n6. **Pitfalls**: No `dFdx`/`fwidth` → use fixed `maxIter = 100` (no adaptive); no bitwise ops → avoid `int` bit-twiddling in noise; always normalize `uv` aspect; test on mobile (no highp floats? use `mediump` with clamped `maxIter`).",
+  "review": {
+    "visual_complexity": 4,
+    "code_quality": 4,
+    "theme_match": 5,
+    "animation": 4,
+    "originality": 4,
+    "total": 21,
+    "verdict": "pass",
+    "feedback": "The shader implements a high-quality animated Mandelbrot deep zoom with smooth coloring and electric palette animation, but brightness could be improved by reducing the zoom range or adjusting the palette to ensure more pixels are colored rather than falling into the black interior."
+  }
+}

@@ -1,0 +1,9 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <path class="anim-bounce" d="M200 150 L100 100 V200 Z" fill="var(--primary-color)"/>
+                <path class="anim-bounce" d="M200 150 L300 100 V200 Z" fill="var(--primary-color)"/>
+                <rect x="180" y="130" width="40" height="40" rx="5" fill="var(--secondary-color)"/>
+                <circle class="anim-pulse" cx="140" cy="150" r="5" fill="var(--bg-surface)" opacity="0.6"/>
+                <circle class="anim-pulse" cx="260" cy="150" r="5" fill="var(--bg-surface)" opacity="0.6"/>
+            </g>
+          </svg>

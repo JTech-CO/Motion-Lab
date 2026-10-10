@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="150" ry="12" fill="#E2E8F0"/>
+            <!-- Water Gun person left -->
+            <g class="anim-bounce">
+              <circle cx="100" cy="130" r="18" fill="var(--primary-color)"/>
+              <path d="M90 148 Q85 185 90 210 H110 Q115 185 110 148Z" fill="var(--primary-color)"/>
+              <!-- Water gun -->
+              <path d="M110 150 L160 150 L160 165 M160 150 L160 145 H175 L175 165 H160" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round" fill="none"/>
+            </g>
+            <!-- Water streams -->
+            <g class="anim-draw">
+              <path d="M175 155 Q220 140 260 155 Q280 160 300 155" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round" fill="none"/>
+              <path d="M175 162 Q215 175 255 162 Q270 158 285 162" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.6"/>
+            </g>
+            <!-- Splashes -->
+            <g class="anim-pulse" fill="var(--accent-color)" opacity="0.6">
+              <path d="M280 145 Q300 120 320 145"/>
+              <path d="M290 165 Q310 190 330 165"/>
+              <circle cx="310" cy="150" r="5"/>
+            </g>
+            <!-- Person right getting splashed -->
+            <g class="anim-bounce" style="animation-delay:-0.5s;">
+              <circle cx="320" cy="130" r="18" fill="var(--secondary-color)"/>
+              <path d="M310 148 Q305 185 310 210 H330 Q335 185 330 148Z" fill="var(--secondary-color)"/>
+              <!-- Arms up -->
+              <path d="M310 160 Q285 140 270 150 M330 160 Q355 140 370 150" stroke="var(--secondary-color)" stroke-width="10" stroke-linecap="round"/>
+            </g>
+          </svg>

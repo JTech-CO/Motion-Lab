@@ -1,0 +1,28 @@
+{
+  "theme": "bright neon plasma waves filling the screen",
+  "style_hints": "Full-screen colorful plasma using layered FBM noise, vibrant neon colors cyan-magenta-yellow, animated waves, bright and saturated, no dark void",
+  "references": [
+    "community/glsl-shaders/pal_shaders_a520.glsl",
+    "community/glsl-shaders/handheld_shaders_color_nds-color.glsl",
+    "community/glsl-shaders/ntsc_shaders_ntsc-xot.glsl",
+    "community/lygia/lighting_toShininess.wgsl",
+    "community/lygia/lighting_toShininess.glsl"
+  ],
+  "attempts": 1,
+  "created_at": "2026-03-25T14:10:41.003043+00:00",
+  "glsl_lines": 99,
+  "success": true,
+  "review": {
+    "visual_complexity": 4,
+    "code_quality": 4,
+    "theme_match": 5,
+    "animation": 5,
+    "originality": 4,
+    "total": 22,
+    "verdict": "pass",
+    "feedback": "Excellent neon plasma implementation with layered FBM, rotation, interference patterns, and vibrant color palette; well-structured, fully utilized canvas with bright output suitable for social media."
+  },
+  "status": "rejected",
+  "rejected_at": "2026-03-28T13:31:57.459142+00:00",
+  "rejected_comment": ""
+}

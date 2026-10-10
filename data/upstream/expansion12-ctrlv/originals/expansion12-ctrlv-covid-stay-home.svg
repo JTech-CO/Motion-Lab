@@ -1,0 +1,36 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            
+            <g class="anim-float">
+                <!-- Shield/House Backing -->
+                <path d="M120 150 L200 80 L280 150 V240 C280 250 270 260 260 260 H140 C130 260 120 250 120 240 Z" fill="var(--primary-color)" opacity="0.9"/>
+                <path d="M200 80 L280 150 V240 C280 250 270 260 260 260 H200 Z" fill="var(--secondary-color)" opacity="0.4"/>
+                
+                <!-- Roof overlay -->
+                <path d="M100 160 L200 70 L300 160" stroke="var(--accent-color)" stroke-width="12" stroke-linecap="round" fill="none"/>
+                
+                <!-- People inside -->
+                <g class="anim-pulse" fill="var(--bg-surface)" opacity="0.9">
+                    <!-- Adult -->
+                    <circle cx="180" cy="160" r="15"/>
+                    <path d="M160 220 C160 180 200 180 200 220 Z"/>
+                    <!-- Child -->
+                    <circle cx="225" cy="180" r="10"/>
+                    <path d="M210 220 C210 190 240 190 240 220 Z"/>
+                </g>
+                
+                <!-- Lock / Safety symbol -->
+                <rect x="185" y="230" width="30" height="20" rx="4" fill="var(--accent-color)"/>
+                <path d="M192 230 V220 C192 210 208 210 208 220 V230" stroke="var(--accent-color)" stroke-width="4" fill="none"/>
+            </g>
+            
+            <!-- Floating virus particles outside -->
+            <g class="anim-bounce" fill="var(--charcoal)" opacity="0.3">
+                <circle cx="80" cy="120" r="8"/>
+                <path d="M80 110 V105 M80 130 V135 M70 120 H65 M90 120 H95" stroke="var(--charcoal)" stroke-width="2"/>
+                
+                <circle cx="330" cy="180" r="12"/>
+                <path d="M330 165 V160 M330 195 V200 M315 180 H310 M345 180 H350" stroke="var(--charcoal)" stroke-width="3"/>
+                
+                <circle cx="280" cy="80" r="6"/>
+            </g>
+          </svg>

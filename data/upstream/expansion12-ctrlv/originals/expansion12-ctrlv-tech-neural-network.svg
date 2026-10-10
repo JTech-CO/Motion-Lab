@@ -1,0 +1,35 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Connection Lines -->
+                <g stroke="var(--charcoal)" stroke-width="2" opacity="0.2">
+                    <!-- Layer 1 to 2 -->
+                    <path d="M80 100 L180 60 M80 100 L180 150 M80 200 L180 150 M80 200 L180 240"/>
+                    <path d="M80 100 L180 240 M80 200 L180 60"/>
+                    <!-- Layer 2 to 3 -->
+                    <path d="M180 60 L280 150 M180 150 L280 150 M180 240 L280 150"/>
+                </g>
+                
+                <!-- Signal Pulse -->
+                <circle class="anim-draw" cx="80" cy="100" r="12" fill="var(--primary-color)"/>
+                <path class="anim-draw" d="M80 100 Q180 150 280 150" stroke="var(--accent-color)" stroke-width="4" fill="none"/>
+                
+                <!-- Layer Nodes -->
+                <!-- Layer 1 (Input) -->
+                <circle class="anim-pulse" cx="80" cy="100" r="15" fill="var(--primary-color)"/>
+                <circle class="anim-pulse" style="animation-delay: 0.2s;" cx="80" cy="200" r="15" fill="var(--primary-color)"/>
+                
+                <!-- Layer 2 (Hidden) -->
+                <circle class="anim-pulse" style="animation-delay: 0.4s;" cx="180" cy="60" r="15" fill="var(--secondary-color)"/>
+                <circle class="anim-pulse" style="animation-delay: 0.5s;" cx="180" cy="150" r="15" fill="var(--secondary-color)"/>
+                <circle class="anim-pulse" style="animation-delay: 0.6s;" cx="180" cy="240" r="15" fill="var(--secondary-color)"/>
+                
+                <!-- Layer 3 (Output) -->
+                <g transform="translate(280, 150)">
+                    <g class="anim-bounce" >
+                    <circle r="30" fill="var(--accent-color)" opacity="0.2"/>
+                    <circle r="18" fill="var(--accent-color)"/>
+                    <path d="M-8 0 L-2 6 L8 -6" stroke="var(--bg-surface)" stroke-width="4" stroke-linecap="round" fill="none"/>
+                </g>
+                </g>
+            </g>
+          </svg>

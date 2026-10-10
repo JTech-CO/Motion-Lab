@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            
+            <g>
+                <circle cx="150" cy="150" r="80" fill="#6366f1" />
+                <path d="M130 50 H170 V250 H130 Z M50 130 H250 V170 H50 Z" fill="#6366f1" />
+                <path d="M80 80 L220 220 M80 220 L220 80" stroke="#6366f1" stroke-width="40" />
+                <circle cx="150" cy="150" r="40" fill="white" />
+                <circle cx="150" cy="150" r="20" fill="#334155" opacity="0.2" />
+            </g>
+            
+            <g>
+                <circle cx="270" cy="150" r="50" fill="#6366f1" opacity="0.9" />
+                <path d="M260 80 H280 V220 H260 Z M200 140 H340 V160 H200 Z" fill="#6366f1" opacity="0.9" />
+                <path d="M220 100 L320 200 M220 200 L320 100" stroke="#6366f1" stroke-width="20" opacity="0.9" />
+                <circle cx="270" cy="150" r="20" fill="white" />
+                <circle cx="270" cy="150" r="10" fill="#f43f5e" />
+            </g>
+            
+            <path d="M150 150 Q210 50 270 150" stroke="#DFD116" stroke-width="6" stroke-dasharray="12 12" fill="none" stroke-linecap="round" />
+            <circle cx="210" cy="100" r="8" fill="#DFD116" />
+          </svg>

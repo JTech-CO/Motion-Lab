@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <circle cx="200" cy="150" r="100" fill="var(--primary-color)"/>
+                <!-- Mouth -->
+                <path d="M140 180 Q200 230 260 180" stroke="var(--bg-surface)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                <!-- Buck Teeth -->
+                <rect x="185" y="202" width="12" height="15" fill="var(--bg-surface)"/>
+                <rect x="203" y="202" width="12" height="15" fill="var(--bg-surface)"/>
+                
+                <!-- Glasses -->
+                <circle cx="160" cy="130" r="30" stroke="var(--charcoal)" stroke-width="8" fill="var(--bg-surface)" opacity="0.9"/>
+                <circle cx="240" cy="130" r="30" stroke="var(--charcoal)" stroke-width="8" fill="var(--bg-surface)" opacity="0.9"/>
+                <path d="M190 130 H210" stroke="var(--charcoal)" stroke-width="8"/>
+                <path d="M130 130 H100 M270 130 H300" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round"/>
+                
+                <!-- Eyes in Glasses -->
+                <circle cx="160" cy="130" r="6" fill="var(--primary-color)"/>
+                <circle cx="240" cy="130" r="6" fill="var(--primary-color)"/>
+                
+                <!-- Tape -->
+                <g transform="rotate(20 200 130)">
+                <rect class="anim-pulse" x="195" y="120" width="10" height="20"  fill="white"/>
+            </g>
+            </g>
+          </svg>

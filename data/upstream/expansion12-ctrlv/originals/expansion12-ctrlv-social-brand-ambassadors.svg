@@ -1,0 +1,31 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Megaphone Person -->
+                <g class="anim-bounce" >
+                    <circle cx="200" cy="100" r="30" fill="var(--primary-color)"/>
+                    <path d="M160 180 Q200 130 240 180 Z" fill="var(--primary-color)"/>
+                    
+                    <!-- Megaphone -->
+                    <g transform="translate(230, 130) rotate(-20)">
+                        <path d="M0 0 L40 -20 V40 L0 20 Z" fill="var(--charcoal)"/>
+                        <rect x="-10" y="0" width="15" height="20" fill="var(--accent-color)"/>
+                        <!-- Sound Blast -->
+                        <path class="anim-pulse" d="M50 -10 Q70 10 50 30" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round" fill="none"/>
+                    </g>
+                </g>
+                
+                <!-- Audience Avatars -->
+                <g class="anim-pulse"  style="animation-delay: 0.2s;">
+                    <circle cx="100" cy="240" r="20" fill="var(--secondary-color)" opacity="0.6"/>
+                    <circle cx="300" cy="240" r="20" fill="var(--secondary-color)" opacity="0.6"/>
+                    <circle cx="50" cy="220" r="15" fill="var(--primary-color)" opacity="0.4"/>
+                    <circle cx="350" cy="220" r="15" fill="var(--primary-color)" opacity="0.4"/>
+                </g>
+                
+                <!-- Connection Hearts -->
+                <path class="anim-draw" d="M100 210 Q200 150 300 210" stroke="var(--accent-color)" stroke-width="3" stroke-dasharray="4 4" fill="none"/>
+                <g transform="scale(1.5) translate(66, 20)">
+                <path class="anim-bounce" style="animation-delay: 0.5s;" d="M200 60 C190 40 210 40 200 60 Z" fill="var(--accent-color)" />
+            </g>
+            </g>
+          </svg>

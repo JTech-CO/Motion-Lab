@@ -1,0 +1,14 @@
+{
+  "url": "https://vimeo.com/terms",
+  "method": "Exa public fetch",
+  "status": "Exa-content-read",
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공개 URL의 Exa 추출 내용을 읽었다. 직접 서버의 HTTP 200으로 간주하지 않았다.",
+  "sector": 4,
+  "siteId": "vimeo",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/vimeo-terms-exa.json",
+  "rawCacheSha256": "298140365d5c1817fc84807b1143b4b6d1b5ad18458c7f6bec95f1183228b8b8",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "76b181791d756150bbeabe82fea83337f1f5d09062a9c4b39a9b2009d519c65c",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json."
+}

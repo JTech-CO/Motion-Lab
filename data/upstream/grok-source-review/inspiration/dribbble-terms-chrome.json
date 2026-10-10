@@ -1,0 +1,19 @@
+{
+  "url": "https://dribbble.com/terms",
+  "method": "isolated installed Chrome, JavaScript disabled, public navigation only",
+  "status": 200,
+  "fetchedAt": "2026-10-10",
+  "observedContent": "JavaScript 비활성 Chrome의 공개 본문을 직접 읽었다. 인증·challenge 우회 없이 읽은 범위만 근거로 사용했다.",
+  "sector": 4,
+  "siteId": "dribbble",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/dribbble-terms-chrome.json",
+  "rawCacheSha256": "5772ff02575f704b9736411fab9f944b13715e776248b69d67a2337c9890ff9d",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "f8307ca5c3591ff773c01a42669039692172840e442d2d01bcb8cd97b8b45f8a",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "finalUrl": "https://dribbble.com/terms",
+  "visibleTextSha256": "f8307ca5c3591ff773c01a42669039692172840e442d2d01bcb8cd97b8b45f8a",
+  "loginAttempted": false,
+  "challengeBypassed": false,
+  "cookiesImported": false
+}

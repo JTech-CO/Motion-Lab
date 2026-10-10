@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/mojs/mojs",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/mojs/mojs",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/mojs/mojs",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/mojs/mojs",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:58.012776+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/mojs/mojs",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "3f91724fdc2da3ab96381b769b1e18696998266a0ead9e287c62a5a0558fd85c",
+      "responseBodySha256": "3f91724fdc2da3ab96381b769b1e18696998266a0ead9e287c62a5a0558fd85c",
+      "title": "GitHub - mojs/mojs: The motion graphics toolbelt for the web · GitHub",
+      "textCharacters": 3012,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.603,
+      "captureCachePath": "exa-results/link-audit/references/captures/d06f021395783d68cc0e16a8.json",
+      "captureCacheSha256": "358e848db605442060bc774776ba3fa8a949b1d226c853025a50651783f304fe"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-mo-js",
+      "canonicalId": "ref-mo-js",
+      "title": "mo.js",
+      "role": "canonical",
+      "sourceSha256": "00addc575087227180d142a9d022671bf5b87117b72fc5513fa59cd7fed52e10"
+    }
+  ]
+}

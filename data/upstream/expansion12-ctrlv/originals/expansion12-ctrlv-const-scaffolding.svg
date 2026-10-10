@@ -1,0 +1,45 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g style="animation-duration: 6s;" class="anim-float">
+                <!-- Vertical Poles -->
+                <g stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round">
+                    <line x1="120" y1="260" x2="120" y2="80"/>
+                    <line x1="200" y1="260" x2="200" y2="80"/>
+                    <line x1="280" y1="260" x2="280" y2="80"/>
+                </g>
+                
+                <!-- Horizontal Platforms -->
+                <rect x="100" y="200" width="200" height="10" rx="3" fill="var(--secondary-color)" stroke="var(--charcoal)" stroke-width="4"/>
+                <rect x="100" y="140" width="200" height="10" rx="3" fill="var(--secondary-color)" stroke="var(--charcoal)" stroke-width="4"/>
+                <rect x="100" y="80" width="200" height="10" rx="3" fill="var(--primary-color)" stroke="var(--charcoal)" stroke-width="4"/>
+                
+                <!-- Diagonal Bracing (X marks) -->
+                <g stroke="var(--primary-color)" stroke-width="4" stroke-dasharray="8 8" opacity="0.6">
+                    <!-- Bottom tier -->
+                    <line x1="120" y1="260" x2="200" y2="210"/>
+                    <line x1="200" y1="260" x2="120" y2="210"/>
+                    <line x1="200" y1="260" x2="280" y2="210"/>
+                    <line x1="280" y1="260" x2="200" y2="210"/>
+                    <!-- Middle tier -->
+                    <line x1="120" y1="200" x2="200" y2="150"/>
+                    <line x1="200" y1="200" x2="120" y2="150"/>
+                    <line x1="200" y1="200" x2="280" y2="150"/>
+                    <line x1="280" y1="200" x2="200" y2="150"/>
+                </g>
+                
+                <!-- Animated Worker Indicator or Flag -->
+                <g transform="translate(160, 40)">
+                    <g style="animation-duration: 5s;" class="anim-bounce">
+                        <path d="M0 0 L0 40" stroke="var(--charcoal)" stroke-width="4"/>
+                        <path class="anim-rotate" style="transform-origin: 0px 0px; animation-duration: 2s;" d="M0 0 L30 10 L0 20 Z" fill="var(--accent-color)"/>
+                    </g>
+                </g>
+                
+                <!-- Joints -->
+                <circle cx="120" cy="205" r="5" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="2"/>
+                <circle cx="200" cy="205" r="5" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="2"/>
+                <circle cx="280" cy="205" r="5" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="2"/>
+                <circle cx="120" cy="145" r="5" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="2"/>
+                <circle cx="200" cy="145" r="5" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="2"/>
+                <circle cx="280" cy="145" r="5" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="2"/>
+            </g>
+          </svg>

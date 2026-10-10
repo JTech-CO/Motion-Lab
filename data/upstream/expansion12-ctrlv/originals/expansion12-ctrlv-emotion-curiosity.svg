@@ -1,0 +1,29 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="130" ry="10" fill="#E2E8F0"/>
+            <g class="anim-tilt">
+              <g class="anim-bounce" style="transform: rotate(-8deg); transform-origin: 200px 145px;">
+                <circle cx="200" cy="145" r="88" fill="var(--accent-color)" opacity="0.8"/>
+                <!-- One eyebrow raised, one normal -->
+                <path d="M156 106 Q172 95 188 106" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round" fill="none"/>
+                <path d="M212 112 Q228 108 244 112" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round" fill="none"/>
+                <!-- Big inquisitive eyes, slightly tilted -->
+                <circle cx="172" cy="130" r="18" fill="var(--bg-surface)"/>
+                <circle cx="228" cy="133" r="16" fill="var(--bg-surface)"/>
+                <circle cx="172" cy="130" r="9" fill="var(--charcoal)"/>
+                <circle cx="228" cy="133" r="8" fill="var(--charcoal)"/>
+                <circle cx="175" cy="127" r="3" fill="var(--bg-surface)"/>
+                <circle cx="231" cy="130" r="3" fill="var(--bg-surface)"/>
+                <!-- Open curious mouth -->
+                <path d="M178 170 Q200 185 222 170" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round" fill="none"/>
+              </g>
+            </g>
+            <!-- Question marks floating -->
+            <g class="anim-float" stroke="var(--primary-color)" stroke-width="6" stroke-linecap="round" fill="none">
+              <path d="M95 80 C95 65 112 65 112 80 Q112 92 104 98 Q104 105 104 108"/>
+              <circle cx="104" cy="114" r="3" fill="var(--primary-color)"/>
+            </g>
+            <g class="anim-float" style="animation-delay:-0.7s;" stroke="var(--secondary-color)" stroke-width="5" stroke-linecap="round" fill="none">
+              <path d="M305 60 C305 48 320 48 320 60 Q320 70 313 75 Q313 80 313 83"/>
+              <circle cx="313" cy="88" r="2.5" fill="var(--secondary-color)"/>
+            </g>
+          </svg>

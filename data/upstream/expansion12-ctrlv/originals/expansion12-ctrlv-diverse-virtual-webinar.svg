@@ -1,0 +1,29 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Monitor -->
+                <rect x="60" y="40" width="280" height="180" rx="10" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="8"/>
+                <path d="M160 220 L140 260 H260 L240 220 Z" fill="var(--charcoal)"/>
+                <rect x="100" y="260" width="200" height="10" rx="5" fill="var(--charcoal)"/>
+                
+                <!-- Presentation Area -->
+                <rect x="70" y="50" width="180" height="130" rx="5" fill="var(--primary-color)"/>
+                <path class="anim-draw" d="M90 140 L120 100 L160 130 L210 70 M210 70 L190 70 M210 70 V90" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                
+                <!-- Speaker Video Feed -->
+                <rect x="255" y="50" width="75" height="60" rx="5" fill="var(--secondary-color)"/>
+                <circle cx="292" cy="70" r="10" fill="var(--bg-surface)"/>
+                <path d="M272 110 Q292 80 312 110 Z" fill="var(--bg-surface)"/>
+                
+                <!-- Attendee Feeds -->
+                <rect class="anim-pulse" x="255" y="120" width="35" height="25" rx="3" fill="var(--accent-color)"/>
+                <rect class="anim-pulse" style="animation-delay: 0.2s;" x="295" y="120" width="35" height="25" rx="3" fill="var(--charcoal)" opacity="0.3"/>
+                <rect class="anim-pulse" style="animation-delay: 0.4s;" x="255" y="155" width="35" height="25" rx="3" fill="var(--primary-color)"/>
+                <rect class="anim-pulse" style="animation-delay: 0.6s;" x="295" y="155" width="35" height="25" rx="3" fill="var(--secondary-color)"/>
+                
+                <!-- Controls -->
+                <circle cx="160" cy="200" r="8" fill="var(--accent-color)"/>
+                <circle cx="190" cy="200" r="8" fill="var(--charcoal)" opacity="0.4"/>
+                <circle cx="220" cy="200" r="8" fill="var(--charcoal)" opacity="0.4"/>
+                <circle cx="250" cy="200" r="8" fill="var(--secondary-color)"/>
+            </g>
+          </svg>

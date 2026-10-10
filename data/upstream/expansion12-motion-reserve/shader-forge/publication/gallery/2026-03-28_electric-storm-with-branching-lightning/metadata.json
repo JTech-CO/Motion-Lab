@@ -1,0 +1,26 @@
+{
+  "theme": "electric storm with branching lightning",
+  "style_hints": "",
+  "references": [
+    "community/glsl-shaders/crt_shaders_smuberstep-glow.glsl [grid,lighting,matrix]",
+    "shabon-fx/AuroraWaves.frag [color_palette,grid,noise,wave]",
+    "community/three-js-chunks/lights_lambert_fragment.glsl [lighting]",
+    "community/open-shaders/Engines_G3D_g3d_LightingEnvironment_LightingEnvironment_environmentMapUniforms.glsl [lighting,reflection]",
+    "community/open-shaders/Engines_godot_giprobe_write.glsl [grid,lighting,raymarching]"
+  ],
+  "attempts": 1,
+  "created_at": "2026-03-28T01:56:28.845331+00:00",
+  "glsl_lines": 71,
+  "success": true,
+  "design_brief": "1. **Architecture**:  \n   `main()` → `vec2 uv = vUv; uv *= uResolution.xy / min(uResolution.x, uResolution.y);` → `vec3 color = vec3(0.);` → loop over `uTime`-driven lightning branches (`for (int i = 0; i < 3; i++)`) → accumulate `color += lightningBranch(uv, i)` → `gl_FragColor = vec4(color, 1.0);`.\n\n2. **Key functions**:  \n   `hash(float)` — simple 1D hash (use ref #2’s);  \n   `noise(vec2)` — 2D value noise with cubic smoothing (ref #2);  \n   `fbm(vec2, int)` — 4-octave FBM for turbulent noise;  \n   `lightningBranch(vec2 uv, int idx)` — returns `vec3` color for one branch using domain-warped noise + exponential decay.\n\n3. **Reference reuse**:  \n   - Use ref #2’s `hash()` and `noise()` for cheap, extension-free noise (no `dFdx`/`dFdy`).  \n   - Structure `lightningBranch()` like a warped gradient: `vec2 p = uv * 2. - 1.; p.x *= aspect; p = fbm(p * 3. + uTime * 0.5, 4);` then warp with `p += vec2(noise(p.yx + uTime), noise(p.xy - uTime)) * 0.3;`.\n\n4. **Color & brightness**:  \n   Use additive blending with `vec3(2.5, 2.0, 3.0)`-scaled cyan/magenta/yellow palettes: `vec3 c = vec3(0.2, 0.8, 1.0) + 0.5 * sin(uTime + p.xyx + vec3(0.,2.,4.));` — clamp to `[0.,1.]` *after* accumulation.\n\n5. **Animation**:  \n   Drive all motion with `uTime * 0.8` (slow enough to see structure, fast for energy). Loop via `mod(uTime, 10.0)` for the main oscillation; use `fract(uTime * 0.3 + float(i)*0.7)` to stagger branch starts.\n\n6. **Pitfalls**:  \n   - NO `fwidth`, `dFdx/dFdy`, or bitwise ops — avoid gradient-based sharpening;  \n   - Use `texture2D()` *only* if needed (this shader is noise-based, skip textures);  \n   - Always normalize UV aspect to avoid squashed lightning;  \n   - Keep `gl_FragColor` always `vec4` (no early `return`).",
+  "review": {
+    "visual_complexity": 4,
+    "code_quality": 3,
+    "theme_match": 4,
+    "animation": 4,
+    "originality": 4,
+    "total": 19,
+    "verdict": "pass",
+    "feedback": "Good use of noise, FBM, and branching logic for lightning, but the content is too sparse—most of the canvas remains black; increase branch density or add ambient glow to improve visibility."
+  }
+}

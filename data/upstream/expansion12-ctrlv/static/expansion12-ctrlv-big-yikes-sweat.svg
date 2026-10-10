@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+        <text x="50%" y="160" text-anchor="middle" font-family="Inter" font-weight="900" font-size="60" fill="#f43f5e">YIKES!</text>
+        <g>
+            <circle cx="300" cy="100" r="10" fill="#DFD116" opacity="0.6" />
+            <path d="M300 110 V130" stroke="#DFD116" stroke-width="4" stroke-linecap="round" />
+        </g>
+        <path d="M100 220 Q200 200 300 220" stroke="#e2e8f0" stroke-width="4" opacity="0.2" />
+    </svg>

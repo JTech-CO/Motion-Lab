@@ -1,0 +1,158 @@
+[
+  {
+    "ids": [
+      "expansion12-vector-dungeon-terrain-pattern-2x",
+      "expansion12-vector-nature-dirt-tile-1"
+    ],
+    "families": [
+      "terrain",
+      "dirt tile"
+    ],
+    "dhashDistance256": 3,
+    "softAlphaIoU32": 1.0,
+    "decision": "requires-full-original-construction-review"
+  },
+  {
+    "ids": [
+      "expansion12-vector-halloween-monster-2",
+      "expansion12-vector-pirate-krakenarm2-organic-v-m-red500-2x"
+    ],
+    "families": [
+      "monster",
+      "kraken arm"
+    ],
+    "dhashDistance256": 3,
+    "softAlphaIoU32": 1.0,
+    "decision": "requires-full-original-construction-review"
+  },
+  {
+    "ids": [
+      "expansion12-vector-city-trafficsignbusstop-metal-v-l-blue700-2x",
+      "expansion12-vector-city-trafficsignstopicon-metal-v-l-red500-2x"
+    ],
+    "families": [
+      "traffic sign bus stop",
+      "traffic sign stop icon"
+    ],
+    "dhashDistance256": 4,
+    "softAlphaIoU32": 0.9711456298828125,
+    "decision": "requires-full-original-construction-review"
+  },
+  {
+    "ids": [
+      "expansion12-vector-city-trafficsigndonotenter-metal-v-l-red500-2x",
+      "expansion12-vector-city-trafficsignstopicon-metal-v-l-red500-2x"
+    ],
+    "families": [
+      "no-entry-sign",
+      "traffic sign stop icon"
+    ],
+    "dhashDistance256": 4,
+    "softAlphaIoU32": 0.969174861907959,
+    "decision": "requires-full-original-construction-review"
+  },
+  {
+    "ids": [
+      "expansion12-vector-space-cableground-plastic-h-s-teal400-2x",
+      "expansion12-vector-space-sqauredplatform-metal-h-l-slate300-2x"
+    ],
+    "families": [
+      "cable-segment",
+      "platform"
+    ],
+    "dhashDistance256": 4,
+    "softAlphaIoU32": 0.8437683582305908,
+    "decision": "requires-full-original-construction-review"
+  },
+  {
+    "ids": [
+      "expansion12-vector-city-trafficsignbusstop-metal-v-l-blue700-2x",
+      "expansion12-vector-city-trafficsigndonotenter-metal-v-l-red500-2x"
+    ],
+    "families": [
+      "traffic sign bus stop",
+      "no-entry-sign"
+    ],
+    "dhashDistance256": 6,
+    "softAlphaIoU32": 0.9934993982315063,
+    "decision": "requires-full-original-construction-review"
+  },
+  {
+    "ids": [
+      "expansion12-vector-interior-booksingle-paper-v-m-red400-2x",
+      "expansion12-vector-interior-poster-cannister-2x"
+    ],
+    "families": [
+      "book single",
+      "poster cannister"
+    ],
+    "dhashDistance256": 8,
+    "softAlphaIoU32": 0.9040830731391907,
+    "decision": "requires-full-original-construction-review"
+  },
+  {
+    "ids": [
+      "expansion12-vector-halloween-popsicle-1",
+      "expansion12-vector-winter-icycle"
+    ],
+    "families": [
+      "popsicle",
+      "icycle"
+    ],
+    "dhashDistance256": 9,
+    "softAlphaIoU32": 0.8562451601028442,
+    "decision": "requires-full-original-construction-review"
+  },
+  {
+    "ids": [
+      "expansion12-vector-interior-poster-cannister-2x",
+      "expansion12-vector-western-dynamite-stick"
+    ],
+    "families": [
+      "poster cannister",
+      "dynamite stick"
+    ],
+    "dhashDistance256": 10,
+    "softAlphaIoU32": 0.8023697733879089,
+    "decision": "requires-full-original-construction-review"
+  },
+  {
+    "ids": [
+      "expansion12-vector-medieval-pot-clay-v-l-brown400-2x",
+      "expansion12-vector-medieval-waterpot-clay-v-l-brown400-2x"
+    ],
+    "families": [
+      "pot",
+      "water pot"
+    ],
+    "dhashDistance256": 11,
+    "softAlphaIoU32": 1.0,
+    "decision": "requires-full-original-construction-review"
+  },
+  {
+    "ids": [
+      "expansion12-vector-city-street-tiles-city-2x",
+      "expansion12-vector-dungeon-terrain-pattern-2x"
+    ],
+    "families": [
+      "street tiles city",
+      "terrain"
+    ],
+    "dhashDistance256": 20,
+    "softAlphaIoU32": 1.0,
+    "decision": "requires-full-original-construction-review"
+  },
+  {
+    "ids": [
+      "expansion12-vector-city-street-tiles-city-2x",
+      "expansion12-vector-nature-dirt-tile-1"
+    ],
+    "families": [
+      "street tiles city",
+      "dirt tile"
+    ],
+    "dhashDistance256": 21,
+    "softAlphaIoU32": 1.0,
+    "decision": "requires-full-original-construction-review"
+  }
+]

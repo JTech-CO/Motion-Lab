@@ -1,0 +1,1198 @@
+{
+  "checkedAt": "2026-10-10T11:42:06.525168+00:00",
+  "url": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+  "catalogSha256": "643300e8581b957345acc4d636a13b30bf52c5b24cf3714b10341a53c4032c97",
+  "mappedReferences": 161,
+  "individualCardIds": 160,
+  "foundInCurrentHTML": 99,
+  "foundInOfficialCurrentStaticDataOnly": 61,
+  "missingCardIds": [],
+  "generalPageReferences": 1,
+  "sourceJSExecuted": false,
+  "evidence": [
+    {
+      "url": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:29.308042+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 182446,
+      "capturedSha256": "72dd79a934ea3141a738d154f72601c3b87cfb0835f56433a1dbbb09091279c1",
+      "responseBodySha256": "72dd79a934ea3141a738d154f72601c3b87cfb0835f56433a1dbbb09091279c1",
+      "title": "따라 만드는 모션그래픽 165 · Career Hacker Alex",
+      "textCharacters": 1150,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.192,
+      "captureCachePath": "exa-results/link-audit/references/captures/746fbeba6018f20c29e0644b.json",
+      "captureCacheSha256": "1d41f75f0790a5e1ce6ad5478e680026d5ce1d700c027d9e3bc2c7ce0f3d009e"
+    },
+    {
+      "url": "https://www.careerhackeralex.com/sharings/cha-motion-kit/immersive-data.js",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:26:35.457450+00:00",
+      "role": "cha-card-data-static-no-execution",
+      "timeoutSeconds": 10,
+      "byteLimit": 524288,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://www.careerhackeralex.com/sharings/cha-motion-kit/immersive-data.js",
+      "contentType": "application/javascript; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 85582,
+      "capturedSha256": "ebc6c68423bf5bf445a4e453abd82775e5d92aebbf00cc05c17b7b3232ec1433",
+      "responseBodySha256": "ebc6c68423bf5bf445a4e453abd82775e5d92aebbf00cc05c17b7b3232ec1433",
+      "title": "",
+      "textCharacters": 0,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.051,
+      "captureCachePath": "exa-results/link-audit/references/captures/d7ba1a5256546bd7c9c4b317.json",
+      "captureCacheSha256": "1535a12802b6fd35d8e57874154cf714c5ebb011707373b94370bb1acec6de1c"
+    }
+  ],
+  "scope": "Current card ID existence only. Embedded videos, all interactive detail contents, and reuse rights are not verified by this check.",
+  "items": [
+    {
+      "id": "cha-bar-rise-reveal",
+      "sourceCardId": "bar-rise-reveal",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-beat-cut-words",
+      "sourceCardId": "beat-cut-words",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-beat-squares-sentence",
+      "sourceCardId": "beat-squares-sentence",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-beat-word-slam",
+      "sourceCardId": "beat-word-slam",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-bl-device-duo",
+      "sourceCardId": "bl-device-duo",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-bl-film-device-ad",
+      "sourceCardId": "bl-film-device-ad",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-bl-laptop-open",
+      "sourceCardId": "bl-laptop-open",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-bl-phone-hero",
+      "sourceCardId": "bl-phone-hero",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-browser-url-load",
+      "sourceCardId": "browser-url-load",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-card-stack-swipe",
+      "sourceCardId": "card-stack-swipe",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-chat-stream",
+      "sourceCardId": "chat-stream",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-circle-mask-media",
+      "sourceCardId": "circle-mask-media",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-clock-workday",
+      "sourceCardId": "clock-workday",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-create-audio-wave-to-captions",
+      "sourceCardId": "create-audio-wave-to-captions",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-create-contact-sheet-select",
+      "sourceCardId": "create-contact-sheet-select",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-create-glyph-outline-fill",
+      "sourceCardId": "create-glyph-outline-fill",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-create-image-outpaint-canvas",
+      "sourceCardId": "create-image-outpaint-canvas",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-create-image-to-type-poster",
+      "sourceCardId": "create-image-to-type-poster",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-create-layer-depth-camera",
+      "sourceCardId": "create-layer-depth-camera",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-create-letter-media-shutter",
+      "sourceCardId": "create-letter-media-shutter",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-create-mask-inpaint-reveal",
+      "sourceCardId": "create-mask-inpaint-reveal",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-create-paragraph-to-headline",
+      "sourceCardId": "create-paragraph-to-headline",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-create-prompt-image-grid",
+      "sourceCardId": "create-prompt-image-grid",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-create-prompt-to-layout",
+      "sourceCardId": "create-prompt-to-layout",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-create-sketch-to-polished",
+      "sourceCardId": "create-sketch-to-polished",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-create-still-to-motion-strip",
+      "sourceCardId": "create-still-to-motion-strip",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-create-style-reference-blend",
+      "sourceCardId": "create-style-reference-blend",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-create-text-path-carousel",
+      "sourceCardId": "create-text-path-carousel",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-create-text-to-vector-path",
+      "sourceCardId": "create-text-to-vector-path",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-create-timeline-to-storyboard",
+      "sourceCardId": "create-timeline-to-storyboard",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-create-token-to-pixel",
+      "sourceCardId": "create-token-to-pixel",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-create-type-to-interface",
+      "sourceCardId": "create-type-to-interface",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-create-word-extrude-fold",
+      "sourceCardId": "create-word-extrude-fold",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-create-workflow-oner",
+      "sourceCardId": "create-workflow-oner",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-cursor-autozoom",
+      "sourceCardId": "cursor-autozoom",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-demo-command-palette-dive",
+      "sourceCardId": "demo-command-palette-dive",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-demo-comment-resolve-chain",
+      "sourceCardId": "demo-comment-resolve-chain",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-demo-component-detach-edit",
+      "sourceCardId": "demo-component-detach-edit",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-demo-drag-asset-drop",
+      "sourceCardId": "demo-drag-asset-drop",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-demo-form-to-dashboard",
+      "sourceCardId": "demo-form-to-dashboard",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-demo-image-crop-reframe",
+      "sourceCardId": "demo-image-crop-reframe",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-demo-infinite-canvas-route",
+      "sourceCardId": "demo-infinite-canvas-route",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-demo-inspector-live-style",
+      "sourceCardId": "demo-inspector-live-style",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-demo-keyboard-workflow",
+      "sourceCardId": "demo-keyboard-workflow",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-demo-multi-cursor-handoff",
+      "sourceCardId": "demo-multi-cursor-handoff",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-demo-node-connect-run",
+      "sourceCardId": "demo-node-connect-run",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-demo-responsive-canvas-reflow",
+      "sourceCardId": "demo-responsive-canvas-reflow",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-demo-scroll-section-magnify",
+      "sourceCardId": "demo-scroll-section-magnify",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-demo-scrub-timeline-zoom",
+      "sourceCardId": "demo-scrub-timeline-zoom",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-demo-search-result-tunnel",
+      "sourceCardId": "demo-search-result-tunnel",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-demo-selection-marquee-group",
+      "sourceCardId": "demo-selection-marquee-group",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-demo-split-editor-preview",
+      "sourceCardId": "demo-split-editor-preview",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-demo-tab-context-switch",
+      "sourceCardId": "demo-tab-context-switch",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-demo-table-filter-sort",
+      "sourceCardId": "demo-table-filter-sort",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-demo-version-history-peel",
+      "sourceCardId": "demo-version-history-peel",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-device-flip",
+      "sourceCardId": "device-flip",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-explain-compare-sync-workflows",
+      "sourceCardId": "explain-compare-sync-workflows",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-explain-evidence-source-to-quote",
+      "sourceCardId": "explain-evidence-source-to-quote",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-explain-export-format-fanout",
+      "sourceCardId": "explain-export-format-fanout",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-explain-feature-priority-matrix",
+      "sourceCardId": "explain-feature-priority-matrix",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-explain-metric-waterfall-impact",
+      "sourceCardId": "explain-metric-waterfall-impact",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-explain-objection-answer-stack",
+      "sourceCardId": "explain-objection-answer-stack",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-explain-result-detail-triptych",
+      "sourceCardId": "explain-result-detail-triptych",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-explain-steps-route-map",
+      "sourceCardId": "explain-steps-route-map",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-explain-time-compression-bridge",
+      "sourceCardId": "explain-time-compression-bridge",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-explain-workflow-branch-decision",
+      "sourceCardId": "explain-workflow-branch-decision",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-exploded-ui-layers",
+      "sourceCardId": "exploded-ui-layers",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-figure-desk-typing",
+      "sourceCardId": "figure-desk-typing",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-figure-idea-burst",
+      "sourceCardId": "figure-idea-burst",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-figure-rig-sheet",
+      "sourceCardId": "figure-rig-sheet",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-figure-wave-endcard",
+      "sourceCardId": "figure-wave-endcard",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-figure-wave-endcard-vertical",
+      "sourceCardId": "figure-wave-endcard-vertical",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-film-ad-channel",
+      "sourceCardId": "film-ad-channel",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-film-laptop-prompt",
+      "sourceCardId": "film-laptop-prompt",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-film-mobile-demo",
+      "sourceCardId": "film-mobile-demo",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-film-seamless-oneshot",
+      "sourceCardId": "film-seamless-oneshot",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-folder-burst",
+      "sourceCardId": "folder-burst",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-glow-agent-run",
+      "sourceCardId": "glow-agent-run",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-glow-chat-ask",
+      "sourceCardId": "glow-chat-ask",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-headline-highlighter",
+      "sourceCardId": "headline-highlighter",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-highlighter-wipe",
+      "sourceCardId": "highlighter-wipe",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-icon-scatter-endcard",
+      "sourceCardId": "icon-scatter-endcard",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-iso-window-wall",
+      "sourceCardId": "iso-window-wall",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-karaoke-lime",
+      "sourceCardId": "karaoke-lime",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-label-box-words",
+      "sourceCardId": "label-box-words",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-laptop-type-zoom",
+      "sourceCardId": "laptop-type-zoom",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-lens-match-cut",
+      "sourceCardId": "lens-match-cut",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-letter-clip-shapes",
+      "sourceCardId": "letter-clip-shapes",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-logo-sting",
+      "sourceCardId": "logo-sting",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-logo-sting-vertical",
+      "sourceCardId": "logo-sting-vertical",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-long-page-dolly",
+      "sourceCardId": "long-page-dolly",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-marquee-band-collage",
+      "sourceCardId": "marquee-band-collage",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-mixed-type-wordmark",
+      "sourceCardId": "mixed-type-wordmark",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-mosaic-assemble",
+      "sourceCardId": "mosaic-assemble",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-motion-term-01",
+      "sourceCardId": "motion-term-01",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-motion-term-02",
+      "sourceCardId": "motion-term-02",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-motion-term-03",
+      "sourceCardId": "motion-term-03",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-motion-term-04",
+      "sourceCardId": "motion-term-04",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-motion-term-05",
+      "sourceCardId": "motion-term-05",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-motion-term-06",
+      "sourceCardId": "motion-term-06",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-motion-term-07",
+      "sourceCardId": "motion-term-07",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-motion-term-08",
+      "sourceCardId": "motion-term-08",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-motion-term-09",
+      "sourceCardId": "motion-term-09",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-motion-term-10",
+      "sourceCardId": "motion-term-10",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-motion-term-11",
+      "sourceCardId": "motion-term-11",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-motion-term-12",
+      "sourceCardId": "motion-term-12",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-motion-term-13",
+      "sourceCardId": "motion-term-13",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-motion-term-14",
+      "sourceCardId": "motion-term-14",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-motion-term-15",
+      "sourceCardId": "motion-term-15",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-motion-term-16",
+      "sourceCardId": "motion-term-16",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-motion-term-17",
+      "sourceCardId": "motion-term-17",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-motion-term-18",
+      "sourceCardId": "motion-term-18",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-motion-term-19",
+      "sourceCardId": "motion-term-19",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-motion-term-20",
+      "sourceCardId": "motion-term-20",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-motion-term-21",
+      "sourceCardId": "motion-term-21",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-motion-term-combo-bounce",
+      "sourceCardId": "motion-term-combo-bounce",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-motion-term-combo-card",
+      "sourceCardId": "motion-term-combo-card",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-motion-term-combo-stat",
+      "sourceCardId": "motion-term-combo-stat",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-motion-term-combo-title",
+      "sourceCardId": "motion-term-combo-title",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-orbit-devices",
+      "sourceCardId": "orbit-devices",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-outline-rows-backdrop",
+      "sourceCardId": "outline-rows-backdrop",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-parallax-hero",
+      "sourceCardId": "parallax-hero",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-phone-app-push",
+      "sourceCardId": "phone-app-push",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-phone-float-scroll",
+      "sourceCardId": "phone-float-scroll",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-phone-lock-notifs",
+      "sourceCardId": "phone-lock-notifs",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-phrase-stack",
+      "sourceCardId": "phrase-stack",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-pixel-assemble-name",
+      "sourceCardId": "pixel-assemble-name",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-pixel-assemble-name-vertical",
+      "sourceCardId": "pixel-assemble-name-vertical",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-pullback-reveal",
+      "sourceCardId": "pullback-reveal",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-rack-focus",
+      "sourceCardId": "rack-focus",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-rail-cover",
+      "sourceCardId": "rail-cover",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-record-camera-tour",
+      "sourceCardId": "record-camera-tour",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-record-context-inset",
+      "sourceCardId": "record-context-inset",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-record-cursor-trail-route",
+      "sourceCardId": "record-cursor-trail-route",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-record-detail-freeze-callout",
+      "sourceCardId": "record-detail-freeze-callout",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-record-linked-loupe",
+      "sourceCardId": "record-linked-loupe",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-record-pan-between-controls",
+      "sourceCardId": "record-pan-between-controls",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-record-portrait-reframe",
+      "sourceCardId": "record-portrait-reframe",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-record-proof-replay",
+      "sourceCardId": "record-proof-replay",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-record-punch-hold-return",
+      "sourceCardId": "record-punch-hold-return",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-record-timeline-jump",
+      "sourceCardId": "record-timeline-jump",
+      "currentPresence": "official-static-card-data",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": true
+    },
+    {
+      "id": "cha-screen-in-screen",
+      "sourceCardId": "screen-in-screen",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-selection-box-type",
+      "sourceCardId": "selection-box-type",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-side-title-frame",
+      "sourceCardId": "side-title-frame",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-slant-to-flat",
+      "sourceCardId": "slant-to-flat",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-split-focus-block",
+      "sourceCardId": "split-focus-block",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-spotlight-lift",
+      "sourceCardId": "spotlight-lift",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-stat-hero",
+      "sourceCardId": "stat-hero",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-tag-converge",
+      "sourceCardId": "tag-converge",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-terminal-agent-run",
+      "sourceCardId": "terminal-agent-run",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-text-window-mask",
+      "sourceCardId": "text-window-mask",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-todo-check-figure",
+      "sourceCardId": "todo-check-figure",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-type-on-grid",
+      "sourceCardId": "type-on-grid",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-weight-breathe",
+      "sourceCardId": "weight-breathe",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-whip-speed-ramp",
+      "sourceCardId": "whip-speed-ramp",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-window-open-cascade",
+      "sourceCardId": "window-open-cascade",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-window-split-grid",
+      "sourceCardId": "window-split-grid",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-word-swap-inline",
+      "sourceCardId": "word-swap-inline",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-word-wall-number",
+      "sourceCardId": "word-wall-number",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "cha-zoom-through-screen",
+      "sourceCardId": "zoom-through-screen",
+      "currentPresence": "HTML-card-record",
+      "presentInCurrentHTML": true,
+      "presentInCurrentOfficialData": false
+    },
+    {
+      "id": "ref-career-hacker-alex-160",
+      "sourceCardId": null,
+      "currentPresence": "general-page-reference",
+      "presentInCurrentHTML": false,
+      "presentInCurrentOfficialData": false
+    }
+  ]
+}

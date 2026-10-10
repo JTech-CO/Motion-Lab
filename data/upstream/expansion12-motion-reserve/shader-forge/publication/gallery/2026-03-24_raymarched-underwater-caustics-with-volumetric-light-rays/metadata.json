@@ -1,0 +1,14 @@
+{
+  "theme": "raymarched underwater caustics with volumetric light rays",
+  "style_hints": "128-step raymarching, 3D simplex noise for water surface, caustic pattern from refracted light, god rays using volumetric scattering, deep blue-teal color palette with bright caustic highlights, fish-eye distortion at edges, animated wave surface",
+  "references": [
+    "WaterCaustics",
+    "AuroraWaves",
+    "CircuitBoard"
+  ],
+  "attempts": 3,
+  "created_at": "2026-03-24T14:02:03.752996+00:00",
+  "glsl_lines": 123,
+  "success": false,
+  "last_error": "<shader>\nERROR: 0:44: '=' :  cannot convert from ' temp mediump 3-component vector of float' to ' temp mediump 4-component vector of float'\nERROR: 0:44: '' : compilation terminated \nERROR: 2 compilation errors.  No code generated."
+}

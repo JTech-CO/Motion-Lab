@@ -1,0 +1,16 @@
+{
+  "theme": "crystal cave with bioluminescent mushrooms",
+  "style_hints": "Raymarching SDF scene, crystal refractions with spectral dispersion, glowing mushroom caps with subsurface scattering, stalactites, god rays from cave entrance, ambient occlusion, fog depth, rich purple-teal-gold palette",
+  "references": [
+    "community/lygia/color_palette_pigments_winsor_gouache.glsl",
+    "community/lygia/lighting_shadow.glsl",
+    "community/lygia/color_palette_pigments_golden_acrylic.glsl",
+    "community/bevy/assets_shaders_irradiance_volume_voxel_visualization.wgsl",
+    "community/lygia/lighting_shadow.wgsl"
+  ],
+  "attempts": 3,
+  "created_at": "2026-03-25T13:43:42.421743+00:00",
+  "glsl_lines": 222,
+  "success": false,
+  "last_error": "<shader>\nERROR: 0:53: '=' :  cannot convert from ' temp mediump float' to ' temp mediump 2-component vector of float'\nERROR: 0:53: '' : compilation terminated \nERROR: 2 compilation errors.  No code generated."
+}

@@ -1,0 +1,15 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-bounce">
+                <!-- Double Underline -->
+                <path d="M80 230 H320 M100 250 H300" stroke="var(--accent-color)" stroke-width="12" stroke-linecap="round"/>
+                
+                <!-- 1 -->
+                <path d="M120 80 L90 100 M120 80 V200" stroke="var(--primary-color)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                
+                <!-- 0 -->
+                <ellipse cx="200" cy="140" rx="25" ry="60" stroke="var(--secondary-color)" stroke-width="24" fill="none"/>
+                
+                <!-- 0 -->
+                <ellipse cx="280" cy="140" rx="25" ry="60" stroke="var(--primary-color)" stroke-width="24" fill="none"/>
+            </g>
+          </svg>

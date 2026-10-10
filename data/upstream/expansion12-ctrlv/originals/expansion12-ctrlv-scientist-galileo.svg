@@ -1,0 +1,35 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Starry Background -->
+            <circle class="anim-glow" cx="100" cy="80" r="3" fill="white"/>
+            <circle class="anim-glow" cx="140" cy="40" r="2" fill="white" style="animation-delay: 0.5s"/>
+            <circle class="anim-glow" cx="350" cy="100" r="4" fill="var(--primary-color)" opacity="0.5"/>
+            <circle class="anim-glow" cx="300" cy="50" r="2" fill="white" style="animation-delay: 1s"/>
+            
+            <!-- Distant Planet (Saturn/Jupiter style) -->
+            <g class="anim-float" style="animation-delay: -1s;">
+                <circle cx="80" cy="100" r="30" fill="var(--secondary-color)"/>
+                <path d="M40 110 Q80 130 120 90" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round" fill="none"/>
+                <path d="M45 100 Q80 120 115 80" stroke="var(--primary-color)" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.5"/>
+            </g>
+
+            <!-- Tripod -->
+            <g class="anim-bounce">
+                <path d="M250 180 L200 260 M250 180 L250 260 M250 180 L300 260" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                <path d="M220 220 H280" stroke="var(--charcoal)" stroke-width="4"/>
+            </g>
+            
+            <!-- Telescope Tube -->
+            <g class="anim-float">
+                <path d="M140 120 L320 180 L330 150 L150 90 Z" fill="var(--primary-color)"/>
+                <!-- Lenses and bindings -->
+                <path d="M145 105 L160 150" stroke="var(--secondary-color)" stroke-width="8" stroke-linecap="round"/>
+                <path d="M215 130 L230 175" stroke="white" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+                <path d="M295 155 L310 200" stroke="white" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+                
+                <!-- Viewpiece -->
+                <rect x="315" y="160" width="25" height="15" rx="2" fill="var(--charcoal)" transform="rotate(18 315 160)"/>
+            </g>
+            
+            <!-- Focus Light Beam -->
+            <path class="anim-draw" d="M140 100 L90 100" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round" stroke-dasharray="4 8" fill="none"/>
+          </svg>

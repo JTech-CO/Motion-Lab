@@ -1,0 +1,24 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g style="animation-duration: 6s;" class="anim-float">
+                <!-- Safety Cross / Icon -->
+                <g transform="translate(190, 80)">
+<g style="animation-duration: 4s;" class="anim-pulse" >
+                    <rect x="-10" y="-30" width="20" height="60" rx="4" fill="var(--accent-color)" opacity="0.2"/>
+                    <rect x="-30" y="-10" width="60" height="20" rx="4" fill="var(--accent-color)" opacity="0.2"/>
+                </g>
+</g>
+                
+                <!-- Helmet Dome -->
+                <path d="M100 180 C100 80 300 80 300 180 Z" fill="var(--primary-color)" stroke="var(--charcoal)" stroke-width="12" stroke-linejoin="round"/>
+                
+                <!-- Ridge/Line on Dome -->
+                <path style="animation-duration: 4s;" class="anim-draw" d="M200 90 V180" stroke="var(--bg-surface)" stroke-width="8" stroke-linecap="round" opacity="0.5"/>
+                
+                <!-- Brim -->
+                <rect style="animation-duration: 5s;" class="anim-bounce" x="60" y="180" width="280" height="25" rx="10" fill="var(--secondary-color)" stroke="var(--charcoal)" stroke-width="8"/>
+                
+                <!-- Strap -->
+                <path d="M140 205 Q200 250 260 205" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round" fill="none"/>
+                <circle style="animation-duration: 4s;" class="anim-pulse" cx="200" cy="228" r="8" fill="var(--accent-color)"/>
+            </g>
+          </svg>

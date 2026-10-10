@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <ellipse cx="200" cy="270" rx="120" ry="10" fill="#E2E8F0" />
+            <g>
+                
+                <rect x="190" y="240" width="20" height="30" fill="#334155" />
+                
+                <path d="M150 140 H250 L240 240 H160 Z" fill="#6366f1" />
+                <path d="M150 140 H250 L240 240 H160 Z" fill="#334155" opacity="0.2" />
+                
+                <path d="M155 160 H245 M157 180 H243 M159 200 H241 M161 220 H239" stroke="#f43f5e" stroke-width="6" stroke-dasharray="6 4" />
+                
+                
+                <path d="M150 140 L120 160 V200 L160 180 Z" fill="#6366f1" />
+                <path d="M250 140 L280 160 V200 L240 180 Z" fill="#6366f1" />
+                <path d="M125 170 H150 M127 185 H155 M250 170 H275 M245 185 H273" stroke="#f43f5e" stroke-width="4" stroke-dasharray="4 2" />
+
+                
+                <path d="M150 130 C150 70 250 70 250 130 Z" fill="#334155" />
+                <path d="M150 130 C150 70 200 70 200 130 Z" fill="#ffffff" opacity="0.2" />
+                
+                <path d="M140 110 Q100 130 130 160 Q150 140 150 130 Z" fill="#6366f1" />
+                <path d="M260 110 Q300 130 270 160 Q250 140 250 130 Z" fill="#6366f1" />
+                
+                <path d="M180 80 Q200 50 220 80 Q200 110 180 80 Z" fill="#DFD116" />
+                <path d="M180 80 L160 60 M220 80 L240 60" stroke="#DFD116" stroke-width="8" stroke-linecap="round" />
+                
+                
+                <path d="M170 130 H230 L210 150 H190 Z" fill="#f43f5e" />
+                <path d="M180 140 H220" stroke="white" stroke-width="2" />
+            </g>
+            
+            
+            <path d="M120 280 Q200 240 280 280" stroke="#334155" stroke-width="12" stroke-linecap="round" fill="none" />
+            <path d="M120 280 Q200 240 280 280" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" />
+            
+            <rect x="155" y="255" width="8" height="20" fill="#DFD116" transform="rotate(-25 155 255)" />
+          </svg>

@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Tower Base -->
+            <rect x="160" y="140" width="80" height="120" fill="var(--primary-color)"/>
+            <!-- Lines -->
+            <path d="M170 140 V260 M190 140 V260 M210 140 V260 M230 140 V260" stroke="#F8FAFC" stroke-width="4" opacity="0.3"/>
+            <rect x="150" y="260" width="100" height="10" fill="var(--charcoal)" opacity="0.1"/>
+            
+            <!-- Clock Section -->
+            <rect x="155" y="80" width="90" height="60" fill="var(--primary-color)"/>
+            <circle class="anim-glow" cx="200" cy="110" r="20" fill="#F8FAFC"/>
+            <circle cx="200" cy="110" r="2" fill="var(--charcoal)"/>
+            <!-- Hands -->
+            <g class="anim-rotate" >
+                <path d="M200 110 V95" stroke="var(--charcoal)" stroke-width="3" stroke-linecap="round"/>
+            </g>
+            <path d="M200 110 H212" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+            
+            <!-- Roof / Spire -->
+            <path d="M155 80 L200 30 L245 80 Z" fill="var(--primary-color)"/>
+            <circle cx="200" cy="30" r="4" fill="var(--accent-color)"/>
+            <path class="anim-float" d="M170 50 H180 M220 50 H230" stroke="var(--secondary-color)" stroke-width="2"/>
+          </svg>

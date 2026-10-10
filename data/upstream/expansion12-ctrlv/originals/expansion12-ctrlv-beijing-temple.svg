@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Tiered Base platform -->
+            <rect x="100" y="250" width="200" height="20" rx="4" fill="var(--charcoal)" opacity="0.1"/>
+            <rect x="120" y="235" width="160" height="15" rx="4" fill="var(--charcoal)" opacity="0.1"/>
+            <rect x="140" y="220" width="120" height="15" rx="4" fill="var(--charcoal)" opacity="0.1"/>
+            
+            <!-- Building Walls -->
+            <rect x="150" y="180" width="100" height="40" fill="var(--primary-color)"/>
+            <path d="M160 180 V220 M180 180 V220 M200 180 V220 M220 180 V220 M240 180 V220" stroke="white" stroke-width="2" opacity="0.4"/>
+            
+            <rect x="160" y="130" width="80" height="30" fill="var(--primary-color)"/>
+            <rect x="170" y="80" width="60" height="30" fill="var(--primary-color)"/>
+            
+            <!-- Roofs (Tier 1 bottom) -->
+            <path d="M120 180 L200 150 L280 180 Z" fill="var(--primary-color)"/>
+            <!-- Roofs (Tier 2 middle) -->
+            <path d="M130 130 L200 100 L270 130 Z" fill="var(--primary-color)"/>
+            <!-- Roofs (Tier 3 top) -->
+            <path d="M140 80 Q200 30 200 30 Q200 30 260 80 Z" fill="var(--primary-color)"/>
+            <circle cx="200" cy="30" r="6" fill="var(--charcoal)"/>
+            
+            <!-- Glowing Lanterns -->
+            <circle class="anim-glow" cx="120" cy="180" r="4" fill="var(--accent-color)"/>
+            <circle class="anim-glow" cx="280" cy="180" r="4" fill="var(--accent-color)"/>
+            <circle class="anim-glow" cx="130" cy="130" r="4" fill="var(--secondary-color)"/>
+            <circle class="anim-glow" cx="270" cy="130" r="4" fill="var(--secondary-color)"/>
+          </svg>

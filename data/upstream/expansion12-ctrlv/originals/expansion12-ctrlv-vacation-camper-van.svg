@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Road -->
+            <path class="anim-draw" d="M60 240 H340 M100 260 H300" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.3"/>
+            <g class="anim-bounce">
+                <!-- Van Body -->
+                <path d="M80 180 C80 100 120 80 240 80 C300 80 320 120 320 180 C320 220 300 220 280 220 H120 C100 220 80 220 80 180 Z" fill="var(--primary-color)"/>
+                
+                <!-- Windows -->
+                <path d="M240 100 C280 100 290 120 300 140 H160 V100 H240 Z" fill="white"/>
+                <rect x="100" y="100" width="50" height="40" rx="5" fill="white"/>
+                
+                <!-- Detail Lines -->
+                <path d="M80 160 H320" stroke="white" stroke-width="6"/>
+                <path d="M80 180 H320" stroke="var(--secondary-color)" stroke-width="15"/>
+                
+                <!-- Wheels -->
+                <circle cx="140" cy="220" r="25" fill="var(--charcoal)"/>
+                <circle cx="260" cy="220" r="25" fill="var(--charcoal)"/>
+                <circle class="anim-rotate"  cx="140" cy="220" r="10" fill="white" stroke="var(--secondary-color)" stroke-width="4" stroke-dasharray="4 4"/>
+                <circle class="anim-rotate"  cx="260" cy="220" r="10" fill="white" stroke="var(--secondary-color)" stroke-width="4" stroke-dasharray="4 4"/>
+                
+                <!-- Surfboard on top -->
+                <ellipse cx="200" cy="65" rx="80" ry="10" fill="var(--accent-color)"/>
+            </g>
+          </svg>

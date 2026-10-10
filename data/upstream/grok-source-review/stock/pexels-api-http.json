@@ -1,0 +1,16 @@
+{
+  "id": "pexels-api",
+  "url": "https://www.pexels.com/api/documentation/",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 403,
+  "finalUrl": "https://www.pexels.com/api/documentation/",
+  "contentType": "text/html; charset=UTF-8",
+  "truncated": false,
+  "observedBytes": 5587,
+  "observedContentSha256": "b8493c9e7199159eff087031eb383bd3415ff8977440c1c7ba72658bee603ed4",
+  "links": [],
+  "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+  "challengeOrDenial": true
+}

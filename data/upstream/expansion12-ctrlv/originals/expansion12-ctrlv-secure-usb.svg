@@ -1,0 +1,11 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect x="100" y="120" width="150" height="60" rx="4" fill="var(--charcoal)"/>
+        <rect x="250" y="135" width="40" height="30" fill="var(--border-color)"/>
+        <g class="anim-float">
+            <rect x="180" y="100" width="30" height="40" rx="4" fill="var(--accent-color)"/>
+            <path d="M185 110 V100 C185 90 205 90 205 100 V110" stroke="var(--charcoal)" stroke-width="3" fill="none"/>
+        </g>
+        <g class="anim-pulse">
+            <circle cx="140" cy="150" r="8" fill="#22c55e"/>
+        </g>
+    </svg>

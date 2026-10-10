@@ -1,0 +1,56 @@
+{
+  "url": "https://highway.js.org/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://highway.js.org/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://highway.js.org/",
+      "allowedForAuditGet": true,
+      "reason": "robots-missing-not-a-license",
+      "robotsUrl": "https://highway.js.org/robots.txt",
+      "robotsStatus": 404
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://highway.js.org/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:06.542902+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://highway.js.org/",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 8286,
+      "capturedSha256": "a9b98bf6106d3c65ce474a2fe2336a3ed486e51a5b1824b688f1b6552c10eb8d",
+      "responseBodySha256": "a9b98bf6106d3c65ce474a2fe2336a3ed486e51a5b1824b688f1b6552c10eb8d",
+      "title": "Highway - A Modern Javascript Transitions Manager",
+      "textCharacters": 1560,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.518,
+      "captureCachePath": "exa-results/link-audit/references/captures/3f6f978c418513499026d655.json",
+      "captureCacheSha256": "ea342762117fef7991282fa5a385731114eb18482e0670919887417a309af17c"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-highway",
+      "canonicalId": "ref-highway",
+      "title": "Highway",
+      "role": "canonical",
+      "sourceSha256": "5831a44085d2f9d166ff074d340512aa11af4cdd5347356e4452b5b65529a071"
+    }
+  ]
+}

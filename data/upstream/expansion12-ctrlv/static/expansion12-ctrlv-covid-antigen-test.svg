@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <rect x="100" y="100" width="200" height="80" rx="10" fill="#ffffff" stroke="#334155" stroke-width="4" />
+                
+                
+                <circle cx="140" cy="140" r="20" fill="#f43f5e" opacity="0.2" />
+                <circle cx="140" cy="140" r="20" stroke="#334155" stroke-width="3" fill="none" />
+                
+                
+                <rect x="200" y="120" width="60" height="40" rx="5" fill="#f43f5e" opacity="0.2" />
+                <rect x="200" y="120" width="60" height="40" rx="5" stroke="#334155" stroke-width="3" fill="none" />
+                
+                
+                <g>
+                    
+                    <line x1="220" y1="125" x2="220" y2="155" stroke="#6366f1" stroke-width="6" stroke-linecap="round" />
+                    
+                    <line x1="240" y1="125" x2="240" y2="155" stroke="#DFD116" stroke-width="6" stroke-linecap="round" />
+                </g>
+                
+                
+                <text x="215" y="110" fill="#334155" font-family="sans-serif" font-weight="bold" font-size="14">C</text>
+                <text x="235" y="110" fill="#334155" font-family="sans-serif" font-weight="bold" font-size="14">T</text>
+                
+                
+                <g>
+                    <line x1="140" y1="20" x2="140" y2="100" stroke="#f43f5e" stroke-width="4" stroke-linecap="round" />
+                    <rect x="135" y="80" width="10" height="25" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2" />
+                </g>
+                
+                
+                <circle cx="140" cy="115" r="5" fill="#DFD116" />
+            </g>
+          </svg>

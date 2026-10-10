@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                
+                <g transform="translate(200, 220)">
+                    <g>
+                    <rect x="-60" y="-40" width="120" height="40" rx="4" fill="#f43f5e" stroke="#334155" stroke-width="4" />
+                    <path d="M-40 -40 V0 M0 -40 V0 M40 -40 V0" stroke="#ffffff" stroke-width="2" opacity="0.3" />
+                </g>
+                </g>
+                
+                <g transform="translate(140, 180)">
+                    <g>
+                    <rect x="-60" y="-40" width="120" height="40" rx="4" fill="#6366f1" stroke="#334155" stroke-width="4" />
+                    <path d="M-40 -40 V0 M0 -40 V0 M40 -40 V0" stroke="#ffffff" stroke-width="2" opacity="0.3" />
+                </g>
+                </g>
+                
+                <g transform="translate(260, 180)">
+                    <g>
+                    <rect x="-60" y="-40" width="120" height="40" rx="4" fill="#DFD116" stroke="#334155" stroke-width="4" />
+                    <path d="M-40 -40 V0 M0 -40 V0 M40 -40 V0" stroke="#ffffff" stroke-width="2" opacity="0.3" />
+                </g>
+                </g>
+                
+                <g transform="translate(200, 140)">
+                    <g>
+                    <rect x="-60" y="-40" width="120" height="40" rx="4" fill="#6366f1" stroke="#334155" stroke-width="4" />
+                    <path d="M-40 -40 V0 M0 -40 V0 M40 -40 V0" stroke="#ffffff" stroke-width="2" opacity="0.3" />
+                </g>
+                </g>
+                
+                
+                <path d="M40 260 H360 L340 280 H60 Z" fill="#334155" />
+                
+                
+                <circle cx="100" cy="120" r="10" fill="#DFD116" opacity="0.4" />
+                <circle cx="100" cy="120" r="5" fill="#DFD116" />
+            </g>
+          </svg>

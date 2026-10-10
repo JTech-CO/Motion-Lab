@@ -1,0 +1,56 @@
+{
+  "url": "https://suplab.cc/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://suplab.cc/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://suplab.cc/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://suplab.cc/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://suplab.cc/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:56.605744+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://suplab.cc/",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 69600,
+      "capturedSha256": "93dd8a05bb2f6ad97b7c780f21c9ba9bf9da8616d30055156ffa93ee33f4397f",
+      "responseBodySha256": "93dd8a05bb2f6ad97b7c780f21c9ba9bf9da8616d30055156ffa93ee33f4397f",
+      "title": "SupLab Studio",
+      "textCharacters": 3335,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 2.629,
+      "captureCachePath": "exa-results/link-audit/references/captures/75f99d36e09372d2ceadb435.json",
+      "captureCacheSha256": "a1363800490ea07adc7c6cb53675fd54fcce68354681ef57b00e97d18790274e"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-suplab",
+      "canonicalId": "ref-suplab",
+      "title": "SupLab",
+      "role": "canonical",
+      "sourceSha256": "cec64d52c370849d2d9a41fc340e10d367452134f75233a97282fc07d4f832ff"
+    }
+  ]
+}

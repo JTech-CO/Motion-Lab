@@ -1,0 +1,35 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="150" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            
+            <!-- Drafting Board / Scroll (Primary) -->
+            <path d="M60 220 L150 260 L350 180 L260 140 Z" fill="var(--primary-color)"/>
+            <path d="M60 220 L150 260 L350 180" stroke="var(--primary-color)" stroke-width="8" stroke-linejoin="round" fill="none"/>
+            <g transform="rotate(20 80 190)">
+                <rect class="anim-float" x="80" y="190" width="80" height="4" fill="var(--charcoal)" />
+            </g>
+            <g transform="rotate(20 120 170)">
+                <rect class="anim-float" x="120" y="170" width="60" height="4" fill="var(--charcoal)" />
+            </g>
+            
+            <!-- 3D Wireframe House emerging (Secondary / Glow) -->
+            <g class="anim-float" style="animation-delay: -0.5s">
+                <!-- Glowing Base projection -->
+                <path class="anim-glow" d="M120 200 L200 230 L280 190 L200 160 Z" fill="var(--secondary-color)" opacity="0.2"/>
+                
+                <!-- Drawn Structure -->
+                <!-- Base -->
+                <path class="anim-draw" d="M120 180 L200 210 L280 170" stroke="var(--secondary-color)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                <!-- Walls -->
+                <path class="anim-draw" d="M120 180 V100 M200 210 V130 M280 170 V90" stroke="var(--secondary-color)" stroke-width="4" stroke-linecap="round" fill="none"/>
+                <!-- Top Plate -->
+                <path class="anim-draw" d="M120 100 L200 130 L280 90 L200 60 Z" stroke="var(--secondary-color)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none" stroke-dasharray="4 4"/>
+                <!-- Roof -->
+                <path class="anim-draw" d="M120 100 L200 40 L280 90" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                <path class="anim-draw" d="M200 130 L200 40" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round" fill="none"/>
+            </g>
+            
+            <!-- Floating Data Nodes (Measurements) -->
+            <circle class="anim-data" cx="120" cy="180" r="4" fill="var(--charcoal)"/>
+            <circle class="anim-data" cx="200" cy="210" r="4" fill="var(--charcoal)"/>
+            <circle class="anim-data" cx="200" cy="40" r="4" fill="var(--charcoal)"/>
+          </svg>

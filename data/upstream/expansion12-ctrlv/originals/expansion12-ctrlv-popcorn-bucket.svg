@@ -1,0 +1,10 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M160 120 H240 L230 260 H170 Z" fill="var(--secondary-color)"/>
+        <rect x="180" y="120" width="10" height="140" fill="white" opacity="0.3"/>
+        <rect x="210" y="120" width="10" height="140" fill="white" opacity="0.3"/>
+        <g class="anim-bounce">
+            <circle cx="170" cy="110" r="15" fill="#facc15"/>
+            <circle cx="200" cy="100" r="18" fill="#fde68a" style="animation-delay: -0.2s"/>
+            <circle cx="230" cy="115" r="14" fill="#facc15" style="animation-delay: -0.4s"/>
+        </g>
+    </svg>

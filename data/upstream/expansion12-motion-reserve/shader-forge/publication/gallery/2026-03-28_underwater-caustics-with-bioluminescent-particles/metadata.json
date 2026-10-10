@@ -1,0 +1,27 @@
+{
+  "theme": "underwater caustics with bioluminescent particles",
+  "style_hints": "",
+  "references": [
+    "shabon-fx/WaterCaustics.frag [grid,matrix,noise,postprocess,wave]",
+    "community/open-shaders/Engines_playcanvas_particle_soft.frag [particles]",
+    "community/open-shaders/Others_wisdom_libs_water.glsl [fractal,grid,matrix,noise,wave]",
+    "community/open-shaders/Engines_playcanvas_particleInputFloat.frag [particles]",
+    "community/SHADER/shadertoy_Sun.glsl [volumetric]"
+  ],
+  "attempts": 3,
+  "created_at": "2026-03-28T00:12:39.416031+00:00",
+  "glsl_lines": 1,
+  "success": false,
+  "design_brief": "**Implementation Guide: Underwater Caustics + Bioluminescent Particles (WebGL1)**  \n\n1. **Architecture**:  \n   ```glsl\n   void main() {\n     vec2 uv = vUv; // screen-space UV [0,1]\n     vec2 uvRes = uv * uResolution / min(uResolution.x, uResolution.y); // aspect-correct UVs\n     vec3 finalColor = vec3(0.0);\n\n     // 1. Render caustics base (Ref #1 + Ref #3’s wave noise)\n     finalColor += renderCaustics(uvRes, uTime);\n     // 2. Add bioluminescent particles (Ref #2’s depth-aware fading + animated noise flow)\n     finalColor += renderParticles(uvRes, uTime);\n     // 3. Tone-map + brighten (keep full-screen glow)\n     gl_FragColor = vec4(saturate(finalColor * 1.3), 1.0);\n   }\n   ```  \n\n2. **Key Functions**:  \n   - `renderCaustics(uv, t)` → `vec3`: uses *Ref #1’s Voronoi flow* + *Ref #3’s `sea_octave_micro`* for animated caustic sheets.  \n   - `renderParticles(uv, t)` → `vec3`: grid-based particle system with `fract(sin(dot(...))*43758.5453)` for randomness (Ref #1 pattern), animated via curl-noise flow.  \n   - `biolumColor(pos, t)` → `vec3`: hue cycles via `sin(uTime + pos.xy)`; brightness modulated by local noise density.  \n\n3. **Reuse Patterns**:  \n   - Use *Ref #1’s voronoi() return `vec2(d1,d2)`* for caustic contrast (d1/d2 ratio → sharp edges).  \n   - Borrow *Ref #3’s `sea_octave_micro`* for micro-wave detail on caustic sheets.  \n   - Adopt *Ref #2’s depth-based alpha fade* (simplified: `alpha *= 1.0 - smoothstep(0.8,1.0, length(uv-0.5))`) to keep particles bright and visible.  \n\n4. **Color & Brightness**:  \n   - Base caustics: `mix(uColorA, uColorB, noise)` with `uColorA = vec3(0.0,0.6,1.0)`, `uColorB = vec3(1.0,0.8,0.2)` (cyan→gold).  \n   - Particles: `vec3(0.8,1.0,0.9)` + `sin(uTime*2.0)*0.3` for pulsing; multiply final by `1.3` to avoid dark voids.  \n\n5. **Animation**:  \n   - `uTime` drives *all* motion: caustics (Ref #1’s per-cell `speed1/speed2`), particles (velocity += curlNoise(uv*freq)*dt).  \n   - Speed: caustics ~1.5–2.5, particles ~0.5–1.0. Loop via `mod(uTime, 10.0)` for subtle resets.  \n\n6. **Pitfalls**:  \n   - ✘ No `dFdx/dFdy` → avoid edge detection; use `fract`/`sin` for soft transitions.  \n   - ✘ No bitwise ops → use `fract(sin(dot(uv,vec2(...))))` for hashing.  \n   - ✘ WebGL1 texture2D bias → avoid `texture2D` in loops (unroll loops manually).  \n   - ✔ Always scale `uv` by aspect ratio—particles look broken otherwise.",
+  "review": {
+    "visual_complexity": 4,
+    "code_quality": 4,
+    "theme_match": 2,
+    "animation": 4,
+    "originality": 3,
+    "total": 17,
+    "verdict": "fail",
+    "feedback": "Good code quality and visual techniques (SDFs, noise, animation), but the shader lacks underwater caustics and bioluminescent particles as requested—mostly renders a dark abstract shape with faint glow, resulting in low theme match and brightness."
+  },
+  "last_error": "LLM response did not contain a GLSL code block."
+}

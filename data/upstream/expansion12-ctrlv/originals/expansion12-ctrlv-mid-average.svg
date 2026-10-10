@@ -1,0 +1,8 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <line class="anim-pulse" x1="100" y1="150" x2="300" y2="150" stroke="var(--border-color)" stroke-width="12" stroke-linecap="round"/>
+        <g class="anim-float">
+            <rect x="180" y="130" width="40" height="40" rx="10" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="4"/>
+            <text x="200" y="157" text-anchor="middle" font-family="Inter" font-weight="900" font-size="20" fill="var(--charcoal)">5</text>
+        </g>
+        <text x="200" y="220" text-anchor="middle" font-family="Inter" font-weight="900" font-size="40" fill="var(--border-color)">MID</text>
+    </svg>

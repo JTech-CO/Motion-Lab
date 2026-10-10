@@ -1,0 +1,23 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Pot (Handi/Karahi) -->
+                <path d="M120 150 C120 220 280 220 280 150 H120 Z" fill="var(--charcoal)"/>
+                <path d="M110 130 H290 V150 H110 V130 Z" fill="var(--charcoal)"/>
+                
+                <!-- Simmering Curry -->
+                <rect x="125" y="135" width="150" height="10" fill="var(--primary-color)"/>
+                <g class="anim-pulse" fill="var(--primary-color)">
+                    <circle cx="160" cy="140" r="15" opacity="0.8"/>
+                    <circle cx="200" cy="140" r="18" opacity="0.9"/>
+                    <circle cx="240" cy="140" r="15" opacity="0.8"/>
+                </g>
+                
+                <!-- Steam Bubbles -->
+                <circle class="anim-bounce" cx="170" cy="120" r="5" fill="var(--primary-color)" opacity="0.4"/>
+                <circle class="anim-bounce" style="animation-delay: 0.5s;" cx="230" cy="110" r="7" fill="var(--primary-color)" opacity="0.3"/>
+                
+                <!-- Floating Spices (Cardamom/Clove) -->
+                <rect x="180" y="130" width="5" height="15" fill="var(--secondary-color)" opacity="0.6" transform="rotate(30 180 130)"/>
+                <circle cx="220" cy="135" r="4" fill="var(--accent-color)" opacity="0.6"/>
+            </g>
+          </svg>

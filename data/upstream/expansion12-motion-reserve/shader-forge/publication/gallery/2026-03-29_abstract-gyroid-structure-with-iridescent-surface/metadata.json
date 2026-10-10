@@ -1,0 +1,18 @@
+{
+  "theme": "abstract gyroid structure with iridescent surface",
+  "style_hints": "",
+  "references": [
+    "glsl-art/shadertoy-top/X32czG.glsl/X32czG.glsl [lighting]",
+    "glsl-art/shadertoy-top/ddX3WB.glsl/ddX3WB.glsl [color_palette,fractal,noise,wave]",
+    "glsl-art/shadertoy-top/DlB3WV.glsl/DlB3WV.glsl [grid,lighting,matrix,noise,raymarching,reflection]",
+    "glsl-art/shadertoy-top/lcKGRc.glsl/lcKGRc.glsl [color_palette,fractal,grid,noise,volumetric]",
+    "glsl-art/shadertoy-top/lcV3Rz.glsl/lcV3Rz.glsl [fractal,matrix,noise]"
+  ],
+  "attempts": 5,
+  "created_at": "2026-03-29T11:22:23.084633+00:00",
+  "glsl_lines": 79,
+  "success": false,
+  "target": "glsl",
+  "design_brief": "1. **Architecture**:  \n   `main()` → compute `p = (gl_FragCoord.xy * 2. - uResolution) / min(uResolution.x, uResolution.y)` → `p.z += uTime * 0.4` → raymarch with `float d = rm(p, dir)` → `if (d < 0.001)` → compute `n = calcNormal(p - d * dir)` → `vec3 col = shade(p, n)` → `gl_FragColor = vec4(col, 1.)`.\n\n2. **Key functions**:  \n   `gyroid(vec3 p)` → returns scalar field (use *ref #2*’s `dot(sin(p), cos(p.yzx))`),  \n   `fbm(vec3 p)` → 6-octave warped noise (ref #2),  \n   `rm(vec3 ro, vec3 rd)` → raymarch loop (step size `0.02`, max 64 steps),  \n   `calcNormal(vec3 p)` → finite-diff `vec3 n = N(fbm(p + vec3(0.01,0,0)) - fbm(p + vec3(-0.01,0,0)), ...)`,  \n   `shade(vec3 p, vec3 n)` → iridescent Fresnel + cosine term.\n\n3. **Reuse**:  \n   - `gyroid()` from *ref #2* (clean, no `sin/cos` explosion),  \n   - `fbm()` with `abs(gyroid())` feedback (adds complexity),  \n   - `N()` macro (`normalize(vec3(...))`) from *ref #2/#3*.\n\n4. **Color & brightness**:  \n   Use `vec3 col = 0.5 + 0.5 * cos(6.28318 * (n * 2. + uTime * 0.3) + offset)` → then `col = mix(vec3(0.02), col, 0.98)` + `col += 0.3 * pow(1.0 - dot(n, -dir), 5.)` → clamp to `[0.0, 1.0]`.\n\n5. **Animation**:  \n   Drive with `uTime` in `gyroid(p.z += uTime * 0.4)` and color phase `uTime * 0.3` → speed `0.3–0.5` for smooth looping.\n\n6. **Pitfalls**:  \n   NO `dFdx/dFdy` → use `0.01` finite diff for normals; NO `layout()`/`out` → use `gl_FragColor`; NO bitwise ops → avoid hash-based noise; NO black voids → always fill screen with high-contrast color (min background `0.02` white).",
+  "last_error": "<shader>\nERROR: 0:30: 'scalar swizzle' : not supported with this profile: es\nERROR: 0:30: 'scalar swizzle' : not supported with this profile: es\nERROR: 0:30: 'y' : vector swizzle selection out of range \nERROR: 0:30: 'scalar swizzle' : not supported with this profile: es\nERROR: 0:30: 'y' : vector swizzle selection out of range \nERROR: 0:30: 'scalar swizzle' : not supported with this profile: es\nERROR: 0:30: 'z' : vector swizzle selection out of range \nERROR: 0:30: 'scalar swizzle' : not supported with this profile: es\nERROR: 0:30: 'z' : vector swizzle selection out of range \nERROR: 0:30: 'scalar swizzle' : not supported with this profile: es\nERROR: 0:30: '' : compilation terminated \nERROR: 11 compilation errors.  No code generated."
+}

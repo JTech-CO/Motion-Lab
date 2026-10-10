@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Ticket Shape -->
+                <g class="anim-bounce">
+                    <rect x="80" y="100" width="240" height="120" rx="4" fill="var(--accent-color)" stroke="var(--charcoal)" stroke-width="8"/>
+                    <!-- Cutouts -->
+                    <circle cx="80" cy="160" r="20" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="8"/>
+                    <circle cx="320" cy="160" r="20" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="8"/>
+                    
+                    <!-- Dotted Perf -->
+                    <line x1="140" y1="100" x2="140" y2="220" stroke="var(--bg-surface)" stroke-width="4" stroke-dasharray="8 8"/>
+                    
+                    <!-- Content -->
+                    <text x="230" y="150" font-family="monospace" font-weight="bold" font-size="40" fill="var(--bg-surface)" text-anchor="middle">50%</text>
+                    <text x="230" y="185" font-family="monospace" font-weight="bold" font-size="14" fill="var(--bg-surface)" text-anchor="middle">OFF TODAY</text>
+                    
+                    <circle class="anim-pulse" cx="110" cy="160" r="15" fill="var(--bg-surface)"/>
+                    <path class="anim-pulse" d="M100 160 L120 160 M110 150 V170" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round"/>
+                </g>
+                
+                <!-- Floating Stars -->
+                <path class="anim-rotate" d="M100 60 L105 75 L120 75 L110 85 L115 100 L100 90 L85 100 L90 85 L80 75 L95 75 Z" fill="var(--secondary-color)"/>
+                <path class="anim-rotate" style="animation-delay: 0.5s;" d="M300 240 L305 255 L320 255 L310 265 L315 280 L300 270 L285 280 L290 265 L280 255 L295 255 Z" fill="var(--primary-color)"/>
+            </g>
+          </svg>

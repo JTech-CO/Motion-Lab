@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="160" ry="12" fill="#E2E8F0" opacity="0.6"/>
+            <!-- Background Aura -->
+            <path class="anim-float" d="M100 150 Q150 80 250 120 T350 180 Q250 250 150 220 T100 150 Z" fill="var(--primary-color)" opacity="0.05"/>
+            <!-- Barbell Shaft -->
+            <rect class="anim-bounce" x="60" y="140" width="280" height="12" rx="4" fill="var(--charcoal)"/>
+            <!-- Left Plates -->
+            <g class="anim-bounce">
+                <rect x="90" y="70" width="20" height="150" fill="var(--primary-color)" rx="4"/>
+                <rect x="115" y="90" width="15" height="110" fill="var(--primary-color)" rx="3"/>
+                <rect x="70" y="100" width="15" height="90" fill="var(--primary-color)" rx="3"/>
+                <!-- Weight Details -->
+                <line x1="100" y1="80" x2="100" y2="210" stroke="var(--charcoal)" stroke-width="2" opacity="0.3"/>
+            </g>
+            <!-- Right Plates -->
+            <g class="anim-bounce">
+                <rect x="290" y="70" width="20" height="150" fill="var(--primary-color)" rx="4"/>
+                <rect x="270" y="90" width="15" height="110" fill="var(--primary-color)" rx="3"/>
+                <rect x="315" y="100" width="15" height="90" fill="var(--primary-color)" rx="3"/>
+                <line x1="300" y1="80" x2="300" y2="210" stroke="var(--charcoal)" stroke-width="2" opacity="0.3"/>
+            </g>
+            <!-- Accents -->
+            <circle class="anim-glow" cx="200" cy="146" r="30" stroke="var(--secondary-color)" stroke-width="4" stroke-dasharray="8 8" opacity="0.5"/>
+            <path class="anim-draw" d="M180 120 L220 120 M190 100 L210 100" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round"/>
+          </svg>

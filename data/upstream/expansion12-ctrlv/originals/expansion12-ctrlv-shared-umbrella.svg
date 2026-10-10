@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="150" ry="12" fill="#E2E8F0"/>
+            <!-- Rain -->
+            <path class="anim-data" d="M80 80 L70 100 M60 140 L50 160 M340 100 L330 120 M350 180 L340 200 M120 40 L110 60 M280 60 L270 80" stroke="var(--charcoal)" stroke-width="2" stroke-linecap="round" opacity="0.3"/>
+            <!-- Characters -->
+            <path d="M140 260 C140 220 160 200 180 200 H200 C220 200 220 220 220 260 V270 H140 V260 Z" fill="var(--primary-color)"/>
+            <circle cx="170" cy="170" r="22" fill="#94A3B8"/>
+            <path d="M180 260 C180 220 200 200 220 200 H240 C260 200 260 220 260 260 V270 H180 V260 Z" fill="var(--primary-color)"/>
+            <circle cx="230" cy="170" r="22" fill="#94A3B8"/>
+            <circle cx="195" cy="165" r="6" fill="var(--accent-color)"/>
+            <!-- Umbrella -->
+            <g class="anim-float">
+                <path d="M200 130 V220 M190 220 H200" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                <path d="M60 130 C60 50 340 50 340 130 C270 140 200 140 130 140 C100 140 80 135 60 130 Z" fill="var(--primary-color)"/>
+            </g>
+          </svg>

@@ -1,0 +1,56 @@
+{
+  "url": "https://www.julienlevy.studio/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://www.julienlevy.studio/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://www.julienlevy.studio/",
+      "allowedForAuditGet": true,
+      "reason": "robots-missing-not-a-license",
+      "robotsUrl": "https://www.julienlevy.studio/robots.txt",
+      "robotsStatus": 404
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://www.julienlevy.studio/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:01.444289+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://www.julienlevy.studio/",
+      "contentType": "text/html",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 150261,
+      "capturedSha256": "fd1091c512bac340a2748766288ac49e1bc4705910febf791224d8b938dafd17",
+      "responseBodySha256": "fd1091c512bac340a2748766288ac49e1bc4705910febf791224d8b938dafd17",
+      "title": "Julien Levy",
+      "textCharacters": 5459,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.742,
+      "captureCachePath": "exa-results/link-audit/references/captures/77e5283ca86ba5a756cce720.json",
+      "captureCacheSha256": "f2fa3f17296f4e6ebd18a72cbbf3167c6e4a8530118d671164619d77c60d4d76"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-julien-levy",
+      "canonicalId": "ref-julien-levy",
+      "title": "Julien Levy",
+      "role": "canonical",
+      "sourceSha256": "320967cfde27ad3c2cd81df47d13f8ddf2c8e78dd77ecc8c3d3d5aa301cfdce3"
+    }
+  ]
+}

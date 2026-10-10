@@ -1,0 +1,14 @@
+{
+  "url": "https://vimeo.com/1234020373",
+  "method": "Exa public fetch",
+  "status": "Exa-content-read",
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공개 URL의 Exa 추출 내용을 읽었다. 직접 서버의 HTTP 200으로 간주하지 않았다. 대표작 AETHER SCENT - Pleid St.: hosted video page, embed player, thumbnail images. 원작 재배포 허가는 별도 확인 대상이다.",
+  "sector": 4,
+  "siteId": "vimeo",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/vimeo-work-detail-exa.json",
+  "rawCacheSha256": "a4228707867f0661625d390f67639037171f0c5c50fb5fa518fbde3980a53a04",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "42acccfbf287a37cf55719257f730b6506202349f4cdb561bc771e11bd3be947",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json."
+}

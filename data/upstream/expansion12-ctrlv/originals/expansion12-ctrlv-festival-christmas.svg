@@ -1,0 +1,24 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="150" ry="12" fill="#E2E8F0"/>
+            <g class="anim-float">
+              <polygon points="200,50 160,110 240,110" fill="var(--primary-color)"/>
+              <polygon points="200,80 150,155 250,155" fill="var(--primary-color)"/>
+              <polygon points="200,120 130,210 270,210" fill="var(--primary-color)"/>
+              <rect x="185" y="210" width="30" height="30" rx="4" fill="var(--secondary-color)"/>
+              <polygon class="anim-glow" points="200,38 205,52 220,52 208,61 213,75 200,66 187,75 192,61 180,52 195,52" fill="var(--accent-color)"/>
+              <g class="anim-pulse">
+                <circle cx="170" cy="110" r="7" fill="var(--accent-color)"/>
+                <circle cx="230" cy="110" r="7" fill="var(--secondary-color)"/>
+                <circle cx="155" cy="155" r="7" fill="var(--secondary-color)"/>
+                <circle cx="245" cy="155" r="7" fill="var(--accent-color)"/>
+                <circle cx="165" cy="185" r="7" fill="var(--accent-color)"/>
+                <circle cx="235" cy="185" r="7" fill="var(--secondary-color)"/>
+              </g>
+            </g>
+            <g class="anim-bounce" style="animation-delay:-0.5s;">
+              <rect x="80" y="230" width="50" height="40" rx="4" fill="var(--secondary-color)"/>
+              <path d="M80 250 H130 M105 230 V270" stroke="var(--bg-surface)" stroke-width="3"/>
+              <rect x="270" y="235" width="50" height="35" rx="4" fill="var(--accent-color)"/>
+              <path d="M270 252 H320 M295 235 V270" stroke="var(--bg-surface)" stroke-width="3"/>
+            </g>
+          </svg>

@@ -1,0 +1,20 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Pages -->
+                <path d="M80 120 L200 140 L320 120 V220 L200 240 L80 220 Z" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="4"/>
+                <path d="M200 140 V240" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+                
+                <!-- Cover -->
+                <path d="M80 120 L200 140 V250 L80 230 Z" fill="var(--primary-color)"/>
+                <path d="M320 120 L200 140 V250 L320 230 Z" fill="var(--secondary-color)"/>
+                
+                <!-- Bookmark -->
+                <path class="anim-bounce" d="M180 135 L190 200 L180 220 L170 200 Z" fill="var(--accent-color)"/>
+                
+                <!-- Text Lines -->
+                <g class="anim-draw">
+                    <path d="M100 150 L180 165 M100 170 L180 185 M100 190 L160 200" stroke="var(--bg-surface)" stroke-width="4" stroke-linecap="round"/>
+                    <path d="M220 165 L300 150 M220 185 L300 170 M220 205 L280 195" stroke="var(--bg-surface)" stroke-width="4" stroke-linecap="round"/>
+                </g>
+            </g>
+          </svg>

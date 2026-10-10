@@ -1,0 +1,821 @@
+{
+  "noticeLimitBytes": 1048576,
+  "notices": {
+    "pattern-pack": {
+      "path": "data/upstream/expansion12-materials/notices/pattern-pack-License.txt",
+      "sha256": "f1e3da7d3d6ab81ad2f225f8cdd4922058b3413ecdbdf98e42c61aeb5931d9ee",
+      "bytes": 570,
+      "sourcePath": "data/upstream/expansion12-materials/archives/kenney-pattern.zip",
+      "sourceSha256": "903051a40a0d9a62de5e87b03992a7084305453806102d1e7b9d13c210be93ac",
+      "archiveEntry": "License.txt"
+    },
+    "pattern-pack-extra": {
+      "path": "data/upstream/expansion12-materials/notices/pattern-pack-extra-License.txt",
+      "sha256": "7d8e3d24c4ca1a29063d7b32570688f8f35d981f2285799213fe46355ba01ce2",
+      "bytes": 575,
+      "sourcePath": "data/upstream/expansion12-materials/archives/kenney-pattern-pack-extra.zip",
+      "sourceSha256": "44279c01068326caf74faa41090717dc613cd1dd285cdae7a4444658d99b2bed",
+      "archiveEntry": "License.txt"
+    },
+    "pattern-pack-lines": {
+      "path": "data/upstream/expansion12-materials/notices/pattern-pack-lines-License.txt",
+      "sha256": "4d45f50ee40d90f79eaf8924a288f94497d6678deb68ac0a86a4d6d532926ab1",
+      "bytes": 575,
+      "sourcePath": "data/upstream/expansion12-materials/archives/kenney-pattern-pack-lines.zip",
+      "sourceSha256": "934c8945d3fb956b12723b4bf83b3856156b313233edab3f42509d79abb451c9",
+      "archiveEntry": "License.txt"
+    },
+    "pattern-pack-pixel": {
+      "path": "data/upstream/expansion12-materials/notices/pattern-pack-pixel-License.txt",
+      "sha256": "76836760f87bbe7422b28d8a696e4bcc61822fcf469d9a6196db83ae620b0564",
+      "bytes": 576,
+      "sourcePath": "data/upstream/expansion12-materials/archives/kenney-pattern-pack-pixel.zip",
+      "sourceSha256": "73fb47d01bc6db1f94ddddb6528f2f8b5bd8780a5b572e8bafe8e8ce8400b96f",
+      "archiveEntry": "License.txt"
+    },
+    "particle-pack": {
+      "path": "data/upstream/expansion12-materials/notices/particle-pack-License.txt",
+      "sha256": "f9e70b81d8cc07c4e07c9f2eff1d94fd371a06070b18cb67c651c41158ec2975",
+      "bytes": 651,
+      "sourcePath": "data/upstream/expansion12-materials/archives/kenney-particle.zip",
+      "sourceSha256": "b631d4b07f7002549fdcf155f01141ad482f79f3440e4e301eed49ce5f1d8958",
+      "archiveEntry": "License.txt"
+    },
+    "smoke-particles": {
+      "path": "data/upstream/expansion12-materials/notices/smoke-particles-License.txt",
+      "sha256": "16dffa20429eccd9a6ddbffffe7870191974975d192d3934e53da5d486ed2e4f",
+      "bytes": 486,
+      "sourcePath": "C:/Users/MSI/Desktop/내 폴더/코딩/기획/Motion Lab/data/upstream/expansion12-materials/archives/kenney-smoke-particles.zip",
+      "sourceSha256": "97a1d09c66e4fd6c247c8ea87f84c0cc59caaeceae19414c995afb1616a1e1c9",
+      "archiveEntry": "license.txt"
+    },
+    "light-masks": {
+      "path": "data/upstream/expansion12-materials/notices/light-masks-License.txt",
+      "sha256": "62c31143a7c48c4eb067c57ea90a5d5c3b7d659feb5ee8514d13fc394c7d0e94",
+      "bytes": 703,
+      "sourcePath": "data/upstream/expansion12-materials/archives/kenney-light-masks.zip",
+      "sourceSha256": "e1238694d7e49046e42d67f2975be0217861c7cc9bc358383a8e5e583645004f",
+      "archiveEntry": "License.txt"
+    },
+    "splat-pack": {
+      "path": "data/upstream/expansion12-materials/notices/splat-pack-License.txt",
+      "sha256": "c412026a205bedff887e90bb3ce55448ba68b83afc549f3a1bdc8d932a92155b",
+      "bytes": 568,
+      "sourcePath": "data/upstream/expansion12-materials/archives/kenney-splat-pack.zip",
+      "sourceSha256": "cf50b2671c48fd5b957e249447c9b0dff63c878a538c8e38af282b51f1571925",
+      "archiveEntry": "License.txt"
+    },
+    "3dtextures.me": {
+      "path": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "bytes": 7048,
+      "sourcePath": "data/upstream/phase2-materials/policy/CC0-1.0.txt",
+      "sourceSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    }
+  },
+  "items": [
+    {
+      "id": "expansion12-kenney-light-masks-cone-composed-b",
+      "noticePath": "data/upstream/expansion12-materials/notices/light-masks-License.txt",
+      "noticeSha256": "62c31143a7c48c4eb067c57ea90a5d5c3b7d659feb5ee8514d13fc394c7d0e94",
+      "noticeBytes": 703
+    },
+    {
+      "id": "expansion12-kenney-light-masks-foliage-canopy-a",
+      "noticePath": "data/upstream/expansion12-materials/notices/light-masks-License.txt",
+      "noticeSha256": "62c31143a7c48c4eb067c57ea90a5d5c3b7d659feb5ee8514d13fc394c7d0e94",
+      "noticeBytes": 703
+    },
+    {
+      "id": "expansion12-kenney-light-masks-foliage-canopy-c",
+      "noticePath": "data/upstream/expansion12-materials/notices/light-masks-License.txt",
+      "noticeSha256": "62c31143a7c48c4eb067c57ea90a5d5c3b7d659feb5ee8514d13fc394c7d0e94",
+      "noticeBytes": 703
+    },
+    {
+      "id": "expansion12-kenney-light-masks-foliage-canopy-d",
+      "noticePath": "data/upstream/expansion12-materials/notices/light-masks-License.txt",
+      "noticeSha256": "62c31143a7c48c4eb067c57ea90a5d5c3b7d659feb5ee8514d13fc394c7d0e94",
+      "noticeBytes": 703
+    },
+    {
+      "id": "expansion12-kenney-light-masks-water-caustics-a",
+      "noticePath": "data/upstream/expansion12-materials/notices/light-masks-License.txt",
+      "noticeSha256": "62c31143a7c48c4eb067c57ea90a5d5c3b7d659feb5ee8514d13fc394c7d0e94",
+      "noticeBytes": 703
+    },
+    {
+      "id": "expansion12-kenney-light-masks-window-i",
+      "noticePath": "data/upstream/expansion12-materials/notices/light-masks-License.txt",
+      "noticeSha256": "62c31143a7c48c4eb067c57ea90a5d5c3b7d659feb5ee8514d13fc394c7d0e94",
+      "noticeBytes": 703
+    },
+    {
+      "id": "expansion12-kenney-particle-pack-dirt-01",
+      "noticePath": "data/upstream/expansion12-materials/notices/particle-pack-License.txt",
+      "noticeSha256": "f9e70b81d8cc07c4e07c9f2eff1d94fd371a06070b18cb67c651c41158ec2975",
+      "noticeBytes": 651
+    },
+    {
+      "id": "expansion12-kenney-particle-pack-fire-01",
+      "noticePath": "data/upstream/expansion12-materials/notices/particle-pack-License.txt",
+      "noticeSha256": "f9e70b81d8cc07c4e07c9f2eff1d94fd371a06070b18cb67c651c41158ec2975",
+      "noticeBytes": 651
+    },
+    {
+      "id": "expansion12-kenney-particle-pack-flame-01",
+      "noticePath": "data/upstream/expansion12-materials/notices/particle-pack-License.txt",
+      "noticeSha256": "f9e70b81d8cc07c4e07c9f2eff1d94fd371a06070b18cb67c651c41158ec2975",
+      "noticeBytes": 651
+    },
+    {
+      "id": "expansion12-kenney-particle-pack-flame-03",
+      "noticePath": "data/upstream/expansion12-materials/notices/particle-pack-License.txt",
+      "noticeSha256": "f9e70b81d8cc07c4e07c9f2eff1d94fd371a06070b18cb67c651c41158ec2975",
+      "noticeBytes": 651
+    },
+    {
+      "id": "expansion12-kenney-particle-pack-flame-05",
+      "noticePath": "data/upstream/expansion12-materials/notices/particle-pack-License.txt",
+      "noticeSha256": "f9e70b81d8cc07c4e07c9f2eff1d94fd371a06070b18cb67c651c41158ec2975",
+      "noticeBytes": 651
+    },
+    {
+      "id": "expansion12-kenney-particle-pack-light-03",
+      "noticePath": "data/upstream/expansion12-materials/notices/particle-pack-License.txt",
+      "noticeSha256": "f9e70b81d8cc07c4e07c9f2eff1d94fd371a06070b18cb67c651c41158ec2975",
+      "noticeBytes": 651
+    },
+    {
+      "id": "expansion12-kenney-particle-pack-muzzle-01",
+      "noticePath": "data/upstream/expansion12-materials/notices/particle-pack-License.txt",
+      "noticeSha256": "f9e70b81d8cc07c4e07c9f2eff1d94fd371a06070b18cb67c651c41158ec2975",
+      "noticeBytes": 651
+    },
+    {
+      "id": "expansion12-kenney-particle-pack-scorch-01",
+      "noticePath": "data/upstream/expansion12-materials/notices/particle-pack-License.txt",
+      "noticeSha256": "f9e70b81d8cc07c4e07c9f2eff1d94fd371a06070b18cb67c651c41158ec2975",
+      "noticeBytes": 651
+    },
+    {
+      "id": "expansion12-kenney-particle-pack-smoke-04",
+      "noticePath": "data/upstream/expansion12-materials/notices/particle-pack-License.txt",
+      "noticeSha256": "f9e70b81d8cc07c4e07c9f2eff1d94fd371a06070b18cb67c651c41158ec2975",
+      "noticeBytes": 651
+    },
+    {
+      "id": "expansion12-kenney-particle-pack-smoke-09",
+      "noticePath": "data/upstream/expansion12-materials/notices/particle-pack-License.txt",
+      "noticeSha256": "f9e70b81d8cc07c4e07c9f2eff1d94fd371a06070b18cb67c651c41158ec2975",
+      "noticeBytes": 651
+    },
+    {
+      "id": "expansion12-kenney-particle-pack-spark-01",
+      "noticePath": "data/upstream/expansion12-materials/notices/particle-pack-License.txt",
+      "noticeSha256": "f9e70b81d8cc07c4e07c9f2eff1d94fd371a06070b18cb67c651c41158ec2975",
+      "noticeBytes": 651
+    },
+    {
+      "id": "expansion12-kenney-particle-pack-spark-03",
+      "noticePath": "data/upstream/expansion12-materials/notices/particle-pack-License.txt",
+      "noticeSha256": "f9e70b81d8cc07c4e07c9f2eff1d94fd371a06070b18cb67c651c41158ec2975",
+      "noticeBytes": 651
+    },
+    {
+      "id": "expansion12-kenney-particle-pack-trace-03",
+      "noticePath": "data/upstream/expansion12-materials/notices/particle-pack-License.txt",
+      "noticeSha256": "f9e70b81d8cc07c4e07c9f2eff1d94fd371a06070b18cb67c651c41158ec2975",
+      "noticeBytes": 651
+    },
+    {
+      "id": "expansion12-kenney-particle-pack-trace-05",
+      "noticePath": "data/upstream/expansion12-materials/notices/particle-pack-License.txt",
+      "noticeSha256": "f9e70b81d8cc07c4e07c9f2eff1d94fd371a06070b18cb67c651c41158ec2975",
+      "noticeBytes": 651
+    },
+    {
+      "id": "expansion12-kenney-particle-pack-twirl-02",
+      "noticePath": "data/upstream/expansion12-materials/notices/particle-pack-License.txt",
+      "noticeSha256": "f9e70b81d8cc07c4e07c9f2eff1d94fd371a06070b18cb67c651c41158ec2975",
+      "noticeBytes": 651
+    },
+    {
+      "id": "expansion12-kenney-pattern-pack-extra-pattern-013",
+      "noticePath": "data/upstream/expansion12-materials/notices/pattern-pack-extra-License.txt",
+      "noticeSha256": "7d8e3d24c4ca1a29063d7b32570688f8f35d981f2285799213fe46355ba01ce2",
+      "noticeBytes": 575
+    },
+    {
+      "id": "expansion12-kenney-pattern-pack-extra-pattern-046",
+      "noticePath": "data/upstream/expansion12-materials/notices/pattern-pack-extra-License.txt",
+      "noticeSha256": "7d8e3d24c4ca1a29063d7b32570688f8f35d981f2285799213fe46355ba01ce2",
+      "noticeBytes": 575
+    },
+    {
+      "id": "expansion12-kenney-pattern-pack-extra-pattern-047",
+      "noticePath": "data/upstream/expansion12-materials/notices/pattern-pack-extra-License.txt",
+      "noticeSha256": "7d8e3d24c4ca1a29063d7b32570688f8f35d981f2285799213fe46355ba01ce2",
+      "noticeBytes": 575
+    },
+    {
+      "id": "expansion12-kenney-pattern-pack-extra-pattern-056",
+      "noticePath": "data/upstream/expansion12-materials/notices/pattern-pack-extra-License.txt",
+      "noticeSha256": "7d8e3d24c4ca1a29063d7b32570688f8f35d981f2285799213fe46355ba01ce2",
+      "noticeBytes": 575
+    },
+    {
+      "id": "expansion12-kenney-pattern-pack-extra-pattern-072",
+      "noticePath": "data/upstream/expansion12-materials/notices/pattern-pack-extra-License.txt",
+      "noticeSha256": "7d8e3d24c4ca1a29063d7b32570688f8f35d981f2285799213fe46355ba01ce2",
+      "noticeBytes": 575
+    },
+    {
+      "id": "expansion12-kenney-pattern-pack-extra-pattern-074",
+      "noticePath": "data/upstream/expansion12-materials/notices/pattern-pack-extra-License.txt",
+      "noticeSha256": "7d8e3d24c4ca1a29063d7b32570688f8f35d981f2285799213fe46355ba01ce2",
+      "noticeBytes": 575
+    },
+    {
+      "id": "expansion12-kenney-pattern-pack-extra-pattern-082",
+      "noticePath": "data/upstream/expansion12-materials/notices/pattern-pack-extra-License.txt",
+      "noticeSha256": "7d8e3d24c4ca1a29063d7b32570688f8f35d981f2285799213fe46355ba01ce2",
+      "noticeBytes": 575
+    },
+    {
+      "id": "expansion12-kenney-pattern-pack-lines-pattern-0000",
+      "noticePath": "data/upstream/expansion12-materials/notices/pattern-pack-lines-License.txt",
+      "noticeSha256": "4d45f50ee40d90f79eaf8924a288f94497d6678deb68ac0a86a4d6d532926ab1",
+      "noticeBytes": 575
+    },
+    {
+      "id": "expansion12-kenney-pattern-pack-lines-pattern-0005",
+      "noticePath": "data/upstream/expansion12-materials/notices/pattern-pack-lines-License.txt",
+      "noticeSha256": "4d45f50ee40d90f79eaf8924a288f94497d6678deb68ac0a86a4d6d532926ab1",
+      "noticeBytes": 575
+    },
+    {
+      "id": "expansion12-kenney-pattern-pack-lines-pattern-0007",
+      "noticePath": "data/upstream/expansion12-materials/notices/pattern-pack-lines-License.txt",
+      "noticeSha256": "4d45f50ee40d90f79eaf8924a288f94497d6678deb68ac0a86a4d6d532926ab1",
+      "noticeBytes": 575
+    },
+    {
+      "id": "expansion12-kenney-pattern-pack-lines-pattern-0015",
+      "noticePath": "data/upstream/expansion12-materials/notices/pattern-pack-lines-License.txt",
+      "noticeSha256": "4d45f50ee40d90f79eaf8924a288f94497d6678deb68ac0a86a4d6d532926ab1",
+      "noticeBytes": 575
+    },
+    {
+      "id": "expansion12-kenney-pattern-pack-pattern-11",
+      "noticePath": "data/upstream/expansion12-materials/notices/pattern-pack-License.txt",
+      "noticeSha256": "f1e3da7d3d6ab81ad2f225f8cdd4922058b3413ecdbdf98e42c61aeb5931d9ee",
+      "noticeBytes": 570
+    },
+    {
+      "id": "expansion12-kenney-pattern-pack-pattern-23",
+      "noticePath": "data/upstream/expansion12-materials/notices/pattern-pack-License.txt",
+      "noticeSha256": "f1e3da7d3d6ab81ad2f225f8cdd4922058b3413ecdbdf98e42c61aeb5931d9ee",
+      "noticeBytes": 570
+    },
+    {
+      "id": "expansion12-kenney-pattern-pack-pattern-24",
+      "noticePath": "data/upstream/expansion12-materials/notices/pattern-pack-License.txt",
+      "noticeSha256": "f1e3da7d3d6ab81ad2f225f8cdd4922058b3413ecdbdf98e42c61aeb5931d9ee",
+      "noticeBytes": 570
+    },
+    {
+      "id": "expansion12-kenney-pattern-pack-pattern-32",
+      "noticePath": "data/upstream/expansion12-materials/notices/pattern-pack-License.txt",
+      "noticeSha256": "f1e3da7d3d6ab81ad2f225f8cdd4922058b3413ecdbdf98e42c61aeb5931d9ee",
+      "noticeBytes": 570
+    },
+    {
+      "id": "expansion12-kenney-pattern-pack-pattern-33",
+      "noticePath": "data/upstream/expansion12-materials/notices/pattern-pack-License.txt",
+      "noticeSha256": "f1e3da7d3d6ab81ad2f225f8cdd4922058b3413ecdbdf98e42c61aeb5931d9ee",
+      "noticeBytes": 570
+    },
+    {
+      "id": "expansion12-kenney-pattern-pack-pattern-34",
+      "noticePath": "data/upstream/expansion12-materials/notices/pattern-pack-License.txt",
+      "noticeSha256": "f1e3da7d3d6ab81ad2f225f8cdd4922058b3413ecdbdf98e42c61aeb5931d9ee",
+      "noticeBytes": 570
+    },
+    {
+      "id": "expansion12-kenney-pattern-pack-pattern-37",
+      "noticePath": "data/upstream/expansion12-materials/notices/pattern-pack-License.txt",
+      "noticeSha256": "f1e3da7d3d6ab81ad2f225f8cdd4922058b3413ecdbdf98e42c61aeb5931d9ee",
+      "noticeBytes": 570
+    },
+    {
+      "id": "expansion12-kenney-pattern-pack-pattern-49",
+      "noticePath": "data/upstream/expansion12-materials/notices/pattern-pack-License.txt",
+      "noticeSha256": "f1e3da7d3d6ab81ad2f225f8cdd4922058b3413ecdbdf98e42c61aeb5931d9ee",
+      "noticeBytes": 570
+    },
+    {
+      "id": "expansion12-kenney-pattern-pack-pattern-51",
+      "noticePath": "data/upstream/expansion12-materials/notices/pattern-pack-License.txt",
+      "noticeSha256": "f1e3da7d3d6ab81ad2f225f8cdd4922058b3413ecdbdf98e42c61aeb5931d9ee",
+      "noticeBytes": 570
+    },
+    {
+      "id": "expansion12-kenney-pattern-pack-pattern-59",
+      "noticePath": "data/upstream/expansion12-materials/notices/pattern-pack-License.txt",
+      "noticeSha256": "f1e3da7d3d6ab81ad2f225f8cdd4922058b3413ecdbdf98e42c61aeb5931d9ee",
+      "noticeBytes": 570
+    },
+    {
+      "id": "expansion12-kenney-pattern-pack-pattern-64",
+      "noticePath": "data/upstream/expansion12-materials/notices/pattern-pack-License.txt",
+      "noticeSha256": "f1e3da7d3d6ab81ad2f225f8cdd4922058b3413ecdbdf98e42c61aeb5931d9ee",
+      "noticeBytes": 570
+    },
+    {
+      "id": "expansion12-kenney-pattern-pack-pattern-79",
+      "noticePath": "data/upstream/expansion12-materials/notices/pattern-pack-License.txt",
+      "noticeSha256": "f1e3da7d3d6ab81ad2f225f8cdd4922058b3413ecdbdf98e42c61aeb5931d9ee",
+      "noticeBytes": 570
+    },
+    {
+      "id": "expansion12-kenney-pattern-pack-pattern-80",
+      "noticePath": "data/upstream/expansion12-materials/notices/pattern-pack-License.txt",
+      "noticeSha256": "f1e3da7d3d6ab81ad2f225f8cdd4922058b3413ecdbdf98e42c61aeb5931d9ee",
+      "noticeBytes": 570
+    },
+    {
+      "id": "expansion12-kenney-splat-pack-splat00",
+      "noticePath": "data/upstream/expansion12-materials/notices/splat-pack-License.txt",
+      "noticeSha256": "c412026a205bedff887e90bb3ce55448ba68b83afc549f3a1bdc8d932a92155b",
+      "noticeBytes": 568
+    },
+    {
+      "id": "expansion12-kenney-splat-pack-splat02",
+      "noticePath": "data/upstream/expansion12-materials/notices/splat-pack-License.txt",
+      "noticeSha256": "c412026a205bedff887e90bb3ce55448ba68b83afc549f3a1bdc8d932a92155b",
+      "noticeBytes": 568
+    },
+    {
+      "id": "expansion12-kenney-splat-pack-splat26",
+      "noticePath": "data/upstream/expansion12-materials/notices/splat-pack-License.txt",
+      "noticeSha256": "c412026a205bedff887e90bb3ce55448ba68b83afc549f3a1bdc8d932a92155b",
+      "noticeBytes": 568
+    },
+    {
+      "id": "expansion12-kenney-splat-pack-splat34",
+      "noticePath": "data/upstream/expansion12-materials/notices/splat-pack-License.txt",
+      "noticeSha256": "c412026a205bedff887e90bb3ce55448ba68b83afc549f3a1bdc8d932a92155b",
+      "noticeBytes": 568
+    },
+    {
+      "id": "expansion12-material-3dtextures-bamboo-fence-001",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-cobblestone-irregular-floor-001",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-concrete-blocks-016",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-concrete-blocks-017",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-concrete-tiles-003",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-concrete-wall-014",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-concrete-wall-015",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-concrete-wall-formwork-016-free-seamless-pbr-texture",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-conveyor-belt-001-free-seamless-pbr-texture",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-dragon-scales-002",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-escalator-steps-001",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-fabric-denim-patch-001",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-fabric-knitted-007-halloween",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-fabric-lace-047",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-fabric-lace-048",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-fabric-lace-049-free-seamless-pbr-texture",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-fabric-lace-050-free-seamless-pbr-texture",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-fabric-lace-051",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-fabric-lace-052",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-fabric-lace-053",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-glass-stained-panel-001",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-glass-stained-panel-window-003",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-glass-stained-panel-window-004-free-seamless-pbr-texture",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-green-marble-gold-encrusted-001",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-hexa-grip-board-001",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-leather-stitched-triblade-padded-001",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-metal-armor-pattern-001",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-metal-base-scratched-001",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-metal-corrugated-018",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-metal-grill-026-free-seamless-pbr-texture",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-metal-grill-027",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-metal-hammered-005",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-metal-pattern-011",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-metal-pattern-012",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-metal-plate-049-free-seamless-pbr-texture",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-metal-weathered-light-brass-001",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-porcelain-001",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-roof-tiles-terracotta-009",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-rope-002",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-sci-fi-metal-panel-010",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-sci-fi-metal-plate-005",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-snow-005-free-seamless-pbr-texture",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-terracotta-floor-tiles-004",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-terracotta-floor-tiles-005",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-terracotta-floor-tiles-006",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-terracotta-floor-tiles-007",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-terracotta-floor-tiles-008",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-terracotta-floor-tiles-009",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-tiles-067",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-tiles-068",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-tiles-070",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-tiles-072",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-tiles-073",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-tiles-escher-fish-001",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-tiles-hex-concave-001",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-tiles-interlocked-ribbed-001",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-wall-brick-terracotta-003-free-seamless-pbr-texture",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-wall-fabric-001",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-wall-stone-032",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-wall-stone-033",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-wall-stone-035",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-wall-stone-fluted-001",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-wood-032",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-wood-base-beech-001",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-wood-carved-lattice-panels-001",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-wood-ceiling-coffers-004",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-wood-floor-014",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-wood-floor-015",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-wood-floor-parquet-walnut-016-free-seamless-pbr-texture",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-wood-roof-shingles-002",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-wood-stacked-001",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-wood-tiles-005",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-wood-wicker-012",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    },
+    {
+      "id": "expansion12-material-3dtextures-wood-wicker-013-free-seamless-pbr-texture",
+      "noticePath": "data/upstream/expansion12-materials/notices/CC0-1.0.txt",
+      "noticeSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "noticeBytes": 7048
+    }
+  ],
+  "validation": {
+    "itemCount": 123,
+    "fullNoticePreservedInEveryLicenseText": true,
+    "noticeBytesUnmodified": true
+  }
+}

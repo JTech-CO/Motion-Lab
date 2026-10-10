@@ -1,0 +1,56 @@
+{
+  "url": "https://barba.js.org/docs/advanced/transitions/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://barba.js.org/docs/advanced/transitions/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://barba.js.org/docs/advanced/transitions/",
+      "allowedForAuditGet": true,
+      "reason": "robots-missing-not-a-license",
+      "robotsUrl": "https://barba.js.org/robots.txt",
+      "robotsStatus": 404
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://barba.js.org/docs/advanced/transitions/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:06.352298+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://barba.js.org/docs/advanced/transitions/",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 43412,
+      "capturedSha256": "b5330086c46053e00168968d9247bf8a869d01e19bf205154d16715c46a28dbb",
+      "responseBodySha256": "b5330086c46053e00168968d9247bf8a869d01e19bf205154d16715c46a28dbb",
+      "title": "barba.js",
+      "textCharacters": 5987,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.569,
+      "captureCachePath": "exa-results/link-audit/references/captures/1a3e7477c3f4f09e999d6ae5.json",
+      "captureCacheSha256": "24f60b6b66b131f35280f53ad8cf8db58a39820d8806f625a3fc0ae461c59a5d"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-barba-transitions",
+      "canonicalId": "ref-barba-transitions",
+      "title": "Barba Transitions",
+      "role": "canonical",
+      "sourceSha256": "6e1345cc16478e0d753dcbf3246fa9223f76c80720e00d9c7f4183167f80083c"
+    }
+  ]
+}

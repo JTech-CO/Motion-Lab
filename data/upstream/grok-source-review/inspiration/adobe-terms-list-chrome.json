@@ -1,0 +1,19 @@
+{
+  "url": "https://www.adobe.com/legal/terms.html",
+  "method": "isolated installed Chrome, JavaScript disabled, public navigation only",
+  "status": 403,
+  "fetchedAt": "2026-10-10",
+  "observedContent": "일반 공개 Chrome 요청이 403 거부 응답이었다. 로그인·쿠키 이전·challenge 우회 없음.",
+  "sector": 4,
+  "siteId": "behance",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/adobe-terms-list-chrome.json",
+  "rawCacheSha256": "b01134817da180ffbaaf7e6b5f66c0e69c305ba388e68860fbebeb4a8d5181b5",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "d6e03983a61084b4c0b844563091fe672171fdca8f85f494666e43464c6e1c6d",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "finalUrl": "https://www.adobe.com/legal/terms.html",
+  "visibleTextSha256": "d6e03983a61084b4c0b844563091fe672171fdca8f85f494666e43464c6e1c6d",
+  "loginAttempted": false,
+  "challengeBypassed": false,
+  "cookiesImported": false
+}

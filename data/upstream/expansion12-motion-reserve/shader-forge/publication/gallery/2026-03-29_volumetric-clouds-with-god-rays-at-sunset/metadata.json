@@ -1,0 +1,27 @@
+{
+  "theme": "volumetric clouds with god rays at sunset",
+  "style_hints": "",
+  "references": [
+    "glsl-art/shadertoy/himalayas/Image.glsl/Image.glsl [grid,matrix,noise,postprocess,raymarching,volumetric]",
+    "glsl-art/shadertoy-top/WddSDr.glsl/WddSDr.glsl [color_palette,fractal,lighting,noise,raymarching,volumetric]",
+    "glsl-art/shadertoy/himalayas/Buffer D.glsl/Buffer D.glsl [color_palette,grid,lighting,noise,raymarching,volumetric]",
+    "glsl-art/shadertoy-top/ll2SWd.glsl/ll2SWd.glsl [grid,matrix,postprocess,raymarching,volumetric,wave]",
+    "glsl-art/shadertoy-top/XtlfDn.glsl/XtlfDn.glsl [grid,lighting,matrix,particles,postprocess,raymarching,volumetric]"
+  ],
+  "attempts": 2,
+  "created_at": "2026-03-29T11:17:22.382721+00:00",
+  "glsl_lines": 108,
+  "success": true,
+  "target": "glsl",
+  "design_brief": "**Implementation Guide: Volumetric Clouds + God Rays (WebGL1/GLSL ES 1.00)**  \n\n1. **Architecture**:  \n```glsl\nvoid main() {\n  vec2 uv = gl_FragCoord.xy / uResolution.xy;\n  uv = uv * 2.0 - 1.0; uv.x *= uResolution.x / uResolution.y;\n  vec3 sunDir = normalize(vec3(cos(uTime*0.2), sin(uTime*0.2), 0.5));\n  vec3 color = renderClouds(uv, sunDir);\n  gl_FragColor = vec4(color, 1.0);\n}\n```\n2. **Key functions**:  \n   - `float hash12(vec2)` — use **Ref #2’s hash** for deterministic noise seeding  \n   - `float noise(vec2)` — use **Ref #1’s Worley FBM** (low-freq for shape, high-freq for edges)  \n   - `float cloudDensity(vec3 p)` — evaluates density at world-space cloud coord  \n   - `vec3 integrateRay(vec2 uv, vec3 dir)` — **raymarch along camera ray**, accumulating extinction  \n   - `vec3 godRays(vec3 lightDir)` — **Ref #2’s 2D light-scatter pass** (march *along sun ray* from camera origin)  \n\n3. **Color & brightness**:  \n   - Base sky: warm sunset gradient: `mix(vec3(0.1,0.05,0.0), vec3(0.9,0.4,0.1), smoothstep(0.0,1.0,uv.y))`  \n   - Clouds: add `vec3(1.0, 0.95, 0.9)` with density-based alpha; boost sunward side with `pow(density, 3.)`  \n   - Ensure full-screen coverage via `uv` scaling and no clamping to black — clamp only *after* compositing  \n\n4. **Animation**:  \n   - `uTime` drives: cloud speed (scale `uv.x += uTime * 0.1`), sun position (`uTime * 0.2`), and god-ray intensity  \n   - Speed: `0.1–0.3` for clouds, `0.2` for sun motion (loop-friendly via `mod(uTime, T)` if needed)  \n\n5. **Pitfalls to avoid**:  \n   - ❌ No `dFdx/dFdy`, `fwidth`, or bitwise ops — use integer hashing with `uvec2` → `uint` conversion (Ref #2)  \n   - ❌ Avoid 3D textures — pack noise lookup in 2D (Ref #1’s Buffer B trick)  \n   - ✅ Keep march steps *fixed* (e.g., 32 steps), not adaptive  \n   - ✅ Always normalize `uv` to correct aspect ratio before raymarching",
+  "review": {
+    "visual_complexity": 4,
+    "code_quality": 3,
+    "theme_match": 4,
+    "animation": 4,
+    "originality": 4,
+    "total": 19,
+    "verdict": "pass",
+    "feedback": "Solid implementation of volumetric clouds and god rays with good visual complexity and animation; improve brightness by ensuring cloud coverage fills more of the canvas and avoid excessive darkness in sky/cloud blending."
+  }
+}

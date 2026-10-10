@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <path d="M200 70 L90 160 H120 V240 H280 V160 H310 Z" fill="#ffffff" stroke="#334155" stroke-width="8" stroke-linejoin="round" />
+                
+                
+                <circle cx="200" cy="180" r="20" fill="#6366f1" />
+                <path d="M190 180 A 10 10 0 0 1 210 180 M185 170 A 20 20 0 0 1 215 170" stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none" />
+                
+                
+                <path d="M200 160 L140 120 M200 160 L260 120 M180 200 L140 220 M220 200 L260 220" stroke="#DFD116" stroke-width="4" stroke-dasharray="6 6" stroke-linecap="round" />
+                
+                
+                <g transform="translate(140, 120)">
+                    <g>
+                    <circle cx="0" cy="-10" r="10" fill="#f43f5e" />
+                    <rect x="-5" y="0" width="10" height="10" fill="#334155" />
+                </g>
+                </g>
+                
+                
+                <g transform="translate(260, 120)">
+                    <g>
+                    <rect x="-10" y="-10" width="20" height="20" rx="3" fill="#DFD116" />
+                    <circle cx="0" cy="0" r="4" fill="#ffffff" />
+                    <path d="M-6 -10 V-15 A 6 6 0 0 1 6 -15 V-10" stroke="#334155" stroke-width="3" fill="none" />
+                </g>
+                </g>
+                
+                
+                <g transform="translate(140, 220)">
+                    <g>
+                    <circle cx="0" cy="0" r="15" fill="#6366f1" />
+                    <text x="0" y="4" font-family="monospace" font-weight="bold" font-size="10" fill="#ffffff" text-anchor="middle">72</text>
+                </g>
+                </g>
+                
+                
+                <g transform="translate(260, 220)">
+                    <g>
+                    <rect x="-10" y="-15" width="20" height="30" rx="10" fill="#f43f5e" />
+                    <circle cx="0" cy="-5" r="2" fill="#ffffff" />
+                    <circle cx="0" cy="5" r="2" fill="#ffffff" />
+                </g>
+                </g>
+            </g>
+          </svg>

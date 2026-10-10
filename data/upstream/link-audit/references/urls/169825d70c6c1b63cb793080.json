@@ -1,0 +1,56 @@
+{
+  "url": "https://motion.dev/ui",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://motion.dev/ui",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://motion.dev/ui",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://motion.dev/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://motion.dev/ui",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:50.196293+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://motion.dev/ui",
+      "contentType": "text/html",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 181402,
+      "capturedSha256": "219423ba349d3475fcf042d6ac485ce2b571478b906aab6073fffab55f4150a9",
+      "responseBodySha256": "219423ba349d3475fcf042d6ac485ce2b571478b906aab6073fffab55f4150a9",
+      "title": "Motion UI: animated React components from the makers of Motion",
+      "textCharacters": 4358,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.905,
+      "captureCachePath": "exa-results/link-audit/references/captures/8d7f4a22b9870e3b62ffa625.json",
+      "captureCacheSha256": "d6714b6b6d85bfba0ddb489a32ceb9924f4428512b469a14ce186198b13a07aa"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-motion-ui",
+      "canonicalId": "ref-motion-ui",
+      "title": "Motion UI",
+      "role": "canonical",
+      "sourceSha256": "c6fbba9121f437dda327457a2fe9a08d408f46c88fabe5e49b7d1812abad0383"
+    }
+  ]
+}

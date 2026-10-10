@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Tropical background -->
+        <g opacity="0.1">
+            <path d="M0 200 Q100 150 200 200 T400 200 V300 H0 Z" fill="var(--accent-color)"/>
+            <circle cx="350" cy="50" r="30" fill="#fbbf24"/>
+        </g>
+        
+        <!-- Smartphone holding hand intent -->
+        <g class="anim-float">
+            <rect x="120" y="50" width="160" height="220" rx="15" fill="var(--charcoal)"/>
+            <rect x="135" y="70" width="130" height="180" rx="8" fill="var(--bg-surface)"/>
+            
+            <!-- Snapshot Preview -->
+            <g class="anim-bounce">
+                <circle cx="200" cy="130" r="40" fill="var(--primary-soft)"/>
+                <!-- Smiling Face -->
+                <circle cx="200" cy="130" r="25" stroke="var(--primary-color)" stroke-width="3" fill="none"/>
+                <circle cx="190" cy="125" r="2" fill="var(--primary-color)"/>
+                <circle cx="210" cy="125" r="2" fill="var(--primary-color)"/>
+                <path d="M190 140 Q200 150 210 140" stroke="var(--primary-color)" stroke-width="2" stroke-linecap="round" fill="none"/>
+            </g>
+            
+            <!-- UI Elements -->
+            <circle class="anim-pulse" cx="200" cy="225" r="15" fill="var(--secondary-color)" opacity="0.8"/>
+            <rect x="150" y="80" width="40" height="4" rx="2" fill="var(--border-color)"/>
+        </g>
+    </svg>

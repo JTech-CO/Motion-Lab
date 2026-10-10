@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/nitin42/Animated-Timeline/blob/master/docs/Spring.md",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/nitin42/Animated-Timeline/blob/master/docs/Spring.md",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/nitin42/Animated-Timeline/blob/master/docs/Spring.md",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/nitin42/Animated-Timeline/blob/master/docs/Spring.md",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:29.308861+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/nitin42/Animated-Timeline/blob/master/docs/Spring.md",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "06d2e348b6696832ae416f9730f6639799608fb46ba0bc6e9af7b7de214f9826",
+      "responseBodySha256": "06d2e348b6696832ae416f9730f6639799608fb46ba0bc6e9af7b7de214f9826",
+      "title": "Animated-Timeline/docs/Spring.md at master · nitin42/Animated-Timeline · GitHub",
+      "textCharacters": 2237,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.756,
+      "captureCachePath": "exa-results/link-audit/references/captures/2eea3d9b1bd136065e5930e1.json",
+      "captureCacheSha256": "c9d88cb32a9b87d06564184fd47eb5bdd7d78deba2ab7ca2972c3774382c9d35"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-animated-timeline",
+      "canonicalId": "ref-animated-timeline",
+      "title": "Animated Timeline",
+      "role": "canonical",
+      "sourceSha256": "57c136af01fefbfdaf4e6dda77d364ac8cf433b7fb712ddabfe21ba80a13cb51"
+    }
+  ]
+}

@@ -11,6 +11,9 @@ exa-results/
 *.tgz
 *.log
 node_modules/
+# Full catalogs are rebuilt from the tracked source inputs and notices.
+/data/catalog.json
+/dist/catalog.json
 .openai/.local/
 .openai/local/
 

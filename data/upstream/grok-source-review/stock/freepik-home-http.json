@@ -1,0 +1,23 @@
+{
+  "id": "freepik",
+  "url": "https://www.freepik.com/videos",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 403,
+  "finalUrl": "https://www.freepik.com/videos",
+  "contentType": "text/html",
+  "truncated": false,
+  "observedBytes": 7531,
+  "observedContentSha256": "5b3f8ec7125daf9c3f1af56b70e96e8a9d539820248842b6310a98eb5817404b",
+  "links": [
+    {
+      "url": "https://www.magnific.com"
+    },
+    {
+      "url": "mailto:support@magnific.com?subject=Access%20denied&body=Hi%2C%0A%0APlease%20provide%20the%20following%20information%20so%20we%20can%20assist%20you%3A%0A%0A-%20Error%20reference%20you%20see%3A%0A%0A-%20The%20IP%20address%20of%20your%20WiFi%20connection%20(you%20can%20get%20it%20here%3A%20https%3A%2F%2Fwhatismyipaddress.com)%0A%0A-%20Confirm%20if%20you%27re%20using%20a%20VPN.%0A%0A-%20Screenshots%20of%20your%20screen%20and%20of%20the%20console%20information.%0A%0AThank%20you.%0A"
+    }
+  ],
+  "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+  "challengeOrDenial": true
+}

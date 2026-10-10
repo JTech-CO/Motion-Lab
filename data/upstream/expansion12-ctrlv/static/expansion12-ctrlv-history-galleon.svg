@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <ellipse cx="200" cy="270" rx="160" ry="12" fill="#E2E8F0" />
+            
+            <path d="M40 250 Q100 230 160 250 T280 250 T400 230 V300 H0 V250 Z" fill="#f43f5e" opacity="0.4" />
+            <path d="M0 260 Q60 240 120 260 T240 260 T360 240 V300 H0 Z" fill="#6366f1" opacity="0.4" />
+
+            <g>
+                
+                <path d="M100 240 C100 240 60 160 100 160 H300 C320 160 340 210 320 240 H100 Z" fill="#334155" />
+                <path d="M280 160 V130 L310 160 H280 Z" fill="#334155" /> 
+                
+                <circle cx="140" cy="200" r="5" fill="#ffffff" />
+                <circle cx="180" cy="200" r="5" fill="#ffffff" />
+                <circle cx="220" cy="200" r="5" fill="#ffffff" />
+                <circle cx="260" cy="200" r="5" fill="#ffffff" />
+                <circle cx="300" cy="200" r="5" fill="#ffffff" />
+
+                
+                <line x1="140" y1="160" x2="140" y2="70" stroke="#334155" stroke-width="4" />
+                <path d="M140 80 Q160 110 180 140 Q140 150 100 140 Q120 110 140 80 Z" fill="#FFF" stroke="#DFD116" stroke-width="2" />
+                <path d="M140 50 Q150 70 160 90 Q140 95 120 90 Q130 70 140 50 Z" fill="#FFF" stroke="#DFD116" stroke-width="2" />
+
+                
+                <line x1="220" y1="160" x2="220" y2="30" stroke="#334155" stroke-width="6" />
+                <path d="M220 50 Q250 90 280 130 Q220 140 160 130 Q190 90 220 50 Z" fill="#FFF" stroke="#DFD116" stroke-width="2" />
+                <path d="M220 10 Q240 40 260 70 Q220 80 180 70 Q200 40 220 10 Z" fill="#FFF" stroke="#DFD116" stroke-width="2" />
+                
+                
+                <path d="M220 10 L250 15 L220 20 Z" fill="#f43f5e" />
+                <path d="M140 50 L160 55 L140 60 Z" fill="#f43f5e" />
+                
+                
+                <line x1="100" y1="170" x2="40" y2="130" stroke="#334155" stroke-width="4" />
+                <path d="M80 145 Q60 160 60 170 Q80 160 80 145 Z" fill="#FFF" />
+            </g>
+          </svg>

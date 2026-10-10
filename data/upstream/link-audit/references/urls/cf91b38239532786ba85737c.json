@@ -1,0 +1,56 @@
+{
+  "url": "https://www.hontran.dev/blog/mat-voyce-case-study-award-winning-portfolio",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://www.hontran.dev/blog/mat-voyce-case-study-award-winning-portfolio",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://www.hontran.dev/blog/mat-voyce-case-study-award-winning-portfolio",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://www.hontran.dev/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://www.hontran.dev/blog/mat-voyce-case-study-award-winning-portfolio",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:45.376157+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://www.hontran.dev/blog/mat-voyce-case-study-award-winning-portfolio",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 100553,
+      "capturedSha256": "c6ca17c2e7193d2ecccf81f47159bba42fffdf6fa11ad68060dd62b595eae046",
+      "responseBodySha256": "c6ca17c2e7193d2ecccf81f47159bba42fffdf6fa11ad68060dd62b595eae046",
+      "title": "Mat Voyce Case Study: Kinetic Typography Portfolio",
+      "textCharacters": 9858,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.702,
+      "captureCachePath": "exa-results/link-audit/references/captures/374ccc19e174d18e7c580343.json",
+      "captureCacheSha256": "d918ecce1e109180f09765b499c8a322667422714c0a31f89cd69073030726db"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-mat-voyce-case-study",
+      "canonicalId": "ref-mat-voyce-case-study",
+      "title": "Mat Voyce Case Study",
+      "role": "canonical",
+      "sourceSha256": "50c1d465211e236739346954c94906e1ab2d223b4e9b27535514f3cbd5e3ecd7"
+    }
+  ]
+}

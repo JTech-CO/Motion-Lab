@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/RavenRepo/nebulla-particle-library",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/RavenRepo/nebulla-particle-library",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/RavenRepo/nebulla-particle-library",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/RavenRepo/nebulla-particle-library",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:47.720449+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/RavenRepo/nebulla-particle-library",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "25721bde1b6f5a9398fff86ce1da9a2769feddccb0f694e1c9de232fb44b3dd0",
+      "responseBodySha256": "25721bde1b6f5a9398fff86ce1da9a2769feddccb0f694e1c9de232fb44b3dd0",
+      "title": "GitHub - RavenRepo/nebulla-particle-library · GitHub",
+      "textCharacters": 2441,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.989,
+      "captureCachePath": "exa-results/link-audit/references/captures/123fed6bdf8741cf8ab076b7.json",
+      "captureCacheSha256": "2f761b9b572bc220f74d3f336a962697048349c560863ed5d5945cad910fc1af"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-nebulla-particle-library",
+      "canonicalId": "ref-nebulla-particle-library",
+      "title": "Nebulla Particle Library",
+      "role": "canonical",
+      "sourceSha256": "8b726e327bcee69ed28df9fd1e27b031f8c975ed368792a2cfe3479ebff7ddd0"
+    }
+  ]
+}

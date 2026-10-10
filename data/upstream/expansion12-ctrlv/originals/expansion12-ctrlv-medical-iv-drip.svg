@@ -1,0 +1,31 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="120" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <g class="anim-float">
+                <!-- Stand Pole -->
+                <rect x="195" y="20" width="10" height="250" fill="var(--charcoal)"/>
+                <path d="M160 30 L200 20 L240 30" fill="none" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                
+                <!-- IV Bag -->
+                <path d="M130 80 C130 60 160 50 160 50 H180 C180 50 210 60 210 80 V160 C210 180 180 190 170 190 C160 190 130 180 130 160 Z" fill="var(--secondary-color)" opacity="0.3"/>
+                <path d="M130 80 C130 60 160 50 160 50 H180 C180 50 210 60 210 80 V160 C210 180 180 190 170 190 C160 190 130 180 130 160 Z" stroke="var(--primary-color)" stroke-width="4" fill="none"/>
+                <!-- Fluid level -->
+                <path d="M132 120 H208 V160 C208 175 180 188 170 188 C160 188 132 175 132 160 Z" fill="var(--accent-color)" opacity="0.6"/>
+                
+                <!-- Hook -->
+                <path d="M170 50 V40 C170 30 180 20 190 20" fill="none" stroke="var(--primary-color)" stroke-width="4" stroke-linecap="round"/>
+                
+                <!-- Labels -->
+                <rect x="150" y="70" width="40" height="30" fill="var(--bg-surface)"/>
+                <path d="M155 80 H185 M155 90 H175" stroke="var(--charcoal)" stroke-width="2" stroke-linecap="round"/>
+                
+                <!-- Tube Port / Chamber -->
+                <rect x="160" y="190" width="20" height="30" rx="5" fill="var(--bg-surface)" stroke="var(--primary-color)" stroke-width="3"/>
+                <rect x="165" y="195" width="10" height="10" fill="var(--secondary-color)"/>
+                
+                <!-- Tube -->
+                <path d="M170 220 V250 C170 270 230 250 250 270" fill="none" stroke="var(--primary-color)" stroke-width="4" stroke-linecap="round"/>
+            </g>
+            
+            <!-- Drip animation in chamber -->
+            <circle class="anim-data" cx="170" cy="210" r="3" fill="var(--accent-color)"/>
+          </svg>

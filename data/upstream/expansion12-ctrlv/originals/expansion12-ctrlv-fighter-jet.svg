@@ -1,0 +1,11 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="anim-float">
+            <path d="M100 150 L250 120 L320 150 L250 180 Z" fill="var(--charcoal)"/>
+            <path d="M220 125 L180 80 L140 135" fill="var(--primary-color)"/>
+            <path d="M220 175 L180 220 L140 165" fill="var(--primary-color)"/>
+            <path d="M280 140 L310 150 L280 160 Z" fill="var(--secondary-color)"/>
+            <g class="anim-pulse" transform="translate(80, 150)">
+                <path d="M0 -5 L-30 0 L0 5 Z" fill="#fbbf24"/>
+            </g>
+        </g>
+    </svg>

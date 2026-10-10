@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                
+                <rect x="100" y="240" width="200" height="15" fill="#6366f1" stroke="#334155" stroke-width="4" />
+                <rect x="90" y="225" width="200" height="15" fill="#f43f5e" stroke="#334155" stroke-width="4" />
+                
+                
+                <rect x="120" y="215" width="10" height="10" fill="#334155" />
+                <rect x="250" y="215" width="10" height="10" fill="#334155" />
+                
+                
+                <rect x="110" y="200" width="200" height="15" fill="#6366f1" stroke="#334155" stroke-width="4" />
+                <rect x="95" y="185" width="200" height="15" fill="#ffffff" stroke="#334155" stroke-width="4" />
+                
+                
+                <rect x="130" y="175" width="10" height="10" fill="#334155" />
+                <rect x="260" y="175" width="10" height="10" fill="#334155" />
+                
+                
+                <g>
+                    <rect x="120" y="160" width="200" height="15" fill="#f43f5e" stroke="#334155" stroke-width="4" />
+                    
+                    <path d="M130 165 Q160 160 190 168 T250 165 T310 168" stroke="#334155" stroke-width="2" fill="none" opacity="0.5" />
+                    <path d="M140 170 Q170 165 200 172 T260 170 T300 172" stroke="#334155" stroke-width="2" fill="none" opacity="0.5" />
+                </g>
+                
+                
+                <g transform="translate(60, 230) rotate(-15)">
+<g>
+                    <rect x="0" y="0" width="30" height="40" fill="#DFD116" stroke="#334155" stroke-width="3" />
+                    <line x1="10" y1="10" x2="20" y2="10" stroke="#ffffff" stroke-width="2" />
+                    <line x1="5" y1="20" x2="25" y2="20" stroke="#ffffff" stroke-width="2" />
+                </g>
+</g>
+            </g>
+          </svg>

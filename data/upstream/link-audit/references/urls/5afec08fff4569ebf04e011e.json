@@ -1,0 +1,56 @@
+{
+  "url": "https://vjsuave.com/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://vjsuave.com/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://vjsuave.com/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://vjsuave.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://vjsuave.com/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:01.363052+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://vjsuave.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 184008,
+      "capturedSha256": "4cf09ebb939a01343316502328dfc67f0d943f256250c6fbb016cdc73c067366",
+      "responseBodySha256": "4cf09ebb939a01343316502328dfc67f0d943f256250c6fbb016cdc73c067366",
+      "title": "Home - VJ Suave",
+      "textCharacters": 4601,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.464,
+      "captureCachePath": "exa-results/link-audit/references/captures/91507916ce2b19b9fa9bdd26.json",
+      "captureCacheSha256": "6dd655cba537667b2b83afb53e417da7d880366c0f0f92eea702a1244e07c54a"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-vj-suave",
+      "canonicalId": "ref-vj-suave",
+      "title": "VJ Suave",
+      "role": "canonical",
+      "sourceSha256": "83533b47f0a1289d5c29e6fd1e89173a4f51146f3d2ad5fd485201ec93ac4d7c"
+    }
+  ]
+}

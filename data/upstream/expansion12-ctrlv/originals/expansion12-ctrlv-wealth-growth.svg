@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="anim-float" d="M120 120 Q180 60 250 120 T350 180 Q300 250 200 250 T100 180Z" fill="var(--charcoal)" opacity="0.08"/>
+            <path d="M160 260 L180 260 L185 220 L155 220 Z" fill="var(--primary-color)"/>
+            <path class="anim-float" d="M170 220 V140" stroke="var(--primary-color)" stroke-width="4" stroke-linecap="round"/>
+            <g class="anim-bounce">
+                <circle cx="170" cy="120" r="18" fill="var(--charcoal)"/>
+                <text x="164" y="126" fill="white" font-weight="bold" font-size="16">$</text>
+            </g>
+            <path class="anim-float" d="M170 180 Q140 160 140 140" stroke="var(--secondary-color)" stroke-width="3" stroke-linecap="round" fill="none"/>
+            <path class="anim-float" d="M170 200 Q200 180 200 160" stroke="var(--accent-color)" stroke-width="3" stroke-linecap="round" fill="none" style="animation-delay: -0.5s"/>
+            <path d="M280 260 C280 220 300 200 320 200 H340 V270 H280 V260 Z" fill="var(--primary-color)"/>
+            <circle cx="310" cy="170" r="24" fill="#94A3B8"/>
+            <path class="anim-typing" d="M290 220 L220 190" stroke="var(--primary-color)" stroke-width="10" stroke-linecap="round"/>
+            <circle class="anim-data" cx="210" cy="180" r="3" fill="var(--accent-color)"/>
+            <circle class="anim-data" cx="205" cy="195" r="3" fill="var(--accent-color)" style="animation-delay: -0.5s"/>
+          </svg>

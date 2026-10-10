@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <path d="M100 180 L140 180 L160 240 H260 L280 180 H300" stroke="#334155" stroke-width="8" stroke-linecap="round" fill="none" />
+                <path d="M120 180 H280" stroke="#334155" stroke-width="8" stroke-linecap="round" />
+                <circle cx="180" cy="260" r="10" fill="#6366f1" />
+                <circle cx="240" cy="260" r="10" fill="#6366f1" />
+                
+                
+                <path d="M220 80 V100 C220 120 200 140 180 140 C160 140 140 120 140 100 V80 H120 V100 C120 140 150 160 180 160 C210 160 240 140 240 100 V80 Z" fill="#DFD116" />
+                <rect x="120" y="60" width="20" height="20" fill="#6366f1" />
+                <rect x="220" y="60" width="20" height="20" fill="#6366f1" />
+                
+                
+                <path d="M120 180 Q150 160 180 180 Q210 160 240 180" stroke="#f43f5e" stroke-width="4" stroke-dasharray="6 6" fill="none" />
+                <path d="M150 200 Q180 180 210 200" stroke="#f43f5e" stroke-width="4" stroke-dasharray="6 6" fill="none" />
+                
+                
+                <rect x="160" y="200" width="30" height="30" rx="4" fill="#6366f1" />
+                <rect x="210" y="210" width="30" height="20" rx="2" fill="#f43f5e" />
+            </g>
+          </svg>

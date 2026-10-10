@@ -1,0 +1,56 @@
+{
+  "url": "https://bewegtbildgrafik.de/studio",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://bewegtbildgrafik.de/studio",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://bewegtbildgrafik.de/studio",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://bewegtbildgrafik.de/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://bewegtbildgrafik.de/studio",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:00.826693+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://bewegtbildgrafik.de/studio",
+      "contentType": "text/html; charset=UTF-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 22243,
+      "capturedSha256": "865de4ce50ba4f9d9610e8544ee83bf690fd5d960aaa03c8879c2e4c264c410d",
+      "responseBodySha256": "865de4ce50ba4f9d9610e8544ee83bf690fd5d960aaa03c8879c2e4c264c410d",
+      "title": "Studio BBG – Motion Design & Illustration Stuttgart",
+      "textCharacters": 5132,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.118,
+      "captureCachePath": "exa-results/link-audit/references/captures/f1c09d57ae1cc5e08dd5e8f5.json",
+      "captureCacheSha256": "cfbd7666d826a61d4b43ea895bca9e3a002be9edca2e1cbbc7265483b9205ff5"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-studio-bbg",
+      "canonicalId": "ref-studio-bbg",
+      "title": "Studio BBG",
+      "role": "canonical",
+      "sourceSha256": "8d8171dc0dce73b317cb74fe5ee88a055a2555964c83d048066cb8248606c4b6"
+    }
+  ]
+}

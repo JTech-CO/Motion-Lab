@@ -1,0 +1,56 @@
+{
+  "url": "https://pixijs.com/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://pixijs.com/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://pixijs.com/",
+      "allowedForAuditGet": true,
+      "reason": "robots-missing-not-a-license",
+      "robotsUrl": "https://pixijs.com/robots.txt",
+      "robotsStatus": 404
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://pixijs.com/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:07.237683+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://pixijs.com/",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 23167,
+      "capturedSha256": "691b2f7e3a8a9476462c24552b7aba2c94ad763d0bb110f9354794f78b13c2c8",
+      "responseBodySha256": "691b2f7e3a8a9476462c24552b7aba2c94ad763d0bb110f9354794f78b13c2c8",
+      "title": "PixiJS | The HTML5 Creation Engine | PixiJS",
+      "textCharacters": 673,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.246,
+      "captureCachePath": "exa-results/link-audit/references/captures/187fa9fb9f14356041796d30.json",
+      "captureCacheSha256": "c2a19d008dd965c0104c9bc59efc15388c458adba706b3d25353dcf3466b1672"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-pixijs",
+      "canonicalId": "ref-pixijs",
+      "title": "PixiJS",
+      "role": "canonical",
+      "sourceSha256": "230f8da4a22cceae4b939d44336c6abfca7e7410096ef4b16e45533d73de783f"
+    }
+  ]
+}

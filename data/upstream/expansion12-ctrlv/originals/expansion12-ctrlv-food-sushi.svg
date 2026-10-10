@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            
+            <g class="anim-float">
+                <!-- Wooden Board -->
+                <rect x="80" y="210" width="240" height="40" rx="5" fill="var(--secondary-color)" opacity="0.8"/>
+                
+                <!-- Sushi Piece 1 (Nigiri) -->
+                <g class="anim-bounce">
+                    <rect x="110" y="180" width="80" height="40" rx="20" fill="var(--bg-surface)"/>
+                    <rect x="105" y="160" width="90" height="25" rx="12" fill="var(--primary-color)"/>
+                    <!-- Salmon texture -->
+                    <path class="anim-draw" d="M120 165 L150 180 M140 165 L170 180 M160 165 L180 175" stroke="var(--bg-surface)" stroke-width="3" opacity="0.4"/>
+                </g>
+                
+                <!-- Sushi Piece 2 (Nigiri) -->
+                <g class="anim-bounce" style="animation-delay: 0.5s;">
+                    <rect x="210" y="180" width="80" height="40" rx="20" fill="var(--bg-surface)"/>
+                    <rect x="205" y="160" width="90" height="25" rx="12" fill="var(--accent-color)"/>
+                </g>
+                
+                <!-- Wasabi and Ginger -->
+                <circle cx="300" cy="200" r="12" fill="var(--primary-color)" opacity="0.6"/>
+                <path d="M290 190 Q300 170 310 190" fill="var(--primary-color)" opacity="0.6"/>
+            </g>
+          </svg>

@@ -1,0 +1,15 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Frame -->
+                <path d="M70 140 Q130 120 180 140 Q200 150 220 140 Q270 120 330 140" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                <!-- Left Lens -->
+                <path d="M80 140 C80 200 170 200 170 140 Z" fill="var(--primary-color)"/>
+                <!-- Right Lens -->
+                <path d="M230 140 C230 200 320 200 320 140 Z" fill="var(--primary-color)"/>
+                <!-- Lens Reflections -->
+                <path class="anim-draw" d="M100 150 L140 180 M110 140 L150 170" stroke="white" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+                <path class="anim-draw" style="animation-delay: 0.2s;" d="M250 150 L290 180 M260 140 L300 170" stroke="white" stroke-width="4" stroke-linecap="round" opacity="0.5"/>
+                <!-- Arms connecting back -->
+                <path d="M70 140 Q50 90 90 80 M330 140 Q350 90 310 80" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.8"/>
+            </g>
+          </svg>

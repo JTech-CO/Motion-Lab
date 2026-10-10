@@ -1,0 +1,39 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="160" ry="12" fill="#E2E8F0"/>
+            <!-- Waves -->
+            <path class="anim-float" d="M40 260 Q100 240 160 260 T280 260 T400 240 V300 H0 V260 Z" fill="var(--secondary-color)" opacity="0.5"/>
+            <path class="anim-float" d="M0 270 Q60 250 120 270 T240 270 T360 250 V300 H0 Z" fill="var(--primary-color)" opacity="0.5" style="animation-delay: -1s;"/>
+            
+            <g class="anim-bounce">
+                <!-- Hull -->
+                <path d="M70 200 C70 250 330 250 330 200 C280 240 120 240 70 200 Z" fill="var(--charcoal)"/>
+                <!-- Dragon Head Prow -->
+                <path d="M70 200 C60 160 50 140 80 120 C100 110 110 140 90 150 C70 160 85 180 90 200" fill="var(--charcoal)"/>
+                <!-- Dragon Tail Stern -->
+                <path d="M330 200 C340 160 360 140 330 120" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round" fill="none"/>
+                
+                <!-- Mast and Sail -->
+                <line x1="200" y1="230" x2="200" y2="60" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+                <path d="M120 80 Q200 120 280 80 Q240 200 200 200 Q160 200 120 80 Z" fill="#FFF" opacity="0.9"/>
+                <!-- Sail Stripes -->
+                <path d="M140 100 Q200 130 260 100" stroke="var(--accent-color)" stroke-width="15" fill="none" opacity="0.8"/>
+                <path d="M160 150 Q200 170 240 150" stroke="var(--accent-color)" stroke-width="15" fill="none" opacity="0.8"/>
+                
+                <!-- Shields on the side -->
+                <circle cx="130" cy="220" r="12" fill="var(--primary-color)" stroke="var(--bg-surface)" stroke-width="2"/>
+                <circle cx="160" cy="225" r="12" fill="var(--secondary-color)" stroke="var(--bg-surface)" stroke-width="2"/>
+                <circle cx="190" cy="228" r="12" fill="var(--primary-color)" stroke="var(--bg-surface)" stroke-width="2"/>
+                <circle cx="220" cy="228" r="12" fill="var(--secondary-color)" stroke="var(--bg-surface)" stroke-width="2"/>
+                <circle cx="250" cy="225" r="12" fill="var(--primary-color)" stroke="var(--bg-surface)" stroke-width="2"/>
+                <circle cx="280" cy="220" r="12" fill="var(--secondary-color)" stroke="var(--bg-surface)" stroke-width="2"/>
+                <!-- Oars -->
+                <g stroke="var(--charcoal)" stroke-width="3" stroke-linecap="round" opacity="0.8">
+                    <line x1="130" y1="230" x2="110" y2="260"/>
+                    <line x1="160" y1="235" x2="140" y2="265"/>
+                    <line x1="190" y1="238" x2="170" y2="268"/>
+                    <line x1="220" y1="238" x2="200" y2="268"/>
+                    <line x1="250" y1="235" x2="230" y2="265"/>
+                    <line x1="280" y1="230" x2="260" y2="260"/>
+                </g>
+            </g>
+          </svg>

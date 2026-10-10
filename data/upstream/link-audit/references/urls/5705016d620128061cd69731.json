@@ -1,0 +1,56 @@
+{
+  "url": "https://ui.aceternity.com/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://ui.aceternity.com/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://ui.aceternity.com/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://ui.aceternity.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://ui.aceternity.com/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:07.067336+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://ui.aceternity.com/",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "9e3c0a4bd2703dc4ccf4f6a7458ed80c5ff12f7d23db989855107a3910f4dbb6",
+      "responseBodySha256": "9e3c0a4bd2703dc4ccf4f6a7458ed80c5ff12f7d23db989855107a3910f4dbb6",
+      "title": "Aceternity UI — React & Tailwind CSS Component Library",
+      "textCharacters": 6121,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.138,
+      "captureCachePath": "exa-results/link-audit/references/captures/15ab0c692697f2316ef30e8e.json",
+      "captureCacheSha256": "5389fd10ef123ca282b924c1ead575e0c8d39a1be87331535ded90600671607a"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-aceternity-ui",
+      "canonicalId": "ref-aceternity-ui",
+      "title": "Aceternity UI",
+      "role": "canonical",
+      "sourceSha256": "ae1f7d6846e73a277f1a80ab7b8974fe157d07913392f36ee5c000e7cab51a31"
+    }
+  ]
+}

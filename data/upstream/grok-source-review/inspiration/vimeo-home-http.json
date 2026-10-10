@@ -1,0 +1,19 @@
+{
+  "url": "https://vimeo.com/",
+  "method": "bounded public HTTP GET",
+  "status": 200,
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공식 공개 URL의 제한된 HTTP GET 응답을 읽었다. 원격 JavaScript·미디어 파일을 실행하거나 다운로드하지 않았다. Vimeo: 실제 모션 영화 호스팅 플랫폼이지만 본 조사 작품에는 공개 재배포 라이선스가 확인되지 않았다.",
+  "sector": 4,
+  "siteId": "vimeo",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/vimeo-home-http.json",
+  "rawCacheSha256": "6b2ee9021ccb3887c5d950b857a53e5a7a72022467f8fd24f2df97db2b377b07",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "07aa2d1a695e99e4760f973ae61a0b492942c35dda774a08160fcc3d30ec3ca7",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "finalUrl": "https://vimeo.com/",
+  "byteCount": 1048577,
+  "boundedAt": 1048576,
+  "truncated": true,
+  "originalResponseSha256": "64f1960c7d744b7bf2fc00e34f589dd28654f02a9822e14dfb5209e99e03d646"
+}

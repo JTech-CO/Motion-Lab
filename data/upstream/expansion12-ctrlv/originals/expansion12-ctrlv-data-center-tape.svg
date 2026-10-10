@@ -1,0 +1,26 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <rect x="100" y="80" width="200" height="140" rx="10" fill="var(--primary-color)"/>
+                <rect x="120" y="100" width="160" height="80" rx="5" fill="var(--bg-surface)"/>
+                
+                <g class="anim-rotate" >
+                    <circle cx="160" cy="140" r="30" fill="var(--secondary-color)"/>
+                    <circle cx="160" cy="140" r="10" fill="white"/>
+                    <circle cx="160" cy="120" r="5" fill="white"/>
+                    <circle cx="160" cy="160" r="5" fill="white"/>
+                    <circle cx="140" cy="140" r="5" fill="white"/>
+                    <circle cx="180" cy="140" r="5" fill="white"/>
+                </g>
+                <g class="anim-rotate" >
+                    <circle cx="240" cy="140" r="30" fill="var(--secondary-color)"/>
+                    <circle cx="240" cy="140" r="10" fill="white"/>
+                    <circle cx="240" cy="120" r="5" fill="white"/>
+                    <circle cx="240" cy="160" r="5" fill="white"/>
+                    <circle cx="220" cy="140" r="5" fill="white"/>
+                    <circle cx="260" cy="140" r="5" fill="white"/>
+                </g>
+                
+                <path d="M160 170 C160 190 240 190 240 170" stroke="var(--charcoal)" stroke-width="4" fill="none"/>
+                <rect class="anim-pulse" x="180" y="195" width="40" height="10" rx="5" fill="var(--accent-color)"/>
+            </g>
+          </svg>

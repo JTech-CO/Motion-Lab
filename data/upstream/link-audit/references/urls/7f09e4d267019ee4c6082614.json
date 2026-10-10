@@ -1,0 +1,27 @@
+{
+  "url": "https://github.com/tdimino/claude-code-minoan/tree/main/skills/design-media/grainient",
+  "status": "browser-check-required",
+  "finalUrl": "https://github.com/tdimino/claude-code-minoan/tree/main/skills/design-media/grainient",
+  "reason": "robots-path-disallowed-normal-browser-needed",
+  "invalidConfirmed": false,
+  "inconclusive": true,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/tdimino/claude-code-minoan/tree/main/skills/design-media/grainient",
+      "allowedForAuditGet": false,
+      "reason": "robots-path-disallowed-normal-browser-needed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [],
+  "items": [
+    {
+      "id": "ref-grainient-skill",
+      "canonicalId": "ref-grainient-skill",
+      "title": "Grainient Skill",
+      "role": "canonical",
+      "sourceSha256": "e4c16f60de0834c1f0305fe00e5b660e53dfd9df740a21af9ce7a5a7e505df58"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="150" ry="10" fill="#E2E8F0"/>
+            
+            <!-- Connecting Paths -->
+            <path class="anim-draw" d="M100 150 C130 150 140 100 180 100 C220 100 220 200 260 200 C300 200 310 150 340 150" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.5"/>
+            
+            <!-- Nodes -->
+            <g class="anim-bounce">
+                <!-- Trigger Node -->
+                <circle cx="80" cy="150" r="25" fill="var(--primary-color)"/>
+                <circle cx="80" cy="150" r="12" fill="none" stroke="var(--bg-surface)" stroke-width="3"/>
+                <path d="M80 138 V162 M68 150 H92" stroke="var(--bg-surface)" stroke-width="3"/>
+            </g>
+            
+            <g class="anim-bounce" style="animation-delay: -0.5s;">
+                <!-- Action Node 1 -->
+                <rect x="160" y="80" width="40" height="40" rx="8" fill="var(--secondary-color)"/>
+                <circle cx="180" cy="100" r="6" fill="var(--bg-surface)"/>
+            </g>
+            
+            <g class="anim-bounce" style="animation-delay: -1s;">
+                <!-- Condition Node -->
+                <path d="M260 170 L290 200 L260 230 L230 200 Z" fill="var(--accent-color)"/>
+                <text x="255" y="205" fill="#FFF" font-family="sans-serif" font-weight="bold" font-size="14">?</text>
+            </g>
+            
+            <g class="anim-bounce" style="animation-delay: -1.5s;">
+                <!-- Result Node -->
+                <circle cx="340" cy="150" r="25" fill="var(--primary-color)"/>
+                <path class="anim-draw" d="M330 150 L337 157 L350 142" stroke="var(--bg-surface)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            </g>
+            
+            <!-- Moving Payload -->
+            <circle class="anim-pulse" style="animation-duration: 2s;" cx="220" cy="150" r="8" fill="var(--charcoal)"/>
+          </svg>

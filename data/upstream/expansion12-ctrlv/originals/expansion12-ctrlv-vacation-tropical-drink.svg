@@ -1,0 +1,25 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Coconut/Glass -->
+                <circle cx="200" cy="180" r="50" fill="var(--primary-color)"/>
+                <circle cx="200" cy="180" r="40" fill="#8B5A2B" opacity="0.3"/> <!-- Texture -->
+                
+                <!-- Liquid -->
+                <path d="M155 160 Q200 180 245 160 A 46 46 0 0 1 155 160 Z" fill="var(--secondary-color)"/>
+                <ellipse cx="200" cy="160" rx="45" ry="10" fill="var(--bg-surface)"/>
+                
+                <!-- Straw -->
+                <path class="anim-bounce" d="M220 170 L240 100 L260 110" stroke="var(--accent-color)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                
+                <!-- Umbrella -->
+                <g class="anim-rotate" >
+                    <path d="M190 150 L160 100" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+                    <path d="M120 100 Q160 80 200 100 L160 50 Z" fill="var(--primary-color)"/>
+                    <path d="M120 100 Q160 80 200 100 L160 50 Z" stroke="var(--secondary-color)" stroke-width="4" stroke-linejoin="round" fill="none"/>
+                </g>
+                
+                <!-- Bubbles -->
+                <circle class="anim-pulse" cx="210" cy="140" r="6" fill="var(--accent-color)" opacity="0.8"/>
+                <circle class="anim-pulse" style="animation-delay: 0.2s;" cx="230" cy="150" r="4" fill="var(--accent-color)" opacity="0.8"/>
+            </g>
+          </svg>

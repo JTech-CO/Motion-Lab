@@ -1,0 +1,26 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="120" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <g class="anim-float">
+                <!-- Waffle Cone -->
+                <path d="M160 180 L200 280 L240 180 Z" fill="var(--secondary-color)"/>
+                <path d="M160 180 L200 280 L240 180 Z" stroke="var(--primary-color)" stroke-width="2" opacity="0.3" fill="none"/>
+                <!-- Lattice pattern -->
+                <path d="M170 200 L230 200 M180 230 L220 230" stroke="var(--primary-color)" stroke-width="2" opacity="0.2"/>
+                
+                <!-- Scoops -->
+                <g class="anim-bounce">
+                    <!-- Bottom Scoop -->
+                    <circle cx="200" cy="160" r="45" fill="var(--primary-color)"/>
+                    <path class="anim-data" d="M160 180 Q150 200 170 190" fill="var(--primary-color)"/>
+                    
+                    <!-- Top Scoop -->
+                    <circle cx="200" cy="100" r="40" fill="var(--accent-color)"/>
+                    
+                    <!-- Melting Drips -->
+                    <path class="anim-data" style="animation-delay: -1s;" d="M240 170 Q245 190 235 185" fill="var(--primary-color)"/>
+                    <path class="anim-data" style="animation-delay: -2s;" d="M180 120 Q170 140 190 135" fill="var(--accent-color)"/>
+                </g>
+                
+                <rect x="195" y="65" width="8" height="4" fill="var(--bg-surface)" opacity="0.8"/>
+            </g>
+          </svg>

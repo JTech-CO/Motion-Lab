@@ -1,0 +1,36 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Rabbit Ear Antennas -->
+            <path class="anim-draw" d="M180 80 L120 20 M220 80 L280 20" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round"/>
+            <circle class="anim-glow" cx="120" cy="20" r="5" fill="var(--accent-color)"/>
+            <circle class="anim-glow" cx="280" cy="20" r="5" fill="var(--accent-color)"/>
+            
+            <g class="anim-float">
+                <!-- TV Body -->
+                <rect x="90" y="80" width="220" height="150" rx="15" fill="var(--primary-color)"/>
+                <rect x="100" y="90" width="200" height="130" rx="10" fill="var(--bg-surface)"/>
+                
+                <!-- CRT Screen (curved edges) -->
+                <path d="M110 110 C150 90 220 90 260 110 V190 C220 210 150 210 110 190 Z" fill="var(--charcoal)"/>
+                <!-- Screen static/content abstract -->
+                <path class="anim-pulse" d="M110 110 C150 90 220 90 260 110 V190 C220 210 150 210 110 190 Z" fill="var(--accent-color)" opacity="0.2"/>
+                <path class="anim-pulse" style="animation-duration: 0.1s;" d="M120 120 H250 M120 140 H250 M120 160 H250 M120 180 H250" stroke="white" stroke-width="1" opacity="0.3"/>
+                <!-- Test pattern suggestion -->
+                <rect x="130" y="115" width="20" height="60" fill="var(--primary-color)" opacity="0.8"/>
+                <rect x="160" y="110" width="20" height="70" fill="var(--secondary-color)" opacity="0.8"/>
+                <rect x="190" y="105" width="20" height="80" fill="var(--accent-color)" opacity="0.8"/>
+                <rect x="220" y="110" width="20" height="70" fill="white" opacity="0.8"/>
+                
+                <!-- Control Panel (Right side) -->
+                <rect x="270" y="100" width="20" height="110" rx="5" fill="var(--charcoal)"/>
+                <!-- Dials -->
+                <circle cx="280" cy="120" r="6" fill="var(--primary-color)"/>
+                <circle class="anim-rotate"  cx="280" cy="140" r="6" fill="var(--primary-color)"/>
+                <line x1="280" y1="140" x2="280" y2="135" stroke="var(--bg-surface)" stroke-width="2"/>
+                <!-- Buttons/Vents -->
+                <rect x="275" y="160" width="10" height="3" fill="var(--bg-surface)"/>
+                <rect x="275" y="170" width="10" height="3" fill="var(--bg-surface)"/>
+                <rect x="275" y="180" width="10" height="3" fill="var(--bg-surface)"/>
+                <rect x="275" y="190" width="10" height="3" fill="var(--bg-surface)"/>
+                <rect x="275" y="200" width="10" height="3" fill="var(--bg-surface)"/>
+            </g>
+          </svg>

@@ -1,0 +1,56 @@
+{
+  "url": "https://gsap.com/docs/v3/GSAP/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://gsap.com/docs/v3/GSAP/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://gsap.com/docs/v3/GSAP/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://gsap.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://gsap.com/docs/v3/GSAP/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:29.307267+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://gsap.com/docs/v3/GSAP/",
+      "contentType": "text/html",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 134461,
+      "capturedSha256": "446261f3e307f725bff29467fe72537fb6e84b2be51ce936a97c294f146c3083",
+      "responseBodySha256": "446261f3e307f725bff29467fe72537fb6e84b2be51ce936a97c294f146c3083",
+      "title": "GSAP | GSAP | Docs & LearningGSAPGSAPNotificationsMessages",
+      "textCharacters": 11785,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.35,
+      "captureCachePath": "exa-results/link-audit/references/captures/e77b0bf43d370e8781990314.json",
+      "captureCacheSha256": "59bf3bcb5d79cd2c0f3c32c00c395c1a984a0626de4c04aae56852e4c3071845"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-gsap-documentation",
+      "canonicalId": "ref-gsap-documentation",
+      "title": "GSAP documentation",
+      "role": "canonical",
+      "sourceSha256": "facee26d14d21d69039889b82e7abeb6d7d24b484094e4e6e0eadd168babd824"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "url": "https://lordicon.com/docs/license/free",
+  "site": "lordicon",
+  "reviewedAt": "2026-10-10",
+  "captures": [
+    {
+      "method": "Exa-public-fetch",
+      "status": "content-returned-http-status-unavailable",
+      "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://lordicon.com/docs/license/free",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/exa-lordicon-fetch-1.json",
+      "rawCacheSha256": "44a2aa53eb0e9a41f98e4c7dcca9dadb44a62c9f38d96a7aee06aae4a7598727",
+      "capturedTextSha256": "a69b4d37bc7faaf5eea5bc23b5cc3a275e1486b480d776f49a09c58318764deb",
+      "responseCapturedSha256": null,
+      "boundedAtBytes": null,
+      "providerResponseCacheBytes": 19784,
+      "truncated": null
+    }
+  ],
+  "contentPolicy": "원문 전체는 ignored exa-results 캐시에만 보관합니다. 이 파일은 접근 상태와 SHA 및 자체 요약만 저장하며 페이지 인용은 sites.json termsEvidence에만 최대 25단어로 기록합니다."
+}

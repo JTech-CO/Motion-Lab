@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="130" ry="10" fill="#E2E8F0"/>
+            <g class="anim-float" style="animation-duration: 5s;">
+              <circle cx="200" cy="145" r="88" fill="var(--accent-color)" opacity="0.8"/>
+              <!-- Soft closed eyes -->
+              <path d="M160 130 Q172 138 184 130 M216 130 Q228 138 240 130" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round" fill="none"/>
+              <!-- Gentle smile -->
+              <path d="M172 165 Q200 180 228 165" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round" fill="none"/>
+            </g>
+            <!-- Zen circles / ripples -->
+            <g class="anim-pulse" style="animation-duration: 3s;" stroke="var(--accent-color)" fill="none" opacity="0.3">
+              <circle cx="200" cy="145" r="100"/>
+              <circle cx="200" cy="145" r="115"/>
+              <circle cx="200" cy="145" r="130"/>
+            </g>
+            <!-- Lotus petals -->
+            <g class="anim-float" style="animation-delay:-2s; animation-duration: 6s;" fill="var(--primary-color)" opacity="0.4">
+              <ellipse cx="200" cy="250" rx="12" ry="20"/>
+              <ellipse cx="218" cy="252" rx="12" ry="20" transform="rotate(15 218 252)"/>
+              <ellipse cx="182" cy="252" rx="12" ry="20" transform="rotate(-15 182 252)"/>
+            </g>
+          </svg>

@@ -1,0 +1,16 @@
+{
+  "theme": "colorful plasma energy ball with electric arcs",
+  "style_hints": "Bright glowing sphere, plasma tendrils using fbm noise, electric arc lightning, vibrant cyan-magenta-yellow, fills most of the screen, pulsating animation, bloom glow effect",
+  "references": [
+    "community/open-shaders/Engines_playcanvas_particle_lighting.frag",
+    "community/glsl-shaders/crt_shaders_hyllian_crt-hyllian-glow_crt-hyllian-glow.glsl",
+    "community/lygia/color_layer_glowSourceOver.glsl",
+    "community/lygia/lighting_light_point.wgsl",
+    "community/WebGPU-Lab/src_scripts_raytrace_cloud.wgsl"
+  ],
+  "attempts": 3,
+  "created_at": "2026-03-25T14:05:58.042917+00:00",
+  "glsl_lines": 126,
+  "success": false,
+  "last_error": "<shader>\nERROR: 0:22: 'mod289' : no matching overloaded function found \nERROR: 0:22: 'assign' :  cannot convert from ' const float' to ' temp highp 2-component vector of float'\nERROR: 0:22: '' : compilation terminated \nERROR: 3 compilation errors.  No code generated."
+}

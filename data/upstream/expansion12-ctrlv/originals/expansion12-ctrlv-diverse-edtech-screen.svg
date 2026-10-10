@@ -1,0 +1,29 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Laptop -->
+                <rect x="80" y="80" width="240" height="150" rx="10" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="8"/>
+                <path d="M50 230 L350 230 L340 250 H60 Z" fill="var(--charcoal)"/>
+                
+                <!-- Screen Content (Open Book) -->
+                <path d="M120 180 Q160 150 200 180 V120 Q160 90 120 120 Z" fill="var(--primary-color)"/>
+                <path d="M280 180 Q240 150 200 180 V120 Q240 90 280 120 Z" fill="var(--secondary-color)"/>
+                <line x1="200" y1="120" x2="200" y2="180" stroke="var(--bg-surface)" stroke-width="4"/>
+                
+                <!-- Book Lines -->
+                <path d="M130 140 Q160 120 190 140 M130 160 Q160 140 190 160" stroke="var(--bg-surface)" stroke-width="3" stroke-linecap="round" fill="none"/>
+                <path d="M270 140 Q240 120 210 140 M270 160 Q240 140 210 160" stroke="var(--bg-surface)" stroke-width="3" stroke-linecap="round" fill="none"/>
+                
+                <!-- Graduation Cap Bursting Out -->
+                <g transform="translate(200, 70)">
+                    <g class="anim-bounce">
+                    <path d="M0 -30 L-40 -10 L0 10 L40 -10 Z" fill="var(--accent-color)"/>
+                    <path d="M-20 0 V15 A 20 10 0 0 0 20 15 V0 Z" fill="var(--primary-color)"/>
+                    <path class="anim-rotate"  d="M30 -5 V15" stroke="var(--charcoal)" stroke-width="3"/>
+                </g>
+                </g>
+                
+                <!-- Stars / Sparks -->
+                <path class="anim-pulse" d="M90 60 L95 70 L105 75 L95 80 L90 90 L85 80 L75 75 L85 70 Z" fill="var(--secondary-color)"/>
+                <path class="anim-pulse" style="animation-delay: 0.3s;" d="M300 50 L303 56 L309 59 L303 62 L300 68 L297 62 L291 59 L297 56 Z" fill="var(--primary-color)"/>
+            </g>
+          </svg>

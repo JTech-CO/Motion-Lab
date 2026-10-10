@@ -1,0 +1,56 @@
+{
+  "url": "https://www.behance.net/zeofmotion",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://www.behance.net/zeofmotion",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://www.behance.net/zeofmotion",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://www.behance.net/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://www.behance.net/zeofmotion",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:02.159704+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://www.behance.net/zeofmotion",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "51a2f2ab773e22f90842a1d661d8185516c0cc8b91d21c7a5fbb49c30803eb69",
+      "responseBodySha256": "51a2f2ab773e22f90842a1d661d8185516c0cc8b91d21c7a5fbb49c30803eb69",
+      "title": "Ze do Motion - Motion Designer & Generalist 3D in Brazil :: Behance",
+      "textCharacters": 67,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.827,
+      "captureCachePath": "exa-results/link-audit/references/captures/904a41ce1d42fcd64d095ac9.json",
+      "captureCacheSha256": "704217dd6b531e9fa80a5c331f73c184aaf4c60b1991fe429390dcf4064c41a6"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-ze-do-motion",
+      "canonicalId": "ref-ze-do-motion",
+      "title": "Ze do Motion",
+      "role": "canonical",
+      "sourceSha256": "a49194ac82427b6dd728fb22f0ac1426ee9ee4af385a8401177f6e8805fedd4f"
+    }
+  ]
+}

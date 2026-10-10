@@ -1,0 +1,17 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Sun aura -->
+            <circle class="anim-pulse" cx="200" cy="140" r="100" fill="var(--secondary-color)" opacity="0.1"/>
+            <path class="anim-float" d="M100 260 L140 180 L180 260 Z" fill="var(--primary-color)" opacity="0.6"/>
+            <path class="anim-float" d="M160 260 L200 120 L240 260 Z" fill="var(--primary-color)" opacity="0.7"/>
+            <!-- Main Pyramid -->
+            <path d="M120 260 L180 100 H220 L280 260 Z" fill="var(--primary-color)"/>
+            <path d="M200 100 L200 260 L280 260 Z" fill="var(--charcoal)" opacity="0.1"/>
+            <!-- Temple Top -->
+            <rect x="170" y="70" width="60" height="30" fill="var(--primary-color)"/>
+            <rect x="165" y="60" width="70" height="10" fill="var(--primary-color)"/>
+            <rect x="190" y="80" width="20" height="20" fill="var(--charcoal)"/>
+            <!-- Steps -->
+            <path class="anim-draw" d="M190 260 L180 100 M210 260 L220 100" stroke="white" stroke-width="2"/>
+            <path d="M130 240 H270 M140 220 H260 M150 200 H250 M160 180 H240 M170 160 H230 M175 140 H225 M180 120 H220" stroke="white" stroke-width="2"/>
+            <circle class="anim-glow" cx="200" cy="50" r="10" fill="var(--accent-color)"/>
+          </svg>

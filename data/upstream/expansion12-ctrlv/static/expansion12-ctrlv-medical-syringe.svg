@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <g>
+                
+                <rect x="185" y="60" width="30" height="20" rx="2" fill="#f43f5e" />
+                
+                <line x1="200" y1="60" x2="200" y2="20" stroke="#334155" stroke-width="4" />
+                <path d="M198 20 L202 20 L200 15 Z" fill="#334155" />
+                
+                
+                <rect x="170" y="80" width="60" height="120" rx="5" fill="#ffffff" stroke="#6366f1" stroke-width="4" />
+                <rect x="174" y="100" width="52" height="96" fill="#f43f5e" opacity="0.3" />
+                
+                
+                <line x1="170" y1="110" x2="185" y2="110" stroke="#6366f1" stroke-width="3" />
+                <line x1="170" y1="130" x2="195" y2="130" stroke="#6366f1" stroke-width="3" />
+                <line x1="170" y1="150" x2="185" y2="150" stroke="#6366f1" stroke-width="3" />
+                <line x1="170" y1="170" x2="195" y2="170" stroke="#6366f1" stroke-width="3" />
+                
+                
+                <rect style="transform-origin:top" x="174" y="84" width="52" height="20" fill="#334155" />
+                
+                
+                <rect style="transform-origin:top" x="190" y="200" width="20" height="40" fill="#6366f1" />
+                
+                <rect style="transform-origin:top" x="160" y="240" width="80" height="15" rx="5" fill="#6366f1" />
+            </g>
+            
+            
+            <circle cx="200" cy="10" r="4" fill="#DFD116" />
+          </svg>

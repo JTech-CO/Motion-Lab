@@ -1,0 +1,56 @@
+{
+  "url": "https://www.behance.net/gallery/254081025/Kinetic-Type-07",
+  "status": "access-blocked-normal-browser-required",
+  "httpStatus": 403,
+  "finalUrl": "https://www.behance.net/gallery/254081025/Kinetic-Type-07",
+  "reason": "access-blocked-normal-browser-required",
+  "invalidConfirmed": false,
+  "inconclusive": true,
+  "robotsChecks": [
+    {
+      "url": "https://www.behance.net/gallery/254081025/Kinetic-Type-07",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://www.behance.net/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://www.behance.net/gallery/254081025/Kinetic-Type-07",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:46.398012+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 403,
+      "finalUrl": "https://www.behance.net/gallery/254081025/Kinetic-Type-07",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": "0",
+      "truncated": false,
+      "capturedBytes": 453,
+      "capturedSha256": "278006835025b8c477f8093ddc645c7e4486ab6450a1da376ac792a0c0da011d",
+      "responseBodySha256": "278006835025b8c477f8093ddc645c7e4486ab6450a1da376ac792a0c0da011d",
+      "title": "",
+      "textCharacters": 0,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.037,
+      "captureCachePath": "exa-results/link-audit/references/captures/063c55a8ecb2135f3a5c87f7.json",
+      "captureCacheSha256": "7da6aa26f11c9ee973ba0c69ad1ddcad2ae0059e6fc120be28a00de556ea5b20"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-kinetic-type-07",
+      "canonicalId": "ref-kinetic-type-07",
+      "title": "Kinetic Type 07",
+      "role": "canonical",
+      "sourceSha256": "8751b5b87ffd83bd76d906f4e4d00be68e70292c9a833b1f0af1c3de2dd7e582"
+    }
+  ]
+}

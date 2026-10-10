@@ -1,0 +1,19 @@
+{
+  "url": "https://developer.dribbble.com/terms/",
+  "method": "bounded public HTTP GET",
+  "status": 200,
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공식 공개 URL의 제한된 HTTP GET 응답을 읽었다. 원격 JavaScript·미디어 파일을 실행하거나 다운로드하지 않았다. API에 노출된 데이터와 API 외 스크래핑·저장 제한을 구분한다.",
+  "sector": 4,
+  "siteId": "dribbble",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/dribbble-api-terms-http.json",
+  "rawCacheSha256": "dd0c2c22f2ef087d2598952d12c072309ecc7068093982414e61f664a931bd73",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "286b7afee3f4ba10a72e39ee2859294665ba1153f7b234ebe6979192c44c61f0",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "finalUrl": "https://developer.dribbble.com/terms/",
+  "byteCount": 7846,
+  "boundedAt": 1048576,
+  "truncated": false,
+  "originalResponseSha256": "8c6315b2bfb33ace70bb53dad95477ee820b884da7e8d56606f0829b16fdfc1d"
+}

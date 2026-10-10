@@ -1,0 +1,35 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Test Cassette -->
+                <rect x="100" y="100" width="200" height="80" rx="10" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="4"/>
+                
+                <!-- Drop window -->
+                <circle cx="140" cy="140" r="20" fill="var(--secondary-color)" opacity="0.2"/>
+                <circle cx="140" cy="140" r="20" stroke="var(--charcoal)" stroke-width="3" fill="none"/>
+                
+                <!-- Test window -->
+                <rect x="200" y="120" width="60" height="40" rx="5" fill="var(--secondary-color)" opacity="0.2"/>
+                <rect x="200" y="120" width="60" height="40" rx="5" stroke="var(--charcoal)" stroke-width="3" fill="none"/>
+                
+                <!-- Result Lines -->
+                <g class="anim-pulse">
+                    <!-- Control Line (C) -->
+                    <line x1="220" y1="125" x2="220" y2="155" stroke="var(--primary-color)" stroke-width="6" stroke-linecap="round"/>
+                    <!-- Test Line (T) / Positive -->
+                    <line x1="240" y1="125" x2="240" y2="155" stroke="var(--accent-color)" stroke-width="6" stroke-linecap="round"/>
+                </g>
+                
+                <!-- Labels -->
+                <text x="215" y="110" fill="var(--charcoal)" font-family="sans-serif" font-weight="bold" font-size="14">C</text>
+                <text x="235" y="110" fill="var(--charcoal)" font-family="sans-serif" font-weight="bold" font-size="14">T</text>
+                
+                <!-- Swab -->
+                <g class="anim-draw" style="animation-delay: 0.5s;">
+                    <line x1="140" y1="20" x2="140" y2="100" stroke="var(--secondary-color)" stroke-width="4" stroke-linecap="round"/>
+                    <rect x="135" y="80" width="10" height="25" rx="5" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="2"/>
+                </g>
+                
+                <!-- Drops -->
+                <circle class="anim-bounce" cx="140" cy="115" r="5" fill="var(--accent-color)"/>
+            </g>
+          </svg>

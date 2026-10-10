@@ -1,0 +1,56 @@
+{
+  "url": "https://codeberg.org/evasync/creative-coding-resources",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://codeberg.org/evasync/creative-coding-resources",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://codeberg.org/evasync/creative-coding-resources",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://codeberg.org/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://codeberg.org/evasync/creative-coding-resources",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:31.569292+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://codeberg.org/evasync/creative-coding-resources",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 57708,
+      "capturedSha256": "5807dcbda10143c1d519c053365953762d8c2824053605ecaee2ae8a7ffe678c",
+      "responseBodySha256": "5807dcbda10143c1d519c053365953762d8c2824053605ecaee2ae8a7ffe678c",
+      "title": "evasync/creative-coding-resources: A collection of resources around creative coding and generative art (not AI) - Codeberg.org",
+      "textCharacters": 4947,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.414,
+      "captureCachePath": "exa-results/link-audit/references/captures/e27d5588b4fc88a62b834bb2.json",
+      "captureCacheSha256": "3e055da71a4485ef223e00530b673295e7b3231a2e90ae05a0c3f3114370ba07"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-creative-coding-resources",
+      "canonicalId": "ref-creative-coding-resources",
+      "title": "Creative Coding Resources",
+      "role": "canonical",
+      "sourceSha256": "35a21ae4997bbc7c5171edcd77acb285099ba1415e060176835263bdf1bf6770"
+    }
+  ]
+}

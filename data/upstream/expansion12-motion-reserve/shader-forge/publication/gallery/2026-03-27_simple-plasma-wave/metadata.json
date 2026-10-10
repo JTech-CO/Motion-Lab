@@ -1,0 +1,25 @@
+{
+  "theme": "simple plasma wave",
+  "style_hints": "",
+  "references": [
+    "shabon-fx/PlasmaWave.frag",
+    "community/lygia/generative_gerstnerWave.glsl",
+    "shabon-fx/AuroraWaves.frag",
+    "community/lygia/generative_gerstnerWave.wgsl",
+    "community/lygia/math_aamirror.wgsl"
+  ],
+  "attempts": 1,
+  "created_at": "2026-03-27T03:59:32.983471+00:00",
+  "glsl_lines": 33,
+  "success": true,
+  "review": {
+    "visual_complexity": 3,
+    "code_quality": 4,
+    "theme_match": 5,
+    "animation": 4,
+    "originality": 3,
+    "total": 19,
+    "verdict": "pass",
+    "feedback": "Solid plasma wave implementation with clean code, good animation, and full-canvas brightness; could add more visual depth (e.g., subtle noise or color distortion) to elevate complexity."
+  }
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 384">
+        
+        <path d="M256 320 L256 280 M216 320 L296 320" stroke="var(--illu-primary)" stroke-width="8" stroke-linecap="round" />
+        
+        
+        <rect x="216" y="100" width="80" height="140" rx="40" fill="var(--illu-primary)" fill-opacity="0.1" stroke="var(--illu-primary)" stroke-width="8" />
+        <line x1="216" y1="140" x2="296" y2="140" stroke="var(--illu-primary)" stroke-width="4" stroke-opacity="0.5" />
+        <line x1="216" y1="170" x2="296" y2="170" stroke="var(--illu-primary)" stroke-width="4" stroke-opacity="0.5" />
+        <line x1="216" y1="200" x2="296" y2="200" stroke="var(--illu-primary)" stroke-width="4" stroke-opacity="0.5" />
+        
+        
+        <path d="M170 140 Q150 170 170 200" fill="none" stroke="var(--illu-secondary)" stroke-width="6" stroke-linecap="round" opacity="0.6" />
+        <path d="M342 140 Q362 170 342 200" fill="none" stroke="var(--illu-secondary)" stroke-width="6" stroke-linecap="round" opacity="0.6" />
+        
+        
+        <circle cx="256" cy="120" r="8" fill="var(--illu-accent)" />
+        <text x="270" y="125" font-family="Arial" font-size="12" font-weight="bold" fill="var(--illu-accent)">REC</text>
+      </svg>

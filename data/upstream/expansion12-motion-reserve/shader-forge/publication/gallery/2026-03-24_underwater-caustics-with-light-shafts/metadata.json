@@ -1,0 +1,16 @@
+{
+  "theme": "underwater caustics with light shafts",
+  "style_hints": "Use value noise for water surface caustics, volumetric light rays stepping through medium, deep ocean blue-teal palette, animated ripple patterns, Fresnel at water surface, 80-step raymarch",
+  "references": [
+    "WaterCaustics",
+    "AuroraWaves",
+    "MatrixRain"
+  ],
+  "attempts": 1,
+  "created_at": "2026-03-24T14:04:39.247400+00:00",
+  "glsl_lines": 87,
+  "success": true,
+  "status": "rejected",
+  "rejected_at": "2026-03-28T13:30:36.975097+00:00",
+  "rejected_comment": ""
+}

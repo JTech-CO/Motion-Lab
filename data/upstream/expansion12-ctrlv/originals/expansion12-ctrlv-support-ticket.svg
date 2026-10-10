@@ -1,0 +1,19 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Ticket / Document base -->
+            <path class="anim-float" d="M130 60 H230 L270 100 V230 H130 Z" fill="var(--secondary-color)"/>
+            <path class="anim-float" d="M230 60 V100 H270 Z" fill="var(--primary-color)" opacity="0.5"/>
+            <path class="anim-float" d="M150 100 H210 M150 120 H250 M150 140 H230 M150 160 H250" stroke="var(--bg-surface)" stroke-width="6" stroke-linecap="round"/>
+            
+            <!-- Perforated top -->
+            <path d="M130 60 H270 M130 50 H270" stroke="var(--bg-surface)" stroke-width="4" stroke-dasharray="4 4"/>
+            
+            <!-- Wrench / Tool -->
+            <g class="anim-rotate" >
+                <path d="M170 230 L220 180" stroke="var(--charcoal)" stroke-width="15" stroke-linecap="round"/>
+                <circle cx="230" cy="170" r="20" fill="var(--charcoal)"/>
+                <circle cx="230" cy="170" r="10" fill="var(--bg-surface)"/>
+                <path d="M245 155 L225 175 L215 165 L235 145 Z" fill="var(--bg-surface)"/>
+                <!-- Glow spot -->
+                <circle class="anim-glow" cx="170" cy="230" r="6" fill="var(--accent-color)"/>
+            </g>
+          </svg>

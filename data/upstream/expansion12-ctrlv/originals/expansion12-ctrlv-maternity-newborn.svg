@@ -1,0 +1,60 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Crib / bassinet -->
+            <path d="M80 200 Q80 260 140 270 H260 Q320 260 320 200 Z" fill="var(--primary-color)" opacity="0.08" stroke="var(--primary-color)" stroke-width="4"/>
+            <!-- Crib legs -->
+            <line x1="110" y1="270" x2="100" y2="295" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+            <line x1="290" y1="270" x2="300" y2="295" stroke="var(--charcoal)" stroke-width="6" stroke-linecap="round"/>
+            <!-- Crib rails -->
+            <g stroke="var(--primary-color)" stroke-width="3" opacity="0.4">
+              <line x1="140" y1="200" x2="135" y2="270"/>
+              <line x1="175" y1="195" x2="173" y2="270"/>
+              <line x1="210" y1="193" x2="210" y2="270"/>
+              <line x1="245" y1="195" x2="247" y2="270"/>
+              <line x1="275" y1="200" x2="280" y2="270"/>
+            </g>
+
+            <!-- Mobile above crib -->
+            <line x1="200" y1="50" x2="200" y2="80" stroke="var(--charcoal)" stroke-width="3"/>
+            <line x1="140" y1="80" x2="260" y2="80" stroke="var(--charcoal)" stroke-width="3"/>
+            <!-- Mobile items -->
+            <g class="anim-rotate" style="transform-origin: 200px 80px; animation-duration: 8s;">
+              <line x1="155" y1="80" x2="155" y2="110" stroke="var(--charcoal)" stroke-width="2"/>
+              <circle cx="155" cy="120" r="12" fill="var(--accent-color)" opacity="0.7"/>
+              <line x1="245" y1="80" x2="245" y2="100" stroke="var(--charcoal)" stroke-width="2"/>
+              <path d="M233 110 L245 100 L257 110 L253 125 L237 125 Z" fill="var(--secondary-color)" opacity="0.7"/>
+              <line x1="200" y1="80" x2="200" y2="95" stroke="var(--charcoal)" stroke-width="2"/>
+              <path d="M192 97 L200 95 L208 97 L206 110 L194 110 Z" fill="var(--primary-color)" opacity="0.7"/>
+            </g>
+
+            <!-- Swaddled baby -->
+            <g class="anim-float" style="animation-duration: 5s;">
+              <g transform="translate(200, 225)">
+                <!-- Swaddle blanket body -->
+                <path d="M-45 0 Q-50 25 -30 40 Q0 55 30 40 Q50 25 45 0 Q30 -20 0 -20 Q-30 -20 -45 0 Z" fill="var(--bg-surface)" stroke="var(--primary-color)" stroke-width="4"/>
+                <!-- Blanket fold/texture -->
+                <path d="M-35 5 Q0 15 35 5" stroke="var(--primary-color)" stroke-width="2" fill="none" opacity="0.4"/>
+                <!-- Baby head -->
+                <circle cx="0" cy="-30" r="22" fill="#F5CBA7" stroke="var(--charcoal)" stroke-width="3"/>
+                <!-- Baby cap -->
+                <path d="M-21 -38 Q0 -60 21 -38 Q15 -30 0 -28 Q-15 -30 -21 -38 Z" fill="var(--secondary-color)" opacity="0.7"/>
+                <!-- Closed sleepy eyes -->
+                <path d="M-9 -32 Q-6 -29 -3 -32" stroke="var(--charcoal)" stroke-width="2" stroke-linecap="round" fill="none"/>
+                <path d="M3 -32 Q6 -29 9 -32" stroke="var(--charcoal)" stroke-width="2" stroke-linecap="round" fill="none"/>
+                <!-- Tiny mouth -->
+                <path d="M-3 -24 Q0 -21 3 -24" stroke="var(--charcoal)" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+                <!-- Tiny fist peeking out -->
+                <circle cx="-42" cy="10" r="8" fill="#F5CBA7" stroke="var(--charcoal)" stroke-width="2"/>
+                <!-- Z for sleeping -->
+                <g class="anim-pulse" style="animation-duration: 3s;" transform="translate(30, -55)">
+                  <text font-family="sans-serif" font-weight="bold" font-size="14" fill="var(--primary-color)" opacity="0.6">z</text>
+                </g>
+                <g transform="translate(40, -68)">
+        <g class="anim-pulse" style="animation-duration: 3s; animation-delay: -1s;">
+        
+                  <text font-family="sans-serif" font-weight="bold" font-size="10" fill="var(--primary-color)" opacity="0.4">z</text>
+                
+        </g>
+    </g>
+              </g>
+            </g>
+          </svg>

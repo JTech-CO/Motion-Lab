@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal & Disclaimer — ctrlv</title>
+    <meta name="description"
+        content="License, AI disclaimer, GDPR privacy policy and copyright information for ctrlv illustrations.">
+    <!-- ═══ Favicon ═══════════════════════════════════════════════════════════ -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'%3E%3Crect width='180' height='180' rx='40' fill='%236366f1'/%3E%3Cpath d='M 45 60 L 90 140 L 135 60' stroke='white' stroke-width='16' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E">
+    <link rel="manifest" href="/manifest.json">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --brand: #6366f1;
+            --bg: #f8fafc;
+            --surface: #ffffff;
+            --border: #e2e8f0;
+            --text: #0f172a;
+            --muted: #475569;
+            --radius: 16px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Header */
+        .header {
+            position: sticky;
+            top: 20px;
+            z-index: 100;
+            padding: 0 24px;
+            margin-bottom: 60px;
+        }
+
+        .header-inner {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 14px 32px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(8px);
+            border: 1px solid var(--border);
+            border-radius: 99px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 700;
+            font-size: 1.125rem;
+            color: var(--text);
+            text-decoration: none;
+        }
+
+        .brand svg {
+            color: var(--brand);
+        }
+
+        .back-link {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--muted);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--brand);
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 24px 120px;
+        }
+
+        .page-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            letter-spacing: -0.03em;
+            margin-bottom: 8px;
+        }
+
+        .page-subtitle {
+            color: var(--muted);
+            font-size: 1.05rem;
+            margin-bottom: 64px;
+        }
+
+        /* Badges */
+        .badge-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 56px;
+        }
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            border-radius: 99px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            border: 1.5px solid;
+        }
+
+        .badge-green {
+            background: #f0fdf4;
+            border-color: #bbf7d0;
+            color: #166534;
+        }
+
+        .badge-blue {
+            background: #eff6ff;
+            border-color: #bfdbfe;
+            color: #1d4ed8;
+        }
+
+        .badge-purple {
+            background: #f5f3ff;
+            border-color: #ddd6fe;
+            color: #5b21b6;
+        }
+
+        /* Section */
+        .section {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 40px;
+            margin-bottom: 24px;
+        }
+
+        .section-icon {
+            width: 44px;
+            height: 44px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            font-size: 1.4rem;
+        }
+
+        .icon-green {
+            background: #f0fdf4;
+        }
+
+        .icon-blue {
+            background: #eff6ff;
+        }
+
+        .icon-yellow {
+            background: #fefce8;
+        }
+
+        .icon-purple {
+            background: #f5f3ff;
+        }
+
+        .icon-slate {
+            background: #f8fafc;
+        }
+
+        .section h2 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 14px;
+            letter-spacing: -0.02em;
+        }
+
+        .section p {
+            color: var(--muted);
+            font-size: 0.9375rem;
+            margin-bottom: 14px;
+        }
+
+        .section p:last-child {
+            margin-bottom: 0;
+        }
+
+        .section ul {
+            color: var(--muted);
+            font-size: 0.9375rem;
+            padding-left: 20px;
+        }
+
+        .section ul li {
+            margin-bottom: 6px;
+        }
+
+        .highlight-box {
+            background: var(--bg);
+            border: 1.5px solid var(--border);
+            border-radius: 10px;
+            padding: 16px 20px;
+            margin-top: 16px;
+            font-size: 0.9rem;
+            color: var(--muted);
+        }
+
+        .highlight-box strong {
+            color: var(--text);
+        }
+
+        a {
+            color: var(--brand);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 40px 24px;
+            color: var(--muted);
+            font-size: 0.85rem;
+            border-top: 1px solid var(--border);
+        }
+
+        @media (max-width: 640px) {
+            .page-title {
+                font-size: 1.75rem;
+            }
+
+            .section {
+                padding: 24px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-inner">
+            <a href="index.html" class="brand">
+                <svg width="30" height="30" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="32" height="32" rx="8" fill="#6366f1" />
+                    <path d="M8 10 L16 22 L24 10" stroke="white" stroke-width="3.5" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+                ctrlv
+            </a>
+            <a href="index.html" class="back-link">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round">
+                    <polyline points="15 18 9 12 15 6" />
+                </svg>
+                Back to Gallery
+            </a>
+        </div>
+    </header>
+
+    <main class="container">
+        <h1 class="page-title">Legal & Disclaimer</h1>
+        <p class="page-subtitle">Last updated: March 2026 &nbsp;·&nbsp; ctrlv illustration library</p>
+
+        <div class="badge-row">
+            <span class="badge badge-green">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round">
+                    <polyline points="20 6 9 17 4 12" />
+                </svg>
+                Free to Use — No Attribution Required
+            </span>
+            <span class="badge badge-blue">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round">
+                    <circle cx="12" cy="12" r="10" />
+                    <line x1="12" y1="8" x2="12" y2="12" />
+                    <line x1="12" y1="16" x2="12.01" y2="16" />
+                </svg>
+                CC0 1.0 Universal Public Domain
+            </span>
+            <span class="badge badge-purple">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                    stroke-linecap="round">
+                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
+                GDPR & Privacy Compliant
+            </span>
+        </div>
+
+        <!-- License -->
+        <div class="section">
+            <div class="section-icon icon-green">🆓</div>
+            <h2>License — CC0 1.0 Universal (Public Domain)</h2>
+            <p>All illustrations on ctrlv are released under the <strong>Creative Commons Zero (CC0 1.0)</strong>
+                license. This means they are dedicated to the public domain to the fullest extent permitted by law.</p>
+            <p>You are free to:</p>
+            <ul>
+                <li>Use them in personal and commercial projects</li>
+                <li>Modify, remix, and build upon them</li>
+                <li>Share and redistribute without restriction</li>
+                <li>Use them without attribution or credit</li>
+            </ul>
+            <div class="highlight-box">
+                <strong>No attribution required.</strong> While credit is always appreciated, it is never legally
+                required. You can use these illustrations in any project, immediately, for free — forever.
+            </div>
+        </div>
+
+        <!-- AI Disclaimer -->
+        <div class="section">
+            <div class="section-icon icon-yellow">🤖</div>
+            <h2>AI-Generated Content Disclaimer</h2>
+            <p>All illustrations in this library are <strong>fully generated by artificial intelligence</strong> using
+                Antigravity AI coding assistant. They are vector SVG files defined programmatically in code — not
+                sourced from any external image database, stock library, or human artist's portfolio.</p>
+            <p>Because this content is AI-generated and released under CC0, there are no human copyright claims to
+                assert. We make no warranty that any illustration is wholly original or non-infringing under all
+                jurisdictions' emerging AI copyright laws, which vary globally.</p>
+            <p><strong>We are not liable for any copyright claims arising from the use of these illustrations.</strong>
+                By downloading or using any illustration, you accept full responsibility for verifying its suitability
+                for your use case.</p>
+        </div>
+
+        <!-- No Liability -->
+        <div class="section">
+            <div class="section-icon icon-blue">⚖️</div>
+            <h2>No Warranty & Limitation of Liability</h2>
+            <p>These illustrations are provided <strong>"as-is"</strong> without any warranty of any kind, express or
+                implied, including but not limited to warranties of fitness for a particular purpose, accuracy, or
+                non-infringement.</p>
+            <p>In no event shall the ctrlv team be liable for any claim, damages, or other liability arising from the
+                use of, or inability to use, illustrations from this library — whether in an action of contract, tort,
+                or otherwise.</p>
+        </div>
+
+        <!-- GDPR / Global Privacy -->
+        <div id="privacy" class="section">
+            <div class="section-icon icon-purple">🔒</div>
+            <h2>Privacy & Data Security (GDPR, APPI, PII)</h2>
+            <p>We take a "Privacy by Design" approach. ctrlv is compliant with the **EU General Data Protection
+                Regulation (GDPR)**, **UK GDPR**, and various Asian data protection laws (such as Japan’s **APPI** and
+                India’s **DPDP**).</p>
+            <ul>
+                <li><strong>Analytics (Performance Tracking):</strong> We use Google Analytics for Firebase to monitor
+                    aggregate, non-identifiable usage patterns (e.g., page views). We do NOT collect names, emails, or
+                    IP addresses that can identify a specific person.</li>
+                <li><strong>Basis for Processing:</strong> We process this data based on <strong>Legitimate
+                        Interest</strong> to maintain and secure the library, or <strong>Consent</strong> where cookies
+                    are involved.</li>
+                <li><strong>Your Rights:</strong> You have the right to access, rectify, or request deletion of any
+                    telemetry data associated with your browser. To do so, please clear your browser cookies/storage.
+                </li>
+            </ul>
+        </div>
+
+        <!-- USA / California CCPA -->
+        <div class="section">
+            <div class="section-icon icon-blue">🇺🇸</div>
+            <h2>California Consumer Privacy (CCPA/CPRA)</h2>
+            <p>Under the California Consumer Privacy Act (CCPA), California residents have specific rights regarding
+                their personal information.</p>
+            <ul>
+                <li><strong>No Sale of Data:</strong> **We do not sell, rent, or share your personal information** with
+                    third parties for their own commercial use.</li>
+                <li><strong>Categories of Data:</strong> We only collect "Identifiers" (Cookies/Device IDs) and
+                    "Internet Activity" (site usage) in an anonymized format for performance optimization.</li>
+                <li><strong>Right to Opt-Out:</strong> Use the "Decline" option on our cookie banner or browser settings
+                    to prevent any tracking.</li>
+            </ul>
+        </div>
+
+        <!-- Copyright / DMCA -->
+        <div id="copyright" class="section">
+            <div class="section-icon icon-yellow">📄</div>
+            <h2>Copyright & DMCA Takedown Policy (Safe Harbor)</h2>
+            <p>As an AI-generated library, ctrlv operates under the **Safe Harbor** provisions of the Digital Millennium
+                Copyright Act (DMCA). We respect the intellectual property of others.</p>
+            <p>If you are a copyright owner or an agent thereof and believe that any content in our library infringes
+                upon your copyrights, you may submit a notification pursuant to the DMCA by providing our Copyright
+                Agent with the following information in writing:</p>
+            <ul>
+                <li>A physical or electronic signature of a person authorized to act on behalf of the owner of an
+                    exclusive right that is allegedly infringed.</li>
+                <li>Identification of the copyrighted work claimed to have been infringed.</li>
+                <li>Identification of the material that is claimed to be infringing (including the Illustration ID).
+                </li>
+                <li>Information reasonably sufficient to permit us to contact you (Email/Address).</li>
+            </ul>
+            <div class="highlight-box">
+                Submit DMCA notices with the subject line "DMCA Notice" to our designated contact point or platform
+                administrator for review and removal of infringing content.
+            </div>
+        </div>
+
+        <!-- Cross-Border / Asia -->
+        <div class="section">
+            <div class="section-icon icon-slate">🌍</div>
+            <h2>Cross-Border Data Transfers</h2>
+            <p>By using ctrlv, your data (anonymized telemetry) may be transferred to and processed on servers located
+                outside of your state, province, or country (specifically in the United States via Firebase/Google).</p>
+            <p>Google’s infrastructure is certified under the **EU-U.S. Data Privacy Framework**, ensuring that your
+                data is protected to the same standards regardless of location.</p>
+        </div>
+
+        <!-- Third-Party -->
+        <div class="section">
+            <div class="section-icon icon-slate">🔗</div>
+            <h2>Third-Party Services</h2>
+            <ul>
+                <li><strong>Firebase Hosting & Analytics</strong> — Used for site delivery and performance metrics. See
+                    <a href="https://firebase.google.com/support/privacy" target="_blank">Firebase Privacy
+                        documentation</a>.
+                </li>
+                <li><strong>Google Fonts</strong> — Fonts are served via Google's CDN. No user-specific data is shared.
+                </li>
+                <li><strong>gifshot</strong> — Static library for GIF creation; execution is 100% local to your machine.
+                </li>
+            </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="section">
+            <div class="section-icon icon-green">✉️</div>
+            <h2>Contact & Compliance</h2>
+            <p>For any legal or data privacy inquiries, please reach out to our team via our official community
+                channels.</p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 ctrlv · All illustrations are <a href="LICENSE">CC0 Public Domain</a> · <a
+                href="disclaimer.html">Legal</a> · <a href="index.html">Manage Cookies</a></p>
+    </footer>
+</body>
+
+</html>

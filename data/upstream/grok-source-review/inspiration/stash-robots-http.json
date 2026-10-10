@@ -1,0 +1,19 @@
+{
+  "url": "https://www.stashmedia.tv/robots.txt",
+  "method": "bounded public HTTP GET",
+  "status": 200,
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공식 공개 URL의 제한된 HTTP GET 응답을 읽었다. 원격 JavaScript·미디어 파일을 실행하거나 다운로드하지 않았다. robots의 Disallow 주석은 활성 규칙이 아니다. 영상·아카이브 재배포 허가를 뜻하지 않는다.",
+  "sector": 4,
+  "siteId": "stash",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/stash-robots-http.json",
+  "rawCacheSha256": "6c98b89f77a089f660955aca46f2868a229096389d89663bc79ae3a02f846bf2",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "a2e021bf6f14e101fe540d283ef81e68a0d9a65cd8c084580232eaf3d0c9e72f",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json.",
+  "finalUrl": "https://www.stashmedia.tv/robots.txt",
+  "byteCount": 55,
+  "boundedAt": 1048576,
+  "truncated": false,
+  "originalResponseSha256": "a2e021bf6f14e101fe540d283ef81e68a0d9a65cd8c084580232eaf3d0c9e72f"
+}

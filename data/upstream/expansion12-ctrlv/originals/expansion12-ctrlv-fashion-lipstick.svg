@@ -1,0 +1,8 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <rect x="160" y="160" width="80" height="90" rx="5" fill="var(--charcoal)"/>
+                <rect x="170" y="120" width="60" height="40" fill="var(--secondary-color)"/>
+                <path class="anim-bounce" d="M175 120 V80 C175 60 200 40 200 40 L225 60 V120 Z" fill="var(--accent-color)"/>
+                <rect class="anim-pulse" x="160" y="180" width="80" height="10" fill="var(--primary-color)"/>
+            </g>
+          </svg>

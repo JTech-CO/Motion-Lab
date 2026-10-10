@@ -1,0 +1,33 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <g class="anim-float">
+                <!-- Code Editor Frame -->
+                <rect x="80" y="60" width="240" height="180" rx="12" fill="var(--charcoal)"/>
+                <path d="M80 90 H320" stroke="var(--bg-surface)" stroke-width="2" opacity="0.2"/>
+                <circle cx="100" cy="75" r="4" fill="#FF5F56"/>
+                <circle cx="115" cy="75" r="4" fill="#FFBD2E"/>
+                <circle cx="130" cy="75" r="4" fill="#27C93F"/>
+                
+                <g class="anim-data">
+                    <!-- Code Lines -->
+                    <rect x="100" y="110" width="100" height="6" rx="3" fill="var(--bg-surface)" opacity="0.6"/>
+                    <rect x="100" y="130" width="150" height="6" rx="3" fill="var(--bg-surface)" opacity="0.4"/>
+                    <rect x="100" y="150" width="80" height="6" rx="3" fill="var(--bg-surface)" opacity="0.7"/>
+                    
+                    <!-- Passing Tests -->
+                    <g class="anim-bounce" style="animation-delay: 0.2s;">
+                        <circle cx="280" cy="113" r="10" fill="#27C93F" opacity="0.3"/>
+                        <path d="M275 113 L278 116 L285 110" stroke="#27C93F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    </g>
+                    <g class="anim-bounce" style="animation-delay: 0.4s;">
+                        <circle cx="280" cy="133" r="10" fill="#27C93F" opacity="0.3"/>
+                        <path d="M275 133 L278 136 L285 130" stroke="#27C93F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                    </g>
+                    <!-- Failed / Running Test -->
+                    <g class="anim-pulse" style="animation-delay: 0.6s;">
+                        <circle cx="280" cy="153" r="10" fill="var(--secondary-color)" opacity="0.3"/>
+                        <path d="M275 148 L285 158 M285 148 L275 158" stroke="var(--secondary-color)" stroke-width="3" stroke-linecap="round" fill="none"/>
+                    </g>
+                </g>
+            </g>
+          </svg>

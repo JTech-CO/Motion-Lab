@@ -1,0 +1,56 @@
+{
+  "url": "https://obj.studio/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://obj.studio/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://obj.studio/",
+      "allowedForAuditGet": true,
+      "reason": "robots-missing-not-a-license",
+      "robotsUrl": "https://obj.studio/robots.txt",
+      "robotsStatus": 404
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://obj.studio/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:01.050435+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://obj.studio/",
+      "contentType": "text/html; charset=UTF-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 70098,
+      "capturedSha256": "1eeb0a72c7cd3090724d6f24e05eb97859fe8197722e6c540e4994514af2230c",
+      "responseBodySha256": "1eeb0a72c7cd3090724d6f24e05eb97859fe8197722e6c540e4994514af2230c",
+      "title": "OBJ.Studio",
+      "textCharacters": 4819,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.094,
+      "captureCachePath": "exa-results/link-audit/references/captures/af87ddbc469630928244bd41.json",
+      "captureCacheSha256": "9f6a7114ffd2888b01b99aed5c5bc75ae19da97f1c84c57e940d73a07e09d061"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-obj-studio",
+      "canonicalId": "ref-obj-studio",
+      "title": "OBJ.Studio",
+      "role": "canonical",
+      "sourceSha256": "cc0bff7cb2c423e80a93fdfeb97cccb22016add24deae9572bf5f5e4be85a532"
+    }
+  ]
+}

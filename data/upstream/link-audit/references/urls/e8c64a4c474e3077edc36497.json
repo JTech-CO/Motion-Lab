@@ -1,0 +1,56 @@
+{
+  "url": "https://lurestudio.org/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://lurestudio.org/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://lurestudio.org/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://lurestudio.org/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://lurestudio.org/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:01.964175+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://lurestudio.org/",
+      "contentType": "text/html",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 75819,
+      "capturedSha256": "bb22d8da570d027e863669178a74b857b9184359e2d4e611b545ab9714d8186d",
+      "responseBodySha256": "bb22d8da570d027e863669178a74b857b9184359e2d4e611b545ab9714d8186d",
+      "title": "LURE Studio | Produtora de IA, VFX e 3D",
+      "textCharacters": 6495,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.711,
+      "captureCachePath": "exa-results/link-audit/references/captures/d2fa1a265d5aadcd54b467d9.json",
+      "captureCacheSha256": "a40ea819852cf271af74469acfbc03697bf51e925d133b27d12e7d62915600ec"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-lure-studio",
+      "canonicalId": "ref-lure-studio",
+      "title": "LURE Studio",
+      "role": "canonical",
+      "sourceSha256": "63a4a052e867daf7dea999ab69a562d8ac8cfd8238491b94c0599c522ba8e07c"
+    }
+  ]
+}

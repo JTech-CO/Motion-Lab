@@ -1,0 +1,23 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Abduction Beam -->
+            <path class="anim-glow" d="M180 120 L120 260 H280 L220 120 Z" fill="var(--accent-color)" opacity="0.15"/>
+            <!-- Falling/rising object -->
+            <circle class="anim-bounce" cx="200" cy="200" r="15" fill="var(--charcoal)"/>
+            
+            <g class="anim-float">
+                <!-- UFO Beam Source glow -->
+                <ellipse cx="200" cy="120" rx="30" ry="10" fill="var(--accent-color)" opacity="0.8"/>
+                <!-- Saucer Bottom -->
+                <ellipse cx="200" cy="110" rx="70" ry="20" fill="var(--primary-color)"/>
+                <!-- Glass Dome -->
+                <path d="M160 105 A40 40 0 0 1 240 105 Z" fill="var(--secondary-color)"/>
+                <!-- Dome reflection -->
+                <path d="M170 100 A25 25 0 0 1 210 80" stroke="white" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.6"/>
+                <!-- Lights -->
+                <circle cx="150" cy="115" r="4" fill="white"/>
+                <circle cx="200" cy="120" r="4" fill="white"/>
+                <circle cx="250" cy="115" r="4" fill="white"/>
+                <!-- Little Alien Silhouette -->
+                <circle cx="200" cy="90" r="10" fill="var(--charcoal)" opacity="0.6"/>
+            </g>
+          </svg>

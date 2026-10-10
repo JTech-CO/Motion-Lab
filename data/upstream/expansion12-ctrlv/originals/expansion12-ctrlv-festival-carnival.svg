@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="150" ry="12" fill="#E2E8F0"/>
+            <g class="anim-bounce">
+              <circle cx="200" cy="110" r="20" fill="var(--primary-color)"/>
+              <path d="M185 130 Q180 180 175 200 H225 Q220 180 215 130Z" fill="var(--primary-color)"/>
+              <path d="M175 200 Q150 240 140 260 M185 200 Q165 240 160 260 M200 200 V260 M215 200 Q235 240 240 260 M225 200 Q250 240 260 260" stroke="var(--accent-color)" stroke-width="8" stroke-linecap="round"/>
+              <path d="M180 90 Q170 60 165 40 M190 88 Q185 58 180 35 M200 87 V30 M210 88 Q215 58 220 35 M220 90 Q230 60 235 40" stroke="var(--secondary-color)" stroke-width="6" stroke-linecap="round"/>
+              <path d="M185 150 Q150 130 120 150 M215 150 Q250 130 280 150" stroke="var(--primary-color)" stroke-width="10" stroke-linecap="round"/>
+            </g>
+            <g class="anim-data">
+              <rect x="80" y="80" width="8" height="8" rx="2" fill="var(--accent-color)" transform="rotate(30 80 80)"/>
+              <rect x="310" y="100" width="8" height="8" rx="2" fill="var(--primary-color)" transform="rotate(-20 310 100)"/>
+              <rect x="120" y="180" width="6" height="6" rx="1" fill="var(--secondary-color)" transform="rotate(15 120 180)"/>
+              <rect x="290" y="160" width="6" height="6" rx="1" fill="var(--accent-color)" transform="rotate(-30 290 160)"/>
+            </g>
+          </svg>

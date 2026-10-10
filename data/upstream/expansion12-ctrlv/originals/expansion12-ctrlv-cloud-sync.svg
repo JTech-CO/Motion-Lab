@@ -1,0 +1,13 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Raining Data -->
+            <path class="anim-data" d="M140 160 V220 M180 170 V250 M220 160 V230 M260 180 V240" stroke="var(--primary-color)" stroke-width="4" stroke-dasharray="8 6" stroke-linecap="round" opacity="0.6"/>
+            <circle class="anim-data" cx="160" cy="200" r="4" fill="var(--accent-color)" style="animation-delay: -0.5s"/>
+            <circle class="anim-data" cx="240" cy="210" r="4" fill="var(--secondary-color)" style="animation-delay: -1s"/>
+            <!-- Massive Cloud -->
+            <path class="anim-float" d="M120 140 C80 140 60 100 80 70 C100 30 160 30 180 50 C200 10 280 20 300 60 C340 70 340 130 300 140 Z" fill="var(--primary-color)"/>
+            <path class="anim-float" d="M120 140 C120 110 160 90 200 110 C240 90 280 110 280 140 Z" fill="var(--charcoal)" opacity="0.1" style="animation-delay: -0.1s"/>
+            <!-- Devices on Ground -->
+            <path d="M150 250 H250 L260 260 H140 Z" fill="var(--charcoal)"/>
+            <rect x="170" y="230" width="60" height="20" rx="2" fill="#94A3B8"/>
+            <rect x="180" y="235" width="40" height="10" rx="1" fill="white" opacity="0.8"/>
+          </svg>

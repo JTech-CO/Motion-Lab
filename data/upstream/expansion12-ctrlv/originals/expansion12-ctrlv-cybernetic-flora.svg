@@ -1,0 +1,23 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Pot -->
+                <path d="M160 210 H240 L220 260 H180 Z" fill="var(--charcoal)"/>
+                <rect x="150" y="200" width="100" height="10" rx="4" fill="var(--primary-color)"/>
+                
+                <!-- Stem -->
+                <path d="M200 200 V60" stroke="var(--primary-color)" stroke-width="6" stroke-linecap="round"/>
+                
+                <!-- Organic Left Side -->
+                <path class="anim-bounce" d="M200 170 C160 170 140 140 140 140 C140 140 170 110 200 140 Z" fill="var(--secondary-color)"/>
+                <path class="anim-bounce" style="animation-delay: 0.2s" d="M200 110 C150 110 120 70 120 70 C120 70 160 40 200 90 Z" fill="var(--secondary-color)"/>
+                
+                <!-- Cybernetic Right Side -->
+                <path class="anim-draw" d="M200 160 H240 V130 H260" stroke="var(--accent-color)" stroke-width="4" fill="none"/>
+                <circle class="anim-pulse" cx="260" cy="130" r="6" fill="var(--accent-color)"/>
+                <path class="anim-draw" style="animation-delay: 0.3s" d="M200 100 H250 V60 H280" stroke="var(--accent-color)" stroke-width="4" fill="none"/>
+                <circle class="anim-pulse" style="animation-delay: 0.3s" cx="280" cy="60" r="8" fill="var(--accent-color)"/>
+                
+                <!-- Data Flow -->
+                <circle class="anim-data" cx="200" cy="200" r="3" fill="var(--bg-surface)"/>
+            </g>
+          </svg>

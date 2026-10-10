@@ -1,0 +1,37 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <!-- Pipeline Path -->
+                <path class="anim-draw" d="M60 150 H340" stroke="var(--charcoal)" stroke-width="12" stroke-linecap="round" opacity="0.1"/>
+                <path class="anim-draw" d="M60 150 H340" stroke="var(--charcoal)" stroke-width="4" stroke-dasharray="12 12" fill="none"/>
+                
+                <!-- Stages -->
+                <g transform="translate(100, 150)">
+                    <g class="anim-pulse" >
+                    <circle r="25" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="4"/>
+                    <path d="M-10 0 L-2 8 L10 -8" stroke="var(--secondary-color)" stroke-width="4" stroke-linecap="round" fill="none"/>
+                </g>
+                </g>
+                <g transform="translate(200, 150)">
+                    <g class="anim-pulse"  style="animation-delay: 0.3s;">
+                    <circle r="25" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="4"/>
+                    <rect x="-10" y="-10" width="20" height="20" fill="var(--primary-color)" opacity="0.4"/>
+                </g>
+                </g>
+                <g transform="translate(300, 150)">
+                    <g class="anim-pulse"  style="animation-delay: 0.6s;">
+                    <circle r="25" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="4"/>
+                </g>
+                </g>
+                
+                <!-- Rocket Moving Through -->
+                <g transform="translate(200, 100)">
+                    <g class="anim-bounce"  style="animation-duration: 3s;">
+                    <path d="M0 -30 Q15 0 15 20 H-15 Q-15 0 0 -30 Z" fill="var(--accent-color)"/>
+                    <path d="M-15 20 L-25 30 V10 Z M15 20 L25 30 V10 Z" fill="var(--charcoal)"/>
+                    <circle cx="0" cy="0" r="6" fill="var(--bg-surface)"/>
+                    <!-- Exhaust -->
+                    <path class="anim-pulse" d="M-10 25 Q0 50 10 25" fill="var(--primary-color)" opacity="0.6"/>
+                </g>
+                </g>
+            </g>
+          </svg>

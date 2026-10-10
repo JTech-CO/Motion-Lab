@@ -1,0 +1,34 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="160" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <g class="anim-bounce">
+                <!-- Wheels -->
+                <circle class="anim-rotate"  cx="120" cy="248" r="22" fill="var(--charcoal)"/>
+                <circle cx="120" cy="248" r="9" fill="var(--bg-surface)"/>
+                <circle class="anim-rotate"  cx="280" cy="248" r="22" fill="var(--charcoal)"/>
+                <circle cx="280" cy="248" r="9" fill="var(--bg-surface)"/>
+
+                <!-- Bus body -->
+                <rect x="90" y="100" width="220" height="148" rx="12" fill="var(--primary-color)"/>
+                <!-- Deck divider line -->
+                <rect x="90" y="175" width="220" height="6" fill="var(--charcoal)" opacity="0.25"/>
+
+                <!-- Upper deck windows -->
+                <g fill="var(--secondary-color)" opacity="0.5">
+                    <rect x="105" y="115" width="35" height="30" rx="4"/>
+                    <rect x="155" y="115" width="35" height="30" rx="4"/>
+                    <rect x="205" y="115" width="35" height="30" rx="4"/>
+                    <rect x="255" y="115" width="35" height="30" rx="4"/>
+                </g>
+                <!-- Lower deck windows -->
+                <g fill="var(--secondary-color)" opacity="0.5">
+                    <rect x="105" y="185" width="35" height="30" rx="4"/>
+                    <rect x="155" y="185" width="35" height="30" rx="4"/>
+                    <rect x="205" y="185" width="35" height="30" rx="4"/>
+                </g>
+                <!-- Door -->
+                <rect x="260" y="180" width="40" height="58" rx="4" fill="var(--charcoal)" opacity="0.4"/>
+
+                <!-- Route sign on top -->
+                <rect x="105" y="102" width="120" height="12" rx="2" fill="var(--bg-surface)" opacity="0.8"/>
+            </g>
+          </svg>

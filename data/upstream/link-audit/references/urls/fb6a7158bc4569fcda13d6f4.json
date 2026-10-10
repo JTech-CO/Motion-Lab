@@ -1,0 +1,56 @@
+{
+  "url": "https://mostros.co/work/audiovisual-portfolio/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://mostros.co/work/audiovisual-portfolio/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://mostros.co/work/audiovisual-portfolio/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://mostros.co/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://mostros.co/work/audiovisual-portfolio/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:02.111144+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://mostros.co/work/audiovisual-portfolio/",
+      "contentType": "text/html; charset=UTF-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 197363,
+      "capturedSha256": "c50eeff65757073c1796d1b0191c7d2b9056c7d20ecdaa7cd975a4ed8a676ca2",
+      "responseBodySha256": "c50eeff65757073c1796d1b0191c7d2b9056c7d20ecdaa7cd975a4ed8a676ca2",
+      "title": "# 1 Audiovisual Portfolio MOSTROS Creative StudioMostros.co - Web Under Constructionclose menu icon",
+      "textCharacters": 7414,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.28,
+      "captureCachePath": "exa-results/link-audit/references/captures/afeee156d36d0f7acafd578f.json",
+      "captureCacheSha256": "2bb26075b25e661068550095f9dacfcfda02904dfbe47bfbd87884b56f1ef37e"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-mostros",
+      "canonicalId": "ref-mostros",
+      "title": "MOSTROS",
+      "role": "canonical",
+      "sourceSha256": "b450f1ee66ddce8e6c87e0e8cde7219b5132a26db7107688cb828e92b777e9f8"
+    }
+  ]
+}

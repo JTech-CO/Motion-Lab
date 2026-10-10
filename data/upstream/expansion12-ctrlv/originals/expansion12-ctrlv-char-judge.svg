@@ -1,0 +1,37 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <!-- Background: Courtroom Pillars -->
+            <g class="anim-float-slow" opacity="0.1" fill="var(--charcoal)">
+                <rect x="80" y="60" width="30" height="200"/>
+                <rect x="70" y="50" width="50" height="20"/>
+                <rect x="70" y="240" width="50" height="20"/>
+                
+                <rect x="290" y="60" width="30" height="200"/>
+                <rect x="280" y="50" width="50" height="20"/>
+                <rect x="280" y="240" width="50" height="20"/>
+                
+                <path d="M60 50 L200 20 L340 50 Z"/>
+            </g>
+            
+            <g class="anim-bounce">
+                <!-- Character Body (Robes) -->
+                <path d="M120 260 C120 150 240 150 240 260 Z" fill="var(--charcoal)"/>
+                <!-- Robe Lapels -->
+                <path d="M180 180 L160 260 M180 180 L200 260" stroke="var(--secondary-color)" stroke-width="8"/>
+                
+                <!-- Head -->
+                <circle cx="180" cy="120" r="35" fill="var(--primary-color)"/>
+                <!-- Wig/Hair -->
+                <path d="M135 140 C135 80 225 80 225 140 C225 160 210 160 210 140 C210 100 150 100 150 140 C150 160 135 160 135 140 Z" fill="var(--bg-surface)" stroke="var(--charcoal)" stroke-width="4"/>
+                
+                <!-- Prop: Gavel -->
+                <g class="anim-rotate" style="transform-origin: 240px 180px;">
+                    <path d="M220 220 L270 140" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round"/>
+                    <g transform="rotate(-58 270 140)">
+                <rect class="anim-pulse" x="250" y="130" width="40" height="20" rx="4" fill="var(--accent-color)" />
+            </g>
+                    <!-- Sound impact -->
+                    <path class="anim-glow" d="M290 110 Q310 100 320 120 M300 130 Q330 130 330 150" stroke="var(--accent-color)" stroke-width="3" fill="none" stroke-linecap="round"/>
+                </g>
+            </g>
+          </svg>

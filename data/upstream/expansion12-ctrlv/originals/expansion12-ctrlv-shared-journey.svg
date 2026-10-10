@@ -1,0 +1,26 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="160" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <!-- Body of Van -->
+            <rect x="80" y="100" width="240" height="140" rx="30" fill="var(--primary-color)"/>
+            <!-- Stripe -->
+            <rect x="80" y="160" width="240" height="20" fill="var(--secondary-color)"/>
+            <!-- Windows -->
+            <rect x="110" y="120" width="60" height="40" rx="8" fill="white"/>
+            <rect x="190" y="120" width="100" height="40" rx="8" fill="white"/>
+            <!-- Wheels -->
+            <g class="anim-rotate" >
+                <circle cx="130" cy="240" r="30" fill="var(--charcoal)"/>
+                <circle cx="130" cy="240" r="15" fill="var(--primary-color)"/>
+                <path d="M130 210 V270 M100 240 H160" stroke="#F8FAFC" stroke-width="4"/>
+            </g>
+            <g class="anim-rotate" >
+                <circle cx="290" cy="240" r="30" fill="var(--charcoal)"/>
+                <circle cx="290" cy="240" r="15" fill="var(--primary-color)"/>
+                <path d="M290 210 V270 M260 240 H320" stroke="#F8FAFC" stroke-width="4"/>
+            </g>
+            <!-- Luggage on top -->
+            <rect class="anim-float" x="140" y="60" width="50" height="40" rx="6" fill="var(--accent-color)"/>
+            <rect class="anim-float" x="200" y="70" width="80" height="30" rx="6" fill="var(--charcoal)" style="animation-delay:-0.5s"/>
+            <!-- Speed lines -->
+            <path class="anim-data" d="M60 260 H20 M50 240 H10" stroke="var(--charcoal)" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+          </svg>

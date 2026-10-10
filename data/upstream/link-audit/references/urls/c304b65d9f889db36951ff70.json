@@ -1,0 +1,56 @@
+{
+  "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/animated-beam.tsx",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/animated-beam.tsx",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/animated-beam.tsx",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://github.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/animated-beam.tsx",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:11.106032+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://github.com/magicuidesign/magicui/blob/cdb348cb4c72a9b54b554d8617801e479fbc8714/apps/www/registry/magicui/animated-beam.tsx",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "8ad42a84c78629fb0911f4d17d5eb51a2f42ecf0ca7e023811a87c7875e96b35",
+      "responseBodySha256": "8ad42a84c78629fb0911f4d17d5eb51a2f42ecf0ca7e023811a87c7875e96b35",
+      "title": "magicui/apps/www/registry/magicui/animated-beam.tsx at cdb348cb4c72a9b54b554d8617801e479fbc8714 · magicuidesign/magicui · GitHub",
+      "textCharacters": 4677,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.656,
+      "captureCachePath": "exa-results/link-audit/references/captures/acf205f78cca60e877ac697b.json",
+      "captureCacheSha256": "cb4e520b52fd8efd123cf5f3106f4c1732854a2a6bf06c581d761cb14dbdef69"
+    }
+  ],
+  "items": [
+    {
+      "id": "asset-magicui-animated-beam",
+      "canonicalId": "asset-magicui-animated-beam",
+      "title": "Magic UI · Animated Beam",
+      "role": "canonical",
+      "sourceSha256": "5c6415c12bbf713b316507f4ab06cb76aa827c1eb25eb0c8341f4016aa4b51f0"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g class="anim-float">
+                <g >
+                    <rect class="anim-pulse" x="120" y="130" width="80" height="40" rx="20" stroke="var(--primary-color)" stroke-width="12" fill="none"/>
+                    <rect class="anim-pulse" style="animation-delay: 0.2s;" x="180" y="130" width="80" height="40" rx="20" stroke="var(--secondary-color)" stroke-width="12" fill="none"/>
+                </g>
+                <circle class="anim-bounce" cx="240" cy="100" r="25" fill="var(--accent-color)"/>
+                <path class="anim-bounce" d="M230 110 L250 90" stroke="white" stroke-width="4" stroke-linecap="round"/>
+                <circle class="anim-bounce" cx="235" cy="95" r="3" fill="white"/>
+                <circle class="anim-bounce" cx="245" cy="105" r="3" fill="white"/>
+            </g>
+          </svg>

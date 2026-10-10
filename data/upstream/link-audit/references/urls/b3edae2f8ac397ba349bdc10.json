@@ -1,0 +1,56 @@
+{
+  "url": "https://thebookofshaders.com/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://thebookofshaders.com/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://thebookofshaders.com/",
+      "allowedForAuditGet": true,
+      "reason": "robots-missing-not-a-license",
+      "robotsUrl": "https://thebookofshaders.com/robots.txt",
+      "robotsStatus": 404
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://thebookofshaders.com/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:21:03.507192+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://thebookofshaders.com/",
+      "contentType": "text/html",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 13060,
+      "capturedSha256": "7dc09065ac601f75f6583dbbed465dd41c1ccefb1d44175db424184583ae445f",
+      "responseBodySha256": "7dc09065ac601f75f6583dbbed465dd41c1ccefb1d44175db424184583ae445f",
+      "title": "The Book of Shaders",
+      "textCharacters": 3917,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.633,
+      "captureCachePath": "exa-results/link-audit/references/captures/3188449b63931b9189ff54e7.json",
+      "captureCacheSha256": "f9fa645c38f12a104a969e570983f436017dc96ca5a4b2c0ee451af3d0279580"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-the-book-of-shaders",
+      "canonicalId": "ref-the-book-of-shaders",
+      "title": "The Book of Shaders",
+      "role": "canonical",
+      "sourceSha256": "a7e32e91782af7d1fb1c2aae91197830380a337ea3a5265d6b2de630df4a8de5"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "url": "https://www.allavio.com/shop/free/",
+  "site": "allavio",
+  "reviewedAt": "2026-10-10",
+  "captures": [
+    {
+      "method": "public-HTTP-GET",
+      "status": 200,
+      "observedContent": "HTTP 200 공개 페이지 본문을 읽었습니다. 제품·약관·형식 표시는 검토했으며 계정 생성, 구매, 파일 다운로드는 하지 않았습니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://www.allavio.com/shop/free/",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/allavio-free-list-http.json",
+      "rawCacheSha256": "ac419b7fdf94a874d4efa4dbfcd249e479d14819cb0552338f65d365309060a2",
+      "capturedTextSha256": "38849a9d26810da5eaeddba539bf09d223752029b57217745a5366c90ad59bea",
+      "responseCapturedSha256": "3295465e1308ff47e829474133e9bb20a471e490d531a9bd8bec3b8b8e09bd58",
+      "boundedAtBytes": 1048576,
+      "truncated": false
+    },
+    {
+      "method": "Exa-public-fetch",
+      "status": "content-returned-http-status-unavailable",
+      "observedContent": "Exa가 공식 URL의 공개 본문을 반환했습니다. 제공자가 HTTP 상태를 노출하지 않아 직접 접속 200으로 계산하지 않으며 현재 파일 다운로드·권리는 별도입니다.",
+      "challengeObserved": false,
+      "semanticFallback": false,
+      "finalUrl": "https://www.allavio.com/shop/free/",
+      "rawCachePath": "exa-results/grok-source-review-ui/cache/exa-allavio-fetch-1.json",
+      "rawCacheSha256": "3821ec97aeb2d768f55fe1973bd9b6c93289c685e2b793559388d69f46f37284",
+      "capturedTextSha256": "6797be604b299a92fff3b9d95c6393e0ccabe529309bfb32783d1ee04a9cbd7a",
+      "responseCapturedSha256": null,
+      "boundedAtBytes": null,
+      "providerResponseCacheBytes": 8811,
+      "truncated": null
+    }
+  ],
+  "contentPolicy": "원문 전체는 ignored exa-results 캐시에만 보관합니다. 이 파일은 접근 상태와 SHA 및 자체 요약만 저장하며 페이지 인용은 sites.json termsEvidence에만 최대 25단어로 기록합니다."
+}

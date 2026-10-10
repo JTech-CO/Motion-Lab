@@ -1,0 +1,56 @@
+{
+  "url": "https://animejs.com/",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://animejs.com/",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://animejs.com/",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://animejs.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://animejs.com/",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:29.305529+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://animejs.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": false,
+      "capturedBytes": 45925,
+      "capturedSha256": "33347970c72aed36cf6166115fa93a0242fc573f70fc211febd0f4d030d06c48",
+      "responseBodySha256": "33347970c72aed36cf6166115fa93a0242fc573f70fc211febd0f4d030d06c48",
+      "title": "Anime.js | JavaScript Animation Engine",
+      "textCharacters": 3730,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 1.441,
+      "captureCachePath": "exa-results/link-audit/references/captures/cc33f7c5ac4dace69bdff38a.json",
+      "captureCacheSha256": "4d352b26517384ce98cf5eef91da8944a873a8b9c91dee064cf4f1bd57630f3d"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-anime-js",
+      "canonicalId": "ref-anime-js",
+      "title": "Anime.js",
+      "role": "canonical",
+      "sourceSha256": "7e4942cceacf8fa76c88fcfec259f6f76f77721552914c34eb1d31ac714309d7"
+    }
+  ]
+}

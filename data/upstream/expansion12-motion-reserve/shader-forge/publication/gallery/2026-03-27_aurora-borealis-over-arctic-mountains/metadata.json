@@ -1,0 +1,29 @@
+{
+  "theme": "aurora borealis over arctic mountains",
+  "style_hints": "",
+  "references": [
+    "shabon-fx/AuroraWaves.frag [color_palette,grid,noise,wave]",
+    "community/SHADER/raymarching_raymarching_heightfield.glsl [raymarching]",
+    "community/open-shaders/Others_ray_tracing_renderer_three_chunks_envMap.glsl [reflection]",
+    "community/lygia/lighting_raymarch_volume.glsl [lighting,postprocess,raymarching,sdf,volumetric]",
+    "community/bevy/crates_bevy_pbr_src_atmosphere_multiscattering_lut.wgsl [grid,lighting,sdf,volumetric]"
+  ],
+  "attempts": 2,
+  "created_at": "2026-03-27T18:06:25.570693+00:00",
+  "glsl_lines": 93,
+  "success": true,
+  "design_brief": "**TECHNICAL DESIGN BRIEF: Aurora Borealis over Arctic Mountains**  \n\n1. **Core technique**: Hybrid raymarching (SDF terrain + volumetric aurora) + 2D fluid simulation on ping-pong buffers (Navier-Stokes for auroral flow).  \n2. **Visual structure**: Foreground — fractal FBM SDF mountains with self-shadowing; mid — volumetric aurora (emissive density field); background — deep-space starfield (Procedural Poisson disk).  \n3. **Color strategy**: Spectral aurora palette via sine-based hue cycling (`h = sin(t + y * 0.5) * 0.5 + 0.5`) mixed with cool blues (mountains) and warm reds (aurora base `#1a2b4a` → `#ff3366`), using HSV rotation + thin-film interference for iridescent highlights.  \n4. **Animation**: Aurora flows vertically with domain-warping (curl noise + fractal warping), mountains subtly drift via low-frequency noise, stars twinkle with perlin-based opacity flicker (0.5–2Hz).  \n5. **Wow factor**: **Auroral thin-film interference** — simulate soap-bubble iridescence by computing path-length difference through aurora layers and modulating spectral color via `cos(2πΔn/λ)` — creates shifting rainbow sheen on aurora folds.",
+  "review": {
+    "visual_complexity": 4,
+    "code_quality": 4,
+    "theme_match": 3,
+    "animation": 4,
+    "originality": 4,
+    "total": 19,
+    "verdict": "pass",
+    "feedback": "Solid implementation with layered FBM noise and smooth color mixing creates a compelling auroral effect, though the mountains are implied rather than explicitly modeled and the frame's circular gradient limits full-canvas utilization."
+  },
+  "status": "rejected",
+  "rejected_at": "2026-03-28T13:32:48.157646+00:00",
+  "rejected_comment": ""
+}

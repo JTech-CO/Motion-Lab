@@ -1,0 +1,16 @@
+{
+  "id": "rocketstock",
+  "url": "https://www.shutterstock.com/license",
+  "method": "bounded-standard-HTTP-GET",
+  "credentialsUsed": false,
+  "mediaDownloaded": false,
+  "status": 403,
+  "finalUrl": "https://www.shutterstock.com/license",
+  "contentType": "text/html;charset=utf-8",
+  "truncated": false,
+  "observedBytes": 784,
+  "observedContentSha256": "f7ef0c49b8ce3e245ebfcecc0e3e7d17009faf627fcdf5dbd543b40a4bdc9908",
+  "links": [],
+  "observedContent": "Access denied/challenge or authorization required; no bypass attempted.",
+  "challengeOrDenial": true
+}

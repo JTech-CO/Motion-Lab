@@ -1,0 +1,7 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="anim-float" d="M120 150 C120 80 180 50 240 50 C300 50 360 100 360 180 C360 260 300 280 220 280 C140 280 120 220 120 150Z" fill="var(--secondary-color)" opacity="0.1"/>
+            <path d="M80 260 C80 210 110 190 140 190 H160 C190 190 220 210 220 260 V270 H80 V260 Z" fill="var(--primary-color)"/>
+            <circle cx="150" cy="150" r="30" fill="var(--primary-color)"/>
+            <path class="anim-bounce" d="M250 120 C250 100 280 100 300 120 C320 100 350 100 350 120 C350 150 300 190 300 190 C300 190 250 150 250 120 Z" fill="var(--charcoal)"/>
+            <path class="anim-float" d="M180 80 C180 75 190 75 195 80 C200 75 210 75 210 80 C210 90 195 100 195 100 C195 100 180 90 180 80 Z" fill="var(--secondary-color)" style="animation-delay: -2s"/>
+          </svg>

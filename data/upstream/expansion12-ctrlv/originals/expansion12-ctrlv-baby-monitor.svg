@@ -1,0 +1,12 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect class="anim-float" x="140" y="100" width="120" height="150" rx="20" fill="var(--primary-color)"/>
+            <rect class="anim-float" x="155" y="115" width="90" height="80" rx="10" fill="var(--charcoal)"/>
+            <path class="anim-data" d="M170 155 Q200 120 230 155" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round" fill="none"/>
+            <path class="anim-data" d="M180 165 Q200 145 220 165" stroke="var(--secondary-color)" stroke-width="4" stroke-linecap="round" fill="none" style="animation-delay: -0.5s"/>
+            <path class="anim-float" d="M240 100 L260 50" stroke="var(--charcoal)" stroke-width="8" stroke-linecap="round"/>
+            <circle class="anim-glow" cx="260" cy="50" r="6" fill="var(--accent-color)"/>
+            <circle class="anim-float" cx="200" cy="220" r="15" fill="white" opacity="0.4"/>
+            <circle class="anim-float" cx="165" cy="220" r="8" fill="white" opacity="0.2"/>
+            <circle class="anim-float" cx="235" cy="220" r="8" fill="white" opacity="0.2"/>
+            <path class="anim-draw" d="M280 70 Q310 50 340 80" stroke="var(--secondary-color)" stroke-width="4" stroke-dasharray="8 6" fill="none"/>
+          </svg>

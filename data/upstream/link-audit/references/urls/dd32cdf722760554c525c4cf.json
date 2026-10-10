@@ -1,0 +1,56 @@
+{
+  "url": "https://motion-studio.mtmograph.com/libraries/color",
+  "status": "accessible",
+  "httpStatus": 200,
+  "finalUrl": "https://motion-studio.mtmograph.com/libraries/color",
+  "reason": "accessible",
+  "invalidConfirmed": false,
+  "inconclusive": false,
+  "robotsChecks": [
+    {
+      "url": "https://motion-studio.mtmograph.com/libraries/color",
+      "allowedForAuditGet": true,
+      "reason": "robots-path-allowed",
+      "robotsUrl": "https://motion-studio.mtmograph.com/robots.txt",
+      "robotsStatus": 200
+    }
+  ],
+  "accessEvidence": [
+    {
+      "url": "https://motion-studio.mtmograph.com/libraries/color",
+      "method": "public-HTTP-GET",
+      "checkedAt": "2026-10-10T11:20:47.988499+00:00",
+      "role": "initial-page",
+      "timeoutSeconds": 10,
+      "byteLimit": 262144,
+      "authenticated": false,
+      "challengeBypass": false,
+      "status": 200,
+      "finalUrl": "https://motion-studio.mtmograph.com/libraries/color",
+      "contentType": "text/html; charset=utf-8",
+      "location": null,
+      "retryAfter": null,
+      "truncated": true,
+      "capturedBytes": 262144,
+      "capturedSha256": "c462cce3182972b049ecb006a1da1d42be492263f2e99da58bb5f9cf920a5f55",
+      "responseBodySha256": "c462cce3182972b049ecb006a1da1d42be492263f2e99da58bb5f9cf920a5f55",
+      "title": "Color | Motion Studio",
+      "textCharacters": 9592,
+      "challenge": false,
+      "possibleSoft404": false,
+      "possibleLoginGate": false,
+      "elapsedSeconds": 0.811,
+      "captureCachePath": "exa-results/link-audit/references/captures/9903d6457ab266e41345316f.json",
+      "captureCacheSha256": "f06c5bdcae08124fa0d553e24e6bc0ddb4867cb503c8b90929ce68c205e0459a"
+    }
+  ],
+  "items": [
+    {
+      "id": "ref-motion-studio-color",
+      "canonicalId": "ref-motion-studio-color",
+      "title": "Motion Studio Color",
+      "role": "canonical",
+      "sourceSha256": "b35f8e0dc5fe4c4f56887065f494feaf6db670723c12608afa9bcb0cc5662d54"
+    }
+  ]
+}

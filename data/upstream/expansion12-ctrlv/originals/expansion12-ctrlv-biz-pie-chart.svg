@@ -1,0 +1,27 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <g class="anim-float">
+                <!-- Base / Shadow 3D effect -->
+                <ellipse cx="200" cy="170" rx="100" ry="60" fill="var(--charcoal)" opacity="0.8"/>
+                
+                <!-- Main Pie Body -->
+                <path class="anim-pulse" d="M120 135 A 100 60 0 1 0 280 135 L200 150 Z" fill="var(--primary-color)"/>
+                <!-- Top Highlight -->
+                <path class="anim-pulse" d="M100 150 A 100 60 0 0 1 230 100 L200 150 Z" fill="var(--secondary-color)"/>
+                
+                <!-- Detached Slice Animated out -->
+                <g transform="translate(15, -15)">
+                    <g class="anim-bounce">
+                        <path d="M230 100 A 100 60 0 0 1 295 130 L200 150 Z" fill="var(--accent-color)"/>
+                        <path d="M230 100 L200 150 L295 130" stroke="var(--bg-surface)" stroke-width="4" stroke-linejoin="round" fill="none"/>
+                        
+                        <!-- Data Line & Label -->
+                        <path class="anim-draw" d="M250 110 L280 80 H310" stroke="var(--charcoal)" stroke-width="4" fill="none" stroke-linecap="round"/>
+                        <rect x="320" y="70" width="30" height="20" rx="4" fill="var(--accent-color)"/>
+                    </g>
+                </g>
+                
+                <!-- Center point -->
+                <circle cx="200" cy="150" r="5" fill="var(--bg-surface)"/>
+            </g>
+          </svg>

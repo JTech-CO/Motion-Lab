@@ -1,0 +1,9 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g class="anim-float">
+            <rect x="140" y="160" width="120" height="80" rx="35" fill="var(--primary-color)" opacity="0.7"/>
+            <circle cx="260" cy="170" r="40" fill="var(--primary-color)" opacity="0.7"/>
+            <circle cx="275" cy="160" r="4" fill="var(--charcoal)"/>
+            <path class="anim-pulse" d="M285 200 Q300 210 290 220" stroke="#f43f5e" stroke-width="6" stroke-linecap="round"/>
+            <path d="M240 140 L220 170" stroke="var(--primary-color)" stroke-width="12" stroke-linecap="round"/>
+        </g>
+    </svg>

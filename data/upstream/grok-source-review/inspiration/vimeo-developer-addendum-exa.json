@@ -1,0 +1,14 @@
+{
+  "url": "https://vimeo.com/legal/service-terms/api",
+  "method": "Exa public fetch",
+  "status": "Exa-content-read",
+  "fetchedAt": "2026-10-10",
+  "observedContent": "공개 URL의 Exa 추출 내용을 읽었다. 직접 서버의 HTTP 200으로 간주하지 않았다. 2026-03-09 Developer Addendum 4.1은 다른 제품·서비스의 사용자 데이터셋 구축·확장을 제한하며 4.2는 권리 없는 AI 학습을 제한한다.",
+  "sector": 4,
+  "siteId": "vimeo",
+  "rawCachePath": "exa-results/grok-source-review/inspiration/raw/vimeo-developer-addendum-exa.json",
+  "rawCacheSha256": "b7a13e5d4e38c52e8ef4c01e406dee138208dc1814aea2b5072dec2edcd87f2f",
+  "rawCachePolicy": "ignored local research cache; excluded from product and Git",
+  "extractedContentSha256": "d9060c475058b783367f1e1bf5fe6cb7c7198b3449f8c0d740dd3aec3b8e61fd",
+  "evidencePolicy": "No full body retained here; short per-page quotes occur only in sites.json."
+}

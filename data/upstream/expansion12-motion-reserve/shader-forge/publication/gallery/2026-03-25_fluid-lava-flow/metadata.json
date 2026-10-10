@@ -1,0 +1,18 @@
+{
+  "theme": "Fluid Lava Flow",
+  "style_hints": "",
+  "references": [
+    "shabon-fx/WaterCaustics.frag",
+    "community/open-shaders/Engines_playcanvas_prefilterCubemap.frag",
+    "shabon-fx/LiquidMetalBlob.frag",
+    "community/WebGPU-Lab/src_scripts_fluid_div_div.wgsl",
+    "community/WebGPU-Lab/src_scripts_fluid_poisson_jacobi.wgsl"
+  ],
+  "attempts": 1,
+  "created_at": "2026-03-25T13:12:21.673020+00:00",
+  "glsl_lines": 78,
+  "success": true,
+  "status": "rejected",
+  "rejected_at": "2026-03-28T13:32:04.677538+00:00",
+  "rejected_comment": ""
+}

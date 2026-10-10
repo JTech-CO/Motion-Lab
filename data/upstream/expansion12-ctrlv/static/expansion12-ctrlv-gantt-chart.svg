@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6" />
+            
+            <g stroke="#334155" stroke-width="2" opacity="0.1">
+                <line x1="100" y1="60" x2="100" y2="240" />
+                <line x1="150" y1="60" x2="150" y2="240" />
+                <line x1="200" y1="60" x2="200" y2="240" />
+                <line x1="250" y1="60" x2="250" y2="240" />
+                <line x1="300" y1="60" x2="300" y2="240" />
+            </g>
+            
+            <rect x="80" y="80" width="240" height="20" rx="4" fill="#334155" opacity="0.05" />
+            <rect x="80" y="120" width="240" height="20" rx="4" fill="#334155" opacity="0.05" />
+            <rect x="80" y="160" width="240" height="20" rx="4" fill="#334155" opacity="0.05" />
+            <rect x="80" y="200" width="240" height="20" rx="4" fill="#334155" opacity="0.05" />
+            
+            <g>
+                
+                <rect x="100" y="80" width="80" height="20" rx="4" fill="#6366f1" />
+                <rect x="160" y="120" width="100" height="20" rx="4" fill="#f43f5e" />
+                <rect x="220" y="160" width="60" height="20" rx="4" fill="#DFD116" />
+                <rect x="270" y="200" width="40" height="20" rx="4" fill="#6366f1" />
+                
+                
+                <path d="M180 90 H195 V120" stroke="#334155" stroke-width="2" fill="none" opacity="0.3" />
+                <path d="M260 130 H275 V160" stroke="#334155" stroke-width="2" fill="none" opacity="0.3" />
+            </g>
+            
+            
+            <line x1="190" y1="50" x2="190" y2="250" stroke="#f43f5e" stroke-width="4" stroke-dasharray="5 5" />
+          </svg>

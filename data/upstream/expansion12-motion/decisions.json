@@ -1,0 +1,1320 @@
+[
+  {
+    "key": "radiant:flow-field",
+    "source": "radiant",
+    "sourcePath": "static/flow-field.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:topographic",
+    "source": "radiant",
+    "sourcePath": "static/topographic.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:generative-tree",
+    "source": "radiant",
+    "sourcePath": "static/generative-tree.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:strange-attractor",
+    "source": "radiant",
+    "sourcePath": "static/strange-attractor.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:pendulum-wave",
+    "source": "radiant",
+    "sourcePath": "static/pendulum-wave.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:phyllotaxis",
+    "source": "radiant",
+    "sourcePath": "static/phyllotaxis.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:fluid-amber",
+    "source": "radiant",
+    "sourcePath": "static/fluid-amber.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-fluid-amber",
+    "status": "candidate",
+    "fragmentSha256": "96161b3868ce5123f259979ba949560fe508070105ee43dc1c2e2ffc0a0cc66a"
+  },
+  {
+    "key": "radiant:champagne-fizz",
+    "source": "radiant",
+    "sourcePath": "static/champagne-fizz.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:sugar-glass",
+    "source": "radiant",
+    "sourcePath": "static/sugar-glass.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-sugar-glass",
+    "status": "candidate",
+    "fragmentSha256": "db46951dd4b01df2657c2c8e91425f8bbb0b128a5a8e914ea92d91ab6951265a"
+  },
+  {
+    "key": "radiant:resonant-strings",
+    "source": "radiant",
+    "sourcePath": "static/resonant-strings.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:chladni-resonance",
+    "source": "radiant",
+    "sourcePath": "static/chladni-resonance.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-chladni-resonance",
+    "status": "candidate",
+    "fragmentSha256": "12293edbf52df9bf31fa33a6867fe876d3acd2d9a2f8479ffb49ed91045659d3"
+  },
+  {
+    "key": "radiant:kinetic-grid",
+    "source": "radiant",
+    "sourcePath": "static/kinetic-grid.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:strobe-geometry",
+    "source": "radiant",
+    "sourcePath": "static/strobe-geometry.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-strobe-geometry",
+    "status": "candidate",
+    "fragmentSha256": "c881e2d5ba134b0c0cdd8998706ae8b7683420cef7803098f9e44c7ecc9baf2e"
+  },
+  {
+    "key": "radiant:laser-labyrinth",
+    "source": "radiant",
+    "sourcePath": "static/laser-labyrinth.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-laser-labyrinth",
+    "status": "candidate",
+    "fragmentSha256": "1fac399091eafb7a05e1b4cbbec7409e4759a126d03ef435f732ad6b895d3464"
+  },
+  {
+    "key": "radiant:bass-ripple",
+    "source": "radiant",
+    "sourcePath": "static/bass-ripple.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-bass-ripple",
+    "status": "candidate",
+    "fragmentSha256": "4efaa0c7b7d20259f025d4c031457e10f49e1f8b89d64976c4d63c173cafbfb8"
+  },
+  {
+    "key": "radiant:ink-dissolve",
+    "source": "radiant",
+    "sourcePath": "static/ink-dissolve.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-ink-dissolve",
+    "status": "candidate",
+    "fragmentSha256": "224b070bc78cc5be8e79f5f5f8f38924d79687397548137295c0d96f398b43fd"
+  },
+  {
+    "key": "radiant:sequin-wave",
+    "source": "radiant",
+    "sourcePath": "static/sequin-wave.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-sequin-wave",
+    "status": "candidate",
+    "fragmentSha256": "6a927e80b399e8e227f397297ac9d63a5a92c62b452b840f6bafe0208693dedc"
+  },
+  {
+    "key": "radiant:gilt-mosaic",
+    "source": "radiant",
+    "sourcePath": "static/gilt-mosaic.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-gilt-mosaic",
+    "status": "candidate",
+    "fragmentSha256": "914b51748e85bcf8be6e74b49e486b3be90159fb3cc64a2ac2e97dad4624e422"
+  },
+  {
+    "key": "radiant:gilded-fracture",
+    "source": "radiant",
+    "sourcePath": "static/gilded-fracture.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-gilded-fracture",
+    "status": "candidate",
+    "fragmentSha256": "c49e3583e8a393b2ab343d960e7495ad67b8eee3bb2269033705d058fc4d0552"
+  },
+  {
+    "key": "radiant:radiant-geometry",
+    "source": "radiant",
+    "sourcePath": "static/radiant-geometry.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-radiant-geometry",
+    "status": "candidate",
+    "fragmentSha256": "67973efea57ef1303b79b18624a3ca2c115568e90c183e26894bdd293aec90fc"
+  },
+  {
+    "key": "radiant:golden-throne",
+    "source": "radiant",
+    "sourcePath": "static/golden-throne.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-golden-throne",
+    "status": "candidate",
+    "fragmentSha256": "4e497386b2b30b586b1f6a53d0d8daed112d5af2048a4c0edbe4f4020297a31f"
+  },
+  {
+    "key": "radiant:sacred-strange",
+    "source": "radiant",
+    "sourcePath": "static/sacred-strange.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-sacred-strange",
+    "status": "candidate",
+    "fragmentSha256": "7b687ab9d981b1417baadde6760388bb71647f461a730a1d9127f7c1fcfe6a79"
+  },
+  {
+    "key": "radiant:tropical-heat",
+    "source": "radiant",
+    "sourcePath": "static/tropical-heat.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-tropical-heat",
+    "status": "candidate",
+    "fragmentSha256": "8723b2d4cd04f1bf8e519d346f1975537fa6517a6a520267c3e8b7e342974d81"
+  },
+  {
+    "key": "radiant:neon-drip",
+    "source": "radiant",
+    "sourcePath": "static/neon-drip.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-neon-drip",
+    "status": "candidate",
+    "fragmentSha256": "d71f8dd437320cfe15856502468903ff99d039191c84db8c569033f7267dc074"
+  },
+  {
+    "key": "radiant:voltage-arc",
+    "source": "radiant",
+    "sourcePath": "static/voltage-arc.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-voltage-arc",
+    "status": "candidate",
+    "fragmentSha256": "e3baa6debf76c3691fdead98791102a6a26820d47df8e0d816282e5478f56bb8"
+  },
+  {
+    "key": "radiant:moonlit-ripple",
+    "source": "radiant",
+    "sourcePath": "static/moonlit-ripple.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-moonlit-ripple",
+    "status": "candidate",
+    "fragmentSha256": "314c705edd8537a2dcf9e478d024b44b1a3638ad83c8e68491c69fd00eaf47e6"
+  },
+  {
+    "key": "radiant:eclipse-glow",
+    "source": "radiant",
+    "sourcePath": "static/eclipse-glow.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-eclipse-glow",
+    "status": "candidate",
+    "fragmentSha256": "cc75a58a5430c9056a8bb673a68c66696dee1af48ce391ab6af4f706baed8875"
+  },
+  {
+    "key": "radiant:diamond-caustics",
+    "source": "radiant",
+    "sourcePath": "static/diamond-caustics.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-diamond-caustics",
+    "status": "candidate",
+    "fragmentSha256": "e3833cc469e501ba6269d24e6ee1fd207cac536d3351e207e603e30c1473e53f"
+  },
+  {
+    "key": "radiant:rain-on-glass",
+    "source": "radiant",
+    "sourcePath": "static/rain-on-glass.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "sampler-extension-or-unbounded-loop"
+  },
+  {
+    "key": "radiant:rain-umbrella",
+    "source": "radiant",
+    "sourcePath": "static/rain-umbrella.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "sampler-extension-or-unbounded-loop"
+  },
+  {
+    "key": "radiant:metamorphosis",
+    "source": "radiant",
+    "sourcePath": "static/metamorphosis.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-metamorphosis",
+    "status": "candidate",
+    "fragmentSha256": "12c4e6a8b781dfecb5f2bc4a54df9818dc5bef8d2a3cb0191bd598b5c9e6040e"
+  },
+  {
+    "key": "radiant:artpop-iridescence",
+    "source": "radiant",
+    "sourcePath": "static/artpop-iridescence.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-artpop-iridescence",
+    "status": "candidate",
+    "fragmentSha256": "ed6bf61bd4d69a967f3691c4ab5c4a7badc253ddd651682afb44a12978df742f"
+  },
+  {
+    "key": "radiant:silk-groove",
+    "source": "radiant",
+    "sourcePath": "static/silk-groove.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-silk-groove",
+    "status": "candidate",
+    "fragmentSha256": "f1283e692ff2c62c55e3176a1fd3dab0172addb84d6c38f745150dddca056f40"
+  },
+  {
+    "key": "radiant:gilt-thread",
+    "source": "radiant",
+    "sourcePath": "static/gilt-thread.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:event-horizon",
+    "source": "radiant",
+    "sourcePath": "static/event-horizon.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-event-horizon",
+    "status": "candidate",
+    "fragmentSha256": "d2019585154159664729d71df3febe07cbbb6d07516d4c28b8f2a7712cd65c1b"
+  },
+  {
+    "key": "radiant:burning-film",
+    "source": "radiant",
+    "sourcePath": "static/burning-film.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-burning-film",
+    "status": "candidate",
+    "fragmentSha256": "fe5c57876b31faa5fc5fdb29d070b8225648e0ed6f5c4dbc2e3e3a3c63b4ea68"
+  },
+  {
+    "key": "radiant:vertigo",
+    "source": "radiant",
+    "sourcePath": "static/vertigo.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-vertigo",
+    "status": "candidate",
+    "fragmentSha256": "cf8b0b021aaa178e7fe845db831490dd07f03fcdb4213d9b95c1e5d789067a11"
+  },
+  {
+    "key": "radiant:stardust-veil",
+    "source": "radiant",
+    "sourcePath": "static/stardust-veil.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-stardust-veil",
+    "status": "candidate",
+    "fragmentSha256": "685dd34fc5ac5ff8a156c3ecad2db128c66ff3cde5d262936d9ab3a997fae22a"
+  },
+  {
+    "key": "radiant:silk-cascade",
+    "source": "radiant",
+    "sourcePath": "static/silk-cascade.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-silk-cascade",
+    "status": "candidate",
+    "fragmentSha256": "ee283ebfe8b0aefb2e6a47e6739734716dd75053341c81c4e2d292cf2b7df1e2"
+  },
+  {
+    "key": "radiant:smolder",
+    "source": "radiant",
+    "sourcePath": "static/smolder.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-smolder",
+    "status": "candidate",
+    "fragmentSha256": "3f3417c347eda1e7c129377e8b822df203fc9d73fea7e6e7e92a888ed7728fb7"
+  },
+  {
+    "key": "radiant:signal-decay",
+    "source": "radiant",
+    "sourcePath": "static/signal-decay.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-signal-decay",
+    "status": "candidate",
+    "fragmentSha256": "46440958f2468afcee6ee0a1bebc8686dc1455fc38156fe2e440f89116b0b93a"
+  },
+  {
+    "key": "radiant:neon-revival",
+    "source": "radiant",
+    "sourcePath": "static/neon-revival.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-neon-revival",
+    "status": "candidate",
+    "fragmentSha256": "dad8d2ecd7dd4c9a754c896684f412acf0121be6262d465c76854b150d3a9776"
+  },
+  {
+    "key": "radiant:lipstick-smear",
+    "source": "radiant",
+    "sourcePath": "static/lipstick-smear.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "multipass-texture-state-not-supported"
+  },
+  {
+    "key": "radiant:glitter-storm",
+    "source": "radiant",
+    "sourcePath": "static/glitter-storm.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:rubber-reality",
+    "source": "radiant",
+    "sourcePath": "static/rubber-reality.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:magma-core",
+    "source": "radiant",
+    "sourcePath": "static/magma-core.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-magma-core",
+    "status": "candidate",
+    "fragmentSha256": "e8ee28b721ef8643951e8af9f558e4b051869afe270e6cf2be5ef890c0bb6a5a"
+  },
+  {
+    "key": "radiant:clockwork-mind",
+    "source": "radiant",
+    "sourcePath": "static/clockwork-mind.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:edge-of-chaos",
+    "source": "radiant",
+    "sourcePath": "static/edge-of-chaos.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "multipass-texture-state-not-supported"
+  },
+  {
+    "key": "radiant:spark-chamber",
+    "source": "radiant",
+    "sourcePath": "static/spark-chamber.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:shifting-veils",
+    "source": "radiant",
+    "sourcePath": "static/shifting-veils.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-shifting-veils",
+    "status": "candidate",
+    "fragmentSha256": "e006da152a5ad779c1e727e9da91ae3b67b2078c204999dfd3b42300cb6541cc"
+  },
+  {
+    "key": "radiant:crystal-lattice",
+    "source": "radiant",
+    "sourcePath": "static/crystal-lattice.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-crystal-lattice",
+    "status": "candidate",
+    "fragmentSha256": "389e60eba2e4db651deebc581ac36659c25eb0260114ca80672325ee217fb14f"
+  },
+  {
+    "key": "radiant:kaleidoscope-runway",
+    "source": "radiant",
+    "sourcePath": "static/kaleidoscope-runway.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-kaleidoscope-runway",
+    "status": "candidate",
+    "fragmentSha256": "2e6902cefccf87b15f1b34d01537728c98c7ca04268bfe7cc31250c8a4b956d5"
+  },
+  {
+    "key": "radiant:digital-rain",
+    "source": "radiant",
+    "sourcePath": "static/digital-rain.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:neon-drive",
+    "source": "radiant",
+    "sourcePath": "static/neon-drive.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-neon-drive",
+    "status": "candidate",
+    "fragmentSha256": "220836b3f3033d6256065f1ee16d1ceed69081c02f45393b11c821954b235156"
+  },
+  {
+    "key": "radiant:liquid-gold",
+    "source": "radiant",
+    "sourcePath": "static/liquid-gold.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-liquid-gold",
+    "status": "candidate",
+    "fragmentSha256": "cb55c934478b8d6051dc54258705353bf60ff4810e0a53119ceaa3833032e4c6"
+  },
+  {
+    "key": "radiant:aurora-veil",
+    "source": "radiant",
+    "sourcePath": "static/aurora-veil.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-aurora-veil",
+    "status": "candidate",
+    "fragmentSha256": "c527eb56d6445fa51ea5def0e89523278c3535f738a1f10ddef580c1fdad977c"
+  },
+  {
+    "key": "radiant:bioluminescence",
+    "source": "radiant",
+    "sourcePath": "static/bioluminescence.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-bioluminescence",
+    "status": "candidate",
+    "fragmentSha256": "695edfa840fe19e083d4e60e3fecee3d62dbb3a965cd1705884bbe2cdfada99c"
+  },
+  {
+    "key": "radiant:gothic-filigree",
+    "source": "radiant",
+    "sourcePath": "static/gothic-filigree.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-gothic-filigree",
+    "status": "candidate",
+    "fragmentSha256": "81223ae8ee2726fca0c080a7761ddf0554bfcb004a6a7126e60b8c4600c1a8ef"
+  },
+  {
+    "key": "radiant:laser-precision",
+    "source": "radiant",
+    "sourcePath": "static/laser-precision.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:magnetic-sand",
+    "source": "radiant",
+    "sourcePath": "static/magnetic-sand.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:woven-radiance",
+    "source": "radiant",
+    "sourcePath": "static/woven-radiance.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:jazz-chaos",
+    "source": "radiant",
+    "sourcePath": "static/jazz-chaos.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:thunder-sermon",
+    "source": "radiant",
+    "sourcePath": "static/thunder-sermon.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-thunder-sermon",
+    "status": "candidate",
+    "fragmentSha256": "561990686c8403b3cbd928afed03b667ea41d2a4a47337a2e569b16e820edb85"
+  },
+  {
+    "key": "radiant:vinyl-grooves",
+    "source": "radiant",
+    "sourcePath": "static/vinyl-grooves.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-vinyl-grooves",
+    "status": "candidate",
+    "fragmentSha256": "21420240d4834aaa3469e7338b00aea3a330526359e1616bfbf9abf57f36e15e"
+  },
+  {
+    "key": "radiant:vintage-static",
+    "source": "radiant",
+    "sourcePath": "static/vintage-static.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:torn-paper",
+    "source": "radiant",
+    "sourcePath": "static/torn-paper.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-torn-paper",
+    "status": "candidate",
+    "fragmentSha256": "c4d7c8aea0605c98e0e217aa1aefaf7883ea0c876fbf4088f8d4218e57e1b4f8"
+  },
+  {
+    "key": "radiant:polaroid-burn",
+    "source": "radiant",
+    "sourcePath": "static/polaroid-burn.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-polaroid-burn",
+    "status": "candidate",
+    "fragmentSha256": "5e4da98e43f56d25d98e052ef94638359b3963417a6ca735d3921728fd57e9ce"
+  },
+  {
+    "key": "radiant:scream-wave",
+    "source": "radiant",
+    "sourcePath": "static/scream-wave.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-scream-wave",
+    "status": "candidate",
+    "fragmentSha256": "88e9676c6b255a6a40b530537e73eff2fb4b8717a68808e6a1e24430b4ebb822"
+  },
+  {
+    "key": "radiant:ink-calligraphy",
+    "source": "radiant",
+    "sourcePath": "static/ink-calligraphy.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:velvet-spotlight",
+    "source": "radiant",
+    "sourcePath": "static/velvet-spotlight.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:murmuration",
+    "source": "radiant",
+    "sourcePath": "static/murmuration.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:tesseract-shadow",
+    "source": "radiant",
+    "sourcePath": "static/tesseract-shadow.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:moire-interference",
+    "source": "radiant",
+    "sourcePath": "static/moire-interference.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-moire-interference",
+    "status": "candidate",
+    "fragmentSha256": "e7a250d972501eb5b9b949673f227c0ac069a73b81ecc054212f021db8ea317b"
+  },
+  {
+    "key": "radiant:phase-transition",
+    "source": "radiant",
+    "sourcePath": "static/phase-transition.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:magnetic-field",
+    "source": "radiant",
+    "sourcePath": "static/magnetic-field.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-magnetic-field",
+    "status": "candidate",
+    "fragmentSha256": "72558197ff3e7d0119a08d6733dd6a40d8f3b79617040de86ffeb691027f2662"
+  },
+  {
+    "key": "radiant:aurora-curtain",
+    "source": "radiant",
+    "sourcePath": "static/aurora-curtain.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-aurora-curtain",
+    "status": "candidate",
+    "fragmentSha256": "7ab6d90f81175e5cecf7998ab3ad2d0fe23f260fa4bc6c183d66a86bc87f32ed"
+  },
+  {
+    "key": "radiant:vortex",
+    "source": "radiant",
+    "sourcePath": "static/vortex.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-vortex",
+    "status": "candidate",
+    "fragmentSha256": "a258efeeb98df0d9b30d7be91894d6feea9b951a55191eaa7572063c242f1092"
+  },
+  {
+    "key": "radiant:chromatic-bloom",
+    "source": "radiant",
+    "sourcePath": "static/chromatic-bloom.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-chromatic-bloom",
+    "status": "candidate",
+    "fragmentSha256": "080a43fb8b5fa5bb6be06a9f97d2f798d098f6addb42ed35d47c8ab9387a7ad0"
+  },
+  {
+    "key": "radiant:lens-whisper",
+    "source": "radiant",
+    "sourcePath": "static/lens-whisper.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-lens-whisper",
+    "status": "candidate",
+    "fragmentSha256": "888a9f96688d726021cadcb3ee7d61240a94962e5af43135d19e13f977efded7"
+  },
+  {
+    "key": "radiant:luminous-silt",
+    "source": "radiant",
+    "sourcePath": "static/luminous-silt.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:synth-ribbon",
+    "source": "radiant",
+    "sourcePath": "static/synth-ribbon.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:hologram-glitch",
+    "source": "radiant",
+    "sourcePath": "static/hologram-glitch.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-hologram-glitch",
+    "status": "candidate",
+    "fragmentSha256": "cfe0789529bf2cf32f2c039ffd89e3b91d7efd2b0ee8215403c55a616a19c563"
+  },
+  {
+    "key": "radiant:shattered-plains",
+    "source": "radiant",
+    "sourcePath": "static/shattered-plains.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "nonliteral-shader-array"
+  },
+  {
+    "key": "radiant:painted-strata",
+    "source": "radiant",
+    "sourcePath": "static/painted-strata.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-painted-strata",
+    "status": "candidate",
+    "fragmentSha256": "27b28385f6a87195cd3aed256e599f3540f645d3a0d5f054c57a6c43927105bd"
+  },
+  {
+    "key": "radiant:feedback-loop",
+    "source": "radiant",
+    "sourcePath": "static/feedback-loop.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "multipass-texture-state-not-supported"
+  },
+  {
+    "key": "radiant:dither-gradient",
+    "source": "radiant",
+    "sourcePath": "static/dither-gradient.html",
+    "pilot": true,
+    "id": "motion-exp12-radiant-dither-gradient",
+    "status": "candidate",
+    "fragmentSha256": "f436f3e9770ed1e84ad1e819ed41546f811710b6fb58528c032fcd4f0e682cb3"
+  },
+  {
+    "key": "radiant:analog-drift",
+    "source": "radiant",
+    "sourcePath": "static/analog-drift.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "radiant:navier-stokes",
+    "source": "radiant",
+    "sourcePath": "static/navier-stokes.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "multipass-texture-state-not-supported"
+  },
+  {
+    "key": "creative-lab:001-particles",
+    "source": "creative-lab",
+    "sourcePath": "demos/001-particles.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:002-fluid",
+    "source": "creative-lab",
+    "sourcePath": "demos/002-fluid.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:003-raymarching",
+    "source": "creative-lab",
+    "sourcePath": "demos/003-raymarching.html",
+    "pilot": false,
+    "id": "motion-exp12-creative-lab-003-raymarching",
+    "status": "candidate",
+    "fragmentSha256": "d03ff3d7abfc111e3d4284528eedcbe269339bc8610de9a7a97ff08008f1e5da"
+  },
+  {
+    "key": "creative-lab:004-fractal",
+    "source": "creative-lab",
+    "sourcePath": "demos/004-fractal.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "loop-exceeds-256-bound"
+  },
+  {
+    "key": "creative-lab:005-audio-visualizer",
+    "source": "creative-lab",
+    "sourcePath": "demos/005-audio-visualizer.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:006-voronoi",
+    "source": "creative-lab",
+    "sourcePath": "demos/006-voronoi.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:007-noise-terrain",
+    "source": "creative-lab",
+    "sourcePath": "demos/007-noise-terrain.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:008-lsystem-tree",
+    "source": "creative-lab",
+    "sourcePath": "demos/008-lsystem-tree.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:009-matrix-rain",
+    "source": "creative-lab",
+    "sourcePath": "demos/009-matrix-rain.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:010-physics-balls",
+    "source": "creative-lab",
+    "sourcePath": "demos/010-physics-balls.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:011-card-flip-gallery",
+    "source": "creative-lab",
+    "sourcePath": "demos/011-card-flip-gallery.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "no-supported-literal-fragment"
+  },
+  {
+    "key": "creative-lab:012-generative-typography",
+    "source": "creative-lab",
+    "sourcePath": "demos/012-generative-typography.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:013-game-of-life",
+    "source": "creative-lab",
+    "sourcePath": "demos/013-game-of-life.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:014-maze-generator",
+    "source": "creative-lab",
+    "sourcePath": "demos/014-maze-generator.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:015-water-ripple",
+    "source": "creative-lab",
+    "sourcePath": "demos/015-water-ripple.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:016-star-field",
+    "source": "creative-lab",
+    "sourcePath": "demos/016-star-field.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:017-neural-network",
+    "source": "creative-lab",
+    "sourcePath": "demos/017-neural-network.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:018-cloth-simulation",
+    "source": "creative-lab",
+    "sourcePath": "demos/018-cloth-simulation.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:019-svg-clock",
+    "source": "creative-lab",
+    "sourcePath": "demos/019-svg-clock.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "no-supported-literal-fragment"
+  },
+  {
+    "key": "creative-lab:020-smoke-simulation",
+    "source": "creative-lab",
+    "sourcePath": "demos/020-smoke-simulation.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:021-fourier-epicycles",
+    "source": "creative-lab",
+    "sourcePath": "demos/021-fourier-epicycles.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:022-reaction-diffusion",
+    "source": "creative-lab",
+    "sourcePath": "demos/022-reaction-diffusion.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:023-boids-flocking",
+    "source": "creative-lab",
+    "sourcePath": "demos/023-boids-flocking.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:024-lorenz-attractor",
+    "source": "creative-lab",
+    "sourcePath": "demos/024-lorenz-attractor.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:025-spring-network",
+    "source": "creative-lab",
+    "sourcePath": "demos/025-spring-network.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:026-brownian-motion",
+    "source": "creative-lab",
+    "sourcePath": "demos/026-brownian-motion.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:027-bezier-curve-editor",
+    "source": "creative-lab",
+    "sourcePath": "demos/027-bezier-curve-editor.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:028-sand-simulation",
+    "source": "creative-lab",
+    "sourcePath": "demos/028-sand-simulation.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:029-metaballs",
+    "source": "creative-lab",
+    "sourcePath": "demos/029-metaballs.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "missing-public-default:uBallCount"
+  },
+  {
+    "key": "creative-lab:030-fireworks",
+    "source": "creative-lab",
+    "sourcePath": "demos/030-fireworks.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:031-lightning",
+    "source": "creative-lab",
+    "sourcePath": "demos/031-lightning.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:032-kaleidoscope",
+    "source": "creative-lab",
+    "sourcePath": "demos/032-kaleidoscope.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:033-pendulum-wave",
+    "source": "creative-lab",
+    "sourcePath": "demos/033-pendulum-wave.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:034-double-pendulum",
+    "source": "creative-lab",
+    "sourcePath": "demos/034-double-pendulum.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:035-wave-interference",
+    "source": "creative-lab",
+    "sourcePath": "demos/035-wave-interference.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:036-plasma-effect",
+    "source": "creative-lab",
+    "sourcePath": "demos/036-plasma-effect.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "no-supported-literal-fragment"
+  },
+  {
+    "key": "creative-lab:037-galaxy-spiral",
+    "source": "creative-lab",
+    "sourcePath": "demos/037-galaxy-spiral.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:038-magnetic-field-lines",
+    "source": "creative-lab",
+    "sourcePath": "demos/038-magnetic-field-lines.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:039-crystal-growth",
+    "source": "creative-lab",
+    "sourcePath": "demos/039-crystal-growth.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:040-fluid-dynamics",
+    "source": "creative-lab",
+    "sourcePath": "demos/040-fluid-dynamics.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "multipass-texture-state-not-supported"
+  },
+  {
+    "key": "creative-lab:041-rope-physics",
+    "source": "creative-lab",
+    "sourcePath": "demos/041-rope-physics.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:042-soft-body",
+    "source": "creative-lab",
+    "sourcePath": "demos/042-soft-body.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:043-wave-equation",
+    "source": "creative-lab",
+    "sourcePath": "demos/043-wave-equation.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "multipass-texture-state-not-supported"
+  },
+  {
+    "key": "creative-lab:044-gravity-lensing",
+    "source": "creative-lab",
+    "sourcePath": "demos/044-gravity-lensing.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "no-supported-literal-fragment"
+  },
+  {
+    "key": "creative-lab:045-nbody-gravity",
+    "source": "creative-lab",
+    "sourcePath": "demos/045-nbody-gravity.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:046-terrain-erosion",
+    "source": "creative-lab",
+    "sourcePath": "demos/046-terrain-erosion.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:047-smoke-wind",
+    "source": "creative-lab",
+    "sourcePath": "demos/047-smoke-wind.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:048-elastic-collisions",
+    "source": "creative-lab",
+    "sourcePath": "demos/048-elastic-collisions.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:049-flow-field",
+    "source": "creative-lab",
+    "sourcePath": "demos/049-flow-field.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "no-supported-literal-fragment"
+  },
+  {
+    "key": "creative-lab:050-isosurface",
+    "source": "creative-lab",
+    "sourcePath": "demos/050-isosurface.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "no-supported-literal-fragment"
+  },
+  {
+    "key": "creative-lab:051-cellular-noise",
+    "source": "creative-lab",
+    "sourcePath": "demos/051-cellular-noise.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "no-supported-literal-fragment"
+  },
+  {
+    "key": "creative-lab:052-strange-attractors",
+    "source": "creative-lab",
+    "sourcePath": "demos/052-strange-attractors.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:053-spirograph",
+    "source": "creative-lab",
+    "sourcePath": "demos/053-spirograph.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:054-turtle-graphics",
+    "source": "creative-lab",
+    "sourcePath": "demos/054-turtle-graphics.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:055-mandelbulb",
+    "source": "creative-lab",
+    "sourcePath": "demos/055-mandelbulb.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "no-supported-literal-fragment"
+  },
+  {
+    "key": "creative-lab:056-voronoi-3d",
+    "source": "creative-lab",
+    "sourcePath": "demos/056-voronoi-3d.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "no-supported-literal-fragment"
+  },
+  {
+    "key": "creative-lab:057-wave-function-collapse",
+    "source": "creative-lab",
+    "sourcePath": "demos/057-wave-function-collapse.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:058-space-filling-curves",
+    "source": "creative-lab",
+    "sourcePath": "demos/058-space-filling-curves.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:059-slime-mold",
+    "source": "creative-lab",
+    "sourcePath": "demos/059-slime-mold.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "multipass-texture-state-not-supported"
+  },
+  {
+    "key": "creative-lab:060-ant-colony",
+    "source": "creative-lab",
+    "sourcePath": "demos/060-ant-colony.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:061-genetic-algorithm",
+    "source": "creative-lab",
+    "sourcePath": "demos/061-genetic-algorithm.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:062-flocking-3d",
+    "source": "creative-lab",
+    "sourcePath": "demos/062-flocking-3d.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "no-supported-literal-fragment"
+  },
+  {
+    "key": "creative-lab:063-fireflies",
+    "source": "creative-lab",
+    "sourcePath": "demos/063-fireflies.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:064-predator-prey",
+    "source": "creative-lab",
+    "sourcePath": "demos/064-predator-prey.html",
+    "pilot": true,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:065-voronoi-stippling",
+    "source": "creative-lab",
+    "sourcePath": "demos/065-voronoi-stippling.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:066-wireworld",
+    "source": "creative-lab",
+    "sourcePath": "demos/066-wireworld.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  },
+  {
+    "key": "creative-lab:067-sound-visualizer-shader",
+    "source": "creative-lab",
+    "sourcePath": "demos/067-sound-visualizer-shader.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "no-supported-literal-fragment"
+  },
+  {
+    "key": "creative-lab:068-fluid-color-mixing",
+    "source": "creative-lab",
+    "sourcePath": "demos/068-fluid-color-mixing.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "multipass-texture-state-not-supported"
+  },
+  {
+    "key": "creative-lab:069-rubiks-cube",
+    "source": "creative-lab",
+    "sourcePath": "demos/069-rubiks-cube.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "no-supported-literal-fragment"
+  },
+  {
+    "key": "creative-lab:070-sand-water",
+    "source": "creative-lab",
+    "sourcePath": "demos/070-sand-water.html",
+    "pilot": false,
+    "status": "rejected",
+    "reason": "canvas-javascript-renderer-not-executed"
+  }
+]

@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="200" cy="270" rx="140" ry="10" fill="#E2E8F0" opacity="0.6"/>
+            <!-- Biohazard Background -->
+            <g class="anim-rotate" style="transform-origin: 200px 150px;" opacity="0.1" fill="var(--accent-color)">
+                <circle cx="200" cy="150" r="15"/>
+                <path d="M170 120 A 40 40 0 0 1 230 120 A 40 40 0 0 0 170 120 Z" transform="rotate(0 200 150)"/>
+                <path d="M170 120 A 40 40 0 0 1 230 120 A 40 40 0 0 0 170 120 Z" transform="rotate(120 200 150)"/>
+                <path d="M170 120 A 40 40 0 0 1 230 120 A 40 40 0 0 0 170 120 Z" transform="rotate(240 200 150)"/>
+            </g>
+            
+            <g class="anim-bounce">
+                <!-- Abstract PPE Suit (Full Body Cover) -->
+                <path d="M120 260 C120 150 280 150 280 260 Z" fill="var(--primary-color)"/>
+                <path d="M140 180 C140 220 260 220 260 180" stroke="var(--secondary-color)" stroke-width="6" fill="none" opacity="0.5"/>
+                <path d="M200 180 V260" stroke="var(--bg-surface)" stroke-width="6"/>
+                <rect x="195" y="190" width="10" height="20" fill="var(--bg-surface)"/>
+                
+                <!-- Hood and Face Shield -->
+                <circle cx="200" cy="110" r="50" fill="var(--primary-color)"/>
+                <!-- Visor -->
+                <rect x="165" y="85" width="70" height="40" rx="15" fill="var(--bg-surface)" stroke="var(--accent-color)" stroke-width="8"/>
+                <path class="anim-glow" d="M175 95 Q190 90 220 100" stroke="var(--accent-color)" stroke-width="4" stroke-linecap="round" fill="none"/>
+                
+                <!-- Filter Cartridge -->
+                <circle cx="200" cy="135" r="15" fill="var(--charcoal)"/>
+                <path d="M190 135 H210" stroke="var(--bg-surface)" stroke-width="3"/>
+            </g>
+          </svg>
