@@ -3,7 +3,26 @@
 /* Trusted preview host. Imported HTML/JavaScript is never executed. */
 (() => {
   const instances = new Set();
+  const roots = new WeakMap();
   const cssCache = new Map();
+  const svgCache = new Map();
+  const cacheLimit = 2 * 1024 * 1024;
+  const cacheBytes = new WeakMap();
+  function cached(cache, key) {
+    const entry = cache.get(key);
+    if (entry) { cache.delete(key); cache.set(key, entry); }
+    return entry?.value;
+  }
+  function remember(cache, key, value, bytes) {
+    let size = cacheBytes.get(cache) || 0;
+    if (bytes > cacheLimit) return value;
+    cache.set(key, { value, bytes }); size += bytes;
+    while (cache.size > 128 || size > cacheLimit) {
+      const first = cache.keys().next().value;
+      size -= cache.get(first).bytes; cache.delete(first);
+    }
+    cacheBytes.set(cache, size); return value;
+  }
   const reduced = matchMedia('(prefers-reduced-motion: reduce)');
   let serial = 0;
   const labels = {
@@ -135,11 +154,15 @@
   }
   function treeClasses(tree, classes = new Set(['motion-sample'])) { for (const c of tree.className.split(' ')) if (c) classes.add(c); tree.children.forEach(child => treeClasses(child, classes)); return classes; }
   function sanitizedCss(item, tree) {
-    const source = typeof item.code === 'string' ? stripCssComments(item.code) : '';
-    if (!source || source.length > 180000 || /[\\<]|(?:url|expression|image-set|attr)\s*\(|@(?:import|font-face|namespace|document|supports|layer|property)/i.test(source)) return '';
+    const raw = typeof item.code === 'string' ? item.code : '';
+    if (!raw || raw.length > 180000) return '';
     const classes = tree ? treeClasses(tree) : new Set(['motion-sample']);
-    const key = item.id + ':' + source.length + ':' + [...classes].join(',');
-    if (cssCache.has(key)) return cssCache.get(key);
+    // Exact source and allowed classes are the cache identity. Reusing a record
+    // ID and code length must never bypass validation of changed source code.
+    const key = raw + '\u0000' + [...classes].sort().join(',');
+    const prior = cached(cssCache, key); if (prior !== undefined) return prior;
+    const source = stripCssComments(raw);
+    if (!source || /[\\<]|(?:url|expression|image-set|attr)\s*\(|@(?:import|font-face|namespace|document|supports|layer|property)/i.test(source)) return '';
     const blocks = [];
     let found = false;
     function selectorAllowed(selector) {
@@ -185,8 +208,7 @@
       for (const rule of originals) accept(rule);
     } catch { return ''; }
     const result = found ? blocks.join('\n') : '';
-    cssCache.set(key, result); if (cssCache.size > 800) cssCache.delete(cssCache.keys().next().value);
-    return result;
+    return remember(cssCache, key, result, (key.length + result.length) * 2);
   }
   function cssDocument(item, paused, interaction) {
     // Only supplied component DOM is a composition. Analysis may infer a bare
@@ -252,12 +274,11 @@
     }
     return '';
   }
-  function sanitizedSvg(code) {
+  function validatedSvg(code, idPrefix) {
     if (typeof code !== 'string' || code.length > 160000 || /<!DOCTYPE|<!ENTITY/i.test(code)) return null;
     const source = new DOMParser().parseFromString(code, 'image/svg+xml');
     if (source.querySelector('parsererror') || source.documentElement.localName !== 'svg') return null;
     let count = 0, filterCount = 0;
-    const idPrefix = 'ml-svg-' + (++serial) + '-';
     const localIds = new Set([...source.querySelectorAll('[id]')].slice(0,700)
       .filter(node=>svgTags.has(node.localName)&&/^[a-z0-9_-]{1,100}$/i.test(node.id)).map(node=>node.id));
     function safeBegin(value) {
@@ -339,6 +360,27 @@
     if (result) { result.classList.add('motion-preview-svg'); result.setAttribute('aria-hidden','true'); }
     return result;
   }
+  function sanitizedSvg(code) {
+    if (typeof code !== 'string' || code.length > 160000 || /<!DOCTYPE|<!ENTITY/i.test(code)) return null;
+    let clean = cached(svgCache, code);
+    if (clean === undefined) {
+      const prefix = 'ml-svg-' + (++serial) + '-';
+      const template = validatedSvg(code, prefix);
+      clean = template ? { template, prefix } : null;
+      const nodes = template ? template.querySelectorAll('*').length + 1 : 0;
+      remember(svgCache, code, clean, code.length * 2 + nodes * 512 + 256);
+    }
+    if (!clean) return null;
+    const result = clean.template.cloneNode(true), prefix = 'ml-svg-' + (++serial) + '-';
+    // Cache a fully validated template, then give every mounted copy its own
+    // fragment/syncbase namespace. Gallery and detail views can coexist.
+    for (const node of [result, ...result.querySelectorAll('*')]) {
+      for (const attribute of [...node.attributes]) {
+        if (attribute.value.includes(clean.prefix)) node.setAttribute(attribute.name, attribute.value.replaceAll(clean.prefix, prefix));
+      }
+    }
+    return result;
+  }
 
   // One shared WebGL context prevents a gallery from exhausting GPU contexts.
   const gpu = { canvas: null, gl: null, buffer: null, vertex: null, textures: [], programs: new Map(), entries: new Set(), frame: 0, last: 0, cursor: 0, attempted: false };
@@ -383,9 +425,10 @@
   }
   function shaderProgram(item) {
     const code=typeof item.code==='string'?item.code:'';
-    if(code.length>60000 || /#\s*(?:include|extension)|\b(?:while|do)\s*[{(]|\bvoid\s+main\s*\(/.test(stripComments(code)) || !/\bvec4\s+transition\s*\(/.test(code))throw new Error('Unsupported shader');
-    const key=item.id+':'+code.length;
-    if(gpu.programs.has(key))return gpu.programs.get(key);
+    if(code.length>60000)throw new Error('Unsupported shader');
+    const key=code;
+    if(gpu.programs.has(key)){const info=gpu.programs.get(key);gpu.programs.delete(key);gpu.programs.set(key,info);return info;}
+    if(/#\s*(?:include|extension)|\b(?:while|do)\s*[{(]|\bvoid\s+main\s*\(/.test(stripComments(code)) || !/\bvec4\s+transition\s*\(/.test(code))throw new Error('Unsupported shader');
     const gl=gpu.gl;
     const fragment=compileShader(gl.FRAGMENT_SHADER,`precision highp float;varying vec2 v_uv;uniform float progress;uniform float ratio;uniform sampler2D ml_from;uniform sampler2D ml_to;vec4 getFromColor(vec2 p){return texture2D(ml_from,p);}vec4 getToColor(vec2 p){return texture2D(ml_to,p);}\n${code}\nvoid main(){gl_FragColor=transition(v_uv);}`);
     const program=gl.createProgram();gl.attachShader(program,gpu.vertex);gl.attachShader(program,fragment);gl.linkProgram(program);gl.deleteShader(fragment);
@@ -420,9 +463,10 @@
   }
   function gpuTick(time) {
     gpu.frame=0;
+    const active=[...gpu.entries].filter(e=>e.owner.visible&&!e.owner.paused&&!reduced.matches&&e.owner.root.isConnected);
+    if(!active.length)return;
     if(time-gpu.last>65){
       gpu.last=time;
-      const active=[...gpu.entries].filter(e=>e.owner.visible&&!e.owner.paused&&!reduced.matches&&e.owner.root.isConnected);
       for(let i=0;i<Math.min(6,active.length);i++){
         const entry=active[(gpu.cursor+i)%active.length];
         const cycle=((time-entry.started)%4200)/4200;const p=Math.min(1,Math.max(0,(cycle-.13)/.72));
@@ -430,11 +474,15 @@
       }
       gpu.cursor+=6;
     }
-    if(gpu.entries.size)gpu.frame=requestAnimationFrame(gpuTick);
+    if(active.length)gpu.frame=requestAnimationFrame(gpuTick);
   }
-  function scheduleGpu(){if(!gpu.frame&&gpu.entries.size)gpu.frame=requestAnimationFrame(gpuTick);}
+  function scheduleGpu(){
+    const active=[...gpu.entries].some(e=>e.owner.visible&&!e.owner.paused&&!reduced.matches&&e.owner.root.isConnected);
+    if(!active){cancelAnimationFrame(gpu.frame);gpu.frame=0;}
+    else if(!gpu.frame)gpu.frame=requestAnimationFrame(gpuTick);
+  }
 
-  const visibility = new IntersectionObserver(entries=>{for(const observed of entries){const instance=[...instances].find(i=>i.root===observed.target);if(instance){instance.visible=observed.isIntersecting;if(instance.gpuEntry)scheduleGpu();}}},{rootMargin:'100px'});
+  const visibility = new IntersectionObserver(entries=>{for(const observed of entries)roots.get(observed.target)?.setVisible(observed.isIntersecting);},{rootMargin:'100px'});
   const cleanup = new MutationObserver(()=>{for(const instance of instances) if(instance.attached&&!instance.root.isConnected)instance.destroy();else if(instance.root.isConnected)instance.attached=true;});
   function create(item, options = {}) {
     const lang=options.lang==='en'?'en':'ko', words=labels[lang];
@@ -449,19 +497,55 @@
     root.dataset.itemId=String(item.id||'').slice(0,160);
     root.dataset.assetType=String(item.analysis?.assetType||item.category||'').slice(0,32);
     const stage=element('div','motion-preview-stage');const note=element('p','motion-preview-note');root.append(stage,note);
-    const instance={root,stage,note,lang,paused:Boolean(options.paused||reduced.matches),visible:true,attached:false,interaction:Boolean(options.interaction),gpuEntry:null,svg:null,frame:null,destroy(){visibility.unobserve(root);if(this.gpuEntry)gpu.entries.delete(this.gpuEntry);instances.delete(this);if(!gpu.entries.size){cancelAnimationFrame(gpu.frame);gpu.frame=0;}},unavailable(key){if(this.gpuEntry)gpu.entries.delete(this.gpuEntry);stage.replaceChildren();const box=element('div','motion-preview-unavailable');box.append(element('strong','',words[key]||words.invalid));if(key==='reference')box.append(element('span','',words.noPreview));stage.append(box);note.textContent='';root.dataset.state='unavailable';root.dataset.reason=key;},setPaused(value){this.paused=Boolean(value||reduced.matches);if(this.svg){if(this.paused)this.svg.pauseAnimations?.();else this.svg.unpauseAnimations?.();}if(this.frame)refreshCss();if(this.gpuEntry){if(this.paused)try{drawShader(this.gpuEntry,.5);}catch{this.unavailable('shader');}else scheduleGpu();}},setInteraction(value){this.interaction=Boolean(value);if(this.frame)refreshCss();},restart(){if(this.frame)refreshCss();if(this.svg)this.svg.setCurrentTime?.(0);if(this.gpuEntry)this.gpuEntry.started=performance.now();}};
-    function refreshCss(){const built=cssDocument(item,instance.paused,instance.interaction);if(!built){instance.unavailable('invalid');return;}instance.frame.srcdoc=built.document;}
+    const lazy=Boolean(options.lazy);
+    const instance={
+      root,stage,note,lang,paused:Boolean(options.paused),visible:!lazy,attached:false,initialized:false,destroyed:false,interaction:Boolean(options.interaction),gpuEntry:null,svg:null,frame:null,
+      destroy(){
+        if(this.destroyed)return;
+        this.destroyed=true;visibility.unobserve(root);roots.delete(root);
+        if(this.gpuEntry)gpu.entries.delete(this.gpuEntry);
+        this.frame?.remove();this.svg?.pauseAnimations?.();instances.delete(this);scheduleGpu();
+      },
+      unavailable(key){
+        if(this.gpuEntry)gpu.entries.delete(this.gpuEntry);this.gpuEntry=null;this.frame=null;this.svg=null;
+        stage.replaceChildren();const box=element('div','motion-preview-unavailable');box.append(element('strong','',words[key]||words.invalid));
+        if(key==='reference')box.append(element('span','',words.noPreview));stage.append(box);note.textContent='';root.dataset.state='unavailable';root.dataset.reason=key;scheduleGpu();
+      },
+      setVisible(value){
+        if(this.destroyed)return;
+        const changed=this.visible!==Boolean(value);this.visible=Boolean(value);
+        if(this.visible&&!this.initialized){initialize();return;}
+        if(!this.initialized)return;
+        if(!changed){if(this.gpuEntry)scheduleGpu();return;}
+        if(this.frame){if(this.visible){stage.append(this.frame);refreshCss();}else this.frame.remove();}
+        if(this.svg){if(this.paused||!this.visible||reduced.matches)this.svg.pauseAnimations?.();else this.svg.unpauseAnimations?.();}
+        scheduleGpu();
+      },
+      setPaused(value){
+        this.paused=Boolean(value);
+        if(this.svg){if(this.paused||!this.visible||reduced.matches)this.svg.pauseAnimations?.();else this.svg.unpauseAnimations?.();}
+        if(this.frame&&this.visible)refreshCss();
+        if(this.gpuEntry&&this.visible&&(this.paused||reduced.matches))try{drawShader(this.gpuEntry,.5);}catch{this.unavailable('shader');}
+        scheduleGpu();
+      },
+      setInteraction(value){this.interaction=Boolean(value);if(this.frame&&this.visible)refreshCss();},
+      restart(){if(this.frame&&this.visible)refreshCss(true);if(this.svg)this.svg.setCurrentTime?.(0);if(this.gpuEntry)this.gpuEntry.started=performance.now();}
+    };
+    function refreshCss(force=false){const built=cssDocument(item,instance.paused,instance.interaction);if(!built){instance.unavailable('invalid');return;}if(force||instance.frame.srcdoc!==built.document)instance.frame.srcdoc=built.document;}
     root.destroy=()=>instance.destroy();root.setPaused=value=>instance.setPaused(value);root.setInteraction=value=>instance.setInteraction(value);root.restart=()=>instance.restart();
     root.setProgress=value=>{if(instance.gpuEntry&&Number.isFinite(value))drawShader(instance.gpuEntry,Math.max(0,Math.min(1,value)));};
-    instances.add(instance);visibility.observe(root);
+    instances.add(instance);roots.set(root,instance);visibility.observe(root);
     const renderer=item.analysis?.preview?.renderer || (item.kind==='reference'?'none':item.kind==='image'?'image':item.preview?.type==='gradient'?'gradient':item.kind==='palette'?'palette':item.language==='svg'?'svg':item.language==='glsl'?'glsl':item.language==='css'?'css':'none');
-    root.dataset.renderer=renderer;root.dataset.state='ready';
+    root.dataset.renderer=renderer;root.dataset.state=lazy?'deferred':'ready';
+    function initialize(){
+      if(instance.initialized||instance.destroyed)return;
+      instance.initialized=true;root.dataset.state='ready';
     try {
       const colors=colorsOf(item);
       if(renderer==='palette'&&colors.length){const strips=element('div','motion-preview-colors');for(const color of colors){const strip=element('div','motion-preview-swatch');strip.style.backgroundColor=color;strip.style.color=paletteTextColor(color);strip.append(element('span','',color.toUpperCase()));strips.append(strip);}stage.append(strips);note.textContent=words.palette;}
       else if(renderer==='gradient'&&colors.length){const gradient=element('div','motion-preview-gradient');gradient.style.background=`linear-gradient(125deg,${colors.join(',')})`;stage.append(gradient);note.textContent=words.gradient;}
       else if(renderer==='css'){const built=cssDocument(item,instance.paused,instance.interaction);if(!built){instance.unavailable('invalid');return root;}const frame=element('iframe','motion-preview-frame');frame.setAttribute('sandbox','');frame.referrerPolicy='no-referrer';frame.tabIndex=-1;frame.title=String(item.title||'CSS preview').slice(0,180);frame.srcdoc=built.document;stage.append(frame);instance.frame=frame;note.textContent=item.analysis?.domain==='design'||item.domain==='design'?(lang==='ko'?'원본 CSS 디자인':'Original CSS design'):words[built.composition?'composition':'css'];}
-      else if(renderer==='svg'){const svg=sanitizedSvg(item.code);if(!svg){instance.unavailable('invalid');return root;}stage.append(svg);instance.svg=svg;note.textContent=(item.domain==='design'||item.analysis?.domain==='design')?(lang==='ko'?'원본 SVG 디자인':'Original SVG design'):words.svg;if(instance.paused)requestAnimationFrame(()=>{svg.setCurrentTime?.(.8);svg.pauseAnimations?.();});}
+      else if(renderer==='svg'){const svg=sanitizedSvg(item.code);if(!svg){instance.unavailable('invalid');return root;}stage.append(svg);instance.svg=svg;note.textContent=(item.domain==='design'||item.analysis?.domain==='design')?(lang==='ko'?'원본 SVG 디자인':'Original SVG design'):words.svg;if(instance.paused||reduced.matches)requestAnimationFrame(()=>{if(!instance.destroyed){svg.setCurrentTime?.(.8);svg.pauseAnimations?.();}});}
       else if(renderer==='image'){
         const image=item.image,path=image?.path;
         if(typeof path!=='string'||!/^assets\/materials\/[a-z0-9][a-z0-9-]{0,159}\.jpg$/.test(path)||image.mime!=='image/jpeg'||!Number.isInteger(image.width)||!Number.isInteger(image.height)||image.width<32||image.height<32||image.width>1024||image.height>1024){instance.unavailable('invalid');return root;}
@@ -471,9 +555,11 @@
       else instance.unavailable('reference');
     } catch { instance.unavailable(renderer==='glsl'?'shader':'invalid'); }
     if(referenceMode&&root.dataset.state!=='unavailable')note.textContent=options.compact?(lang==='ko'?(referenceMode==='related-asset'?'원본 화면 아님':'원본 소스 아님'):(referenceMode==='related-asset'?'Not the original page':'Not original source')):lang==='ko'?(referenceMode==='related-asset'?'관련 예시 · 원본 화면 아님':'개념 재현 · 원본 소스 아님'):(referenceMode==='related-asset'?'Related example / not the original page':'Concept illustration / not original source');
+    }
+    if(!lazy)initialize();
     return root;
   }
   cleanup.observe(document.documentElement,{childList:true,subtree:true});
   reduced.addEventListener?.('change',()=>{for(const instance of instances)instance.setPaused(instance.paused);});
-  window.MotionPreview={create,destroy:root=>root?.destroy?.(),setPaused:value=>{for(const instance of instances)instance.setPaused(value);},diagnostics:()=>({instances:instances.size,gpuContexts:gpu.gl?1:0,shaderPrograms:gpu.programs.size,activeShaders:gpu.entries.size}),sanitizeSvg:sanitizedSvg};
+  window.MotionPreview={create,destroy:root=>root?.destroy?.(),setPaused:value=>{for(const instance of instances)instance.setPaused(value);},diagnostics:()=>({instances:instances.size,deferred:[...instances].filter(i=>!i.initialized).length,visible:[...instances].filter(i=>i.visible).length,frames:[...instances].filter(i=>i.frame?.isConnected).length,gpuContexts:gpu.gl?1:0,shaderPrograms:gpu.programs.size,activeShaders:gpu.entries.size,gpuScheduled:Boolean(gpu.frame),cssCacheBytes:cacheBytes.get(cssCache)||0,svgCacheBytes:cacheBytes.get(svgCache)||0}),sanitizeSvg:sanitizedSvg};
 })();

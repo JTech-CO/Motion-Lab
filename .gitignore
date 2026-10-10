@@ -14,6 +14,10 @@ node_modules/
 # Full catalogs are rebuilt from the tracked source inputs and notices.
 /data/catalog.json
 /dist/catalog.json
+# Browsing exports are rebuilt for deployment, without duplicating source history.
+/dist/catalog-browse.json
+/dist/catalog-details/
+/dist/home-transition.json
 /_site/
 .openai/.local/
 .openai/local/

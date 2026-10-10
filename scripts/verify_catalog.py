@@ -15,6 +15,7 @@ from motionlab.payload_codec import decode_payload  # noqa: E402
 from scripts.build import (WAVE_INPUTS, MAX_GENERATED_CATALOG_BYTES, compact_catalog_index,
                            deduplicate_items, read_json, validate_item)  # noqa: E402
 from scripts.expansion import merge_expansion  # noqa: E402
+from scripts.browse_exports import verify_browse_exports  # noqa: E402
 from motionlab.reference_review import REVIEW_INPUTS, REMOVAL_INPUT, apply_reference_reviews, apply_reference_removals  # noqa: E402
 
 BASE_INPUTS = ("imported-items.json", "research-sources.json", "manual-items.json",
@@ -113,6 +114,7 @@ def verify(root=ROOT, minimum=5000, minimum_stored=0):
     summary = read_json(root / "dist/catalog-stats.json", {}, maximum_bytes=256 * 1024)
     if summary != {"version": full["version"], "updatedAt": full["updatedAt"], "stats": full["stats"]}:
         raise ValueError("Homepage statistics do not match the full catalog")
+    browse_sizes = verify_browse_exports(root, full)
     entries = full["items"]
     by_id = {entry["id"]: entry for entry in entries}
     if len(entries) < minimum or len(entries) != len(by_id) or full["stats"]["total"] != len(entries):
@@ -278,9 +280,11 @@ def verify(root=ROOT, minimum=5000, minimum_stored=0):
             "checks": ["minimum", "stored-minimum-and-domain-counts", "schema", "unique-ids", "full-source-fields-and-notices",
                        "palette-code-equals-colors", "all-original-input-identities", "reviewed-consolidation-policy",
                        "pinned-source-component-repairs", "full-web-json", "homepage-statistics", "compact-index", "static-alias-map",
+                       "bounded-browser-source-shards", "browser-search-and-facet-equivalence", "homepage-transition-source",
                        "all-category-collections", "domain-collections", "image-files-and-digests",
                        "read-only-sqlite-records", "sqlite-aliases",
                        "legacy-get-preserves-original-source", "sqlite-integrity", "search-last-page", "domain-search"],
+            "browserExports": browse_sizes,
             "catalogSha256": hashlib.sha256((root / "dist/catalog.json").read_bytes()).hexdigest()}
 
 

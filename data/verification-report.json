@@ -57,6 +57,9 @@
     "homepage-statistics",
     "compact-index",
     "static-alias-map",
+    "bounded-browser-source-shards",
+    "browser-search-and-facet-equivalence",
+    "homepage-transition-source",
     "all-category-collections",
     "domain-collections",
     "image-files-and-digests",
@@ -67,5 +70,12 @@
     "search-last-page",
     "domain-search"
   ],
+  "browserExports": {
+    "browseBytes": 13128796,
+    "detailBytes": 111712253,
+    "detailShards": 262,
+    "maximumDetailBytes": 524199,
+    "homeTransitionBytes": 8986
+  },
   "catalogSha256": "558cc59a4707126e8d4cdc619dd192a8f835621b344cd026235ede88010f2d0e"
 }

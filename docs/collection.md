@@ -16,6 +16,8 @@ python -m motionlab serve --port 8787
 
 빌드는 저장된 입력만 읽으며 원격 요청이나 원본 코드 실행을 하지 않습니다. `data/catalog.json`, `data/motionlab.sqlite`와 `dist/`의 전체·경량 카탈로그, 별칭, 컬렉션, `llms.txt`를 다시 만듭니다. 생성된 카탈로그를 수집 입력으로 재사용하지 않습니다.
 
+웹 탐색은 `dist/catalog-browse.json`의 검색·분류 목록을 먼저 읽고, 미리보기와 상세 원문은 `dist/catalog-details/`에서 필요한 파일만 가져옵니다. 각 원문 파일은 512 KiB·64개 이하이며 코드, 라이선스, 변형과 검토 근거를 그대로 보존합니다. 홈 전환은 작은 `dist/home-transition.json`을 사용합니다. 이 파일들도 같은 빌드에서 생성·검증하며 Git 추적에서 제외합니다. 전체 JSON과 AI 인터페이스의 데이터는 유지합니다.
+
 전체 JSON 두 파일은 Git 추적에서 제외하고 클론 후 위 빌드로 생성합니다. 원본 입력, 고지, 검증 근거는 저장소에 보존하며 생성된 전체 JSON은 로컬 API, 정적 배포 및 휴대용 패키지에서 계속 사용할 수 있습니다.
 
 GitHub Pages는 `.github/workflows/pages.yml`에서 `main` 변경 시 카탈로그를 다시 만들고 검증한 뒤 배포합니다. 저장소 설정의 Pages 배포 원본은 **GitHub Actions**로 지정합니다. `python scripts/build_pages.py`는 공개 `dist/`만 `_site/dist/`에 복사하고 프로젝트 루트에 이동 안내를 생성하므로 기존 `/dist/index.html#library` 주소를 유지합니다. 전체 JSON은 배포 산출물에 포함되며 Git 이력에는 추가하지 않습니다. 비공개 설정·수집 작업 폴더는 배포하지 않고 파일 링크 및 사이트 크기 1 GB 초과를 차단합니다. `_site/`는 배포 검사용 생성 폴더이며 기존 내용이 있으면 덮어쓰지 않습니다.

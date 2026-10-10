@@ -13,7 +13,8 @@ from scripts.package import checked_path  # noqa: E402
 
 MAX_SITE_BYTES = 1_000_000_000
 REQUIRED_FILES = ("index.html", "library.html", "app.js", "home.js", "home.css",
-                  "preview.js", "catalog.json", "catalog-index.json", "catalog-stats.json")
+                  "preview.js", "catalog.json", "catalog-index.json", "catalog-stats.json",
+                  "catalog-browse.json", "home-transition.json")
 REDIRECT_HTML = """<!doctype html>
 <html lang="en">
 <head>

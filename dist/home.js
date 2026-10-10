@@ -2,7 +2,7 @@
 
 /* Motion Lab home controller.
  * CSS presentations derive from the three MIT Motion Lab recipes in home.css.
- * The Drop_Zone_Flicker source is read intact from the actual catalog. It runs
+ * The Drop_Zone_Flicker source is read intact from its small catalog export. It runs
  * as GLSL with white/black input textures. Its output luminance becomes the
  * visibility mask of the live home DOM over the live library DOM.
  * This adaptation is a visibility transition, not a DOM texture RGB warp.
@@ -258,11 +258,9 @@
       state.statsStatus = 'ready';
       state.statsFromCatalog = true;
     }
-    state.source = data && Array.isArray(data.items) ? data.items.find((item) => item.id === 'gl-transitions-drop-zone-flicker') || null : null;
-    home.dataset.transitionSource = state.source ? state.source.id : 'unavailable';
     renderHome();
   }
-  ready.then(acceptCatalog).catch(() => { state.source=null; });
+  ready.then(acceptCatalog).catch(() => {});
   document.addEventListener('motionlab:catalog-ready',(event)=>acceptCatalog(event.detail));
   async function loadComposition() {
     const controller = new AbortController();
@@ -284,6 +282,24 @@
     }
   }
   loadComposition();
+  async function loadTransition() {
+    const controller = new AbortController(), timeout = setTimeout(() => controller.abort(), 15000);
+    try {
+      const response = await fetch('./home-transition.json', { signal: controller.signal });
+      if (!response.ok) throw new Error('Transition unavailable');
+      const text = await response.text();
+      if (text.length > 65536) throw new Error('Transition too large');
+      const payload = JSON.parse(text), item = payload?.item;
+      if (payload?.version !== 1 || !item || item.id !== 'gl-transitions-drop-zone-flicker'
+        || item.language !== 'glsl' || typeof item.code !== 'string' || item.code.length > 20000) throw new Error('Invalid transition');
+      state.source = item;
+    } catch (_) { state.source = null; }
+    finally {
+      clearTimeout(timeout);
+      home.dataset.transitionSource = state.source ? state.source.id : 'unavailable';
+    }
+  }
+  const sourceReady = loadTransition();
   async function enterLibrary(event) {
     event.preventDefault();
     if (state.entering) return;
@@ -292,13 +308,11 @@
     const generation=++state.generation;
     $('home-enter').setAttribute('aria-disabled','true');
     $('home-status').textContent=t('entering');
-    let data=null;
-    try { data=await ready; } catch (_) { /* Library error view still works. */ }
+    library.setActive(true);
+    await sourceReady;
     if (generation!==state.generation || home.hidden) return;
-    if (!state.source && data && Array.isArray(data.items)) state.source=data.items.find((item)=>item.id==='gl-transitions-drop-zone-flicker')||null;
     libraryView.hidden=false;
     libraryView.inert=true;
-    library.setActive(true);
     if (state.paused || reduced.matches || !state.source) { home.dataset.transition='skipped';showLibrary(true);return; }
     state.pipeline=makePipeline(state.source);
     if (!state.pipeline) { home.dataset.transition='unavailable';$('home-status').textContent=t('fallback');showLibrary(true);return; }

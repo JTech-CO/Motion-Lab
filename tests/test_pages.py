@@ -42,6 +42,12 @@ class PagesDeploymentTests(unittest.TestCase):
             build_pages(self.root)
         self.assertFalse((self.root / "_site").exists())
 
+    def test_missing_browser_index_fails_before_creating_site(self):
+        (self.dist / "catalog-browse.json").unlink()
+        with self.assertRaisesRegex(ValueError, "Rebuild"):
+            build_pages(self.root)
+        self.assertFalse((self.root / "_site").exists())
+
     def test_size_limit_fails_before_creating_site(self):
         with patch("scripts.build_pages.MAX_SITE_BYTES", 1):
             with self.assertRaisesRegex(ValueError, "1 GB"):

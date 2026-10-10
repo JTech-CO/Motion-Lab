@@ -22,6 +22,7 @@ from scripts.expansion import merge_expansion  # noqa: E402
 from scripts.consolidate import apply_consolidation  # noqa: E402
 from scripts.repair_components import verify_overlay  # noqa: E402
 from scripts.readme_assets import write_readme_assets  # noqa: E402
+from scripts.browse_exports import write_browse_exports  # noqa: E402
 from motionlab.reference_review import (REVIEW_INPUTS, REMOVAL_INPUT, apply_reference_reviews,
                                       apply_reference_removals, validate_review)  # noqa: E402
 
@@ -203,6 +204,7 @@ def write_static_exports(root, catalog):
         "version": catalog["version"], "updatedAt": catalog["updatedAt"], "stats": catalog["stats"]
     }, compact=True)
     write_json(distribution / "catalog-index.json", compact_catalog_index(catalog), compact=True)
+    write_browse_exports(root, catalog)
     write_json(distribution / "catalog-aliases.json", {"version": 1, "updatedAt": catalog["updatedAt"],
                                                      "aliases": catalog.get("aliases", {})})
     links = []
