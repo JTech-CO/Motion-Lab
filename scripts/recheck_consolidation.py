@@ -12,6 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from motionlab.validation import validate_id  # noqa: E402
+from motionlab.source_review import validate_source_review  # noqa: E402
 from scripts.duplicate_audit_css import audit as audit_css  # noqa: E402
 from scripts.duplicate_audit_svg import audit as audit_svg  # noqa: E402
 from scripts.duplicate_audit_palette import audit as audit_palette  # noqa: E402
@@ -41,9 +42,70 @@ def domain_for(item):
         return "image"
     if item.get("kind") in ("palette", "reference"):
         return item["kind"]
-    if item.get("kind") == "code" and item.get("language") in ("css", "svg", "glsl"):
+    if item.get("kind") == "code" and item.get("language") in ("css", "svg", "glsl", "javascript"):
         return item["language"]
     raise ValueError("Unsupported canonical item domain: " + str(item.get("id")))
+
+
+def audit_javascript(items, root=ROOT):
+    """Compare exact text identities and validated rights/preview contexts only."""
+    selected = sorted((item for item in items if item.get("kind") == "code"
+                       and item.get("language") == "javascript"), key=lambda item: item["id"])
+    if len({validate_id(item.get("id")) for item in selected}) != len(selected):
+        raise ValueError("Repeated JavaScript inspection IDs")
+    records, buckets, errors = [], {}, []
+    for item in selected:
+        try:
+            review = validate_source_review(item, root=root)
+            code_digest = sha(item["code"].encode("utf-8"))
+            preview = review["preview"]
+            # canonicalSha256 is a source/rights/preview-context signature,
+            # deliberately not a normalized JavaScript or visual signature.
+            context = {"version": 1, "codeSha256": code_digest,
+                       **{key: item.get(key) for key in
+                          ("sourceName", "sourceUrl", "license", "licenseUrl", "licenseText",
+                           "collectionEvidence", "preview", "sourceReview")}}
+            context_digest = sha(json.dumps(context, ensure_ascii=False, sort_keys=True,
+                                            separators=(",", ":"), allow_nan=False).encode("utf-8"))
+            original_rights = {key: item.get(key) for key in
+                               ("sourceUrl", "license", "licenseUrl", "licenseText")}
+            preview_rights = {key: preview[key] for key in ("license", "notice", "attribution")}
+            record = {"id": item["id"], "codeSha256": code_digest,
+                      "canonicalSha256": context_digest, "sourceContextSha256": context_digest,
+                      "previewCodeSha256": sha(preview["code"].encode("utf-8")),
+                      "originalRightsSha256": sha(json.dumps(original_rights, ensure_ascii=False, sort_keys=True,
+                                                             separators=(",", ":")).encode("utf-8")),
+                      "previewRightsSha256": sha(json.dumps(preview_rights, ensure_ascii=False, sort_keys=True,
+                                                            separators=(",", ":")).encode("utf-8")),
+                      "revision": review["revision"], "sourceRange": dict(review["sourceRange"]),
+                      "inspection": "offline-source-range-and-rights-verified",
+                      "lexicalNormalization": False, "visualStatus": "unassessed", "behavioralStatus": "unassessed"}
+            records.append(record)
+            buckets.setdefault(code_digest, []).append(record)
+        except (TypeError, ValueError, KeyError, OSError) as error:
+            errors.append({"id": item["id"], "error": str(error)})
+    exact_groups = []
+    for code_digest, group in sorted(buckets.items()):
+        if len(group) <= 1:
+            continue
+        exact_groups.append({"ids": sorted(record["id"] for record in group),
+            "reason": "Same exact UTF-8 JavaScript source body; original and independent-preview rights remain separate.",
+            "confidence": "high", "evidence": {"codeSha256": code_digest,
+                **{field: {record["id"]: record[field] for record in group} for field in
+                   ("sourceContextSha256", "previewCodeSha256", "originalRightsSha256", "previewRightsSha256")}}})
+    valid_pairs = len(records) * (len(records) - 1) // 2
+    return {"methodology": {"version": 1,
+                "exact": "Exact original UTF-8 body SHA256; whitespace, comments, identifiers, literals, templates and regular expressions are unchanged. canonicalSha256 hashes original source provenance, rights, collection evidence and the independent preview context, not normalized code.",
+                "near": "unassessed", "nearMatching": "unassessed",
+                "pairCoverage": "All validated source pairs are compared by exact body SHA256; rights/preview context hashes are retained per member.",
+                "limitations": ["No imported JavaScript is executed or lexically normalized.",
+                    "Near, visual and behavioral similarity are unassessed; distinct source bodies do not prove distinct motion or geometry.",
+                    "An identical source body does not merge upstream rights or independent concept-preview rights."]},
+            "coverage": {"itemCount": len(selected), "pairUniverse": len(selected) * (len(selected) - 1) // 2,
+                "identityComparedPairs": valid_pairs, "validatedSourceItems": len(records),
+                "sourceEvidenceVerifiedItems": len(records), "visualComparedPairs": 0, "behavioralComparedPairs": 0},
+            "sourceExecution": False, "items": records, "exactGroups": exact_groups,
+            "nearGroups": [], "candidatePairs": [], "familyGroups": [], "errors": errors}
 
 
 def history(root):
@@ -157,10 +219,11 @@ def recheck(root=ROOT, progress=print):
         "limitations": [
             "Static source structure and numeric color comparisons only; no browser frames, source snippet execution, or proof of perceptual uniqueness.",
             "Reference entries receive identity/metadata checks only; remote motion similarity is unassessed.",
+            "Stored JavaScript receives offline provenance and exact-body identity checks only; lexical, near, visual and behavioral comparisons are unassessed.",
             "Families and candidates are not duplicate findings. Prior candidate judgments apply only when both code and canonical source/preview-context signatures remain unchanged.",
         ],
     }
-    domain_audits = DOMAIN_AUDITS
+    domain_audits = DOMAIN_AUDITS + (("javascript", lambda entries: audit_javascript(entries, root)),)
     if counts["image"]:
         from scripts.duplicate_audit_image import audit as audit_images
         domain_audits += (("image", lambda entries: audit_images(entries, root)),)

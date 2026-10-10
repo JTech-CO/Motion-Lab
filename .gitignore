@@ -19,6 +19,8 @@ node_modules/
 /dist/catalog-details/
 /dist/home-transition.json
 /_site/
+# Regenerable inspection output; keep the reviewed source inputs instead.
+/data/consolidation-recheck.json
 .openai/.local/
 .openai/local/
 

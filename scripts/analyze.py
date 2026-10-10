@@ -16,7 +16,7 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from motionlab.analysis_schema import (ANALYSIS_VERSION, ASSET_TYPES, COMPONENTS, EFFECTS,
-    RENDERERS, TECHNIQUES, USE_CASES)  # noqa: E402
+    TECHNIQUES, USE_CASES)  # noqa: E402
 from motionlab.image_assets import validate_image  # noqa: E402
 SAFE_PROPERTIES = frozenset(("opacity", "transform", "transform-origin", "translate", "rotate", "scale",
     "filter", "clip-path", "mask", "mask-image", "width", "height", "max-height", "min-height",

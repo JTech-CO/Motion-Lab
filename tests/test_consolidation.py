@@ -10,7 +10,7 @@ import unittest
 from scripts.analyze import analyze_items
 from scripts.consolidate import apply_consolidation, record_sha
 from scripts.repair_components import ROOT, build_repairs
-from scripts.build import build
+from scripts.build import build, write_static_exports
 from scripts.verify_catalog import original_record_views, verify
 
 
@@ -222,11 +222,13 @@ class ConsolidationTests(unittest.TestCase):
             self.assertEqual(verify(fixture, minimum=1)["total"], 1)
             # License text is not part of the code hash; full-source comparison
             # must still catch an accidentally lost notice in a preserved alias.
-            for filename in ("data/catalog.json", "dist/catalog.json"):
-                path = fixture / filename
-                catalog = json.loads(path.read_text(encoding="utf-8"))
-                catalog["items"][0]["variants"][1]["licenseText"] = "Lost notice"
-                path.write_text(json.dumps(catalog), encoding="utf-8")
+            path = fixture / "data/catalog.json"
+            catalog = json.loads(path.read_text(encoding="utf-8"))
+            catalog["items"][0]["variants"][1]["licenseText"] = "Lost notice"
+            path.write_text(json.dumps(catalog), encoding="utf-8")
+            # Keep browser exports consistent so this exercises source-provenance
+            # validation even when every published copy loses the same notice.
+            write_static_exports(fixture, catalog)
             with self.assertRaisesRegex(ValueError, "Original input fields or notices changed"):
                 verify(fixture, minimum=1)
 
